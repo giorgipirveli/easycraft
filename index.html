@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, interactive-widget=resizes-content">
+		<meta name="theme-color" content="#139e9b">
+		<!-- iPhone/iPad: added to the Home Screen it runs as its own full-screen app (Safari cannot go full screen). -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-title" content="EasyCraft">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<title>EasyCraft</title>
+		<!-- EasyCraft's page (M7, spec §20; owner 2026-09-28: "some beautiful design when user will wait to download"):
+		     Godot's own web shell with our loading screen. Nothing is loaded from other sites: no fonts, no scripts. -->
+		<style>
+:root {
+	--teal: #139e9b;
+	--teal-deep: #0a6870;
+	--ink: #1e2a4a;
+	--orange: #ff8a34;
+	--sun: #ffd84a;
+	--green: #2ea84a;
+	--green-dark: #1d7a33;
+	--font: ui-rounded, 'SF Pro Rounded', 'Nunito', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+html, body, #canvas {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	/* Owner #76: pinned to the screen, so iOS can never leave the page scrolled under the game. */
+	position: fixed;
+	inset: 0;
+	overscroll-behavior: none;
+	color: white;
+	background-color: var(--teal);
+	overflow: hidden;
+	touch-action: none;
+	font-family: var(--font);
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#canvas {
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+#canvas:focus {
+	outline: none;
+}
+
+/* The loading screen. */
+#status {
+	position: fixed;
+	inset: 0;
+	z-index: 5;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: min(3.2vh, 26px);
+	padding: 16px;
+	box-sizing: border-box;
+	background: radial-gradient(ellipse at 50% 40%, #1bb8b4 0%, var(--teal) 45%, var(--teal-deep) 100%);
+	transition: opacity 0.45s ease;
+	overflow: hidden;
+}
+
+#status.leaving {
+	opacity: 0;
+	pointer-events: none;
+}
+
+/* Blocks drifting up in the background. */
+.block {
+	position: absolute;
+	bottom: -60px;
+	width: var(--s);
+	height: var(--s);
+	border-radius: 18%;
+	background: var(--c);
+	box-shadow: inset 0 calc(var(--s) * -0.18) 0 rgba(0, 0, 0, 0.18);
+	opacity: 0.55;
+	animation: drift var(--d) linear infinite;
+	animation-delay: var(--w);
+	left: var(--x);
+}
+
+@keyframes drift {
+	from { transform: translateY(0) rotate(0deg); }
+	to { transform: translateY(-120vh) rotate(var(--r)); }
+}
+
+#hero {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+}
+
+#status-splash {
+	width: min(78vw, 620px);
+	max-height: 34vh;
+	object-fit: contain;
+	animation: bob 1.8s ease-in-out infinite;
+	filter: drop-shadow(0 10px 0 rgba(0, 0, 0, 0.12));
+}
+
+@keyframes bob {
+	0%, 100% { transform: translateY(0); }
+	50% { transform: translateY(-10px); }
+}
+
+.spark {
+	position: absolute;
+	color: var(--sun);
+	font-size: clamp(14px, 2.4vh, 24px);
+	animation: twinkle 1.6s ease-in-out infinite;
+	text-shadow: 0 0 8px rgba(255, 216, 74, 0.8);
+}
+
+@keyframes twinkle {
+	0%, 100% { opacity: 0.15; transform: scale(0.6); }
+	50% { opacity: 1; transform: scale(1.15); }
+}
+
+#credit {
+	position: relative;
+	z-index: 1;
+	margin-top: calc(min(3.2vh, 26px) * -0.6);
+	font-size: clamp(14px, 2.4vh, 19px);
+	font-weight: 800;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+	opacity: 0.92;
+	text-shadow: 0 2px 0 rgba(30, 42, 74, 0.35);
+}
+
+#panel {
+	position: relative;
+	z-index: 1;
+	width: min(86vw, 540px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+}
+
+#label {
+	font-size: clamp(17px, 3vh, 24px);
+	font-weight: 800;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+	text-align: center;
+}
+
+#track {
+	width: 100%;
+	height: clamp(20px, 3.4vh, 30px);
+	border-radius: 999px;
+	background: rgba(0, 0, 0, 0.25);
+	border: 3px solid var(--ink);
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+#fill {
+	position: relative;
+	height: 100%;
+	width: 0%;
+	border-radius: 999px;
+	overflow: hidden;
+	background: linear-gradient(180deg, var(--sun), var(--orange));
+	transition: width 0.35s ease;
+}
+
+/* The stripes move on the compositor (a transform), so they keep moving while the game's engine is busy: its shader
+   warm-up holds the page's main thread up to a second at a time on a phone. */
+#fill::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -34px;
+	right: 0;
+	background: repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.28) 0 12px, rgba(255, 255, 255, 0) 12px 24px);
+	background-size: 34px 34px;
+	animation: stripes 0.9s linear infinite;
+	will-change: transform;
+}
+
+@keyframes stripes {
+	from { transform: translateX(0); }
+	to { transform: translateX(34px); }
+}
+
+#tip {
+	min-height: 2.8em;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 10px 16px;
+	border-radius: 14px;
+	background: rgba(30, 42, 74, 0.35);
+	font-size: clamp(14px, 2.3vh, 18px);
+	font-weight: 600;
+	line-height: 1.35;
+	text-align: center;
+	transition: opacity 0.4s ease;
+}
+
+#tip b {
+	color: var(--sun);
+}
+
+#note {
+	font-size: clamp(12px, 1.9vh, 15px);
+	opacity: 0.8;
+	text-align: center;
+}
+
+#play {
+	display: none;
+	font-family: var(--font);
+	font-size: clamp(26px, 5.2vh, 44px);
+	font-weight: 900;
+	letter-spacing: 0.06em;
+	color: white;
+	background: var(--green);
+	border: 4px solid var(--ink);
+	border-radius: 22px;
+	padding: 0.35em 1.8em;
+	box-shadow: 0 8px 0 var(--green-dark), 0 12px 18px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+	animation: pulse 1.4s ease-in-out infinite;
+	-webkit-tap-highlight-color: transparent;
+}
+
+#play:focus {
+	outline: none;
+}
+
+#play:focus-visible {
+	outline: 4px solid var(--sun);
+	outline-offset: 4px;
+}
+
+#play:active {
+	transform: translateY(6px);
+	box-shadow: 0 2px 0 var(--green-dark);
+}
+
+@keyframes pulse {
+	0%, 100% { transform: scale(1); }
+	50% { transform: scale(1.06); }
+}
+
+#status.ready #play { display: block; }
+#status.starting #play, #status.starting #install, #status.starting #added { display: none !important; }
+#status.starting #track { display: block; }
+#status.starting #fill { opacity: 0.85; }
+#status.ready #track, #status.ready #note { display: none; }
+
+/* iPhone/iPad: every browser there opens the keyboard only for a text box a finger taps. Godot's own box is hidden,
+   so there the game's text box becomes a visible field at the top the child taps once (owner 2026-09-28: "i cannt
+   type my name it doesnt opens keyboard"). Godot shows and hides it (display); we only give it a place and a look. */
+html.ios-vk body > input, html.ios-vk body > textarea {
+	position: fixed !important;
+	top: 10px !important;
+	left: 50% !important;
+	transform: translateX(-50%) !important;
+	width: min(76vw, 520px) !important;
+	height: 54px !important;
+	z-index: 30 !important;
+	box-sizing: border-box !important;
+	padding: 0 16px !important;
+	font: 700 22px var(--font) !important;
+	color: var(--ink) !important;
+	background: #ffffff !important;
+	border: 3px solid var(--ink) !important;
+	border-radius: 14px !important;
+	box-shadow: 0 4px 0 rgba(30, 42, 74, 0.45) !important;
+	opacity: 1 !important;
+	overflow: visible !important;
+}
+
+html.ios-vk body > textarea {
+	height: 120px !important;
+	padding-top: 10px !important;
+}
+
+#vk-bar {
+	position: fixed;
+	top: 72px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 30;
+	display: none;
+	align-items: center;
+	gap: 12px;
+	font: 700 15px var(--font);
+	color: #ffffff;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+#vk-bar.open { display: flex; }
+
+#vk-done {
+	font: 900 17px var(--font);
+	color: #ffffff;
+	background: var(--green);
+	border: 3px solid var(--ink);
+	border-radius: 12px;
+	padding: 6px 16px;
+	box-shadow: 0 3px 0 var(--green-dark);
+}
+
+/* Owner #58 (every screen size): the game is made for landscape. Android locks it in full screen; iPhones cannot, so a
+   phone or tablet held upright while playing sees this until it is turned. Not over the loading page (it works
+   upright). */
+#rotate {
+	position: fixed;
+	inset: 0;
+	z-index: 25;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 22px;
+	padding: 24px;
+	box-sizing: border-box;
+	background: radial-gradient(ellipse at 50% 40%, #1bb8b4 0%, var(--teal) 45%, var(--teal-deep) 100%);
+	color: #ffffff;
+	font: 800 22px var(--font);
+	text-align: center;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+#rotate .phone {
+	width: 64px;
+	height: 110px;
+	border: 6px solid #ffffff;
+	border-radius: 14px;
+	box-sizing: border-box;
+	animation: turn 2.2s ease-in-out infinite;
+}
+
+@keyframes turn {
+	0%, 25% { transform: rotate(0deg); }
+	55%, 100% { transform: rotate(-90deg); }
+}
+
+@media (orientation: portrait) and (pointer: coarse) {
+	html.playing #rotate { display: flex; }
+}
+
+/* Add the game to the device (owner 2026-09-28: a shortcut, so next time one tap opens it). */
+#install {
+	display: none;
+	align-items: center;
+	gap: 10px;
+	font-family: var(--font);
+	font-size: clamp(15px, 2.5vh, 19px);
+	font-weight: 800;
+	color: var(--ink);
+	background: #ffffff;
+	border: 3px solid var(--ink);
+	border-radius: 16px;
+	padding: 0.45em 1.1em;
+	box-shadow: 0 5px 0 rgba(30, 42, 74, 0.55);
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+}
+
+#install svg {
+	width: 1.3em;
+	height: 1.3em;
+	flex: none;
+}
+
+#install:active {
+	transform: translateY(4px);
+	box-shadow: 0 1px 0 rgba(30, 42, 74, 0.55);
+}
+
+#install:focus {
+	outline: none;
+}
+
+#install:focus-visible {
+	outline: 4px solid var(--sun);
+	outline-offset: 3px;
+}
+
+#status.can-install #install { display: inline-flex; }
+
+#added {
+	display: none;
+	font-size: clamp(14px, 2.3vh, 18px);
+	font-weight: 800;
+	color: var(--sun);
+	text-align: center;
+}
+
+#status.installed #added { display: block; }
+#status.installed #install { display: none; }
+
+#guide {
+	position: fixed;
+	inset: 0;
+	z-index: 20;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	background: rgba(10, 30, 40, 0.6);
+	padding: 16px;
+	box-sizing: border-box;
+	font-family: var(--font);
+}
+
+#guide.open { display: flex; }
+
+#guide .card {
+	width: min(92vw, 460px);
+	max-height: 92vh;
+	overflow: auto;
+	background: #ffffff;
+	color: var(--ink);
+	border: 4px solid var(--ink);
+	border-radius: 22px;
+	padding: 20px 22px;
+	box-sizing: border-box;
+	box-shadow: 0 10px 0 rgba(30, 42, 74, 0.4);
+}
+
+#guide h2 {
+	margin: 0 0 14px;
+	font-size: clamp(19px, 3.2vh, 24px);
+	text-align: center;
+}
+
+#guide ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+#guide li {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	font-size: clamp(15px, 2.4vh, 18px);
+	font-weight: 700;
+	line-height: 1.3;
+}
+
+#guide .num {
+	flex: none;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background: var(--orange);
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 900;
+}
+
+#guide .ico {
+	display: inline-flex;
+	vertical-align: middle;
+	width: 26px;
+	height: 26px;
+	color: #0a7aff;
+}
+
+#guide button {
+	display: block;
+	margin: 18px auto 0;
+	font-family: var(--font);
+	font-size: 20px;
+	font-weight: 900;
+	color: #ffffff;
+	background: var(--green);
+	border: 3px solid var(--ink);
+	border-radius: 16px;
+	padding: 0.4em 1.6em;
+	box-shadow: 0 5px 0 var(--green-dark);
+	cursor: pointer;
+}
+
+#status-notice {
+	position: relative;
+	z-index: 1;
+	display: none;
+	max-width: min(86vw, 540px);
+	background: rgba(30, 42, 74, 0.85);
+	border: 3px solid var(--orange);
+	border-radius: 16px;
+	padding: 16px 18px;
+	font-size: 16px;
+	line-height: 1.4;
+	text-align: center;
+}
+
+#status.failed #status-notice { display: block; }
+#status.failed #panel { display: none; }
+/* Owner #90: a browser that cannot run the game (a PlayStation's, an old TV's) gets a kind page. */
+#status.cant-run #status-notice { border-color: var(--teal); font-size: 18px; }
+#status-notice .cant-title { font-size: 22px; font-weight: 800; margin-bottom: 8px; }
+#status-notice .cant-pad { margin-top: 10px; }
+#status-notice .cant-why { font-size: 12px; opacity: 0.7; margin-top: 10px; }
+
+/* Owner #89: EasyCraft TV, the Theater's player (the game places it exactly over its screen; the script at the end). */
+#tv, #tv-close {
+	position: fixed;
+	z-index: 4;
+	display: none;
+	box-sizing: border-box;
+}
+
+#tv {
+	background: #000;
+	overflow: hidden;
+}
+
+#tv.open, #tv-close.open { display: block; }
+
+#tv iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+#tv-close, #tv-watch {
+	font-family: var(--font);
+	font-weight: 900;
+	color: #ffffff;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+}
+
+#tv-close {
+	font-size: 20px;
+	padding: 0;
+	background: #d9463b;
+	border: 3px solid var(--ink);
+	border-radius: 12px;
+	box-shadow: 0 4px 0 rgba(30, 42, 74, 0.45);
+}
+
+#tv-close:active {
+	transform: translateY(3px);
+	box-shadow: 0 1px 0 rgba(30, 42, 74, 0.45);
+}
+
+#tv-watch {
+	width: 100%;
+	height: 100%;
+	border: 0;
+	font-size: 30px;
+	background: radial-gradient(ellipse at 50% 45%, #3a2f9a 0%, #120f33 100%);
+}
+
+#tv-watch small {
+	display: block;
+	margin-top: 10px;
+	font-size: 15px;
+	font-weight: 700;
+	opacity: 0.8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.block, .spark, #status-splash, #fill, #fill::before, #play { animation: none; }
+}
+
+@media (max-height: 420px) {
+	#status { gap: 10px; }
+	#status-splash { max-height: 30vh; }
+	#note { display: none; }
+}
+		</style>
+		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
+<link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
+<link rel="manifest" href="index.manifest.json">
+<script>
+/* EasyCraft (M7, owner 2026-09-27: open full screen like an installed game). Browsers only allow full screen after a
+   tap or click, so the first one (usually PLAY) switches to full screen and turns phones to landscape; a player who
+   leaves full screen gets it back on the next tap. Installed as an app it opens full screen by itself (the manifest).
+   iPhone Safari has no full screen for pages: the start page (web/shell.html) shows how to add it to the Home Screen. */
+(function () {
+  var mm = function (q) { return window.matchMedia && window.matchMedia(q).matches; };
+  var installed = mm('(display-mode: fullscreen)') || mm('(display-mode: standalone)') || navigator.standalone === true;
+  var root = document.documentElement;
+  var request = root.requestFullscreen || root.webkitRequestFullscreen;
+  function isFull() { return !!(document.fullscreenElement || document.webkitFullscreenElement); }
+  function goFull(e) {
+    if (installed || !request || isFull() || (e && e.key === 'Escape')) { return; }
+    if (e && e.target && e.target.closest && e.target.closest('#install, #guide')) { return; }
+    try {
+      var p = request.call(root, { navigationUI: 'hide' });
+      if (p && p.then) {
+        p.then(function () {
+          if (screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(function () {}); }
+        }).catch(function () {});
+      }
+    } catch (err) {}
+  }
+  ['pointerup', 'touchend', 'click', 'keydown'].forEach(function (t) {
+    window.addEventListener(t, goFull, { capture: true, passive: true });
+  });
+})();
+</script>
+	</head>
+	<body>
+		<canvas id="canvas">
+			Your browser does not support the canvas tag.
+		</canvas>
+
+		<noscript>
+			EasyCraft needs JavaScript to run in the browser.
+		</noscript>
+
+		<div id="status">
+			<div id="hero">
+				<img id="status-splash" src="index.png" alt="EasyCraft">
+				<span class="spark" style="left: 21%; top: 2%; animation-delay: 0s">&#10022;</span>
+				<span class="spark" style="left: 28%; top: 16%; animation-delay: 0.5s">&#10022;</span>
+				<span class="spark" style="left: 13%; top: 10%; animation-delay: 1.0s">&#10022;</span>
+				<span class="spark" style="right: 8%; top: 4%; animation-delay: 0.8s">&#10022;</span>
+			</div>
+			<div id="credit">Made by Alexander Pirveli</div>
+			<div id="panel">
+				<div id="label">Getting your world ready&hellip;</div>
+				<div id="track"><div id="fill"></div></div>
+				<button id="play" type="button">PLAY</button>
+				<button id="install" type="button">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M12 7v7M8.5 11l3.5 3.5 3.5-3.5"/></svg>
+					<span id="install-text">Add EasyCraft to this device</span>
+				</button>
+				<div id="added">Added! Next time, just tap the EasyCraft icon.</div>
+				<div id="tip"></div>
+				<div id="note">The first visit takes a moment. Next time EasyCraft starts right away.</div>
+			</div>
+			<div id="status-notice"></div>
+		</div>
+		<script>
+// Owner #90: a browser that cannot run the game (no WebGL 2 or no WebAssembly: a PlayStation's or an old TV's browser)
+// gets a kind page, not a loading screen that never ends. Written for old browsers on purpose (no const, no arrow
+// functions), before the engine's script, which such a browser may not even read. tools/web_kind_page_check.mjs.
+(function () {
+	var why = [];
+	try {
+		if (typeof WebAssembly !== 'object' || typeof WebAssembly.instantiate !== 'function') { why.push('WebAssembly'); }
+	} catch (e) { why.push('WebAssembly'); }
+	try {
+		var gl = window.WebGL2RenderingContext ? document.createElement('canvas').getContext('webgl2') : null;
+		if (!gl) {
+			why.push('WebGL 2');
+		} else if (gl.getExtension('WEBGL_lose_context')) {
+			gl.getExtension('WEBGL_lose_context').loseContext();   // the game makes its own
+		}
+	} catch (e2) { why.push('WebGL 2'); }
+	window.ecCantRun = function (missing) {
+		var status = document.getElementById('status');
+		var notice = document.getElementById('status-notice');
+		if (!status || !notice || window.EC_CANT_RUN) { return; }
+		window.EC_CANT_RUN = missing;
+		notice.innerHTML = '';
+		var lines = [['cant-title', 'This browser can\u2019t run EasyCraft yet.'],
+			['', 'Try Chrome, Edge, Firefox or Safari on a computer, tablet or phone.'],
+			['cant-pad', 'A PlayStation or Xbox controller works there too!'],
+			['cant-why', 'Missing: ' + missing.join(', ')]];
+		for (var i = 0; i < lines.length; i++) {
+			var d = document.createElement('div');
+			d.className = lines[i][0];
+			d.appendChild(document.createTextNode(lines[i][1]));
+			notice.appendChild(d);
+		}
+		status.className += ' failed cant-run';
+	};
+	if (why.length) { window.ecCantRun(why); }
+})();
+		</script>
+
+		<div id="rotate"><div class="phone"></div><div>Turn your phone sideways to play!</div></div>
+		<div id="vk-bar"><span>Tap the white box to type</span><button id="vk-done" type="button">Done</button></div>
+		<div id="guide" role="dialog" aria-modal="true" aria-labelledby="guide-title">
+			<div class="card">
+				<h2 id="guide-title">Put EasyCraft on your Home Screen</h2>
+				<ol id="guide-steps"></ol>
+				<button id="guide-ok" type="button">Got it!</button>
+			</div>
+		</div>
+		<div id="tv" aria-label="EasyCraft TV"></div>
+		<button id="tv-close" type="button" aria-label="Close the video">&#10005; CLOSE</button>
+
+		<script src="index.js"></script>
+		<script>
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":16,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":42413652,"index.wasm":1601069,"index.mobile.pck":42564188,"assets.e298659320.pck":8002172,"assets.mobile.e298659320.pck":8002172},"focusCanvas":true,"gdextensionLibs":["libvoxel.web.template_release.wasm32.threads.wasm"],"godotPoolSize":4,"serviceWorker":"index.service.worker.js"};
+const GODOT_THREADS_ENABLED = true;
+
+// Owner #79: an invite link (…/play/?invite=BLUE-OTTER-42) carries only a friend's code, nothing personal. The game
+// reads it as window.easycraftInvite (core/platform/web_glue.gd); the redirect to the server's copy keeps it.
+(function () {
+	const m = /[?&]invite=([^&#]{1,120})/.exec(window.location.search);
+	if (m) {
+		let code = '';
+		try { code = decodeURIComponent(m[1].replace(/\+/g, ' ')); } catch (e) { code = ''; }
+		code = code.replace(/[^A-Za-z0-9 _-]/g, '').slice(0, 40);
+		if (code !== '') {
+			window.easycraftInvite = code;
+		}
+	}
+})();
+function inviteQuery() {
+	return typeof window.easycraftInvite === 'string' ? '?invite=' + encodeURIComponent(window.easycraftInvite) : '';
+}
+
+(function () {
+	if (window.EC_CANT_RUN) {
+		return;   // owner #90: the kind page shows instead (the check above)
+	}
+	const status = document.getElementById('status');
+	const label = document.getElementById('label');
+	const fill = document.getElementById('fill');
+	const tip = document.getElementById('tip');
+	const play = document.getElementById('play');
+	const notice = document.getElementById('status-notice');
+
+	// Drifting blocks in the brand's colours.
+	const colours = ['#4fc45a', '#ff8a34', '#ffd84a', '#ffffff', '#8a5a35', '#2ea84a'];
+	for (let i = 0; i < 14; i++) {
+		const b = document.createElement('div');
+		b.className = 'block';
+		const s = 14 + ((i * 7) % 26);
+		b.style.setProperty('--s', s + 'px');
+		b.style.setProperty('--c', colours[i % colours.length]);
+		b.style.setProperty('--x', ((i * 37) % 97) + '%');
+		b.style.setProperty('--d', (11 + (i % 5) * 3) + 's');
+		b.style.setProperty('--w', (-(i * 1.7)) + 's');
+		b.style.setProperty('--r', ((i % 2 ? 1 : -1) * (90 + i * 20)) + 'deg');
+		status.insertBefore(b, status.firstChild);
+	}
+
+	// Tips while it loads.
+	const tips = [
+		'Tap a build with the <b>Magic Wand</b> and it wakes up!',
+		'Shrink <b>tiny</b> to find the hidden mouse villages.',
+		'Build a <b>golden portal</b> to visit the Candy Kingdom.',
+		'Your <b>dog</b> can sniff out buried treasure.',
+		'Monsters come out at night: hide in a <b>barrel</b>!',
+		'Build a race course and <b>race your friends</b>.',
+		'The <b>Secret Book</b> shows how many secrets are still hidden.',
+		'<b>Stamps</b> build a whole house in one tap.',
+		'Tame a <b>horse</b> and ride it across the meadows.',
+		'Find the baby dragon in the <b>Dragon Realm</b>.',
+		'Master a lesson in the <b>School</b> and earn gold.',
+		'Fly up past the clouds: the <b>Star Map</b> shows every planet.',
+		'On <b>Mars</b> you jump more than twice as high!',
+		'Try an experiment in the <b>Science Lab</b>.',
+	];
+	// Owner #84: a PC (a mouse, not a finger) is spoken to as a PC: click, not tap, and the keys first.
+	const pcPointer = !(window.matchMedia && window.matchMedia('(pointer: coarse)').matches);
+	if (pcPointer) {
+		for (let i = 0; i < tips.length; i++) {
+			tips[i] = tips[i].replace(/\bTap\b/g, 'Click').replace(/\btap\b/g, 'click');
+		}
+		tips.unshift('On a computer: <b>W A S D</b> walk, the mouse looks, <b>F1</b> shows every key.');
+	}
+	// Owner #93: after one visit the game opens without the internet (the offline worker keeps every file).
+	tips.push('After your first visit, EasyCraft plays <b>without the internet</b> too.');
+	// Owner #90: a browser shows a game controller to the game after its first button press.
+	tips.push('A <b>PlayStation</b> or <b>Xbox</b> controller works too: connect it and press a button.');
+	let tipIndex = Math.floor(Math.random() * tips.length);
+	if (navigator.onLine === false) {
+		tips.unshift('No internet? Play alone: <b>Sandbox</b>, <b>Survivor</b>, <b>Monster Wave</b> and the <b>School</b> work without it.');
+		tipIndex = 0;
+	}
+	function nextTip() {
+		tip.style.opacity = 0;
+		setTimeout(function () {
+			tip.innerHTML = 'Tip: ' + tips[tipIndex % tips.length];
+			tip.style.opacity = 1;
+			tipIndex++;
+		}, 400);
+	}
+	nextTip();
+	const tipTimer = setInterval(nextTip, 4500);
+
+	function fail(err) {
+		console.error(err);
+		let detail = 'An unknown error occurred.';
+		if (err instanceof Error) {
+			detail = err.message;
+		} else if (typeof err === 'string') {
+			detail = err;
+		}
+		notice.textContent = '';
+		const title = document.createElement('div');
+		title.style.cssText = 'font-size: 20px; font-weight: 800; margin-bottom: 8px';
+		title.textContent = 'Oops! EasyCraft could not start in this browser.';
+		const help = document.createElement('div');
+		help.textContent = 'Try the newest Chrome, Safari, Edge or Firefox.';
+		const small = document.createElement('div');
+		small.style.cssText = 'font-size: 12px; opacity: 0.7; margin-top: 10px; white-space: pre-line';
+		small.textContent = detail;
+		notice.append(title, help, small);
+		status.classList.add('failed');
+		clearInterval(tipTimer);
+	}
+
+	// Add the game to the device. Chrome, Edge and Samsung Internet (Android, Windows, Mac, Linux) offer their own
+	// install prompt; Safari has none, so iPhone/iPad (Add to Home Screen) and Mac (Add to Dock) get a picture guide.
+	// window.easycraftApp lets the game's main menu offer the same later (core/platform/web_glue.gd).
+	const install = document.getElementById('install');
+	const installText = document.getElementById('install-text');
+	const guide = document.getElementById('guide');
+	const guideSteps = document.getElementById('guide-steps');
+	const ua = navigator.userAgent;
+	const ios = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+	const macSafari = !ios && /Macintosh/.test(ua) && /Safari\//.test(ua) && !/Chrome|Chromium|Edg|Firefox|OPR/.test(ua);
+	// Owner #65 (2026-09-28): Samsung Internet builds the installed app (a WebAPK) with an old target SDK, so Android 14+
+	// warns "built for an older version of Android and doesn't include the latest privacy protections"; Chrome builds a
+	// current one. On Samsung Internet the button opens this page in Chrome, where installing is clean.
+	const samsung = /SamsungBrowser/i.test(ua) && /Android/i.test(ua);
+	function openInChrome() {
+		const fallback = 'https://play.google.com/store/apps/details?id=com.android.chrome';
+		window.location.href = 'intent://' + window.location.host + window.location.pathname + '#Intent;scheme=https;'
+			+ 'package=com.android.chrome;S.browser_fallback_url=' + encodeURIComponent(fallback) + ';end';
+	}
+	const isInstalled = (window.matchMedia && (window.matchMedia('(display-mode: fullscreen)').matches
+		|| window.matchMedia('(display-mode: standalone)').matches)) || navigator.standalone === true;
+	let deferred = null;
+	let added = false;
+	const SHARE = '<span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5"/><path d="M6 11H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-1"/></svg></span>';
+	const PLUS = '<span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><path d="M12 8v8M8 12h8"/></svg></span>';
+
+	function steps(list) {
+		guideSteps.innerHTML = list.map(function (t, i) {
+			return '<li><span class="num">' + (i + 1) + '</span><span>' + t + '</span></li>';
+		}).join('');
+	}
+	function openGuide() {
+		if (macSafari) {
+			document.getElementById('guide-title').textContent = 'Put EasyCraft in your Dock';
+			steps([
+				'In the menu bar at the top, click <b>File</b>.',
+				'Click <b>Add to Dock</b>, then <b>Add</b>.',
+				'Next time, open EasyCraft from your Dock.',
+			]);
+		} else {
+			const where = /CriOS|EdgiOS/.test(ua) ? 'at the top right, next to the address bar'
+				: (/FxiOS/.test(ua) ? 'in the menu' : 'at the bottom of Safari');
+			steps([
+				'Tap the <b>Share</b> button ' + SHARE + ' ' + where + '.',
+				'Scroll down and tap <b>Add to Home Screen</b> ' + PLUS + '.',
+				'Tap <b>Add</b>. Next time, tap the EasyCraft icon: it opens full screen, like an app!',
+			]);
+		}
+		guide.classList.add('open');
+	}
+	document.getElementById('guide-ok').addEventListener('click', function () {
+		guide.classList.remove('open');
+	});
+	function showAdded() {
+		added = true;
+		if (status.isConnected) {
+			status.classList.add('installed');
+		}
+	}
+	function offerInstall() {
+		if (!isInstalled && !added && status.isConnected) {
+			status.classList.add('can-install');
+		}
+	}
+	window.addEventListener('beforeinstallprompt', function (e) {
+		e.preventDefault();
+		if (samsung) {
+			return;   // its install makes the old-SDK app: Chrome's instead (openInChrome)
+		}
+		deferred = e;
+		offerInstall();
+	});
+	window.addEventListener('appinstalled', function () {
+		deferred = null;
+		showAdded();
+	});
+	if ((ios || macSafari) && !isInstalled) {
+		installText.textContent = ios ? 'Put EasyCraft on your Home Screen' : 'Put EasyCraft in your Dock';
+		offerInstall();
+	}
+	if (samsung && !isInstalled) {
+		installText.textContent = 'Install EasyCraft with Chrome';
+		offerInstall();
+	}
+	function doInstall() {
+		if (deferred) {
+			const prompt = deferred;
+			deferred = null;
+			prompt.prompt();
+			return prompt.userChoice.then(function (choice) {
+				if (choice.outcome === 'accepted') {
+					showAdded();
+				} else {
+					deferred = null;
+				}
+				return choice.outcome;
+			});
+		}
+		if (ios || macSafari) {
+			openGuide();
+			return Promise.resolve('guide');
+		}
+		if (samsung) {
+			openInChrome();
+			return Promise.resolve('chrome');
+		}
+		return Promise.resolve('unavailable');
+	}
+	install.addEventListener('click', function (e) {
+		e.stopPropagation();
+		doInstall();
+	});
+	window.easycraftApp = {
+		canInstall: function () { return !isInstalled && !added && (deferred !== null || ios || macSafari || samsung); },
+		needsGuide: function () { return deferred === null && (ios || macSafari); },
+		isInstalled: function () { return isInstalled || added; },
+		install: function () { doInstall(); return true; },
+	};
+
+	// iPhone/iPad keyboard (see the CSS above): show the bar with Done while Godot's text box is shown.
+	if (ios) {
+		document.documentElement.classList.add('ios-vk');
+		const bar = document.getElementById('vk-bar');
+		const watch = function (box) {
+			new MutationObserver(function () {
+				const shown = box.style.display !== 'none';
+				bar.classList.toggle('open', shown);
+			}).observe(box, { attributes: true, attributeFilter: ['style'] });
+		};
+		new MutationObserver(function (changes) {
+			changes.forEach(function (c) {
+				c.addedNodes.forEach(function (n) {
+					if (n.tagName === 'INPUT' || n.tagName === 'TEXTAREA') {
+						watch(n);
+					}
+				});
+			});
+		}).observe(document.body, { childList: true });
+		document.getElementById('vk-done').addEventListener('click', function () {
+			document.querySelectorAll('body > input, body > textarea').forEach(function (b) { b.blur(); });
+			bar.classList.remove('open');
+		});
+	}
+
+	// Keep the screen on while EasyCraft is open (owner 2026-09-28: "when screen locked it stops downloading"): a phone
+	// that locks itself pauses the page and its download. The Screen Wake Lock API (Chrome, Edge, Safari 16.4+,
+	// Firefox 126+) keeps it awake while the page is visible; the browser drops the lock when the page is hidden, so it
+	// is asked for again on the way back. A download that still broke (the power button) carries on by itself below.
+	let wakeLock = null;
+	function keepAwake() {
+		if (!('wakeLock' in navigator) || document.visibilityState !== 'visible' || (wakeLock && !wakeLock.released)) {
+			return;
+		}
+		navigator.wakeLock.request('screen').then(function (lock) {
+			wakeLock = lock;
+		}).catch(function () {});
+	}
+	keepAwake();
+	window.easycraftAwake = function () { return !!(wakeLock && !wakeLock.released); };   // for tests
+	document.addEventListener('visibilitychange', keepAwake);
+	['pointerup', 'touchend', 'keydown'].forEach(function (t) {
+		window.addEventListener(t, keepAwake, { capture: true, passive: true });
+	});
+
+	// A download cut off while the phone slept: files that arrived are kept (the service worker's cache and the
+	// browser's), so reloading the page picks up where it stopped. Wait until the page is visible and online again.
+	let resuming = false;
+	function resumeLater(err) {
+		if (resuming) {
+			return;
+		}
+		resuming = true;
+		console.warn('EasyCraft: download interrupted, it will continue:', err);
+		label.textContent = 'Paused\u2026 it will continue by itself.';
+		function tryAgain() {
+			if (document.visibilityState === 'visible' && navigator.onLine !== false) {
+				label.textContent = 'Continuing\u2026';
+				setTimeout(function () { window.location.reload(); }, 600);
+			}
+		}
+		document.addEventListener('visibilitychange', tryAgain);
+		window.addEventListener('online', tryAgain);
+		setTimeout(tryAgain, 1500);
+	}
+	function looksLikeNetwork(err) {
+		const text = String(err && err.message ? err.message : err);
+		return /fetch|network|load failed|connection|aborted|timed out|Failed to|NetworkError/i.test(text);
+	}
+
+	// After PLAY the bar shows the game's shader warm-up (world/shader_warmup.gd, through WebGlue.warmup_progress):
+	// what the menu and the first world draw is compiled before the menu shows, a second or more a shader on a phone.
+	// The engine's own start fills the first WARM_FROM percent.
+	const WARM_FROM = 10;
+	let warmShown = -1;
+	window.easycraftWarmup = function (fraction) {
+		const pct = Math.max(0, Math.min(100, Math.round(fraction * 100)));
+		if (!started || pct <= warmShown) {
+			return;
+		}
+		warmShown = pct;
+		fill.style.width = (WARM_FROM + ((100 - WARM_FROM) * pct) / 100) + '%';
+		label.textContent = 'Getting your world ready… ' + pct + '%';
+	};
+
+	// The game's own log: the menu (or a world opened straight away) being on screen ends the loading page.
+	GODOT_CONFIG['onPrint'] = function () {
+		const text = Array.prototype.join.call(arguments, ' ');
+		console.log(text);
+		if (/^(MENU ready|SANDBOX spawned|WORLD ready)/.test(text) && window.easycraftShown) {
+			window.easycraftShown();
+		}
+	};
+	GODOT_CONFIG['onPrintError'] = function () {
+		console.error(Array.prototype.join.call(arguments, ' '));
+	};
+	GODOT_CONFIG['onProgress'] = function (current, total) {
+		if (current > 0 && total > 0) {
+			const pct = Math.min(100, Math.floor((current * 100) / total));
+			fill.style.width = pct + '%';
+			label.textContent = 'Getting your world ready… ' + pct + '%';
+		}
+	};
+	if (typeof Engine === 'undefined') {   // owner #90: the engine's script did not load or this browser cannot read it
+		clearInterval(tipTimer);
+		window.ecCantRun(['a newer browser']);
+		return;
+	}
+	const engine = new Engine(GODOT_CONFIG);
+
+	const missing = Engine.getMissingFeatures({ threads: GODOT_THREADS_ENABLED });
+	// The game's own server sends the thread headers (COOP/COEP) itself. A copy on a host that cannot (GitHub Pages)
+	// relies on the service worker adding them, which Chrome and Firefox accept but iPhone/iPad browsers (WebKit) do not
+	// (owner 2026-09-28: "game not starting with github link in my iphone"). There, and wherever the worker's reload did
+	// not help, the page sends the player to the server's copy, which works everywhere.
+	const HOME = 'https://178-104-20-64.sslip.io/play/';
+	const atHome = window.location.href.indexOf(HOME) === 0;
+	function goHome() {
+		label.textContent = 'Opening EasyCraft\u2026';
+		window.location.replace(HOME + inviteQuery());
+	}
+	if (missing.length !== 0 && !atHome && ios) {
+		goHome();
+		return;
+	}
+	if (missing.length !== 0) {
+		if (GODOT_CONFIG['serviceWorker'] && GODOT_CONFIG['ensureCrossOriginIsolationHeaders'] && 'serviceWorker' in navigator) {
+			// Hosts that cannot send the thread headers: the service worker adds them, then the page reloads once.
+			label.textContent = 'Getting ready…';
+			let registration;
+			try {
+				registration = navigator.serviceWorker.getRegistration();
+			} catch (err) {
+				registration = Promise.reject(new Error('Service worker registration failed.'));
+			}
+			Promise.race([
+				registration.then(function (r) {
+					if (r != null) {
+						return Promise.reject(new Error('Service worker already exists.'));
+					}
+					return r;
+				}).then(function () { return engine.installServiceWorker(); }),
+				new Promise(function (resolve) { setTimeout(resolve, 2000); }),
+			]).then(function () {
+				window.location.reload();
+			}).catch(function (err) {
+				if (!atHome) {
+					goHome();   // the worker is there and still no threads: the server's copy
+					return;
+				}
+				fail('This browser is missing: ' + missing.join(', ') + '\n' + err);
+			});
+		} else if (!atHome) {
+			goHome();
+		} else {
+			fail('This browser is missing: ' + missing.join(', '));
+		}
+		return;
+	}
+
+	// Download everything first (with the progress bar), then start on PLAY: that tap also lets the browser go full
+	// screen and play sound. Installed as an app, it starts by itself.
+	const exe = GODOT_CONFIG['executable'];
+	// Two main packs, one per texture format (tools/export_web.sh): computers read S3TC, phones and tablets ETC2.
+	// Only the one this GPU uses is downloaded (half the textures).
+	function pickPack(desktopPack) {
+		let pick = desktopPack;
+		try {
+			const probe = document.createElement('canvas');
+			const gl = probe.getContext('webgl2');
+			if (gl) {
+				const s3tc = gl.getExtension('WEBGL_compressed_texture_s3tc');
+				const etc2 = gl.getExtension('WEBGL_compressed_texture_etc');
+				if (!s3tc && etc2 && GODOT_CONFIG['fileSizes'] && GODOT_CONFIG['fileSizes']['index.mobile.pck']) {
+					pick = 'index.mobile.pck';
+				}
+				const lose = gl.getExtension('WEBGL_lose_context');
+				if (lose) {
+					lose.loseContext();
+				}
+			}
+		} catch (err) {}
+		// The game fetches later packs of pictures in the same format (core/platform/web_glue.gd, texture_format).
+		window.easycraftGpu = pick === 'index.mobile.pck' ? 'etc2' : 's3tc';
+		return pick;
+	}
+	const pack = pickPack(GODOT_CONFIG['mainPack'] || exe + '.pck');
+	const args = ['--main-pack', pack].concat(GODOT_CONFIG['args'] || []);
+	// The game's media (sounds, the core music loops, the characters) come in their own pack, one per texture format
+	// like the main pack; tools/export_web.sh names them here. The service worker keeps it by its content, so an update
+	// that changes only code downloads only the main pack. The game's first autoload loads it from /assets.pck
+	// (autoloads/assets_pack.gd) before any other script is loaded.
+	const EC_ASSETS = {"s3tc": "assets.e298659320.pck", "etc2": "assets.mobile.e298659320.pck"};
+	const assets = typeof EC_ASSETS === 'object' ? EC_ASSETS[window.easycraftGpu] || '' : '';
+	const installed = (window.matchMedia && (window.matchMedia('(display-mode: fullscreen)').matches
+		|| window.matchMedia('(display-mode: standalone)').matches)) || navigator.standalone === true;
+	let started = false;
+
+	function start() {
+		if (started) {
+			return;
+		}
+		started = true;
+		status.classList.add('starting');
+		play.disabled = true;
+		label.textContent = 'Starting the game\u2026';
+		fill.style.width = WARM_FROM + '%';
+		// The engine takes a few seconds to wake up (longer on a phone): keep this page, its animation and its tips
+		// until the game prints that its menu (or a world) is on screen, then fade out. CSS animations keep running
+		// while the engine is busy. At most 90 s, in case the line never comes.
+		const leave = function () {
+			document.documentElement.classList.add('playing');
+			if (!status.isConnected || status.classList.contains('leaving')) {
+				return;
+			}
+			clearInterval(tipTimer);
+			status.classList.add('leaving');
+			setTimeout(function () { status.remove(); }, 500);
+		};
+		window.easycraftShown = leave;
+		setTimeout(leave, 90000);
+		let go = false;
+		const boot = function () {
+			if (go) {
+				return;
+			}
+			go = true;
+			requestAnimationFrame(function () {
+				requestAnimationFrame(function () {
+					engine.start({ 'args': args }).then(quietTextBoxes, fail);
+				});
+			});
+		};
+		document.addEventListener('fullscreenchange', boot, { once: true });
+		setTimeout(boot, document.fullscreenElement ? 0 : 450);
+	}
+
+	// A kids' game: no password, card or address suggestions over the keyboard on Godot's hidden text boxes.
+	function quietTextBoxes() {
+		document.querySelectorAll('input:not(#play), textarea').forEach(function (el) {
+			el.setAttribute('autocomplete', 'off');
+			el.setAttribute('autocorrect', 'off');
+			el.setAttribute('autocapitalize', 'off');
+			el.setAttribute('spellcheck', 'false');
+			el.setAttribute('name', 'easycraft-' + Math.random().toString(36).slice(2));
+		});
+	}
+
+	// Download through the offline worker so every file is kept on the device the first time (owner 2026-09-28: "once
+	// downloaded we should not have to download it again"). It takes over the page at once (tools/export_web.sh);
+	// wait for that, at most 4 s, then download.
+	// A returning visit after an update: the page may be new while the worker that controls it is the old one, which
+	// hands out the old files it keeps (2026-09-28: the emulator ran the game from before space after an update: new
+	// page, old pack); or the old worker serves its old page and the update shows only the visit after. The page and
+	// its worker carry the same build id (tools/export_web.sh writes it into both). On a returning visit the page asks
+	// the browser for a newer worker (at most 3 s; offline: none), waits for it to take over, and when the worker's
+	// build is not this page's, loads the page again once, so every file is of one version.
+	const EC_BUILD = 'EasyCraft-sw-cache-1790846453|17135032';
+	function askBuild(sw) {
+		return new Promise(function (resolve) {
+			const channel = new MessageChannel();
+			const timer = setTimeout(function () { resolve(''); }, 1500);
+			channel.port1.onmessage = function (event) {
+				clearTimeout(timer);
+				resolve((event.data && event.data.ecBuild) || '');
+			};
+			try {
+				sw.postMessage('ec-build', [channel.port2]);
+			} catch (err) {
+				clearTimeout(timer);
+				resolve('');
+			}
+		});
+	}
+	function within(promise, ms) {
+		return Promise.race([promise, new Promise(function (resolve) { setTimeout(resolve, ms); })]);
+	}
+	function upToDate() {
+		if (EC_BUILD.charAt(0) === '@') {
+			return Promise.resolve();
+		}
+		return navigator.serviceWorker.getRegistration().then(function (reg) {
+			if (!reg) {
+				return null;
+			}
+			return within(reg.update().catch(function () {}), 3000).then(function () {
+				if (!reg.installing && !reg.waiting) {
+					return null;
+				}
+				label.textContent = 'Updating EasyCraft\u2026';
+				return within(new Promise(function (resolve) {
+					navigator.serviceWorker.addEventListener('controllerchange', resolve, { once: true });
+				}), 8000);
+			});
+		}).then(function () {
+			const now = navigator.serviceWorker.controller;
+			return now ? askBuild(now) : '';
+		}).then(function (build) {
+			if (build === EC_BUILD || build === '') {
+				return null;
+			}
+			let tried = '';
+			try {
+				tried = sessionStorage.getItem('ec-reloaded') || '';
+				sessionStorage.setItem('ec-reloaded', build);
+			} catch (err) {}
+			if (tried === build) {
+				return null;   // reloaded once for this build already: go on
+			}
+			label.textContent = 'Updating EasyCraft\u2026';
+			window.location.reload();
+			return new Promise(function () {});   // the reload takes over
+		});
+	}
+	function worker() {
+		if (!GODOT_CONFIG['serviceWorker'] || !('serviceWorker' in navigator)) {
+			return Promise.resolve();
+		}
+		if (navigator.serviceWorker.controller) {
+			return upToDate();
+		}
+		return new Promise(function (resolve) {
+			navigator.serviceWorker.addEventListener('controllerchange', resolve, { once: true });
+			setTimeout(resolve, 4000);
+			navigator.serviceWorker.register(GODOT_CONFIG['serviceWorker']).catch(resolve);
+		});
+	}
+
+	// Owner #95: "get upgraded after getting online". When the browser is online again during play (and once a minute
+	// after the start), ask for a newer version: its worker downloads the whole game for this device in the background
+	// (tools/export_web.sh: ecKeepUpdate) and the next start is the new version, offline too.
+	function checkForUpdate() {
+		if (!('serviceWorker' in navigator) || navigator.onLine === false) {
+			return;
+		}
+		navigator.serviceWorker.getRegistration().then(function (reg) {
+			if (reg) {
+				reg.update().catch(function () {});
+			}
+		}).catch(function () {});
+	}
+	window.addEventListener('online', checkForUpdate);
+	setTimeout(checkForUpdate, 60000);
+
+	worker().then(function () {
+		const loads = [engine.init(exe), engine.preloadFile(pack, pack)];
+		if (assets) {
+			loads.push(engine.preloadFile(assets, '/assets.pck'));
+		}
+		return Promise.all(loads);
+	}).then(function () {
+		fill.style.width = '100%';
+		if (installed) {
+			start();
+			return;
+		}
+		label.textContent = 'Your world is ready!';
+		status.classList.add('ready');
+		play.addEventListener('click', start);
+		document.addEventListener('keydown', function (e) {
+			if (e.key === 'Enter' || e.key === ' ') {
+				start();
+			}
+		});
+		// Owner #90: a game controller's button starts it too (a TV's browser with only the pad). Some browsers keep the
+		// sound off until a tap, a click or a key.
+		const padPoll = setInterval(function () {
+			if (started) {
+				clearInterval(padPoll);
+				return;
+			}
+			let pads = [];
+			try {
+				pads = navigator.getGamepads ? navigator.getGamepads() : [];
+			} catch (err) {
+				clearInterval(padPoll);   // not allowed here (a permissions policy)
+				return;
+			}
+			for (const g of pads) {
+				if (g && g.buttons.some(function (b) { return b.pressed; })) {
+					clearInterval(padPoll);
+					start();
+					return;
+				}
+			}
+		}, 150);
+	}, function (err) {
+		if (looksLikeNetwork(err)) {
+			resumeLater(err);
+		} else {
+			fail(err);
+		}
+	});
+}());
+
+// Owner #76 (2026-09-29, "screen size on iphone is shown incorectly"): iOS Safari and Chrome, iOS 26 above all, can leave
+// the page scrolled or the game's canvas at a stale size after the keyboard closes (the name), a rotation or the
+// toolbars moving. At those moments: back to the top, and the game reads the screen's size again, a few times while
+// iOS settles (a synthetic resize: the engine sizes its canvas from the window on each one).
+function settleSize() {
+	if (window.scrollX || window.scrollY) {
+		window.scrollTo(0, 0);
+	}
+	window.dispatchEvent(new Event('resize'));
+}
+function settleSoon() {
+	for (const ms of [60, 350, 900]) {
+		setTimeout(settleSize, ms);
+	}
+}
+window.addEventListener('orientationchange', settleSoon);
+if (window.visualViewport) {
+	window.visualViewport.addEventListener('resize', settleSoon);
+}
+document.addEventListener('focusout', settleSoon);
+
+// Owner #89 (spec §5.12): EasyCraft TV, the Theater's player in the browser. The game (core/platform/web_glue.gd) puts
+// YouTube's own embedded player exactly over the Theater's screen and this CLOSE over its own CLOSE; it passes only a
+// checked video id and numbers (the canvas's pixels). The player is YouTube's privacy-enhanced one with the
+// made-for-kids settings: no suggestions from other channels, no notes, no full screen, and a sandbox without popups or
+// top navigation, so no tap leaves for YouTube's site. Events go back one at a time (take()): "ended", "closed" (this
+// CLOSE), "failed:<YouTube's code>". Inside this page (cross-origin isolated for the game's threads) only Chromium can
+// show another site's page, as a credentialless iframe; Safari and Firefox get a WATCH button that opens the server's
+// player page (server/deploy/site/tv/) in a tab, which tells this page when it closes.
+(function () {
+	const box = document.getElementById('tv');
+	const closeButton = document.getElementById('tv-close');
+	const canvas = document.getElementById('canvas');
+	const HOST = 'https://www.youtube-nocookie.com';
+	const EMBED = 'https://www.youtube-nocookie.com/embed/';
+	const TAB_PAGE = 'https://178-104-20-64.sslip.io/tv/';
+	const ID = /^[A-Za-z0-9_-]{11}$/;
+	const inline = !window.crossOriginIsolated || ('credentialless' in HTMLIFrameElement.prototype);
+	const events = [];
+	let frame = null;
+	let current = '';
+	let endedFor = '';
+	let heard = false;
+
+	function place(el, x, y, w, h) {
+		const b = canvas.getBoundingClientRect();
+		const sx = b.width / (canvas.width || b.width || 1);
+		const sy = b.height / (canvas.height || b.height || 1);
+		el.style.left = (b.left + x * sx) + 'px';
+		el.style.top = (b.top + y * sy) + 'px';
+		el.style.width = (w * sx) + 'px';
+		el.style.height = (h * sy) + 'px';
+	}
+	function post(message) {
+		if (frame && frame.contentWindow) {
+			try { frame.contentWindow.postMessage(JSON.stringify(message), HOST); } catch (e) {}
+		}
+	}
+	function command(func) {
+		post({ event: 'command', func: func, args: [] });
+	}
+	// The player's own messages (enablejsapi): it talks once this page says it listens.
+	function listen() {
+		heard = false;
+		let tries = 0;
+		const again = function () {
+			if (heard || !frame || tries++ > 20) {
+				return;
+			}
+			post({ event: 'listening', id: 'easycraft-tv', channel: 'widget' });
+			setTimeout(again, 250);
+		};
+		again();
+	}
+	function state(value) {
+		if (value === 1) {
+			endedFor = '';
+		} else if (value === 0 && endedFor !== current) {
+			endedFor = current;
+			events.push('ended');
+		}
+	}
+	window.addEventListener('message', function (e) {
+		if (!frame || e.origin !== HOST || e.source !== frame.contentWindow) {
+			return;
+		}
+		let d = e.data;
+		try {
+			if (typeof d === 'string') {
+				d = JSON.parse(d);
+			}
+		} catch (x) {
+			return;
+		}
+		if (!d || typeof d !== 'object') {
+			return;
+		}
+		heard = true;
+		if (d.event === 'onReady') {
+			post({ event: 'command', func: 'addEventListener', args: ['onError'] });   // a video that stops playing
+		} else if (d.event === 'onStateChange') {
+			state(d.info);
+		} else if (d.event === 'infoDelivery' && d.info && typeof d.info.playerState === 'number') {
+			state(d.info.playerState);
+		} else if (d.event === 'onError' && /^[0-9]{1,6}$/.test(String(d.info))) {
+			events.push('failed:' + d.info);
+		}
+	});
+	// The server's player page (Safari, Firefox) says when its video ended and when it closed.
+	const tab = ('BroadcastChannel' in window) ? new BroadcastChannel('easycraft-tv') : null;
+	if (tab) {
+		tab.onmessage = function (e) {
+			if (inline || !current) {
+				return;
+			}
+			if (e.data === 'ended') {
+				events.push('ended');
+			} else if (e.data === 'closed') {
+				stop();
+				events.push('closed');
+			}
+		};
+	}
+	function hide() {
+		box.classList.remove('open');
+		closeButton.classList.remove('open');
+	}
+	function stop() {
+		command('stopVideo');
+		hide();
+		box.textContent = '';
+		frame = null;
+		current = '';
+	}
+	function show(id, x, y, w, h, cx, cy, cw, ch, autoplay) {
+		if (typeof id !== 'string' || !ID.test(id)) {
+			return false;
+		}
+		place(box, x, y, w, h);
+		place(closeButton, cx, cy, cw, ch);
+		box.classList.add('open');
+		closeButton.classList.add('open');
+		if (id === current) {
+			return true;   // moved, or shown again after a menu (still paused)
+		}
+		current = id;
+		endedFor = '';
+		box.textContent = '';
+		frame = null;
+		if (inline) {
+			const f = document.createElement('iframe');
+			f.setAttribute('credentialless', '');
+			f.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-presentation');
+			f.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture');
+			f.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+			f.title = 'EasyCraft TV';
+			f.src = EMBED + id + '?autoplay=' + (autoplay ? 1 : 0) +
+				'&playsinline=1&rel=0&fs=0&iv_load_policy=3&disablekb=1&enablejsapi=1&origin=' +
+				encodeURIComponent(location.origin);
+			f.addEventListener('load', listen);
+			frame = f;
+			box.appendChild(f);
+		} else {
+			const watch = document.createElement('button');
+			watch.id = 'tv-watch';
+			watch.type = 'button';
+			watch.innerHTML = '&#9654; WATCH<small>It opens in a new tab. CLOSE brings you back.</small>';
+			watch.addEventListener('click', function () {
+				window.open(TAB_PAGE + '#v=' + current, 'easycraft-tv');
+			});
+			box.appendChild(watch);
+		}
+		return true;
+	}
+	closeButton.addEventListener('click', function () {
+		stop();
+		events.push('closed');
+	});
+	window.easycraftTv = {
+		show: show,
+		hide: function () { command('pauseVideo'); hide(); },
+		close: stop,
+		take: function () { return events.length ? events.shift() : ''; },
+	};
+}());
+		</script>
+	</body>
+</html>
+

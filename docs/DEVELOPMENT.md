@@ -5904,6 +5904,21 @@ Everything here costs nothing per frame unless it says so; notes, pictures, benc
   Quest's 2048 shadow map): Green Meadows 173 (188), the Moon 115 (142), world 41 135 (138). Long frames standing: none of
   the game's own; walking 40 s: a few of 32-38 ms (the voxel engine applying 16-cube blocks).
 
+## The public source on GitHub (the owner, 2026-10-31: "upload game on github and make it public")
+The source is public at **https://github.com/giorgipirveli/easycraft** (branch `main`, the default; the web build stays on
+`gh-pages`, which `tools/deploy_web_github.sh` force-pushes and Pages serves). The owner chose: **a clean snapshot, never
+the development history** (every local commit carries a private email), and **no open-source license** ("look, don't
+copy": all rights reserved, `README.md`; third-party parts keep their own licenses). To update it (only when the owner
+says so, as every push):
+1. Scan the tree first: `gitleaks git --log-opts="HEAD -1" .`, `trufflehog git file://. --branch <branch> --max-depth 1
+   --no-verification`, and `git grep -IoE "[A-Za-z0-9._%+-]+@gmail\.com" HEAD` (personal addresses never go public: the
+   testers' are kept in `~/.config/easycraft/testers.txt`).
+2. Make the next snapshot on top of the last public one, signed with the no-reply address:
+   `GIT_AUTHOR_NAME=giorgipirveli GIT_AUTHOR_EMAIL=75372659+giorgipirveli@users.noreply.github.com` (and the same
+   `GIT_COMMITTER_*`) `git commit-tree HEAD^{tree} -p <the last public commit> -m "…"`, then
+   `git push https://github.com/giorgipirveli/easycraft.git <that commit>:refs/heads/main`. **Never push a local branch
+   itself** (its history has the private email and every old draft).
+
 ## 8. Known gotchas (learned the hard way)
 
 - **Box meshes built by hand must wind clockwise seen from outside (2026-10-18):** Godot's front faces are clockwise;

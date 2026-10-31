@@ -7,6 +7,9 @@ Android phones, the Meta Quest 3 and the web, with an online server on [Nakama](
 
 **Play it in a browser:** https://giorgipirveli.github.io/easycraft/
 
+**Download it** for an Android phone or tablet, or for a Meta Quest 3:
+https://github.com/giorgipirveli/easycraft/releases/latest (the apps update themselves to the newest game at each start).
+
 ## Where things are
 
 | What | Where |

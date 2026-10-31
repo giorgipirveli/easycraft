@@ -1,0 +1,317 @@
+{
+	"id": "g4.health_pe.first_aid_basics",
+	"lesson": [
+		{
+			"text": "Quick memory: what three things do you tell the emergency operator? (Which service, what is wrong, and where you are.) Today: first aid for cuts, bumps and burns."
+		},
+		{
+			"text": "First aid is the help you give before a doctor or nurse arrives. Danger first: check it is safe for you before you go near. Then ask 'Are you all right?' and shout for a grown-up.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Check for danger"
+					},
+					{
+						"shape": "step",
+						"text": "Ask: are you all right?"
+					},
+					{
+						"shape": "end",
+						"text": "Shout for a grown-up"
+					}
+				]
+			}
+		},
+		{
+			"text": "A small cut or graze: press on it with a clean cloth to stop the bleeding. Rinse it under clean running water, pat it dry and cover it with a plaster. Wash your hands before and after.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"what",
+						"first aid"
+					],
+					[
+						"small cut",
+						"press and cover"
+					],
+					[
+						"bump",
+						"cold pack, rest"
+					],
+					[
+						"burn",
+						"cool it 20 min"
+					]
+				]
+			}
+		},
+		{
+			"text": "Lots of blood that will not stop is an emergency. Press firmly on the wound with a clean pad, and keep pressing. Get a grown-up to call 999 (nine nine nine) at once."
+		},
+		{
+			"text": "A bump or bruise: rest, and hold something cold on it, like a bag of frozen peas wrapped in a tea towel, for about 10 minutes. Never put ice straight onto skin."
+		},
+		{
+			"text": "A bump on the head: sit down, hold something cold on it and tell a grown-up. Get help straight away if the person was knocked out or is being sick. Get help too if they are very sleepy or confused, or a headache gets worse."
+		},
+		{
+			"text": "A burn: cool it under cool running water for 20 minutes, then cover it loosely with cling film. Never use ice, butter or cream. Always tell a grown-up: children's burns often need a doctor."
+		},
+		{
+			"text": "Try it in the world: build a first aid post with a green and white sign, and a pretend kit of plasters, bandages, gloves and cling film. For real: find where the first aid kit is at home and at school."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do you check first before helping someone who is hurt?",
+			"answer": 0,
+			"hint": "What could hurt you too, if you rushed in?",
+			"choices": [
+				"that it is safe for you to go near",
+				"that they have a plaster",
+				"the time",
+				"what they had for lunch"
+			],
+			"explain": "Danger first: make sure it is safe for you, so there are not two people hurt."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "You should put butter on a burn.",
+			"answer": false,
+			"hint": "What does the lesson say to cool a burn with?",
+			"explain": "False: never butter, ice or cream. Cool a burn under cool running water for 20 minutes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How long should you cool a burn under cool running water?",
+			"answer": 0,
+			"hint": "It takes a long time: longer than a song.",
+			"choices": [
+				"20 minutes",
+				"20 seconds",
+				"2 minutes",
+				"2 hours"
+			],
+			"explain": "20 minutes, as soon as possible after the burn."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What goes on a small cut after it is clean and dry?",
+			"answer": 0,
+			"hint": "What keeps a small cut clean?",
+			"choices": [
+				"a plaster",
+				"butter",
+				"ice",
+				"soap"
+			],
+			"explain": "A plaster, to keep it clean while it heals."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put first aid for a small cut in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Stop the bleeding first, and cover it last.",
+			"items": [
+				"cover it with a plaster",
+				"pat it dry",
+				"rinse under clean running water",
+				"press with a clean cloth to stop bleeding"
+			],
+			"explain": "Press to stop the bleeding, rinse, pat dry, then a plaster."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What should you hold on a bruise?",
+			"answer": 0,
+			"hint": "Cold helps a bruise, but ice must never touch skin.",
+			"choices": [
+				"something cold wrapped in a tea towel",
+				"ice straight on the skin",
+				"a hot water bottle",
+				"a plaster"
+			],
+			"explain": "Something cold, like frozen peas wrapped in a tea towel, for about 10 minutes."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A bump on the head should always be told to a grown-up.",
+			"answer": true,
+			"hint": "Can a head bump be worse than it looks?",
+			"explain": "True: always tell a grown-up, so they can watch for signs that need help."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "First aid, or call 999 now?",
+			"groups": [
+				"first aid, then tell",
+				"call 999 now"
+			],
+			"items": [
+				"a small graze on a knee",
+				"lots of blood that will not stop",
+				"a small bruise on an arm",
+				"someone knocked out after a fall",
+				"a tiny cut on a finger",
+				"someone who will not wake up"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it small, or is someone in danger right now?",
+			"explain": "First aid: the graze, the bruise, the tiny cut. Call 999: bleeding that will not stop, being knocked out, not waking."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each injury to its first aid.",
+			"items": [
+				"a burn",
+				"a bruise",
+				"a cut",
+				"a nosebleed"
+			],
+			"matches": [
+				"something cold, wrapped",
+				"press, rinse, plaster",
+				"lean forward, pinch nose",
+				"cool running water"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of each card of the lesson, and grade 3's nosebleed.",
+			"explain": "Burn: cool running water. Bruise: something cold, wrapped. Cut: press, rinse, plaster. Nosebleed: lean forward, pinch."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "After a bump on the head, which sign means get help straight away?",
+			"answer": 0,
+			"hint": "Which signs show the brain might be hurt?",
+			"choices": [
+				"being sick or very sleepy",
+				"a small red mark",
+				"feeling a bit cross",
+				"wanting a drink"
+			],
+			"explain": "Being sick, very sleepy, confused, knocked out or a worsening headache: get help straight away."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do you cover a cooled burn loosely with cling film?",
+			"answer": 0,
+			"hint": "What would a fluffy cloth do to a burn?",
+			"choices": [
+				"it keeps it clean without sticking",
+				"it keeps the burn warm",
+				"it hides it",
+				"it heals it in a minute"
+			],
+			"explain": "Cling film keeps the burn clean and does not stick to it, like a cloth might."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "It is best to put ice straight onto a burn.",
+			"answer": false,
+			"hint": "What should you never put on a burn?",
+			"explain": "False: ice can damage the skin more. Use cool running water for 20 minutes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A friend's cut is bleeding a lot and will not stop. What do you do?",
+			"answer": 0,
+			"hint": "Is this small, or an emergency?",
+			"choices": [
+				"press hard with a pad; a grown-up calls 999",
+				"rinse it under the tap and carry on",
+				"put a plaster on and keep playing",
+				"wait for it to stop by itself"
+			],
+			"explain": "It is an emergency: press firmly with a clean pad, keep pressing, and get a grown-up to call 999."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps in order when you find someone hurt.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You must be safe before anything else.",
+			"items": [
+				"give the first aid you know",
+				"shout for a grown-up",
+				"ask 'Are you all right?'",
+				"check for danger"
+			],
+			"explain": "Check for danger, ask if they are all right, shout for a grown-up, then give the first aid you know."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Before touching a wound, wash your hands, or wear gloves if you can.",
+			"answer": true,
+			"hint": "What can travel on hands?",
+			"explain": "True: clean hands or gloves stop germs getting into the wound."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "After a bump on the head: watch and tell a grown-up, or get help straight away?",
+			"groups": [
+				"watch and tell",
+				"get help now"
+			],
+			"items": [
+				"a small lump",
+				"being sick",
+				"feeling very sleepy",
+				"a little sore",
+				"a headache getting worse",
+				"being confused"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Signs that the brain may be hurt need help straight away.",
+			"explain": "A small lump or a little soreness: sit down, hold something cold on it and tell a grown-up. Being sick, very sleepy, confused or a worsening headache can mean a more serious injury: get help straight away."
+		}
+	],
+	"generators": []
+}

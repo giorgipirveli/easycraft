@@ -1,0 +1,322 @@
+{
+	"id": "g7.art.drawing_people",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4, where do the eyes sit on a face? (About halfway down the head.) Today: drawing the whole body in proportion, and quick gesture sketches."
+		},
+		{
+			"text": "Artists measure a figure in heads: how many times the head fits into the height. A grown-up is about 7½ to 8 heads tall; artists often use 8 because it is easy to divide.",
+			"picture": {
+				"kind": "figure_study",
+				"view": "heads",
+				"labels": true
+			}
+		},
+		{
+			"text": "In an 8-head figure: the chin at 1 head, the chest at 2, and the elbows and waist at 3. The hips are at 4 (halfway), the fingertips at about 5, the knees at 6 and the feet at 8.",
+			"picture": {
+				"kind": "figure_study",
+				"view": "heads",
+				"mark": "hips"
+			}
+		},
+		{
+			"text": "Children have bigger heads for their bodies: a young child is about 6 heads tall, and a baby about 4. Arms spread out are about as wide as the body is tall, at any age.",
+			"picture": {
+				"kind": "figure_study",
+				"view": "heads",
+				"heads": 6
+			}
+		},
+		{
+			"text": "Gesture drawing: quick sketches of 30 seconds to 2 minutes that catch a pose's movement, not its details. Start with the line of action, one curve through the body that shows its energy.",
+			"picture": {
+				"kind": "figure_study",
+				"view": "gesture",
+				"pose": "run",
+				"line": true
+			}
+		},
+		{
+			"text": "Worked example: a thrower. Draw the line of action from the back foot up through the reaching arm. Add a circle for the head, the spine and hips, then the arms and legs, one forward and one back.",
+			"picture": {
+				"kind": "figure_study",
+				"view": "gesture",
+				"pose": "throw",
+				"line": true
+			}
+		},
+		{
+			"text": "Build the body from simple shapes, like an artist's wooden mannequin: an oval for the chest, a smaller one for the hips, cylinders for arms and legs and circles at the joints. Then draw the clothes over it.",
+			"picture": {
+				"kind": "figure_study",
+				"view": "mannequin",
+				"pose": "walk"
+			}
+		},
+		{
+			"text": "Try it in the world: draw someone at home in five 1-minute gesture sketches: standing, sitting, reaching, walking and stretching. Next: world art from 1450 to 1750."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many heads tall is this figure?",
+			"answer": "8",
+			"hint": "Count the numbered heads beside it.",
+			"explain": "It is 8 heads tall, the size artists use for a grown-up.",
+			"picture": {
+				"kind": "figure_study",
+				"view": "heads"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where are the hips on an 8-head figure?",
+			"answer": 0,
+			"hint": "Half of 8 is 4.",
+			"choices": [
+				"halfway down, at 4 heads",
+				"at 2 heads",
+				"at 6 heads",
+				"at the feet"
+			],
+			"explain": "The hips are halfway: 4 heads down."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A young child's head is bigger for its body than a grown-up's head is.",
+			"answer": true,
+			"hint": "Compare 6 heads tall with 8 heads tall.",
+			"explain": "True: a child is about 6 heads tall and a grown-up about 8, so a child's head is a bigger part of the body."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a gesture drawing?",
+			"answer": 0,
+			"hint": "Think of 30 seconds to 2 minutes.",
+			"choices": [
+				"a quick sketch of a pose's movement",
+				"a slow, detailed portrait",
+				"a drawing of hands only",
+				"a traced photo"
+			],
+			"explain": "A quick sketch that catches movement and energy, not details."
+		},
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label the lines on this 8-head figure.",
+			"picture": {
+				"kind": "figure_study",
+				"view": "heads"
+			},
+			"labels": [
+				"chin",
+				"hips",
+				"knees",
+				"feet"
+			],
+			"spots": [
+				[
+					0.635,
+					0.46,
+					0.3559,
+					0.5
+				],
+				[
+					0.808,
+					0.708,
+					0.3559,
+					0.7087
+				],
+				[
+					0.635,
+					0.928,
+					0.3559,
+					0.9174
+				],
+				[
+					0.635,
+					0.16,
+					0.3559,
+					0.187
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Count the heads down: 1, 4, 6 and 8.",
+			"explain": "The chin is at 1 head, the hips at 4, the knees at 6 and the feet at 8."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A figure 8 heads tall is drawn 24 cm tall. How tall is each head?",
+			"answer": "3",
+			"hint": "The height is shared into 8 equal heads.",
+			"explain": "24 ÷ 8 = 3 cm a head."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A figure 8 heads tall is drawn 32 cm tall. How far down from the top of the head are the knees, 6 heads down?",
+			"answer": "24",
+			"hint": "Find one head first.",
+			"explain": "32 ÷ 8 = 4 cm a head, and 6 × 4 = 24 cm."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does the line of action show?",
+			"answer": 0,
+			"hint": "It is one curve through the whole body.",
+			"choices": [
+				"the pose's energy and direction",
+				"where the light comes from",
+				"the horizon",
+				"the clothes' outline"
+			],
+			"explain": "It shows the energy and direction of the pose, so the drawing feels alive."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which shapes build a mannequin figure?",
+			"answer": 0,
+			"hint": "Think of a wooden artist's mannequin.",
+			"choices": [
+				"ovals, cylinders and circles",
+				"squares only",
+				"triangles only",
+				"letters"
+			],
+			"explain": "Ovals for the chest and hips, cylinders for limbs, circles for joints."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A grown-up's arm span is about as wide as they are tall.",
+			"answer": true,
+			"hint": "Think of the Vitruvian Man in his square.",
+			"explain": "True: arms out, about as wide as tall."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of a gesture sketch in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with the energy, end with the details.",
+			"items": [
+				"add details if there is time",
+				"add the arms and legs",
+				"add the head and spine",
+				"draw the line of action"
+			],
+			"explain": "Line of action, head and spine, limbs, and details last."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A child 6 heads tall is drawn 30 cm tall. How tall is each head?",
+			"answer": "5",
+			"hint": "Share the height into the number of heads.",
+			"explain": "A child is about 6 heads tall, so share the height into 6: 30 ÷ 6 = 5 cm for each head."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which pose is this sketch?",
+			"answer": 0,
+			"hint": "Follow the arms and the line of action.",
+			"choices": [
+				"throwing",
+				"sitting",
+				"jumping",
+				"walking"
+			],
+			"explain": "One arm reaches back and up over the head and the body leans into it: throwing.",
+			"picture": {
+				"kind": "figure_study",
+				"view": "gesture",
+				"pose": "throw",
+				"line": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Arms hanging down, where do the fingertips reach on an 8-head figure?",
+			"answer": 0,
+			"hint": "The wrists are at the hips, 4 heads down.",
+			"choices": [
+				"about 5 heads down, mid-thigh",
+				"the knees",
+				"the waist",
+				"the chin"
+			],
+			"explain": "The wrists reach the hips at 4 heads, and the fingertips about 5 heads, halfway down the thigh."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A figure 8 heads tall is drawn with heads of 4 cm. About how wide is its arm span?",
+			"answer": "32",
+			"hint": "The arm span is about the height.",
+			"explain": "The height is 8 heads: 8 × 4 = 32 cm. Arms spread out are about as wide as the figure is tall, so the arm span is about 32 cm too."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which pose is this mannequin?",
+			"answer": 0,
+			"hint": "Where are the arms and feet?",
+			"choices": [
+				"jumping",
+				"sitting",
+				"standing still",
+				"walking"
+			],
+			"explain": "Arms up, knees bent and feet off the ground: jumping.",
+			"picture": {
+				"kind": "figure_study",
+				"view": "mannequin",
+				"pose": "jump"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An 8-head figure is drawn 40 cm tall. How far down from the top of the head are its knees, in cm?",
+			"answer": "30",
+			"hint": "Find the size of one head first. The knees are at 6 heads.",
+			"explain": "One head is 40 ÷ 8 = 5 cm. The knees are 6 heads down: 6 × 5 = 30 cm from the top."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.head_heights",
+			"level": 1
+		},
+		{
+			"gen": "g7c.head_heights",
+			"level": 2
+		},
+		{
+			"gen": "g7c.head_heights",
+			"level": 3
+		}
+	]
+}

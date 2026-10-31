@@ -1,0 +1,422 @@
+{
+	"id": "g7.art.composition",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, what did the principle of emphasis do? (It made one part stand out, drawing the eye to it.) Today: composing a picture, and a photo with the game's camera."
+		},
+		{
+			"text": "Composition is how the parts of a picture are arranged. Where you put the subject changes where the eye goes and how the picture feels.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.33,
+					0.55
+				],
+				"horizon": 0.67
+			}
+		},
+		{
+			"text": "The rule of thirds: imagine lines dividing the frame into thirds across and down. Put the subject on a line, or where two lines cross, not in the dead centre. It feels more alive.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.33,
+					0.55
+				],
+				"horizon": 0.67,
+				"grid": true
+			}
+		},
+		{
+			"text": "Put the horizon on a third line too: on the lower line for a big sky, on the upper line for more land or sea.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.67,
+					0.35
+				],
+				"thing": "tower",
+				"horizon": 0.33,
+				"grid": true
+			}
+		},
+		{
+			"text": "Leading lines, such as a road, a river or a fence, pull the eye along them to the subject.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.67,
+					0.45
+				],
+				"thing": "tower",
+				"lines": "road"
+			}
+		},
+		{
+			"text": "Framing puts something round the subject, such as an arch, a window or branches: a frame inside the picture that points to what matters.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.6,
+					0.55
+				],
+				"thing": "boat",
+				"lines": "river",
+				"frame": "arch"
+			}
+		},
+		{
+			"text": "Worked example: a tree in the dead centre with the horizon across the middle feels still and flat. Move the tree onto the left third line and the horizon onto the lower one, and the picture comes alive.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.33,
+					0.55
+				],
+				"horizon": 0.67,
+				"grid": true
+			}
+		},
+		{
+			"text": "Try it in the world: in the game's photo mode (MORE, then PHOTO), put your buddy on a third line with a path leading to it. Next: woodcut prints."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Is the tree on one of the thirds lines?",
+			"answer": true,
+			"hint": "Find the lines a third and two thirds of the way across.",
+			"explain": "True: it stands on the left third line.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.33,
+					0.5
+				],
+				"grid": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Is the buddy on one of the thirds lines?",
+			"answer": false,
+			"hint": "Is it a third of the way across, or halfway?",
+			"explain": "False: it is in the dead centre.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.5,
+					0.5
+				],
+				"thing": "buddy",
+				"grid": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does the rule of thirds put the subject?",
+			"answer": 0,
+			"hint": "Think of the grid of thirds.",
+			"choices": [
+				"on a third line or where two cross",
+				"in the dead centre",
+				"at the very edge",
+				"anywhere"
+			],
+			"explain": "On a third line, or best of all where two lines cross."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a leading line do?",
+			"answer": 0,
+			"hint": "Follow the road with your eye.",
+			"choices": [
+				"leads the eye to the subject",
+				"cuts the picture in half",
+				"makes it darker",
+				"frames the edge"
+			],
+			"explain": "A road, river or fence leads the eye along it to the subject.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.67,
+					0.45
+				],
+				"thing": "tower",
+				"lines": "road"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the arch doing in this photo?",
+			"answer": 0,
+			"hint": "It goes round the view like a picture frame.",
+			"choices": [
+				"framing the boat",
+				"leading the eye away",
+				"hiding the subject",
+				"making a horizon"
+			],
+			"explain": "The arch frames the boat: a frame inside the picture.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.6,
+					0.55
+				],
+				"thing": "boat",
+				"lines": "river",
+				"frame": "arch"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which crossing of the thirds lines is the tower on?",
+			"answer": 0,
+			"hint": "Top or bottom half? Left or right?",
+			"choices": [
+				"top right",
+				"top left",
+				"bottom right",
+				"bottom left"
+			],
+			"explain": "It is where the upper line crosses the right line: the top right crossing.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.67,
+					0.33
+				],
+				"thing": "tower",
+				"grid": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Is the boat where two thirds lines cross?",
+			"answer": true,
+			"hint": "Check both lines, across and down.",
+			"explain": "True: it sits on the right line and the lower line, where they cross.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.67,
+					0.67
+				],
+				"thing": "boat",
+				"grid": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The photo should show a huge sky. Where should the horizon go?",
+			"answer": 0,
+			"hint": "Which choice leaves most room above the horizon?",
+			"choices": [
+				"on the lower third line",
+				"across the middle",
+				"on the upper third line",
+				"at the very top"
+			],
+			"explain": "On the lower third line, so two thirds of the picture is sky."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the road doing in this photo?",
+			"answer": 0,
+			"hint": "Follow its edges.",
+			"choices": [
+				"leading the eye to the tower",
+				"framing the tower",
+				"hiding the tower",
+				"splitting the picture"
+			],
+			"explain": "Its edges run towards the tower, leading the eye there.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.67,
+					0.45
+				],
+				"thing": "tower",
+				"lines": "road",
+				"grid": true
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each idea to an example.",
+			"items": [
+				"rule of thirds",
+				"leading line",
+				"framing",
+				"viewpoint"
+			],
+			"matches": [
+				"a path to the castle",
+				"an arch round the view",
+				"looking up from low down",
+				"the subject on a third line"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of each idea's example in a photo.",
+			"explain": "Thirds: a third line; leading line: a path; framing: an arch; viewpoint: where you stand."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A photo is 1,200 pixels wide. How far from its left edge is the first thirds line?",
+			"answer": "400",
+			"hint": "A third of the width.",
+			"explain": "1,200 ÷ 3 = 400 pixels."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A photo is 900 pixels tall. You put the horizon on the lower thirds line. How far down from the top is it?",
+			"answer": "600",
+			"hint": "The lower line is two thirds of the way down.",
+			"explain": "A third of 900 is 300, so two thirds is 600 pixels."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Is the tree on a third line?",
+			"answer": false,
+			"hint": "Check both lines across and both lines down.",
+			"explain": "False: it is near the middle, off every third line.",
+			"picture": {
+				"kind": "thirds_frame",
+				"subject": [
+					0.45,
+					0.55
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A friend is in the dead centre with a flat horizon through their head. What would improve it most?",
+			"answer": 0,
+			"hint": "Use the rule of thirds for both the person and the horizon.",
+			"choices": [
+				"move them to a third line and lower the horizon",
+				"zoom out until they are tiny",
+				"add more people",
+				"tilt the camera a lot"
+			],
+			"explain": "Move them onto a third line and the horizon onto a third line clear of their head."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which viewpoint makes a buddy look big and powerful?",
+			"answer": 0,
+			"hint": "Think of how big grown-ups look to a small child.",
+			"choices": [
+				"low down, looking up",
+				"high up, looking down",
+				"far away",
+				"from behind"
+			],
+			"explain": "Low down, looking up: the subject towers over you."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Breaking the rule of thirds on purpose, with a centred subject for calm symmetry, can also work.",
+			"answer": true,
+			"hint": "Rules in art are tools, not laws.",
+			"explain": "True: a centred subject can feel calm and grand, when it is chosen on purpose."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the choices: following the rule of thirds, or not?",
+			"groups": [
+				"uses thirds",
+				"does not"
+			],
+			"items": [
+				"a tree on the left third line",
+				"the horizon across the middle",
+				"a boat where two lines cross",
+				"the subject in the dead centre",
+				"the horizon on the lower line"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is the subject or the horizon on a third line, or in the middle?",
+			"explain": "Using thirds: the tree on a third line, the boat where two lines cross, the horizon on the lower line. Not: a horizon across the middle, and a subject in the dead centre."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A photo is 1,500 pixels wide. How far from the left edge is the right-hand thirds line?",
+			"answer": "1000",
+			"hint": "Find one third of the width, then double it.",
+			"explain": "One third of 1,500 is 1,500 ÷ 3 = 500. The right-hand line is two thirds across: 2 × 500 = 1,000 pixels."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each problem in a photo to its fix.",
+			"items": [
+				"the horizon cuts through a head",
+				"the subject sits dead centre",
+				"nothing leads the eye in",
+				"a dull, flat view"
+			],
+			"matches": [
+				"add a path running to it",
+				"move it onto a third line",
+				"move the horizon to a third line",
+				"shoot from low down, looking up"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "Think of the tools: thirds, the horizon, leading lines and viewpoint.",
+			"explain": "Move the horizon to a third line, clear of the head. Move a centred subject onto a third line. Add a path that leads the eye in. For a dull view, change the viewpoint: shoot from low down."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.thirds_place",
+			"level": 1
+		},
+		{
+			"gen": "g7c.thirds_place",
+			"level": 2
+		},
+		{
+			"gen": "g7c.thirds_place",
+			"level": 3
+		}
+	]
+}

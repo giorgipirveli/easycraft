@@ -1,0 +1,661 @@
+{
+	"id": "venus_hot",
+	"title": "Why Venus is the hottest",
+	"topic": "space",
+	"link": {
+		"star_map": true
+	},
+	"scenes": [
+		{
+			"seconds": 8,
+			"background": "space",
+			"caption": "Mercury is closest to the Sun, but it is not the hottest planet!",
+			"say": "Mercury is the closest planet to the Sun. But it is not the hottest planet!",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 3.2,
+					"effect": "boing"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "sun",
+					"at": [
+						-10,
+						250
+					],
+					"size": 200,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.1,
+							"from": [
+								-160,
+								250
+							]
+						}
+					],
+					"bleed": true
+				},
+				{
+					"kind": "planet",
+					"body": "mercury",
+					"at": [
+						140,
+						250
+					],
+					"size": 30,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.8
+						},
+						{
+							"do": "pulse",
+							"at": 2.4,
+							"times": 2
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "venus",
+					"at": [
+						215,
+						250
+					],
+					"size": 52,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.1
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "earth",
+					"at": [
+						300,
+						250
+					],
+					"size": 54,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "closest",
+					"at": [
+						140,
+						190
+					],
+					"size": 22,
+					"color": "white",
+					"box": "grey",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "?",
+					"at": [
+						215,
+						180
+					],
+					"size": 60,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.2
+						},
+						{
+							"do": "bounce",
+							"at": 4.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"caption": "Mercury has almost no air: at night its heat escapes into space.",
+			"say": "Mercury has almost no air. In the day it reaches 430 degrees, but at night its heat escapes, and it falls to minus 180.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "pop"
+				},
+				{
+					"at": 4.8,
+					"effect": "ice_crackle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "mercury",
+					"at": [
+						120,
+						240
+					],
+					"size": 150,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "spin",
+							"at": 1.0,
+							"dur": 8,
+							"turns": 0.1
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "thermometer",
+					"at": [
+						270,
+						240
+					],
+					"size": 170,
+					"value": 0.95,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.6
+						},
+						{
+							"do": "value",
+							"at": 4.4,
+							"dur": 2.0,
+							"to": 0.08
+						}
+					]
+				},
+				{
+					"kind": "count",
+					"from": 430,
+					"to": -180,
+					"suffix": " °C",
+					"at": [
+						236,
+						90
+					],
+					"size": 34,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						},
+						{
+							"do": "value",
+							"at": 4.4,
+							"dur": 2.0,
+							"to": -180
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "day",
+					"at": [
+						120,
+						110
+					],
+					"size": 26,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						},
+						{
+							"do": "out",
+							"at": 4.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "night",
+					"at": [
+						120,
+						110
+					],
+					"size": 26,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.6
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						120,
+						170
+					],
+					"to": [
+						60,
+						60
+					],
+					"color": "orange",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 5.4,
+							"dur": 0.6
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						170,
+						190
+					],
+					"to": [
+						230,
+						40
+					],
+					"color": "orange",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 5.7,
+							"dur": 0.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9.5,
+			"background": "space",
+			"caption": "Venus is wrapped in thick air, mostly carbon dioxide.",
+			"say": "Venus is wrapped in very thick air, mostly carbon dioxide. Sunlight gets in, but the heat can't get out.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 5.2,
+					"effect": "boing"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "circle",
+					"at": [
+						180,
+						260
+					],
+					"size": 250,
+					"color": "#f4e0a8",
+					"alpha": 0.35,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.2
+						},
+						{
+							"do": "pulse",
+							"at": 2.0,
+							"times": 2,
+							"dur": 1.6,
+							"amount": 0.05
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "venus",
+					"at": [
+						180,
+						260
+					],
+					"size": 170,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						20,
+						60
+					],
+					"to": [
+						120,
+						190
+					],
+					"color": "yellow",
+					"width": 8,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.6,
+							"dur": 0.8
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						340,
+						60
+					],
+					"to": [
+						240,
+						190
+					],
+					"color": "yellow",
+					"width": 8,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.8,
+							"dur": 0.8
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						150,
+						210
+					],
+					"to": [
+						210,
+						210
+					],
+					"color": "red",
+					"width": 8,
+					"bend": -46,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 4.6,
+							"dur": 0.9
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						220,
+						330
+					],
+					"to": [
+						140,
+						330
+					],
+					"color": "red",
+					"width": 8,
+					"bend": -46,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 5.0,
+							"dur": 0.9
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "gas",
+					"at": [
+						300,
+						380
+					],
+					"size": 70,
+					"color": "grey",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "carbon dioxide",
+					"at": [
+						250,
+						430
+					],
+					"size": 18,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.8
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "sunset",
+			"caption": "So Venus stays about 465 °C, day and night: hot enough to melt lead!",
+			"say": "So Venus stays about 465 degrees, day and night: hot enough to melt lead!",
+			"sounds": [
+				{
+					"at": 0.5,
+					"effect": "ui_tick"
+				},
+				{
+					"at": 3.0,
+					"effect": "jingle_goal"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "thermometer",
+					"at": [
+						110,
+						250
+					],
+					"size": 220,
+					"value": 0.1,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "value",
+							"at": 0.6,
+							"dur": 2.4,
+							"to": 1.0
+						}
+					]
+				},
+				{
+					"kind": "count",
+					"from": 0,
+					"to": 465,
+					"suffix": " °C",
+					"at": [
+						250,
+						150
+					],
+					"size": 44,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.6
+						},
+						{
+							"do": "value",
+							"at": 0.6,
+							"dur": 2.4,
+							"to": 465
+						},
+						{
+							"do": "pulse",
+							"at": 3.2
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "venus",
+					"at": [
+						260,
+						300
+					],
+					"size": 100,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						},
+						{
+							"do": "shake",
+							"at": 3.2,
+							"amount": 3
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						310,
+						380
+					],
+					"size": 60,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						210,
+						390
+					],
+					"size": 46,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 7.5,
+			"background": "night",
+			"caption": "A blanket keeps you warm in a similar way. What else traps heat?",
+			"say": "A blanket keeps you warm in a similar way. What else can you think of that traps heat?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "character",
+					"who": "pip",
+					"at": [
+						180,
+						250
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "bounce",
+							"at": 1.2,
+							"height": 10
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 250,
+					"h": 120,
+					"at": [
+						180,
+						312
+					],
+					"color": "pink",
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.8,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "?",
+					"at": [
+						300,
+						120
+					],
+					"size": 70,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.6
+						},
+						{
+							"do": "pulse",
+							"at": 2.4,
+							"times": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

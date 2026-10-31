@@ -1,0 +1,303 @@
+{
+	"id": "seasons_tilt",
+	"title": "Why we have seasons",
+	"topic": "space",
+	"link": {"unit": "g5.science.shadows_seasons"},
+	"still": 26,
+	"stage": {
+		"sky": "space",
+		"light": "orrery",
+		"models": [
+			{
+				"id": "sun",
+				"model": "sun",
+				"at": [0, 0, 0],
+				"size": 3.2,
+				"moves": [{"do": "spin", "at": 0, "rate": 0.03}]
+			},
+			{
+				"id": "path",
+				"model": "orbit_line",
+				"at": [0, 0, 0],
+				"radius": 12,
+				"width": 0.12,
+				"color": "#ffffff50"
+			},
+			{
+				"id": "axis",
+				"model": "blocks",
+				"at": [12, 0, 0],
+				"fill": [{"box": [0, -4, 0, 0, 3, 0], "block": "PAINTED_WHITE"}],
+				"stretch": [0.12, 1, 0.12],
+				"turn": [0, 0, 23.4],
+				"moves": [
+					{"do": "orbit", "at": 0, "around": [0, 0, 0], "period": 10, "dir": 1, "dur": 20},
+					{"do": "orbit", "at": 30, "around": [0, 0, 0], "period": 10, "dir": 1, "dur": 5},
+					{"do": "orbit", "at": 40, "around": [0, 0, 0], "period": 10, "dir": 1, "dur": 10}
+				]
+			},
+			{
+				"id": "north",
+				"model": "blocks",
+				"at": [0, 4, 0],
+				"on": "axis",
+				"cells": [[0, 0, 0, "PAINTED_RED"]],
+				"size": 0.36
+			},
+			{
+				"id": "earth",
+				"model": "planet",
+				"at": [0, 0, 0],
+				"on": "axis",
+				"body": "earth",
+				"size": 2.8,
+				"night": 0.04,
+				"moves": [{"do": "spin", "at": 0, "rate": 0.25}]
+			}
+		],
+		"camera": [
+			{"at": 0, "pos": [0, 30, 58], "look": [0, 1.5, 0], "fov": 44},
+			{"at": 4.4, "pos": [3, 29, 57], "look": [0, 1.5, 0], "fov": 44},
+			{"at": 9.95, "pos": [-13, 5, 8], "look": [0, 0.6, 0], "fov": 40, "follow": "axis"},
+			{"at": 10, "pos": [0, 7, 15], "look": [0, 0.4, 0], "fov": 40, "cut": true, "follow": "axis"},
+			{"at": 19.95, "pos": [0, 7, 15], "look": [0, 0.4, 0], "fov": 40, "follow": "axis"},
+			{"at": 20, "pos": [12, 4.5, 15.5], "look": [12, 0.3, 0], "fov": 40, "cut": true},
+			{"at": 29.95, "pos": [12.8, 4.8, 14.9], "look": [12, 0.3, 0], "fov": 40},
+			{"at": 30, "pos": [0, 7, 15], "look": [0, 0.4, 0], "fov": 40, "cut": true, "follow": "axis"},
+			{"at": 35.2, "pos": [0, 4.5, 15.5], "look": [0, 0.3, 0], "fov": 40, "follow": "axis"},
+			{"at": 39.95, "pos": [-0.8, 4.8, 14.9], "look": [0, 0.3, 0], "fov": 40, "follow": "axis"},
+			{"at": 40, "pos": [0, 30, 58], "look": [0, 1.5, 0], "fov": 44, "cut": true},
+			{"at": 50, "pos": [-6, 28, 56], "look": [0, 1.5, 0], "fov": 44}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Earth goes round the Sun once a year, and its axis is tilted!",
+			"say": "Earth goes round the Sun once a year. And look: Earth does not spin upright. Its axis is tilted, by about 23 degrees.",
+			"sounds": [{"at": 6.6, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "TILTED 23.4°",
+					"at": [180, 84],
+					"size": 34,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "pop", "at": 6.6}]
+				},
+				{
+					"kind": "words",
+					"text": "JUNE",
+					"at": [300, 302.3],
+					"size": 20,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "pop", "at": 1.6}, {"do": "out", "at": 4.4}]
+				},
+				{
+					"kind": "words",
+					"text": "DECEMBER",
+					"at": [78, 302.3],
+					"size": 20,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 2.2}, {"do": "out", "at": 4.4}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1, 1]},
+			"caption": "All year, the axis keeps pointing the same way: at the North Star.",
+			"say": "All year round, the axis keeps pointing the same way in space, toward the North Star. Watch the sunlight move round.",
+			"sounds": [{"at": 0.5, "effect": "whoosh"}, {"at": 2, "effect": "sparkle"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "TO THE NORTH STAR",
+					"at": [132, 112],
+					"size": 20,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 2}]
+				},
+				{
+					"kind": "arrow",
+					"from": [112, 130],
+					"to": [87, 146],
+					"color": "white",
+					"width": 6,
+					"bend": 0.2,
+					"moves": [{"do": "draw", "at": 2.4}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1, 1]},
+			"caption": "June: the north leans toward the Sun. Long, sunny days: summer!",
+			"say": "In June, the northern half leans toward the Sun. The Sun climbs high, days are long, and it is summer in the north.",
+			"sounds": [{"at": 0.6, "effect": "pop"}, {"at": 5, "effect": "ding"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "JUNE",
+					"at": [180, 84],
+					"size": 34,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 0.6}]
+				},
+				{
+					"kind": "words",
+					"text": "SUNLIGHT",
+					"at": [78, 140],
+					"size": 20,
+					"color": "ink",
+					"box": "gold",
+					"moves": [{"do": "pop", "at": 1.6}]
+				},
+				{
+					"kind": "arrow",
+					"from": [30, 166],
+					"to": [120, 166],
+					"color": "gold",
+					"width": 8,
+					"moves": [{"do": "draw", "at": 1.8}]
+				},
+				{
+					"kind": "words",
+					"text": "NORTH: SUMMER",
+					"at": [240, 150],
+					"size": 20,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "pop", "at": 5}]
+				},
+				{
+					"kind": "arrow",
+					"from": [240, 170],
+					"to": [136, 224],
+					"color": "white",
+					"width": 6,
+					"bend": -0.2,
+					"moves": [{"do": "draw", "at": 5.3}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1, 1]},
+			"caption": "December: the north leans away. Short, cold days: winter!",
+			"say": "Half a year later, Earth is on the other side of the Sun. The north leans away: days are short, and it is winter.",
+			"sounds": [{"at": 0.4, "effect": "whoosh"}, {"at": 6, "effect": "ice_crackle"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "DECEMBER",
+					"at": [180, 84],
+					"size": 34,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 5.6}]
+				},
+				{
+					"kind": "words",
+					"text": "SUNLIGHT",
+					"at": [282, 140],
+					"size": 20,
+					"color": "ink",
+					"box": "gold",
+					"moves": [{"do": "pop", "at": 5.8}]
+				},
+				{
+					"kind": "arrow",
+					"from": [330, 166],
+					"to": [240, 166],
+					"color": "gold",
+					"width": 8,
+					"moves": [{"do": "draw", "at": 6}]
+				},
+				{
+					"kind": "words",
+					"text": "NORTH: WINTER",
+					"at": [110, 150],
+					"size": 20,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 6.6}]
+				},
+				{
+					"kind": "arrow",
+					"from": [110, 170],
+					"to": [128, 226],
+					"color": "white",
+					"width": 6,
+					"bend": 0.2,
+					"moves": [{"do": "draw", "at": 6.9}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Surprise: Earth is closest to the Sun in January! So, distance or tilt?",
+			"say": "Surprise: Earth is closest to the Sun in early January, in northern winter! So what makes the seasons: the distance, or the tilt?",
+			"sounds": [{"at": 0.6, "effect": "pop"}, {"at": 4, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "JANUARY: 147 MILLION km",
+					"at": [180, 392],
+					"size": 20,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 1}]
+				},
+				{
+					"kind": "arrow",
+					"from": [150, 376],
+					"to": [39, 362],
+					"color": "white",
+					"width": 5,
+					"moves": [{"do": "draw", "at": 1.3}],
+					"bend": 0.2
+				},
+				{
+					"kind": "words",
+					"text": "JULY: 152 MILLION km",
+					"at": [180, 150],
+					"size": 20,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "pop", "at": 4}]
+				},
+				{
+					"kind": "arrow",
+					"from": [220, 166],
+					"to": [311, 312],
+					"color": "white",
+					"width": 5,
+					"moves": [{"do": "draw", "at": 4.3}],
+					"bend": 0.2
+				},
+				{
+					"kind": "words",
+					"text": "NOT TO SCALE",
+					"at": [180, 84],
+					"size": 20,
+					"color": "white",
+					"box": "ink",
+					"moves": [{"do": "pop", "at": 6}]
+				}
+			]
+		}
+	]
+}

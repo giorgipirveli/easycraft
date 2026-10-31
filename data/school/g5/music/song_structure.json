@@ -1,0 +1,502 @@
+{
+	"id": "g5.music.song_structure",
+	"lesson": [
+		{
+			"text": "Quick memory: what is an ostinato? (A pattern that repeats over and over.) Today: how songs are built from parts that come back."
+		},
+		{
+			"text": "Songs have parts, called sections. We give each new section a letter: the first is A. If it comes back, it is A again; a new one is B, then C.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"A",
+					"B",
+					"A"
+				]
+			}
+		},
+		{
+			"text": "Binary form is A B: two different parts. Ternary form is A B A: a part, a new part, then the first part again, like a sandwich. Listen: A, B, A.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"A",
+					"B",
+					"A"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"F4",
+					"A4",
+					"F4",
+					"D4",
+					"C4",
+					"E4",
+					"G4",
+					"E4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"text": "In rondo form, the A section keeps coming back between new parts: A B A C A. Beethoven's Für Elise is a rondo.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"A",
+					"B",
+					"A",
+					"C",
+					"A"
+				]
+			}
+		},
+		{
+			"text": "Pop songs have verses and a chorus. Each verse has the same tune but new words; the chorus has the same tune and the same words every time, and it is usually the catchiest part.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"verse",
+					"chorus",
+					"verse",
+					"chorus"
+				]
+			}
+		},
+		{
+			"text": "A bridge is a new part, usually heard once near the end, so the last chorus feels fresh. An intro starts the song, and an outro ends it.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"intro",
+					"verse",
+					"chorus",
+					"bridge",
+					"chorus",
+					"outro"
+				],
+				"mark": 3
+			}
+		},
+		{
+			"text": "Worked example: verse, chorus, verse, chorus, bridge, chorus. The chorus comes 3 times, the verse twice and the bridge once.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"verse",
+					"chorus",
+					"verse",
+					"chorus",
+					"bridge",
+					"chorus"
+				],
+				"mark": 4
+			}
+		},
+		{
+			"text": "Try it in the world: listen to a favourite song and write down its sections in order: intro, verse, chorus … How many times does the chorus come? Next: writing your own song."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the form A B A called?",
+			"answer": 0,
+			"hint": "How many parts, and does the first come back?",
+			"choices": [
+				"ternary form",
+				"binary form",
+				"rondo form",
+				"verse and chorus"
+			],
+			"explain": "A, B, then A again: three parts, so ternary form.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"A",
+					"B",
+					"A"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A chorus has the same words and the same tune every time it comes.",
+			"answer": true,
+			"hint": "Think of the part everyone sings along to.",
+			"explain": "True: the chorus repeats its words and its tune."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each section to what it is.",
+			"items": [
+				"verse",
+				"chorus",
+				"bridge",
+				"intro"
+			],
+			"matches": [
+				"same tune, same words",
+				"a new part near the end",
+				"starts the song",
+				"same tune, new words"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Which part changes its words each time?",
+			"explain": "Verses change their words, the chorus repeats everything, the bridge is new near the end, and the intro starts."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen to the two phrases. Is the second the same as the first, or new?",
+			"answer": 0,
+			"hint": "Listen to the first phrase, then compare the second with it.",
+			"choices": [
+				"A A: the same",
+				"A B: new"
+			],
+			"explain": "Both phrases go C, E, G, E: the same, so it is A A.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C4",
+					"E4",
+					"G4",
+					"E4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many times is the chorus played in this song?",
+			"answer": "3",
+			"hint": "Touch each chorus block as you count.",
+			"explain": "verse, chorus, verse, chorus, bridge, chorus: the chorus comes 3 times.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"verse",
+					"chorus",
+					"verse",
+					"chorus",
+					"bridge",
+					"chorus"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen to the three phrases (four notes each). Which form did you hear?",
+			"answer": 0,
+			"hint": "Call the first phrase A. Is each next phrase the same (A again) or new (B)?",
+			"choices": [
+				"A B A",
+				"A A B",
+				"A B B",
+				"A B C"
+			],
+			"explain": "The first phrase came back at the end: A B A.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"F4",
+					"A4",
+					"F4",
+					"D4",
+					"C4",
+					"E4",
+					"G4",
+					"E4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In rondo form, which section keeps coming back?",
+			"answer": 0,
+			"hint": "Look at A B A C A.",
+			"choices": [
+				"A",
+				"B",
+				"C",
+				"none of them"
+			],
+			"explain": "The A section comes back between the new parts: A B A C A."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these sections in a typical song's order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "The intro starts it; the bridge comes near the end.",
+			"items": [
+				"verse",
+				"bridge",
+				"intro",
+				"chorus",
+				"last chorus"
+			],
+			"explain": "Intro, verse, chorus, then the bridge near the end, and a last chorus."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen to the three phrases (four notes each). Which form did you hear?",
+			"answer": 0,
+			"hint": "Call the first phrase A. Is each next phrase the same or new?",
+			"choices": [
+				"A B B",
+				"A B A",
+				"A A B",
+				"A B C"
+			],
+			"explain": "A new phrase came second, then it came again: A B B.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"F4",
+					"A4",
+					"F4",
+					"D4",
+					"F4",
+					"A4",
+					"F4",
+					"D4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A bridge usually comes many times in a song.",
+			"answer": false,
+			"hint": "Why is it called a bridge?",
+			"explain": "False: a bridge usually comes once, near the end, to lead to the last chorus."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen to the three phrases (four notes each). Which form did you hear?",
+			"answer": 0,
+			"hint": "Call the first phrase A. Is each next phrase the same or new?",
+			"choices": [
+				"A B A",
+				"A A B",
+				"A B B",
+				"A B C"
+			],
+			"explain": "The first phrase came back after a new one: A B A.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"G4",
+					"C5",
+					"C5",
+					"E4",
+					"D4",
+					"C4",
+					"D4",
+					"G4",
+					"G4",
+					"C5",
+					"C5"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is this form called?",
+			"answer": 0,
+			"hint": "Which section keeps coming back?",
+			"choices": [
+				"rondo form",
+				"ternary form",
+				"binary form",
+				"verse and chorus"
+			],
+			"explain": "A keeps coming back between B and C: rondo form.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"A",
+					"B",
+					"A",
+					"C",
+					"A"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A rondo goes A B A C A D A. How many times is A played?",
+			"answer": "4",
+			"hint": "Count every A.",
+			"explain": "A B A C A D A: A comes 4 times."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen to the three phrases (four notes each). Which form did you hear?",
+			"answer": 0,
+			"hint": "Are any phrases the same as an earlier one?",
+			"choices": [
+				"A B C",
+				"A B A",
+				"A A B",
+				"A B B"
+			],
+			"explain": "All three phrases are different: A B C.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"F4",
+					"A4",
+					"F4",
+					"D4",
+					"G4",
+					"G4",
+					"C5",
+					"C5"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a bridge make the last chorus feel fresh?",
+			"answer": 0,
+			"hint": "What happens when you hear something new before something you know?",
+			"choices": [
+				"It is different, so the chorus sounds new again",
+				"It is louder",
+				"It has no music",
+				"It repeats the chorus"
+			],
+			"explain": "The bridge brings something different, so when the chorus comes back it feels fresh."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen to the three phrases (four notes each). Which form did you hear?",
+			"answer": 0,
+			"hint": "Is the second phrase the same as the first?",
+			"choices": [
+				"A A B",
+				"A B A",
+				"A B B",
+				"A B C"
+			],
+			"explain": "The first phrase came twice, then a new one: A A B.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4",
+					"D4",
+					"C4",
+					"D4",
+					"E4",
+					"D4",
+					"C4",
+					"D4",
+					"F4",
+					"A4",
+					"F4",
+					"D4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "In a song, which stay the same every time, and which change?",
+			"groups": [
+				"the same every time",
+				"changes"
+			],
+			"items": [
+				"the chorus's words",
+				"the chorus's tune",
+				"the verse's tune",
+				"the verse's words"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1
+			],
+			"hint": "Verses tell more of the story each time.",
+			"explain": "The chorus's words and tune and the verse's tune stay the same. The verse's words change."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Each verse lasts 16 bars and each chorus 8 bars. A song has 2 verses and 3 choruses. How many bars is that?",
+			"answer": "56",
+			"hint": "Work out the verses and the choruses, then add them.",
+			"explain": "Verses: 2 × 16 = 32 bars. Choruses: 3 × 8 = 24 bars. In all: 32 + 24 = 56 bars."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.form_count",
+			"level": 1
+		},
+		{
+			"gen": "g5a.form_count",
+			"level": 2
+		},
+		{
+			"gen": "g5a.form_count",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,504 @@
+{
+	"id": "g6.music.early_music",
+	"lesson": [
+		{
+			"text": "Quick memory: which period came before the Classical period of Haydn and Mozart? (The Baroque, of Bach and Handel.) Today: older music still, from the Middle Ages and the Renaissance.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 400,
+				"to": 1800,
+				"step": 200,
+				"events": [
+					[
+						1150,
+						"Hildegard's chants"
+					],
+					[
+						1501,
+						"printed music"
+					],
+					[
+						1607,
+						"an early opera"
+					]
+				],
+				"eras": [
+					[
+						500,
+						1400,
+						"Medieval"
+					],
+					[
+						1400,
+						1600,
+						"Renaissance"
+					],
+					[
+						1600,
+						1750,
+						"Baroque"
+					]
+				]
+			}
+		},
+		{
+			"text": "Medieval music (about 500-1400): in monasteries, monks and nuns sang plainchant: one tune sung together in Latin, with no harmony and no steady beat.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D4",
+					"E4",
+					"F4",
+					"E4",
+					"D4",
+					"C4",
+					"D4:2",
+					"F4",
+					"G4",
+					"F4",
+					"E4",
+					"D4:2"
+				]
+			},
+			"picture": {
+				"kind": "melody",
+				"notes": [
+					"D4",
+					"E4",
+					"F4",
+					"E4",
+					"D4",
+					"C4",
+					"D4",
+					"F4",
+					"G4",
+					"F4",
+					"E4",
+					"D4"
+				]
+			}
+		},
+		{
+			"text": "Hildegard of Bingen (1098-1179) was a German abbess. She wrote some of the best-known chants, as well as poems and books about nature and medicine."
+		},
+		{
+			"text": "Around 1025, a monk called Guido of Arezzo drew lines to show high and low notes: the start of the stave we use today. He sang ut, re, mi to help singers learn tunes: today's do, re, mi.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"D4",
+					"E4"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Outside the church, travelling musicians played for dances and sang songs of love and adventure, with lutes, recorders, shawms and drums. The estampie was a lively medieval dance."
+		},
+		{
+			"text": "Renaissance music (about 1400-1600) wove many tunes together at once: polyphony. Thomas Tallis (about 1505-1585) wrote Spem in alium for 40 separate voices.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4",
+					"D4+G4",
+					"E4+C5",
+					"F4+A4",
+					"E4+G4",
+					"D4+B4",
+					"C4+C5:2"
+				]
+			},
+			"picture": {
+				"kind": "tracks",
+				"bars": 8,
+				"tracks": [
+					[
+						"voice 1",
+						[
+							[
+								0,
+								8
+							]
+						]
+					],
+					[
+						"voice 2",
+						[
+							[
+								1,
+								7
+							]
+						]
+					],
+					[
+						"voice 3",
+						[
+							[
+								2,
+								6
+							]
+						]
+					],
+					[
+						"voice 4",
+						[
+							[
+								3,
+								5
+							]
+						]
+					]
+				]
+			}
+		},
+		{
+			"text": "In 1501, Ottaviano Petrucci printed a book of music with movable type, so music could be shared widely. Around 1600 the Baroque period began, with some of the first operas."
+		},
+		{
+			"text": "Try it in the world: sing one line slowly and freely like a chant, then sing a round with friends to feel many tunes at once. Next: syncopation."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who sang plainchant in the Middle Ages?",
+			"answer": 0,
+			"hint": "Where was the music sung?",
+			"choices": [
+				"monks and nuns in monasteries",
+				"rock bands",
+				"orchestras",
+				"Baroque opera singers"
+			],
+			"explain": "Monks and nuns sang it in monasteries."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Plainchant has a strong, steady dance beat.",
+			"answer": false,
+			"hint": "Listen to the chant in the lesson again.",
+			"explain": "False: it flows freely with no steady beat."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which instrument was played in medieval times?",
+			"answer": 0,
+			"hint": "Which is the oldest?",
+			"choices": [
+				"the lute",
+				"the electric guitar",
+				"the piano",
+				"the saxophone"
+			],
+			"explain": "The lute: the piano came in the 1700s, the saxophone in the 1840s."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which period is the marked event in?",
+			"answer": 0,
+			"hint": "Find which shaded band it sits over.",
+			"choices": [
+				"Renaissance",
+				"Medieval",
+				"Baroque",
+				"Classical"
+			],
+			"explain": "Music was first printed in 1501, in the Renaissance (about 1400-1600).",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 400,
+				"to": 1800,
+				"step": 200,
+				"events": [
+					[
+						1150,
+						"Hildegard's chants"
+					],
+					[
+						1501,
+						"printed music"
+					],
+					[
+						1607,
+						"an early opera"
+					]
+				],
+				"eras": [
+					[
+						500,
+						1400,
+						"Medieval"
+					],
+					[
+						1400,
+						1600,
+						"Renaissance"
+					],
+					[
+						1600,
+						1750,
+						"Baroque"
+					]
+				],
+				"mark": 1
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen: one tune, no harmony, no steady beat. Which music is this like?",
+			"answer": 0,
+			"hint": "One flowing line, sung together.",
+			"choices": [
+				"medieval plainchant",
+				"a rock song",
+				"a Baroque orchestra",
+				"a march"
+			],
+			"explain": "One free-flowing tune with no chords: like plainchant.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D4",
+					"E4",
+					"F4",
+					"E4",
+					"D4",
+					"C4",
+					"D4:2",
+					"F4",
+					"G4",
+					"F4",
+					"E4",
+					"D4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is polyphony?",
+			"answer": 0,
+			"hint": "Poly means many.",
+			"choices": [
+				"many tunes woven together at once",
+				"one tune alone",
+				"music with no notes",
+				"a very loud instrument"
+			],
+			"explain": "Polyphony is many tunes at once, woven together."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tallis's Spem in alium has 40 voices, sung by 8 choirs. How many voices are in each choir?",
+			"answer": "5",
+			"hint": "Share 40 equally among 8.",
+			"explain": "40 ÷ 8 = 5 voices in each choir."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in time order, oldest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Read the dates.",
+			"items": [
+				"the first operas (around 1600)",
+				"Petrucci's printed music (1501)",
+				"Hildegard's chants (1100s)",
+				"Guido's lines for pitch (about 1025)"
+			],
+			"explain": "About 1025, the 1100s, 1501, then around 1600."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Guido of Arezzo helped invent the lines we use to write high and low notes.",
+			"answer": true,
+			"hint": "Think of the stave.",
+			"explain": "True: his lines were the start of the stave."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"plainchant",
+				"polyphony",
+				"estampie",
+				"lute"
+			],
+			"matches": [
+				"a lively dance",
+				"a plucked instrument",
+				"one tune, no steady beat",
+				"many tunes at once"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Chant, many, dance, pluck.",
+			"explain": "Plainchant is one free tune, polyphony many tunes, the estampie a dance and the lute a plucked instrument."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which language was plainchant usually sung in?",
+			"answer": 0,
+			"hint": "The language of the Church in western Europe then.",
+			"choices": [
+				"Latin",
+				"English",
+				"Chinese",
+				"Welsh"
+			],
+			"explain": "Latin, the language of the Church in western Europe."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen: two tunes at once, each with its own shape. Is this plainchant or polyphony?",
+			"answer": 0,
+			"hint": "How many lines can you hear?",
+			"choices": [
+				"polyphony",
+				"plainchant"
+			],
+			"explain": "Two lines move at once, each its own way: polyphony.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4",
+					"D4+G4",
+					"E4+C5",
+					"F4+A4",
+					"E4+G4",
+					"D4+B4",
+					"C4+C5:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did printing music matter?",
+			"answer": 0,
+			"hint": "Before printing, how was music copied?",
+			"choices": [
+				"many copies could be shared widely",
+				"it made music louder",
+				"it stopped people singing",
+				"it was the first music ever"
+			],
+			"explain": "Before, every copy was written by hand; printing let music spread widely."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Palestrina wrote music around 1570. Which period is that?",
+			"answer": 0,
+			"hint": "Look at the lesson's dates: which period runs from about 1400 to 1600?",
+			"choices": [
+				"Renaissance",
+				"Medieval",
+				"Baroque",
+				"Classical"
+			],
+			"explain": "1570 is in the Renaissance."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many years is it from Guido's lines (about 1025) to Petrucci's printed music (1501)?",
+			"answer": "476",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1501 − 1025 = 476 years."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Renaissance composers often wrote for many voices singing different tunes at once.",
+			"answer": true,
+			"hint": "Think of Spem in alium.",
+			"explain": "True: polyphony, like Tallis's 40 voices."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What did Guido's ut, re, mi become today?",
+			"answer": 0,
+			"hint": "Singers still use them.",
+			"choices": [
+				"do, re, mi",
+				"A, B, C",
+				"1, 2, 3",
+				"one, two, three"
+			],
+			"explain": "Ut, re, mi became do, re, mi."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Hildegard of Bingen lived from 1098 to 1179. How old was she when she died?",
+			"answer": "81",
+			"hint": "Take the year she was born from the year she died.",
+			"explain": "1179 − 1098 = 81 years old: a long life for the Middle Ages."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the music by its period.",
+			"groups": [
+				"Medieval",
+				"Renaissance",
+				"Baroque"
+			],
+			"items": [
+				"Hildegard's chants (1100s)",
+				"Spem in alium (about 1570)",
+				"the first operas (around 1600)",
+				"Guido's ut, re, mi (about 1025)",
+				"Petrucci's printed book (1501)",
+				"Bach's music (1700s)"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Medieval is about 500-1400, the Renaissance about 1400-1600, then the Baroque.",
+			"explain": "Medieval: Guido (about 1025) and Hildegard (1100s). Renaissance: Petrucci (1501) and Spem in alium (about 1570). Baroque: the first operas, around 1600, and Bach in the 1700s."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.music_period",
+			"level": 1
+		},
+		{
+			"gen": "g6c.music_period",
+			"level": 2
+		},
+		{
+			"gen": "g6c.music_period",
+			"level": 3
+		}
+	]
+}

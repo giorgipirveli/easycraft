@@ -1,0 +1,399 @@
+{
+	"id": "g3.computing.sequences",
+	"lesson": [
+		{
+			"text": "Quick memory: what is an algorithm? (A list of clear steps in the right order.) Today you give the robot its steps."
+		},
+		{
+			"text": "A program is an algorithm written for a computer or a robot. Its steps run one after another, in order: a sequence. This robot faces right, so FORWARD 3 takes it three squares right.",
+			"picture": {
+				"kind": "robot",
+				"cols": 5,
+				"rows": 3,
+				"start": [
+					0,
+					1
+				],
+				"facing": "E",
+				"path": [
+					[
+						0,
+						1
+					],
+					[
+						1,
+						1
+					],
+					[
+						2,
+						1
+					],
+					[
+						3,
+						1
+					]
+				]
+			}
+		},
+		{
+			"text": "FORWARD 3 is short for FORWARD, FORWARD, FORWARD. When you write the program, tap FORWARD three times."
+		},
+		{
+			"text": "A turn does not move the robot: it only changes the way it faces. TURN RIGHT, then FORWARD, moves it one square to its right.",
+			"picture": {
+				"kind": "robot",
+				"cols": 5,
+				"rows": 4,
+				"start": [
+					1,
+					3
+				],
+				"facing": "N",
+				"goal": [
+					4,
+					1
+				],
+				"path": [
+					[
+						1,
+						3
+					],
+					[
+						1,
+						2
+					],
+					[
+						1,
+						1
+					],
+					[
+						2,
+						1
+					],
+					[
+						3,
+						1
+					],
+					[
+						4,
+						1
+					]
+				]
+			}
+		},
+		{
+			"text": "Plan it: put your finger on the robot. Which way does it face? Count the squares to the flag, and turn when your finger has to turn."
+		},
+		{
+			"text": "There is often more than one right program. The shortest one uses the fewest steps."
+		},
+		{
+			"text": "Test your program: run it one step at a time. If the robot misses the flag, change one step and test again.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"run one step",
+					"check the robot",
+					"change one step",
+					"test again"
+				],
+				"title": "Testing",
+				"loop": true
+			}
+		},
+		{
+			"text": "Try it in the world: mark a start block and a finish block. Write a program like “FORWARD 5, TURN RIGHT, FORWARD 3” and ask a friend to walk it exactly."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which program takes the robot to the flag?",
+			"answer": 0,
+			"hint": "Put your finger on the robot and follow each program one step at a time. A turn does not move it.",
+			"choices": [
+				"FORWARD 4",
+				"FORWARD 3",
+				"TURN LEFT, FORWARD 4",
+				"FORWARD 5"
+			],
+			"explain": "FORWARD 4: the robot faces right, and four squares forward take it to the flag.",
+			"picture": {
+				"kind": "robot",
+				"cols": 5,
+				"rows": 3,
+				"start": [
+					0,
+					1
+				],
+				"facing": "E",
+				"goal": [
+					4,
+					1
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does FORWARD do?",
+			"answer": 0,
+			"hint": "Think of walking straight ahead.",
+			"choices": [
+				"moves the robot one square the way it faces",
+				"turns the robot around",
+				"moves the robot to the flag at once",
+				"moves the robot one square to the left"
+			],
+			"explain": "FORWARD moves the robot one square, the way it faces."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "TURN LEFT moves the robot one square to the left.",
+			"answer": false,
+			"hint": "Does a turn move the robot to a new square?",
+			"explain": "False: TURN LEFT only turns the robot a quarter turn where it stands. It needs FORWARD to move."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a program, the steps run one after another, in order.",
+			"answer": true,
+			"hint": "Think of reading a recipe.",
+			"explain": "True: a program's steps run in order, one after another. That is a sequence."
+		},
+		{
+			"type": "robot",
+			"level": 1,
+			"prompt": "Write a program that takes the robot to the flag.",
+			"board": {
+				"cols": 5,
+				"rows": 3,
+				"start": [
+					0,
+					1
+				],
+				"facing": "E",
+				"goal": [
+					4,
+					1
+				]
+			},
+			"hint": "First check which way the robot faces. Point that way, then plan one square at a time: a turn does not move it.",
+			"explain": "One program that works: FORWARD 4."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which program takes the robot to the flag?",
+			"answer": 0,
+			"hint": "Put your finger on the robot and follow each program one step at a time. A turn does not move it.",
+			"choices": [
+				"FORWARD 2, TURN RIGHT, FORWARD 3",
+				"FORWARD 2, TURN LEFT, FORWARD 3",
+				"FORWARD 3, TURN RIGHT, FORWARD 3",
+				"TURN RIGHT, FORWARD 2"
+			],
+			"explain": "FORWARD 2, TURN RIGHT, FORWARD 3: two squares up, a quarter turn right, three squares right.",
+			"picture": {
+				"kind": "robot",
+				"cols": 5,
+				"rows": 4,
+				"start": [
+					1,
+					3
+				],
+				"facing": "N",
+				"goal": [
+					4,
+					1
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The robot faces left. Which program takes it to the flag?",
+			"answer": 0,
+			"hint": "Put your finger on the robot and follow each program one step at a time. A turn does not move it.",
+			"choices": [
+				"FORWARD 3, TURN RIGHT, FORWARD 3",
+				"FORWARD 3, TURN LEFT, FORWARD 3",
+				"TURN RIGHT, FORWARD 3",
+				"FORWARD 2, TURN RIGHT, FORWARD 3"
+			],
+			"explain": "FORWARD 3 takes it to the left side, TURN RIGHT points it up, and FORWARD 3 takes it to the flag.",
+			"picture": {
+				"kind": "robot",
+				"cols": 4,
+				"rows": 4,
+				"start": [
+					3,
+					3
+				],
+				"facing": "W",
+				"goal": [
+					0,
+					0
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many FORWARD steps are in this program: FORWARD 2, TURN LEFT, FORWARD 3, TURN RIGHT, FORWARD?",
+			"answer": "6",
+			"hint": "Add up the FORWARDs only. Turns do not move the robot.",
+			"explain": "2 + 3 + 1 = 6 FORWARD steps. The turns don't count."
+		},
+		{
+			"type": "robot",
+			"level": 2,
+			"prompt": "Write a program that takes the robot to the flag.",
+			"board": {
+				"cols": 5,
+				"rows": 4,
+				"start": [
+					1,
+					3
+				],
+				"facing": "N",
+				"goal": [
+					4,
+					1
+				]
+			},
+			"hint": "First check which way the robot faces. Point that way, then plan one square at a time: a turn does not move it.",
+			"explain": "One program that works: FORWARD 2, TURN RIGHT, FORWARD 3."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does TURN RIGHT then TURN RIGHT do?",
+			"answer": 0,
+			"hint": "Two quarter turns make how much of a whole turn?",
+			"choices": [
+				"turns the robot to face the other way",
+				"moves it two squares right",
+				"does nothing at all",
+				"moves it back to the start"
+			],
+			"explain": "Two quarter turns make a half turn, so the robot faces the other way. It does not move."
+		},
+		{
+			"type": "robot",
+			"level": 3,
+			"prompt": "Write a program that takes the robot to the flag. Go round the wall!",
+			"board": {
+				"cols": 5,
+				"rows": 5,
+				"start": [
+					0,
+					4
+				],
+				"facing": "E",
+				"goal": [
+					4,
+					0
+				],
+				"walls": [
+					[
+						2,
+						4
+					],
+					[
+						2,
+						3
+					],
+					[
+						2,
+						2
+					]
+				]
+			},
+			"hint": "First check which way the robot faces. Point that way, then plan one square at a time: a turn does not move it.",
+			"explain": "One program that works: FORWARD, TURN LEFT, FORWARD 4, TURN RIGHT, FORWARD 3."
+		},
+		{
+			"type": "robot",
+			"level": 3,
+			"prompt": "Write the shortest program that picks up the gem and then reaches the flag.",
+			"board": {
+				"cols": 4,
+				"rows": 4,
+				"start": [
+					0,
+					0
+				],
+				"facing": "S",
+				"goal": [
+					3,
+					3
+				],
+				"gems": [
+					[
+						0,
+						3
+					]
+				]
+			},
+			"hint": "First check which way the robot faces. Point that way, then plan one square at a time: a turn does not move it.",
+			"explain": "One program that works: FORWARD 3, TURN LEFT, FORWARD 3.",
+			"max": 7
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which program does the same as FORWARD, FORWARD, FORWARD, FORWARD?",
+			"answer": 0,
+			"hint": "Count the FORWARDs.",
+			"choices": [
+				"FORWARD 4",
+				"FORWARD 3",
+				"TURN RIGHT, FORWARD 4",
+				"FORWARD 1"
+			],
+			"explain": "Four FORWARDs in a row can be written FORWARD 4."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "TURN LEFT, TURN LEFT, TURN LEFT faces the robot the same way as one TURN RIGHT.",
+			"answer": true,
+			"hint": "Count the quarter turns. How many make a whole turn?",
+			"explain": "True: three quarter turns to the left end the same way as one quarter turn to the right."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The robot runs FORWARD 3, TURN LEFT, FORWARD 2, TURN LEFT, FORWARD 3. How many squares does it move altogether?",
+			"answer": "8",
+			"hint": "Turns don't move it. Add up the FORWARDs.",
+			"explain": "3 + 2 + 3 = 8 squares. The two turns don't move the robot."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3a.robot_moves",
+			"level": 1
+		},
+		{
+			"gen": "g3a.robot_moves",
+			"level": 2
+		},
+		{
+			"gen": "g3a.code_robot",
+			"level": 1
+		},
+		{
+			"gen": "g3a.code_robot",
+			"level": 2
+		},
+		{
+			"gen": "g3a.code_robot",
+			"level": 3
+		}
+	]
+}

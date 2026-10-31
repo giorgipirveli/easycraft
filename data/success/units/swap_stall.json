@@ -1,0 +1,23 @@
+{
+	"id": "life.money.swap_stall",
+	"lesson": [
+		{"text": "Quick memory: what makes a deal fair? (It is good for both people.) Today you swap at the market."},
+		{"text": "People swap and trade to get things they need: your apples for Lina's pears."},
+		{"text": "A fair swap makes both people happy. Ask kindly what you would like."},
+		{"text": "If a swap is not fair, say \"No, thank you\" kindly, and offer a fairer one."},
+		{"text": "Once you agree a swap and shake hands, it is a promise: keep it."},
+		{"text": "Try it in the practice room: swap fairly at the swap stall."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "A fair swap is...", "answer": 0, "choices": ["good for both people", "good for one person", "never fair"], "hint": "Both happy.", "explain": "Good for both people."},
+		{"type": "truefalse", "level": 1, "prompt": "People swap to get things they need.", "answer": true, "hint": "Apples for pears.", "explain": "True."},
+		{"type": "choice", "level": 1, "prompt": "Lina has pears. You have apples. Why swap?", "answer": 0, "choices": ["So you both have apples and pears", "To take all her pears", "Swapping is never fair"], "hint": "Both get some.", "explain": "So you both have both."},
+		{"type": "choice", "level": 2, "prompt": "Mo offers 1 sticker for ALL your apples. You say...", "answer": 0, "choices": ["No, thank you. 1 apple for 1 sticker?", "Yes, take them all!"], "hint": "Fair for both?", "explain": "Say no kindly, and offer a fair swap."},
+		{"type": "number", "level": 2, "prompt": "You swap 3 apples for 3 pears. How many pears do you get?", "answer": "3", "hint": "The same.", "explain": "3 pears."},
+		{"type": "truefalse", "level": 2, "prompt": "A swap you agreed is a promise.", "answer": true, "hint": "You shook hands.", "explain": "True: keep it."},
+		{"type": "order", "level": 2, "prompt": "A swap: put it in order.", "answer": [1, 0, 2], "items": ["shake hands", "agree what to swap", "swap the things"], "hint": "Agree first.", "explain": "Agree, shake hands, swap."},
+		{"type": "choice", "level": 3, "prompt": "After shaking hands, your friend asks for more. You say...", "answer": 0, "choices": ["We agreed: that's our swap", "Grab your things back", "Walk off without a word"], "hint": "Kindly, what you agreed.", "explain": "Say kindly what you agreed."},
+		{"type": "sort", "level": 3, "prompt": "Fair swap or not?", "groups": ["fair", "not fair"], "items": ["2 apples for 2 pears", "1 sticker for all your apples", "a drawing for a jar, both happy", "all your toys for one sweet"], "answer": [0, 1, 0, 1], "hint": "Both happy?", "explain": "Fair swaps make both happy."},
+		{"type": "truefalse", "level": 3, "prompt": "Things in a fair swap must always be exactly the same.", "answer": false, "hint": "A drawing for a jar?", "explain": "False: fair means both are happy with it."}
+	]
+}

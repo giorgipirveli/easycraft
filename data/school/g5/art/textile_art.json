@@ -1,0 +1,343 @@
+{
+	"id": "g5.art.textile_art",
+	"lesson": [
+		{
+			"text": "Quick memory: in weaving, what does the weft do? (It goes over and under the warp threads.) Today: textile art, making patterns and pictures in cloth."
+		},
+		{
+			"text": "On a loom, warp threads are stretched tight, and the weft goes over and under them. Plain weave goes over one, under one, then swaps each row.",
+			"picture": {
+				"kind": "weave",
+				"rows": [
+					"ouououou",
+					"uouououo",
+					"ouououou",
+					"uouououo"
+				],
+				"weft": [
+					"red",
+					"yellow"
+				]
+			}
+		},
+		{
+			"text": "Change the pattern and the cloth changes. In twill, each row steps one thread along, making diagonal lines. Jeans are made of a strong twill called denim.",
+			"picture": {
+				"kind": "weave",
+				"rows": [
+					"oouuoouu",
+					"ouuoouuo",
+					"uuoouuoo",
+					"uoouuoou"
+				],
+				"weft": [
+					"blue"
+				]
+			}
+		},
+		{
+			"text": "Dyes colour the threads or the cloth. Long ago every dye came from nature: blue from the indigo plant, red from madder roots, and yellow from the weld plant."
+		},
+		{
+			"text": "Resist dyeing keeps the dye off some parts. Tie-dye ties or folds the cloth tightly before dipping it; batik draws lines with hot wax. Where the dye can't reach, the cloth stays pale.",
+			"picture": {
+				"kind": "dye",
+				"what": "tied",
+				"colour": "white"
+			}
+		},
+		{
+			"text": "Worked example: fold a white cloth, tie it tightly in 3 places, dip it in blue dye, then untie it: pale rings stay where the ties were. In India this is bandhani; in Japan, shibori.",
+			"picture": {
+				"kind": "dye",
+				"what": "rings",
+				"colour": "blue"
+			}
+		},
+		{
+			"text": "Textile art around the world: kente cloth from Ghana, woven in narrow strips then sewn together; batik from Indonesia; and the Bayeux Tapestry, about 70 metres of stitching that tells a story from 1066.",
+			"picture": {
+				"kind": "dye",
+				"what": "batik",
+				"colour": "orange"
+			}
+		},
+		{
+			"text": "Try it in the world: weave paper strips in plain weave, then in twill. Or plan a woven pattern from coloured wool blocks in your world. Next: illustration and comics."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In plain weave, the weft goes over one warp thread, then under one.",
+			"answer": true,
+			"hint": "Look at the first weave picture.",
+			"explain": "True: over one, under one, and the next row swaps."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which weave is this?",
+			"answer": 0,
+			"hint": "Does each row swap, step along, or go in pairs?",
+			"choices": [
+				"plain weave",
+				"twill",
+				"basket weave"
+			],
+			"explain": "Over one, under one, swapping each row: plain weave.",
+			"picture": {
+				"kind": "weave",
+				"rows": [
+					"ouououou",
+					"uouououo",
+					"ouououou"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"warp",
+				"weft",
+				"loom",
+				"dye"
+			],
+			"matches": [
+				"holds the warp tight",
+				"colours the threads",
+				"threads stretched on the loom",
+				"goes over and under"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the loom picture.",
+			"explain": "The warp is stretched on the loom, the weft goes over and under, the loom holds the warp, and dye colours the threads."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which plant gives a blue dye?",
+			"answer": 0,
+			"hint": "Its name is a colour too.",
+			"choices": [
+				"indigo",
+				"madder",
+				"weld",
+				"cotton"
+			],
+			"explain": "Indigo gives blue; madder gives red and weld gives yellow."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which weave is this?",
+			"answer": 0,
+			"hint": "Do the overs make diagonal lines?",
+			"choices": [
+				"twill",
+				"plain weave",
+				"basket weave"
+			],
+			"explain": "Each row steps one along, making diagonal lines: twill.",
+			"picture": {
+				"kind": "weave",
+				"rows": [
+					"oouuoouu",
+					"ouuoouuo",
+					"uuoouuoo",
+					"uoouuoou"
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of tie-dye in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The ties must be on before the dye.",
+			"items": [
+				"Rinse it and untie it",
+				"Dip it in the dye",
+				"Tie it tightly",
+				"Fold or twist the cloth"
+			],
+			"explain": "Fold it, tie it, dip it in dye, then rinse and untie it to see the pattern."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: resist dyeing or weaving?",
+			"groups": [
+				"resist dyeing",
+				"weaving"
+			],
+			"items": [
+				"tie-dye",
+				"batik",
+				"shibori",
+				"kente cloth",
+				"plain weave"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Does it keep dye off parts of cloth, or make cloth from threads?",
+			"explain": "Tie-dye, batik and shibori keep dye off parts of the cloth. Kente and plain weave are woven."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do the tied parts stay pale in tie-dye?",
+			"answer": 0,
+			"hint": "What do the ties do to the cloth?",
+			"choices": [
+				"The dye can't reach under the ties",
+				"The ties are made of bleach",
+				"The dye only sits on top",
+				"The cloth is thicker there"
+			],
+			"explain": "The ties squeeze the cloth so tightly that the dye can't get in there."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Jeans are made of a twill called denim.",
+			"answer": true,
+			"hint": "Look closely at jeans: can you see diagonal lines?",
+			"explain": "True: denim is a strong twill, with diagonal lines."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does batik use to keep the dye off parts of the cloth?",
+			"answer": 0,
+			"hint": "It is drawn on hot, and cracks a little when it cools.",
+			"choices": [
+				"hot wax",
+				"string",
+				"paint",
+				"glue"
+			],
+			"explain": "Batik lines are drawn in hot wax; the dye can't get through the wax, so those lines stay pale."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How is kente cloth from Ghana woven?",
+			"answer": 0,
+			"hint": "Think about the size of the loom.",
+			"choices": [
+				"in narrow strips that are sewn together",
+				"in one huge piece",
+				"by knitting",
+				"from paper"
+			],
+			"explain": "Kente is woven in narrow strips, which are then sewn side by side."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A plain weave has 8 warp threads. In one row, how many does the weft go over?",
+			"answer": "4",
+			"hint": "Over one, under one: how many overs in 8 threads?",
+			"explain": "Over, under, over, under …: 8 ÷ 2 = 4 over and 4 under."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The Bayeux Tapestry tells the story of which year?",
+			"answer": 0,
+			"hint": "It is nearly 1,000 years old.",
+			"choices": [
+				"1066",
+				"1666",
+				"2066",
+				"66"
+			],
+			"explain": "It tells the story of 1066, in about 70 metres of stitching."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Natural dyes can come from plants, and even from insects.",
+			"answer": true,
+			"hint": "Think of indigo and madder, and a red dye from a tiny insect.",
+			"explain": "True: indigo and madder are plants, and a tiny insect called cochineal gives a red dye."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How was this cloth coloured?",
+			"answer": 0,
+			"hint": "Look at the thin pale lines and the little cracks.",
+			"choices": [
+				"batik: wax lines, then dye",
+				"tie-dye rings",
+				"plain weave",
+				"a mosaic"
+			],
+			"explain": "Pale lines drawn in wax, then dyed, with fine cracks where the wax broke: batik.",
+			"picture": {
+				"kind": "dye",
+				"what": "batik",
+				"colour": "purple"
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each textile art to where it comes from.",
+			"items": [
+				"kente cloth",
+				"batik",
+				"bandhani",
+				"shibori"
+			],
+			"matches": [
+				"India",
+				"Japan",
+				"Ghana",
+				"Indonesia"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Bandhani and shibori are both tie-dye, from two different countries.",
+			"explain": "Kente cloth comes from Ghana, batik from Indonesia, bandhani tie-dye from India and shibori tie-dye from Japan."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.weave_next",
+			"level": 1
+		},
+		{
+			"gen": "g5a.weave_next",
+			"level": 2
+		},
+		{
+			"gen": "g5a.weave_next",
+			"level": 3
+		}
+	]
+}

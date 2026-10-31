@@ -1,0 +1,498 @@
+{
+	"id": "g4.science.sound",
+	"lesson": [
+		{
+			"text": "Quick memory: in 'Energy on the move', how did the energy of a drum's beat reach your ears? (By sound.) Now find out what sound is, and how we hear it."
+		},
+		{
+			"text": "Every sound is made by something vibrating: moving quickly to and fro. Pluck a guitar string, tap a drum, or hum with your fingers on your throat, and you can feel the vibration."
+		},
+		{
+			"text": "The vibrations pass from one bit of air to the next, all the way to your ear. Sound travels through water and solids too: put your ear to a table and tap it. In space there is no air, so there is no sound.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 2,
+						"count": 3
+					}
+				]
+			}
+		},
+		{
+			"text": "In your ear, the sound makes your eardrum vibrate. Tiny bones pass the vibrations on, and your brain tells you what you heard. Very loud sounds can harm your hearing: cover your ears or move away."
+		},
+		{
+			"text": "Volume is how loud a sound is. Hit a drum harder and it vibrates more, so the sound is louder: its waves are taller (sound B). Sounds get quieter the further you are from them.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 1,
+						"count": 3
+					},
+					{
+						"amp": 3,
+						"count": 3
+					}
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Pitch is how high or low a sound is. Faster vibrations make a higher pitch, and their waves are closer together (sound B). Listen: a low note, then a high one.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 2,
+						"count": 2
+					},
+					{
+						"amp": 2,
+						"count": 5
+					}
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"-",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"text": "Change the pitch: a shorter, tighter or thinner string gives a higher note; a longer, looser or thicker one gives a lower note. Small drums sound higher than big drums, and a violin higher than a double bass.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"higher note",
+						"lower note"
+					],
+					[
+						"short string",
+						"long string"
+					],
+					[
+						"tight string",
+						"loose string"
+					],
+					[
+						"small drum",
+						"big drum"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: stretch rubber bands of different thicknesses over an open box and pluck them. Which one gives the highest note? Next: waves of every kind, then light and how we see."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What must happen for a sound to be made?",
+			"hint": "Touch your throat while you hum.",
+			"explain": "Every sound comes from something vibrating: moving quickly to and fro.",
+			"choices": [
+				"Something vibrates.",
+				"Something gets hot.",
+				"Something shines.",
+				"Something freezes."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Sound can travel through water.",
+			"hint": "Can whales and dolphins hear each other?",
+			"explain": "True: sound travels through water, and even through solids like wood and metal.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part of your ear vibrates when a sound reaches it?",
+			"hint": "It is inside your ear, and it is named after an instrument.",
+			"explain": "The eardrum vibrates, and tiny bones pass the vibrations on so that you hear the sound.",
+			"choices": [
+				"the eardrum",
+				"the earlobe",
+				"the tongue",
+				"the eyelid"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen to two notes. Is the second note higher or lower than the first?",
+			"hint": "Hum along. Does your voice go up or down?",
+			"explain": "The second note was higher: its vibrations were faster.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"-",
+					"C5:2"
+				]
+			},
+			"choices": [
+				"higher",
+				"lower",
+				"the same"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which drum makes the lowest sound?",
+			"hint": "Big things usually vibrate more slowly.",
+			"explain": "The biggest drum vibrates most slowly, so it makes the lowest sound.",
+			"choices": [
+				"the biggest drum",
+				"the smallest drum",
+				"the middle-sized drum"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bram hits a drum harder. What happens to the sound?",
+			"hint": "A harder hit makes bigger vibrations.",
+			"explain": "A harder hit makes bigger vibrations, so the sound is louder. The pitch stays the same.",
+			"choices": [
+				"It gets louder.",
+				"It gets higher.",
+				"It gets quieter.",
+				"It stops."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "On the Moon, where there is no air, astronauts can hear each other shout without a radio.",
+			"hint": "What does sound need to travel through?",
+			"explain": "False: sound needs something to travel through, like air. On the Moon there is no air, so astronauts use radios.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen to three notes. Which one is the highest?",
+			"hint": "Hum each note after you hear it.",
+			"explain": "The second note was the highest, and the first was the lowest.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4:2",
+					"-",
+					"C5:2",
+					"-",
+					"G4:2"
+				]
+			},
+			"choices": [
+				"the second",
+				"the first",
+				"the third"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Zara presses a guitar string with her finger to make it shorter. What happens to the note?",
+			"hint": "Shorter strings vibrate faster.",
+			"explain": "A shorter string vibrates faster, so the note is higher.",
+			"choices": [
+				"It gets higher.",
+				"It gets lower.",
+				"It gets louder.",
+				"It stops."
+			],
+			"answer": 0
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the sounds: high or low?",
+			"hint": "Small things and fast vibrations usually make high sounds.",
+			"explain": "High: the mouse, the whistle and the bird. Low: the lion, the big drum and the cow.",
+			"groups": [
+				"high sound",
+				"low sound"
+			],
+			"items": [
+				"a lion roaring",
+				"a mouse squeaking",
+				"a big drum",
+				"a whistle",
+				"a cow mooing",
+				"a bird tweeting"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				1,
+				0
+			]
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the path of a drum's sound in order.",
+			"hint": "Start where the sound is made, and end inside your head.",
+			"explain": "The drum skin vibrates, the air carries the vibrations, the eardrum vibrates, and the brain works out what you heard.",
+			"items": [
+				"The air passes the vibrations on.",
+				"The eardrum vibrates.",
+				"The drum skin vibrates.",
+				"The brain works out the sound."
+			],
+			"answer": [
+				2,
+				0,
+				1,
+				3
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The waves show two sounds. Which is the louder sound?",
+			"hint": "Louder sounds have taller waves.",
+			"explain": "Sound B's waves are taller: a bigger amplitude, so a louder sound.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 1,
+						"count": 3
+					},
+					{
+						"amp": 3,
+						"count": 3
+					}
+				],
+				"names": true
+			},
+			"choices": [
+				"sound B",
+				"sound A",
+				"They are just as loud."
+			],
+			"answer": 0
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"hint": "Pitch and volume are both about a sound; one is about high and low.",
+			"explain": "Pitch: how high or low. Volume: how loud or quiet. A vibration: a quick shaking. The eardrum vibrates inside your ear.",
+			"items": [
+				"pitch",
+				"volume",
+				"vibration",
+				"eardrum"
+			],
+			"matches": [
+				"how loud or quiet a sound is",
+				"a quick shaking to and fro",
+				"it vibrates inside your ear",
+				"how high or low a sound is"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The waves show two sounds. Which has the higher pitch?",
+			"hint": "Higher sounds vibrate faster, so their waves are closer together.",
+			"explain": "Sound B's waves are closer together: faster vibrations, a higher pitch.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 2,
+						"count": 2
+					},
+					{
+						"amp": 2,
+						"count": 5
+					}
+				],
+				"names": true
+			},
+			"choices": [
+				"sound B",
+				"sound A",
+				"They have the same pitch."
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a sound get quieter as you walk away from it?",
+			"hint": "Think of ripples spreading out on a pond.",
+			"explain": "The vibrations spread out as they travel, so they get weaker and the sound is quieter.",
+			"choices": [
+				"Its vibrations spread out and get weaker.",
+				"Sound stops after ten steps.",
+				"The sound gets higher.",
+				"Your ears get smaller."
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two rubber bands are stretched just as tight. One is long and one is short. Which gives the higher note?",
+			"hint": "Shorter bands vibrate faster.",
+			"explain": "The short band vibrates faster, so it gives the higher note.",
+			"choices": [
+				"the short one",
+				"the long one",
+				"They give the same note."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A high sound is always a loud sound.",
+			"hint": "Can you whistle softly?",
+			"explain": "False: pitch (high or low) and volume (loud or quiet) are different. A mouse's squeak is high but quiet.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen to two notes. Is the second note higher or lower than the first?",
+			"hint": "Listen closely: it is only a small step.",
+			"explain": "The second note was a little lower: a small step down.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4:2",
+					"-",
+					"D4:2"
+				]
+			},
+			"choices": [
+				"lower",
+				"higher",
+				"the same"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which would best muffle the ticking of a clock in a box?",
+			"hint": "Soft, thick materials soak up vibrations.",
+			"explain": "Soft, thick materials like foam and cloth soak up vibrations, so less sound gets through.",
+			"choices": [
+				"thick, soft foam",
+				"a sheet of metal",
+				"a thin sheet of glass",
+				"nothing at all"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A string vibrates 200 times a second. A tighter string vibrates twice as fast. How many times a second is that?",
+			"answer": "400",
+			"hint": "Twice as fast means 2 lots of 200.",
+			"explain": "200 × 2 = 400 times a second."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Order these from the lowest note to the highest.",
+			"items": [
+				"a violin",
+				"a double bass",
+				"a cello"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The bigger the instrument, the lower its notes.",
+			"explain": "The double bass is lowest, then the cello, and the small violin is highest."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the changes: do they make the note higher or lower?",
+			"groups": [
+				"higher",
+				"lower"
+			],
+			"items": [
+				"a shorter string",
+				"a looser string",
+				"a tighter string",
+				"a thicker string",
+				"a smaller drum",
+				"a longer string"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Faster vibrations make a higher note.",
+			"explain": "Higher: a shorter or tighter string, and a smaller drum, vibrate faster. Lower: a looser, thicker or longer string vibrates more slowly."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Sound travels about 340 metres a second in air. You hear thunder 3 seconds after you see the lightning. About how many metres away is the storm?",
+			"answer": "1,020",
+			"accept": [
+				"1020"
+			],
+			"hint": "Light arrives almost at once. How far does sound go in 3 seconds?",
+			"explain": "Light reaches you almost at once, but sound takes 3 seconds. 340 × 3 = 1,020 metres, so the storm is about 1 km away."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4c.sound_wave",
+			"level": 1
+		},
+		{
+			"gen": "g4c.sound_wave",
+			"level": 2
+		},
+		{
+			"gen": "g4c.sound_wave",
+			"level": 3
+		}
+	]
+}

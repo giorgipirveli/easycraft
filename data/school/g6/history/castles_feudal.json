@@ -1,0 +1,277 @@
+{
+	"id": "g6.history.castles_feudal",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met Iron Age hill forts. What protected them? (Earth banks, ditches and wooden fences.) Today: the Normans' castles, and life in a medieval village and town."
+		},
+		{
+			"text": "In 1066 William, Duke of Normandy, beat King Harold at the Battle of Hastings and became king of England. To hold the country, the Normans quickly built castles, first of earth and wood."
+		},
+		{
+			"text": "A motte and bailey castle was a mound of earth (the motte) with a wooden keep on top. Beside it was a yard (the bailey), with a fence of stakes (a palisade) and a ditch. It could be built in weeks.",
+			"picture": {
+				"kind": "castle_type",
+				"type": "motte_bailey",
+				"labels": true
+			}
+		},
+		{
+			"text": "Wood burns and rots, so many castles were rebuilt in stone: a tall keep inside a curtain wall with towers, a gatehouse and a moat. The White Tower in London was begun about 1078.",
+			"picture": {
+				"kind": "castle_type",
+				"type": "stone_keep",
+				"labels": true
+			}
+		},
+		{
+			"text": "William gave land to barons, who promised loyalty and soldiers; barons gave land to knights, who fought for them; peasants farmed the land and worked for their lord. This was the feudal system.",
+			"picture": {
+				"kind": "feudal_pyramid",
+				"arrows": true
+			}
+		},
+		{
+			"text": "In 1086 William's officials wrote down who held each place and how many people, ploughs and animals it had: the Domesday Book, with more than 13,000 places. Most people lived in villages round a lord's manor house and a church."
+		},
+		{
+			"text": "A village had three big fields, split into strips. Each year one field grew wheat, one grew beans or barley, and one rested (lay fallow) so the soil could recover. Towns held markets, and craftworkers joined guilds, which trained apprentices for about 7 years."
+		},
+		{
+			"text": "Try it in the world: build a motte and bailey castle, then a stone keep beside it, and a village with three fields in strips. Next year's crops move round. Next: Magna Carta and the first parliaments."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who won the Battle of Hastings in 1066?",
+			"answer": 0,
+			"hint": "He became known as William the Conqueror.",
+			"choices": [
+				"William of Normandy",
+				"King Harold",
+				"Alfred the Great",
+				"Julius Caesar"
+			],
+			"explain": "William, Duke of Normandy, who became king of England."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What was a motte?",
+			"answer": 0,
+			"hint": "Look at the castle picture: what is under the keep?",
+			"choices": [
+				"a big mound of earth with a tower on top",
+				"a yard with huts",
+				"a ditch full of water",
+				"a Viking ship"
+			],
+			"explain": "The motte was the mound of earth with the keep on top."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Peasants were at the top of the feudal system.",
+			"answer": false,
+			"hint": "Who owned all the land?",
+			"explain": "False: the king was at the top; peasants, the most people, were at the bottom."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why did the Normans rebuild castles in stone?",
+			"answer": 0,
+			"hint": "What happens to wood over the years, or in a fire?",
+			"choices": [
+				"wood can burn and rot",
+				"stone was cheaper",
+				"stone was lighter",
+				"the king liked grey"
+			],
+			"explain": "Wood can burn and rot; stone lasts."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What did an apprentice do?",
+			"answer": 0,
+			"hint": "Think of the guilds in towns.",
+			"choices": [
+				"learned a craft from a master",
+				"ruled a town",
+				"collected the king's taxes",
+				"guarded a gate"
+			],
+			"explain": "An apprentice learned a craft from a master, for about 7 years."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: part of a motte and bailey castle, or a stone keep castle?",
+			"groups": [
+				"motte and bailey",
+				"stone keep"
+			],
+			"items": [
+				"earth mound",
+				"curtain wall",
+				"wooden palisade",
+				"stone gatehouse",
+				"moat round stone walls"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "The first castles were earth and wood; later ones were stone.",
+			"explain": "Motte and bailey: the earth mound and the wooden palisade. Stone keep: the curtain wall, the stone gatehouse, the moat."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, from the top of the feudal system down.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Who gave land to whom?",
+			"items": [
+				"the peasants",
+				"the knights",
+				"the barons",
+				"the king"
+			],
+			"explain": "The king, then the barons, then the knights, then the peasants."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The Domesday Book was made in 1086, 20 years after the Battle of Hastings. In what year was the battle?",
+			"answer": "1066",
+			"hint": "Count back 20 years from 1086.",
+			"explain": "1086 − 20 = 1066.",
+			"year": true
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What did a knight give his baron in return for land?",
+			"answer": 0,
+			"hint": "Look at the arrows beside the pyramid.",
+			"choices": [
+				"loyalty and service as a soldier",
+				"a castle",
+				"all his crops",
+				"nothing"
+			],
+			"explain": "A knight promised loyalty and fought for his baron."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"fallow",
+				"guild",
+				"manor",
+				"bailey"
+			],
+			"matches": [
+				"a castle's yard",
+				"resting for a year",
+				"a group of craftworkers",
+				"a lord's house and lands"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Two are about the village, one about the town, one about a castle.",
+			"explain": "Fallow: resting. Guild: a group of craftworkers. Manor: a lord's house and lands. Bailey: a castle's yard."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did the Normans build so many castles so quickly after 1066?",
+			"answer": 0,
+			"hint": "The Normans were few, and the English were many.",
+			"choices": [
+				"to hold down a newly conquered land",
+				"for somewhere to play",
+				"because of the rain",
+				"to store the Domesday Book"
+			],
+			"explain": "A small number of Normans had to control a whole conquered country, so they built strongholds everywhere."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A village's 3 fields have 24 strips each. Each year one field rests. How many strips grow food each year?",
+			"answer": "48",
+			"hint": "Two of the three fields grow crops.",
+			"explain": "Two fields grow food: 24 + 24 = 48 strips."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In the three-field system, each field rested one year in every three.",
+			"answer": true,
+			"hint": "Follow one field: wheat, beans, rest, and round again.",
+			"explain": "True: wheat, then beans, then a year of rest, so one year in three."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This castle, seen from above, has walls inside walls. What is it called?",
+			"answer": 0,
+			"hint": "Concentric means circles with the same middle.",
+			"choices": [
+				"a concentric castle",
+				"a motte and bailey",
+				"a hill fort",
+				"a Roman fort"
+			],
+			"explain": "A concentric castle: an enemy who got over the outer wall faced a higher inner wall.",
+			"picture": {
+				"kind": "castle_type",
+				"type": "concentric"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What did the Domesday Book record?",
+			"answer": 0,
+			"hint": "William wanted to know what his new kingdom was worth.",
+			"choices": [
+				"who held the land and what each place had",
+				"the guilds' rules",
+				"the dates of every battle",
+				"the king's songs"
+			],
+			"explain": "Who held each place, and its people, ploughs and animals, so the king knew what it was worth."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.three_fields",
+			"level": 1
+		},
+		{
+			"gen": "g6h.three_fields",
+			"level": 2
+		},
+		{
+			"gen": "g6h.three_fields",
+			"level": 3
+		}
+	]
+}

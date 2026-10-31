@@ -1,0 +1,320 @@
+{
+	"id": "g8.computing.cyber_security",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, what is phishing? (A message that tricks you into giving away details, often with a fake link.) Today: how attackers try to get in, and how to stay secure."
+		},
+		{
+			"text": "Malware is software made to do harm. A virus copies itself into files; a worm spreads by itself over networks; a trojan hides inside something that looks good, such as a free game.",
+			"picture": {
+				"kind": "threat_card",
+				"threat": "trojan",
+				"name": true
+			}
+		},
+		{
+			"text": "Ransomware locks files and asks for payment; spyware secretly watches what you type. Backups, updates and apps only from trusted places are the best defences.",
+			"picture": {
+				"kind": "threat_card",
+				"threat": "ransomware",
+				"name": true
+			}
+		},
+		{
+			"text": "Social engineering tricks people, not computers: phishing messages, a caller pretending to be the bank, someone looking over a shoulder at a PIN. Stop, check, and ask a trusted grown-up.",
+			"picture": {
+				"kind": "threat_card",
+				"threat": "shoulder_surfing",
+				"name": true
+			}
+		},
+		{
+			"text": "A longer password has far more possibilities to guess: a 4-digit PIN has 10,000, three random words billions. This game wants 6 letters or more, never the player's name, and says never to share it."
+		},
+		{
+			"text": "Systems fight back. After 5 wrong tries in 15 minutes this game makes a guesser wait, so guessing takes far too long. Logging in on a new device logs the old one out at once."
+		},
+		{
+			"text": "On networks, encryption (HTTPS, the padlock) scrambles data on its way, and a firewall blocks traffic that is not allowed. Anyone may watch a public wireless network, so never type passwords on one."
+		},
+		{
+			"text": "Try it in the world: with a grown-up, check that a device has updates turned on and a backup. In LIFE, Online City's big track practises spotting scams and phishing and keeping passwords secret. Next: design for users.",
+			"owner": "#118 (L3c): the card names Online City (it named The Connections Book)"
+		}
+	],
+	"exercises": [
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each threat to what it does.",
+			"items": [
+				"virus",
+				"worm",
+				"trojan",
+				"ransomware",
+				"spyware"
+			],
+			"matches": [
+				"spreads by itself on networks",
+				"hides inside a good-looking app",
+				"locks files for payment",
+				"watches what you type",
+				"copies itself into files"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				2,
+				3
+			],
+			"hint": "Think of each name: a germ, a crawling worm, a wooden horse, a ransom, a spy.",
+			"explain": "A virus infects files, a worm spreads itself, a trojan hides, ransomware locks and spyware watches."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which threat is this?",
+			"choices": [
+				"a worm",
+				"a virus",
+				"ransomware",
+				"spyware"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "threat_card",
+				"threat": "worm"
+			},
+			"hint": "Look at how it travels: through files, or along the network?",
+			"explain": "It crawls along the network from computer to computer by itself: a worm."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is safe to share a password with your best friend.",
+			"answer": false,
+			"hint": "What does this game tell you about passwords?",
+			"explain": "False: never tell anyone a password; a friend's phone could be lost or seen, and friendships change."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many different 4-digit PINs are there, from 0000 to 9999?",
+			"answer": "10000",
+			"hint": "Each digit has 10 choices; multiply for 4 digits.",
+			"explain": "10 × 10 × 10 × 10 = 10,000 PINs."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A message says an account will close today unless you click its link. What is it most likely to be?",
+			"choices": [
+				"phishing",
+				"a real warning",
+				"an update",
+				"a backup"
+			],
+			"answer": 0,
+			"hint": "Who rushes you to click a link?",
+			"explain": "Rushing you to click a link is a phishing trick; real services do not threaten like that."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Safe to do, or a risk?",
+			"groups": [
+				"safe",
+				"a risk"
+			],
+			"items": [
+				"update apps when asked",
+				"one password for every site",
+				"back up your work",
+				"a password on public wireless",
+				"turn on two-step checks",
+				"a free game from an unknown site"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Would an attacker like it?",
+			"explain": "Updates, backups and two-step checks keep you safe; one password everywhere, public wireless and unknown downloads are risks."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Guessing is braked to 5 tries every 15 minutes. How many tries is that in 24 hours?",
+			"answer": "480",
+			"hint": "How many 15-minute spells are in a day?",
+			"explain": "24 hours × 4 spells an hour = 96 spells; 96 × 5 = 480 tries."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which trick is this?",
+			"choices": [
+				"shoulder surfing",
+				"a worm",
+				"a trojan",
+				"phishing"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "threat_card",
+				"threat": "shoulder_surfing"
+			},
+			"hint": "Look at the person behind.",
+			"explain": "Someone looks over a shoulder to see a PIN: shoulder surfing."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "HTTPS scrambles data so others on the network cannot read it.",
+			"answer": true,
+			"hint": "What does the S stand for?",
+			"explain": "True: the S means secure; the data is encrypted on its way."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A caller says they are from the bank and asks for a code sent to a phone. What should you do?",
+			"choices": [
+				"hang up and tell a grown-up",
+				"read the code out",
+				"send it by message instead",
+				"ask them to call back later"
+			],
+			"answer": 0,
+			"hint": "Would a real bank ask for that code?",
+			"explain": "Banks never ask for those codes; it is social engineering. Hang up and tell a trusted grown-up."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order what to do after clicking a phishing link.",
+			"items": [
+				"turn on two-step checks",
+				"change the password on a safe device",
+				"tell a trusted grown-up",
+				"close the page"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Stop the harm first, then get help.",
+			"explain": "Close it, tell a grown-up, change the password safely, then add a two-step check."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A password uses only the 26 small letters. How many 3-letter passwords are there?",
+			"answer": "17576",
+			"hint": "Each letter has 26 choices.",
+			"explain": "One letter: 26. Two letters: 26 × 26 = 676. Three letters: 676 × 26 = 17,576 passwords."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many times more passwords are there with 4 small letters than with 3?",
+			"answer": "26",
+			"hint": "What does one more letter multiply the count by?",
+			"explain": "3 letters: 17,576 passwords. 4 letters: 17,576 × 26 = 456,976. And 456,976 ÷ 17,576 = 26, so 26 times as many."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does this game log the old device out when the player logs in on a new one?",
+			"choices": [
+				"so only one device is in the account at once",
+				"to save the battery",
+				"to delete the old worlds",
+				"to make the password shorter"
+			],
+			"answer": 0,
+			"hint": "Think of a stolen or lost device.",
+			"explain": "Only the newest device stays logged in, so a lost, stolen or borrowed one cannot keep using the account. The old device says it was logged out, and needs the password to LOG IN again."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A firewall blocks network traffic that is not allowed.",
+			"answer": true,
+			"hint": "Think of a wall that has a few doors.",
+			"explain": "True: a firewall sits between a network and the internet. It checks each piece of traffic against its rules, lets through what is allowed and blocks the rest."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Does it trick a person, or is it harmful software?",
+			"groups": [
+				"tricks a person",
+				"harmful software"
+			],
+			"items": [
+				"a fake caller",
+				"a phishing message",
+				"a worm",
+				"ransomware",
+				"looking over a shoulder"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Who is fooled: a person, or the computer?",
+			"explain": "Callers, phishing and shoulder surfing fool people; worms and ransomware are malware."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is a password of three random words stronger than Pip123?",
+			"choices": [
+				"far more possibilities to guess",
+				"it is easier to forget",
+				"it has numbers in it",
+				"computers cannot read words"
+			],
+			"answer": 0,
+			"hint": "Count how many tries a guesser would need.",
+			"explain": "Three random words from a list of 2,000 make 2,000 × 2,000 × 2,000 = 8 billion possibilities. A name with numbers, like Pip123, is among the first things a guesser tries."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.password_space",
+			"level": 1
+		},
+		{
+			"gen": "g8c.password_space",
+			"level": 2
+		},
+		{
+			"gen": "g8c.password_space",
+			"level": 3
+		},
+		{
+			"gen": "g8c.trick_sort",
+			"level": 1
+		},
+		{
+			"gen": "g8c.trick_sort",
+			"level": 2
+		},
+		{
+			"gen": "g8c.trick_sort",
+			"level": 3
+		}
+	]
+}

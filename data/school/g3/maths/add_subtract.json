@@ -1,0 +1,381 @@
+{
+	"id": "g3.maths.add_subtract",
+	"lesson": [
+		{
+			"text": "Quick memory: 6 + 4 = 10, so 60 + 40 = 100 and 600 + 400 = 1,000. Number bonds grow with the places!",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "60",
+								"size": 60
+							},
+							{
+								"text": "40",
+								"size": 40
+							}
+						],
+						"total": "100"
+					}
+				]
+			}
+		},
+		{
+			"text": "Friendly numbers make adding easy. 457 + 199: 199 is 200 − 1. Add 200 to get 657, then take away 1: 656."
+		},
+		{
+			"text": "Hoot's puzzle: 346 + 278. Tilly adds in columns. Bram adds 200, then 70, then 8: 346 + 200 = 546, 546 + 70 = 616 and 616 + 8 = 624. Both get 624! Columns are quickest for big numbers.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"346",
+					"+ 278",
+					"624"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"text": "Columns: line up the places. Add the ones first: 6 + 8 = 14. Write 4 and carry the ten into the tens column. Then add the tens, the hundreds and the thousands.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"2,456",
+					"+ 1,378",
+					"3,834"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"text": "Taking away in columns: start with the ones. In 5,203 − 1,648, 3 ones is less than 8 ones, so exchange 1 ten for 10 ones. There are no tens, so first 1 hundred becomes 10 tens.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"5,203",
+					"− 1,648",
+					"3,555"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"text": "Check a take-away with an adding (the inverse): 5,203 − 1,648 = 3,555, so 3,555 + 1,648 should make 5,203. It does!",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "3,555",
+								"size": 3555
+							},
+							{
+								"text": "1,648",
+								"size": 1648
+							}
+						],
+						"total": "5,203"
+					}
+				]
+			}
+		},
+		{
+			"text": "Estimate before you work: 2,456 + 1,378 is about 2,500 + 1,400 = 3,900. The answer 3,834 is close, so it makes sense. Next, in grade 4: adding numbers up to a million."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "63 + ? = 100",
+			"answer": "37",
+			"hint": "Count on from 63 to 70, then on to 100.",
+			"explain": "63 + 7 = 70 and 70 + 30 = 100, so 7 + 30 = 37."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "450 + ? = 1,000",
+			"answer": "550",
+			"hint": "Count on from 450 to 500, then on to 1,000.",
+			"explain": "450 + 50 = 500 and 500 + 500 = 1,000: 550."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "348 + 199 = ?",
+			"answer": "547",
+			"hint": "199 is 200 − 1. Add 200, then take away 1.",
+			"explain": "348 + 200 = 548, then 548 − 1 = 547."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "625 + 243 = ?",
+			"answer": "868",
+			"hint": "Add the ones, then the tens, then the hundreds.",
+			"explain": "Ones 5 + 3 = 8, tens 2 + 4 = 6, hundreds 6 + 2 = 8: 868.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"625",
+					"+ 243"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "572 − 298 = 274. Check with an adding: is it right?",
+			"answer": true,
+			"hint": "Add 274 and 298. Do you get back to 572?",
+			"explain": "274 + 298 = 572, so yes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which adding checks 900 − 356 = 544?",
+			"choices": [
+				"544 + 356 = 900",
+				"544 − 356 = 188",
+				"900 + 356 = 1,256",
+				"544 + 900 = 1,444"
+			],
+			"answer": 0,
+			"hint": "Add the answer to the number that was taken away.",
+			"explain": "544 + 356 = 900 gets back to the start."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "3,999 + 1 = 4,000",
+			"answer": true,
+			"hint": "One more than 3,999: every 9 becomes 0 and the thousands go up by one.",
+			"explain": "3,999 + 1 = 4,000."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "2,456 + 1,378 = ?",
+			"answer": "3834",
+			"hint": "Add the ones first and carry any ten to the next place.",
+			"explain": "Ones 6 + 8 = 14, carry 1. Tens 5 + 7 + 1 = 13, carry 1. Hundreds 4 + 3 + 1 = 8. Thousands 2 + 1 = 3. So 3,834.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"2,456",
+					"+ 1,378"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "7,000 − 2,999 = ?",
+			"answer": "4001",
+			"hint": "2,999 is 3,000 − 1. Take away 3,000, then add 1 back.",
+			"explain": "7,000 − 3,000 = 4,000, and 4,000 + 1 = 4,001."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "4,382 − 1,257 = ?",
+			"answer": "3125",
+			"hint": "Start with the ones: 2 is less than 7, so exchange 1 ten for 10 ones.",
+			"explain": "12 − 7 = 5, 7 − 5 = 2, 3 − 2 = 1, 4 − 1 = 3: 3,125. Check: 3,125 + 1,257 = 4,382.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"4,382",
+					"− 1,257"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A farm had 3,450 carrots. The buddies picked 1,275 of them. How many carrots are left?",
+			"answer": "2175",
+			"hint": "Find what is left: take away.",
+			"explain": "3,450 − 1,275 = 2,175. Check: 2,175 + 1,275 = 3,450."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "About how much is 3,912 + 2,108? Round each to the nearest thousand.",
+			"choices": [
+				"6,000",
+				"5,000",
+				"7,000",
+				"60,000"
+			],
+			"answer": 0,
+			"hint": "3,912 rounds to 4,000 and 2,108 rounds to 2,000.",
+			"explain": "4,000 + 2,000 = 6,000."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "6,005 − 2,378 = ?",
+			"answer": "3627",
+			"hint": "Exchange across the zeros: 1 thousand becomes 10 hundreds, then 1 hundred becomes 10 tens, then 1 ten becomes 10 ones.",
+			"explain": "Exchange across the zeros: 6,005 is 5 thousands, 9 hundreds, 9 tens and 15 ones. 15 − 8 = 7, 9 − 7 = 2, 9 − 3 = 6 and 5 − 2 = 3: 3,627. Check: 3,627 + 2,378 = 6,005.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"6,005",
+					"− 2,378"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "? − 1,450 = 2,875",
+			"answer": "4325",
+			"hint": "Undo the take-away with an adding.",
+			"explain": "2,875 + 1,450 = 4,325, and 4,325 − 1,450 = 2,875."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Bram says 2,745 + 1,386 = 3,031. Could that be right?",
+			"answer": false,
+			"hint": "Estimate: about 2,700 + 1,400.",
+			"explain": "2,700 + 1,400 = 4,100, far from 3,031. The answer is 4,131."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Nell's castle needs 5,000 blocks. She has 3,275. How many more blocks does she need?",
+			"answer": "1725",
+			"hint": "Find the difference: take 3,275 away from 5,000, or count on.",
+			"explain": "Count on from 3,275: 25 makes 3,300, 700 more makes 4,000, and 1,000 more makes 5,000. 25 + 700 + 1,000 = 1,725 blocks."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the answers in order, smallest first.",
+			"items": [
+				"1,500 + 600",
+				"2,000 − 1",
+				"3,000 − 1,200",
+				"999 + 2"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Work out each one first.",
+			"explain": "1,001, then 1,800, then 1,999, then 2,100."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Nell has 2,450 blocks. She uses 1,375 to build a castle, then finds 680 more. How many blocks does she have now?",
+			"answer": "1755",
+			"accept": [
+				"1,755"
+			],
+			"hint": "Two steps: take away what she used, then add what she found.",
+			"explain": "First take away: 2,450 − 1,375 = 1,075. Then add: 1,075 + 680 = 1,755 blocks. Estimate to check: 2,500 − 1,400 + 700 is about 1,800."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3m.bond",
+			"level": 1
+		},
+		{
+			"gen": "g3m.bond",
+			"level": 2
+		},
+		{
+			"gen": "g3m.bond",
+			"level": 3
+		},
+		{
+			"gen": "g3m.mental",
+			"level": 1
+		},
+		{
+			"gen": "g3m.mental",
+			"level": 2
+		},
+		{
+			"gen": "g3m.mental",
+			"level": 3
+		},
+		{
+			"gen": "g3m.column_add",
+			"level": 1
+		},
+		{
+			"gen": "g3m.column_add",
+			"level": 2
+		},
+		{
+			"gen": "g3m.column_add",
+			"level": 3
+		},
+		{
+			"gen": "g3m.column_subtract",
+			"level": 1
+		},
+		{
+			"gen": "g3m.column_subtract",
+			"level": 2
+		},
+		{
+			"gen": "g3m.column_subtract",
+			"level": 3
+		},
+		{
+			"gen": "g3m.check_inverse",
+			"level": 1
+		},
+		{
+			"gen": "g3m.check_inverse",
+			"level": 2
+		},
+		{
+			"gen": "g3m.check_inverse",
+			"level": 3
+		},
+		{
+			"gen": "g3m.add_story",
+			"level": 1
+		},
+		{
+			"gen": "g3m.add_story",
+			"level": 2
+		},
+		{
+			"gen": "g3m.add_story",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,301 @@
+{
+	"id": "g4.health_pe.personal_safety",
+	"lesson": [
+		{
+			"text": "Quick memory: what should you keep private online? (Your full name, address, school and photos of you.) Today: safe and unsafe secrets, and your trusted adults."
+		},
+		{
+			"text": "Everyone has the right to feel safe, all the time. Your body gives warning signs when something feels wrong: butterflies in your tummy, a fast heart, sweaty hands, wanting to run away. Listen to them."
+		},
+		{
+			"text": "A surprise is fun and is shared soon, like a birthday present. A secret that makes you feel worried, scared or uncomfortable is an unsafe secret. Always tell a trusted adult, even if you promised not to.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"A surprise",
+						"An unsafe secret"
+					],
+					[
+						"fun, shared soon",
+						"makes you worried"
+					],
+					[
+						"a birthday present",
+						"tell a trusted adult"
+					]
+				]
+			}
+		},
+		{
+			"text": "Your body belongs to you. You can say no to hugs, tickles or touches you do not want, even from people you know. No one should ask you to keep a secret about touching."
+		},
+		{
+			"text": "Trusted adults are grown-ups who listen, keep you safe and help. Name five on your helping hand, one on each finger: some at home, and some outside it, like a teacher or a coach.",
+			"picture": {
+				"kind": "hand",
+				"labels": [
+					"a parent",
+					"Grandma",
+					"my teacher",
+					"an aunt",
+					"a coach"
+				]
+			}
+		},
+		{
+			"text": "If you tell someone and they do not help, keep telling until someone does. It is never your fault. In the UK, Childline is free on 0800 1111 (oh eight hundred, eleven eleven), any time. Many countries have a children's helpline."
+		},
+		{
+			"text": "Online, people may not be who they say they are. If someone asks you to keep a secret, send photos or meet up, stop, do not reply, and tell a trusted adult. You can say no to dares that feel unsafe, too."
+		},
+		{
+			"text": "Try it in the world: build a safe house with a big hand on the wall, and your five trusted adults on its fingers. For real: draw round your hand and write your five trusted adults on it."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a surprise, not an unsafe secret?",
+			"answer": 0,
+			"hint": "A surprise is fun and is shared soon.",
+			"choices": [
+				"a birthday present you will give tomorrow",
+				"something that makes you feel worried",
+				"a secret you must never tell anyone",
+				"something that makes you scared"
+			],
+			"explain": "A birthday present: it is fun, and everyone finds out soon."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "You should keep a secret that makes you feel scared.",
+			"answer": false,
+			"hint": "What did the lesson say about unsafe secrets?",
+			"explain": "False: a secret that makes you scared is unsafe. Tell a trusted adult, even if you promised not to."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a trusted adult?",
+			"answer": 0,
+			"hint": "Think of who is on your helping hand.",
+			"choices": [
+				"a grown-up who listens and helps keep you safe",
+				"anyone older than you",
+				"someone you met online",
+				"a famous person"
+			],
+			"explain": "A trusted adult is a grown-up you know who listens, keeps you safe and helps."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Look at the helping hand. How many trusted adults are on it?",
+			"answer": "5",
+			"hint": "Count one name for each finger.",
+			"explain": "One on each finger: 5 trusted adults.",
+			"picture": {
+				"kind": "hand",
+				"labels": [
+					"a parent",
+					"Grandma",
+					"my teacher",
+					"an aunt",
+					"a coach"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Safe surprise, or unsafe secret to tell?",
+			"groups": [
+				"safe surprise",
+				"unsafe: tell"
+			],
+			"items": [
+				"a surprise party for a friend",
+				"someone says keep it secret that they hurt you",
+				"a present for Grandma",
+				"an adult asks you to keep a photo secret",
+				"a card for a teacher's birthday",
+				"a secret that gives you a tummy ache"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it fun and shared soon, or does it make you feel worried?",
+			"explain": "Safe surprises: the party, the present, the card. Unsafe secrets, to tell: being hurt, a secret photo, a worrying secret."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If the first adult you tell does not help, you should keep telling until someone does.",
+			"answer": true,
+			"hint": "What does the lesson say to do if nobody helps?",
+			"explain": "True: keep telling until someone helps. It is never your fault."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which of these are warning signs from your body?",
+			"answer": 0,
+			"hint": "Which feelings say something might be wrong?",
+			"choices": [
+				"butterflies in your tummy and a fast heart",
+				"feeling hungry at lunchtime",
+				"yawning at bedtime",
+				"laughing at a joke"
+			],
+			"explain": "Butterflies in your tummy, a fast heart and sweaty hands can be your body's warning signs."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Someone online asks you to keep your chats secret. What should you do?",
+			"answer": 0,
+			"hint": "Is it a safe secret or an unsafe one?",
+			"choices": [
+				"stop, do not reply, and tell a trusted adult",
+				"keep it secret",
+				"send them your address",
+				"agree to meet them"
+			],
+			"explain": "Stop, do not reply, and tell a trusted adult: people online may not be who they say they are."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "It is OK to say no to a hug you do not want.",
+			"answer": true,
+			"hint": "Who does your body belong to?",
+			"explain": "True: your body belongs to you, and you can say no, even to people you know."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why should your helping hand have some adults from outside your home?",
+			"answer": 0,
+			"hint": "Think of where you spend your day.",
+			"choices": [
+				"so there is someone to tell wherever you are",
+				"because adults at home cannot help",
+				"so you get more presents",
+				"to make the hand look full"
+			],
+			"explain": "You are at school, clubs and home: with trusted adults in each place, there is always someone near to tell."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram promised to keep a secret, but it makes him feel scared. What should he do?",
+			"answer": 0,
+			"hint": "Is this a safe secret?",
+			"choices": [
+				"tell a trusted adult: it is an unsafe secret",
+				"keep his promise no matter what",
+				"tell nobody and try to forget",
+				"ask the person to tell him more"
+			],
+			"explain": "It is an unsafe secret, so he should tell a trusted adult. Promises never matter more than being safe."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If something unsafe happens to a child, it is never the child's fault.",
+			"answer": true,
+			"hint": "What did the lesson say about whose fault it is?",
+			"explain": "True: it is never the child's fault. Telling someone is right."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"surprise",
+				"unsafe secret",
+				"trusted adult",
+				"warning signs"
+			],
+			"matches": [
+				"makes you worried",
+				"listens and helps you",
+				"your body saying stop",
+				"fun, and shared soon"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think back through each card of the lesson.",
+			"explain": "A surprise is fun and shared soon; an unsafe secret worries you; a trusted adult helps; warning signs say stop."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A friend dares you to climb onto a garage roof. It feels unsafe. What can you do?",
+			"answer": 0,
+			"hint": "Listen to your warning signs.",
+			"choices": [
+				"say no, and walk away",
+				"do it so they like you",
+				"climb only halfway",
+				"keep the dare secret"
+			],
+			"explain": "Say no and walk away. A real friend will not want you to get hurt."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the feelings in your body: a warning sign, or not?",
+			"groups": [
+				"warning sign",
+				"not a warning sign"
+			],
+			"items": [
+				"butterflies in your tummy",
+				"a fast heart when someone scares you",
+				"yawning at bedtime",
+				"sweaty hands near a stranger",
+				"a rumbling tummy before lunch"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is your body telling you something feels wrong, or just that you are tired or hungry?",
+			"explain": "Warning signs: butterflies, a fast heart when someone scares you, sweaty hands near a stranger. Not warning signs: yawning at bedtime and a rumbling tummy before lunch."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Someone online asks Zara to keep a secret and send a photo. Order what she should do.",
+			"items": [
+				"Tell a trusted adult.",
+				"Stop.",
+				"Don't reply."
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Card 6 gives the steps.",
+			"explain": "Stop, don't reply, and tell a trusted adult. People online may not be who they say they are, and no one should ask for secret photos."
+		}
+	],
+	"generators": []
+}

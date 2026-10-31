@@ -1,0 +1,605 @@
+{
+	"id": "g7.science.mixtures_separating",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you dissolved salt in water. Is salty water a new substance? No: it is a mixture, and you can get the salt back."
+		},
+		{
+			"text": "A mixture is two or more substances mixed but not joined: air, sea water, muddy water and ink. Each keeps its own properties, so we can use them to separate it."
+		},
+		{
+			"text": "A substance that dissolves is soluble; one that will not is insoluble. Salt (the solute) dissolves in water (the solvent) to make a solution.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"word",
+						"example"
+					],
+					[
+						"solute",
+						"salt"
+					],
+					[
+						"solvent",
+						"water"
+					],
+					[
+						"solution",
+						"salty water"
+					],
+					[
+						"insoluble",
+						"sand"
+					]
+				]
+			}
+		},
+		{
+			"text": "Filtering separates an insoluble solid from a liquid. The filter paper's tiny holes let water through but trap the sand. The solid left behind is the residue; the liquid that passes through is the filtrate.",
+			"picture": {
+				"kind": "separation",
+				"method": "filter",
+				"labels": true
+			}
+		},
+		{
+			"text": "Evaporating gets a dissolved solid back. Warm salty water in an evaporating basin: the water turns into vapour and leaves, and salt crystals stay behind.",
+			"picture": {
+				"kind": "separation",
+				"method": "evaporate",
+				"labels": true
+			}
+		},
+		{
+			"text": "Distilling gets the pure liquid back. Boil the salty water; the steam cools in a condenser and drips out as pure water. Some dry countries make drinking water from sea water like this.",
+			"picture": {
+				"kind": "separation",
+				"method": "distil",
+				"labels": true
+			}
+		},
+		{
+			"text": "Chromatography separates the colours in an ink. Put a dot of ink on a pencil line on paper and dip the edge in water. Each dye travels up at its own speed. A pure substance makes one spot; a mixture makes more.",
+			"picture": {
+				"kind": "chromatogram",
+				"samples": [
+					[
+						"black",
+						[
+							[
+								0.2,
+								"yellow"
+							],
+							[
+								0.5,
+								"red"
+							],
+							[
+								0.8,
+								"blue"
+							]
+						]
+					],
+					[
+						"red",
+						[
+							[
+								0.5,
+								"red"
+							]
+						]
+					],
+					[
+						"blue",
+						[
+							[
+								0.8,
+								"blue"
+							]
+						]
+					]
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Try it in the world: with a grown-up, draw a felt-tip dot above a pencil line on kitchen paper. Dip the edge in water and watch the colours split. Next: solids, liquids and gases."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which method separates sand from water?",
+			"choices": [
+				"filtering",
+				"evaporating",
+				"chromatography"
+			],
+			"answer": 0,
+			"hint": "Sand does not dissolve: which method traps a solid but lets a liquid through?",
+			"explain": "Filtering: the paper traps the sand and the water runs through."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each method to what it separates.",
+			"items": [
+				"filtering",
+				"evaporating",
+				"distilling",
+				"chromatography"
+			],
+			"matches": [
+				"a pure liquid, back",
+				"the dyes in an ink",
+				"a dissolved solid, back",
+				"a solid that did not dissolve"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "Think about what each method keeps at the end.",
+			"explain": "Filtering keeps a solid that did not dissolve; evaporating gets a dissolved solid back; distilling gets the pure liquid back; chromatography splits the dyes."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Sea water is a mixture.",
+			"answer": true,
+			"hint": "Is it one substance, or water with salts dissolved in it?",
+			"explain": "True: sea water is water with salts and other substances mixed in."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the substances: soluble or insoluble in water?",
+			"groups": [
+				"soluble",
+				"insoluble"
+			],
+			"items": [
+				"instant coffee",
+				"sand",
+				"salt",
+				"chalk",
+				"sugar",
+				"pebbles"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Picture stirring each into water: does it disappear, or sink to the bottom?",
+			"explain": "Soluble: salt, sugar and instant coffee. Insoluble: sand, chalk and pebbles."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the solid left in the filter paper called?",
+			"choices": [
+				"the residue",
+				"the filtrate",
+				"the solvent"
+			],
+			"answer": 0,
+			"hint": "The filtrate is what passes through; the other word is for what stays.",
+			"explain": "The residue stays in the paper; the filtrate passes through it."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Dissolving salt in water makes a new substance.",
+			"answer": false,
+			"hint": "Can you get the salt back by evaporating the water?",
+			"explain": "False: the salt is still salt. Evaporating gets it back, so no new substance was made."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps to get pure salt from rock salt (salt mixed with sand).",
+			"items": [
+				"Filter out the sand",
+				"Crush the rock salt",
+				"Stir it into warm water",
+				"Evaporate the water"
+			],
+			"answer": [
+				1,
+				2,
+				0,
+				3
+			],
+			"hint": "First dissolve the salt, then remove what will not dissolve, then get the salt back.",
+			"explain": "Crush it, dissolve the salt in water, filter out the sand, then evaporate the water to leave salt crystals."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the distillation apparatus.",
+			"spots": [
+				[
+					0.2012,
+					0.91,
+					0.2012,
+					0.5444
+				],
+				[
+					0.2012,
+					0.09,
+					0.2012,
+					0.1448
+				],
+				[
+					0.4829,
+					0.09,
+					0.4829,
+					0.4112
+				],
+				[
+					0.8074,
+					0.91,
+					0.8074,
+					0.8197
+				],
+				[
+					0.3204,
+					0.91,
+					0.2012,
+					0.8818
+				]
+			],
+			"labels": [
+				"heat",
+				"thermometer",
+				"distillate",
+				"condenser",
+				"flask"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Follow the liquid: heated in the flask, cooled in the tube, collected in the beaker.",
+			"explain": "The heat boils the liquid in the flask, the thermometer reads the steam's temperature, the condenser cools it, and the distillate drips into the beaker.",
+			"picture": {
+				"kind": "separation",
+				"method": "distil"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many dyes are in the black ink?",
+			"answer": "3",
+			"hint": "Count the separate spots in its column: each spot is one dye.",
+			"explain": "The black ink splits into 3 spots, so it is a mixture of 3 dyes.",
+			"picture": {
+				"kind": "chromatogram",
+				"samples": [
+					[
+						"black",
+						[
+							[
+								0.2,
+								"yellow"
+							],
+							[
+								0.5,
+								"red"
+							],
+							[
+								0.8,
+								"blue"
+							]
+						]
+					],
+					[
+						"red",
+						[
+							[
+								0.5,
+								"red"
+							]
+						]
+					],
+					[
+						"blue",
+						[
+							[
+								0.8,
+								"blue"
+							]
+						]
+					]
+				],
+				"names": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which ink is pure?",
+			"choices": [
+				"ink A",
+				"ink B",
+				"ink C"
+			],
+			"answer": 0,
+			"hint": "A pure substance makes just one spot.",
+			"explain": "Ink A makes one spot; inks B and C split into two dyes each.",
+			"picture": {
+				"kind": "chromatogram",
+				"samples": [
+					[
+						"ink A",
+						[
+							[
+								0.35,
+								"green"
+							]
+						]
+					],
+					[
+						"ink B",
+						[
+							[
+								0.35,
+								"green"
+							],
+							[
+								0.7,
+								"blue"
+							]
+						]
+					],
+					[
+						"ink C",
+						[
+							[
+								0.2,
+								"purple"
+							],
+							[
+								0.6,
+								"pink"
+							]
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which method gives drinkable water from sea water?",
+			"choices": [
+				"distilling",
+				"filtering",
+				"chromatography"
+			],
+			"answer": 0,
+			"hint": "The salt is dissolved: which method collects the pure liquid?",
+			"explain": "Distilling: the water boils off and condenses pure, leaving the salt behind. A filter lets dissolved salt through."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: a mixture or a pure substance?",
+			"groups": [
+				"mixture",
+				"pure substance"
+			],
+			"items": [
+				"orange juice",
+				"gold",
+				"pure water",
+				"oxygen",
+				"air",
+				"sea water"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Is it one substance all the way through, or several mixed together?",
+			"explain": "Mixtures: air, sea water and orange juice. Pure substances: pure water, oxygen and gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In chromatography the start line is drawn in pencil, not in ink.",
+			"answer": true,
+			"hint": "What would happen to an ink line when the water reached it?",
+			"explain": "True: pencil does not dissolve, so the line stays put. An ink line would run up the paper too."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why can a filter not get the salt out of salty water?",
+			"choices": [
+				"Dissolved salt slips through the holes.",
+				"Salt is too heavy.",
+				"The water blocks the paper."
+			],
+			"answer": 0,
+			"hint": "Think how small the salt's particles are once it has dissolved.",
+			"explain": "Once dissolved, the salt is spread out as tiny particles that pass through the filter with the water."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A dye travelled 3 cm up the paper while the water travelled 6 cm. What is its Rf value (the dye's distance ÷ the water's distance)?",
+			"answer": "0.5",
+			"hint": "Divide how far the dye went by how far the water went.",
+			"explain": "3 ÷ 6 = 0.5. The same dye always has the same Rf value on the same paper and solvent."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which dyes are in the mix?",
+			"choices": [
+				"yellow and blue",
+				"red and blue",
+				"red and yellow",
+				"all three"
+			],
+			"answer": 0,
+			"hint": "A dye in the mix makes a spot at the same height as that dye on its own.",
+			"explain": "The mix's spots are level with the yellow and the blue dyes, not with the red one.",
+			"picture": {
+				"kind": "chromatogram",
+				"samples": [
+					[
+						"mix",
+						[
+							[
+								0.3,
+								"yellow"
+							],
+							[
+								0.8,
+								"blue"
+							]
+						]
+					],
+					[
+						"red",
+						[
+							[
+								0.5,
+								"red"
+							]
+						]
+					],
+					[
+						"blue",
+						[
+							[
+								0.8,
+								"blue"
+							]
+						]
+					],
+					[
+						"yellow",
+						[
+							[
+								0.3,
+								"yellow"
+							]
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order what happens when you distil salty water.",
+			"items": [
+				"Pure water drips into the beaker",
+				"The water boils into steam",
+				"The salty water is heated",
+				"The steam cools in the condenser"
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "Follow the water from the flask to the beaker.",
+			"explain": "It is heated, it boils into steam, the steam condenses back into water in the condenser, and pure water drips out. The salt stays in the flask."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each job to the best method.",
+			"items": [
+				"muddy water to clear water",
+				"salt from salty water",
+				"pure water from inky water",
+				"iron filings out of sand",
+				"pebbles out of sand"
+			],
+			"matches": [
+				"a sieve",
+				"evaporating",
+				"a magnet",
+				"distilling",
+				"filtering"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Ask what each method keeps: a solid, a dissolved solid, a liquid, iron, or the big pieces.",
+			"explain": "Muddy water: filtering. Salt: evaporating. Pure water: distilling. Iron filings: a magnet. Pebbles: a sieve."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Evaporating salty water gets back the water as well as the salt.",
+			"answer": false,
+			"hint": "Where does the water go when it evaporates from an open basin?",
+			"explain": "False: the water escapes into the air as vapour. To keep the water too, you must distil it."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7k.separate_method",
+			"level": 1
+		},
+		{
+			"gen": "g7k.separate_method",
+			"level": 2
+		},
+		{
+			"gen": "g7k.separate_method",
+			"level": 3
+		},
+		{
+			"gen": "g7k.chroma_read",
+			"level": 1
+		},
+		{
+			"gen": "g7k.chroma_read",
+			"level": 2
+		},
+		{
+			"gen": "g7k.chroma_read",
+			"level": 3
+		},
+		{
+			"gen": "g7k.mixture_words",
+			"level": 1
+		},
+		{
+			"gen": "g7k.mixture_words",
+			"level": 2
+		},
+		{
+			"gen": "g7k.mixture_words",
+			"level": 3
+		}
+	]
+}

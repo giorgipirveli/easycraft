@@ -1,0 +1,304 @@
+{
+	"id": "g4.geography.water_on_the_move",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a river's delta? (A fan of land and channels at its mouth.) But where does a river's water come from, and where does it go? Round and round, in the water cycle."
+		},
+		{
+			"text": "The Sun warms seas, lakes and puddles. Some of the water turns into an invisible gas, water vapour, and rises into the air. This is evaporation. Plants give off water vapour from their leaves too.",
+			"picture": {
+				"kind": "water_cycle"
+			}
+		},
+		{
+			"text": "High up, the air is colder. The vapour cools and turns back into tiny drops of water, which gather as clouds. This is condensation: the same thing that mists up a cold window."
+		},
+		{
+			"text": "When the drops in a cloud join, they grow too heavy and fall. They fall as rain, or as snow, sleet or hail when it is cold. This is precipitation.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Water evaporates"
+					},
+					{
+						"shape": "step",
+						"text": "Vapour condenses"
+					},
+					{
+						"shape": "step",
+						"text": "Rain falls"
+					},
+					{
+						"shape": "end",
+						"text": "Water runs to the sea"
+					}
+				]
+			}
+		},
+		{
+			"text": "Water runs off the land into streams, rivers and lakes, or soaks into the ground and seeps through rocks. Sooner or later it reaches the sea, and the cycle starts again. The Sun's heat keeps it going.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"step",
+						"what happens"
+					],
+					[
+						"evaporation",
+						"water to vapour"
+					],
+					[
+						"condensation",
+						"vapour to clouds"
+					],
+					[
+						"precipitation",
+						"rain or snow"
+					],
+					[
+						"collection",
+						"back to the sea"
+					]
+				]
+			}
+		},
+		{
+			"text": "Almost all of Earth's water is salty sea. If all of it were 100 cups, 97 would be salt water and 2 would be frozen in ice. Only 1 would be fresh water we can reach.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"salt water",
+						97
+					],
+					[
+						"ice",
+						2
+					],
+					[
+						"fresh water",
+						1
+					]
+				],
+				"step": 10,
+				"top": 100,
+				"name": "Earth's water in 100 cups"
+			}
+		},
+		{
+			"text": "We get fresh water from rivers, lakes and reservoirs behind dams. Wells reach water stored under the ground, in rocks called aquifers. It is cleaned before it comes out of the tap."
+		},
+		{
+			"text": "Try it in the world: build a reservoir with a dam in the hills, a channel down to a village, and a well in the village square. Next: map scales and real distances."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What powers the water cycle?",
+			"answer": 0,
+			"hint": "What warms the sea so that water rises?",
+			"choices": [
+				"the Sun's heat",
+				"the Moon's light",
+				"the wind alone",
+				"people"
+			],
+			"explain": "The Sun's heat makes water evaporate and keeps the cycle going."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is it called when water vapour cools into drops and makes clouds?",
+			"answer": 0,
+			"hint": "It also mists up a cold window.",
+			"choices": [
+				"condensation",
+				"evaporation",
+				"precipitation",
+				"irrigation"
+			],
+			"explain": "Condensation: vapour cools and turns back into tiny drops."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Rain, snow, sleet and hail are all precipitation.",
+			"answer": true,
+			"hint": "Precipitation is water falling from clouds.",
+			"explain": "True: all water that falls from clouds is precipitation."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Most of Earth's water is...",
+			"answer": 0,
+			"hint": "Think of the 100 cups.",
+			"choices": [
+				"salty sea water",
+				"fresh water in rivers",
+				"ice cream",
+				"water in clouds"
+			],
+			"explain": "About 97 cups in every 100 are salty sea water."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the water cycle in order, starting at the sea.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Water goes up, turns into clouds, comes down and flows back.",
+			"items": [
+				"vapour rises and cools",
+				"rain falls on the land",
+				"water evaporates from the sea",
+				"clouds form",
+				"rivers carry water to the sea"
+			],
+			"explain": "Evaporation, rising and cooling, condensation into clouds, precipitation, and collection back to the sea."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each step of the water cycle to its meaning.",
+			"items": [
+				"evaporation",
+				"condensation",
+				"precipitation",
+				"collection"
+			],
+			"matches": [
+				"vapour turns to drops",
+				"rain or snow falls",
+				"water gathers in rivers",
+				"water turns to vapour"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Use the table in the lesson.",
+			"explain": "Evaporation: water to vapour. Condensation: vapour to drops. Precipitation: rain or snow. Collection: water gathering in rivers, lakes and seas."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: fresh water or salt water?",
+			"groups": [
+				"fresh",
+				"salt"
+			],
+			"items": [
+				"a mountain stream",
+				"the Atlantic Ocean",
+				"rain",
+				"the Mediterranean Sea",
+				"a glacier's ice",
+				"the North Sea"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Seas and oceans are salty; rain and ice are fresh.",
+			"explain": "Fresh: streams, rain and glacier ice. Salt: the Atlantic, the Mediterranean and the North Sea."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is an aquifer?",
+			"answer": 0,
+			"hint": "Wells reach down into it.",
+			"choices": [
+				"rock underground that holds water",
+				"a kind of cloud",
+				"a water bird",
+				"a salty lake"
+			],
+			"explain": "An aquifer is rock that holds water in its tiny spaces, like a sponge; wells pump water from it."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A running tap uses about 6 litres of water a minute. You brush your teeth for 2 minutes with it running. How many litres could you save by turning it off?",
+			"answer": "12",
+			"hint": "How many litres are 2 lots of one minute's water?",
+			"explain": "2 × 6 = 12 litres saved."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where is most of Earth's fresh water?",
+			"answer": 0,
+			"hint": "Look back at the 100 cups.",
+			"choices": [
+				"frozen in ice and glaciers",
+				"in rivers",
+				"in clouds",
+				"in bottles"
+			],
+			"explain": "Most fresh water is frozen in ice sheets and glaciers; only a little is in rivers and lakes."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The water you drink could once have fallen as rain millions of years ago.",
+			"answer": true,
+			"hint": "Water goes round and round the cycle.",
+			"explain": "True: Earth keeps using the same water, round and round the cycle."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is sea water not turned into drinking water everywhere?",
+			"answer": 0,
+			"hint": "What must be taken out of sea water, and how?",
+			"choices": [
+				"taking the salt out uses a lot of energy",
+				"sea water is already fresh",
+				"it is against the law",
+				"it makes the sea sweet"
+			],
+			"explain": "Taking the salt out, called desalination, uses a lot of energy, so it costs a lot."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Water soaks into the ground after rain. Where can it go next?",
+			"answer": 0,
+			"hint": "Water keeps moving, even underground.",
+			"choices": [
+				"through rocks into aquifers and rivers",
+				"straight up into space",
+				"nowhere: it stays still for ever",
+				"into the Sun"
+			],
+			"explain": "It seeps through rocks into aquifers, springs and rivers, and in time it reaches the sea."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In 100 cups of Earth's water, 97 are salty and 2 are frozen. How many cups are fresh water we can reach?",
+			"answer": "1",
+			"hint": "Take the salty cups and the frozen cups away from 100.",
+			"explain": "100 − 97 = 3, and 3 − 2 = 1 cup."
+		}
+	],
+	"generators": []
+}

@@ -1,0 +1,320 @@
+{
+	"id": "g6.health_pe.training_principles",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met the parts of fitness. Can you name four? (Stamina, strength, speed and flexibility.) Today: how to plan training that makes them better."
+		},
+		{
+			"text": "FITT is a plan for exercise. Frequency: how often, like 3 times a week. Intensity: how hard. Time: how long, like 30 minutes. Type: which activity, like swimming, cycling or dance.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"letter",
+						"stands for",
+						"means"
+					],
+					[
+						"F",
+						"frequency",
+						"how often"
+					],
+					[
+						"I",
+						"intensity",
+						"how hard"
+					],
+					[
+						"T",
+						"time",
+						"how long"
+					],
+					[
+						"T",
+						"type",
+						"which activity"
+					]
+				]
+			}
+		},
+		{
+			"text": "The UK's top doctors say young people should be active for at least 60 minutes a day, on average over a week. Some of it should be hard enough to puff, with activities that make muscles and bones strong."
+		},
+		{
+			"text": "Check the intensity with the talk test. Light: you can still sing. Moderate: you can talk, but not sing. Vigorous: you can only say a few words before you need a breath.",
+			"picture": {
+				"kind": "talk_test"
+			}
+		},
+		{
+			"text": "Your pulse shows how hard your heart works. Find it on your wrist or neck with two fingers, count the beats for 15 seconds, and multiply by 4: 20 beats in 15 seconds is 20 × 4 = 80 beats a minute."
+		},
+		{
+			"text": "To improve, use overload: work a little harder than your body is used to. Add it step by step (progression), like 2 more minutes each week. Train for what you want to improve (specificity): swimmers swim."
+		},
+		{
+			"text": "Warm up first: a pulse raiser, like jogging, then moving stretches. Cool down after: a slow walk and gentle stretches. Rest days let the body recover, and fitness fades if you stop (reversibility)."
+		},
+		{
+			"text": "Try it in the world: build a training trail with a station for each letter of FITT, and warm up before you run it. For real: plan a week of activity with FITT, and count your pulse before and after. Next: team tactics."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In FITT, what does the first T stand for?",
+			"answer": 0,
+			"hint": "F, I, T, T: how often, how hard, how long, and which activity.",
+			"choices": [
+				"time",
+				"type",
+				"training",
+				"target"
+			],
+			"explain": "Time: how long you exercise for. The second T is type: which activity."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In moderate activity you breathe faster, but you can still talk.",
+			"answer": true,
+			"hint": "Think of the talk test: light, moderate, vigorous.",
+			"explain": "True: moderate activity makes you breathe faster, but you can still talk (not sing)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part of FITT is 'how often'?",
+			"answer": 0,
+			"hint": "Which word means how many times a week?",
+			"choices": [
+				"frequency",
+				"intensity",
+				"time",
+				"type"
+			],
+			"explain": "Frequency: how often, like 3 times a week."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why do you warm up before exercise?",
+			"answer": 0,
+			"hint": "What happens to your heart and muscles in a warm-up?",
+			"choices": [
+				"to get your body ready and help prevent injuries",
+				"to get tired first",
+				"to make the session shorter",
+				"because it is a rule"
+			],
+			"explain": "A warm-up raises your pulse and loosens your muscles, so your body is ready and less likely to get hurt."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tilly counts 22 beats in 15 seconds after skipping. What is her pulse in beats a minute?",
+			"answer": "88",
+			"hint": "A minute is 4 lots of 15 seconds.",
+			"explain": "22 × 4 = 88 beats a minute."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bram can say only a few words before he needs a breath. How hard is he working?",
+			"answer": 0,
+			"hint": "Use the talk test: sing, talk, or only a few words?",
+			"choices": [
+				"vigorous",
+				"moderate",
+				"light"
+			],
+			"explain": "Vigorous: only a few words at a time.",
+			"picture": {
+				"kind": "talk_test",
+				"words": false
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the changes: frequency or intensity?",
+			"groups": [
+				"frequency",
+				"intensity"
+			],
+			"items": [
+				"run on 4 days instead of 3",
+				"run at a faster pace",
+				"swim three times a week, not twice",
+				"cycle up hills, not on the flat",
+				"play every day"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Frequency is how often; intensity is how hard.",
+			"explain": "Frequency: 4 days, three times a week, every day. Intensity: faster, and up hills."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a training session in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Get ready, work hard, then settle down.",
+			"items": [
+				"cool down: a slow walk and stretches",
+				"the main activity",
+				"moving stretches",
+				"pulse raiser: gentle jogging"
+			],
+			"explain": "A pulse raiser, moving stretches, the main activity, then a cool-down walk and gentle stretches."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each training principle to what it means.",
+			"items": [
+				"overload",
+				"progression",
+				"specificity",
+				"reversibility"
+			],
+			"matches": [
+				"add a little each week",
+				"train for your own sport",
+				"fitness fades if you stop",
+				"work harder than usual"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Over, progress, specific, reverse: what do the words suggest?",
+			"explain": "Overload: harder than usual. Progression: a little more each week. Specificity: your own sport. Reversibility: fitness fades if you stop."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Rest days are part of a good training plan.",
+			"answer": true,
+			"hint": "When does the body repair and get stronger?",
+			"explain": "True: muscles recover and grow stronger on rest days, and sleep helps too."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara wants 60 minutes a day on average. Monday to Friday she is active for 40 minutes a day. How many minutes does she need at the weekend, in all?",
+			"answer": "220",
+			"hint": "Find the week's total first: 7 days of 60 minutes. Then take away what she has done.",
+			"explain": "7 × 60 = 420 minutes a week. 5 × 40 = 200 minutes done. 420 − 200 = 220 minutes at the weekend."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi has never run before. Her plan: 20 minutes on Monday, then 2 hours on Tuesday. What is wrong with it?",
+			"answer": 0,
+			"hint": "Think of progression: how quickly should training grow?",
+			"choices": [
+				"too much too soon: add a little each week",
+				"it is not enough",
+				"Monday is the wrong day",
+				"nothing is wrong"
+			],
+			"explain": "Too much too soon can cause injuries. Progression adds a little at a time, like 2 more minutes a week."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "At rest, Bram's pulse is 70. Straight after a run it is 150; two minutes later it is 100. By how many beats a minute did it fall in those two minutes?",
+			"answer": "50",
+			"hint": "Compare the pulse straight after the run with the pulse two minutes later.",
+			"explain": "150 − 100 = 50 beats a minute. The faster your pulse falls back, the fitter your heart."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which plan uses specificity for a swimmer?",
+			"answer": 0,
+			"hint": "Specific means matching what you want to get better at.",
+			"choices": [
+				"swimming lengths three times a week",
+				"cycling to school",
+				"playing chess",
+				"watching swimming on television"
+			],
+			"explain": "Swimming lengths: training should match the sport."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If you stop training for months, you keep all your fitness.",
+			"answer": false,
+			"hint": "Think of the principle of reversibility.",
+			"explain": "False: fitness slowly fades when you stop (reversibility), but it comes back when you train again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Most of a long, steady run should feel…",
+			"answer": 0,
+			"hint": "A long run needs a pace you can keep going for a long time.",
+			"choices": [
+				"moderate: you can talk, but not sing",
+				"vigorous: only a few words",
+				"light: you can sing",
+				"as hard as possible all the way"
+			],
+			"explain": "Moderate: you can talk but not sing, so you can keep going and build stamina."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.pulse_rate",
+			"level": 1
+		},
+		{
+			"gen": "g6w.pulse_rate",
+			"level": 2
+		},
+		{
+			"gen": "g6w.pulse_rate",
+			"level": 3
+		},
+		{
+			"gen": "g6w.fitt_plan",
+			"level": 1
+		},
+		{
+			"gen": "g6w.fitt_plan",
+			"level": 2
+		},
+		{
+			"gen": "g6w.fitt_plan",
+			"level": 3
+		},
+		{
+			"gen": "g6w.fitt_change",
+			"level": 1
+		},
+		{
+			"gen": "g6w.fitt_change",
+			"level": 2
+		},
+		{
+			"gen": "g6w.fitt_change",
+			"level": 3
+		}
+	]
+}

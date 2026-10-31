@@ -1,0 +1,466 @@
+{
+	"id": "g6.art.expression",
+	"lesson": [
+		{
+			"text": "Quick memory: which colours are warm? (Reds, oranges and yellows.) Today: showing feelings with faces, bodies, colour and line."
+		},
+		{
+			"text": "Faces show feelings with eyebrows, eyes and mouth. Brows pushed down and together look angry; brows raised in the middle look worried or sad; wide eyes and an open mouth look surprised.",
+			"picture": {
+				"kind": "feeling_art",
+				"feeling": "surprise"
+			}
+		},
+		{
+			"text": "Bodies speak too. Arms up high show joy; slumped shoulders and a lowered head show sadness; hands up near the face and bent knees show fear.",
+			"picture": {
+				"kind": "feeling_art",
+				"feeling": "sadness",
+				"body": true
+			}
+		},
+		{
+			"text": "Colour changes the mood. Warm, bright colours feel lively or angry; cool blues and greys feel calm or sad. Pablo Picasso painted mostly in blues for a few sad years: his Blue Period, 1901-1904."
+		},
+		{
+			"text": "Line has feelings too: jagged zigzags feel tense or angry, and smooth, flowing curves feel calm. In The Scream (1893), Edvard Munch's swirling lines and strong colours show a person full of worry."
+		},
+		{
+			"text": "Worked example: to show joy, draw raised arms, a big smile and crinkled eyes, then use warm yellows and bouncy curved lines.",
+			"picture": {
+				"kind": "feeling_art",
+				"feeling": "joy",
+				"body": true,
+				"colour": true
+			}
+		},
+		{
+			"text": "Exaggerate a little: bigger eyebrows, a stronger lean or brighter colours make a feeling easier to read, as cartoonists and comic artists know."
+		},
+		{
+			"text": "Try it in the world: pull four different faces in a mirror and sketch them, or build a scene in your world whose colours show one feeling. Next: layered prints."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which feeling does this face show?",
+			"answer": 0,
+			"hint": "Look at the eyebrows and the mouth.",
+			"choices": [
+				"anger",
+				"joy",
+				"surprise",
+				"calm"
+			],
+			"explain": "Brows pushed down and a tight mouth show anger.",
+			"picture": {
+				"kind": "feeling_art",
+				"feeling": "anger"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which feeling does this face show?",
+			"answer": 0,
+			"hint": "Look at the mouth and the eyes.",
+			"choices": [
+				"joy",
+				"sadness",
+				"fear",
+				"anger"
+			],
+			"explain": "A big open smile and crinkled eyes show joy.",
+			"picture": {
+				"kind": "feeling_art",
+				"feeling": "joy"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Cool colours like blue often feel calm or sad.",
+			"answer": true,
+			"hint": "Think of Picasso's Blue Period.",
+			"explain": "True: cool colours often feel quiet, calm or sad."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which figure shows sadness?",
+			"answer": 0,
+			"hint": "Look for slumped shoulders and a lowered head.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "feeling_art",
+						"feeling": "sadness",
+						"body": true
+					}
+				},
+				{
+					"picture": {
+						"kind": "feeling_art",
+						"feeling": "joy",
+						"body": true
+					}
+				},
+				{
+					"picture": {
+						"kind": "feeling_art",
+						"feeling": "anger",
+						"body": true
+					}
+				}
+			],
+			"explain": "The slumped figure with its head down shows sadness."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each kind of line to its feeling.",
+			"items": [
+				"jagged zigzags",
+				"smooth curves",
+				"bouncy loops",
+				"heavy drooping lines"
+			],
+			"matches": [
+				"calm",
+				"playful and happy",
+				"sad and tired",
+				"tense or angry"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "How would you move your arm to draw each?",
+			"explain": "Zigzags feel tense, smooth curves calm, bouncy loops playful and drooping lines sad."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which feeling does this face show?",
+			"answer": 0,
+			"hint": "Wide eyes, raised brows, a round open mouth.",
+			"choices": [
+				"surprise",
+				"anger",
+				"calm",
+				"joy"
+			],
+			"explain": "Raised brows, wide eyes and an O mouth show surprise.",
+			"picture": {
+				"kind": "feeling_art",
+				"feeling": "surprise"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which feeling does this face show?",
+			"answer": 0,
+			"hint": "Brows up in the middle, wide eyes and a wobbly mouth.",
+			"choices": [
+				"fear",
+				"joy",
+				"calm",
+				"anger"
+			],
+			"explain": "Worried brows, wide eyes and a shaky mouth show fear.",
+			"picture": {
+				"kind": "feeling_art",
+				"feeling": "fear"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Munch's The Scream uses swirling lines and strong colours. What feeling do they show?",
+			"answer": 0,
+			"hint": "Would swirling, clashing lines feel peaceful?",
+			"choices": [
+				"worry and fear",
+				"calm",
+				"boredom",
+				"joy"
+			],
+			"explain": "They show worry and fear: nothing in the picture is still."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Picasso's Blue Period paintings mostly use warm reds and oranges.",
+			"answer": false,
+			"hint": "Read the period's name.",
+			"explain": "False: they are mostly cool blues, which feel sad."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: do they feel calm, or lively and tense?",
+			"groups": [
+				"calm",
+				"lively or tense"
+			],
+			"items": [
+				"soft blue",
+				"zigzag red lines",
+				"gentle curves",
+				"bright orange",
+				"pale green",
+				"sharp spikes"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Cool and smooth, or warm and sharp?",
+			"explain": "Calm: soft blue, gentle curves, pale green. Lively or tense: zigzags, bright orange, spikes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How can you show someone is tired, without drawing their face?",
+			"answer": 0,
+			"hint": "How does your body feel when you are tired?",
+			"choices": [
+				"drooping shoulders and a bent back",
+				"arms up high",
+				"a big jump",
+				"fists raised"
+			],
+			"explain": "Drooping shoulders and a bent back show tiredness."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which feeling does this figure show?",
+			"answer": 0,
+			"hint": "Look at the relaxed arms, the straight stance and the gentle face.",
+			"choices": [
+				"calm",
+				"anger",
+				"fear",
+				"surprise"
+			],
+			"explain": "Loose arms, an upright body, a soft smile and half-closed eyes show calm.",
+			"picture": {
+				"kind": "feeling_art",
+				"feeling": "calm",
+				"body": true,
+				"colour": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which face shows worry or fear?",
+			"answer": 0,
+			"hint": "Look for brows raised in the middle and wide eyes.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "feeling_art",
+						"feeling": "fear"
+					}
+				},
+				{
+					"picture": {
+						"kind": "feeling_art",
+						"feeling": "joy"
+					}
+				},
+				{
+					"picture": {
+						"kind": "feeling_art",
+						"feeling": "calm"
+					}
+				}
+			],
+			"explain": "The face with raised middle brows, wide eyes and a shaky mouth shows fear."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An artist wants a stormy, angry sky. Which choice fits best?",
+			"answer": 0,
+			"hint": "Angry means tense lines and strong, dark colour.",
+			"choices": [
+				"jagged lines in dark reds and purples",
+				"smooth pale blue curves",
+				"soft pastel dots",
+				"straight grey lines"
+			],
+			"explain": "Jagged lines with dark, strong colours feel angry and stormy."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Exaggerating a feeling a little can make it easier for others to read.",
+			"answer": true,
+			"hint": "Think of comics.",
+			"explain": "True: bigger brows or a stronger lean make the feeling clear."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why might a painter choose cool, greyish colours for a sad scene?",
+			"answer": 0,
+			"hint": "What mood do cool colours give?",
+			"choices": [
+				"cool, dull colours often feel quiet and sad",
+				"grey paint is cheapest",
+				"sad scenes must be grey",
+				"warm colours fade indoors"
+			],
+			"explain": "Cool, dull colours often feel quiet and sad, so they suit the mood."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In a portrait, the eyebrows go up in the middle and the mouth turns down. Which feeling is that?",
+			"answer": 0,
+			"hint": "Try the face in a mirror.",
+			"choices": [
+				"sadness or worry",
+				"anger",
+				"joy",
+				"pride"
+			],
+			"explain": "Brows raised in the middle with a downturned mouth show sadness or worry."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the clues by the feeling they show.",
+			"groups": [
+				"joy",
+				"sadness",
+				"anger"
+			],
+			"items": [
+				"arms up high",
+				"slumped shoulders",
+				"brows pushed down",
+				"a big smile",
+				"a lowered head",
+				"clenched fists"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Picture a person feeling each one. How would their body and face look?",
+			"explain": "Joy: arms up high, a big smile. Sadness: slumped shoulders, a lowered head. Anger: brows pushed down and together, clenched fists."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each artist's choice to the mood it makes.",
+			"items": [
+				"cool blues and greys",
+				"jagged dark red lines",
+				"warm yellows, bouncy curves",
+				"swirling lines, strong colours"
+			],
+			"matches": [
+				"joy",
+				"worry and fear",
+				"calm or sad",
+				"anger"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of Picasso's Blue Period, a stormy sky, a happy scene and The Scream.",
+			"explain": "Cool blues and greys feel calm or sad, like Picasso's Blue Period. Jagged dark reds feel angry. Warm yellows with bouncy curves feel joyful. Swirling lines and strong colours show worry, as in The Scream."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "An artist wants a calm lake scene. Sort the choices: does it help the mood or spoil it?",
+			"groups": [
+				"helps",
+				"spoils it"
+			],
+			"items": [
+				"smooth flowing curves",
+				"jagged zigzags",
+				"soft blues and greens",
+				"bright clashing reds",
+				"a still, flat horizon"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Calm comes from cool colours and smooth lines. Which choices feel tense?",
+			"explain": "Smooth curves, soft blues and greens and a still, flat horizon help it feel calm. Jagged zigzags and clashing reds feel tense or angry, so they spoil the mood."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the clues: fear or joy?",
+			"groups": [
+				"fear",
+				"joy"
+			],
+			"items": [
+				"hands near the face",
+				"arms up high",
+				"bent knees, leaning away",
+				"a jump in the air",
+				"wide eyes, a shaky mouth",
+				"crinkled smiling eyes"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is the body pulling back and small, or opening up and reaching out?",
+			"explain": "Fear pulls back: hands near the face, bent knees leaning away, wide eyes and a shaky mouth. Joy opens up: arms high, a jump, crinkled smiling eyes."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the drawings of a scared figure from the hardest feeling to read to the easiest.",
+			"items": [
+				"a big lean and huge brows",
+				"a slight lean",
+				"a stronger lean and bigger brows"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Exaggerating more makes a feeling clearer.",
+			"explain": "A slight lean is hardest to read. A stronger lean with bigger brows is clearer. A big lean with huge brows is the easiest to read, as cartoonists know."
+		}
+	],
+	"generators": []
+}

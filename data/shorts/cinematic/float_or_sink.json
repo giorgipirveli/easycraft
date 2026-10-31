@@ -1,0 +1,346 @@
+{
+	"id": "float_or_sink",
+	"title": "Why things float or sink",
+	"topic": "science",
+	"link": {"unit": "g5.science.properties"},
+	"still": 48,
+	"stage": {
+		"sky": {"top": "#cfdcea", "horizon": "#eef3f8", "bottom": "#b8c4d2"},
+		"light": "studio",
+		"sun": [0.35, 0.8, 0.5],
+		"models": [
+			{
+				"id": "tank",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [
+					{"box": [-10, -6, -4, 10, -6, 3], "block": "PLANKS"},
+					{"box": [-9, -5, -3, 9, -4, 1], "block": "SAND"},
+					{"box": [-9, -5, -3, 9, 1, -3], "block": "PAINTED_WHITE"},
+					{"box": [-9, -5, -3, -9, 1, 1], "block": "PAINTED_WHITE"},
+					{"box": [9, -5, -3, 9, 1, 1], "block": "PAINTED_WHITE"},
+					{"box": [-8, -3, -2, 8, -1, 1], "block": "WATER"}
+				]
+			},
+			{
+				"id": "wood",
+				"model": "blocks",
+				"at": [-6, 5, -0.5],
+				"cells": [[0, 0, 0, "PLANKS"]],
+				"moves": [
+					{"do": "appear", "at": 2},
+					{"do": "move", "at": 2, "dur": 0.7, "to": [-6, -1.05, -0.5], "ease": "in"},
+					{"do": "move", "at": 2.7, "dur": 1.4, "to": [-6, -0.5, -0.5], "ease": "back"}
+				]
+			},
+			{
+				"id": "stone",
+				"model": "blocks",
+				"at": [-3, 5, -0.5],
+				"cells": [[0, 0, 0, "STONE"]],
+				"moves": [
+					{"do": "appear", "at": 11.4},
+					{"do": "move", "at": 11.4, "dur": 0.7, "to": [-3, -0.4, -0.5], "ease": "in"},
+					{"do": "move", "at": 12.1, "dur": 2.6, "to": [-3, -3, -0.5], "ease": "out"}
+				]
+			},
+			{
+				"id": "ice",
+				"model": "blocks",
+				"at": [0, 5, -0.5],
+				"cells": [[0, 0, 0, "ICE"]],
+				"moves": [
+					{"do": "appear", "at": 30.9},
+					{"do": "move", "at": 30.9, "dur": 0.7, "to": [0, -1.317, -0.5], "ease": "in"},
+					{"do": "move", "at": 31.6, "dur": 1.4, "to": [0, -0.917, -0.5], "ease": "back"}
+				]
+			},
+			{
+				"id": "lump",
+				"model": "blocks",
+				"at": [3, 5, -0.5],
+				"cells": [[0, 0, 0, "PAINTED_GREY"]],
+				"size": 0.814,
+				"moves": [
+					{"do": "appear", "at": 40.9},
+					{"do": "move", "at": 40.9, "dur": 0.7, "to": [3, -0.4, -0.5], "ease": "in"},
+					{"do": "move", "at": 41.6, "dur": 2.2, "to": [3, -3, -0.5], "ease": "out"}
+				]
+			},
+			{
+				"id": "boat",
+				"model": "mark",
+				"at": [6, 4, -0.5],
+				"moves": [{"do": "move", "at": 44, "dur": 2.6, "to": [6, -0.708, -0.5], "ease": "out"}]
+			},
+			{
+				"id": "floor",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"on": "boat",
+				"cells": [[0, 0, 0, "PAINTED_GREY"]],
+				"stretch": [3, 0.03, 2],
+				"moves": [{"do": "appear", "at": 44}]
+			},
+			{
+				"id": "side_a",
+				"model": "blocks",
+				"at": [0, 0, 0.985],
+				"on": "boat",
+				"cells": [[0, 0, 0, "PAINTED_GREY"]],
+				"stretch": [3, 1.2, 0.03],
+				"moves": [{"do": "appear", "at": 44}]
+			},
+			{
+				"id": "side_b",
+				"model": "blocks",
+				"at": [0, 0, -0.985],
+				"on": "boat",
+				"cells": [[0, 0, 0, "PAINTED_GREY"]],
+				"stretch": [3, 1.2, 0.03],
+				"moves": [{"do": "appear", "at": 44}]
+			},
+			{
+				"id": "end_a",
+				"model": "blocks",
+				"at": [1.485, 0, 0],
+				"on": "boat",
+				"cells": [[0, 0, 0, "PAINTED_GREY"]],
+				"stretch": [0.03, 1.2, 2],
+				"moves": [{"do": "appear", "at": 44}]
+			},
+			{
+				"id": "end_b",
+				"model": "blocks",
+				"at": [-1.485, 0, 0],
+				"on": "boat",
+				"cells": [[0, 0, 0, "PAINTED_GREY"]],
+				"stretch": [0.03, 1.2, 2],
+				"moves": [{"do": "appear", "at": 44}]
+			}
+		],
+		"effects": [
+			{
+				"kind": "billow",
+				"at": [-6, 0.05, -0.5],
+				"from": 2.6,
+				"to": 2.95,
+				"size": 0.22,
+				"speed": 1.2,
+				"amount": 40,
+				"color": "#cfeaff"
+			},
+			{
+				"kind": "billow",
+				"at": [-3, 0.05, -0.5],
+				"from": 12,
+				"to": 12.35,
+				"size": 0.22,
+				"speed": 1.2,
+				"amount": 40,
+				"color": "#cfeaff"
+			},
+			{
+				"kind": "steam",
+				"at": [-3, -2, -0.5],
+				"from": 12.2,
+				"to": 14.6,
+				"size": 0.12,
+				"amount": 24,
+				"color": "#ffffff"
+			},
+			{
+				"kind": "billow",
+				"at": [0, 0.05, -0.5],
+				"from": 31.5,
+				"to": 31.85,
+				"size": 0.22,
+				"speed": 1.2,
+				"amount": 40,
+				"color": "#cfeaff"
+			},
+			{
+				"kind": "billow",
+				"at": [3, 0.05, -0.5],
+				"from": 41.5,
+				"to": 41.85,
+				"size": 0.22,
+				"speed": 1.2,
+				"amount": 40,
+				"color": "#cfeaff"
+			},
+			{
+				"kind": "billow",
+				"at": [6, 0.05, -0.5],
+				"from": 46.2,
+				"to": 46.55,
+				"size": 0.3,
+				"speed": 1.2,
+				"amount": 40,
+				"color": "#cfeaff"
+			}
+		],
+		"camera": [
+			{"at": 0, "pos": [-6, 0.7, 7], "look": [-6, -0.4, -0.5], "fov": 45},
+			{"at": 9.95, "pos": [-5.6, 0.5, 6.6], "look": [-6, -0.5, -0.5], "fov": 45},
+			{"at": 10, "pos": [-3, 0.6, 10], "look": [-3, -0.9, -0.5], "fov": 50, "cut": true},
+			{"at": 13, "pos": [-3, 0.4, 10], "look": [-3, -1, -0.5], "fov": 50},
+			{"at": 19.95, "pos": [-3, 0, 10], "look": [-3, -1.8, -0.5], "fov": 50},
+			{"at": 20, "pos": [-4.5, 0.2, 11], "look": [-4.5, -1.5, -0.5], "fov": 50, "cut": true},
+			{"at": 29.95, "pos": [-4.2, 0, 10.6], "look": [-4.5, -1.5, -0.5], "fov": 50},
+			{"at": 30, "pos": [0, 0.7, 7], "look": [0, -0.5, -0.5], "fov": 45, "cut": true},
+			{"at": 39.95, "pos": [0.4, 0.5, 6.6], "look": [0, -0.6, -0.5], "fov": 45},
+			{"at": 40, "pos": [4.5, 0.4, 11], "look": [4.5, -1.5, -0.5], "fov": 50, "cut": true},
+			{"at": 50, "pos": [4.9, 0.2, 10.4], "look": [4.6, -1.4, -0.5], "fov": 50}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 10,
+			"background": "lab",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Drop a wooden block into water. It floats, about half under the water.",
+			"say": "Drop a wooden block into water. It bobs up and floats, with about half of it under the water.",
+			"sounds": [{"at": 2.6, "effect": "splash"}, {"at": 4.4, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "WOOD: FLOATS",
+					"at": [180, 84],
+					"size": 28,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 4.4}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "lab",
+			"camera": {"zoom": [1, 1]},
+			"caption": "A stone the same size sinks to the bottom! Why?",
+			"say": "Now drop a stone the same size. Down it goes, all the way to the bottom! Why does one float and one sink?",
+			"sounds": [{"at": 2.1, "effect": "splash"}, {"at": 3, "effect": "bubbles"}, {"at": 4.8, "effect": "thud"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "STONE: SINKS",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "grey",
+					"moves": [{"do": "pop", "at": 4.8}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "lab",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Water pushes up. Things lighter than the water they push aside float!",
+			"say": "Water pushes up on everything in it. If something is lighter than the same amount of water, the push wins and it floats.",
+			"sounds": [{"at": 1, "effect": "pop"}, {"at": 3, "effect": "pop"}, {"at": 6, "effect": "ding"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "WEIGHT",
+					"at": [139.5, 149.4],
+					"size": 20,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "pop", "at": 1}, {"do": "out", "at": 5}]
+				},
+				{
+					"kind": "arrow",
+					"from": [75, 123],
+					"to": [75, 189],
+					"color": "red",
+					"width": 8,
+					"moves": [{"do": "draw", "at": 1.2}]
+				},
+				{
+					"kind": "words",
+					"text": "WATER PUSHES UP",
+					"at": [167, 327.1],
+					"size": 20,
+					"color": "ink",
+					"box": "lime",
+					"moves": [{"do": "pop", "at": 3}, {"do": "out", "at": 5}]
+				},
+				{
+					"kind": "arrow",
+					"from": [77, 343],
+					"to": [77, 277],
+					"color": "lime",
+					"width": 8,
+					"moves": [{"do": "draw", "at": 3.2}]
+				},
+				{
+					"kind": "words",
+					"text": "WOOD: LIGHTER THAN WATER",
+					"at": [180, 84],
+					"size": 20,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 5.2}]
+				},
+				{
+					"kind": "words",
+					"text": "STONE: HEAVIER THAN WATER",
+					"at": [180, 136],
+					"size": 20,
+					"color": "white",
+					"box": "grey",
+					"moves": [{"do": "pop", "at": 6.6}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "lab",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Ice is a little lighter than water, so 9/10 of an iceberg hides under it!",
+			"say": "Ice is only a little lighter than water. It floats very low: nine tenths of an iceberg hides under the sea!",
+			"sounds": [{"at": 1.6, "effect": "splash"}, {"at": 4, "effect": "ice_crackle"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "9/10 UNDER WATER",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 4}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "lab",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Iron sinks, but thin iron shaped into a boat floats! What else will float?",
+			"say": "A lump of iron sinks. But the same iron as a thin, hollow boat pushes aside lots of water, and floats! What else will float?",
+			"sounds": [{"at": 1.6, "effect": "splash"}, {"at": 3.2, "effect": "thud"}, {"at": 6.4, "effect": "splash"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "IRON LUMP: SINKS",
+					"at": [126, 84],
+					"size": 20,
+					"color": "white",
+					"box": "grey",
+					"moves": [{"do": "pop", "at": 3.2}]
+				},
+				{
+					"kind": "words",
+					"text": "IRON BOAT: FLOATS",
+					"at": [228, 136],
+					"size": 20,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 7.2}]
+				}
+			]
+		}
+	]
+}

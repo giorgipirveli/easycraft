@@ -1,0 +1,453 @@
+{
+	"id": "g4.science.plant_animal_parts",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met plants' needs. What do plants need to grow well? Light, water, air and warmth."
+		},
+		{
+			"text": "Every plant and animal has parts, on the outside and on the inside. Each part has a job that helps it survive, grow, stay safe or have young.",
+			"picture": {
+				"kind": "icon",
+				"block": 260,
+				"count": 3
+			}
+		},
+		{
+			"text": "Plants: the roots hold the plant in the ground and take in water. The stem holds it up and carries the water to the leaves. The leaves use sunlight to make food.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"part",
+						"its job"
+					],
+					[
+						"roots",
+						"take in water"
+					],
+					[
+						"stem",
+						"holds it up"
+					],
+					[
+						"leaves",
+						"make food"
+					],
+					[
+						"flowers",
+						"make seeds"
+					]
+				]
+			}
+		},
+		{
+			"text": "Flowers make seeds that grow into new plants. Bright petals and sweet smells bring bees and birds, which carry pollen from flower to flower. Thorns keep hungry animals away.",
+			"picture": {
+				"kind": "icon",
+				"block": 260
+			}
+		},
+		{
+			"text": "Animals, outside: fur and feathers keep them warm, and a shell protects a turtle. Claws dig and grip, and a fish's gills take in oxygen from the water.",
+			"picture": {
+				"kind": "icon",
+				"animal": "turtle"
+			}
+		},
+		{
+			"text": "Animals, inside: the heart pumps blood around the body, and the lungs take in air. The stomach breaks down food, and the brain controls it all."
+		},
+		{
+			"text": "In your worlds: a camel stores fat in its hump for energy. A penguin's thick feathers and a layer of fat keep it warm in the snow and ice.",
+			"picture": {
+				"kind": "icon",
+				"animal": "penguin"
+			}
+		},
+		{
+			"text": "Scientists give reasons. \"A duck's webbed feet help it swim, because they push the water like paddles.\" Name the part, say its job, and give your reason. Next: digestion and teeth."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a fish use to breathe under water?",
+			"hint": "Which part takes in oxygen from the water?",
+			"explain": "A fish's gills take in oxygen from the water.",
+			"picture": {
+				"kind": "icon",
+				"animal": "fish"
+			},
+			"choices": [
+				"its gills",
+				"its fins",
+				"its tail",
+				"its scales"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Leaves use sunlight to make food for the plant.",
+			"hint": "What do leaves need the Sun for?",
+			"explain": "Leaves catch sunlight and use it to make the plant's food.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part holds a plant up towards the light?",
+			"hint": "Which part is like the plant's backbone?",
+			"explain": "The stem holds the plant up and carries water to the leaves.",
+			"choices": [
+				"the stem",
+				"the petals",
+				"the seeds",
+				"the thorns"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is an inside part of an animal?",
+			"hint": "Which one is hidden inside the body?",
+			"explain": "The lungs are inside the body; fur, claws and a tail are outside.",
+			"choices": [
+				"the lungs",
+				"the fur",
+				"the claws",
+				"the tail"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A turtle's shell protects its soft body.",
+			"hint": "What can a turtle do when danger comes?",
+			"explain": "Its hard shell protects its soft body, and it can even hide inside.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do many flowers have bright petals?",
+			"hint": "Who visits flowers?",
+			"explain": "Bright petals bring bees and birds, which carry pollen so the flowers can make seeds.",
+			"choices": [
+				"to bring bees and birds to them",
+				"to keep the plant warm",
+				"to take in water",
+				"to hold the plant up"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A camel's hump is full of water.",
+			"hint": "What gives a camel energy when food is hard to find?",
+			"explain": "A camel's hump is full of fat, which gives it energy when food is scarce.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which body part breaks down food?",
+			"hint": "Where does food go after you swallow it?",
+			"explain": "The stomach breaks down the food you eat.",
+			"choices": [
+				"the stomach",
+				"the lungs",
+				"the heart",
+				"the skin"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How do a penguin's thick feathers and fat help it?",
+			"hint": "Where do penguins live?",
+			"explain": "Thick feathers and a layer of fat keep a penguin warm in icy water and wind.",
+			"choices": [
+				"They keep it warm in the cold",
+				"They help it see",
+				"They help it hear",
+				"They make it lighter"
+			],
+			"answer": 0
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the path of water through a plant in order.",
+			"hint": "Where does the water enter the plant?",
+			"explain": "The roots take in water, the stem carries it up, and the leaves use it to make food.",
+			"items": [
+				"The leaves use it to make food.",
+				"The stem carries the water up.",
+				"The roots take in water from the soil."
+			],
+			"answer": [
+				2,
+				1,
+				0
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A cactus has a thick, waxy stem. How does it help the cactus live in the desert?",
+			"hint": "What is hard to find in a desert?",
+			"explain": "The thick stem stores water, and the waxy skin keeps it from drying out between rains.",
+			"choices": [
+				"It stores water and stops it drying out",
+				"It catches snow",
+				"It helps it swim",
+				"It makes it grow faster"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara says a turtle's shell helps it survive. Which fact best supports her?",
+			"hint": "Which fact shows the shell keeping the turtle safe?",
+			"explain": "Hiding inside its shell keeps the turtle safe from a hungry fox: that shows the shell helps it survive.",
+			"choices": [
+				"It can hide inside when a fox comes near",
+				"Its shell has a pretty pattern",
+				"It is green",
+				"It lays eggs"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which part helps a duck swim?",
+			"hint": "Which part pushes against the water like a paddle?",
+			"explain": "A duck's webbed feet push against the water like paddles.",
+			"choices": [
+				"its webbed feet",
+				"its sharp beak",
+				"its tail feathers",
+				"its eyes"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The brain sends messages to the rest of the body.",
+			"hint": "What tells your muscles to move?",
+			"explain": "The brain controls the body: it sends messages along nerves to the muscles.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do plants make seeds?",
+			"hint": "What grows from a seed?",
+			"explain": "Seeds grow into new plants, so there are more plants of that kind.",
+			"choices": [
+				"to grow new plants",
+				"to feed the Sun",
+				"to take in water",
+				"to hold up the stem"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A rabbit has big ears. How do they help it survive?",
+			"hint": "What does a rabbit need to watch out for?",
+			"explain": "Big ears catch faint sounds, so the rabbit hears danger early and can run.",
+			"choices": [
+				"It hears a fox coming from far away",
+				"They keep its head warm",
+				"They help it dig",
+				"They help it eat"
+			],
+			"answer": 0
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each part to its job.",
+			"items": [
+				"roots",
+				"gills",
+				"petals",
+				"fur"
+			],
+			"matches": [
+				"keeps an animal warm",
+				"take in water",
+				"bring bees",
+				"take in oxygen from water"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Ask what each part helps the plant or animal do.",
+			"explain": "Roots take in water; gills take in oxygen from water; petals bring bees; fur keeps an animal warm."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the animal parts: outside or inside the body?",
+			"items": [
+				"fur",
+				"lungs",
+				"claws",
+				"heart",
+				"a shell",
+				"stomach"
+			],
+			"groups": [
+				"outside",
+				"inside"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Can you see it without looking inside the body?",
+			"explain": "Fur, claws and a shell are outside. The lungs, the heart and the stomach are inside."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Plant part or animal part?",
+			"items": [
+				"roots",
+				"gills",
+				"petals",
+				"claws"
+			],
+			"groups": [
+				"plant",
+				"animal"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which ones grow in soil or on a flower?",
+			"explain": "Roots and petals are plant parts; gills and claws are animal parts."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the parts by their job.",
+			"groups": [
+				"keeps it safe",
+				"helps it eat or drink",
+				"keeps it warm"
+			],
+			"items": [
+				"a turtle's shell",
+				"a plant's roots",
+				"a fox's fur",
+				"a rose's thorns",
+				"a penguin's fat",
+				"a bird's beak"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				2,
+				1
+			],
+			"hint": "Ask what danger or need each part deals with.",
+			"explain": "Safe: a turtle's shell and a rose's thorns. Eating or drinking: roots take in water and a beak picks up food. Warm: a fox's fur and a penguin's fat."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Name the part, give its job: match each part to the reason it helps.",
+			"items": [
+				"a duck's webbed feet",
+				"a rabbit's big ears",
+				"a cactus's thick stem",
+				"a flower's bright petals"
+			],
+			"matches": [
+				"they bring bees with pollen",
+				"they push water like paddles",
+				"it stores water for dry days",
+				"they hear a fox far away"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "For each part, ask what it does that helps the living thing survive.",
+			"explain": "Webbed feet push water like paddles. Big ears hear a fox far away. A thick stem stores water for dry days. Bright petals bring bees, which carry pollen."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order how a flower makes a new plant.",
+			"items": [
+				"The seed grows into a new plant.",
+				"A bee carries pollen to the flower.",
+				"Bright petals bring a bee.",
+				"The flower makes a seed."
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "Start with what the bright petals do.",
+			"explain": "Bright petals bring a bee, the bee carries pollen to the flower, the flower makes a seed, and the seed grows into a new plant."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4l.part_job",
+			"level": 1
+		},
+		{
+			"gen": "g4l.part_job",
+			"level": 2
+		},
+		{
+			"gen": "g4l.part_job",
+			"level": 3
+		},
+		{
+			"gen": "g4l.inside_outside",
+			"level": 1
+		},
+		{
+			"gen": "g4l.inside_outside",
+			"level": 2
+		},
+		{
+			"gen": "g4l.inside_outside",
+			"level": 3
+		}
+	]
+}

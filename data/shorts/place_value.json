@@ -1,0 +1,571 @@
+{
+	"id": "place_value",
+	"title": "What a digit is worth",
+	"topic": "maths",
+	"link": {
+		"unit": "g3.maths.numbers_to_10000"
+	},
+	"scenes": [
+		{
+			"seconds": 7.5,
+			"background": "chalk",
+			"caption": "A digit's place tells you how much it is worth.",
+			"say": "In a number, each digit's place tells you how much it is worth.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "pop"
+				},
+				{
+					"at": 0.8,
+					"effect": "pop"
+				},
+				{
+					"at": 1.2,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "3",
+					"at": [
+						110,
+						200
+					],
+					"size": 110,
+					"color": "orange",
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.3,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "4",
+					"at": [
+						180,
+						200
+					],
+					"size": 110,
+					"color": "sky",
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.7,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "5",
+					"at": [
+						250,
+						200
+					],
+					"size": 110,
+					"color": "lime",
+					"moves": [
+						{
+							"do": "drop",
+							"at": 1.1,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "hundreds",
+					"at": [
+						82,
+						314
+					],
+					"size": 24,
+					"color": "white",
+					"box": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "tens",
+					"at": [
+						180,
+						368
+					],
+					"size": 24,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "ones",
+					"at": [
+						260,
+						320
+					],
+					"size": 24,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8,
+			"background": "paper",
+			"caption": "Ten ones make one ten. Ten tens make one hundred.",
+			"say": "Ten ones make one ten. Ten tens make one hundred.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 3.6,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "picture",
+					"picture": {
+						"kind": "blocks",
+						"thousands": 0,
+						"hundreds": 0,
+						"tens": 1,
+						"ones": 0
+					},
+					"at": [
+						180,
+						130
+					],
+					"w": 300,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "10 ones = 1 ten",
+					"at": [
+						180,
+						230
+					],
+					"size": 24,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						}
+					]
+				},
+				{
+					"kind": "picture",
+					"picture": {
+						"kind": "blocks",
+						"thousands": 0,
+						"hundreds": 1,
+						"tens": 0,
+						"ones": 0
+					},
+					"at": [
+						180,
+						330
+					],
+					"w": 300,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "10 tens = 1 hundred",
+					"at": [
+						180,
+						425
+					],
+					"size": 22,
+					"color": "white",
+					"box": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "paper",
+			"caption": "345 is 3 hundreds, 4 tens and 5 ones: 300 + 40 + 5.",
+			"say": "So 345 is 3 hundreds, 4 tens and 5 ones: 300 plus 40 plus 5.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 6.2,
+					"effect": "jingle_goal"
+				}
+			],
+			"actors": [
+				{
+					"kind": "picture",
+					"picture": {
+						"kind": "blocks",
+						"thousands": 0,
+						"hundreds": 3,
+						"tens": 4,
+						"ones": 5
+					},
+					"at": [
+						180,
+						170
+					],
+					"w": 340,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "300",
+					"at": [
+						80,
+						320
+					],
+					"size": 40,
+					"color": "white",
+					"box": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.4
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "plus",
+					"at": [
+						140,
+						320
+					],
+					"size": 30,
+					"color": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "40",
+					"at": [
+						190,
+						320
+					],
+					"size": 40,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "plus",
+					"at": [
+						238,
+						320
+					],
+					"size": 30,
+					"color": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "5",
+					"at": [
+						280,
+						320
+					],
+					"size": 40,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "= 345",
+					"at": [
+						180,
+						400
+					],
+					"size": 44,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 6.0
+						},
+						{
+							"do": "pulse",
+							"at": 6.8
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8,
+			"background": "chalk",
+			"caption": "Swap the digits and the value changes: 543 is much bigger!",
+			"say": "Move the digits to new places and the value changes: 543 is much bigger than 345.",
+			"sounds": [
+				{
+					"at": 1.0,
+					"effect": "whoosh"
+				},
+				{
+					"at": 3.4,
+					"effect": "boing"
+				}
+			],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "3",
+					"at": [
+						110,
+						200
+					],
+					"size": 110,
+					"color": "orange",
+					"moves": [
+						{
+							"do": "move",
+							"at": 1.0,
+							"dur": 1.2,
+							"to": [
+								250,
+								200
+							],
+							"ease": "back"
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "4",
+					"at": [
+						180,
+						200
+					],
+					"size": 110,
+					"color": "sky",
+					"moves": [
+						{
+							"do": "bounce",
+							"at": 1.0,
+							"height": 40
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "5",
+					"at": [
+						250,
+						200
+					],
+					"size": 110,
+					"color": "lime",
+					"moves": [
+						{
+							"do": "move",
+							"at": 1.0,
+							"dur": 1.2,
+							"to": [
+								110,
+								200
+							],
+							"ease": "back"
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "543 > 345",
+					"at": [
+						180,
+						360
+					],
+					"size": 40,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						},
+						{
+							"do": "pulse",
+							"at": 4.2
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 6.5,
+			"background": "chalk",
+			"caption": "What is the biggest number you can make with 3, 4 and 5?",
+			"say": "What is the biggest number you can make with the digits 3, 4 and 5?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "3",
+					"at": [
+						100,
+						220
+					],
+					"size": 80,
+					"color": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "spin",
+							"at": 1.0,
+							"dur": 1.0,
+							"turns": 1
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "4",
+					"at": [
+						180,
+						220
+					],
+					"size": 80,
+					"color": "sky",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.4
+						},
+						{
+							"do": "spin",
+							"at": 1.2,
+							"dur": 1.0,
+							"turns": 1
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "5",
+					"at": [
+						260,
+						220
+					],
+					"size": 80,
+					"color": "lime",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.6
+						},
+						{
+							"do": "spin",
+							"at": 1.4,
+							"dur": 1.0,
+							"turns": 1
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "?",
+					"at": [
+						180,
+						350
+					],
+					"size": 64,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.4
+						},
+						{
+							"do": "bounce",
+							"at": 3.2
+						}
+					]
+				}
+			]
+		}
+	]
+}

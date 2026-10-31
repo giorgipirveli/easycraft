@@ -1,0 +1,61 @@
+{
+	"version": 1,
+	"note": "Shorts Theater sample list (M3 Task 17) for the rules' tests and the 'Android Theater' check build (feature theater_live); the game plays data/theater/channels.json or the server's list (owner #89). No API keys belong here. The video ids are placeholders, except BigBuckBunny's (a public, embeddable Blender Foundation film, not made for kids: the Theater never shows it). While 'source' is 'sample', phones show 'Coming soon'.",
+	"enabled": true,
+	"source": "sample",
+	"channels": [
+		{
+			"id": "easycraft_tv",
+			"title": "EasyCraft TV",
+			"platform": "youtube",
+			"color": "#3a7be8",
+			"videos": [
+				{"id": "ECtvSample1", "title": "Welcome to EasyCraft!", "made_for_kids": true},
+				{"id": "ECtvSample2", "title": "Wake up a buddy with the wand", "made_for_kids": true},
+				{"id": "ECtvSample3", "title": "Build a rainbow bridge", "made_for_kids": true},
+				{"id": "ECtvSample4", "title": "Tiny and Giant magic", "made_for_kids": true}
+			]
+		},
+		{
+			"id": "animals",
+			"title": "Animals",
+			"platform": "youtube",
+			"color": "#2fae4e",
+			"videos": [
+				{"id": "AnimalSmpl1", "title": "Puppies meet a kitten", "made_for_kids": true},
+				{"id": "AnimalSmpl2", "title": "Baby goats jumping", "made_for_kids": true},
+				{"id": "AnimalSmpl3", "title": "Night at the zoo", "made_for_kids": false}
+			]
+		},
+		{
+			"id": "funny",
+			"title": "Funny",
+			"platform": "youtube",
+			"color": "#f08a1c",
+			"videos": [
+				{"id": "FunnySmple1", "title": "The bouncing jelly", "made_for_kids": true},
+				{"id": "aqz-KE-bpKQ", "title": "Big Buck Bunny (Blender)", "made_for_kids": false}
+			]
+		},
+		{
+			"id": "music",
+			"title": "Music",
+			"platform": "youtube",
+			"color": "#b04be8",
+			"videos": [
+				{"id": "MusicSmple1", "title": "Sing along: the block song", "made_for_kids": true},
+				{"id": "MusicSmple2", "title": "Drum practice", "made_for_kids": false}
+			]
+		},
+		{
+			"id": "tiktok_picks",
+			"title": "TikTok Picks",
+			"platform": "tiktok",
+			"color": "#d9463b",
+			"videos": [
+				{"id": "7000000000000000001", "title": "Speed build: a castle", "made_for_kids": false},
+				{"id": "7000000000000000002", "title": "Skateboard trick", "made_for_kids": false}
+			]
+		}
+	]
+}

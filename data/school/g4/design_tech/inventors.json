@@ -1,0 +1,334 @@
+{
+	"id": "g4.design_tech.inventors",
+	"lesson": [
+		{
+			"text": "Quick memory: who built a printing press in Germany in about 1440? (Johannes Gutenberg.) Today: more inventors and engineers, and how they changed our lives."
+		},
+		{
+			"text": "Inventors make new things. Engineers design and build machines, bridges and buildings that work safely. Both solve problems, test their ideas and learn from what goes wrong."
+		},
+		{
+			"text": "In 1206, the engineer Al-Jazari wrote a book of 50 clever machines: water clocks, pumps and moving figures. In 1769, James Watt made the steam engine much better, and steam soon powered factories.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1200,
+				"to": 2000,
+				"step": 100,
+				"events": [
+					[
+						1206,
+						"Al-Jazari's machines"
+					],
+					[
+						1769,
+						"Watt's steam engine"
+					],
+					[
+						1800,
+						"Volta's battery"
+					],
+					[
+						1876,
+						"Bell's telephone"
+					],
+					[
+						1903,
+						"first powered flight"
+					]
+				]
+			}
+		},
+		{
+			"text": "In 1800, Alessandro Volta made the first electric battery, a pile of metal discs. In 1829, George and Robert Stephenson's steam train Rocket won a famous race, and railways spread."
+		},
+		{
+			"text": "In 1843, Ada Lovelace wrote what many call the first computer program, for a machine that was never finished. In 1876, Alexander Graham Bell made the telephone, so voices could travel along wires.",
+			"picture": {
+				"kind": "lifespans",
+				"people": [
+					[
+						"Ada Lovelace",
+						1815,
+						1852
+					],
+					[
+						"A. G. Bell",
+						1847,
+						1922
+					],
+					[
+						"Karl Benz",
+						1844,
+						1929
+					],
+					[
+						"Bertha Benz",
+						1849,
+						1944
+					]
+				],
+				"from": 1800,
+				"to": 1950
+			}
+		},
+		{
+			"text": "In 1886, Karl Benz built a car with a petrol engine. In 1888 Bertha Benz drove it 106 km to show that it worked. In 1903, the Wright brothers made the first powered aeroplane flight: 12 seconds!"
+		},
+		{
+			"text": "Inventors are all kinds of people. Margaret Knight's machine made paper bags (1871), and Josephine Cochrane made a dishwasher (1886). Mary Anderson made a windscreen wiper (1903), and Garrett Morgan a traffic signal (1923).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"inventor",
+						"invention"
+					],
+					[
+						"Margaret Knight",
+						"paper-bag machine"
+					],
+					[
+						"Josephine Cochrane",
+						"dishwasher"
+					],
+					[
+						"Mary Anderson",
+						"windscreen wiper"
+					],
+					[
+						"Garrett Morgan",
+						"traffic signal"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a museum of inventions with a timeline, from Al-Jazari's water clock to John Logie Baird's television (1926). Then sketch an invention of your own, and say what problem it solves."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who made the telephone in 1876?",
+			"answer": 0,
+			"hint": "Think of voices travelling along wires.",
+			"choices": [
+				"Alexander Graham Bell",
+				"James Watt",
+				"Karl Benz",
+				"Ada Lovelace"
+			],
+			"explain": "Alexander Graham Bell made the telephone in 1876."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Wright brothers made the first powered aeroplane flight in 1903.",
+			"answer": true,
+			"hint": "How long did it last?",
+			"explain": "True: in 1903 their aeroplane flew for 12 seconds."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does an engineer do?",
+			"answer": 0,
+			"hint": "Think of bridges and engines.",
+			"choices": [
+				"designs and builds machines and structures",
+				"only paints pictures",
+				"sells tickets",
+				"writes poems"
+			],
+			"explain": "Engineers design and build machines, bridges and buildings that work safely."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What did Mary Anderson invent?",
+			"answer": 0,
+			"hint": "It helps drivers see in the rain.",
+			"choices": [
+				"the windscreen wiper",
+				"the telephone",
+				"the bicycle",
+				"the battery"
+			],
+			"explain": "The windscreen wiper, in 1903."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each inventor to their invention.",
+			"items": [
+				"James Watt",
+				"Alessandro Volta",
+				"Karl Benz",
+				"Garrett Morgan"
+			],
+			"matches": [
+				"the electric battery",
+				"a petrol motor car",
+				"a traffic signal",
+				"a better steam engine"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think back through the lesson's years.",
+			"explain": "Watt: a better steam engine. Volta: the battery. Benz: a petrol car. Morgan: a traffic signal."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in time order, oldest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Look for the years in the lesson.",
+			"items": [
+				"the first powered flight",
+				"Bell's telephone",
+				"Volta's battery",
+				"Al-Jazari's book of machines"
+			],
+			"explain": "Al-Jazari (1206), Volta (1800), Bell (1876), then the Wright brothers' flight (1903)."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The first powered flight was in 1903, and Baird showed television in 1926. How many years apart are they?",
+			"answer": "23",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1926 − 1903 = 23 years."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Ada Lovelace wrote a program for a computing machine in 1843.",
+			"answer": true,
+			"hint": "Look at the fifth card.",
+			"explain": "True: in 1843 she wrote what many call the first computer program."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why did Bertha Benz drive 106 km in 1888?",
+			"answer": 0,
+			"hint": "People did not yet believe cars were useful.",
+			"choices": [
+				"to show people the car really worked",
+				"to race a train",
+				"to deliver letters",
+				"to find a museum"
+			],
+			"explain": "To show that the car really worked, on a long journey. People then wanted to buy one."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which of these could not have been made before Volta's battery?",
+			"answer": 0,
+			"hint": "Which one needs electricity?",
+			"choices": [
+				"the telephone",
+				"Al-Jazari's water clock",
+				"a printing press",
+				"a steam engine"
+			],
+			"explain": "The telephone: it needs electricity to carry voices. The others need no electricity."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Al-Jazari wrote his book in 1206, and Watt improved the steam engine in 1769. How many years apart are they?",
+			"answer": "563",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1769 − 1206 = 563 years."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Inventors usually get everything right the first time.",
+			"answer": false,
+			"hint": "What does the design cycle say about testing?",
+			"explain": "False: inventors test, find what goes wrong and improve, often many times."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Garrett Morgan's signal had a warning between stop and go. Why did that help?",
+			"answer": 0,
+			"hint": "What happens if a signal changes suddenly?",
+			"choices": [
+				"drivers had time to stop safely",
+				"it looked prettier",
+				"cars could go faster",
+				"it used less paint"
+			],
+			"explain": "The warning gave drivers time to slow down and stop safely."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Before 1850, or after 1850?",
+			"groups": [
+				"before 1850",
+				"after 1850"
+			],
+			"items": [
+				"Watt's steam engine",
+				"Bell's telephone",
+				"Volta's battery",
+				"Benz's motor car",
+				"the Rocket steam train",
+				"Baird's television"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Find each year in the lesson, then compare it with 1850.",
+			"explain": "Before 1850: Watt (1769), Volta (1800), Rocket (1829). After: Bell (1876), Benz (1886), Baird (1926)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How long was the Wright brothers' first flight?",
+			"answer": 0,
+			"hint": "It was very short, but it was a start.",
+			"choices": [
+				"12 seconds",
+				"12 hours",
+				"12 days",
+				"12 minutes"
+			],
+			"explain": "12 seconds. Later that day, a flight lasted 59 seconds."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.invention_order",
+			"level": 1
+		},
+		{
+			"gen": "g4w.invention_order",
+			"level": 2
+		},
+		{
+			"gen": "g4w.invention_order",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,366 @@
+{
+	"id": "g6.computing.online_identity",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a digital footprint? (The trail of what you post, share and search online.) Today: your online identity, and who can see it."
+		},
+		{
+			"text": "Your online identity is how you appear online: your nickname, avatar, posts and what others say about you. A nickname that is not your real name is safer."
+		},
+		{
+			"text": "Public means anyone can see it. Private means only you, or people you choose. Anything that could lead someone to you, like your address, school or where you are, stays private.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"public",
+						"private"
+					],
+					[
+						"your nickname",
+						"your address"
+					],
+					[
+						"your avatar",
+						"your school"
+					],
+					[
+						"a drawing",
+						"where you are"
+					]
+				]
+			}
+		},
+		{
+			"text": "Privacy settings choose who sees what: everyone, friends only, or only me. Check them with a grown-up, and choose friends only or only me for anything personal.",
+			"picture": {
+				"kind": "privacy_panel",
+				"rows": [
+					[
+						"See my profile",
+						"friends"
+					],
+					[
+						"Send me messages",
+						"friends"
+					],
+					[
+						"Show where I am",
+						"everyone"
+					],
+					[
+						"See my drawings",
+						"friends"
+					]
+				],
+				"title": "Who can…?"
+			}
+		},
+		{
+			"text": "Your footprint lasts. Posts can be copied, shared on or saved as screenshots, and some stay online for years. Ask: would I be happy for anyone to see this in five years?",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"you post",
+					"a friend shares it",
+					"someone screenshots it",
+					"it lasts for years"
+				],
+				"title": "A footprint lasts"
+			}
+		},
+		{
+			"text": "Places are sneaky: a photo can show a street name or a school badge, and some apps share where you are. Keep location sharing off unless a grown-up says it is needed."
+		},
+		{
+			"text": "Worked example: Bram's nickname and avatar show to everyone, but his messages are friends only and his location is off. He shares a dragon drawing, not his school photo."
+		},
+		{
+			"text": "Try it in the world: with a grown-up, open the settings of a game or app you use. Check who can see your profile and send you messages. Next: What is AI?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is safest to show everyone?",
+			"answer": 0,
+			"hint": "Could it lead someone to you?",
+			"choices": [
+				"your game nickname",
+				"your home address",
+				"your school's name",
+				"where you are now"
+			],
+			"explain": "A nickname does not show who or where you are."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Deleting a post always removes every copy of it.",
+			"answer": false,
+			"hint": "Could someone have copied it first?",
+			"explain": "False: it may have been shared on or saved as a screenshot."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: fine to show others, or keep private?",
+			"groups": [
+				"fine to show",
+				"keep private"
+			],
+			"items": [
+				"your avatar",
+				"your password",
+				"a drawing you made",
+				"your phone number"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Could it lead a stranger to you or into your account?",
+			"explain": "Private: your password and phone number. Your avatar and a drawing are fine."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which setting should Zara change?",
+			"answer": 0,
+			"hint": "Which one lets everyone know something private?",
+			"choices": [
+				"Show where I am",
+				"See my profile",
+				"Send me messages",
+				"See my drawings"
+			],
+			"explain": "Show where I am is set to everyone. It should be off or only me.",
+			"picture": {
+				"kind": "privacy_panel",
+				"rows": [
+					[
+						"See my profile",
+						"friends"
+					],
+					[
+						"Send me messages",
+						"friends"
+					],
+					[
+						"Show where I am",
+						"everyone"
+					],
+					[
+						"See my drawings",
+						"friends"
+					]
+				],
+				"title": "Who can…?"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does friends only mean?",
+			"answer": 0,
+			"hint": "Who did you say yes to?",
+			"choices": [
+				"only people you accepted as friends",
+				"everyone",
+				"nobody, not even you",
+				"only teachers"
+			],
+			"explain": "Only the people you accepted as friends can see it."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A photo can show where you live, even with no words on it.",
+			"answer": true,
+			"hint": "Think of street signs, badges and door numbers.",
+			"explain": "True: a street sign or a school badge can give it away."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is part of your online identity?",
+			"answer": 0,
+			"hint": "It is how others see you online.",
+			"choices": [
+				"the nickname and avatar you use",
+				"the size of your screen",
+				"your computer's fan",
+				"the price of the game"
+			],
+			"explain": "Your nickname and avatar are part of how you appear online."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Your post is shared by 3 friends, and each of them shares it with 3 more people. How many people have it now, not counting you?",
+			"answer": "12",
+			"hint": "Count the first shares, then the second shares.",
+			"explain": "3 friends, then 3 × 3 = 9 more: 3 + 9 = 12 people."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each setting to what it means.",
+			"items": [
+				"everyone",
+				"friends only",
+				"only me",
+				"location off"
+			],
+			"matches": [
+				"people you accepted",
+				"just you",
+				"no one sees where you are",
+				"anyone can see it"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Read each one slowly.",
+			"explain": "Everyone is anyone, friends only is people you accepted, only me is just you, and location off shares no place."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: fine to share, or keep private?",
+			"groups": [
+				"fine to share",
+				"keep private"
+			],
+			"items": [
+				"your favourite film",
+				"your full name and age",
+				"a photo of your front door",
+				"a joke you made up",
+				"where you go to school"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Could it help a stranger find you?",
+			"explain": "Private: your full name and age, your front door, your school. Fine: a favourite film and a joke."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Using a nickname instead of your real name online helps keep you safe.",
+			"answer": true,
+			"hint": "Who could find you from your real name?",
+			"explain": "True: a nickname does not tell strangers who you are."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Juno wants to share a video from her birthday party. Which is safest?",
+			"answer": 0,
+			"hint": "Who sees it, and what clues does it show?",
+			"choices": [
+				"friends only, with no address or badge showing",
+				"everyone, with the address on the invite",
+				"everyone, with everyone's full names",
+				"everyone, with her location on"
+			],
+			"explain": "Friends only, and no clues to where she lives or goes to school."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A post is shared by 4 people, and each of them shares it with 4 more. How many people have it now, not counting you?",
+			"answer": "20",
+			"hint": "First shares, then second shares.",
+			"explain": "4, then 4 × 4 = 16 more: 4 + 16 = 20 people."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which choice for Send me messages stops strangers messaging you?",
+			"answer": 0,
+			"hint": "Who do you know and trust, and who don't you know at all?",
+			"choices": [
+				"friends",
+				"everyone",
+				"anyone",
+				"all players"
+			],
+			"explain": "Friends only: strangers cannot send you messages.",
+			"picture": {
+				"kind": "privacy_panel",
+				"rows": [
+					[
+						"See my profile",
+						"friends"
+					],
+					[
+						"Send me messages",
+						"friends"
+					],
+					[
+						"Show where I am",
+						"everyone"
+					],
+					[
+						"See my drawings",
+						"friends"
+					]
+				],
+				"title": "Who can…?"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A post set to only me can never be seen by anyone else, even if you share a screenshot of it.",
+			"answer": false,
+			"hint": "What happens when you share a picture of it?",
+			"explain": "False: once you share a screenshot, others can see and copy it."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps before posting in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Think first, post last.",
+			"items": [
+				"post it, or keep it to yourself",
+				"choose who can see it",
+				"check for names, places and badges",
+				"think: would I be happy for anyone to see it?"
+			],
+			"explain": "Think, check for clues, choose who sees it, then post or keep it."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.public_private",
+			"level": 1
+		},
+		{
+			"gen": "g6c.public_private",
+			"level": 2
+		},
+		{
+			"gen": "g6c.public_private",
+			"level": 3
+		}
+	]
+}

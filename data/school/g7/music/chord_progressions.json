@@ -1,0 +1,533 @@
+{
+	"id": "g7.music.chord_progressions",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, which chords did the 12-bar blues use? (I, IV and V: in C, the chords C, F and G.) Today: chord progressions, the chords a song moves through."
+		},
+		{
+			"text": "Build a chord on each note of a major scale, root, third and fifth, and number it with Roman numerals. In C major: I is C, ii is D minor, iii is E minor, IV is F, V is G and vi is A minor.",
+			"picture": {
+				"kind": "chord_chart",
+				"key": "C",
+				"chords": [
+					"I",
+					"ii",
+					"iii",
+					"IV",
+					"V",
+					"vi"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "The primary chords are I, IV and V, the three major chords; between them they hold every note of the scale. Chord IV in G major is C, and chord V in G major is D.",
+			"picture": {
+				"kind": "chord_chart",
+				"key": "G",
+				"chords": [
+					"I",
+					"IV",
+					"V",
+					"I"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G3+B3+D4:2",
+					"C4+E4+G4:2",
+					"D4+F#4+A4:2",
+					"G3+B3+D4:2"
+				]
+			}
+		},
+		{
+			"text": "I is home. V is the chord that most wants to go home: the pull from V to I is the strongest in music. The C major chord is C, E and G; the G major chord is G, B and D.",
+			"picture": {
+				"kind": "chord_chart",
+				"key": "C",
+				"chords": [
+					"I",
+					"V",
+					"I"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"G3+B3+D4:2",
+					"C4+E4+G4:2"
+				]
+			}
+		},
+		{
+			"text": "A cadence ends a phrase. V to I is a perfect cadence: finished, like a full stop. IV to I is a plagal cadence, the Amen at the end of many hymns. Ending on V is an imperfect cadence: unfinished, like a comma.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"F4+A4+C5:2",
+					"G3+B3+D4:2",
+					"C4+E4+G4:2"
+				]
+			}
+		},
+		{
+			"text": "Listen: I, V, vi, IV. Many songs repeat four chords like these again and again, and a new tune on top makes each song its own. The A minor chord is A, C and E.",
+			"picture": {
+				"kind": "chord_chart",
+				"key": "C",
+				"chords": [
+					"I",
+					"V",
+					"vi",
+					"IV"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"G3+B3+D4:2",
+					"A3+C4+E4:2",
+					"F4+A4+C5:2"
+				]
+			}
+		},
+		{
+			"text": "Worked example: a melody note fits a chord that holds it. In C major, over E, chord I (C, E, G) fits; over F, chord IV (F, A, C); over D, chord V (G, B, D)."
+		},
+		{
+			"text": "Try it in the world: on a keyboard, play the C, F, G and C major chords for four beats each, and hum a tune over them. Next: Baroque music."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which chord is V in C major?",
+			"answer": 0,
+			"hint": "Count up the C major scale: V is its 5th note.",
+			"choices": [
+				"G major",
+				"F major",
+				"C major",
+				"D major"
+			],
+			"explain": "Chord V in C major is G: G is the 5th note of the scale.",
+			"picture": {
+				"kind": "chord_chart",
+				"key": "C",
+				"chords": [
+					"I",
+					"IV",
+					"V",
+					"I"
+				],
+				"numerals": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The C major chord is C, E and G.",
+			"answer": true,
+			"hint": "Root, then skip a note, then skip another.",
+			"explain": "True: C, then the E a third up, then the G a fifth up."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen: does the music sound finished or unfinished?",
+			"answer": 0,
+			"hint": "Does the last chord feel like home?",
+			"choices": [
+				"finished",
+				"unfinished"
+			],
+			"explain": "It ends V to I, home: finished. That is a perfect cadence.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"F4+A4+C5:2",
+					"G3+B3+D4:2",
+					"C4+E4+G4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen: does the music sound finished or unfinished?",
+			"answer": 0,
+			"hint": "Does the last chord want to move on?",
+			"choices": [
+				"unfinished",
+				"finished"
+			],
+			"explain": "It ends on V, which wants to go home: unfinished, an imperfect cadence.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"F4+A4+C5:2",
+					"C4+E4+G4:2",
+					"G3+B3+D4:2"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each numeral to its chord in C major.",
+			"items": [
+				"I",
+				"IV",
+				"V",
+				"vi"
+			],
+			"matches": [
+				"F major",
+				"G major",
+				"A minor",
+				"C major"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Count up the scale C, D, E, F, G, A from I.",
+			"explain": "I is C, IV is F, V is G, and vi is A minor (a small numeral is a minor chord)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which notes make chord IV in F major?",
+			"answer": 0,
+			"hint": "IV's root is the 4th note of F major, which has a B flat.",
+			"choices": [
+				"B flat, D and F",
+				"B, D and F",
+				"F, A and C",
+				"C, E and G"
+			],
+			"explain": "Chord IV in F major is B flat: its notes are B flat, D and F."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen to the chords in C major. Which cadence ends the music?",
+			"answer": 0,
+			"hint": "Listen to the last two chords: is the one before home V or IV?",
+			"choices": [
+				"perfect (V to I)",
+				"plagal (IV to I)",
+				"imperfect (ends on V)"
+			],
+			"explain": "The chords are I, vi, V, I: it ends V to I, a perfect cadence.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"A3+C4+E4:2",
+					"G3+B3+D4:2",
+					"C4+E4+G4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen to the chords in C major. Which cadence ends the music?",
+			"answer": 0,
+			"hint": "Does it end at home? Is the chord before it V or IV?",
+			"choices": [
+				"plagal (IV to I)",
+				"perfect (V to I)",
+				"imperfect (ends on V)"
+			],
+			"explain": "The chords are I, V, IV, I: it ends IV to I, a plagal cadence, the Amen.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"G3+B3+D4:2",
+					"F4+A4+C5:2",
+					"C4+E4+G4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen to the chords in C major. Which cadence ends the music?",
+			"answer": 0,
+			"hint": "Does the last chord feel like home?",
+			"choices": [
+				"imperfect (ends on V)",
+				"perfect (V to I)",
+				"plagal (IV to I)"
+			],
+			"explain": "The chords are I, ii, IV, V: it stops on V, an imperfect cadence.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"D4+F4+A4:2",
+					"F4+A4+C5:2",
+					"G3+B3+D4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the missing chord?",
+			"answer": 0,
+			"hint": "The chart shows the numerals; count up C major.",
+			"choices": [
+				"G",
+				"F",
+				"C",
+				"Am"
+			],
+			"explain": "The hidden chord is V, and chord V in C major is G.",
+			"picture": {
+				"kind": "chord_chart",
+				"key": "C",
+				"chords": [
+					"I",
+					"IV",
+					"V",
+					"I"
+				],
+				"names": true,
+				"hide": [
+					2
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Chord V wants to move to chord I.",
+			"answer": true,
+			"hint": "Which cadence sounds most finished?",
+			"explain": "True: V to I is the strongest pull home, a perfect cadence."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the missing numeral?",
+			"answer": 0,
+			"hint": "Which chord of G major is E minor?",
+			"choices": [
+				"vi",
+				"ii",
+				"IV",
+				"iii"
+			],
+			"explain": "G, D and C are I, V and IV; the missing E minor is chord vi.",
+			"picture": {
+				"kind": "chord_chart",
+				"key": "G",
+				"chords": [
+					"I",
+					"V",
+					"vi",
+					"IV"
+				],
+				"names": true,
+				"hide": [
+					2
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A melody in G major holds the note C. Which primary chord fits under it?",
+			"answer": 0,
+			"hint": "Spell I, IV and V in G major and find C.",
+			"choices": [
+				"IV (C)",
+				"I (G)",
+				"V (D)"
+			],
+			"explain": "Chord I is G, B, D; chord IV is C, E, G; chord V is D, F sharp, A. Only IV holds C."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen to the chords in G major. Which cadence ends the music?",
+			"answer": 0,
+			"hint": "Listen to the last two chords.",
+			"choices": [
+				"perfect (V to I)",
+				"plagal (IV to I)",
+				"imperfect (ends on V)"
+			],
+			"explain": "The chords are I, IV, V, I: it ends V to I, a perfect cadence. Chord V in G major is D.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G3+B3+D4:2",
+					"C4+E4+G4:2",
+					"D4+F#4+A4:2",
+					"G3+B3+D4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which notes make chord V in D major?",
+			"answer": 0,
+			"hint": "V's root is the 5th note of D major.",
+			"choices": [
+				"A, C sharp and E",
+				"A, C and E",
+				"D, F sharp and A",
+				"G, B and D"
+			],
+			"explain": "Chord V in D major is A: A, then C sharp (a major third up) and E."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen: how many different chords are played?",
+			"answer": "3",
+			"hint": "Listen for chords that come back.",
+			"explain": "C, F, C, G, C: only 3 different chords, I, IV and V.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"F4+A4+C5:2",
+					"C4+E4+G4:2",
+					"G3+B3+D4:2",
+					"C4+E4+G4:2"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the chords of C major: a primary (major) chord, or a minor one?",
+			"groups": [
+				"primary: major",
+				"minor"
+			],
+			"items": [
+				"C",
+				"D minor",
+				"F",
+				"E minor",
+				"G",
+				"A minor"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The primary chords are I, IV and V; a small numeral is a minor chord.",
+			"explain": "The primary chords I, IV and V are major: C, F and G. Chords ii, iii and vi are minor: D minor, E minor and A minor."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "In C major, match each melody note to the primary chord that holds it.",
+			"items": [
+				"E",
+				"F",
+				"D"
+			],
+			"matches": [
+				"V (G, B, D)",
+				"I (C, E, G)",
+				"IV (F, A, C)"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Look for each note among the three chords' notes.",
+			"explain": "E is in chord I (C, E, G). F is in chord IV (F, A, C). D is in chord V (G, B, D). A melody note fits a chord that holds it."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the endings by their cadence.",
+			"groups": [
+				"perfect",
+				"plagal",
+				"imperfect"
+			],
+			"items": [
+				"V then I",
+				"IV then I",
+				"I then V",
+				"ii then V",
+				"G then C, in C major",
+				"F then C, in C major"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				2,
+				0,
+				1
+			],
+			"hint": "Look at the last two chords: does it land on I from V, land on I from IV, or stop on V?",
+			"explain": "Perfect: V to I, like G to C. Plagal: IV to I, like F to C, the Amen. Imperfect: any ending that stops on V, like I to V or ii to V: unfinished."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A song in G major plays G, D, Em, C, G, D, Em, C. How many different chords does it use?",
+			"answer": "4",
+			"hint": "List each chord the first time you meet it, and skip the repeats.",
+			"explain": "G, D, E minor and C, then the same four again: 4 different chords. In G major they are I, V, vi and IV, the four-chord pattern of card 5."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.primary_chord",
+			"level": 1
+		},
+		{
+			"gen": "g7c.primary_chord",
+			"level": 2
+		},
+		{
+			"gen": "g7c.primary_chord",
+			"level": 3
+		},
+		{
+			"gen": "g7c.cadence_ear",
+			"level": 1
+		},
+		{
+			"gen": "g7c.cadence_ear",
+			"level": 2
+		},
+		{
+			"gen": "g7c.cadence_ear",
+			"level": 3
+		}
+	]
+}

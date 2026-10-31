@@ -1,0 +1,451 @@
+{
+	"id": "g3.projects.map_my_village",
+	"lesson": [
+		{
+			"text": "Quick memory: which do you read first in a grid reference? (Along the bottom, then up the side.) In this project you make a real map of a village in your world."
+		},
+		{
+			"text": "Step 1, survey: walk round the village with a notebook. List every building and feature: houses, the well, the farm, the paths, the pond. Count the blocks between them."
+		},
+		{
+			"text": "Step 2, draw it from above, as a bird sees it. Use a symbol for each thing, and explain the symbols in a key: a blue circle for the pond, a small square for a house."
+		},
+		{
+			"text": "Step 3, add a grid: a letter for each column and a number for each row. Now every place has a grid reference, column first: on this map, the well is in B3.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"A",
+						"B",
+						"C",
+						"D",
+						"E"
+					],
+					[
+						"4",
+						"mill",
+						"",
+						"",
+						"",
+						"tower"
+					],
+					[
+						"3",
+						"",
+						"well",
+						"",
+						"",
+						""
+					],
+					[
+						"2",
+						"",
+						"",
+						"farm",
+						"",
+						"shop"
+					],
+					[
+						"1",
+						"pond",
+						"",
+						"",
+						"hut",
+						""
+					]
+				]
+			}
+		},
+		{
+			"text": "Step 4, add a north arrow and a scale. If 1 square on the map is 10 blocks in the world, then 3 squares is 3 × 10 = 30 blocks."
+		},
+		{
+			"text": "Every good map has a title, a key, a north arrow, a grid and a scale. Check your map has all five!",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Every map has"
+					],
+					[
+						"a title"
+					],
+					[
+						"a key"
+					],
+					[
+						"a north arrow"
+					],
+					[
+						"a grid"
+					],
+					[
+						"a scale"
+					]
+				]
+			}
+		},
+		{
+			"text": "Step 5, test your map: give it to a friend. Can they find the well using only the map and its grid reference? If not, improve your key or your labels."
+		},
+		{
+			"text": "Try it in the world: find a village in your world, survey it and draw its map with a key, a grid and a north arrow. Hide a treasure chest and give a friend its grid reference!"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How is a map usually drawn?",
+			"answer": 0,
+			"hint": "Think of flying over the village.",
+			"choices": [
+				"from above, as a bird sees it",
+				"from underground",
+				"from the side only",
+				"from inside a house"
+			],
+			"explain": "A map shows a place from above, as a bird sees it."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A key explains what the symbols on a map mean.",
+			"answer": true,
+			"hint": "Where do you look to find what a blue circle means?",
+			"explain": "True: the key lists each symbol and what it stands for."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "On most maps, which way is north?",
+			"answer": 0,
+			"hint": "Look for the north arrow.",
+			"choices": [
+				"up",
+				"down",
+				"left",
+				"right"
+			],
+			"explain": "On most maps north is at the top, and the north arrow points up."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Look at the map. Which square is the pond in?",
+			"answer": 0,
+			"hint": "Find its column letter first, then its row number.",
+			"choices": [
+				"A1",
+				"1A",
+				"B1",
+				"A2"
+			],
+			"explain": "The pond is in column A and row 1: A1.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"A",
+						"B",
+						"C",
+						"D",
+						"E"
+					],
+					[
+						"4",
+						"mill",
+						"",
+						"",
+						"",
+						"tower"
+					],
+					[
+						"3",
+						"",
+						"well",
+						"",
+						"",
+						""
+					],
+					[
+						"2",
+						"",
+						"",
+						"farm",
+						"",
+						"shop"
+					],
+					[
+						"1",
+						"pond",
+						"",
+						"",
+						"hut",
+						""
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "On the map, 1 square is 10 blocks. The well is 4 squares from the barn. How many blocks is that?",
+			"answer": "40",
+			"hint": "Each square is 10 blocks: multiply.",
+			"explain": "Each square is 10 blocks: 4 × 10 = 40 blocks."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What goes in a map's key?",
+			"answer": 0,
+			"hint": "A key unlocks the symbols.",
+			"choices": [
+				"each symbol and what it means",
+				"the answers to a quiz",
+				"a list of your friends",
+				"the time"
+			],
+			"explain": "The key shows each symbol and says what it stands for."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part of a map to its job.",
+			"items": [
+				"key",
+				"grid",
+				"north arrow",
+				"scale"
+			],
+			"matches": [
+				"helps find a square",
+				"shows the directions",
+				"shows real distances",
+				"says what symbols mean"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the five things every good map has.",
+			"explain": "Key: symbols. Grid: finding a square. North arrow: directions. Scale: real distances."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the mapping steps in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You must look at the village before drawing it.",
+			"items": [
+				"draw it from above",
+				"add a grid and a north arrow",
+				"survey the village",
+				"add a key",
+				"test it with a friend"
+			],
+			"explain": "Survey, draw from above, add a key, add a grid and north arrow, then test it with a friend."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Look at the map. What is in square C2?",
+			"answer": 0,
+			"hint": "Find column C first, then look along row 2.",
+			"choices": [
+				"the farm",
+				"the well",
+				"the shop",
+				"the hut"
+			],
+			"explain": "Column C, row 2 is the farm.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"A",
+						"B",
+						"C",
+						"D",
+						"E"
+					],
+					[
+						"4",
+						"mill",
+						"",
+						"",
+						"",
+						"tower"
+					],
+					[
+						"3",
+						"",
+						"well",
+						"",
+						"",
+						""
+					],
+					[
+						"2",
+						"",
+						"",
+						"farm",
+						"",
+						"shop"
+					],
+					[
+						"1",
+						"pond",
+						"",
+						"",
+						"hut",
+						""
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Look at the map. Which building is in the same row as the farm, at the far east?",
+			"answer": 0,
+			"hint": "North is up, so east is to the right.",
+			"choices": [
+				"the shop",
+				"the tower",
+				"the hut",
+				"the mill"
+			],
+			"explain": "The farm is in row 2. Going right (east) along row 2, you reach the shop in E2.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"A",
+						"B",
+						"C",
+						"D",
+						"E"
+					],
+					[
+						"4",
+						"mill",
+						"",
+						"",
+						"",
+						"tower"
+					],
+					[
+						"3",
+						"",
+						"well",
+						"",
+						"",
+						""
+					],
+					[
+						"2",
+						"",
+						"",
+						"farm",
+						"",
+						"shop"
+					],
+					[
+						"1",
+						"pond",
+						"",
+						"",
+						"hut",
+						""
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara's friend cannot find the mill on her map. What should Zara improve?",
+			"answer": 0,
+			"hint": "What tells a reader what each thing on the map is?",
+			"choices": [
+				"label the mill or add its symbol to the key",
+				"make the map smaller",
+				"rub out the grid",
+				"turn the map upside down"
+			],
+			"explain": "Labelling the mill, or adding its symbol to the key, helps her friend find it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "On a map, 1 square is 5 blocks. A path is 6 squares long. How many blocks long is the real path?",
+			"answer": "30",
+			"hint": "Each square stands for 5 blocks.",
+			"explain": "Each square is 5 blocks: 6 × 5 = 30 blocks."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A map drawn from the side shows where everything is better than a map drawn from above.",
+			"answer": false,
+			"hint": "From the side, what would hide behind the front buildings?",
+			"explain": "False: from the side, buildings hide the ones behind them. From above, you can see where everything is."
+		},
+		{
+			"type": "build",
+			"level": 3,
+			"prompt": "Your village has a square green. Build it on the board: 4 squares long and 4 squares wide.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "array",
+				"rows": 4,
+				"cols": 4
+			},
+			"hint": "Build one row of 4, then add rows until there are 4.",
+			"explain": "4 rows of 4 squares: 4 × 4 = 16 squares, a square green."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3p.map_distance",
+			"level": 1
+		},
+		{
+			"gen": "g3p.map_distance",
+			"level": 2
+		},
+		{
+			"gen": "g3p.map_distance",
+			"level": 3
+		},
+		{
+			"gen": "g3h.grid_ref",
+			"level": 1
+		},
+		{
+			"gen": "g3h.grid_ref",
+			"level": 2
+		}
+	]
+}

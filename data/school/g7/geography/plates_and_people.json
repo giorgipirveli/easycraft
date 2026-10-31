@@ -1,0 +1,300 @@
+{
+	"id": "g7.geography.plates_and_people",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 science you met tectonic plates. About how fast do they move? (A few centimetres a year, about as fast as fingernails grow.) Today: what happens where plates meet, and why people live there."
+		},
+		{
+			"text": "Earth has layers: a thin rocky crust, about 7 km thick under the oceans and 35 km under the continents; the hot mantle, which flows very slowly; and a metal core. The crust is cracked into about seven large and many smaller tectonic plates."
+		},
+		{
+			"text": "Where plates move apart (a divergent, or constructive, boundary), magma rises and makes new crust. The Mid-Atlantic Ridge runs down the Atlantic, which widens about 2.5 cm a year; Iceland sits on top of it, with volcanoes and hot springs.",
+			"picture": {
+				"kind": "plate_section",
+				"type": "divergent",
+				"labels": true
+			}
+		},
+		{
+			"text": "Where an ocean plate meets a continent (a destructive boundary), the heavier ocean plate sinks beneath it into the mantle. A deep trench forms, and melting rock rises to make volcanoes, as in the Andes and Japan. The biggest earthquakes happen here.",
+			"picture": {
+				"kind": "plate_section",
+				"type": "subduction",
+				"labels": true
+			}
+		},
+		{
+			"text": "Where two continents collide, neither sinks, so the crust crumples upwards into fold mountains. India is still pushing into Asia, about 5 cm a year. So the Himalayas are still rising, by a few millimetres a year.",
+			"picture": {
+				"kind": "plate_section",
+				"type": "collision",
+				"labels": true
+			}
+		},
+		{
+			"text": "Where plates slide past (a conservative boundary), no crust is made or lost, but they stick and jerk: earthquakes, as on California's San Andreas Fault. Each whole step up the magnitude scale is 10 times the shaking and about 32 times the energy.",
+			"picture": {
+				"kind": "plate_section",
+				"type": "transform",
+				"labels": true
+			}
+		},
+		{
+			"text": "Why live near danger? Volcanic ash makes rich soil for farms; hot rocks give geothermal energy, about a quarter of Iceland's electricity and most of its heating; volcanoes bring tourists and minerals; and many families have lived there for generations."
+		},
+		{
+			"text": "Try it in the world: build a cross-section of a plate boundary in blocks: two plates, a trench, a volcano and its magma. Put an arrow sign on each plate showing which way it moves. Next: rocks, weathering and soils."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which layer of the Earth do we live on?",
+			"answer": 0,
+			"hint": "It is the thin outer skin.",
+			"choices": [
+				"the crust",
+				"the mantle",
+				"the outer core",
+				"the inner core"
+			],
+			"explain": "The crust: thin and rocky, about 7 km under oceans and 35 km under continents."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What forms where two plates move apart?",
+			"answer": 0,
+			"hint": "Something rises into the gap.",
+			"choices": [
+				"new crust",
+				"fold mountains",
+				"a deep trench",
+				"nothing at all"
+			],
+			"explain": "Magma rises into the gap and cools into new crust."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Himalayas formed where two continental plates collided.",
+			"answer": true,
+			"hint": "India is pushing into Asia.",
+			"explain": "True: neither plate sank, so the crust crumpled up into fold mountains."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which boundary runs down the middle of the Atlantic?",
+			"answer": 0,
+			"hint": "Iceland sits on top of it.",
+			"choices": [
+				"the Mid-Atlantic Ridge",
+				"the San Andreas Fault",
+				"the Andes",
+				"the Himalayas"
+			],
+			"explain": "The Mid-Atlantic Ridge, where plates move apart."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why do many people farm near volcanoes?",
+			"answer": 0,
+			"hint": "What does ash add to the soil?",
+			"choices": [
+				"volcanic ash makes rich soil",
+				"it is always cool there",
+				"there are no earthquakes",
+				"the land is flat"
+			],
+			"explain": "Volcanic ash is full of minerals, so the soil is rich for crops."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these by how the plates move.",
+			"groups": [
+				"moving apart",
+				"moving together",
+				"sliding past"
+			],
+			"items": [
+				"the Andes",
+				"Iceland",
+				"the San Andreas Fault",
+				"the Himalayas",
+				"the Mid-Atlantic Ridge",
+				"the Alpine Fault in New Zealand"
+			],
+			"answer": [
+				1,
+				0,
+				2,
+				1,
+				0,
+				2
+			],
+			"hint": "New crust: apart. Trenches and mountains: together. Torn sideways: sliding past.",
+			"explain": "Apart: Iceland, the Mid-Atlantic Ridge. Together: the Andes, the Himalayas. Sliding past: the San Andreas and Alpine Faults."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The Atlantic widens about 2.5 cm a year. How many cm does it widen in 100 years?",
+			"answer": "250",
+			"hint": "Multiply the cm a year by the years.",
+			"explain": "2.5 × 100 = 250 cm, which is 2.5 m."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where an ocean plate meets a continent, which plate sinks?",
+			"answer": 0,
+			"hint": "Ocean crust is heavier for its size.",
+			"choices": [
+				"the heavier ocean plate",
+				"the continental plate",
+				"both plates",
+				"neither plate"
+			],
+			"explain": "The heavier ocean plate sinks under the continent."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each boundary to what its plates do.",
+			"items": [
+				"divergent",
+				"convergent",
+				"transform",
+				"subduction"
+			],
+			"matches": [
+				"one sinks below the other",
+				"move apart",
+				"move together",
+				"slide past each other"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Diverge means go different ways; converge means come together.",
+			"explain": "Divergent: apart. Convergent: together. Transform: sliding past. Subduction: one plate sinks under the other."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the part marked '?'?",
+			"answer": 0,
+			"hint": "It is the deep dip where one plate goes down.",
+			"choices": [
+				"a trench",
+				"a ridge",
+				"fold mountains",
+				"a fault"
+			],
+			"explain": "A deep ocean trench, where the ocean plate sinks.",
+			"picture": {
+				"kind": "plate_section",
+				"type": "subduction",
+				"labels": true,
+				"hide": "trench"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many times more ground shaking does a magnitude 7 earthquake cause than a magnitude 5 one?",
+			"answer": "100",
+			"hint": "Each whole step is 10 times the shaking.",
+			"explain": "Two steps: 10 × 10 = 100 times."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are there no volcanoes along the San Andreas Fault?",
+			"answer": 0,
+			"hint": "Where does the magma for volcanoes come from at a destructive boundary?",
+			"choices": [
+				"no plate is sinking and melting there",
+				"it is too cold",
+				"it is under the sea",
+				"it is too new"
+			],
+			"explain": "The plates slide past each other, so no plate sinks and melts to make magma."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "New crust is made where plates slide past each other.",
+			"answer": false,
+			"hint": "Is crust made, lost, or neither at a transform boundary?",
+			"explain": "False: at a transform (conservative) boundary no crust is made or lost."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "India moves about 5 cm a year into Asia. How many km is that in 1 million years? (100,000 cm = 1 km.)",
+			"answer": "50",
+			"hint": "Find the cm in a million years, then turn cm into km.",
+			"explain": "5 × 1,000,000 = 5,000,000 cm = 50 km."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How does Iceland use its plate boundary?",
+			"answer": 0,
+			"hint": "What heats the water in its hot springs?",
+			"choices": [
+				"hot rocks give geothermal heat and power",
+				"it mines the trench",
+				"it builds ski slopes on lava",
+				"it has no volcanoes"
+			],
+			"explain": "Hot rocks near the surface heat water: geothermal energy heats most homes and makes about a quarter of the electricity."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.boundary_sort",
+			"level": 1
+		},
+		{
+			"gen": "g7h.boundary_sort",
+			"level": 2
+		},
+		{
+			"gen": "g7h.boundary_sort",
+			"level": 3
+		},
+		{
+			"gen": "g7h.quake_scale",
+			"level": 1
+		},
+		{
+			"gen": "g7h.quake_scale",
+			"level": 2
+		},
+		{
+			"gen": "g7h.quake_scale",
+			"level": 3
+		},
+		{
+			"gen": "g7h.plate_drift",
+			"level": 1
+		},
+		{
+			"gen": "g7h.plate_drift",
+			"level": 2
+		},
+		{
+			"gen": "g7h.plate_drift",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,316 @@
+{
+	"id": "g3.health_pe.feelings",
+	"lesson": [
+		{
+			"text": "Quick memory: what happens to your heart when you exercise? (It beats faster.) Strong feelings can make your heart beat faster too."
+		},
+		{
+			"text": "Feelings are messages from inside you. Happy, sad, angry, scared, worried, excited, proud, calm: every feeling is OK to have. What matters is what we do with it."
+		},
+		{
+			"text": "Feelings show in your body. Anger can feel hot, with tight fists and a fast heartbeat. Worry can feel like butterflies in your tummy. Sadness can feel heavy, with tears.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"feeling",
+						"in your body"
+					],
+					[
+						"anger",
+						"hot, tight fists"
+					],
+					[
+						"worry",
+						"tummy butterflies"
+					],
+					[
+						"sadness",
+						"heavy, tearful"
+					]
+				]
+			}
+		},
+		{
+			"text": "Name it to tame it: saying 'I feel angry' or 'I feel worried' helps a big feeling get smaller. Feelings can be small, medium or big, and they change."
+		},
+		{
+			"text": "Ways to calm down: breathe in slowly as if smelling a flower, and out as if blowing out a candle. Count to ten, take a break somewhere quiet, squeeze a cushion, or go for a walk.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"breathe in: a flower",
+					"breathe out: a candle",
+					"count to ten",
+					"feel calmer"
+				],
+				"title": "Calm down"
+			}
+		},
+		{
+			"text": "Talk about it. Tell someone you trust: someone in your family, a teacher or a friend. Sharing a worry often makes it feel lighter."
+		},
+		{
+			"text": "Notice other people's feelings too: their face, their voice and their body give clues. Asking 'Are you OK?' is a kind thing to do. The same thing can make two people feel differently."
+		},
+		{
+			"text": "Try it in the world: build a calm corner with soft wool blocks, flowers and a lantern. When a game gets frustrating, visit it and take three slow breaths."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Every feeling is OK to have.",
+			"answer": true,
+			"hint": "What matters is what we do with a feeling.",
+			"explain": "True: all feelings are OK. What matters is how we handle them."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Butterflies in your tummy often mean you feel…",
+			"answer": 0,
+			"hint": "Think of how you feel before something new.",
+			"choices": [
+				"nervous or worried",
+				"bored",
+				"full",
+				"sleepy"
+			],
+			"explain": "Butterflies in your tummy are a sign of feeling nervous or worried."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a good way to calm down?",
+			"answer": 0,
+			"hint": "Think of smelling a flower and blowing out a candle.",
+			"choices": [
+				"breathe in and out slowly",
+				"shout louder",
+				"throw something",
+				"run into the road"
+			],
+			"explain": "Slow breathing calms your body down. Counting to ten or taking a break helps too."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who could you tell about a worry?",
+			"answer": 0,
+			"hint": "Who looks after you?",
+			"choices": [
+				"someone you trust, like a teacher",
+				"nobody, ever",
+				"a stranger online",
+				"only your pet goldfish"
+			],
+			"explain": "Someone you trust: a family member, a teacher or a friend."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each body clue to a feeling.",
+			"items": [
+				"hot face, tight fists",
+				"tears, a heavy feeling",
+				"big smile, cannot keep still",
+				"butterflies in your tummy"
+			],
+			"matches": [
+				"sad",
+				"excited",
+				"nervous",
+				"angry"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of how each feeling shows in your body.",
+			"explain": "Hot face and tight fists: angry. Tears and heaviness: sad. A big smile and wriggles: excited. Butterflies: nervous."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Is it a helpful way or an unhelpful way to handle anger?",
+			"groups": [
+				"helpful",
+				"unhelpful"
+			],
+			"items": [
+				"take three slow breaths",
+				"shout at a friend",
+				"walk away for a break",
+				"throw something",
+				"count to ten",
+				"say 'I feel angry'"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "A helpful way calms you down and hurts nobody.",
+			"explain": "Helpful: slow breaths, a break, counting to ten, saying how you feel. Unhelpful: shouting, throwing things."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the flower-and-candle breath in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You smell a flower before you blow out a candle.",
+			"items": [
+				"notice your body feeling calmer",
+				"breathe out slowly through your mouth",
+				"hold it for a moment",
+				"breathe in slowly through your nose"
+			],
+			"explain": "Breathe in through your nose (smell the flower), hold, breathe out through your mouth (blow the candle), notice the calm."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does 'name it to tame it' mean?",
+			"answer": 0,
+			"hint": "What happens when you say 'I feel angry'?",
+			"choices": [
+				"saying how you feel helps the feeling shrink",
+				"giving your pet a name",
+				"shouting the feeling louder",
+				"pretending you feel nothing"
+			],
+			"explain": "Putting a feeling into words helps it get smaller and easier to handle."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram's tower fell down. His face is hot and his fists are tight. What could help?",
+			"answer": 0,
+			"hint": "First notice the feeling, then choose a calm-down way.",
+			"choices": [
+				"slow breaths and a short break",
+				"kicking the blocks",
+				"never building again",
+				"shouting at Mimi"
+			],
+			"explain": "Bram feels angry. Slow breaths and a short break will calm him, then he can build again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara's friend is quiet and looking down, with tears in her eyes. What could Zara do?",
+			"answer": 0,
+			"hint": "What would you like a friend to do for you?",
+			"choices": [
+				"ask kindly, 'Are you OK?'",
+				"laugh at her",
+				"walk away",
+				"tell her to cheer up at once"
+			],
+			"explain": "Asking kindly shows Zara cares, and gives her friend a chance to talk."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If something worries you, it is best to keep it a secret forever.",
+			"answer": false,
+			"hint": "Does a worry get lighter or heavier alone?",
+			"explain": "False: telling someone you trust usually makes a worry feel lighter."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi feels proud. What might have happened?",
+			"answer": 0,
+			"hint": "Pride comes after an effort.",
+			"choices": [
+				"she worked hard and finished her model",
+				"she lost her pencil",
+				"she has a cold",
+				"her game crashed"
+			],
+			"explain": "Feeling proud often comes after working hard at something and doing it."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The same thing can make two people feel different feelings.",
+			"answer": true,
+			"hint": "Think of a thunderstorm: can one child be excited and another scared?",
+			"explain": "True: a thunderstorm can make one child excited and another scared. Both feelings are OK."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly feels nervous before her first swimming lesson. Which thought could help?",
+			"answer": 0,
+			"hint": "A helpful thought is kind and true.",
+			"choices": [
+				"'It is OK to feel nervous. I can try my best.'",
+				"'I must not feel anything.'",
+				"'Everyone will laugh.'",
+				"'I will never learn.'"
+			],
+			"explain": "Noticing the feeling and planning to try her best is kind and true, and helps her feel braver."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the feelings: comfortable or uncomfortable to have?",
+			"groups": [
+				"comfortable",
+				"uncomfortable"
+			],
+			"items": [
+				"happy",
+				"worried",
+				"calm",
+				"angry",
+				"proud",
+				"scared"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does the feeling feel nice in your body, or hard to have?",
+			"explain": "Comfortable: happy, calm, proud. Uncomfortable: worried, angry, scared. Every feeling is OK to have; the uncomfortable ones are telling you something."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Bram's tower fell and he feels angry. Order what he can do.",
+			"items": [
+				"Try building again.",
+				"Take three slow breaths.",
+				"Say 'I feel angry.'",
+				"Notice: hot face, tight fists."
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Notice it, name it, calm it, then carry on.",
+			"explain": "Notice the body clues (a hot face, tight fists), name the feeling ('I feel angry'), calm down with slow breaths, then try building again."
+		}
+	],
+	"generators": []
+}

@@ -1,0 +1,389 @@
+{
+	"id": "g8.design_tech.mechanical_advantage",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you worked out a gear ratio. A 10-tooth gear drives a 40-tooth gear: what is the ratio? (4.) Today: calculating how much machines multiply force or speed."
+		},
+		{
+			"text": "Mechanical advantage (MA) = load ÷ effort. A machine with an MA of 4 lifts a 400 N load with a 100 N effort. You pay with distance: the effort must move 4 times as far as the load."
+		},
+		{
+			"text": "A lever's MA = the effort's distance from the pivot ÷ the load's distance. Effort 6 marks away, load 2 marks: 6 ÷ 2 = 3, so 100 N of effort lifts a 300 N load.",
+			"picture": {
+				"kind": "lever_class",
+				"pivot": 0,
+				"load": 2,
+				"effort": 6,
+				"scale": true,
+				"values": {
+					"load": "300 N",
+					"effort": "100 N"
+				}
+			}
+		},
+		{
+			"text": "Gear ratio = the driven gear's teeth ÷ the driver's teeth: 40 ÷ 10 = 4. Output speed = input speed ÷ the ratio: 200 rpm ÷ 4 = 50 rpm, turning with 4 times the force.",
+			"picture": {
+				"kind": "gear_train",
+				"stages": [
+					[
+						10,
+						40
+					]
+				],
+				"rpm": 200,
+				"out": "50 rpm",
+				"turn": "cw",
+				"labels": true
+			}
+		},
+		{
+			"text": "An idler gear between two gears makes the last one turn the same way as the first, without changing the ratio. Compound gears share a shaft, so multiply the stages: (40 ÷ 10) × (30 ÷ 15) = 4 × 2 = 8.",
+			"picture": {
+				"kind": "gear_train",
+				"stages": [
+					[
+						10,
+						40
+					],
+					[
+						15,
+						30
+					]
+				],
+				"rpm": 400,
+				"out": "50 rpm",
+				"labels": true
+			}
+		},
+		{
+			"text": "A pulley block and tackle shares the load between the ropes holding it. With 4 ropes, the effort is a quarter of the load: 800 ÷ 4 = 200 N. But you pull 4 m of rope to lift it 1 m.",
+			"picture": {
+				"kind": "block_tackle",
+				"ropes": 4,
+				"load": 800,
+				"effort": "?",
+				"count": true,
+				"labels": true
+			}
+		},
+		{
+			"text": "Velocity ratio (VR) = the effort's distance ÷ the load's distance. Efficiency = MA ÷ VR, as a percentage. A pulley with an MA of 3 and a VR of 4: 3 ÷ 4 = 0.75, so 75% efficient. Friction takes the rest."
+		},
+		{
+			"text": "Try it in the world: lift a bag with a rope over a broom handle, then with a pulley. Feel the difference. In LIFE, the Tool Book's spanner and claw hammer are levers. Next: engineering big structures."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A machine lifts a 300 N load with a 100 N effort. What is its mechanical advantage?",
+			"answer": "3",
+			"hint": "Mechanical advantage = load ÷ effort.",
+			"explain": "300 ÷ 100 = 3."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is the gear ratio of this train (driven ÷ driver)?",
+			"picture": {
+				"kind": "gear_train",
+				"stages": [
+					[
+						12,
+						36
+					]
+				],
+				"turn": "cw"
+			},
+			"answer": "3",
+			"hint": "Divide the driven gear's teeth by the driver's.",
+			"explain": "36 ÷ 12 = 3."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "An idler gear changes the gear ratio.",
+			"answer": false,
+			"hint": "Look at what the idler does to the direction, and to speed.",
+			"explain": "False: an idler only makes the last gear turn the same way as the first; the ratio stays the same."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "On a lever, which effort gives the bigger mechanical advantage?",
+			"choices": [
+				"8 marks from the pivot",
+				"4 marks from the pivot",
+				"1 mark from the pivot",
+				"on the pivot itself"
+			],
+			"answer": 0,
+			"hint": "A longer distance from the pivot multiplies the effort more.",
+			"explain": "MA = effort distance ÷ load distance, so the effort furthest from the pivot gives the biggest MA."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Count the ropes holding the load. Ignoring friction, what effort lifts it, in newtons?",
+			"picture": {
+				"kind": "block_tackle",
+				"ropes": 3,
+				"load": 600,
+				"effort": "?",
+				"count": true
+			},
+			"answer": "200",
+			"hint": "The ropes share the load: divide by how many hold it.",
+			"explain": "3 ropes hold the 600 N crate: 600 ÷ 3 = 200 N."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The first gear turns at 300 rpm. How fast does the last gear turn, in rpm?",
+			"picture": {
+				"kind": "gear_train",
+				"stages": [
+					[
+						15,
+						45
+					]
+				],
+				"rpm": 300,
+				"out": "?",
+				"turn": "cw"
+			},
+			"answer": "100",
+			"hint": "A bigger driven gear turns slower: divide by its teeth over the driver's.",
+			"explain": "45 ÷ 15 = 3; 300 ÷ 3 = 100 rpm."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "With an idler between them, which way does the driven gear turn?",
+			"picture": {
+				"kind": "gears",
+				"gears": [
+					12,
+					20,
+					36
+				],
+				"turn": "cw",
+				"arrows": "all",
+				"labels": [
+					"driver",
+					"idler",
+					"driven"
+				]
+			},
+			"choices": [
+				"the same way as the driver",
+				"the opposite way to the driver",
+				"it does not turn",
+				"back and forth"
+			],
+			"answer": 0,
+			"hint": "Follow the arrows round: each mesh swaps the direction.",
+			"explain": "Driver clockwise, idler anticlockwise, driven clockwise again: the same way as the driver."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The effort moves 120 cm while the load rises 30 cm. What is the velocity ratio?",
+			"answer": "4",
+			"hint": "Velocity ratio = effort's distance ÷ load's distance.",
+			"explain": "120 ÷ 30 = 4."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps for a compound train's output speed in order.",
+			"items": [
+				"find each stage's ratio",
+				"multiply the ratios",
+				"count each gear's teeth",
+				"divide the input speed by the result"
+			],
+			"answer": [
+				2,
+				0,
+				1,
+				3
+			],
+			"hint": "Teeth, then stages, then the whole train, then the speed.",
+			"explain": "Count teeth, work out each stage (driven ÷ driver), multiply them, then divide the input speed."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each idea to how it is worked out.",
+			"items": [
+				"mechanical advantage",
+				"velocity ratio",
+				"efficiency",
+				"gear ratio"
+			],
+			"matches": [
+				"MA ÷ VR × 100%",
+				"load ÷ effort",
+				"driven teeth ÷ driver teeth",
+				"effort distance ÷ load distance"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Which ones use forces, which distances, which teeth?",
+			"explain": "MA: load ÷ effort. VR: distances. Efficiency: MA ÷ VR × 100%. Gear ratio: driven ÷ driver teeth."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "With 4 ropes holding the load, you pull 4 m of rope to lift the load 1 m.",
+			"picture": {
+				"kind": "block_tackle",
+				"ropes": 4,
+				"load": 800,
+				"effort": "?",
+				"count": true,
+				"labels": true
+			},
+			"answer": true,
+			"hint": "Each holding rope must shorten by the lift.",
+			"explain": "True: 4 ropes × 1 m = 4 m of rope: less force, more distance."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is the overall gear ratio of this compound train?",
+			"picture": {
+				"kind": "gear_train",
+				"stages": [
+					[
+						10,
+						40
+					],
+					[
+						15,
+						30
+					]
+				],
+				"rpm": 400,
+				"out": "50 rpm",
+				"labels": true
+			},
+			"answer": "8",
+			"hint": "Work out each stage's ratio, then multiply them.",
+			"explain": "40 ÷ 10 = 4 and 30 ÷ 15 = 2; 4 × 2 = 8."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A machine has an MA of 3 and a VR of 4. What is its efficiency, in percent?",
+			"answer": "75",
+			"hint": "Efficiency = MA ÷ VR × 100.",
+			"explain": "3 ÷ 4 = 0.75; 0.75 × 100 = 75%."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is a real machine's efficiency always under 100%?",
+			"choices": [
+				"friction turns some energy into heat",
+				"machines get lighter",
+				"gears have teeth",
+				"the load gets smaller"
+			],
+			"answer": 0,
+			"hint": "Where does some of the effort's energy go?",
+			"explain": "Friction in the axles, ropes and gears turns some of the energy into heat and sound, so the MA is less than the VR."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 600 N load is 1 mark from the pivot. The effort is 150 N. How many marks from the pivot must the effort be?",
+			"picture": {
+				"kind": "lever_class",
+				"pivot": 0,
+				"load": 1,
+				"effort": 4,
+				"scale": true,
+				"values": {
+					"load": "600 N",
+					"effort": "150 N"
+				}
+			},
+			"answer": "4",
+			"hint": "Moments balance: effort × its distance = load × its distance.",
+			"explain": "600 × 1 = 600; 600 ÷ 150 = 4 marks from the pivot."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Friction means the real effort is 250 N. What is the efficiency, in percent?",
+			"picture": {
+				"kind": "block_tackle",
+				"ropes": 4,
+				"load": 800,
+				"effort": 250,
+				"count": true
+			},
+			"answer": "80",
+			"hint": "Work out the effort with no friction (load ÷ ropes), then divide it by the real effort, times 100.",
+			"explain": "800 ÷ 4 = 200 N with no friction; 200 ÷ 250 = 0.8; 0.8 × 100 = 80%."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.lever_ma",
+			"level": 1
+		},
+		{
+			"gen": "g8l.lever_ma",
+			"level": 2
+		},
+		{
+			"gen": "g8l.lever_ma",
+			"level": 3
+		},
+		{
+			"gen": "g8l.gear_ratio",
+			"level": 1
+		},
+		{
+			"gen": "g8l.gear_ratio",
+			"level": 2
+		},
+		{
+			"gen": "g8l.gear_ratio",
+			"level": 3
+		},
+		{
+			"gen": "g8l.tackle_effort",
+			"level": 1
+		},
+		{
+			"gen": "g8l.tackle_effort",
+			"level": 2
+		},
+		{
+			"gen": "g8l.tackle_effort",
+			"level": 3
+		},
+		{
+			"gen": "g8l.ma_efficiency",
+			"level": 1
+		},
+		{
+			"gen": "g8l.ma_efficiency",
+			"level": 2
+		},
+		{
+			"gen": "g8l.ma_efficiency",
+			"level": 3
+		}
+	]
+}

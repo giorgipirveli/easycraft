@@ -1,0 +1,372 @@
+{
+	"id": "g3.art.texture_collage",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the part of a pattern that repeats called? (The motif.) Today: texture."
+		},
+		{
+			"text": "Texture is how a surface feels, or looks as if it would feel: rough, smooth, bumpy, soft, spiky, furry or shiny.",
+			"picture": {
+				"kind": "material_swatch",
+				"samples": [
+					"oak",
+					"concrete",
+					"carbon_fibre",
+					"copper"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "A rubbing shows real texture: lay thin paper over a bumpy surface, like bark or a coin, and rub gently with the side of a crayon."
+		},
+		{
+			"text": "Artists draw texture with marks: hatching (lines side by side), cross-hatching (lines that cross), stippling (lots of dots) and scribbles.",
+			"picture": {
+				"kind": "marks",
+				"what": [
+					"hatching",
+					"cross-hatching",
+					"stippling",
+					"scribble"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Marks close together look darker. Artists use this to show shadow as well as texture.",
+			"picture": {
+				"kind": "shading",
+				"shape": "cube",
+				"light": "left",
+				"labels": true
+			}
+		},
+		{
+			"text": "A collage is a picture made by sticking materials on: paper, fabric, foil, leaves and string, each with its own texture. The word comes from the French for “to glue”."
+		},
+		{
+			"text": "Try it in the world: every block in your world has its own texture. Find a rough one, a smooth one and a bumpy one, and build a collage wall with all three."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is texture?",
+			"answer": 0,
+			"hint": "Think of touching bark, then glass.",
+			"choices": [
+				"how a surface feels, or seems to feel",
+				"the colour of something",
+				"how big something is",
+				"the shape of something"
+			],
+			"explain": "Texture is how a surface feels, or looks as if it would feel."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: rough or smooth?",
+			"groups": [
+				"rough",
+				"smooth"
+			],
+			"items": [
+				"tree bark",
+				"a glass window",
+				"sandpaper",
+				"a mirror",
+				"a rock",
+				"a silk scarf"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Imagine running your hand over each one.",
+			"explain": "Rough: bark, sandpaper, a rock. Smooth: a window, a mirror, a silk scarf."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "You can make a rubbing of a coin with paper and a crayon.",
+			"answer": true,
+			"hint": "Paper over something bumpy, then rub.",
+			"explain": "True: lay paper over the coin and rub gently with the side of a crayon."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word best describes a hedgehog's back?",
+			"answer": 0,
+			"hint": "Imagine touching it (gently!).",
+			"choices": [
+				"spiky",
+				"smooth",
+				"silky",
+				"shiny"
+			],
+			"explain": "A hedgehog's back is spiky."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is this mark called?",
+			"answer": 0,
+			"hint": "Look closely: is it made of lines, crossing lines, dots or a loopy scribble?",
+			"choices": [
+				"hatching",
+				"stippling",
+				"scribble",
+				"cross-hatching"
+			],
+			"explain": "Hatching: lines drawn side by side.",
+			"picture": {
+				"kind": "marks",
+				"what": "hatching"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is this mark called?",
+			"answer": 0,
+			"hint": "Look closely: is it made of lines, crossing lines, dots or a loopy scribble?",
+			"choices": [
+				"stippling",
+				"hatching",
+				"cross-hatching",
+				"zigzag"
+			],
+			"explain": "Stippling: lots of little dots.",
+			"picture": {
+				"kind": "marks",
+				"what": "stippling"
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of making a rubbing in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You need the surface before the paper, and the paper before the crayon.",
+			"items": [
+				"Lift the paper to see the texture",
+				"Rub gently with the side of a crayon",
+				"Lay thin paper over it",
+				"Find a bumpy surface"
+			],
+			"explain": "Find a bumpy surface, lay paper over it, rub with the crayon, then lift the paper."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a collage?",
+			"answer": 0,
+			"hint": "Remember the French word for glue.",
+			"choices": [
+				"a picture made by sticking on materials",
+				"a painting in one colour",
+				"a drawing made with one line",
+				"a clay pot"
+			],
+			"explain": "A collage is a picture made by sticking different materials on."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each material to its texture.",
+			"items": [
+				"cotton wool",
+				"sandpaper",
+				"kitchen foil",
+				"a pine cone"
+			],
+			"matches": [
+				"scaly and bumpy",
+				"soft and fluffy",
+				"rough and scratchy",
+				"crinkly and shiny"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Imagine touching each one.",
+			"explain": "Cotton wool: soft and fluffy. Sandpaper: rough. Foil: crinkly and shiny. Pine cone: scaly and bumpy."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is this mark called?",
+			"answer": 0,
+			"hint": "Look closely: is it made of lines, crossing lines, dots or a loopy scribble?",
+			"choices": [
+				"cross-hatching",
+				"hatching",
+				"stippling",
+				"dotted"
+			],
+			"explain": "Cross-hatching: two sets of lines that cross.",
+			"picture": {
+				"kind": "marks",
+				"what": "cross-hatching"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How can you make part of a stippled drawing look darker?",
+			"answer": 0,
+			"hint": "Marks close together look darker.",
+			"choices": [
+				"put the dots closer together",
+				"use fewer dots",
+				"spread the dots further apart",
+				"rub the dots out"
+			],
+			"explain": "Dots packed closer together look darker."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which would be best for drawing an old, rough stone wall?",
+			"answer": 0,
+			"hint": "Rough things need rough-looking marks.",
+			"choices": [
+				"lots of short marks and scribbles",
+				"one thin smooth line",
+				"leaving it blank",
+				"one big circle"
+			],
+			"explain": "Lots of short marks and scribbles make the wall look rough."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The word collage comes from the French for “to glue”.",
+			"answer": true,
+			"hint": "Remember the lesson card.",
+			"explain": "True: collage comes from the French for “to glue”, because you stick the pieces on."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi wants the sea in her collage to look shiny. Which material should she use?",
+			"answer": 0,
+			"hint": "Which one catches the light?",
+			"choices": [
+				"kitchen foil",
+				"cotton wool",
+				"sandpaper",
+				"felt"
+			],
+			"explain": "Kitchen foil is shiny, like light on water."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Hatching is made of lots of dots.",
+			"answer": false,
+			"hint": "Hatching or stippling: which one is dots?",
+			"explain": "False: hatching is lines side by side. Lots of dots is stippling."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do artists use cross-hatching?",
+			"answer": 0,
+			"hint": "More lines close together look darker.",
+			"choices": [
+				"to show darker areas and texture",
+				"to make colours brighter",
+				"to rub out mistakes",
+				"to glue paper down"
+			],
+			"explain": "Cross-hatching makes areas look darker and adds texture."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the marks: hatching, cross-hatching or stippling?",
+			"groups": [
+				"hatching",
+				"cross-hatching",
+				"stippling"
+			],
+			"items": [
+				"lines side by side",
+				"lines that cross",
+				"lots of dots",
+				"rows of straight lines",
+				"a mesh of crossing lines",
+				"tiny dots close together"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Are they lines, crossing lines, or dots?",
+			"explain": "Hatching is lines side by side. Cross-hatching is lines that cross, like a mesh. Stippling is lots of little dots."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the stippled patches from the lightest to the darkest.",
+			"items": [
+				"dots packed tightly",
+				"dots spread far apart",
+				"dots a little apart"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Marks close together look darker.",
+			"explain": "Dots spread far apart look lightest, dots a little apart look medium, and dots packed tightly look darkest. Artists use this to show shadow."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each part of a collage to the material that gives it the right texture.",
+			"items": [
+				"a fluffy cloud",
+				"a shiny sea",
+				"a rough tree trunk",
+				"a curly sheep"
+			],
+			"matches": [
+				"sandpaper",
+				"cotton wool",
+				"kitchen foil",
+				"curly wool yarn"
+			],
+			"answer": [
+				1,
+				2,
+				0,
+				3
+			],
+			"hint": "Think how each thing would feel if you could touch it.",
+			"explain": "Cotton wool is fluffy like a cloud. Kitchen foil is shiny like the sea. Sandpaper is rough like bark. Curly wool yarn is like a sheep's coat. Each material brings its own texture."
+		}
+	],
+	"generators": []
+}

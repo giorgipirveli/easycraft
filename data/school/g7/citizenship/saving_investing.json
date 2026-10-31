@@ -1,0 +1,282 @@
+{
+	"id": "g7.citizenship.saving_investing",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met compound interest. What does 'interest on interest' mean? (Interest is added to your savings and then earns interest too.) Today: saving, investing, risk and return."
+		},
+		{
+			"text": "Saving is keeping money for later, usually in a bank account that pays interest. It is safe: in many countries the government protects bank savings up to a limit. But the interest is usually small.",
+			"picture": {
+				"kind": "savings_growth",
+				"start": 1000,
+				"rate": 5,
+				"years": 6,
+				"values": true
+			}
+		},
+		{
+			"text": "Prices tend to rise over time: this is inflation. If prices rise 3% a year and your savings earn 1%, your money buys a little less each year. Investing aims to grow money faster than prices rise."
+		},
+		{
+			"text": "Investing is buying something that may grow in value or pay you an income. Shares are small parts of a company. If it does well, their price may rise, and it may pay a dividend: part of its profit. If not, they can fall."
+		},
+		{
+			"text": "Bonds are loans to a government or company, which pay interest; property is buildings and land. The rule: a higher possible return usually means a higher risk. Cash in a bank is low risk and low return; shares in one small company are high risk.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Where",
+						"Risk",
+						"Return"
+					],
+					[
+						"cash in a bank",
+						"low",
+						"low"
+					],
+					[
+						"bonds",
+						"middle",
+						"middle"
+					],
+					[
+						"one firm's shares",
+						"high",
+						"high"
+					]
+				]
+			}
+		},
+		{
+			"text": "Don't put all your eggs in one basket: spread money over many investments. This is called diversifying. If one fails, the others can make up for it. A fund does this for you, by owning small parts of many companies."
+		},
+		{
+			"text": "Investing is for the long term: prices go up and down, but over many years they have usually grown. Keep an emergency fund in savings first. Beware anyone promising 'guaranteed' high returns: that is a warning sign of a scam, as in grade 6."
+		},
+		{
+			"text": "Try it in the world: invest pretend gold with friends: put 1,000 gold in one 'company' chest and 1,000 spread across five chests. Roll a dice each week to see which chests fail. Which way did better? Next: what should we do?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a share?",
+			"answer": 0,
+			"hint": "Owning some means owning a little of the company.",
+			"choices": [
+				"a small part of a company",
+				"a loan to a bank",
+				"a type of coin",
+				"a savings box"
+			],
+			"explain": "A small part of a company."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is usually the lowest risk?",
+			"answer": 0,
+			"hint": "Which one is protected and pays a little interest?",
+			"choices": [
+				"savings in a bank account",
+				"shares in one new company",
+				"a scheme to double your gold",
+				"a friend's untested idea"
+			],
+			"explain": "Savings in a bank account: low risk, but low return."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does diversify mean?",
+			"answer": 0,
+			"hint": "Think of eggs and baskets.",
+			"choices": [
+				"spread money over many investments",
+				"spend it all",
+				"keep it under a bed",
+				"borrow more"
+			],
+			"explain": "Spread your money over many different investments."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A higher possible return usually comes with a higher risk.",
+			"answer": true,
+			"hint": "Compare bank savings with shares in one small company.",
+			"explain": "True: the chance of more gain comes with the chance of more loss."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is inflation?",
+			"answer": 0,
+			"hint": "What happens to prices year after year?",
+			"choices": [
+				"prices rising over time",
+				"interest on savings",
+				"a bank's profit",
+				"a kind of share"
+			],
+			"explain": "Prices rising over time, so money buys a little less."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tilly splits 600 gold equally between 4 investments. How much goes into each?",
+			"answer": "150",
+			"hint": "Divide the gold by the number of investments.",
+			"explain": "600 ÷ 4 = 150 gold each."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tilly splits 600 gold equally between 4 investments. One fails and is worth nothing; the rest keep their value. How much is left?",
+			"answer": "450",
+			"hint": "Find each part, then count the parts that are left.",
+			"explain": "600 ÷ 4 = 150; 3 × 150 = 450 gold."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"share",
+				"bond",
+				"dividend",
+				"fund"
+			],
+			"matches": [
+				"many investments in one",
+				"a part of a company",
+				"a loan that pays interest",
+				"profit paid to shareholders"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Two are things you can buy, one is a payment, one is a bundle.",
+			"explain": "Share: part of a company. Bond: a loan. Dividend: profit paid out. Fund: many investments together."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: lower risk or higher risk?",
+			"groups": [
+				"lower risk",
+				"higher risk"
+			],
+			"items": [
+				"bank savings",
+				"shares in one new company",
+				"a government bond",
+				"a promise to double your gold",
+				"a fund of many companies",
+				"all your gold in one idea"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it spread out and protected, or all on one bet?",
+			"explain": "Lower: bank savings, a government bond, a fund. Higher: one new company, a doubling promise, one idea."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Savings of 1,000 gold grow at 5% a year, interest on interest. About how much after 6 years?",
+			"answer": 0,
+			"hint": "Read the last bar.",
+			"choices": [
+				"1,340 gold",
+				"1,300 gold",
+				"1,050 gold",
+				"2,000 gold"
+			],
+			"explain": "Each year adds 5% of the new total: after 6 years about 1,340 gold (simple interest would give 1,300).",
+			"picture": {
+				"kind": "savings_growth",
+				"start": 1000,
+				"rate": 5,
+				"years": 6,
+				"values": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Prices rise 3% a year and savings earn 1%. By how many percentage points a year do the savings fall behind?",
+			"answer": "2",
+			"hint": "Take the interest from the rise in prices.",
+			"explain": "3 − 1 = 2 percentage points a year."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does spreading money across many investments help?",
+			"answer": 0,
+			"hint": "What if one basket falls?",
+			"choices": [
+				"a loss hits only a small part",
+				"it guarantees a profit",
+				"it avoids all risk",
+				"it is always faster"
+			],
+			"explain": "If one investment fails, only a small part of the money is lost."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "An investment that promises guaranteed high returns is always safe.",
+			"answer": false,
+			"hint": "Think of grade 6's scam warning signs.",
+			"explain": "False: guaranteed high returns are a warning sign of a scam; real investments can fall."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram puts 1,000 gold into 5 investments equally. One fails; the other 4 grow by 10%. How much does he have now?",
+			"answer": "880",
+			"hint": "Find what is in the 4 left, then add 10%.",
+			"explain": "1,000 ÷ 5 = 200; 4 × 200 = 800; 10% of 800 is 80; 800 + 80 = 880 gold."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why keep an emergency fund in savings before investing?",
+			"answer": 0,
+			"hint": "Can you choose when an emergency happens?",
+			"choices": [
+				"investments may fall just when you need money",
+				"savings never earn interest",
+				"investing is against the law",
+				"banks require it"
+			],
+			"explain": "Investments go up and down; savings are there at once if something unexpected happens."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.portfolio",
+			"level": 1
+		},
+		{
+			"gen": "g7h.portfolio",
+			"level": 2
+		},
+		{
+			"gen": "g7h.portfolio",
+			"level": 3
+		}
+	]
+}

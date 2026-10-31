@@ -1,0 +1,342 @@
+{
+	"id": "g7.history.renaissance",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met the ancient Greeks and Romans. Can you name a Greek idea we still use? (Democracy, the Olympics, geometry and more.) Today: the time when Europe rediscovered their ideas."
+		},
+		{
+			"text": "Renaissance means rebirth. From about 1400 to 1600, scholars and artists, first in Italy, looked back to ancient Greece and Rome. Greek scholars bringing books from Constantinople helped them. They believed people could learn and do great things."
+		},
+		{
+			"text": "Rich families such as the Medici, the bankers of Florence, paid artists, builders and scholars: this is called patronage. Florence Cathedral got its great brick dome, designed by Filippo Brunelleschi, in 1436."
+		},
+		{
+			"text": "Artists learned to paint depth. Brunelleschi showed that lines going away from us seem to meet at one point, the vanishing point: linear perspective, which you tried in art in grade 5. Paintings began to look like windows onto real places.",
+			"picture": {
+				"kind": "perspective",
+				"scene": "road",
+				"lines": true,
+				"labels": true
+			}
+		},
+		{
+			"text": "Leonardo da Vinci (1452-1519) painted the Mona Lisa. He filled notebooks with inventions and studies of birds and people, in mirror writing. Michelangelo (1475-1564) carved David, finished in 1504, and painted the Sistine Chapel ceiling from 1508 to 1512.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1400,
+				"to": 1600,
+				"step": 50,
+				"events": [
+					[
+						1436,
+						"Florence's dome"
+					],
+					[
+						1452,
+						"Leonardo is born"
+					],
+					[
+						1504,
+						"David is finished"
+					],
+					[
+						1512,
+						"Sistine ceiling done"
+					],
+					[
+						1543,
+						"Vesalius's book"
+					]
+				],
+				"eras": [
+					[
+						1400,
+						1600,
+						"the Renaissance"
+					]
+				]
+			}
+		},
+		{
+			"text": "Women made their mark too: Sofonisba Anguissola painted at the Spanish court, and Artemisia Gentileschi was admired across Italy. Printing carried the Renaissance north, where Albrecht Dürer made famous prints in Germany."
+		},
+		{
+			"text": "Artists studied nature closely, and scientists copied their careful looking. In 1543 Andreas Vesalius printed a great book of the human body, drawn from careful study. Looking and testing, not only reading old books, became the way to learn."
+		},
+		{
+			"text": "Try it in the world: build a Renaissance street: a domed cathedral, a workshop with a painting in perspective, and a patron's palace. Next: voyages of exploration."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does the word Renaissance mean?",
+			"answer": 0,
+			"hint": "It is French; think of being born again.",
+			"choices": [
+				"rebirth",
+				"revolution",
+				"empire",
+				"invention"
+			],
+			"explain": "Rebirth: of interest in ancient Greek and Roman learning and art."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which city was home to the Medici family?",
+			"answer": 0,
+			"hint": "It has a cathedral with Brunelleschi's dome.",
+			"choices": [
+				"Florence",
+				"London",
+				"Paris",
+				"Lisbon"
+			],
+			"explain": "Florence, in Italy: the Medici were its bankers, and they paid its artists and scholars."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who painted the Mona Lisa?",
+			"answer": 0,
+			"hint": "He also wrote his notebooks in mirror writing.",
+			"choices": [
+				"Leonardo da Vinci",
+				"Michelangelo",
+				"Galileo",
+				"Gutenberg"
+			],
+			"explain": "Leonardo da Vinci painted it. He also filled notebooks with inventions, in mirror writing."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Michelangelo carved the statue of David.",
+			"answer": true,
+			"hint": "He was a sculptor as well as a painter.",
+			"explain": "True: he finished David in 1504."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a patron?",
+			"answer": 0,
+			"hint": "Think of the Medici and their money.",
+			"choices": [
+				"someone who pays for artists' work",
+				"a painter's brush",
+				"a kind of dome",
+				"a Latin teacher"
+			],
+			"explain": "A patron pays for and supports artists' work, as the Medici did."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Leonardo was born in 1452 and died in 1519. How many years did he live?",
+			"answer": "67",
+			"hint": "Take the birth year from the year he died.",
+			"explain": "1519 − 1452 = 67 years."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Michelangelo was born in 1475 and finished David in 1504. How old was he then, about?",
+			"answer": "29",
+			"hint": "Take the birth year from the year he finished.",
+			"explain": "1504 − 1475 = 29, so he was about 29."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, earliest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The smaller the year, the earlier.",
+			"items": [
+				"The Sistine ceiling is finished (1512)",
+				"David is finished (1504)",
+				"Leonardo is born (1452)",
+				"Florence's dome is finished (1436)"
+			],
+			"explain": "1436, 1452, 1504, 1512.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1400,
+				"to": 1600,
+				"step": 50,
+				"events": [
+					[
+						1436,
+						"Florence's dome"
+					],
+					[
+						1452,
+						"Leonardo is born"
+					],
+					[
+						1504,
+						"David is finished"
+					],
+					[
+						1512,
+						"Sistine ceiling done"
+					],
+					[
+						1543,
+						"Vesalius's book"
+					]
+				],
+				"eras": [
+					[
+						1400,
+						1600,
+						"the Renaissance"
+					]
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each person to their work.",
+			"items": [
+				"Brunelleschi",
+				"Leonardo da Vinci",
+				"Michelangelo",
+				"Vesalius"
+			],
+			"matches": [
+				"a book of the human body",
+				"Florence's great dome",
+				"the Mona Lisa",
+				"the Sistine Chapel ceiling"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "One built, one studied bodies for a book, two painted.",
+			"explain": "Brunelleschi: the dome. Leonardo: the Mona Lisa. Michelangelo: the Sistine ceiling. Vesalius: the body."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What was reborn in the Renaissance?",
+			"answer": 0,
+			"hint": "What did scholars look back to?",
+			"choices": [
+				"interest in ancient Greek and Roman learning",
+				"the Roman Empire itself",
+				"the Viking age",
+				"the Stone Age"
+			],
+			"explain": "Interest in the learning, art and ideas of ancient Greece and Rome."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In linear perspective, where do lines going away from you seem to meet?",
+			"answer": 0,
+			"hint": "Picture a straight road going into the distance.",
+			"choices": [
+				"at a vanishing point",
+				"at the frame's corner",
+				"nowhere",
+				"at the bottom edge"
+			],
+			"explain": "At a vanishing point, as the edges of a long road seem to meet far away."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How did Constantinople's fall in 1453 help the Renaissance?",
+			"answer": 0,
+			"hint": "Where did scholars from Constantinople go?",
+			"choices": [
+				"Greek scholars brought books to Italy",
+				"it closed every school",
+				"Italy stopped trading",
+				"painters left Italy"
+			],
+			"explain": "Greek scholars moved to Italy with old books, which fed the new interest in Greek learning."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The Renaissance began in Britain and spread to Italy.",
+			"answer": false,
+			"hint": "Where were Florence and the Medici?",
+			"explain": "False: it began in Italy and spread north, helped by printing."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: from ancient Greece and Rome, or from the Renaissance?",
+			"groups": [
+				"ancient",
+				"Renaissance"
+			],
+			"items": [
+				"the Parthenon",
+				"Florence's dome",
+				"the Colosseum",
+				"the Mona Lisa",
+				"the first Olympic Games",
+				"Michelangelo's David"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The Renaissance is about 1400-1600; the ancient world is over 1,000 years earlier.",
+			"explain": "Ancient: the Parthenon, the Colosseum, the Olympic Games. Renaissance: the dome, the Mona Lisa, David."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Sistine Chapel ceiling took from 1508 to 1512. For how many years did Michelangelo paint it?",
+			"answer": "4",
+			"hint": "Take the first year from the last.",
+			"explain": "1512 − 1508 = 4 years."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.early_modern_years",
+			"level": 1
+		},
+		{
+			"gen": "g7h.early_modern_years",
+			"level": 2
+		},
+		{
+			"gen": "g7h.early_modern_years",
+			"level": 3
+		},
+		{
+			"gen": "g7h.early_modern_order",
+			"level": 1
+		},
+		{
+			"gen": "g7h.early_modern_order",
+			"level": 2
+		},
+		{
+			"gen": "g7h.early_modern_order",
+			"level": 3
+		}
+	]
+}

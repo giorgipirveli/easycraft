@@ -1,0 +1,326 @@
+{
+	"id": "g8.computing.design_for_users",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, which feature helps someone who cannot hear a video? (Captions: the words written on the screen.) Today: designing programs that everyone can use."
+		},
+		{
+			"text": "Usability means people can do what they came to do quickly, without mistakes or help. Good design is clear and the same everywhere, shows that a tap worked, and stops mistakes before they happen.",
+			"picture": {
+				"kind": "app_screen",
+				"design": "clear",
+				"labels": true
+			}
+		},
+		{
+			"text": "Accessibility means designing for everyone: big buttons for shaky hands, strong contrast for weak or tired eyes, words read aloud, captions, and colour never the only signal.",
+			"picture": {
+				"kind": "app_screen",
+				"design": "low_contrast"
+			}
+		},
+		{
+			"text": "Worked example: this planner shows tasks done or not with green and red dots only. Someone who cannot tell red from green is stuck. The fix: a tick and the word done as well.",
+			"picture": {
+				"kind": "app_screen",
+				"design": "colour_only"
+			}
+		},
+		{
+			"text": "Contrast guides say ordinary text needs a contrast ratio of at least 4.5 to 1 with its background. The School's cards use dark ink on light paper and can read every card aloud."
+		},
+		{
+			"text": "User testing: give real users a task, watch quietly, ask them to think aloud, and count how many finish and how long it takes. Fix the worst problem, then test again."
+		},
+		{
+			"text": "In 1824 Louis Braille (1809-1852), blind from childhood and aged 15, made letters of raised dots that a fingertip reads fast. Good design starts with the people who will use it."
+		},
+		{
+			"text": "Try it in the world: ask someone to use an app you know, thinking aloud, and note where they get stuck. In LIFE, Success Stories acts out Louis Braille's story. Next: computing and society."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the problem with this screen?",
+			"choices": [
+				"the buttons are too small to tap",
+				"the colours are too bright",
+				"there are too many words",
+				"nothing is wrong"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "app_screen",
+				"design": "tiny"
+			},
+			"hint": "Imagine pressing the add button with a thumb.",
+			"explain": "The buttons and words are tiny, so they are hard to read and to tap."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the problem with this screen?",
+			"choices": [
+				"the text is too pale to read",
+				"the buttons are too big",
+				"the list is too long",
+				"nothing is wrong"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "app_screen",
+				"design": "low_contrast"
+			},
+			"hint": "Look at how the words stand out from the background.",
+			"explain": "Pale grey on white has too little contrast, so the words are hard to read."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Colour should never be the only way a screen shows something.",
+			"answer": true,
+			"hint": "Think of someone who cannot tell red from green.",
+			"explain": "True: add a word, a tick or an icon, so everyone can tell."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each need to a feature that helps.",
+			"items": [
+				"cannot hear the sound",
+				"cannot see well",
+				"shaky hands",
+				"cannot tell red from green"
+			],
+			"matches": [
+				"words read aloud",
+				"big buttons",
+				"a word or icon as well",
+				"captions"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Ask what each person cannot do, then what does it another way.",
+			"explain": "Captions for hearing, reading aloud for seeing, big buttons for shaky hands and words or icons for colour."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "7 of 10 users finished a task. What percentage finished?",
+			"answer": "70",
+			"hint": "Make the fraction out of 100.",
+			"explain": "7 out of 10 is 70 out of 100: 70%."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the problem with this screen?",
+			"choices": [
+				"too many things fight for attention",
+				"the text is too big",
+				"the buttons are too far apart",
+				"nothing is wrong"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "app_screen",
+				"design": "cluttered"
+			},
+			"hint": "Where does your eye go first?",
+			"explain": "Adverts and coloured boxes pull the eye away from the tasks: it is cluttered."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the problem with this screen?",
+			"choices": [
+				"the icons have no words, so users must guess",
+				"the text is too pale",
+				"the buttons are too small",
+				"nothing is wrong"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "app_screen",
+				"design": "no_words"
+			},
+			"hint": "Could a new user tell what each row and button means?",
+			"explain": "Icons alone can mean different things to different people; a word with each makes it clear."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of a user test in order.",
+			"items": [
+				"fix the worst problem",
+				"watch a user try it, thinking aloud",
+				"test again",
+				"count who finished and how long",
+				"choose a task"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Test first, then fix, then check the fix.",
+			"explain": "Choose a task, watch, measure, fix the worst problem, then test again to check."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Does it help people use the app, or make it harder?",
+			"groups": [
+				"helps",
+				"makes it harder"
+			],
+			"items": [
+				"big, clear buttons",
+				"pale grey text on white",
+				"a back button in the same place",
+				"words read aloud",
+				"flashing adverts"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Imagine someone short of time, or who cannot see well.",
+			"explain": "Big buttons, a back button that stays put and reading aloud help; pale text and flashing adverts get in the way."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A contrast ratio of 4.5 to 1 is the usual least for ordinary text.",
+			"answer": true,
+			"hint": "Remember the guide for ordinary text.",
+			"explain": "True: guides ask for at least 4.5 to 1 between ordinary text and its background."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Users took 30, 50, 40 and 60 seconds. What was the mean time in seconds?",
+			"answer": "45",
+			"hint": "Add them, then share by how many users there were.",
+			"explain": "30 + 50 + 40 + 60 = 180, and 180 ÷ 4 = 45 seconds."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Design A: 12 of 20 users finished. Design B: 18 of 20. How many percentage points better is B?",
+			"answer": "30",
+			"hint": "Turn both into percentages first.",
+			"explain": "A: 12 of 20 is 60%. B: 18 of 20 is 90%. 90 − 60 = 30 points."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Testers keep tapping the title, thinking it goes back. What is the best fix?",
+			"choices": [
+				"add a clear back button where they look",
+				"make the title smaller",
+				"tell users to read the help",
+				"remove the title"
+			],
+			"answer": 0,
+			"hint": "Design for what users really do.",
+			"explain": "Users expect to go back there, so put a clear back button in that place."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Testing with only the designer is as good as testing with real users.",
+			"answer": false,
+			"hint": "Does the designer already know how it works?",
+			"explain": "False: the designer knows the app, so they miss what confuses new users; real users show the problems."
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label the parts of the planner's screen.",
+			"picture": {
+				"kind": "app_screen",
+				"design": "clear"
+			},
+			"spots": [
+				[
+					0.392,
+					0.09,
+					0.392,
+					0.1626
+				],
+				[
+					0.5035,
+					0.09,
+					0.5,
+					0.4734
+				],
+				[
+					0.6151,
+					0.09,
+					0.5282,
+					0.1626
+				],
+				[
+					0.5,
+					0.91,
+					0.5,
+					0.7753
+				]
+			],
+			"labels": [
+				"task list",
+				"add button",
+				"back button",
+				"title"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Start with what you would tap to go back, then read down the screen.",
+			"explain": "The back button is top left by the title; the task list is in the middle; the add button is at the bottom."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did Louis Braille's dots work better than huge raised letters?",
+			"choices": [
+				"a fingertip feels a small group of dots fast",
+				"dots look prettier",
+				"they were printed in colour",
+				"they used more paper"
+			],
+			"answer": 0,
+			"hint": "Think about what a fingertip can feel at once.",
+			"explain": "A letter of a few dots fits under one fingertip, so reading is fast; huge letters had to be traced slowly."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.user_test",
+			"level": 1
+		},
+		{
+			"gen": "g8c.user_test",
+			"level": 2
+		},
+		{
+			"gen": "g8c.user_test",
+			"level": 3
+		}
+	]
+}

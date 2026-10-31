@@ -1,0 +1,460 @@
+{
+	"id": "g7.english.write_informative",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you wrote to inform. What does a caption do? It says in a short line what a picture shows."
+		},
+		{
+			"text": "Compare and contrast shows how two things are alike and different. Signal words help: both, similarly and likewise show likeness; whereas, however, unlike and in contrast show difference.",
+			"picture": {
+				"kind": "venn",
+				"left_name": "frogs",
+				"right_name": "toads",
+				"left": [
+					"smooth, moist skin",
+					"long legs: hop"
+				],
+				"right": [
+					"dry, bumpy skin",
+					"short legs: walk"
+				],
+				"both": [
+					"amphibians",
+					"eggs in water"
+				]
+			}
+		},
+		{
+			"text": "Organise it in one of two ways. Subject by subject: all about frogs, then all about toads. Point by point: skin, then legs, then eggs, comparing both each time.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"point",
+						"frogs",
+						"toads"
+					],
+					[
+						"skin",
+						"smooth, moist",
+						"dry, bumpy"
+					],
+					[
+						"legs",
+						"long: hop",
+						"short: walk"
+					],
+					[
+						"eggs",
+						"in clumps",
+						"in strings"
+					]
+				]
+			}
+		},
+		{
+			"text": "Cause and effect explains why something happens. Signal words: because, so, as a result, therefore. Heavy rain falls on hard, dry ground, so the water runs off; as a result, rivers rise and flood.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"heavy rain",
+					"hard, dry ground",
+					"water runs off",
+					"rivers rise",
+					"floods"
+				]
+			}
+		},
+		{
+			"text": "Precise words make you sound like an expert. Write not 'a lot of rain' but '50 mm of rain in a day'; not 'animals' but 'amphibians'; not 'got bigger' but 'expanded'."
+		},
+		{
+			"text": "Keep it clear and formal: the third person, not 'I think'; the present tense for facts; and a definition for any technical word, such as 'Amphibians are animals that live in water and on land.'"
+		},
+		{
+			"text": "Try it in the world: write a short guide comparing two of your worlds point by point: their weather, their blocks and their animals. Use two signal words. Next: point of view in stories."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Choose the signal word: \"Frogs have smooth skin, ___ toads have dry, bumpy skin.\"",
+			"choices": [
+				"whereas",
+				"because",
+				"therefore"
+			],
+			"answer": 0,
+			"hint": "Is the second part a difference or a result?",
+			"explain": "\"Whereas\" shows a difference between frogs and toads."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the signal words.",
+			"groups": [
+				"compare and contrast",
+				"cause and effect"
+			],
+			"items": [
+				"unlike",
+				"as a result",
+				"because",
+				"whereas",
+				"similarly",
+				"therefore"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Do they show things alike or different, or one thing causing another?",
+			"explain": "Compare and contrast: whereas, similarly and unlike. Cause and effect: because, as a result and therefore."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "\"Because\" is a cause-and-effect signal word.",
+			"answer": true,
+			"hint": "Does 'because' give a reason why something happened?",
+			"explain": "True: 'because' introduces the cause of something."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the most precise?",
+			"choices": [
+				"50 mm of rain fell in one day.",
+				"It rained loads.",
+				"There was a lot of rain."
+			],
+			"answer": 0,
+			"hint": "Precise writing gives an exact amount.",
+			"explain": "\"50 mm of rain fell in one day\" gives an exact amount and a time."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What goes in the middle of this Venn diagram?",
+			"choices": [
+				"what frogs and toads share",
+				"only what frogs have",
+				"only what toads have"
+			],
+			"answer": 0,
+			"hint": "The middle is where the two circles overlap.",
+			"explain": "The overlap holds what both share: both are amphibians and lay their eggs in water.",
+			"picture": {
+				"kind": "venn",
+				"left_name": "frogs",
+				"right_name": "toads",
+				"left": [
+					"smooth, moist skin",
+					"long legs: hop"
+				],
+				"right": [
+					"dry, bumpy skin",
+					"short legs: walk"
+				],
+				"both": [
+					"amphibians",
+					"eggs in water"
+				],
+				"hide": "both"
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each vague phrase to a precise one.",
+			"items": [
+				"a lot of rain",
+				"got bigger",
+				"a long time ago",
+				"animals of water and land"
+			],
+			"matches": [
+				"50 mm of rain",
+				"amphibians",
+				"expanded",
+				"in 1476"
+			],
+			"answer": [
+				0,
+				2,
+				3,
+				1
+			],
+			"hint": "Each precise phrase gives an amount, a date or the expert's own word.",
+			"explain": "A lot of rain: 50 mm of rain. Got bigger: expanded. A long time ago: in 1476. Animals of water and land: amphibians."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Choose the signal word: \"Heavy rain fell for days; ___, the river burst its banks.\"",
+			"choices": [
+				"as a result",
+				"similarly",
+				"whereas"
+			],
+			"answer": 0,
+			"hint": "Is the second part a result of the first?",
+			"explain": "\"As a result\" shows that the flood was caused by the rain."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the causes and effects.",
+			"items": [
+				"Rivers fill with mud",
+				"Trees on a hill are cut down",
+				"Rain washes the soil away",
+				"Nothing holds the soil"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Each step causes the next one.",
+			"explain": "Cutting the trees leaves nothing to hold the soil, rain washes it away, and the mud ends up in rivers."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which plan is point by point?",
+			"choices": [
+				"skin: frogs and toads; legs: frogs and toads",
+				"all about frogs, then all about toads",
+				"only frogs"
+			],
+			"answer": 0,
+			"hint": "Point by point compares both things on each point in turn.",
+			"explain": "It compares frogs and toads on their skin, then on their legs: point by point."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "\"I think frogs are super cool\" suits an expert information text.",
+			"answer": false,
+			"hint": "Expert texts use the third person and formal words.",
+			"explain": "False: it uses 'I think' and chatty words; an expert writes 'Frogs are amphibians...'."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the sentences: compare and contrast, or cause and effect?",
+			"groups": [
+				"compare and contrast",
+				"cause and effect"
+			],
+			"items": [
+				"Unlike a bat, a bird has feathers.",
+				"Whereas wolves hunt in packs, foxes hunt alone.",
+				"The dam broke, so the valley flooded.",
+				"Both deserts and ice caps get little rain.",
+				"Because the ice melted, the sea rose.",
+				"The plants had no light; therefore, they died."
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Look for the signal word in each sentence.",
+			"explain": "Compare and contrast: both, unlike and whereas. Cause and effect: because, so and therefore."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which step is hidden in the chain?",
+			"choices": [
+				"water runs off",
+				"the sun shines",
+				"the ground soaks it up"
+			],
+			"answer": 0,
+			"hint": "What does rain do when the ground is too hard to soak it up?",
+			"explain": "The water runs off the hard ground into the rivers, which rise and flood.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"heavy rain",
+					"hard, dry ground",
+					"water runs off",
+					"rivers rise",
+					"floods"
+				],
+				"hide": 2
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sentence defines a technical word?",
+			"choices": [
+				"Magma is melted rock under the ground.",
+				"Magma is cool.",
+				"I saw magma once."
+			],
+			"answer": 0,
+			"hint": "A definition says exactly what a word means.",
+			"explain": "\"Magma is melted rock under the ground\" tells the reader what the word means."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Choose the best signal word: \"The desert is dry. The rainforest, ___, gets rain almost every day.\"",
+			"choices": [
+				"however",
+				"so",
+				"because"
+			],
+			"answer": 0,
+			"hint": "The second sentence shows a difference, not a result.",
+			"explain": "\"However\" turns to a contrast: the desert is dry, but the rainforest is wet. \"So\" and \"because\" would wrongly make one place cause the other."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order a point-by-point paragraph.",
+			"items": [
+				"Frogs have smooth, moist skin.",
+				"Toads, in contrast, have dry, bumpy skin.",
+				"Frogs and toads differ in their skin.",
+				"So touch can tell them apart."
+			],
+			"answer": [
+				2,
+				0,
+				1,
+				3
+			],
+			"hint": "The topic first, then one animal, then the other, then what it means.",
+			"explain": "The topic sentence, then frogs, then toads with a contrast word, then a conclusion."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each sentence to its structure.",
+			"items": [
+				"Unlike frogs, toads walk.",
+				"The dam broke, so it flooded.",
+				"First, mix; then, bake."
+			],
+			"matches": [
+				"steps in order",
+				"compare and contrast",
+				"cause and effect"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Look at the signal words: unlike, so, first and then.",
+			"explain": "Unlike: compare and contrast. So: cause and effect. First and then: steps in order."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the words: precise, vague, or too chatty for an expert?",
+			"groups": [
+				"precise",
+				"vague",
+				"too chatty"
+			],
+			"items": [
+				"loads of",
+				"50 mm of rain",
+				"expanded",
+				"a big wave",
+				"stuff",
+				"super cool"
+			],
+			"answer": [
+				2,
+				0,
+				0,
+				1,
+				1,
+				2
+			],
+			"hint": "Exact and expert, unclear, or chatty, like talking to a friend?",
+			"explain": "Precise: expanded and 50 mm of rain. Vague: stuff and a big wave. Too chatty: super cool and loads of."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Facts in an information text are usually in the present tense.",
+			"answer": true,
+			"hint": "Is it 'frogs are amphibians' or 'frogs were amphibians'?",
+			"explain": "True: facts that are always true go in the present tense, 'Frogs are amphibians', while past events go in the past tense, 'The dam broke in 1953'."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What do hot deserts and ice caps share?",
+			"choices": [
+				"very little rain or snow",
+				"great heat",
+				"many trees"
+			],
+			"answer": 0,
+			"hint": "Think about the water that falls on each.",
+			"explain": "Both get very little rain or snow, which is why ice caps are called cold deserts.",
+			"picture": {
+				"kind": "venn",
+				"left_name": "hot deserts",
+				"right_name": "ice caps",
+				"left": [
+					"hot days",
+					"sand dunes"
+				],
+				"right": [
+					"below freezing",
+					"thick ice"
+				],
+				"both": [
+					"little rain or snow"
+				],
+				"hide": "both"
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7k.signal_word",
+			"level": 1
+		},
+		{
+			"gen": "g7k.signal_word",
+			"level": 2
+		},
+		{
+			"gen": "g7k.signal_word",
+			"level": 3
+		},
+		{
+			"gen": "g7k.precise_term",
+			"level": 1
+		},
+		{
+			"gen": "g7k.precise_term",
+			"level": 2
+		},
+		{
+			"gen": "g7k.precise_term",
+			"level": 3
+		}
+	]
+}

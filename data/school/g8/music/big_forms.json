@@ -1,0 +1,430 @@
+{
+	"id": "g8.music.big_forms",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7, how many movements does a Classical symphony usually have? (Four.) Today: the big forms: symphony, concerto, opera, ballet and the musical."
+		},
+		{
+			"text": "A symphony is a large piece for orchestra, usually in four movements: fast, slow, a dance, then fast again. Each movement has its own mood and tempo.",
+			"picture": {
+				"kind": "symphony_plan",
+				"view": "movements"
+			}
+		},
+		{
+			"text": "A concerto puts a soloist with the orchestra, usually in three movements: fast, slow, fast. In the cadenza, near the end of a movement, the soloist plays alone and shows off.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"fast",
+					"slow",
+					"fast"
+				]
+			}
+		},
+		{
+			"text": "An opera tells a story sung all the way through, with an orchestra, costumes and a set. Recitatives move the story on; arias stop to show a feeling. Claudio Monteverdi's L'Orfeo (1607) is among the first.",
+			"picture": {
+				"kind": "opera_house",
+				"labels": true
+			}
+		},
+		{
+			"text": "Opera grew in many lands: Mozart's The Magic Flute (1791) in Vienna, and Giuseppe Verdi (1813-1901) in Italy. Peking opera grew in China from the late 1700s, with painted faces.",
+			"picture": {
+				"kind": "opera_house",
+				"mark": "surtitles"
+			}
+		},
+		{
+			"text": "A ballet tells a story in dance and music, with no words, like Tchaikovsky's The Nutcracker (1892). A musical mixes songs, speech and dance; Show Boat (1927) is often called the first modern one."
+		},
+		{
+			"text": "Worked example: a symphony's movements last 12, 9, 6 and 10 minutes, so 12 + 9 + 6 + 10 = 37 minutes in all. A concerto's three movements of 11, 8 and 7 minutes last 11 + 8 + 7 = 26.",
+			"picture": {
+				"kind": "symphony_plan",
+				"view": "movements",
+				"mark": 2
+			}
+		},
+		{
+			"text": "Try it in the world: listen to a movement of a concerto and wait for the cadenza, when the orchestra stops and the soloist plays alone. Next: sight-reading."
+		}
+	],
+	"exercises": [
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each form to what it is.",
+			"items": [
+				"symphony",
+				"concerto",
+				"opera",
+				"ballet"
+			],
+			"matches": [
+				"soloist and orchestra",
+				"a story sung throughout",
+				"a story told in dance",
+				"orchestra, four movements"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Who performs, and is the story sung, danced or neither?",
+			"explain": "A symphony is for orchestra, a concerto adds a soloist, an opera is sung and a ballet is danced."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this movement fast or slow?",
+			"choices": [
+				"fast",
+				"slow"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"E5",
+					"G5",
+					"E5",
+					"C5",
+					"E5",
+					"G5",
+					"C6",
+					"G5",
+					"E5",
+					"C5:2"
+				],
+				"beat": 0.2
+			},
+			"hint": "Tap along with the beat.",
+			"explain": "The notes come quickly, with a lively beat: a fast movement."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A concerto usually has three movements: fast, slow, fast.",
+			"answer": true,
+			"hint": "Remember the concerto's plan.",
+			"explain": "True: three movements, fast, slow and fast, often with a cadenza."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this more like a recitative or an aria?",
+			"choices": [
+				"a recitative: speech-like, on few notes",
+				"an aria: a flowing melody"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D4",
+					"D4",
+					"D4",
+					"D4",
+					"E4",
+					"D4",
+					"D4",
+					"C4"
+				],
+				"beat": 0.22
+			},
+			"hint": "Does it sing a tune, or almost speak?",
+			"explain": "It stays on a few notes in the rhythm of speech: a recitative, which moves the story on."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A symphony's four movements last 12, 9, 6 and 10 minutes. How many minutes in all?",
+			"answer": "37",
+			"hint": "Add the four movements.",
+			"explain": "12 + 9 + 6 + 10 = 37 minutes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Is this more like a recitative or an aria?",
+			"choices": [
+				"an aria: a flowing melody",
+				"a recitative: speech-like, on few notes"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5:2",
+					"E5",
+					"G5:2",
+					"F5",
+					"E5",
+					"D5:2",
+					"C5:3"
+				],
+				"beat": 0.4,
+				"tone": "pure"
+			},
+			"hint": "Does it sing a tune, or almost speak?",
+			"explain": "It sings a wide, flowing melody with long notes: an aria, which shows a feeling."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order a symphony's four usual movements.",
+			"items": [
+				"a fast finale",
+				"a dance (a minuet)",
+				"a slow movement",
+				"a fast opening"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "It starts fast and ends fast.",
+			"explain": "Fast, slow, a dance, then a fast finale."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Is this a soloist alone, or a soloist with the orchestra?",
+			"choices": [
+				"a soloist with the orchestra",
+				"a soloist alone"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G5",
+					"E5",
+					"C5",
+					"E5",
+					"G5",
+					"C6",
+					"B5",
+					"G5:2"
+				],
+				"beat": 0.35,
+				"parts": [
+					{
+						"notes": [
+							"C4+E4+G4:4",
+							"G3+B3+D4:2",
+							"C4+E4+G4:3"
+						],
+						"volume": 0.6
+					}
+				]
+			},
+			"hint": "Listen below the tune: are other parts playing?",
+			"explain": "Chords play under the soloist's tune: the soloist with the orchestra."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Listen: at the end the orchestra stops and the soloist plays alone, like a cadenza.",
+			"answer": true,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G5",
+					"E5",
+					"C5",
+					"E5",
+					"G5",
+					"C6",
+					"B5",
+					"A5",
+					"G5",
+					"F5",
+					"E5",
+					"D5",
+					"C5:2"
+				],
+				"beat": 0.3,
+				"parts": [
+					{
+						"notes": [
+							"C4+E4+G4:3",
+							"G3+B3+D4:3"
+						],
+						"volume": 0.6
+					}
+				]
+			},
+			"hint": "Listen to the second half: are the chords still there?",
+			"explain": "True: the chords stop halfway, and the soloist carries on alone."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Opera or musical?",
+			"groups": [
+				"opera",
+				"musical"
+			],
+			"items": [
+				"sung all the way through",
+				"songs and spoken scenes",
+				"recitatives and arias",
+				"Show Boat",
+				"L'Orfeo"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is any of the story spoken?",
+			"explain": "Operas are sung throughout, with recitatives and arias, like L'Orfeo; musicals mix songs and speech, like Show Boat."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A concert has a 10-minute overture, a 26-minute concerto and a 37-minute symphony. How long is the music, in minutes?",
+			"answer": "73",
+			"hint": "Add the three pieces.",
+			"explain": "10 + 26 + 37 = 73 minutes."
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label the opera house.",
+			"picture": {
+				"kind": "opera_house"
+			},
+			"spots": [
+				[
+					0.7724,
+					0.09,
+					0.7724,
+					0.1182
+				],
+				[
+					0.392,
+					0.91,
+					0.392,
+					0.6421
+				],
+				[
+					0.5035,
+					0.91,
+					0.4718,
+					0.8197
+				],
+				[
+					0.7818,
+					0.91,
+					0.7818,
+					0.6598
+				]
+			],
+			"labels": [
+				"conductor",
+				"surtitles",
+				"stage",
+				"orchestra pit"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Start with where the singers stand, then look below and above.",
+			"explain": "The singers act on the stage; the orchestra plays in the pit below, led by the conductor; the surtitles show the words above."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "L'Orfeo was first performed in 1607 and The Magic Flute in 1791. How many years apart?",
+			"answer": "184",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "L'Orfeo came first, in 1607, and The Magic Flute in 1791: 1791 − 1607 = 184 years apart."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. This symphony movement is a dance. How many beats are in a bar?",
+			"choices": [
+				"3, like a minuet",
+				"2",
+				"4"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"E4+G4",
+					"E4+G4",
+					"G2",
+					"D4+F4",
+					"D4+F4",
+					"C3",
+					"E4+G4",
+					"E4+G4"
+				],
+				"beat": 0.35
+			},
+			"hint": "Count the low note and the chords that follow it.",
+			"explain": "Each bar has a low note, then two chords: oom-pah-pah, 1, 2, 3. That is 3 beats a bar, like the minuet in a Classical symphony's third movement."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do opera houses show surtitles?",
+			"choices": [
+				"so the audience can follow the words",
+				"to tell the singers when to sing",
+				"to show the score",
+				"to light the stage"
+			],
+			"answer": 0,
+			"hint": "Operas are often sung in another language.",
+			"explain": "Operas are often sung in Italian, German or another language. Surtitles show the words above the stage, so the audience can follow the story in their own language."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Peking opera uses painted faces to show the characters.",
+			"answer": true,
+			"hint": "Remember the opera of China.",
+			"explain": "True: in Peking opera the painted faces show each character at a glance: red often stands for a brave, loyal hero, and white for a sly one."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.form_plan",
+			"level": 1
+		},
+		{
+			"gen": "g8c.form_plan",
+			"level": 2
+		},
+		{
+			"gen": "g8c.form_plan",
+			"level": 3
+		},
+		{
+			"gen": "g8c.music_order",
+			"level": 2
+		},
+		{
+			"gen": "g8c.music_order",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,379 @@
+{
+	"id": "g4.science.heat_temperature",
+	"lesson": [
+		{
+			"text": "Quick memory: in 'Energy on the move', which way did heat go between a hot mug and cold hands? (From the hotter mug into the colder hands.) Today: how to measure hot and cold, and how heat travels."
+		},
+		{
+			"text": "Temperature is how hot or cold something is. We measure it with a thermometer, in degrees Celsius (°C). Water freezes at 0 °C and boils at 100 °C. A warm classroom is about 20 °C, and inside your body it is about 37 °C.",
+			"picture": {
+				"kind": "thermometer",
+				"from": 0,
+				"to": 100,
+				"step": 10,
+				"value": 20
+			}
+		},
+		{
+			"text": "To read a thermometer, find the top of the red liquid and read the scale beside it. First work out what each small mark is worth. Here the numbers go up in 10s and each small mark is 2 degrees: it shows 26 °C.",
+			"picture": {
+				"kind": "thermometer",
+				"from": 0,
+				"to": 50,
+				"step": 10,
+				"value": 26,
+				"minor": 4
+			}
+		},
+		{
+			"text": "Below freezing, temperatures have a minus sign: 5 degrees below zero is −5 °C, and −10 °C is colder still. A kitchen freezer is about −18 °C.",
+			"picture": {
+				"kind": "thermometer",
+				"from": -20,
+				"to": 20,
+				"step": 10,
+				"value": -5,
+				"minor": 1
+			}
+		},
+		{
+			"text": "Heat is energy. It always flows from a hotter thing to a colder thing, until both are the same temperature. Hot soup cools down in a room, and an ice lolly warms up and melts. Cold does not flow: heat does.",
+			"picture": {
+				"kind": "thermometer",
+				"from": 0,
+				"to": 100,
+				"step": 10,
+				"values": [
+					85,
+					40,
+					20
+				],
+				"names": [
+					"soup",
+					"bath",
+					"room"
+				]
+			}
+		},
+		{
+			"text": "Good conductors of heat let heat through quickly: metals such as steel, copper and aluminium. Poor conductors (insulators) slow it down: wood, plastic, wool, cork and air. That is why pans are metal but their handles are plastic or wood."
+		},
+		{
+			"text": "Insulators keep hot things hot and cold things cold. A flask, a coat and a cool box trap air, which slows heat down. A coat does not make heat: it keeps in the heat your own body makes."
+		},
+		{
+			"text": "Try it in the world: tap TRY IT IN THE LAB and warm ice from −20 °C. The thermometer stays at 0 °C while the ice melts. With a grown-up, feel a metal and a wooden spoon in warm water. Next: solids, liquids and gases."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What temperature does the thermometer show, in °C?",
+			"hint": "Find the top of the red liquid, then read the number beside it.",
+			"explain": "The red liquid stops at the 30 line: 30 °C.",
+			"picture": {
+				"kind": "thermometer",
+				"from": 0,
+				"to": 50,
+				"step": 10,
+				"value": 30
+			},
+			"answer": "30"
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do we use to measure temperature?",
+			"hint": "Its name begins with thermo, which means heat.",
+			"explain": "A thermometer measures temperature in °C.",
+			"choices": [
+				"a thermometer",
+				"a ruler",
+				"a kitchen scale",
+				"a clock"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Heat flows from a hotter thing to a colder thing.",
+			"hint": "Think of a hot mug warming cold hands.",
+			"explain": "True: heat always flows from hotter to colder.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which spoon lets heat through the fastest?",
+			"hint": "Which material is a good conductor of heat?",
+			"explain": "Metals are good conductors of heat, so a metal spoon heats up fastest.",
+			"choices": [
+				"a metal spoon",
+				"a wooden spoon",
+				"a plastic spoon"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "About how warm is it inside your body?",
+			"hint": "It is warmer than a classroom (about 20 °C), but far below boiling.",
+			"explain": "Inside, your body is about 37 °C.",
+			"choices": [
+				"37 °C",
+				"0 °C",
+				"100 °C",
+				"10 °C"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Read this thermometer. What temperature does it show, in °C?",
+			"hint": "The numbers go up in 10s. How much is each small mark worth? Count up from 30.",
+			"explain": "Each small mark is 2 degrees. From 30, two marks up: 32, 34. It shows 34 °C.",
+			"picture": {
+				"kind": "thermometer",
+				"from": 0,
+				"to": 50,
+				"step": 10,
+				"value": 34,
+				"minor": 4
+			},
+			"answer": "34"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "At 7:00 it was 12 °C. By 14:00 it was 21 °C. How many degrees warmer was it at 14:00?",
+			"hint": "Count on from 12 to 21.",
+			"explain": "21 − 12 = 9 degrees warmer.",
+			"answer": "9"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do pans have plastic or wooden handles?",
+			"hint": "Which materials slow heat down?",
+			"explain": "Plastic and wood are poor conductors of heat, so the handle stays cool enough to hold.",
+			"choices": [
+				"They are poor conductors, so they stay cool.",
+				"They are good conductors of heat.",
+				"They make the food cook faster.",
+				"They are heavier than metal."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A woolly hat keeps your head warm because the wool makes heat.",
+			"hint": "Where does the heat come from?",
+			"explain": "False: your body makes the heat. The wool traps air, which slows the heat from escaping.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Zara puts a cold spoon into hot soup. What happens?",
+			"hint": "Heat moves from hotter to colder.",
+			"explain": "The soup is hotter, so heat flows from the soup into the spoon: the spoon warms up and the soup cools a little.",
+			"choices": [
+				"Heat flows from the soup into the spoon.",
+				"Cold flows from the spoon into the soup.",
+				"Heat flows from the spoon into the soup.",
+				"Nothing changes at all."
+			],
+			"answer": 0
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: good or poor conductors of heat?",
+			"hint": "Metals are good conductors of heat.",
+			"explain": "Good conductors (metals): the copper pan, the steel fork and the aluminium tray. Poor conductors: the woolly scarf, the cork mat and the wooden spoon.",
+			"groups": [
+				"good conductor",
+				"poor conductor"
+			],
+			"items": [
+				"a woolly scarf",
+				"a copper pan",
+				"a cork mat",
+				"a steel fork",
+				"a wooden spoon",
+				"an aluminium tray"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				1,
+				0
+			]
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each one to its temperature.",
+			"hint": "Which is the hottest, and which is the coldest?",
+			"explain": "Boiling water 100 °C, melting ice 0 °C, inside your body about 37 °C, a freezer about −18 °C.",
+			"items": [
+				"boiling water",
+				"melting ice",
+				"inside your body",
+				"a kitchen freezer"
+			],
+			"matches": [
+				"about −18 °C",
+				"100 °C",
+				"0 °C",
+				"about 37 °C"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			]
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put them in order from the coldest to the hottest.",
+			"hint": "Which one is below 0 °C? Which one is at 100 °C?",
+			"explain": "A freezer (about −18 °C), melting ice (0 °C), a warm classroom (about 20 °C), your body (about 37 °C), boiling water (100 °C).",
+			"items": [
+				"a warm classroom",
+				"a kitchen freezer",
+				"inside your body",
+				"boiling water",
+				"melting ice"
+			],
+			"answer": [
+				1,
+				4,
+				0,
+				2,
+				3
+			]
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A freezer is at −18 °C and a fridge is at 4 °C. How many degrees warmer is the fridge?",
+			"hint": "Count from −18 up to 0, then on to 4.",
+			"explain": "From −18 °C up to 0 °C is 18 degrees, and from 0 °C to 4 °C is 4 more: 18 + 4 = 22 degrees.",
+			"answer": "22"
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What temperature does this thermometer show, in °C? (Below 0, type the minus sign.)",
+			"hint": "Each small mark is 2 degrees. Below 0, count down from 0 in twos.",
+			"explain": "The red liquid stops 4 marks below 0: −8 °C.",
+			"picture": {
+				"kind": "thermometer",
+				"from": -20,
+				"to": 20,
+				"step": 10,
+				"value": -8,
+				"minor": 4
+			},
+			"answer": "-8"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which cup keeps cocoa hot for the longest?",
+			"hint": "Which one traps the heat best? Think about insulators and lids.",
+			"explain": "Foam is a good insulator, full of trapped air, and the lid stops warm air escaping, so the cocoa loses heat slowest.",
+			"choices": [
+				"a foam cup with a lid",
+				"a thin metal cup with no lid",
+				"a glass with no lid",
+				"a metal plate"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Ice from the freezer, at −20 °C, is warmed on a burner. What does the thermometer do while the ice melts?",
+			"hint": "Remember the Lab: where did the thermometer stop for a while?",
+			"explain": "While the ice melts, the thermometer stays at 0 °C: the heat goes into melting the ice, not warming it. Then it rises again.",
+			"choices": [
+				"It stays at 0 °C.",
+				"It keeps rising.",
+				"It drops to −20 °C.",
+				"It jumps to 100 °C."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A metal rail and a wooden bench are both at 5 °C. The rail feels colder, because metal takes heat from your hand faster.",
+			"hint": "Both are at the same temperature. Does your hand feel the temperature, or the heat leaving it?",
+			"explain": "True: they are at the same temperature, but metal conducts heat away from your hand faster, so it feels colder.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a coat keep you warm on a cold day?",
+			"hint": "Where does the heat come from, and what does the coat do to it?",
+			"explain": "Your body makes the heat. The coat traps air, a poor conductor, so the heat escapes more slowly.",
+			"choices": [
+				"It traps air, which slows heat escaping.",
+				"It makes heat of its own.",
+				"It lets the cold in slowly.",
+				"It is always warmer than the air."
+			],
+			"answer": 0
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4c.thermo_read",
+			"level": 1
+		},
+		{
+			"gen": "g4c.thermo_read",
+			"level": 2
+		},
+		{
+			"gen": "g4c.thermo_read",
+			"level": 3
+		},
+		{
+			"gen": "g4c.temp_change",
+			"level": 1
+		},
+		{
+			"gen": "g4c.temp_change",
+			"level": 2
+		},
+		{
+			"gen": "g4c.temp_change",
+			"level": 3
+		},
+		{
+			"gen": "g4c.heat_flow",
+			"level": 1
+		},
+		{
+			"gen": "g4c.heat_flow",
+			"level": 2
+		},
+		{
+			"gen": "g4c.heat_flow",
+			"level": 3
+		}
+	]
+}

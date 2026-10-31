@@ -1,0 +1,409 @@
+{
+	"id": "g7.maths.speed_rate",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met unit rates. A car goes 150 km in 3 hours. How far does it go in 1 hour? 150 ÷ 3 = 50 km."
+		},
+		{
+			"text": "Speed tells you how far something goes in each unit of time: speed = distance ÷ time. A cyclist rides 36 km in 2 hours, so the speed is 36 ÷ 2 = 18 km/h (kilometres per hour).",
+			"picture": {
+				"kind": "speed_triangle"
+			}
+		},
+		{
+			"text": "The formula triangle helps: cover the one you want. Distance = speed × time, and time = distance ÷ speed. At 18 km/h, 54 km takes 54 ÷ 18 = 3 hours.",
+			"picture": {
+				"kind": "speed_triangle",
+				"cover": "time",
+				"formula": true
+			}
+		},
+		{
+			"text": "Average speed = total distance ÷ total time, stops included. A 90 km trip with 2 hours of driving and a 30-minute stop takes 2.5 hours: 90 ÷ 2.5 = 36 km/h."
+		},
+		{
+			"text": "To change km/h into m/s, divide by 3.6, because 1 km is 1,000 m and 1 hour is 3,600 seconds: 36 ÷ 3.6 = 10 m/s. To change m/s into km/h, multiply by 3.6.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"m/s",
+						"km/h"
+					],
+					[
+						"5",
+						"18"
+					],
+					[
+						"10",
+						"36"
+					],
+					[
+						"20",
+						"72"
+					],
+					[
+						"30",
+						"108"
+					]
+				]
+			}
+		},
+		{
+			"text": "A distance-time graph shows a journey: time goes along and distance goes up. A steeper line is faster, and a flat line means stopped. Leg A covers 6 km in 30 minutes: 12 km/h.",
+			"picture": {
+				"kind": "distance_time",
+				"points": [
+					[
+						0,
+						0
+					],
+					[
+						30,
+						6
+					],
+					[
+						45,
+						6
+					],
+					[
+						60,
+						12
+					]
+				],
+				"t_to": 60,
+				"t_step": 10,
+				"d_to": 12,
+				"d_step": 2,
+				"legs": true,
+				"mark": 0
+			}
+		},
+		{
+			"text": "Speed matters on roads. A driver needs time to react. At about 13 m/s (48 km/h), a car goes about 9 m before the brakes start. It needs about 23 m to stop."
+		},
+		{
+			"text": "Try it in the world: time a 100-block walk in your world (a block is 1 m) and find your speed in m/s. In LIFE, Safe Streets shows why a fast car needs a long way to stop. Next: expressions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A runner covers 400 m in 80 seconds. What is her average speed in m/s?",
+			"answer": "5",
+			"hint": "Divide the distance by the time.",
+			"explain": "400 ÷ 80 = 5 m/s."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A train travels at 120 km/h for 2 hours. How far does it go, in km?",
+			"answer": "240",
+			"hint": "Cover distance on the triangle: what is left?",
+			"explain": "Distance = speed × time: 120 × 2 = 240 km.",
+			"picture": {
+				"kind": "speed_triangle",
+				"cover": "distance"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which formula gives the time a journey takes?",
+			"choices": [
+				"time = distance ÷ speed",
+				"time = speed × distance",
+				"time = speed ÷ distance"
+			],
+			"answer": 0,
+			"hint": "Cover time on the triangle: what is left, and which is on top?",
+			"explain": "Covering time leaves distance over speed: time = distance ÷ speed."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each calculation to what it finds.",
+			"items": [
+				"distance ÷ time",
+				"speed × time",
+				"distance ÷ speed"
+			],
+			"matches": [
+				"distance",
+				"speed",
+				"time"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Picture the triangle: distance on top, speed and time below.",
+			"explain": "Distance ÷ time gives the speed; speed × time gives the distance; distance ÷ speed gives the time."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "On a distance-time graph, a flat line means the object has stopped.",
+			"answer": true,
+			"hint": "If the distance does not change while time passes, is it moving?",
+			"explain": "True: the distance stays the same, so it is not moving."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Write 2 hours 30 minutes in hours, as a decimal.",
+			"answer": "2.5",
+			"hint": "What fraction of an hour is 30 minutes?",
+			"explain": "30 minutes is half an hour, so 2 hours 30 minutes is 2.5 hours."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Change 54 km/h into m/s.",
+			"answer": "15",
+			"hint": "From km/h to m/s, divide by 3.6.",
+			"explain": "54 ÷ 3.6 = 15 m/s."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Change 20 m/s into km/h.",
+			"answer": "72",
+			"hint": "From m/s to km/h, multiply by 3.6.",
+			"explain": "20 × 3.6 = 72 km/h."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A bus travels 30 km in 45 minutes. What is its speed in km/h?",
+			"answer": "40",
+			"hint": "Change 45 minutes into hours first, then divide.",
+			"explain": "45 minutes = 0.75 hours, and 30 ÷ 0.75 = 40 km/h."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The graph shows Zara's walk. What was her speed on leg C, in km/h?",
+			"answer": "8",
+			"hint": "Read leg C's distance and time, then work out the distance in one hour.",
+			"explain": "Leg C: 4 km in 30 minutes, which is 8 km in 60 minutes: 8 km/h.",
+			"picture": {
+				"kind": "distance_time",
+				"points": [
+					[
+						0,
+						0
+					],
+					[
+						30,
+						3
+					],
+					[
+						40,
+						3
+					],
+					[
+						70,
+						7
+					]
+				],
+				"t_to": 70,
+				"t_step": 10,
+				"d_to": 8,
+				"d_step": 2,
+				"legs": true,
+				"mark": 2
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order these speeds from the slowest to the fastest.",
+			"items": [
+				"20 m/s",
+				"10 m/s",
+				"30 km/h",
+				"50 km/h"
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "Change every m/s into km/h first (× 3.6), then compare.",
+			"explain": "10 m/s = 36 km/h and 20 m/s = 72 km/h, so: 30 km/h, 10 m/s, 50 km/h, 20 m/s."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the speeds: faster or slower than 50 km/h?",
+			"groups": [
+				"faster than 50 km/h",
+				"slower than 50 km/h"
+			],
+			"items": [
+				"20 m/s",
+				"10 m/s",
+				"12 m/s",
+				"15 m/s",
+				"60 km/h",
+				"40 km/h"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Change each m/s into km/h by multiplying by 3.6.",
+			"explain": "Faster: 15 m/s (54 km/h), 60 km/h and 20 m/s (72 km/h). Slower: 12 m/s (43.2 km/h), 40 km/h and 10 m/s (36 km/h)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The graph shows Bram's bike ride. On which leg was he fastest?",
+			"choices": [
+				"leg C",
+				"leg A",
+				"leg D",
+				"leg B"
+			],
+			"answer": 0,
+			"hint": "The steepest part of the graph is the fastest.",
+			"explain": "Leg C rises 4 km in 10 minutes (24 km/h). Leg A is 12 km/h, leg D 6 km/h, and leg B is a stop.",
+			"picture": {
+				"kind": "distance_time",
+				"points": [
+					[
+						0,
+						0
+					],
+					[
+						20,
+						4
+					],
+					[
+						30,
+						4
+					],
+					[
+						40,
+						8
+					],
+					[
+						60,
+						10
+					]
+				],
+				"t_to": 60,
+				"t_step": 10,
+				"d_to": 10,
+				"d_step": 2,
+				"legs": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A family drives 150 km in 2 hours, stops for 30 minutes, then drives 60 km in 1 hour. What is the average speed for the whole trip, in km/h?",
+			"answer": "60",
+			"hint": "Add all the distances and all the times, the stop too, then divide.",
+			"explain": "210 km in 3.5 hours: 210 ÷ 3.5 = 60 km/h."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Thunder is heard 3 seconds after the lightning. Sound travels about 340 m/s. About how far away is the storm, in metres?",
+			"answer": "1020",
+			"hint": "Distance = speed × time.",
+			"explain": "340 × 3 = 1,020 m, about 1 km."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A car travels at 13 m/s. The driver takes 0.7 seconds to react. How far does the car go before braking starts, in metres?",
+			"answer": "9.1",
+			"hint": "Multiply the speed by the reaction time.",
+			"explain": "13 × 0.7 = 9.1 m: this is the thinking distance."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A car at 72 km/h is faster than a cheetah sprinting at 25 m/s.",
+			"answer": false,
+			"hint": "Change 72 km/h into m/s by dividing by 3.6, then compare.",
+			"explain": "False: 72 ÷ 3.6 = 20 m/s, which is slower than 25 m/s."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Light from the Sun takes about 500 seconds to reach the Earth, at about 300,000 km/s. About how far away is the Sun, in km?",
+			"answer": "150000000",
+			"hint": "Multiply the speed by the time, and count the zeros carefully.",
+			"explain": "300,000 × 500 = 150,000,000 km: about 150 million km."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mo rides 12 km out at 12 km/h and 12 km back at 24 km/h. What is his average speed, in km/h?",
+			"answer": "16",
+			"hint": "It is not halfway between the speeds: find each time first.",
+			"explain": "Out: 1 hour. Back: 0.5 hours. 24 km ÷ 1.5 hours = 16 km/h."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7k.speed_calc",
+			"level": 1
+		},
+		{
+			"gen": "g7k.speed_calc",
+			"level": 2
+		},
+		{
+			"gen": "g7k.speed_calc",
+			"level": 3
+		},
+		{
+			"gen": "g7k.speed_convert",
+			"level": 1
+		},
+		{
+			"gen": "g7k.speed_convert",
+			"level": 2
+		},
+		{
+			"gen": "g7k.speed_convert",
+			"level": 3
+		},
+		{
+			"gen": "g7k.dt_read",
+			"level": 1
+		},
+		{
+			"gen": "g7k.dt_read",
+			"level": 2
+		},
+		{
+			"gen": "g7k.dt_read",
+			"level": 3
+		},
+		{
+			"gen": "g7k.average_speed",
+			"level": 1
+		},
+		{
+			"gen": "g7k.average_speed",
+			"level": 2
+		},
+		{
+			"gen": "g7k.average_speed",
+			"level": 3
+		}
+	]
+}

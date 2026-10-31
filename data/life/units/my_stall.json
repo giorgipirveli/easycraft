@@ -1,0 +1,42 @@
+{
+	"id": "life.money.my_stall",
+	"lesson": [
+		{"text": "Quick memory: what is the difference between a need and a want? (A need you must have, like water; a want is nice to have.) Today: running a stall."},
+		{"text": "At a stall, people pay coins for what they buy. You count their coins, give them what they bought, and say thank you."},
+		{"text": "If they give you more than the price, you give change. The price and the change add up to what they gave.",
+			"picture": {"kind": "table", "rows": [["price", "they give", "change"], ["2", "5", "3"], ["2", "4", "2"], ["2", "2", "0"]]}},
+		{"text": "Keep some coins to make more bread, and put some in your saving jar for a goal, like a rocket."},
+		{"text": "The stall uses pretend coins, just for practice. Real money is something grown-ups help you with."},
+		{"text": "Try it in the world: open My Money Stall and sell your bread. Next: the bank and shopping, on the Middle track."}
+	],
+	"exercises": [
+		{"type": "number", "level": 1, "prompt": "A loaf is 2 coins. Pip-pop gives you 2 coins. How much change?", "answer": "0",
+			"hint": "She gave you the price exactly.", "explain": "2 - 2 = 0: no change."},
+		{"type": "choice", "level": 1, "prompt": "What do you say to a customer?", "answer": 0,
+			"choices": ["thank you", "go away", "nothing"], "hint": "Kind words bring customers back.",
+			"explain": "Thank you! Happy customers come back."},
+		{"type": "truefalse", "level": 1, "prompt": "Water is a need.", "answer": true, "hint": "Can you live without it?",
+			"explain": "True: everyone needs water to live."},
+		{"type": "choice", "level": 1, "prompt": "What is a saving jar for?", "answer": 0,
+			"choices": ["saving for a goal", "throwing coins away", "hiding toys"], "hint": "Little by little, it fills up.",
+			"explain": "A saving jar keeps coins for a goal, like a rocket."},
+		{"type": "number", "level": 2, "prompt": "A loaf is 2 coins. Mo gives you 5. How much change?", "answer": "3",
+			"hint": "Count on from 2 to 5.", "explain": "5 - 2 = 3 coins change."},
+		{"type": "number", "level": 2, "prompt": "A loaf is 2 coins. You sell 2 loaves. How many coins do you get?", "answer": "4",
+			"hint": "2 and 2 more.", "explain": "2 + 2 = 4 coins."},
+		{"type": "sort", "level": 2, "prompt": "Need or want?", "groups": ["need", "want"],
+			"items": ["water", "a toy robot", "food", "sweets"], "answer": [0, 1, 0, 1],
+			"hint": "Could you live without it?", "explain": "Water and food are needs. A toy and sweets are wants."},
+		{"type": "truefalse", "level": 2, "prompt": "The price and the change add up to what the customer gave.", "answer": true,
+			"hint": "Try it: 2 and 3.", "explain": "True: 2 + 3 = 5, what Mo gave."},
+		{"type": "number", "level": 3, "prompt": "You have 4 coins and save 2 in your jar. How many are left to spend?", "answer": "2",
+			"hint": "Take away what you saved.", "explain": "4 - 2 = 2 coins to spend."},
+		{"type": "number", "level": 3, "prompt": "Your goal is 10 coins. You have 6 in the jar. How many more do you need?",
+			"answer": "4", "hint": "Count on from 6 to 10.", "explain": "10 - 6 = 4 more coins."},
+		{"type": "choice", "level": 3, "prompt": "Someone says: give me 1 coin and I'll give you 100! What do you say?", "answer": 0,
+			"choices": ["no, thank you", "yes, please", "here are 2 coins"], "hint": "Does it sound too good to be true?",
+			"explain": "No, thank you: when it sounds too good to be true, it usually isn't true. Tell a grown-up."},
+		{"type": "truefalse", "level": 3, "prompt": "Saving a little every day helps you reach a goal.", "answer": true,
+			"hint": "Little by little.", "explain": "True: a little each day adds up."}
+	]
+}

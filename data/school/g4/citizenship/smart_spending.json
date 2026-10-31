@@ -1,0 +1,307 @@
+{
+	"id": "g4.citizenship.smart_spending",
+	"lesson": [
+		{
+			"text": "Quick memory: what is an opportunity cost? (What you give up when you choose.) This year, prices can have parts of a gold coin, like 2.50 gold. Today: how to spend wisely."
+		},
+		{
+			"text": "The same thing can cost different amounts in different places. Tilly sells a kite for 6.50 gold, and Bram's stall has the same kite for 5.75 gold. 6.50 − 5.75 = 0.75, so Bram's is 0.75 gold cheaper."
+		},
+		{
+			"text": "Bigger packs are not always cheaper. Find the price for one: 4 apples for 2 gold is 0.50 gold each; 6 apples for 2.40 gold is 0.40 gold each. The bag of 6 is better value, if you will eat them all.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"pack",
+						"price",
+						"for one"
+					],
+					[
+						"4 apples",
+						"2 gold",
+						"0.50 gold"
+					],
+					[
+						"6 apples",
+						"2.40 gold",
+						"0.40 gold"
+					]
+				]
+			}
+		},
+		{
+			"text": "Cheapest is not always best. A 3-gold rope that breaks in a day is worse value than an 8-gold rope that lasts all year. Think about how long it lasts and how often you will use it.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Rope",
+						"Price",
+						"Lasts"
+					],
+					[
+						"cheap rope",
+						"3 gold",
+						"a day"
+					],
+					[
+						"strong rope",
+						"8 gold",
+						"a year"
+					]
+				]
+			}
+		},
+		{
+			"text": "Before buying, weigh the costs and the benefits. Costs: the price, and what else the gold could buy. Benefits: what it does for you. Buy when the benefits are worth more to you than the costs."
+		},
+		{
+			"text": "Every gold coin can only be spent once. If Mimi spends 10 gold on a hat, she can't spend it on the 10-gold book she also wanted. The book is her opportunity cost."
+		},
+		{
+			"text": "Adverts and shiny things make us want to buy right now. A smart trick: wait a day. If you still want it tomorrow, and it fits your plan, it may be a good buy."
+		},
+		{
+			"text": "Try it in the world: at the shop, compare two stalls before you buy, and work out the price for one in any pack. Next: adverts and you."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The same kite costs 6 gold at one stall and 4 gold at another. Which is cheaper?",
+			"answer": 0,
+			"hint": "Which number is smaller?",
+			"choices": [
+				"the stall selling it for 4 gold",
+				"the stall selling it for 6 gold",
+				"they cost the same",
+				"neither"
+			],
+			"explain": "4 gold is less than 6 gold, so that stall is cheaper, by 2 gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The cheapest thing is always the best buy.",
+			"answer": false,
+			"hint": "Remember the rope that breaks in a day.",
+			"explain": "False: a cheap thing that breaks fast can be worse value than a dearer thing that lasts."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an opportunity cost?",
+			"answer": 0,
+			"hint": "Remember grade 3.",
+			"choices": [
+				"what you give up when you choose",
+				"the price on a label",
+				"a free gift",
+				"a kind of coin"
+			],
+			"explain": "It is the next-best thing you give up when you choose."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a smart trick before buying something you suddenly want?",
+			"answer": 0,
+			"hint": "Adverts want you to rush.",
+			"choices": [
+				"wait a day, and see if you still want it",
+				"buy it at once",
+				"buy two",
+				"borrow the gold"
+			],
+			"explain": "Wait a day: if you still want it and it fits your plan, it may be a good buy."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "4 apples cost 2 gold. How much is one apple, in gold?",
+			"answer": "0.50",
+			"hint": "Share the price equally between the apples.",
+			"explain": "2 ÷ 4 = 0.50 gold for one apple."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A kite costs 6.50 gold at Tilly's stall and 5.75 gold at Bram's. How much cheaper is Bram's, in gold?",
+			"answer": "0.75",
+			"hint": "Count on from 5.75 to 6.50.",
+			"explain": "6.50 − 5.75 = 0.75 gold cheaper."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: a cost or a benefit of buying a bike?",
+			"groups": [
+				"cost",
+				"benefit"
+			],
+			"items": [
+				"the price",
+				"getting to school faster",
+				"that gold can't buy other things",
+				"fun with friends",
+				"time spent fixing it",
+				"keeping fit"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Costs are what you give up; benefits are what you get.",
+			"explain": "Costs: the price, what else the gold could buy, and time fixing it. Benefits: speed, fun and fitness."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A rope costs 3 gold and lasts a day. Another costs 8 gold and lasts all year. You need a rope all year. Which is better value?",
+			"answer": 0,
+			"hint": "How many 3-gold ropes would you need in a whole year?",
+			"choices": [
+				"the 8-gold rope",
+				"the 3-gold rope",
+				"they are the same",
+				"neither"
+			],
+			"explain": "The 3-gold rope would need buying again and again; the 8-gold rope lasts all year, so it is better value."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Every gold coin can only be spent once.",
+			"answer": true,
+			"hint": "Can you spend the same coin on two things?",
+			"explain": "True: once spent, the coin is gone, so every choice gives something up."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "6 apples cost 2.40 gold and 4 apples cost 2 gold. Which is better value?",
+			"answer": 0,
+			"hint": "Work out the price for one in each pack.",
+			"choices": [
+				"6 for 2.40 gold",
+				"4 for 2 gold",
+				"the same value",
+				"you can't tell"
+			],
+			"explain": "2.40 ÷ 6 = 0.40 gold each, and 2 ÷ 4 = 0.50 gold each. The pack of 6 is better value, if you will eat them all."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The big pack is better value, but you need only 2 apples and the rest would go bad. What should you do?",
+			"answer": 0,
+			"hint": "Is it good value if you throw half away?",
+			"choices": [
+				"buy what you need",
+				"buy the big pack anyway",
+				"buy three big packs",
+				"never buy apples"
+			],
+			"explain": "Better value only counts if you use it all. Buy what you need, and nothing is wasted."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi has 10 gold and wants a hat (10 gold) and a book (10 gold). She buys the hat. What is her opportunity cost?",
+			"answer": 0,
+			"hint": "What did she give up?",
+			"choices": [
+				"the book",
+				"the hat",
+				"10 gold coins",
+				"nothing"
+			],
+			"explain": "The book: she chose the hat, so she gave up the book."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram has 10 gold. He buys a lantern for 4.25 gold. How much gold is left?",
+			"answer": "5.75",
+			"hint": "Count on from 4.25 to 10.",
+			"explain": "10 − 4.25 = 5.75 gold left."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara wants a glider now, but she is saving for a saddle. What would a smart spender do?",
+			"answer": 0,
+			"hint": "Remember costs, benefits and opportunity cost.",
+			"choices": [
+				"think what she gives up, then choose",
+				"buy the glider at once",
+				"borrow gold to buy both",
+				"forget about the saddle"
+			],
+			"explain": "If she buys the glider, the saddle is her opportunity cost. Thinking first helps her choose what matters more."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: a smart spending habit, or not?",
+			"groups": [
+				"smart",
+				"not smart"
+			],
+			"items": [
+				"comparing two stalls",
+				"buying because it is shiny",
+				"working out the price for one",
+				"a big pack you will waste",
+				"waiting a day before buying",
+				"spending all your gold at once"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Smart spenders compare, think and wait.",
+			"explain": "Smart: comparing stalls, finding the price for one and waiting a day. Not smart: buying on a whim, wasting a big pack and spending everything at once."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4h.best_value",
+			"level": 1
+		},
+		{
+			"gen": "g4h.best_value",
+			"level": 2
+		},
+		{
+			"gen": "g4h.best_value",
+			"level": 3
+		}
+	],
+	"play": {
+		"hook": "Two market stalls sell the same kite for different prices. Spend your gold wisely!",
+		"game": "generic",
+		"params": {
+			"maker": "coins",
+			"costume": "give"
+		},
+		"coach": [
+			"Compare prices before you buy.",
+			"Find the price for one to compare packs.",
+			"Cheapest is not always the best value.",
+			"Every gold coin can only be spent once.",
+			"Wait a day before buying something shiny."
+		],
+		"world_task": "At the shop, compare two stalls before you buy, and work out the price for one in any pack."
+	}
+}

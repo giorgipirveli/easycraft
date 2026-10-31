@@ -1,0 +1,28 @@
+{
+	"owner": "#115 (S3)",
+	"about": "The Market Square (docs/design/success-skills.md §2.2): the goods its buddy merchants sell (the Connections Book's people), their usual prices in pretend market coins, the seasons (seven market days each) and the market's days (the festival, many sellers) that move the prices, each with the reason in words and a picture: supply and demand with causes you can see. Nothing is random and nothing is paid: the same day always shows the same Price Board.",
+	"goods": {
+		"wheat": {"name": "wheat", "unit": "a bag", "base": 2, "icon": "wheat", "who": "ana"},
+		"flour": {"name": "flour", "unit": "a sack", "base": 4, "icon": "flour", "who": "tomas"},
+		"apples": {"name": "apples", "unit": "a bag", "base": 3, "icon": "apple", "who": "ana"},
+		"honey": {"name": "honey", "unit": "a jar", "base": 5, "icon": "honey", "who": "kenji"},
+		"cakes": {"name": "cakes", "unit": "a cake", "base": 4, "icon": "cake", "who": "amara"}
+	},
+	"days_per_season": 7,
+	"seasons": [
+		{"id": "spring", "name": "spring", "icon": "season_spring", "effects": {"honey": -1},
+			"why": "Spring: the bees are busy, and there is lots of honey to sell."},
+		{"id": "summer", "name": "a dry summer", "icon": "dry_field", "effects": {"wheat": 2, "flour": 1},
+			"why": "A dry summer: less wheat grew, so wheat and flour cost more."},
+		{"id": "autumn", "name": "autumn's harvest", "icon": "harvest", "effects": {"wheat": -1, "apples": -1},
+			"why": "Autumn's harvest: lots of wheat and apples to sell, so they cost less."},
+		{"id": "winter", "name": "winter", "icon": "snowflake", "effects": {"apples": 2, "honey": 1},
+			"why": "Winter: few apples are left and the bees rest, so apples and honey cost more."}
+	],
+	"events": [
+		{"id": "festival", "every": 14, "at": 6, "icon": "festival", "effects": {"cakes": 2},
+			"why": "The festival! Everyone wants cakes today, so cakes cost more."},
+		{"id": "many_sellers", "every": 7, "at": 3, "icon": "many_stalls", "effects": {"apples": -1},
+			"why": "Many apple sellers came today: lots to choose from, so apples cost less."}
+	]
+}

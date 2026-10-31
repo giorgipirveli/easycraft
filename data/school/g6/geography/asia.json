@@ -1,0 +1,437 @@
+{
+	"id": "g6.geography.asia",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met time zones. Is Tokyo ahead of London or behind it? (Ahead: 9 hours in January.) Today: Asia, the biggest continent of all."
+		},
+		{
+			"text": "Asia is the largest continent, almost a third of all the land. About 6 in every 10 of the world's people live there. It reaches from the Arctic to south of the Equator.",
+			"picture": {
+				"kind": "latlong",
+				"points": [
+					{
+						"lat": 40,
+						"long": 116,
+						"label": "Beijing"
+					},
+					{
+						"lat": 29,
+						"long": 77,
+						"label": "Delhi"
+					},
+					{
+						"lat": 14,
+						"long": 101,
+						"label": "Bangkok"
+					},
+					{
+						"lat": -6,
+						"long": 107,
+						"label": "Jakarta"
+					}
+				]
+			}
+		},
+		{
+			"text": "The Himalayas hold the world's highest mountains. Everest, 8,849 m, stands between Nepal and China. North of them lies the high, dry Tibetan Plateau, then the Gobi Desert and the cold forests of Siberia."
+		},
+		{
+			"text": "Great rivers begin in these mountains: the Yangtze, about 6,300 km, the longest in Asia; the Yellow River, the Ganges, the Indus and the Mekong. Their valleys and deltas have rich soil, so they are crowded with farms and cities.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"Yangtze",
+						6300
+					],
+					[
+						"Yellow",
+						5500
+					],
+					[
+						"Ganges",
+						2500
+					]
+				],
+				"step": 1000,
+				"top": 7000,
+				"name": "Length (km), about"
+			}
+		},
+		{
+			"text": "The monsoon: in summer the land heats up and warm, wet winds blow in from the ocean, bringing heavy rain from June to September. In winter dry winds blow from the land. Rice farmers depend on the monsoon rain.",
+			"picture": {
+				"kind": "climograph",
+				"name": "Mumbai",
+				"temp": [
+					24,
+					25,
+					27,
+					29,
+					30,
+					29,
+					28,
+					27,
+					28,
+					29,
+					28,
+					26
+				],
+				"rain": [
+					1,
+					0,
+					0,
+					1,
+					12,
+					520,
+					840,
+					580,
+					330,
+					90,
+					15,
+					2
+				],
+				"t_top": 40,
+				"t_step": 10,
+				"r_top": 1000,
+				"r_step": 250
+			}
+		},
+		{
+			"text": "Asia has many megacities, among them Tokyo, Delhi, Shanghai, Dhaka and Jakarta. China and India each have about 1.4 billion people, more than any other country."
+		},
+		{
+			"text": "China: the Three Gorges Dam on the Yangtze is the world's biggest power station, and factories make goods sold everywhere. India: many languages, farms on the plains of the Ganges, and cities such as Mumbai and Bengaluru."
+		},
+		{
+			"text": "Try it in the world: build a hillside of rice terraces that hold water, and a mountain taller than any other on your map. Next: maps with layers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the largest continent?",
+			"answer": 0,
+			"hint": "About 6 in 10 of the world's people live there.",
+			"choices": [
+				"Asia",
+				"Africa",
+				"Europe",
+				"Antarctica"
+			],
+			"explain": "Asia, almost a third of all the land."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the world's highest mountain?",
+			"answer": 0,
+			"hint": "It is in the Himalayas.",
+			"choices": [
+				"Everest",
+				"Kilimanjaro",
+				"Mont Blanc",
+				"Aconcagua"
+			],
+			"explain": "Everest, 8,849 m."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "About 6 in every 10 of the world's people live in Asia.",
+			"answer": true,
+			"hint": "Think of China and India.",
+			"explain": "True: about 6 in 10 people live in Asia."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does the summer monsoon bring to India?",
+			"answer": 0,
+			"hint": "The winds blow in from the ocean.",
+			"choices": [
+				"heavy rain",
+				"snow",
+				"dry sand",
+				"icebergs"
+			],
+			"explain": "Heavy rain, from June to September."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which two countries each have about 1.4 billion people?",
+			"answer": 0,
+			"hint": "They are the two biggest countries by people.",
+			"choices": [
+				"China and India",
+				"Japan and Mongolia",
+				"Thailand and Nepal",
+				"Vietnam and Laos"
+			],
+			"explain": "China and India: together they hold more than a third of all the people on Earth."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which of these places is south of the Equator?",
+			"answer": 0,
+			"hint": "Look for an S latitude.",
+			"choices": [
+				"Jakarta",
+				"Beijing",
+				"Bangkok",
+				"Delhi"
+			],
+			"explain": "Jakarta, at about 6°S.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 15,
+				"long_step": 30,
+				"points": [
+					{
+						"lat": 40,
+						"long": 116,
+						"label": "Beijing"
+					},
+					{
+						"lat": 29,
+						"long": 77,
+						"label": "Delhi"
+					},
+					{
+						"lat": 14,
+						"long": 101,
+						"label": "Bangkok"
+					},
+					{
+						"lat": -6,
+						"long": 107,
+						"label": "Jakarta"
+					}
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each name to what it is.",
+			"items": [
+				"Himalayas",
+				"Yangtze",
+				"Gobi",
+				"monsoon"
+			],
+			"matches": [
+				"seasonal winds and rain",
+				"the highest mountains",
+				"Asia's longest river",
+				"a cold, dry desert"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "One is a river, one a desert, one mountains, one weather.",
+			"explain": "Himalayas: highest mountains. Yangtze: longest river. Gobi: a cold desert. Monsoon: seasonal winds and rain."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Everest is 8,849 m high and Kilimanjaro is 5,895 m. How much higher is Everest?",
+			"answer": "2954",
+			"hint": "Take the smaller height from the bigger one.",
+			"explain": "8,849 − 5,895 = 2,954 m."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do wet winds blow onto India in summer?",
+			"answer": 0,
+			"hint": "Warm air rises over hot land, and air from the sea moves in.",
+			"choices": [
+				"the land heats up more than the sea",
+				"the sea is hotter than the land",
+				"the mountains blow them",
+				"the Moon pulls them"
+			],
+			"explain": "In summer the land gets hotter than the sea, so moist sea air is drawn inland and brings rain."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The Yangtze is Asia's longest river.",
+			"answer": true,
+			"hint": "Look back at the rivers card.",
+			"explain": "True: about 6,300 km long."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Look at this graph. Which climate does it show?",
+			"answer": 0,
+			"hint": "Very dry for months, then very wet: what does that?",
+			"choices": [
+				"monsoon",
+				"hot desert",
+				"temperate",
+				"cold continental"
+			],
+			"explain": "Hot all year, dry for months, then heavy rain from June to September: a monsoon climate.",
+			"picture": {
+				"kind": "climograph",
+				"name": "Mumbai",
+				"temp": [
+					24,
+					25,
+					27,
+					29,
+					30,
+					29,
+					28,
+					27,
+					28,
+					29,
+					28,
+					26
+				],
+				"rain": [
+					1,
+					0,
+					0,
+					1,
+					12,
+					520,
+					840,
+					580,
+					330,
+					90,
+					15,
+					2
+				],
+				"t_top": 40,
+				"t_step": 10,
+				"r_top": 1000,
+				"r_step": 250
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Delhi is at 29°N and Jakarta at 6°S. How many degrees of latitude apart are they?",
+			"answer": "35",
+			"hint": "They are on opposite sides of the Equator: add.",
+			"explain": "29 + 6 = 35°."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are Asia's river valleys and deltas so crowded?",
+			"answer": 0,
+			"hint": "Think of what farmers need.",
+			"choices": [
+				"rich soil and water for farming",
+				"they are cold",
+				"they are high up",
+				"they have no rain"
+			],
+			"explain": "Rivers bring water and leave rich soil, so farms and cities grew there."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: China or India?",
+			"groups": [
+				"China",
+				"India"
+			],
+			"items": [
+				"the Yangtze",
+				"the Ganges",
+				"the Three Gorges Dam",
+				"Mumbai",
+				"Shanghai"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "The Yangtze flows through China; the Ganges through India.",
+			"explain": "China: the Yangtze, the Three Gorges Dam, Shanghai. India: the Ganges, Mumbai."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What might happen to rice farmers if the monsoon rain came late?",
+			"answer": 0,
+			"hint": "Rice needs a lot of water at the right time.",
+			"choices": [
+				"their crops could fail",
+				"they would get snow",
+				"their rice would grow faster",
+				"nothing at all"
+			],
+			"explain": "Without the rain, rice fields dry out and crops can fail."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort Asia's features: a river, mountains, or a desert?",
+			"groups": [
+				"river",
+				"mountains",
+				"desert"
+			],
+			"items": [
+				"the Yangtze",
+				"the Himalayas",
+				"the Gobi",
+				"the Ganges",
+				"Everest",
+				"the Mekong"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				0
+			],
+			"hint": "Many of Asia's great rivers begin in its highest mountains.",
+			"explain": "Rivers: the Yangtze, the Ganges and the Mekong. Mountains: the Himalayas and Everest, the highest of all. Desert: the cold, dry Gobi."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.asia_places",
+			"level": 1
+		},
+		{
+			"gen": "g6h.asia_places",
+			"level": 2
+		},
+		{
+			"gen": "g6h.asia_places",
+			"level": 3
+		},
+		{
+			"gen": "g6h.climate_read",
+			"level": 1
+		},
+		{
+			"gen": "g6h.climate_read",
+			"level": 2
+		},
+		{
+			"gen": "g6h.climate_read",
+			"level": 3
+		}
+	]
+}

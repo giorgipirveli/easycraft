@@ -1,0 +1,303 @@
+{
+	"id": "g5.health_pe.sleep_screens",
+	"lesson": [
+		{
+			"text": "Quick memory: how many hours of sleep do children your age need each night? (About 9 to 12 hours.) Today: why screens and sleep do not mix, and how to plan a good night."
+		},
+		{
+			"text": "Your body clock runs on a cycle of about 24 hours. Daylight tells it that it is day. As it gets dark, your brain makes melatonin, a hormone that makes you feel sleepy."
+		},
+		{
+			"text": "Screens give off bright light, especially blue light, which can trick your brain into thinking it is still day. Less melatonin is made, so sleep comes later."
+		},
+		{
+			"text": "Games, videos and messages also keep your brain busy and excited, and alerts can wake you. So screens go off at least an hour before bedtime, and phones and tablets stay out of the bedroom at night."
+		},
+		{
+			"text": "Sleep comes in cycles, again and again through the night: light sleep, deep sleep, when the body grows and repairs itself, and dreaming sleep, when the brain sorts out memories.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"kind of sleep",
+						"what happens"
+					],
+					[
+						"light",
+						"you drift off"
+					],
+					[
+						"deep",
+						"the body repairs"
+					],
+					[
+						"dreaming",
+						"memories sorted"
+					]
+				]
+			}
+		},
+		{
+			"text": "Work out your bedtime: count back from when you wake. The clock says 7:00 am. To sleep for 10 hours, you need to be asleep by 9:00 pm.",
+			"picture": {
+				"kind": "digital_clock",
+				"h": 7,
+				"m": 0,
+				"twelve": true
+			}
+		},
+		{
+			"text": "Help your body clock: go to bed and get up at the same times every day, even at weekends; get daylight in the morning; and avoid drinks with caffeine, like fizzy drinks, tea and coffee, later in the day."
+		},
+		{
+			"text": "Try it in the world: build a bedroom with dark curtains, and a charging shelf outside its door. For real: plan your screens-off time and your bedtime with a grown-up, and keep a sleep diary for a week."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many hours of sleep do children aged 6 to 12 need each night?",
+			"answer": 0,
+			"hint": "It is more than grown-ups need.",
+			"choices": [
+				"9 to 12 hours",
+				"5 to 6 hours",
+				"14 to 16 hours",
+				"7 hours"
+			],
+			"explain": "9 to 12 hours, so the body can grow and repair, and the brain can sort out the day's learning."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The light from screens can make it harder to fall asleep.",
+			"answer": true,
+			"hint": "What does bright light tell your brain?",
+			"explain": "True: screen light can trick the brain into thinking it is still day, so less melatonin is made."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "When should screens go off?",
+			"answer": 0,
+			"hint": "The brain needs time to calm down and make melatonin.",
+			"choices": [
+				"at least an hour before bedtime",
+				"just as you close your eyes",
+				"after you fall asleep",
+				"never"
+			],
+			"explain": "At least an hour before bedtime, to give your brain time to wind down."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Melatonin is a hormone that helps you feel sleepy.",
+			"answer": true,
+			"hint": "When does the brain make it: as it gets dark, or light?",
+			"explain": "True: the brain makes melatonin as it gets dark, and it makes you sleepy."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why should phones stay out of the bedroom at night?",
+			"answer": 0,
+			"hint": "What might a phone do in the middle of the night?",
+			"choices": [
+				"alerts and light can wake you",
+				"they get cold",
+				"they need to sleep too",
+				"they work better in the dark"
+			],
+			"explain": "Alerts, messages and light can wake you and keep your brain busy."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a good bedtime routine in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Screens go off first, an hour before sleep.",
+			"items": [
+				"a bath or a wash",
+				"read a calm book in bed",
+				"screens off",
+				"brush your teeth",
+				"lights out"
+			],
+			"explain": "Screens off, a bath or a wash, brush your teeth, a calm book in bed, then lights out."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Helps sleep or harms sleep?",
+			"groups": [
+				"helps sleep",
+				"harms sleep"
+			],
+			"items": [
+				"the same bedtime every night",
+				"a game in bed",
+				"daylight in the morning",
+				"a fizzy drink with caffeine at night",
+				"a dark, quiet room",
+				"messages late at night"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it calm the brain and help the body clock, or keep the brain busy?",
+			"explain": "Helps: the same bedtime, morning daylight, a dark, quiet room. Harms: games in bed, caffeine, late messages."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Zara falls asleep at 9:00 pm and wakes at the time on the clock. How many hours of sleep is that?",
+			"answer": "10",
+			"hint": "Count to midnight, then on to the morning.",
+			"explain": "9:00 pm to midnight is 3 hours, then 7 more to 7:00 am: 3 + 7 = 10 hours.",
+			"picture": {
+				"kind": "digital_clock",
+				"h": 7,
+				"m": 0,
+				"twelve": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Your body clock runs on a cycle of about 24 hours.",
+			"answer": true,
+			"hint": "How long is a day and a night?",
+			"explain": "True: about 24 hours, the length of one day and night."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What happens in deep sleep?",
+			"answer": 0,
+			"hint": "Which kind of sleep helps you grow?",
+			"choices": [
+				"the body grows and repairs itself",
+				"you dream the most",
+				"you are almost awake",
+				"the heart stops"
+			],
+			"explain": "In deep sleep, the body grows and repairs itself. Most dreams happen in dreaming sleep."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly must wake at the time on the clock and needs 10 hours of sleep. When should she be asleep?",
+			"answer": 0,
+			"hint": "Count back from the wake-up time: first to midnight.",
+			"choices": [
+				"8:30 pm",
+				"9:30 pm",
+				"7:30 pm",
+				"10:30 pm"
+			],
+			"explain": "6:30 am back to midnight is 6 hours and 30 minutes; 3 hours and 30 minutes more takes you back to 8:30 pm.",
+			"picture": {
+				"kind": "digital_clock",
+				"h": 6,
+				"m": 30,
+				"twelve": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi wants to be asleep by 9:00 pm. When should her screens go off?",
+			"answer": 0,
+			"hint": "How long before sleep should screens go off?",
+			"choices": [
+				"by 8:00 pm",
+				"at 9:00 pm",
+				"at 8:55 pm",
+				"at 10:00 pm"
+			],
+			"explain": "An hour before: by 8:00 pm."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Sleeping in late at weekends helps keep your body clock steady.",
+			"answer": false,
+			"hint": "What keeps a clock steady: the same times, or changing times?",
+			"explain": "False: going to bed and getting up at the same times every day keeps the body clock steady."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does an exciting game just before bed make sleep harder?",
+			"answer": 0,
+			"hint": "Think of two things: the busy brain, and the screen's light.",
+			"choices": [
+				"it excites the brain and delays melatonin",
+				"it makes you too tired",
+				"games are always loud",
+				"it uses up the battery"
+			],
+			"explain": "The game keeps the brain busy, and the screen's light delays melatonin, so sleep comes later."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram sleeps 10 hours every night. How many hours is that in a week?",
+			"answer": "70",
+			"hint": "A week has 7 nights.",
+			"explain": "10 × 7 = 70 hours of sleep."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each sleep word to its meaning.",
+			"items": [
+				"body clock",
+				"melatonin",
+				"deep sleep",
+				"dreaming sleep"
+			],
+			"matches": [
+				"makes you feel sleepy",
+				"the body repairs itself",
+				"the brain sorts memories",
+				"keeps a 24-hour rhythm"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Use the lesson's cards.",
+			"explain": "Body clock: a 24-hour rhythm. Melatonin: sleepy. Deep sleep: repair. Dreaming sleep: sorting memories."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.bedtime",
+			"level": 1
+		},
+		{
+			"gen": "g5w.bedtime",
+			"level": 2
+		},
+		{
+			"gen": "g5w.bedtime",
+			"level": 3
+		}
+	]
+}

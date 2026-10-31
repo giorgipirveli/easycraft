@@ -1,0 +1,412 @@
+{
+	"id": "g5.health_pe.net_wall_games",
+	"lesson": [
+		{
+			"text": "Quick memory: in rounders, where should you aim your hit? (At the spaces between the fielders.) Net games work the same way: send the ball where the other player is not."
+		},
+		{
+			"text": "In net games, players hit a ball or a shuttlecock over a net into the other side's court: tennis, badminton, table tennis and volleyball. In wall games, like squash, players take turns to hit a ball against a wall.",
+			"picture": {
+				"kind": "net_court",
+				"sport": "badminton",
+				"players": [
+					[
+						3,
+						3,
+						"a"
+					],
+					[
+						9,
+						3,
+						"d"
+					]
+				]
+			}
+		},
+		{
+			"text": "Every point starts with a serve. In tennis you serve overarm from behind the baseline. In badminton you serve underarm, hitting the shuttle low, diagonally across the net into the other service court."
+		},
+		{
+			"text": "A rally is the ball going back and forth. Be ready: feet apart, knees bent, on your toes, racket up in front. After every shot, move back to your base, the middle of your court, so you can reach the next one."
+		},
+		{
+			"text": "Place the ball where the other player is not: deep to the back, short just over the net, or wide to the sides. Here the red player is close to the net, so a deep shot to C or D is hardest to reach.",
+			"picture": {
+				"kind": "net_court",
+				"sport": "badminton",
+				"players": [
+					[
+						3,
+						3,
+						"a"
+					],
+					[
+						7.6,
+						3,
+						"d"
+					]
+				],
+				"spots": [
+					[
+						7.0,
+						0.9,
+						"A"
+					],
+					[
+						7.0,
+						5.1,
+						"B"
+					],
+					[
+						11.2,
+						0.9,
+						"C"
+					],
+					[
+						11.2,
+						5.1,
+						"D"
+					]
+				]
+			}
+		},
+		{
+			"text": "For a right-hander, a forehand is hit on the right side of the body, the palm facing the net; a backhand on the left side, the back of the hand facing the net. Turn side-on and swing through the ball."
+		},
+		{
+			"text": "Tennis points go love (0), 15, 30, 40, then game. At 40-all it is deuce: you need two points in a row to win. A badminton game is 21 points, a volleyball set 25 and a table tennis game 11."
+		},
+		{
+			"text": "Try it in the world: build a badminton court with a net of wool blocks and white lines. For real: rally with a friend over a rope or a bench, and count your longest rally."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What starts every point in tennis and badminton?",
+			"answer": 0,
+			"hint": "What does the first player do to get the ball or shuttle over the net?",
+			"choices": [
+				"a serve",
+				"a rally",
+				"a smash",
+				"a time-out"
+			],
+			"explain": "A serve starts every point. Then the rally goes back and forth until someone misses."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In badminton, you hit a shuttlecock over a net.",
+			"answer": true,
+			"hint": "Think of the feathered thing badminton players hit.",
+			"explain": "True: badminton is played with a shuttlecock, hit with a racket over a high net."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a wall game?",
+			"answer": 0,
+			"hint": "In which game do players hit the ball against a wall, not over a net?",
+			"choices": [
+				"squash",
+				"tennis",
+				"badminton",
+				"volleyball"
+			],
+			"explain": "Squash: players take turns to hit the ball against the front wall. The others are net games."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each game to what you hit.",
+			"items": [
+				"tennis",
+				"badminton",
+				"volleyball",
+				"table tennis"
+			],
+			"matches": [
+				"a shuttlecock, with a racket",
+				"a ball, with your hands",
+				"a small ball, with a bat",
+				"a ball, with a racket"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Picture each game being played.",
+			"explain": "Tennis: a ball and a racket. Badminton: a shuttlecock. Volleyball: a ball, hit with the hands and arms. Table tennis: a small, light ball and a bat."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "After each shot, you should stay where you hit the ball from.",
+			"answer": false,
+			"hint": "Where will you be able to reach the next shot from, wherever it goes?",
+			"explain": "False: move back to your base, the middle of your court, so you can reach the next shot."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The red player is standing close to the net. Where should you aim?",
+			"answer": 0,
+			"hint": "Which part of the court is far from where the red player stands?",
+			"choices": [
+				"deep, near the back of the court",
+				"short, just over the net",
+				"straight at the red player",
+				"out over the side line"
+			],
+			"explain": "Deep, near the back: the red player would have to run all the way back to reach it.",
+			"picture": {
+				"kind": "net_court",
+				"sport": "badminton",
+				"players": [
+					[
+						3,
+						3,
+						"a"
+					],
+					[
+						7.4,
+						3,
+						"d"
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a badminton serve in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Get into place before you swing.",
+			"items": [
+				"hit it diagonally over the net",
+				"swing the racket underarm",
+				"hold the shuttle out in front, low",
+				"stand in your service court"
+			],
+			"explain": "Stand in your service court, hold the shuttle low in front, swing underarm and send it diagonally over the net."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Tennis or badminton?",
+			"groups": [
+				"tennis",
+				"badminton"
+			],
+			"items": [
+				"love, 15, 30, 40",
+				"a shuttlecock",
+				"serve overarm",
+				"serve underarm, low",
+				"the ball may bounce once",
+				"a game is 21 points"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which game has a ball that bounces, and which has a shuttle?",
+			"explain": "Tennis: love, 15, 30, 40, an overarm serve, one bounce. Badminton: a shuttlecock, a low underarm serve, games to 21."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the ready position?",
+			"answer": 0,
+			"hint": "How would you stand to move quickly in any direction?",
+			"choices": [
+				"feet apart, knees bent, on your toes",
+				"feet together, standing straight",
+				"sitting down on the court",
+				"arms folded, looking away"
+			],
+			"explain": "Feet apart, knees bent and on your toes, with the racket up in front: ready to move any way."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In tennis, 40-all is called deuce.",
+			"answer": true,
+			"hint": "What is special about the score 40-40?",
+			"explain": "True: 40-all is deuce. Then a player must win two points in a row to win the game."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A player is right-handed. On which side of the body is a backhand hit?",
+			"answer": 0,
+			"hint": "A forehand is on the same side as the racket hand.",
+			"choices": [
+				"the left side",
+				"the right side",
+				"above the head",
+				"behind the back"
+			],
+			"explain": "The left side: the racket crosses the body, and the back of the hand faces the net."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In tennis, the score is 30-15. The server wins the next point. What is the server's score now?",
+			"answer": "40",
+			"hint": "Tennis scores go love, 15, 30, and then one more step.",
+			"explain": "After 30 comes 40, so the score is 40-15."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The red player is at the back of the court. Where is the best place to hit?",
+			"answer": 0,
+			"hint": "Find the space the red player is farthest from.",
+			"choices": [
+				"short, just over the net",
+				"deep, to the back",
+				"straight at the red player",
+				"high and slow to the back"
+			],
+			"explain": "Short, just over the net: the red player would have to run all the way forward.",
+			"picture": {
+				"kind": "net_court",
+				"sport": "badminton",
+				"players": [
+					[
+						3,
+						3,
+						"a"
+					],
+					[
+						11,
+						3,
+						"d"
+					]
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each shot to how it travels.",
+			"items": [
+				"drop shot",
+				"lob",
+				"smash",
+				"drive"
+			],
+			"matches": [
+				"high, to the back of the court",
+				"down, fast and steep",
+				"flat and fast",
+				"softly, just over the net"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "The name of each shot is a clue to its path.",
+			"explain": "A drop shot falls just over the net, a lob goes high to the back, a smash goes down fast and steep, and a drive goes flat and fast."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In volleyball, a team may touch the ball up to 3 times before sending it back over the net.",
+			"answer": true,
+			"hint": "Think of the bump, the set and the spike.",
+			"explain": "True: up to 3 touches, like a dig, a set and a spike, and no player may touch it twice in a row."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How many points win a game of badminton?",
+			"answer": 0,
+			"hint": "It is more than table tennis's 11 and less than volleyball's 25.",
+			"choices": [
+				"21",
+				"11",
+				"15",
+				"40"
+			],
+			"explain": "21 points, and you must be 2 ahead: at 20-all you play on, up to 30 at most."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do players move back to their base after each shot?",
+			"answer": 0,
+			"hint": "Where is the middle of your court?",
+			"choices": [
+				"to reach the next shot, wherever it goes",
+				"to have a rest",
+				"to talk to the umpire",
+				"to swap sides"
+			],
+			"explain": "From the middle, the base, every part of the court is close, so you can reach the next shot."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "The server wins every point of a tennis game. Put the scores in order.",
+			"items": [
+				"40-love",
+				"15-love",
+				"game",
+				"30-love",
+				"love-all"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Tennis counts love (0), 15, 30, 40, then game.",
+			"explain": "It starts at love-all. Each point won moves the server on: 15-love, 30-love, 40-love, and the next point wins the game."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.court_target",
+			"level": 1
+		},
+		{
+			"gen": "g5w.court_target",
+			"level": 2
+		},
+		{
+			"gen": "g5w.court_target",
+			"level": 3
+		},
+		{
+			"gen": "g5w.tennis_score",
+			"level": 1
+		},
+		{
+			"gen": "g5w.tennis_score",
+			"level": 2
+		},
+		{
+			"gen": "g5w.tennis_score",
+			"level": 3
+		}
+	]
+}

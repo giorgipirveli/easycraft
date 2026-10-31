@@ -1,0 +1,397 @@
+{
+	"id": "g4.health_pe.striking_fielding",
+	"lesson": [
+		{
+			"text": "Quick memory: when you throw overarm, which foot steps forward? (The one opposite your throwing hand.) Today: games where one team bats and the other team fields."
+		},
+		{
+			"text": "In striking and fielding games, the batting team hits the ball and runs to score. The fielding team stops the ball and tries to get the batters out. Rounders, cricket and softball are all striking and fielding games.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Team",
+						"Its job"
+					],
+					[
+						"batting",
+						"hit and run to score"
+					],
+					[
+						"fielding",
+						"get batters out"
+					]
+				]
+			}
+		},
+		{
+			"text": "Rounders: the batter hits from the batting square, then runs round 4 posts, numbered 1 to 4 anticlockwise. Hit the ball and reach 4th post in one go, and you score a rounder.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 10,
+				"rows": 8,
+				"players": [
+					[
+						5,
+						7.25,
+						"a"
+					],
+					[
+						5,
+						3.84,
+						"d"
+					],
+					[
+						7.5,
+						4.6,
+						"d"
+					],
+					[
+						7.1,
+						2.1,
+						"d"
+					],
+					[
+						2.9,
+						2.1,
+						"d"
+					],
+					[
+						2.5,
+						4.6,
+						"d"
+					],
+					[
+						6.1,
+						7.6,
+						"d"
+					]
+				],
+				"layout": "rounders"
+			}
+		},
+		{
+			"text": "Batting: stand side-on, with your eyes on the ball and your bat ready. Swing level through the ball and follow through. Aim for the spaces between the fielders, not straight at them."
+		},
+		{
+			"text": "Fielding: spread out to cover the spaces. To stop a ball rolling fast along the ground, make a long barrier: turn side-on and kneel on one knee, so your leg and body block its way."
+		},
+		{
+			"text": "Catching: watch the ball all the way in. For a high ball, point your fingers up; for a low ball, point them down with your little fingers together. Then give with the ball, pulling it in."
+		},
+		{
+			"text": "Throw the ball to the post the runner is heading for, not where they came from. A low, flat throw is fastest. In cricket, fielders throw to the wicket: 3 stumps with 2 bails on top."
+		},
+		{
+			"text": "Try it in the world: build a rounders pitch with a batting square, a bowling square and 4 posts, anticlockwise. Then play a real game with friends, and aim your hits into the spaces!"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a striking and fielding game, what does the fielding team try to do?",
+			"answer": 0,
+			"hint": "Which team has the bat, and which team has to stop the ball?",
+			"choices": [
+				"get the batters out",
+				"score runs",
+				"kick a goal",
+				"bounce the ball to each other"
+			],
+			"explain": "The fielding team stops the ball and tries to get the batters out. The batting team scores."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In rounders, the batter runs round the posts anticlockwise, from 1st post to 4th post.",
+			"answer": true,
+			"hint": "Look at the numbers on the posts in the lesson's picture.",
+			"explain": "True: the posts are numbered 1 to 4 anticlockwise, and batters run them in order.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 10,
+				"rows": 8,
+				"players": [
+					[
+						5,
+						7.25,
+						"a"
+					],
+					[
+						5,
+						3.84,
+						"d"
+					],
+					[
+						7.5,
+						4.6,
+						"d"
+					],
+					[
+						7.1,
+						2.1,
+						"d"
+					],
+					[
+						2.9,
+						2.1,
+						"d"
+					],
+					[
+						2.5,
+						4.6,
+						"d"
+					],
+					[
+						6.1,
+						7.6,
+						"d"
+					]
+				],
+				"layout": "rounders"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where should you aim when you bat?",
+			"answer": 0,
+			"hint": "Where is the ball hardest for the fielders to reach?",
+			"choices": [
+				"at the spaces between fielders",
+				"straight at a fielder",
+				"back to the bowler",
+				"straight up in the air"
+			],
+			"explain": "Aim for the spaces: a fielder standing there cannot stop the ball quickly."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When you bat, you should face the bowler with your feet together.",
+			"answer": false,
+			"hint": "Think of how you stood side-on to throw.",
+			"explain": "False: stand side-on, so you can swing the bat level through the ball and follow through."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A ball rolls fast along the ground towards you. How do you stop it safely?",
+			"answer": 0,
+			"hint": "What can you put behind your hands, in case the ball gets past them?",
+			"choices": [
+				"make a long barrier",
+				"stand with your legs wide apart",
+				"jump over it",
+				"stop it with one foot"
+			],
+			"explain": "Make a long barrier: turn side-on and kneel on one knee, so your leg and body stop the ball if your hands miss."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a rounders turn in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Nothing can happen until the ball is bowled.",
+			"items": [
+				"the batter hits the ball",
+				"the batter runs round the other posts",
+				"the bowler bowls",
+				"the batter runs to 1st post",
+				"the batter reaches 4th post"
+			],
+			"explain": "Bowl, hit, run to 1st post, keep going round, and reach 4th post: a rounder!"
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each player to their job.",
+			"items": [
+				"batter",
+				"bowler",
+				"fielder",
+				"backstop"
+			],
+			"matches": [
+				"bowls the ball to the batter",
+				"stops and catches the ball",
+				"fields behind the batter",
+				"hits the ball"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of where each player stands on the pitch.",
+			"explain": "The batter hits, the bowler bowls, fielders stop and catch, and the backstop fields behind the batter."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "To catch a ball above your chest, point your fingers up.",
+			"answer": true,
+			"hint": "Picture a high ball coming to your face.",
+			"explain": "True: fingers up for a high ball, fingers down with little fingers together for a low one."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A batter is running to 3rd post. Where should you throw the ball?",
+			"answer": 0,
+			"hint": "Throw to where the runner is going, not where they have been.",
+			"choices": [
+				"to the fielder at 3rd post",
+				"to the bowler",
+				"to 1st post",
+				"to the batting square"
+			],
+			"explain": "To 3rd post, so the fielder there can stump the post before the batter arrives."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In cricket, a hit over the boundary without bouncing scores 6 runs. A team hits 3 of them. How many runs is that?",
+			"answer": "18",
+			"hint": "Each one is worth 6 runs: multiply.",
+			"explain": "3 × 6 = 18 runs."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Look at the fielders. Where should the batter aim to hit the ball?",
+			"answer": 0,
+			"hint": "Find the part of the field with no red fielders in it.",
+			"choices": [
+				"into the space on the right",
+				"to the fielders on the left",
+				"straight to the bowler",
+				"behind, to the backstop"
+			],
+			"explain": "The fielders are all on the left, so the space on the right is empty: a hit there is hardest to stop.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 10,
+				"rows": 8,
+				"players": [
+					[
+						5,
+						7.25,
+						"a"
+					],
+					[
+						5,
+						3.84,
+						"d"
+					],
+					[
+						2.9,
+						2.1,
+						"d"
+					],
+					[
+						2.5,
+						4.6,
+						"d"
+					],
+					[
+						3.6,
+						3.2,
+						"d"
+					],
+					[
+						3.7,
+						6.0,
+						"d"
+					],
+					[
+						6.1,
+						7.6,
+						"d"
+					]
+				],
+				"layout": "rounders"
+			}
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Batting skill or fielding skill?",
+			"groups": [
+				"batting",
+				"fielding"
+			],
+			"items": [
+				"swing level and follow through",
+				"make a long barrier",
+				"stand side-on in the square",
+				"back up a teammate",
+				"aim for the spaces",
+				"throw to the next post"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which team does each one: the team with the bat, or the team stopping the ball?",
+			"explain": "Batting: swing level, stand side-on, aim for the spaces. Fielding: long barrier, back up, throw to the next post."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do fielders spread out?",
+			"answer": 0,
+			"hint": "Where would the batter aim if every fielder stood together?",
+			"choices": [
+				"to cover the spaces the ball could go to",
+				"so the batter can see them",
+				"to stay out of the sun",
+				"to be near the batting square"
+			],
+			"explain": "Spread out, the fielders cover the spaces, so there is less room for the batter to hit the ball into."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A low, flat throw reaches the post faster than a high, looping throw.",
+			"answer": true,
+			"hint": "Which throw has the shorter path through the air?",
+			"explain": "True: a low, flat throw travels the shortest way, so it gets there first."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is backing up when you field?",
+			"answer": 0,
+			"hint": "What happens if a catch is dropped?",
+			"choices": [
+				"standing behind a teammate, in case of a miss",
+				"walking backwards",
+				"shouting at the batter",
+				"sitting down to rest"
+			],
+			"explain": "Backing up means standing behind a teammate, so if the ball gets past them, you stop it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In cricket, a hit that rolls to the boundary scores 4 runs, and one that flies over it scores 6. Zara hits 3 fours and 2 sixes. How many runs is that?",
+			"answer": "24",
+			"hint": "Work out the fours and the sixes, then add them.",
+			"explain": "3 fours: 3 × 4 = 12 runs. 2 sixes: 2 × 6 = 12 runs. In all: 12 + 12 = 24 runs."
+		}
+	],
+	"generators": []
+}

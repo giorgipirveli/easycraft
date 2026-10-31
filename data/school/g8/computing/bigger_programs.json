@@ -1,0 +1,422 @@
+{
+	"id": "g8.computing.bigger_programs",
+	"lesson": [
+		{
+			"text": "Quick memory: what does return do in a function? (It sends a value back to the code that called it.) Today: building a bigger program from small parts called modules."
+		},
+		{
+			"text": "Big programs are built like big buildings: in parts. Decomposition splits the job into modules, each doing one job. A structure chart shows the whole program at the top and its modules under it.",
+			"picture": {
+				"kind": "structure_chart",
+				"top": "Quiz game",
+				"parts": [
+					[
+						"Ask",
+						[
+							"Pick a question",
+							"Show it"
+						]
+					],
+					[
+						"Check",
+						[
+							"Read the answer",
+							"Compare"
+						]
+					],
+					[
+						"Score",
+						[
+							"Add points",
+							"Show total"
+						]
+					]
+				]
+			}
+		},
+		{
+			"text": "Each module becomes a function with a clear name, its inputs (parameters) and its output (return). A function with one job can be tested on its own and used again and again.",
+			"picture": {
+				"kind": "func_machine",
+				"name": "add_points",
+				"params": [
+					"score",
+					"points"
+				],
+				"args": [
+					"10",
+					"5"
+				],
+				"body": "score + points",
+				"out": "15"
+			}
+		},
+		{
+			"text": "Worked example: cost calls area. area(4, 3) returns 12, so cost returns 12 × 2 = 24, and the program prints 24. Each function was written and tested on its own before they were joined.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def area(w, h):",
+					"    return w * h",
+					"def cost(w, h, price):",
+					"    return area(w, h) * price",
+					"print(cost(4, 3, 2))"
+				],
+				"numbers": true,
+				"output": [
+					"24"
+				]
+			}
+		},
+		{
+			"text": "The main program calls the modules in order, like a recipe's steps: get the data, work it out, show the result. Data passes between modules through parameters and return values, never by guessing."
+		},
+		{
+			"text": "Programmers reuse modules that others wrote and tested, like len, max and abs. A library is a collection of them. Reuse saves time, but read what a module expects before you use it."
+		},
+		{
+			"text": "Test each module alone (a unit test), then test them together (an integration test). If the whole program goes wrong, test the parts one by one to find the module with the bug.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def double(n):",
+					"    return n * 2",
+					"print(double(4) == 8)",
+					"print(double(0) == 0)"
+				],
+				"numbers": true,
+				"output": [
+					"True",
+					"True"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: plan a program for a school fair's ticket stall as a structure chart. Which modules does it need? Write one of them as a function on paper. Next: comparing algorithms."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is decomposition?",
+			"choices": [
+				"splitting a big job into smaller parts",
+				"running a program faster",
+				"deleting old code",
+				"finding one bug"
+			],
+			"answer": 0,
+			"hint": "Think of how a big building is planned in parts.",
+			"explain": "Decomposition splits a big problem into smaller parts (modules), each simple enough to write and test."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A good function does one job.",
+			"answer": true,
+			"hint": "Think about which is easier to name, test and reuse.",
+			"explain": "True: a function with one job is easier to name, to test on its own and to use again."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each function of a quiz game to its job.",
+			"items": [
+				"ask",
+				"check",
+				"score",
+				"show_total"
+			],
+			"matches": [
+				"compares the answer",
+				"adds the points",
+				"prints the final score",
+				"shows a question"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Read each function's name: what does its verb say it does?",
+			"explain": "Good names say the job: ask shows a question, check compares the answer, score adds the points and show_total prints the final score."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What does this program print?",
+			"answer": "15",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def triple(n):",
+					"    return n * 3",
+					"print(triple(5))"
+				]
+			},
+			"hint": "Put 5 into n, then work out what the function returns.",
+			"explain": "triple(5) returns 5 × 3 = 15, and print shows 15."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In this structure chart, which job is a part of the Play module?",
+			"choices": [
+				"Pause",
+				"Sort songs",
+				"Find a song",
+				"Louder"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "structure_chart",
+				"top": "Music player",
+				"parts": [
+					[
+						"Library",
+						[
+							"Find a song",
+							"Sort songs"
+						]
+					],
+					[
+						"Play",
+						[
+							"Start",
+							"Pause"
+						]
+					],
+					[
+						"Volume",
+						[
+							"Louder",
+							"Quieter"
+						]
+					]
+				]
+			},
+			"hint": "Look in the column under Play.",
+			"explain": "Play's parts sit under it: Start and Pause. Sort songs and Find a song belong to Library, Louder to Volume."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What does this program print?",
+			"answer": "8",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def add(a, b):",
+					"    return a + b",
+					"def average(a, b):",
+					"    return add(a, b) / 2",
+					"print(average(6, 10))"
+				]
+			},
+			"hint": "Work out add first, then what average does with its answer.",
+			"explain": "add(6, 10) returns 16, and average returns 16 ÷ 2 = 8 (printed as 8.0, as dividing gives a decimal)."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of building a bigger program in order.",
+			"items": [
+				"join them in a main program",
+				"write each module as a function",
+				"test the whole program",
+				"test each function on its own",
+				"split the job into modules"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "What must exist before it can be tested or joined?",
+			"explain": "Plan the modules, write them, test each alone, join them, then test the whole program."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Is each one a good job for one module?",
+			"groups": [
+				"one clear job",
+				"too many jobs"
+			],
+			"items": [
+				"check a password",
+				"draw the game, play it and save it",
+				"add up a list of scores",
+				"run the shop, the bank and the school",
+				"turn °C into °F"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Can you name it with one short verb?",
+			"explain": "Checking a password, adding scores and turning °C into °F are one job each; the others are several jobs that need several modules."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Modules should share data by secretly changing each other's variables.",
+			"answer": false,
+			"hint": "How do parameters and return values pass data?",
+			"explain": "False: data goes in through parameters and comes out through return values, so each module can be tested on its own."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why test each module on its own before joining them?",
+			"choices": [
+				"a bug is easier to find in a small part",
+				"it makes the program run faster",
+				"joined modules never have bugs",
+				"it means no other tests are needed"
+			],
+			"answer": 0,
+			"hint": "Think about how many places a bug could hide.",
+			"explain": "A small part has few places for a bug to hide, so it is found fast; then the joined program is tested too."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What does discount(40, 15) return?",
+			"answer": "25",
+			"picture": {
+				"kind": "func_machine",
+				"name": "discount",
+				"params": [
+					"price",
+					"off"
+				],
+				"args": [
+					"40",
+					"15"
+				],
+				"body": "price - off",
+				"out": "?"
+			},
+			"hint": "Put each argument into its parameter in order, then work out the body.",
+			"explain": "price = 40 and off = 15, so it returns 40 − 15 = 25."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What does this program print?",
+			"answer": "12",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def bonus(n):",
+					"    if n > 10:",
+					"        return 5",
+					"    return 1",
+					"total = 0",
+					"for s in [4, 12, 15, 8]:",
+					"    total = total + bonus(s)",
+					"print(total)"
+				]
+			},
+			"hint": "Make a table: each score, what bonus returns, the total so far.",
+			"explain": "bonus gives 1 for 4, 5 for 12, 5 for 15 and 1 for 8. The total is 1 + 5 + 5 + 1 = 12."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "This program stops with an error. Which line stops it?",
+			"answer": "4",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def half(n):",
+					"    return n / 2",
+					"x = half(10)",
+					"y = haf(x)",
+					"print(y)"
+				]
+			},
+			"hint": "Read each name that is used: was it ever made?",
+			"explain": "Line 4 calls haf, but the function is called half: a name error stops it there."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A function area(w, h) is used by three modules. A bug in it is fixed once. What happens?",
+			"choices": [
+				"all three modules are fixed at once",
+				"only the first module is fixed",
+				"each module needs its own fix",
+				"the program stops working"
+			],
+			"answer": 0,
+			"hint": "Where is the code of area written?",
+			"explain": "area's code is written once and called three times, so one fix mends every call: a reason to reuse functions."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each kind of test to what it checks.",
+			"items": [
+				"unit test",
+				"integration test",
+				"normal data",
+				"boundary data"
+			],
+			"matches": [
+				"modules working together",
+				"what the program usually gets",
+				"values at the range's edges",
+				"one module on its own"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of how much is tested, and what kind of data is used.",
+			"explain": "A unit test checks one module, an integration test the modules together; normal and boundary data are kinds of test data from grade 7."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "This program prints 30.",
+			"answer": true,
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def area(w, h):",
+					"    return w * h",
+					"def cost(w, h, price):",
+					"    return area(w, h) * price",
+					"print(cost(2, 5, 3))"
+				]
+			},
+			"hint": "Work out area first, then cost.",
+			"explain": "True: area(2, 5) returns 10, and cost returns 10 × 3 = 30."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.module_trace",
+			"level": 1
+		},
+		{
+			"gen": "g8c.module_trace",
+			"level": 2
+		},
+		{
+			"gen": "g8c.module_trace",
+			"level": 3
+		}
+	]
+}

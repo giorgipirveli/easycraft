@@ -1,0 +1,345 @@
+{
+	"id": "g8.history.industrial_revolution",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met the Scientific Revolution. Who explained gravity in his book of 1687? (Isaac Newton.) Today: how machines, steam and railways changed work and towns, from about 1745 to 1901."
+		},
+		{
+			"text": "Before it, most people in Britain lived in villages and worked on the land. Cloth was spun and woven by hand at home: the domestic system. From about 1760, machines moved the work into factories. The change spread to Europe, the USA and Japan.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1700,
+				"to": 1850,
+				"step": 25,
+				"events": [
+					[
+						1733,
+						"flying shuttle"
+					],
+					[
+						1764,
+						"spinning jenny"
+					],
+					[
+						1769,
+						"Watt's patent"
+					],
+					[
+						1771,
+						"Cromford Mill"
+					],
+					[
+						1825,
+						"first public railway"
+					],
+					[
+						1830,
+						"Liverpool-Manchester"
+					]
+				]
+			}
+		},
+		{
+			"text": "Thomas Newcomen's engine of 1712 pumped water out of mines. James Watt added a separate condenser, patented in 1769: the steam cooled in a cold chamber, so the cylinder stayed hot and used far less coal. Steam could now drive a factory's machines.",
+			"picture": {
+				"kind": "steam_engine",
+				"labels": true
+			}
+		},
+		{
+			"text": "In 1771 Richard Arkwright opened Cromford Mill, a cotton mill driven by a water wheel. Workers started when the bell rang and worked shifts of 12 hours or more, children too. Wages were low, and the machines were dangerous."
+		},
+		{
+			"text": "Transport changed too. The Bridgewater Canal (1761) carried coal by boat. The first public steam railway opened in 1825, and the Liverpool and Manchester Railway in 1830, with Robert Stephenson's Rocket. Days by stagecoach became hours by train."
+		},
+		{
+			"text": "People moved from farms to factory towns. Manchester grew from about 70,000 people in 1801 to about 300,000 in 1851. Houses were packed close, sharing toilets and dirty water, so diseases such as cholera spread fast.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"1801",
+						70
+					],
+					[
+						"1851",
+						300
+					]
+				],
+				"step": 50,
+				"top": 300,
+				"name": "Manchester's people (thousands)"
+			}
+		},
+		{
+			"text": "Laws slowly made life better. The Factory Act of 1833 banned children under 9 from textile mills and sent inspectors. Sewers and clean water followed. By 1851, for the first time, more people in England and Wales lived in towns than in the countryside."
+		},
+		{
+			"text": "Try it in the world: build a mill by a river in your world, with a water wheel, and a railway from it to the town. Time a trip by cart, then by train. Next: ideas of liberty."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where was most cloth made before the factories?",
+			"choices": [
+				"in people's homes",
+				"on ships",
+				"in schools",
+				"in big mills"
+			],
+			"answer": 0,
+			"hint": "Think of the domestic system: 'domestic' means to do with the house.",
+			"explain": "In people's homes: spinning and weaving by hand, the domestic system."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What did James Watt add to the steam engine?",
+			"choices": [
+				"a sail",
+				"an electric motor",
+				"a separate condenser",
+				"a petrol tank"
+			],
+			"answer": 2,
+			"hint": "It kept the cylinder hot by cooling the steam somewhere else.",
+			"explain": "A separate condenser, patented in 1769: it saved a great deal of coal."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The first public steam railway opened in 1825 and the Liverpool and Manchester Railway in 1830. How many years apart?",
+			"answer": "5",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1830 − 1825 = 5 years."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What drove the machines of Arkwright's Cromford Mill in 1771?",
+			"choices": [
+				"a petrol engine",
+				"electricity",
+				"a windmill",
+				"a water wheel"
+			],
+			"answer": 3,
+			"hint": "The mill was built beside a fast stream.",
+			"explain": "A water wheel: falling water turned the machines."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Children never worked in the early factories.",
+			"answer": false,
+			"hint": "Think why the Factory Act of 1833 was needed.",
+			"explain": "False: many children worked long shifts; the 1833 Act banned under-9s from textile mills."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, earliest first.",
+			"items": [
+				"Watt's patent (1769)",
+				"Newcomen's engine (1712)",
+				"the Liverpool and Manchester Railway (1830)",
+				"the spinning jenny (about 1764)"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "The smaller the year, the earlier.",
+			"explain": "1712, about 1764, 1769, 1830."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Manchester had about 70,000 people in 1801 and about 300,000 in 1851. How many more people was that?",
+			"answer": "230000",
+			"hint": "Take the earlier number from the later one.",
+			"explain": "300,000 − 70,000 = 230,000 more people."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: before the Industrial Revolution, or after it began?",
+			"groups": [
+				"before",
+				"after it began"
+			],
+			"items": [
+				"spinning by hand at home",
+				"most people in villages",
+				"work at set times in a mill",
+				"railways between cities",
+				"towns growing fast",
+				"travel only by horse or stagecoach"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				1,
+				0
+			],
+			"hint": "Think about where people worked and how they travelled.",
+			"explain": "Before: spinning at home, villages, horses and stagecoaches. After: mill hours, railways, fast-growing towns."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each invention to what it did.",
+			"items": [
+				"spinning jenny",
+				"Watt's steam engine",
+				"the Rocket",
+				"the Bridgewater Canal"
+			],
+			"matches": [
+				"pulled an early train",
+				"spun many threads at once",
+				"carried coal by boat",
+				"powered factory machines"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Think of thread, power, rails and water.",
+			"explain": "Jenny: many threads at once. Watt's engine: power for factories. Rocket: an early locomotive. Canal: coal by boat."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why did Watt's engine use less coal than Newcomen's?",
+			"choices": [
+				"it burned wood instead",
+				"it was much smaller",
+				"its cylinder stayed hot",
+				"it ran only at night"
+			],
+			"answer": 2,
+			"hint": "Heating a cold cylinder again and again wastes fuel.",
+			"explain": "The steam cooled in the separate condenser, so the cylinder stayed hot and needed less coal to heat it again."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A stagecoach averaged about 10 km an hour. How many hours did a 300 km journey take?",
+			"answer": "30",
+			"hint": "Time is the distance divided by the speed.",
+			"explain": "300 ÷ 10 = 30 hours."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did diseases like cholera spread in the new factory towns?",
+			"choices": [
+				"crowded homes and dirty water",
+				"too many parks",
+				"the trains were too fast",
+				"people ate too much fruit"
+			],
+			"answer": 0,
+			"hint": "Think about how many families shared one toilet and one water pump.",
+			"explain": "Crowded houses shared toilets and dirty water, so germs spread fast, until sewers and clean water came."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The Factory Act of 1833 ended all child labour at once.",
+			"answer": false,
+			"hint": "Read again what the Act banned, and for whom.",
+			"explain": "False: it banned children under 9 from textile mills and cut older children's hours; children still worked elsewhere."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the journey of cotton cloth in order.",
+			"items": [
+				"it is shipped to Liverpool",
+				"cotton is picked on a plantation",
+				"it is spun into thread in a mill",
+				"the cloth is sold around the world",
+				"the thread is woven into cloth"
+			],
+			"answer": [
+				1,
+				0,
+				2,
+				4,
+				3
+			],
+			"hint": "Follow the cotton from the field to the shop.",
+			"explain": "Picked, shipped to Liverpool, spun in a mill, woven, then sold around the world."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The 1833 Factory Act let children of 9 to 13 work at most 48 hours a week. How many hours a day is that over 6 working days?",
+			"answer": "8",
+			"hint": "Share the week's hours between the days.",
+			"explain": "48 ÷ 6 = 8 hours a day."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which change made factory towns healthier later in the 1800s?",
+			"choices": [
+				"longer shifts",
+				"taller chimneys",
+				"sewers and clean piped water",
+				"more coal fires"
+			],
+			"answer": 2,
+			"hint": "Germs spread through dirty water: what would stop that?",
+			"explain": "Sewers took waste away and clean water was piped in, so diseases such as cholera faded."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.invention_sort",
+			"level": 1
+		},
+		{
+			"gen": "g8h.invention_sort",
+			"level": 2
+		},
+		{
+			"gen": "g8h.invention_sort",
+			"level": 3
+		},
+		{
+			"gen": "g8h.rail_journey",
+			"level": 1
+		},
+		{
+			"gen": "g8h.rail_journey",
+			"level": 2
+		},
+		{
+			"gen": "g8h.rail_journey",
+			"level": 3
+		},
+		{
+			"gen": "g8h.town_growth",
+			"level": 1
+		},
+		{
+			"gen": "g8h.town_growth",
+			"level": 2
+		},
+		{
+			"gen": "g8h.town_growth",
+			"level": 3
+		}
+	]
+}

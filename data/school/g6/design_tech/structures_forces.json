@@ -1,0 +1,355 @@
+{
+	"id": "g6.design_tech.structures_forces",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you tested bridges. Which kind of bridge is built from triangles? (A truss bridge.) Today: the forces in structures, and why triangles make frames strong."
+		},
+		{
+			"text": "Structures carry loads, and forces act inside them: compression (squashing), tension (stretching), bending, torsion (twisting) and shear (sliding past, like the blades of scissors).",
+			"picture": {
+				"kind": "struct_force",
+				"forces": [
+					"compression",
+					"tension",
+					"bending",
+					"torsion",
+					"shear"
+				]
+			}
+		},
+		{
+			"text": "A part that is squashed is a strut; a part that is stretched is a tie. Table legs are struts, in compression. A crane's cable and a swing's ropes are ties, in tension."
+		},
+		{
+			"text": "A square frame can be pushed out of shape: its corners turn like hinges. Add one diagonal bar, and it becomes two triangles that hold their shape. A triangle cannot change shape unless a side changes length.",
+			"picture": {
+				"kind": "frame",
+				"frames": [
+					"square",
+					"pushed",
+					"braced"
+				]
+			}
+		},
+		{
+			"text": "A truss is a frame of triangles. With a load on it, the top bars are squashed (compression) and the bottom bars are stretched (tension). Pylons, cranes and roofs use trusses.",
+			"picture": {
+				"kind": "truss",
+				"panels": 4,
+				"forces": true,
+				"load": true
+			}
+		},
+		{
+			"text": "Three kinds of structure. Frame structures: bars joined together, like a bike or a pylon. Shell structures: a thin outer skin, like an egg, a can or a helmet. Solid structures: like a dam or a wall."
+		},
+		{
+			"text": "Stable structures do not tip over. A wide base and a low centre of gravity help: that is why a traffic cone and a desk lamp have wide, heavy bases."
+		},
+		{
+			"text": "Try it in the world: build a crane or a tower with triangles in its frame, and see how much it holds. For real: make a square and a triangle from card strips and paper fasteners, and push them. Next: mechanisms."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which force squashes a part?",
+			"answer": 0,
+			"hint": "Compress means press together.",
+			"choices": [
+				"compression",
+				"tension",
+				"torsion",
+				"shear"
+			],
+			"explain": "Compression squashes a part, like a pillar under a roof."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A triangle frame keeps its shape when you push it.",
+			"answer": true,
+			"hint": "Can a triangle's corners move without a side changing?",
+			"explain": "True: a triangle is rigid, which is why frames use them.",
+			"picture": {
+				"kind": "frame",
+				"frames": [
+					"triangle"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What force acts on the ropes of a swing?",
+			"answer": 0,
+			"hint": "The seat pulls down on the ropes.",
+			"choices": [
+				"tension",
+				"compression",
+				"bending",
+				"shear"
+			],
+			"explain": "Tension: the ropes are stretched."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many triangles does this truss have?",
+			"answer": "5",
+			"hint": "Count the ones pointing up, then those pointing down.",
+			"explain": "3 pointing up and 2 pointing down: 5 triangles.",
+			"picture": {
+				"kind": "truss",
+				"panels": 3
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each force to an example.",
+			"items": [
+				"compression",
+				"tension",
+				"torsion",
+				"shear"
+			],
+			"matches": [
+				"a tow rope",
+				"wringing a towel",
+				"scissors cutting",
+				"a table leg"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Squash, stretch, twist, slide past.",
+			"explain": "Compression: a table leg. Tension: a tow rope. Torsion: wringing a towel. Shear: scissors."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How can you stop a square frame being pushed out of shape?",
+			"answer": 0,
+			"hint": "Look at the third frame.",
+			"choices": [
+				"add a diagonal bar to make triangles",
+				"paint it",
+				"make the bars longer",
+				"take a bar away"
+			],
+			"explain": "A diagonal brace makes two triangles, and triangles keep their shape.",
+			"picture": {
+				"kind": "frame",
+				"frames": [
+					"square",
+					"pushed",
+					"braced"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Strut or tie?",
+			"groups": [
+				"strut (squashed)",
+				"tie (stretched)"
+			],
+			"items": [
+				"a table leg",
+				"a crane's cable",
+				"a pillar",
+				"a guitar string",
+				"a chair leg"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it pushed on, or pulled?",
+			"explain": "Struts: the legs and the pillar. Ties: the cable and the string."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which picture shows torsion?",
+			"answer": 0,
+			"hint": "Torsion is twisting.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "struct_force",
+						"forces": [
+							"torsion"
+						],
+						"names": false
+					}
+				},
+				{
+					"picture": {
+						"kind": "struct_force",
+						"forces": [
+							"tension"
+						],
+						"names": false
+					}
+				},
+				{
+					"picture": {
+						"kind": "struct_force",
+						"forces": [
+							"compression"
+						],
+						"names": false
+					}
+				},
+				{
+					"picture": {
+						"kind": "struct_force",
+						"forces": [
+							"shear"
+						],
+						"names": false
+					}
+				}
+			],
+			"explain": "The one with curved arrows twisting the ends opposite ways."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In a truss with a load on it, the bottom bars are stretched.",
+			"answer": true,
+			"hint": "Look at the blue bars along the bottom.",
+			"explain": "True: the bottom bars are in tension; the top bars are in compression.",
+			"picture": {
+				"kind": "truss",
+				"panels": 5,
+				"forces": true,
+				"load": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which one is a shell structure?",
+			"answer": 0,
+			"hint": "A shell is a thin outer skin.",
+			"choices": [
+				"an egg",
+				"a bike frame",
+				"a pylon",
+				"a brick wall"
+			],
+			"explain": "An egg: a thin, curved skin that is strong for its size."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many triangles does this truss have?",
+			"answer": "9",
+			"hint": "Count the ones pointing up, then those pointing down.",
+			"explain": "5 pointing up and 4 pointing down: 9 triangles.",
+			"picture": {
+				"kind": "truss",
+				"panels": 5
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many bars make this truss of 3 triangles?",
+			"answer": "7",
+			"hint": "The first triangle needs 3 bars; each new one adds 2.",
+			"explain": "3 + 2 + 2 = 7 bars.",
+			"picture": {
+				"kind": "truss",
+				"panels": 2
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a desk lamp have a wide, heavy base?",
+			"answer": 0,
+			"hint": "Think about what makes things tip.",
+			"choices": [
+				"so it is stable and does not tip over",
+				"so it looks nice",
+				"to hold the bulb",
+				"to keep it warm"
+			],
+			"explain": "A wide base and a low centre of gravity keep it stable."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What happens to a diving board with someone standing on its end?",
+			"answer": 0,
+			"hint": "It curves down under the load.",
+			"choices": [
+				"it bends: squashed on top, stretched underneath",
+				"it is only in tension",
+				"it is only twisted",
+				"no forces act on it"
+			],
+			"explain": "It bends: the top is squashed (compression) and the underneath is stretched (tension)."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A dam is a solid structure.",
+			"answer": true,
+			"hint": "Is it made of bars, a thin skin, or a mass of material?",
+			"explain": "True: a dam is a solid mass of concrete or earth."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do pylons and cranes use so many triangles?",
+			"answer": 0,
+			"hint": "What happens to a square when you push it?",
+			"choices": [
+				"triangles keep their shape, so frames stay rigid",
+				"triangles use more metal",
+				"triangles look pointy",
+				"triangles are cheaper to paint"
+			],
+			"explain": "Triangles cannot be pushed out of shape, so the frame is rigid and strong."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.truss_count",
+			"level": 1
+		},
+		{
+			"gen": "g6w.truss_count",
+			"level": 2
+		},
+		{
+			"gen": "g6w.truss_count",
+			"level": 3
+		},
+		{
+			"gen": "g6w.struct_force",
+			"level": 1
+		},
+		{
+			"gen": "g6w.struct_force",
+			"level": 2
+		},
+		{
+			"gen": "g6w.struct_force",
+			"level": 3
+		}
+	]
+}

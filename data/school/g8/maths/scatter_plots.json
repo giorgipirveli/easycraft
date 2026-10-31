@@ -1,0 +1,122 @@
+{
+	"id": "g8.maths.scatter_plots",
+	"lesson": [
+		{
+			"text": "A scatter plot shows pairs of data as points: hours practised and test score, for example."
+		},
+		{
+			"text": "Patterns: a positive association (both rise), a negative association (one rises as the other falls), or no clear pattern. Look for outliers, points far from the rest."
+		},
+		{
+			"text": "A line of fit runs close to the points. Its equation predicts values: y = 5x + 40 predicts 65 for x = 5."
+		},
+		{
+			"text": "A line of fit is only a guide: predictions far outside the data are less reliable."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Taller pupils tend to have bigger shoe sizes. What kind of association is this?",
+			"answer": 0,
+			"hint": "Both rise.",
+			"choices": [
+				"positive",
+				"negative",
+				"none"
+			],
+			"explain": "Positive."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The more hours of TV, the lower the test score. What kind of association?",
+			"answer": 0,
+			"hint": "One rises, one falls.",
+			"choices": [
+				"negative",
+				"positive",
+				"none"
+			],
+			"explain": "Negative."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A line of fit can be used to make predictions.",
+			"answer": true,
+			"hint": "Put x in.",
+			"explain": "Yes."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A line of fit is y = 5x + 40. Predict y when x = 6.",
+			"answer": "70",
+			"hint": "5 × 6 + 40.",
+			"explain": "70."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is an outlier?",
+			"answer": 0,
+			"hint": "It stands out.",
+			"choices": [
+				"a point far from the rest",
+				"the first point",
+				"the line of fit"
+			],
+			"explain": "A point far from the pattern."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Shoe size and favourite colour. What association would you expect?",
+			"answer": 0,
+			"hint": "Are they linked?",
+			"choices": [
+				"no clear pattern",
+				"positive",
+				"negative"
+			],
+			"explain": "No clear pattern."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A line of fit is y = 3x + 12. What x gives y = 42?",
+			"answer": "10",
+			"hint": "3x + 12 = 42.",
+			"explain": "x = 10."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A line of fit for ages 5-12 predicts height at age 40. Why is this unreliable?",
+			"answer": 0,
+			"hint": "Beyond the data…",
+			"choices": [
+				"It is far outside the data.",
+				"40 is even.",
+				"Lines never work."
+			],
+			"explain": "People stop growing; the data don't cover 40."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8g.scatter",
+			"level": 1
+		},
+		{
+			"gen": "g8g.scatter",
+			"level": 2
+		},
+		{
+			"gen": "g8g.scatter",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,351 @@
+{
+	"id": "g3.computing.data_charts",
+	"lesson": [
+		{
+			"text": "Quick memory: is a keyboard an input or an output? (An input.) Today: data, the information computers work with."
+		},
+		{
+			"text": "Data is facts and numbers we collect, like how many of each animal live on a farm, or everyone's favourite colour."
+		},
+		{
+			"text": "A tally helps you count as you go: one line for each thing, and the fifth line goes across the other four, so you can count in fives."
+		},
+		{
+			"text": "A table puts data in rows and columns so it is easy to read. This one shows the animals on a farm.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Animal",
+						"How many"
+					],
+					[
+						"sheep",
+						"6"
+					],
+					[
+						"cows",
+						"3"
+					],
+					[
+						"pigs",
+						"4"
+					]
+				]
+			}
+		},
+		{
+			"text": "A bar chart shows the same data as bars: the taller the bar, the more there are. Here each tower is one animal: sheep 6, cows 3, pigs 4.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					6,
+					3,
+					4
+				]
+			}
+		},
+		{
+			"text": "Charts help us answer questions quickly: which is the most? the fewest? how many more? Computers can make a chart from a table in a moment.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"cats",
+						5
+					],
+					[
+						"dogs",
+						8
+					],
+					[
+						"fish",
+						3
+					]
+				],
+				"step": 1,
+				"top": 8,
+				"name": "Favourite pets"
+			}
+		},
+		{
+			"text": "Try it in the world: count the animals near your home in the game. Put the numbers in a table, then build a block chart: one tower for each animal."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The table shows the farm's animals. How many cows are there?",
+			"answer": "3",
+			"hint": "Find the cows' row, then read across.",
+			"explain": "The cows' row says 3.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Animal",
+						"How many"
+					],
+					[
+						"sheep",
+						"6"
+					],
+					[
+						"cows",
+						"3"
+					],
+					[
+						"pigs",
+						"4"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which animal does the farm have most of?",
+			"answer": 0,
+			"hint": "Find the biggest number.",
+			"choices": [
+				"sheep",
+				"cows",
+				"pigs"
+			],
+			"explain": "Sheep: 6 is more than 3 and 4.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Animal",
+						"How many"
+					],
+					[
+						"sheep",
+						"6"
+					],
+					[
+						"cows",
+						"3"
+					],
+					[
+						"pigs",
+						"4"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a bar chart, the tallest bar shows the most.",
+			"answer": true,
+			"hint": "Taller bar, bigger number?",
+			"explain": "True: the taller the bar, the more it shows."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is data?",
+			"answer": 0,
+			"hint": "Think of counting animals or asking questions.",
+			"choices": [
+				"facts and numbers we collect",
+				"a kind of robot",
+				"a game's music",
+				"a broken program"
+			],
+			"explain": "Data is facts and numbers we collect, like counts and answers."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many more sheep than cows are there?",
+			"answer": "3",
+			"hint": "Find both numbers, then take the smaller from the bigger.",
+			"explain": "6 − 3 = 3 more sheep than cows.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Animal",
+						"How many"
+					],
+					[
+						"sheep",
+						"6"
+					],
+					[
+						"cows",
+						"3"
+					],
+					[
+						"pigs",
+						"4"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The towers show votes for favourite fruit: apples, pears, grapes (left to right). How many votes altogether?",
+			"answer": "11",
+			"hint": "Count each tower, then add them up.",
+			"explain": "5 + 2 + 4 = 11 votes.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					5,
+					2,
+					4
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Tilly asks her class which pet they like best. What is the best way to record the answers as she asks?",
+			"answer": 0,
+			"hint": "Which one lets you count as you go?",
+			"choices": [
+				"a tally",
+				"a poem",
+				"a map",
+				"a loop"
+			],
+			"explain": "A tally: one line for each answer, and she can count them in fives at the end."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The chart shows the buddies' favourite snacks: berries, carrots, seeds (left to right). Which snack is the favourite?",
+			"answer": 0,
+			"hint": "Look for the tallest tower.",
+			"choices": [
+				"carrots",
+				"berries",
+				"seeds"
+			],
+			"explain": "Carrots: the middle tower is the tallest.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					2,
+					5,
+					3
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A table and a bar chart can show the same data.",
+			"answer": true,
+			"hint": "Look at the farm's table and its tower chart.",
+			"explain": "True: the table shows the numbers, and the bar chart shows the same numbers as bars."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram's tally for red cars has two full gates of five and 3 more lines. How many red cars did he count?",
+			"answer": "13",
+			"hint": "Count the gates in fives, then add the extra lines.",
+			"explain": "Each gate is 5: 5 + 5 = 10, and 3 more lines make 13."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The chart shows the blocks Mimi collected: wood, stone, sand (left to right). Which question can it answer?",
+			"answer": 0,
+			"hint": "The chart only shows how many of each block.",
+			"choices": [
+				"Which block did Mimi collect most of?",
+				"What is Mimi's favourite song?",
+				"How tall is Mimi?",
+				"What time did Mimi go to bed?"
+			],
+			"explain": "It can tell you which block she collected most of: stone, the tallest tower.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					4,
+					6,
+					2
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many rainy days were there in the three months altogether?",
+			"answer": "28",
+			"hint": "Add the three numbers.",
+			"explain": "9 + 12 + 7 = 28 rainy days.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Month",
+						"Rainy days"
+					],
+					[
+						"March",
+						"9"
+					],
+					[
+						"April",
+						"12"
+					],
+					[
+						"May",
+						"7"
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of a survey in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You can't count answers before you ask the question.",
+			"items": [
+				"Draw a bar chart",
+				"Put the totals in a table",
+				"Ask people and tally the answers",
+				"Choose a question to ask"
+			],
+			"explain": "Choose a question, ask and tally, put the totals in a table, then draw the chart."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The table says pigs 4, but the chart's pig tower is 5 blocks tall. What should you do?",
+			"answer": 0,
+			"hint": "Data must match. Debug it!",
+			"choices": [
+				"check the count and fix the one that is wrong",
+				"leave it: it's close enough",
+				"delete the chart",
+				"add a pig"
+			],
+			"explain": "Check the count again and fix whichever is wrong, so the table and the chart agree."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If one bar is twice as tall as another on the same chart, it shows twice as many.",
+			"answer": true,
+			"hint": "Each block stands for the same amount.",
+			"explain": "True: on the same chart, twice as tall means twice as many."
+		}
+	],
+	"generators": []
+}

@@ -1,0 +1,348 @@
+{
+	"id": "g8.science.pressure",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met particles. In a gas, what are the particles doing? (Moving fast in all directions, bumping into each other and the walls.) Today: pressure in solids, liquids and gases."
+		},
+		{
+			"text": "Pressure is how hard a force presses on each square metre: pressure = force ÷ area. It is measured in pascals (Pa); 1 Pa is 1 newton on 1 square metre. The same force on a smaller area makes a bigger pressure.",
+			"picture": {
+				"kind": "fluid_pressure",
+				"view": "faces"
+			}
+		},
+		{
+			"text": "A worked example: a crate pushing down with 600 N on 2 m² makes 600 ÷ 2 = 300 Pa. A drawing pin's point is tiny, so a small push makes a huge pressure. Snowshoes and tractor tyres spread a force out, so they sink less."
+		},
+		{
+			"text": "In a liquid, pressure increases with depth, because there is more liquid pressing down from above. It pushes in all directions. Water spurts fastest from the lowest hole of a tank, and a dam is thickest at its base.",
+			"picture": {
+				"kind": "fluid_pressure",
+				"view": "spouts"
+			}
+		},
+		{
+			"text": "Sea water adds about 10 kPa (10,000 Pa) of pressure for every metre down. At 10 m it adds about 100 kPa, as much as all the air above us. That is why a diver's ears feel the pressure.",
+			"picture": {
+				"kind": "fluid_pressure",
+				"view": "dam"
+			}
+		},
+		{
+			"text": "Air presses on us too: about 100 kPa at sea level. Air pressure falls as you go higher, because there is less air above. Your ears pop in a plane, and on the highest mountains the air presses only a third as hard.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"0 km",
+						101
+					],
+					[
+						"2 km",
+						80
+					],
+					[
+						"4 km",
+						62
+					],
+					[
+						"6 km",
+						47
+					],
+					[
+						"8 km",
+						36
+					]
+				],
+				"step": 20,
+				"top": 120,
+				"name": "air pressure (kPa) and height"
+			}
+		},
+		{
+			"text": "Water pushes up on anything in it: upthrust. Upthrust equals the weight of the water pushed aside. Things less dense than water float: upthrust matches their weight before they are all under. A steel ship's hollow hull pushes aside lots of water.",
+			"picture": {
+				"kind": "fluid_pressure",
+				"view": "float"
+			}
+		},
+		{
+			"text": "Try it in the world: in Water Safety in the LIFE tab, the ice practice tells you to spread out flat. Spreading your weight over a bigger area makes less pressure on the ice. A life jacket adds upthrust. Next: kinetic and potential energy."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A box pushes down with 800 N on an area of 4 m². What pressure does it make, in pascals?",
+			"answer": "200",
+			"hint": "Pressure = force ÷ area.",
+			"explain": "800 ÷ 4 = 200 Pa: 200 newtons on each square metre."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "You push a pencil into your palm with the same force each time. Which way makes the bigger pressure?",
+			"choices": [
+				"with the sharp point",
+				"with the flat end",
+				"both the same"
+			],
+			"answer": 0,
+			"hint": "Which end puts the push on a smaller area?",
+			"explain": "The point's area is tiny, so the same force makes a much bigger pressure."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The pressure in a liquid is the same at every depth.",
+			"answer": false,
+			"hint": "Think about how much liquid is above each point.",
+			"explain": "False: deeper down there is more liquid above, so the pressure is greater."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort them: made to spread a force out, or to focus it?",
+			"groups": [
+				"spreads the force",
+				"focuses the force"
+			],
+			"items": [
+				"studs on football boots",
+				"tractor tyres",
+				"a camel's wide feet",
+				"a drawing pin",
+				"snowshoes",
+				"a knife's sharp edge"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is the area big, to stop sinking, or small, to push in?",
+			"explain": "Snowshoes, tractor tyres and a camel's feet spread the force over a big area. A pin, a sharp knife and studs put it on a tiny area, so the pressure is big."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Water spurts from three holes in a tall tank. Which hole's water comes out fastest?",
+			"picture": {
+				"kind": "fluid_pressure",
+				"view": "spouts",
+				"words": false
+			},
+			"choices": [
+				"the bottom hole",
+				"the top hole",
+				"the middle hole"
+			],
+			"answer": 0,
+			"hint": "Where is the water deepest, with the most water pressing from above?",
+			"explain": "The bottom hole is deepest, so the pressure there is greatest and the water shoots out fastest."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A loaded sledge pushes down with 600 N on runners with an area of 0.3 m². What pressure does it make, in pascals?",
+			"answer": "2000",
+			"hint": "Divide the force by the area in square metres.",
+			"explain": "600 ÷ 0.3 = 2,000 Pa. A smaller area would make a bigger pressure, and the sledge would sink deeper."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Sea water adds about 10 kPa of pressure for every metre down. How much does it add at 40 m, in kPa?",
+			"answer": "400",
+			"hint": "Multiply the depth by the pressure each metre adds.",
+			"explain": "40 × 10 = 400 kPa: about four times the air's pressure at the surface."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each sight to its reason.",
+			"items": [
+				"ears pop in a plane",
+				"a dam's thick base",
+				"snowshoes on snow",
+				"a steel ship floats"
+			],
+			"matches": [
+				"pressure grows with depth",
+				"a bigger area, less pressure",
+				"it pushes aside lots of water",
+				"air pressure falls higher up"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Ask which kind of pressure each is about: air, depth, area or floating.",
+			"explain": "Ears pop as air pressure falls; a dam is thickest where the water presses hardest; snowshoes spread the force; a ship's hull pushes aside enough water to float."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order these places from the least to the most water pressure.",
+			"items": [
+				"the surface of a pond",
+				"10 m down in a lake",
+				"100 m down in the sea",
+				"1 m down in a pond"
+			],
+			"answer": [
+				0,
+				3,
+				1,
+				2
+			],
+			"hint": "More water above means more pressure.",
+			"explain": "The surface, then 1 m, then 10 m, then 100 m: the deeper it is, the more water presses from above."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Air pressure is lower at the top of a mountain than at sea level.",
+			"answer": true,
+			"hint": "Is there more air above you at the top, or less?",
+			"explain": "True: there is less air above, so it presses less: on the highest peaks, about a third as hard."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does a heavy steel ship float?",
+			"choices": [
+				"its hollow hull pushes aside lots of water",
+				"steel is less dense than water",
+				"the air above pushes it up",
+				"big things always float"
+			],
+			"answer": 0,
+			"hint": "Think about upthrust: it equals the weight of the water pushed aside.",
+			"explain": "Its hollow shape pushes aside a weight of water as big as its own weight, so upthrust holds it up."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A diver is 25 m down in the sea. The air presses with about 100 kPa and the water adds about 10 kPa a metre. What is the total pressure on the diver, in kPa?",
+			"answer": "350",
+			"hint": "Find the water's pressure first, then add the air's.",
+			"explain": "25 × 10 = 250 kPa from the water; 250 + 100 = 350 kPa in all, three and a half times the pressure at the surface."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A block has a mass of 500 g and a volume of 625 cm³. What is its density, in g/cm³?",
+			"answer": "0.8",
+			"hint": "Density = mass ÷ volume.",
+			"explain": "500 ÷ 625 = 0.8 g/cm³. That is less than water's 1 g/cm³, so the block floats, with 0.8 of it under water."
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label the floating block's two forces and the water line.",
+			"picture": {
+				"kind": "fluid_pressure",
+				"view": "float",
+				"pins": true
+			},
+			"labels": [
+				"weight",
+				"upthrust",
+				"water line"
+			],
+			"hint": "One force pulls down, one pushes up; the water line is where the surface meets the block.",
+			"explain": "Its weight pulls down; upthrust from the water pushes up and balances it; the water line is the surface.",
+			"spots": [
+				[
+					0.5,
+					0.09,
+					0.5,
+					0.2869
+				],
+				[
+					0.7241,
+					0.09,
+					0.7241,
+					0.4667
+				],
+				[
+					0.5,
+					0.91,
+					0.5,
+					0.6332
+				]
+			],
+			"answer": [
+				2,
+				0,
+				1
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A submarine lets water into its tanks. What happens?",
+			"choices": [
+				"it gets heavier and sinks",
+				"it gets lighter and rises",
+				"nothing changes"
+			],
+			"answer": 0,
+			"hint": "Does letting water in add weight or take it away?",
+			"explain": "The extra water adds weight while the upthrust stays the same, so its weight wins and it sinks. Pumping the water out makes it rise again."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A table's four legs press on 40 cm² in all with a force of 400 N. On a wide base of 2,000 cm², how many times smaller is the pressure?",
+			"answer": "50",
+			"hint": "Pressure goes down as the area goes up: compare the two areas.",
+			"explain": "400 ÷ 40 = 10 N/cm² on the legs; 400 ÷ 2,000 = 0.2 N/cm² on the base; 10 ÷ 0.2 = 50 times smaller."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8k.pressure_calc",
+			"level": 1
+		},
+		{
+			"gen": "g8k.pressure_calc",
+			"level": 2
+		},
+		{
+			"gen": "g8k.pressure_calc",
+			"level": 3
+		},
+		{
+			"gen": "g8k.depth_pressure",
+			"level": 1
+		},
+		{
+			"gen": "g8k.depth_pressure",
+			"level": 2
+		},
+		{
+			"gen": "g8k.depth_pressure",
+			"level": 3
+		},
+		{
+			"gen": "g8k.float_sink",
+			"level": 1
+		},
+		{
+			"gen": "g8k.float_sink",
+			"level": 2
+		},
+		{
+			"gen": "g8k.float_sink",
+			"level": 3
+		}
+	]
+}

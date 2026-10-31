@@ -1,0 +1,380 @@
+{
+	"id": "g4.english.text_structure",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, reading to learn. What is a paragraph's main idea? What the whole paragraph is mostly about."
+		},
+		{
+			"text": "Writers build information texts in different ways. Knowing the way helps you follow the ideas. Look for the signal words.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"structure",
+						"signal words"
+					],
+					[
+						"time order",
+						"first, next, then"
+					],
+					[
+						"compare, contrast",
+						"both, but, unlike"
+					],
+					[
+						"cause and effect",
+						"because, so"
+					],
+					[
+						"problem, solution",
+						"to fix this"
+					]
+				]
+			}
+		},
+		{
+			"text": "Time order tells events or steps in order. Look for: first, next, then, after, finally, and dates."
+		},
+		{
+			"text": "Compare and contrast shows how things are alike and different. Look for: both, alike, but, unlike, however."
+		},
+		{
+			"text": "Cause and effect tells what happened and why. Look for: because, so, as a result, since.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "It rained all night"
+					},
+					{
+						"shape": "end",
+						"text": "So the river rose"
+					}
+				]
+			}
+		},
+		{
+			"text": "Problem and solution tells about a problem and how it was fixed. Look for: problem, to fix this, the answer, solved."
+		},
+		{
+			"text": "Try it in the world: explain how to build a boat in your world in time order (first, next, then, finally). Then explain why boats float, using because. Next: poems, plays and stories."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which signal word shows time order?",
+			"answer": 0,
+			"hint": "Which word tells what comes after?",
+			"choices": [
+				"next",
+				"because",
+				"unlike",
+				"however"
+			],
+			"explain": "\"Next\" tells what happens after something else: time order."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which signal word shows cause and effect?",
+			"answer": 0,
+			"hint": "Which word gives a reason?",
+			"choices": [
+				"because",
+				"first",
+				"both",
+				"finally"
+			],
+			"explain": "\"Because\" gives the reason (the cause) for something."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which signal word shows compare and contrast?",
+			"answer": 0,
+			"hint": "Which word shows a difference?",
+			"choices": [
+				"unlike",
+				"then",
+				"first",
+				"finally"
+			],
+			"explain": "\"Unlike\" shows how two things are different."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "\"First, next, then, finally\" are signal words for time order.",
+			"answer": true,
+			"hint": "They tell us when.",
+			"explain": "Yes: they put events or steps in order."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A text explains how a village stopped its floods by building a wall. How is it built?",
+			"answer": 0,
+			"hint": "Floods are a problem. What fixed it?",
+			"choices": [
+				"problem and solution",
+				"time order",
+				"compare and contrast"
+			],
+			"explain": "The floods are the problem and the wall is the solution."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Frogs and toads both lay eggs in water. Frogs have smooth skin, but toads have bumpy skin. How is this text built?",
+			"answer": 0,
+			"hint": "Look for both and but.",
+			"choices": [
+				"compare and contrast",
+				"time order",
+				"problem and solution",
+				"cause and effect"
+			],
+			"explain": "It shows how frogs and toads are alike (both) and different (but)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The river flooded because it rained for a week. As a result, the bridge was closed. How is this text built?",
+			"answer": 0,
+			"hint": "Look for because and as a result.",
+			"choices": [
+				"cause and effect",
+				"compare and contrast",
+				"time order",
+				"problem and solution"
+			],
+			"explain": "The rain caused the flood, and the flood caused the bridge to close."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "First the egg hatches. Next the caterpillar eats. Then it makes a case. Finally a butterfly comes out. How is this built?",
+			"answer": 0,
+			"hint": "Look for first, next, then and finally.",
+			"choices": [
+				"time order",
+				"cause and effect",
+				"compare and contrast",
+				"problem and solution"
+			],
+			"explain": "It tells the steps in the order they happen."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "\"The path was icy, so people slipped\" shows cause and effect.",
+			"answer": true,
+			"hint": "Why did people slip?",
+			"explain": "Yes: the ice is the cause and slipping is the effect."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in time order: a seed becomes a plant.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What must happen before anything can grow?",
+			"items": [
+				"Leaves open in the sun.",
+				"A shoot pushes up.",
+				"Roots grow down.",
+				"A seed is planted in soil."
+			],
+			"explain": "Planted, then roots, then a shoot, then leaves."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The school garden kept drying out. To fix this, the class set up a barrel to catch rain. How is this text built?",
+			"answer": 0,
+			"hint": "Look for \"to fix this\".",
+			"choices": [
+				"problem and solution",
+				"time order",
+				"compare and contrast",
+				"cause and effect"
+			],
+			"explain": "The dry garden is the problem, and the rain barrel is the solution."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In \"The wind blew so hard that the tent fell down\", what is the effect?",
+			"answer": 0,
+			"hint": "The effect is what happened.",
+			"choices": [
+				"The tent fell down.",
+				"The wind blew hard.",
+				"The tent was blue.",
+				"It was night."
+			],
+			"explain": "The strong wind (the cause) made the tent fall down (the effect)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In \"Because the lake froze, the ducks flew south\", what is the cause?",
+			"answer": 0,
+			"hint": "The cause is why it happened.",
+			"choices": [
+				"The lake froze.",
+				"The ducks flew south.",
+				"Ducks can swim.",
+				"It was spring."
+			],
+			"explain": "The lake freezing is the cause; the ducks flying south is the effect."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A text that tells how cats and dogs are alike and different is built as problem and solution.",
+			"answer": false,
+			"hint": "Alike and different: which structure is that?",
+			"explain": "No: alike and different is compare and contrast."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A writer wants to explain how to build a snowman step by step. Which structure fits best?",
+			"answer": 0,
+			"hint": "Steps come one after another.",
+			"choices": [
+				"time order",
+				"compare and contrast",
+				"cause and effect",
+				"problem and solution"
+			],
+			"explain": "Step-by-step instructions use time order."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the signal words by the structure they show.",
+			"items": [
+				"first",
+				"because",
+				"unlike",
+				"finally",
+				"as a result",
+				"both"
+			],
+			"groups": [
+				"time order",
+				"cause and effect",
+				"compare and contrast"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Do they tell when, why, or how things are alike or different?",
+			"explain": "First and finally show time order. Because and as a result show cause and effect. Unlike and both show compare and contrast."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each text to its structure.",
+			"items": [
+				"planting a seed, step by step",
+				"frogs and toads compared",
+				"why the bridge closed",
+				"how the town stopped its floods"
+			],
+			"matches": [
+				"cause and effect",
+				"problem and solution",
+				"time order",
+				"compare and contrast"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Ask what each text is mostly doing: giving steps, comparing, explaining why, or fixing something.",
+			"explain": "Planting steps: time order. Frogs and toads compared: compare and contrast. Why the bridge closed: cause and effect. Stopping the floods: problem and solution."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put this problem and solution text in order.",
+			"items": [
+				"The town built a flood wall.",
+				"The river flooded the town every spring.",
+				"Now the town stays dry."
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "A problem comes first, then what was done, then how it turned out.",
+			"explain": "The problem (the floods), the solution (a flood wall), then the result (a dry town)."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the sentences: cause and effect, or problem and solution?",
+			"groups": [
+				"cause and effect",
+				"problem and solution"
+			],
+			"items": [
+				"It rained, so the river rose.",
+				"To fix the floods, they built a wall.",
+				"Because it was icy, people slipped.",
+				"The answer was a rain barrel."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Look for because or so, or for fix and answer.",
+			"explain": "Cause and effect: rain made the river rise; ice made people slip. Problem and solution: a wall fixed the floods, and a rain barrel was the answer."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each topic to the structure that fits it best.",
+			"items": [
+				"how to plant a seed",
+				"why ice melts in the sun",
+				"owls and bats compared",
+				"stopping a leaky roof"
+			],
+			"matches": [
+				"problem and solution",
+				"time order",
+				"cause and effect",
+				"compare and contrast"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Is it steps, a reason why, two things side by side, or a problem fixed?",
+			"explain": "Planting a seed: time order (steps). Why ice melts: cause and effect. Owls and bats: compare and contrast. A leaky roof: problem and solution."
+		}
+	]
+}

@@ -1,0 +1,323 @@
+{
+	"id": "g5.geography.deserts_polar",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a desert? (A place with very little rain.) Hot deserts and polar lands are the world's most extreme places. Today: how people, animals and plants live there."
+		},
+		{
+			"text": "The Sahara in Africa is the biggest hot desert. By day it can pass 45 °C; at night, with no clouds to hold the heat in, it can drop close to freezing. Most of it is rock and gravel; sand dunes cover only part.",
+			"picture": {
+				"kind": "thermometer",
+				"from": -10,
+				"to": 50,
+				"step": 10,
+				"values": [
+					45,
+					2
+				],
+				"names": [
+					"day",
+					"night"
+				]
+			}
+		},
+		{
+			"text": "Desert plants store water or wait as seeds for rain. Camels have wide feet for soft sand and long eyelashes against dust, and can go days without drinking. Fennec foxes lose heat through their huge ears.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"living thing",
+						"copes by"
+					],
+					[
+						"cactus",
+						"storing water"
+					],
+					[
+						"camel",
+						"wide feet for sand"
+					],
+					[
+						"fennec fox",
+						"huge ears lose heat"
+					]
+				]
+			}
+		},
+		{
+			"text": "Desert peoples such as the Tuareg herd camels and goats between wells and oases, where underground water lets date palms grow. Loose robes and head wraps keep off sun and sand; thick mud walls keep houses cool."
+		},
+		{
+			"text": "Around the North Pole is the Arctic: an ocean covered in sea ice, ringed by land. Antarctica, around the South Pole, is a frozen continent. The coldest temperature ever measured, −89 °C, was in Antarctica. Both have months of dark winter.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60,
+				"lines": [
+					"tropics",
+					"polar"
+				],
+				"points": [
+					{
+						"lat": 23,
+						"long": 10,
+						"label": "Sahara"
+					},
+					{
+						"lat": 80,
+						"long": -40,
+						"label": "Arctic"
+					},
+					{
+						"lat": -80,
+						"long": 40,
+						"label": "Antarctica"
+					}
+				]
+			}
+		},
+		{
+			"text": "Polar bears live only in the Arctic; thick fat and dense fur keep them warm. Penguins live almost only in the southern hemisphere, so the two never meet in the wild. Emperor penguins huddle in big groups to share warmth."
+		},
+		{
+			"text": "The Inuit and the peoples before them have lived in the Arctic for thousands of years. They fish and hunt seals, and travel by sledge and kayak, an Inuit word. Nobody lives in Antarctica for good: scientists come and go from research stations."
+		},
+		{
+			"text": "Try it in the world: build an oasis with a well and palm trees in your desert. Then build a snug shelter in the snow, with thick walls and a small door. Next: the natural resources the world uses."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the biggest hot desert?",
+			"answer": 0,
+			"hint": "It covers much of North Africa.",
+			"choices": [
+				"the Sahara",
+				"the Amazon",
+				"Antarctica",
+				"the Alps"
+			],
+			"explain": "The Sahara. Antarctica is a bigger desert, but a cold one."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Polar bears and penguins meet in the wild.",
+			"answer": false,
+			"hint": "Which end of the world does each live at?",
+			"explain": "False: polar bears live in the Arctic, and penguins almost only in the southern hemisphere."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an oasis?",
+			"answer": 0,
+			"hint": "Date palms grow there.",
+			"choices": [
+				"a place in a desert with water",
+				"a sand dune",
+				"a snow house",
+				"a kind of camel"
+			],
+			"explain": "An oasis is a place in a desert where underground water reaches the surface."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where do polar bears live?",
+			"answer": 0,
+			"hint": "Around the North Pole.",
+			"choices": [
+				"the Arctic",
+				"Antarctica",
+				"the Sahara",
+				"the Amazon"
+			],
+			"explain": "Only in the Arctic."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Deserts can be cold at night.",
+			"answer": true,
+			"hint": "What holds heat in at night: clouds or clear skies?",
+			"explain": "True: with no clouds, the day's heat escapes and nights can be close to freezing."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: hot desert or polar land?",
+			"groups": [
+				"hot desert",
+				"polar land"
+			],
+			"items": [
+				"camels and fennec foxes",
+				"emperor penguins",
+				"sea ice",
+				"oases with date palms",
+				"months of dark winter",
+				"sand dunes"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it about heat and dryness, or ice and cold?",
+			"explain": "Hot desert: camels, fennec foxes, oases, dunes. Polar: penguins, sea ice, dark winters."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each animal to how it copes.",
+			"items": [
+				"camel",
+				"fennec fox",
+				"polar bear",
+				"emperor penguin"
+			],
+			"matches": [
+				"huddles with others",
+				"wide feet for soft sand",
+				"huge ears to lose heat",
+				"thick fat under its fur"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Two need to stay cool, two need to stay warm.",
+			"explain": "Camel: wide feet. Fennec fox: huge ears. Polar bear: thick fat. Emperor penguin: huddles."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do desert houses have thick mud walls?",
+			"answer": 0,
+			"hint": "Thick walls heat up slowly.",
+			"choices": [
+				"they keep the inside cool by day",
+				"to keep out snow",
+				"mud is prettier",
+				"to hold water"
+			],
+			"explain": "Thick walls take a long time to heat up, so the inside stays cool through the hot day."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does the desert get cold at night?",
+			"answer": 0,
+			"hint": "Clouds work like a blanket.",
+			"choices": [
+				"no clouds hold the day's heat in",
+				"the Sun is closer at night",
+				"the sand is wet",
+				"the wind is warm"
+			],
+			"explain": "With clear skies, the day's heat escapes into space at night."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "People have lived in Antarctica for many generations, like the Inuit in the Arctic.",
+			"answer": false,
+			"hint": "Who lives there, and for how long?",
+			"explain": "False: nobody lives there for good; scientists and helpers come and go from research stations."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In the Sahara it was 44 °C in the afternoon and 3 °C at night. How many degrees did it cool?",
+			"answer": "41",
+			"hint": "Find the difference between the two temperatures.",
+			"explain": "44 − 3 = 41 °C cooler."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do Tuareg herders move between wells and oases?",
+			"answer": 0,
+			"hint": "Camels and goats must drink and eat.",
+			"choices": [
+				"their animals need water and grazing",
+				"they like long walks",
+				"wells move around",
+				"to avoid the sea"
+			],
+			"explain": "They move to where their herds can find water and plants to eat."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does the word 'kayak' tell us?",
+			"answer": 0,
+			"hint": "Kayak is an Inuit word.",
+			"choices": [
+				"the Inuit invented this kind of boat",
+				"the Romans built kayaks",
+				"kayaks came from the desert",
+				"the Inuit never travelled"
+			],
+			"explain": "The word comes from the Inuit, who made these light boats for hunting on Arctic waters."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The coldest temperature measured was −89 °C. Water freezes at 0 °C. How many degrees below freezing is that?",
+			"answer": "89",
+			"hint": "Count down from 0 °C.",
+			"explain": "From 0 °C down to −89 °C is 89 degrees."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Emperor penguins huddle together in winter. Why?",
+			"answer": 0,
+			"hint": "Where do penguins live, and are there polar bears there?",
+			"choices": [
+				"to share warmth and keep out the wind",
+				"to hide from polar bears",
+				"to find food",
+				"to stay cool"
+			],
+			"explain": "Huddling shares body warmth and shelters them from icy winds. There are no polar bears in Antarctica."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: the Arctic, or Antarctica?",
+			"groups": [
+				"the Arctic",
+				"Antarctica"
+			],
+			"items": [
+				"polar bears",
+				"emperor penguins",
+				"an ocean covered in sea ice",
+				"a frozen continent",
+				"the Inuit",
+				"only research stations"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The Arctic is around the North Pole; Antarctica is around the South Pole.",
+			"explain": "The Arctic: polar bears, an ocean of sea ice and the Inuit. Antarctica: emperor penguins, a frozen continent, and people only at research stations."
+		}
+	]
+}

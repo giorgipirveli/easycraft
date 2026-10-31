@@ -1,0 +1,357 @@
+{
+	"id": "g8.geography.gis_investigation",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met maps with layers. What does GIS stand for? (Geographic information system.) Today: use GIS layers and data to answer a real question, like a working geographer."
+		},
+		{
+			"text": "A GIS keeps a map as layers: roads, rivers, houses, schools, flood zones. A layer holds points (a bus stop), lines (a road) or areas (a park). Each feature can carry data, such as a school's number of pupils.",
+			"picture": {
+				"kind": "layer_map",
+				"w": 8,
+				"h": 5,
+				"view": "stack",
+				"layers": [
+					{
+						"name": "river",
+						"what": "water",
+						"cells": [
+							".#......",
+							".#......",
+							".##.....",
+							"..#.....",
+							"..#....."
+						]
+					},
+					{
+						"name": "roads",
+						"what": "road",
+						"cells": [
+							"........",
+							"........",
+							"########",
+							"........",
+							"........"
+						]
+					},
+					{
+						"name": "houses",
+						"what": "houses",
+						"cells": [
+							"...#..#.",
+							"....#...",
+							"........",
+							"....#.#.",
+							"...#...#"
+						]
+					}
+				]
+			}
+		},
+		{
+			"text": "GIS data comes from satellites and aircraft, GPS in phones, surveys and censuses, sensors in rivers and roads, and fieldwork. A good investigation says where every layer came from, and how old it is."
+		},
+		{
+			"text": "In 1854 the doctor John Snow mapped cholera cases in London and saw them cluster round one water pump in Broad Street. When the pump's handle was removed, cases fell: an early map that answered a real question."
+		},
+		{
+			"text": "Overlay analysis puts layers together. Which houses are inside the flood zone? Which schools are more than 1 km from a bus stop? A buffer is a zone of a set distance round a feature, such as 500 m round a river.",
+			"picture": {
+				"kind": "layer_map",
+				"w": 8,
+				"h": 5,
+				"layers": [
+					{
+						"name": "flood zone",
+						"what": "flood",
+						"cells": [
+							"###.....",
+							"###.....",
+							"####....",
+							"###.....",
+							"###....."
+						]
+					},
+					{
+						"name": "houses",
+						"what": "houses",
+						"cells": [
+							"..#..#..",
+							".#...#..",
+							"....#...",
+							".#..#..#",
+							"..#....#"
+						]
+					}
+				]
+			}
+		},
+		{
+			"text": "A GIS investigation follows the enquiry steps of grade 7. Ask a question, collect layers and data, and analyse them. Map the results, draw a conclusion, and evaluate what could be wrong or missing.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"ask a question",
+					"collect layers",
+					"overlay and analyse",
+					"map the results",
+					"conclude",
+					"evaluate"
+				]
+			}
+		},
+		{
+			"text": "Question: where should a new park go? Layers: homes, parks, empty land, bus stops. The best site is empty land far from other parks, near many homes and a bus stop. Councils, planners and charities use GIS like this every day."
+		},
+		{
+			"text": "Try it in the world: map your village in layers on signs: water, homes, paths and trees. Which home is furthest from water? Use the layers to choose where to dig a well. Next: grade 8 citizenship."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which kind of GIS feature is a river?",
+			"choices": [
+				"an area",
+				"a pixel",
+				"a point",
+				"a line"
+			],
+			"answer": 3,
+			"hint": "Is it one spot, long and thin, or does it cover ground?",
+			"explain": "A river is long and thin, so a GIS stores it as a line."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A GIS can switch layers on and off.",
+			"answer": true,
+			"hint": "Think of stacking see-through sheets.",
+			"explain": "True: you choose which layers to show, and put them together to answer questions."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who mapped cholera cases round a water pump in 1854?",
+			"choices": [
+				"James Watt",
+				"Florence Nightingale",
+				"Isaac Newton",
+				"John Snow"
+			],
+			"answer": 3,
+			"hint": "He was a London doctor.",
+			"explain": "John Snow, whose map pointed to the Broad Street pump."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A map shows 12 houses, and 3 of them are inside the flood zone. How many are outside it?",
+			"answer": "9",
+			"hint": "Take the houses inside from all the houses.",
+			"explain": "12 − 3 = 9 houses."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these features: points, lines or areas?",
+			"groups": [
+				"point",
+				"line",
+				"area"
+			],
+			"items": [
+				"a well",
+				"a footpath",
+				"a lake",
+				"a park",
+				"a railway",
+				"a bus stop"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				2,
+				1,
+				0
+			],
+			"hint": "One spot, long and thin, or covering ground?",
+			"explain": "Points: a bus stop, a well. Lines: a railway, a footpath. Areas: a lake, a park."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A map shows 20 houses; 5 are inside the flood zone. What percentage of the houses could flood?",
+			"answer": "25",
+			"hint": "Divide the houses at risk by all the houses, then multiply by 100.",
+			"explain": "5 ÷ 20 × 100 = 25%."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a GIS investigation in order.",
+			"items": [
+				"ask a question",
+				"conclude and evaluate",
+				"map the results",
+				"overlay and analyse",
+				"collect the layers"
+			],
+			"answer": [
+				0,
+				4,
+				3,
+				2,
+				1
+			],
+			"hint": "Question first, judgement last.",
+			"explain": "Ask, collect, analyse, map, then conclude and evaluate."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each data source to what it gives.",
+			"items": [
+				"satellites",
+				"GPS",
+				"a census",
+				"river sensors"
+			],
+			"matches": [
+				"exact positions",
+				"water levels",
+				"pictures of land from space",
+				"how many people live where"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1
+			],
+			"hint": "Pictures, positions, people and water.",
+			"explain": "Satellites: pictures from space. GPS: positions. Census: people. River sensors: water levels."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a buffer in GIS?",
+			"choices": [
+				"a type of rock",
+				"a zone of set distance round a feature",
+				"a kind of road",
+				"a printer"
+			],
+			"answer": 1,
+			"hint": "Think of '500 m round a river'.",
+			"explain": "A buffer is a zone of a chosen distance drawn round a feature."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Overlay analysis puts layers together to answer questions.",
+			"answer": true,
+			"hint": "Think of houses and the flood zone.",
+			"explain": "True: houses inside the flood zone show which homes could flood."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why should a GIS investigation say how old its data is?",
+			"choices": [
+				"places change, so old data can mislead",
+				"it is a law",
+				"it looks nicer",
+				"old data is always better"
+			],
+			"answer": 0,
+			"hint": "Think of a map drawn before a new estate was built.",
+			"explain": "New roads and homes appear; old layers can miss them and lead to wrong conclusions."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 500 m buffer is drawn round a river. A school is 1.2 km from the river. How many metres outside the buffer is it?",
+			"answer": "700",
+			"hint": "Change km to metres first, then subtract.",
+			"explain": "1.2 km = 1,200 m; 1,200 − 500 = 700 m."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did removing the Broad Street pump's handle matter?",
+			"choices": [
+				"people liked the handle",
+				"cases fell, so the water was spreading it",
+				"it made the map prettier",
+				"the pump was broken"
+			],
+			"answer": 1,
+			"hint": "Think about what changed after people could not use that water.",
+			"explain": "When the pump stopped, cholera cases fell: evidence that the dirty water was spreading the disease."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these sites for a new park: good or poor?",
+			"groups": [
+				"good site",
+				"poor site"
+			],
+			"items": [
+				"far from any bus stop",
+				"near a bus stop and homes",
+				"where children have no green space",
+				"next to an existing park",
+				"on a busy road junction",
+				"empty land near many homes"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Think of the question: who needs a park, and can they reach it?",
+			"explain": "Good: empty land near homes, near a bus stop, where children have no green space. Poor: next to a park, far from buses, on a junction."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A GIS conclusion can be wrong if a layer is missing.",
+			"answer": true,
+			"hint": "Think what you would miss without the bus stops layer.",
+			"explain": "True: a missing or old layer can hide something important, so we evaluate our data."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.overlay_count",
+			"level": 1
+		},
+		{
+			"gen": "g8h.overlay_count",
+			"level": 2
+		},
+		{
+			"gen": "g8h.overlay_count",
+			"level": 3
+		},
+		{
+			"gen": "g8h.gis_features",
+			"level": 1
+		},
+		{
+			"gen": "g8h.gis_features",
+			"level": 2
+		},
+		{
+			"gen": "g8h.gis_features",
+			"level": 3
+		}
+	]
+}

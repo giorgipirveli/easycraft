@@ -1,0 +1,329 @@
+{
+	"id": "g4.computing.search_smart",
+	"lesson": [
+		{
+			"text": "Quick memory: what does a router do? (It joins devices and sends messages the right way.) Today: finding things on the web with a search engine."
+		},
+		{
+			"text": "A search engine doesn't read the whole web when you ask. Its programs visit pages all the time and build an index: a giant list of which words are on which pages. Your search looks in that index.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"word",
+						"on pages"
+					],
+					[
+						"giraffe",
+						"1, 4, 9"
+					],
+					[
+						"height",
+						"2, 4, 7"
+					]
+				]
+			}
+		},
+		{
+			"text": "Choose keywords: the few words that matter most. Instead of Please tell me how tall a giraffe can grow, search giraffe height. Leave out little words like the, a and please.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Question",
+						"Keywords"
+					],
+					[
+						"How tall is a giraffe?",
+						"giraffe height"
+					],
+					[
+						"What do bats eat?",
+						"bat food"
+					]
+				]
+			}
+		},
+		{
+			"text": "Be exact: bat could be an animal or a cricket bat. Search fruit bat or bat animal to find what you mean. Put words in quotation marks, like “blue whale”, to find them together, in that order."
+		},
+		{
+			"text": "Results are ranked: the pages the search engine guesses are most useful come first. It looks at how well your words match, and at how many other pages link to each page."
+		},
+		{
+			"text": "The first result is not always the best or the truest. Some results at the top are adverts, marked Ad or Sponsored. Read a few results before you choose.",
+			"picture": {
+				"kind": "search_page",
+				"query": "how volcanoes form",
+				"results": [
+					{
+						"title": "Buy a volcano kit today!",
+						"ad": true
+					},
+					{
+						"title": "Museum: how volcanoes form"
+					},
+					{
+						"title": "Volcano facts for children"
+					}
+				],
+				"mark": 0
+			}
+		},
+		{
+			"text": "Search safely: a grown-up can set up a search made for children. If something upsetting appears, close it and tell a grown-up you trust."
+		},
+		{
+			"text": "Try it in the world: think of a question about our world, like how volcanoes form. Write three different searches for it and choose the best keywords. Next: checking whether what you find is true."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which are the best keywords to find out how fast a cheetah runs?",
+			"answer": 0,
+			"hint": "Which words matter most for your question?",
+			"choices": [
+				"cheetah speed",
+				"please tell me the answer",
+				"a the is",
+				"animals"
+			],
+			"explain": "cheetah speed: the two words that matter, and nothing extra."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The first search result is always the truest.",
+			"answer": false,
+			"hint": "How does the search engine order its results?",
+			"explain": "False: results are ranked by guesses, and some at the top are adverts. Read a few."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: a keyword, or a little word you can leave out?",
+			"groups": [
+				"keyword",
+				"leave it out"
+			],
+			"items": [
+				"giraffe",
+				"height",
+				"the",
+				"please",
+				"volcano",
+				"a"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Does the word tell the search engine what you are looking for?",
+			"explain": "giraffe, height and volcano matter. the, please and a don't."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a search engine look in when you search?",
+			"answer": 0,
+			"hint": "Remember the giant list.",
+			"choices": [
+				"its index of the pages it has visited",
+				"every book in the world",
+				"your photos",
+				"the router"
+			],
+			"explain": "It looks in its index: a list of which words are on which pages."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "You search bat and get cricket bats. What should you search instead?",
+			"answer": 0,
+			"hint": "Add a word that says which kind of bat you mean.",
+			"choices": [
+				"bat animal",
+				"bat bat bat",
+				"cricket",
+				"b a t"
+			],
+			"explain": "bat animal tells the search engine which bat you mean."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does Ad next to a search result mean?",
+			"answer": 0,
+			"hint": "Why would a page be at the top without being the best?",
+			"choices": [
+				"someone paid to put it there",
+				"it is the best page",
+				"it is about adding up",
+				"it is always true"
+			],
+			"explain": "Ad (or Sponsored) means someone paid for it to be shown there. It may not be the best answer."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of a good search in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start with your question and end by checking.",
+			"items": [
+				"Choose keywords",
+				"Read a few results",
+				"Think what you want to find",
+				"Search",
+				"Check the facts on another good site"
+			],
+			"explain": "Think, choose keywords, search, read a few results, then check the facts somewhere else."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each search to what it finds.",
+			"items": [
+				"“blue whale”",
+				"whale",
+				"blue whale size"
+			],
+			"matches": [
+				"how big blue whales are",
+				"those words together",
+				"every kind of whale"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Quotation marks keep words together; more keywords make it narrower.",
+			"explain": "“blue whale” finds the words together, whale finds every whale, blue whale size finds how big they are."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Search engines rank results: the ones they guess are most useful come first.",
+			"answer": true,
+			"hint": "Why are some results at the top?",
+			"explain": "True: they are ranked, most useful (by the search engine's guess) first."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why might a page be near the top of the results?",
+			"answer": 0,
+			"hint": "What does the search engine look at when it ranks pages?",
+			"choices": [
+				"many other pages link to it",
+				"it has the most colours",
+				"it is the newest phone",
+				"it is always true"
+			],
+			"explain": "Pages that many other pages link to are often ranked higher. That still doesn't make them true."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Juno searched “volcanoes in Italy” with quotation marks and found few pages. What could help?",
+			"answer": 0,
+			"hint": "What do the quotation marks do?",
+			"choices": [
+				"search without the quotation marks",
+				"add more little words",
+				"search in capital letters",
+				"stop searching"
+			],
+			"explain": "Quotation marks find only those exact words in that order. Without them, pages with the words anywhere count."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these search habits: do they help or not?",
+			"groups": [
+				"helps",
+				"doesn't help"
+			],
+			"items": [
+				"reading a few results",
+				"checking another good site",
+				"choosing exact keywords",
+				"clicking the first result without reading",
+				"believing every advert",
+				"searching one vague word"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Which habits find good, true answers?",
+			"explain": "Reading a few results, checking another site and exact keywords help. The others don't."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Changing your keywords can give you better results.",
+			"answer": true,
+			"hint": "What decides which pages you get?",
+			"explain": "True: better keywords find better pages. Try again with other words if the first search doesn't work."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is a search engine's index?",
+			"answer": 0,
+			"hint": "Remember what the search engine's programs build as they visit pages.",
+			"choices": [
+				"a giant list of which words are on which pages",
+				"a list of your passwords",
+				"the first result",
+				"a kind of advert"
+			],
+			"explain": "The index is a giant list of which words are on which pages. Your search looks in it."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the searches: well chosen, or could be better?",
+			"groups": [
+				"well chosen",
+				"could be better"
+			],
+			"items": [
+				"giraffe height",
+				"please tell me about the giraffe",
+				"fruit bat",
+				"bat",
+				"volcanoes Italy",
+				"the and of a"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Good searches use the few words that matter, and are exact.",
+			"explain": "Well chosen: giraffe height, fruit bat and volcanoes Italy are short, exact keywords. Could be better: the polite question has little words, bat could mean a cricket bat, and 'the and of a' has no keywords at all."
+		}
+	],
+	"generators": []
+}

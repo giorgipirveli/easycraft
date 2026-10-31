@@ -1,0 +1,316 @@
+{
+	"id": "g4.computing.variables_intro",
+	"lesson": [
+		{
+			"text": "Quick memory: in IF score > 10, what is the condition? (score > 10: it is true or false.) Today: where the score is kept, a variable."
+		},
+		{
+			"text": "A variable is a box with a name that holds a value, like a number or a word. The box called score might hold 0 now and 25 later. The name stays the same; what is inside can change (vary)."
+		},
+		{
+			"text": "SET score TO 0 puts 0 in the box, often when a game starts. SET throws away what was there before.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"WHEN START is tapped",
+					"  SET score TO 0"
+				]
+			}
+		},
+		{
+			"text": "CHANGE score BY 10 adds 10 to what is in the box. CHANGE score BY -5 takes 5 away.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"CHANGE score BY 10",
+					"CHANGE score BY -5"
+				]
+			}
+		},
+		{
+			"text": "Worked example: SET score TO 0. A gem: CHANGE score BY 10. Another gem: CHANGE score BY 10. A trap: CHANGE score BY -5. The score goes 0, 10, 20, then 15.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET score TO 0",
+					"CHANGE score BY 10",
+					"CHANGE score BY 10",
+					"CHANGE score BY -5"
+				]
+			}
+		},
+		{
+			"text": "Events, IF and variables work together: WHEN a gem is touched, CHANGE gems BY 1; IF gems = 5, SAY The gate opens!",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"WHEN a gem is touched",
+					"  CHANGE gems BY 1",
+					"  IF gems = 5",
+					"    SAY The gate opens!"
+				]
+			}
+		},
+		{
+			"text": "Games keep many variables: your score, your gold, your health, the time of day. Give each one a name that says what it holds: lives, not x."
+		},
+		{
+			"text": "Try it in the world: keep a variable on paper called blocks. SET it TO 0, then CHANGE it BY 1 for every block you place while you build a tower in your world. What is its value at the end? Next: planning programs."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a variable?",
+			"answer": 0,
+			"hint": "Think of the box called score.",
+			"choices": [
+				"a named box that holds a value",
+				"a kind of loop",
+				"an event",
+				"a picture on the screen"
+			],
+			"explain": "A variable is a box with a name, holding a value that can change."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is score now?",
+			"answer": "5",
+			"hint": "SET puts a value in; CHANGE adds to it.",
+			"explain": "score starts at 0, and 0 + 5 = 5.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET score TO 0",
+					"CHANGE score BY 5"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A variable's value can change while the program runs.",
+			"answer": true,
+			"hint": "What does the word vary mean?",
+			"explain": "True: that is why it is called a variable. score can be 0, then 10, then 20."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the best name for a variable that counts lives?",
+			"answer": 0,
+			"hint": "Which name tells you what the box holds?",
+			"choices": [
+				"lives",
+				"x",
+				"thing",
+				"box2"
+			],
+			"explain": "lives says exactly what it holds. x, thing and box2 don't."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is gold at the end?",
+			"answer": "25",
+			"hint": "Keep the value on paper and change it line by line.",
+			"explain": "gold starts at 20. 20 + 15 = 35, then 35 − 10 = 25.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET gold TO 20",
+					"CHANGE gold BY 15",
+					"CHANGE gold BY -10"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is stars at the end?",
+			"answer": "12",
+			"hint": "How many times does the loop add, and how much each time?",
+			"explain": "stars starts at 0. The loop adds 3, 4 times: 4 × 3 = 12.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET stars TO 0",
+					"REPEAT 4 TIMES",
+					"  CHANGE stars BY 3"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "SET score TO 7 adds 7 to the score.",
+			"answer": false,
+			"hint": "Which block adds, and which one puts a new value in?",
+			"explain": "False: SET puts 7 in the box and throws the old value away. CHANGE score BY 7 would add 7."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each block to what it does.",
+			"items": [
+				"SET score TO 0",
+				"CHANGE score BY 1",
+				"CHANGE score BY -1",
+				"IF score > 9"
+			],
+			"matches": [
+				"adds 1",
+				"takes 1 away",
+				"checks the value",
+				"puts 0 in the box"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "SET replaces, CHANGE adds (a minus takes away), IF checks.",
+			"explain": "SET score TO 0 puts 0 in. BY 1 adds 1, BY -1 takes 1 away. IF score > 9 checks the value."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put this game's program in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What must happen before the game starts? What waits for a gem?",
+			"items": [
+				"IF score = 10, SAY You win!",
+				"CHANGE score BY 1",
+				"WHEN a gem is touched",
+				"SET score TO 0"
+			],
+			"explain": "Set the score first, then wait for a gem, add 1, and check whether it has reached 10."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "lives starts at 3. The player is hit twice, then picks up a heart. What is lives now?",
+			"answer": "2",
+			"hint": "Each hit changes lives by -1; the heart changes it by 1.",
+			"explain": "3 − 1 = 2, 2 − 1 = 1, then 1 + 1 = 2 lives.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET lives TO 3",
+					"CHANGE lives BY -1",
+					"CHANGE lives BY -1",
+					"CHANGE lives BY 1"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram's score is always 10, however many gems he finds. What is the bug?",
+			"answer": 0,
+			"hint": "Run it twice in your head: what happens to score on the second gem?",
+			"choices": [
+				"SET score TO 0 is inside the event",
+				"CHANGE should be BY 1",
+				"WHEN should be IF",
+				"gems can't change a score"
+			],
+			"explain": "Each gem runs SET score TO 0 again, then adds 10, so it is always 10. Move SET score TO 0 before the event.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"WHEN a gem is touched",
+					"  SET score TO 0",
+					"  CHANGE score BY 10"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: does it change while you play (a variable), or stay the same?",
+			"groups": [
+				"changes: a variable",
+				"stays the same"
+			],
+			"items": [
+				"your score",
+				"the time left",
+				"your gold",
+				"the sides of a square",
+				"the name of the game",
+				"the days in a week"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Could it be different a minute from now?",
+			"explain": "Score, time left and gold change as you play. A square's 4 sides, the game's name and the 7 days don't."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is score at the end?",
+			"answer": "3",
+			"hint": "Remember: SET throws away what was in the box.",
+			"explain": "The second SET throws the 5 away: 0 + 3 = 3.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET score TO 5",
+					"SET score TO 0",
+					"CHANGE score BY 3"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A game adds 10 points for each gem and takes away 5 for each trap. Zara starts at 0, finds 4 gems and hits 2 traps. What is her score?",
+			"answer": "30",
+			"hint": "Work out the gems' points and the traps' points, then put them together.",
+			"explain": "Gems: 4 × 10 = 40. Traps: 2 × 5 = 10. 40 − 10 = 30 points."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "lives holds 3. Which line makes it 0?",
+			"answer": 0,
+			"hint": "Which block puts a new value in the box?",
+			"choices": [
+				"SET lives TO 0",
+				"CHANGE lives BY 0",
+				"CHANGE lives BY 3",
+				"SET lives TO 3"
+			],
+			"explain": "SET lives TO 0 puts 0 in the box. CHANGE lives BY 0 leaves 3."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.trace_variable",
+			"level": 1
+		},
+		{
+			"gen": "g4a.trace_variable",
+			"level": 2
+		},
+		{
+			"gen": "g4a.trace_variable",
+			"level": 3
+		}
+	]
+}

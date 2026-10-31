@@ -1,0 +1,199 @@
+{
+	"id": "moon_landing",
+	"title": "Landing on the Moon",
+	"topic": "space",
+	"link": {"star_map": true},
+	"still": 16.8,
+	"stage": {
+		"sky": "moon",
+		"light": "moon",
+		"sun": [0.7, 0.42, 0.55],
+		"models": [
+			{"id": "ground", "model": "ground", "look": "moon", "at": [0, 0, 0], "size": 700},
+			{"id": "pad", "model": "pad", "at": [0, 0.03, 0]},
+			{
+				"id": "lander",
+				"model": "rocket",
+				"rocket": "lander",
+				"at": [0, 70, 0],
+				"moves": [{"do": "move", "at": 1, "dur": 15.6, "to": [0, 0, 0], "ease": "out"}]
+			},
+			{
+				"id": "astronaut",
+				"model": "avatar",
+				"look": "astronaut",
+				"at": [2.3, 0, 2.6],
+				"turn": [0, 200, 0],
+				"moves": [
+					{"do": "pop", "at": 21.4},
+					{"do": "emote", "at": 22.4, "emote": "wave"},
+					{"do": "emote", "at": 29.6, "emote": "cheer"},
+					{"do": "move", "at": 30.0, "dur": 1.2, "to": [2.3, 2.6, 2.6], "ease": "out"},
+					{"do": "move", "at": 31.2, "dur": 1.2, "to": [2.3, 0, 2.6], "ease": "in"},
+					{"do": "move", "at": 33.4, "dur": 1.2, "to": [2.3, 2.6, 2.6], "ease": "out"},
+					{"do": "move", "at": 34.6, "dur": 1.2, "to": [2.3, 0, 2.6], "ease": "in"},
+					{"do": "emote", "at": 40.0, "emote": "wave"}
+				]
+			},
+			{
+				"id": "earth",
+				"model": "planet",
+				"body": "earth",
+				"at": [-1400, 620, -4200],
+				"size": 380,
+				"turn": [20, 200, 0]
+			}
+		],
+		"effects": [
+			{"kind": "flame", "on": "lander", "from": 0, "to": 16.6, "size": 0.55},
+			{
+				"kind": "billow",
+				"at": [0, 0.2, 0],
+				"from": 12.8,
+				"to": 16.8,
+				"size": 0.45,
+				"speed": 1.5,
+				"amount": 110,
+				"color": "#c9cad2"
+			},
+			{
+				"kind": "billow",
+				"at": [2.3, 0.05, 2.6],
+				"from": 31.2,
+				"to": 31.5,
+				"size": 0.16,
+				"amount": 24,
+				"color": "#c9cad2"
+			},
+			{
+				"kind": "billow",
+				"at": [2.3, 0.05, 2.6],
+				"from": 34.6,
+				"to": 34.9,
+				"size": 0.16,
+				"amount": 24,
+				"color": "#c9cad2"
+			}
+		],
+		"camera": [
+			{"at": 0, "follow": "lander", "pos": [12, 5, 24], "look": [0, -1, 0], "fov": 50},
+			{"at": 8.9, "follow": "lander", "pos": [9, 3, 19], "look": [0, -1, 0], "fov": 50},
+			{"at": 9, "cut": true, "pos": [7, 2.4000000000000004, 10], "look": [0, 5, 0], "fov": 55},
+			{"at": 13, "pos": [6.8, 2.5, 9.6], "look": [0, 3.5, 0], "fov": 55, "shake": 0.06},
+			{"at": 16.6, "pos": [6.5, 2.6, 9.2], "look": [0, 2.5, 0], "fov": 55, "shake": 0},
+			{"at": 17.9, "pos": [6.4, 2.7, 9.0], "look": [0, 2.4, 0], "fov": 55},
+			{"at": 18, "cut": true, "pos": [5, 1.6, 9.5], "look": [1.4, 1.7, 1.8], "fov": 46},
+			{"at": 27.9, "pos": [4.4, 1.5, 7.4], "look": [1.9, 1.5, 2.2], "fov": 44},
+			{"at": 28, "cut": true, "pos": [9, 2.2, 13], "look": [1.8, 2.6, 2.2], "fov": 48},
+			{"at": 37.9, "pos": [7.5, 1.6, 12], "look": [2, 2.6, 2], "fov": 48, "path": "orbit"},
+			{"at": 38, "cut": true, "pos": [6, 1.3, 9.5], "look": [1.6, 1.6, 2.2], "fov": 46},
+			{"at": 41.5, "pos": [6, 1.3, 9.5], "look": [1.6, 1.7, 2.2], "fov": 46},
+			{"at": 47.9, "pos": [7, 1.1, 10.5], "look": [-160, 110, -480], "fov": 50}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 9,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Our lander comes down to the Moon. No air: no parachute!",
+			"say": "Our lander is coming down to the Moon. The Moon has no air, so a parachute would not work.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "NO AIR ON THE MOON",
+					"at": [180, 78],
+					"size": 24,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "pop", "at": 4.6}]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Its engine pushes down to slow it. The dust blows away.",
+			"say": "So its engine pushes down to slow it gently. Near the ground, the dust blows away.",
+			"sounds": [{"at": 0.4, "effect": "rocket_whoosh"}, {"at": 7.7, "effect": "thud"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "ENGINE BRAKES",
+					"at": [180, 78],
+					"size": 24,
+					"color": "white",
+					"box": "orange",
+					"moves": [{"do": "pop", "at": 0.8}, {"do": "out", "at": 6.9}]
+				},
+				{
+					"kind": "words",
+					"text": "TOUCHDOWN!",
+					"at": [180, 78],
+					"size": 34,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 7.6}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "An astronaut climbs out and waves. People first did this in 1969!",
+			"say": "An astronaut climbs out and waves hello. The first people stepped onto the Moon in 1969.",
+			"sounds": [{"at": 3.4, "effect": "pop"}, {"at": 5.0, "effect": "chime"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "FIRST TIME: 1969",
+					"at": [180, 78],
+					"size": 24,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 5.0}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "The Moon pulls six times more gently, so you jump six times higher!",
+			"say": "The Moon pulls six times more gently than Earth, so you can jump six times higher. Boing!",
+			"sounds": [{"at": 2.0, "effect": "boing"}, {"at": 5.4, "effect": "boing"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "6 × HIGHER",
+					"at": [180, 78],
+					"size": 34,
+					"color": "white",
+					"box": "green",
+					"moves": [{"do": "pop", "at": 2.2}, {"do": "pulse", "at": 5.6}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Look up: there is Earth! What would you do first on the Moon?",
+			"say": "Look up: there is our Earth, shining in the black sky. What would you do first on the Moon?",
+			"sounds": [{"at": 6.0, "effect": "sparkle"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "HOME",
+					"at": [180, 78],
+					"size": 28,
+					"color": "white",
+					"box": "sea",
+					"moves": [{"do": "pop", "at": 7.2}]
+				}
+			]
+		}
+	]
+}

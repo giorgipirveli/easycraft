@@ -1,0 +1,454 @@
+{
+	"id": "g6.design_tech.mechanisms",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you counted gear teeth. A 10-tooth gear drives a 30-tooth gear: how many turns of the small one turn the big one once? (3.) Today: levers, linkages and gear ratios."
+		},
+		{
+			"text": "A lever is a bar that turns on a pivot. In a class 1 lever, the pivot is in the middle: push one end down and the other goes up, like a seesaw, scissors or a crowbar.",
+			"picture": {
+				"kind": "lever_class",
+				"pivot": 5,
+				"load": 1,
+				"effort": 9
+			}
+		},
+		{
+			"text": "In a class 2 lever, the load is in the middle, like a wheelbarrow or a nutcracker: a small effort lifts a big load. In a class 3 lever, the effort is in the middle, like tweezers or your forearm.",
+			"picture": {
+				"kind": "lever_class",
+				"pivot": 0,
+				"load": 4,
+				"effort": 10
+			}
+		},
+		{
+			"text": "A lever balances when the moments are equal: effort × its distance from the pivot = load × its distance. A 60 N load 2 marks away: 60 × 2 = 120, so an effort 6 marks away needs 120 ÷ 6 = 20 N.",
+			"picture": {
+				"kind": "lever_class",
+				"pivot": 2,
+				"load": 0,
+				"effort": 8,
+				"scale": true,
+				"values": {
+					"load": "60 N",
+					"effort": "20 N"
+				}
+			}
+		},
+		{
+			"text": "A linkage joins bars with pivots to change a movement. A reverse motion linkage has a fixed pivot in the middle: push the input one way, and the output moves the other way.",
+			"picture": {
+				"kind": "linkage",
+				"type": "reverse",
+				"labels": true
+			}
+		},
+		{
+			"text": "A parallel motion linkage makes the output move the same way as the input. A bell crank turns a movement through a right angle: old bell pulls in big houses used them to ring a bell in another room.",
+			"picture": {
+				"kind": "linkage",
+				"type": "bell_crank",
+				"labels": true
+			}
+		},
+		{
+			"text": "A gear ratio compares the teeth: driven ÷ driver. A 10-tooth driver turning a 40-tooth gear: 40 ÷ 10 = 4, a ratio of 4 : 1. Four turns in make one turn out: slower, but with more turning force.",
+			"picture": {
+				"kind": "gears",
+				"gears": [
+					10,
+					40
+				],
+				"turn": "cw",
+				"labels": [
+					"driver",
+					"driven"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a seesaw, a lever lift and a drawbridge, and mark each one's pivot. For real: find three levers in your kitchen, like tongs, a bottle opener and scissors, and name each one's class. Next: sensors and switches."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What class of lever is this?",
+			"answer": 0,
+			"hint": "What is in the middle?",
+			"choices": [
+				"class 1",
+				"class 2",
+				"class 3"
+			],
+			"explain": "Class 1: the pivot is between the load and the effort.",
+			"picture": {
+				"kind": "lever_class",
+				"pivot": 5,
+				"load": 2,
+				"effort": 9
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the pivot?",
+			"answer": 0,
+			"hint": "A seesaw turns on it.",
+			"choices": [
+				"the point a lever turns on",
+				"the load it lifts",
+				"the push you give",
+				"a kind of gear"
+			],
+			"explain": "The pivot (or fulcrum) is the point the lever turns on."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a reverse motion linkage, the output moves the opposite way to the input.",
+			"answer": true,
+			"hint": "Reverse means the other way round.",
+			"explain": "True: the fixed pivot in the middle turns the movement round.",
+			"picture": {
+				"kind": "linkage",
+				"type": "reverse",
+				"labels": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a wheelbarrow?",
+			"answer": 0,
+			"hint": "The wheel is the pivot. Where is the load?",
+			"choices": [
+				"a class 2 lever",
+				"a class 1 lever",
+				"a class 3 lever",
+				"a linkage"
+			],
+			"explain": "Class 2: the load (in the barrow) is between the wheel and your hands."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the lever: tap a word, then its number.",
+			"picture": {
+				"kind": "lever_class",
+				"pivot": 0,
+				"load": 4,
+				"effort": 10,
+				"names": false
+			},
+			"spots": [
+				[
+					0.2,
+					0.92,
+					0.0932,
+					0.664
+				],
+				[
+					0.42,
+					0.1,
+					0.4186,
+					0.4791
+				],
+				[
+					0.75,
+					0.1,
+					0.9068,
+					0.4462
+				]
+			],
+			"labels": [
+				"load",
+				"effort",
+				"pivot"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The triangle is what it turns on; the crate is lifted; the arrow is your push.",
+			"explain": "The pivot is the triangle at the end, the load is the crate in the middle, and the effort is the arrow at the far end: a class 2 lever."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The input is pushed to the right. Which way does the output move?",
+			"answer": 0,
+			"hint": "Follow the bar round the fixed pivot.",
+			"choices": [
+				"left",
+				"right"
+			],
+			"explain": "Left: a reverse motion linkage turns the movement round.",
+			"picture": {
+				"kind": "linkage",
+				"type": "reverse",
+				"move": "right",
+				"output": false,
+				"labels": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 12-tooth driver turns a 36-tooth gear. What is the gear ratio? (3 : 1 is written 3.)",
+			"answer": "3",
+			"hint": "Gear ratio = driven teeth ÷ driver teeth.",
+			"explain": "36 ÷ 12 = 3: a ratio of 3 : 1.",
+			"picture": {
+				"kind": "gears",
+				"gears": [
+					12,
+					36
+				],
+				"turn": "cw",
+				"labels": [
+					"driver",
+					"driven"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each lever to its class.",
+			"items": [
+				"a seesaw",
+				"a wheelbarrow",
+				"tweezers"
+			],
+			"matches": [
+				"class 2",
+				"class 3",
+				"class 1"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "What is in the middle of each?",
+			"explain": "Seesaw: pivot in the middle (1). Wheelbarrow: load in the middle (2). Tweezers: effort in the middle (3)."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 40 N load is 3 marks from the pivot. The effort is 6 marks from the pivot. What effort balances it, in N?",
+			"answer": "20",
+			"hint": "Moments balance: effort × 6 = 40 × 3.",
+			"explain": "40 × 3 = 120, and 120 ÷ 6 = 20 N.",
+			"picture": {
+				"kind": "lever_class",
+				"pivot": 4,
+				"load": 1,
+				"effort": 10,
+				"scale": true,
+				"values": {
+					"load": "40 N",
+					"effort": "?"
+				}
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What class of lever is this?",
+			"answer": 0,
+			"hint": "What is in the middle?",
+			"choices": [
+				"class 3",
+				"class 1",
+				"class 2"
+			],
+			"explain": "Class 3: the effort is between the pivot and the load.",
+			"picture": {
+				"kind": "lever_class",
+				"pivot": 0,
+				"load": 10,
+				"effort": 4
+			}
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label the lever: tap a word, then its number.",
+			"picture": {
+				"kind": "lever_class",
+				"pivot": 0,
+				"load": 10,
+				"effort": 4,
+				"names": false
+			},
+			"spots": [
+				[
+					0.2,
+					0.92,
+					0.0932,
+					0.664
+				],
+				[
+					0.42,
+					0.1,
+					0.4186,
+					0.4462
+				],
+				[
+					0.78,
+					0.1,
+					0.9068,
+					0.4791
+				]
+			],
+			"labels": [
+				"effort",
+				"load",
+				"pivot"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The triangle is the pivot. Which is in the middle here: the crate or the arrow?",
+			"explain": "The pivot is at the end, the effort (the arrow) is in the middle, and the load (the crate) is at the far end: class 3."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This is a parallel motion linkage. The input is pushed to the left. Which way does the output move?",
+			"answer": 0,
+			"hint": "Two reverse linkages, one after the other.",
+			"choices": [
+				"left",
+				"right"
+			],
+			"explain": "Left: the second linkage turns the movement round again, so it moves the same way as the input.",
+			"picture": {
+				"kind": "linkage",
+				"type": "parallel",
+				"move": "left",
+				"output": false,
+				"labels": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The input rod of this bell crank is pushed to the right. Which way does the output move?",
+			"answer": 0,
+			"hint": "The L-shaped bar turns on its corner.",
+			"choices": [
+				"down",
+				"up",
+				"left",
+				"right"
+			],
+			"explain": "Down: the top arm moves right, so the bar turns, and the other arm moves down.",
+			"picture": {
+				"kind": "linkage",
+				"type": "bell_crank",
+				"move": "right",
+				"output": false,
+				"labels": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Gear A (10 teeth) drives gear B (20 teeth). On B's axle, gear C (10 teeth) drives gear D (30 teeth). How many turns of A make one turn of D?",
+			"answer": "6",
+			"hint": "Find each pair's ratio, then multiply.",
+			"explain": "A to B: 20 ÷ 10 = 2. C to D: 30 ÷ 10 = 3. 2 × 3 = 6 turns."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 30-tooth driver turns 60 times a minute. It drives a 10-tooth gear. How many times a minute does the small gear turn?",
+			"answer": "180",
+			"hint": "The same number of teeth pass each gear every minute.",
+			"explain": "60 × 30 = 1,800 teeth a minute, and 1,800 ÷ 10 = 180 turns.",
+			"picture": {
+				"kind": "gears",
+				"gears": [
+					30,
+					10
+				],
+				"turn": "cw",
+				"labels": [
+					"driver",
+					"driven"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your forearm lifts a cup: the elbow is the pivot, and the muscle pulls between the elbow and the hand. What class of lever is it?",
+			"answer": 0,
+			"hint": "What is in the middle: the pivot, the load or the effort?",
+			"choices": [
+				"class 3",
+				"class 2",
+				"class 1"
+			],
+			"explain": "Class 3: the effort (the muscle) is between the pivot (the elbow) and the load (the cup)."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.lever_class",
+			"level": 1
+		},
+		{
+			"gen": "g6w.lever_class",
+			"level": 2
+		},
+		{
+			"gen": "g6w.lever_class",
+			"level": 3
+		},
+		{
+			"gen": "g6w.lever_balance",
+			"level": 1
+		},
+		{
+			"gen": "g6w.lever_balance",
+			"level": 2
+		},
+		{
+			"gen": "g6w.lever_balance",
+			"level": 3
+		},
+		{
+			"gen": "g6w.gear_ratio",
+			"level": 1
+		},
+		{
+			"gen": "g6w.gear_ratio",
+			"level": 2
+		},
+		{
+			"gen": "g6w.gear_ratio",
+			"level": 3
+		},
+		{
+			"gen": "g6w.linkage_move",
+			"level": 1
+		},
+		{
+			"gen": "g6w.linkage_move",
+			"level": 2
+		},
+		{
+			"gen": "g6w.linkage_move",
+			"level": 3
+		}
+	]
+}

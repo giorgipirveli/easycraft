@@ -1,0 +1,321 @@
+{
+	"id": "g8.citizenship.democracies_compared",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you learned how a country is run. What are the three jobs of government? (Making laws, carrying them out, and judging them.) Today: how different democracies elect leaders and make laws."
+		},
+		{
+			"text": "A democracy is rule by the people. In a direct democracy citizens vote on laws themselves, as in Switzerland's frequent referendums. Most democracies are representative: people elect others to make the laws for them."
+		},
+		{
+			"text": "In a parliamentary system, such as the UK's, India's or Japan's, voters elect members of parliament. The group with the most seats forms the government, and its leader becomes prime minister. The UK's House of Commons has 650 seats; 326 make a majority.",
+			"picture": {
+				"kind": "parliament_seats",
+				"groups": [
+					[
+						"Group A",
+						330
+					],
+					[
+						"Group B",
+						200
+					],
+					[
+						"Group C",
+						70
+					],
+					[
+						"others",
+						50
+					]
+				],
+				"majority": true,
+				"title": "650 seats"
+			}
+		},
+		{
+			"text": "In a presidential system, such as the USA's, the president is elected apart from the lawmakers; in the USA an Electoral College of 538 votes chooses. The president runs the government but cannot pass laws alone: Congress makes them."
+		},
+		{
+			"text": "A democracy can have a monarch. The UK, Japan, Sweden and Spain are constitutional monarchies: the king or queen has a ceremonial role, and elected leaders govern. Republics, such as France, India and the USA, have a head of state who is elected or chosen."
+		},
+		{
+			"text": "First past the post: each area elects one member, the candidate with the most votes, even under half. It is simple and gives each area its own member, but seats may not match votes. Proportional representation shares seats in proportion to votes.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"first past the post",
+						"proportional"
+					],
+					[
+						"used in",
+						"UK, USA, India",
+						"Netherlands, Spain"
+					],
+					[
+						"seats match votes?",
+						"not always",
+						"closely"
+					],
+					[
+						"a local member?",
+						"yes",
+						"not always"
+					]
+				]
+			}
+		},
+		{
+			"text": "Germany mixes the two: each voter has two votes, one for a local member and one for a party's list. Australia makes voting compulsory, and voters rank candidates in order. India, with nearly a billion voters, holds the world's biggest elections."
+		},
+		{
+			"text": "Try it in the world: run an election for your village council two ways: one winner in each street, then seats shared by votes. Do the results differ? Next: your voice."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In which system is the leader elected separately from the lawmakers?",
+			"choices": [
+				"presidential",
+				"direct democracy",
+				"constitutional monarchy",
+				"parliamentary"
+			],
+			"answer": 0,
+			"hint": "Think of how the USA chooses its leader.",
+			"explain": "In a presidential system, such as the USA's, the president is elected separately."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a direct democracy citizens vote on laws themselves.",
+			"answer": true,
+			"hint": "Think of Switzerland's referendums.",
+			"explain": "True: in a referendum, citizens decide a question themselves."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The House of Commons has 650 seats. How many make a majority, more than half?",
+			"answer": "326",
+			"hint": "Find half, then add one.",
+			"explain": "Half of 650 is 325; a majority is 325 + 1 = 326."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a constitutional monarchy?",
+			"choices": [
+				"India",
+				"France",
+				"the UK",
+				"the USA"
+			],
+			"answer": 2,
+			"hint": "It has a king or queen with a ceremonial role.",
+			"explain": "The UK: a monarch with a ceremonial role, and elected leaders who govern."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: parliamentary or presidential system?",
+			"groups": [
+				"parliamentary",
+				"presidential"
+			],
+			"items": [
+				"Japan",
+				"Mexico",
+				"India",
+				"Brazil",
+				"the USA",
+				"the UK"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Is the leader chosen from parliament, or elected separately?",
+			"explain": "Parliamentary: the UK, India, Japan. Presidential: the USA, Brazil, Mexico."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Under proportional representation, a group wins 30% of the votes for a parliament of 150 seats. How many seats does it get?",
+			"answer": "45",
+			"hint": "Seats follow votes: take 30% of the seats.",
+			"explain": "30% of 150 = 45 seats."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each country to a feature of its democracy.",
+			"items": [
+				"Switzerland",
+				"Australia",
+				"Germany",
+				"India"
+			],
+			"matches": [
+				"compulsory voting",
+				"frequent referendums",
+				"two votes each",
+				"the biggest elections"
+			],
+			"answer": [
+				1,
+				0,
+				2,
+				3
+			],
+			"hint": "Referendums, a duty to vote, two votes, and nearly a billion voters.",
+			"explain": "Switzerland: referendums. Australia: compulsory voting. Germany: two votes. India: the biggest elections."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is one argument often made for first past the post?",
+			"choices": [
+				"each area has its own member",
+				"it needs no counting",
+				"seats always match votes",
+				"everyone wins a seat"
+			],
+			"answer": 0,
+			"hint": "Think about what links a voter to one person in parliament.",
+			"explain": "Each area elects its own member, who speaks for that place."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order: how a UK prime minister usually comes to power.",
+			"items": [
+				"the largest group is found",
+				"an election is held",
+				"a member is elected in each area",
+				"its leader is asked to form a government"
+			],
+			"answer": [
+				1,
+				2,
+				0,
+				3
+			],
+			"hint": "Votes first, then counting seats, then a government.",
+			"explain": "The election, members elected in each area, the largest group found, then its leader forms a government."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In the USA, the president can pass laws alone.",
+			"answer": false,
+			"hint": "Think of what Congress does.",
+			"explain": "False: Congress makes the laws; the president can sign or block them."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why can a group with many votes win few seats under first past the post?",
+			"choices": [
+				"its votes are not counted",
+				"it has no candidates",
+				"it comes second in many areas",
+				"it wins everywhere"
+			],
+			"answer": 2,
+			"hint": "Only the winner in each area gets a seat.",
+			"explain": "Coming second in many areas wins no seats, so its votes add up to little in parliament."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A group wins 40% of the votes but 60 of 100 seats. How many more seats is that than its share of the votes?",
+			"answer": "20",
+			"hint": "Work out 40% of 100 seats first.",
+			"explain": "40% of 100 = 40; 60 − 40 = 20 more seats."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do democracies split power between lawmakers, government and courts?",
+			"choices": [
+				"so one person can rule",
+				"to save money",
+				"so each can check the others",
+				"to make laws faster"
+			],
+			"answer": 2,
+			"hint": "Think of Montesquieu, from grade 6.",
+			"explain": "Each branch can check the others, so nobody holds all the power."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these points: often given for proportional representation, or against it?",
+			"groups": [
+				"for",
+				"against"
+			],
+			"items": [
+				"more votes count",
+				"seats match votes closely",
+				"small groups get a voice",
+				"forming a government can be slow",
+				"governments often need deals",
+				"weaker link to a local member"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Which points praise how fair it is, and which worry about how it works?",
+			"explain": "For: seats match votes, small groups heard, more votes count. Against: deals needed, weaker local link, slow to form a government."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "There is only one right way to run a democracy.",
+			"answer": false,
+			"hint": "Think of how many different systems the lesson showed.",
+			"explain": "False: democracies differ, and each way has strengths and weaknesses that people debate."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.seat_maths",
+			"level": 1
+		},
+		{
+			"gen": "g8h.seat_maths",
+			"level": 2
+		},
+		{
+			"gen": "g8h.seat_maths",
+			"level": 3
+		},
+		{
+			"gen": "g8h.powers_sort",
+			"level": 1
+		},
+		{
+			"gen": "g8h.powers_sort",
+			"level": 2
+		},
+		{
+			"gen": "g8h.powers_sort",
+			"level": 3
+		}
+	]
+}

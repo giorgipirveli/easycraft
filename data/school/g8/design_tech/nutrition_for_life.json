@@ -1,0 +1,450 @@
+{
+	"id": "g8.design_tech.nutrition_for_life",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you learnt the balanced plate. How many portions of fruit and vegetables a day? (At least 5.) Today: the nutrients in food, and planning for different dietary needs."
+		},
+		{
+			"text": "Macronutrients are needed in large amounts. Carbohydrate is the main energy source, and protein is for growth and repair. Fat is an energy store, keeps you warm and carries vitamins A, D, E and K. Fibre keeps digestion healthy.",
+			"picture": {
+				"kind": "plate"
+			}
+		},
+		{
+			"text": "Micronutrients are needed in small amounts: vitamins and minerals. Vitamin A helps you see in dim light, and vitamin C helps healing. Vitamin D helps the body take in calcium for bones, and iron helps blood carry oxygen.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"nutrient",
+						"its job",
+						"found in"
+					],
+					[
+						"vitamin A",
+						"sight in dim light",
+						"carrots, eggs"
+					],
+					[
+						"vitamin C",
+						"healing",
+						"oranges, peppers"
+					],
+					[
+						"vitamin D",
+						"takes in calcium",
+						"sunlight, oily fish"
+					],
+					[
+						"calcium",
+						"bones and teeth",
+						"milk, yoghurt"
+					],
+					[
+						"iron",
+						"carries oxygen",
+						"beans, spinach"
+					]
+				]
+			}
+		},
+		{
+			"text": "A long lack of one can cause problems. Too little vitamin D can soften bones (rickets). Too little iron causes tiredness (anaemia), and too little vitamin C causes bleeding gums (scurvy)."
+		},
+		{
+			"text": "Teenagers grow fast, so they need plenty of calcium and iron. Aim for about 25 g of fibre a day and 6 to 8 drinks, mostly water. Have no more than 6 g of salt a day."
+		},
+		{
+			"text": "Labels give amounts per 100 g and per portion. A cereal has 8 g of fibre per 100 g. So a 40 g bowl has 8 × 40 ÷ 100 = 3.2 g.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"per 100 g",
+						"per 40 g bowl"
+					],
+					[
+						"fibre",
+						"8 g",
+						"3.2 g"
+					],
+					[
+						"sugar",
+						"5 g",
+						"2 g"
+					],
+					[
+						"salt",
+						"0.5 g",
+						"0.2 g"
+					]
+				]
+			}
+		},
+		{
+			"text": "Plan for dietary needs. Coeliac disease means no gluten, which is in wheat, barley and rye. Vegans plan for protein, iron, calcium and vitamin B12. Allergies and religious food rules are always respected.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"need",
+						"plan"
+					],
+					[
+						"coeliac disease",
+						"avoid gluten"
+					],
+					[
+						"lactose intolerance",
+						"lactose-free milk"
+					],
+					[
+						"vegan",
+						"add B12 and iron"
+					],
+					[
+						"a nut allergy",
+						"avoid all nuts"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: plan a day's meals for a friend who is vegan or coeliac, and check the labels. In LIFE, The Kitchen plans a week's meals on a budget and keeps food safe. Next: how food is produced."
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "A macronutrient or a micronutrient?",
+			"groups": [
+				"macronutrient",
+				"micronutrient"
+			],
+			"items": [
+				"iron",
+				"protein",
+				"vitamin C",
+				"fat",
+				"carbohydrate"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Is it needed in large amounts, or only a little?",
+			"explain": "Macronutrients: carbohydrate, protein, fat. Micronutrients: vitamin C and iron."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which nutrient helps the blood carry oxygen?",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"nutrient",
+						"its job",
+						"found in"
+					],
+					[
+						"vitamin A",
+						"sight in dim light",
+						"carrots, eggs"
+					],
+					[
+						"vitamin C",
+						"healing",
+						"oranges, peppers"
+					],
+					[
+						"vitamin D",
+						"takes in calcium",
+						"sunlight, oily fish"
+					],
+					[
+						"calcium",
+						"bones and teeth",
+						"milk, yoghurt"
+					],
+					[
+						"iron",
+						"carries oxygen",
+						"beans, spinach"
+					]
+				]
+			},
+			"choices": [
+				"iron",
+				"vitamin A",
+				"fibre",
+				"fat"
+			],
+			"answer": 0,
+			"hint": "Look at the table's job column.",
+			"explain": "Iron helps red blood cells carry oxygen round the body."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Fat carries vitamins A, D, E and K around the body.",
+			"answer": true,
+			"hint": "Think of fat's jobs in the lesson.",
+			"explain": "True: those vitamins dissolve in fat, so a little fat in meals helps the body use them."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A cereal has 8 g of fibre per 100 g. How much fibre is in a 40 g bowl, in grams?",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"per 100 g",
+						"per 40 g bowl"
+					],
+					[
+						"fibre",
+						"8 g",
+						"3.2 g"
+					],
+					[
+						"sugar",
+						"5 g",
+						"2 g"
+					],
+					[
+						"salt",
+						"0.5 g",
+						"0.2 g"
+					]
+				]
+			},
+			"answer": "3.2",
+			"hint": "Divide by 100 for 1 g, then multiply by the portion.",
+			"explain": "8 × 40 ÷ 100 = 3.2 g."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each nutrient to a food rich in it.",
+			"items": [
+				"calcium",
+				"vitamin C",
+				"protein",
+				"carbohydrate"
+			],
+			"matches": [
+				"oranges and peppers",
+				"beans, eggs and fish",
+				"bread, rice, pasta",
+				"milk and yoghurt"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the plate's groups.",
+			"explain": "Calcium: dairy. Vitamin C: fruit and peppers. Protein: beans, eggs, fish. Carbohydrate: starchy foods."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which food is safe for someone with coeliac disease?",
+			"choices": [
+				"rice",
+				"pasta",
+				"bread made from wheat",
+				"barley soup"
+			],
+			"answer": 0,
+			"hint": "Gluten is in wheat, barley and rye: which one has none?",
+			"explain": "Rice has no gluten; pasta, wheat bread and barley soup all do."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Does it have gluten, or is it gluten-free?",
+			"groups": [
+				"has gluten",
+				"gluten-free"
+			],
+			"items": [
+				"rye crackers",
+				"potatoes",
+				"eggs",
+				"couscous",
+				"corn tortillas"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Look for wheat, barley or rye in it.",
+			"explain": "Gluten: couscous (wheat) and rye crackers. Gluten-free: potatoes, corn tortillas and eggs."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A sandwich has 1.5 g of salt. What percentage of the 6 g daily limit is that?",
+			"answer": "25",
+			"hint": "Divide by 6, then multiply by 100.",
+			"explain": "1.5 ÷ 6 = 0.25; 0.25 × 100 = 25%."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A long lack of vitamin D can lead to…",
+			"choices": [
+				"soft, weak bones (rickets)",
+				"tiredness (anaemia)",
+				"bleeding gums (scurvy)",
+				"poor sight in dim light"
+			],
+			"answer": 0,
+			"hint": "Vitamin D works with calcium: where is calcium used?",
+			"explain": "Without vitamin D the body can't take in enough calcium, so bones become soft and weak."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Vegans need to plan for vitamin B12.",
+			"answer": true,
+			"hint": "B12 is found almost only in animal foods.",
+			"explain": "True: vegans get B12 from fortified foods or a supplement, as it is found almost only in animal foods."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put cooking for a friend with a nut allergy in order.",
+			"items": [
+				"check every label for nuts",
+				"cook with clean tools and surfaces",
+				"ask about all their needs",
+				"choose a recipe with no nuts",
+				"serve it and tell them what is in it"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1,
+				4
+			],
+			"hint": "Ask first, then plan, check, cook, and tell.",
+			"explain": "Ask, choose a safe recipe, check labels, cook cleanly to avoid traces, and tell them what is in it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mo's breakfast had 6 g of fibre and lunch 9 g. How many more grams does he need to reach 25 g?",
+			"answer": "10",
+			"hint": "Add what he has had, then take it from 25.",
+			"explain": "6 + 9 = 15 g; 25 − 15 = 10 g more."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do teenagers need plenty of calcium?",
+			"choices": [
+				"their bones are growing fast",
+				"to see in the dark",
+				"to keep warm",
+				"to stop them feeling hungry"
+			],
+			"answer": 0,
+			"hint": "Which part of the body is building fast in the teenage years?",
+			"explain": "Bones grow and strengthen fast in the teenage years, and calcium (with vitamin D) builds them."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A pizza has 1.2 g of salt per 100 g. A 250 g pizza is what percentage of the 6 g daily limit?",
+			"answer": "50",
+			"hint": "Find the salt in the pizza first, then divide by 6 and times 100.",
+			"explain": "1.2 × 250 ÷ 100 = 3 g; 3 ÷ 6 = 0.5, which is 50% of the day's limit."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Vegan, or not vegan?",
+			"groups": [
+				"vegan",
+				"not vegan"
+			],
+			"items": [
+				"milk chocolate",
+				"honey",
+				"falafel",
+				"lentil curry",
+				"tofu stir-fry"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				0
+			],
+			"hint": "Vegans eat nothing from animals: no meat, fish, milk, eggs or honey.",
+			"explain": "Vegan: lentil curry, tofu, falafel. Not vegan: honey (from bees) and milk chocolate (from cows)."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Potatoes contain gluten.",
+			"answer": false,
+			"hint": "Gluten is a protein in some grains. Is a potato a grain?",
+			"explain": "False: potatoes are a vegetable with no gluten, so they suit people with coeliac disease."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.nutrient_job",
+			"level": 1
+		},
+		{
+			"gen": "g8l.nutrient_job",
+			"level": 2
+		},
+		{
+			"gen": "g8l.nutrient_job",
+			"level": 3
+		},
+		{
+			"gen": "g8l.per_portion",
+			"level": 1
+		},
+		{
+			"gen": "g8l.per_portion",
+			"level": 2
+		},
+		{
+			"gen": "g8l.per_portion",
+			"level": 3
+		},
+		{
+			"gen": "g8l.dietary_need",
+			"level": 1
+		},
+		{
+			"gen": "g8l.dietary_need",
+			"level": 2
+		},
+		{
+			"gen": "g8l.dietary_need",
+			"level": 3
+		}
+	]
+}

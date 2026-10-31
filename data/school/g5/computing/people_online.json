@@ -1,0 +1,343 @@
+{
+	"id": "g5.computing.people_online",
+	"lesson": [
+		{
+			"text": "Quick memory: which buttons help when someone upsets you in this game? (MUTE, BLOCK and REPORT.) Today: the people you meet online."
+		},
+		{
+			"text": "Online, anyone can pick any name and any picture. Someone who says they are 11 might be a grown-up. You can't see who is really typing."
+		},
+		{
+			"text": "Keep your personal details private: your full name, where you live, your school, your phone number, your passwords, and photos that show any of them.",
+			"picture": {
+				"kind": "privacy_panel",
+				"title": "My profile",
+				"rows": [
+					[
+						"show my real name",
+						"off"
+					],
+					[
+						"show my school",
+						"off"
+					],
+					[
+						"show where I live",
+						"off"
+					],
+					[
+						"who can chat to me",
+						"friends"
+					]
+				]
+			}
+		},
+		{
+			"text": "Warning signs: someone asks for secrets or photos, or offers gifts. They want to chat somewhere private, say 'don't tell your parents', or ask to meet you."
+		},
+		{
+			"text": "Worked example: a player asks what school you go to. You say you don't share that. When they ask for your address, you BLOCK them, REPORT them with ASKED SECRETS, and tell a trusted adult.",
+			"picture": {
+				"kind": "chat",
+				"messages": [
+					[
+						"them",
+						"Nice build! What school do you go to?"
+					],
+					[
+						"me",
+						"I don't share that"
+					],
+					[
+						"them",
+						"ok, what's your address then?"
+					]
+				],
+				"name": "CoolGamer22",
+				"mark": 2
+			}
+		},
+		{
+			"text": "Never meet someone you only know online. If anyone asks you to, tell a trusted adult straight away. Telling is always right, and you are never in trouble for telling.",
+			"picture": {
+				"kind": "hand",
+				"labels": [
+					"mum or dad",
+					"carer",
+					"teacher",
+					"grandparent",
+					"school nurse"
+				]
+			}
+		},
+		{
+			"text": "Most people online are kind, and playing together can be great fun. The rules keep you safe with everyone, so you never have to guess who is who."
+		},
+		{
+			"text": "Try it in the world: with a grown-up, find MUTE, BLOCK and REPORT in this game. Talk about who you would tell if something online worried you. Next: technology for everyone."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Someone online who says they are 11 might really be a grown-up.",
+			"answer": true,
+			"hint": "Can you see who is typing?",
+			"explain": "True: anyone can type any age, name or picture, so you can't be sure who someone is."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: keep private, or OK to share in a game?",
+			"groups": [
+				"keep private",
+				"OK to share"
+			],
+			"items": [
+				"your home address",
+				"your school",
+				"your password",
+				"your favourite colour",
+				"the name of your buddy"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Could it help someone find you, or get into your account?",
+			"explain": "Your address, school and password stay private. A favourite colour or your buddy's name are fine."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A player you don't know asks where you live. What should you do?",
+			"answer": 0,
+			"hint": "Is where you live a personal detail?",
+			"choices": [
+				"Don't tell them, block them and tell an adult",
+				"Tell them only your street",
+				"Tell them if they seem nice",
+				"Ask where they live first"
+			],
+			"explain": "Where you live stays private. Don't answer, BLOCK them and tell a trusted adult."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match what happened to what to do.",
+			"items": [
+				"someone says mean words",
+				"someone asks for secrets",
+				"someone asks to meet",
+				"someone is kind"
+			],
+			"matches": [
+				"tell a trusted adult",
+				"be kind back",
+				"MUTE or BLOCK them",
+				"REPORT, tell an adult"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the game's buttons and the grown-ups who can help.",
+			"explain": "Mean words: MUTE or BLOCK. Secrets: REPORT and tell an adult. Asked to meet: tell a trusted adult. Kind: be kind back."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which message is a warning sign?",
+			"answer": 0,
+			"hint": "Which message asks for something private?",
+			"choices": [
+				"send me a photo of you",
+				"cool castle!",
+				"thanks!"
+			],
+			"explain": "Asking for a photo of you is a warning sign: don't send one, and tell a trusted adult.",
+			"picture": {
+				"kind": "chat",
+				"messages": [
+					[
+						"them",
+						"cool castle!"
+					],
+					[
+						"me",
+						"thanks!"
+					],
+					[
+						"them",
+						"send me a photo of you"
+					]
+				],
+				"name": "Builder99"
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order when someone online asks for your address.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Keep yourself safe first, then get help.",
+			"items": [
+				"Tell a trusted adult",
+				"REPORT them: ASKED SECRETS",
+				"BLOCK them",
+				"Don't answer the question"
+			],
+			"explain": "Don't answer, BLOCK them, REPORT them with ASKED SECRETS, and tell a trusted adult."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If you shared a secret online by mistake, it is too late to tell an adult.",
+			"answer": false,
+			"hint": "Can a grown-up still help?",
+			"explain": "False: it is never too late. A trusted adult can help, and you are not in trouble."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Someone says: 'This is our secret, don't tell your parents.' What does that tell you?",
+			"answer": 0,
+			"hint": "Why would someone kind want you to hide things from your family?",
+			"choices": [
+				"It is a warning sign: tell a trusted adult",
+				"They are a good friend",
+				"Secrets online are fine",
+				"You must keep the secret"
+			],
+			"explain": "Asking you to hide things from your parents is a warning sign. Tell a trusted adult."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: a warning sign, or OK?",
+			"groups": [
+				"a warning sign",
+				"OK"
+			],
+			"items": [
+				"asks you to chat in another app",
+				"offers free gold for your password",
+				"asks for a photo of you",
+				"says good game!",
+				"asks to build together in the game"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Does it ask for something private, or try to get you somewhere private?",
+			"explain": "Moving to another app, asking for your password or a photo are warning signs. Saying good game or building together in the game is OK."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A friendly player you have played with for weeks asks to meet at the park. What is safest?",
+			"answer": 0,
+			"hint": "Do you really know who they are?",
+			"choices": [
+				"Tell a trusted adult; never meet without one",
+				"Go, because you know them",
+				"Go with a friend your age",
+				"Meet them after dark"
+			],
+			"explain": "You can't be sure who they are. Tell a trusted adult, and never meet someone from online without one."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why can a profile picture of a child not prove that the player is a child?",
+			"answer": 0,
+			"hint": "Who chooses a profile picture?",
+			"choices": [
+				"Anyone can use any picture",
+				"Pictures are always old",
+				"Children can't have pictures",
+				"The game chooses the pictures"
+			],
+			"explain": "Anyone can choose any picture, even one copied from someone else, so it proves nothing about who is typing. The safety rules work whoever it is."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "It is your fault if someone online tricks you.",
+			"answer": false,
+			"hint": "Who is doing something wrong: the trickster, or you?",
+			"explain": "False: it is never your fault. People who trick children work hard to seem friendly. Tell a trusted adult, and they will help."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which username gives away too much?",
+			"answer": 0,
+			"hint": "Does the name tell a stranger anything about where you live or how old you are?",
+			"choices": [
+				"Tilly_Oak_Street_11",
+				"StarBuilder",
+				"BlueBuddyFan",
+				"CastleMaker"
+			],
+			"explain": "Tilly_Oak_Street_11 gives away her name, her street and her age: three clues to finding her. StarBuilder, BlueBuddyFan and CastleMaker give nothing away."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Juno reported a player and told her dad. What happens to her?",
+			"answer": 0,
+			"hint": "Is telling a grown-up the right thing to do?",
+			"choices": [
+				"She did the right thing and is not in trouble",
+				"She gets into trouble",
+				"She loses her game",
+				"She must stop playing for ever"
+			],
+			"explain": "Reporting and telling a trusted adult is exactly right, and Juno is not in trouble. Her dad can help, and her report can stop the player upsetting other children too."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the usernames: safe, or gives away too much?",
+			"groups": [
+				"safe",
+				"gives away too much"
+			],
+			"items": [
+				"StarBuilder",
+				"Mimi_Smith_Leeds",
+				"BlueBuddyFan",
+				"Bram2015_OakSchool",
+				"CastleMaker",
+				"Zara_age11_London"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Look for a real name, a town, a school, a birth year or an age.",
+			"explain": "Safe: StarBuilder, BlueBuddyFan and CastleMaker tell a stranger nothing. Too much: a full name and town, a birth year and school, and an age and city could help someone find you."
+		}
+	],
+	"generators": []
+}

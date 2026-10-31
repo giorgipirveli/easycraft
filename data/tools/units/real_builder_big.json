@@ -1,0 +1,38 @@
+{
+	"id": "life.home.real_builder_big",
+	"lesson": [
+		{"text": "Quick memory: what does a lintel do? (It carries the bricks over an opening.) Today: a small house."},
+		{"text": "A square corner with 3, 4, 5: mark 60 cm along one wall and 80 cm along the other. The diagonal must be 100 cm, because 3 x 3 + 4 x 4 = 5 x 5."},
+		{"text": "Corners first: builders raise the corners, then fill in between along a line stretched from corner to corner."},
+		{"text": "At a door or a window the rows end with half bricks, so the joints still stagger."},
+		{"text": "A lintel needs at least 15 cm resting on the wall at each end, to pass the weight down into the wall."},
+		{"text": "Rafters make the roof's frame; tiles go on from the bottom up. A steeper roof sheds rain faster."},
+		{"text": "Try it in the world: open Real Builder and build your house. Then look for lintels on real houses with a grown-up."}
+	],
+	"exercises": [
+		{"type": "number", "level": 1, "prompt": "3 x 3 + 4 x 4 = ?", "answer": "25", "hint": "9 and 16.",
+			"explain": "9 + 16 = 25, which is 5 x 5."},
+		{"type": "truefalse", "level": 1, "prompt": "Builders lay the corners first.", "answer": true,
+			"hint": "Then a line runs between them.", "explain": "True: corners first, then the rows between."},
+		{"type": "choice", "level": 1, "prompt": "What makes a roof's frame?", "answer": 0,
+			"choices": ["rafters", "tiles", "bricks"], "hint": "Long beams of wood.", "explain": "Rafters make the frame; tiles cover it."},
+		{"type": "truefalse", "level": 1, "prompt": "A lintel needs only 1 cm on the wall at each end.", "answer": false,
+			"hint": "It carries a lot of weight.", "explain": "False: at least 15 cm at each end."},
+		{"type": "number", "level": 2, "prompt": "Pegs 60 cm and 80 cm from a corner: how long is the diagonal for a square corner, in cm?",
+			"answer": "100", "hint": "It is 3, 4, 5 twenty times bigger.", "explain": "60, 80, 100: the 3, 4, 5 rule."},
+		{"type": "number", "level": 2, "prompt": "A front of 315 cm, at 22.5 cm a brick: how many bricks long?", "answer": "14",
+			"hint": "How many 22.5s in 315?", "explain": "315 / 22.5 = 14 bricks."},
+		{"type": "choice", "level": 2, "prompt": "Why are there half bricks at the sides of a window?", "answer": 0,
+			"choices": ["so the joints still stagger", "they broke", "to save money"], "hint": "Think of the bond.",
+			"explain": "Half bricks keep the joints staggered right up to the opening."},
+		{"type": "sort", "level": 2, "prompt": "Wall or roof?", "groups": ["wall", "roof"],
+			"items": ["a lintel", "a rafter", "a brick", "a tile"], "answer": [0, 1, 0, 1],
+			"hint": "Which ones are up on top?", "explain": "Lintels and bricks are in the wall; rafters and tiles make the roof."},
+		{"type": "number", "level": 3, "prompt": "A window is 91 cm wide. Its lintel rests 15 cm on each side. How long is it at least, in cm?",
+			"answer": "121", "hint": "The width and two bearings.", "explain": "91 + 15 + 15 = 121 cm."},
+		{"type": "number", "level": 3, "prompt": "A wall is 28 rows high, at 7.5 cm a row. How high is it, in cm?", "answer": "210",
+			"hint": "28 lots of 7.5.", "explain": "28 x 7.5 = 210 cm."},
+		{"type": "choice", "level": 3, "prompt": "Pegs 30 cm and 40 cm from a corner: what diagonal makes it square?", "answer": 0,
+			"choices": ["50 cm", "70 cm", "60 cm"], "hint": "3, 4, 5 ten times bigger.", "explain": "30, 40, 50: the 3, 4, 5 rule again."}
+	]
+}

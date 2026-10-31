@@ -1,0 +1,349 @@
+{
+	"id": "g7.science.rock_cycle",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met rock layers and fossils. Which layer is usually the oldest? The bottom one, because it was laid down first."
+		},
+		{
+			"text": "Rocks slowly change from one kind to another in the rock cycle. It is powered by the Sun's energy (weather, rain and rivers) and by Earth's inner heat (melting and uplift).",
+			"picture": {
+				"kind": "life_cycle",
+				"stages": [
+					"magma",
+					"igneous rock",
+					"sediment",
+					"sedimentary",
+					"metamorphic"
+				],
+				"title": "rock cycle"
+			}
+		},
+		{
+			"text": "Igneous rock forms when melted rock cools and hardens: magma underground, lava above. Granite cooled slowly underground and has big crystals; basalt cooled fast from lava and has tiny ones.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"igneous rock",
+						"cooled",
+						"crystals"
+					],
+					[
+						"granite",
+						"slowly",
+						"big"
+					],
+					[
+						"basalt",
+						"fast",
+						"tiny"
+					]
+				]
+			}
+		},
+		{
+			"text": "Sedimentary rock forms when bits of rock, shells and sand (sediments) settle in layers. Then they get squeezed and cemented, like sandstone and limestone. The oldest layer is usually at the bottom.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					17,
+					3,
+					64,
+					4,
+					2
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "Metamorphic rock forms when heat and pressure deep underground change a rock without melting it, like limestone becoming marble."
+		},
+		{
+			"text": "Weathering and erosion break rocks into sediment. Melting turns any rock into magma. Uplift pushes rocks back up to the surface. The cycle takes millions of years, and it has no start or end."
+		},
+		{
+			"text": "Try it in the world: go prospecting with Gemma the geologist for a coal seam. Coal is a sedimentary rock made from the plants of old swamp forests, pressed in layers. Next: Earth's history, read in its rocks."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What kind of rock forms when lava cools?",
+			"answer": 0,
+			"hint": "Think about where lava comes from: heat and fire. Which rock's name means fiery?",
+			"choices": [
+				"igneous",
+				"sedimentary",
+				"metamorphic"
+			],
+			"explain": "Igneous rock forms when lava or magma cools."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Sandstone is layers of sand pressed together. What kind of rock is it?",
+			"answer": 0,
+			"hint": "Sand is a sediment. Which kind of rock is made of sediments?",
+			"choices": [
+				"sedimentary",
+				"igneous",
+				"metamorphic"
+			],
+			"explain": "Sandstone is sedimentary rock: sand grains squeezed and cemented."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Metamorphic rock is changed by heat and pressure.",
+			"answer": true,
+			"hint": "meta means change.",
+			"explain": "Yes: heat and pressure change it without melting it."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What breaks rocks into small pieces?",
+			"answer": 0,
+			"hint": "Rain, ice and wind.",
+			"choices": [
+				"weathering",
+				"magma",
+				"fossils"
+			],
+			"explain": "Weathering: rain, ice and wind break rocks into small pieces."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is melted rock underground called?",
+			"answer": 0,
+			"hint": "Lava before it comes out.",
+			"choices": [
+				"magma",
+				"sediment",
+				"marble"
+			],
+			"explain": "Magma: melted rock underground. Above ground it is called lava."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Limestone deep underground is heated and squeezed into marble. What kind of rock is marble?",
+			"answer": 0,
+			"hint": "It was changed by heat and pressure, but it did not melt.",
+			"choices": [
+				"metamorphic",
+				"igneous",
+				"sedimentary"
+			],
+			"explain": "Marble is metamorphic rock: limestone changed by heat and pressure."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What powers the rock cycle?",
+			"answer": 0,
+			"hint": "Two sources of energy.",
+			"choices": [
+				"the Sun and Earth's inner heat",
+				"the Moon",
+				"wind only"
+			],
+			"explain": "The Sun (weather) and Earth's heat (melting, uplift)."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order how sandstone forms.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with breaking.",
+			"items": [
+				"Layers are squeezed into rock.",
+				"Sand settles in layers.",
+				"Rivers carry the sand away.",
+				"Rocks are weathered into sand."
+			],
+			"explain": "Weathered, carried, settled, squeezed."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Any kind of rock can melt into magma.",
+			"answer": true,
+			"hint": "If a rock is buried deep enough and gets hot enough, what happens to it?",
+			"explain": "Yes: any rock can melt."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where are fossils most often found?",
+			"answer": 0,
+			"hint": "Which rock forms in layers that can bury shells and bones?",
+			"choices": [
+				"in sedimentary rock",
+				"in igneous rock",
+				"in magma"
+			],
+			"explain": "In sedimentary rock: its layers bury remains gently, and they can become fossils."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are fossils rare in igneous rock?",
+			"answer": 0,
+			"hint": "How does igneous rock form?",
+			"choices": [
+				"Melted rock destroys remains.",
+				"Igneous rock is too young.",
+				"Animals avoid it."
+			],
+			"explain": "It forms from melted rock, which destroys remains."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Granite has large crystals; basalt has tiny ones. Why?",
+			"answer": 0,
+			"hint": "Slow cooling grows big crystals.",
+			"choices": [
+				"Granite cooled slowly underground.",
+				"Basalt is older.",
+				"Granite is sedimentary."
+			],
+			"explain": "Granite cooled slowly deep underground."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How can sedimentary rock become igneous rock?",
+			"answer": 0,
+			"hint": "Igneous rock comes from melted rock.",
+			"choices": [
+				"It melts into magma, then cools.",
+				"It gets wet.",
+				"It is weathered."
+			],
+			"explain": "It must melt and cool."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The rock cycle happens quickly, in a few years.",
+			"answer": false,
+			"hint": "Think of mountains.",
+			"explain": "No: it takes millions of years."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mountains are pushed up, then worn down by rain and wind. Which parts of the rock cycle are these?",
+			"answer": 0,
+			"hint": "Up, then down.",
+			"choices": [
+				"uplift, then weathering and erosion",
+				"melting, then cooling",
+				"squeezing, then heating"
+			],
+			"explain": "Uplift, then weathering and erosion."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the rocks by how they formed.",
+			"items": [
+				"granite",
+				"sandstone",
+				"marble",
+				"basalt",
+				"limestone",
+				"slate"
+			],
+			"groups": [
+				"igneous",
+				"sedimentary",
+				"metamorphic"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Cooled from melted rock, pressed from layers, or changed by heat and pressure?",
+			"explain": "Granite and basalt cooled from melted rock (igneous). Sandstone and limestone are pressed layers (sedimentary). Marble and slate were changed by heat and pressure (metamorphic)."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each process to what it makes.",
+			"items": [
+				"cooling",
+				"weathering",
+				"heat and pressure",
+				"melting"
+			],
+			"matches": [
+				"magma",
+				"metamorphic rock",
+				"sediment",
+				"igneous rock"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Ask what each process does to a rock: cool it, break it, change it or melt it.",
+			"explain": "Cooling magma makes igneous rock; weathering makes sediment; heat and pressure make metamorphic rock; melting makes magma."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A layer of sediment 1 cm thick settles every 100 years. How many years does a 10 cm layer take?",
+			"answer": "1000",
+			"hint": "Each centimetre takes 100 years.",
+			"explain": "10 × 100 = 1,000 years."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Follow one journey round the rock cycle, starting with granite.",
+			"items": [
+				"Rivers carry the sand to the sea.",
+				"Heat and pressure turn it into quartzite.",
+				"Granite on a mountain is weathered into sand.",
+				"It melts, then cools slowly into granite.",
+				"The sand is buried and pressed into sandstone."
+			],
+			"answer": [
+				2,
+				0,
+				4,
+				1,
+				3
+			],
+			"hint": "Weathering, carrying, settling, changing, melting.",
+			"explain": "Granite is weathered into sand, rivers carry it to the sea, and it is pressed into sandstone (sedimentary). Heat and pressure turn that into quartzite (metamorphic). It melts and cools into granite (igneous) again."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Sediment builds up 2 cm every 100 years. How many years does it take to build a layer 1 metre thick?",
+			"answer": "5,000",
+			"accept": [
+				"5000"
+			],
+			"hint": "1 metre is 100 cm. How many lots of 2 cm is that?",
+			"explain": "1 metre = 100 cm. 100 ÷ 2 = 50 lots of 2 cm, and 50 × 100 = 5,000 years."
+		}
+	]
+}

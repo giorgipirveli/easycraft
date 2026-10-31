@@ -1,0 +1,316 @@
+{
+	"id": "g4.computing.networks",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the internet? (A huge network joining computers all over the world.) Today: how computers connect, and what routers and servers do."
+		},
+		{
+			"text": "A network is two or more computers joined so they can share information: messages, pictures, games, and even a printer. The computers in a home or a school make a small local network."
+		},
+		{
+			"text": "Devices join a network by cable, or without wires by radio waves. In the picture, the dashed lines are radio links and the solid line is a cable.",
+			"picture": {
+				"kind": "network",
+				"devices": [
+					"laptop",
+					"tablet",
+					"phone",
+					"printer"
+				],
+				"wired": [
+					3
+				]
+			}
+		},
+		{
+			"text": "A router joins the devices of a home to each other and to the internet. Messages go through it, and it sends each one the right way, a bit like a post office.",
+			"picture": {
+				"kind": "network",
+				"devices": [
+					"laptop",
+					"tablet",
+					"phone"
+				],
+				"internet": true,
+				"mark": "router"
+			}
+		},
+		{
+			"text": "A server is a computer that stores things, like web pages, videos or a game's worlds. It serves them to other computers when they ask. The computer that asks is called a client.",
+			"picture": {
+				"kind": "network",
+				"devices": [
+					"tablet"
+				],
+				"internet": true,
+				"server": true,
+				"mark": "server"
+			}
+		},
+		{
+			"text": "Worked example: you open a web page. Your tablet sends a request through the router, across the internet, to a server. The server sends the page back in small packets, and your tablet puts them together."
+		},
+		{
+			"text": "Every device on the internet has an address, a bit like a house number, so packets can find it. When you play this game online, your device and the game's server send packets back and forth."
+		},
+		{
+			"text": "Try it in the world: build a network in your world: a router block in the middle, a path of blocks to each 'computer', and a long road to a far-away 'server'. Next: searching smartly."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a network?",
+			"answer": 0,
+			"hint": "Think of the devices in the picture.",
+			"choices": [
+				"computers joined to share information",
+				"one computer on its own",
+				"a kind of cable only",
+				"the name of a game"
+			],
+			"explain": "A network is two or more computers joined so they can share information."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each part of a network to its job.",
+			"items": [
+				"router",
+				"server",
+				"cable",
+				"radio waves"
+			],
+			"matches": [
+				"joins devices by wire",
+				"join devices without wires",
+				"sends messages the right way",
+				"stores and sends things"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the post office and the computer that serves pages.",
+			"explain": "The router sends messages the right way, the server stores and sends things, cables and radio waves join."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Devices can join a network without any wires.",
+			"answer": true,
+			"hint": "Look at the dashed lines in the picture.",
+			"explain": "True: radio waves join them without wires.",
+			"picture": {
+				"kind": "network",
+				"devices": [
+					"laptop",
+					"tablet",
+					"phone",
+					"printer"
+				],
+				"wired": [
+					3
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which box joins all the devices in this home?",
+			"answer": 0,
+			"hint": "Which one do all the lines meet at?",
+			"choices": [
+				"the router",
+				"the phone",
+				"the laptop",
+				"the tablet"
+			],
+			"explain": "Every line meets at the router: it joins them all.",
+			"picture": {
+				"kind": "network",
+				"devices": [
+					"laptop",
+					"tablet",
+					"phone"
+				],
+				"internet": true
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order: opening a web page.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "The request goes out first, then the page comes back.",
+			"items": [
+				"The request goes to the router",
+				"The server sends the page in packets",
+				"You tap a link on your tablet",
+				"It goes across the internet to a server",
+				"Your tablet puts the packets together"
+			],
+			"explain": "Tap, router, across the internet to the server, packets back, and your tablet puts them together."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many devices in this network are joined by radio waves (dashed lines)?",
+			"answer": "3",
+			"hint": "Count the dashed lines, not the solid one.",
+			"explain": "The laptop, the tablet and the phone use radio: 3. The printer has a cable.",
+			"picture": {
+				"kind": "network",
+				"devices": [
+					"laptop",
+					"tablet",
+					"phone",
+					"printer"
+				],
+				"wired": [
+					3
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a server?",
+			"answer": 0,
+			"hint": "Think of what happens when you open a web page.",
+			"choices": [
+				"a computer that serves things when asked",
+				"a cable under the sea",
+				"the screen of a tablet",
+				"a password"
+			],
+			"explain": "A server is a computer that stores pages, videos or game worlds and sends them when asked."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: joined by a cable, or by radio waves?",
+			"groups": [
+				"cable",
+				"radio waves"
+			],
+			"items": [
+				"a printer on a cable",
+				"a tablet in the garden",
+				"a phone on a bus",
+				"a cable under the sea",
+				"a laptop on the sofa"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Could it move around freely?",
+			"explain": "Things that move around, like a tablet, a phone on a bus and a laptop on the sofa, use radio waves. Cables join the printer and the continents."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When you play a game online, your device talks to a server.",
+			"answer": true,
+			"hint": "Where are the online worlds kept?",
+			"explain": "True: your device and the game's server send packets back and forth."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do messages travel in small packets?",
+			"answer": 0,
+			"hint": "Think of sending a big picture as lots of small parcels.",
+			"choices": [
+				"small pieces share cables and can go any way",
+				"packets look nicer",
+				"a message can only be one word",
+				"servers can't read big messages"
+			],
+			"explain": "Small packets share the cables and can take different ways. If one gets lost, only that piece is sent again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does every device on the internet need an address?",
+			"answer": 0,
+			"hint": "How does a letter find the right house?",
+			"choices": [
+				"so packets can find the right device",
+				"so it can have a name",
+				"to make it faster",
+				"so it can be charged"
+			],
+			"explain": "Like a house number for a letter, the address tells packets where to go."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A home router joins 2 tablets, a laptop, 2 phones and a printer. How many devices does it join?",
+			"answer": "6",
+			"hint": "Add up every device.",
+			"explain": "2 + 1 + 2 + 1 = 6 devices."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A server is a kind of computer.",
+			"answer": true,
+			"hint": "What does a server do all day?",
+			"explain": "True: it is a computer that stores things and serves them to other computers."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your tablet asks a server for a video. Which is the client?",
+			"answer": 0,
+			"hint": "The client is the one that asks.",
+			"choices": [
+				"your tablet",
+				"the server",
+				"the router",
+				"the internet"
+			],
+			"explain": "Your tablet asks, so it is the client; the server answers."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"client",
+				"server",
+				"packet",
+				"address"
+			],
+			"matches": [
+				"the computer that answers",
+				"a small piece of a message",
+				"tells packets where to go",
+				"the computer that asks"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the web page on its way to your tablet.",
+			"explain": "The client asks, the server answers, packets are small pieces, and addresses tell them where to go."
+		}
+	],
+	"generators": []
+}

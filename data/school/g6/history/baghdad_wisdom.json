@@ -1,0 +1,277 @@
+{
+	"id": "g6.history.baghdad_wisdom",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, who wrote rules for zero in India in AD 628? (Brahmagupta.) Today: the city where ideas from India met ideas from Greece, Persia and China."
+		},
+		{
+			"text": "In 762 the caliph al-Mansur founded Baghdad beside the River Tigris, as a round city with walls and four gates. The caliphs ruled a huge Muslim empire, and Baghdad soon became one of the biggest cities in the world.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 700,
+				"to": 1300,
+				"step": 100,
+				"events": [
+					[
+						762,
+						"Baghdad founded"
+					],
+					[
+						794,
+						"a paper mill"
+					],
+					[
+						820,
+						"al-Khwarizmi's al-jabr"
+					],
+					[
+						1258,
+						"Baghdad taken"
+					]
+				]
+			}
+		},
+		{
+			"text": "The caliphs paid scholars to gather books in the House of Wisdom. Muslims, Christians and Jews worked there together. They put Greek, Persian and Indian books into Arabic, so old knowledge was kept, tested and used."
+		},
+		{
+			"text": "Paper helped. The secret of making it came from China, and by 794 Baghdad had a paper mill. Paper was much cheaper than animal skin, so more books were copied and sold in the city's markets."
+		},
+		{
+			"text": "Around 820, al-Khwarizmi wrote a book about al-jabr, 'restoring': solving a problem by keeping both sides in balance. It gave us the word algebra, and his name gave us algorithm. His books also carried the Indian digits 0 to 9 west."
+		},
+		{
+			"text": "Worked example, in al-Khwarizmi's style: a thing and 7 make 20. Take 7 from both sides to keep the balance: the thing is 20 − 7 = 13. Today we write it x + 7 = 20, so x = 13.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "the thing: ?",
+								"size": 13
+							},
+							{
+								"text": "7",
+								"size": 7
+							}
+						],
+						"total": "20"
+					}
+				]
+			}
+		},
+		{
+			"text": "Doctors and astronomers worked the same careful way. Al-Razi, who ran a hospital in Baghdad, wrote how to tell measles from smallpox. Astronomers used astrolabes to find the time, and the direction of Mecca for prayer."
+		},
+		{
+			"text": "Try it in the world: build a round city with four gates and a library at its heart, with an al-jabr puzzle on a sign. (In 1258 an army from Mongolia took Baghdad, but its books had spread far.) Next: castles."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who founded Baghdad in 762?",
+			"answer": 0,
+			"hint": "He was the ruler of the Muslim empire.",
+			"choices": [
+				"the caliph al-Mansur",
+				"Emperor Justinian",
+				"King Alfred",
+				"Mansa Musa"
+			],
+			"explain": "The caliph al-Mansur, beside the River Tigris."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What was the House of Wisdom?",
+			"answer": 0,
+			"hint": "Think of books from Greece, Persia and India.",
+			"choices": [
+				"a library where scholars translated books",
+				"a palace for horses",
+				"a spice market",
+				"a fort on the Tigris"
+			],
+			"explain": "A great library where scholars gathered, translated and studied books."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The word algebra comes from al-jabr, in al-Khwarizmi's book.",
+			"answer": true,
+			"hint": "Say the two words aloud.",
+			"explain": "True: al-jabr, 'restoring', became our word algebra."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which river flows through Baghdad?",
+			"answer": 0,
+			"hint": "It is one of the two rivers of ancient Mesopotamia you met in grade 4.",
+			"choices": [
+				"the Tigris",
+				"the Nile",
+				"the Thames",
+				"the Yangtze"
+			],
+			"explain": "The Tigris: al-Mansur built his round city on its banks."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where did the secret of papermaking come from?",
+			"answer": 0,
+			"hint": "Remember Cai Lun from grade 5.",
+			"choices": [
+				"China",
+				"Britain",
+				"Mexico",
+				"Rome"
+			],
+			"explain": "From China, where Cai Lun had shown a new way to make paper in AD 105."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In al-Khwarizmi's words: a thing and 12 make 30. What is the thing?",
+			"answer": "18",
+			"hint": "Take the same amount from both sides to keep the balance.",
+			"explain": "Take 12 from both sides: the thing = 30 − 12 = 18."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each person to what they are famous for.",
+			"items": [
+				"al-Khwarizmi",
+				"al-Razi",
+				"al-Mansur",
+				"Brahmagupta"
+			],
+			"matches": [
+				"rules for zero",
+				"algebra",
+				"medicine",
+				"founding Baghdad"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "One is from India, one founded a city, one was a doctor.",
+			"explain": "Al-Khwarizmi: algebra. Al-Razi: medicine. Al-Mansur: founding Baghdad. Brahmagupta: rules for zero."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Only Muslim scholars worked at the House of Wisdom.",
+			"answer": false,
+			"hint": "Who else put books into Arabic there?",
+			"explain": "False: Muslims, Christians and Jews worked there together."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why did paper help Baghdad's scholars?",
+			"answer": 0,
+			"hint": "Compare it with writing on animal skin.",
+			"choices": [
+				"it was cheaper, so more books were copied",
+				"it lasted for ever",
+				"it could not burn",
+				"it was made of gold"
+			],
+			"explain": "Paper cost much less than animal skin, so many more copies of books could be made."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Baghdad was founded in 762 and had a paper mill by 794. How many years later was that?",
+			"answer": "32",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "794 − 762 = 32 years."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In al-Khwarizmi's words: 3 things and 5 make 29. What is one thing?",
+			"answer": "8",
+			"hint": "Balance first: take away the 5 from both sides, then share.",
+			"explain": "Take 5 from both sides: 3 things = 24. Share by 3: 24 ÷ 3 = 8."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why were Greek and Indian books put into Arabic?",
+			"answer": 0,
+			"hint": "What language did most scholars in Baghdad read?",
+			"choices": [
+				"so scholars in Baghdad could read and use them",
+				"to hide them",
+				"to sell them to Vikings",
+				"so nobody could read them"
+			],
+			"explain": "So scholars who read Arabic could study, test and build on them."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The word algorithm, the steps a computer follows, comes from what?",
+			"answer": 0,
+			"hint": "Latin writers spelled a Baghdad mathematician's name Algoritmi.",
+			"choices": [
+				"al-Khwarizmi's name",
+				"a Greek god",
+				"a Viking word",
+				"the River Tigris"
+			],
+			"explain": "From al-Khwarizmi's name, written Algoritmi in Latin."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these in order, earliest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Look at the years: the smaller the year, the earlier.",
+			"items": [
+				"Al-Khwarizmi's algebra (about 820)",
+				"Baghdad has a paper mill (794)",
+				"Baghdad is founded (762)",
+				"Brahmagupta's rules for zero (628)"
+			],
+			"explain": "628, 762, 794, about 820."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The digits 0 to 9 we use began in India and reached Europe partly through books from Baghdad.",
+			"answer": true,
+			"hint": "Why do Europeans call them Arabic numerals?",
+			"explain": "True: they began in India; al-Khwarizmi's books helped carry them west, so Europe called them Arabic numerals."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.al_jabr",
+			"level": 1
+		},
+		{
+			"gen": "g6h.al_jabr",
+			"level": 2
+		},
+		{
+			"gen": "g6h.al_jabr",
+			"level": 3
+		}
+	]
+}

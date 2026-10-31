@@ -1,0 +1,408 @@
+{
+	"id": "g3.computing.decompose",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a bug? (A mistake in a program.) Today: how to start a big job."
+		},
+		{
+			"text": "Decomposition means breaking a big problem into smaller parts. Each small part is easier to understand and to solve."
+		},
+		{
+			"text": "Building a castle in the game? Its parts: the walls, the towers, the gate and the roof. Build each part, and the castle is done.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"walls",
+					"towers",
+					"gate",
+					"roof",
+					"the castle!"
+				],
+				"title": "Build it in parts"
+			}
+		},
+		{
+			"text": "You can break a part into even smaller parts: the gate becomes the frame, the door and the torches beside it.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"castle part",
+						"smaller parts"
+					],
+					[
+						"the walls",
+						"stone, windows"
+					],
+					[
+						"the gate",
+						"frame, door, torches"
+					],
+					[
+						"the towers",
+						"stairs, flags"
+					]
+				]
+			}
+		},
+		{
+			"text": "Programmers do the same: a game has parts for moving, scoring, sounds and pictures, and different people can work on different parts."
+		},
+		{
+			"text": "For the robot: first the way to the gem, then the way from the gem to the flag. Two small programs make one big one.",
+			"picture": {
+				"kind": "robot",
+				"cols": 5,
+				"rows": 5,
+				"start": [
+					0,
+					4
+				],
+				"facing": "N",
+				"goal": [
+					4,
+					0
+				],
+				"gems": [
+					[
+						0,
+						0
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: pick a big build, like a farm. Write its parts (fence, field, water, animals, barn), then build one part at a time."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is decomposition?",
+			"answer": 0,
+			"hint": "De-compose: take apart.",
+			"choices": [
+				"breaking a big problem into smaller parts",
+				"making a problem bigger",
+				"giving up on a problem",
+				"solving a problem without thinking"
+			],
+			"explain": "Decomposition is breaking a big problem into smaller parts that are easier to solve."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A small part of a problem is usually easier to solve than the whole problem.",
+			"answer": true,
+			"hint": "Is one wall easier than a whole castle?",
+			"explain": "True: small parts are easier to understand and to solve."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Which of these are parts of building a treehouse?",
+			"groups": [
+				"part of the job",
+				"not part of it"
+			],
+			"items": [
+				"the floor",
+				"brushing your teeth",
+				"the ladder",
+				"the roof",
+				"a swimming lesson",
+				"the walls"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Would you need it to finish the treehouse?",
+			"explain": "Parts of the job: the floor, the ladder, the roof, the walls. Brushing teeth and a swimming lesson are not."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a sensible small part of the job “plan a picnic”?",
+			"answer": 0,
+			"hint": "Which one helps the picnic happen?",
+			"choices": [
+				"choose the food to take",
+				"fly to the Moon",
+				"build a car",
+				"learn to swim"
+			],
+			"explain": "Choosing the food is one small part of planning a picnic."
+		},
+		{
+			"type": "robot",
+			"level": 1,
+			"prompt": "Two parts: go to the gem, then go on to the flag. Write the program.",
+			"board": {
+				"cols": 5,
+				"rows": 5,
+				"start": [
+					0,
+					4
+				],
+				"facing": "N",
+				"goal": [
+					4,
+					0
+				],
+				"gems": [
+					[
+						0,
+						0
+					]
+				]
+			},
+			"hint": "Plan the first part to the gem. Then plan the second part, from the gem to the flag.",
+			"explain": "One program that works: FORWARD 4, TURN RIGHT, FORWARD 4."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Break “make a sandwich” into parts, and put them in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What do you need before you can spread anything?",
+			"items": [
+				"Put the top slice on",
+				"Add the filling",
+				"Spread the butter",
+				"Get the bread and the filling"
+			],
+			"explain": "Get what you need, spread the butter, add the filling, then put the top slice on."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part of a game to its job.",
+			"items": [
+				"the controls",
+				"the score",
+				"the sounds",
+				"the map"
+			],
+			"matches": [
+				"play music and effects",
+				"shows where you are",
+				"move your player",
+				"counts your points"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of what each part does while you play.",
+			"explain": "Controls move your player, the score counts points, the sounds play music and effects, the map shows where you are."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Zara wants to build a whole village. What is the best first step?",
+			"answer": 0,
+			"hint": "Big jobs start with a plan of the small parts.",
+			"choices": [
+				"list the parts: houses, paths, a well, a farm",
+				"start placing blocks anywhere",
+				"build the biggest house without a plan",
+				"give up: it is too big"
+			],
+			"explain": "List the parts first. Then she can build them one at a time."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Different people can work on different parts of a big program at the same time.",
+			"answer": true,
+			"hint": "Could one friend build walls while another builds the roof?",
+			"explain": "True: splitting a big program into parts lets a team work on them at the same time."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A castle has 4 towers. Each tower needs 3 parts: a base, a wall and a roof. How many parts is that?",
+			"answer": "12",
+			"hint": "Work out the parts for one tower, then for all of them.",
+			"explain": "Each tower has 3 parts, so 4 × 3 = 12 parts."
+		},
+		{
+			"type": "robot",
+			"level": 2,
+			"prompt": "Break it into parts: pick up both gems, then go to the flag.",
+			"board": {
+				"cols": 6,
+				"rows": 5,
+				"start": [
+					0,
+					2
+				],
+				"facing": "E",
+				"goal": [
+					5,
+					2
+				],
+				"gems": [
+					[
+						2,
+						0
+					],
+					[
+						4,
+						4
+					]
+				]
+			},
+			"hint": "One gem at a time: plan the way to the first gem, then the next, then the flag.",
+			"explain": "One program that works: FORWARD 2, TURN LEFT, FORWARD 2, TURN LEFT, TURN LEFT, FORWARD 4, TURN LEFT, FORWARD 3, TURN LEFT, FORWARD 2."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these parts of building a house in the game in a sensible order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "What does each part need to be there already?",
+			"items": [
+				"Lay the floor",
+				"Put the roof on",
+				"Clear and flatten the ground",
+				"Build the walls and the door",
+				"Add lights inside"
+			],
+			"explain": "Clear the ground, lay the floor, build the walls, put the roof on, then add the lights inside."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "“Tidy your room” feels too big. Which is the best way to break it up?",
+			"answer": 0,
+			"hint": "Small parts, one after another.",
+			"choices": [
+				"put away toys, then books, then clothes",
+				"tidy everything at once",
+				"tidy one sock only",
+				"wait until later"
+			],
+			"explain": "Toys, then books, then clothes: three small jobs are easier than one big one."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A game needs a character that jumps. Which is a smaller part of that job?",
+			"answer": 0,
+			"hint": "Which one is about the jump itself?",
+			"choices": [
+				"make the character go up, then come back down",
+				"make the whole game",
+				"choose the game's name",
+				"turn the screen off"
+			],
+			"explain": "A jump is two small parts: going up, then coming back down."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "When you break a problem into parts, the order you do them in never matters.",
+			"answer": false,
+			"hint": "Can you put the roof on before the walls?",
+			"explain": "False: some parts need others first: the walls before the roof, the floor before the furniture."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each big job to one of its small parts.",
+			"items": [
+				"make a birthday card",
+				"grow a garden",
+				"write a story",
+				"bake a cake"
+			],
+			"matches": [
+				"plant the seeds",
+				"choose the characters",
+				"mix the flour and eggs",
+				"draw a picture on the front"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Ask: which small job belongs to this big job?",
+			"explain": "Card: draw the front. Garden: plant the seeds. Story: choose the characters. Cake: mix the flour and eggs."
+		},
+		{
+			"type": "robot",
+			"level": 3,
+			"prompt": "Go round the walls, pick up the gem and reach the flag. Plan it in parts!",
+			"board": {
+				"cols": 6,
+				"rows": 6,
+				"start": [
+					0,
+					5
+				],
+				"facing": "E",
+				"goal": [
+					5,
+					0
+				],
+				"walls": [
+					[
+						2,
+						5
+					],
+					[
+						2,
+						4
+					],
+					[
+						2,
+						3
+					],
+					[
+						4,
+						2
+					],
+					[
+						4,
+						1
+					],
+					[
+						4,
+						0
+					]
+				],
+				"gems": [
+					[
+						3,
+						3
+					]
+				]
+			},
+			"hint": "Part 1: reach the gem. Part 2: go from the gem to the flag. Then join the parts.",
+			"explain": "One program that works: FORWARD, TURN LEFT, FORWARD 3, TURN RIGHT, FORWARD 2, TURN RIGHT, FORWARD, TURN LEFT, FORWARD 2, TURN LEFT, FORWARD 3."
+		}
+	],
+	"generators": []
+}

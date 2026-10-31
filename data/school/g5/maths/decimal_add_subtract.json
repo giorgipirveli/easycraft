@@ -1,0 +1,216 @@
+{
+	"id": "g5.maths.decimal_add_subtract",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the 5 worth in 2.358? 5 hundredths: the places after the point are tenths, hundredths and thousandths."
+		},
+		{
+			"text": "To add decimals, line up the decimal points, so tenths are under tenths and hundredths under hundredths. Then add as you do with whole numbers: 3.45 + 2.3 = 5.75.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"3.45",
+					"+ 2.3",
+					"5.75"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"text": "An empty place is a 0: 2.3 is the same as 2.30. Writing the 0 can help you line the digits up.",
+			"picture": {
+				"kind": "places",
+				"numbers": [
+					"3.45",
+					"2.30"
+				]
+			}
+		},
+		{
+			"text": "A whole number has its point at the end: 4 = 4.00. So 4 − 1.25 = 2.75.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"4.00",
+					"− 1.25",
+					"2.75"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"text": "A hundred square shows it too: 0.3 + 0.25 is 30 hundredths and 25 hundredths, which make 55 hundredths: 0.55.",
+			"picture": {
+				"kind": "bar",
+				"den": 100,
+				"num": 55
+			}
+		},
+		{
+			"text": "Estimate first: 3.45 + 2.3 is about 3 + 2 = 5, so 5.75 makes sense. If the points are not lined up you might get 3.68, which is far too small."
+		},
+		{
+			"text": "Try it in the world: you have 10 gold and buy things for 3.45 and 2.3 gold. How much is left? 10 − 5.75 = 4.25 gold. Next: multiplying and dividing decimals."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "1.4 + 2.3 = ?",
+			"answer": "3.7",
+			"hint": "Add the tenths, then the ones.",
+			"explain": "4 tenths + 3 tenths = 7 tenths, and 1 + 2 = 3: 3.7."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "5.8 − 2.5 = ?",
+			"answer": "3.3",
+			"hint": "Take away the tenths, then the ones.",
+			"explain": "8 tenths − 5 tenths = 3 tenths, and 5 − 2 = 3: 3.3."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "0.3 + 0.25 = 0.55",
+			"answer": true,
+			"hint": "0.3 is the same as 30 hundredths.",
+			"explain": "30 hundredths + 25 hundredths = 55 hundredths = 0.55."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "3.45 + 2.3 = ?",
+			"answer": "5.75",
+			"hint": "Line up the points: write 2.3 as 2.30.",
+			"explain": "3.45 + 2.30 = 5.75."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Tilly says 6.2 + 1.75 = 2.37. What is the answer?",
+			"choices": [
+				"7.95",
+				"2.37",
+				"7.77",
+				"8.95"
+			],
+			"answer": 0,
+			"hint": "Line up the points: tenths under tenths.",
+			"explain": "6.20 + 1.75 = 7.95. Tilly lined up the last digits instead of the points."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A potion needs 1.25 L of water and 0.8 L of juice. How many litres is that altogether?",
+			"answer": "2.05",
+			"hint": "Write 0.8 as 0.80, then add.",
+			"explain": "1.25 + 0.80 = 2.05 L."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "5 − 2.37 = ?",
+			"answer": "2.63",
+			"hint": "Write 5 as 5.00, then take away.",
+			"explain": "Write 5 as 5.00 so the places line up. Exchange: 5.00 is 4 ones, 9 tenths and 10 hundredths. 10 − 7 = 3, 9 − 3 = 6 and 4 − 2 = 2: 2.63."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram jumped 3.4 m. Zara jumped 0.65 m less. How far did Zara jump, in metres?",
+			"answer": "2.75",
+			"hint": "Take 0.65 away from 3.40.",
+			"explain": "3.40 − 0.65 = 2.75 m."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which sum is closest to 10?",
+			"choices": [
+				"4.9 + 5.2",
+				"4.09 + 5.2",
+				"4.9 + 5.02",
+				"4.99 + 5.2"
+			],
+			"answer": 2,
+			"hint": "Work out each sum with the points lined up.",
+			"explain": "4.9 + 5.2 = 10.1, 4.09 + 5.2 = 9.29, 4.9 + 5.02 = 9.92 and 4.99 + 5.2 = 10.19. 9.92 is only 0.08 away from 10."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara has 10 gold. She buys a pie for 3.45 gold and a drink for 1.80 gold. How much gold is left?",
+			"answer": "4.75",
+			"hint": "Add what she spends, then take it away from 10.00.",
+			"explain": "She spends 3.45 + 1.80 = 5.25 gold. Line up the points: 10.00 − 5.25 = 4.75 gold left."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5n.add_decimals",
+			"level": 1
+		},
+		{
+			"gen": "g5n.add_decimals",
+			"level": 2
+		},
+		{
+			"gen": "g5n.add_decimals",
+			"level": 3
+		},
+		{
+			"gen": "g5n.subtract_decimals",
+			"level": 1
+		},
+		{
+			"gen": "g5n.subtract_decimals",
+			"level": 2
+		},
+		{
+			"gen": "g5n.subtract_decimals",
+			"level": 3
+		},
+		{
+			"gen": "g5n.decimal_story",
+			"level": 1
+		},
+		{
+			"gen": "g5n.decimal_story",
+			"level": 2
+		},
+		{
+			"gen": "g5n.decimal_story",
+			"level": 3
+		},
+		{
+			"gen": "g5n.missing_decimal",
+			"level": 1
+		},
+		{
+			"gen": "g5n.missing_decimal",
+			"level": 2
+		},
+		{
+			"gen": "g5n.missing_decimal",
+			"level": 3
+		},
+		{
+			"gen": "g5n.line_up",
+			"level": 1
+		},
+		{
+			"gen": "g5n.line_up",
+			"level": 2
+		},
+		{
+			"gen": "g5n.line_up",
+			"level": 3
+		}
+	]
+}

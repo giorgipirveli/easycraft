@@ -1,0 +1,236 @@
+{
+	"id": "g5.maths.coordinates",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met line graphs. On a line graph, what does the bottom line show? The times or labels the data goes along."
+		},
+		{
+			"text": "A coordinate grid has two number lines: the x-axis goes along and the y-axis goes up. They meet at (0, 0), the origin.",
+			"picture": {
+				"kind": "grid",
+				"x_max": 6,
+				"y_max": 6
+			}
+		},
+		{
+			"text": "A point is named by two numbers, (x, y): first how far along, then how far up. A is at (4, 2): 4 along, 2 up.",
+			"picture": {
+				"kind": "grid",
+				"x_max": 6,
+				"y_max": 6,
+				"points": [
+					{
+						"x": 4,
+						"y": 2,
+						"label": "A"
+					}
+				]
+			}
+		},
+		{
+			"text": "Order matters: (2, 4) is a different point from (4, 2).",
+			"picture": {
+				"kind": "grid",
+				"x_max": 6,
+				"y_max": 6,
+				"points": [
+					{
+						"x": 4,
+						"y": 2,
+						"label": "A"
+					},
+					{
+						"x": 2,
+						"y": 4,
+						"label": "B"
+					}
+				]
+			}
+		},
+		{
+			"text": "Two rules make two patterns. Rule A adds 1: 1, 2, 3. Rule B adds 2: 2, 4, 6. Their pairs (1, 2), (2, 4) and (3, 6) make a line on the grid: each B is 2 times its A.",
+			"picture": {
+				"kind": "grid",
+				"x_max": 6,
+				"y_max": 6,
+				"points": [
+					{
+						"x": 1,
+						"y": 2
+					},
+					{
+						"x": 2,
+						"y": 4
+					},
+					{
+						"x": 3,
+						"y": 6
+					}
+				],
+				"join": true
+			}
+		},
+		{
+			"text": "Try it in the world: put a sign at a corner of your farm as (0, 0). Plant a tree 4 blocks along and 2 up: (4, 2). Where is (2, 4)? Next: shape families."
+		}
+	],
+	"exercises": [
+		{
+			"type": "point",
+			"level": 1,
+			"prompt": "Tap the point (2, 5).",
+			"grid": {
+				"x_max": 6,
+				"y_max": 6
+			},
+			"answer": [
+				2,
+				5
+			],
+			"hint": "2 along, then 5 up.",
+			"explain": "Go 2 along the x-axis, then 5 up."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the point (0, 0) called?",
+			"answer": 0,
+			"hint": "Where the axes meet.",
+			"choices": [
+				"the origin",
+				"the axis",
+				"the top"
+			],
+			"explain": "(0, 0) is the origin, where the axes meet."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In (3, 1), the 3 tells you how far along.",
+			"answer": true,
+			"hint": "Which number do you read first: along or up?",
+			"explain": "Yes: the first number is how far along the x-axis."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where is the point (0, 4)?",
+			"answer": 0,
+			"hint": "How far along is a point with 0 first? Where on the grid is that?",
+			"choices": [
+				"on the y-axis",
+				"on the x-axis",
+				"at the origin"
+			],
+			"explain": "0 along and 4 up is on the y-axis."
+		},
+		{
+			"type": "point",
+			"level": 2,
+			"prompt": "Tap the point (7, 0).",
+			"grid": {
+				"x_max": 10,
+				"y_max": 10
+			},
+			"answer": [
+				7,
+				0
+			],
+			"hint": "7 along, and not up at all.",
+			"explain": "(7, 0) is on the x-axis, 7 along."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Rule A adds 3 and rule B adds 6, both from 0. Which pair is NOT on their graph?",
+			"answer": 0,
+			"hint": "Each B is 2 times its A.",
+			"choices": [
+				"(6, 10)",
+				"(3, 6)",
+				"(6, 12)",
+				"(9, 18)"
+			],
+			"explain": "(6, 10) is wrong: when A is 6, B is 12."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Rule A: 0, 5, 10, 15. Rule B: 0, 10, 20, 30. What is B when A is 25?",
+			"answer": "50",
+			"hint": "Each B is 2 times its A.",
+			"explain": "25 × 2 = 50."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The points (3, 5) and (5, 3) are the same point.",
+			"answer": false,
+			"hint": "Does the order matter?",
+			"explain": "False: (3, 5) is 3 along and 5 up; (5, 3) is 5 along and 3 up."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "You start at (1, 1) and move 3 right. Where are you?",
+			"answer": 0,
+			"hint": "Right changes the first number.",
+			"choices": [
+				"(4, 1)",
+				"(1, 4)",
+				"(3, 3)"
+			],
+			"explain": "1 + 3 = 4 along, still 1 up: (4, 1)."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5m.plot_point",
+			"level": 1
+		},
+		{
+			"gen": "g5m.plot_point",
+			"level": 2
+		},
+		{
+			"gen": "g5m.plot_point",
+			"level": 3
+		},
+		{
+			"gen": "g5m.move_point",
+			"level": 1
+		},
+		{
+			"gen": "g5m.move_point",
+			"level": 2
+		},
+		{
+			"gen": "g5m.move_point",
+			"level": 3
+		},
+		{
+			"gen": "g5m.read_point",
+			"level": 1
+		},
+		{
+			"gen": "g5m.read_point",
+			"level": 2
+		},
+		{
+			"gen": "g5m.read_point",
+			"level": 3
+		},
+		{
+			"gen": "g5m.two_rules",
+			"level": 1
+		},
+		{
+			"gen": "g5m.two_rules",
+			"level": 2
+		},
+		{
+			"gen": "g5m.two_rules",
+			"level": 3
+		}
+	]
+}

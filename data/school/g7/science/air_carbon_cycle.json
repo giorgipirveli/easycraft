@@ -1,0 +1,411 @@
+{
+	"id": "g7.science.air_carbon_cycle",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met the Earth's spheres. Which sphere is the layer of air around the Earth? The atmosphere. Today: what the air is made of, and where its carbon goes."
+		},
+		{
+			"text": "Dry air is about 78% nitrogen, 21% oxygen and nearly 1% argon. Carbon dioxide is only about 0.04%. Air also holds water vapour, which changes from day to day.",
+			"picture": {
+				"kind": "air_mix"
+			}
+		},
+		{
+			"text": "Carbon is always on the move. Plants take carbon dioxide from the air to make food in photosynthesis. Animals eat the plants. Living things give carbon dioxide back to the air in respiration.",
+			"picture": {
+				"kind": "carbon_cycle",
+				"mark": "photosynthesis"
+			}
+		},
+		{
+			"text": "When living things die, decomposers break them down and give out carbon dioxide too. Some plants and sea creatures were buried long ago and squeezed for millions of years into coal, oil and gas: the fossil fuels.",
+			"picture": {
+				"kind": "carbon_cycle",
+				"mark": "fossilisation"
+			}
+		},
+		{
+			"text": "Burning, or combustion, puts carbon back into the air: fuel + oxygen make carbon dioxide + water. Since about 1800, burning fossil fuels and cutting down forests have raised carbon dioxide. It has gone from about 0.028% of the air to about 0.042%."
+		},
+		{
+			"text": "Greenhouse gases, like carbon dioxide, methane and water vapour, trap some of the heat the warm Earth gives off. This greenhouse effect keeps the Earth about 33 °C warmer. More of these gases trap more heat, so the climate warms.",
+			"picture": {
+				"kind": "greenhouse",
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: plant a row of trees in your world: each takes carbon dioxide from the air. In LIFE, Fire Escape: fires need oxygen, so close doors. The Poisons Cupboard: burning with too little air makes carbon monoxide. Next: the rock cycle."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "About what percent of dry air is oxygen?",
+			"answer": "21",
+			"hint": "Count the squares of oxygen's colour in the hundred squares.",
+			"explain": "21 of the hundred squares are oxygen: 21%.",
+			"picture": {
+				"kind": "air_mix",
+				"hide": 1
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which gas makes up most of the air?",
+			"choices": [
+				"nitrogen",
+				"oxygen",
+				"carbon dioxide"
+			],
+			"answer": 0,
+			"hint": "Look for the biggest share of the hundred squares.",
+			"explain": "Nitrogen: about 78% of dry air."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each process to what it does to carbon dioxide.",
+			"items": [
+				"photosynthesis",
+				"respiration",
+				"combustion",
+				"decay"
+			],
+			"matches": [
+				"makes it from fuel",
+				"gives it out",
+				"takes it from the air",
+				"decomposers give it out"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "Only one of these is green plants making food.",
+			"explain": "Photosynthesis takes carbon dioxide from the air; respiration, combustion and decay all put it back."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort them: does it add carbon dioxide to the air, or take it out?",
+			"groups": [
+				"adds it",
+				"takes it out"
+			],
+			"items": [
+				"burning coal",
+				"seaweed growing",
+				"a growing forest",
+				"photosynthesis",
+				"breathing out",
+				"rotting leaves"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Burning, breathing out and rotting give it out; green things making food take it in.",
+			"explain": "Adds it: breathing out, burning coal and rotting leaves. Takes it out: photosynthesis, a growing forest and seaweed growing."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Carbon dioxide is most of the air.",
+			"answer": false,
+			"hint": "Compare its share with nitrogen's and oxygen's.",
+			"explain": "False: carbon dioxide is only about 0.04% of the air."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What are coal, oil and gas made from?",
+			"choices": [
+				"remains of living things from long ago",
+				"melted rock",
+				"sea salt"
+			],
+			"answer": 0,
+			"hint": "They are called fossil fuels: what are fossils?",
+			"explain": "They formed over millions of years from buried plants and sea creatures."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order one carbon atom's journey.",
+			"items": [
+				"It is in carbon dioxide in the air",
+				"A rabbit eats the grass",
+				"A grass blade takes it in",
+				"The rabbit breathes it out"
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				3
+			],
+			"hint": "Start in the air and follow the food.",
+			"explain": "From the air into the grass by photosynthesis, into the rabbit by feeding, and back to the air by respiration."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which process carries carbon from dead matter back to the air?",
+			"choices": [
+				"decay",
+				"photosynthesis",
+				"fossilisation"
+			],
+			"answer": 0,
+			"hint": "Follow the arrow from the decomposers up to the air.",
+			"explain": "Decay: decomposers break down dead things and give out carbon dioxide.",
+			"picture": {
+				"kind": "carbon_cycle",
+				"hide": "decay"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Carbon dioxide rose from about 280 to about 420 parts per million. How many times as much is that?",
+			"answer": "1.5",
+			"hint": "Divide the new amount by the old one.",
+			"explain": "420 ÷ 280 = 1.5 times as much."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Without any greenhouse effect, the Earth would be too cold for most life.",
+			"answer": true,
+			"hint": "Think what the trapped heat does for the planet.",
+			"explain": "True: the Earth would average about −18 °C instead of about 15 °C."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which of these is a greenhouse gas?",
+			"choices": [
+				"methane",
+				"nitrogen",
+				"argon"
+			],
+			"answer": 0,
+			"hint": "Greenhouse gases trap heat; the biggest parts of the air do not.",
+			"explain": "Methane is a greenhouse gas; nitrogen and argon do not trap heat."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the stores of carbon.",
+			"spots": [
+				[
+					0.5,
+					0.09,
+					0.5,
+					0.1448
+				],
+				[
+					0.2438,
+					0.91,
+					0.2438,
+					0.5178
+				],
+				[
+					0.7049,
+					0.91,
+					0.7049,
+					0.5178
+				],
+				[
+					0.8242,
+					0.91,
+					0.7049,
+					0.8197
+				],
+				[
+					0.3631,
+					0.91,
+					0.2865,
+					0.8197
+				]
+			],
+			"labels": [
+				"plants",
+				"fossil fuels",
+				"decomposers",
+				"animals",
+				"air"
+			],
+			"answer": [
+				1,
+				4,
+				3,
+				2,
+				0
+			],
+			"hint": "Photosynthesis arrows run from the air to the plants; combustion comes from the fossil fuels.",
+			"explain": "The air at the top, plants on the left, animals on the right, decomposers under the animals, and fossil fuels at the bottom left.",
+			"picture": {
+				"kind": "carbon_cycle",
+				"labels": false
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In 1,000 litres of air, about how many litres are oxygen?",
+			"answer": "210",
+			"hint": "Oxygen is 21%: find 1% of 1,000 first, then multiply by 21.",
+			"explain": "1% of 1,000 is 10, and 10 × 21 = 210 litres."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does cutting down forests add carbon dioxide to the air?",
+			"choices": [
+				"Fewer trees take it in; burnt wood adds more.",
+				"Trees make carbon dioxide all day.",
+				"Cut trees make more oxygen."
+			],
+			"answer": 0,
+			"hint": "Think of both sides: what the trees did, and what happens to their wood.",
+			"explain": "Trees take in carbon dioxide, so with fewer trees less is taken out, and burning or rotting wood puts more in."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Earth's average temperature is about 15 °C. Without the greenhouse effect it would be about −18 °C. How many degrees warmer does the effect keep us?",
+			"answer": "33",
+			"hint": "Count up from −18 to 0, then from 0 to 15.",
+			"explain": "18 + 15 = 33 °C warmer."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the carbon stores.",
+			"groups": [
+				"in the air",
+				"in living things",
+				"in the ground"
+			],
+			"items": [
+				"carbon dioxide gas",
+				"whales",
+				"oak trees",
+				"coal",
+				"oil",
+				"methane gas"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				2,
+				2,
+				0
+			],
+			"hint": "Is the carbon in a gas, in something alive, or buried under the ground?",
+			"explain": "In the air: carbon dioxide and methane. In living things: oak trees and whales. In the ground: coal and oil."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Methane burns in plenty of oxygen. What does it make?",
+			"choices": [
+				"carbon dioxide and water",
+				"only oxygen",
+				"nitrogen and argon"
+			],
+			"answer": 0,
+			"hint": "Methane holds carbon and hydrogen: what does each one make with oxygen?",
+			"explain": "Methane + oxygen make carbon dioxide + water: the carbon joins oxygen, and so does the hydrogen."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order how coal formed.",
+			"items": [
+				"Heat and pressure squeezed them",
+				"Swamp plants died and fell into mud",
+				"Over millions of years they became coal",
+				"Mud and sand buried them"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Start with the living plants.",
+			"explain": "The plants died and were buried, then squeezed and heated, and over millions of years they slowly turned into coal."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A gas fire burns with too little air. Which dangerous gas can it make?",
+			"choices": [
+				"carbon monoxide",
+				"oxygen",
+				"nitrogen"
+			],
+			"answer": 0,
+			"hint": "Think about what the alarm in the Poisons Cupboard detects.",
+			"explain": "Carbon monoxide: it is poisonous and has no colour or smell, so homes have CO alarms."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Breathed-out air has less oxygen and more carbon dioxide than the air you breathe in.",
+			"answer": true,
+			"hint": "Your cells use oxygen and make carbon dioxide in respiration.",
+			"explain": "True: breathed-out air is about 16% oxygen and 4% carbon dioxide, against 21% and 0.04% breathed in."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7k.air_share",
+			"level": 1
+		},
+		{
+			"gen": "g7k.air_share",
+			"level": 2
+		},
+		{
+			"gen": "g7k.air_share",
+			"level": 3
+		},
+		{
+			"gen": "g7k.carbon_process",
+			"level": 1
+		},
+		{
+			"gen": "g7k.carbon_process",
+			"level": 2
+		},
+		{
+			"gen": "g7k.carbon_process",
+			"level": 3
+		},
+		{
+			"gen": "g7k.burn_products",
+			"level": 1
+		},
+		{
+			"gen": "g7k.burn_products",
+			"level": 2
+		},
+		{
+			"gen": "g7k.burn_products",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,251 @@
+{
+	"id": "water_cycle_3d",
+	"title": "The water cycle in 3D",
+	"topic": "nature",
+	"link": {"unit": "g6.science.water_cycle"},
+	"still": 35,
+	"stage": {
+		"sky": {"top": "#3a7be8", "horizon": "#cdeeff", "bottom": "#2f78b8"},
+		"light": "day",
+		"sun": [-0.35, 0.85, 0.45],
+		"models": [
+			{
+				"id": "island",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [
+					{"box": [-10, -6, -10, 10, -4, 6], "block": "STONE"},
+					{"box": [-3, -3, -10, 10, -2, 6], "block": "DIRT"},
+					{"box": [-3, -1, -10, 10, -1, 6], "block": "GRASS"},
+					{"box": [-10, -4, -10, -4, -4, 6], "block": "SAND"},
+					{"box": [-10, -3, -10, -4, -2, 6], "block": "WATER"},
+					{"box": [-3, -2, -10, -2, -2, 6], "block": "SAND"},
+					{"box": [-3, -1, -10, -2, -1, 6], "block": "AIR"},
+					{"disc": [5, 0, -5, 5.8], "block": "GRASS"},
+					{"disc": [5, 0, -5, 4.6], "block": "STONE"},
+					{"disc": [5, 1, -5, 5.088], "block": "GRASS"},
+					{"disc": [5, 1, -5, 3.888], "block": "STONE"},
+					{"disc": [5, 2, -5, 4.398], "block": "GRASS"},
+					{"disc": [5, 2, -5, 3.198], "block": "STONE"},
+					{"disc": [5, 3, -5, 3.732], "block": "STONE"},
+					{"disc": [5, 3, -5, 2.532], "block": "STONE"},
+					{"disc": [5, 4, -5, 3.094], "block": "STONE"},
+					{"disc": [5, 4, -5, 1.894], "block": "STONE"},
+					{"disc": [5, 5, -5, 2.487], "block": "STONE"},
+					{"disc": [5, 5, -5, 1.287], "block": "STONE"},
+					{"disc": [5, 6, -5, 1.917], "block": "SNOW"},
+					{"disc": [5, 7, -5, 1.393], "block": "SNOW"},
+					{"disc": [5, 8, -5, 0.934], "block": "SNOW"},
+					{"box": [-3, -2, 3, -3, -1, 3], "block": "WATER"},
+					{"box": [-3, -2, 4, -3, -1, 4], "block": "WATER"},
+					{"box": [-2, -2, 3, -2, -1, 3], "block": "WATER"},
+					{"box": [-2, -2, 4, -2, -1, 4], "block": "WATER"},
+					{"box": [-1, -2, 3, -1, -1, 3], "block": "WATER"},
+					{"box": [-1, -2, 4, -1, -1, 4], "block": "WATER"},
+					{"box": [0, -2, 3, 0, -1, 3], "block": "WATER"},
+					{"box": [0, -2, 4, 0, -1, 4], "block": "WATER"},
+					{"box": [1, -2, 2, 1, -1, 2], "block": "WATER"},
+					{"box": [1, -2, 3, 1, -1, 3], "block": "WATER"},
+					{"box": [2, -2, 1, 2, -1, 1], "block": "WATER"},
+					{"box": [2, -2, 2, 2, -1, 2], "block": "WATER"},
+					{"box": [3, -2, 0, 3, -1, 0], "block": "WATER"},
+					{"box": [3, -2, 1, 3, -1, 1], "block": "WATER"},
+					{"box": [4, -2, -1, 4, -1, -1], "block": "WATER"},
+					{"box": [4, -2, 0, 4, -1, 0], "block": "WATER"},
+					{"box": [5, -2, -1, 5, -1, -1], "block": "WATER"},
+					{"cylinder": [8, 0, 3, 0.3, 3], "block": "LOG"},
+					{"ball": [8, 4, 3, 1.5], "block": "LEAVES"},
+					{"cylinder": [-1, 0, -6, 0.3, 3], "block": "LOG"},
+					{"ball": [-1, 4, -6, 1.5], "block": "LEAVES"},
+					{"cylinder": [1, 0, -8, 0.3, 2], "block": "LOG"},
+					{"ball": [1, 3, -8, 1.5], "block": "LEAVES"},
+					{"cylinder": [7, 0, -9, 0.3, 3], "block": "LOG"},
+					{"ball": [7, 4, -9, 1.5], "block": "LEAVES"}
+				]
+			},
+			{"id": "sun", "model": "sun", "at": [-18, 24, -34], "size": 2.6},
+			{
+				"id": "cloud",
+				"model": "blocks",
+				"at": [-7, 10.5, -2],
+				"fill": [
+					{"ball": [0, 0, 0, 2.3], "block": "CLOUD"},
+					{"ball": [2.4, -0.3, 0.4, 1.8], "block": "CLOUD"},
+					{"ball": [-2.3, -0.2, -0.3, 1.9], "block": "CLOUD"},
+					{"ball": [0.6, 1.2, -0.2, 1.7], "block": "CLOUD"},
+					{"ball": [-0.8, -0.4, 1.4, 1.5], "block": "CLOUD"},
+					{"box": [-4, -3, -3, 4, -2, 3], "block": "AIR"}
+				],
+				"moves": [
+					{"do": "grow", "at": 0, "dur": 0.4, "to": 0.15, "ease": "out"},
+					{"do": "appear", "at": 20.6},
+					{"do": "grow", "at": 20.6, "dur": 6, "to": 1, "ease": "out"},
+					{"do": "move", "at": 29.6, "dur": 3, "to": [4.5, 13, -5], "ease": "smooth"},
+					{"do": "out", "at": 32.7}
+				]
+			},
+			{
+				"id": "rain_cloud",
+				"model": "blocks",
+				"at": [4.5, 13, -5],
+				"fill": [
+					{"ball": [0, 0, 0, 2.3], "block": "PAINTED_GREY"},
+					{"ball": [2.4, -0.3, 0.4, 1.8], "block": "PAINTED_GREY"},
+					{"ball": [-2.3, -0.2, -0.3, 1.9], "block": "PAINTED_GREY"},
+					{"ball": [0.6, 1.2, -0.2, 1.7], "block": "PAINTED_GREY"},
+					{"ball": [-0.8, -0.4, 1.4, 1.5], "block": "PAINTED_GREY"},
+					{"box": [-4, -3, -3, 4, -2, 3], "block": "AIR"}
+				],
+				"moves": [{"do": "pop", "at": 32.4}]
+			},
+			{
+				"id": "drop",
+				"model": "mark",
+				"at": [3.5, 0.2, -0.5],
+				"moves": [
+					{"do": "appear", "at": 40.8},
+					{"do": "move", "at": 40.8, "dur": 1.7, "to": [2, 0.2, 1.2], "ease": "smooth"},
+					{"do": "move", "at": 42.5, "dur": 1.7, "to": [0, 0.2, 3], "ease": "smooth"},
+					{"do": "move", "at": 44.2, "dur": 1.7, "to": [-2.5, 0.2, 3.6], "ease": "smooth"},
+					{"do": "move", "at": 45.9, "dur": 1.7, "to": [-6, -0.8, 3], "ease": "smooth"}
+				]
+			}
+		],
+		"effects": [
+			{
+				"kind": "steam",
+				"at": [-7, -1.2, -2],
+				"from": 10.6,
+				"to": 30,
+				"size": 0.15,
+				"color": "#eef8ff",
+				"amount": 200,
+				"speed": 3,
+				"life": 6.5,
+				"area": [6, 15]
+			},
+			{"kind": "rain", "at": [4.5, 10.5, -5], "from": 32.6, "to": 45, "size": 1, "amount": 320},
+			{"kind": "snow", "at": [5, 11, -5], "from": 32.8, "to": 45, "size": 0.12, "amount": 70},
+			{"kind": "sparkles", "on": "drop", "from": 40.8, "to": 48, "size": 1, "color": "#ffffff", "amount": 90}
+		],
+		"camera": [
+			{"at": 0, "pos": [7, 13, 35], "look": [0, 1.5, -2], "fov": 50},
+			{"at": 9.95, "pos": [5, 11, 31], "look": [0, 1.5, -2], "fov": 50},
+			{"at": 10, "pos": [-3, 6.5, 13], "look": [-7, 2, -2], "fov": 50, "cut": true},
+			{"at": 19.95, "pos": [-3, 7.5, 15], "look": [-7, 4, -2], "fov": 50},
+			{"at": 20, "pos": [-4, 6, 24], "look": [-6.5, 6.5, -2], "fov": 50, "cut": true},
+			{"at": 29.6, "pos": [-3, 7, 25], "look": [-6, 8, -2], "fov": 50},
+			{"at": 32.4, "pos": [8, 8, 22], "look": [4, 7.5, -4], "fov": 50},
+			{"at": 39.95, "pos": [11, 8, 20], "look": [4, 7, -4], "fov": 50, "path": "orbit"},
+			{"at": 40, "pos": [7, 9.5, 15], "look": [0.5, 0, 0.5], "fov": 50, "cut": true},
+			{"at": 46.4, "pos": [2, 8.5, 16], "look": [-3, 0, 1.5], "fov": 50},
+			{"at": 50, "pos": [6, 12, 34], "look": [0, 1.5, -2], "fov": 50}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Earth's water goes round and round, from the sea to the sky and back.",
+			"say": "Earth's water goes round and round, from the sea to the sky and back. 97 drops in every 100 are in the sea.",
+			"sounds": [{"at": 1, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "THE WATER CYCLE",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 1}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "The Sun warms the sea. Water evaporates into vapour, a gas.",
+			"say": "The Sun warms the sea. Some of the water evaporates: it turns into water vapour, an invisible gas, and rises up.",
+			"sounds": [{"at": 0.8, "effect": "pop"}, {"at": 2, "effect": "bubbles"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "1. EVAPORATION",
+					"at": [180, 84],
+					"size": 28,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 0.8}]
+				},
+				{
+					"kind": "words",
+					"text": "vapour is invisible: we drew it",
+					"at": [180, 132],
+					"size": 16,
+					"color": "ink",
+					"box": "white",
+					"moves": [{"do": "pop", "at": 4.6}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "High up it is cold, so the vapour condenses into tiny drops: clouds!",
+			"say": "High up, the air is cold. The vapour cools and condenses into tiny drops of water. Billions of drops make a cloud.",
+			"sounds": [{"at": 1, "effect": "pop"}, {"at": 3, "effect": "wisp_chime"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "2. CONDENSATION",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "teal",
+					"moves": [{"do": "pop", "at": 1}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Drops join and get heavy. They fall as rain, or snow on the mountain.",
+			"say": "In the cloud, drops join and grow. When they are too heavy, they fall as rain, or as snow on the cold mountain top.",
+			"sounds": [{"at": 2.4, "effect": "pop"}, {"at": 2.8, "effect": "splash"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "3. PRECIPITATION",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "pop", "at": 2.4}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Rivers carry it back to the sea. Where will your raindrop go next?",
+			"say": "Rivers and streams carry the water back down to the sea, and round it goes again. Where will your raindrop go next?",
+			"sounds": [{"at": 1, "effect": "pop"}, {"at": 3.5, "effect": "splash"}, {"at": 7.5, "effect": "chime"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "4. COLLECTION",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "green",
+					"moves": [{"do": "pop", "at": 1}]
+				}
+			]
+		}
+	]
+}

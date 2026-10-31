@@ -1,0 +1,329 @@
+{
+	"id": "g7.geography.rocks_soils_geo",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met the three kinds of rock. Which kind forms when melted rock cools? (Igneous.) Today: the rock cycle, weathering, and how soils form."
+		},
+		{
+			"text": "Igneous rocks form when magma cools: slowly underground it makes big crystals, as in granite; quickly as lava, small ones, as in basalt. Sedimentary rocks, such as sandstone, limestone and chalk, form from layers of sediment pressed and cemented together."
+		},
+		{
+			"text": "Metamorphic rocks are rocks changed by great heat and pressure: limestone becomes marble, and mudstone becomes slate. Over millions of years rocks change from one kind to another in a slow loop: the rock cycle.",
+			"picture": {
+				"kind": "rock_cycle"
+			}
+		},
+		{
+			"text": "Weathering breaks rock down where it lies. Physical weathering: water in cracks freezes, grows by about a tenth and splits the rock (freeze-thaw); in deserts, hot days and cold nights make outer layers of rock peel away.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"water fills a crack",
+					"it freezes and grows",
+					"the crack widens",
+					"the ice thaws",
+					"a piece breaks off"
+				],
+				"title": "Freeze-thaw"
+			}
+		},
+		{
+			"text": "Chemical weathering changes the rock itself: rainwater is a weak acid that slowly dissolves limestone, making caves. Biological weathering is done by living things: roots widen cracks, and burrowing animals and lichens break rock down.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Weathering",
+						"Done by",
+						"Example"
+					],
+					[
+						"physical",
+						"ice, heat, cold",
+						"freeze-thaw"
+					],
+					[
+						"chemical",
+						"weak acid in rain",
+						"limestone caves"
+					],
+					[
+						"biological",
+						"living things",
+						"roots in cracks"
+					]
+				]
+			}
+		},
+		{
+			"text": "Soil is broken rock mixed with humus (rotted plants and animals), air, water and living things. A cut through it shows layers: leaf litter on top, dark topsoil full of life, subsoil, broken rock, then solid bedrock.",
+			"picture": {
+				"kind": "soil_profile",
+				"labels": true
+			}
+		},
+		{
+			"text": "Soil forms very slowly: 1 cm can take hundreds of years. Sandy soil drains fast, clay soil holds water, and loam, a mix of both with humus, suits most crops. Farmers protect soil from erosion with hedges, terraces on slopes and plants that cover it."
+		},
+		{
+			"text": "Try it in the world: dig a soil pit in your world. Build its layers in blocks, from grass and leaf litter down to bedrock, with a sign for each layer. Next: ice and glaciers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which kind of rock forms from layers of sand or shells pressed together?",
+			"answer": 0,
+			"hint": "Sediment is the sand and mud that settles in layers.",
+			"choices": [
+				"sedimentary",
+				"igneous",
+				"metamorphic"
+			],
+			"explain": "Sedimentary rock, such as sandstone or limestone."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does limestone become under great heat and pressure?",
+			"answer": 0,
+			"hint": "It is a smooth stone for statues.",
+			"choices": [
+				"marble",
+				"granite",
+				"chalk",
+				"basalt"
+			],
+			"explain": "Marble, a metamorphic rock."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Soil forms in a few days.",
+			"answer": false,
+			"hint": "Think how slowly rock breaks down.",
+			"explain": "False: 1 cm of soil can take hundreds of years to form."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is humus?",
+			"answer": 0,
+			"hint": "It makes topsoil dark.",
+			"choices": [
+				"rotted plants and animals in soil",
+				"a kind of rock",
+				"a rain gauge",
+				"a type of worm"
+			],
+			"explain": "Humus is rotted plant and animal matter that feeds the soil."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which layer is marked '?'?",
+			"answer": 0,
+			"hint": "It is just under the leaf litter, dark and full of life.",
+			"choices": [
+				"topsoil",
+				"bedrock",
+				"leaf litter",
+				"subsoil"
+			],
+			"explain": "Topsoil, the A layer.",
+			"picture": {
+				"kind": "soil_profile",
+				"labels": true,
+				"hide": "topsoil"
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these rocks.",
+			"groups": [
+				"igneous",
+				"sedimentary",
+				"metamorphic"
+			],
+			"items": [
+				"granite",
+				"sandstone",
+				"marble",
+				"basalt",
+				"chalk",
+				"slate"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Cooled from melted rock, pressed layers, or changed by heat and pressure?",
+			"explain": "Igneous: granite, basalt. Sedimentary: sandstone, chalk. Metamorphic: marble, slate."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these kinds of weathering.",
+			"groups": [
+				"physical",
+				"chemical",
+				"biological"
+			],
+			"items": [
+				"freeze-thaw splits a rock",
+				"rain dissolves limestone",
+				"roots widen a crack",
+				"desert rock peels in layers",
+				"rabbits burrow into a slope",
+				"iron in rock turns to rust"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				2,
+				1
+			],
+			"hint": "Physical: forces. Chemical: the rock changes. Biological: living things.",
+			"explain": "Physical: freeze-thaw, peeling. Chemical: dissolving, rust. Biological: roots, burrows."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the rock cycle in order, starting from magma.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Magma cools, rock is worn into sediment, sediment is pressed, then heat and pressure change it.",
+			"items": [
+				"igneous rock",
+				"sedimentary rock",
+				"magma",
+				"sediment",
+				"metamorphic rock"
+			],
+			"explain": "Magma, igneous rock, sediment, sedimentary rock, metamorphic rock (which can melt into magma again)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does granite have big crystals?",
+			"answer": 0,
+			"hint": "Crystals grow bigger when they have more time.",
+			"choices": [
+				"its magma cooled slowly underground",
+				"it cooled quickly as lava",
+				"it was pressed from sand",
+				"plants made it"
+			],
+			"explain": "Its magma cooled slowly deep underground, giving crystals time to grow."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Water grows by about a tenth when it freezes. About how many cm³ of ice does 100 cm³ of water make?",
+			"answer": "110",
+			"hint": "Find a tenth of 100 and add it on.",
+			"explain": "A tenth of 100 is 10; 100 + 10 = 110 cm³."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the difference between weathering and erosion?",
+			"answer": 0,
+			"hint": "One happens where the rock lies; one carries it away.",
+			"choices": [
+				"weathering breaks rock; erosion moves the pieces",
+				"they are the same",
+				"erosion breaks rock; weathering moves it",
+				"weathering only happens at sea"
+			],
+			"explain": "Weathering breaks rock down where it is; erosion carries the pieces away, by water, wind or ice."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "It can take 400 years to make 1 cm of soil. How many years for 5 cm?",
+			"answer": "2000",
+			"hint": "Multiply the years for 1 cm by 5.",
+			"explain": "400 × 5 = 2,000 years."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Clay soil drains faster than sandy soil.",
+			"answer": false,
+			"hint": "Which one is sticky and holds water?",
+			"explain": "False: sandy soil drains fast; clay holds water."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which soil suits most crops?",
+			"answer": 0,
+			"hint": "A mix of sand, clay and humus.",
+			"choices": [
+				"loam",
+				"pure sand",
+				"pure clay",
+				"bedrock"
+			],
+			"explain": "Loam: it drains but holds enough water, and is rich in humus."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which process is hidden in the rock cycle?",
+			"answer": 0,
+			"hint": "What turns sedimentary rock into metamorphic rock?",
+			"choices": [
+				"heat and pressure",
+				"cooling",
+				"melting",
+				"weathering and erosion"
+			],
+			"explain": "Heat and pressure change sedimentary rock into metamorphic rock.",
+			"picture": {
+				"kind": "rock_cycle",
+				"hide": "heat and pressure"
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.rock_sort",
+			"level": 1
+		},
+		{
+			"gen": "g7h.rock_sort",
+			"level": 2
+		},
+		{
+			"gen": "g7h.rock_sort",
+			"level": 3
+		},
+		{
+			"gen": "g7h.weathering_sort",
+			"level": 1
+		},
+		{
+			"gen": "g7h.weathering_sort",
+			"level": 2
+		},
+		{
+			"gen": "g7h.weathering_sort",
+			"level": 3
+		}
+	]
+}

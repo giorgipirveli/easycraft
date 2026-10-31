@@ -1,0 +1,432 @@
+{
+	"id": "g8.computing.how_code_runs",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, which part of a computer runs a program's instructions? (The processor, or CPU.) Today: how the processor runs a program, one instruction at a time."
+		},
+		{
+			"text": "A program is stored in memory as instructions, each at a numbered place called an address. Its data is in memory too. John von Neumann (1903-1957) described this stored-program idea in 1945.",
+			"picture": {
+				"kind": "cpu_cycle",
+				"view": "machine",
+				"memory": [
+					[
+						0,
+						"LOAD 7"
+					],
+					[
+						1,
+						"ADD 5"
+					],
+					[
+						2,
+						"OUT"
+					],
+					[
+						3,
+						"HALT"
+					]
+				],
+				"pc": 0,
+				"acc": 0
+			}
+		},
+		{
+			"text": "The processor repeats a cycle billions of times a second. Fetch: get the next instruction from memory. Decode: work out what it means. Execute: do it. Then fetch the next one.",
+			"picture": {
+				"kind": "cpu_cycle",
+				"view": "cycle",
+				"step": "fetch"
+			}
+		},
+		{
+			"text": "Inside the processor, the control unit runs the cycle, and the ALU (arithmetic logic unit) does sums and comparisons. Registers are tiny fast stores: the program counter holds the next instruction's address.",
+			"picture": {
+				"kind": "cpu_cycle",
+				"view": "machine",
+				"memory": [
+					[
+						0,
+						"LOAD 7"
+					],
+					[
+						1,
+						"ADD 5"
+					]
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "Worked example: LOAD 7 puts 7 in the accumulator. ADD 5 makes it 7 + 5 = 12. OUT shows 12. HALT stops. Each one is fetched, decoded and executed, and the program counter moves on: 0, 1, 2, 3.",
+			"picture": {
+				"kind": "cpu_cycle",
+				"view": "machine",
+				"memory": [
+					[
+						0,
+						"LOAD 7"
+					],
+					[
+						1,
+						"ADD 5"
+					],
+					[
+						2,
+						"OUT"
+					],
+					[
+						3,
+						"HALT"
+					]
+				],
+				"pc": 2,
+				"acc": 12
+			}
+		},
+		{
+			"text": "Machine code is these instructions as binary numbers, all the processor understands. People write text code, and a translator turns it into machine code: a compiler all at once, an interpreter line by line."
+		},
+		{
+			"text": "Clock speed counts cycles: 1 hertz is 1 a second, so a 3 gigahertz (GHz) processor runs 3 billion cycles a second. A processor with several cores can run several instructions at the same time."
+		},
+		{
+			"text": "Try it in the world: act the cycle out with a friend. One is the memory, holding numbered cards; the other is the processor, who fetches a card, reads it aloud and does it. Next: text, sound and pictures as bits."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the processor's cycle in order, from the start.",
+			"items": [
+				"fetch the next one",
+				"execute it",
+				"decode it",
+				"fetch the instruction"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The cycle's name gives its order.",
+			"explain": "Fetch, decode, execute, and round again with the next instruction."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each part to its job.",
+			"items": [
+				"control unit",
+				"ALU",
+				"program counter",
+				"memory"
+			],
+			"matches": [
+				"does sums and comparisons",
+				"holds the next address",
+				"stores programs and data",
+				"runs the cycle"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of what each name says.",
+			"explain": "The control unit runs the cycle, the ALU calculates, the program counter points to the next instruction and memory stores programs and data."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part does sums and comparisons?",
+			"choices": [
+				"the ALU",
+				"the control unit",
+				"the program counter",
+				"memory"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "cpu_cycle",
+				"view": "machine",
+				"memory": [],
+				"acc": "?"
+			},
+			"hint": "Its name has arithmetic and logic in it.",
+			"explain": "The ALU, the arithmetic logic unit, does the sums and the comparisons."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A 3 GHz processor runs 3 billion cycles a second.",
+			"answer": true,
+			"hint": "Giga means a billion, and hertz means each second.",
+			"explain": "True: 1 GHz is a billion cycles each second, so 3 GHz is 3 billion."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "This program runs. What number does OUT show?",
+			"answer": "13",
+			"picture": {
+				"kind": "cpu_cycle",
+				"view": "machine",
+				"memory": [
+					[
+						0,
+						"LOAD 9"
+					],
+					[
+						1,
+						"ADD 4"
+					],
+					[
+						2,
+						"OUT"
+					],
+					[
+						3,
+						"HALT"
+					]
+				],
+				"pc": 0
+			},
+			"hint": "Keep the accumulator's value as each line runs.",
+			"explain": "LOAD 9 puts 9 in the accumulator; ADD 4 makes 9 + 4 = 13; OUT shows 13."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "This program runs. What number does OUT show?",
+			"answer": "17",
+			"picture": {
+				"kind": "cpu_cycle",
+				"view": "machine",
+				"memory": [
+					[
+						0,
+						"LOAD 20"
+					],
+					[
+						1,
+						"SUB 6"
+					],
+					[
+						2,
+						"ADD 3"
+					],
+					[
+						3,
+						"OUT"
+					],
+					[
+						4,
+						"HALT"
+					]
+				],
+				"pc": 0
+			},
+			"hint": "Write the accumulator's value after every line.",
+			"explain": "20, then 20 − 6 = 14, then 14 + 3 = 17. OUT shows 17."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "An instruction has just been executed. What happens next?",
+			"choices": [
+				"the next instruction is fetched",
+				"the program is translated again",
+				"the computer switches off",
+				"the memory is wiped"
+			],
+			"answer": 0,
+			"hint": "The processor goes round a cycle.",
+			"explain": "It goes round the cycle again: the next instruction is fetched, decoded and executed."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Machine code is binary numbers that the processor understands.",
+			"answer": true,
+			"hint": "Think what the processor reads in the end.",
+			"explain": "True: every program becomes machine code, binary instructions the processor fetches and executes."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Where is it: stored in memory, or a part of the processor?",
+			"groups": [
+				"stored in memory",
+				"in the processor"
+			],
+			"items": [
+				"the program's instructions",
+				"the data the program uses",
+				"the ALU",
+				"the program counter",
+				"the control unit"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Is it something stored, or something that works?",
+			"explain": "Programs and data are stored in memory; the ALU, the control unit and the registers such as the program counter are inside the processor."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does a compiler do?",
+			"choices": [
+				"turns a whole program into machine code first",
+				"runs one line, then translates the next",
+				"draws the program as blocks",
+				"finds every bug by itself"
+			],
+			"answer": 0,
+			"hint": "Compare it with an interpreter.",
+			"explain": "A compiler translates the whole program before it runs; an interpreter translates and runs it a line at a time."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A processor runs at 2 GHz. How many billion cycles does it run in 5 seconds?",
+			"answer": "10",
+			"hint": "GHz means billions of cycles each second.",
+			"explain": "2 billion cycles a second for 5 seconds: 2 × 5 = 10 billion."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many instructions does this program fetch and execute, counting HALT?",
+			"answer": "6",
+			"picture": {
+				"kind": "cpu_cycle",
+				"view": "machine",
+				"memory": [
+					[
+						0,
+						"LOAD 5"
+					],
+					[
+						1,
+						"ADD 5"
+					],
+					[
+						2,
+						"OUT"
+					],
+					[
+						3,
+						"SUB 2"
+					],
+					[
+						4,
+						"OUT"
+					],
+					[
+						5,
+						"HALT"
+					]
+				]
+			},
+			"hint": "Follow the program counter from address 0 until HALT.",
+			"explain": "It runs every instruction once, from LOAD 5 at address 0 to HALT at address 5: 6 instructions."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What number does the second OUT show?",
+			"answer": "17",
+			"picture": {
+				"kind": "cpu_cycle",
+				"view": "machine",
+				"memory": [
+					[
+						0,
+						"LOAD 12"
+					],
+					[
+						1,
+						"SUB 5"
+					],
+					[
+						2,
+						"OUT"
+					],
+					[
+						3,
+						"ADD 10"
+					],
+					[
+						4,
+						"OUT"
+					],
+					[
+						5,
+						"HALT"
+					]
+				]
+			},
+			"hint": "Keep the accumulator's value line by line, and count the OUTs.",
+			"explain": "12 − 5 = 7, so the first OUT shows 7; then 7 + 10 = 17, and the second OUT shows 17."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the difference between an interpreter and a compiler?",
+			"choices": [
+				"an interpreter translates a line at a time",
+				"a compiler works only on short programs",
+				"an interpreter never finds mistakes",
+				"a compiler runs code without a processor"
+			],
+			"answer": 0,
+			"hint": "Think of when each one translates.",
+			"explain": "An interpreter translates and runs one line at a time; a compiler translates the whole program first."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A processor with 4 cores can run instructions for 4 tasks at the same time.",
+			"answer": true,
+			"hint": "Each core has a fetch-decode-execute cycle of its own.",
+			"explain": "True: each core fetches, decodes and executes its own instructions, so 4 can work at once."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is it useful that programs and data share the same memory?",
+			"choices": [
+				"new programs load with no rewiring",
+				"programs never change",
+				"data must be in binary",
+				"it makes the processor bigger"
+			],
+			"answer": 0,
+			"hint": "Think of the first computers, which were rewired for each job.",
+			"explain": "With programs stored in memory like data, a computer runs a new program just by loading it."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.machine_trace",
+			"level": 1
+		},
+		{
+			"gen": "g8c.machine_trace",
+			"level": 2
+		},
+		{
+			"gen": "g8c.machine_trace",
+			"level": 3
+		}
+	]
+}

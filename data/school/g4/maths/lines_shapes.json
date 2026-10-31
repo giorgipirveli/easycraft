@@ -1,0 +1,353 @@
+{
+	"id": "g4.maths.lines_shapes",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, angles. How many degrees is a right angle? 90°: a square corner."
+		},
+		{
+			"text": "A point is an exact place. A line goes on for ever both ways. A ray starts at a point and goes on for ever one way. A line segment has two end points.",
+			"picture": {
+				"kind": "lines",
+				"what": "ray"
+			}
+		},
+		{
+			"text": "Parallel lines never meet, like the rails of a train track. Perpendicular lines meet at a right angle.",
+			"picture": {
+				"kind": "lines",
+				"what": "perpendicular"
+			}
+		},
+		{
+			"text": "Angles can be acute (less than 90°), right (90°) or obtuse (between 90° and 180°). Triangles are named by their angles too: a right-angled triangle has one right angle.",
+			"picture": {
+				"kind": "shape",
+				"what": "triangle_right",
+				"marks": true
+			}
+		},
+		{
+			"text": "Shapes are sorted by their sides and angles. A trapezium has exactly one pair of parallel sides. A rectangle has four right angles.",
+			"picture": {
+				"kind": "shape",
+				"what": "trapezium",
+				"marks": true
+			}
+		},
+		{
+			"text": "A line of symmetry folds a shape so that both halves match exactly. A square has 4 lines of symmetry.",
+			"picture": {
+				"kind": "shape",
+				"what": "square",
+				"symmetry": true
+			}
+		},
+		{
+			"text": "Try it in the world: build a shape with one line of symmetry in your world, like a house front. Check it with a friend standing on the middle line. Next: tables, line graphs and pie charts."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many sides does a hexagon have?",
+			"choices": [
+				"6",
+				"5",
+				"8",
+				"4"
+			],
+			"answer": 0,
+			"hint": "Hex means six.",
+			"explain": "A hexagon has 6 sides.",
+			"picture": {
+				"kind": "shape",
+				"what": "hexagon"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A square has four right angles.",
+			"answer": true,
+			"hint": "Look at a square's corners.",
+			"explain": "Every corner of a square is a right angle.",
+			"picture": {
+				"kind": "shape",
+				"what": "square",
+				"marks": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a line that starts at a point and goes on for ever one way called?",
+			"choices": [
+				"a ray",
+				"a line segment",
+				"a point",
+				"parallel lines"
+			],
+			"answer": 0,
+			"hint": "It has one end.",
+			"explain": "A ray has one end point and goes on for ever the other way."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A triangle can have two right angles.",
+			"answer": false,
+			"hint": "Two right angles are already 180°.",
+			"explain": "Two right angles make 180°, which leaves nothing for the third corner."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How many lines of symmetry does a rectangle that is not a square have?",
+			"choices": [
+				"2",
+				"4",
+				"1",
+				"0"
+			],
+			"answer": 0,
+			"hint": "Fold it long-ways and short-ways. Do the corners match on a diagonal?",
+			"explain": "It folds in half along the middle both ways: 2 lines.",
+			"picture": {
+				"kind": "shape",
+				"what": "rectangle"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which capital letter has a line of symmetry?",
+			"choices": [
+				"A",
+				"F",
+				"G",
+				"J"
+			],
+			"answer": 0,
+			"hint": "Imagine a mirror down the middle of each letter.",
+			"explain": "A has a line of symmetry straight down its middle."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Every square is a rectangle.",
+			"answer": true,
+			"hint": "What makes a rectangle? Does a square have it?",
+			"explain": "A rectangle has four right angles. A square does too, with all its sides equal as well."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Parallel lines meet if you make them long enough.",
+			"answer": false,
+			"hint": "Think of train rails.",
+			"explain": "Parallel lines stay the same distance apart for ever, so they never meet."
+		},
+		{
+			"type": "build",
+			"level": 1,
+			"prompt": "Finish the build so both halves match, like in a mirror.",
+			"board": {
+				"cols": 8,
+				"rows": 4,
+				"block": 15,
+				"given": [
+					[
+						0,
+						0
+					],
+					[
+						1,
+						0
+					],
+					[
+						2,
+						0
+					],
+					[
+						3,
+						0
+					],
+					[
+						3,
+						1
+					],
+					[
+						3,
+						2
+					]
+				],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "mirror",
+				"sum": 7
+			},
+			"hint": "Each block needs a twin the same distance from the red line on the other side.",
+			"explain": "Every block has its twin on the other side of the line."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the angles.",
+			"items": [
+				"30°",
+				"90°",
+				"120°",
+				"75°",
+				"150°"
+			],
+			"groups": [
+				"acute",
+				"right",
+				"obtuse"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				2
+			],
+			"hint": "Less than 90° is acute; exactly 90° is right; between 90° and 180° is obtuse.",
+			"explain": "30° and 75° are acute, 90° is right, and 120° and 150° are obtuse."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them by their lines of symmetry: none, one, or more than one?",
+			"groups": [
+				"none",
+				"one",
+				"more than one"
+			],
+			"items": [
+				"a square",
+				"the letter A",
+				"the letter F",
+				"a rectangle",
+				"an isosceles triangle",
+				"the letter G"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				2,
+				1,
+				0
+			],
+			"hint": "Imagine folding each one so the halves match. How many folds work?",
+			"explain": "None: F and G. One: A and an isosceles triangle. More than one: a rectangle (2) and a square (4)."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the shapes by their pairs of parallel sides.",
+			"groups": [
+				"none",
+				"one pair",
+				"two pairs"
+			],
+			"items": [
+				"a trapezium",
+				"a rectangle",
+				"a triangle",
+				"a square",
+				"a kite"
+			],
+			"answer": [
+				1,
+				2,
+				0,
+				2,
+				0
+			],
+			"hint": "Look for sides that run the same way and never meet.",
+			"explain": "No parallel sides: a triangle and a kite. One pair: a trapezium. Two pairs: a rectangle and a square."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4g.line_kind",
+			"level": 1
+		},
+		{
+			"gen": "g4g.line_kind",
+			"level": 2
+		},
+		{
+			"gen": "g4g.line_kind",
+			"level": 3
+		},
+		{
+			"gen": "g4g.angle_kind",
+			"level": 1
+		},
+		{
+			"gen": "g4g.angle_kind",
+			"level": 2
+		},
+		{
+			"gen": "g4g.angle_kind",
+			"level": 3
+		},
+		{
+			"gen": "g4g.shape_name",
+			"level": 1
+		},
+		{
+			"gen": "g4g.shape_name",
+			"level": 2
+		},
+		{
+			"gen": "g4g.shape_name",
+			"level": 3
+		},
+		{
+			"gen": "g4g.shape_property",
+			"level": 1
+		},
+		{
+			"gen": "g4g.shape_property",
+			"level": 2
+		},
+		{
+			"gen": "g4g.shape_property",
+			"level": 3
+		},
+		{
+			"gen": "g4g.symmetry_count",
+			"level": 1
+		},
+		{
+			"gen": "g4g.symmetry_count",
+			"level": 2
+		},
+		{
+			"gen": "g4g.symmetry_count",
+			"level": 3
+		},
+		{
+			"gen": "g4g.right_angle_count",
+			"level": 2
+		},
+		{
+			"gen": "g4g.mirror_build",
+			"level": 1
+		},
+		{
+			"gen": "g4g.mirror_build",
+			"level": 2
+		},
+		{
+			"gen": "g4g.mirror_build",
+			"level": 3
+		}
+	]
+}

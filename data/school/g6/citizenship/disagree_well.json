@@ -1,0 +1,372 @@
+{
+	"id": "g6.citizenship.disagree_well",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, how can you tell a fact from an opinion? (A fact can be checked; an opinion is what someone thinks.) Today: how to disagree well."
+		},
+		{
+			"text": "Disagreeing is normal and useful: it tests ideas and helps find better ones. The aim of a good discussion is to get closer to the truth or to a good decision, not to win."
+		},
+		{
+			"text": "Talk about the idea, not the person. Give a reason and evidence: 'I think we should build near the river, because the map shows flat land and fresh water there.'"
+		},
+		{
+			"text": "Listen first. Say back what the other person means before you answer: 'So you think the river might flood?' It shows respect and checks that you understood.",
+			"picture": {
+				"kind": "chat",
+				"messages": [
+					[
+						"them",
+						"We should build near the river."
+					],
+					[
+						"me",
+						"So you think the flat land is best?"
+					],
+					[
+						"them",
+						"Yes, and the water is close."
+					],
+					[
+						"me",
+						"Good point. Might the river flood?"
+					]
+				]
+			}
+		},
+		{
+			"text": "Watch for moves that get in the way: attacking the person, following the crowd ('everyone thinks so'), twisting what someone said into something sillier, and refusing to listen.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"unhelpful",
+						"instead"
+					],
+					[
+						"attack a person",
+						"talk about ideas"
+					],
+					[
+						"follow the crowd",
+						"give evidence"
+					],
+					[
+						"twist words",
+						"say it back"
+					]
+				]
+			}
+		},
+		{
+			"text": "Changing your mind when the evidence is better is a strength, not a weakness. Good thinkers say: 'That's a good point. I hadn't thought of that.'"
+		},
+		{
+			"text": "Sometimes people still disagree. Then look for common ground and a compromise, or agree to disagree kindly. In a community of enquiry, a class thinks together and builds on each other's ideas."
+		},
+		{
+			"text": "Try it in the world: hold a building debate with friends: river or hill for the new base? Each side gives reasons and evidence, then says back the other side's best point. Next: income and taxes."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the aim of a good discussion?",
+			"answer": 0,
+			"hint": "It is not a competition.",
+			"choices": [
+				"to get closer to the truth or a good choice",
+				"to win at all costs",
+				"to shout loudest",
+				"to end friendships"
+			],
+			"explain": "To get closer to the truth or a good decision."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Changing your mind when you hear better evidence is a weakness.",
+			"answer": false,
+			"hint": "What do good thinkers do with better evidence?",
+			"explain": "False: it is a strength to follow the better evidence."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a good way to disagree?",
+			"answer": 0,
+			"hint": "Talk about the idea, not the person.",
+			"choices": [
+				"give a reason and evidence",
+				"call the other person names",
+				"stop listening",
+				"say everyone agrees with you"
+			],
+			"explain": "Give a reason and evidence for your view."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is 'attacking the person'?",
+			"answer": 0,
+			"hint": "Who is being talked about, the idea or the speaker?",
+			"choices": [
+				"criticising the speaker instead of the idea",
+				"asking a question",
+				"giving evidence",
+				"saying back what they mean"
+			],
+			"explain": "Going after the speaker instead of their idea."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Saying back what someone means shows you have listened.",
+			"answer": true,
+			"hint": "Try: 'So you think...'",
+			"explain": "True: it shows respect and checks you understood."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Which of these help everyone think, and which get in the way?",
+			"groups": [
+				"helps us think",
+				"gets in the way"
+			],
+			"items": [
+				"Can you show me that number?",
+				"Only silly people think that.",
+				"Good point: I've changed my mind.",
+				"Everyone thinks so, so it's true.",
+				"So you mean the park is too far?"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it about the idea and evidence, or about the person or the crowd?",
+			"explain": "Helps: asking for evidence, changing your mind, saying back. Gets in the way: attacking the person, following the crowd."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "\"Everyone in my class likes it, so it must be good.\" What is wrong with this?",
+			"answer": 0,
+			"hint": "Is being popular a reason?",
+			"choices": [
+				"it follows the crowd instead of reasons",
+				"it gives good evidence",
+				"it attacks a person",
+				"nothing"
+			],
+			"explain": "It follows the crowd: something popular is not proved good."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Zara says homework should be shorter. Bram answers: 'So you want no school at all!' What has Bram done?",
+			"answer": 0,
+			"hint": "Did Zara say anything about no school?",
+			"choices": [
+				"twisted what she said",
+				"agreed with her",
+				"given evidence",
+				"listened well"
+			],
+			"explain": "He twisted her idea into a sillier one that is easier to knock down."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"evidence",
+				"compromise",
+				"common ground",
+				"opinion"
+			],
+			"matches": [
+				"what someone thinks",
+				"facts that support a claim",
+				"each side gives a little",
+				"what both sides agree on"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Which is about facts, which about meeting in the middle?",
+			"explain": "Evidence: supporting facts. Compromise: each side gives a little. Common ground: what both agree. Opinion: what someone thinks."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "You can disagree with a friend and still be friends.",
+			"answer": true,
+			"hint": "Disagreeing is about ideas.",
+			"explain": "True: disagreeing kindly about ideas need not harm a friendship."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two friends still disagree after a good discussion. What is a kind next step?",
+			"answer": 0,
+			"hint": "Not every argument ends with one winner.",
+			"choices": [
+				"look for a compromise or agree to disagree",
+				"stop being friends",
+				"shout louder",
+				"tell everyone the other is wrong"
+			],
+			"explain": "Look for common ground and a compromise, or agree to disagree kindly."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which answer attacks the idea, not the person?",
+			"answer": 0,
+			"hint": "Which one talks about the plan and gives evidence?",
+			"choices": [
+				"that plan costs too much gold: see the list",
+				"you always have silly plans",
+				"nobody likes your ideas",
+				"you're too young to know"
+			],
+			"explain": "'That plan costs too much gold: see the list' talks about the plan, with evidence."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of a good reply in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Listening comes first.",
+			"items": [
+				"show your evidence",
+				"give your view and reason",
+				"say back what they mean",
+				"listen to the whole point"
+			],
+			"explain": "Listen, say it back, give your view and reason, then your evidence."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is a guess not as strong as evidence?",
+			"answer": 0,
+			"hint": "Remember facts and opinions.",
+			"choices": [
+				"evidence can be checked",
+				"guesses are always wrong",
+				"evidence is louder",
+				"guesses are longer"
+			],
+			"explain": "Evidence can be checked by others; a guess cannot."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In a community of enquiry, people build on each other's ideas.",
+			"answer": true,
+			"hint": "Think of a class thinking together.",
+			"explain": "True: the class thinks together, building on each other's ideas."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the replies: attacking the person, following the crowd, or giving a reason?",
+			"groups": [
+				"attacks the person",
+				"follows the crowd",
+				"gives a reason"
+			],
+			"items": [
+				"You're too young to know.",
+				"Everyone says so.",
+				"The map shows flat land there.",
+				"Only silly people think that.",
+				"Most people like it, so it's best.",
+				"It floods each spring: see the log."
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Does it go after the speaker, lean on what most people think, or point to evidence?",
+			"explain": "Attacks the person: too young, only silly people. Follows the crowd: everyone says so, most people like it. Gives a reason: the map's flat land, the flood log."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Bram says, \"We should build by the river.\" Order a good reply.",
+			"items": [
+				"'It floods in spring: see the log.'",
+				"Listen to his whole idea.",
+				"'So you like the fresh water?'",
+				"'Could we build on the hill beside it?'"
+			],
+			"answer": [
+				1,
+				2,
+				0,
+				3
+			],
+			"hint": "Listen, say it back, give your reason with evidence, then look for common ground.",
+			"explain": "Listen to the whole idea, say it back ('so you like the fresh water?'), give your reason with evidence (the flood log), then look for a compromise: the hill beside the river."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each reply to the move it makes.",
+			"items": [
+				"'So you mean it's too far?'",
+				"'Everyone agrees with me.'",
+				"'So you want no parks at all!'",
+				"'You're right, I see it now.'"
+			],
+			"matches": [
+				"twisting what was said",
+				"saying back",
+				"changing your mind",
+				"following the crowd"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Which replies help everyone think, and which get in the way?",
+			"explain": "'So you mean it's too far?' says back what someone means. 'Everyone agrees with me' follows the crowd. 'So you want no parks at all!' twists their idea. 'You're right, I see it now' changes your mind for a good reason."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.argue_well",
+			"level": 1
+		},
+		{
+			"gen": "g6h.argue_well",
+			"level": 2
+		},
+		{
+			"gen": "g6h.argue_well",
+			"level": 3
+		}
+	]
+}

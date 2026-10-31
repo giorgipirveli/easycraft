@@ -1,0 +1,483 @@
+{
+	"id": "g5.music.major_minor",
+	"lesson": [
+		{
+			"text": "Quick memory: in a melody, what is a step? (Moving to the very next note.) Today: two moods that most music is built on, major and minor."
+		},
+		{
+			"text": "Music in a major key often sounds bright and happy. Listen: C, E and G, up and back down.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"C4",
+					"E4",
+					"G4"
+				],
+				"names": true,
+				"title": "C major: C, E, G"
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"text": "Music in a minor key often sounds darker, sad or mysterious. Listen: the same shape with E flat, one key lower than E: C, E flat and G.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"C4",
+					"Eb4",
+					"G4"
+				],
+				"names": true,
+				"title": "C minor: C, E flat, G"
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"Eb4",
+					"G4",
+					"Eb4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"text": "A semitone is the step from one key to the very next, black or white. A tone is two semitones. Major and minor differ by just one semitone!"
+		},
+		{
+			"text": "Count up from the home note to the third note: 4 semitones (C to E) makes it major; 3 semitones (C to E flat) makes it minor. That note decides the mood."
+		},
+		{
+			"text": "A major scale goes up tone, tone, semitone, tone, tone, tone, semitone. On a keyboard, C major uses only the white keys: C D E F G A B C.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"A4",
+					"B4",
+					"C5"
+				],
+				"names": true,
+				"steps": true,
+				"scale": "major",
+				"title": "C major scale"
+			}
+		},
+		{
+			"text": "Worked example: A minor uses the white keys too: A B C D E F G A. From A up to C is 3 semitones, so it sounds minor. Its steps go tone, semitone, tone, tone, semitone, tone, tone.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"A3",
+					"B3",
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"A4"
+				],
+				"names": true,
+				"steps": true,
+				"scale": "minor",
+				"title": "A minor scale",
+				"from": "A3"
+			}
+		},
+		{
+			"text": "Try it in the world: hum Happy Birthday (major), then a spooky tune in minor. On any keyboard, play C, E, G, then C, E flat, G, and hear the mood change. Next: chords."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this chord major or minor?",
+			"answer": 0,
+			"hint": "Major usually sounds bright; minor sounds darker. Listen to the middle note.",
+			"choices": [
+				"major",
+				"minor"
+			],
+			"explain": "It is C, E and G: 4 semitones from C to E, so it is major and bright.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:3"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this tune major or minor?",
+			"answer": 0,
+			"hint": "Does it sound bright, or darker and sadder?",
+			"choices": [
+				"minor",
+				"major"
+			],
+			"explain": "It is A, C and E: only 3 semitones from A to C, so it is minor.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A4",
+					"C5",
+					"E5",
+					"C5",
+					"A4:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Music in a minor key often sounds darker or sadder than music in a major key.",
+			"answer": true,
+			"hint": "Think of the two tunes in the lesson.",
+			"explain": "True: minor often sounds darker, sad or mysterious; major bright."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many semitones make a tone?",
+			"answer": 0,
+			"hint": "A semitone is one key along. A tone skips a key.",
+			"choices": [
+				"2",
+				"1",
+				"3",
+				"4"
+			],
+			"explain": "A tone is 2 semitones, like C up to D (C sharp between)."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"major",
+				"minor",
+				"semitone",
+				"tone"
+			],
+			"matches": [
+				"the very next key",
+				"two semitones",
+				"often bright and happy",
+				"often darker or sad"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the keyboard and the two moods.",
+			"explain": "Major is often bright, minor often darker; a semitone is the next key, and a tone is two semitones."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Is this broken chord major or minor?",
+			"answer": 0,
+			"hint": "Is the middle note 4 semitones above the bottom, or 3?",
+			"choices": [
+				"major",
+				"minor"
+			],
+			"explain": "It is F, A and C: 4 semitones from F to A, so it is major.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"F4",
+					"A4",
+					"C5",
+					"A4",
+					"F4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Is this broken chord major or minor?",
+			"answer": 0,
+			"hint": "Does it sound bright, or darker?",
+			"choices": [
+				"minor",
+				"major"
+			],
+			"explain": "It is D, F and A: 3 semitones from D to F, so it is minor.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D4",
+					"F4",
+					"A4",
+					"F4",
+					"D4:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many semitones is it from C up to E? Count every key, black and white.",
+			"answer": "4",
+			"hint": "Count the steps from key to key, black keys too.",
+			"explain": "C to C sharp, D, D sharp, E: 4 semitones, a major third.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"C4",
+					"E4"
+				],
+				"names": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which three notes make the chord of C minor?",
+			"answer": 0,
+			"hint": "Start from C major (C, E, G), then make the middle note a semitone lower.",
+			"choices": [
+				"C, E flat and G",
+				"C, E and G",
+				"C, D and E",
+				"C, F and A"
+			],
+			"explain": "C minor is C, E flat and G: E flat is 3 semitones above C."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The C major scale uses only the white keys of a keyboard.",
+			"answer": true,
+			"hint": "Look at the C major scale picture.",
+			"explain": "True: C D E F G A B C are all white keys."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Is this tune major or minor?",
+			"answer": 0,
+			"hint": "The tune starts on its home note. Listen for the third note up from it.",
+			"choices": [
+				"minor",
+				"major"
+			],
+			"explain": "It goes up from E: E, F sharp, G … G is 3 semitones above E, so it is minor.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4",
+					"F#4",
+					"G4",
+					"A4",
+					"B4",
+					"A4",
+					"G4",
+					"F#4",
+					"E4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Is this tune major or minor?",
+			"answer": 0,
+			"hint": "The tune starts on its home note. Listen for the third note up from it.",
+			"choices": [
+				"major",
+				"minor"
+			],
+			"explain": "It goes up from G: G, A, B … B is 4 semitones above G, so it is major.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"B4",
+					"C5",
+					"D5",
+					"C5",
+					"B4",
+					"A4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A major scale goes up tone, tone, semitone … How many semitones is it from the home note up to the 3rd note?",
+			"answer": "4",
+			"hint": "Add the first two steps. A tone is 2 semitones.",
+			"explain": "Tone + tone = 2 + 2 = 4 semitones: a major third."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which change turns the chord C, E, G into a minor chord?",
+			"answer": 0,
+			"hint": "Which note decides major or minor?",
+			"choices": [
+				"E flat instead of E",
+				"G sharp instead of G",
+				"D instead of E",
+				"C sharp instead of C"
+			],
+			"explain": "The middle note decides: a semitone lower, E flat, makes C, E flat, G: C minor."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Read the steps of this scale. Is it a major scale or a minor one?",
+			"answer": 0,
+			"hint": "A major scale goes T T S T T T S. Read this one's steps from the left.",
+			"choices": [
+				"minor",
+				"major"
+			],
+			"explain": "Its steps go T S T T S T T, with the semitones 2nd to 3rd and 5th to 6th: a natural minor scale, A minor.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"A3",
+					"B3",
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"A4"
+				],
+				"names": true,
+				"steps": true,
+				"scale": "minor",
+				"from": "A3"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen. This tune is in a major key.",
+			"answer": true,
+			"hint": "Does it sound bright? Listen to the third note up.",
+			"explain": "True: it goes C, D, E …, and E is 4 semitones above C, so it is major.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"F4",
+					"E4",
+					"D4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the chords: major or minor?",
+			"groups": [
+				"major",
+				"minor"
+			],
+			"items": [
+				"C, E, G",
+				"A, C, E",
+				"F, A, C",
+				"D, F, A",
+				"G, B, D",
+				"E, G, B"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Count the semitones from the first note to the middle one: 4 is major, 3 is minor.",
+			"explain": "Major, with 4 semitones to the middle note: C, E, G; F, A, C; G, B, D. Minor, with 3: A, C, E; D, F, A; E, G, B."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many semitones is it from A up to C? Count every key, black and white.",
+			"answer": "3",
+			"hint": "Count each step to the very next key: A to A sharp is 1.",
+			"explain": "A to A sharp (1), B (2), C (3): 3 semitones. So a chord on A with C as its middle note is minor."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each chord to the change that turns it into the other mood.",
+			"items": [
+				"C major: C, E, G",
+				"A minor: A, C, E",
+				"F major: F, A, C"
+			],
+			"matches": [
+				"C sharp instead of C",
+				"A flat instead of A",
+				"E flat instead of E"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Only the middle note moves: down a semitone for minor, up a semitone for major.",
+			"explain": "C major becomes C minor with E flat. A minor becomes A major with C sharp. F major becomes F minor with A flat. Moving the middle note a semitone changes the mood."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.major_or_minor",
+			"level": 1
+		},
+		{
+			"gen": "g5a.major_or_minor",
+			"level": 2
+		},
+		{
+			"gen": "g5a.major_or_minor",
+			"level": 3
+		},
+		{
+			"gen": "g5a.scale_steps",
+			"level": 1
+		},
+		{
+			"gen": "g5a.scale_steps",
+			"level": 2
+		},
+		{
+			"gen": "g5a.scale_steps",
+			"level": 3
+		}
+	]
+}

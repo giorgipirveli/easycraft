@@ -1,0 +1,231 @@
+{
+	"id": "g5.maths.divide_unit_fractions",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, multiplying as scaling. Is 5 × 3/4 more or less than 5? Less: 3/4 is less than 1."
+		},
+		{
+			"text": "1/3 ÷ 2 shares one third into 2 equal parts. Each part is 1/6, because 6 of them make a whole.",
+			"picture": {
+				"kind": "bar",
+				"bars": [
+					{
+						"den": 3,
+						"num": 1
+					},
+					{
+						"den": 6,
+						"num": 1
+					}
+				]
+			}
+		},
+		{
+			"text": "4 ÷ 1/3 asks: how many thirds fit in 4? Each whole has 3 thirds, so 4 wholes have 4 × 3 = 12.",
+			"picture": {
+				"kind": "bar",
+				"bars": [
+					{
+						"den": 3,
+						"num": 3
+					},
+					{
+						"den": 3,
+						"num": 3
+					},
+					{
+						"den": 3,
+						"num": 3
+					},
+					{
+						"den": 3,
+						"num": 3
+					}
+				]
+			}
+		},
+		{
+			"text": "Check with multiplication: 1/6 × 2 = 2/6 = 1/3, and 12 × 1/3 = 12/3 = 4."
+		},
+		{
+			"text": "Stories: 3 kg of seeds fill 12 bags of 1/4 kg, because 3 ÷ 1/4 = 12. And 1/2 L of juice shared by 4 friends is 1/2 ÷ 4 = 1/8 L each.",
+			"picture": {
+				"kind": "fraction_wall",
+				"rows": [
+					{
+						"den": 2,
+						"shade": 1
+					},
+					{
+						"den": 8,
+						"shade": 4
+					}
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: you have 3 stacks of blocks and each tower needs 1/4 of a stack. How many towers? 3 ÷ 1/4 = 12. Next: percentages."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "1/2 ÷ 2 = ?",
+			"answer": "1/4",
+			"hint": "Share a half into 2 equal parts.",
+			"explain": "Half of a half is a quarter: 1/2 ÷ 2 = 1/4.",
+			"picture": {
+				"kind": "bar",
+				"bars": [
+					{
+						"den": 2,
+						"num": 1
+					},
+					{
+						"den": 4,
+						"num": 1
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "3 ÷ 1/2 = ?",
+			"answer": "6",
+			"hint": "How many halves fit in 3?",
+			"explain": "Each whole has 2 halves, so 3 wholes have 6."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "2 ÷ 1/4 = 8",
+			"answer": true,
+			"hint": "How many quarters are in 2 wholes?",
+			"explain": "Each whole has 4 quarters, so 2 wholes have 8. Check: 8 × 1/4 = 2."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "1/3 ÷ 4 = ?",
+			"answer": "1/12",
+			"hint": "Share one third into 4 equal parts. How many of those make a whole?",
+			"explain": "Each third splits into 4, so a whole has 12 parts: 1/12. Check: 1/12 × 4 = 1/3."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "6 ÷ 1/2 = 3",
+			"answer": false,
+			"hint": "Dividing by a half is not the same as halving.",
+			"explain": "6 ÷ 1/2 asks how many halves fit in 6: 12. Halving 6 is 6 ÷ 2 = 3."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which multiplication checks 1/5 ÷ 3 = 1/15?",
+			"choices": [
+				"1/15 × 3 = 1/5",
+				"1/5 × 3 = 1/15",
+				"1/15 ÷ 3 = 1/5",
+				"3 × 5 = 16"
+			],
+			"answer": 0,
+			"hint": "The answer times 3 should give 1/5.",
+			"explain": "1/15 × 3 = 3/15 = 1/5, so the division was right."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Nell has 5 kg of flour. How many bags of 1/3 kg can she fill?",
+			"answer": "15",
+			"hint": "How many thirds in 1 kg? In 5 kg?",
+			"explain": "5 ÷ 1/3 = 15 bags, because 15 × 1/3 = 5."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "1/4 L of juice is shared equally among 3 friends. How much does each friend get, in litres?",
+			"answer": "1/12",
+			"hint": "Share 1/4 into 3 equal parts.",
+			"explain": "1/4 ÷ 3 = 1/12 L each, because 1/12 × 3 = 3/12 = 1/4."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is bigger: 1/2 ÷ 5 or 5 ÷ 1/2?",
+			"choices": [
+				"5 ÷ 1/2",
+				"1/2 ÷ 5",
+				"They are equal"
+			],
+			"answer": 0,
+			"hint": "One shares a half into 5 parts; the other counts the halves in 5.",
+			"explain": "1/2 ÷ 5 = 1/10, but 5 ÷ 1/2 = 10."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5f.unit_divided",
+			"level": 1
+		},
+		{
+			"gen": "g5f.unit_divided",
+			"level": 2
+		},
+		{
+			"gen": "g5f.unit_divided",
+			"level": 3
+		},
+		{
+			"gen": "g5f.whole_divided",
+			"level": 1
+		},
+		{
+			"gen": "g5f.whole_divided",
+			"level": 2
+		},
+		{
+			"gen": "g5f.whole_divided",
+			"level": 3
+		},
+		{
+			"gen": "g5f.unit_divide_story",
+			"level": 1
+		},
+		{
+			"gen": "g5f.unit_divide_story",
+			"level": 2
+		},
+		{
+			"gen": "g5f.unit_divide_story",
+			"level": 3
+		},
+		{
+			"gen": "g5f.divide_check",
+			"level": 1
+		},
+		{
+			"gen": "g5f.divide_check",
+			"level": 2
+		},
+		{
+			"gen": "g5f.divide_check",
+			"level": 3
+		},
+		{
+			"gen": "g5f.divide_truefalse",
+			"level": 1
+		},
+		{
+			"gen": "g5f.divide_truefalse",
+			"level": 2
+		},
+		{
+			"gen": "g5f.divide_truefalse",
+			"level": 3
+		}
+	]
+}

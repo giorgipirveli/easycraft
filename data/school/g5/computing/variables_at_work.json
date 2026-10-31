@@ -1,0 +1,331 @@
+{
+	"id": "g5.computing.variables_at_work",
+	"lesson": [
+		{
+			"text": "Quick memory: what does CHANGE score BY 5 do? (It adds 5 to the number in the score box.) In grade 4 one variable kept a score. Today a game keeps many variables at once, and they change as you play."
+		},
+		{
+			"text": "A game needs lots of variables: score, lives, level, gold and time. Each one is a named box holding one value, and the program changes the values while it runs.",
+			"picture": {
+				"kind": "var_boxes",
+				"boxes": [
+					[
+						"score",
+						"120"
+					],
+					[
+						"lives",
+						"3"
+					],
+					[
+						"level",
+						"2"
+					]
+				]
+			}
+		},
+		{
+			"text": "Events change variables. WHEN a gem is picked up, the score goes up by 10. WHEN a spike is touched, lives goes down by 1. The same boxes change again and again as you play.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"WHEN a gem is picked up",
+					"  CHANGE score BY 10",
+					"WHEN a spike is touched",
+					"  CHANGE lives BY -1"
+				]
+			}
+		},
+		{
+			"text": "Conditions read variables. IF lives = 0, the game is over. IF the score is more than 100, you go up a level and the score starts again from 0.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"IF lives = 0",
+					"  SAY Game over",
+					"IF score > 100",
+					"  CHANGE level BY 1",
+					"  SET score TO 0"
+				]
+			}
+		},
+		{
+			"text": "Worked example: score starts at 0 and lives at 3. You pick up 2 gems (10 each) and touch 1 spike. Now score is 0 + 10 + 10 = 20, and lives is 3 − 1 = 2."
+		},
+		{
+			"text": "Name variables clearly: lives is better than x, because anyone reading the program knows what it keeps. And SET every variable at the start of a game, or last game's score stays in the box."
+		},
+		{
+			"text": "A variable can hold words too, like a player's name, or true and false, like whether a door is open. Every game you play is full of variables changing many times a second."
+		},
+		{
+			"text": "Try it in the world: play a Survivor game and spot its variables: your hearts, your gold, what is in your bag, the time of day. Which change when you do something? Next: loops inside loops."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the best name for a variable that counts how many lives a player has left?",
+			"answer": 0,
+			"hint": "A good name tells anyone reading the program what the box keeps.",
+			"choices": [
+				"lives",
+				"x",
+				"box7",
+				"thing"
+			],
+			"explain": "lives says exactly what the box keeps; x, box7 and thing tell a reader nothing."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A variable can change many times while a program runs.",
+			"answer": true,
+			"hint": "Think about your score while you play a game.",
+			"explain": "True: every gem changes the score again. That is why it is called a variable: it varies."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each variable to what it keeps in a game.",
+			"items": [
+				"score",
+				"lives",
+				"level",
+				"gold"
+			],
+			"matches": [
+				"coins you can spend",
+				"points you have won",
+				"tries you have left",
+				"which stage you are on"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "What would each box need to count?",
+			"explain": "score: points won. lives: tries left. level: the stage you are on. gold: coins to spend."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is score when the program ends?",
+			"answer": "20",
+			"hint": "Keep the score on paper and change it line by line.",
+			"explain": "SET puts 0 in the box, then two CHANGE lines add 10 each: 0 + 10 + 10 = 20.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET score TO 0",
+					"CHANGE score BY 10",
+					"CHANGE score BY 10"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Which of these would a game keep in a variable (a value that changes as you play)?",
+			"groups": [
+				"a variable",
+				"stays the same"
+			],
+			"items": [
+				"the score",
+				"the player's gold",
+				"the lives left",
+				"the game's name",
+				"how many sides a square has"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Does it change while you play?",
+			"explain": "The score, gold and lives change as you play, so they are variables. The game's name and a square's 4 sides never change."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is score when the program ends?",
+			"answer": "50",
+			"hint": "Follow the lines one by one. Only the score lines change the score.",
+			"explain": "score: 0, then 0 + 25 = 25, then 25 + 25 = 50. The lives lines change a different box.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET lives TO 3",
+					"SET score TO 0",
+					"CHANGE score BY 25",
+					"CHANGE lives BY -1",
+					"CHANGE score BY 25"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is lives when the program ends?",
+			"answer": "2",
+			"hint": "Follow the lines one by one. Only the lives lines change lives.",
+			"explain": "lives: 3, then CHANGE lives BY -1 takes 1 away: 3 − 1 = 2.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET lives TO 3",
+					"SET score TO 0",
+					"CHANGE score BY 25",
+					"CHANGE lives BY -1",
+					"CHANGE score BY 25"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Tilly's game starts with last game's score still showing. What is the bug?",
+			"answer": 0,
+			"hint": "What should happen to every variable when a new game begins?",
+			"choices": [
+				"score is not SET TO 0 at the start",
+				"score has a bad name",
+				"there are too many lives",
+				"the gems are too small"
+			],
+			"explain": "A new game must SET score TO 0 first, or the old value stays in the box."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of a game in the order they happen.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with the game starting, and end with the check.",
+			"items": [
+				"IF lives = 0 checks the box",
+				"CHANGE lives BY -1 runs",
+				"The player touches a spike",
+				"The game starts: SET lives TO 3"
+			],
+			"explain": "The game sets lives to 3, the player touches a spike, CHANGE takes a life away, and IF lives = 0 checks whether the game is over."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "IF lives = 0 looks at the value in the lives box while the game runs.",
+			"answer": true,
+			"hint": "What does a condition need to know to be true or false?",
+			"explain": "True: the condition reads the lives box each time it runs. When it holds 0, the condition is true."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is score when the program ends?",
+			"answer": "60",
+			"hint": "Work out one time round the loop, then how many times it runs.",
+			"explain": "The loop runs 4 times and adds 15 each time: 4 × 15 = 60.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET score TO 0",
+					"SET lives TO 5",
+					"REPEAT 4 TIMES",
+					"  CHANGE score BY 15",
+					"  CHANGE lives BY -1"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is level when the program ends?",
+			"answer": "2",
+			"hint": "Work out the score first, then check the IF: is it true or false?",
+			"explain": "score is 90 + 20 = 110, and 110 > 100 is true, so level goes up by 1: 1 + 1 = 2.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET score TO 90",
+					"SET level TO 1",
+					"CHANGE score BY 20",
+					"IF score > 100",
+					"  CHANGE level BY 1",
+					"  SET score TO 0"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is score when the program ends?",
+			"answer": "0",
+			"hint": "Go line by line. Does the IF's condition come out true? What does SET do then?",
+			"explain": "score is 90 + 20 = 110, and 110 > 100 is true, so the lines inside the IF run: level goes up and SET puts 0 in the score box.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET score TO 90",
+					"SET level TO 1",
+					"CHANGE score BY 20",
+					"IF score > 100",
+					"  CHANGE level BY 1",
+					"  SET score TO 0"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara picks up 3 gems, but her score stays at 10. Which line should replace SET score TO 10?",
+			"answer": 0,
+			"hint": "SET puts a value in the box, throwing the old one away. What adds on instead?",
+			"choices": [
+				"CHANGE score BY 10",
+				"SET score TO 30",
+				"SET score TO 0",
+				"CHANGE score BY -10"
+			],
+			"explain": "CHANGE score BY 10 adds 10 to what is already there, so 3 gems make 30. SET score TO 10 put 10 in every time.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"WHEN a gem is picked up",
+					"  SET score TO 10"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A game gives 5 gold for each gem and takes 2 gold for each hint. Bram starts with 0 gold, picks up 6 gems and uses 3 hints. How much gold does he have?",
+			"answer": "24",
+			"hint": "Work out the gold won and the gold taken away, then take one from the other.",
+			"explain": "Won: 6 × 5 = 30. Taken: 3 × 2 = 6. 30 − 6 = 24 gold."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.trace_game",
+			"level": 1
+		},
+		{
+			"gen": "g5a.trace_game",
+			"level": 2
+		},
+		{
+			"gen": "g5a.trace_game",
+			"level": 3
+		}
+	]
+}

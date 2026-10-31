@@ -1,0 +1,450 @@
+{
+	"id": "g5.music.great_composers",
+	"lesson": [
+		{
+			"text": "Quick memory: which four families make up an orchestra? (Strings, woodwind, brass and percussion.) Today: four great composers who lived about 300 years ago."
+		},
+		{
+			"text": "Music history has periods. The Baroque period was from about 1600 to 1750, and the Classical period from about 1750 to 1820. Our four composers lived in these times.",
+			"picture": {
+				"kind": "lifespans",
+				"people": [
+					[
+						"J. S. Bach",
+						1685,
+						1750
+					],
+					[
+						"Handel",
+						1685,
+						1759
+					],
+					[
+						"Haydn",
+						1732,
+						1809
+					],
+					[
+						"Mozart",
+						1756,
+						1791
+					]
+				],
+				"from": 1650,
+				"to": 1850
+			}
+		},
+		{
+			"text": "Johann Sebastian Bach (1685-1750) was a German organist who wrote music for church and court. He loved fugues, where one tune is copied in turn by different parts, weaving together. He had 20 children!"
+		},
+		{
+			"text": "George Frideric Handel (1685-1759) was born in Germany and lived in London. He wrote Water Music (1717) for the king's boat trip on the River Thames, and Music for the Royal Fireworks (1749).",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1680,
+				"to": 1760,
+				"step": 10,
+				"events": [
+					[
+						1685,
+						"Bach and Handel born"
+					],
+					[
+						1717,
+						"Water Music"
+					],
+					[
+						1749,
+						"Royal Fireworks"
+					]
+				]
+			}
+		},
+		{
+			"text": "Joseph Haydn (1732-1809) is called the father of the symphony: he wrote 104. In his Surprise Symphony a quiet tune is suddenly cut by a very loud chord. Listen to the quiet tune.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"C4",
+					"E4",
+					"E4",
+					"G4",
+					"G4",
+					"E4:2",
+					"F4",
+					"F4",
+					"D4",
+					"D4",
+					"B3",
+					"B3",
+					"G3:2"
+				]
+			},
+			"picture": {
+				"kind": "orchestra"
+			}
+		},
+		{
+			"text": "Wolfgang Amadeus Mozart (1756-1791) wrote music from the age of 5 and played for kings and queens as a child. He wrote over 600 works, including variations on the tune we know as Twinkle, Twinkle.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"C4",
+					"G4",
+					"G4",
+					"A4",
+					"A4",
+					"G4:2",
+					"F4",
+					"F4",
+					"E4",
+					"E4",
+					"D4",
+					"D4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"text": "Worked example: Haydn was born in 1732 and Mozart in 1756, 24 years later: 1756 − 1732 = 24. They became friends, and Haydn told Mozart's father that his son was the greatest composer he knew."
+		},
+		{
+			"text": "Try it in the world: with a grown-up, listen to a piece by each composer: Bach, Handel, Haydn and Mozart. Which did you like best, and why? Next: rhythms of the world."
+		}
+	],
+	"exercises": [
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each composer to a fact about him.",
+			"items": [
+				"Bach",
+				"Handel",
+				"Haydn",
+				"Mozart"
+			],
+			"matches": [
+				"104 symphonies",
+				"writing music at 5",
+				"fugues, and 20 children",
+				"Water Music for a king"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the lesson's cards.",
+			"explain": "Bach wrote fugues and had 20 children, Handel Water Music, Haydn 104 symphonies, and Mozart composed at 5."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Bach and Handel were both born in the same year, 1685.",
+			"answer": true,
+			"hint": "Look at the timeline.",
+			"explain": "True: both were born in 1685, in Germany."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who is called the father of the symphony?",
+			"answer": 0,
+			"hint": "He wrote 104 symphonies.",
+			"choices": [
+				"Joseph Haydn",
+				"Johann Sebastian Bach",
+				"George Frideric Handel",
+				"Antonio Vivaldi"
+			],
+			"explain": "Joseph Haydn wrote 104 symphonies and shaped how symphonies are built."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Mozart wrote variations on this tune. Which tune is it?",
+			"answer": 0,
+			"hint": "Hum along. Do you know the words?",
+			"choices": [
+				"Twinkle, Twinkle, Little Star",
+				"Happy Birthday",
+				"Frère Jacques",
+				"Old MacDonald"
+			],
+			"explain": "It is the tune of Twinkle, Twinkle, Little Star.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"C4",
+					"G4",
+					"G4",
+					"A4",
+					"A4",
+					"G4:2",
+					"F4",
+					"F4",
+					"E4",
+					"E4",
+					"D4",
+					"D4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Mozart was born in 1756 and died in 1791. How many years did he live?",
+			"answer": "35",
+			"hint": "Take the year he was born from the year he died.",
+			"explain": "1791 − 1756 = 35 years."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these composers in order of when they were born, earliest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Vivaldi 1678, Bach 1685, Haydn 1732, Mozart 1756.",
+			"items": [
+				"Mozart",
+				"Haydn",
+				"Bach",
+				"Vivaldi"
+			],
+			"explain": "Vivaldi (1678), Bach (1685), Haydn (1732), then Mozart (1756)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Handel wrote Water Music for what?",
+			"answer": 0,
+			"hint": "The musicians played on a boat too.",
+			"choices": [
+				"a king's boat trip on the River Thames",
+				"a swimming race",
+				"a rainy day",
+				"a fountain in Rome"
+			],
+			"explain": "It was played for King George I's boat trip on the Thames in 1717."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: Baroque or Classical?",
+			"groups": [
+				"Baroque (1600-1750)",
+				"Classical (1750-1820)"
+			],
+			"items": [
+				"Bach's fugues",
+				"Handel's Water Music (1717)",
+				"Vivaldi's Four Seasons (1725)",
+				"Haydn's Surprise Symphony (1791)",
+				"Mozart's Magic Flute (1791)"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Look at the years: before or after 1750?",
+			"explain": "Bach's fugues, Water Music and The Four Seasons are Baroque. The Surprise Symphony and The Magic Flute, both from 1791, are Classical."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In Haydn's Surprise Symphony, a very loud chord suddenly interrupts this quiet tune.",
+			"answer": true,
+			"hint": "Why is it called the Surprise?",
+			"explain": "True: the loud chord was a surprise for the listeners.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"C4",
+					"E4",
+					"E4",
+					"G4",
+					"G4",
+					"E4:2",
+					"F4",
+					"F4",
+					"D4",
+					"D4",
+					"B3",
+					"B3",
+					"G3:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which of these composers were alive in 1740?",
+			"answer": 0,
+			"hint": "Find 1740 on the timeline and look straight up: which bars does the line cross?",
+			"choices": [
+				"Bach, Handel and Haydn",
+				"Bach and Handel only",
+				"Haydn and Mozart",
+				"all four"
+			],
+			"explain": "Bach, Handel and Haydn were alive in 1740; Mozart was not born until 1756.",
+			"picture": {
+				"kind": "lifespans",
+				"people": [
+					[
+						"J. S. Bach",
+						1685,
+						1750
+					],
+					[
+						"Handel",
+						1685,
+						1759
+					],
+					[
+						"Haydn",
+						1732,
+						1809
+					],
+					[
+						"Mozart",
+						1756,
+						1791
+					]
+				],
+				"from": 1650,
+				"to": 1850,
+				"year": 1740
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many years after Bach was born was Mozart born?",
+			"answer": "71",
+			"hint": "Take the earlier birth year from the later one.",
+			"explain": "1756 − 1685 = 71 years."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is a fugue?",
+			"answer": 0,
+			"hint": "Think of Bach's music weaving together.",
+			"choices": [
+				"one tune copied in turn by different parts",
+				"a very loud chord",
+				"a song with a chorus",
+				"a dance in 3/4 time"
+			],
+			"explain": "In a fugue one tune comes in part after part, each copying it, and they weave together."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which keyboard, with plucked strings, was played in Bach's time, before the piano was common?",
+			"answer": 0,
+			"hint": "Its name has harp in it.",
+			"choices": [
+				"the harpsichord",
+				"the electric keyboard",
+				"the steel drum",
+				"the bagpipes"
+			],
+			"explain": "The harpsichord plucks its strings; the piano, which hits them, came later."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Haydn told Mozart's father that Mozart was the greatest composer he knew.",
+			"answer": true,
+			"hint": "Think of the worked example.",
+			"explain": "True: Haydn admired Mozart and they were friends."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen to Haydn's tune. How does it move?",
+			"answer": 0,
+			"hint": "Does it go to the very next note, or jump?",
+			"choices": [
+				"it leaps up the notes of a chord",
+				"it moves only by steps",
+				"it stays on one note",
+				"it only goes down"
+			],
+			"explain": "It jumps up C, E and G, the notes of the C major chord, then comes back down.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"C4",
+					"E4",
+					"E4",
+					"G4",
+					"G4",
+					"E4:2",
+					"F4",
+					"F4",
+					"D4",
+					"D4",
+					"B3",
+					"B3",
+					"G3:2"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Handel's Water Music was first played in 1717. Sort the composers: alive then, or not yet born?",
+			"groups": [
+				"alive in 1717",
+				"not yet born"
+			],
+			"items": [
+				"Bach (1685-1750)",
+				"Handel (1685-1759)",
+				"Haydn (1732-1809)",
+				"Mozart (1756-1791)",
+				"Vivaldi (1678-1741)"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Was each one born before 1717?",
+			"explain": "Bach, Handel and Vivaldi were born before 1717, so they were alive. Haydn was born 15 years later, in 1732, and Mozart in 1756."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.composer_years",
+			"level": 1
+		},
+		{
+			"gen": "g5a.composer_years",
+			"level": 2
+		},
+		{
+			"gen": "g5a.composer_years",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,508 @@
+{
+	"id": "g6.science.engineering_design",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3, what is a fair test? (Change one thing, keep everything else the same, and measure.) Today: design like an engineer, from a problem to the best tested design."
+		},
+		{
+			"text": "Start by defining the problem precisely. Criteria say what the design must do to succeed: \"hold 20 coins\". Constraints are its limits: cost, time, materials, size and safety: \"use at most 10 straws\"."
+		},
+		{
+			"text": "Research what already exists, then imagine many ideas before judging any. Choose with a decision matrix: score each idea for each criterion, multiply by how much that criterion matters, and add.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"idea",
+						"strong ×3",
+						"cheap ×2",
+						"light ×1"
+					],
+					[
+						"A",
+						"4",
+						"2",
+						"5"
+					],
+					[
+						"B",
+						"3",
+						"5",
+						"3"
+					]
+				]
+			}
+		},
+		{
+			"text": "Build a prototype, a first working model, and test it fairly. Change one thing at a time. Repeat each test three times and find the mean, so one odd result does not trick you.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"test",
+						"1",
+						"2",
+						"3",
+						"mean"
+					],
+					[
+						"coins",
+						"12",
+						"15",
+						"18",
+						"15"
+					]
+				]
+			}
+		},
+		{
+			"text": "Compare the data: often each design is good at something, one strong and another light. Engineers combine the best features into a new design and test again. This loop of test and improve is called iteration.",
+			"picture": {
+				"kind": "life_cycle",
+				"stages": [
+					"define",
+					"imagine",
+					"plan",
+					"prototype",
+					"test",
+					"improve"
+				],
+				"title": "design"
+			}
+		},
+		{
+			"text": "The Wright brothers worked this way. In 1901 they built a small wind tunnel, tested about 200 model wing shapes and kept the data. In 1903 their aeroplane made the first powered flight."
+		},
+		{
+			"text": "Engineers weigh up trade-offs: a stronger bridge may cost more. They think about who will use it and whether it is safe. And they think about the environment, such as using less material, or materials that can be recycled."
+		},
+		{
+			"text": "Try it in the world: build a paper bridge between two books and count how many coins it holds. Change one thing, such as folding the paper, test three times and improve. Next, in grade 7: the materials engineers choose."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "\"It must hold 20 coins.\" What is this?",
+			"choices": [
+				"a criterion",
+				"a constraint",
+				"a prototype"
+			],
+			"answer": 0,
+			"hint": "Does it say what success looks like, or set a limit?",
+			"explain": "A criterion: it says what the design must do."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "\"Spend no more than 5 gold.\" What is this?",
+			"choices": [
+				"a constraint",
+				"a criterion",
+				"a test result"
+			],
+			"answer": 0,
+			"hint": "Is it a limit?",
+			"explain": "A constraint: a limit on the cost."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a prototype?",
+			"choices": [
+				"a first working model to test",
+				"the final product in a shop",
+				"a drawing of an idea",
+				"a list of rules"
+			],
+			"answer": 0,
+			"hint": "Proto- means first.",
+			"explain": "A prototype is a first working version, built to test and improve."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the design steps in order.",
+			"items": [
+				"imagine ideas",
+				"test it",
+				"define the problem",
+				"build a prototype",
+				"improve it"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need a problem before ideas, and a model before a test.",
+			"explain": "Define the problem, imagine ideas, build a prototype, test it, then improve it (and test again)."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a fair test you change only one thing at a time.",
+			"answer": true,
+			"hint": "If two things change, which one made the difference?",
+			"explain": "True: change one thing and keep the rest the same, so you know what caused the result."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A bridge held 12, 15 and 18 coins in three tests. What is the mean?",
+			"answer": "15",
+			"hint": "Add the three results and divide by 3.",
+			"explain": "12 + 15 + 18 = 45, and 45 ÷ 3 = 15 coins.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"test",
+						"1",
+						"2",
+						"3"
+					],
+					[
+						"coins",
+						"12",
+						"15",
+						"18"
+					]
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: criterion or constraint?",
+			"groups": [
+				"criterion",
+				"constraint"
+			],
+			"items": [
+				"The boat must float for 10 minutes.",
+				"Use only card and tape.",
+				"It must carry 5 marbles.",
+				"Finish it in one lesson."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "What must it do, and what limits you?",
+			"explain": "Criteria: float for 10 minutes, carry 5 marbles. Constraints: only card and tape, one lesson."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which bridge meets the brief: hold at least 30 coins and cost at most 5 gold?",
+			"choices": [
+				"B",
+				"A",
+				"C"
+			],
+			"answer": 0,
+			"hint": "Cross out any design that fails one part of the brief.",
+			"explain": "A costs too much and C holds too few; only B holds 30 or more coins and costs 5 gold or less.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"design",
+						"coins held",
+						"cost"
+					],
+					[
+						"A",
+						"35",
+						"7"
+					],
+					[
+						"B",
+						"32",
+						"4"
+					],
+					[
+						"C",
+						"25",
+						"3"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Each score is multiplied by its criterion's weight. What is idea A's total?",
+			"answer": "21",
+			"hint": "Multiply each score by the weight at the top of its column, then add.",
+			"explain": "4 × 3 + 2 × 2 + 5 × 1 = 12 + 4 + 5 = 21.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"idea",
+						"strong ×3",
+						"cheap ×2",
+						"light ×1"
+					],
+					[
+						"A",
+						"4",
+						"2",
+						"5"
+					],
+					[
+						"B",
+						"3",
+						"5",
+						"3"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which paper helicopter design fell most slowly?",
+			"choices": [
+				"B",
+				"A",
+				"C"
+			],
+			"answer": 0,
+			"hint": "The slowest fall takes the longest time: find the tallest bar.",
+			"explain": "B took 45 tenths of a second (4.5 seconds), the longest, so it fell most slowly.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"A",
+						32
+					],
+					[
+						"B",
+						45
+					],
+					[
+						"C",
+						28
+					]
+				],
+				"to": 50,
+				"step": 10,
+				"title": "fall time (tenths of s)"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If a test gives one odd result, you should test again.",
+			"answer": true,
+			"hint": "One strange result might be a slip.",
+			"explain": "True: repeat it; an odd result may come from a mistake, and repeating makes the results reliable."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do engineers test each design three times?",
+			"choices": [
+				"so one odd result does not trick them",
+				"because three is lucky",
+				"to use up materials",
+				"so the design gets stronger"
+			],
+			"answer": 0,
+			"hint": "Results vary a little each time.",
+			"explain": "Repeating and finding the mean makes the results more reliable."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bridge A is strong but heavy; bridge B is light but weak. What might an engineer do next?",
+			"choices": [
+				"combine the best features and test again",
+				"pick one at random",
+				"stop there",
+				"build both bigger"
+			],
+			"answer": 0,
+			"hint": "Iteration means improving with what you learned.",
+			"explain": "Combine A's strong shape with B's light material, build a new prototype, and test it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A toy car rolled 51, 49, 50 and 80 cm. One result is odd. What is the mean of the other three, in cm?",
+			"answer": "50",
+			"hint": "Leave out the odd one, then add the rest and divide by 3.",
+			"explain": "Leave out 80. 51 + 49 + 50 = 150, and 150 ÷ 3 = 50 cm.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"trial",
+						"1",
+						"2",
+						"3",
+						"4"
+					],
+					[
+						"cm",
+						"51",
+						"49",
+						"50",
+						"80"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What did the Wright brothers test in their wind tunnel in 1901?",
+			"choices": [
+				"about 200 small wing shapes",
+				"full-sized aeroplanes",
+				"car engines",
+				"kites for children"
+			],
+			"answer": 0,
+			"hint": "They wanted to know which wing lifted best.",
+			"explain": "They tested about 200 model wing shapes and used the data to design their 1903 aeroplane."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which idea has the best weighted total?",
+			"choices": [
+				"A",
+				"B",
+				"C"
+			],
+			"answer": 0,
+			"hint": "Work out each total: each score times its weight, added up.",
+			"explain": "A: 15 + 4 + 3 = 22. B: 9 + 8 + 4 = 21. C: 12 + 6 + 2 = 20. A is best.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"idea",
+						"safe ×3",
+						"cheap ×2",
+						"quick ×1"
+					],
+					[
+						"A",
+						"5",
+						"2",
+						"3"
+					],
+					[
+						"B",
+						"3",
+						"4",
+						"4"
+					],
+					[
+						"C",
+						"4",
+						"3",
+						"2"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A good design only has to work; its cost and safety do not matter.",
+			"answer": false,
+			"hint": "Think of the constraints.",
+			"explain": "False: a design must meet its criteria and its constraints, such as cost, safety and its effect on the environment."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the brief for a school rain shelter.",
+			"groups": [
+				"criterion",
+				"constraint"
+			],
+			"items": [
+				"keeps 10 pupils dry",
+				"costs at most 200 gold",
+				"stands up in strong wind",
+				"has no sharp edges",
+				"fits in the yard's corner",
+				"lets light through"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Must do: a criterion. A limit of money, size or safety: a constraint.",
+			"explain": "Criteria: keeps 10 pupils dry, stands up in strong wind, lets light through. Constraints: costs at most 200 gold, no sharp edges, fits in the corner."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6k.criteria_sort",
+			"level": 1
+		},
+		{
+			"gen": "g6k.criteria_sort",
+			"level": 2
+		},
+		{
+			"gen": "g6k.criteria_sort",
+			"level": 3
+		},
+		{
+			"gen": "g6k.design_pick",
+			"level": 1
+		},
+		{
+			"gen": "g6k.design_pick",
+			"level": 2
+		},
+		{
+			"gen": "g6k.design_pick",
+			"level": 3
+		},
+		{
+			"gen": "g6k.decision_matrix",
+			"level": 1
+		},
+		{
+			"gen": "g6k.decision_matrix",
+			"level": 2
+		},
+		{
+			"gen": "g6k.decision_matrix",
+			"level": 3
+		},
+		{
+			"gen": "g6k.trial_mean",
+			"level": 1
+		},
+		{
+			"gen": "g6k.trial_mean",
+			"level": 2
+		},
+		{
+			"gen": "g6k.trial_mean",
+			"level": 3
+		}
+	]
+}

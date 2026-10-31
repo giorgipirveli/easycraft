@@ -1,0 +1,33 @@
+{
+	"id": "float_sink",
+	"title": "Float or sink?",
+	"card": "Drop things into the water tank.",
+	"units": ["g3.science.materials", "g5.science.properties"],
+	"supplies": {"planks": 1, "stone": 1},
+	"predict": {
+		"type": "sort",
+		"prompt": "Which things will float and which will sink? Tap each one to sort your guesses.",
+		"groups": ["Floats", "Sinks"],
+		"by": "floats"
+	},
+	"scene": {
+		"kind": "tank",
+		"things": [
+			{"thing": "wood", "name": "Wood", "floats": true},
+			{"thing": "stone", "name": "Stone", "floats": false},
+			{"thing": "ice", "name": "Ice", "floats": true},
+			{"thing": "iron", "name": "Iron nail", "floats": false},
+			{"thing": "leaf", "name": "Leaf", "floats": true},
+			{"thing": "gold", "name": "Gold ring", "floats": false},
+			{"thing": "sponge", "name": "Dry sponge", "floats": true},
+			{"thing": "glass", "name": "Glass marble", "floats": false}
+		]
+	},
+	"try": "Tap each thing to drop it into the tank. Watch where it goes!",
+	"result": "The wood, the ice, the leaf and the dry sponge floated. The stone, the iron nail, the gold ring and the glass marble sank to the bottom.",
+	"why": [
+		"Floating depends on how heavy a thing is for its size. Scientists call this its density. A thing that is lighter than the same amount of water floats; a thing that is heavier sinks.",
+		"Most wood, ice and leaves are lighter than water for their size, and a dry sponge is mostly air. Stone, iron, gold and glass are much heavier than water for their size, so they sink.",
+		"Shape matters too! A steel ship floats because its hollow hull holds lots of air. Pumice, a stone full of bubbles from a volcano, can float as well."
+	]
+}

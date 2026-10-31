@@ -1,0 +1,476 @@
+{
+	"id": "g7.music.film_music",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, which family is the flute in? (The woodwind family.) Today: how film music tells a story, and themes that stand for characters."
+		},
+		{
+			"text": "Film music tells you how to feel. Its speed, loudness and high or low notes all matter. So do its key, major or minor, and the instruments chosen. They can make the same picture feel happy, scary or sad.",
+			"picture": {
+				"kind": "film_strip",
+				"frames": [
+					"hero",
+					"villain",
+					"chase",
+					"farewell"
+				],
+				"captions": [
+					"the hero",
+					"the villain",
+					"a chase",
+					"goodbye"
+				]
+			}
+		},
+		{
+			"text": "A leitmotif is a short theme that stands for a character, a place or an idea. Richard Wagner (1813-1883) used them in his operas; films use them to tell you who is coming before you see them."
+		},
+		{
+			"text": "In Peter and the Wolf (1936), Sergei Prokofiev (1891-1953) gave each character an instrument. The bird is a flute, the duck an oboe and the cat a clarinet. The grandfather is a bassoon, the wolf three horns and Peter the strings."
+		},
+		{
+			"text": "Heroes often get bold brass fanfares in a major key, rising by big leaps. Listen to this hero's theme.",
+			"picture": {
+				"kind": "film_strip",
+				"frames": [
+					"hero"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"G4",
+					"C5:2",
+					"E5",
+					"G5:3"
+				],
+				"tone": "bright"
+			}
+		},
+		{
+			"text": "Villains get low, slow music in a minor key, with notes that clash. For tension, a low note held on and on, or a short pattern repeated, builds up; a sudden loud chord makes you jump.",
+			"picture": {
+				"kind": "film_strip",
+				"frames": [
+					"villain"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3:2",
+					"Eb3:2",
+					"F#3:2",
+					"C3:2"
+				],
+				"tone": "hollow"
+			}
+		},
+		{
+			"text": "A leitmotif can change with the story. The hero's theme, played slowly in a minor key, tells us the hero is in danger. We know before anyone says a word. Listen.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"G4:2",
+					"C5:2",
+					"Eb5:2"
+				],
+				"tone": "hollow"
+			}
+		},
+		{
+			"text": "Try it in the world: watch a film scene with the sound off, then on. How does the music change what you feel? Invent a 4-note theme for your buddy. Next: performing together."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a leitmotif?",
+			"answer": 0,
+			"hint": "Think of music that tells you who is coming.",
+			"choices": [
+				"a theme that stands for a character or idea",
+				"a loud drum",
+				"the film's title",
+				"the last scene"
+			],
+			"explain": "A short theme linked to a character, a place or an idea."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In Peter and the Wolf, which instrument plays the bird?",
+			"answer": 0,
+			"hint": "A high, light, fluttering sound.",
+			"choices": [
+				"the flute",
+				"the bassoon",
+				"the horns",
+				"the oboe"
+			],
+			"explain": "The flute: high and quick, like a bird."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which music fits this scene best?",
+			"answer": 0,
+			"hint": "How should the audience feel during a chase?",
+			"choices": [
+				"fast and loud: drums, short repeated notes",
+				"slow, soft strings in a minor key",
+				"a quiet lullaby",
+				"one long, calm note"
+			],
+			"explain": "A chase needs excitement: fast, loud, with drums and short repeated notes.",
+			"picture": {
+				"kind": "film_strip",
+				"frames": [
+					"chase"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen to this theme. Which character is it for?",
+			"answer": 0,
+			"hint": "Is it bright and rising, or low and dark?",
+			"choices": [
+				"the hero",
+				"the villain"
+			],
+			"explain": "Bright, rising leaps in a major key: the hero.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"G4",
+					"C5:2",
+					"E5",
+					"G5:3"
+				],
+				"tone": "bright"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The same scene can feel happy or scary depending on its music.",
+			"answer": true,
+			"hint": "Imagine a quiet street with jolly music, then with low, creeping music.",
+			"explain": "True: music changes how we read a scene."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each character in Peter and the Wolf to its instrument.",
+			"items": [
+				"the bird",
+				"the duck",
+				"the cat",
+				"the grandfather",
+				"the wolf"
+			],
+			"matches": [
+				"oboe",
+				"clarinet",
+				"bassoon",
+				"three horns",
+				"flute"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				2,
+				3
+			],
+			"hint": "The grandfather is low and grumbly; the wolf is loud and brassy.",
+			"explain": "Bird: flute; duck: oboe; cat: clarinet; grandfather: bassoon; wolf: three horns."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which moment is this music for?",
+			"answer": 0,
+			"hint": "Is it loud or quiet? Smooth or spiky with gaps?",
+			"choices": [
+				"someone sneaking at night",
+				"the hero arriving",
+				"the villain appearing",
+				"friends saying goodbye"
+			],
+			"explain": "Quiet, short notes with gaps: someone sneaking at night.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4",
+					"-",
+					"F4",
+					"-",
+					"E4",
+					"-",
+					"B3",
+					"-"
+				],
+				"volume": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which moment is this music for?",
+			"answer": 0,
+			"hint": "Is it slow or fast? Where does the tune go at the end?",
+			"choices": [
+				"friends saying goodbye",
+				"the hero arriving",
+				"the villain appearing",
+				"someone sneaking at night"
+			],
+			"explain": "Slow, soft and falling at the end: friends saying goodbye.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4:2",
+					"G4:2",
+					"C5:3",
+					"B4",
+					"A4:4"
+				],
+				"tone": "pure",
+				"volume": 0.7
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which moment is this music for?",
+			"answer": 0,
+			"hint": "High or low? Major, or dark with a clash?",
+			"choices": [
+				"the villain appearing",
+				"the hero arriving",
+				"someone sneaking at night",
+				"friends saying goodbye"
+			],
+			"explain": "Low, slow and minor, with a clashing note: the villain appearing.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3:2",
+					"Eb3:2",
+					"F#3:2",
+					"C3:2"
+				],
+				"tone": "hollow"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which music builds tension before a surprise?",
+			"answer": 0,
+			"hint": "Tension means waiting for something to happen.",
+			"choices": [
+				"a low note held, and a pattern repeating",
+				"a cheerful whistle",
+				"a lullaby",
+				"a happy fanfare"
+			],
+			"explain": "A long low note and a repeated pattern make you wait: tension."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Music the characters can hear, like a band at their party, is part of the film's world.",
+			"answer": true,
+			"hint": "Could the characters dance to it?",
+			"explain": "True: it is called diegetic music; the soundtrack only we hear is non-diegetic."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The hero's theme returns near the end. Listen. What is it telling us?",
+			"answer": 0,
+			"hint": "Is it bright and major as before, or slower and minor?",
+			"choices": [
+				"the hero is in trouble and losing hope",
+				"the hero wins and is full of hope",
+				"a new character arrives"
+			],
+			"explain": "The same theme, slower and in a minor key: the hero is in trouble and losing hope.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"G4:2",
+					"C5:2",
+					"Eb5:2"
+				],
+				"tone": "hollow"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did Wagner and film composers use leitmotifs?",
+			"answer": 0,
+			"hint": "What does a leitmotif stand for?",
+			"choices": [
+				"to tell the audience who or what is coming",
+				"to make films longer",
+				"to save paper",
+				"because words were not allowed"
+			],
+			"explain": "A theme linked to a character tells the audience who is near, even before they appear."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort each sound into what fits a hero and what fits a villain.",
+			"groups": [
+				"hero",
+				"villain"
+			],
+			"items": [
+				"bold brass in a major key",
+				"low, slow, minor notes",
+				"rising big leaps",
+				"notes that clash",
+				"bright and loud",
+				"a creeping low pattern"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Bright and rising, or low and dark?",
+			"explain": "Brass fanfares, big rising leaps and bright sounds suit a hero; low minor notes, clashes and creeping patterns a villain."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Before films had sound, how did cinemas add music?",
+			"answer": 0,
+			"hint": "Think of the 1900s to the 1920s.",
+			"choices": [
+				"a pianist or an orchestra played live",
+				"there was no music at all",
+				"people sang along",
+				"a radio played"
+			],
+			"explain": "A pianist, an organist or even an orchestra played live with the film."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen: how many notes are in the hero's theme?",
+			"answer": "5",
+			"hint": "Count them on your fingers.",
+			"explain": "C, G, C, E and G: 5 notes, rising by big leaps.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"G4",
+					"C5:2",
+					"E5",
+					"G5:3"
+				],
+				"tone": "bright"
+			}
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put these in time order, oldest first.",
+			"items": [
+				"Peter and the Wolf (1936)",
+				"Wagner's operas (1800s)",
+				"a film you watch today"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Look at the years.",
+			"explain": "Wagner's operas came in the 1800s, Peter and the Wolf in 1936, and today's films last."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the music: can the characters hear it, or only the audience?",
+			"groups": [
+				"the characters hear it",
+				"only we hear it"
+			],
+			"items": [
+				"a band at their party",
+				"scary music in a chase",
+				"a radio in their car",
+				"a hero's theme as she arrives",
+				"a song a character sings",
+				"music over the end credits"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is the music playing inside the film's world?",
+			"explain": "The characters hear the party band, the car radio and a song a character sings: diegetic music. Only we hear the chase music, the hero's theme and the end credits: non-diegetic."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "A composer plans a leitmotif for each character. Match each one to a theme that fits.",
+			"items": [
+				"a brave knight",
+				"a sneaky thief",
+				"a gentle ghost",
+				"a slow giant"
+			],
+			"matches": [
+				"high, soft, floating flute",
+				"low, heavy tuba steps",
+				"bold brass, rising leaps",
+				"quiet, short plucked notes"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think about pitch, speed, loudness and the instrument for each character.",
+			"explain": "The knight gets bold brass with rising leaps, like a hero. The thief gets quiet, short plucked notes, like sneaking. The ghost gets a high, soft flute, and the giant low, heavy tuba steps."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.film_cue",
+			"level": 1
+		},
+		{
+			"gen": "g7c.film_cue",
+			"level": 2
+		},
+		{
+			"gen": "g7c.film_cue",
+			"level": 3
+		}
+	]
+}

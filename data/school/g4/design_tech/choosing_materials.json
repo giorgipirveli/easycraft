@@ -1,0 +1,346 @@
+{
+	"id": "g4.design_tech.choosing_materials",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the difference between stiff and strong? (Stiff: it does not bend. Strong: it does not break.) Today: choosing the right material for a job."
+		},
+		{
+			"text": "Every material has properties: hard or soft, stiff or bendy, waterproof or absorbent. Is it transparent or opaque? Is it magnetic? Do heat and electricity pass through it?",
+			"picture": {
+				"kind": "material_swatch",
+				"samples": [
+					"oak",
+					"steel",
+					"acrylic",
+					"copper"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Choose for the job. A window must be transparent: glass. A towel must soak up water: cotton. A saucepan must let heat through: metal. Its handle must not: wood or plastic.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"job",
+						"material"
+					],
+					[
+						"window",
+						"glass"
+					],
+					[
+						"towel",
+						"cotton"
+					],
+					[
+						"saucepan",
+						"metal"
+					],
+					[
+						"its handle",
+						"wood"
+					]
+				]
+			}
+		},
+		{
+			"text": "Choose for the cost too: a cheaper material can be just as good for a model. And choose for the looks: colour, texture and shine. Designers balance all of these."
+		},
+		{
+			"text": "Choose for the planet: wood from forests that are replanted, and recycled materials, are kinder. Things that last a long time, and can be mended, save materials."
+		},
+		{
+			"text": "Aluminium cans and glass can be recycled again and again; paper about 5 to 7 times. Most plastics take hundreds of years to break down, so reuse them, and recycle what you can."
+		},
+		{
+			"text": "Try them in this order: reduce (use less), then reuse (use things again), then recycle (make them into something new). Many designers add repair, too.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"reduce",
+					"reuse",
+					"recycle"
+				],
+				"title": "Try them in this order"
+			}
+		},
+		{
+			"text": "Try it in the world: build a house, choosing each block for its job: glass for windows, stone for walls, wood for the door. For real: find 5 things at home and say what each is made of, and why."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which material is transparent?",
+			"answer": 0,
+			"hint": "Which one can you see through?",
+			"choices": [
+				"glass",
+				"wood",
+				"steel",
+				"card"
+			],
+			"explain": "Glass: light passes through it, so you can see through it."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Cotton is absorbent: it soaks up water.",
+			"answer": true,
+			"hint": "Think of a cotton towel after a bath.",
+			"explain": "True: cotton soaks up water, which is why towels are made of it."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which material is magnetic?",
+			"answer": 0,
+			"hint": "Magnets pull only a few metals. Which choice is one of them?",
+			"choices": [
+				"steel",
+				"aluminium",
+				"wood",
+				"plastic"
+			],
+			"explain": "Steel: it has iron in it. Aluminium is a metal, but it is not magnetic."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why is a saucepan's handle made of wood or plastic?",
+			"answer": 0,
+			"hint": "What would a metal handle feel like on a hot pan?",
+			"choices": [
+				"heat does not pass through it easily",
+				"it is magnetic",
+				"it is transparent",
+				"it is absorbent"
+			],
+			"explain": "Heat does not pass through wood or plastic easily, so the handle stays cool enough to hold."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Waterproof or absorbent?",
+			"groups": [
+				"waterproof",
+				"absorbent"
+			],
+			"items": [
+				"a plastic sheet",
+				"a sponge",
+				"a rubber boot",
+				"a paper towel",
+				"glass",
+				"a cotton towel"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does water run off it, or soak in?",
+			"explain": "Waterproof: plastic, rubber, glass. Absorbent: a sponge, a paper towel, a cotton towel."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each job to the best material.",
+			"items": [
+				"a window",
+				"a towel",
+				"a wire",
+				"a bouncy ball"
+			],
+			"matches": [
+				"cotton",
+				"copper",
+				"rubber",
+				"glass"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "What does each job need: see-through, soaking, conducting, bouncing?",
+			"explain": "Window: glass. Towel: cotton. Wire: copper. Bouncy ball: rubber."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Aluminium cans can be recycled again and again.",
+			"answer": true,
+			"hint": "What did the lesson say about cans and glass?",
+			"explain": "True: aluminium can be recycled again and again, and so can glass."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which property matters most for a raincoat?",
+			"answer": 0,
+			"hint": "What must a raincoat do?",
+			"choices": [
+				"waterproof",
+				"magnetic",
+				"transparent",
+				"hard"
+			],
+			"explain": "It must be waterproof, and bendy enough to move in."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the three Rs in the order to try them.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Using less comes before anything else.",
+			"items": [
+				"reuse",
+				"reduce",
+				"recycle"
+			],
+			"explain": "Reduce first, then reuse, then recycle."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is kindest to the planet for a school model?",
+			"answer": 0,
+			"hint": "Which one is reused?",
+			"choices": [
+				"card from a used cereal box",
+				"new plastic bought for it",
+				"a new metal sheet",
+				"a new glass sheet"
+			],
+			"explain": "Card from a used box: it is reused, so nothing new is made."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is copper used inside electric wires?",
+			"answer": 0,
+			"hint": "What must a wire carry?",
+			"choices": [
+				"it conducts electricity well",
+				"it is transparent",
+				"it is absorbent",
+				"it is magnetic"
+			],
+			"explain": "Copper conducts electricity very well."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Most plastics break down in a few weeks.",
+			"answer": false,
+			"hint": "What did the lesson say about plastics?",
+			"explain": "False: most plastics take hundreds of years to break down."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Natural, or made by people?",
+			"groups": [
+				"natural",
+				"made by people"
+			],
+			"items": [
+				"wood",
+				"plastic",
+				"wool",
+				"glass",
+				"stone",
+				"paper"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it found in nature, or made in a factory from something else?",
+			"explain": "Natural: wood, wool, stone. Made by people: plastic (from oil), glass (from sand), paper (from wood)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A tent's cover must be waterproof and light. Which material is best?",
+			"answer": 0,
+			"hint": "Check both needs: waterproof, and light to carry.",
+			"choices": [
+				"a nylon sheet",
+				"a steel sheet",
+				"cardboard",
+				"cotton wool"
+			],
+			"explain": "A nylon sheet: it is waterproof and light. Steel is heavy, and card and cotton wool soak up water."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do designers think about how long a product lasts?",
+			"answer": 0,
+			"hint": "Think of the planet.",
+			"choices": [
+				"things that last save materials and money",
+				"old things look better",
+				"shops like it",
+				"to make it heavier"
+			],
+			"explain": "A product that lasts, and can be mended, does not need replacing, which saves materials and money."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each product to the property that matters most.",
+			"items": [
+				"a raincoat",
+				"a window",
+				"a pan's handle",
+				"a sponge"
+			],
+			"matches": [
+				"absorbent",
+				"waterproof",
+				"transparent",
+				"does not let heat through"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "What must each one do for the person using it?",
+			"explain": "A raincoat must be waterproof, so nylon or rubber. A window must be transparent: glass. A pan's handle must not let heat through: wood or plastic. A sponge must be absorbent to soak up water."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.material_job",
+			"level": 1
+		},
+		{
+			"gen": "g4w.material_job",
+			"level": 2
+		},
+		{
+			"gen": "g4w.material_job",
+			"level": 3
+		}
+	]
+}

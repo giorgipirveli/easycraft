@@ -1,0 +1,495 @@
+{
+	"id": "g8.maths.trig_ratios",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you made scale drawings. Two right-angled triangles have the same angles. What is true of their sides? (They are in the same ratio: one is an enlargement of the other.)"
+		},
+		{
+			"text": "Name the sides from the marked angle x. The hypotenuse is the longest side, opposite the right angle. The opposite side is across from x. The adjacent side is next to x, and is not the hypotenuse.",
+			"picture": {
+				"kind": "trig_triangle",
+				"angle": 35,
+				"names": true
+			}
+		},
+		{
+			"text": "Triangles with the same angles are enlargements, so each ratio of their sides depends only on the angle. The ratios have names: sin x = opposite ÷ hypotenuse, cos x = adjacent ÷ hypotenuse and tan x = opposite ÷ adjacent. Remember SOH CAH TOA.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"ratio",
+						"on top",
+						"under the line"
+					],
+					[
+						"sin x",
+						"opposite",
+						"hypotenuse"
+					],
+					[
+						"cos x",
+						"adjacent",
+						"hypotenuse"
+					],
+					[
+						"tan x",
+						"opposite",
+						"adjacent"
+					]
+				]
+			}
+		},
+		{
+			"text": "A worked example: in a 3, 4, 5 triangle, x is opposite the side of 3. So sin x = 3 ÷ 5 = 0.6, cos x = 4 ÷ 5 = 0.8 and tan x = 3 ÷ 4 = 0.75. A calculator then gives x as about 37°.",
+			"picture": {
+				"kind": "trig_triangle",
+				"angle": 37,
+				"sides": {
+					"hyp": "5",
+					"opp": "3",
+					"adj": "4"
+				}
+			}
+		},
+		{
+			"text": "To find a side, pick the ratio with the side you know and the side you want. A 10 m ladder leans at 60° to the ground. Its top is 10 × sin 60° high: 10 × 0.87, about 8.7 m.",
+			"picture": {
+				"kind": "trig_triangle",
+				"angle": 60,
+				"scene": "ladder",
+				"sides": {
+					"hyp": "10 m",
+					"opp": "?"
+				},
+				"angle_label": "60°"
+			}
+		},
+		{
+			"text": "If the side you want is on the bottom of the fraction, divide. tan 40° = 12 ÷ a, so a = 12 ÷ tan 40°, which is 12 ÷ 0.84, about 14.3. Always check that the answer looks sensible on the drawing.",
+			"picture": {
+				"kind": "trig_triangle",
+				"angle": 40,
+				"sides": {
+					"opp": "12",
+					"adj": "a"
+				},
+				"angle_label": "40°"
+			}
+		},
+		{
+			"text": "To find an angle, work the ratio out, then use the calculator's inverse key (SHIFT, then sin, cos or tan). If the opposite side is 5 and the hypotenuse is 10, sin x = 0.5, so x = 30°.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"angle",
+						"30°",
+						"37°",
+						"45°",
+						"53°",
+						"60°"
+					],
+					[
+						"sin",
+						"0.50",
+						"0.60",
+						"0.71",
+						"0.80",
+						"0.87"
+					],
+					[
+						"cos",
+						"0.87",
+						"0.80",
+						"0.71",
+						"0.60",
+						"0.50"
+					],
+					[
+						"tan",
+						"0.58",
+						"0.75",
+						"1.00",
+						"1.33",
+						"1.73"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: in Real Builder in the LIFE tab, the roof slopes so rain runs off. Its pitch is an angle whose tan is the rise ÷ the run. Measure a ramp that way. Next: volume of cylinders, cones and spheres."
+		}
+	],
+	"exercises": [
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label the sides from the marked angle x.",
+			"picture": {
+				"kind": "trig_triangle",
+				"angle": 35,
+				"pins": true
+			},
+			"labels": [
+				"hypotenuse",
+				"opposite",
+				"adjacent"
+			],
+			"hint": "Start with the longest side, across from the right angle; then find the side across from x.",
+			"explain": "The hypotenuse is across from the right angle; the opposite side is across from x; the adjacent side touches x.",
+			"spots": [
+				[
+					0.6564,
+					0.09,
+					0.6564,
+					0.48
+				],
+				[
+					0.4872,
+					0.91,
+					0.4872,
+					0.7264
+				],
+				[
+					0.4872,
+					0.09,
+					0.4872,
+					0.48
+				]
+			],
+			"answer": [
+				2,
+				0,
+				1
+			]
+		},
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "The marked angle is at the top now. Label the parts.",
+			"picture": {
+				"kind": "trig_triangle",
+				"angle": 50,
+				"at": "top",
+				"pins": true
+			},
+			"labels": [
+				"hypotenuse",
+				"opposite",
+				"adjacent",
+				"right angle"
+			],
+			"hint": "The opposite side never touches the marked angle.",
+			"explain": "With x at the top, the opposite side is the base and the adjacent side is the upright one. The hypotenuse still faces the right angle.",
+			"spots": [
+				[
+					0.4872,
+					0.91,
+					0.4872,
+					0.7264
+				],
+				[
+					0.6284,
+					0.09,
+					0.6284,
+					0.48
+				],
+				[
+					0.613,
+					0.91,
+					0.613,
+					0.6944
+				],
+				[
+					0.4872,
+					0.09,
+					0.4872,
+					0.48
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each ratio to its sides.",
+			"items": [
+				"sin x",
+				"cos x",
+				"tan x"
+			],
+			"matches": [
+				"opposite ÷ adjacent",
+				"opposite ÷ hypotenuse",
+				"adjacent ÷ hypotenuse"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Say SOH CAH TOA: each group of letters is a ratio and its two sides.",
+			"explain": "SOH: sin = opposite ÷ hypotenuse. CAH: cos = adjacent ÷ hypotenuse. TOA: tan = opposite ÷ adjacent."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The side opposite x is 6 cm and the hypotenuse is 10 cm. What is sin x, as a decimal?",
+			"picture": {
+				"kind": "trig_triangle",
+				"angle": 37,
+				"sides": {
+					"opp": "6 cm",
+					"hyp": "10 cm"
+				}
+			},
+			"answer": "0.6",
+			"hint": "Divide the opposite side by the hypotenuse.",
+			"explain": "sin x = opposite ÷ hypotenuse = 6 ÷ 10 = 0.6."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The hypotenuse is always the longest side of a right-angled triangle.",
+			"answer": true,
+			"hint": "Which side faces the biggest angle?",
+			"explain": "True: it faces the right angle, the biggest angle in the triangle, so it is the longest side."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "You know the hypotenuse and want the side opposite x. Which ratio do you use?",
+			"choices": [
+				"sin x = opposite ÷ hypotenuse",
+				"cos x = adjacent ÷ hypotenuse",
+				"tan x = opposite ÷ adjacent"
+			],
+			"answer": 0,
+			"hint": "Find the ratio whose fraction has both of those sides in it.",
+			"explain": "The opposite side and the hypotenuse are both in sin x (SOH)."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A wire 20 m long runs from the top of a mast to the ground, at 30° to the ground. sin 30° = 0.5. How tall is the mast, in metres?",
+			"picture": {
+				"kind": "trig_triangle",
+				"angle": 30,
+				"sides": {
+					"hyp": "20 m",
+					"opp": "?"
+				},
+				"angle_label": "30°"
+			},
+			"answer": "10",
+			"hint": "The mast is opposite the 30° angle and the wire is the hypotenuse: use sin.",
+			"explain": "height = 20 × sin 30° = 20 × 0.5 = 10 m."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The Sun is 37° above the ground, and a tree's shadow is 12 m long. tan 37° = 0.75. How tall is the tree, in metres?",
+			"picture": {
+				"kind": "trig_triangle",
+				"angle": 37,
+				"sides": {
+					"adj": "12 m",
+					"opp": "?"
+				},
+				"angle_label": "37°"
+			},
+			"answer": "9",
+			"hint": "The shadow is next to the angle and the tree is across from it: use tan.",
+			"explain": "height = 12 × tan 37° = 12 × 0.75 = 9 m."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort each pair of sides by the ratio that uses them.",
+			"groups": [
+				"sin",
+				"cos",
+				"tan"
+			],
+			"items": [
+				"opposite and hypotenuse",
+				"across from x, and next to x",
+				"opposite and adjacent",
+				"next to x, and the longest",
+				"adjacent and hypotenuse",
+				"across from x, and the longest"
+			],
+			"answer": [
+				0,
+				2,
+				2,
+				1,
+				1,
+				0
+			],
+			"hint": "Name each side first: across from x is opposite, next to x is adjacent, the longest is the hypotenuse.",
+			"explain": "sin uses the opposite side and the hypotenuse; cos uses the adjacent side and the hypotenuse; tan uses the opposite and adjacent sides."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps to find an angle in order.",
+			"items": [
+				"Name the sides from the angle",
+				"Check that it looks sensible",
+				"Choose sin, cos or tan",
+				"Use the inverse key to find the angle",
+				"Work out the ratio as a decimal"
+			],
+			"answer": [
+				0,
+				2,
+				4,
+				3,
+				1
+			],
+			"hint": "You cannot choose a ratio until the sides have names.",
+			"explain": "Name the sides, choose the ratio, work it out, use the inverse key, then check the angle against the drawing."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "tan 45° = 1, because the opposite and adjacent sides are equal.",
+			"answer": true,
+			"hint": "In a right-angled triangle with a 45° angle, what is the third angle?",
+			"explain": "True: the angles are 45°, 45° and 90°, so the two shorter sides are equal and their ratio is 1."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A ramp rises 2.1 m at 12° to the ground. sin 12° = 0.21. How long is its slope, in metres?",
+			"picture": {
+				"kind": "trig_triangle",
+				"angle": 12,
+				"scene": "ramp",
+				"sides": {
+					"opp": "2.1 m",
+					"hyp": "?"
+				},
+				"angle_label": "12°"
+			},
+			"answer": "10",
+			"hint": "The slope is the hypotenuse, on the bottom of the sin fraction: divide.",
+			"explain": "sin 12° = 2.1 ÷ slope, so slope = 2.1 ÷ sin 12°. That is 2.1 ÷ 0.21 = 10 m."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A plane climbs 600 m while flying 1,200 m along its path. sin 30° = 0.5. At what angle does it climb, in degrees?",
+			"picture": {
+				"kind": "trig_triangle",
+				"angle": 30,
+				"sides": {
+					"hyp": "1,200 m",
+					"opp": "600 m"
+				},
+				"angle_label": "?"
+			},
+			"answer": "30",
+			"hint": "Work out sin x = opposite ÷ hypotenuse, then match it to a sine you know.",
+			"explain": "sin x = 600 ÷ 1,200 = 0.5, and sin 30° = 0.5, so it climbs at 30°. The path is the hypotenuse; the height gained is opposite the angle."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Rafi writes: cos x = opposite ÷ hypotenuse. What is wrong?",
+			"choices": [
+				"cos uses the adjacent side, not the opposite",
+				"nothing: it is right",
+				"cos puts the hypotenuse on top",
+				"cos is only for angles over 45°"
+			],
+			"answer": 0,
+			"hint": "Say CAH: what does the A stand for?",
+			"explain": "CAH: cos x = adjacent ÷ hypotenuse. Opposite ÷ hypotenuse is sin x, so Rafi has mixed up the two."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The side opposite x is 9 and angle x is 35°. tan 35° = 0.70. How long is the adjacent side, to 1 decimal place?",
+			"picture": {
+				"kind": "trig_triangle",
+				"angle": 35,
+				"sides": {
+					"opp": "9",
+					"adj": "?"
+				},
+				"angle_label": "35°"
+			},
+			"answer": "12.9",
+			"hint": "The adjacent side is on the bottom of the tan fraction, so divide.",
+			"explain": "tan 35° = 9 ÷ adjacent, so adjacent = 9 ÷ tan 35°. That is 9 ÷ 0.70, about 12.86, or 12.9 to 1 decimal place."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each problem to the ratio you would use.",
+			"items": [
+				"ladder's length, find its height",
+				"ladder's length, find foot gap",
+				"shadow's length, find the height"
+			],
+			"matches": [
+				"tan",
+				"sin",
+				"cos"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Name the side you know and the side you want, from the angle at the ground.",
+			"explain": "Ladder and height: hypotenuse and opposite, so sin. Ladder and foot gap: hypotenuse and adjacent, so cos. Shadow and height: adjacent and opposite, so tan."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8k.trig_sides",
+			"level": 1
+		},
+		{
+			"gen": "g8k.trig_sides",
+			"level": 2
+		},
+		{
+			"gen": "g8k.trig_sides",
+			"level": 3
+		},
+		{
+			"gen": "g8k.trig_side",
+			"level": 1
+		},
+		{
+			"gen": "g8k.trig_side",
+			"level": 2
+		},
+		{
+			"gen": "g8k.trig_side",
+			"level": 3
+		},
+		{
+			"gen": "g8k.trig_angle",
+			"level": 1
+		},
+		{
+			"gen": "g8k.trig_angle",
+			"level": 2
+		},
+		{
+			"gen": "g8k.trig_angle",
+			"level": 3
+		}
+	]
+}

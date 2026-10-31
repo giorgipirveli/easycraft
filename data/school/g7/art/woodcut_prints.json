@@ -1,0 +1,508 @@
+{
+	"id": "g7.art.woodcut_prints",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, which colour does a layered print use first? (The lightest.) Today: woodcuts, and the Japanese way of printing with wood blocks."
+		},
+		{
+			"text": "A woodcut is a relief print: you cut away what should stay white, and the raised parts left standing take the ink and print dark.",
+			"picture": {
+				"kind": "carved_block",
+				"rows": [
+					"#..##.#"
+				],
+				"view": "side"
+			}
+		},
+		{
+			"text": "The print comes out mirrored, because the paper lies face down on the block. So letters must be carved back to front.",
+			"picture": {
+				"kind": "carved_block",
+				"rows": [
+					".####",
+					"#...#",
+					".####",
+					"..#.#",
+					".#..#"
+				],
+				"view": "block"
+			}
+		},
+		{
+			"text": "Worked example: this block's raised parts form an R carved back to front. Printed, it turns round and reads the right way.",
+			"picture": {
+				"kind": "carved_block",
+				"rows": [
+					"####.",
+					"#...#",
+					"####.",
+					"#.#..",
+					"#..#."
+				],
+				"view": "print"
+			}
+		},
+		{
+			"text": "Tools: a V-gouge cuts thin lines and a U-gouge clears wide areas. Always cut away from your body, keep your other hand behind the blade, and hold the wood still on a bench hook."
+		},
+		{
+			"text": "In Japan, ukiyo-e prints used a key block for the black outlines, then one block for each colour. The blocks were lined up with marks called kento. Ink was brushed on, and the paper rubbed with a flat pad, a baren."
+		},
+		{
+			"text": "Prints are made in editions and numbered in pencil: 7/25 means print 7 of 25. Albrecht Dürer (1471-1528) made his famous Rhinoceros woodcut in 1515 without ever seeing the animal."
+		},
+		{
+			"text": "Try it in the world: with a grown-up, carve a simple shape into half a potato or a foam sheet and print it. Did it come out mirrored? Next: curating a portfolio."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a woodcut, which parts print dark?",
+			"answer": 0,
+			"hint": "The roller only touches the highest parts.",
+			"choices": [
+				"the raised parts left standing",
+				"the parts cut away",
+				"only the edges",
+				"none of it"
+			],
+			"explain": "The raised parts take the ink and print; the cut parts stay white."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A woodcut print comes out mirrored, left to right.",
+			"answer": true,
+			"hint": "The paper lies face down on the block.",
+			"explain": "True: what is on the left of the block prints on the right."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which print does this block make?",
+			"answer": 0,
+			"hint": "Turn the block over left to right in your head.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "carved_block",
+						"rows": [
+							".##",
+							"..#",
+							"..#"
+						],
+						"view": "print"
+					}
+				},
+				{
+					"picture": {
+						"kind": "carved_block",
+						"rows": [
+							"##.",
+							"#..",
+							"#.."
+						],
+						"view": "print"
+					}
+				},
+				{
+					"picture": {
+						"kind": "carved_block",
+						"rows": [
+							"#..",
+							"#..",
+							"##."
+						],
+						"view": "print"
+					}
+				},
+				{
+					"picture": {
+						"kind": "carved_block",
+						"rows": [
+							"..#",
+							".##",
+							".##"
+						],
+						"view": "print"
+					}
+				}
+			],
+			"explain": "The print is the block mirrored: the dark squares on the left of the block print on the right.",
+			"picture": {
+				"kind": "carved_block",
+				"rows": [
+					"##.",
+					"#..",
+					"#.."
+				],
+				"view": "block"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which tool cuts thin lines?",
+			"answer": 0,
+			"hint": "Its blade is shaped like a letter.",
+			"choices": [
+				"a V-gouge",
+				"a U-gouge",
+				"a baren",
+				"a roller"
+			],
+			"explain": "A V-gouge makes a thin, sharp line."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How should you cut with a gouge?",
+			"answer": 0,
+			"hint": "Where would the blade go if it slipped?",
+			"choices": [
+				"away from your body, hand behind the blade",
+				"towards your body",
+				"with the wood held in the air",
+				"as quickly as you can"
+			],
+			"explain": "Away from your body, with your other hand behind the blade and the wood held on a bench hook."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which print does this block make?",
+			"answer": 0,
+			"hint": "Mirror each row, left to right.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "carved_block",
+						"rows": [
+							"##.#",
+							"...#",
+							".###",
+							"...#"
+						],
+						"view": "print"
+					}
+				},
+				{
+					"picture": {
+						"kind": "carved_block",
+						"rows": [
+							"#.##",
+							"#...",
+							"###.",
+							"#..."
+						],
+						"view": "print"
+					}
+				},
+				{
+					"picture": {
+						"kind": "carved_block",
+						"rows": [
+							"#...",
+							"###.",
+							"#...",
+							"#.##"
+						],
+						"view": "print"
+					}
+				},
+				{
+					"picture": {
+						"kind": "carved_block",
+						"rows": [
+							".#..",
+							".###",
+							"...#",
+							".###"
+						],
+						"view": "print"
+					}
+				}
+			],
+			"explain": "Each row prints mirrored, so the shape faces the other way.",
+			"picture": {
+				"kind": "carved_block",
+				"rows": [
+					"#.##",
+					"#...",
+					"###.",
+					"#..."
+				],
+				"view": "block"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A print is numbered 7/25 in pencil. How many prints are in the edition?",
+			"answer": "25",
+			"hint": "Which number is the edition's size?",
+			"explain": "7/25 means print 7 of an edition of 25."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a baren?",
+			"answer": 0,
+			"hint": "Japanese printers rubbed the back of the paper with it.",
+			"choices": [
+				"a flat pad to rub the paper",
+				"a knife",
+				"a colour",
+				"a title box"
+			],
+			"explain": "A baren is a flat pad for rubbing the paper onto the inked block."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each tool or word to its job.",
+			"items": [
+				"V-gouge",
+				"U-gouge",
+				"bench hook",
+				"kento",
+				"baren"
+			],
+			"matches": [
+				"clears wide areas",
+				"holds the wood still",
+				"lines up each colour",
+				"rubs the paper",
+				"cuts thin lines"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				2,
+				3
+			],
+			"hint": "Two cut, one holds, one lines up, one presses.",
+			"explain": "V-gouge: lines; U-gouge: wide areas; bench hook: holds; kento: lines up; baren: rubs."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Letters must be carved back to front to print the right way round.",
+			"answer": true,
+			"hint": "Remember the mirror.",
+			"explain": "True: the print mirrors the block."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of making a woodcut in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Draw, cut, ink, print.",
+			"items": [
+				"press the paper and lift it off",
+				"roll ink onto the block",
+				"cut away what should stay white",
+				"draw the design on the block"
+			],
+			"explain": "Draw it, cut away the white parts, ink the raised parts, then press and lift the paper."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which print does this block make?",
+			"answer": 0,
+			"hint": "Mirror every row carefully.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "carved_block",
+						"rows": [
+							"#..##",
+							".#..#",
+							"..###",
+							"....#",
+							"###.#"
+						],
+						"view": "print"
+					}
+				},
+				{
+					"picture": {
+						"kind": "carved_block",
+						"rows": [
+							"##..#",
+							"#..#.",
+							"###..",
+							"#....",
+							"#.###"
+						],
+						"view": "print"
+					}
+				},
+				{
+					"picture": {
+						"kind": "carved_block",
+						"rows": [
+							"#.###",
+							"#....",
+							"###..",
+							"#..#.",
+							"##..#"
+						],
+						"view": "print"
+					}
+				},
+				{
+					"picture": {
+						"kind": "carved_block",
+						"rows": [
+							"..##.",
+							".##.#",
+							"...##",
+							".####",
+							".#..."
+						],
+						"view": "print"
+					}
+				}
+			],
+			"explain": "Each of the five rows is printed mirrored.",
+			"picture": {
+				"kind": "carved_block",
+				"rows": [
+					"##..#",
+					"#..#.",
+					"###..",
+					"#....",
+					"#.###"
+				],
+				"view": "block"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A Japanese-style print has black outlines and 3 colours. How many blocks does it need, with the key block?",
+			"answer": "4",
+			"hint": "One block for the outlines, and one for each colour.",
+			"explain": "1 key block + 3 colour blocks = 4 blocks."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does each colour block have its kento marks in the same place?",
+			"answer": 0,
+			"hint": "What goes wrong if the paper slips between colours?",
+			"choices": [
+				"so each colour lines up on the paper",
+				"to hold the ink",
+				"to sign the print",
+				"to cut faster"
+			],
+			"explain": "The paper sits in the same kento marks on every block, so all the colours line up."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This block shows an R carved back to front. What does its print show?",
+			"answer": 0,
+			"hint": "The print mirrors the block.",
+			"choices": [
+				"an R the right way round",
+				"a back-to-front R",
+				"an upside-down R",
+				"a blank square"
+			],
+			"explain": "Mirroring a back-to-front R turns it the right way round.",
+			"picture": {
+				"kind": "carved_block",
+				"rows": [
+					".####",
+					"#...#",
+					".####",
+					"..#.#",
+					".#..#"
+				],
+				"view": "block"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Dürer carved his Rhinoceros woodcut after seeing the animal himself.",
+			"answer": false,
+			"hint": "Think of where rhinoceroses lived, and where Dürer did.",
+			"explain": "False: he worked from a letter and a sketch sent from Lisbon, and never saw it."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the parts of a woodcut block: prints dark, or stays white?",
+			"groups": [
+				"prints dark",
+				"stays white"
+			],
+			"items": [
+				"the raised parts",
+				"the parts cut away",
+				"lines left standing",
+				"areas cleared with a U-gouge",
+				"the uncut surface",
+				"a thin V-gouge cut"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Only the surface the roller touches takes the ink.",
+			"explain": "Prints dark: the raised parts, the lines left standing and the uncut surface take the ink. Stays white: everything cut away, by a U-gouge or a V-gouge, sits too low for the ink."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the making of a Japanese colour print in order.",
+			"items": [
+				"Rub the paper with a baren.",
+				"Carve one block for each colour.",
+				"Repeat for every colour block.",
+				"Carve a key block for the outlines.",
+				"Line the paper up on the kento marks."
+			],
+			"answer": [
+				3,
+				1,
+				4,
+				0,
+				2
+			],
+			"hint": "The outlines come first, and every colour must land in the right place.",
+			"explain": "Carve the key block for the black outlines, then one block for each colour. Line the paper up on the kento marks, rub it with a baren, and repeat for every colour block, so all the colours land in place."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.block_print",
+			"level": 1
+		},
+		{
+			"gen": "g7c.block_print",
+			"level": 2
+		},
+		{
+			"gen": "g7c.block_print",
+			"level": 3
+		}
+	]
+}

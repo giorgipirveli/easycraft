@@ -1,0 +1,426 @@
+{
+	"id": "g7.computing.blocks_to_text",
+	"lesson": [
+		{
+			"text": "Quick memory: in pseudocode, which word shows a value on the screen? (OUTPUT.) Today: writing programs as text, the way most programmers do."
+		},
+		{
+			"text": "Blocks snap together, so they cannot be joined wrongly. Text code is typed: quicker to write, easy to share and able to do far more, but every letter and sign must be right. Here is the same program both ways.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"for i in range(3):",
+					"    print(\"Hop\")"
+				],
+				"blocks": [
+					"REPEAT 3 TIMES",
+					"  SAY Hop"
+				]
+			}
+		},
+		{
+			"text": "print shows something on the screen. Text goes in quote marks; numbers and sums do not. print(\"Hi\") shows Hi, and print(3 + 4) works out the sum and shows 7.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"print(\"Hi\")",
+					"print(3 + 4)",
+					"print(\"3 + 4\")"
+				],
+				"output": [
+					"Hi",
+					"7",
+					"3 + 4"
+				]
+			}
+		},
+		{
+			"text": "A variable is set with one equals sign: score = 0 puts 0 in score, and score = score + 5 adds 5 to it. In code, = means becomes, not is the same as.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"score = 0",
+					"score = score + 5",
+					"print(score)"
+				],
+				"output": [
+					"5"
+				]
+			}
+		},
+		{
+			"text": "IF becomes if, and to compare two values you write ==. The line that starts a block ends with a colon. The lines inside it step in 4 spaces, as blocks inside an IF did.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"gems = 12",
+					"if gems > 10:",
+					"    print(\"Rich!\")",
+					"else:",
+					"    print(\"Keep going\")"
+				],
+				"output": [
+					"Rich!"
+				]
+			}
+		},
+		{
+			"text": "REPEAT becomes for. for i in range(3): runs its stepped-in lines 3 times, and i counts 0, 1, 2: range starts at 0 and stops before 3.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"for i in range(3):",
+					"    print(i)"
+				],
+				"output": [
+					"0",
+					"1",
+					"2"
+				]
+			}
+		},
+		{
+			"text": "A syntax error breaks the language's rules, so the program will not run. Worked example: line 2 says if coins = 5, but comparing needs ==. Also check the colons, pairs of brackets and quote marks, and the steps in.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"coins = 5",
+					"if coins = 5:",
+					"    print(\"Five!\")"
+				],
+				"error": 1
+			}
+		},
+		{
+			"text": "Try it in the world: write the blocks REPEAT 4 TIMES, SAY Hello as text code on paper. Then check its colon, brackets, quote marks and step in. Next: lists."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which line shows the word Hello on the screen?",
+			"answer": 0,
+			"hint": "Text goes inside quote marks, inside print's brackets, and print is written in small letters.",
+			"choices": [
+				"print(\"Hello\")",
+				"print(Hello)",
+				"Print \"Hello\"",
+				"SAY Hello"
+			],
+			"explain": "print(\"Hello\"): the command in small letters, then brackets, and quote marks round the text."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What does this program print?",
+			"answer": "7",
+			"hint": "Go line by line and keep x's value on paper.",
+			"explain": "x starts at 4, then 4 + 3 = 7, and print shows 7.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"x = 4",
+					"x = x + 3",
+					"print(x)"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In text code, the line if score > 10 must end with a colon.",
+			"answer": true,
+			"hint": "What shows that a block starts?",
+			"explain": "True: a line that starts a block (if, else, for, while, def) ends with a colon."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each block to its text code.",
+			"items": [
+				"SET score TO 0",
+				"CHANGE score BY 1",
+				"REPEAT 3 TIMES",
+				"SAY Hi"
+			],
+			"matches": [
+				"score = score + 1",
+				"for i in range(3):",
+				"print(\"Hi\")",
+				"score = 0"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "SET and CHANGE use =, REPEAT becomes for, and SAY becomes print.",
+			"explain": "SET score TO 0 is score = 0, CHANGE score BY 1 is score = score + 1, REPEAT 3 TIMES is a for loop over range(3), and SAY Hi is print(\"Hi\")."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does print(2 + 3) show?",
+			"answer": 0,
+			"hint": "Are there quote marks inside the brackets?",
+			"choices": [
+				"5",
+				"2 + 3",
+				"23",
+				"\"2 + 3\""
+			],
+			"explain": "No quote marks, so the sum is worked out: it shows 5."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does print(\"2 + 3\") show?",
+			"answer": 0,
+			"hint": "Text in quote marks is shown just as it is.",
+			"choices": [
+				"2 + 3",
+				"5",
+				"23",
+				"print"
+			],
+			"explain": "The quote marks make it text, so it shows 2 + 3, not the answer."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A misspelt command such as pritn(\"Hi\") stops the program with an error.",
+			"answer": true,
+			"hint": "Does the computer know the word pritn?",
+			"explain": "True: the computer does not know pritn, so it stops with a name error. Commands must be spelt exactly."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What does this program print?",
+			"answer": "12",
+			"hint": "Keep coins' value on paper after each line.",
+			"explain": "coins goes 10, then 10 − 4 = 6, then 6 × 2 = 12.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"coins = 10",
+					"coins = coins - 4",
+					"coins = coins * 2",
+					"print(coins)"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does this program print?",
+			"answer": 0,
+			"hint": "Is gems > 5 true? Only one stepped-in part runs.",
+			"choices": [
+				"Lots",
+				"A few",
+				"Lots, A few",
+				"gems"
+			],
+			"explain": "gems is 7 and 7 > 5 is true, so the if part runs and shows Lots; the else part is skipped.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"gems = 7",
+					"if gems > 5:",
+					"    print(\"Lots\")",
+					"else:",
+					"    print(\"A few\")"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The marked line stops the program. What is the mistake?",
+			"answer": 0,
+			"hint": "Look at the very end of the marked line.",
+			"choices": [
+				"a missing colon",
+				"a missing bracket",
+				"a missing quote mark",
+				"= where == should be"
+			],
+			"explain": "for i in range(4) starts a block, so it must end with a colon: for i in range(4):",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"for i in range(4)",
+					"    print(i)"
+				],
+				"error": 0
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The marked line stops the program. What is the mistake?",
+			"answer": 0,
+			"hint": "Text must start and end with the same mark.",
+			"choices": [
+				"a missing quote mark",
+				"a missing colon",
+				"a missing bracket",
+				"a line that should step in"
+			],
+			"explain": "The text Well done! opens with a quote mark but never closes: print(\"Well done!\")",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"print(\"Well done!)"
+				],
+				"error": 0
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many Hops does this program show?",
+			"answer": "5",
+			"hint": "range(5) counts 0, 1, 2, 3, 4. How many is that?",
+			"explain": "range(5) gives 0, 1, 2, 3 and 4: five times round, so Hop is shown 5 times.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"for i in range(5):",
+					"    print(\"Hop\")"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does x = 5 not compare x with 5?",
+			"answer": 0,
+			"hint": "Which sign sets a value, and which one tests it?",
+			"choices": [
+				"= puts 5 into x; == compares",
+				"it needs a colon",
+				"5 must be in quote marks",
+				"x must be in capitals"
+			],
+			"explain": "One = sets x to 5. To ask whether x is 5, write x == 5."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "This program will not run. Which line has the mistake?",
+			"answer": "3",
+			"hint": "Check the colons, pairs of brackets and quote marks, and which lines should step in.",
+			"explain": "Line 3 is inside the for loop, so it must step in 4 spaces: the lines of a block step in.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"score = 0",
+					"for i in range(3):",
+					"score = score + 2",
+					"print(score)"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What does this program print?",
+			"answer": "6",
+			"hint": "Write total after each time round the loop; i counts 0, 1, 2, 3.",
+			"explain": "range(4) gives 0, 1, 2, 3, and total adds them: 0 + 1 + 2 + 3 = 6.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"total = 0",
+					"for i in range(4):",
+					"    total = total + i",
+					"print(total)"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does this program print?",
+			"answer": 0,
+			"hint": "+ joins text to text. Is name in quote marks?",
+			"choices": [
+				"Hi Hoot",
+				"Hi name",
+				"Hi + name",
+				"HiHoot"
+			],
+			"explain": "name holds Hoot, and + joins the texts: Hi and a space, then Hoot, so it shows Hi Hoot.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"name = \"Hoot\"",
+					"print(\"Hi \" + name)"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "This program will not run. Which line has the mistake?",
+			"answer": "3",
+			"hint": "Count the brackets on each line: every ( needs its ).",
+			"explain": "Line 3 opens a bracket after print but never closes it: print(\"Eight!\")",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"coins = 8",
+					"if coins == 8:",
+					"    print(\"Eight!\"",
+					"print(coins)"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is n when the program ends?",
+			"answer": "16",
+			"hint": "Write n each time round the loop, and check the test before each round.",
+			"explain": "n doubles while it is less than 10: 1, 2, 4, 8, 16. 16 is not less than 10, so it stops at 16.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"n = 1",
+					"while n < 10:",
+					"    n = n * 2"
+				]
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.text_output",
+			"level": 1
+		},
+		{
+			"gen": "g7c.text_output",
+			"level": 2
+		},
+		{
+			"gen": "g7c.text_output",
+			"level": 3
+		},
+		{
+			"gen": "g7c.syntax_error",
+			"level": 1
+		},
+		{
+			"gen": "g7c.syntax_error",
+			"level": 2
+		},
+		{
+			"gen": "g7c.syntax_error",
+			"level": 3
+		}
+	]
+}

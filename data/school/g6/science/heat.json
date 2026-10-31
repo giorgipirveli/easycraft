@@ -1,0 +1,377 @@
+{
+	"id": "g6.science.heat",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met heat and temperature. What does a thermometer measure? Temperature, in degrees Celsius (°C)."
+		},
+		{
+			"text": "Temperature measures how hot or cold something is: how fast its particles are moving. We measure it in degrees Celsius (°C)."
+		},
+		{
+			"text": "Heat is energy moving from a hotter thing to a colder one. It always flows from hot to cold, until both are the same temperature."
+		},
+		{
+			"text": "Heat moves in three ways. Conduction is through touching, like a spoon in hot soup. Convection is warm liquids and gases rising and moving around. Radiation is like warmth from the Sun or a fire.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"way",
+						"example"
+					],
+					[
+						"conduction",
+						"spoon in soup"
+					],
+					[
+						"convection",
+						"warm air rising"
+					],
+					[
+						"radiation",
+						"the Sun's warmth"
+					]
+				]
+			}
+		},
+		{
+			"text": "Insulators slow heat down; conductors let it through quickly. A good cool box or flask uses insulators and trapped air.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"insulator",
+						"conductor"
+					],
+					[
+						"wood",
+						"iron"
+					],
+					[
+						"wool",
+						"copper"
+					],
+					[
+						"trapped air",
+						"aluminium"
+					]
+				]
+			}
+		},
+		{
+			"text": "A bath at 40 °C holds more heat energy than a cup at 40 °C: the same temperature, but much more water. Temperature is how hot; heat is energy.",
+			"picture": {
+				"kind": "thermometer",
+				"from": 0,
+				"to": 50,
+				"step": 10,
+				"values": [
+					40,
+					40
+				],
+				"names": [
+					"bath",
+					"cup"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a snow shelter in Frostpeak with thick walls and a small door. Which way is the heat trying to flow, and what slows it? Next: energy transfer."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does temperature measure?",
+			"answer": 0,
+			"hint": "Think of a thermometer.",
+			"choices": [
+				"how hot or cold something is",
+				"how heavy it is",
+				"how long it is"
+			],
+			"explain": "Temperature measures how hot or cold something is."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which way does heat flow?",
+			"answer": 0,
+			"hint": "A hot drink left on a table cools down. Where does its heat go?",
+			"choices": [
+				"from hot to cold",
+				"from cold to hot",
+				"it doesn't move"
+			],
+			"explain": "Heat always flows from hot to cold."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A metal spoon in hot soup gets hot by conduction.",
+			"answer": true,
+			"hint": "Heat moves through touching.",
+			"explain": "Yes: heat is conducted through the metal."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How does the Sun's warmth reach Earth?",
+			"answer": 0,
+			"hint": "Space has nothing to touch.",
+			"choices": [
+				"radiation",
+				"conduction",
+				"convection"
+			],
+			"explain": "The Sun's heat travels as radiation."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In which unit do we often measure temperature?",
+			"answer": 0,
+			"hint": "A thermometer shows a number and a small circle. What is the name of that scale?",
+			"choices": [
+				"°C",
+				"kg",
+				"cm",
+				"L"
+			],
+			"explain": "Degrees Celsius, written °C: water freezes at 0 °C."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Warm air rises above a radiator and cool air sinks. What is this?",
+			"answer": 0,
+			"hint": "Warm gases rise and move around.",
+			"choices": [
+				"convection",
+				"conduction",
+				"radiation"
+			],
+			"explain": "Moving warm air is convection."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A cold drink is left in a warm room. What happens?",
+			"answer": 0,
+			"hint": "Heat flows from hot to cold.",
+			"choices": [
+				"It warms up to room temperature.",
+				"It gets colder.",
+				"It stays the same forever."
+			],
+			"explain": "Heat flows from the room into the drink until they match."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which would keep ice from melting longest?",
+			"answer": 0,
+			"hint": "Which is the best insulator?",
+			"choices": [
+				"a box with foam walls",
+				"a thin metal tin",
+				"an open plate"
+			],
+			"explain": "Foam slows heat getting in."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Heat and temperature mean exactly the same thing.",
+			"answer": false,
+			"hint": "Think of the bath and the cup.",
+			"explain": "No: temperature is how hot; heat is energy moving."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do pans have handles made of wood or plastic?",
+			"answer": 0,
+			"hint": "You hold the handle.",
+			"choices": [
+				"They are insulators.",
+				"They conduct heat well.",
+				"They are heavy."
+			],
+			"explain": "Insulators keep the handle cool."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A bath and a cup of water are both at 40 °C. Which holds more heat energy?",
+			"answer": 0,
+			"hint": "Same temperature, but how much water?",
+			"choices": [
+				"the bath",
+				"the cup",
+				"they are the same"
+			],
+			"explain": "The bath has far more water, so more heat energy."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a flask keep soup hot?",
+			"answer": 0,
+			"hint": "How is heat kept in?",
+			"choices": [
+				"Its walls trap air or a vacuum that slows heat.",
+				"It makes new heat.",
+				"It is magnetic."
+			],
+			"explain": "The trapped air or vacuum slows heat escaping."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order from best insulator to best conductor.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Metals conduct best.",
+			"items": [
+				"wood",
+				"foam",
+				"iron"
+			],
+			"explain": "Foam insulates best, then wood; iron conducts best."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Putting a coat on a snowman would make it melt faster.",
+			"answer": false,
+			"hint": "A coat is an insulator.",
+			"explain": "No: the coat slows heat from the warm air reaching the snow, so it melts slower."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An engineer tests lunch boxes for keeping food cold. Which test is fair?",
+			"answer": 0,
+			"hint": "Change only one thing.",
+			"choices": [
+				"Same food, room and time; only the walls differ.",
+				"Different food in each box.",
+				"Test only one box."
+			],
+			"explain": "A fair test changes only the thing you are testing."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each example to how heat moves.",
+			"items": [
+				"a spoon in hot soup",
+				"warm air over a heater",
+				"the Sun warming your face"
+			],
+			"matches": [
+				"radiation",
+				"conduction",
+				"convection"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Touching is conduction; moving air or water is convection; heat across empty space is radiation.",
+			"explain": "The spoon: conduction. Warm air rising: convection. The Sun's warmth across space: radiation."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the materials: insulator or conductor?",
+			"items": [
+				"foam",
+				"copper",
+				"wool",
+				"iron",
+				"trapped air",
+				"aluminium"
+			],
+			"groups": [
+				"insulator",
+				"conductor"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Metals let heat through fast. Which ones are metals?",
+			"explain": "Foam, wool and trapped air slow heat: insulators. Copper, iron and aluminium are metals: conductors."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "How does the heat move?",
+			"items": [
+				"a spoon in hot soup",
+				"warm air rising from a heater",
+				"warmth from the Sun",
+				"a pan's handle getting hot"
+			],
+			"groups": [
+				"conduction",
+				"convection",
+				"radiation"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0
+			],
+			"hint": "Touching, moving liquid or gas, or travelling across space?",
+			"explain": "The spoon and the pan's handle heat by conduction, the rising air by convection, and the Sun's warmth by radiation."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: does heat flow into it or out of it?",
+			"groups": [
+				"heat flows in",
+				"heat flows out"
+			],
+			"items": [
+				"an ice lolly on a hot day",
+				"hot soup left on a table",
+				"a snowman in the sunshine",
+				"a hot bath cooling down",
+				"a cold drink in a warm room",
+				"a warm hand on a cold window"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Heat always flows from the hotter thing to the colder one.",
+			"explain": "Heat flows in to the ice lolly, the snowman and the cold drink: they are colder than what is around them. It flows out of the soup, the bath and the warm hand, into the colder air or window."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "100 g of water at 60 °C is mixed with 100 g of water at 20 °C. What temperature do they end at, in °C?",
+			"answer": "40",
+			"hint": "Heat flows from hot to cold until both match. With equal amounts, where do they meet?",
+			"explain": "The hot water gives heat to the cold water until they match. The amounts are equal, so they meet halfway: 60 + 20 = 80, and 80 ÷ 2 = 40 °C."
+		}
+	]
+}

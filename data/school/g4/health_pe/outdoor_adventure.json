@@ -1,0 +1,341 @@
+{
+	"id": "g4.health_pe.outdoor_adventure",
+	"lesson": [
+		{
+			"text": "Quick memory: which way is north on most maps? (Up.) Today: orienteering, finding markers with a map, and solving team challenges outdoors."
+		},
+		{
+			"text": "Orienteering is a race with a map: find the controls, orange and white markers, in order. On the map, the start is a purple triangle, each control a numbered circle, and the finish a double circle.",
+			"picture": {
+				"kind": "site_plan",
+				"rows": [
+					"..T.2..",
+					"..TT...",
+					"1..S.~~",
+					"....~~.",
+					".3..F.."
+				]
+			}
+		},
+		{
+			"text": "Set the map: turn it so north on the map points north in the world. Then things on your left on the map are on your left for real. Keep your thumb on the map where you are."
+		},
+		{
+			"text": "Orienteering maps use colours. Blue is water, and green is thick woods that are slow to cross. White is open woods and yellow is open land. Black shows rocks and paths, and brown shows hills."
+		},
+		{
+			"text": "A compass shows the directions: north, east, south and west, and between them north-east, south-east, south-west and north-west. Its red needle points north.",
+			"picture": {
+				"kind": "compass",
+				"points": 8,
+				"needle": true
+			}
+		},
+		{
+			"text": "Team challenges: listen to everyone's ideas, choose a plan, give everyone a job, and try it. If it fails, talk about what to change and try again. Then ask: what went well, and what would be even better?"
+		},
+		{
+			"text": "Stay safe outdoors: stay with your group, dress for the weather and tell someone where you are going. If you are lost, stop and stay where you are. 6 blasts on a whistle is a call for help."
+		},
+		{
+			"text": "Try it in the world: hide 5 numbered flags around your world, and draw a map with a start triangle and control circles. Challenge a friend to find them all in order. For real: try an orienteering course in a park."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "On an orienteering map, how is the start shown?",
+			"answer": 0,
+			"hint": "Look at the lesson's map.",
+			"choices": [
+				"a purple triangle",
+				"a double circle",
+				"a blue line",
+				"a numbered circle"
+			],
+			"explain": "The start is a purple triangle; controls are circles."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which mark shows the finish?",
+			"answer": 0,
+			"hint": "The finish is a circle inside a circle.",
+			"choices": [
+				"a double circle",
+				"a triangle",
+				"a green square",
+				"a numbered circle"
+			],
+			"explain": "The finish is a double circle.",
+			"picture": {
+				"kind": "site_plan",
+				"rows": [
+					"..T.2..",
+					"..TT...",
+					"1..S.~~",
+					"....~~.",
+					".3..F.."
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Blue on an orienteering map means water.",
+			"answer": true,
+			"hint": "What colour is water on most maps?",
+			"explain": "True: blue shows water, like lakes, rivers and ponds."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Start at the triangle. Walk 3 squares west (left on the map). Which control do you reach?",
+			"answer": 0,
+			"hint": "West is to the left. Count the squares one at a time.",
+			"choices": [
+				"control 1",
+				"control 2",
+				"control 3"
+			],
+			"explain": "3 squares west from the triangle is control 1.",
+			"picture": {
+				"kind": "site_plan",
+				"rows": [
+					"..T.2..",
+					"..TT...",
+					"1..S.~~",
+					"....~~.",
+					".3..F.."
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each map colour to its meaning.",
+			"items": [
+				"blue",
+				"green",
+				"yellow",
+				"brown"
+			],
+			"matches": [
+				"thick, slow woods",
+				"open land",
+				"hills",
+				"water"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the colours of the real things.",
+			"explain": "Blue: water. Green: thick woods. Yellow: open land. Brown: hills and the shape of the land."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a team challenge in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need ideas before you can choose a plan.",
+			"items": [
+				"choose a plan",
+				"try it",
+				"listen to everyone's ideas",
+				"give everyone a job",
+				"talk about what to change"
+			],
+			"explain": "Listen to ideas, choose a plan, give out jobs, try it, then talk about what to change."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does it mean to set the map?",
+			"answer": 0,
+			"hint": "Which way should the map's north point?",
+			"choices": [
+				"turn it so north on it points north",
+				"fold it very small",
+				"draw on it",
+				"put it on the ground"
+			],
+			"explain": "Setting the map means turning it so its north points north, and the map matches the ground."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which way is control 2 from control 1?",
+			"answer": 0,
+			"hint": "Is control 2 up (north) or down, and right (east) or left (west)?",
+			"choices": [
+				"north-east",
+				"north-west",
+				"south-east",
+				"east"
+			],
+			"explain": "Control 2 is 2 squares up and 2 squares right of control 1: north-east.",
+			"picture": {
+				"kind": "site_plan",
+				"rows": [
+					"...2...",
+					"..T....",
+					".1..S..",
+					"...~~..",
+					"3...T.."
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If you get lost, you should keep walking until you find the way.",
+			"answer": false,
+			"hint": "What does the lesson say to do?",
+			"explain": "False: stop and stay where you are, so people can find you, and blow 6 blasts on a whistle."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Each square is 50 m. Walking along the rows and columns, how many metres is it from the start to control 3?",
+			"answer": "200",
+			"hint": "Count the squares across and up or down, add them, then multiply by 50.",
+			"explain": "2 squares across and 2 down: 2 + 2 = 4 squares. 4 × 50 = 200 m.",
+			"picture": {
+				"kind": "site_plan",
+				"rows": [
+					"..T.2..",
+					"..TT...",
+					"1..S.~~",
+					"....~~.",
+					".3..F.."
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the whistle signal for help?",
+			"answer": 0,
+			"hint": "The lesson gave the number of blasts.",
+			"choices": [
+				"6 blasts, a pause, then again",
+				"1 long blast",
+				"3 quick blasts, once",
+				"a happy tune"
+			],
+			"explain": "6 blasts, then a pause of a minute, then 6 again. Someone who hears it answers with 3 blasts."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your team's first plan to cross a pretend river fails. What should you do?",
+			"answer": 0,
+			"hint": "Think of the last step of a team challenge.",
+			"choices": [
+				"talk about what went wrong and try a new plan",
+				"blame one person",
+				"give up",
+				"all shout at once"
+			],
+			"explain": "Talk about what went wrong, change the plan and try again: that is how teams solve problems."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "The Countryside Code: do it, or do not?",
+			"groups": [
+				"do",
+				"do not"
+			],
+			"items": [
+				"leave gates as you find them",
+				"drop litter",
+				"stick to the paths",
+				"feed the farm animals",
+				"take your litter home",
+				"pick the wild flowers"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Would it harm the countryside, the animals or the farm?",
+			"explain": "Do: leave gates as you find them, stick to paths, take litter home. Do not: drop litter, feed animals, pick wild flowers."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The red end of a compass needle points north.",
+			"answer": true,
+			"hint": "Look at the lesson's card about the compass.",
+			"explain": "True: the red end points to magnetic north."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do orienteers keep a thumb on the map?",
+			"answer": 0,
+			"hint": "Think of finding your place again quickly.",
+			"choices": [
+				"to remember where they are on it",
+				"to keep it warm",
+				"to hide the controls",
+				"to count the squares"
+			],
+			"explain": "Your thumb marks where you are, so a quick look shows you your place."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each compass direction to its opposite.",
+			"items": [
+				"north",
+				"east",
+				"north-east",
+				"south-west"
+			],
+			"matches": [
+				"north-east",
+				"south",
+				"south-west",
+				"west"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "The opposite direction is half a turn round the compass.",
+			"explain": "North is opposite south, and east is opposite west. North-east is opposite south-west, and south-west is opposite north-east."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.orienteer",
+			"level": 1
+		},
+		{
+			"gen": "g4w.orienteer",
+			"level": 2
+		},
+		{
+			"gen": "g4w.orienteer",
+			"level": 3
+		}
+	]
+}

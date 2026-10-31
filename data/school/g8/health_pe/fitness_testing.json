@@ -1,0 +1,495 @@
+{
+	"id": "g8.health_pe.fitness_testing",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you planned a week of activity. Can you name two parts of fitness? (Stamina, strength, speed, flexibility, agility, balance or power.) Today: testing each part fairly and understanding the results."
+		},
+		{
+			"text": "Each fitness test measures one part of fitness. The multistage fitness test, shuttle runs to faster and faster bleeps, tests stamina. The sit-and-reach tests flexibility, and a hand-grip test tests strength.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"test",
+						"part of fitness"
+					],
+					[
+						"multistage fitness test",
+						"stamina"
+					],
+					[
+						"sit-and-reach",
+						"flexibility"
+					],
+					[
+						"hand-grip",
+						"strength"
+					],
+					[
+						"30 m sprint",
+						"speed"
+					],
+					[
+						"Illinois agility run",
+						"agility"
+					],
+					[
+						"stork stand",
+						"balance"
+					]
+				]
+			}
+		},
+		{
+			"text": "A valid test measures what it says: a sprint tests speed, not flexibility. A reliable test gives the same result when repeated in the same way. Warm up first, and stop if anything hurts."
+		},
+		{
+			"text": "Keep it fair: the same place, time, warm-up, equipment and rules each time. Take the best of three tries, or the mean. Record honestly. For timed tests like the 30 m sprint or the Illinois agility run, lower is better."
+		},
+		{
+			"text": "Your results make your own profile: strong in some parts, still growing in others. The spider chart shows each part's score along its own spoke. Mo's weakest part is speed.",
+			"picture": {
+				"kind": "fitness_profile",
+				"parts": [
+					[
+						"stamina",
+						3
+					],
+					[
+						"strength",
+						4
+					],
+					[
+						"speed",
+						2
+					],
+					[
+						"flexibility",
+						5
+					],
+					[
+						"agility",
+						3
+					],
+					[
+						"balance",
+						4
+					]
+				],
+				"top": 5,
+				"title": "Mo's profile"
+			}
+		},
+		{
+			"text": "A rating table compares your result with others your age. On this club's table, 26 cm on the sit-and-reach is good. Ratings are a guide: what matters most is your own progress.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"sit-and-reach (cm)",
+						"the club's rating"
+					],
+					[
+						"over 30",
+						"excellent"
+					],
+					[
+						"25 to 30",
+						"good"
+					],
+					[
+						"20 to 24",
+						"average"
+					],
+					[
+						"under 20",
+						"keep working"
+					]
+				]
+			}
+		},
+		{
+			"text": "Worked example: the sit-and-reach went from 20 cm to 25 cm. That is 5 cm more; 5 ÷ 20 = 0.25, so a 25% improvement. Pick your weakest part, train it two or three times a week, and test again after six weeks.",
+			"picture": {
+				"kind": "fitness_profile",
+				"parts": [
+					[
+						"stamina",
+						3
+					],
+					[
+						"strength",
+						4
+					],
+					[
+						"speed",
+						2
+					],
+					[
+						"flexibility",
+						5
+					],
+					[
+						"agility",
+						3
+					],
+					[
+						"balance",
+						4
+					]
+				],
+				"top": 5,
+				"after": [
+					4,
+					4,
+					3,
+					5,
+					4,
+					4
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: with a grown-up, time a 30 m sprint with a stopwatch, best of three. In LIFE, the Goal Board plans your training, and the Tool Book shows the stopwatch and the tape measure. Next: active for life."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part of fitness does the multistage fitness test measure?",
+			"choices": [
+				"stamina",
+				"flexibility",
+				"balance",
+				"reaction time"
+			],
+			"answer": 0,
+			"hint": "Picture the test: shuttle runs that get faster and faster for a long time.",
+			"explain": "The multistage fitness test keeps you running for as long as you can, so it measures stamina."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In the 30 m sprint, a lower time is a better result.",
+			"answer": true,
+			"hint": "Is it better to be quicker or slower?",
+			"explain": "True: in a timed test, a smaller number of seconds means you were faster."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each test to the part of fitness it measures.",
+			"items": [
+				"sit-and-reach",
+				"hand-grip",
+				"stork stand",
+				"Illinois agility run"
+			],
+			"matches": [
+				"strength",
+				"flexibility",
+				"agility",
+				"balance"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Think what each test makes your body do.",
+			"explain": "Sit-and-reach: flexibility. Hand-grip: strength. Stork stand: balance. Illinois agility run: agility."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Three tries at the sit-and-reach: 22 cm, 25 cm and 24 cm. What is the best result, in cm?",
+			"answer": "25",
+			"hint": "For a distance, the biggest number is the best.",
+			"explain": "25 cm is the furthest reach, so it is the best of three."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part is Mo's weakest?",
+			"picture": {
+				"kind": "fitness_profile",
+				"parts": [
+					[
+						"stamina",
+						3
+					],
+					[
+						"strength",
+						4
+					],
+					[
+						"speed",
+						2
+					],
+					[
+						"flexibility",
+						5
+					],
+					[
+						"agility",
+						3
+					],
+					[
+						"balance",
+						4
+					]
+				],
+				"top": 5,
+				"title": "Mo's profile"
+			},
+			"choices": [
+				"speed",
+				"flexibility",
+				"strength",
+				"balance"
+			],
+			"answer": 0,
+			"hint": "Find the spoke where the blue shape comes closest to the middle.",
+			"explain": "The speed spoke has the lowest score, 2, so speed is Mo's weakest part."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A test is reliable if it gives about the same result when it is repeated in the same way.",
+			"answer": true,
+			"hint": "Think about the word 'rely': can you trust it to be the same?",
+			"explain": "True: reliable means repeatable. Valid means it measures what it is meant to."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Three 30 m sprints: 5.2 s, 5.0 s and 5.4 s. What is the mean, in seconds?",
+			"answer": "5.2",
+			"hint": "Add the three times, then divide by 3.",
+			"explain": "5.2 + 5.0 + 5.4 = 15.6; 15.6 ÷ 3 = 5.2 seconds."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Using the club's table, what is the rating for 22 cm on the sit-and-reach?",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"sit-and-reach (cm)",
+						"the club's rating"
+					],
+					[
+						"over 30",
+						"excellent"
+					],
+					[
+						"25 to 30",
+						"good"
+					],
+					[
+						"20 to 24",
+						"average"
+					],
+					[
+						"under 20",
+						"keep working"
+					]
+				]
+			},
+			"choices": [
+				"average",
+				"excellent",
+				"good",
+				"keep working"
+			],
+			"answer": 0,
+			"hint": "Find the row whose range includes 22.",
+			"explain": "22 is in the row 20 to 24, so it is average."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Fair test or not fair?",
+			"groups": [
+				"fair",
+				"not fair"
+			],
+			"items": [
+				"a new ruler each time, of a different kind",
+				"the best of three tries",
+				"the same warm-up each time",
+				"the same time of day",
+				"testing straight after a big lunch one week only"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				0,
+				1
+			],
+			"hint": "A fair test keeps everything the same except the person's fitness.",
+			"explain": "Fair: the same warm-up, the best of three, the same time of day. Not fair: changing equipment or conditions."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which test is valid for measuring power in the legs?",
+			"choices": [
+				"the vertical jump",
+				"the stork stand",
+				"the sit-and-reach",
+				"the ruler drop test"
+			],
+			"answer": 0,
+			"hint": "Power is strength used fast: which test explodes upwards?",
+			"explain": "The vertical jump uses strength quickly, so it is a valid test of leg power."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Mo's stamina score went from 3 to 4 on the retest. On a scale out of 5, by how many points did it rise?",
+			"picture": {
+				"kind": "fitness_profile",
+				"parts": [
+					[
+						"stamina",
+						3
+					],
+					[
+						"strength",
+						4
+					],
+					[
+						"speed",
+						2
+					],
+					[
+						"flexibility",
+						5
+					],
+					[
+						"agility",
+						3
+					],
+					[
+						"balance",
+						4
+					]
+				],
+				"top": 5,
+				"after": [
+					4,
+					4,
+					3,
+					5,
+					4,
+					4
+				]
+			},
+			"answer": "1",
+			"hint": "Take the first score from the retest score.",
+			"explain": "4 − 3 = 1 point."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Illinois agility run went from 20.0 s to 18.0 s. By what percentage did the time improve?",
+			"answer": "10",
+			"hint": "For a timed test, find how much faster, divide by the first time, then times 100.",
+			"explain": "20.0 − 18.0 = 2.0 seconds faster; 2.0 ÷ 20.0 = 0.1; 0.1 × 100 = a 10% improvement."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara is a goalkeeper. Which two parts of fitness should her tests focus on?",
+			"choices": [
+				"reaction time and agility",
+				"flexibility and stamina only",
+				"strength and balance only",
+				"stamina and speed over 5 km"
+			],
+			"answer": 0,
+			"hint": "Think about what a keeper does: wait, then react and move fast to the side.",
+			"explain": "A keeper must react to a shot and change direction quickly, so reaction time and agility matter most."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Comparing your score with your own last test is fairer than comparing it with a friend's.",
+			"answer": true,
+			"hint": "Who started where you started?",
+			"explain": "True: friends start from different places and grow at different speeds; your own progress is the fair measure."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A hand-grip test went from 25 kg to 30 kg. By what percentage did it improve?",
+			"answer": "20",
+			"hint": "Find the change, divide by the first result, then times 100.",
+			"explain": "30 − 25 = 5 kg more; 5 ÷ 25 = 0.2; 0.2 × 100 = a 20% improvement."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of using fitness tests in order.",
+			"items": [
+				"warm up",
+				"record the results honestly",
+				"test fairly, best of three",
+				"train your weakest part",
+				"test again after six weeks"
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				3,
+				4
+			],
+			"hint": "You need a result before you can plan, and a plan before a retest.",
+			"explain": "Warm up, test fairly, record honestly, train the weakest part, then retest to see the progress."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.fitness_test",
+			"level": 1
+		},
+		{
+			"gen": "g8l.fitness_test",
+			"level": 2
+		},
+		{
+			"gen": "g8l.fitness_test",
+			"level": 3
+		},
+		{
+			"gen": "g8l.test_result",
+			"level": 1
+		},
+		{
+			"gen": "g8l.test_result",
+			"level": 2
+		},
+		{
+			"gen": "g8l.test_result",
+			"level": 3
+		},
+		{
+			"gen": "g8l.profile_read",
+			"level": 1
+		},
+		{
+			"gen": "g8l.profile_read",
+			"level": 2
+		},
+		{
+			"gen": "g8l.profile_read",
+			"level": 3
+		}
+	]
+}

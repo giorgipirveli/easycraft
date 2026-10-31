@@ -1,0 +1,471 @@
+{
+	"id": "g6.music.keyboard_skills",
+	"lesson": [
+		{
+			"text": "Quick memory: which notes make the F major chord? (F, A and C.) Today: playing a melody with one hand and its chords with the other."
+		},
+		{
+			"text": "Fingers have numbers: the thumb is 1 and the little finger is 5, on both hands. Music often prints small finger numbers over the notes.",
+			"picture": {
+				"kind": "hand_keys",
+				"hand": "right",
+				"fingers": [
+					[
+						"C4",
+						1
+					],
+					[
+						"D4",
+						2
+					],
+					[
+						"E4",
+						3
+					],
+					[
+						"F4",
+						4
+					],
+					[
+						"G4",
+						5
+					]
+				]
+			}
+		},
+		{
+			"text": "C position: put your right thumb on middle C and one finger on each white key: C, D, E, F, G for fingers 1 to 5. Your left little finger (5) goes on the C below, and your left thumb (1) on G.",
+			"picture": {
+				"kind": "hand_keys",
+				"hand": "left",
+				"fingers": [
+					[
+						"C3",
+						5
+					],
+					[
+						"D3",
+						4
+					],
+					[
+						"E3",
+						3
+					],
+					[
+						"F3",
+						2
+					],
+					[
+						"G3",
+						1
+					]
+				],
+				"from": "C3"
+			}
+		},
+		{
+			"text": "The right hand usually plays the melody and the left hand the chords. With the left hand, the C major chord is C, E and G, played with fingers 5, 3 and 1.",
+			"picture": {
+				"kind": "hand_keys",
+				"hand": "left",
+				"fingers": [
+					[
+						"C3",
+						5
+					],
+					[
+						"E3",
+						3
+					],
+					[
+						"G3",
+						1
+					]
+				],
+				"from": "C3"
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3+E3+G3:3"
+				]
+			}
+		},
+		{
+			"text": "Choose the chord that fits: the melody's notes should belong to it. In C major, E fits the C chord (C, E, G) and A fits F (F, A, C). B or D fit G (G, B, D)."
+		},
+		{
+			"text": "Worked example: the melody E, D, C over the C chord. E and C are in the C chord; D is a passing note, a quick step between them.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"E4",
+					"D4",
+					"C4"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3+E3+G3+E4",
+					"D4",
+					"C3+E3+G3+C4:2"
+				]
+			}
+		},
+		{
+			"text": "Keep a steady beat, look ahead to the next chord, and practise hands separately, then together, slowly at first."
+		},
+		{
+			"text": "Try it in the world: on any keyboard, play Frère Jacques (C, D, E, C) with the right hand while the left holds the C chord. Next: instruments of the world."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Your right thumb is on C. Which finger plays the marked key?",
+			"answer": "3",
+			"hint": "Count up from the thumb, one finger a key.",
+			"explain": "Thumb on C (1), D is 2, E is 3.",
+			"picture": {
+				"kind": "hand_keys",
+				"hand": "right",
+				"fingers": [
+					[
+						"C4",
+						1
+					]
+				],
+				"mark": "E4"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "On both hands, the thumb is finger 1.",
+			"answer": true,
+			"hint": "Look at the hand's numbers.",
+			"explain": "True: the thumbs are 1 and the little fingers 5."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which finger is number 5?",
+			"answer": 0,
+			"hint": "Count from the thumb.",
+			"choices": [
+				"the little finger",
+				"the thumb",
+				"the middle finger",
+				"the pointing finger"
+			],
+			"explain": "1 is the thumb, so 5 is the little finger."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this one note or a chord?",
+			"answer": 0,
+			"hint": "Can you hear more than one pitch at once?",
+			"choices": [
+				"a chord",
+				"one note"
+			],
+			"explain": "Three notes sounded together, C, E and G: a chord.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3+E3+G3:3"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this chord major or minor?",
+			"answer": 0,
+			"hint": "Bright or darker? Listen to the middle note.",
+			"choices": [
+				"major",
+				"minor"
+			],
+			"explain": "It is C, E and G: 4 semitones from C to E, so it is major.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3+E3+G3:3"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which chord fits under the melody note A, in C major?",
+			"answer": 0,
+			"hint": "Which chord has A in it? C is C, E, G; F is F, A, C; G is G, B, D.",
+			"choices": [
+				"F",
+				"C",
+				"G"
+			],
+			"explain": "A is in the F chord (F, A, C)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which chord fits under the melody note B, in C major?",
+			"answer": 0,
+			"hint": "Which chord has B in it?",
+			"choices": [
+				"G",
+				"C",
+				"F"
+			],
+			"explain": "B is in the G chord (G, B, D)."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Your left little finger is on C, in C position. Which finger plays the marked G?",
+			"answer": "1",
+			"hint": "Your little finger is 5 on C. Count down one finger for each white key up.",
+			"explain": "C is 5, D 4, E 3, F 2 and G 1: the thumb.",
+			"picture": {
+				"kind": "hand_keys",
+				"hand": "left",
+				"fingers": [
+					[
+						"C3",
+						5
+					]
+				],
+				"from": "C3",
+				"mark": "G3"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: a melody note with a chord under it. Which chord is it?",
+			"answer": 0,
+			"hint": "Find the lowest three notes.",
+			"choices": [
+				"C",
+				"F",
+				"G"
+			],
+			"explain": "C, E and G are under the melody's E: the C chord.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3+E3+G3+E4:3"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which chord is this?",
+			"answer": 0,
+			"hint": "Its lowest note is its name.",
+			"choices": [
+				"F",
+				"C",
+				"G"
+			],
+			"explain": "F, A and C: the F chord.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"F3+A3+C4:3"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The left hand usually plays the melody.",
+			"answer": false,
+			"hint": "Which hand plays the tune?",
+			"explain": "False: the right hand usually plays the melody, the left the chords."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which chord fits under this bar of melody?",
+			"answer": 0,
+			"hint": "Every note of the bar should be in the chord.",
+			"choices": [
+				"the G chord",
+				"the C chord",
+				"the F chord"
+			],
+			"explain": "G, B and D are all in the G chord (G, B, D), so it fits every note. The C chord shares only G, and the F chord shares none of them.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"G4",
+					"B4",
+					"D5"
+				],
+				"names": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which chord fits under this bar of melody?",
+			"answer": 0,
+			"hint": "Every note of the bar should be in the chord.",
+			"choices": [
+				"the F chord",
+				"the C chord",
+				"the G chord"
+			],
+			"explain": "F, A and C are all in the F chord (F, A, C). The C chord shares only C, and the G chord shares none of them.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"F4",
+					"A4",
+					"C5"
+				],
+				"names": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen: three chords. In which order did they come?",
+			"answer": 0,
+			"hint": "Name each chord by its lowest note.",
+			"choices": [
+				"F, C, G",
+				"C, F, G",
+				"G, F, C",
+				"C, G, F"
+			],
+			"explain": "F (F, A, C), then C (C, E, G), then G (G, B, D).",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"F3+A3+C4:2",
+					"C3+E3+G3:2",
+					"G3+B3+D4:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In C position, the right hand covers C to G. How many white keys is that?",
+			"answer": "5",
+			"hint": "One finger on each key.",
+			"explain": "C, D, E, F, G: 5 keys, one for each finger."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these in the best order for learning a new piece.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Start easy, then add, then speed up.",
+			"items": [
+				"hands together, slowly",
+				"hands separately, slowly",
+				"hands together, at full speed"
+			],
+			"explain": "Hands separately first, then together slowly, then at full speed."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which chord do these left-hand fingers play?",
+			"answer": 0,
+			"hint": "Read the keys under the numbers.",
+			"choices": [
+				"C major (C, E, G)",
+				"F major (F, A, C)",
+				"G major (G, B, D)"
+			],
+			"explain": "Fingers 5, 3 and 1 on C, E and G: the C major chord.",
+			"picture": {
+				"kind": "hand_keys",
+				"hand": "left",
+				"fingers": [
+					[
+						"C3",
+						5
+					],
+					[
+						"E3",
+						3
+					],
+					[
+						"G3",
+						1
+					]
+				],
+				"from": "C3"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen: the melody ends on C over the C chord. In right-hand C position, which finger plays that last C?",
+			"answer": "1",
+			"hint": "Where is your right thumb in C position?",
+			"explain": "The thumb (1) sits on middle C.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"E4",
+					"D4",
+					"C3+E3+G3+C4:2"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each bar of melody to the chord that fits under it.",
+			"items": [
+				"E, G, C",
+				"A, F, C",
+				"B, D, G"
+			],
+			"matches": [
+				"the G chord",
+				"the C chord",
+				"the F chord"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The C chord is C, E, G; the F chord F, A, C; the G chord G, B, D.",
+			"explain": "E, G and C are all in the C chord. A, F and C are all in the F chord. B, D and G are all in the G chord. When every melody note is in the chord, it fits."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.chord_fit",
+			"level": 1
+		},
+		{
+			"gen": "g6c.chord_fit",
+			"level": 2
+		},
+		{
+			"gen": "g6c.chord_fit",
+			"level": 3
+		}
+	]
+}

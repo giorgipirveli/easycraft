@@ -1,0 +1,549 @@
+{
+	"id": "g8.science.circuits_voltage",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you built series and parallel circuits. In which do the lamps stay bright when you add more? (Parallel: each lamp has its own loop to the cell.) Today: measuring what flows."
+		},
+		{
+			"text": "Current is the flow of charge round a circuit, measured in amps (A). An ammeter measures it. It goes in the circuit, in series, so that the current flows through it.",
+			"picture": {
+				"kind": "meter_circuit",
+				"layout": "series",
+				"volts": 6,
+				"parts": [
+					[
+						"lamp",
+						12
+					]
+				],
+				"meters": [
+					[
+						"A",
+						"main",
+						0.5
+					]
+				]
+			}
+		},
+		{
+			"text": "Voltage is the push that drives the current, measured in volts (V). A voltmeter measures it across a part: it is joined in parallel, to both ends of the part.",
+			"picture": {
+				"kind": "meter_circuit",
+				"layout": "series",
+				"volts": 6,
+				"parts": [
+					[
+						"lamp",
+						12
+					]
+				],
+				"meters": [
+					[
+						"V",
+						"0",
+						6
+					]
+				]
+			}
+		},
+		{
+			"text": "A series circuit has one loop. The current is the same everywhere in it. The cell's voltage is shared: the voltages across the parts add up to the cell's, so two equal lamps on 6 V get 3 V each.",
+			"picture": {
+				"kind": "meter_circuit",
+				"layout": "series",
+				"volts": 6,
+				"parts": [
+					[
+						"lamp",
+						6
+					],
+					[
+						"lamp",
+						6
+					]
+				],
+				"meters": [
+					[
+						"A",
+						"main",
+						0.5
+					],
+					[
+						"V",
+						"0",
+						3
+					],
+					[
+						"V",
+						"1",
+						3
+					]
+				]
+			}
+		},
+		{
+			"text": "In a parallel circuit each branch joins the cell directly, so each gets the cell's full voltage. The branch currents add up to the current from the cell: 0.2 A + 0.3 A = 0.5 A.",
+			"picture": {
+				"kind": "meter_circuit",
+				"layout": "parallel",
+				"volts": 6,
+				"parts": [
+					[
+						"lamp",
+						30
+					],
+					[
+						"lamp",
+						20
+					]
+				],
+				"meters": [
+					[
+						"A",
+						"0",
+						0.2
+					],
+					[
+						"A",
+						"1",
+						0.3
+					],
+					[
+						"A",
+						"main",
+						0.5
+					]
+				]
+			}
+		},
+		{
+			"text": "Resistance is how much a part resists the current, measured in ohms. Resistance = voltage ÷ current: if 6 V drives 0.5 A through a lamp, its resistance is 6 ÷ 0.5 = 12 ohms. Longer, thinner wires have more."
+		},
+		{
+			"text": "So voltage = current × resistance. For a fixed resistor, double the voltage and the current doubles: a straight line through zero on a graph. A lamp is different: its resistance rises as its filament gets hot.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"0 V",
+						0
+					],
+					[
+						"2 V",
+						200
+					],
+					[
+						"4 V",
+						400
+					],
+					[
+						"6 V",
+						600
+					]
+				],
+				"step": 200,
+				"top": 800,
+				"name": "current (mA) in a 10 ohm resistor"
+			}
+		},
+		{
+			"text": "Try it in the world: in Electricity Safety in the LIFE tab, find the fuse box and its RCD. A fuse melts if too much current flows. An RCD switches off fast if current leaks, say through a person. Next: electricity and magnetism."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does an ammeter go?",
+			"choices": [
+				"in the loop, in series",
+				"across a part, in parallel",
+				"outside the circuit"
+			],
+			"answer": 0,
+			"hint": "The current has to flow through it to be measured.",
+			"explain": "An ammeter goes in series, in the loop itself, so the current flows through it."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each quantity to its unit.",
+			"items": [
+				"current",
+				"voltage",
+				"resistance",
+				"energy"
+			],
+			"matches": [
+				"ohms",
+				"joules",
+				"amps",
+				"volts"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "An ammeter measures current and a voltmeter measures voltage: the units hide in their names.",
+			"explain": "Current is in amps, voltage in volts, resistance in ohms and energy in joules."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a series circuit, the current is the same everywhere.",
+			"answer": true,
+			"hint": "There is only one path: where else could the charge go?",
+			"explain": "True: in one loop the same current flows through every part and every ammeter."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The cell gives 9 V. One lamp has 4 V across it. What does the voltmeter across the other lamp read, in volts?",
+			"picture": {
+				"kind": "meter_circuit",
+				"layout": "series",
+				"volts": 9,
+				"parts": [
+					[
+						"lamp",
+						4
+					],
+					[
+						"lamp",
+						5
+					]
+				],
+				"meters": [
+					[
+						"V",
+						"0",
+						4
+					],
+					[
+						"V",
+						"1",
+						"?"
+					]
+				]
+			},
+			"answer": "5",
+			"hint": "In series the parts share the cell's voltage.",
+			"explain": "9 − 4 = 5 V: the two voltages add up to the cell's 9 V."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Two branches carry 0.3 A and 0.4 A. What does the ammeter by the cell read, in amps?",
+			"picture": {
+				"kind": "meter_circuit",
+				"layout": "parallel",
+				"volts": 6,
+				"parts": [
+					[
+						"lamp",
+						20
+					],
+					[
+						"lamp",
+						15
+					]
+				],
+				"meters": [
+					[
+						"A",
+						"0",
+						0.3
+					],
+					[
+						"A",
+						"1",
+						0.4
+					],
+					[
+						"A",
+						"main",
+						"?"
+					]
+				]
+			},
+			"answer": "0.7",
+			"hint": "In parallel the branch currents add up.",
+			"explain": "0.3 + 0.4 = 0.7 A."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 12 V cell drives 0.4 A through a lamp. What is the lamp's resistance, in ohms?",
+			"picture": {
+				"kind": "meter_circuit",
+				"layout": "series",
+				"volts": 12,
+				"parts": [
+					[
+						"lamp"
+					]
+				],
+				"meters": [
+					[
+						"A",
+						"main",
+						0.4
+					]
+				]
+			},
+			"answer": "30",
+			"hint": "Resistance = voltage ÷ current.",
+			"explain": "12 ÷ 0.4 = 30 ohms."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 10 ohm resistor has 3 V across it. What current flows through it, in amps?",
+			"picture": {
+				"kind": "meter_circuit",
+				"layout": "series",
+				"volts": 3,
+				"parts": [
+					[
+						"resistor",
+						10
+					]
+				],
+				"meters": [
+					[
+						"A",
+						"main",
+						"?"
+					]
+				],
+				"names": true
+			},
+			"answer": "0.3",
+			"hint": "Current = voltage ÷ resistance.",
+			"explain": "3 ÷ 10 = 0.3 A."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the facts: series or parallel?",
+			"groups": [
+				"series",
+				"parallel"
+			],
+			"items": [
+				"one loop for all the parts",
+				"the same current everywhere",
+				"one lamp breaks, others stay on",
+				"voltages add up to the cell's",
+				"branch currents add up",
+				"each branch gets the full voltage"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Is there one path, or several branches?",
+			"explain": "Series: one loop, the same current, shared voltages. Parallel: the full voltage in each branch, currents that add up, and branches that work alone."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are the lights in a home wired in parallel?",
+			"choices": [
+				"each gets full voltage and works alone",
+				"it uses less wire",
+				"the current is the same in all",
+				"they glow more dimly"
+			],
+			"answer": 0,
+			"hint": "Think about what happens when one light is switched off.",
+			"explain": "In parallel each light gets the full voltage and has its own branch, so one can be off while the others stay on."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order these by resistance, least first.",
+			"items": [
+				"a 100 ohm resistor",
+				"a long, thin copper wire",
+				"a 10,000 ohm resistor",
+				"a short, thick copper wire"
+			],
+			"answer": [
+				3,
+				1,
+				0,
+				2
+			],
+			"hint": "Longer, thinner wires resist more; then compare the numbers.",
+			"explain": "Short thick copper has the least; long thin copper a little more; then 100 ohms; then 10,000 ohms."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Two equal lamps in series with a 6 V cell each have 6 V across them.",
+			"answer": false,
+			"hint": "In series the cell's voltage is shared.",
+			"explain": "False: they share it, 3 V each. In parallel each would have the full 6 V."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 4 ohm and an 8 ohm resistor are in series with a 6 V cell. What does the ammeter read, in amps?",
+			"picture": {
+				"kind": "meter_circuit",
+				"layout": "series",
+				"volts": 6,
+				"parts": [
+					[
+						"resistor",
+						4
+					],
+					[
+						"resistor",
+						8
+					]
+				],
+				"meters": [
+					[
+						"A",
+						"main",
+						"?"
+					]
+				],
+				"names": true
+			},
+			"answer": "0.5",
+			"hint": "Add the resistances first, then divide the voltage by the total.",
+			"explain": "4 + 8 = 12 ohms in all; 6 ÷ 12 = 0.5 A. The same current flows through both resistors."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 4 ohm and an 8 ohm resistor are in series with a 6 V cell. What is the voltage across the 8 ohm resistor?",
+			"picture": {
+				"kind": "meter_circuit",
+				"layout": "series",
+				"volts": 6,
+				"parts": [
+					[
+						"resistor",
+						4
+					],
+					[
+						"resistor",
+						8
+					]
+				],
+				"meters": [
+					[
+						"V",
+						"1",
+						"?"
+					]
+				],
+				"names": true
+			},
+			"answer": "4",
+			"hint": "Find the current first, then voltage = current × resistance.",
+			"explain": "The current is 6 ÷ 12 = 0.5 A, so 0.5 × 8 = 4 V. The 4 ohm resistor gets 2 V: 2 + 4 = 6 V, the cell's voltage."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Lamps of 12 and 6 ohms are in parallel with a 6 V cell. What does the ammeter by the cell read, in amps?",
+			"picture": {
+				"kind": "meter_circuit",
+				"layout": "parallel",
+				"volts": 6,
+				"parts": [
+					[
+						"lamp",
+						12
+					],
+					[
+						"lamp",
+						6
+					]
+				],
+				"meters": [
+					[
+						"A",
+						"main",
+						"?"
+					]
+				],
+				"names": true
+			},
+			"answer": "1.5",
+			"hint": "Each branch has the full 6 V: find each current, then add.",
+			"explain": "6 ÷ 12 = 0.5 A and 6 ÷ 6 = 1 A; 0.5 + 1 = 1.5 A from the cell."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A lamp's resistance rises as it heats up. What does its graph of current against voltage look like?",
+			"choices": [
+				"a line that bends, getting flatter",
+				"a straight line through zero",
+				"a flat line",
+				"a line that gets steeper"
+			],
+			"answer": 0,
+			"hint": "More resistance means less extra current for each extra volt.",
+			"explain": "As the filament heats up, each extra volt adds less current, so the line bends over and gets flatter."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "An RCD switches the power off if current leaks, for example through a person.",
+			"answer": true,
+			"hint": "Think about what an RCD safety switch is for.",
+			"explain": "True: it compares the current going out with the current coming back. If some leaks away, it switches off in a split second."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8k.ohms_law",
+			"level": 1
+		},
+		{
+			"gen": "g8k.ohms_law",
+			"level": 2
+		},
+		{
+			"gen": "g8k.ohms_law",
+			"level": 3
+		},
+		{
+			"gen": "g8k.series_volts",
+			"level": 1
+		},
+		{
+			"gen": "g8k.series_volts",
+			"level": 2
+		},
+		{
+			"gen": "g8k.series_volts",
+			"level": 3
+		},
+		{
+			"gen": "g8k.parallel_amps",
+			"level": 1
+		},
+		{
+			"gen": "g8k.parallel_amps",
+			"level": 2
+		},
+		{
+			"gen": "g8k.parallel_amps",
+			"level": 3
+		}
+	]
+}

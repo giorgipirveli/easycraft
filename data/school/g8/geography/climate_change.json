@@ -1,0 +1,340 @@
+{
+	"id": "g8.geography.climate_change",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you read climate graphs. How is weather different from climate? (Weather is day to day; climate is the pattern over 30 years or more.) Today: climate change's evidence, causes and effects, and what people do."
+		},
+		{
+			"text": "Sunlight passes through the air and warms the ground. The warm Earth gives off heat. Gases such as carbon dioxide and methane trap some of it, like a blanket: the greenhouse effect. Without it, Earth would average about −18 °C, frozen.",
+			"picture": {
+				"kind": "greenhouse",
+				"labels": true
+			}
+		},
+		{
+			"text": "Since about 1850, people have burned coal, oil and gas, cut down forests and farmed more animals, adding more of these gases. The blanket thickens and keeps in more heat: the enhanced greenhouse effect.",
+			"picture": {
+				"kind": "greenhouse",
+				"labels": true,
+				"more": true,
+				"mark": "greenhouse gases"
+			}
+		},
+		{
+			"text": "Evidence: carbon dioxide was about 280 parts per million (ppm) before industry. At Mauna Loa in Hawaii it measured 317 ppm in 1960 and 414 ppm in 2020. Air bubbles in old ice show it is the highest for at least 800,000 years.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"1960",
+						317
+					],
+					[
+						"1970",
+						326
+					],
+					[
+						"1980",
+						339
+					],
+					[
+						"1990",
+						354
+					],
+					[
+						"2000",
+						370
+					],
+					[
+						"2010",
+						390
+					],
+					[
+						"2020",
+						414
+					]
+				],
+				"step": 20,
+				"from": 300,
+				"top": 420,
+				"name": "Carbon dioxide (ppm)"
+			}
+		},
+		{
+			"text": "The world is now about 1.2 °C warmer than in 1850-1900, and 2024 was the warmest year on record. Glaciers and Arctic sea ice are shrinking. The sea has risen about 20 cm since 1900, as water warms and ice melts."
+		},
+		{
+			"text": "Effects: stronger heatwaves, droughts in some places and floods in others. Rising seas threaten coasts and islands, coral bleaches, and crops and animals must move. The poorest people, who added least, are often hit hardest."
+		},
+		{
+			"text": "Mitigation cuts the cause: solar and wind power, insulated homes, electric transport, forests. Adaptation copes with the changes: flood defences, crops that survive drought. In Paris in 2015 nearly every country agreed to keep warming well below 2 °C."
+		},
+		{
+			"text": "Try it in the world: build a wind farm and plant a forest in your world, and raise a flood bank by the river. Then visit Earth and Weather in Life to practise staying safe in floods and heatwaves. Next: development."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which gas, from burning coal, oil and gas, is the main greenhouse gas people add?",
+			"choices": [
+				"carbon dioxide",
+				"nitrogen",
+				"helium",
+				"oxygen"
+			],
+			"answer": 0,
+			"hint": "It is written CO2, and plants take it in.",
+			"explain": "Carbon dioxide (CO2), from burning fossil fuels and cutting down forests."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Without any greenhouse effect, Earth would be a better place to live.",
+			"answer": false,
+			"hint": "Remember Earth's temperature without the blanket.",
+			"explain": "False: without it Earth would average about −18 °C; the problem is the extra gases making it stronger."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The sea has risen about 20 cm since 1900. How many millimetres is that?",
+			"answer": "200",
+			"hint": "There are 10 mm in 1 cm.",
+			"explain": "20 × 10 = 200 mm."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the difference between weather and climate?",
+			"choices": [
+				"weather lasts 30 years",
+				"climate is only rain",
+				"weather is daily; climate is the long pattern",
+				"they are the same thing"
+			],
+			"answer": 2,
+			"hint": "Think of one day against 30 years.",
+			"explain": "Weather is what happens day to day; climate is the average pattern over 30 years or more."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: a cause of climate change, or an effect?",
+			"groups": [
+				"cause",
+				"effect"
+			],
+			"items": [
+				"rising seas",
+				"coral bleaching",
+				"cutting down forests",
+				"cattle farming",
+				"melting glaciers",
+				"burning coal"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Causes add greenhouse gases; effects are what the warming does.",
+			"explain": "Causes: burning coal, cutting forests, cattle farming. Effects: melting glaciers, rising seas, coral bleaching."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each piece of evidence to what it shows.",
+			"items": [
+				"ice cores",
+				"Mauna Loa",
+				"tide gauges",
+				"thermometers"
+			],
+			"matches": [
+				"carbon dioxide rising",
+				"the air of long ago",
+				"the sea rising",
+				"the world warming"
+			],
+			"answer": [
+				1,
+				0,
+				2,
+				3
+			],
+			"hint": "Ice holds bubbles of old air; the others measure today.",
+			"explain": "Ice cores: old air. Mauna Loa: rising carbon dioxide. Tide gauges: rising seas. Thermometers: warming."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Carbon dioxide rose from 317 ppm in 1960 to 414 ppm in 2020. On average, how many ppm a year is that, to one decimal place?",
+			"answer": "1.6",
+			"hint": "Find the whole rise, then divide by the number of years.",
+			"explain": "414 − 317 = 97; 97 ÷ 60 is about 1.6 ppm a year."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do we call it the 'enhanced' greenhouse effect?",
+			"choices": [
+				"people's extra gases make it stronger",
+				"it cools the Earth",
+				"it is a new kind of sunlight",
+				"it only happens at night"
+			],
+			"answer": 0,
+			"hint": "Enhanced means made stronger: by what?",
+			"explain": "The gases people add thicken the blanket, so it keeps in more heat."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the greenhouse effect in order.",
+			"items": [
+				"the warm Earth gives off heat",
+				"sunlight passes through the air",
+				"the ground warms up",
+				"greenhouse gases trap some heat"
+			],
+			"answer": [
+				1,
+				2,
+				0,
+				3
+			],
+			"hint": "Light comes in first; heat goes out after.",
+			"explain": "Sunlight comes in, the ground warms, it gives off heat, and greenhouse gases trap some of it."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Since 1900 the sea has risen by about 20 cm.",
+			"answer": true,
+			"hint": "Look back at the evidence card.",
+			"explain": "True: about 20 cm, as warming water expands and ice melts."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are poorer countries often hit hardest, though they added least?",
+			"choices": [
+				"they burn the most coal",
+				"they are nearer the Sun",
+				"less money for defences and help",
+				"they have no weather"
+			],
+			"answer": 2,
+			"hint": "Think about what it costs to protect people from floods and droughts.",
+			"explain": "They have less money for flood defences, cooling and food stores, and many families depend on farming."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Paris Agreement aims to keep warming well below 2 °C. If the world is about 1.2 °C warmer now, how many more degrees would reach 2 °C?",
+			"answer": "0.8",
+			"hint": "Take today's warming from the limit.",
+			"explain": "2 − 1.2 = 0.8 °C."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: mitigation or adaptation?",
+			"groups": [
+				"mitigation",
+				"adaptation"
+			],
+			"items": [
+				"insulating homes",
+				"homes on stilts",
+				"crops that survive drought",
+				"electric buses",
+				"a solar farm",
+				"a higher sea wall"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Does it cut greenhouse gases, or protect people from the changes?",
+			"explain": "Mitigation: solar farms, electric buses, insulation. Adaptation: sea walls, drought-proof crops, homes on stilts."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What did nearly every country agree in Paris in 2015?",
+			"choices": [
+				"to move people to Mars",
+				"to keep warming well below 2 °C",
+				"to stop all farming",
+				"to ban cars at once"
+			],
+			"answer": 1,
+			"hint": "It sets a limit on how much the world warms.",
+			"explain": "To keep the world's warming well below 2 °C, and to try for 1.5 °C."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "If the sea keeps rising by about 4 mm a year, by how many centimetres will it rise in 50 years?",
+			"answer": "20",
+			"hint": "Find the millimetres first, then change them to centimetres: 10 mm make 1 cm.",
+			"explain": "4 × 50 = 200 mm; 200 ÷ 10 = 20 cm, as much again as since 1900."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "One cold winter's day proves the climate is not warming.",
+			"answer": false,
+			"hint": "Climate is the pattern over many years, not one day.",
+			"explain": "False: one day is weather; the long-term records show the warming clearly."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.co2_rise",
+			"level": 1
+		},
+		{
+			"gen": "g8h.co2_rise",
+			"level": 2
+		},
+		{
+			"gen": "g8h.co2_rise",
+			"level": 3
+		},
+		{
+			"gen": "g8h.climate_sort",
+			"level": 1
+		},
+		{
+			"gen": "g8h.climate_sort",
+			"level": 2
+		},
+		{
+			"gen": "g8h.climate_sort",
+			"level": 3
+		},
+		{
+			"gen": "g8h.mitigate_adapt",
+			"level": 1
+		},
+		{
+			"gen": "g8h.mitigate_adapt",
+			"level": 2
+		},
+		{
+			"gen": "g8h.mitigate_adapt",
+			"level": 3
+		}
+	]
+}

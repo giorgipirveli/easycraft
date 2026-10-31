@@ -1,0 +1,337 @@
+{
+	"id": "g6.computing.keep_accounts_safe",
+	"lesson": [
+		{
+			"text": "Quick memory: who should you tell if something online worries you? (A trusted adult, and use REPORT.) Today: keeping your accounts safe."
+		},
+		{
+			"text": "An account is your own space in a game or app, and your password is its key. Never share it, not even with a best friend. A grown-up who helps you look after it is fine."
+		},
+		{
+			"text": "Strong passwords are long. Three random words, like PurpleOwlTeapot, are easy to remember but hard to guess. Avoid names, birthdays and 1234, and use a different password for each account.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Weak",
+						"Strong"
+					],
+					[
+						"1234",
+						"PurpleOwlTeapot"
+					],
+					[
+						"your name",
+						"three random words"
+					],
+					[
+						"your birthday",
+						"a different one each"
+					]
+				]
+			}
+		},
+		{
+			"text": "Why long? Each extra character multiplies the guesses. A 4-digit PIN has 10 × 10 × 10 × 10 = 10,000 codes; a 6-digit PIN has 1,000,000, a hundred times more.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"a PIN of",
+						"codes to try"
+					],
+					[
+						"4 digits",
+						"10,000"
+					],
+					[
+						"5 digits",
+						"100,000"
+					],
+					[
+						"6 digits",
+						"1,000,000"
+					]
+				]
+			}
+		},
+		{
+			"text": "Two-step checks: after your password, the account asks for a code sent to a grown-up's phone or an app. Someone who steals your password still cannot get in."
+		},
+		{
+			"text": "Phishing is a trick message pretending to be someone you trust, to steal your password. Clues: an odd sender, a rush, a prize, a request for your password, a strange link.",
+			"picture": {
+				"kind": "phish_mail",
+				"from": "help@game-help-desk.biz",
+				"subject": "Your account closes TODAY",
+				"lines": [
+					"Dear player,",
+					"Log in within 1 hour or lose your gold!"
+				],
+				"link": "game-login-now.biz",
+				"button": "LOG IN"
+			}
+		},
+		{
+			"text": "Worked example: an email says your game account closes today and to log in by its link. The sender and the link are strange. Tilly does not click. She tells a grown-up, reports it and deletes it."
+		},
+		{
+			"text": "Try it in the world: with a grown-up, check your accounts use long passwords and two-step checks. Next: your online identity."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the strongest password?",
+			"answer": 0,
+			"hint": "Long and hard to guess, with no names or years.",
+			"choices": [
+				"PurpleOwlTeapot",
+				"1234",
+				"password",
+				"Tilly2016"
+			],
+			"explain": "Three random words are long and hard to guess."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is fine to tell your best friend your password.",
+			"answer": false,
+			"hint": "Who should know your key?",
+			"explain": "False: keep it secret, even from friends. A trusted grown-up can help look after it."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is phishing?",
+			"answer": 0,
+			"hint": "Think of bait on a hook.",
+			"choices": [
+				"a trick message to steal your details",
+				"a fishing game",
+				"a strong password",
+				"a safe way to log in"
+			],
+			"explain": "Phishing is a trick message that tries to hook your password or details."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "True or false: this email shows clues that it is a trick.",
+			"answer": true,
+			"hint": "Check the sender, the rush and the link.",
+			"explain": "True: an odd sender, a rush to log in, and a strange link.",
+			"picture": {
+				"kind": "phish_mail",
+				"from": "help@game-help-desk.biz",
+				"subject": "Your account closes TODAY",
+				"lines": [
+					"Dear player,",
+					"Log in within 1 hour or lose your gold!"
+				],
+				"link": "game-login-now.biz",
+				"button": "LOG IN"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A lock's code has 3 digits, each 0 to 9. How many different codes are there?",
+			"answer": "1000",
+			"hint": "Each digit has 10 choices; multiply.",
+			"explain": "10 × 10 × 10 = 1,000 codes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the clue that this email is a trick?",
+			"answer": 0,
+			"hint": "Tricksters want you to act before you think.",
+			"choices": [
+				"it rushes you to log in within 1 hour",
+				"it has a subject line",
+				"it is written in English",
+				"it has a full stop"
+			],
+			"explain": "It rushes you: log in within 1 hour or lose your gold.",
+			"picture": {
+				"kind": "phish_mail",
+				"from": "help@game-help-desk.biz",
+				"subject": "Your account closes TODAY",
+				"lines": [
+					"Dear player,",
+					"Log in within 1 hour or lose your gold!"
+				],
+				"link": "game-login-now.biz",
+				"button": "LOG IN"
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these password ideas: strong or weak?",
+			"groups": [
+				"strong",
+				"weak"
+			],
+			"items": [
+				"your pet's name",
+				"123456",
+				"three random words",
+				"a long phrase only you know",
+				"your birthday",
+				"RiverCloudLantern"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Could someone who knows you, or a computer, guess it quickly?",
+			"explain": "Strong: long random words or phrases. Weak: names, birthdays and number runs."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do two-step checks help?",
+			"answer": 0,
+			"hint": "What does a thief need to get in?",
+			"choices": [
+				"a thief with your password still needs the code",
+				"passwords get shorter",
+				"they share your password",
+				"they switch off the game"
+			],
+			"explain": "The code goes to a phone or app the thief does not have."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A real game team never asks for your password in a message.",
+			"answer": true,
+			"hint": "Who needs to know your password?",
+			"explain": "True: real teams never ask. Anyone who asks is trying to trick you."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "A trick message arrives. Put what to do in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Stop first; then get help.",
+			"items": [
+				"delete it",
+				"report it",
+				"tell a trusted adult",
+				"stop: do not click or reply"
+			],
+			"explain": "Stop, tell a trusted adult, report it, then delete it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many times more codes does a 5-digit PIN have than a 3-digit PIN?",
+			"answer": "100",
+			"hint": "Work out both, or think: two more digits.",
+			"explain": "100,000 ÷ 1,000 = 100: each extra digit gives 10 times more."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A password is 2 small letters, from 26 letters. How many passwords is that?",
+			"answer": "676",
+			"hint": "26 choices for the first letter and 26 for the second.",
+			"explain": "26 × 26 = 676. That is why short ones are weak."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This email says it is from the game's team. Which part gives it away?",
+			"answer": 0,
+			"hint": "Where did it really come from?",
+			"choices": [
+				"the sender's odd address",
+				"the length of the subject",
+				"the full stop",
+				"the date"
+			],
+			"explain": "help@game-help-desk.biz is not the game's own address.",
+			"picture": {
+				"kind": "phish_mail",
+				"from": "help@game-help-desk.biz",
+				"subject": "Your account closes TODAY",
+				"lines": [
+					"Dear player,",
+					"Log in within 1 hour or lose your gold!"
+				],
+				"link": "game-login-now.biz",
+				"button": "LOG IN"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If a message says your account will close today unless you log in, you should log in quickly by its link.",
+			"answer": false,
+			"hint": "Is the rush a clue?",
+			"explain": "False: a rush is a clue. Go to the game yourself, or ask a grown-up, never by the message's link."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A friend's account sends you 'Look! free-gold-now.biz'. What is best?",
+			"answer": 0,
+			"hint": "Accounts can be stolen. How can you be sure it was them?",
+			"choices": [
+				"check with your friend another way",
+				"click: it is your friend",
+				"send it to everyone",
+				"type your password to see"
+			],
+			"explain": "Ask your friend another way first: their account may have been taken."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A computer tries 100 PINs a second. How many seconds to try all 10,000 four-digit PINs?",
+			"answer": "100",
+			"hint": "Share the codes by the tries in each second.",
+			"explain": "10,000 ÷ 100 = 100 seconds. Longer passwords take far longer."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.guess_count",
+			"level": 1
+		},
+		{
+			"gen": "g6c.guess_count",
+			"level": 2
+		},
+		{
+			"gen": "g6c.guess_count",
+			"level": 3
+		},
+		{
+			"gen": "g6c.phish_check",
+			"level": 1
+		},
+		{
+			"gen": "g6c.phish_check",
+			"level": 2
+		},
+		{
+			"gen": "g6c.phish_check",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,526 @@
+{
+	"id": "g6.projects.weather_station",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you kept a weather table on an expedition. Which instrument measures rain? (A rain gauge.) In this project you build a weather station, record a week of weather, and chart it."
+		},
+		{
+			"text": "Step 1, plan the instruments. A thermometer measures temperature (°C), and a rain gauge measures rain (mm). A wind vane shows the wind's direction, and an anemometer its speed.",
+			"picture": {
+				"kind": "weather_kit",
+				"tools": [
+					"thermometer",
+					"rain_gauge",
+					"wind_vane",
+					"anemometer"
+				]
+			}
+		},
+		{
+			"text": "Put each in the right place: the thermometer in the shade, about 1.25 m above short grass; the rain gauge in the open, away from trees and walls; the wind vane up high, clear of buildings."
+		},
+		{
+			"text": "Step 2, make: a rain gauge from a clear bottle, its top turned upside down as a funnel, with a mm scale. A wind vane points into the wind, so a west wind (blowing from the west) turns it to point west."
+		},
+		{
+			"text": "Step 3, record at the same time every day for a week: the temperature, the rain and the wind. Keep the readings in a spreadsheet: a column for each measurement, a row for each day."
+		},
+		{
+			"text": "Let formulas do the working: =AVERAGE(B2:B6) gives the mean temperature, =SUM(…) the total rain, and =MAX(…) and =MIN(…) the highest and the lowest.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Day",
+						"Temp (°C)"
+					],
+					[
+						"Mon",
+						"11"
+					],
+					[
+						"Tue",
+						"13"
+					],
+					[
+						"Wed",
+						"9"
+					],
+					[
+						"Thu",
+						"14"
+					],
+					[
+						"Fri",
+						"13"
+					],
+					[
+						"Mean",
+						"=AVERAGE(B2:B6)"
+					]
+				],
+				"mark": "B7",
+				"show": "formulas"
+			}
+		},
+		{
+			"text": "Step 4, chart it: a line graph for temperature, which changes smoothly over time, and a bar chart for each day's rain. Then present what you found: the warmest day, the wettest, and why.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"Mon",
+						11
+					],
+					[
+						"Tue",
+						13
+					],
+					[
+						"Wed",
+						9
+					],
+					[
+						"Thu",
+						14
+					],
+					[
+						"Fri",
+						13
+					]
+				],
+				"step": 5,
+				"top": 20,
+				"name": "temperature (°C)"
+			}
+		},
+		{
+			"text": "Try it in the world: build a weather station with a rain gauge, a wind flag and a board for each day's weather. For real: record the weather at home for a week, and chart it. Next: design for a real need."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which instrument measures wind speed?",
+			"answer": 0,
+			"hint": "Its cups spin faster in a stronger wind.",
+			"choices": [
+				"an anemometer",
+				"a rain gauge",
+				"a thermometer",
+				"a wind vane"
+			],
+			"explain": "An anemometer: its spinning cups measure the speed."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A thermometer should be kept in the shade.",
+			"answer": true,
+			"hint": "What would the Sun do to the reading?",
+			"explain": "True: in the Sun it would read hotter than the air."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is this instrument?",
+			"answer": 0,
+			"hint": "It has a funnel on top and a scale in mm.",
+			"choices": [
+				"a rain gauge",
+				"a thermometer",
+				"an anemometer",
+				"a barometer"
+			],
+			"explain": "A rain gauge: the funnel catches rain, the scale measures it.",
+			"picture": {
+				"kind": "weather_kit",
+				"tools": [
+					"rain_gauge"
+				],
+				"names": false
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Rain in mm, Monday to Friday: 3, 0, 5, 2 and 4. How much rain fell in all, in mm?",
+			"answer": "14",
+			"hint": "Add the five days.",
+			"explain": "3 + 0 + 5 + 2 + 4 = 14 mm."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A line graph suits temperature, and a bar chart suits each day's rain.",
+			"answer": true,
+			"hint": "Temperature changes smoothly; rain falls day by day.",
+			"explain": "True: a line for a smooth change, bars for separate days."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the weather station: tap a word, then its number.",
+			"picture": {
+				"kind": "weather_kit",
+				"tools": [
+					"thermometer",
+					"rain_gauge",
+					"wind_vane",
+					"anemometer"
+				],
+				"names": false
+			},
+			"spots": [
+				[
+					0.1452,
+					0.9,
+					0.1452,
+					0.5
+				],
+				[
+					0.3817,
+					0.9,
+					0.3817,
+					0.5
+				],
+				[
+					0.6183,
+					0.9,
+					0.6183,
+					0.5
+				],
+				[
+					0.8548,
+					0.9,
+					0.8548,
+					0.5
+				]
+			],
+			"labels": [
+				"rain gauge",
+				"wind vane",
+				"anemometer",
+				"thermometer"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Red liquid, a funnel, an arrow, spinning cups.",
+			"explain": "The thermometer, the rain gauge with its funnel, the wind vane with its arrow, and the anemometer's cups."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does =AVERAGE(B2:B6) work out?",
+			"answer": 0,
+			"hint": "Average means sharing the total equally.",
+			"choices": [
+				"the mean of the five cells",
+				"the biggest number",
+				"the total",
+				"the smallest number"
+			],
+			"explain": "The mean: it adds the five cells and divides by 5.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Day",
+						"Temp (°C)"
+					],
+					[
+						"Mon",
+						"11"
+					],
+					[
+						"Tue",
+						"13"
+					],
+					[
+						"Wed",
+						"9"
+					],
+					[
+						"Thu",
+						"14"
+					],
+					[
+						"Fri",
+						"13"
+					],
+					[
+						"Mean",
+						"=AVERAGE(B2:B6)"
+					]
+				],
+				"mark": "B7",
+				"show": "formulas"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What will cell B7 show?",
+			"answer": "12",
+			"hint": "Add the five temperatures, then divide by 5.",
+			"explain": "11 + 13 + 9 + 14 + 13 = 60, and 60 ÷ 5 = 12 °C.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Day",
+						"Temp (°C)"
+					],
+					[
+						"Mon",
+						"11"
+					],
+					[
+						"Tue",
+						"13"
+					],
+					[
+						"Wed",
+						"9"
+					],
+					[
+						"Thu",
+						"14"
+					],
+					[
+						"Fri",
+						"13"
+					],
+					[
+						"Mean",
+						"=AVERAGE(B2:B6)"
+					]
+				],
+				"mark": "B7",
+				"show": "formulas"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The wind vane's arrow points west. Which way is the wind blowing from?",
+			"answer": 0,
+			"hint": "A wind vane points into the wind.",
+			"choices": [
+				"from the west",
+				"from the east",
+				"from the north",
+				"from the south"
+			],
+			"explain": "From the west: the vane points to where the wind comes from.",
+			"picture": {
+				"kind": "compass",
+				"points": 4,
+				"bearing": 270
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the project in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You cannot record without instruments.",
+			"items": [
+				"chart it and present it",
+				"record for a week",
+				"make and place them",
+				"plan the instruments"
+			],
+			"explain": "Plan, make and place, record, then chart and present."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "It rained on 3 of the 7 days. This wall has a space for each day. Fill 3/7 of it.",
+			"board": {
+				"cols": 7,
+				"rows": 1,
+				"block": 15,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "fraction",
+				"num": 3,
+				"den": 7
+			},
+			"hint": "Each space is one day, a seventh of the week.",
+			"explain": "3 of the 7 spaces, one for each rainy day: 3/7."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The week's highest temperature was 9 °C and the lowest was −3 °C. What was the range, in °C?",
+			"answer": "12",
+			"hint": "Count up from the lowest to 0, then on to the highest.",
+			"explain": "From −3 up to 0 is 3, and from 0 up to 9 is 9: 12 °C."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why must the readings be taken at the same time every day?",
+			"answer": 0,
+			"hint": "Think of a fair test.",
+			"choices": [
+				"so the readings can be compared fairly",
+				"so it is quicker",
+				"because instruments sleep",
+				"so the rain waits"
+			],
+			"explain": "The same time each day makes it a fair comparison: afternoons are warmer than mornings."
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label these instruments: tap a word, then its number.",
+			"picture": {
+				"kind": "weather_kit",
+				"tools": [
+					"rain_gauge",
+					"wind_vane",
+					"anemometer"
+				],
+				"names": false
+			},
+			"spots": [
+				[
+					0.1846,
+					0.9,
+					0.1846,
+					0.5
+				],
+				[
+					0.5,
+					0.9,
+					0.5,
+					0.5
+				],
+				[
+					0.8154,
+					0.9,
+					0.8154,
+					0.5
+				]
+			],
+			"labels": [
+				"wind vane",
+				"anemometer",
+				"rain gauge"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "A funnel, an arrow, and spinning cups.",
+			"explain": "The rain gauge has a funnel, the wind vane an arrow and a tail, and the anemometer spinning cups."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What will =SUM(C2:C6) show in cell C7?",
+			"answer": "15",
+			"hint": "Add the rain column from C2 to C6.",
+			"explain": "4 + 0 + 7 + 2 + 2 = 15 mm.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Day",
+						"Temp",
+						"Rain (mm)"
+					],
+					[
+						"Mon",
+						"12",
+						"4"
+					],
+					[
+						"Tue",
+						"10",
+						"0"
+					],
+					[
+						"Wed",
+						"8",
+						"7"
+					],
+					[
+						"Thu",
+						"11",
+						"2"
+					],
+					[
+						"Fri",
+						"14",
+						"2"
+					],
+					[
+						"Total",
+						"",
+						"=SUM(C2:C6)"
+					]
+				],
+				"mark": "C7",
+				"show": "formulas"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where should the rain gauge go?",
+			"answer": 0,
+			"hint": "What would block the rain?",
+			"choices": [
+				"in the open, away from trees and walls",
+				"under a tree",
+				"next to a wall",
+				"indoors"
+			],
+			"explain": "In the open: trees and walls would block or splash the rain."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which chart would show the week's rain, day by day?",
+			"answer": 0,
+			"hint": "Each day's rain is a separate amount.",
+			"choices": [
+				"a bar chart",
+				"a pie chart",
+				"a map",
+				"a timeline"
+			],
+			"explain": "A bar chart: one bar for each day's rain."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.weather_week",
+			"level": 1
+		},
+		{
+			"gen": "g6w.weather_week",
+			"level": 2
+		},
+		{
+			"gen": "g6w.weather_week",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,362 @@
+{
+	"id": "g8.art.exhibition",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7, at what height is art usually hung? (With its middle about 1.5 m from the floor, near eye level.) Today: planning and curating your own exhibition."
+		},
+		{
+			"text": "A curator chooses the works for an exhibition and decides how to show them. Start with a theme, such as light, home or change, and choose works that speak to it and to each other.",
+			"picture": {
+				"kind": "gallery_wall",
+				"works": 3,
+				"hang": "line",
+				"line": true
+			}
+		},
+		{
+			"text": "Plan the room: the order visitors meet the works, space to step back and light on each work. Add a way in and out, and places to sit. Big or noisy works need space of their own.",
+			"picture": {
+				"kind": "gallery_plan",
+				"works": [
+					[
+						"Sky",
+						0.2,
+						0.2
+					],
+					[
+						"Sea",
+						0.8,
+						0.2
+					],
+					[
+						"Stone",
+						0.5,
+						0.55
+					]
+				],
+				"door": "bottom",
+				"path": [
+					2,
+					0,
+					1
+				]
+			}
+		},
+		{
+			"text": "Every work needs a label: its title, the artist, the date and the medium, what it is made of. A wall text at the start explains the theme in a few clear sentences.",
+			"picture": {
+				"kind": "wall_label",
+				"title": "Impression, Sunrise",
+				"artist": "Claude Monet (1840-1926)",
+				"date": "1872",
+				"medium": "Oil on canvas",
+				"lines": [
+					"The port of Le Havre at dawn.",
+					"It gave the movement its name."
+				]
+			}
+		},
+		{
+			"text": "Worked example: works 0.6 m, 0.9 m and 0.5 m wide go on a 5 m wall with equal gaps. They take 2 m, so 3 m is left for 4 gaps (between them and at both ends): 3 ÷ 4 = 0.75 m each.",
+			"picture": {
+				"kind": "gallery_wall",
+				"works": 3,
+				"hang": "line"
+			}
+		},
+		{
+			"text": "Hanging: put each work's middle at about 1.5 m. A work 80 cm tall with its middle at 150 cm reaches 40 cm above it, to 190 cm. Its bottom is 40 cm lower, at 110 cm.",
+			"picture": {
+				"kind": "gallery_wall",
+				"works": 4,
+				"hang": "line",
+				"line": true
+			}
+		},
+		{
+			"text": "Make it welcoming for everyone: labels in large, clear print at a height people can read, a step-free way round, seats, and a short spoken guide. Ask visitors what they noticed."
+		},
+		{
+			"text": "Try it in the world: choose 5 works around a theme, write their labels and present them to your family. In LIFE, Talk & Deal's big track practises a pitch. Next: grade 8's projects."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a curator do?",
+			"choices": [
+				"chooses works and decides how to show them",
+				"paints every work",
+				"sells the tickets",
+				"cleans the frames"
+			],
+			"answer": 0,
+			"hint": "Think of the person who plans the show.",
+			"explain": "A curator chooses the works and plans how they are shown: the order, the labels and the light."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each part of a label to what it tells you.",
+			"items": [
+				"title",
+				"medium",
+				"date",
+				"artist"
+			],
+			"matches": [
+				"what it is made of",
+				"when it was made",
+				"who made it",
+				"the work's name"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Read Monet's label line by line.",
+			"explain": "The title names the work, the medium says what it is made of, the date when, and the artist who."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Art is usually hung with its middle near eye level.",
+			"answer": true,
+			"hint": "Where do visitors' eyes look?",
+			"explain": "True: about 1.5 m, so most visitors see it comfortably."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A work is 80 cm tall and its middle is at 150 cm. How high is its top, in cm?",
+			"answer": "190",
+			"hint": "The top is half the work's height above the middle.",
+			"explain": "Half of 80 is 40, and 150 + 40 = 190 cm."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is wrong with this hanging?",
+			"choices": [
+				"the works are at different heights",
+				"the works are too small",
+				"there are too many works",
+				"nothing is wrong"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "gallery_wall",
+				"works": 4,
+				"hang": "messy"
+			},
+			"hint": "Look along the middles of the works.",
+			"explain": "Their middles are at different heights, so the eye jumps up and down."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Works 0.5 m, 0.7 m and 0.8 m wide hang on a 6 m wall with 4 equal gaps. How wide is each gap, in m?",
+			"answer": "1",
+			"hint": "Find the space the works take, then share what is left.",
+			"explain": "0.5 + 0.7 + 0.8 = 2 m; 6 − 2 = 4 m; 4 ÷ 4 = 1 m."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps of curating an exhibition.",
+			"items": [
+				"write the labels",
+				"select the works",
+				"hang and light the works",
+				"plan the room and the order",
+				"choose a theme"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Ideas first, hanging last.",
+			"explain": "Theme, works, the room's plan, labels, then hanging and lighting."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Does it help visitors, or get in the way?",
+			"groups": [
+				"helps",
+				"gets in the way"
+			],
+			"items": [
+				"clear labels in large print",
+				"a step-free way round",
+				"works hung far too high",
+				"seats to rest and look",
+				"no light on the works"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Imagine visiting with a grandparent.",
+			"explain": "Large labels, a step-free way and seats help; works hung too high and in the dark get in the way."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is this label's medium?",
+			"choices": [
+				"oil on canvas",
+				"1872",
+				"Claude Monet",
+				"Impression, Sunrise"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "wall_label",
+				"title": "Impression, Sunrise",
+				"artist": "Claude Monet (1840-1926)",
+				"date": "1872",
+				"medium": "Oil on canvas",
+				"lines": [
+					"The port of Le Havre at dawn.",
+					"It gave the movement its name."
+				]
+			},
+			"hint": "The medium is what a work is made of.",
+			"explain": "Oil on canvas: oil paint on a cloth canvas."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A wall text explains the exhibition's theme.",
+			"answer": true,
+			"hint": "What do visitors read at the start?",
+			"explain": "True: a short wall text at the start explains the theme."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A work 60 cm tall hangs with its middle at 150 cm. How high is its bottom edge, in cm?",
+			"answer": "120",
+			"hint": "The bottom is half the height below the middle.",
+			"explain": "Half of 60 is 30, and 150 − 30 = 120 cm."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A work 1.2 m tall has its middle at 1.5 m. Its hook is 10 cm below its top. How high is the hook, in m?",
+			"answer": "2",
+			"hint": "Find the top first, then go down 10 cm.",
+			"explain": "Half of 1.2 m is 0.6 m, so the top is at 1.5 + 0.6 = 2.1 m. 10 cm = 0.1 m, and 2.1 − 0.1 = 2 m."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Visitors follow the arrows from the door. Which work do they meet second?",
+			"choices": [
+				"Sky",
+				"Sea",
+				"Stone"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "gallery_plan",
+				"works": [
+					[
+						"Sky",
+						0.2,
+						0.2
+					],
+					[
+						"Sea",
+						0.8,
+						0.2
+					],
+					[
+						"Stone",
+						0.5,
+						0.55
+					]
+				],
+				"door": "bottom",
+				"path": [
+					2,
+					0,
+					1
+				]
+			},
+			"hint": "Start at the door and follow each arrow in turn.",
+			"explain": "The door leads to Stone first, then Sky, then Sea."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Does it fit the theme 'water'?",
+			"groups": [
+				"fits",
+				"does not fit"
+			],
+			"items": [
+				"a painting of a river",
+				"a photo of rain on a window",
+				"a sculpture of a desert rock",
+				"a print of ocean waves",
+				"a drawing of a dry leaf"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is water in it, or about it?",
+			"explain": "The river, the rain and the waves are about water; a desert rock and a dry leaf are not."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Visitors need space to step back from big works.",
+			"answer": true,
+			"hint": "How do you see the whole of a big picture?",
+			"explain": "True: a big work is seen whole only from further away, so leave space in front of it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A visitor says: I could not read the labels. What is the best change?",
+			"choices": [
+				"bigger print, at a readable height",
+				"take the labels away",
+				"turn off the lights",
+				"hang the works higher"
+			],
+			"answer": 0,
+			"hint": "Fix the problem the visitor had.",
+			"explain": "Larger print, placed where people can read it, solves it for everyone."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.hang_height",
+			"level": 1
+		},
+		{
+			"gen": "g8c.hang_height",
+			"level": 2
+		},
+		{
+			"gen": "g8c.hang_height",
+			"level": 3
+		}
+	]
+}

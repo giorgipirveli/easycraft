@@ -1,0 +1,379 @@
+{
+	"id": "g7.design_tech.product_analysis",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you wrote specifications with ACCESS FM. What does the second C stand for? (Customer.) Today: take a product apart on screen, and find what it is made of, how it works and how it was made."
+		},
+		{
+			"text": "Product analysis means studying a product that already exists, to learn from it. Designers take products apart to see every part. Ask ACCESS FM: aesthetics, cost, customer, environment, safety, size, function and materials."
+		},
+		{
+			"text": "An exploded view shows a product's parts pulled apart along a line, in the order they fit together. Here is a torch: lens, reflector, LED, case, switch, batteries, spring and end cap.",
+			"picture": {
+				"kind": "exploded",
+				"product": "torch",
+				"labels": true
+			}
+		},
+		{
+			"text": "Each material is chosen for its job. The case is ABS plastic: tough, light and easy to mould. The lens is acrylic: clear, and harder to shatter than glass. The spring is steel: springy, and it conducts. The contacts are brass.",
+			"picture": {
+				"kind": "material_swatch",
+				"samples": [
+					"acrylic",
+					"steel",
+					"brass"
+				]
+			}
+		},
+		{
+			"text": "How was it made? Injection moulding forces melted plastic into a steel mould: thousands of identical cases, fast. Sheet metal is pressed into contacts. Screws let a product be opened and mended; glue and some clips make that hard."
+		},
+		{
+			"text": "Scales of production: one-off means one is made, like a wedding cake. Batch means a set number, like 500 school jumpers; mass production means huge numbers, like drink cans. A mould costs a lot, so moulding pays off in big numbers."
+		},
+		{
+			"text": "Worked example: a mould costs 5,000 gold, and each case costs 1 gold to make. For 1,000 cases: 5,000 + 1,000 = 6,000 gold, which is 6 gold each. For 10,000 cases: 15,000 gold, only 1.5 gold each.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"cases made",
+						"total gold",
+						"gold each"
+					],
+					[
+						"1,000",
+						"6,000",
+						"6"
+					],
+					[
+						"10,000",
+						"15,000",
+						"1.5"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a giant exploded torch in your world, its parts in a row. In LIFE, the Tool Book shows how to use a screwdriver safely: take an old torch apart with a grown-up. Next: from screen to object."
+		}
+	],
+	"exercises": [
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label the torch's parts: tap a word, then its number.",
+			"spots": [
+				[
+					0.0773,
+					0.91,
+					0.0773,
+					0.5444
+				],
+				[
+					0.1966,
+					0.91,
+					0.1713,
+					0.5444
+				],
+				[
+					0.3158,
+					0.91,
+					0.2558,
+					0.5444
+				],
+				[
+					0.6127,
+					0.91,
+					0.6127,
+					0.5444
+				],
+				[
+					0.763,
+					0.91,
+					0.763,
+					0.5444
+				]
+			],
+			"labels": [
+				"batteries",
+				"spring",
+				"LED",
+				"lens",
+				"reflector"
+			],
+			"answer": [
+				3,
+				4,
+				2,
+				0,
+				1
+			],
+			"hint": "Follow the light: where it is made, where it bounces, where it leaves. Then find the power.",
+			"explain": "From the front: the lens, the reflector, the LED; then the batteries, pressed forward by the spring.",
+			"picture": {
+				"kind": "exploded",
+				"product": "torch"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does an exploded view show?",
+			"choices": [
+				"the parts pulled apart, in order",
+				"the product after it breaks",
+				"the inside of a battery",
+				"how much it costs"
+			],
+			"answer": 0,
+			"hint": "Look at the picture: what has happened to the parts?",
+			"explain": "An exploded view shows every part pulled apart along a line, in the order they fit together.",
+			"picture": {
+				"kind": "exploded",
+				"product": "torch"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Product analysis means studying a product that already exists.",
+			"answer": true,
+			"hint": "Do you analyse something new, or something you can hold?",
+			"explain": "True: you study an existing product to learn from it."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the torch's parts: plastic or metal?",
+			"groups": [
+				"plastic",
+				"metal"
+			],
+			"items": [
+				"the spring",
+				"the case",
+				"the end cap",
+				"the brass contacts",
+				"the lens"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Which parts must spring or conduct electricity?",
+			"explain": "Plastic: the case, the acrylic lens, the end cap. Metal: the steel spring, the brass contacts."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which scale of production makes millions of identical drink cans?",
+			"choices": [
+				"mass production",
+				"one-off",
+				"batch",
+				"made by hand"
+			],
+			"answer": 0,
+			"hint": "How many are made, and how often?",
+			"explain": "Mass production: huge numbers of the same product, made non-stop."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each ACCESS FM word to what it asks.",
+			"items": [
+				"aesthetics",
+				"environment",
+				"function",
+				"materials"
+			],
+			"matches": [
+				"what it is made of",
+				"how it looks and feels",
+				"its effect on the planet",
+				"what it does"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Say each word slowly: what would you check?",
+			"explain": "Aesthetics: looks and feel. Environment: the planet. Function: what it does. Materials: what it is made of."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A mould costs 2,000 gold, and each part costs 1 gold to make. What does each part cost when 1,000 are made?",
+			"answer": "3",
+			"hint": "Add the mould to all the parts' making costs, then share by how many.",
+			"explain": "2,000 + 1,000 = 3,000 gold, and 3,000 ÷ 1,000 = 3 gold each."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are the torch's parts held with screws, not glue?",
+			"choices": [
+				"so it can be opened and mended",
+				"screws are invisible",
+				"glue is too strong for torches",
+				"screws make it waterproof"
+			],
+			"answer": 0,
+			"hint": "Think about changing the batteries or a broken part.",
+			"explain": "Screws let you open the torch to change batteries or mend it."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a product analysis in order.",
+			"items": [
+				"judge it and suggest improvements",
+				"take it apart and record each part",
+				"choose a product",
+				"say who it is for and what it does",
+				"name each material and why"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				4,
+				0
+			],
+			"hint": "Look at the whole first, then the parts, then judge.",
+			"explain": "Choose it, who and what for, take it apart, the materials and why, then judge and improve."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Injection moulding is a cheap way to make just one product.",
+			"answer": false,
+			"hint": "What does the mould cost, and who pays it?",
+			"explain": "False: the mould is expensive, so injection moulding only pays off for big numbers."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which process makes a plastic case by forcing melted plastic into a mould?",
+			"choices": [
+				"injection moulding",
+				"vacuum forming",
+				"casting metal",
+				"weaving"
+			],
+			"answer": 0,
+			"hint": "The plastic is pushed in under pressure.",
+			"explain": "Injection moulding: melted plastic is injected into a closed mould."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A mould costs 10,000 gold, and each part costs 2 gold to make. How many parts must be made for each one to cost 3 gold in all?",
+			"answer": "10000",
+			"hint": "Each part can put 1 gold more than its making cost towards the mould.",
+			"explain": "3 − 2 = 1 gold a part goes to the mould, and 10,000 ÷ 1 = 10,000 parts."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A torch flickers. Taking it apart shows a thin, weak spring. What is the best improvement?",
+			"choices": [
+				"a stiffer steel spring that presses firmly",
+				"a brighter colour case",
+				"a bigger box",
+				"a longer strap"
+			],
+			"answer": 0,
+			"hint": "What does the spring have to do in the circuit?",
+			"explain": "The spring holds the batteries against the contacts: a stiffer one keeps the circuit closed."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each part to how it is made.",
+			"items": [
+				"plastic case",
+				"chocolate box tray",
+				"brass contact",
+				"aluminium engine part"
+			],
+			"matches": [
+				"vacuum forming",
+				"pressing sheet metal",
+				"casting",
+				"injection moulding"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Is it plastic or metal, a thin sheet or a solid shape?",
+			"explain": "Case: injection moulding. Tray: vacuum forming. Contact: pressing sheet metal. Engine part: casting."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Recording each part's material and how it was made helps a designer improve the next product.",
+			"answer": true,
+			"hint": "What can a designer learn from someone else's product?",
+			"explain": "True: it shows what works, and what to improve."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which ACCESS FM point asks, 'Can it be recycled at the end?'",
+			"choices": [
+				"environment",
+				"aesthetics",
+				"size",
+				"customer"
+			],
+			"answer": 0,
+			"hint": "Which word is about the planet?",
+			"explain": "Environment: its effect on the planet, from making to recycling."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A factory makes 500 torches a day in batches. How many days does it take to make 12,000 torches?",
+			"answer": "24",
+			"hint": "Divide the total by the torches made each day.",
+			"explain": "12,000 ÷ 500 = 24 days."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.part_material",
+			"level": 1
+		},
+		{
+			"gen": "g7w.part_material",
+			"level": 2
+		},
+		{
+			"gen": "g7w.part_material",
+			"level": 3
+		},
+		{
+			"gen": "g7w.production_scale",
+			"level": 1
+		},
+		{
+			"gen": "g7w.production_scale",
+			"level": 2
+		},
+		{
+			"gen": "g7w.production_scale",
+			"level": 3
+		}
+	]
+}

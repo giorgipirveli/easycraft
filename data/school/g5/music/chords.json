@@ -1,0 +1,499 @@
+{
+	"id": "g5.music.chords",
+	"lesson": [
+		{
+			"text": "Quick memory: is C, E, G major or minor? (Major: C up to E is 4 semitones.) Today: chords, notes played together."
+		},
+		{
+			"text": "A chord is three or more notes played at the same time. Listen: C, E and G together make the chord of C major.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:4"
+				]
+			}
+		},
+		{
+			"text": "Build a chord by skipping letters: start on its root, skip a letter, take the next, skip one, take the next. From C: C, (skip D) E, (skip F) G.",
+			"picture": {
+				"kind": "chord_stave",
+				"chords": [
+					[
+						"C4",
+						"E4",
+						"G4"
+					]
+				],
+				"names": [
+					"C"
+				]
+			}
+		},
+		{
+			"text": "Chords have names. The C major chord is C, E and G; the F major chord is F, A and C; the G major chord is G, B and D. Minor chords have a small m: Am, Dm, Em.",
+			"picture": {
+				"kind": "chord_stave",
+				"chords": [
+					[
+						"C4",
+						"E4",
+						"G4"
+					],
+					[
+						"F4",
+						"A4",
+						"C5"
+					],
+					[
+						"G4",
+						"B4",
+						"D5"
+					],
+					[
+						"A4",
+						"C5",
+						"E5"
+					]
+				],
+				"names": [
+					"C",
+					"F",
+					"G",
+					"Am"
+				]
+			}
+		},
+		{
+			"text": "Worked example: the A minor chord is A, C and E. From A up to C is 3 semitones, so the chord sounds minor. Its short name is Am.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"A4",
+					"C5",
+					"E5"
+				],
+				"names": true,
+				"from": "A4"
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A4+C5+E5:4"
+				]
+			}
+		},
+		{
+			"text": "A chord pattern: lots of songs move C, F, G, then back to C. Listen: each chord lasts two beats.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"F4+A4+C5:2",
+					"G4+B4+D5:2",
+					"C4+E4+G4:2"
+				]
+			}
+		},
+		{
+			"text": "Play a chord's notes one after another and you get a broken chord, also called an arpeggio. Guitarists and harpists often play chords this way.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"C5",
+					"G4",
+					"E4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: on any keyboard, play C E G, then F A C, then G B D, then C E G again. You have played a chord pattern! Next: how songs are built."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which notes make the C major chord?",
+			"answer": 0,
+			"hint": "Start on C, then skip a letter, take one, skip, take one.",
+			"choices": [
+				"C, E and G",
+				"C, D and E",
+				"C, F and A",
+				"E, G and B"
+			],
+			"explain": "From C, skip D to E, skip F to G: the C major chord is C, E and G."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A chord is three or more notes played at the same time.",
+			"answer": true,
+			"hint": "Think of C, E and G together.",
+			"explain": "True: a chord is notes played together, like C, E and G."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this chord major or minor?",
+			"answer": 0,
+			"hint": "Bright, or darker? Listen to the middle note.",
+			"choices": [
+				"major",
+				"minor"
+			],
+			"explain": "It is G, B and D: 4 semitones from G to B, so it is major.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4+B4+D5:3"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each chord name to its notes.",
+			"items": [
+				"C",
+				"F",
+				"G",
+				"Am"
+			],
+			"matches": [
+				"A, C and E",
+				"C, E and G",
+				"F, A and C",
+				"G, B and D"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Start on the name's letter, and skip letters.",
+			"explain": "C is C, E, G; F is F, A, C; G is G, B, D; and Am is A, C, E."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Did you hear one note, or a chord?",
+			"answer": 0,
+			"hint": "Could you hear more than one pitch at the same time?",
+			"choices": [
+				"a chord: notes together",
+				"one note on its own"
+			],
+			"explain": "Three notes sounded together, F, A and C: a chord.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"F4+A4+C5:3"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which chord is on the stave?",
+			"answer": 0,
+			"hint": "The lowest note names the chord. Then count the semitones up to the middle note.",
+			"choices": [
+				"D minor",
+				"D major",
+				"F major",
+				"A minor"
+			],
+			"explain": "D, F and A: D is the root, and D up to F is 3 semitones, so it is D minor.",
+			"picture": {
+				"kind": "chord_stave",
+				"chords": [
+					[
+						"D4",
+						"F4",
+						"A4"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Is this chord major or minor?",
+			"answer": 0,
+			"hint": "Does it sound bright, or darker?",
+			"choices": [
+				"minor",
+				"major"
+			],
+			"explain": "It is E, G and B: 3 semitones from E to G, so it is minor.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4+G4+B4:3"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Listen. How many chords did you hear?",
+			"answer": "4",
+			"hint": "Count each time the sound changes and all the notes start together.",
+			"explain": "C, F, G, then C again: 4 chords, each lasting two beats.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"F4+A4+C5:2",
+					"G4+B4+D5:2",
+					"C4+E4+G4:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A song plays the chords C, F, G and C, each for 2 beats. How many beats is that?",
+			"answer": "8",
+			"hint": "4 chords, 2 beats each.",
+			"explain": "4 × 2 = 8 beats."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the notes of the F major chord in order, from the bottom up.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Start on F, then skip a letter each time.",
+			"items": [
+				"A",
+				"F",
+				"C"
+			],
+			"explain": "F, skip G, A, skip B, C: F, A and C."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Was it a broken chord or a chord played together?",
+			"answer": 0,
+			"hint": "Did the notes start one after another, or all at once?",
+			"choices": [
+				"a broken chord",
+				"a chord, all together"
+			],
+			"explain": "The notes G, B and D came one after another: a broken chord.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"B4",
+					"D5",
+					"B4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The G major chord is G, B and D.",
+			"answer": true,
+			"hint": "Start on G and skip letters.",
+			"explain": "True: from G, skip A to B, skip C to D."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which chord is on the stave?",
+			"answer": 0,
+			"hint": "The lowest note names the chord. Count the semitones up to the middle note.",
+			"choices": [
+				"E minor",
+				"E major",
+				"G major",
+				"C major"
+			],
+			"explain": "E, G and B: E up to G is 3 semitones, so it is E minor.",
+			"picture": {
+				"kind": "chord_stave",
+				"chords": [
+					[
+						"E4",
+						"G4",
+						"B4"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which melody note fits best over a C major chord?",
+			"answer": 0,
+			"hint": "A melody note that is in the chord sounds settled.",
+			"choices": [
+				"E",
+				"F",
+				"B",
+				"D"
+			],
+			"explain": "E is one of the chord's own notes (C, E, G), so it blends. F and D sit right next to chord notes and rub against them, and B clashes with the C."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen to this broken chord. Is it major or minor?",
+			"answer": 0,
+			"hint": "Listen to the second note: how far above the first?",
+			"choices": [
+				"minor",
+				"major"
+			],
+			"explain": "It is A, C and E: A up to C is 3 semitones, so it is minor.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A4",
+					"C5",
+					"E5",
+					"C5",
+					"A4:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many semitones is it from F up to A, in the F major chord?",
+			"answer": "4",
+			"hint": "Count every key from F to A, black keys too.",
+			"explain": "F to F sharp, G, G sharp, A: 4 semitones, which makes the chord major.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"F4",
+					"A4",
+					"C5"
+				],
+				"names": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which stave shows the C major chord?",
+			"answer": 0,
+			"hint": "Read each chord's notes from the bottom: C major is C, E and G.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "chord_stave",
+						"chords": [
+							[
+								"C4",
+								"E4",
+								"G4"
+							]
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "chord_stave",
+						"chords": [
+							[
+								"C4",
+								"F4",
+								"A4"
+							]
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "chord_stave",
+						"chords": [
+							[
+								"D4",
+								"F4",
+								"A4"
+							]
+						]
+					}
+				}
+			],
+			"explain": "The chord on middle C's ledger line with E and G above it is C major."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen. These two chords are the same.",
+			"answer": false,
+			"hint": "Listen to the middle note of each chord.",
+			"explain": "False: the first is C major (C, E, G) and the second C minor (C, E flat, G).",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:3",
+					"-",
+					"C4+Eb4+G4:3"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the chords: major or minor?",
+			"groups": [
+				"major",
+				"minor"
+			],
+			"items": [
+				"C, E, G",
+				"A, C, E",
+				"F, A, C",
+				"D, F, A",
+				"G, B, D",
+				"E, G, B"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Count the semitones from the root up to the middle note: 4 is major, 3 is minor.",
+			"explain": "Major: C to E, F to A and G to B are 4 semitones each. Minor: A to C, D to F and E to G are 3 semitones each."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.build_chord",
+			"level": 1
+		},
+		{
+			"gen": "g5a.build_chord",
+			"level": 2
+		},
+		{
+			"gen": "g5a.build_chord",
+			"level": 3
+		},
+		{
+			"gen": "g5a.major_or_minor",
+			"level": 1
+		}
+	]
+}

@@ -1,0 +1,345 @@
+{
+	"id": "g7.geography.hazard_management",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 science you met hazard forecasts. What do scientists watch to forecast a volcano's eruption? (Small earthquakes, swelling ground and gases.) Today: how people predict, protect and prepare, and why some places suffer more."
+		},
+		{
+			"text": "A natural hazard, such as an earthquake, volcano, flood or storm, becomes a disaster when it harms people and their homes. The risk depends on the hazard, how many people are in its way, and how well they can prepare and recover."
+		},
+		{
+			"text": "Predict: scientists watch volcanoes with seismometers, tiltmeters that feel the ground swell, and gas sensors; satellites track storms. Earthquakes cannot be predicted exactly, but warning systems can give seconds of warning before the shaking.",
+			"picture": {
+				"kind": "plate_section",
+				"type": "subduction",
+				"labels": true
+			}
+		},
+		{
+			"text": "Protect: buildings with cross-bracing, deep foundations and rubber pads that let them sway; sea walls against tsunamis; channels to steer lava away; and rules so that people do not build in the most dangerous places.",
+			"picture": {
+				"kind": "frame",
+				"frames": [
+					"pushed",
+					"braced"
+				],
+				"labels": [
+					"no bracing",
+					"cross-braced"
+				]
+			}
+		},
+		{
+			"text": "Prepare: drills in schools and workplaces, emergency kits with water, a torch and first aid, and planned escape routes. In an earthquake: Drop, Cover and Hold On. Japan holds drills every 1 September, the anniversary of the 1923 Great Kanto earthquake.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "The ground shakes"
+					},
+					{
+						"shape": "step",
+						"text": "Drop to hands and knees"
+					},
+					{
+						"shape": "step",
+						"text": "Cover under a table"
+					},
+					{
+						"shape": "step",
+						"text": "Hold on till it stops"
+					},
+					{
+						"shape": "end",
+						"text": "Go to the meeting point"
+					}
+				]
+			}
+		},
+		{
+			"text": "Richer and poorer places are affected differently. In 2010 an earthquake of magnitude 7.0 struck Haiti, and a far stronger one, 8.8, struck Chile weeks later. Chile's released about 500 times more energy, yet far fewer people lost their lives."
+		},
+		{
+			"text": "Why? Chile had strict building rules, practised drills and could pay for rescue teams; many buildings in Haiti were not built to resist shaking, and help was harder to organise. Money, planning and good government all reduce the harm a hazard does.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"Haiti 2010",
+						"Chile 2010"
+					],
+					[
+						"magnitude",
+						"7.0",
+						"8.8"
+					],
+					[
+						"building rules",
+						"weak",
+						"strict"
+					],
+					[
+						"drills",
+						"rare",
+						"practised"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build an earthquake-ready town: braced houses, an open meeting point, an escape route marked with signs, and an emergency chest with water and a torch. Next: in grade 8, climate change."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a seismometer measure?",
+			"answer": 0,
+			"hint": "Seismic means to do with earthquakes.",
+			"choices": [
+				"ground shaking",
+				"rainfall",
+				"wind speed",
+				"temperature"
+			],
+			"explain": "Ground shaking: earthquakes, even tiny ones."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should you do in an earthquake?",
+			"answer": 0,
+			"hint": "Get low, protect your head, hold on.",
+			"choices": [
+				"Drop, Cover and Hold On",
+				"run outside at once",
+				"stand by a window",
+				"use the lift"
+			],
+			"explain": "Drop, Cover and Hold On, under a sturdy table, away from windows."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Scientists can predict the exact day of an earthquake.",
+			"answer": false,
+			"hint": "What can warning systems give, days or seconds?",
+			"explain": "False: earthquakes cannot be predicted exactly; warnings give only seconds."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a way to prepare for a hazard?",
+			"answer": 0,
+			"hint": "Prepare means planning what people will do.",
+			"choices": [
+				"practising drills",
+				"building a sea wall",
+				"measuring a volcano's gases",
+				"tracking a storm"
+			],
+			"explain": "Practising drills; a sea wall protects, and measuring or tracking helps predict."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "When does a natural hazard become a disaster?",
+			"answer": 0,
+			"hint": "Think about people, not just the event.",
+			"choices": [
+				"when it harms people and their homes",
+				"when it is on the news",
+				"whenever it rains",
+				"when it is small"
+			],
+			"explain": "When it harms people, their homes and their lives."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: predict, protect or prepare?",
+			"groups": [
+				"predict",
+				"protect",
+				"prepare"
+			],
+			"items": [
+				"measure a volcano swelling",
+				"build houses with cross-bracing",
+				"practise earthquake drills",
+				"track a hurricane by satellite",
+				"build a wall against tsunamis",
+				"pack a kit with water and a torch"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Predict: watch for signs. Protect: build to resist. Prepare: plan what people do.",
+			"explain": "Predict: measuring swelling, tracking storms. Protect: bracing, tsunami walls. Prepare: drills, emergency kits."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many times more ground shaking does a magnitude 8 earthquake cause than a magnitude 6 one?",
+			"answer": "100",
+			"hint": "Each whole step is 10 times the shaking.",
+			"explain": "Two steps: 10 × 10 = 100 times."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do rubber pads under a building help in an earthquake?",
+			"answer": 0,
+			"hint": "Stiff things snap; flexible things bend.",
+			"choices": [
+				"they let it sway without breaking",
+				"they make it heavier",
+				"they keep out rain",
+				"they keep it warm"
+			],
+			"explain": "The pads soak up the shaking and let the building sway gently instead of cracking."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each tool to what it watches.",
+			"items": [
+				"tiltmeter",
+				"gas sensor",
+				"satellite",
+				"seismometer"
+			],
+			"matches": [
+				"small earthquakes",
+				"the ground swelling",
+				"gases escaping",
+				"a storm's path"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Each name tells you what it measures.",
+			"explain": "Tiltmeter: swelling. Gas sensor: gases. Satellite: storms. Seismometer: small earthquakes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which part is marked '?'?",
+			"answer": 0,
+			"hint": "It rises above the land, with ash above it.",
+			"choices": [
+				"a volcano",
+				"a trench",
+				"an oceanic plate",
+				"magma"
+			],
+			"explain": "A volcano, fed by magma rising from the sinking plate.",
+			"picture": {
+				"kind": "plate_section",
+				"type": "subduction",
+				"labels": true,
+				"hide": "volcano"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Chile's 2010 earthquake was stronger than Haiti's, yet far fewer lost their lives. Why?",
+			"answer": 0,
+			"hint": "Think about buildings, practice and money.",
+			"choices": [
+				"strict building rules, drills and rescue teams",
+				"it happened only at sea",
+				"Chile has no cities",
+				"it was night-time"
+			],
+			"explain": "Chile's strict building rules, drills and rescue teams meant buildings stood and help came quickly."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Haiti's earthquake was magnitude 7.0 and Chile's 8.8. How many magnitude steps apart were they?",
+			"answer": "1.8",
+			"hint": "Take the smaller magnitude from the bigger one.",
+			"explain": "8.8 − 7.0 = 1.8 steps."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Richer places always suffer more, because they have more buildings.",
+			"answer": false,
+			"hint": "Compare Chile and Haiti.",
+			"explain": "False: richer places can afford strong buildings, drills and rescue, so fewer people are harmed."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why can a warning of only seconds save lives?",
+			"answer": 0,
+			"hint": "What can you do in ten seconds?",
+			"choices": [
+				"trains stop and people take cover",
+				"the earthquake stops",
+				"buildings grow stronger",
+				"the shaking moves away"
+			],
+			"explain": "Trains can brake, lifts stop, and people can drop, cover and hold on before the shaking arrives."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these in order: before, during, then after an earthquake.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What do you do first, long before it happens?",
+			"items": [
+				"rebuild with stronger rules",
+				"go to the meeting point",
+				"drop, cover and hold on",
+				"practise a drill"
+			],
+			"explain": "Before: practise. During: drop, cover, hold on. After: meet safely, then rebuild stronger."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.hazard_plan",
+			"level": 1
+		},
+		{
+			"gen": "g7h.hazard_plan",
+			"level": 2
+		},
+		{
+			"gen": "g7h.hazard_plan",
+			"level": 3
+		},
+		{
+			"gen": "g7h.quake_scale",
+			"level": 1
+		},
+		{
+			"gen": "g7h.quake_scale",
+			"level": 2
+		},
+		{
+			"gen": "g7h.quake_scale",
+			"level": 3
+		}
+	]
+}

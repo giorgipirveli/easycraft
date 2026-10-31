@@ -1,0 +1,374 @@
+{
+	"id": "g3.computing.loops",
+	"lesson": [
+		{
+			"text": "Quick memory: what does FORWARD 3 tell the robot? (Move three squares forward.) Today: making programs shorter."
+		},
+		{
+			"text": "Look at this program: FORWARD, TURN LEFT, FORWARD, TURN RIGHT, FORWARD, TURN LEFT, FORWARD, TURN RIGHT. The same steps come again and again: the robot climbs stairs.",
+			"picture": {
+				"kind": "robot",
+				"cols": 5,
+				"rows": 5,
+				"start": [
+					0,
+					4
+				],
+				"facing": "E",
+				"goal": [
+					4,
+					0
+				],
+				"path": [
+					[
+						0,
+						4
+					],
+					[
+						1,
+						4
+					],
+					[
+						1,
+						3
+					],
+					[
+						2,
+						3
+					],
+					[
+						2,
+						2
+					]
+				]
+			}
+		},
+		{
+			"text": "A loop repeats steps. “repeat 4 times [FORWARD, TURN LEFT, FORWARD, TURN RIGHT]” does the same as the long program, in one short line.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"REPEAT 4 TIMES",
+					"  FORWARD",
+					"  TURN LEFT",
+					"  FORWARD",
+					"  TURN RIGHT"
+				]
+			}
+		},
+		{
+			"text": "To find a loop, look for the part that repeats and count how many times it comes."
+		},
+		{
+			"text": "To count a loop's squares: count the FORWARDs in one time round, then multiply by how many times it repeats. repeat 4 times [FORWARD 2] moves 4 × 2 = 8 squares."
+		},
+		{
+			"text": "Loops are everywhere: the chorus of a song, the days of the week, a clock's hands going round, a pattern on a scarf.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday",
+					"Saturday",
+					"Sunday"
+				],
+				"title": "The days loop round",
+				"loop": true
+			}
+		},
+		{
+			"text": "Try it in the world: build a staircase with a loop in your head: repeat 5 times [place a block, step up]. How many blocks did you use?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which loop does the same as FORWARD 2, FORWARD 2, FORWARD 2?",
+			"answer": 0,
+			"hint": "Count how many times FORWARD 2 comes.",
+			"choices": [
+				"repeat 3 times [FORWARD 2]",
+				"repeat 2 times [FORWARD 3]",
+				"repeat 6 times [FORWARD 2]",
+				"FORWARD 2"
+			],
+			"explain": "FORWARD 2 comes 3 times, so: repeat 3 times [FORWARD 2]."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A loop repeats some steps.",
+			"answer": true,
+			"hint": "What does “repeat” mean?",
+			"explain": "True: a loop repeats the steps inside it."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A program says: repeat 4 times [clap]. How many claps is that?",
+			"answer": "4",
+			"hint": "The loop does its steps once each time round.",
+			"explain": "It claps once each time round, 4 times: 4 claps."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What repeats in this pattern: hop, clap, hop, clap, hop, clap?",
+			"answer": 0,
+			"hint": "Say it out loud. Where does it start again?",
+			"choices": [
+				"hop, clap",
+				"hop",
+				"clap, clap",
+				"hop, hop, clap"
+			],
+			"explain": "“hop, clap” comes again and again, 3 times."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which loop does the same as TURN LEFT, FORWARD, TURN LEFT, FORWARD?",
+			"answer": 0,
+			"hint": "Find the part that repeats, in the same order.",
+			"choices": [
+				"repeat 2 times [TURN LEFT, FORWARD]",
+				"repeat 4 times [TURN LEFT, FORWARD]",
+				"repeat 2 times [FORWARD]",
+				"repeat 2 times [FORWARD, TURN LEFT]"
+			],
+			"explain": "“TURN LEFT, FORWARD” comes twice: repeat 2 times [TURN LEFT, FORWARD]."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The robot runs: repeat 3 times [FORWARD 2, TURN RIGHT]. How many squares does it move?",
+			"answer": "6",
+			"hint": "Count the FORWARDs in one time round. Turns do not move it.",
+			"explain": "Each time round it moves 2 squares, and it goes round 3 times: 3 × 2 = 6 squares."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "repeat 4 times [FORWARD] moves the robot as far as FORWARD 4.",
+			"answer": true,
+			"hint": "Count the squares for each.",
+			"explain": "True: both move the robot 4 squares forward."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: does it repeat again and again, or not?",
+			"groups": [
+				"repeats",
+				"does not repeat"
+			],
+			"items": [
+				"the days of the week",
+				"your first day at school",
+				"a clock's hands going round",
+				"the chorus of a song",
+				"blowing out one candle",
+				"the seasons of the year"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Does it come round again and again?",
+			"explain": "Repeats: the days of the week, a clock's hands, a song's chorus, the seasons. Not: a first day, one candle."
+		},
+		{
+			"type": "robot",
+			"level": 2,
+			"prompt": "The robot must climb the stairs to the flag. The same steps come again and again! Write the program.",
+			"board": {
+				"cols": 4,
+				"rows": 4,
+				"start": [
+					0,
+					3
+				],
+				"facing": "E",
+				"goal": [
+					3,
+					0
+				],
+				"walls": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						1
+					],
+					[
+						0,
+						2
+					],
+					[
+						1,
+						0
+					],
+					[
+						1,
+						1
+					],
+					[
+						2,
+						0
+					],
+					[
+						2,
+						3
+					],
+					[
+						3,
+						3
+					],
+					[
+						3,
+						2
+					]
+				]
+			},
+			"hint": "Plan one stair: FORWARD, then a turn, then FORWARD, then turn back. Then do it again.",
+			"explain": "One program that works: FORWARD, TURN LEFT, FORWARD, TURN RIGHT, FORWARD, TURN LEFT, FORWARD, TURN RIGHT, FORWARD, TURN LEFT, FORWARD."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The robot draws as it moves. Which loop draws a square with sides of 2?",
+			"answer": 0,
+			"hint": "A square has 4 equal sides and 4 corners. What happens at each corner?",
+			"choices": [
+				"repeat 4 times [FORWARD 2, TURN RIGHT]",
+				"repeat 2 times [FORWARD 4, TURN RIGHT]",
+				"repeat 4 times [FORWARD 2]",
+				"repeat 3 times [FORWARD 2, TURN RIGHT]"
+			],
+			"explain": "Each time round draws one side of 2 and turns the corner. A square needs 4 sides: repeat 4 times."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The robot runs: FORWARD, then repeat 3 times [TURN LEFT, FORWARD 2, TURN RIGHT, FORWARD]. How many squares does it move?",
+			"answer": "10",
+			"hint": "Count the first move, then the FORWARDs in one time round, then multiply.",
+			"explain": "First 1 square. Each time round is 2 + 1 = 3 squares, and 3 × 3 = 9. Altogether 1 + 9 = 10 squares."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is shorter but does exactly the same as: FORWARD, TURN RIGHT, FORWARD, TURN RIGHT, FORWARD, TURN RIGHT, FORWARD, TURN RIGHT?",
+			"answer": 0,
+			"hint": "Find the steps that repeat, then count how many times they come.",
+			"choices": [
+				"repeat 4 times [FORWARD, TURN RIGHT]",
+				"repeat 8 times [FORWARD, TURN RIGHT]",
+				"repeat 4 times [FORWARD]",
+				"repeat 2 times [FORWARD, TURN RIGHT]"
+			],
+			"explain": "“FORWARD, TURN RIGHT” comes 4 times: repeat 4 times [FORWARD, TURN RIGHT]."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "repeat 3 times [FORWARD 2, TURN LEFT] and repeat 2 times [FORWARD 3, TURN LEFT] move the robot the same number of squares.",
+			"answer": true,
+			"hint": "Work out the squares for each loop.",
+			"explain": "True: 3 × 2 = 6 and 2 × 3 = 6, so both move 6 squares (though they end in different places)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do programmers use loops?",
+			"answer": 0,
+			"hint": "Compare a long list of the same steps with one repeat line.",
+			"choices": [
+				"to make programs shorter and easier to read",
+				"to make the computer slower",
+				"to add mistakes",
+				"to use more steps"
+			],
+			"explain": "Loops make programs shorter and easier to read and fix: change the step once, not many times."
+		},
+		{
+			"type": "robot",
+			"level": 3,
+			"prompt": "Take the robot round the rocks to the flag. The same steps come three times! Use at most 11 commands.",
+			"board": {
+				"cols": 4,
+				"rows": 4,
+				"start": [
+					0,
+					3
+				],
+				"facing": "N",
+				"goal": [
+					3,
+					3
+				],
+				"walls": [
+					[
+						1,
+						1
+					],
+					[
+						1,
+						2
+					],
+					[
+						2,
+						1
+					],
+					[
+						2,
+						2
+					],
+					[
+						1,
+						3
+					],
+					[
+						2,
+						3
+					]
+				]
+			},
+			"hint": "Find the part that repeats: some FORWARDs, then a turn. How many times does it come?",
+			"explain": "One program that works: FORWARD 3, TURN RIGHT, FORWARD 3, TURN RIGHT, FORWARD 3.",
+			"max": 11
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A loop repeats [plant a seed, step forward] 6 times. How many seeds are planted?",
+			"answer": "6",
+			"hint": "How many seeds does one time round plant?",
+			"explain": "Each time round plants 1 seed, 6 times: 6 × 1 = 6 seeds."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3a.loop_count",
+			"level": 1
+		},
+		{
+			"gen": "g3a.loop_count",
+			"level": 2
+		},
+		{
+			"gen": "g3a.loop_count",
+			"level": 3
+		}
+	]
+}

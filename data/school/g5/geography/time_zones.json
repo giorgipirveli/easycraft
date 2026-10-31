@@ -1,0 +1,311 @@
+{
+	"id": "g5.geography.time_zones",
+	"lesson": [
+		{
+			"text": "Quick memory: which city does the Prime Meridian, 0° longitude, run through? (London, at Greenwich.) When it is lunchtime in London, it is night in New Zealand. Today: why, and how time zones work."
+		},
+		{
+			"text": "Earth spins once every 24 hours. The half facing the Sun has day; the other half has night. As Earth turns towards the east, the Sun seems to rise in the east and set in the west. Here it is noon at Greenwich.",
+			"picture": {
+				"kind": "latlong",
+				"night": 180
+			}
+		},
+		{
+			"text": "A full turn is 360°. In 24 hours, 360 ÷ 24 = 15, so Earth turns 15° of longitude every hour. A place 15° east of you sees sunrise, noon and sunset an hour earlier than you do."
+		},
+		{
+			"text": "So the world is split into time zones, each about 15° wide, counted from Greenwich. Places to the east are ahead of London: their clocks show a later time. Places to the west are behind: their clocks show an earlier time.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 15,
+				"hours": true
+			}
+		},
+		{
+			"text": "Zone borders bend to follow countries. China is very wide but uses one time for the whole country. In January, India is 5½ hours ahead of London, and some countries move their clocks an hour forward in summer."
+		},
+		{
+			"text": "In January, when it is 12:00 in London, Tokyo is 9 hours ahead: 12 + 9 = 21, so it is 21:00. New York is 5 hours behind: 12 − 5 = 7, so it is 07:00 in the morning.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"city",
+						"hours from London"
+					],
+					[
+						"Tokyo",
+						"+9"
+					],
+					[
+						"Beijing",
+						"+8"
+					],
+					[
+						"Cairo",
+						"+2"
+					],
+					[
+						"New York",
+						"−5"
+					],
+					[
+						"Los Angeles",
+						"−8"
+					]
+				]
+			}
+		},
+		{
+			"text": "Near the 180° line runs the International Date Line. Cross it going west and the calendar jumps a day ahead; going east, it goes back a day. The world agreed on the Prime Meridian at Greenwich in 1884."
+		},
+		{
+			"text": "Try it in the world: make a wall of three clocks labelled London, Tokyo and New York, and set each one right when London shows 12:00. Next: climate zones."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How long does Earth take to spin round once?",
+			"answer": 0,
+			"hint": "One spin gives one day and one night.",
+			"choices": [
+				"about 24 hours",
+				"about 1 hour",
+				"about 7 days",
+				"about 365 days"
+			],
+			"explain": "About 24 hours: one day and one night."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When it is day on one side of Earth, it is night on the other.",
+			"answer": true,
+			"hint": "Only one half faces the Sun at a time.",
+			"explain": "True: the half facing the Sun has day, and the other half has night."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In which direction does the Sun seem to rise?",
+			"answer": 0,
+			"hint": "Think of a compass with north at the top: the morning Sun appears on the right.",
+			"choices": [
+				"east",
+				"west",
+				"north",
+				"south"
+			],
+			"explain": "The Sun seems to rise in the east and set in the west."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Places east of London have clocks that are...",
+			"answer": 0,
+			"hint": "Places to the east see the Sun first.",
+			"choices": [
+				"ahead of London",
+				"behind London",
+				"the same as London",
+				"stopped"
+			],
+			"explain": "Ahead: places to the east see the Sun earlier, so their clocks show a later time."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Earth turns 15° of longitude every hour.",
+			"answer": true,
+			"hint": "360° in 24 hours.",
+			"explain": "True: 360 ÷ 24 = 15° every hour."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "It is 10:00 in London. Cairo is 2 hours ahead. What time is it in Cairo?",
+			"answer": 0,
+			"hint": "Ahead means a later time: add the hours.",
+			"choices": [
+				"12:00",
+				"08:00",
+				"11:00",
+				"10:00"
+			],
+			"explain": "10 + 2 = 12, so it is 12:00 in Cairo.",
+			"picture": {
+				"kind": "digital_clock",
+				"h": 10,
+				"m": 0
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "It is 15:00 in London. New York is 5 hours behind. What time is it in New York?",
+			"answer": 0,
+			"hint": "Behind means an earlier time: take the hours away.",
+			"choices": [
+				"10:00",
+				"20:00",
+				"11:00",
+				"09:00"
+			],
+			"explain": "15 − 5 = 10, so it is 10:00 in New York.",
+			"picture": {
+				"kind": "digital_clock",
+				"h": 15,
+				"m": 0
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these cities: ahead of London or behind it?",
+			"groups": [
+				"ahead of London",
+				"behind London"
+			],
+			"items": [
+				"Tokyo",
+				"New York",
+				"Beijing",
+				"Los Angeles",
+				"Cairo",
+				"Lima"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "East of Greenwich is ahead; west is behind. Use the table.",
+			"explain": "Ahead: Tokyo, Beijing, Cairo. Behind: New York, Los Angeles, Lima."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "China uses one time for the whole country.",
+			"answer": true,
+			"hint": "Remember how zone borders bend.",
+			"explain": "True: China is very wide but uses a single time."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In January, how many hours ahead of London is India? Type it as a decimal.",
+			"answer": "5.5",
+			"hint": "India is 5½ hours ahead. Half an hour is 0.5 of an hour.",
+			"explain": "5½ hours = 5.5 hours ahead of London."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "It is 20:00 in London. Tokyo is 9 hours ahead. What time is it in Tokyo?",
+			"answer": 0,
+			"hint": "Add the hours. If you pass midnight, it is the next day.",
+			"choices": [
+				"05:00 the next day",
+				"05:00 the same day",
+				"11:00",
+				"29:00"
+			],
+			"explain": "20 + 9 = 29. 29 − 24 = 5, so 05:00 the next day.",
+			"picture": {
+				"kind": "digital_clock",
+				"h": 20,
+				"m": 0
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A town is at 60°E. How many hours ahead of Greenwich is its Sun time?",
+			"answer": "4",
+			"hint": "Every 15° of longitude is 1 hour.",
+			"explain": "60 ÷ 15 = 4 hours ahead."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do time zone borders bend?",
+			"answer": 0,
+			"hint": "Would a country like its towns to have different times?",
+			"choices": [
+				"to follow countries' borders",
+				"because Earth is flat",
+				"to go round mountains",
+				"because the Sun bends"
+			],
+			"explain": "Borders bend so a country, or part of one, can keep the same time."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A plane crosses the International Date Line going west. What happens to the date?",
+			"answer": 0,
+			"hint": "Remember: west across the line, a day ahead.",
+			"choices": [
+				"it jumps a day ahead",
+				"it goes back a day",
+				"nothing",
+				"it becomes the year 0"
+			],
+			"explain": "Going west across the Date Line, the calendar jumps a day ahead."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tokyo is 9 hours ahead of London; New York is 5 hours behind London. How many hours ahead of New York is Tokyo?",
+			"answer": "14",
+			"hint": "Count from New York up to London, then on to Tokyo.",
+			"explain": "5 hours from New York to London, then 9 more to Tokyo: 5 + 9 = 14 hours."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "It is 12:00 in London in January. Match each place to its time.",
+			"items": [
+				"Tokyo, 9 hours ahead",
+				"New York, 5 hours behind",
+				"Cairo, 2 hours ahead",
+				"India, 5½ hours ahead"
+			],
+			"matches": [
+				"14:00",
+				"17:30",
+				"21:00",
+				"07:00"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Add the hours for places ahead, and take them away for places behind.",
+			"explain": "Tokyo: 12 + 9 = 21, so 21:00. New York: 12 − 5 = 7, so 07:00. Cairo: 12 + 2 = 14, so 14:00. India: 5½ hours ahead makes 17:30."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5h.time_zone",
+			"level": 1
+		},
+		{
+			"gen": "g5h.time_zone",
+			"level": 2
+		},
+		{
+			"gen": "g5h.time_zone",
+			"level": 3
+		}
+	]
+}

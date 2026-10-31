@@ -1,0 +1,345 @@
+{
+	"id": "g5.health_pe.personal_best",
+	"lesson": [
+		{
+			"text": "Quick memory: what are the four parts of fitness? (Stamina, strength, speed and flexibility.) Today: measuring your own fitness, and planning to improve it."
+		},
+		{
+			"text": "Fitness tests measure each part. Stamina: a bleep test or a timed run. Strength: sit-ups or press-ups in 30 seconds. Speed: a 20 m sprint. Flexibility: the sit and reach."
+		},
+		{
+			"text": "Make each test fair: warm up first, then do it the same way every time, in the same place, and measure carefully. Do it 3 times, and record your best result or the average."
+		},
+		{
+			"text": "Compare yourself with yourself. Your personal best is your best result so far. Everyone starts in a different place and improves at a different speed, so aim to beat your own score, not someone else's."
+		},
+		{
+			"text": "Set a SMART goal: Specific, Measurable, Achievable, Realistic and Time-bound. Not 'get fitter', but 'hold a plank for 60 seconds by the end of term'.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Letter",
+						"Means"
+					],
+					[
+						"S",
+						"Specific"
+					],
+					[
+						"M",
+						"Measurable"
+					],
+					[
+						"A",
+						"Achievable"
+					],
+					[
+						"R",
+						"Realistic"
+					],
+					[
+						"T",
+						"Time-bound"
+					]
+				]
+			}
+		},
+		{
+			"text": "Make a plan: practise 3 times a week, adding a little each week, like 5 more seconds or 2 more skips. Keep a record in a table or a bar chart to see your progress.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"week 1",
+						20
+					],
+					[
+						"week 2",
+						25
+					],
+					[
+						"week 3",
+						25
+					],
+					[
+						"week 4",
+						35
+					]
+				],
+				"step": 5,
+				"top": 40,
+				"name": "skips in 30 seconds"
+			}
+		},
+		{
+			"text": "Help your body improve: rest days let muscles recover and get stronger, and sleep, water and good food all help. If something hurts, stop and tell an adult."
+		},
+		{
+			"text": "Try it in the world: build a fitness trail with a sprint track and a plank mat. For real: choose one test, record your score, set a SMART goal, and test again in 4 weeks."
+		}
+	],
+	"exercises": [
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each fitness test to what it measures.",
+			"items": [
+				"sit and reach",
+				"20 m sprint",
+				"bleep test",
+				"press-ups in 30 seconds"
+			],
+			"matches": [
+				"speed",
+				"stamina",
+				"strength",
+				"flexibility"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "What does each test ask your body to do?",
+			"explain": "Sit and reach: flexibility. Sprint: speed. Bleep test: stamina. Press-ups: strength."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Your personal best is your best result so far.",
+			"answer": true,
+			"hint": "Whose results do you compare?",
+			"explain": "True: it is your own best so far, the score to beat next time."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why should you warm up before a fitness test?",
+			"answer": 0,
+			"hint": "What does a warm-up do to your muscles?",
+			"choices": [
+				"to get your body ready and help stop injuries",
+				"to get tired first",
+				"to beat everyone else",
+				"to skip the test"
+			],
+			"explain": "A warm-up gets your heart, muscles and joints ready, and helps stop injuries."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "To see if you are improving, compare your score with your own last score.",
+			"answer": true,
+			"hint": "Everyone starts in a different place.",
+			"explain": "True: compare yourself with yourself."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which of these is a SMART goal?",
+			"answer": 0,
+			"hint": "A SMART goal can be measured, and has a time.",
+			"choices": [
+				"hold a plank for 60 seconds by half-term",
+				"get better at sport",
+				"be the best in the class",
+				"try hard"
+			],
+			"explain": "'Hold a plank for 60 seconds by half-term': it is specific, can be measured and has a time."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What makes a fitness test fair?",
+			"answer": 0,
+			"hint": "What must stay the same to compare results?",
+			"choices": [
+				"doing it the same way each time",
+				"doing it after a big meal",
+				"changing the distance each time",
+				"only doing it once, ever"
+			],
+			"explain": "Doing it the same way each time: then a better score really means you have improved."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the plan in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You need a starting score before you set a goal.",
+			"items": [
+				"test again and compare",
+				"practise 3 times a week",
+				"set a SMART goal",
+				"test and record your score"
+			],
+			"explain": "Test and record, set a SMART goal, practise, then test again and compare."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Zara ran 20 m three times: 4.8 s, 4.6 s and 4.9 s. What is her best time, in seconds?",
+			"answer": "4.6",
+			"hint": "In a race, is the best time the biggest number or the smallest?",
+			"explain": "4.6 s is the fastest, the smallest time: her personal best."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Rest days are wasted days for fitness.",
+			"answer": false,
+			"hint": "When do muscles recover and get stronger?",
+			"explain": "False: muscles recover and get stronger on rest days, so rest is part of the plan."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Stamina or strength?",
+			"groups": [
+				"stamina",
+				"strength"
+			],
+			"items": [
+				"a long, steady run",
+				"press-ups",
+				"the bleep test",
+				"a plank",
+				"swimming lengths",
+				"squats"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it about keeping going, or about pushing and holding?",
+			"explain": "Stamina: a long run, the bleep test, swimming lengths. Strength: press-ups, a plank, squats."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The graph shows Bram's plank time each week. How many seconds longer was week 4 than week 1?",
+			"answer": "30",
+			"hint": "Read week 1's bar and week 4's bar on the scale, then find the difference.",
+			"explain": "Week 4: 50 seconds. Week 1: 20 seconds. 50 − 20 = 30 seconds longer.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"week 1",
+						20
+					],
+					[
+						"week 2",
+						30
+					],
+					[
+						"week 3",
+						30
+					],
+					[
+						"week 4",
+						50
+					]
+				],
+				"step": 10,
+				"top": 60,
+				"name": "plank, in seconds"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi can hold a plank for 40 seconds and adds 5 seconds each week. When will she reach 60 seconds?",
+			"answer": 0,
+			"hint": "How many more seconds, and how many lots of 5 is that?",
+			"choices": [
+				"after 4 weeks",
+				"after 3 weeks",
+				"after 20 weeks",
+				"after 12 weeks"
+			],
+			"explain": "60 − 40 = 20 more seconds, and 20 ÷ 5 = 4 weeks."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "After 3 weeks, Tilly's sit and reach has not improved. What is the best thing to do?",
+			"answer": 0,
+			"hint": "Plans can be improved, just like designs.",
+			"choices": [
+				"look at the plan, change it and keep going",
+				"give up",
+				"practise 10 times a day, however it feels",
+				"copy a friend's score"
+			],
+			"explain": "Look at the plan, change it (a new stretch, more often), and keep going. Progress can take time."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Getting fitter usually takes weeks of practice, not days.",
+			"answer": true,
+			"hint": "How quickly do muscles and hearts change?",
+			"explain": "True: bodies improve little by little, over weeks, so keep going and keep a record."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram's three standing long jumps were 150 cm, 156 cm and 159 cm. What is the mean (the average), in cm?",
+			"answer": "155",
+			"hint": "Add the three jumps, then share the total by 3.",
+			"explain": "150 + 156 + 159 = 465, and 465 ÷ 3 = 155 cm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the most useful way to see your progress over a term?",
+			"answer": 0,
+			"hint": "What lets you look back and compare?",
+			"choices": [
+				"record every test in a table or a chart",
+				"remember it in your head",
+				"only look at your first test",
+				"ask a friend to guess"
+			],
+			"explain": "A table or a bar chart of every test shows your progress clearly."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.pb_best",
+			"level": 1
+		},
+		{
+			"gen": "g5w.pb_best",
+			"level": 2
+		},
+		{
+			"gen": "g5w.pb_best",
+			"level": 3
+		},
+		{
+			"gen": "g5w.goal_plan",
+			"level": 1
+		},
+		{
+			"gen": "g5w.goal_plan",
+			"level": 2
+		},
+		{
+			"gen": "g5w.goal_plan",
+			"level": 3
+		}
+	]
+}

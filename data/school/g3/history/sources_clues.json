@@ -1,0 +1,339 @@
+{
+	"id": "g3.history.sources_clues",
+	"lesson": [
+		{
+			"text": "Quick memory: which is longer ago, 800 BC or 80 BC? (800 BC: BC years count down.) Now, how do we know anything about times so long ago?"
+		},
+		{
+			"text": "Historians are detectives. Nobody can visit the past, so they look for clues called sources: anything that tells us about the past."
+		},
+		{
+			"text": "A primary source was made or used at the time: a Stone Age axe, an old letter, a photo, a diary or a building. It is a clue from the past itself.",
+			"picture": {
+				"kind": "icon",
+				"block": 136
+			}
+		},
+		{
+			"text": "A secondary source was made later, by someone who was not there, using other sources: a history book, a museum label, a film about the Romans. It helps explain the past, but it is not from that time."
+		},
+		{
+			"text": "Archaeologists dig carefully, layer by layer. The deeper a layer is, the older it usually is, because newer layers settle on top of older ones.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					3,
+					2,
+					2,
+					1
+				],
+				"fossils": {
+					"1": "bone"
+				},
+				"labels": true
+			}
+		},
+		{
+			"text": "Ask an object questions: What is it made of? Who made it, and when? What was it for? What does it tell us about the people who used it?"
+		},
+		{
+			"text": "Sources can disagree, and some tell only one side. Good detectives compare several sources before deciding what probably happened."
+		},
+		{
+			"text": "Try it in the world: fill a chest with three things from today as a time capsule. What would a history detective in 100 years learn from them?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a primary source about the Stone Age?",
+			"answer": 0,
+			"hint": "A primary source comes from the time itself.",
+			"choices": [
+				"a flint axe from a Stone Age camp",
+				"a history book written last year",
+				"a cartoon about cave people",
+				"a museum's website"
+			],
+			"explain": "The flint axe was made and used in the Stone Age, so it is a primary source. The others were made much later."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A history book written this year about the Romans is a primary source.",
+			"answer": false,
+			"hint": "Was the writer there when the Romans lived?",
+			"explain": "False: it was written long after, by someone who was not there, so it is a secondary source."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a source, in history?",
+			"answer": 0,
+			"hint": "Think of what a detective looks for.",
+			"choices": [
+				"a clue that tells us about the past",
+				"a kind of sauce",
+				"a map of the stars",
+				"a made-up story"
+			],
+			"explain": "A source is anything that tells us about the past: an object, a picture, a letter, a building or a book."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "An old photo is a primary source about the day it was taken.",
+			"answer": true,
+			"hint": "Was the photo made at the time it shows?",
+			"explain": "True: the photo was made on that very day, so it is a primary source."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In a dig, which layer is usually the oldest?",
+			"answer": 0,
+			"hint": "Which layer was there first, before the others settled on top of it?",
+			"choices": [
+				"the bottom layer",
+				"the top layer",
+				"the middle layer",
+				"they are all the same age"
+			],
+			"explain": "The bottom layer is usually the oldest: newer layers settle on top of older ones.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					3,
+					2,
+					2,
+					1
+				],
+				"fossils": {
+					"0": "bone"
+				}
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A diary written by a child 100 years ago is a secondary source.",
+			"answer": false,
+			"hint": "Was the child there at the time they wrote about?",
+			"explain": "False: the child wrote it at the time, so it is a primary source."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is a secondary source?",
+			"answer": 0,
+			"hint": "Which one was made much later, by someone who was not there?",
+			"choices": [
+				"a museum label about a Roman coin",
+				"a Roman coin",
+				"a letter written by a Roman",
+				"a Roman building"
+			],
+			"explain": "The museum label was written recently to explain the coin, so it is a secondary source."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a history detective's steps in order.",
+			"answer": [
+				3,
+				0,
+				2,
+				1
+			],
+			"hint": "You need a clue before you can ask about it, and you decide only at the end.",
+			"items": [
+				"ask questions about it",
+				"decide what probably happened",
+				"compare it with other sources",
+				"find a source"
+			],
+			"explain": "Find a source, ask questions about it, compare it with others, then decide what probably happened."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two books give different dates for when a castle was built. What should a detective do?",
+			"answer": 0,
+			"hint": "One source is not enough. What would help you check?",
+			"choices": [
+				"look for more sources and compare them",
+				"pick the book with nicer pictures",
+				"stop looking",
+				"believe the longest book"
+			],
+			"explain": "Look for more sources, such as old records or the castle itself, and compare them."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A letter from 1850 says it rained all summer. What does it tell us for sure?",
+			"answer": 0,
+			"hint": "A source tells us about the person who made it and the place they were.",
+			"choices": [
+				"what the writer thought of that summer",
+				"the weather all over the world",
+				"what next summer was like",
+				"nothing at all"
+			],
+			"explain": "It tells us what that writer saw and thought. To know more, we would compare it with other sources."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Every source tells the whole truth, so one source is always enough.",
+			"answer": false,
+			"hint": "Could a writer have made a mistake, or seen only one side?",
+			"explain": "False: sources can be wrong or tell one side only, so detectives compare several."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara finds an old clay pot in a field. Which is the best detective question?",
+			"answer": 0,
+			"hint": "A good question helps you learn about the people who used it.",
+			"choices": [
+				"Who made it, and what was it for?",
+				"Is it my favourite colour?",
+				"Can I sell it for gold?",
+				"How far can I throw it?"
+			],
+			"explain": "Asking who made it and what it was for tells us about the people of the past."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Archaeologists dig slowly and write down exactly where everything was found.",
+			"answer": true,
+			"hint": "Where an object lies is a clue too.",
+			"explain": "True: the layer and the spot where something lies help show how old it is and how it was used."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these sources: made at the time, or made later?",
+			"groups": [
+				"primary source",
+				"secondary source"
+			],
+			"items": [
+				"a Roman coin",
+				"a history book",
+				"an old diary",
+				"a museum label",
+				"a photo from 1920",
+				"a film made last year"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Ask of each one: was it made or used at the time, or by someone later who was not there?",
+			"explain": "Primary (from the time): the coin, the diary and the photo. Secondary (made later): the book, the label and the film."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Zara finds an old pot. Sort her questions: good detective questions, or not?",
+			"groups": [
+				"good question",
+				"not helpful"
+			],
+			"items": [
+				"What is it made of?",
+				"Who made it, and when?",
+				"Is it pretty?",
+				"What was it used for?",
+				"Can I keep it?"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does the question help you learn about the people of the past?",
+			"explain": "Good questions find out about the past: what it is made of, who made it and when, and what it was for. Whether it is pretty, or can be kept, tells us nothing about the people."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the layers of a dig from the oldest to the newest.",
+			"items": [
+				"a layer with a Roman coin",
+				"today's soil and grass",
+				"a layer with a Stone Age axe",
+				"a layer from castle times"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1
+			],
+			"hint": "The deepest layer is usually the oldest. Which of these times came first?",
+			"explain": "The Stone Age axe lies deepest and is oldest, then the Roman coin, then the castle-time layer, and today's soil is on top: newer layers settle on older ones."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each source to what it can tell us best.",
+			"items": [
+				"a Stone Age axe",
+				"a letter from 1850",
+				"a photo from 1920",
+				"a history book"
+			],
+			"matches": [
+				"a writer's thoughts that year",
+				"how people dressed that day",
+				"how tools were made then",
+				"a summary from many sources"
+			],
+			"answer": [
+				2,
+				0,
+				1,
+				3
+			],
+			"hint": "Ask what kind of clue each one is: an object, words, a picture, or a book written later.",
+			"explain": "An axe shows how tools were made. A letter shows a writer's thoughts that year. A photo shows how people looked and dressed that day. A history book sums up many sources, written later."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the sources about a castle: primary or secondary?",
+			"groups": [
+				"primary",
+				"secondary"
+			],
+			"items": [
+				"the castle's stone walls",
+				"a guidebook from last year",
+				"a knight's letter from 1300",
+				"a film about knights",
+				"a sword found in the moat"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Was it made or used when the castle was busy, or made much later?",
+			"explain": "Primary: the walls, the knight's letter and the sword were there at the time. Secondary: the guidebook and the film were made much later to explain it."
+		}
+	],
+	"generators": []
+}

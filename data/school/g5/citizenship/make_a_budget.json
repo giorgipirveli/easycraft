@@ -1,0 +1,266 @@
+{
+	"id": "g5.citizenship.make_a_budget",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4, what is an opportunity cost? (What you give up when you choose.) A budget helps you choose well before you spend. Today: how to plan money coming in and going out."
+		},
+		{
+			"text": "A budget is a plan for money. It lists money coming in, called income, such as pocket money or pay for jobs, and money going out, called spending. If more goes out than comes in, the plan does not work."
+		},
+		{
+			"text": "A good order: needs first (what you must have, like food), then saving (for goals and surprises), then wants (nice extras). Many people save a part of every income before they spend on wants.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"needs",
+					"saving",
+					"wants"
+				],
+				"title": "A good order"
+			}
+		},
+		{
+			"text": "Bram earns 30 gold a week. His needs cost 12 gold and he saves 8 gold: 30 − 12 = 18, then 18 − 8 = 10 gold is left for wants.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"budget",
+						"gold a week"
+					],
+					[
+						"in: jobs",
+						"30"
+					],
+					[
+						"out: needs",
+						"12"
+					],
+					[
+						"out: saving",
+						"8"
+					],
+					[
+						"out: wants",
+						"?"
+					]
+				]
+			}
+		},
+		{
+			"text": "Some costs are the same every week, like the rent for a stall. Others change, like food. Plan for both, and keep a little spare for surprises, such as a broken tool."
+		},
+		{
+			"text": "A savings goal needs a plan. A 60-gold saddle, saving 8 gold a week: 60 ÷ 8 = 7.5, so it takes 8 weeks. Saving a bit more, or cutting a want, reaches the goal sooner."
+		},
+		{
+			"text": "Small wants add up: 2 gold a day is 2 × 7 = 14 gold a week. Betting games are made so that most players lose more money than they win, so they never belong in a budget."
+		},
+		{
+			"text": "Try it in the world: run a stall for a week of game days. Record the gold coming in and going out on a sign, and save a part of every sale. Next: banks and interest."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a budget?",
+			"answer": 0,
+			"hint": "It lists income and spending.",
+			"choices": [
+				"a plan for money in and out",
+				"a kind of bank",
+				"a big shop",
+				"a coin"
+			],
+			"explain": "A budget is a plan for the money coming in and going out."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should come first in a budget?",
+			"answer": 0,
+			"hint": "What must you have?",
+			"choices": [
+				"needs",
+				"wants",
+				"treats",
+				"presents"
+			],
+			"explain": "Needs come first, then saving, then wants."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Income is money coming in.",
+			"answer": true,
+			"hint": "Pocket money and pay for jobs are examples.",
+			"explain": "True: income is money coming in."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a need?",
+			"answer": 0,
+			"hint": "You must have it to live well.",
+			"choices": [
+				"food",
+				"a new toy boat",
+				"sweets",
+				"a second hat"
+			],
+			"explain": "Food is a need; the others are wants."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A budget works when more money goes out than comes in.",
+			"answer": false,
+			"hint": "What happens when you spend more than you have?",
+			"explain": "False: if more goes out than comes in, the plan does not work."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: need or want?",
+			"groups": [
+				"need",
+				"want"
+			],
+			"items": [
+				"food for the week",
+				"a golden hat",
+				"water",
+				"a second kite",
+				"rent for your stall",
+				"sweets"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Could you manage without it?",
+			"explain": "Needs: food, water, rent. Wants: a golden hat, a second kite, sweets."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Zara earns 25 gold a week. Her needs cost 10 gold and she saves 6 gold. How much is left for wants?",
+			"answer": "9",
+			"hint": "Take away the needs, then the saving.",
+			"explain": "25 − 10 = 15, then 15 − 6 = 9 gold for wants."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why keep a little spare money in a budget?",
+			"answer": 0,
+			"hint": "Things do not always go to plan.",
+			"choices": [
+				"for surprises, like a broken tool",
+				"to throw away",
+				"to make the plan longer",
+				"because banks need it"
+			],
+			"explain": "A little spare helps with surprises, like a tool that breaks."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is a cost that stays the same every week?",
+			"answer": 0,
+			"hint": "Which one never changes?",
+			"choices": [
+				"the rent for a stall",
+				"food that costs more one week",
+				"a surprise repair",
+				"a birthday present"
+			],
+			"explain": "The stall's rent is the same each week; the others change."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bram spends 3 gold a day on treats. How much is that in a week?",
+			"answer": "21",
+			"hint": "A week has 7 days.",
+			"explain": "3 × 7 = 21 gold a week."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi saves 7 gold a week for a 50-gold bridle. How many weeks until she can buy it?",
+			"answer": "8",
+			"hint": "Divide, and if there is a part week left, count it as a whole week.",
+			"explain": "50 ÷ 7 is 7 weeks and 1 gold short, so she needs 8 weeks."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Betting games are made so that most players...",
+			"answer": 0,
+			"hint": "Who designs the game, and who keeps the money?",
+			"choices": [
+				"lose more money than they win",
+				"always win",
+				"win on their birthday",
+				"get their money back"
+			],
+			"explain": "They are made so most players lose more than they win, so they never belong in a budget."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You spent more than your plan this week. What is a sensible change?",
+			"answer": 0,
+			"hint": "Needs must stay; what can change?",
+			"choices": [
+				"cut a want or earn a little more",
+				"stop buying food",
+				"borrow from everyone",
+				"stop writing it down"
+			],
+			"explain": "Cut a want or earn a little more, and keep recording honestly."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Income 40 gold. Needs 15 gold, saving 10 gold and wants 12 gold. How much is left over?",
+			"answer": "3",
+			"hint": "Add up everything going out, then take it from the income.",
+			"explain": "15 + 10 + 12 = 37 gold out. 40 − 37 = 3 gold left over."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why save before spending on wants?",
+			"answer": 0,
+			"hint": "What often happens to money that is left until last?",
+			"choices": [
+				"so saving happens before the money is gone",
+				"wants are always bad",
+				"banks demand it",
+				"saving is a want"
+			],
+			"explain": "If you save first, the saving happens before the money is spent on wants."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5h.budget_plan",
+			"level": 1
+		},
+		{
+			"gen": "g5h.budget_plan",
+			"level": 2
+		},
+		{
+			"gen": "g5h.budget_plan",
+			"level": 3
+		}
+	]
+}

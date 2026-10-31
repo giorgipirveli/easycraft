@@ -1,0 +1,372 @@
+{
+	"id": "g5.citizenship.courage",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4, what is an upstander? (Someone who helps safely when they see bullying.) Standing up takes courage. Today: what courage is, how to use it safely, and when to ask for help."
+		},
+		{
+			"text": "Courage is doing what is right even when you feel afraid. Feeling scared is normal: courage is not having no fear, it is acting well with it. Everyday courage counts too, like trying something new or saying sorry first."
+		},
+		{
+			"text": "Some courage means speaking up: telling the truth when a lie would be easier, or saying 'That's not kind' when others laugh at someone. And asking for help, when you need it, takes courage too."
+		},
+		{
+			"text": "Stand up safely: speak calmly, never fight, stay with friends, and do not put yourself in danger. Could someone get hurt? Is the problem too big for you? Then the brave thing is to get a trusted grown-up at once.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Someone is left out"
+					},
+					{
+						"shape": "decision",
+						"text": "Can I help safely?",
+						"no": "Get a trusted adult"
+					},
+					{
+						"shape": "step",
+						"text": "Speak up calmly"
+					},
+					{
+						"shape": "end",
+						"text": "Invite them in"
+					}
+				]
+			}
+		},
+		{
+			"text": "Friends may push you to do something you feel is wrong, like leaving someone out or taking something. You can say 'No thanks', suggest something else, or walk away. Real friends accept your 'no'.",
+			"picture": {
+				"kind": "chat",
+				"name": "Bram",
+				"messages": [
+					[
+						"them",
+						"Leave Juno out. Just us."
+					],
+					[
+						"me",
+						"No thanks. Juno can join us."
+					],
+					[
+						"them",
+						"OK, fine."
+					]
+				]
+			}
+		},
+		{
+			"text": "Tilly sees two players knock down a newcomer's house and laugh. She says calmly, 'Let's help rebuild it,' and invites the newcomer to join her team. Then she tells a grown-up and uses REPORT in the game. That is safe courage."
+		},
+		{
+			"text": "History has many brave people. In 1955 in the United States, Rosa Parks calmly refused to give up her bus seat, as an unfair law demanded. Her courage helped change such laws. Courage often starts small: one person says 'no', and others join in."
+		},
+		{
+			"text": "Try it in the world: the next time someone is left out of a game, be the first to invite them in. Build a welcome bench where anyone can sit when they want a friend. Next: make a budget."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is courage?",
+			"answer": 0,
+			"hint": "Brave people feel fear too.",
+			"choices": [
+				"doing what is right even when you are afraid",
+				"never feeling afraid",
+				"being the loudest",
+				"winning every fight"
+			],
+			"explain": "Courage is doing what is right even when you feel afraid."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Asking a grown-up for help can be brave.",
+			"answer": true,
+			"hint": "Is it easy to ask for help?",
+			"explain": "True: asking for help, especially with something big, takes courage."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Someone could get hurt. What is the brave and safe thing to do?",
+			"answer": 0,
+			"hint": "If a problem is too big, who can help?",
+			"choices": [
+				"get a trusted grown-up at once",
+				"fight them",
+				"film it",
+				"walk away and tell nobody"
+			],
+			"explain": "Get a trusted grown-up straight away."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Brave people never feel scared.",
+			"answer": false,
+			"hint": "What is courage?",
+			"explain": "False: brave people feel scared too, and act well anyway."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What can you say when friends push you to do something wrong?",
+			"answer": 0,
+			"hint": "You are allowed to say no.",
+			"choices": [
+				"'No thanks, let's do something else.'",
+				"'OK, whatever you say.'",
+				"nothing, just do it",
+				"'Only if I get a prize.'"
+			],
+			"explain": "Say 'No thanks' and suggest something else. Real friends accept it."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: safe courage or unsafe?",
+			"groups": [
+				"safe",
+				"unsafe"
+			],
+			"items": [
+				"calmly saying 'That's not kind'",
+				"hitting the bully",
+				"inviting the left-out player in",
+				"arguing with strangers online",
+				"telling a trusted grown-up",
+				"going somewhere dangerous alone"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it keep everyone, you included, out of danger?",
+			"explain": "Safe: calm words, inviting someone in, telling a grown-up. Unsafe: hitting, arguing with strangers, going somewhere dangerous."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put what Tilly did in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "She helped first, then got help.",
+			"items": [
+				"tells a grown-up and uses REPORT",
+				"invites the newcomer to her team",
+				"says 'Let's help rebuild it'",
+				"stays calm"
+			],
+			"explain": "Calm, kind words, an invitation, then telling a grown-up and REPORT."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is peer pressure?",
+			"answer": 0,
+			"hint": "Peers are people your age.",
+			"choices": [
+				"friends pushing you to do something",
+				"pressure in your ears",
+				"a game rule",
+				"a kind of weather"
+			],
+			"explain": "Peer pressure is when friends or others your age push you to do something."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is everyday courage?",
+			"answer": 0,
+			"hint": "Which one is hard to do but right?",
+			"choices": [
+				"saying sorry first after an argument",
+				"never trying anything new",
+				"copying others",
+				"hiding mistakes"
+			],
+			"explain": "Saying sorry first takes courage."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Real friends accept it when you say no.",
+			"answer": true,
+			"hint": "Would a real friend make you do something wrong?",
+			"explain": "True: real friends respect your 'no'."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In 1955, what did Rosa Parks do that took courage?",
+			"answer": 0,
+			"hint": "It was on a bus in the United States.",
+			"choices": [
+				"calmly refused to give up her bus seat",
+				"won a race",
+				"built a bridge",
+				"wrote a maths book"
+			],
+			"explain": "She calmly refused to give up her seat, and helped change unfair laws."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is getting help sometimes the bravest choice?",
+			"answer": 0,
+			"hint": "Could you stop a big danger on your own?",
+			"choices": [
+				"some problems are too big to fix alone",
+				"grown-ups like being busy",
+				"it means giving up",
+				"it is never brave"
+			],
+			"explain": "Some problems are too big for one child, and asking for help keeps everyone safe."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your friend is being teased online. What helps most?",
+			"answer": 0,
+			"hint": "Help your friend, keep the evidence, and get help.",
+			"choices": [
+				"support your friend, save proof, tell a grown-up",
+				"tease back",
+				"share the messages around",
+				"do nothing"
+			],
+			"explain": "Support your friend, save the messages as proof and tell a trusted grown-up; use REPORT and BLOCK."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does one brave person matter?",
+			"answer": 0,
+			"hint": "Think of Rosa Parks.",
+			"choices": [
+				"others often find the courage to join in",
+				"they win a prize",
+				"nobody notices",
+				"they become famous at once"
+			],
+			"explain": "When one person stands up, others often find the courage to join in."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Standing up for someone means putting yourself in danger.",
+			"answer": false,
+			"hint": "What are the safe ways?",
+			"explain": "False: you can stand up safely with calm words, friends and a trusted grown-up."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"courage",
+				"peer pressure",
+				"an upstander"
+			],
+			"matches": [
+				"someone who helps safely",
+				"pushed by people your age",
+				"doing right even when afraid"
+			],
+			"answer": [
+				2,
+				1,
+				0
+			],
+			"hint": "Courage is about fear; peer pressure is about other people.",
+			"explain": "Courage is doing right when afraid, peer pressure is feeling pushed by others your age, and an upstander helps safely."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Which are everyday courage?",
+			"items": [
+				"trying something new",
+				"saying sorry first",
+				"joining in with teasing",
+				"asking for help"
+			],
+			"groups": [
+				"everyday courage",
+				"not courage"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Which ones take a brave step to do the right thing?",
+			"explain": "Trying something new, saying sorry first and asking for help take courage. Joining in with teasing does not."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each moment to a safe, brave thing to do.",
+			"items": [
+				"friends dare you to take sweets",
+				"a newcomer's house is wrecked",
+				"someone could get hurt",
+				"you broke a friend's model"
+			],
+			"matches": [
+				"get a grown-up at once",
+				"say sorry first",
+				"say 'No thanks' and walk away",
+				"help rebuild, tell a grown-up"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Calm words, no fighting, and a grown-up when it is too big or dangerous.",
+			"explain": "A dare to take sweets: say 'No thanks' and walk away. A wrecked house: help rebuild and tell a grown-up. Someone could get hurt: get a grown-up at once. A broken model: say sorry first."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort them: courage you can show yourself, or a time to get a grown-up at once?",
+			"groups": [
+				"I can do it",
+				"get a grown-up"
+			],
+			"items": [
+				"trying a new sport",
+				"someone is badly hurt",
+				"saying sorry first",
+				"a stranger online asks to meet",
+				"inviting a left-out child",
+				"someone is in danger"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Could someone get hurt? Is it too big for a child alone?",
+			"explain": "You can try a new sport, say sorry first and invite someone in. When someone is hurt or in danger, or a stranger asks to meet, the problem is too big for a child: get a trusted grown-up at once."
+		}
+	]
+}

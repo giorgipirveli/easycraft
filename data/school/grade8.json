@@ -1,0 +1,1753 @@
+{
+	"grade": 8,
+	"ages": "about 13-14",
+	"subjects": [
+		{
+			"id": "maths",
+			"title": "Maths",
+			"framework": "Common Core State Standards for Mathematics",
+			"units": [
+				{
+					"id": "g8.maths.irrational",
+					"title": "Rational and irrational numbers",
+					"standards": [
+						"8.NS.1",
+						"8.NS.2"
+					],
+					"goals": [
+						"Tell rational numbers from irrational ones",
+						"Estimate irrational numbers like √2 on a number line"
+					],
+					"file": "g8/maths/irrational.json"
+				},
+				{
+					"id": "g8.maths.exponents",
+					"title": "Exponent rules",
+					"standards": [
+						"8.EE.1"
+					],
+					"goals": [
+						"Use the rules of integer exponents, like adding exponents when multiplying powers of the same number"
+					],
+					"file": "g8/maths/exponents.json"
+				},
+				{
+					"id": "g8.maths.roots",
+					"title": "Square and cube roots",
+					"standards": [
+						"8.EE.2"
+					],
+					"goals": [
+						"Solve x² = p and x³ = p with square and cube roots"
+					],
+					"file": "g8/maths/roots.json"
+				},
+				{
+					"id": "g8.maths.scientific_notation",
+					"title": "Scientific notation",
+					"standards": [
+						"8.EE.3",
+						"8.EE.4"
+					],
+					"goals": [
+						"Write very big and very small numbers in scientific notation and compute with them"
+					],
+					"file": "g8/maths/scientific_notation.json"
+				},
+				{
+					"id": "g8.maths.slope",
+					"title": "Slope and proportional relationships",
+					"standards": [
+						"8.EE.5",
+						"8.EE.6"
+					],
+					"goals": [
+						"Graph proportional relationships and read the unit rate as the slope",
+						"Explain y = mx + b"
+					],
+					"file": "g8/maths/slope.json"
+				},
+				{
+					"id": "g8.maths.linear_equations",
+					"title": "Linear equations",
+					"standards": [
+						"8.EE.7"
+					],
+					"goals": [
+						"Solve equations with the unknown on both sides",
+						"Tell when an equation has one, no or many solutions"
+					],
+					"file": "g8/maths/linear_equations.json"
+				},
+				{
+					"id": "g8.maths.systems",
+					"title": "Systems of equations",
+					"standards": [
+						"8.EE.8"
+					],
+					"goals": [
+						"Solve two equations together by graphing, substitution and elimination"
+					],
+					"file": "g8/maths/systems.json"
+				},
+				{
+					"id": "g8.maths.functions",
+					"title": "Functions",
+					"standards": [
+						"8.F.1",
+						"8.F.2",
+						"8.F.3"
+					],
+					"goals": [
+						"Explain that a function gives exactly one output for each input",
+						"Tell linear from non-linear functions"
+					],
+					"file": "g8/maths/functions.json"
+				},
+				{
+					"id": "g8.maths.linear_models",
+					"title": "Linear models",
+					"standards": [
+						"8.F.4",
+						"8.F.5"
+					],
+					"goals": [
+						"Build a function for a straight-line relationship and read its rate and its start",
+						"Describe graphs in words"
+					],
+					"file": "g8/maths/linear_models.json"
+				},
+				{
+					"id": "g8.maths.expand_factorise",
+					"title": "Expanding and factorising",
+					"standards": [
+						"SG S2 algebraic expressions, quadratic functions",
+						"UK KS3 algebra"
+					],
+					"goals": [
+						"Expand brackets such as (a + b)² and (a + b)(a − b)",
+						"Factorise simple quadratic expressions",
+						"See the U-shape of y = x²"
+					],
+					"file": "g8/maths/expand_factorise.json"
+				},
+				{
+					"id": "g8.maths.transformations",
+					"title": "Transformations",
+					"standards": [
+						"8.G.1",
+						"8.G.3"
+					],
+					"goals": [
+						"Describe rotations, reflections, translations and dilations with coordinates"
+					],
+					"file": "g8/maths/transformations.json"
+				},
+				{
+					"id": "g8.maths.congruence_similarity",
+					"title": "Congruence and similarity",
+					"standards": [
+						"8.G.2",
+						"8.G.4"
+					],
+					"goals": [
+						"Tell congruent and similar shapes by a sequence of transformations"
+					],
+					"file": "g8/maths/congruence_similarity.json"
+				},
+				{
+					"id": "g8.maths.angle_facts",
+					"title": "Angles in triangles and parallel lines",
+					"standards": [
+						"8.G.5"
+					],
+					"goals": [
+						"Use the angle sum of a triangle and the angles made by parallel lines and a transversal"
+					],
+					"file": "g8/maths/angle_facts.json"
+				},
+				{
+					"id": "g8.maths.pythagoras",
+					"title": "The Pythagorean theorem",
+					"standards": [
+						"8.G.6",
+						"8.G.7",
+						"8.G.8"
+					],
+					"goals": [
+						"Explain the Pythagorean theorem and use it to find lengths and distances"
+					],
+					"file": "g8/maths/pythagoras.json"
+				},
+				{
+					"id": "g8.maths.trig_ratios",
+					"title": "Sine, cosine and tangent",
+					"standards": [
+						"SG S2 trigonometric ratios",
+						"UK KS3 (trigonometric ratios in right-angled triangles)"
+					],
+					"goals": [
+						"Name the sides of a right-angled triangle",
+						"Use sin, cos and tan to find a side or an angle"
+					],
+					"file": "g8/maths/trig_ratios.json"
+				},
+				{
+					"id": "g8.maths.volume",
+					"title": "Volume of cylinders, cones and spheres",
+					"standards": [
+						"8.G.9"
+					],
+					"goals": [
+						"Use the volume formulas for cylinders, cones and spheres"
+					],
+					"file": "g8/maths/volume.json"
+				},
+				{
+					"id": "g8.maths.scatter_plots",
+					"title": "Scatter plots and lines of fit",
+					"standards": [
+						"8.SP.1",
+						"8.SP.2",
+						"8.SP.3"
+					],
+					"goals": [
+						"Make scatter plots and describe their patterns",
+						"Fit a line and use it to predict"
+					],
+					"file": "g8/maths/scatter_plots.json"
+				},
+				{
+					"id": "g8.maths.two_way_tables",
+					"title": "Two-way tables",
+					"standards": [
+						"8.SP.4"
+					],
+					"goals": [
+						"Read and make two-way tables to find patterns of association"
+					],
+					"file": "g8/maths/two_way_tables.json"
+				}
+			]
+		},
+		{
+			"id": "science",
+			"title": "Science",
+			"framework": "Next Generation Science Standards (NGSS)",
+			"units": [
+				{
+					"id": "g8.science.forces_motion",
+					"title": "Forces and motion",
+					"standards": [
+						"MS-PS2-1",
+						"MS-PS2-2"
+					],
+					"goals": [
+						"Use Newton's third law for things that collide",
+						"Explain how forces change motion and how mass matters"
+					],
+					"file": "g8/science/forces_motion.json"
+				},
+				{
+					"id": "g8.science.pressure",
+					"title": "Pressure",
+					"standards": [
+						"UK KS3 (pressure in fluids)"
+					],
+					"goals": [
+						"Explain pressure in solids, liquids and gases",
+						"Explain floating and sinking"
+					],
+					"file": "g8/science/pressure.json"
+				},
+				{
+					"id": "g8.science.kinetic_potential",
+					"title": "Kinetic and potential energy",
+					"standards": [
+						"MS-PS3-1",
+						"MS-PS3-2"
+					],
+					"goals": [
+						"Relate kinetic energy to mass and speed",
+						"Explain how potential energy changes with distance"
+					],
+					"file": "g8/science/kinetic_potential.json"
+				},
+				{
+					"id": "g8.science.energy_bills",
+					"title": "Energy, power and bills",
+					"standards": [
+						"UK KS3 (energy: power ratings, domestic bills)",
+						"citizenship link"
+					],
+					"goals": [
+						"Explain power in watts",
+						"Work out the cost of energy at home",
+						"Find ways to save it"
+					],
+					"file": "g8/science/energy_bills.json"
+				},
+				{
+					"id": "g8.science.hot_cold_reactions",
+					"title": "Hot and cold reactions",
+					"standards": [
+						"UK KS3 (energetics)",
+						"MS-PS1-6"
+					],
+					"goals": [
+						"Tell exothermic from endothermic changes",
+						"Explain uses such as hand warmers and cold packs"
+					],
+					"file": "g8/science/hot_cold_reactions.json"
+				},
+				{
+					"id": "g8.science.circuits_voltage",
+					"title": "Current, voltage and resistance",
+					"standards": [
+						"UK KS3 (electricity)",
+						"SG S2 electrical systems"
+					],
+					"goals": [
+						"Measure current and voltage",
+						"Compare series and parallel circuits",
+						"Explain resistance"
+					],
+					"file": "g8/science/circuits_voltage.json"
+				},
+				{
+					"id": "g8.science.electric_magnetic",
+					"title": "Electricity and magnetism",
+					"standards": [
+						"MS-PS2-3",
+						"MS-PS2-5"
+					],
+					"goals": [
+						"Describe what makes electric and magnetic forces stronger",
+						"Show that fields act at a distance"
+					],
+					"file": "g8/science/electric_magnetic.json"
+				},
+				{
+					"id": "g8.science.waves",
+					"title": "Waves",
+					"standards": [
+						"MS-PS4-1",
+						"MS-PS4-2"
+					],
+					"goals": [
+						"Describe waves by amplitude and wavelength",
+						"Explain how waves are reflected, absorbed or passed through materials"
+					],
+					"file": "g8/science/waves.json"
+				},
+				{
+					"id": "g8.science.digital_signals",
+					"title": "Digital signals",
+					"standards": [
+						"MS-PS4-3"
+					],
+					"goals": [
+						"Explain why digital signals send information more reliably than analogue ones"
+					],
+					"file": "g8/science/digital_signals.json"
+				},
+				{
+					"id": "g8.science.gravity_orbits",
+					"title": "Gravity and orbits",
+					"standards": [
+						"MS-PS2-4",
+						"MS-ESS1-2"
+					],
+					"goals": [
+						"Explain that gravity pulls every mass towards every other and keeps planets and moons in orbit",
+						"Compare gravity on the Moon and the planets"
+					],
+					"file": "g8/science/gravity_orbits.json"
+				},
+				{
+					"id": "g8.science.solar_system",
+					"title": "The solar system",
+					"standards": [
+						"MS-ESS1-3"
+					],
+					"goals": [
+						"Compare the sizes, distances and features of the planets and moons"
+					],
+					"file": "g8/science/solar_system.json"
+				},
+				{
+					"id": "g8.science.moon_seasons",
+					"title": "Moon phases, eclipses and seasons",
+					"standards": [
+						"MS-ESS1-1"
+					],
+					"goals": [
+						"Model the Sun, Earth and Moon to explain Moon phases, eclipses and seasons"
+					],
+					"file": "g8/science/moon_seasons.json"
+				},
+				{
+					"id": "g8.science.transport_systems",
+					"title": "Transport in plants and animals",
+					"standards": [
+						"SG S2 transport systems",
+						"UK KS3 (gas exchange)",
+						"spiral from grade 5"
+					],
+					"goals": [
+						"Explain how water and food move in plants (xylem, phloem)",
+						"Explain how the heart, blood and lungs work together"
+					],
+					"file": "g8/science/transport_systems.json"
+				},
+				{
+					"id": "g8.science.heredity",
+					"title": "Genes and heredity",
+					"standards": [
+						"MS-LS3-1",
+						"MS-LS3-2"
+					],
+					"goals": [
+						"Explain how genes pass from parents to young and why young differ"
+					],
+					"file": "g8/science/heredity.json"
+				},
+				{
+					"id": "g8.science.breeding_genes",
+					"title": "Breeding and genes",
+					"standards": [
+						"MS-LS4-5"
+					],
+					"goals": [
+						"Explain selective breeding",
+						"Describe genetic engineering and the questions it raises"
+					],
+					"file": "g8/science/breeding_genes.json"
+				},
+				{
+					"id": "g8.science.natural_selection",
+					"title": "Natural selection",
+					"standards": [
+						"MS-LS4-4",
+						"MS-LS4-6"
+					],
+					"goals": [
+						"Explain how helpful traits become more common in a population over generations"
+					],
+					"file": "g8/science/natural_selection.json"
+				},
+				{
+					"id": "g8.science.fossil_record",
+					"title": "The fossil record",
+					"standards": [
+						"MS-LS4-1",
+						"MS-LS4-2"
+					],
+					"goals": [
+						"Use fossils and body structures to find patterns in the history of life"
+					],
+					"file": "g8/science/fossil_record.json"
+				}
+			]
+		},
+		{
+			"id": "english",
+			"title": "English",
+			"framework": "Common Core English Language Arts",
+			"units": [
+				{
+					"id": "g8.english.strongest_evidence",
+					"title": "The strongest evidence",
+					"standards": [
+						"RL.8.1, RI.8.1"
+					],
+					"goals": [
+						"Choose the evidence that most strongly supports what you say about a text"
+					],
+					"file": "g8/english/strongest_evidence.json"
+				},
+				{
+					"id": "g8.english.dialogue_incidents",
+					"title": "Dialogue and incidents",
+					"standards": [
+						"RL.8.3"
+					],
+					"goals": [
+						"Explain how lines of dialogue or incidents move a story, show characters or lead to decisions"
+					],
+					"file": "g8/english/dialogue_incidents.json"
+				},
+				{
+					"id": "g8.english.dramatic_irony",
+					"title": "Point of view and dramatic irony",
+					"standards": [
+						"RL.8.6"
+					],
+					"goals": [
+						"Explain how a reader knowing more than a character creates suspense or humour"
+					],
+					"file": "g8/english/dramatic_irony.json"
+				},
+				{
+					"id": "g8.english.old_stories_new",
+					"title": "Old stories, new versions",
+					"standards": [
+						"RL.8.9"
+					],
+					"goals": [
+						"Explain how modern stories draw on myths, traditional tales and older works"
+					],
+					"file": "g8/english/old_stories_new.json"
+				},
+				{
+					"id": "g8.english.comparing_texts",
+					"title": "Comparing texts",
+					"standards": [
+						"RL.8.5",
+						"RI.8.9"
+					],
+					"goals": [
+						"Compare how two texts are built",
+						"Find where two texts disagree about facts"
+					],
+					"file": "g8/english/comparing_texts.json"
+				},
+				{
+					"id": "g8.english.central_ideas",
+					"title": "Central ideas and how they develop",
+					"standards": [
+						"RI.8.2"
+					],
+					"goals": [
+						"Follow how a central idea develops through supporting ideas"
+					],
+					"file": "g8/english/central_ideas.json"
+				},
+				{
+					"id": "g8.english.arguments",
+					"title": "Evaluating arguments",
+					"standards": [
+						"RI.8.8"
+					],
+					"goals": [
+						"Find evidence in an argument that does not belong"
+					],
+					"file": "g8/english/arguments.json"
+				},
+				{
+					"id": "g8.english.verbals",
+					"title": "Gerunds, participles and infinitives",
+					"standards": [
+						"L.8.1a"
+					],
+					"goals": [
+						"Explain what verbals do in a sentence"
+					],
+					"file": "g8/english/verbals.json"
+				},
+				{
+					"id": "g8.english.voice",
+					"title": "Active and passive voice",
+					"standards": [
+						"L.8.1b",
+						"L.8.3a"
+					],
+					"goals": [
+						"Use active and passive voice for effect"
+					],
+					"file": "g8/english/voice.json"
+				},
+				{
+					"id": "g8.english.moods",
+					"title": "Verb moods",
+					"standards": [
+						"L.8.1c",
+						"L.8.1d"
+					],
+					"goals": [
+						"Use the indicative, imperative, interrogative, conditional and subjunctive moods"
+					],
+					"file": "g8/english/moods.json"
+				},
+				{
+					"id": "g8.english.pauses_breaks",
+					"title": "Ellipses and dashes",
+					"standards": [
+						"L.8.2a",
+						"L.8.2b"
+					],
+					"goals": [
+						"Use commas, ellipses and dashes for a pause or a break"
+					],
+					"file": "g8/english/pauses_breaks.json"
+				},
+				{
+					"id": "g8.english.irony_puns",
+					"title": "Irony and puns",
+					"standards": [
+						"L.8.5a"
+					],
+					"goals": [
+						"Explain verbal irony and puns"
+					],
+					"file": "g8/english/irony_puns.json"
+				},
+				{
+					"id": "g8.english.word_relationships",
+					"title": "Word relationships and connotation",
+					"standards": [
+						"L.8.5b",
+						"L.8.5c"
+					],
+					"goals": [
+						"Use relationships between words and their connotations"
+					],
+					"file": "g8/english/word_relationships.json"
+				},
+				{
+					"id": "g8.english.research",
+					"title": "Finding good sources",
+					"standards": [
+						"W.8.8"
+					],
+					"goals": [
+						"Judge which sources can be trusted and quote them correctly"
+					],
+					"file": "g8/english/research.json"
+				},
+				{
+					"id": "g8.english.write_argument",
+					"title": "Argue like a pro",
+					"standards": [
+						"W.8.1"
+					],
+					"goals": [
+						"Tell claims from counterclaims",
+						"Use trustworthy sources",
+						"Write a strong conclusion"
+					],
+					"file": "g8/english/write_argument.json"
+				},
+				{
+					"id": "g8.english.write_informative",
+					"title": "Explain complex ideas",
+					"standards": [
+						"W.8.2"
+					],
+					"goals": [
+						"Organise complex information with headings, graphics and precise words"
+					],
+					"file": "g8/english/write_informative.json"
+				},
+				{
+					"id": "g8.english.write_narrative",
+					"title": "Craft a narrative",
+					"standards": [
+						"W.8.3"
+					],
+					"goals": [
+						"Use flashback, reflection and telling details"
+					],
+					"file": "g8/english/write_narrative.json"
+				},
+				{
+					"id": "g8.english.present_multimedia",
+					"title": "Present with multimedia",
+					"standards": [
+						"SL.8.4, SL.8.5"
+					],
+					"goals": [
+						"Present findings clearly with evidence and well-chosen media"
+					],
+					"file": "g8/english/present_multimedia.json"
+				}
+			]
+		},
+		{
+			"id": "history",
+			"title": "History",
+			"framework": "England's National Curriculum (KS2-KS3) with California world history, Cambridge Humanities and C3",
+			"units": [
+				{
+					"id": "g8.history.industrial_revolution",
+					"title": "The Industrial Revolution",
+					"standards": [
+						"UK KS3 (Britain 1745-1901: the Industrial Revolution)"
+					],
+					"goals": [
+						"Describe steam, factories and railways",
+						"Explain how work and towns changed"
+					],
+					"file": "g8/history/industrial_revolution.json"
+				},
+				{
+					"id": "g8.history.ideas_of_liberty",
+					"title": "Ideas of liberty",
+					"standards": [
+						"UK KS3 (the Enlightenment, American independence, the French revolutionary wars)"
+					],
+					"goals": [
+						"Explain Enlightenment ideas about rights",
+						"Describe the American and French revolutions and what they claimed"
+					],
+					"file": "g8/history/ideas_of_liberty.json",
+					"hard": "the Terror and the revolutionary wars"
+				},
+				{
+					"id": "g8.history.slavery_abolition",
+					"title": "Slavery and abolition",
+					"standards": [
+						"UK KS3 (the transatlantic slave trade: its effects and its eventual abolition)"
+					],
+					"goals": [
+						"Explain the transatlantic slave trade truthfully and with care",
+						"Describe the people who resisted and campaigned to end it"
+					],
+					"file": "g8/history/slavery_abolition.json",
+					"hard": "the transatlantic slave trade and enslavement"
+				},
+				{
+					"id": "g8.history.empires_independence",
+					"title": "Empires and independence",
+					"standards": [
+						"UK KS3 (Indian independence and the end of Empire)"
+					],
+					"goals": [
+						"Explain how empires grew",
+						"Describe how countries such as India won independence"
+					],
+					"file": "g8/history/empires_independence.json",
+					"hard": "empire, the Bengal famine and the violence of partition"
+				},
+				{
+					"id": "g8.history.votes_for_all",
+					"title": "Votes for all",
+					"standards": [
+						"UK KS3 (women's suffrage)",
+						"citizenship link"
+					],
+					"goals": [
+						"Describe the campaign for women's votes and the growth of voting rights"
+					],
+					"file": "g8/history/votes_for_all.json"
+				},
+				{
+					"id": "g8.history.first_world_war",
+					"title": "The First World War",
+					"standards": [
+						"UK KS3 (the First World War)"
+					],
+					"goals": [
+						"Explain why it began",
+						"Describe life on the home front",
+						"Explain why we remember"
+					],
+					"file": "g8/history/first_world_war.json",
+					"hard": "the First World War's battles and deaths"
+				},
+				{
+					"id": "g8.history.second_world_war",
+					"title": "The Second World War",
+					"standards": [
+						"UK KS3 (the Second World War)"
+					],
+					"goals": [
+						"Explain its causes",
+						"Describe evacuation and the home front",
+						"Explain how it ended and why we remember"
+					],
+					"file": "g8/history/second_world_war.json",
+					"hard": "the Second World War, the Blitz, Hiroshima and Nagasaki"
+				},
+				{
+					"id": "g8.history.holocaust_remembrance",
+					"title": "The Holocaust: remembering",
+					"standards": [
+						"UK KS3 (the Holocaust)"
+					],
+					"goals": [
+						"Explain how prejudice grew into the persecution and murder of Europe's Jews and others",
+						"Remember the victims and the rescuers",
+						"Explain why we remember"
+					],
+					"file": "g8/history/holocaust_remembrance.json",
+					"hard": "the Holocaust: persecution and murder of Europe's Jews"
+				},
+				{
+					"id": "g8.history.building_peace",
+					"title": "Building peace and rights",
+					"standards": [
+						"UK KS3 (Britain's place in the world since 1945)",
+						"UDHR",
+						"citizenship link"
+					],
+					"goals": [
+						"Describe the United Nations and the Universal Declaration of Human Rights",
+						"Describe civil rights movements"
+					],
+					"file": "g8/history/building_peace.json",
+					"hard": "segregation, apartheid and the struggle for civil rights"
+				},
+				{
+					"id": "g8.history.space_digital_age",
+					"title": "From the space race to the digital age",
+					"standards": [
+						"UK KS3 (social change since 1945)",
+						"CAM Hum Past",
+						"roadmap §2"
+					],
+					"goals": [
+						"Describe the Moon landing, computers and the internet",
+						"Explain how technology changed daily life"
+					],
+					"file": "g8/history/space_digital_age.json"
+				}
+			]
+		},
+		{
+			"id": "geography",
+			"title": "Geography",
+			"framework": "England's National Curriculum (KS2-KS3) with Cambridge Humanities and C3",
+			"units": [
+				{
+					"id": "g8.geography.climate_change",
+					"title": "Climate change",
+					"standards": [
+						"UK KS3 (climate change)",
+						"science link"
+					],
+					"goals": [
+						"Describe the evidence, causes and effects",
+						"Describe what people are doing about it"
+					],
+					"file": "g8/geography/climate_change.json"
+				},
+				{
+					"id": "g8.geography.development",
+					"title": "Development",
+					"standards": [
+						"UK KS3 (international development)"
+					],
+					"goals": [
+						"Measure development (life expectancy, schooling, income)",
+						"Explain why it differs"
+					],
+					"file": "g8/geography/development.json"
+				},
+				{
+					"id": "g8.geography.connected_world",
+					"title": "A connected world",
+					"standards": [
+						"UK KS3 (global trade)",
+						"C3 D2.Geo.11.6-8"
+					],
+					"goals": [
+						"Explain globalisation through trade, travel and communication"
+					],
+					"file": "g8/geography/connected_world.json"
+				},
+				{
+					"id": "g8.geography.energy_for_the_world",
+					"title": "Energy for the world",
+					"standards": [
+						"UK KS3 (use of natural resources)"
+					],
+					"goals": [
+						"Compare fossil fuels and renewables",
+						"Explain where energy comes from"
+					],
+					"file": "g8/geography/energy_for_the_world.json"
+				},
+				{
+					"id": "g8.geography.feeding_the_world",
+					"title": "Feeding the world",
+					"standards": [
+						"UK KS3 (natural resources)",
+						"CAM GP"
+					],
+					"goals": [
+						"Compare farming systems",
+						"Explain food miles and water for farming"
+					],
+					"file": "g8/geography/feeding_the_world.json"
+				},
+				{
+					"id": "g8.geography.future_cities",
+					"title": "Cities of the future",
+					"standards": [
+						"UK KS3 (urbanisation)"
+					],
+					"goals": [
+						"Explain the challenges of megacities: transport, housing, green spaces"
+					],
+					"file": "g8/geography/future_cities.json"
+				},
+				{
+					"id": "g8.geography.tourism",
+					"title": "Tourism",
+					"standards": [
+						"UK KS3 human geography"
+					],
+					"goals": [
+						"Weigh the good and bad effects of tourism",
+						"Explain sustainable tourism"
+					],
+					"file": "g8/geography/tourism.json"
+				},
+				{
+					"id": "g8.geography.oceans",
+					"title": "Oceans and seas",
+					"standards": [
+						"UK KS3 physical geography",
+						"CAM GP",
+						"SDGs"
+					],
+					"goals": [
+						"Explain currents and marine life",
+						"Describe the problem of plastic"
+					],
+					"file": "g8/geography/oceans.json"
+				},
+				{
+					"id": "g8.geography.map_projections",
+					"title": "Maps of the world",
+					"standards": [
+						"UK KS3 skills",
+						"C3 D2.Geo.1.6-8"
+					],
+					"goals": [
+						"Explain why every flat map stretches the globe",
+						"Choose a projection for a purpose"
+					],
+					"file": "g8/geography/map_projections.json"
+				},
+				{
+					"id": "g8.geography.gis_investigation",
+					"title": "A GIS investigation",
+					"standards": [
+						"UK KS3 (GIS)"
+					],
+					"goals": [
+						"Answer a real question with layered maps and data"
+					],
+					"file": "g8/geography/gis_investigation.json"
+				}
+			]
+		},
+		{
+			"id": "citizenship",
+			"title": "Citizenship",
+			"framework": "England's citizenship, C3 civics and economics, Jump$tart, Japan's and Finland's ethics",
+			"units": [
+				{
+					"id": "g8.citizenship.democracies_compared",
+					"title": "Democracies compared",
+					"standards": [
+						"UK KS3 (political system)",
+						"C3 D2.Civ.4.6-8"
+					],
+					"goals": [
+						"Compare how different democracies elect leaders and make laws"
+					],
+					"file": "g8/citizenship/democracies_compared.json"
+				},
+				{
+					"id": "g8.citizenship.your_voice",
+					"title": "Your voice",
+					"standards": [
+						"UK KS3 (school-based activities)",
+						"C3 D4.8.6-8"
+					],
+					"goals": [
+						"Describe how young people take part: school councils, youth councils, consultations"
+					],
+					"file": "g8/citizenship/your_voice.json"
+				},
+				{
+					"id": "g8.citizenship.young_people_law",
+					"title": "Young people and the law",
+					"standards": [
+						"UK KS3 (rules and laws)"
+					],
+					"goals": [
+						"Explain age limits, rights and duties in law (they differ between countries)"
+					],
+					"file": "g8/citizenship/young_people_law.json"
+				},
+				{
+					"id": "g8.citizenship.fairness_for_all",
+					"title": "Fairness for all",
+					"standards": [
+						"UK KS3 (liberties)",
+						"RSHE",
+						"CASEL social awareness"
+					],
+					"goals": [
+						"Explain equality and discrimination",
+						"Challenge prejudice safely"
+					],
+					"file": "g8/citizenship/fairness_for_all.json"
+				},
+				{
+					"id": "g8.citizenship.public_services",
+					"title": "Paying for public services",
+					"standards": [
+						"UK KS3",
+						"C3 D2.Eco.12.6-8"
+					],
+					"goals": [
+						"Explain taxes and public spending",
+						"Explain that governments must choose (no party positions)"
+					],
+					"file": "g8/citizenship/public_services.json"
+				},
+				{
+					"id": "g8.citizenship.life_budget",
+					"title": "Budget like a grown-up",
+					"standards": [
+						"J$ SP 8",
+						"UK KS3 (budgeting)"
+					],
+					"goals": [
+						"Make a monthly budget with income, bills, saving and fun"
+					],
+					"file": "g8/citizenship/life_budget.json"
+				},
+				{
+					"id": "g8.citizenship.credit_debt",
+					"title": "Credit and debt",
+					"standards": [
+						"J$ MC 8"
+					],
+					"goals": [
+						"Explain loans, interest and credit scores",
+						"Avoid debt problems"
+					],
+					"file": "g8/citizenship/credit_debt.json"
+				},
+				{
+					"id": "g8.citizenship.investing_risk",
+					"title": "Investing and risk",
+					"standards": [
+						"J$ IN 8",
+						"UK KS3 (managing risk)"
+					],
+					"goals": [
+						"Compare shares, bonds and savings",
+						"Explain spreading risk and long-term growth"
+					],
+					"file": "g8/citizenship/investing_risk.json"
+				},
+				{
+					"id": "g8.citizenship.consumer_rights",
+					"title": "Consumer rights",
+					"standards": [
+						"J$ SP 8"
+					],
+					"goals": [
+						"Know your rights when you buy something",
+						"Make a complaint or return politely"
+					],
+					"file": "g8/citizenship/consumer_rights.json"
+				},
+				{
+					"id": "g8.citizenship.global_goals_action",
+					"title": "Global goals in action",
+					"standards": [
+						"CAM GP",
+						"IB MYP service",
+						"FI L7",
+						"SDGs"
+					],
+					"goals": [
+						"Choose one Sustainable Development Goal",
+						"Plan and review an action"
+					],
+					"file": "g8/citizenship/global_goals_action.json"
+				},
+				{
+					"id": "g8.citizenship.technology_ethics",
+					"title": "Big questions about technology",
+					"standards": [
+						"FI ethics",
+						"P4C",
+						"CSTA 2-IC-20, 2-IC-21"
+					],
+					"goals": [
+						"Weigh reasons on different sides about AI, privacy and fairness"
+					],
+					"file": "g8/citizenship/technology_ethics.json"
+				}
+			]
+		},
+		{
+			"id": "computing",
+			"title": "Computing",
+			"framework": "England's computing with CSTA, Cambridge Computing and Digital Literacy, Estonia and Korea",
+			"units": [
+				{
+					"id": "g8.computing.bigger_programs",
+					"title": "Build a bigger program",
+					"standards": [
+						"UK KS3 (modular programs)",
+						"CSTA 2-AP-13, 2-AP-14"
+					],
+					"goals": [
+						"Plan a program in modules",
+						"Combine functions into a working whole"
+					],
+					"file": "g8/computing/bigger_programs.json"
+				},
+				{
+					"id": "g8.computing.compare_algorithms",
+					"title": "Comparing algorithms",
+					"standards": [
+						"UK KS3 (compare the utility of algorithms)"
+					],
+					"goals": [
+						"Count the steps an algorithm takes",
+						"Choose the better algorithm for a job"
+					],
+					"file": "g8/computing/compare_algorithms.json"
+				},
+				{
+					"id": "g8.computing.models_abstraction",
+					"title": "Models and abstraction",
+					"standards": [
+						"UK KS3 (computational abstractions)",
+						"CSTA 2-DA-09"
+					],
+					"goals": [
+						"Model a real system (traffic, an ecosystem) keeping only what matters"
+					],
+					"file": "g8/computing/models_abstraction.json"
+				},
+				{
+					"id": "g8.computing.how_code_runs",
+					"title": "How a computer runs code",
+					"standards": [
+						"UK KS3 (how instructions are stored and executed)"
+					],
+					"goals": [
+						"Explain fetch, decode and execute",
+						"Explain memory and machine code"
+					],
+					"file": "g8/computing/how_code_runs.json"
+				},
+				{
+					"id": "g8.computing.data_as_bits",
+					"title": "Text, sound and pictures as bits",
+					"standards": [
+						"UK KS3 (data representation)",
+						"CSTA 2-DA-07"
+					],
+					"goals": [
+						"Explain character codes, sound sampling and image file sizes"
+					],
+					"file": "g8/computing/data_as_bits.json"
+				},
+				{
+					"id": "g8.computing.logic_gates",
+					"title": "Logic gates",
+					"standards": [
+						"UK KS3 (Boolean logic in circuits)"
+					],
+					"goals": [
+						"Use AND, OR and NOT gates in circuits"
+					],
+					"file": "g8/computing/logic_gates.json"
+				},
+				{
+					"id": "g8.computing.databases",
+					"title": "Databases",
+					"standards": [
+						"UK KS3 (data)",
+						"CSTA 2-DA-08"
+					],
+					"goals": [
+						"Use tables, records and fields",
+						"Write simple queries"
+					],
+					"file": "g8/computing/databases.json"
+				},
+				{
+					"id": "g8.computing.machine_learning",
+					"title": "How machines learn",
+					"standards": [
+						"KR 2022 (AI literacy)",
+						"CSTA 2-IC-21"
+					],
+					"goals": [
+						"Explain training data and patterns",
+						"Explain how bias gets in"
+					],
+					"file": "g8/computing/machine_learning.json"
+				},
+				{
+					"id": "g8.computing.cyber_security",
+					"title": "Cyber security",
+					"standards": [
+						"UK KS3 (securely)",
+						"CSTA 2-NI-05"
+					],
+					"goals": [
+						"Describe malware, phishing and tricks people use",
+						"Stay secure"
+					],
+					"file": "g8/computing/cyber_security.json"
+				},
+				{
+					"id": "g8.computing.design_for_users",
+					"title": "Design for users",
+					"standards": [
+						"UK KS3 (design and usability)",
+						"CSTA 2-AP-15"
+					],
+					"goals": [
+						"Make programs usable and accessible",
+						"Test them with users"
+					],
+					"file": "g8/computing/design_for_users.json"
+				},
+				{
+					"id": "g8.computing.computing_society",
+					"title": "Computing and society",
+					"standards": [
+						"CSTA 2-IC-20",
+						"UK KS3"
+					],
+					"goals": [
+						"Explain how computing changes jobs, the environment and the law"
+					],
+					"file": "g8/computing/computing_society.json"
+				}
+			]
+		},
+		{
+			"id": "art",
+			"title": "Art and Design",
+			"framework": "England's Art and Design with the National Core Arts Standards and Cambridge",
+			"units": [
+				{
+					"id": "g8.art.impressionism",
+					"title": "Impressionism and light",
+					"standards": [
+						"UK KS3 (history of art)"
+					],
+					"goals": [
+						"Paint light and moments like Monet and Morisot"
+					],
+					"file": "g8/art/impressionism.json"
+				},
+				{
+					"id": "g8.art.modern_movements",
+					"title": "Modern art movements",
+					"standards": [
+						"UK KS3 (major movements)"
+					],
+					"goals": [
+						"Explain the ideas of Cubism, Surrealism and Pop Art"
+					],
+					"file": "g8/art/modern_movements.json"
+				},
+				{
+					"id": "g8.art.art_and_technology",
+					"title": "Art and new technology",
+					"standards": [
+						"NCAS MA:Cn",
+						"UK KS3"
+					],
+					"goals": [
+						"Explain how photography, film and digital tools changed art"
+					],
+					"file": "g8/art/art_and_technology.json"
+				},
+				{
+					"id": "g8.art.identity_art",
+					"title": "Art about identity",
+					"standards": [
+						"NCAS VA:Cr1 (gr 8)",
+						"CAM A&D Stage 9"
+					],
+					"goals": [
+						"Make a self-portrait that shows who you are"
+					],
+					"file": "g8/art/identity_art.json"
+				},
+				{
+					"id": "g8.art.public_art",
+					"title": "Public art and murals",
+					"standards": [
+						"NCAS VA:Cn11"
+					],
+					"goals": [
+						"Design a mural or monument for a community"
+					],
+					"file": "g8/art/public_art.json"
+				},
+				{
+					"id": "g8.art.designing_objects",
+					"title": "Designing objects",
+					"standards": [
+						"UK KS3 (history of design)"
+					],
+					"goals": [
+						"Explain form and function in chairs, lamps and phones"
+					],
+					"file": "g8/art/designing_objects.json"
+				},
+				{
+					"id": "g8.art.animation",
+					"title": "Animation",
+					"standards": [
+						"NCAS MA:Cr",
+						"UK KS3"
+					],
+					"goals": [
+						"Make a short flip-book or stop-motion animation with good timing"
+					],
+					"file": "g8/art/animation.json"
+				},
+				{
+					"id": "g8.art.installation",
+					"title": "Sculpture and installation",
+					"standards": [
+						"UK KS3 materials"
+					],
+					"goals": [
+						"Plan a large 3D work that fills a space"
+					],
+					"file": "g8/art/installation.json"
+				},
+				{
+					"id": "g8.art.exhibition",
+					"title": "Your exhibition",
+					"standards": [
+						"NCAS VA:Pr4, VA:Pr5, VA:Pr6",
+						"UK KS3 evaluate"
+					],
+					"goals": [
+						"Plan and curate an exhibition with statements"
+					],
+					"file": "g8/art/exhibition.json"
+				}
+			]
+		},
+		{
+			"id": "music",
+			"title": "Music",
+			"framework": "England's Music with the National Core Arts Standards",
+			"units": [
+				{
+					"id": "g8.music.romantic_era",
+					"title": "Romantic music",
+					"standards": [
+						"UK KS3 (history of music)"
+					],
+					"goals": [
+						"Describe big feelings and big orchestras (Chopin, Tchaikovsky)"
+					],
+					"file": "g8/music/romantic_era.json"
+				},
+				{
+					"id": "g8.music.twentieth_century",
+					"title": "Music of the 20th century",
+					"standards": [
+						"UK KS3 (styles and genres)"
+					],
+					"goals": [
+						"Describe jazz, minimalism and electronic music"
+					],
+					"file": "g8/music/twentieth_century.json"
+				},
+				{
+					"id": "g8.music.jazz_improvise",
+					"title": "Jazz and improvising",
+					"standards": [
+						"UK KS3 (improvise)"
+					],
+					"goals": [
+						"Swing a rhythm",
+						"Improvise with call and response"
+					],
+					"file": "g8/music/jazz_improvise.json"
+				},
+				{
+					"id": "g8.music.produce_a_track",
+					"title": "Produce a track",
+					"standards": [
+						"UK KS3 (music technology)",
+						"NCAS MA:Pr"
+					],
+					"goals": [
+						"Arrange, mix and finish a track in the game's studio"
+					],
+					"file": "g8/music/produce_a_track.json"
+				},
+				{
+					"id": "g8.music.arranging",
+					"title": "Arranging",
+					"standards": [
+						"UK KS3 (compose)",
+						"NCAS MU:Cr2"
+					],
+					"goals": [
+						"Arrange a melody for different instruments"
+					],
+					"file": "g8/music/arranging.json"
+				},
+				{
+					"id": "g8.music.music_identity",
+					"title": "Music and identity",
+					"standards": [
+						"NCAS MU:Cn11",
+						"UK KS3"
+					],
+					"goals": [
+						"Explain how music expresses culture and community"
+					],
+					"file": "g8/music/music_identity.json"
+				},
+				{
+					"id": "g8.music.big_forms",
+					"title": "Big musical forms",
+					"standards": [
+						"UK KS3"
+					],
+					"goals": [
+						"Describe the symphony, concerto, opera and musical"
+					],
+					"file": "g8/music/big_forms.json"
+				},
+				{
+					"id": "g8.music.sight_reading",
+					"title": "Sight-reading",
+					"standards": [
+						"UK KS3 (notation)"
+					],
+					"goals": [
+						"Read and play a short piece at first sight"
+					],
+					"file": "g8/music/sight_reading.json"
+				},
+				{
+					"id": "g8.music.composition_project",
+					"title": "Composition project",
+					"standards": [
+						"UK KS3 (compose)"
+					],
+					"goals": [
+						"Compose a piece with a clear structure, harmony and purpose"
+					],
+					"file": "g8/music/composition_project.json"
+				}
+			]
+		},
+		{
+			"id": "health_pe",
+			"title": "Health and PE",
+			"framework": "England's PE and health education, SHAPE America, the National Health Education Standards and CASEL",
+			"units": [
+				{
+					"id": "g8.health_pe.game_strategy",
+					"title": "Game strategy",
+					"standards": [
+						"UK KS3 games",
+						"SHAPE S2 (gr 8)"
+					],
+					"goals": [
+						"Read a game and change tactics"
+					],
+					"file": "g8/health_pe/game_strategy.json"
+				},
+				{
+					"id": "g8.health_pe.fitness_testing",
+					"title": "Fitness testing",
+					"standards": [
+						"SHAPE S2"
+					],
+					"goals": [
+						"Test the parts of fitness and understand the results"
+					],
+					"file": "g8/health_pe/fitness_testing.json"
+				},
+				{
+					"id": "g8.health_pe.active_for_life",
+					"title": "Active for life",
+					"standards": [
+						"UK KS3 (community links)",
+						"SHAPE S4"
+					],
+					"goals": [
+						"Find activities you enjoy for life",
+						"Find clubs in your community"
+					],
+					"file": "g8/health_pe/active_for_life.json"
+				},
+				{
+					"id": "g8.health_pe.mental_health_support",
+					"title": "Looking after mental health",
+					"standards": [
+						"RSHE mental wellbeing",
+						"NHES 1, 3, 8"
+					],
+					"goals": [
+						"Know the signs of anxiety and low mood",
+						"Use strategies",
+						"Know where to get help"
+					],
+					"file": "g8/health_pe/mental_health_support.json"
+				},
+				{
+					"id": "g8.health_pe.bouncing_back",
+					"title": "Bouncing back",
+					"standards": [
+						"CASEL",
+						"CAM Wellbeing"
+					],
+					"goals": [
+						"Build resilience",
+						"Learn from setbacks"
+					],
+					"file": "g8/health_pe/bouncing_back.json"
+				},
+				{
+					"id": "g8.health_pe.respect_online",
+					"title": "Respect online",
+					"standards": [
+						"RSHE online and media"
+					],
+					"goals": [
+						"Keep relationships online respectful",
+						"Never share private pictures and ask for help if pressured"
+					],
+					"file": "g8/health_pe/respect_online.json"
+				},
+				{
+					"id": "g8.health_pe.gambling_harms",
+					"title": "Chance, gambling and spending",
+					"standards": [
+						"RSHE (gambling harms)",
+						"J$ MR 8"
+					],
+					"goals": [
+						"Explain how gambling and paying for chance-based rewards can harm",
+						"Know where to get help"
+					],
+					"file": "g8/health_pe/gambling_harms.json"
+				},
+				{
+					"id": "g8.health_pe.pressure_and_substances",
+					"title": "Alcohol, drugs and peer pressure",
+					"standards": [
+						"RSHE drugs, alcohol, tobacco and vaping",
+						"NHES 5"
+					],
+					"goals": [
+						"Explain the risks and the law",
+						"Practise saying no"
+					],
+					"file": "g8/health_pe/pressure_and_substances.json"
+				},
+				{
+					"id": "g8.health_pe.cpr_defibrillator",
+					"title": "CPR and defibrillators",
+					"standards": [
+						"RSHE basic first aid (CPR, defibrillators)"
+					],
+					"goals": [
+						"Know the steps of CPR and how a defibrillator helps (practise hands-on with a trained adult)"
+					],
+					"file": "g8/health_pe/cpr_defibrillator.json"
+				},
+				{
+					"id": "g8.health_pe.health_campaign",
+					"title": "Speak up for health",
+					"standards": [
+						"NHES 8"
+					],
+					"goals": [
+						"Plan a health campaign for your school"
+					],
+					"file": "g8/health_pe/health_campaign.json"
+				},
+				{
+					"id": "g8.health_pe.digital_balance",
+					"title": "Digital balance",
+					"standards": [
+						"RSHE",
+						"CAM Wellbeing"
+					],
+					"goals": [
+						"Balance screen time, sleep and focus"
+					],
+					"file": "g8/health_pe/digital_balance.json"
+				}
+			]
+		},
+		{
+			"id": "design_tech",
+			"title": "Design and Technology",
+			"framework": "England's Design and Technology with Finland's, Estonia's and Japan's crafts and home economics",
+			"units": [
+				{
+					"id": "g8.design_tech.brief_to_product",
+					"title": "From brief to product",
+					"standards": [
+						"UK KS3 design"
+					],
+					"goals": [
+						"Write a design brief and specification",
+						"Plan the making"
+					],
+					"file": "g8/design_tech/brief_to_product.json"
+				},
+				{
+					"id": "g8.design_tech.smart_materials",
+					"title": "Smart and modern materials",
+					"standards": [
+						"UK KS3 (new and emerging technologies)"
+					],
+					"goals": [
+						"Describe shape-memory, colour-changing and composite materials"
+					],
+					"file": "g8/design_tech/smart_materials.json"
+				},
+				{
+					"id": "g8.design_tech.programmable_product",
+					"title": "A programmable product",
+					"standards": [
+						"UK KS3 (microcontrollers)",
+						"computing link"
+					],
+					"goals": [
+						"Build a product with sensors, outputs and a program"
+					],
+					"file": "g8/design_tech/programmable_product.json"
+				},
+				{
+					"id": "g8.design_tech.mechanical_advantage",
+					"title": "Mechanical advantage",
+					"standards": [
+						"UK KS3 mechanical systems",
+						"maths link"
+					],
+					"goals": [
+						"Calculate gear ratios and pulley advantage"
+					],
+					"file": "g8/design_tech/mechanical_advantage.json"
+				},
+				{
+					"id": "g8.design_tech.big_structures",
+					"title": "Engineering big structures",
+					"standards": [
+						"UK KS3 structures",
+						"science link"
+					],
+					"goals": [
+						"Explain how towers and bridges stand up to wind and earthquakes"
+					],
+					"file": "g8/design_tech/big_structures.json"
+				},
+				{
+					"id": "g8.design_tech.nutrition_for_life",
+					"title": "Nutrition for life",
+					"standards": [
+						"UK KS3 cooking and nutrition"
+					],
+					"goals": [
+						"Explain macronutrients and micronutrients",
+						"Plan for special diets"
+					],
+					"file": "g8/design_tech/nutrition_for_life.json"
+				},
+				{
+					"id": "g8.design_tech.food_production",
+					"title": "How food is produced",
+					"standards": [
+						"UK KS3",
+						"FI home economics"
+					],
+					"goals": [
+						"Explain how food is grown, processed and transported sustainably"
+					],
+					"file": "g8/design_tech/food_production.json"
+				},
+				{
+					"id": "g8.design_tech.circular_design",
+					"title": "Circular design",
+					"standards": [
+						"UK KS3",
+						"FI sustainable craft"
+					],
+					"goals": [
+						"Design for repair, reuse and recycling"
+					],
+					"file": "g8/design_tech/circular_design.json"
+				},
+				{
+					"id": "g8.design_tech.future_tech",
+					"title": "Future technology",
+					"standards": [
+						"UK KS3 (emerging technologies)"
+					],
+					"goals": [
+						"Explain emerging technologies and their effects",
+						"Design responsibly"
+					],
+					"file": "g8/design_tech/future_tech.json"
+				}
+			]
+		},
+		{
+			"id": "projects",
+			"title": "Projects",
+			"framework": "Finland's modules, Japan's integrated study, the IB and Cambridge Global Perspectives",
+			"units": [
+				{
+					"id": "g8.projects.invention_expo",
+					"title": "An invention expo",
+					"standards": [
+						"design_tech programmable_product",
+						"computing bigger_programs",
+						"english present_multimedia",
+						"IB MYP personal project"
+					],
+					"goals": [
+						"Invent a product with sensors and a program, test it and present it at an expo"
+					],
+					"file": "g8/projects/invention_expo.json"
+				},
+				{
+					"id": "g8.projects.history_documentary",
+					"title": "A history documentary",
+					"standards": [
+						"history (any grade 8 unit)",
+						"english write_informative",
+						"art animation",
+						"CAM GP"
+					],
+					"goals": [
+						"Make a short animated documentary about a turning point in modern history"
+					],
+					"file": "g8/projects/history_documentary.json"
+				},
+				{
+					"id": "g8.projects.global_goal_campaign",
+					"title": "A global goal campaign",
+					"standards": [
+						"citizenship global_goals_action",
+						"geography climate_change",
+						"maths scatter_plots",
+						"FI multidisciplinary module",
+						"IB MYP community project"
+					],
+					"goals": [
+						"Pick a global goal, gather data, chart it and plan an action"
+					],
+					"file": "g8/projects/global_goal_campaign.json"
+				}
+			]
+		}
+	]
+}

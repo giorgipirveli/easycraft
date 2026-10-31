@@ -1,0 +1,462 @@
+{
+	"id": "g8.music.produce_a_track",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7, what does a fader on a mixing desk set? (How loud each part is in the mix.) Today: producing a track: arranging it, mixing it and finishing it."
+		},
+		{
+			"text": "A track is built in layers: drums for the beat, a bass line, chords and a melody on top. In the game, the Xylophone's LOOP counts in a bar, records 4 bars at 100 beats a minute and plays them round.",
+			"picture": {
+				"kind": "tracks",
+				"tracks": [
+					[
+						"drums",
+						[
+							[
+								0,
+								4
+							]
+						]
+					],
+					[
+						"bass",
+						[
+							[
+								0,
+								4
+							]
+						]
+					],
+					[
+						"chords",
+						[
+							[
+								1,
+								3
+							]
+						]
+					],
+					[
+						"melody",
+						[
+							[
+								2,
+								2
+							]
+						]
+					]
+				],
+				"bars": 4
+			}
+		},
+		{
+			"text": "Arranging plans the whole track: an intro, verses and choruses, a build, a break and an ending. Layers come in and drop out, so the music keeps moving.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"intro",
+					"verse",
+					"chorus",
+					"verse",
+					"chorus",
+					"outro"
+				]
+			}
+		},
+		{
+			"text": "Mixing balances the layers: faders set how loud each part is, and panning places it to the left or the right. The melody or the voice usually sits in the middle, a little louder.",
+			"picture": {
+				"kind": "mixer",
+				"faders": [
+					[
+						"drums",
+						6
+					],
+					[
+						"bass",
+						5
+					],
+					[
+						"chords",
+						4
+					],
+					[
+						"melody",
+						8
+					]
+				]
+			}
+		},
+		{
+			"text": "EQ turns frequency bands up or down: bass sounds live in the low band, voices in the middle, cymbals in the high band. Effects add space: reverb sounds like a hall, and echo repeats."
+		},
+		{
+			"text": "Worked example: the game's LOOP records 4 bars of 4 beats at 100 beats a minute: 16 beats. Each beat lasts 60 ÷ 100 = 0.6 seconds, so the loop lasts 16 × 0.6 = 9.6 seconds."
+		},
+		{
+			"text": "Finishing: listen on headphones and on a speaker, at a safe volume. Fix what is too loud or muddy, and give the track an ending. Long listening above 85 dB can damage hearing.",
+			"picture": {
+				"kind": "decibel_scale",
+				"safe": true
+			}
+		},
+		{
+			"text": "Try it in the world: place a Xylophone and Bongo Drums, press LOOP and build 3 layers: a beat, a low pattern and a tune. Then play over them. Next: arranging."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Listen. How many layers play together?",
+			"answer": "3",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5",
+					"G5",
+					"E5",
+					"C5:2",
+					"D5",
+					"E5:2"
+				],
+				"beat": 0.4,
+				"parts": [
+					{
+						"notes": [
+							"C4+E4:4",
+							"G3+B3:4"
+						],
+						"volume": 0.6
+					},
+					{
+						"notes": [
+							"C3:4",
+							"G2:4"
+						],
+						"volume": 0.7
+					}
+				]
+			},
+			"hint": "Listen for a low part, a middle part and a high part.",
+			"explain": "A tune, a quieter middle part and a low bass: 3 layers."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each tool to what it does.",
+			"items": [
+				"fader",
+				"pan",
+				"EQ",
+				"reverb"
+			],
+			"matches": [
+				"left or right",
+				"low, middle or high sounds",
+				"the sound of a big room",
+				"how loud a part is"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the mixing desk.",
+			"explain": "A fader sets loudness, pan places left or right, EQ shapes low, middle and high, and reverb adds a room's sound."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Long listening above 85 dB can damage hearing.",
+			"answer": true,
+			"hint": "Look at the line on the decibel scale.",
+			"explain": "True: keep the volume safe, especially in headphones."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put a simple track's sections in order.",
+			"items": [
+				"outro",
+				"chorus",
+				"verse",
+				"intro"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "How does a song begin, and how does it end?",
+			"explain": "Intro first, then a verse, the chorus, and the outro to end."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Which layer is this?",
+			"choices": [
+				"a bass line",
+				"a melody",
+				"a high chord"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C2:2",
+					"C2",
+					"G2",
+					"A2:2",
+					"F2:2"
+				],
+				"beat": 0.4
+			},
+			"hint": "Is it low or high?",
+			"explain": "Low notes that hold the chords up: a bass line."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The LOOP records 4 bars of 4 beats at 100 beats a minute. How many seconds is that?",
+			"answer": "9.6",
+			"hint": "Find the beats, then how long each lasts.",
+			"explain": "4 × 4 = 16 beats; 60 ÷ 100 = 0.6 seconds each; 16 × 0.6 = 9.6 seconds."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. The melody should stand out. What is wrong?",
+			"choices": [
+				"the chords drown the melody",
+				"the melody is too loud",
+				"it is well balanced"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"F4+A4+C5:2",
+					"G4+B4+D5:2",
+					"C4+E4+G4:2"
+				],
+				"beat": 0.5,
+				"parts": [
+					{
+						"notes": [
+							"E5",
+							"G5",
+							"A5",
+							"F5",
+							"D5",
+							"G5",
+							"E5:2"
+						],
+						"volume": 0.2
+					}
+				]
+			},
+			"hint": "Can you hear the tune clearly?",
+			"explain": "The chords are loud and the tune is faint: turn the chords down or the melody up."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Which band of EQ is each sound mostly in?",
+			"groups": [
+				"low band",
+				"high band"
+			],
+			"items": [
+				"bass drum",
+				"bass guitar",
+				"cymbals",
+				"hi-hat",
+				"tuba"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Is it a deep sound or a bright, sizzling one?",
+			"explain": "The bass drum, bass guitar and tuba are low; cymbals and the hi-hat are high."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Panning moves a sound between the left and right speakers.",
+			"answer": true,
+			"hint": "Think of where you hear it.",
+			"explain": "True: pan places a part to the left, the right or the middle."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Is this beat about 60 or about 120 beats a minute?",
+			"choices": [
+				"about 120: two claps a second",
+				"about 60: one clap a second"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 120
+			},
+			"hint": "Compare it with a clock's ticks, one a second.",
+			"explain": "The claps come twice in every second: about 120 beats a minute."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A track is 32 bars of 4 beats at 128 beats a minute. How many seconds long is it?",
+			"answer": "60",
+			"hint": "Count the beats first.",
+			"explain": "32 × 4 = 128 beats; at 128 a minute that is exactly 1 minute: 60 seconds."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An echo repeats once every beat at 120 beats a minute. How many milliseconds apart are the repeats?",
+			"answer": "500",
+			"hint": "A minute is 60,000 milliseconds.",
+			"explain": "60,000 ÷ 120 = 500 milliseconds."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen to this mix. Which part is the quietest?",
+			"choices": [
+				"the chords",
+				"the melody",
+				"the bass"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5",
+					"G5",
+					"E5",
+					"C5:2",
+					"D5",
+					"E5:2"
+				],
+				"beat": 0.4,
+				"parts": [
+					{
+						"notes": [
+							"C4+E4:4",
+							"G3+B3:4"
+						],
+						"volume": 0.15
+					},
+					{
+						"notes": [
+							"C3:4",
+							"G2:4"
+						],
+						"volume": 0.9
+					}
+				]
+			},
+			"hint": "Listen for each part in turn: high tune, middle chords, low bass.",
+			"explain": "The tune and the bass are clear; the chords in the middle are hard to hear: they are quietest."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of producing a track in order.",
+			"items": [
+				"add EQ and effects",
+				"arrange the sections",
+				"check it on two speakers",
+				"mix the levels and panning",
+				"record the layers"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Make it, shape it, balance it, polish it, check it.",
+			"explain": "Record, arrange, mix, add EQ and effects, then check on two speakers at a safe volume."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A loop of 4 bars of 3 beats plays at 120 beats a minute. How many times does it play in 1 minute?",
+			"answer": "10",
+			"hint": "Find how long one loop lasts first.",
+			"explain": "4 × 3 = 12 beats; at 120 a minute, 12 beats take 6 seconds; 60 ÷ 6 = 10 times."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen: a steady pulse plays alone first, then a bass line joins.",
+			"answer": true,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5",
+					"E5",
+					"E5",
+					"E5",
+					"E5",
+					"E5",
+					"E5",
+					"E5"
+				],
+				"beat": 0.4,
+				"parts": [
+					{
+						"notes": [
+							"-:4",
+							"C3",
+							"C3",
+							"G2",
+							"G2"
+						],
+						"volume": 0.9
+					}
+				]
+			},
+			"hint": "Listen for when the low notes start.",
+			"explain": "True: the high pulse plays alone for 4 beats, then the bass comes in."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.loop_time",
+			"level": 1
+		},
+		{
+			"gen": "g8c.loop_time",
+			"level": 2
+		},
+		{
+			"gen": "g8c.loop_time",
+			"level": 3
+		},
+		{
+			"gen": "g8c.eq_band",
+			"level": 1
+		},
+		{
+			"gen": "g8c.eq_band",
+			"level": 2
+		},
+		{
+			"gen": "g8c.eq_band",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,110 @@
+{
+	"id": "g8.maths.two_way_tables",
+	"lesson": [
+		{
+			"text": "A two-way table sorts data by two things at once, like whether pupils play a sport and whether they play an instrument."
+		},
+		{
+			"text": "Each cell counts one combination: both, sport only, instrument only, neither. Row and column totals add them up."
+		},
+		{
+			"text": "Relative frequency: divide a cell by its row or column total. 12 of 20 instrument players also play sport: 12/20 = 60%."
+		},
+		{
+			"text": "Compare relative frequencies to look for an association."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Both: 8. Sport only: 12. How many play a sport?",
+			"answer": "20",
+			"hint": "Add them.",
+			"explain": "20."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A two-way table sorts data by two things at once.",
+			"answer": true,
+			"hint": "Rows and columns.",
+			"explain": "Yes."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A table has 5, 7, 3 and 5 in its four cells. How many pupils in all?",
+			"answer": "20",
+			"hint": "Add all four.",
+			"explain": "20."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Of 20 instrument players, 12 also play sport. What percent is that?",
+			"answer": "60",
+			"hint": "12 ÷ 20.",
+			"explain": "60%."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a relative frequency?",
+			"answer": 0,
+			"hint": "Part of a total.",
+			"choices": [
+				"a count divided by a total",
+				"the biggest cell",
+				"the table's title"
+			],
+			"explain": "A count ÷ its total."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Both: 6. Instrument only: 9. What fraction of instrument players also play sport?",
+			"answer": "2/5",
+			"hint": "6 out of 15.",
+			"explain": "6/15 = 2/5.",
+			"accept": [
+				"0.4"
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "70% of sport players and 30% of non-sport players have a bike. What does this suggest?",
+			"answer": 0,
+			"hint": "Compare the percents.",
+			"choices": [
+				"an association between sport and bikes",
+				"no association",
+				"everyone has a bike"
+			],
+			"explain": "The big difference suggests an association."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "80 pupils: 50 like maths, and 30 of those like science. What percent of maths-likers like science?",
+			"answer": "60",
+			"hint": "30 ÷ 50.",
+			"explain": "60%."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8g.two_way",
+			"level": 1
+		},
+		{
+			"gen": "g8g.two_way",
+			"level": 2
+		},
+		{
+			"gen": "g8g.two_way",
+			"level": 3
+		}
+	]
+}

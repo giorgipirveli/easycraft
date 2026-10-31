@@ -1,0 +1,399 @@
+{
+	"id": "g8.science.hot_cold_reactions",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 a hand warmer got hot. Is that exothermic or endothermic? (Exothermic: it gives out heat.) Today: why some reactions heat up and others cool down, and how we use them."
+		},
+		{
+			"text": "Measure it: put a thermometer in the mixture. If the temperature rises, the reaction gives out energy to the surroundings: it is exothermic. If it falls, it takes energy in from the surroundings: it is endothermic.",
+			"picture": {
+				"kind": "thermometer",
+				"from": 0,
+				"to": 40,
+				"step": 10,
+				"values": [
+					20,
+					32
+				],
+				"names": [
+					"before",
+					"after"
+				],
+				"minor": 4
+			}
+		},
+		{
+			"text": "Exothermic: burning, respiration in your cells, an acid neutralising an alkali, and iron rusting. Endothermic: photosynthesis, heating limestone to make lime, and citric acid fizzing with baking soda. Melting and dissolving can take heat in too.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"exothermic",
+						"endothermic"
+					],
+					[
+						"burning",
+						"photosynthesis"
+					],
+					[
+						"respiration",
+						"heating limestone"
+					],
+					[
+						"neutralising",
+						"acid + baking soda"
+					],
+					[
+						"rusting",
+						"a cold pack"
+					]
+				]
+			}
+		},
+		{
+			"text": "An energy level diagram shows it. In an exothermic reaction the products have less energy than the reactants, and the difference is given out. In an endothermic one the products have more, and the difference is taken in.",
+			"picture": {
+				"kind": "energy_profile",
+				"type": "exo"
+			}
+		},
+		{
+			"text": "Why? Breaking bonds takes energy in; making new bonds gives energy out. Breaking takes in 500 kJ and making gives out 700 kJ: 700 − 500 = 200 kJ is given out, so the reaction is exothermic."
+		},
+		{
+			"text": "Most reactions need a push to start: the activation energy. A match must be struck before it burns; then its own heat keeps the reaction going. The hump on an energy level diagram shows the push.",
+			"picture": {
+				"kind": "energy_profile",
+				"type": "endo",
+				"reactants": "limestone",
+				"products": "lime + gas"
+			}
+		},
+		{
+			"text": "Uses: a hand warmer's iron powder rusts fast; a self-heating can mixes calcium oxide with water; a reusable gel warmer crystallises when clicked. An instant cold pack dissolves ammonium nitrate in water, cooling a sprained ankle."
+		},
+		{
+			"text": "Try it in the world: in The Poisons Cupboard in the LIFE tab, Mo wants to pour bleach and toilet cleaner into one bucket. Never mix cleaners: they can react and give off a poisonous gas. Next: current, voltage and resistance."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The thermometer shows a mixture before and after it reacts. What kind of reaction is it?",
+			"picture": {
+				"kind": "thermometer",
+				"from": 0,
+				"to": 30,
+				"step": 10,
+				"values": [
+					21,
+					9
+				],
+				"names": [
+					"before",
+					"after"
+				],
+				"minor": 4
+			},
+			"choices": [
+				"endothermic: it takes in heat",
+				"exothermic: it gives out heat"
+			],
+			"answer": 0,
+			"hint": "Did it get warmer or colder?",
+			"explain": "It cooled from 21 °C to 9 °C: it took heat in from its surroundings, so it is endothermic."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In an exothermic reaction, the surroundings get warmer.",
+			"answer": true,
+			"hint": "Exo means out: where does the energy go?",
+			"explain": "True: energy goes out of the reaction into the surroundings, so they warm up."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: exothermic or endothermic?",
+			"groups": [
+				"gives out heat",
+				"takes in heat"
+			],
+			"items": [
+				"heating limestone to make lime",
+				"a candle burning",
+				"a hand warmer",
+				"an instant cold pack",
+				"photosynthesis",
+				"respiration"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Does each one warm its surroundings, or cool them?",
+			"explain": "Burning, respiration and a hand warmer give out heat. Photosynthesis, a cold pack and heating limestone take heat in."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A mixture's temperature rises from 18 °C to 31 °C. By how many degrees did it rise?",
+			"answer": "13",
+			"hint": "Take the starting temperature away from the end temperature.",
+			"explain": "31 − 18 = 13 °C. It rose, so the reaction is exothermic."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"exothermic",
+				"endothermic",
+				"activation energy",
+				"products"
+			],
+			"matches": [
+				"takes in heat",
+				"gives out heat",
+				"the substances made",
+				"the push to start"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Exo- means out and endo- means in; the others are about starting and ending.",
+			"explain": "Exothermic gives out heat; endothermic takes it in; activation energy is the push a reaction needs to start; products are the substances it makes."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the energy level diagram of an exothermic reaction.",
+			"picture": {
+				"kind": "energy_profile",
+				"type": "exo",
+				"pins": true
+			},
+			"labels": [
+				"reactants",
+				"products",
+				"energy change",
+				"activation energy"
+			],
+			"hint": "The reaction starts on the left; the hump is the push it needs to start.",
+			"explain": "Reactants on the left, products lower on the right; the gap between them is the energy given out; the hump above the reactants is the activation energy.",
+			"spots": [
+				[
+					0.6921,
+					0.91,
+					0.6921,
+					0.6598
+				],
+				[
+					0.8075,
+					0.91,
+					0.7882,
+					0.5466
+				],
+				[
+					0.4233,
+					0.09,
+					0.3911,
+					0.3435
+				],
+				[
+					0.3079,
+					0.09,
+					0.3079,
+					0.4334
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The diagram shows the reactants' and the products' energy. How much energy is given out, in kJ?",
+			"picture": {
+				"kind": "energy_profile",
+				"type": "exo",
+				"values": [
+					700,
+					400
+				],
+				"hide": "change"
+			},
+			"answer": "300",
+			"hint": "Find the gap between the reactants' level and the products' level.",
+			"explain": "700 − 400 = 300 kJ is given out: the products have less energy than the reactants."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which of these needs an endothermic change?",
+			"choices": [
+				"an instant cold pack for an injury",
+				"a hand warmer",
+				"a self-heating can",
+				"a camping stove"
+			],
+			"answer": 0,
+			"hint": "Which one has to cool something down?",
+			"explain": "A cold pack must take heat away from an injury: an endothermic change. The others must warm things up."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps to measure a reaction's temperature change.",
+			"items": [
+				"Measure the starting temperature",
+				"Stir the mixture",
+				"Work out the change",
+				"Add the second chemical",
+				"Read the highest or lowest temperature"
+			],
+			"answer": [
+				0,
+				3,
+				1,
+				4,
+				2
+			],
+			"hint": "You need a starting reading before anything is added.",
+			"explain": "Measure first, add the chemical, stir, read the highest or lowest temperature, then subtract to find the change."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Respiration in your cells is endothermic.",
+			"answer": false,
+			"hint": "Does respiration release energy for your body, or take it in?",
+			"explain": "False: respiration releases energy from food: it is exothermic, which is one reason you stay warm."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A mixture's temperature falls from 20 °C to 4 °C. By how many degrees did it fall?",
+			"answer": "16",
+			"hint": "Find the difference between the two temperatures.",
+			"explain": "20 − 4 = 16 °C. It fell, so it is endothermic."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Breaking the bonds takes in 1,370 kJ. Making the new bonds gives out 1,850 kJ. How much energy is given out overall, in kJ?",
+			"answer": "480",
+			"hint": "Compare the energy in with the energy out: the difference is the change.",
+			"explain": "1,850 − 1,370 = 480 kJ more is given out than taken in, so the reaction is exothermic and warms its surroundings."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a match have to be struck before it burns?",
+			"choices": [
+				"to give it the activation energy",
+				"to make it endothermic",
+				"to cool it down",
+				"to make new atoms"
+			],
+			"answer": 0,
+			"hint": "Think about the hump on an energy level diagram.",
+			"explain": "Striking gives the activation energy. Once the reaction starts, the heat it gives out keeps it going."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Breaking bonds takes in 900 kJ and making bonds gives out 650 kJ. What kind of reaction is it?",
+			"choices": [
+				"endothermic: 250 kJ taken in",
+				"exothermic: 250 kJ given out",
+				"exothermic: 1,550 kJ given out",
+				"neither: it balances"
+			],
+			"answer": 0,
+			"hint": "Which is bigger: the energy taken in, or the energy given out?",
+			"explain": "900 − 650 = 250 kJ more is taken in than given out, so it is endothermic and cools its surroundings."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort each design by the change it should use.",
+			"groups": [
+				"exothermic",
+				"endothermic"
+			],
+			"items": [
+				"a cooling pad for a sore knee",
+				"a cold pack for a sports injury",
+				"a self-heating can of soup",
+				"a hand warmer for skiing"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Does the design need to warm something, or cool it?",
+			"explain": "Warming designs need exothermic changes: the hand warmer and the self-heating can. Cooling designs need endothermic ones: the cold pack and the cooling pad."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In an endothermic reaction the products have more energy than the reactants.",
+			"answer": true,
+			"hint": "Picture the energy level diagram: does it end higher or lower?",
+			"explain": "True: the energy taken in from the surroundings is stored in the products, so their level is higher."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8k.temp_change",
+			"level": 1
+		},
+		{
+			"gen": "g8k.temp_change",
+			"level": 2
+		},
+		{
+			"gen": "g8k.temp_change",
+			"level": 3
+		},
+		{
+			"gen": "g8k.reaction_type",
+			"level": 1
+		},
+		{
+			"gen": "g8k.reaction_type",
+			"level": 2
+		},
+		{
+			"gen": "g8k.reaction_type",
+			"level": 3
+		},
+		{
+			"gen": "g8k.bond_energy",
+			"level": 1
+		},
+		{
+			"gen": "g8k.bond_energy",
+			"level": 2
+		},
+		{
+			"gen": "g8k.bond_energy",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,478 @@
+{
+	"id": "g4.science.digestion_teeth",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3, which foods help your body grow and repair itself? (Fish, eggs, beans and meat.) But how does food get into your body? Today: digestion, and the teeth that start it."
+		},
+		{
+			"text": "Digestion breaks food down into tiny pieces that your body can take in and use for energy and growth. It happens in the digestive system: one long tube from your mouth to your bottom, folded up inside you.",
+			"picture": {
+				"kind": "digestion",
+				"labels": true
+			}
+		},
+		{
+			"text": "In the mouth, teeth cut and grind the food. Saliva (spit) wets it and starts to break it down, and the tongue rolls it into a ball to swallow. The gullet (oesophagus) then squeezes it down to the stomach.",
+			"picture": {
+				"kind": "digestion",
+				"mark": "gullet",
+				"labels": true
+			}
+		},
+		{
+			"text": "The stomach is a stretchy bag of muscle. It churns the food with strong juices, including acid, until it is like a thick soup. Food stays there for a few hours.",
+			"picture": {
+				"kind": "digestion",
+				"mark": "stomach",
+				"labels": true
+			}
+		},
+		{
+			"text": "The small intestine is the longest part, about 6 metres in an adult, all coiled up. More juices finish breaking the food down. The tiny pieces pass through its walls into the blood, which carries them all round the body.",
+			"picture": {
+				"kind": "digestion",
+				"mark": "small intestine",
+				"labels": true
+			}
+		},
+		{
+			"text": "The large intestine takes water back out of what is left, so the body does not lose too much. The waste is stored at the end, in the rectum, until you go to the toilet.",
+			"picture": {
+				"kind": "digestion",
+				"mark": "large intestine",
+				"labels": true
+			}
+		},
+		{
+			"text": "Teeth: incisors at the front cut and bite, and pointed canines grip and tear. Wide premolars and molars at the back crush and grind. Children have 20 milk teeth; adults have up to 32.",
+			"picture": {
+				"kind": "teeth",
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: brush twice a day for about two minutes with fluoride toothpaste, and keep sugary food and drinks to mealtimes: sugar feeds germs that make acid, which makes holes. Next, in grade 5: the heart and lungs."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does digestion start?",
+			"hint": "Where does food go in first?",
+			"explain": "Digestion starts in the mouth: teeth cut and grind the food, and saliva starts to break it down.",
+			"choices": [
+				"in the mouth",
+				"in the stomach",
+				"in the small intestine",
+				"in the large intestine"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which teeth are shown in orange? They are at the front, for cutting and biting.",
+			"hint": "Front teeth are thin and sharp, like little chisels.",
+			"explain": "The incisors are the front teeth: they cut and bite.",
+			"picture": {
+				"kind": "teeth",
+				"mark": "incisors"
+			},
+			"choices": [
+				"incisors",
+				"molars",
+				"canines",
+				"premolars"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Saliva wets your food so that it is easy to swallow.",
+			"hint": "Why is dry bread hard to swallow?",
+			"explain": "True: saliva wets the food and starts to break it down.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many milk teeth does a child have?",
+			"hint": "Fewer than an adult's 32.",
+			"explain": "A child has 20 milk teeth. They fall out, and up to 32 adult teeth grow.",
+			"choices": [
+				"20",
+				"32",
+				"10",
+				"12"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "You should brush your teeth twice a day, for about two minutes.",
+			"hint": "Morning and night.",
+			"explain": "True: twice a day for about two minutes, with fluoride toothpaste.",
+			"answer": true
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the parts in the order food passes through them.",
+			"hint": "Start where food goes in, and go down.",
+			"explain": "Mouth, gullet, stomach, small intestine, then large intestine.",
+			"items": [
+				"large intestine",
+				"mouth",
+				"small intestine",
+				"gullet",
+				"stomach"
+			],
+			"answer": [
+				1,
+				3,
+				4,
+				2,
+				0
+			]
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the digestive system: tap a word, then its number.",
+			"hint": "Food goes in at the mouth. The stomach is a bag on the body's left; the large intestine goes round the edge.",
+			"explain": "1 is the mouth, 2 is the stomach and 3 is the large intestine.",
+			"picture": {
+				"kind": "digestion"
+			},
+			"spots": [
+				[
+					0.2308,
+					0.16,
+					0.5,
+					0.199
+				],
+				[
+					0.7692,
+					0.5,
+					0.5288,
+					0.4964
+				],
+				[
+					0.2308,
+					0.72,
+					0.4383,
+					0.6868
+				]
+			],
+			"labels": [
+				"stomach",
+				"large intestine",
+				"mouth"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			]
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part to its job.",
+			"hint": "Which part is a stretchy bag? Which is the longest?",
+			"explain": "The stomach churns food with acid, the small intestine passes it into the blood, the large intestine takes water back, and the gullet squeezes food down.",
+			"items": [
+				"stomach",
+				"small intestine",
+				"large intestine",
+				"gullet"
+			],
+			"matches": [
+				"passes food into the blood",
+				"takes water back",
+				"squeezes food down",
+				"churns food with acid"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the part shown in orange?",
+			"hint": "It is a stretchy bag, high up on the left side of the body.",
+			"explain": "It is the stomach, a bag of muscle that churns food with strong juices.",
+			"picture": {
+				"kind": "digestion",
+				"mark": "stomach"
+			},
+			"choices": [
+				"the stomach",
+				"the small intestine",
+				"the large intestine",
+				"the gullet"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which teeth are shown in orange? They are wide and flat, at the back.",
+			"hint": "Which teeth grind food like millstones?",
+			"explain": "The molars are the wide back teeth that crush and grind food.",
+			"picture": {
+				"kind": "teeth",
+				"mark": "molars"
+			},
+			"choices": [
+				"molars",
+				"incisors",
+				"canines"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What do canine teeth do?",
+			"hint": "Canines are pointed, like a dog's.",
+			"explain": "Pointed canines grip and tear food.",
+			"choices": [
+				"grip and tear food",
+				"grind food flat",
+				"wet the food",
+				"taste the food"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Sugar feeds germs on your teeth, and the germs make acid that can make holes.",
+			"hint": "Why do dentists say to keep sweets to mealtimes?",
+			"explain": "True: germs feed on sugar and make acid, which can make holes (tooth decay).",
+			"answer": true
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "An adult has 32 teeth: 8 incisors, 4 canines and 8 premolars. The rest are molars. How many molars?",
+			"hint": "Add up the teeth you know, then take them away from 32.",
+			"explain": "8 + 4 + 8 = 20, and 32 − 20 = 12 molars.",
+			"answer": "12"
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the teeth by their job.",
+			"hint": "Think of their shapes: thin, pointed, or wide and flat.",
+			"explain": "Incisors cut, canines tear, and premolars and molars crush and grind.",
+			"groups": [
+				"cut",
+				"tear",
+				"crush and grind"
+			],
+			"items": [
+				"incisors",
+				"canines",
+				"premolars",
+				"molars"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				2
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In which part do the tiny pieces of food pass into the blood?",
+			"hint": "It is the longest part, coiled up in the middle.",
+			"explain": "In the small intestine, the tiny pieces of food pass through its walls into the blood.",
+			"picture": {
+				"kind": "digestion"
+			},
+			"choices": [
+				"the small intestine",
+				"the stomach",
+				"the large intestine",
+				"the mouth"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which snack is kindest to your teeth?",
+			"hint": "Which one has the least sugar?",
+			"explain": "Carrot sticks and cheese have little sugar, so the germs on your teeth make less acid.",
+			"choices": [
+				"carrot sticks and cheese",
+				"a bag of sweets",
+				"a fizzy drink",
+				"a sugary biscuit"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Food stays in your mouth for a few hours while it is digested.",
+			"hint": "Where does food spend a few hours?",
+			"explain": "False: food is in your mouth for less than a minute. It spends a few hours in the stomach.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A lion has long, sharp canines. What does that tell you about its food?",
+			"hint": "What are canines for?",
+			"explain": "Long canines grip and tear meat: lions are meat eaters.",
+			"choices": [
+				"It eats meat, which it grips and tears.",
+				"It eats only grass.",
+				"It never needs to eat.",
+				"It drinks only milk."
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does the large intestine take water back?",
+			"hint": "What would happen if all that water left the body?",
+			"explain": "The large intestine takes water back into the body, so we do not lose too much.",
+			"choices": [
+				"so the body does not lose too much water",
+				"to make the food wetter",
+				"to fill the stomach",
+				"to make saliva"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The part in orange goes round the coiled small intestine. What is it?",
+			"hint": "It is wider than the small intestine, and comes after it.",
+			"explain": "It is the large intestine. It takes water back from what is left, and ends at the rectum.",
+			"picture": {
+				"kind": "digestion",
+				"mark": "large intestine"
+			},
+			"choices": [
+				"the large intestine",
+				"the stomach",
+				"the gullet",
+				"the small intestine"
+			],
+			"answer": 0
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label all five parts of the digestive system.",
+			"hint": "Follow the food: mouth, gullet, stomach, then the coiled small intestine and the large intestine round it.",
+			"explain": "1 mouth, 2 gullet (the tube down), 3 large intestine (round the edge), 4 stomach, 5 small intestine (coiled).",
+			"picture": {
+				"kind": "digestion"
+			},
+			"spots": [
+				[
+					0.2308,
+					0.14,
+					0.5,
+					0.199
+				],
+				[
+					0.2308,
+					0.4,
+					0.5,
+					0.344
+				],
+				[
+					0.2308,
+					0.72,
+					0.4383,
+					0.6868
+				],
+				[
+					0.7692,
+					0.42,
+					0.5288,
+					0.4964
+				],
+				[
+					0.7692,
+					0.74,
+					0.5247,
+					0.7122
+				]
+			],
+			"labels": [
+				"small intestine",
+				"mouth",
+				"stomach",
+				"large intestine",
+				"gullet"
+			],
+			"answer": [
+				4,
+				0,
+				3,
+				2,
+				1
+			]
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the snacks: kind to teeth, or sugary (best kept to mealtimes)?",
+			"groups": [
+				"kind to teeth",
+				"sugary"
+			],
+			"items": [
+				"cheese",
+				"sweets",
+				"carrot sticks",
+				"a fizzy drink",
+				"water",
+				"a sugary biscuit"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Sugar feeds the germs that make acid on your teeth.",
+			"explain": "Kind to teeth: cheese, carrot sticks and water have little sugar. Sugary: sweets, fizzy drinks and biscuits feed germs that make acid, so keep them to mealtimes."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4c.gut_order",
+			"level": 1
+		},
+		{
+			"gen": "g4c.gut_order",
+			"level": 2
+		},
+		{
+			"gen": "g4c.gut_order",
+			"level": 3
+		}
+	]
+}

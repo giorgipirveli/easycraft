@@ -1,0 +1,384 @@
+{
+	"id": "g8.computing.compare_algorithms",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7, how did binary search find a number? (It checked the middle, then threw away the half the number could not be in.) Today: comparing algorithms by counting their steps."
+		},
+		{
+			"text": "Two algorithms can solve the same problem in very different numbers of steps. Computer scientists compare them by counting steps in the worst case: the most steps the algorithm could ever need.",
+			"picture": {
+				"kind": "step_growth",
+				"lines": [
+					"linear",
+					"binary"
+				],
+				"upto": 64
+			}
+		},
+		{
+			"text": "Linear search's worst case grows with the list: n items, n checks. Binary search's grows very slowly: double the list and it needs just one more check. For 64 items it needs 7 checks, not 64.",
+			"picture": {
+				"kind": "step_growth",
+				"lines": [
+					"linear",
+					"binary"
+				],
+				"upto": 64,
+				"at": 64
+			}
+		},
+		{
+			"text": "Bubble sort compares neighbours in passes. With every pass to the end, n items need n × (n − 1) ÷ 2 comparisons: 10 items need 45, but 100 items need 4,950.",
+			"picture": {
+				"kind": "step_growth",
+				"lines": [
+					"bubble",
+					"linear",
+					"binary"
+				],
+				"upto": 16,
+				"at": 10
+			}
+		},
+		{
+			"text": "Worked example: find a name in 1,000 sorted names. Linear search may need 1,000 checks; binary search needs at most 10. For a million names: a million checks against 20. The gap grows as lists grow."
+		},
+		{
+			"text": "Merge sort, from grade 7, splits and merges. For 1,000 items it needs fewer than 9,000 comparisons, while bubble sort's passes make 499,500. For big lists, a better algorithm beats a faster computer."
+		},
+		{
+			"text": "The best choice also depends on the job: a short list, a list searched only once, or code that must be simple to check. Simple algorithms are easier to write correctly. Choose the one that fits."
+		},
+		{
+			"text": "Try it in the world: find a word in a dictionary by opening it near the middle again and again, then by reading from the first page. Count the pages you look at. Next: models and abstraction."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A linear search looks through 50 unsorted names. What is the most checks it can need?",
+			"answer": "50",
+			"hint": "In the worst case, where is the name?",
+			"explain": "In the worst case the name is last or missing, so it checks all 50 names: 50 checks."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which grows most slowly as the list gets longer?",
+			"choices": [
+				"binary search's checks",
+				"linear search's checks",
+				"bubble sort's comparisons"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "step_growth",
+				"lines": [
+					"linear",
+					"binary",
+					"bubble"
+				],
+				"upto": 32
+			},
+			"hint": "Look for the flattest line.",
+			"explain": "Binary search's line stays almost flat: doubling the list adds only one check."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Doubling a sorted list adds only one check to binary search's worst case.",
+			"answer": true,
+			"hint": "What does binary search's first check do to a list twice as long?",
+			"explain": "True: the first check halves the doubled list back to the old size."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "An algorithm's worst case is the fewest steps it can take.",
+			"answer": false,
+			"hint": "Worst means the hardest input.",
+			"explain": "False: the worst case is the most steps it could ever need; the fewest is the best case."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each algorithm to its idea.",
+			"items": [
+				"linear search",
+				"binary search",
+				"bubble sort",
+				"merge sort"
+			],
+			"matches": [
+				"halve what is left",
+				"swap neighbours in passes",
+				"split, then merge in order",
+				"check one by one"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Remember how each one moves through a list.",
+			"explain": "Linear search checks in turn, binary search halves, bubble sort swaps neighbours and merge sort splits then merges."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bubble sort sorts 8 items, every pass going to the end. How many comparisons? Use n × (n − 1) ÷ 2.",
+			"answer": "28",
+			"hint": "Put n = 8 into the rule.",
+			"explain": "8 × 7 = 56, and 56 ÷ 2 = 28 comparisons."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is the most checks binary search needs for 16 sorted items?",
+			"answer": "5",
+			"picture": {
+				"kind": "step_growth",
+				"lines": [
+					"linear",
+					"binary"
+				],
+				"upto": 16
+			},
+			"hint": "Halve 16 again and again until 1 is left, and count every check.",
+			"explain": "What is left: 16, 8, 4, 2, 1. That is 5 checks at most."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "6 unsorted items are searched once. Which is the better choice?",
+			"choices": [
+				"linear search: no sorting needed",
+				"binary search: it is always faster",
+				"bubble sort, then binary search"
+			],
+			"answer": 0,
+			"hint": "Think about the extra work sorting takes.",
+			"explain": "Sorting first costs more than 6 checks, so a simple linear search wins on a short list searched once."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order these from the fewest to the most steps for 100 items, in the worst case.",
+			"items": [
+				"linear search",
+				"bubble sort",
+				"binary search"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Work out each one for n = 100.",
+			"explain": "Binary search: 7 checks; linear search: 100; bubble sort: 100 × 99 ÷ 2 = 4,950 comparisons."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Does it need a sorted list, or does it work on any list?",
+			"groups": [
+				"needs a sorted list",
+				"works on any list"
+			],
+			"items": [
+				"binary search",
+				"linear search",
+				"bubble sort",
+				"finding the smallest",
+				"guessing the middle number"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1,
+				0
+			],
+			"hint": "Does it throw away half the list on each step?",
+			"explain": "Binary search and guessing the middle need the items in order; the others look at every item, so any list will do."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "For 1,000 items, bubble sort's passes make 499,500 comparisons.",
+			"answer": true,
+			"hint": "Use n × (n − 1) ÷ 2.",
+			"explain": "True: 1,000 × 999 = 999,000, and 999,000 ÷ 2 = 499,500."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Merge sort and bubble sort both sort 1,000 items. Which makes fewer comparisons?",
+			"choices": [
+				"merge sort",
+				"bubble sort",
+				"they make the same number"
+			],
+			"answer": 0,
+			"hint": "Compare 499,500 with the number for merge sort.",
+			"explain": "Merge sort needs fewer than 9,000 comparisons for 1,000 items; bubble sort's passes make 499,500."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Binary search needs at most 10 checks for 1,000 sorted items. At most how many for 2,000?",
+			"answer": "11",
+			"hint": "What does one extra check do to the list?",
+			"explain": "One check halves 2,000 to 1,000, then 10 more at most: 11 checks."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "1,000,000 sorted items: how many more checks can linear search need than binary search, at most?",
+			"answer": "999980",
+			"hint": "Work out each worst case first.",
+			"explain": "Linear: 1,000,000 checks. Binary: 20 (2 to the power 20 is just over a million). 1,000,000 − 20 = 999,980."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bubble sort makes 45 comparisons for 10 items. How many for 20 items?",
+			"choices": [
+				"190, about 4 times as many",
+				"90, twice as many",
+				"46, one more",
+				"45, the same"
+			],
+			"answer": 0,
+			"hint": "Use n × (n − 1) ÷ 2 with n = 20.",
+			"explain": "20 × 19 = 380, and 380 ÷ 2 = 190: doubling the list makes about 4 times the work."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The algorithm that is fastest on huge lists is always the best choice.",
+			"answer": false,
+			"hint": "Think of short lists, data searched once and code that must be simple.",
+			"explain": "False: for short or unsorted lists, or code that must be simple to check, a simpler algorithm can be the better choice."
+		},
+		{
+			"type": "robot",
+			"level": 2,
+			"prompt": "Program the robot to the flag in as few commands as you can.",
+			"board": {
+				"cols": 5,
+				"rows": 4,
+				"start": [
+					0,
+					3
+				],
+				"facing": "N",
+				"goal": [
+					4,
+					0
+				],
+				"walls": [
+					[
+						1,
+						1
+					],
+					[
+						2,
+						1
+					],
+					[
+						2,
+						2
+					],
+					[
+						3,
+						3
+					]
+				]
+			},
+			"max": 8,
+			"hint": "Plan the route on the board before you start: each turn costs a command too.",
+			"explain": "A shortest program: FORWARD, FORWARD, FORWARD, TURN RIGHT, FORWARD, FORWARD, FORWARD, FORWARD, 8 commands. Like a good algorithm, the best route does the job in the fewest steps."
+		},
+		{
+			"type": "robot",
+			"level": 3,
+			"prompt": "Pick up the gem, then reach the flag, in as few commands as you can.",
+			"board": {
+				"cols": 5,
+				"rows": 5,
+				"start": [
+					0,
+					0
+				],
+				"facing": "E",
+				"goal": [
+					4,
+					4
+				],
+				"walls": [
+					[
+						2,
+						0
+					],
+					[
+						2,
+						1
+					],
+					[
+						1,
+						3
+					],
+					[
+						3,
+						3
+					]
+				],
+				"gems": [
+					[
+						1,
+						2
+					]
+				]
+			},
+			"max": 11,
+			"hint": "Find the gem's best route first, then the flag's: count turns as well as moves.",
+			"explain": "A shortest program: FORWARD, TURN RIGHT, FORWARD, FORWARD, TURN LEFT, FORWARD, FORWARD, FORWARD, TURN RIGHT, FORWARD, FORWARD, 11 commands. Comparing routes is comparing algorithms: both work, but one takes fewer steps."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order these sorted lists by binary search's most checks, fewest first.",
+			"items": [
+				"1,000,000 items",
+				"1,000 items",
+				"100 items",
+				"15 items"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Each check halves what is left.",
+			"explain": "At most 4 checks for 15, 7 for 100, 10 for 1,000 and 20 for 1,000,000."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.step_count",
+			"level": 1
+		},
+		{
+			"gen": "g8c.step_count",
+			"level": 2
+		},
+		{
+			"gen": "g8c.step_count",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,106 @@
+{
+	"id": "g8.maths.scientific_notation",
+	"lesson": [
+		{
+			"text": "Scientific notation writes a number as a number from 1 to 10 times a power of 10: 45,000 = 4.5 × 10⁴."
+		},
+		{
+			"text": "Small numbers use negative powers: 0.0003 = 3 × 10 to the power of −4."
+		},
+		{
+			"text": "To multiply, multiply the front numbers and add the exponents: (3 × 10⁴) × (2 × 10³) = 6 × 10⁷."
+		},
+		{
+			"text": "It is handy for huge and tiny things: the Sun is about 1.5 × 10⁸ km away."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "4,000 = 4 × 10 to the power of what?",
+			"answer": "3",
+			"hint": "Count the zeros.",
+			"explain": "4 × 10³."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "250,000 = 2.5 × 10 to the power of what?",
+			"answer": "5",
+			"hint": "Move the point 5 places.",
+			"explain": "2.5 × 10⁵."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "3.2 × 10² = 320",
+			"answer": true,
+			"hint": "Move the point 2 places right.",
+			"explain": "Yes."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "0.006 = 6 × 10 to the power of what?",
+			"answer": "-3",
+			"hint": "Small numbers: negative.",
+			"explain": "6 × 10 to the power of −3."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is written in scientific notation?",
+			"answer": 0,
+			"hint": "The front number is from 1 to 10.",
+			"choices": [
+				"7.1 × 10⁶",
+				"71 × 10⁵",
+				"0.71 × 10⁷"
+			],
+			"explain": "7.1 × 10⁶."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "(2 × 10³) × (4 × 10²) = 8 × 10 to the power of what?",
+			"answer": "5",
+			"hint": "Add the exponents.",
+			"explain": "3 + 2 = 5."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is larger: 3 × 10⁵ or 9 × 10⁴?",
+			"answer": 0,
+			"hint": "Compare the powers first.",
+			"choices": [
+				"3 × 10⁵",
+				"9 × 10⁴"
+			],
+			"explain": "300,000 > 90,000."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "About how many times bigger is 6 × 10⁸ than 2 × 10⁶?",
+			"answer": "300",
+			"hint": "6 ÷ 2 and 10⁸ ÷ 10⁶.",
+			"explain": "3 × 100 = 300."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8n.sci_notation",
+			"level": 1
+		},
+		{
+			"gen": "g8n.sci_notation",
+			"level": 2
+		},
+		{
+			"gen": "g8n.sci_notation",
+			"level": 3
+		}
+	]
+}

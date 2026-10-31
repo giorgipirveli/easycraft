@@ -1,0 +1,413 @@
+{
+	"id": "g3.science.materials",
+	"lesson": [
+		{
+			"text": "Remember? A wooden plank came from a tree. Wood is a material: what a thing is made of. Others are metal, plastic, glass, rubber, fabric and stone.",
+			"picture": {
+				"kind": "icon",
+				"block": 6
+			}
+		},
+		{
+			"text": "Materials have properties. They can be hard or soft, bendy or stiff, waterproof or able to soak up water, and strong or easy to break.",
+			"picture": {
+				"kind": "material_swatch",
+				"samples": [
+					"oak",
+					"steel",
+					"acrylic",
+					"polythene"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Light matters too. Transparent materials, like clear glass, let light through. Translucent ones, like frosted glass, let some through. Opaque ones, like wood, let none through.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"glass",
+						"frosted",
+						"wood"
+					],
+					[
+						"all light",
+						"some light",
+						"no light"
+					]
+				]
+			}
+		},
+		{
+			"text": "Metal is strong and hard, and heat passes through it quickly. Rubber is bendy and waterproof. Glass is hard and see-through but breaks easily. Cotton fabric is soft and soaks up water.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"material",
+						"properties"
+					],
+					[
+						"metal",
+						"strong, hard"
+					],
+					[
+						"rubber",
+						"bendy, waterproof"
+					],
+					[
+						"glass",
+						"see-through, breaks"
+					],
+					[
+						"cotton",
+						"soft, soaks up water"
+					]
+				]
+			}
+		},
+		{
+			"text": "Test properties fairly. Hardness: a harder material scratches a softer one. Bendiness: bend strips of the same size. Waterproof: drip the same amount of water on each and see if it soaks through."
+		},
+		{
+			"text": "Choose the right material for the job. A window must be transparent, a raincoat waterproof and a towel good at soaking up water. A spoon for hot soup should not get hot, so wood is better than metal."
+		},
+		{
+			"text": "Try it in the world: at a Science Lab bench, do \"Float or sink?\". Then build a window of glass and a door of wood: why each material? Next: rocks and soils."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which material is transparent?",
+			"answer": 0,
+			"hint": "Which one can you see through?",
+			"choices": [
+				"clear glass",
+				"wood",
+				"metal",
+				"brick"
+			],
+			"explain": "Clear glass lets light through, so you can see through it."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which material is best for a raincoat?",
+			"answer": 0,
+			"hint": "A raincoat must keep the rain out.",
+			"choices": [
+				"waterproof plastic",
+				"paper",
+				"cotton wool"
+			],
+			"explain": "Waterproof plastic keeps you dry; paper and cotton wool soak up water."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Rubber is bendy.",
+			"answer": true,
+			"hint": "Think of a rubber band.",
+			"explain": "True: rubber bends and stretches."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which material is best for a towel?",
+			"answer": 0,
+			"hint": "A towel must dry you.",
+			"choices": [
+				"cotton, which soaks up water",
+				"plastic",
+				"glass"
+			],
+			"explain": "Cotton soaks up water, so it dries you."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does opaque mean?",
+			"answer": 0,
+			"hint": "Can you see through a wooden door?",
+			"choices": [
+				"lets no light through",
+				"lets all light through",
+				"bends easily"
+			],
+			"explain": "An opaque material, like wood, lets no light through."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Frosted glass lets some light through, but you cannot see clearly. It is...",
+			"answer": 0,
+			"hint": "It is between see-through and blocking all light.",
+			"choices": [
+				"translucent",
+				"opaque",
+				"waterproof"
+			],
+			"explain": "Translucent materials let some light through, like frosted glass."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Glass is a good material for a football because it is hard.",
+			"answer": false,
+			"hint": "What happens to glass when it is hit?",
+			"explain": "False: glass is hard but it breaks easily. A football must bounce, so it is made of tough, bouncy materials like rubber."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is a wooden spoon good for stirring hot soup?",
+			"answer": 0,
+			"hint": "What happens to a metal spoon in hot soup?",
+			"choices": [
+				"Wood does not get hot quickly",
+				"Wood is see-through",
+				"Wood is bendy"
+			],
+			"explain": "Heat passes through wood slowly, so the handle stays cool."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Material A scratches material B. What does this tell you?",
+			"answer": 0,
+			"hint": "A harder material scratches a softer one.",
+			"choices": [
+				"A is harder than B",
+				"B is harder than A",
+				"They are equally hard"
+			],
+			"explain": "The harder material makes the scratch, so A is harder."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly drips water on four cloths. Which is the most waterproof?",
+			"answer": 0,
+			"hint": "The most waterproof lets the fewest drops soak in.",
+			"choices": [
+				"Cloth D",
+				"Cloth A",
+				"Cloth B",
+				"Cloth C"
+			],
+			"explain": "Cloth D let no drops soak in, so it is the most waterproof.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Cloth",
+						"Drops soaked"
+					],
+					[
+						"A",
+						"10"
+					],
+					[
+						"B",
+						"6"
+					],
+					[
+						"C",
+						"3"
+					],
+					[
+						"D",
+						"0"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many more drops soaked into cloth A than into cloth C?",
+			"answer": "7",
+			"hint": "Find both numbers in the table.",
+			"explain": "A soaked up 10 drops and C 3: 10 − 3 = 7 more.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Cloth",
+						"Drops soaked"
+					],
+					[
+						"A",
+						"10"
+					],
+					[
+						"B",
+						"6"
+					],
+					[
+						"C",
+						"3"
+					],
+					[
+						"D",
+						"0"
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put in order from hardest to softest.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Which one would scratch all the others?",
+			"items": [
+				"cotton wool",
+				"rubber",
+				"wood",
+				"steel"
+			],
+			"explain": "Steel scratches wood, wood dents rubber, and cotton wool is the softest."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram needs a material for a fish tank. What must it be?",
+			"answer": 0,
+			"hint": "You need to see the fish, and hold water.",
+			"choices": [
+				"transparent and waterproof",
+				"opaque and bendy",
+				"soft and able to soak up water"
+			],
+			"explain": "A fish tank must hold water and let you see in: transparent and waterproof, like glass."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In a fair test of cloths, every cloth gets the same number of drops.",
+			"answer": true,
+			"hint": "What would happen if one cloth got more water?",
+			"explain": "True: only the material should change, so each cloth gets the same water."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each job to the best material.",
+			"hint": "What must each thing do?",
+			"items": [
+				"a window",
+				"a towel",
+				"a car tyre",
+				"a saucepan"
+			],
+			"matches": [
+				"metal",
+				"glass",
+				"cotton",
+				"rubber"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"explain": "A window needs transparent glass, a towel soaks up water with cotton, a tyre grips with rubber, and a pan lets heat through metal."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the materials by how much light they let through.",
+			"groups": [
+				"transparent",
+				"translucent",
+				"opaque"
+			],
+			"items": [
+				"clear glass",
+				"frosted glass",
+				"wood",
+				"clean water",
+				"tracing paper",
+				"metal"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Can you see clearly through it, see a blur, or see nothing?",
+			"explain": "Transparent: clear glass and clean water. Translucent: frosted glass and tracing paper. Opaque: wood and metal."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each object to the property its material must have.",
+			"items": [
+				"a window",
+				"a raincoat",
+				"a towel",
+				"a saucepan"
+			],
+			"matches": [
+				"soaks up water",
+				"lets heat through",
+				"waterproof",
+				"transparent"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "Ask what each one must do, then name that property.",
+			"explain": "A window must be transparent. A raincoat must be waterproof. A towel must soak up water. A saucepan must let heat through to cook the food."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Use Tilly's table. Order the cloths from the most waterproof to the least.",
+			"items": [
+				"Cloth A",
+				"Cloth B",
+				"Cloth C",
+				"Cloth D"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The fewer drops a cloth soaks up, the more waterproof it is.",
+			"explain": "D soaked up 0 drops, C 3, B 6 and A 10. The fewest drops means the most waterproof: D, C, B, then A."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3s.material_job",
+			"level": 1
+		},
+		{
+			"gen": "g3s.material_job",
+			"level": 2
+		},
+		{
+			"gen": "g3s.material_job",
+			"level": 3
+		}
+	]
+}

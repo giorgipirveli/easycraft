@@ -1,0 +1,302 @@
+{
+	"id": "g4.geography.fieldwork_survey",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you made a land-use map. What did you sort the land into? (Homes, shops, farms, parks and more.) Now plan real fieldwork: data you collect yourself, outdoors."
+		},
+		{
+			"text": "Fieldwork starts with a question, like 'Is our street busier in the morning or the afternoon?' Then plan: what to count, where, when, what to take, and how to stay safe. Always go with a grown-up."
+		},
+		{
+			"text": "To count traffic, stand safely back from the road and make a tally: one line for each vehicle. Every fifth line crosses the other four, so you can count quickly in fives."
+		},
+		{
+			"text": "Then show the data so others can see the answer: a bar chart for traffic, a map coloured by land use, or a table of weather readings.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"cars",
+						18
+					],
+					[
+						"vans",
+						6
+					],
+					[
+						"bikes",
+						9
+					],
+					[
+						"buses",
+						3
+					],
+					[
+						"lorries",
+						4
+					]
+				],
+				"step": 2,
+				"top": 20,
+				"name": "Vehicles in 10 minutes"
+			}
+		},
+		{
+			"text": "Weather fieldwork uses a thermometer (temperature in °C) and a rain gauge (rain in mm). A wind vane shows which way the wind blows from, and an anemometer how fast it blows.",
+			"picture": {
+				"kind": "weather_kit",
+				"tools": [
+					"thermometer",
+					"rain_gauge",
+					"wind_vane",
+					"anemometer"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Worked example: Zara counted 18 cars in 10 minutes in the morning and 11 in the afternoon. 18 − 11 = 7, so the morning was busier by 7 cars. Her answer: yes, mornings are busier on her street.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"morning",
+						18
+					],
+					[
+						"afternoon",
+						11
+					]
+				],
+				"step": 2,
+				"top": 20,
+				"name": "cars in 10 minutes"
+			}
+		},
+		{
+			"text": "Good geographers check their work: Was one count enough? Would another day give another answer? Next time, count on three days and compare. Saying how to make it better is part of fieldwork."
+		},
+		{
+			"text": "Try it in the world: count the animals that pass your farm gate in 5 minutes, with a tally on a sign. Then build a bar chart out of blocks. Next year: latitude, longitude and the world's climates."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a rain gauge measure?",
+			"answer": 0,
+			"hint": "Its name tells you.",
+			"choices": [
+				"how much rain falls",
+				"how hot it is",
+				"how fast the wind blows",
+				"how many cars pass"
+			],
+			"explain": "A rain gauge collects rain, measured in millimetres."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should fieldwork start with?",
+			"answer": 0,
+			"hint": "What do you want to find out?",
+			"choices": [
+				"a question to answer",
+				"a picnic",
+				"a guess you will not check",
+				"buying new shoes"
+			],
+			"explain": "A question, like 'Is our street busier in the morning?', tells you what data to collect."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "You should always do fieldwork with a grown-up.",
+			"answer": true,
+			"hint": "Safety first near roads and rivers.",
+			"explain": "True: a grown-up keeps everyone safe near roads, water and strangers."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A tally shows 3 full gates of five lines, and 2 more lines. What number is that?",
+			"answer": "17",
+			"hint": "Count the gates in fives, then add the extra lines.",
+			"explain": "3 × 5 = 15, and 15 + 2 = 17."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each tool to what it measures.",
+			"items": [
+				"thermometer",
+				"rain gauge",
+				"wind vane",
+				"anemometer"
+			],
+			"matches": [
+				"rain",
+				"wind direction",
+				"wind speed",
+				"temperature"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Two of them are about the wind.",
+			"explain": "A thermometer measures temperature, a rain gauge rain, a wind vane the wind's direction and an anemometer its speed."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of fieldwork in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You cannot collect data before you know what you need.",
+			"items": [
+				"plan what to collect",
+				"show it in a chart or map",
+				"ask a question",
+				"collect the data outside",
+				"answer the question"
+			],
+			"explain": "Question, plan, collect, present, then answer the question."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: data you count, or data you measure?",
+			"groups": [
+				"count",
+				"measure"
+			],
+			"items": [
+				"cars passing",
+				"the temperature",
+				"birds on a fence",
+				"rain in the gauge",
+				"people on a bench",
+				"the length of a path"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Counting goes 1, 2, 3; measuring needs a tool with a scale.",
+			"explain": "Counted: cars, birds and people. Measured: temperature, rain and length."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which chart is best for showing how many of each vehicle passed?",
+			"answer": 0,
+			"hint": "Each kind of vehicle gets its own bar.",
+			"choices": [
+				"a bar chart",
+				"a map of the world",
+				"a clock",
+				"a thermometer"
+			],
+			"explain": "A bar chart: one bar for each kind of vehicle, so the tallest shows the most common."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A wind vane points to where the wind is blowing from.",
+			"answer": true,
+			"hint": "A north wind blows from the north.",
+			"explain": "True: a wind vane points into the wind, showing where it comes from."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara counted cars on one Monday only. How could she make her answer more reliable?",
+			"answer": 0,
+			"hint": "Would one day always be typical?",
+			"choices": [
+				"count on several days and compare",
+				"count only one car",
+				"guess the numbers",
+				"count only at night"
+			],
+			"explain": "Counting on several days shows whether that Monday was usual or a one-off."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In 10 minutes, 14 cars passed. At the same rate, how many would pass in an hour?",
+			"answer": "84",
+			"hint": "How many lots of 10 minutes are there in an hour?",
+			"explain": "An hour is 6 lots of 10 minutes: 14 × 6 = 84 cars."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which question can fieldwork near you answer?",
+			"answer": 0,
+			"hint": "Which can you find out by counting or measuring outside?",
+			"choices": [
+				"Is our park busier at the weekend?",
+				"What will the weather be next year?",
+				"What did the Romans eat?",
+				"How far away is the Moon?"
+			],
+			"explain": "You can count the people in the park on different days. The others need other sources, not fieldwork."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram's rain gauge showed 4 mm, 0 mm, 7 mm, 2 mm and 5 mm on five days. How much rain fell altogether, in mm?",
+			"answer": "18",
+			"hint": "Add the readings one at a time.",
+			"explain": "4 + 0 + 7 + 2 + 5 = 18 mm."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Counting just 2 cars is enough to say that a street is busy.",
+			"answer": false,
+			"hint": "Is a tiny count enough to be sure?",
+			"explain": "False: a tiny count could be luck. More counts, at different times, give a fairer answer."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4h.survey_count",
+			"level": 1
+		},
+		{
+			"gen": "g4h.survey_count",
+			"level": 2
+		},
+		{
+			"gen": "g4h.survey_count",
+			"level": 3
+		},
+		{
+			"gen": "g4h.weather_table",
+			"level": 1
+		},
+		{
+			"gen": "g4h.weather_table",
+			"level": 2
+		},
+		{
+			"gen": "g4h.weather_table",
+			"level": 3
+		}
+	]
+}

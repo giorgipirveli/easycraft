@@ -1,0 +1,37 @@
+# Godot editor data — never commit
+.godot/
+
+# Export artifacts
+build/
+export/
+*.apk
+*.aab
+*.idsig
+*.ipa
+*.pck
+
+# Claude Code per-machine files (.mcp.json and .claude/settings.json are shared)
+.claude/settings.local.json
+.remember/
+
+# IDE and OS files
+.vscode/settings.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+.claude/worktrees/
+.claude/scheduled_tasks.lock
+.playwright-mcp/
+
+# The web export copied to the server (M7, tools/deploy_web.sh); never committed.
+server/deploy/play/
+server/deploy/vr/
+
+# tools/reel_render.sh opens the Movie Maker at the video size with a temporary override.cfg: never committed.
+override.cfg
+# The learning reels generator (tools/make_learning_reels.py): never its Python caches
+tools/learning_reels/__pycache__/
+
+# owner #123: written by tools/write_build_info.py for an export (BuildInfo)
+data/build_info.json

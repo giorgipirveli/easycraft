@@ -1,0 +1,337 @@
+{
+	"id": "g6.health_pe.food_as_fuel",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you read food labels. What colour shows 'high' on a traffic-light label? (Red.) Today: food as fuel: how food gives a growing body energy and nutrients."
+		},
+		{
+			"text": "Food and drink give you energy. Your body uses it all the time, even asleep: to breathe, keep warm, think and grow. Moving uses more. Energy balance means taking in about as much as your body uses."
+		},
+		{
+			"text": "Growing bodies need nutrients. Carbohydrates, in bread, rice and pasta, give most of your energy: wholegrain ones have more fibre. Protein, in fish, eggs, beans and meat, helps you grow and repair."
+		},
+		{
+			"text": "Vitamins and minerals keep you working well. Calcium, in milk and cheese, builds bones and teeth. Iron, in beans, meat and green leaves, helps the blood carry oxygen. Vitamin C, in fruit, helps you heal.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"nutrient",
+						"found in",
+						"helps you"
+					],
+					[
+						"calcium",
+						"milk, cheese",
+						"bones, teeth"
+					],
+					[
+						"iron",
+						"beans, greens",
+						"carry oxygen"
+					],
+					[
+						"vitamin C",
+						"fruit",
+						"heal"
+					]
+				]
+			}
+		},
+		{
+			"text": "The balanced plate: about a third fruit and vegetables, about a third starchy foods, some protein, some dairy and a little oil. Aim for at least 5 A DAY: 5 portions of fruit and vegetables.",
+			"picture": {
+				"kind": "plate"
+			}
+		},
+		{
+			"text": "Drink 6 to 8 glasses of fluid a day, mostly water, and more when it is hot or you are active. Juice counts only once towards 5 A DAY, and potatoes do not count: they are a starchy food."
+		},
+		{
+			"text": "A good breakfast fuels the morning. Have a starchy food (porridge, wholegrain cereal or toast) and protein or dairy (milk, yoghurt or an egg). Add a fruit and a drink of water or milk. Regular meals keep you going."
+		},
+		{
+			"text": "Try it in the world: build a breakfast bar with a menu of balanced breakfasts. For real: plan a good breakfast for tomorrow with a grown-up, and count your 5 A DAY. Next: mental health."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which nutrient gives you most of your energy?",
+			"answer": 0,
+			"hint": "Think of bread, rice and pasta.",
+			"choices": [
+				"carbohydrates",
+				"calcium",
+				"vitamin C",
+				"water"
+			],
+			"explain": "Carbohydrates: starchy foods like bread, rice and pasta."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Your body uses energy even while you are asleep.",
+			"answer": true,
+			"hint": "What does your body do all night?",
+			"explain": "True: breathing, keeping warm and growing all use energy."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which drink is best most of the time?",
+			"answer": 0,
+			"hint": "Which one has no sugar and keeps you hydrated?",
+			"choices": [
+				"water",
+				"a fizzy drink",
+				"a milkshake",
+				"an energy drink"
+			],
+			"explain": "Water: it hydrates you and is kind to your teeth."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part of the plate is hidden?",
+			"answer": 0,
+			"hint": "Which part is about a third of the plate, with the starchy foods?",
+			"choices": [
+				"fruit and vegetables",
+				"dairy",
+				"protein",
+				"oils"
+			],
+			"explain": "Fruit and vegetables: about a third of the plate.",
+			"picture": {
+				"kind": "plate",
+				"hide": "fruit_veg"
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each nutrient to its job.",
+			"items": [
+				"protein",
+				"calcium",
+				"iron",
+				"fibre"
+			],
+			"matches": [
+				"strong bones and teeth",
+				"carries oxygen in blood",
+				"healthy digestion",
+				"growth and repair"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of where each one is found and what it builds.",
+			"explain": "Protein: growth and repair. Calcium: bones and teeth. Iron: carries oxygen. Fibre: healthy digestion."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Zara has an apple, a banana, carrot sticks and a glass of orange juice. How many portions of 5 A DAY is that?",
+			"answer": "4",
+			"hint": "Each fruit or vegetable counts 1, and juice counts 1.",
+			"explain": "Apple, banana, carrots and juice: 4 portions."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which breakfast has a starchy food, dairy and fruit?",
+			"answer": 0,
+			"hint": "Look for all three parts.",
+			"choices": [
+				"porridge made with milk, and a banana",
+				"a glass of juice only",
+				"a biscuit",
+				"nothing at all"
+			],
+			"explain": "Porridge (starchy), milk (dairy) and a banana (fruit)."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Potatoes count towards your 5 A DAY.",
+			"answer": false,
+			"hint": "Which part of the plate are potatoes in?",
+			"explain": "False: potatoes are a starchy food, like bread and rice."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Starchy food or protein?",
+			"groups": [
+				"starchy food",
+				"protein"
+			],
+			"items": [
+				"pasta",
+				"eggs",
+				"rice",
+				"lentils",
+				"wholegrain bread",
+				"fish"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which ones are grains, and which help you grow and repair?",
+			"explain": "Starchy: pasta, rice, wholegrain bread. Protein: eggs, lentils, fish."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why choose wholegrain bread?",
+			"answer": 0,
+			"hint": "What does the whole grain keep?",
+			"choices": [
+				"it has more fibre",
+				"it has no energy",
+				"it is always cheaper",
+				"it has more water"
+			],
+			"explain": "It keeps the outside of the grain, so it has more fibre."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi drinks 2 glasses of orange juice and eats peas, broccoli and a pear. How many portions of 5 A DAY?",
+			"answer": "4",
+			"hint": "Juice counts once, however much you drink.",
+			"explain": "Juice counts 1, then peas, broccoli and the pear: 1 + 3 = 4."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram is growing fast and plays football every day. What does his body need?",
+			"answer": 0,
+			"hint": "A growing, active body uses a lot of energy.",
+			"choices": [
+				"regular balanced meals with enough energy",
+				"to skip breakfast",
+				"only fruit",
+				"only protein"
+			],
+			"explain": "Regular balanced meals: energy for growing and moving."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which foods are a source of iron?",
+			"answer": 0,
+			"hint": "Iron helps the blood carry oxygen.",
+			"choices": [
+				"beans and dark green leaves",
+				"water",
+				"sugar",
+				"butter"
+			],
+			"explain": "Beans and dark green leaves (and red meat) have iron."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Energy balance means taking in about as much energy as your body uses.",
+			"answer": true,
+			"hint": "Balance means the two sides match.",
+			"explain": "True: energy in from food, energy out from living, growing and moving."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "On a hot day of sports, what should Tilly do?",
+			"answer": 0,
+			"hint": "Sweating takes water out of your body.",
+			"choices": [
+				"drink water little and often",
+				"drink nothing until evening",
+				"drink one big glass at night",
+				"only eat"
+			],
+			"explain": "Drink water little and often, before, during and after."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Bram drinks 3 glasses of water, 2 of milk and 1 of fruit juice. That is 6 glasses of fluid.",
+			"answer": true,
+			"hint": "Add them up and compare with 6 to 8.",
+			"explain": "True: 3 + 2 + 1 = 6 glasses, the low end of 6 to 8."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the foods by the nutrient they are rich in.",
+			"groups": [
+				"calcium",
+				"iron",
+				"vitamin C"
+			],
+			"items": [
+				"milk",
+				"beans",
+				"an orange",
+				"cheese",
+				"spinach",
+				"strawberries"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Dairy for bones, beans and green leaves for blood, fruit for healing.",
+			"explain": "Calcium: milk and cheese, for bones and teeth. Iron: beans and spinach, to carry oxygen. Vitamin C: oranges and strawberries, to help you heal."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram drinks 4 glasses of water, 1 of milk and 2 of orange juice. He eats an apple and some peas. How many portions of 5 A DAY is that?",
+			"answer": "3",
+			"hint": "Juice counts only once. Water and milk are not fruit or vegetables.",
+			"explain": "The 2 glasses of juice count only once: 1 portion. Then the apple and the peas: 1 + 2 = 3 portions. The water and milk are good fluids, but not part of 5 A DAY."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.five_a_day",
+			"level": 1
+		},
+		{
+			"gen": "g6w.five_a_day",
+			"level": 2
+		},
+		{
+			"gen": "g6w.five_a_day",
+			"level": 3
+		},
+		{
+			"gen": "g6w.nutrient_job",
+			"level": 1
+		},
+		{
+			"gen": "g6w.nutrient_job",
+			"level": 2
+		},
+		{
+			"gen": "g6w.nutrient_job",
+			"level": 3
+		}
+	]
+}

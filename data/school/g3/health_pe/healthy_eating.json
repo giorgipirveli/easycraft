@@ -1,0 +1,370 @@
+{
+	"id": "g3.health_pe.healthy_eating",
+	"lesson": [
+		{
+			"text": "Quick memory: which foods give you energy? (Starchy foods, like bread, rice and pasta.) Today: the food groups, and how to fill a balanced plate."
+		},
+		{
+			"text": "The food groups: fruit and vegetables give vitamins, and starchy foods give energy. Protein, like beans, fish, eggs and meat, is for growing and repair. Dairy, like milk, cheese and yoghurt, is for strong bones and teeth.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Food group",
+						"Gives you"
+					],
+					[
+						"fruit and vegetables",
+						"vitamins"
+					],
+					[
+						"starchy foods",
+						"energy"
+					],
+					[
+						"protein",
+						"growth, repair"
+					],
+					[
+						"dairy",
+						"strong bones"
+					]
+				]
+			}
+		},
+		{
+			"text": "A balanced plate: about a third fruit and vegetables, about a third starchy foods, then some protein and some dairy. Oils and spreads: just a little.",
+			"picture": {
+				"kind": "plate"
+			}
+		},
+		{
+			"text": "Eat a rainbow: aim for at least 5 portions of fruit and vegetables every day, of different colours. A portion is about what fits in the palm of your hand. Potatoes count as starchy food, not as one of the 5."
+		},
+		{
+			"text": "Cakes, sweets, crisps and fizzy drinks have lots of sugar, fat or salt. They are treats to have now and then, in small amounts, not every day."
+		},
+		{
+			"text": "Water is the best drink. Aim for about 6 to 8 glasses of drinks a day, and more when it is hot or you are active. Sugary drinks can harm your teeth."
+		},
+		{
+			"text": "Breakfast gives you energy for the morning. Easy swaps: fruit instead of sweets, water instead of fizzy drinks, wholegrain bread instead of white."
+		},
+		{
+			"text": "Try it in the world: build a giant plate out of coloured blocks and split it into the food groups. Check that fruit and vegetables and starchy foods have the biggest parts!"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which food group is an apple in?",
+			"answer": 0,
+			"hint": "Does it grow on a tree?",
+			"choices": [
+				"fruit and vegetables",
+				"dairy",
+				"protein",
+				"starchy foods"
+			],
+			"explain": "An apple is a fruit: fruit and vegetables."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the best drink when you are thirsty?",
+			"answer": 0,
+			"hint": "Which one has no sugar at all?",
+			"choices": [
+				"water",
+				"a fizzy drink",
+				"a milkshake",
+				"a sugary squash"
+			],
+			"explain": "Water: it has no sugar, so it quenches your thirst and is kind to your teeth."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Try to eat at least 5 portions of fruit and vegetables every day.",
+			"answer": true,
+			"hint": "Remember 'eat a rainbow'.",
+			"explain": "True: at least 5 portions a day, of different colours."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which food group helps build strong bones and teeth?",
+			"answer": 0,
+			"hint": "Which foods are made from milk?",
+			"choices": [
+				"dairy: milk, cheese, yoghurt",
+				"oils and spreads",
+				"sweets",
+				"fizzy drinks"
+			],
+			"explain": "Dairy foods, like milk, cheese and yoghurt, give you calcium for strong bones and teeth."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the foods into their food groups.",
+			"groups": [
+				"starchy foods",
+				"protein",
+				"dairy"
+			],
+			"items": [
+				"rice",
+				"beans",
+				"cheese",
+				"pasta",
+				"eggs",
+				"yoghurt"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Starchy foods give energy, protein helps you grow, dairy is made from milk.",
+			"explain": "Starchy foods: rice, pasta. Protein: beans, eggs. Dairy: cheese, yoghurt."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Fruit and vegetables, or starchy foods?",
+			"groups": [
+				"fruit and vegetables",
+				"starchy foods"
+			],
+			"items": [
+				"carrots",
+				"bread",
+				"peas",
+				"potatoes",
+				"bananas",
+				"oats"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Careful: potatoes are starchy, even though they grow in the ground.",
+			"explain": "Fruit and vegetables: carrots, peas, bananas. Starchy foods: bread, potatoes, oats."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which two parts of a balanced plate are the biggest?",
+			"answer": 0,
+			"hint": "Look at the plate on the lesson card.",
+			"choices": [
+				"fruit and vegetables, and starchy foods",
+				"oils and dairy",
+				"protein and dairy",
+				"sweets and cakes"
+			],
+			"explain": "Fruit and vegetables and starchy foods each fill about a third of the plate.",
+			"picture": {
+				"kind": "plate"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How big is one portion of fruit or vegetables for you?",
+			"answer": 0,
+			"hint": "Look at your hand.",
+			"choices": [
+				"about what fits in your palm",
+				"a whole bucket",
+				"one pea",
+				"a whole melon"
+			],
+			"explain": "A portion is about what fits in the palm of your hand."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Potatoes count as one of your 5 portions of fruit and vegetables.",
+			"answer": false,
+			"hint": "Which food group are potatoes in?",
+			"explain": "False: potatoes are a starchy food, like bread and rice, so they do not count in your 5 a day."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each food group to its job.",
+			"items": [
+				"starchy foods",
+				"protein",
+				"fruit and vegetables",
+				"dairy"
+			],
+			"matches": [
+				"growing and repair",
+				"vitamins",
+				"strong bones and teeth",
+				"energy"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of what each food helps your body do.",
+			"explain": "Starchy foods: energy. Protein: growing and repair. Fruit and vegetables: vitamins. Dairy: strong bones and teeth."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which part of this plate is missing?",
+			"answer": 0,
+			"hint": "Read the key: which name has become a question mark?",
+			"choices": [
+				"protein",
+				"dairy",
+				"starchy foods",
+				"fruit and vegetables"
+			],
+			"explain": "The missing part is protein: beans, fish, eggs, meat and nuts, which help you grow and repair.",
+			"picture": {
+				"kind": "plate",
+				"hide": "protein"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram's lunch is a cheese sandwich and a yoghurt. What would balance it best?",
+			"answer": 0,
+			"hint": "Which food group is missing from his lunch?",
+			"choices": [
+				"some carrot sticks and an apple",
+				"a slice of cake",
+				"a bag of crisps",
+				"a fizzy drink"
+			],
+			"explain": "He has starchy food (bread) and dairy (cheese, yoghurt) but no fruit or vegetables: carrots and an apple fill the gap."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is water better for you than a fizzy drink?",
+			"answer": 0,
+			"hint": "What is in fizzy drinks that teeth do not like?",
+			"choices": [
+				"it has no sugar to harm your teeth",
+				"it is fizzier",
+				"it has more sugar",
+				"it is sweeter"
+			],
+			"explain": "Water has no sugar, so it quenches thirst without harming your teeth."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara ate 2 portions of fruit at breakfast and 2 portions of vegetables at lunch. How many more portions to reach 5?",
+			"answer": "1",
+			"hint": "Add what she has eaten, then count on to 5.",
+			"explain": "2 + 2 = 4 portions so far, and 5 − 4 = 1 more portion."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Eating fruit and vegetables of different colours gives you different vitamins.",
+			"answer": true,
+			"hint": "Why do we say 'eat a rainbow'?",
+			"explain": "True: different colours mean different vitamins, so a rainbow of fruit and vegetables is best."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do you need more to drink on a hot day?",
+			"answer": 0,
+			"hint": "What does your body do to cool down?",
+			"choices": [
+				"sweating takes water out of your body",
+				"water makes you hotter",
+				"you need less on hot days",
+				"drinks are colder then"
+			],
+			"explain": "You sweat to cool down, and sweat is water leaving your body, so you need to drink more."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: an everyday food or drink, or a now-and-then treat?",
+			"groups": [
+				"everyday",
+				"now and then"
+			],
+			"items": [
+				"an apple",
+				"a fizzy drink",
+				"wholegrain bread",
+				"sweets",
+				"a glass of water",
+				"crisps"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Treats have lots of sugar, fat or salt.",
+			"explain": "Everyday: an apple, wholegrain bread and water. Now and then: fizzy drinks, sweets and crisps have lots of sugar, fat or salt."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Make easy swaps: match each one to a healthier choice.",
+			"items": [
+				"sweets",
+				"a fizzy drink",
+				"white bread",
+				"crisps"
+			],
+			"matches": [
+				"water",
+				"carrot sticks",
+				"a piece of fruit",
+				"wholegrain bread"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1
+			],
+			"hint": "Swap for something with less sugar, fat or salt, from the same kind of food.",
+			"explain": "Fruit instead of sweets, water instead of a fizzy drink, wholegrain bread instead of white, and crunchy carrot sticks instead of crisps."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3p.food_sort",
+			"level": 1
+		},
+		{
+			"gen": "g3p.food_sort",
+			"level": 2
+		},
+		{
+			"gen": "g3p.food_sort",
+			"level": 3
+		}
+	]
+}

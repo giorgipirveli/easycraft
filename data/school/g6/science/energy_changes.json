@@ -1,0 +1,437 @@
+{
+	"id": "g6.science.energy_changes",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4, what does a lamp change electricity into? (Light.) Today: follow energy as it changes form, and find out where some of it is wasted."
+		},
+		{
+			"text": "Energy comes in many forms: chemical (in food, fuel and batteries), electrical, kinetic (movement), light, sound and heat. Gravitational energy is stored by being up high, and elastic energy in a stretched or squashed spring."
+		},
+		{
+			"text": "Energy changes from one form to another. In a torch, chemical energy in the battery becomes electrical energy, then light in the bulb, with some heat. When you run, chemical energy from food becomes kinetic energy.",
+			"picture": {
+				"kind": "energy_chain",
+				"steps": [
+					"chemical",
+					"electrical",
+					"light"
+				],
+				"things": [
+					"battery",
+					"wire",
+					"bulb"
+				],
+				"wasted": [
+					"heat"
+				]
+			}
+		},
+		{
+			"text": "Energy is never made or destroyed; it only changes form or moves. It is measured in joules (J), named after James Joule. His experiments in the 1840s showed that movement always turns into a fixed amount of heat."
+		},
+		{
+			"text": "At a dam, water high up has gravitational energy; as it falls it gains kinetic energy, and a turbine turns that into electrical energy. A bouncing ball swaps gravitational, kinetic and elastic energy.",
+			"picture": {
+				"kind": "energy_chain",
+				"steps": [
+					"gravitational",
+					"kinetic",
+					"electrical"
+				],
+				"things": [
+					"high water",
+					"falling",
+					"turbine"
+				]
+			}
+		},
+		{
+			"text": "Not all energy goes where we want. The useful part does the job; the rest is wasted, mostly as heat and sound. A Sankey diagram shows it: this filament bulb takes in 100 J but gives out only 10 J of light.",
+			"picture": {
+				"kind": "sankey",
+				"total": 100,
+				"useful": [
+					[
+						"light",
+						10
+					]
+				],
+				"wasted": [
+					[
+						"heat",
+						90
+					]
+				],
+				"name": "a filament bulb"
+			}
+		},
+		{
+			"text": "Efficiency is the useful energy out ÷ the energy in × 100%. For the filament bulb, 10 ÷ 100 × 100 = 10%. An LED lamp gives the same light for much less electricity, so far less is wasted."
+		},
+		{
+			"text": "Try it in the world: find three ways to waste less energy at home. Switch off lights, put a lid on a pan, or boil only the water you need. Next: the water cycle, where the Sun's energy moves water round the world."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What form of energy is stored in food?",
+			"choices": [
+				"chemical",
+				"sound",
+				"light",
+				"elastic"
+			],
+			"answer": 0,
+			"hint": "Food, fuel and batteries all store the same form.",
+			"explain": "Food stores chemical energy; your body changes it into movement and heat."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A loudspeaker changes electrical energy into which useful form?",
+			"choices": [
+				"sound",
+				"light",
+				"gravitational",
+				"chemical"
+			],
+			"answer": 0,
+			"hint": "What do you hear from it?",
+			"explain": "A loudspeaker turns electrical energy into sound.",
+			"picture": {
+				"kind": "energy_chain",
+				"steps": [
+					"electrical",
+					"sound"
+				],
+				"hide": 1
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Energy can be used up and destroyed.",
+			"answer": false,
+			"hint": "Does energy vanish, or change form?",
+			"explain": "False: energy is never made or destroyed; it changes form, often into heat."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each device to the energy change it makes.",
+			"items": [
+				"solar panel",
+				"kettle",
+				"wind turbine",
+				"torch bulb"
+			],
+			"matches": [
+				"electrical to heat",
+				"kinetic to electrical",
+				"electrical to light",
+				"light to electrical"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "What goes in, and what useful energy comes out?",
+			"explain": "Solar panel: light to electrical. Kettle: electrical to heat. Wind turbine: kinetic to electrical. Torch bulb: electrical to light."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A stretched catapult stores which form of energy?",
+			"choices": [
+				"elastic",
+				"sound",
+				"heat",
+				"light"
+			],
+			"answer": 0,
+			"hint": "Stretched or squashed things store energy.",
+			"explain": "Elastic energy is stored in the stretched band; it becomes kinetic energy when you let go."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What unit is energy measured in?",
+			"choices": [
+				"joules",
+				"metres",
+				"grams",
+				"degrees"
+			],
+			"answer": 0,
+			"hint": "It is named after James Joule.",
+			"explain": "Energy is measured in joules (J)."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A motor takes in 200 J and gives out 150 J of movement. How much energy is wasted, in J?",
+			"answer": "50",
+			"hint": "The useful and the wasted energy add up to what went in.",
+			"explain": "200 − 150 = 50 J wasted, as heat and sound.",
+			"picture": {
+				"kind": "sankey",
+				"total": 200,
+				"useful": [
+					[
+						"movement",
+						150
+					]
+				],
+				"wasted": [
+					[
+						"heat",
+						50
+					]
+				],
+				"hide": 2
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the energy changes in a torch in order.",
+			"items": [
+				"electrical energy in the wire",
+				"chemical energy in the battery",
+				"light from the bulb"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Where is the energy stored before you switch on?",
+			"explain": "Chemical energy in the battery, then electrical energy in the wire, then light (and some heat) from the bulb."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Water falls from a dam to make electricity. Which form is missing?",
+			"choices": [
+				"kinetic",
+				"sound",
+				"chemical",
+				"elastic"
+			],
+			"answer": 0,
+			"hint": "Falling water is moving.",
+			"explain": "Gravitational energy becomes kinetic energy as the water falls, then electrical energy in the turbine.",
+			"picture": {
+				"kind": "energy_chain",
+				"steps": [
+					"gravitational",
+					"kinetic",
+					"electrical"
+				],
+				"hide": 1
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: useful or wasted energy?",
+			"groups": [
+				"useful",
+				"wasted"
+			],
+			"items": [
+				"light from a lamp",
+				"heat from a lamp",
+				"movement of a fan",
+				"noise from a fan",
+				"heat into a kettle's water",
+				"sound of a kettle"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Useful energy is what the device is for.",
+			"explain": "Useful: light from a lamp, movement of a fan, heat into the kettle's water. Wasted: heat from a lamp, noise from a fan, the sound of a kettle."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A ball bounces lower each time because some energy becomes heat and sound.",
+			"answer": true,
+			"hint": "Where does energy go at each bounce?",
+			"explain": "True: at each bounce some energy is wasted as heat and sound, so less is left to lift the ball."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which uses less electricity for the same light?",
+			"choices": [
+				"an LED lamp",
+				"an old filament bulb"
+			],
+			"answer": 0,
+			"hint": "Which one gets hot to touch?",
+			"explain": "An LED lamp gives the same light for much less electricity; a filament bulb turns most of it into heat."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A kettle takes in 2,000 J, and 1,600 J of it heats the water. What is its efficiency, in %?",
+			"answer": "80",
+			"hint": "Efficiency = useful energy ÷ total energy × 100.",
+			"explain": "1,600 ÷ 2,000 × 100 = 80%.",
+			"picture": {
+				"kind": "sankey",
+				"total": 2000,
+				"useful": [
+					[
+						"hot water",
+						1600
+					]
+				],
+				"wasted": [
+					[
+						"warm air",
+						300
+					],
+					[
+						"sound",
+						100
+					]
+				],
+				"name": "an electric kettle"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A car engine takes in 1,000 J. 700 J are wasted as heat and 50 J as sound. How much useful movement energy does it give out, in J?",
+			"answer": "250",
+			"hint": "Take all the wasted energy away from the total.",
+			"explain": "700 + 50 = 750 J wasted, and 1,000 − 750 = 250 J of movement.",
+			"picture": {
+				"kind": "sankey",
+				"total": 1000,
+				"useful": [
+					[
+						"movement",
+						250
+					]
+				],
+				"wasted": [
+					[
+						"heat",
+						700
+					],
+					[
+						"sound",
+						50
+					]
+				],
+				"hide": 1
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the best way to waste less energy when cooking?",
+			"choices": [
+				"put a lid on the pan",
+				"cook with the window open",
+				"use a bigger pan than needed",
+				"leave the oven door open"
+			],
+			"answer": 0,
+			"hint": "Where does the heat escape?",
+			"explain": "A lid keeps the heat in the pan, so less is wasted and the food cooks faster."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "At a hydroelectric dam, where did the water's energy first come from?",
+			"choices": [
+				"the Sun, which lifted the water as vapour",
+				"the turbine",
+				"the wires",
+				"the cold of the water"
+			],
+			"answer": 0,
+			"hint": "How did the water get up high in the first place?",
+			"explain": "The Sun's heat evaporated water, which fell as rain on high ground: its gravitational energy came from the Sun."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the energy changes of a dropped ball in order.",
+			"items": [
+				"kinetic, going up again",
+				"elastic, squashed on the ground",
+				"kinetic, falling",
+				"gravitational, held up high"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start when it is held still, high up.",
+			"explain": "Gravitational (held high), kinetic (falling), elastic (squashed), kinetic (going up), with some heat and sound each time."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A machine with 100% efficiency would waste no energy at all.",
+			"answer": true,
+			"hint": "What would it mean for all of the energy to be useful?",
+			"explain": "True, but no real machine does it: some energy always becomes heat or sound."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6k.energy_convert",
+			"level": 1
+		},
+		{
+			"gen": "g6k.energy_convert",
+			"level": 2
+		},
+		{
+			"gen": "g6k.energy_convert",
+			"level": 3
+		},
+		{
+			"gen": "g6k.energy_waste",
+			"level": 1
+		},
+		{
+			"gen": "g6k.energy_waste",
+			"level": 2
+		},
+		{
+			"gen": "g6k.energy_waste",
+			"level": 3
+		},
+		{
+			"gen": "g6k.save_energy",
+			"level": 1
+		},
+		{
+			"gen": "g6k.save_energy",
+			"level": 2
+		},
+		{
+			"gen": "g6k.save_energy",
+			"level": 3
+		}
+	]
+}

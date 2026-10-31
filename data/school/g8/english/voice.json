@@ -1,0 +1,202 @@
+{
+	"id": "g8.english.voice",
+	"lesson": [
+		{
+			"text": "In the active voice, the subject does the action: The dog chased the ball."
+		},
+		{
+			"text": "In the passive voice, the subject receives the action: The ball was chased by the dog."
+		},
+		{
+			"text": "Active voice is usually clearer and livelier. Passive voice is useful when the doer is unknown or less important: The window was broken. The results were checked carefully."
+		},
+		{
+			"text": "Choose the voice for effect, and don't switch voices without a reason."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sentence is in the active voice?",
+			"answer": 0,
+			"hint": "Who does the action first?",
+			"choices": [
+				"The cat caught the mouse.",
+				"The mouse was caught by the cat."
+			],
+			"explain": "The subject (the cat) does the action."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sentence is passive?",
+			"answer": 0,
+			"hint": "was + done…",
+			"choices": [
+				"The cake was eaten.",
+				"We ate the cake.",
+				"She bakes cakes."
+			],
+			"explain": "\"Was eaten\" is passive."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In the passive voice, the subject receives the action.",
+			"answer": true,
+			"hint": "The ball was chased…",
+			"explain": "Yes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which voice is usually clearer and livelier?",
+			"answer": 0,
+			"hint": "Who did what…",
+			"choices": [
+				"active",
+				"passive"
+			],
+			"explain": "Active."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "\"The door was opened by Sam\" is active.",
+			"answer": false,
+			"hint": "Who does the action?",
+			"explain": "No: it is passive."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Change to active: \"The song was sung by the choir.\"",
+			"answer": 0,
+			"hint": "Put the doer first.",
+			"choices": [
+				"The choir sang the song.",
+				"The song sang the choir.",
+				"The song was sung."
+			],
+			"explain": "The choir sang the song."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "When is the passive voice useful?",
+			"answer": 0,
+			"hint": "\"The window was broken.\"",
+			"choices": [
+				"when the doer is unknown",
+				"always",
+				"never"
+			],
+			"explain": "When we don't know who did it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which sentence hides who did the action?",
+			"answer": 0,
+			"hint": "No doer named.",
+			"choices": [
+				"Mistakes were made.",
+				"I made mistakes.",
+				"We made a cake."
+			],
+			"explain": "The passive hides the doer."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Scientists often use the passive: \"The water was heated.\"",
+			"answer": true,
+			"hint": "The action matters more.",
+			"explain": "Yes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Change to passive: \"The storm damaged the barn.\"",
+			"answer": 0,
+			"hint": "The receiver becomes the subject.",
+			"choices": [
+				"The barn was damaged by the storm.",
+				"The storm was damaged.",
+				"The barn damaged the storm."
+			],
+			"explain": "The barn was damaged by the storm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why might a news report say \"Three people were rescued\" rather than naming the rescuers?",
+			"answer": 0,
+			"hint": "What is the focus?",
+			"choices": [
+				"The people rescued matter most.",
+				"It is shorter.",
+				"It is wrong."
+			],
+			"explain": "The passive puts the focus on those rescued."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which sentence switches voice without a reason?",
+			"answer": 0,
+			"hint": "Active, then passive…",
+			"choices": [
+				"We cleaned up, and the bins were emptied by us.",
+				"We cleaned the room and took the rubbish out.",
+				"The room was cleaned."
+			],
+			"explain": "It switches to passive for no reason."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the most lively for a story?",
+			"answer": 0,
+			"hint": "Active and vivid.",
+			"choices": [
+				"The dragon smashed the gate.",
+				"The gate was smashed.",
+				"The gate was smashed by something."
+			],
+			"explain": "The active voice is lively."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A writer can choose passive voice on purpose for effect.",
+			"answer": true,
+			"hint": "Suspense…",
+			"explain": "Yes: \"The door was opened…\" hides who."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Build the passive sentence.",
+			"answer": [
+				5,
+				4,
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Receiver first.",
+			"items": [
+				"Ann.",
+				"by",
+				"written",
+				"was",
+				"letter",
+				"The"
+			],
+			"explain": "The letter was written by Ann."
+		}
+	]
+}

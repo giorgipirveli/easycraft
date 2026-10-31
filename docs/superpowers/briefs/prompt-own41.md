@@ -1,0 +1,11 @@
+# Owner feedback #41 — more different animals
+(Use `owner-common.md` as the house rules header. Start after M3 Tasks 3 (Frostpeak) and 4 (Candy Kingdom) and the audio pass are merged.)
+The owner (2026-09-24 20:42): "include more different animals" (and "animals should have sounds, like real ones").
+Read the animal code (`entities/animal/animal.gd`, `core/rules/animal_rules.gd`, herds and spawning, taming, the pets branch, `TreasureSniff`), the creature minds (`core/mind/species/animal_species.gd`, `docs/devlog/parts/m2-task-18.md`), the universes' descriptors (`world/universes/*.gd`), the animal models and both graphics styles, the audio pass's animal voices, owner bugs #26 (animals can be defeated, drops) and row #41.
+Add (models from cached meshes in both styles, a species table each, herd sizes and biomes, taming food, sounds via the audio pass's animal voice system with real CC0 recordings):
+- **Green Meadows:** horse (**rideable**: tame with apples/wheat-like food that exists, a saddle from Tilly; gallop speed capped), donkey (carries a chest of 9 slots), goat (jumps up blocks), deer (shy, runs), duck (swims), frog (hops, near water), turtle (slow, lays an egg on sand now and then — a small secret), squirrel (up trees), owl (at night), hedgehog, and ambient **bees and butterflies** (cheap particles near flowers).
+- **Sandstorm Desert:** camel (**rideable**, slow and steady in sandstorms), lizard, fennec fox.
+- **Frostpeak:** penguin (slides on ice), gentle polar bear (never attacks; big and fluffy), arctic fox, seal (on ice floes).
+- **Candy Kingdom:** gummy bunnies, candy birds.
+Each universe's descriptor names its animals; herds spawn only near players (the existing budget: ≤ 10 Hz decisions, no per-event materials); the Animal Book (M3 Task 21b) lists them if it exists.
+Tests: species tables (every animal has a biome, herd size, speed, food, sounds, a mind table), spawning per universe/biome, riding rules (horse and camel: mount, speeds, dismount safely, the saddle), special behaviours (goat climb, duck swim, turtle egg, penguin slide, deer flee), taming/feeding, the performance budget with 40 animals near the player (a headless measurement). Notes: `docs/devlog/parts/owner-41-animals.md`.

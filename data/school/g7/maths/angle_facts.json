@@ -1,0 +1,194 @@
+{
+	"id": "g7.maths.angle_facts",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met angles in a triangle. What do a triangle's three angles add up to? 180°."
+		},
+		{
+			"text": "Supplementary angles add up to 180°, like angles on a straight line. Complementary angles add up to 90°.",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "straight",
+				"angles": [
+					110,
+					70
+				],
+				"labels": [
+					"110°",
+					"?"
+				]
+			}
+		},
+		{
+			"text": "Vertical angles are opposite each other where two lines cross; they are always equal.",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "cross",
+				"angles": [
+					48,
+					132,
+					48,
+					132
+				],
+				"labels": [
+					"48°",
+					"",
+					"?",
+					""
+				]
+			}
+		},
+		{
+			"text": "Adjacent angles share a side. Angles around a point add up to 360°."
+		},
+		{
+			"text": "Use equations: two supplementary angles x and 2x give x + 2x = 180, so x = 60°."
+		},
+		{
+			"text": "Try it in the world: build a crossroads in your world where two straight paths cross. Stand in each corner: which corners have equal angles? Next: circles."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Two angles are supplementary. One is 110°. What is the other, in degrees?",
+			"answer": "70",
+			"hint": "Supplementary angles make a straight line: 180°. Take away 110.",
+			"explain": "180 − 110 = 70°."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Two angles are complementary. One is 25°. What is the other, in degrees?",
+			"answer": "65",
+			"hint": "Complementary angles make a right angle: 90°. Take away 25.",
+			"explain": "90 − 25 = 65°."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Vertical angles are equal.",
+			"answer": true,
+			"hint": "Opposite where lines cross.",
+			"explain": "Yes: vertical angles, opposite where two lines cross, are always equal."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Two lines cross. One angle is 48°. What is the angle opposite it, in degrees?",
+			"answer": "48",
+			"hint": "Opposite angles where two lines cross: what do you know about them?",
+			"explain": "48°: vertical angles are equal."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Three angles meet around a point: 100°, 150° and x. What is x, in degrees?",
+			"answer": "110",
+			"hint": "They add to 360°.",
+			"explain": "360 − 250 = 110°."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which pair is complementary?",
+			"answer": 0,
+			"hint": "Add to 90°.",
+			"choices": [
+				"30° and 60°",
+				"30° and 150°",
+				"45° and 45° and 90°"
+			],
+			"explain": "30 + 60 = 90."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Two supplementary angles are x and 3x. What is x, in degrees?",
+			"answer": "45",
+			"hint": "4x = 180.",
+			"explain": "Supplementary angles add up to 180°: x + 3x = 180, so 4x = 180 and x = 180 ÷ 4 = 45°. Check: 45 + 135 = 180."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Two complementary angles are x and x + 20. What is x, in degrees?",
+			"answer": "35",
+			"hint": "2x + 20 = 90.",
+			"explain": "Complementary angles add up to 90°: x + x + 20 = 90. Take 20 from both sides: 2x = 70, so x = 35°. Check: 35 + 55 = 90."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each fact to its total.",
+			"items": [
+				"angles on a straight line",
+				"angles round a point",
+				"complementary angles",
+				"angles in a triangle"
+			],
+			"matches": [
+				"90°",
+				"180° too",
+				"180°",
+				"360°"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Picture each one: a line, a full turn, a right angle, a triangle.",
+			"explain": "A straight line: 180°. Round a point: 360°. Complementary: 90°. A triangle: 180° too."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the pairs: supplementary or complementary?",
+			"items": [
+				"110° and 70°",
+				"30° and 60°",
+				"90° and 90°",
+				"45° and 45°",
+				"150° and 30°"
+			],
+			"groups": [
+				"supplementary",
+				"complementary"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Add each pair: 180° or 90°?",
+			"explain": "110 + 70, 90 + 90 and 150 + 30 make 180: supplementary. 30 + 60 and 45 + 45 make 90: complementary."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Two angles sit side by side on a straight line. One is 3x and the other is x + 40. What is x, in degrees?",
+			"answer": "35",
+			"hint": "Angles on a straight line add up to 180°. Write it as an equation.",
+			"explain": "3x + x + 40 = 180, so 4x + 40 = 180. Take 40 from both sides: 4x = 140, and x = 35°. Check: the angles are 105° and 75°, and 105 + 75 = 180."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7g.angle_fact",
+			"level": 1
+		},
+		{
+			"gen": "g7g.angle_fact",
+			"level": 2
+		},
+		{
+			"gen": "g7g.angle_fact",
+			"level": 3
+		}
+	]
+}

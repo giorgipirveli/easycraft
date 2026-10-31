@@ -1,0 +1,299 @@
+{
+	"id": "g3.health_pe.run_jump_throw",
+	"lesson": [
+		{
+			"text": "Quick memory: can a muscle push, or can it only pull? (Only pull: muscles work in pairs.) Your muscles pull on your bones every time you run, jump, throw and catch."
+		},
+		{
+			"text": "Run tall: head up and eyes looking ahead. Bend your arms and swing them forwards and back, not across your body. Lift your knees and land on the front of your feet.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"run"
+				]
+			}
+		},
+		{
+			"text": "Jump: bend your knees and swing your arms back, then swing them forwards and up as you push off. Land softly on both feet with bent knees, like a spring squashing.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"crouch",
+					"jump",
+					"land"
+				],
+				"labels": [
+					"get ready",
+					"push off",
+					"land softly"
+				]
+			}
+		},
+		{
+			"text": "Throw overarm: stand side-on to the target and point at it with your other hand. Take the ball back high, step forward with the opposite foot, throw, and follow through towards the target.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"throw"
+				]
+			}
+		},
+		{
+			"text": "Catch: watch the ball all the way into your hands. Make a basket with your fingers spread. Then 'give' with the ball, pulling it in to your chest so it does not bounce out.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"catch"
+				]
+			}
+		},
+		{
+			"text": "Get better little by little. Start close to a partner, and after 5 catches in a row, take one step back. Everyone improves at their own speed: count your own best, not other people's."
+		},
+		{
+			"text": "Try it in the world: build a running track with a start line and a finish line. Add a long jump pit of sand with a marker every block. Then practise for real in a park or garden: how far can you jump?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "When you run, where should your eyes look?",
+			"answer": 0,
+			"hint": "Where are you going?",
+			"choices": [
+				"ahead, where you are going",
+				"down at your feet",
+				"up at the sky",
+				"behind you"
+			],
+			"explain": "Look ahead: it keeps your head up and your body tall, and you can see what is coming."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Swinging your arms helps you run faster.",
+			"answer": true,
+			"hint": "Try running with your arms stiff at your sides. Is it easier?",
+			"explain": "True: bent arms swinging forwards and back help drive you along."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How should you land after a jump?",
+			"answer": 0,
+			"hint": "Think of a spring squashing down.",
+			"choices": [
+				"softly on both feet, knees bent",
+				"on straight, stiff legs",
+				"on your hands",
+				"on one heel"
+			],
+			"explain": "Land softly on both feet and bend your knees, like a spring. It keeps your joints safe."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When a ball comes to you, it is best to close your eyes.",
+			"answer": false,
+			"hint": "How can you catch what you cannot see?",
+			"explain": "False: watch the ball all the way into your hands."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the overarm throw in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Get into position first; the throw comes last.",
+			"items": [
+				"throw, and follow through",
+				"step forward with your opposite foot",
+				"point at the target with your other hand",
+				"stand side-on to the target"
+			],
+			"explain": "Stand side-on, point at the target, step forward with your opposite foot, then throw and follow through."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Zara throws with her right hand. Which foot should she step forward with?",
+			"answer": 0,
+			"hint": "It is the foot on the opposite side.",
+			"choices": [
+				"her left foot",
+				"her right foot",
+				"both feet together",
+				"neither: she jumps"
+			],
+			"explain": "The opposite foot: her left. It turns her body and adds power to the throw."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do you pull the ball in to your chest as you catch it?",
+			"answer": 0,
+			"hint": "Think of catching an egg.",
+			"choices": [
+				"so it does not bounce out",
+				"so it goes faster",
+				"so you can drop it",
+				"to hide it from your team"
+			],
+			"explain": "Giving with the ball slows it down gently, so it stays in your hands instead of bouncing out."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each skill to its tip.",
+			"items": [
+				"run",
+				"jump",
+				"throw",
+				"catch"
+			],
+			"matches": [
+				"bend knees, swing arms up",
+				"point at the target",
+				"watch the ball in",
+				"swing bent arms"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the picture on each lesson card.",
+			"explain": "Run: swing bent arms. Jump: bend your knees and swing your arms up. Throw: point at the target. Catch: watch the ball in."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "To jump further, swing your arms forwards and up as you push off.",
+			"answer": true,
+			"hint": "What do your arms do in the jump pictures?",
+			"explain": "True: swinging your arms forwards and up carries your body with them."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram's catches keep bouncing out of his hands. What should he try?",
+			"answer": 0,
+			"hint": "What stops the ball bouncing?",
+			"choices": [
+				"pulling the ball in as he catches",
+				"keeping his hands stiff and flat",
+				"looking away at the last moment",
+				"standing further away"
+			],
+			"explain": "Giving with the ball, pulling it in to his chest, slows it down so it stays in his hands."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi's throws keep going off to one side. What should she check?",
+			"answer": 0,
+			"hint": "Where should her other hand and her follow-through go?",
+			"choices": [
+				"that she points at the target",
+				"that her eyes are shut",
+				"that she throws underarm",
+				"that she stands on one foot"
+			],
+			"explain": "Pointing at the target, stepping towards it and following through towards it sends the ball straight."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Is each tip for jumping or for catching?",
+			"groups": [
+				"jumping",
+				"catching"
+			],
+			"items": [
+				"bend your knees",
+				"watch the ball",
+				"swing your arms up",
+				"make a basket with your hands",
+				"land softly",
+				"pull it in to your chest"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which tips are about your hands and a ball?",
+			"explain": "Jumping: bend your knees, swing your arms up, land softly. Catching: watch the ball, make a basket with your hands, pull it in."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly can make 5 catches in a row from 2 steps away. What is a good next challenge?",
+			"answer": 0,
+			"hint": "A good challenge is a little harder, not a lot harder.",
+			"choices": [
+				"take one step back",
+				"stand 20 steps away",
+				"catch with her eyes shut",
+				"stop practising"
+			],
+			"explain": "One step back is a little harder: she can still succeed, and she keeps improving."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the standing long jump in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Where are your arms at the start?",
+			"items": [
+				"land softly on both feet",
+				"fly through the air",
+				"swing your arms forward and push off",
+				"bend your knees and swing your arms back"
+			],
+			"explain": "Bend and swing your arms back, swing them forward and push off, fly, then land softly on both feet."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the tips: for running, or for throwing?",
+			"groups": [
+				"running",
+				"throwing"
+			],
+			"items": [
+				"head up, eyes ahead",
+				"stand side-on",
+				"lift your knees",
+				"point at the target",
+				"land on the front of your feet",
+				"follow through"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which tips are about moving your legs, and which about aiming a ball?",
+			"explain": "Running: head up, lift your knees, land on the front of your feet. Throwing: stand side-on, point at the target and follow through."
+		}
+	],
+	"generators": []
+}

@@ -1,0 +1,304 @@
+{
+	"id": "g6.maths.equivalent_expressions",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met brackets. What is (3 + 5) × 2? Work out the brackets first: 8 × 2 = 16."
+		},
+		{
+			"text": "Equivalent expressions have the same value for every number: 3(x + 4) and 3x + 12. Try x = 2: 3 × 6 = 18 and 6 + 12 = 18."
+		},
+		{
+			"text": "The distributive property multiplies everything inside the brackets: 3(x + 4) = 3x + 12. The area model shows 3 rows of x and 3 rows of 4.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"x",
+					"4"
+				],
+				"rows": [
+					"3"
+				],
+				"cells": [
+					[
+						"3x",
+						"12"
+					]
+				]
+			}
+		},
+		{
+			"text": "Factoring goes backwards: 6x + 9 = 3(2x + 3), using the greatest common factor, 3. Expand it again to check.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"2x",
+					"3"
+				],
+				"rows": [
+					"3"
+				],
+				"cells": [
+					[
+						"6x",
+						"9"
+					]
+				]
+			}
+		},
+		{
+			"text": "Like terms have the same letter: 2x + 5x = 7x, like 2 bags of x blocks and 5 more bags. Numbers are like terms too: 4a + 3 + 2a = 6a + 3.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "x",
+								"size": 1
+							},
+							{
+								"text": "x",
+								"size": 1
+							},
+							{
+								"text": "x",
+								"size": 1
+							},
+							{
+								"text": "x",
+								"size": 1
+							},
+							{
+								"text": "x",
+								"size": 1
+							},
+							{
+								"text": "x",
+								"size": 1
+							},
+							{
+								"text": "x",
+								"size": 1
+							}
+						],
+						"total": "2x + 5x = 7x"
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: fence 3 fields, each x blocks long plus a 4-block gate: 3(x + 4) blocks. For x = 6, check that 3 lots of 10 and 18 + 12 both make 30. Next: equations and inequalities."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is equal to 2(x + 5)?",
+			"answer": 0,
+			"hint": "Multiply both parts by 2.",
+			"choices": [
+				"2x + 10",
+				"2x + 5",
+				"x + 10"
+			],
+			"explain": "2 × x + 2 × 5 = 2x + 10."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Simplify: 3y + 4y",
+			"answer": 0,
+			"hint": "Add the y terms.",
+			"choices": [
+				"7y",
+				"12y",
+				"7"
+			],
+			"explain": "3 + 4 = 7: 7y."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "x + x + x is the same as 3x.",
+			"answer": true,
+			"hint": "Three lots of x.",
+			"explain": "Yes: x + x + x is three lots of x, which is 3x."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is equal to 4(2a − 3)?",
+			"answer": 0,
+			"hint": "4 × 2a and 4 × 3.",
+			"choices": [
+				"8a − 12",
+				"8a − 3",
+				"6a − 12"
+			],
+			"explain": "4 × 2a − 4 × 3 = 8a − 12."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Simplify: 5b + 2 + 3b + 6",
+			"answer": 0,
+			"hint": "b terms together, numbers together.",
+			"choices": [
+				"8b + 8",
+				"16b",
+				"8b + 2"
+			],
+			"explain": "5b + 3b = 8b and 2 + 6 = 8, so it is 8b + 8."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "3(x + 2) and 3x + 2 are equivalent.",
+			"answer": false,
+			"hint": "Try x = 1.",
+			"explain": "No: 3(1 + 2) = 9 but 3 × 1 + 2 = 5."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Factor: 12x + 18",
+			"answer": 0,
+			"hint": "The GCF of 12 and 18 is 6.",
+			"choices": [
+				"6(2x + 3)",
+				"3(4x + 18)",
+				"12(x + 18)"
+			],
+			"explain": "6 × 2x = 12x and 6 × 3 = 18."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is NOT equivalent to 2(3x + 4)?",
+			"answer": 0,
+			"hint": "Expand 2(3x + 4) first, then find the choice that does not match.",
+			"choices": [
+				"6x + 4",
+				"6x + 8",
+				"2 × 3x + 2 × 4"
+			],
+			"explain": "2(3x + 4) = 6x + 8, not 6x + 4."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each expression to an equivalent one.",
+			"items": [
+				"2(x + 5)",
+				"4x + 2x",
+				"3(2x + 1)",
+				"5x + 3 − 2x"
+			],
+			"matches": [
+				"6x + 3",
+				"3x + 3",
+				"2x + 10",
+				"6x"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Expand the brackets or collect the like terms, then look for the same expression.",
+			"explain": "2(x + 5) = 2x + 10; 4x + 2x = 6x; 3(2x + 1) = 6x + 3; 5x + 3 − 2x = 3x + 3."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "3(x + 4) and 3x + 12 are equivalent. Work out 3(x + 4) when x = 5.",
+			"answer": "27",
+			"hint": "Add inside the brackets first, then multiply by 3.",
+			"explain": "5 + 4 = 9 and 3 × 9 = 27. Check with 3x + 12: 15 + 12 = 27."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the expressions: equivalent to 2(x + 3), or not?",
+			"items": [
+				"2x + 6",
+				"2x + 3",
+				"x + x + 6",
+				"2(3 + x)",
+				"x + 6"
+			],
+			"groups": [
+				"equivalent",
+				"not equivalent"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Expand 2(x + 3), then test each one with x = 1: 2(1 + 3) = 8.",
+			"explain": "2(x + 3) = 2x + 6. So 2x + 6, x + x + 6 and 2(3 + x) are equivalent; 2x + 3 and x + 6 are not (with x = 1 they make 5 and 7, not 8)."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put x = 2 into each expression. Order them from the smallest value to the biggest.",
+			"items": [
+				"3(x + 1)",
+				"2x + 1",
+				"4x",
+				"x + 10"
+			],
+			"answer": [
+				1,
+				2,
+				0,
+				3
+			],
+			"hint": "Work out each one with x = 2 before you order them.",
+			"explain": "With x = 2: 2x + 1 is 4 + 1, which makes 5. 4x is 8. 3(x + 1) is 3 × 3, which makes 9. x + 10 is 12. So the order is 5, 8, 9, 12."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6a.distribute",
+			"level": 1
+		},
+		{
+			"gen": "g6a.distribute",
+			"level": 2
+		},
+		{
+			"gen": "g6a.distribute",
+			"level": 3
+		},
+		{
+			"gen": "g6a.like_terms",
+			"level": 1
+		},
+		{
+			"gen": "g6a.like_terms",
+			"level": 2
+		},
+		{
+			"gen": "g6a.like_terms",
+			"level": 3
+		},
+		{
+			"gen": "g6a.equivalent_tf",
+			"level": 1
+		},
+		{
+			"gen": "g6a.equivalent_tf",
+			"level": 2
+		},
+		{
+			"gen": "g6a.equivalent_tf",
+			"level": 3
+		}
+	]
+}

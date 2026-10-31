@@ -1,0 +1,423 @@
+{
+	"id": "g7.art.colour_harmony",
+	"lesson": [
+		{
+			"text": "Quick memory: what are colours opposite each other on the colour wheel called? (Complementary colours, such as red and green.) Today: colour schemes that create mood and contrast."
+		},
+		{
+			"text": "A colour scheme is a planned set of colours that work together. Artists and designers choose one before they start, as a composer chooses a key.",
+			"picture": {
+				"kind": "colour_scheme",
+				"scheme": "complementary",
+				"base": "blue"
+			}
+		},
+		{
+			"text": "Complementary colours sit opposite on the wheel: blue and orange are complementary. Side by side they make each other look brighter: strong contrast, bold and lively.",
+			"picture": {
+				"kind": "colour_scheme",
+				"scheme": "complementary",
+				"base": "blue",
+				"view": "scene"
+			}
+		},
+		{
+			"text": "Analogous colours sit side by side on the wheel: blue-green, green and yellow-green are analogous. They share colour, so they feel calm and belong together, like a forest.",
+			"picture": {
+				"kind": "colour_scheme",
+				"scheme": "analogous",
+				"base": "green",
+				"view": "scene"
+			}
+		},
+		{
+			"text": "A triad is three colours evenly spaced round the wheel: red, blue and yellow make a triad. Bright and balanced; let one colour lead and use the others less.",
+			"picture": {
+				"kind": "colour_scheme",
+				"scheme": "triadic",
+				"base": "red"
+			}
+		},
+		{
+			"text": "Monochrome uses one colour with its tints (white added) and shades (black added): quiet and unified. Split-complementary takes a colour and the two beside its opposite: contrast, but gentler.",
+			"picture": {
+				"kind": "colour_scheme",
+				"scheme": "monochrome",
+				"base": "blue",
+				"view": "swatches"
+			}
+		},
+		{
+			"text": "Mood: warm colours (red, orange, yellow) feel lively or hot; cool colours (blue, green, purple) feel calm or sad. Light against dark draws the eye. Johannes Itten (1888-1967) taught colour this way at the Bauhaus.",
+			"picture": {
+				"kind": "colour_scheme",
+				"scheme": "warm",
+				"base": "red",
+				"view": "scene"
+			}
+		},
+		{
+			"text": "Try it in the world: paint the same small landscape twice, in an analogous scheme and in a complementary one. How does the mood change? Next: drawing people."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which colour is complementary to red?",
+			"answer": 0,
+			"hint": "Complementary colours sit opposite each other on the wheel.",
+			"choices": [
+				"green",
+				"orange",
+				"purple",
+				"yellow"
+			],
+			"explain": "Green is opposite red: red and green are complementary.",
+			"picture": {
+				"kind": "colour_wheel",
+				"size": 12,
+				"names": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Analogous colours sit side by side on the colour wheel.",
+			"answer": true,
+			"hint": "Think of blue-green, green and yellow-green.",
+			"explain": "True: neighbours on the wheel, sharing colour."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which scheme uses one colour with its tints and shades?",
+			"answer": 0,
+			"hint": "Mono means one.",
+			"choices": [
+				"monochrome",
+				"complementary",
+				"triadic",
+				"analogous"
+			],
+			"explain": "Monochrome: one colour, lighter and darker."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the colours into warm and cool.",
+			"groups": [
+				"warm",
+				"cool"
+			],
+			"items": [
+				"red",
+				"blue",
+				"orange",
+				"green",
+				"yellow",
+				"purple"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Warm like fire and the sun; cool like water and grass.",
+			"explain": "Red, orange and yellow are warm; blue, green and purple are cool."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which pair makes the strongest contrast?",
+			"answer": 0,
+			"hint": "Which pair sits furthest apart on the wheel?",
+			"choices": [
+				"blue and orange",
+				"blue and blue-green",
+				"red and red-orange",
+				"yellow and yellow-green"
+			],
+			"explain": "Blue and orange are complementary, opposite on the wheel: the strongest contrast."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which colour scheme is marked on this wheel?",
+			"answer": 0,
+			"hint": "Are the marked colours neighbours, opposites or spread out?",
+			"choices": [
+				"analogous",
+				"complementary",
+				"triadic",
+				"monochrome"
+			],
+			"explain": "Three neighbours, blue-green, green and yellow-green: analogous.",
+			"picture": {
+				"kind": "colour_scheme",
+				"scheme": "analogous",
+				"base": "green"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which colour scheme is marked on this wheel?",
+			"answer": 0,
+			"hint": "Count the steps between the marked colours.",
+			"choices": [
+				"triadic",
+				"analogous",
+				"complementary",
+				"split-complementary"
+			],
+			"explain": "Red, blue and yellow are evenly spaced, a triangle on the wheel: a triad.",
+			"picture": {
+				"kind": "colour_scheme",
+				"scheme": "triadic",
+				"base": "red"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which two colours are analogous to orange?",
+			"answer": 0,
+			"hint": "Find orange's two neighbours on the wheel.",
+			"choices": [
+				"yellow-orange and red-orange",
+				"blue and purple",
+				"green and yellow",
+				"red and blue"
+			],
+			"explain": "Orange sits between yellow-orange and red-orange.",
+			"picture": {
+				"kind": "colour_wheel",
+				"size": 12,
+				"names": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A tint is a colour with black added.",
+			"answer": false,
+			"hint": "Which makes a colour lighter?",
+			"explain": "False: a tint has white added; a shade has black added."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each scheme to its feeling.",
+			"items": [
+				"complementary",
+				"analogous",
+				"monochrome",
+				"warm colours"
+			],
+			"matches": [
+				"calm and unified",
+				"quiet: one colour",
+				"lively and energetic",
+				"bold, strong contrast"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Opposites clash brightly; neighbours agree.",
+			"explain": "Complementary: bold; analogous: calm; monochrome: quiet; warm: lively."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A calm, quiet bedroom mural would suit which scheme best?",
+			"answer": 0,
+			"hint": "Calm needs colours that agree, and cool ones.",
+			"choices": [
+				"cool analogous colours",
+				"red and green, complementary",
+				"a bright triad",
+				"warm red and orange"
+			],
+			"explain": "Cool neighbours such as blue, blue-green and green agree with each other and feel calm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which two colours make a triad with purple?",
+			"answer": 0,
+			"hint": "Count 4 steps round the 12-colour wheel, twice.",
+			"choices": [
+				"orange and green",
+				"red and blue",
+				"yellow and red",
+				"blue-green and red"
+			],
+			"explain": "Purple, green and orange are 4 steps apart: purple, green and orange make a triad.",
+			"picture": {
+				"kind": "colour_wheel",
+				"size": 12,
+				"names": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which two colours make a split-complementary scheme with blue?",
+			"answer": 0,
+			"hint": "Find blue's opposite, then take the two colours beside it.",
+			"choices": [
+				"yellow-orange and red-orange",
+				"orange and yellow",
+				"green and purple",
+				"red and yellow"
+			],
+			"explain": "Blue's opposite is orange; the two beside orange are yellow-orange and red-orange.",
+			"picture": {
+				"kind": "colour_wheel",
+				"size": 12,
+				"names": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which scheme is this landscape painted in?",
+			"answer": 0,
+			"hint": "How many different colours can you see?",
+			"choices": [
+				"monochrome",
+				"complementary",
+				"triadic",
+				"warm"
+			],
+			"explain": "One colour, purple, in lighter tints and darker shades: monochrome.",
+			"picture": {
+				"kind": "colour_scheme",
+				"scheme": "monochrome",
+				"base": "purple",
+				"view": "scene"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A poster has a blue background. Which colour makes its title stand out most?",
+			"answer": 0,
+			"hint": "The strongest contrast is with the opposite colour.",
+			"choices": [
+				"orange",
+				"blue-purple",
+				"blue-green",
+				"dark blue"
+			],
+			"explain": "Orange is opposite blue, so it stands out most: blue and orange are complementary."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Warm colours seem to come forward and cool colours seem to sit back.",
+			"answer": true,
+			"hint": "Think of far hills in a landscape: what colour do they look?",
+			"explain": "True: that is why distant hills are painted cooler and bluer, and near things warmer."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the colours by their scheme.",
+			"groups": [
+				"complementary",
+				"analogous",
+				"triadic"
+			],
+			"items": [
+				"blue and orange",
+				"red, red-orange, orange",
+				"red, yellow, blue",
+				"yellow and purple",
+				"green, blue-green, blue",
+				"purple, green, orange"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Are they opposite on the wheel, side by side, or evenly spaced like a triangle?",
+			"explain": "Complementary pairs sit opposite: blue and orange, yellow and purple. Analogous sets sit side by side: red to orange, green to blue. Triads are evenly spaced: red, yellow, blue, and purple, green, orange."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each design job to the scheme that suits it.",
+			"items": [
+				"a calm forest poster",
+				"a bold sale sign",
+				"a quiet one-colour logo",
+				"a bright, balanced toy box"
+			],
+			"matches": [
+				"triadic",
+				"monochrome",
+				"complementary",
+				"analogous"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Match the mood each job needs: calm, bold, quiet, or bright and balanced.",
+			"explain": "A calm forest suits analogous greens. A bold sale sign needs complementary contrast. A quiet logo can be monochrome. A bright, balanced toy box suits a triad."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the pairs from the least contrast to the most.",
+			"items": [
+				"blue and orange",
+				"blue and blue-green",
+				"blue and yellow-orange"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The further apart two colours sit on the wheel, the stronger the contrast.",
+			"explain": "Blue and blue-green are neighbours: little contrast. Blue and yellow-orange are split-complementary: contrast, but gentler. Blue and orange are opposite: the strongest contrast."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A colour wheel has 12 colours. How many steps round the wheel is a colour's complement?",
+			"answer": "6",
+			"hint": "A complement sits exactly opposite: halfway round the wheel.",
+			"explain": "Opposite means halfway round: 12 ÷ 2 = 6 steps. (A triad's colours are 12 ÷ 3 = 4 steps apart.)"
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.scheme_pick",
+			"level": 1
+		},
+		{
+			"gen": "g7c.scheme_pick",
+			"level": 2
+		},
+		{
+			"gen": "g7c.scheme_pick",
+			"level": 3
+		}
+	]
+}

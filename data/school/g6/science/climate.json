@@ -1,0 +1,435 @@
+{
+	"id": "g6.science.climate",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met shadows and seasons. Why is summer warmer? The Sun is higher in the sky, so its light is more direct, and the days are longer."
+		},
+		{
+			"text": "Climate is the usual weather of a place over many years. Weather changes every day; climate describes the pattern. A climate graph shows a place's usual temperature and rain in each month.",
+			"picture": {
+				"kind": "climograph",
+				"temp": [
+					5,
+					5,
+					7,
+					9,
+					13,
+					16,
+					18,
+					18,
+					15,
+					12,
+					8,
+					6
+				],
+				"rain": [
+					55,
+					40,
+					40,
+					45,
+					50,
+					45,
+					45,
+					50,
+					50,
+					65,
+					60,
+					55
+				],
+				"t_from": 0,
+				"t_top": 20,
+				"t_step": 5,
+				"r_top": 80,
+				"r_step": 20,
+				"name": "a coastal town"
+			}
+		},
+		{
+			"text": "Places near the equator get the most direct sunlight, so they are warm all year. Near the poles, the same sunlight is spread over more ground, so it is colder. In between are the temperate lands.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60,
+				"bands": true
+			}
+		},
+		{
+			"text": "Oceans store heat and carry it around the world in currents, so coasts often have milder climates. Winds carry warmth and rain too."
+		},
+		{
+			"text": "Earth's average temperature is rising. The main cause is people burning coal, oil and gas, which adds carbon dioxide to the air. It traps more heat, like a blanket."
+		},
+		{
+			"text": "Scientists measure this with thermometers, ice cores and satellites. Using clean energy and planting forests can help.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"tool",
+						"measures"
+					],
+					[
+						"thermometer",
+						"temperature"
+					],
+					[
+						"ice core",
+						"the air long ago"
+					],
+					[
+						"satellite",
+						"the whole Earth"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: visit a hot world and a cold one, like the Sandstorm Desert and Frostpeak, then a beach by the sea. Which would have the mildest climate, and why? Next: plate tectonics."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is climate?",
+			"answer": 0,
+			"hint": "Weather over a long time.",
+			"choices": [
+				"the usual weather over many years",
+				"today's weather",
+				"a single storm"
+			],
+			"explain": "Climate is the usual weather pattern over many years."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where is it usually warmest?",
+			"answer": 0,
+			"hint": "Where is sunlight most direct?",
+			"choices": [
+				"near the equator",
+				"near the North Pole",
+				"on top of mountains"
+			],
+			"explain": "Near the equator, sunlight is most direct."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Weather and climate mean exactly the same thing.",
+			"answer": false,
+			"hint": "A day or many years?",
+			"explain": "No: weather is day to day; climate is the long-term pattern."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which gas traps heat like a blanket?",
+			"answer": 0,
+			"hint": "It comes from burning fuel.",
+			"choices": [
+				"carbon dioxide",
+				"oxygen",
+				"helium"
+			],
+			"explain": "Carbon dioxide traps heat."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Earth's average temperature is rising.",
+			"answer": true,
+			"hint": "Scientists measure it.",
+			"explain": "Yes: it is rising."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are coasts often milder than places far inland?",
+			"answer": 0,
+			"hint": "Water warms and cools slowly.",
+			"choices": [
+				"The sea stores and releases heat slowly.",
+				"Sand is warm.",
+				"There is no wind."
+			],
+			"explain": "The sea keeps coasts cooler in summer and warmer in winter."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the main cause of Earth warming today?",
+			"answer": 0,
+			"hint": "It adds carbon dioxide.",
+			"choices": [
+				"burning coal, oil and gas",
+				"volcanoes only",
+				"the Moon"
+			],
+			"explain": "Burning coal, oil and gas adds carbon dioxide."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is it colder near the poles?",
+			"answer": 0,
+			"hint": "Think of a torch shone at a slant.",
+			"choices": [
+				"Sunlight is spread out there.",
+				"The Sun is farther from the poles.",
+				"Ice makes cold."
+			],
+			"explain": "Slanted sunlight is spread over more ground, so it heats less."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Ocean currents carry heat around the world.",
+			"answer": true,
+			"hint": "Water moves heat.",
+			"explain": "Yes: currents move warm and cold water."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which one helps slow the warming?",
+			"answer": 0,
+			"hint": "Which choice would put less carbon dioxide into the air?",
+			"choices": [
+				"using wind and solar power",
+				"burning more coal",
+				"cutting down forests"
+			],
+			"explain": "Clean energy adds less carbon dioxide."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A town has hot summers and cold winters every year. What does this describe?",
+			"answer": 0,
+			"hint": "Is this about one day, or about every year?",
+			"choices": [
+				"its climate",
+				"one day's weather",
+				"a front"
+			],
+			"explain": "A pattern over many years is climate."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How do ice cores help scientists?",
+			"answer": 0,
+			"hint": "Old snow traps tiny bubbles of air as it turns to ice. What could that air tell us?",
+			"choices": [
+				"They hold air from long ago.",
+				"They make ice cream.",
+				"They show tomorrow's weather."
+			],
+			"explain": "Air bubbles in old ice show what the air was like long ago."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does more carbon dioxide make Earth warmer?",
+			"answer": 0,
+			"hint": "Think of a blanket on a cold night. What does it do to your body's heat?",
+			"choices": [
+				"It traps more heat in the air.",
+				"It makes the Sun bigger.",
+				"It is hot itself."
+			],
+			"explain": "The Sun warms the ground, and the ground gives off heat. Carbon dioxide traps some of it before it escapes to space, like a blanket; more carbon dioxide traps more."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Planting forests can help, because trees take in carbon dioxide.",
+			"answer": true,
+			"hint": "What do trees take in?",
+			"explain": "Yes: trees take carbon dioxide out of the air."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which one is evidence of warming?",
+			"answer": 0,
+			"hint": "Look for a long-term change.",
+			"choices": [
+				"glaciers getting smaller",
+				"a cold day in June",
+				"one big storm"
+			],
+			"explain": "Shrinking glaciers show a long-term change."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort each sentence: weather or climate?",
+			"items": [
+				"It is raining today.",
+				"Summers here are usually dry.",
+				"A storm is coming tonight.",
+				"It snows most winters.",
+				"It is windy this morning.",
+				"The rainy season lasts three months."
+			],
+			"groups": [
+				"weather",
+				"climate"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it about now (today, tonight, this morning) or the usual pattern over many years?",
+			"explain": "Today, tonight and this morning are weather. Usually, most winters and every rainy season are the pattern over many years: climate."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each place to its usual climate.",
+			"items": [
+				"near the equator",
+				"near the poles",
+				"by the sea",
+				"far inland"
+			],
+			"matches": [
+				"cold all year",
+				"mild: cool summers",
+				"hot all year",
+				"hot summers, cold winters"
+			],
+			"answer": [
+				2,
+				0,
+				1,
+				3
+			],
+			"hint": "Think about direct sunlight first, then what the sea does to heat.",
+			"explain": "Near the equator: hot all year. Near the poles: cold all year. By the sea: mild, because water warms and cools slowly. Far inland: hot summers and cold winters."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Order these places from warmest to coldest.",
+			"items": [
+				"near the poles",
+				"near the equator",
+				"the temperate lands"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Where is the sunlight most direct?",
+			"explain": "Near the equator is warmest, then the temperate lands, and near the poles is coldest."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Does it help slow the warming, or add to it?",
+			"items": [
+				"planting forests",
+				"burning coal",
+				"solar energy",
+				"burning gas"
+			],
+			"groups": [
+				"helps",
+				"adds to it"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which ones put more carbon dioxide into the air?",
+			"explain": "Forests and solar energy help; burning coal and gas adds carbon dioxide."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: a cause of warming, or evidence of it?",
+			"groups": [
+				"a cause",
+				"evidence"
+			],
+			"items": [
+				"burning coal and oil",
+				"glaciers shrinking",
+				"cutting down forests",
+				"sea levels rising",
+				"more carbon dioxide in the air",
+				"warmer average temperatures"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "A cause makes it happen; evidence is what we measure that shows it is happening.",
+			"explain": "Causes: burning coal and oil, cutting down forests, and more carbon dioxide trapping heat. Evidence: shrinking glaciers, rising seas and warmer average temperatures."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the chain from a coal power station to a warmer Earth.",
+			"items": [
+				"More heat is trapped.",
+				"Coal is burned for electricity.",
+				"Earth's average temperature rises.",
+				"Carbon dioxide goes into the air."
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Start with the burning, then follow the gas.",
+			"explain": "Coal is burned, carbon dioxide goes into the air, it traps more heat like a blanket, and Earth's average temperature rises."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each tool to what it tells scientists about climate.",
+			"items": [
+				"thermometers",
+				"ice cores",
+				"satellites"
+			],
+			"matches": [
+				"the air of long ago",
+				"the whole planet from space",
+				"temperatures today"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Card 5 lists all three. Which one looks back in time?",
+			"explain": "Thermometers measure temperatures today. Ice cores hold bubbles of air from long ago. Satellites watch the whole planet from space, like its shrinking ice."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In 1900 a glacier was 12 km long. By 2020 it was 9 km long. On average, how many metres did it shrink each year?",
+			"answer": "25",
+			"hint": "Find how much it shrank in metres, and over how many years.",
+			"explain": "It shrank 12 − 9 = 3 km, which is 3,000 m, over 2020 − 1900 = 120 years. 3,000 ÷ 120 = 25 m a year."
+		}
+	]
+}

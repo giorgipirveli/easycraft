@@ -1,0 +1,387 @@
+{
+	"id": "g3.citizenship.caring_nature",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a community? (People who live, work or play together.) Nature is a community too, and we are part of it."
+		},
+		{
+			"text": "Every living thing matters, because living things depend on each other. Bees carry pollen so flowers make seeds and fruit; rabbits eat grass; foxes eat rabbits. Take one away and the others are affected.",
+			"picture": {
+				"kind": "food_web",
+				"nodes": [
+					[
+						"grass",
+						0,
+						2
+					],
+					[
+						"flowers",
+						1,
+						3
+					],
+					[
+						"rabbit",
+						1,
+						1
+					],
+					[
+						"bee",
+						2,
+						3
+					],
+					[
+						"fox",
+						2,
+						0
+					]
+				],
+				"links": [
+					[
+						0,
+						2
+					],
+					[
+						2,
+						4
+					],
+					[
+						1,
+						3
+					]
+				]
+			}
+		},
+		{
+			"text": "People can harm nature with litter, by cutting down forests, and with dirty air and water. Plastic in the sea can last hundreds of years, and turtles may eat bags, thinking they are jellyfish."
+		},
+		{
+			"text": "We can help with the three Rs, best first. Reduce: use less, like switching off lights and taking a bag you can use again. Reuse: use things again, like a jar that becomes a pencil pot.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"R",
+						"means",
+						"example"
+					],
+					[
+						"reduce",
+						"use less",
+						"lights off"
+					],
+					[
+						"reuse",
+						"use again",
+						"a jar for pens"
+					],
+					[
+						"recycle",
+						"make new",
+						"glass to glass"
+					]
+				]
+			}
+		},
+		{
+			"text": "Recycle: sort paper, glass, metal cans and some plastics, so they can be made into new things. Glass can be recycled again and again!"
+		},
+		{
+			"text": "Care for wildlife: plant flowers for bees, build a bug hotel and leave a wild corner in a garden. Pick up litter too, with gloves and a grown-up."
+		},
+		{
+			"text": "Bram the ranger says: “Leave a place better than you found it.” Small actions by many people add up to a big change."
+		},
+		{
+			"text": "Try it in the world: plant a flower meadow and trees in your world, and build a bug hotel of logs and leaves. Fill in any holes you dig in a hillside."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the three Rs in order, best first.",
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Using less is best of all; recycling still takes work and energy.",
+			"items": [
+				"reuse",
+				"recycle",
+				"reduce"
+			],
+			"explain": "Reduce first (use less), then reuse (use again), then recycle (make into new things)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these can be recycled?",
+			"answer": 0,
+			"hint": "Which one can be melted and made into something new?",
+			"choices": [
+				"a glass jar",
+				"a banana peel",
+				"a used tissue",
+				"a puddle"
+			],
+			"explain": "Glass jars can be recycled again and again. Banana peel can go in compost."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Bees help flowers make seeds and fruit.",
+			"answer": true,
+			"hint": "What do bees carry from flower to flower?",
+			"explain": "True: bees carry pollen, which flowers need to make seeds and fruit."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does reuse mean?",
+			"answer": 0,
+			"hint": "Re- means again.",
+			"choices": [
+				"use something again",
+				"throw it away",
+				"buy a new one",
+				"break it"
+			],
+			"explain": "Reuse means using something again, like a jar as a pencil pot."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is plastic in the sea a problem?",
+			"answer": 0,
+			"hint": "Remember the turtles.",
+			"choices": [
+				"animals can eat it, and it lasts very long",
+				"it makes the sea warmer",
+				"fish like to collect it",
+				"it turns into sand in a day"
+			],
+			"explain": "Plastic can last hundreds of years, and animals like turtles may eat it by mistake."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is an example of reducing?",
+			"answer": 0,
+			"hint": "Reduce means use less.",
+			"choices": [
+				"switching off lights you are not using",
+				"throwing away a jar",
+				"buying more plastic bags",
+				"leaving the tap running"
+			],
+			"explain": "Switching off lights uses less energy, so it is reducing."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Glass can be recycled again and again.",
+			"answer": true,
+			"hint": "Remember the recycling card.",
+			"explain": "True: glass can be melted and made into new glass many times."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is a good home for insects that you can build?",
+			"answer": 0,
+			"hint": "It is made of sticks, leaves and hollow stems.",
+			"choices": [
+				"a bug hotel",
+				"a plastic bag",
+				"a car park",
+				"a bin"
+			],
+			"explain": "A bug hotel gives insects safe places to live."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "If all the bees disappeared, what would happen?",
+			"answer": 0,
+			"hint": "What job do bees do for flowers?",
+			"choices": [
+				"many plants could not make fruit",
+				"nothing at all",
+				"there would be more honey",
+				"flowers would grow faster"
+			],
+			"explain": "Without bees to carry pollen, many plants and crops could not make seeds and fruit."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is reduce the best of the three Rs?",
+			"answer": 0,
+			"hint": "Which is better: waste that is recycled, or no waste at all?",
+			"choices": [
+				"it stops waste being made at all",
+				"it is the easiest word",
+				"it uses more things",
+				"it needs a factory"
+			],
+			"explain": "Reducing means less is used and thrown away in the first place."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Picking up litter only matters if a whole town does it.",
+			"answer": false,
+			"hint": "Remember what Bram the ranger says.",
+			"explain": "False: every small action helps, and many small actions add up."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara finds an old jar. Which is reusing it?",
+			"answer": 0,
+			"hint": "Reuse means using the same thing again.",
+			"choices": [
+				"making it into a pencil pot",
+				"putting it in the recycling",
+				"throwing it away",
+				"breaking it"
+			],
+			"explain": "Making it into a pencil pot uses the jar again, so it is reusing."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Grass, rabbits and foxes: what happens to the foxes if the grass disappears?",
+			"answer": 0,
+			"hint": "Rabbits eat grass. What happens to them first?",
+			"choices": [
+				"they have fewer rabbits to eat",
+				"they get more food",
+				"nothing changes",
+				"they start eating grass"
+			],
+			"explain": "With no grass there are fewer rabbits, so the foxes have less food."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these actions into the three Rs.",
+			"groups": [
+				"reduce",
+				"reuse",
+				"recycle"
+			],
+			"items": [
+				"switch off lights",
+				"a jar as a pencil pot",
+				"cans in the recycling bin",
+				"give old toys to a friend",
+				"sort paper for recycling",
+				"take a shorter shower"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				1,
+				2,
+				0
+			],
+			"hint": "Reduce: use less. Reuse: use again as it is. Recycle: make into something new.",
+			"explain": "Reduce: lights off, shorter showers. Reuse: the jar pencil pot, toys for a friend. Recycle: cans and paper."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each living thing to what it does for others.",
+			"items": [
+				"a bee",
+				"grass",
+				"a rabbit"
+			],
+			"matches": [
+				"food for foxes",
+				"carries pollen for flowers",
+				"food for rabbits"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Look at the first card: who eats whom, and who helps flowers?",
+			"explain": "Bees carry pollen for flowers, grass feeds rabbits, and rabbits are food for foxes."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the actions: do they help nature, or harm it?",
+			"groups": [
+				"helps",
+				"harms"
+			],
+			"items": [
+				"building a bug hotel",
+				"dropping litter",
+				"planting flowers for bees",
+				"leaving taps running",
+				"picking up litter with a grown-up",
+				"plastic bags in the sea"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Would it make life better or worse for plants and animals?",
+			"explain": "Helps: a bug hotel, flowers for bees and picking up litter. Harms: dropping litter, running taps that waste water, and plastic bags in the sea."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the choices for a drinks bottle from the best for nature to the last choice.",
+			"items": [
+				"recycle the bottle",
+				"use a refillable bottle instead",
+				"refill and reuse the bottle"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Remember the three Rs, best first.",
+			"explain": "Best: reduce, by using a refillable bottle, so no new plastic is used. Next: reuse the bottle again. Last: recycle it, so it can be made into something new."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each problem to a way people can help.",
+			"items": [
+				"plastic in the sea",
+				"fewer bees",
+				"litter in the park",
+				"cut-down forests"
+			],
+			"matches": [
+				"plant trees",
+				"pick it up with gloves",
+				"use refillable bottles",
+				"plant flowers for bees"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "For each problem, think of an action that fixes its cause.",
+			"explain": "Plastic in the sea: use less plastic, like refillable bottles. Fewer bees: plant flowers for them. Litter: pick it up with gloves and a grown-up. Cut-down forests: plant trees."
+		}
+	],
+	"generators": []
+}

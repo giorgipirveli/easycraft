@@ -1,0 +1,169 @@
+{
+	"id": "life.around.crossings_and_bikes",
+	"lesson": [
+		{
+			"text": "Quick memory: at the kerb, which way do you look first? (Where the nearest cars come from.) Today: crossings, night and bikes."
+		},
+		{
+			"text": "At a button crossing, press the button and wait for the green man. Even on green, check the cars have stopped. If it flashes before you start, wait."
+		},
+		{
+			"text": "A parked car or van hides you. Go only to its edge, where drivers can see you, then stop, look and listen. Never step into the road to look."
+		},
+		{
+			"text": "At night, drivers find it hard to see you. Wear light colours, something that shines in car lights, and carry a light."
+		},
+		{
+			"text": "A bike helmet fits when it is level, two fingers above the eyebrows, the straps make a V under each ear, and one finger fits under the chin strap."
+		},
+		{
+			"text": "Try it in the world: open the practice street for the green man, the van, the night and Pip-pop's helmet."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "At a button crossing, you wait for...",
+			"answer": 0,
+			"choices": [
+				"the green man",
+				"the red man",
+				"a car to come"
+			],
+			"hint": "Green means go for walkers.",
+			"explain": "Wait for the green man."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Even when the green man shows, you check the cars have stopped.",
+			"answer": true,
+			"hint": "Not every driver stops.",
+			"explain": "True: look, and check the cars have stopped."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "At night, what helps drivers see you?",
+			"answer": 0,
+			"choices": [
+				"light clothes and something that shines",
+				"dark clothes",
+				"standing behind a tree"
+			],
+			"hint": "Light shows up in the dark.",
+			"explain": "Light colours and a shiny band in the car lights."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A van is parked. Where do you look from?",
+			"answer": 0,
+			"choices": [
+				"the edge of the van",
+				"the middle of the road",
+				"behind the van"
+			],
+			"hint": "Where drivers can see you.",
+			"explain": "Stop at its edge, like a kerb, then look and listen."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The green man is flashing and you haven't started. You start to cross.",
+			"answer": false,
+			"hint": "Flashing means it will change soon.",
+			"explain": "False: wait for the next green man."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "A button crossing: put it in order.",
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"items": [
+				"cross",
+				"press the button",
+				"wait for the green man",
+				"check the cars have stopped"
+			],
+			"hint": "The button comes first.",
+			"explain": "Press, wait for the green man, check the cars, then cross."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How far above the eyebrows does a helmet sit?",
+			"answer": 0,
+			"choices": [
+				"two fingers",
+				"a whole hand",
+				"far back on the head"
+			],
+			"hint": "About the width of two fingers.",
+			"explain": "Two fingers above the eyebrows."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The helmet's straps under each ear make a...",
+			"answer": 0,
+			"choices": [
+				"V",
+				"circle",
+				"knot"
+			],
+			"hint": "Like a letter.",
+			"explain": "A V under each ear."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A tipped-back helmet still protects your forehead.",
+			"answer": false,
+			"hint": "Where would you bump?",
+			"explain": "False: it must sit level, low on the forehead."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Helps you be seen at night, or not?",
+			"groups": [
+				"helps",
+				"doesn't help"
+			],
+			"items": [
+				"a shiny band",
+				"dark clothes",
+				"a torch",
+				"a black coat"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Bright and shiny things.",
+			"explain": "A shiny band and a torch help; dark clothes don't."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How many fingers fit under a chin strap?",
+			"answer": 0,
+			"choices": [
+				"one",
+				"none",
+				"five"
+			],
+			"hint": "Snug, not tight.",
+			"explain": "About one finger: snug, not tight."
+		}
+	]
+}

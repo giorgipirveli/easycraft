@@ -1,0 +1,410 @@
+{
+	"id": "g7.art.graphic_design",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, what are serifs? (Small strokes at the ends of letters, as on Trajan's Column.) Today: designing a logo and a poster."
+		},
+		{
+			"text": "Graphic design puts words and pictures together to send a message clearly: posters, logos, signs, book covers, the buttons in this game. Good design is seen, read and understood quickly."
+		},
+		{
+			"text": "A logo is a small symbol for a club or a group. A good logo is simple, easy to remember, clear when tiny and big, and still works in one colour.",
+			"picture": {
+				"kind": "poster_layout",
+				"design": "logo_sizes"
+			}
+		},
+		{
+			"text": "Test a logo: shrink it. Thin lines and small words turn to a smudge, so a busy logo fails, while a simple shape stays clear. Then try it in black only, and in white on a dark background.",
+			"picture": {
+				"kind": "poster_layout",
+				"design": "logo_busy"
+			}
+		},
+		{
+			"text": "A poster needs a hierarchy: the most important thing biggest (the headline), then the picture, then the details (what, when, where). The eye reads them in that order.",
+			"picture": {
+				"kind": "poster_layout",
+				"design": "clear",
+				"labels": true
+			}
+		},
+		{
+			"text": "Layout: line things up on a grid, keep a margin round the edge, and leave white space. Empty space is not wasted: it lets each part breathe. Use one or two typefaces at most.",
+			"picture": {
+				"kind": "poster_layout",
+				"design": "clear",
+				"grid": true
+			}
+		},
+		{
+			"text": "Worked example: this crowded poster uses seven sizes, six colours and no space, so nothing stands out. The clear poster has one big headline, one picture and short details on a grid.",
+			"picture": {
+				"kind": "poster_layout",
+				"design": "crowded"
+			}
+		},
+		{
+			"text": "Try it in the world: design a poster for a made-up event with one headline, one picture and three lines of details. Add a simple logo that works tiny. Next: designing buildings."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should be biggest on a poster?",
+			"answer": 0,
+			"hint": "What should the eye see first?",
+			"choices": [
+				"the headline",
+				"the details",
+				"the logo",
+				"the margin"
+			],
+			"explain": "The headline: the most important thing is biggest."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Empty space on a poster is wasted space.",
+			"answer": false,
+			"hint": "What does white space do for the other parts?",
+			"explain": "False: white space lets each part breathe and stand out."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which makes a good logo?",
+			"answer": 0,
+			"hint": "Imagine it on a tiny badge.",
+			"choices": [
+				"simple and clear even when tiny",
+				"lots of small words",
+				"many thin lines",
+				"ten colours"
+			],
+			"explain": "Simple shapes stay clear at any size and in one colour."
+		},
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label the parts of this poster.",
+			"picture": {
+				"kind": "poster_layout",
+				"design": "clear"
+			},
+			"labels": [
+				"headline",
+				"image",
+				"details",
+				"white space"
+			],
+			"spots": [
+				[
+					0.827,
+					0.4,
+					0.5,
+					0.4556
+				],
+				[
+					0.173,
+					0.784,
+					0.4054,
+					0.7842
+				],
+				[
+					0.827,
+					0.68,
+					0.5757,
+					0.6598
+				],
+				[
+					0.173,
+					0.144,
+					0.4338,
+					0.1448
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Biggest words at the top, the picture in the middle, small words below.",
+			"explain": "The headline at the top, the image, the details below, and the white space beside them."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which poster is easier to read?",
+			"answer": 0,
+			"hint": "Which one shows you where to look first?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "poster_layout",
+						"design": "clear"
+					}
+				},
+				{
+					"picture": {
+						"kind": "poster_layout",
+						"design": "crowded"
+					}
+				}
+			],
+			"explain": "The clear one: one big headline, one picture, short details and plenty of space."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does the busy logo fail when it is small?",
+			"answer": 0,
+			"hint": "Look at the tiny copy of each.",
+			"choices": [
+				"its thin lines and words become a smudge",
+				"it is the wrong colour",
+				"logos should be big",
+				"it has no name"
+			],
+			"explain": "Shrunk, the thin lines and tiny words blur together; the simple owl stays clear.",
+			"picture": {
+				"kind": "poster_layout",
+				"design": "logo_busy"
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each design word to its meaning.",
+			"items": [
+				"hierarchy",
+				"margin",
+				"grid",
+				"typeface"
+			],
+			"matches": [
+				"space round the edge",
+				"lines to line things up",
+				"a design of letters",
+				"most important is biggest"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of how a clear poster is built.",
+			"explain": "Hierarchy: order of importance; margin: edge space; grid: alignment lines; typeface: letter design."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How many typefaces should a clear poster use?",
+			"answer": 0,
+			"hint": "Too many kinds of letter look messy.",
+			"choices": [
+				"one or two",
+				"as many as possible",
+				"a new one for every line",
+				"none"
+			],
+			"explain": "One or two: one for the headline and one for the rest."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A good logo still works in one colour.",
+			"answer": true,
+			"hint": "Think of a logo printed in black on a letter.",
+			"explain": "True: a strong logo works in one colour, and reversed."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the parts in the order the eye should read them.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Biggest first, smallest last.",
+			"items": [
+				"logo",
+				"details",
+				"picture",
+				"headline"
+			],
+			"explain": "Headline, then picture, then details, and the small logo last."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which poster is laid out symmetrically, down the middle?",
+			"answer": 0,
+			"hint": "Look for everything centred on one line down the middle.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "poster_layout",
+						"design": "centred"
+					}
+				},
+				{
+					"picture": {
+						"kind": "poster_layout",
+						"design": "clear"
+					}
+				},
+				{
+					"picture": {
+						"kind": "poster_layout",
+						"design": "crowded"
+					}
+				}
+			],
+			"explain": "The centred poster: its headline, picture and details all sit on the middle line."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The details are too small to read from across a room. What should change?",
+			"answer": 0,
+			"hint": "Keep the hierarchy but make everything readable.",
+			"choices": [
+				"make them bigger, and keep the headline biggest",
+				"add more colours",
+				"remove the margin",
+				"use five typefaces"
+			],
+			"explain": "Make the details bigger while the headline stays the biggest thing."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the best logo for a castle-building club?",
+			"answer": 0,
+			"hint": "Which would still work on a tiny badge in one colour?",
+			"choices": [
+				"a simple tower shape",
+				"a photo of a real castle",
+				"a paragraph about the club",
+				"the full name in tiny letters"
+			],
+			"explain": "A simple tower shape: bold, memorable and clear at any size."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why line things up on a grid?",
+			"answer": 0,
+			"hint": "Compare the clear poster with the crowded one.",
+			"choices": [
+				"the page looks tidy and is easier to read",
+				"it uses more ink",
+				"it makes everything the same size",
+				"grids are required"
+			],
+			"explain": "Things lined up look organised, so the eye moves easily from part to part."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Every word on a poster should be the same size so nothing is missed.",
+			"answer": false,
+			"hint": "What happens when everything shouts at once?",
+			"explain": "False: if everything is the same size, nothing stands out. Hierarchy tells the eye where to start."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which colour makes a headline stand out on a pale blue poster?",
+			"answer": 0,
+			"hint": "Think of contrast in colour and in lightness.",
+			"choices": [
+				"dark orange",
+				"pale blue",
+				"white",
+				"light grey"
+			],
+			"explain": "Dark orange contrasts in colour (orange is opposite blue) and in lightness."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the logo ideas: will it still work when tiny?",
+			"groups": [
+				"works tiny",
+				"turns to a smudge"
+			],
+			"items": [
+				"a bold tower shape",
+				"a long sentence",
+				"a simple owl outline",
+				"a detailed photo",
+				"one big letter",
+				"many thin lines"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Shrink each one in your mind to the size of a fingernail.",
+			"explain": "Bold, simple shapes stay clear: a tower, an owl outline, one big letter. Long sentences, detailed photos and thin lines blur into a smudge."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the steps to design a clear poster.",
+			"items": [
+				"Add the short details.",
+				"Write one big headline.",
+				"Check it from across a room.",
+				"Choose one strong picture."
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Follow the hierarchy, most important first, then test it.",
+			"explain": "Write the big headline, choose one strong picture, add the short details on a grid, then check it from across a room: can you read it at a glance?"
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the poster choices: clearer, or more cluttered?",
+			"groups": [
+				"clearer",
+				"more cluttered"
+			],
+			"items": [
+				"one or two typefaces",
+				"seven text sizes",
+				"a margin round the edge",
+				"six bright colours",
+				"white space between parts",
+				"text touching the edges"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Clear design keeps things few, lined up and with room to breathe.",
+			"explain": "Clearer: one or two typefaces, a margin, white space between the parts. More cluttered: seven text sizes, six bright colours and text touching the edges, so nothing stands out."
+		}
+	],
+	"generators": []
+}

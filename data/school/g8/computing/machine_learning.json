@@ -1,0 +1,517 @@
+{
+	"id": "g8.computing.machine_learning",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, how does a computer learn to tell cats from rabbits? (From many examples that people have labelled.) Today: how machine learning finds patterns, and how bias gets in."
+		},
+		{
+			"text": "In machine learning, people do not write every rule. They give a program training data: many examples with the right answers, called labels. The program finds a pattern in them: a model.",
+			"picture": {
+				"kind": "scatter_learn",
+				"axes": [
+					"ear length (cm)",
+					"mass (kg)"
+				],
+				"groups": [
+					"cat",
+					"rabbit"
+				],
+				"points": [
+					[
+						2,
+						4,
+						0
+					],
+					[
+						3,
+						5,
+						0
+					],
+					[
+						2.5,
+						3,
+						0
+					],
+					[
+						3.5,
+						4.5,
+						0
+					],
+					[
+						7,
+						2,
+						1
+					],
+					[
+						8,
+						3,
+						1
+					],
+					[
+						7.5,
+						1.5,
+						1
+					],
+					[
+						8.5,
+						2.5,
+						1
+					]
+				]
+			}
+		},
+		{
+			"text": "Worked example: each animal is measured two ways. A new animal is placed among the examples. The simplest model gives it the label of its nearest example: here, rabbit.",
+			"picture": {
+				"kind": "scatter_learn",
+				"axes": [
+					"ear length (cm)",
+					"mass (kg)"
+				],
+				"groups": [
+					"cat",
+					"rabbit"
+				],
+				"points": [
+					[
+						2,
+						4,
+						0
+					],
+					[
+						3,
+						5,
+						0
+					],
+					[
+						2.5,
+						3,
+						0
+					],
+					[
+						3.5,
+						4.5,
+						0
+					],
+					[
+						7,
+						2,
+						1
+					],
+					[
+						8,
+						3,
+						1
+					],
+					[
+						7.5,
+						1.5,
+						1
+					],
+					[
+						8.5,
+						2.5,
+						1
+					]
+				],
+				"new": [
+					6,
+					3
+				],
+				"near": 1
+			}
+		},
+		{
+			"text": "Then the model is tested on examples it has never seen. If it labels 45 of 50 right, its accuracy is 90%. A model is never right every time."
+		},
+		{
+			"text": "Bias gets in through the data. A face model trained mostly on light-skinned faces makes more mistakes on darker skin; a voice model trained on few accents may not understand others.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"lighter skin",
+						8
+					],
+					[
+						"darker skin",
+						1
+					]
+				],
+				"whole": 9,
+				"key": true
+			}
+		},
+		{
+			"text": "What AI can do: find patterns in huge amounts of data, translate, turn speech into words, suggest the next word. What it cannot do: understand as a person does, know what is true, or care."
+		},
+		{
+			"text": "Good habits: check AI's answers in trusted sources, as chatbots can sound sure and still be wrong. Never give it private details, and say when you used it. People are responsible for what AI does."
+		},
+		{
+			"text": "Try it in the world: sort 20 leaves into two kinds by length and width. Then measure a new leaf: which leaf is it nearest to? Next: cyber security."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is training data?",
+			"choices": [
+				"examples with the right answers",
+				"rules written by hand",
+				"the computer's memory",
+				"a test with no answers"
+			],
+			"answer": 0,
+			"hint": "Think about what the program learns from.",
+			"explain": "Training data is many examples, each labelled with the right answer, so the program can find a pattern."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A machine learning model is right every time.",
+			"answer": false,
+			"hint": "Think of the 45 out of 50.",
+			"explain": "False: a model makes mistakes; that is why it is tested and checked."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which group does the new animal's nearest example belong to?",
+			"choices": [
+				"rabbit",
+				"cat"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "scatter_learn",
+				"axes": [
+					"ear length (cm)",
+					"mass (kg)"
+				],
+				"groups": [
+					"cat",
+					"rabbit"
+				],
+				"points": [
+					[
+						2,
+						4,
+						0
+					],
+					[
+						3,
+						5,
+						0
+					],
+					[
+						2.5,
+						3,
+						0
+					],
+					[
+						3.5,
+						4.5,
+						0
+					],
+					[
+						7,
+						2,
+						1
+					],
+					[
+						8,
+						3,
+						1
+					],
+					[
+						7.5,
+						1.5,
+						1
+					],
+					[
+						8.5,
+						2.5,
+						1
+					]
+				],
+				"new": [
+					6.5,
+					2.5
+				],
+				"near": 1
+			},
+			"hint": "Find the example closest to the ? and look at its shape.",
+			"explain": "The ringed nearest example is a triangle, a rabbit, so the model says rabbit."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A model gets 9 of 10 test examples right. What is its accuracy as a percentage?",
+			"answer": "90",
+			"hint": "Write it as a fraction of 10, then make it out of 100.",
+			"explain": "9 out of 10 is 90 out of 100: 90%."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Can AI do this?",
+			"groups": [
+				"AI can",
+				"AI cannot"
+			],
+			"items": [
+				"find patterns in lots of data",
+				"translate a sentence",
+				"care about you",
+				"know for sure what is true",
+				"suggest the next word"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Is it finding a pattern, or is it a feeling or knowing?",
+			"explain": "AI finds patterns, translates and predicts words; it does not care or know for sure what is true."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A model labels 42 of 50 new photos right. What is its accuracy as a percentage?",
+			"answer": "84",
+			"hint": "Make the fraction out of 100.",
+			"explain": "42 out of 50 is 84 out of 100: 84%."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A model learned only from photos of dogs taken in daylight. What might go wrong?",
+			"choices": [
+				"it may fail on dogs in the dark",
+				"it will be better at night",
+				"nothing can go wrong",
+				"it will learn to see cats too"
+			],
+			"answer": 0,
+			"hint": "A model only knows what was in its examples.",
+			"explain": "It never saw a dark photo, so it may not recognise a dog at night: its data was biased towards daylight."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Bias in a model can come from its training data.",
+			"answer": true,
+			"hint": "Where does a model get its pattern from?",
+			"explain": "True: if some people or things are missing from the data, the model works worse for them."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"training data",
+				"model",
+				"test data",
+				"accuracy"
+			],
+			"matches": [
+				"the pattern it learned",
+				"new examples to check it",
+				"the share it gets right",
+				"examples with labels"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Follow the order: learn, then check.",
+			"explain": "Training data teaches, the model is what was learned, test data checks it and accuracy is its score."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of machine learning in order.",
+			"items": [
+				"test it on new examples",
+				"label them",
+				"use it and keep checking",
+				"train the model",
+				"collect examples"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "What must exist before anything is learned?",
+			"explain": "Collect, label, train, test on new examples, then use it and keep checking."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The new one's 3 nearest examples are ringed. What does a vote of the 3 say?",
+			"choices": [
+				"rabbit",
+				"cat"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "scatter_learn",
+				"axes": [
+					"ear length (cm)",
+					"mass (kg)"
+				],
+				"groups": [
+					"cat",
+					"rabbit"
+				],
+				"points": [
+					[
+						2,
+						4,
+						0
+					],
+					[
+						3,
+						5,
+						0
+					],
+					[
+						2.5,
+						3,
+						0
+					],
+					[
+						3.5,
+						4.5,
+						0
+					],
+					[
+						7,
+						2,
+						1
+					],
+					[
+						8,
+						3,
+						1
+					],
+					[
+						7.5,
+						1.5,
+						1
+					],
+					[
+						8.5,
+						2.5,
+						1
+					]
+				],
+				"new": [
+					6,
+					4.5
+				],
+				"near": 3
+			},
+			"hint": "Count the shapes among the ringed examples.",
+			"explain": "Of the 3 nearest, 2 are rabbits and 1 is a cat, so the vote says rabbit."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Training photos: 180 cats and 20 rabbits. What percentage are rabbits?",
+			"answer": "10",
+			"hint": "Find the total first.",
+			"explain": "180 + 20 = 200 photos; 20 of 200 is 10 of 100: 10%."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A chatbot gives a confident answer with a date in it. What should you do?",
+			"choices": [
+				"check it in a trusted source",
+				"trust it: it sounds sure",
+				"share it at once",
+				"ask the chatbot if it is sure"
+			],
+			"answer": 0,
+			"hint": "Can sounding sure make an answer true?",
+			"explain": "Chatbots can be wrong while sounding sure, so check facts in a trusted book or site."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Adding more varied training examples can reduce bias.",
+			"answer": true,
+			"hint": "Bias comes from what is missing from the data.",
+			"explain": "True: examples of every kind help the model work well for everyone."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A voice helper for everyone: fair or biased training data?",
+			"groups": [
+				"fair",
+				"biased"
+			],
+			"items": [
+				"voices of all ages",
+				"only grown-ups' voices",
+				"many accents",
+				"only one accent",
+				"people with speech differences"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Would everyone who uses it be in the data?",
+			"explain": "Data with all ages, accents and ways of speaking is fair; data with one kind of voice is biased."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Model A gets 88 of 100 right; model B gets 45 of 50. How many percentage points better is B?",
+			"answer": "2",
+			"hint": "Turn both into percentages first.",
+			"explain": "A: 88%. B: 45 of 50 is 90 of 100, 90%. 90 − 88 = 2 points."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.nearest_guess",
+			"level": 1
+		},
+		{
+			"gen": "g8c.nearest_guess",
+			"level": 2
+		},
+		{
+			"gen": "g8c.nearest_guess",
+			"level": 3
+		},
+		{
+			"gen": "g8c.accuracy",
+			"level": 1
+		},
+		{
+			"gen": "g8c.accuracy",
+			"level": 2
+		},
+		{
+			"gen": "g8c.accuracy",
+			"level": 3
+		}
+	]
+}

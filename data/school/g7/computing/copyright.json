@@ -1,0 +1,318 @@
+{
+	"id": "g7.computing.copyright",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a digital footprint? (Everything you leave online, which can last a long time.) Today: who owns work online, and how to use and credit other people's work."
+		},
+		{
+			"text": "Copyright means whoever makes something owns it, from the moment it is made: a story, a song, a photo, a drawing, a game. Others must ask before they copy, share or change it."
+		},
+		{
+			"text": "Copyright does not last for ever. In the UK and many countries it lasts 70 years after the creator dies, to the end of that year. Then the work is in the public domain: free for everyone."
+		},
+		{
+			"text": "Worked example: a book whose author died in 1950 has been free for everyone from 1 January 2021. That is because 1950 + 70 = 2020, and copyright ends when 2020 ends. Beethoven's music is free to play for the same reason.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1940,
+				"to": 2030,
+				"step": 10,
+				"events": [
+					[
+						1950,
+						"the author dies"
+					],
+					[
+						2021,
+						"free for everyone"
+					]
+				],
+				"eras": [
+					[
+						1950,
+						2020,
+						"70 years' copyright"
+					]
+				]
+			}
+		},
+		{
+			"text": "Britain's first copyright law, the Statute of Anne, came in 1710. Today, Creative Commons licences let makers share on their own terms: CC0 gives it to everyone; BY means credit me; SA share alike; NC not for money; ND no changes.",
+			"picture": {
+				"kind": "licence_tags",
+				"tags": [
+					"CC0",
+					"BY",
+					"BY-SA",
+					"BY-NC"
+				]
+			}
+		},
+		{
+			"text": "Credit properly: what it is, who made it, where you found it, and its licence. For example: Owl photo by Mimi, from the school site, CC BY. Copying someone's work and calling it yours is plagiarism.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"a credit says",
+						"for example"
+					],
+					[
+						"what",
+						"owl photo"
+					],
+					[
+						"who",
+						"Mimi"
+					],
+					[
+						"where from",
+						"the school site"
+					],
+					[
+						"licence",
+						"CC BY"
+					]
+				]
+			}
+		},
+		{
+			"text": "For school work, reviews and jokes, the law often lets you use a small part without asking. In the UK this is called fair dealing, but you still credit it. This game's own sounds and pictures are CC0, credited in its credits list."
+		},
+		{
+			"text": "Try it in the world: find a CC0 or CC BY picture for a project and write its credit: what, who, where from and licence. Next: in grade 8, building a bigger program."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Your own drawing is protected by copyright as soon as you make it.",
+			"answer": true,
+			"hint": "Do you need to fill in a form?",
+			"explain": "True: copyright starts the moment a work is made."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which licence means anyone may use the work without asking and without a credit?",
+			"answer": 0,
+			"hint": "Which one gives the work to everyone?",
+			"choices": [
+				"CC0",
+				"CC BY",
+				"CC BY-NC",
+				"all rights reserved"
+			],
+			"explain": "CC0: no rights reserved; a credit is kind but not needed."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is copying someone's work and calling it yours?",
+			"answer": 0,
+			"hint": "It is dishonest, even at school.",
+			"choices": [
+				"plagiarism",
+				"a credit",
+				"a licence",
+				"the public domain"
+			],
+			"explain": "Plagiarism: passing off someone else's work as your own."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each licence part to its meaning.",
+			"items": [
+				"BY",
+				"SA",
+				"NC",
+				"ND",
+				"CC0"
+			],
+			"matches": [
+				"share alike",
+				"not for money",
+				"no changes",
+				"no rights reserved",
+				"credit the maker"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				2,
+				3
+			],
+			"hint": "BY is by whom; the others are short for words.",
+			"explain": "BY: credit; SA: share alike; NC: non-commercial, not for money; ND: no derivatives, no changes; CC0: none."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "An author died in 1940. Copyright lasts 70 years after death, to the end of that year. From which year is the book free for anyone to use?",
+			"answer": "2011",
+			"hint": "Add 70, then it is free from the next 1 January.",
+			"explain": "A book whose author died in 1940 is free to read and share from 1 January 2011: 1940 + 70 = 2010, and copyright ends when 2010 ends.",
+			"year": true
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A picture has the licence CC BY-NC. May you sell T-shirts with it?",
+			"answer": false,
+			"hint": "What does NC mean?",
+			"explain": "False: NC means not for money, so selling T-shirts is not allowed without asking."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which credit is complete?",
+			"answer": 0,
+			"hint": "A credit says what, who, where from and the licence.",
+			"choices": [
+				"Owl photo by Mimi, from the school site, CC BY",
+				"a photo I found",
+				"from the internet",
+				"Owl photo, thanks!"
+			],
+			"explain": "Owl photo by Mimi, from the school site, CC BY: what, who, where and the licence."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A songwriter died in 1955. Copyright lasts 70 years after death. From which year is the song free to use?",
+			"answer": "2026",
+			"hint": "Add 70 to the year of death; free from the next 1 January.",
+			"explain": "A song whose writer died in 1955 is free from 1 January 2026: 1955 + 70 = 2025, and copyright ends when 2025 ends.",
+			"year": true
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "It is 2026. A painter died in 1960. Is the painting free to use now? (Copyright lasts 70 years after death.)",
+			"answer": false,
+			"hint": "Work out the first free year, then compare it with 2026.",
+			"explain": "False: a painting whose painter died in 1960 is free from 1 January 2031, which is after 2026."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Can you use it in a school project with a credit, or must you ask first?",
+			"groups": [
+				"use with a credit",
+				"ask first"
+			],
+			"items": [
+				"a CC BY photo",
+				"a CC0 drawing",
+				"a photo marked all rights reserved",
+				"Beethoven's music, played by you",
+				"a friend's poem they have not shared"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Look for a licence, or for a creator who died long ago.",
+			"explain": "The CC BY and CC0 works and Beethoven are free to use with a credit; all rights reserved and your friend's poem need asking."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You want to change a photo and sell badges with your version. Which licence lets you?",
+			"answer": 0,
+			"hint": "Rule out not for money, no changes, and ask first.",
+			"choices": [
+				"CC BY",
+				"CC BY-NC",
+				"CC BY-ND",
+				"all rights reserved"
+			],
+			"explain": "CC BY: you may change and sell it, as long as you credit the maker."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A photographer took a photo in 1920 and died in 1975. From which year is it free to use? (Copyright lasts 70 years after death.)",
+			"answer": "2046",
+			"hint": "Which year counts: when it was taken, or when its maker died?",
+			"explain": "The year of death counts: the photographer died in 1975, so it is free from 1 January 2046 (1975 + 70 = 2045).",
+			"year": true
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You remix a CC BY-SA song. Which licence must your remix use?",
+			"answer": 0,
+			"hint": "What does SA, share alike, ask?",
+			"choices": [
+				"CC BY-SA",
+				"any licence you like",
+				"CC0",
+				"all rights reserved"
+			],
+			"explain": "Share alike: your new version must be shared under the same licence, CC BY-SA."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is Beethoven's music free for anyone to play and record?",
+			"answer": 0,
+			"hint": "When does copyright end?",
+			"choices": [
+				"he died long ago, so its copyright ended",
+				"music is never protected",
+				"he gave it away",
+				"it is too quiet to count"
+			],
+			"explain": "Beethoven died in 1827, far more than 70 years ago, so his music is in the public domain."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Quoting a few lines of a book in a school review is often allowed, as long as you credit it.",
+			"answer": true,
+			"hint": "Think of fair dealing.",
+			"explain": "True: small parts for reviews, study or jokes are often allowed, with a credit."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A photo was taken in 1930. Its photographer died in 1990. It is now 2026. How many more years until it is free to use? (Copyright lasts 70 years after death.)",
+			"answer": "35",
+			"hint": "The year it was taken does not matter: count from the year of death.",
+			"explain": "1990 + 70 = 2060, so copyright ends when 2060 ends and the photo is free from 1 January 2061. 2061 − 2026 = 35 more years."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.public_domain",
+			"level": 1
+		},
+		{
+			"gen": "g7c.public_domain",
+			"level": 2
+		},
+		{
+			"gen": "g7c.public_domain",
+			"level": 3
+		},
+		{
+			"gen": "g7c.licence_use",
+			"level": 1
+		},
+		{
+			"gen": "g7c.licence_use",
+			"level": 2
+		},
+		{
+			"gen": "g7c.licence_use",
+			"level": 3
+		}
+	]
+}

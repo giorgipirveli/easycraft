@@ -1,0 +1,315 @@
+{
+	"id": "goal_board",
+	"title": "The Goal Board",
+	"area": "goals",
+	"room": "goal_room",
+	"vary": "success",
+	"devices": {
+		"calendar": {
+			"controls": ["the day squares"],
+			"shows": ["the days kept", "today"],
+			"order": ["choose one small habit", "do it", "tick today", "a day off: just carry on tomorrow"],
+			"safety": ["no guilt: a missed day never undoes the others"]
+		},
+		"jar": {
+			"controls": ["the slot", "the lid"],
+			"shows": ["how much is saved", "the goal's line"],
+			"order": ["save first, after each lesson", "count it each week", "spend it on the goal"],
+			"safety": ["keep real money at home", "count real money with a grown-up"]
+		}
+	},
+	"tracks": {
+		"little": {
+			"skill": "One step at a time",
+			"twist": "Bobo's tower falls twice, and Pip-pop's sweets look yummy.",
+			"can_now": "pick a goal they can do, build it one step at a time, try again after a fall and save for something bigger",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "room", "react": "bobo_dream",
+					"say": "Bobo has a dream: a tower as tall as the window! A dream is something you wish for. Let's help Bobo make a plan."},
+				{"id": "goal", "kind": "choose", "view": "room",
+					"say": "A dream is big. A goal is one thing you can do. Which is a good goal for today?",
+					"choices": [
+						{"text": "Build a tower 3 blocks high", "icon": "tower"},
+						{"text": "Be the best builder ever", "icon": "star", "why": "That's a big wish. A goal is something you can do and see, like 3 blocks high."},
+						{"text": "Build something, sometime", "icon": "clock", "why": "When? A goal says what, and when."}],
+					"answer": 0, "done": "3 blocks high: a goal Bobo can do today!"},
+				{"id": "build", "kind": "sequence", "targets": ["block_big", "block_mid", "block_small"], "motion": "press", "view": "blocks",
+					"say": "Big jobs go one step at a time. Help Bobo build: the big block, then the middle one, then the small one.",
+					"done": "Three blocks high!"},
+				{"id": "fall", "kind": "info", "view": "blocks", "react": "tower_falls",
+					"say": "Oh! A wobble, and the tower fell down. That's OK: it happens to every builder."},
+				{"id": "again", "kind": "choose", "view": "blocks",
+					"say": "What does Bobo do now?",
+					"choices": [
+						{"text": "Try again, a bit more carefully", "icon": "try_again"},
+						{"text": "Give up", "icon": "cross", "why": "Giving up means no tower. Falls help us learn: try again!"},
+						{"text": "Kick the blocks", "icon": "cross_arms", "why": "That won't help. Take a breath, then try again."}],
+					"answer": 0, "done": "Trying again: that's how builders do it."},
+				{"id": "rebuild", "kind": "sequence", "targets": ["block_big", "block_mid", "block_small"], "motion": "press",
+					"view": "blocks", "react": "tower_reset", "say": "Build it again, slowly: big, middle, small.",
+					"done": "Three blocks high, and it stays up! Bobo kept going."},
+				{"id": "fall_again", "kind": "info", "view": "blocks", "mode": "expert", "react": "tower_falls",
+					"say": "Oh no, it fell again! Builders don't stop: they look at why. The big block was on a wobbly bit of the floor."},
+				{"id": "rebuild_again", "kind": "sequence", "targets": ["block_big", "block_mid", "block_small"], "motion": "press",
+					"view": "blocks", "mode": "expert", "react": "tower_reset", "say": "Once more, on the flat mat this time: big, middle, small.",
+					"done": "It stands! Two falls, and Bobo still did it."},
+				{"id": "save", "kind": "choose", "view": "jar",
+					"say": "Bobo is saving for a kite. He has 2 coins. Pip-pop sells sweets for 2 coins. What gets Bobo his kite?",
+					"choices": [
+						{"text": "Keep the coins in his saving jar", "icon": "jar"},
+						{"text": "Buy sweets now", "icon": "sweets", "why": "Sweets are nice, but then the kite takes longer. Saving brings the big thing closer."},
+						{"text": "Leave the coins on the floor", "icon": "cross", "why": "Coins in a jar are safe: they're there when you need them."}],
+					"answer": 0, "done": "Saving now, for something better later."},
+				{"id": "sale", "kind": "choose", "view": "jar", "mode": "expert",
+					"say": "Pip-pop says: \"Sweets are only 1 coin today!\" Bobo still wants his kite. What does he do?",
+					"choices": [
+						{"text": "Keep saving: the kite is what he really wants", "icon": "jar"},
+						{"text": "Buy them: it's a bargain!", "icon": "sweets", "why": "Cheap is still coins out of the jar. Bobo's goal is the kite."},
+						{"text": "Buy two, to be fair", "icon": "coins", "why": "That empties the jar. The kite needs his coins."}],
+					"answer": 0, "done": "Bobo waited: the kite gets closer."},
+				{"id": "jar", "kind": "taps", "target": "jar", "count": 2, "motion": "press", "tool": "coins", "device": "jar", "owner": "#118 (L3c)", "view": "jar",
+					"say": "Help Bobo put his 2 coins in the saving jar: tap the jar 2 times.", "done": "2 coins saved for the kite."},
+				{"id": "habit", "kind": "info", "view": "plant", "react": "plant_shows",
+					"say": "A habit is a small good thing you do every day. Bobo's habit: water his plant each morning."},
+				{"id": "water", "kind": "hold", "target": "plant", "seconds": 2, "motion": "pour", "tool": "watering_can", "view": "plant",
+					"after": "plant_watered", "say": "Water the plant: hold the watering can over it.", "done": "The plant drinks it up."},
+				{"id": "days", "kind": "timelapse", "seconds": 5, "label": "5 days", "view": "plant", "react": "days_pass",
+					"say": "The days go by. Bobo waters his plant every morning... except one day, when he forgets."},
+				{"id": "forgot", "kind": "choose", "view": "plant",
+					"say": "Bobo forgot one day. What now?",
+					"choices": [
+						{"text": "Water it the next day: it waited for him", "icon": "watering_can"},
+						{"text": "Stop for ever", "icon": "cross", "why": "One forgotten day is fine! Just carry on the next day."},
+						{"text": "Feel bad all week", "icon": "face_sad", "why": "No need! Everyone forgets sometimes. Tomorrow is a new day."}],
+					"answer": 0, "done": "The plant waited, and it grew again."},
+				{"id": "end", "kind": "info", "view": "room",
+					"say": "You helped Bobo with a goal, steps, trying again, saving and a habit. Now make your own: open MY GOAL BOARD!"}
+			],
+			"check": [
+				{"say": "A goal is...", "answer": 0, "choices": [
+					{"text": "something you can do and see", "icon": "goal"}, {"text": "a wish that never comes", "icon": "cross"},
+					{"text": "a toy", "icon": "toy"}]},
+				{"say": "Your tower falls down. What do you do?", "answer": 0, "choices": [
+					{"text": "Try again", "icon": "try_again"}, {"text": "Give up", "icon": "cross"},
+					{"text": "Get cross", "icon": "cross_arms"}]},
+				{"say": "Saving coins in a jar helps you...", "answer": 0, "choices": [
+					{"text": "get something bigger later", "icon": "jar"}, {"text": "lose them", "icon": "cross"},
+					{"text": "buy sweets now", "icon": "sweets"}]},
+				{"say": "You forgot your habit one day. Then you...", "answer": 0, "choices": [
+					{"text": "carry on the next day", "icon": "watering_can"}, {"text": "stop for ever", "icon": "cross"},
+					{"text": "feel bad all week", "icon": "face_sad"}]}
+			],
+			"name_it": {"title": "One step at a time", "lines": ["A goal is something you can do and see.",
+				"Big jobs: one step at a time.", "If it falls down, try again.", "Save now for something better later.",
+				"A small habit every day: a missed day is fine."],
+				"source": "The Dunedin study of self-control (Moffitt et al., 2011) and research on how habits form (Lally et al., 2010)"},
+			"try_real": "With a grown-up: choose one small goal for this week, like a tower of 10 blocks or laying the table, and plan its first step.",
+			"sources": [
+				{"fact": "Self-control in childhood predicts health, wealth and staying out of trouble as adults, and it can be learned.", "source": "Moffitt et al. (2011), PNAS 108(7), the Dunedin study", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3041102"},
+				{"fact": "A new daily habit took from 18 to 254 days to become automatic (66 in the middle); missing one day did not materially affect it.", "source": "Lally, van Jaarsveld, Potts and Wardle (2010), European Journal of Social Psychology 40(6)", "url": "https://doi.org/10.1002/ejsp.674"},
+				{"fact": "Waiting for something better and finishing what you start are self-mastery skills for young children.", "source": "EntreComp (2016): motivation and perseverance", "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC101581"}
+			]
+		},
+		"middle": {
+			"skill": "Goals in steps, if-then plans",
+			"twist": "Two things get in the way. Can your plan handle both?",
+			"can_now": "set a goal they can check, put its steps in order and make a 'When ..., I will ...' plan",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "board", "react": "board_on",
+					"say": "Your dream: fly your own rocket to the Moon! Dreams need a goal, steps and a plan. Let's put them on your Goal Board."},
+				{"id": "goal", "kind": "choose", "view": "board",
+					"say": "Which is a goal you can check?",
+					"choices": [
+						{"text": "Save {moon_gold} gold for Mission Control's Moon rocket in 3 weeks", "icon": "goal"},
+						{"text": "Get better at rockets", "icon": "question", "why": "Better how? A goal you can check says what, how much and by when."},
+						{"text": "Go to space one day", "icon": "rocket", "why": "That's the dream! The goal is the next big thing you can check."}],
+					"answer": 0, "done": "What, how much, by when: a goal you can check."},
+				{"id": "pin", "kind": "touch", "target": "slot_goal", "view": "board", "after": "goal_pinned",
+					"say": "Pin your goal on the board: touch the GOAL space.", "done": "Your goal is on the board."},
+				{"id": "steps", "kind": "sequence", "targets": ["card_learn", "card_save", "card_buy", "card_build"], "motion": "press",
+					"view": "board", "say": "What comes first? Touch the step cards in the right order.",
+					"done": "LEARN, SAVE, BUY, BUILD: one step at a time, the dream gets closer."},
+				{"id": "plan", "kind": "choose", "view": "board",
+					"say": "Plans work best as 'When ..., I will ...'. Which plan is best?",
+					"choices": [
+						{"text": "\"When I finish a lesson, I put 10 gold aside for my rocket.\"", "icon": "plan_card"},
+						{"text": "\"I'll try to save more.\"", "icon": "question", "why": "When? A plan with a 'when' tells your brain the moment to do it."},
+						{"text": "\"I'll save it all at the end.\"", "icon": "clock", "why": "Small amounts after each lesson add up, and they're easier."}],
+					"answer": 0, "done": "When... I will...: your brain knows the moment."},
+				{"id": "pin_plan", "kind": "touch", "target": "slot_plan", "view": "board", "after": "plan_pinned",
+					"say": "Pin your plan on the board: touch the PLAN space.", "done": "Your plan is on the board."},
+				{"id": "friends", "kind": "choose", "view": "board",
+					"say": "What if a friend asks you to play just when you planned your lesson?",
+					"choices": [
+						{"text": "\"After my lesson!\" Then play.", "icon": "friends"},
+						{"text": "Skip the plan this time", "icon": "cross", "why": "Once often becomes always. Say 'after my lesson', and play then."},
+						{"text": "Never play again", "icon": "face_sad", "why": "Play is good too! A plan finds time for both."}],
+					"answer": 0, "done": "An if-then plan for what gets in the way."},
+				{"id": "tired", "kind": "choose", "view": "board", "mode": "expert",
+					"say": "And one evening you're very tired. If you're tired, then...",
+					"choices": [
+						{"text": "...I do just a tiny part: one question", "icon": "tiny"},
+						{"text": "...I skip the whole week", "icon": "cross", "why": "A tiny part keeps the plan going. Skipping a week makes it hard to start again."},
+						{"text": "...I stay up very late", "icon": "bed", "why": "Sleep matters. Do a tiny part, then rest."}],
+					"answer": 0, "done": "Two obstacles, two if-then plans. Your plan can handle both."},
+				{"id": "habit", "kind": "feel", "view": "plant", "react": "plant_shows",
+					"say": "Habits help goals. Pick one small habit for the practice garden:",
+					"choices": [
+						{"text": "Drink a glass of water", "icon": "water_glass", "reply": "Water: good for your body and your brain."},
+						{"text": "Read for 10 minutes", "icon": "book", "reply": "Reading: a little every day adds up to a lot."},
+						{"text": "Tidy my things", "icon": "tidy", "reply": "Tidy: everything is easier to find."},
+						{"text": "Help at home", "icon": "house", "reply": "Helping: everyone at home is glad."}]},
+				{"id": "week", "kind": "find", "targets": ["day_1", "day_2", "day_4", "day_5", "day_6", "day_7"], "motion": "press", "device": "calendar", "owner": "#118 (L3c)",
+					"view": "calendar", "react": "week_starts",
+					"lines": {"day_1": "Monday: done!", "day_2": "Tuesday: done!", "day_4": "Thursday: done!", "day_5": "Friday: done!",
+						"day_6": "Saturday: done!", "day_7": "Sunday: done!"},
+					"say": "A week of your habit. Wednesday has a cloud: that's the day you forgot. Touch every day you kept it.",
+					"done": "Six days kept. The plant grew on every one of them."},
+				{"id": "missed", "kind": "choose", "view": "calendar",
+					"say": "You forgot one day. Is the habit ruined?",
+					"choices": [
+						{"text": "No: one day off hardly matters. Carry on.", "icon": "tick"},
+						{"text": "Yes: start all over again", "icon": "cross", "why": "Scientists found one missed day hardly matters. Just carry on."},
+						{"text": "Give up the habit", "icon": "face_sad", "why": "No need! Habits take weeks to stick, with a few days off."}],
+					"answer": 0, "done": "Right: carry on, and it sticks."},
+				{"id": "jar", "kind": "taps", "target": "jar", "count": 3, "motion": "press", "tool": "coins", "device": "jar", "owner": "#118 (L3c)", "view": "board",
+					"say": "Three lessons done this week. Keep your plan: tap the rocket jar after each one, 3 times.",
+					"done": "30 gold aside for the rocket. The plan works!"},
+				{"id": "end", "kind": "info", "view": "board",
+					"say": "A goal you can check, steps in order, a when-then plan and a habit. Now make your real one: open MY GOAL BOARD!"}
+			],
+			"check": [
+				{"say": "Which is a goal you can check?", "answer": 0, "choices": [
+					{"text": "Save 300 gold in 3 weeks", "icon": "goal"}, {"text": "Get better", "icon": "question"},
+					{"text": "Go to space one day", "icon": "rocket"}]},
+				{"say": "Which plan works best?", "answer": 0, "choices": [
+					{"text": "\"When I finish a lesson, I save 10 gold.\"", "icon": "plan_card"},
+					{"text": "\"I'll try to save more.\"", "icon": "question"}, {"text": "\"I'll save at the end.\"", "icon": "clock"}]},
+				{"say": "One missed day of a habit...", "answer": 0, "choices": [
+					{"text": "hardly matters: carry on", "icon": "tick"}, {"text": "ruins it all", "icon": "cross"},
+					{"text": "means you're bad at habits", "icon": "face_sad"}]},
+				{"say": "A friend asks you to play during your plan. You...", "answer": 0, "choices": [
+					{"text": "say \"After my lesson!\"", "icon": "friends"}, {"text": "skip your plan", "icon": "cross"},
+					{"text": "never play", "icon": "face_sad"}]}
+			],
+			"name_it": {"title": "A goal you can reach", "lines": ["A goal you can check: what, how much, by when.",
+				"Its steps, in order.", "A plan: 'When ..., I will ...'.", "A plan for what gets in the way.",
+				"Small habits: a missed day hardly matters."],
+				"source": "Gollwitzer and Sheeran (2006), if-then plans; Lally et al. (2010), how habits form"},
+			"try_real": "With a grown-up: set one small goal and plan its first step. Write your 'When ..., I will ...' plan on paper and stick it where you'll see it.",
+			"sources": [
+				{"fact": "If-then plans ('when X happens, I will do Y') make reaching a goal much more likely, across many studies (d = 0.65).", "source": "Gollwitzer and Sheeran (2006), Advances in Experimental Social Psychology 38", "url": "https://kops.uni-konstanz.de/entities/publication/2e749bfb-8533-437c-8203-7e788c910c5f"},
+				{"fact": "Missing one opportunity to do a new habit did not materially affect how the habit formed.", "source": "Lally et al. (2010), European Journal of Social Psychology", "url": "https://doi.org/10.1002/ejsp.674"},
+				{"fact": "Goals in steps and a small daily habit are self-mastery skills for 9 to 11 year olds.", "source": "EntreComp (2016): planning and management, motivation and perseverance", "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC101581"}
+			]
+		},
+		"big": {
+			"skill": "Plans that stick",
+			"twist": "A second obstacle gets in the way, and the goal check is trickier.",
+			"can_now": "plan a goal with WOOP and if-then plans, put big things first and bounce back with an honest look at progress",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "board", "react": "board_on",
+					"say": "Big goals need plans that work on busy days. Let's build yours from parts, the way scientists suggest."},
+				{"id": "goal", "kind": "choose", "view": "board", "mode": "normal",
+					"say": "Which goal is clear, can be measured, and has a date?",
+					"choices": [
+						{"text": "Earn 3 By myself stamps in Life by the end of the month", "icon": "stamp_self"},
+						{"text": "Be good at everything", "icon": "star", "why": "Too big to check. Pick one thing, a number and a date."},
+						{"text": "Do loads of stuff", "icon": "question", "why": "Which stuff, and how will you know? Pick one thing, a number and a date."}],
+					"answer": 0, "done": "One thing, a number, a date: you'll know when you've done it."},
+				{"id": "goal_hard", "kind": "choose", "view": "board", "mode": "expert",
+					"say": "Which goal is clear, can be measured, and has a date?",
+					"choices": [
+						{"text": "Master 2 School lessons by Friday", "icon": "book"},
+						{"text": "Master lots of School lessons soon", "icon": "question", "why": "'Lots' and 'soon' can't be checked. Say how many, and by when."},
+						{"text": "Get 100% in everything, every day", "icon": "star", "why": "Too much to be real. A clear goal is a stretch you can reach."}],
+					"answer": 0, "done": "2 lessons by Friday: clear, measurable, dated."},
+				{"id": "woop", "kind": "sequence", "targets": ["card_wish", "card_outcome", "card_obstacle", "card_plan"], "motion": "press",
+					"view": "board", "say": "Scientists found a strong order for a plan: the WISH, the best OUTCOME, the OBSTACLE inside you, then the PLAN. Touch them in order.",
+					"done": "Wish, Outcome, Obstacle, Plan: WOOP!"},
+				{"id": "cue", "kind": "choose", "view": "board",
+					"say": "Your if-then plan. First the WHEN: pick a moment you'll notice.",
+					"choices": [
+						{"text": "When I finish dinner", "icon": "clock"},
+						{"text": "When I feel like it", "icon": "shrug", "why": "Feelings come and go. Pick a moment that happens every day."},
+						{"text": "Sometime this week", "icon": "question", "why": "'Sometime' never comes. Pick a real moment."}],
+					"answer": 0, "done": "A real moment your brain can watch for."},
+				{"id": "action", "kind": "choose", "view": "board",
+					"say": "Now the THEN: a small, clear action.",
+					"choices": [
+						{"text": "I practise one Life skill for 10 minutes", "icon": "passport"},
+						{"text": "I work really hard", "icon": "run", "why": "Hard how? Say exactly what you'll do."},
+						{"text": "I do everything at once", "icon": "cross", "why": "Too big. Small and clear is easier to start."}],
+					"answer": 0, "done": "\"When I finish dinner, I practise one Life skill for 10 minutes.\""},
+				{"id": "obstacle", "kind": "choose", "view": "board",
+					"say": "Your obstacle: you're often tired after dinner. Your if-then:",
+					"choices": [
+						{"text": "If I'm tired, then I do just 5 minutes", "icon": "tiny"},
+						{"text": "If I'm tired, then I skip the whole week", "icon": "cross", "why": "A tiny part keeps the plan alive. Skipping makes it hard to start again."},
+						{"text": "Pretend it won't happen", "icon": "quiet", "why": "Planning for the obstacle is the secret: it will happen sometimes."}],
+					"answer": 0, "done": "A plan for the obstacle: the strongest part of WOOP."},
+				{"id": "obstacle_two", "kind": "choose", "view": "board", "mode": "expert",
+					"say": "A second obstacle: you want to play a game instead. Your if-then:",
+					"choices": [
+						{"text": "If I want to play, then I play after my 10 minutes", "icon": "friends"},
+						{"text": "If I want to play, then I play all evening", "icon": "cross", "why": "Then the plan never happens. Play after: you get both."},
+						{"text": "I'll never play games again", "icon": "face_sad", "why": "Too strict to keep. Play after your 10 minutes."}],
+					"answer": 0, "done": "Two obstacles, two plans."},
+				{"id": "rocks", "kind": "sequence", "targets": ["rock_big", "rock_pebbles", "rock_sand"], "motion": "press", "view": "time_jar",
+					"say": "Your week is a jar. Put in the big rocks first (the important things), then the pebbles, then the sand.",
+					"done": "Big things first: then the small ones fit round them."},
+				{"id": "bounce", "kind": "choose", "view": "board",
+					"say": "You missed your goal by one stamp. What helps most?",
+					"choices": [
+						{"text": "Look at what went wrong, change the plan, try again", "icon": "try_again"},
+						{"text": "Decide you're bad at it", "icon": "face_sad", "why": "Skills grow with practice: you're not bad at it, you're learning."},
+						{"text": "Blame someone else", "icon": "cross_arms", "why": "Blaming doesn't change the plan. Look at what you can change."}],
+					"answer": 0, "done": "Bouncing back: learn from it, change the plan, go again."},
+				{"id": "stack", "kind": "choose", "view": "board",
+					"say": "Habits stick when you tie them to something you already do. Which plan?",
+					"choices": [
+						{"text": "\"After I brush my teeth, I read one page.\"", "icon": "toothbrush"},
+						{"text": "\"I'll read when I remember.\"", "icon": "question", "why": "Remembering is the hard part: tie it to something you already do."},
+						{"text": "\"I'll read for 3 hours on Sundays.\"", "icon": "clock", "why": "Small and often sticks better than big and rare."}],
+					"answer": 0, "done": "Tied to brushing your teeth: it happens every day."},
+				{"id": "month", "kind": "timelapse", "seconds": 5, "label": "30 days", "view": "calendar", "react": "month_passes",
+					"say": "A month with your plan goes by..."},
+				{"id": "honest", "kind": "choose", "view": "board",
+					"say": "At the end of the month you have 2 stamps, not 3. What goes on your Goal Board?",
+					"choices": [
+						{"text": "\"2 of 3: close! Next month's plan.\"", "icon": "honest"},
+						{"text": "\"3\" anyway", "icon": "cross", "why": "Honest numbers help you plan better. 2 of 3 is real progress."},
+						{"text": "Throw the board away", "icon": "face_sad", "why": "2 of 3 is good progress. Keep the board, change the plan."}],
+					"answer": 0, "done": "Honest progress: the best way to plan the next step."},
+				{"id": "end", "kind": "info", "view": "board",
+					"say": "A clear goal, WOOP, if-then plans, big things first and honest progress. Open MY GOAL BOARD and build your real one!"}
+			],
+			"check": [
+				{"say": "WOOP stands for...", "answer": 0, "choices": [
+					{"text": "Wish, Outcome, Obstacle, Plan", "icon": "woop"}, {"text": "Work, Over, Off, Play", "icon": "question"},
+					{"text": "Win Or Out, Please", "icon": "star"}]},
+				{"say": "A good if-then plan has...", "answer": 0, "choices": [
+					{"text": "a moment you'll notice, and a small clear action", "icon": "plan_card"},
+					{"text": "a feeling and a big promise", "icon": "shrug"}, {"text": "no plan for problems", "icon": "cross"}]},
+				{"say": "Big things first means...", "answer": 0, "choices": [
+					{"text": "the important things first, then the small ones round them", "icon": "rocks"},
+					{"text": "the easiest things first", "icon": "run"}, {"text": "everything at once", "icon": "cross"}]},
+				{"say": "You missed your goal. What helps most?", "answer": 0, "choices": [
+					{"text": "change the plan and try again", "icon": "try_again"}, {"text": "decide you're bad at it", "icon": "face_sad"},
+					{"text": "blame others", "icon": "cross_arms"}]},
+				{"say": "Your progress is 2 of 3. You write...", "answer": 0, "choices": [
+					{"text": "2 of 3: honest", "icon": "honest"}, {"text": "3", "icon": "cross"}, {"text": "nothing", "icon": "quiet"}]}
+			],
+			"name_it": {"title": "Plans that stick", "lines": ["Wish, Outcome, Obstacle, Plan (WOOP).",
+				"If-then plans: for the moment, and for the obstacle.", "Big things first.",
+				"Missed it? Change the plan and try again.", "Honest progress helps you plan."],
+				"source": "Mental contrasting with implementation intentions (Oettingen and Gollwitzer: WOOP) and Gollwitzer and Sheeran (2006)"},
+			"try_real": "With a grown-up: do a WOOP for a real goal (a sport, a subject, a skill), with one if-then plan for your biggest obstacle.",
+			"sources": [
+				{"fact": "Fifth graders taught mental contrasting with implementation intentions (WOOP-style plans) improved their grades, attendance and conduct.", "source": "Duckworth, Kirby, Gollwitzer and Oettingen (2013), Social Psychological and Personality Science", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4106484/"},
+				{"fact": "If-then plans make reaching goals much more likely (d = 0.65).", "source": "Gollwitzer and Sheeran (2006)", "url": "https://kops.uni-konstanz.de/entities/publication/2e749bfb-8533-437c-8203-7e788c910c5f"},
+				{"fact": "Resilience, motivation and self-awareness are among the skills employers rank highest.", "source": "World Economic Forum, The Future of Jobs Report 2025", "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/3-skills-outlook/"}
+			]
+		}
+	}
+}

@@ -1,0 +1,458 @@
+{
+	"id": "g4.science.circuits",
+	"lesson": [
+		{
+			"text": "Quick memory: in 'Energy on the move', what does a lamp change electricity into? (Light.) Now build electric circuits yourself, and learn how to stay safe with electricity."
+		},
+		{
+			"text": "Electricity powers lamps, fridges and phones. Mains electricity comes from sockets in the wall: it is strong enough to badly hurt you, so never play with plugs or sockets. Batteries are much weaker and safe to experiment with."
+		},
+		{
+			"text": "A circuit is a complete loop. Electricity flows out of the battery, along a wire, through the bulb and back to the battery. A battery's proper name is a cell, and it has a + end and a − end.",
+			"picture": {
+				"kind": "lab_circuit",
+				"parts": [
+					"bulb"
+				]
+			}
+		},
+		{
+			"text": "If there is a gap anywhere in the loop, the electricity stops and the bulb goes out. A switch is a gap you can open and close: closed, the loop is complete and the bulb lights; open, it goes out.",
+			"picture": {
+				"kind": "lab_circuit",
+				"parts": [
+					"bulb"
+				],
+				"switch": "open"
+			}
+		},
+		{
+			"text": "Conductors let electricity flow through them: metals such as copper, iron, steel, aluminium and gold. Insulators do not: plastic, rubber, wood, glass, paper and cloth. Wires are copper inside a plastic coat."
+		},
+		{
+			"text": "To test a material, lay it across a gap in the loop. A steel spoon lights the bulb: it is a conductor. A rubber eraser leaves it dark: an insulator. Water can conduct too, so keep electrical things away from water and wet hands.",
+			"picture": {
+				"kind": "lab_circuit",
+				"parts": [
+					"bulb"
+				],
+				"gap": true,
+				"bridge": "steel spoon",
+				"conducts": true
+			}
+		},
+		{
+			"text": "On this unit's page, tap TRY IT IN THE LAB: close the switch, then take out a wire to make a gap. Add a second bulb: two bulbs in one loop share the battery's push, so both glow more dimly.",
+			"picture": {
+				"kind": "lab_circuit",
+				"parts": [
+					"bulb",
+					"bulb"
+				],
+				"switch": "closed"
+			}
+		},
+		{
+			"text": "Try it in the world: in your world, join a lever to a lamp and flip it on and off, just like a switch in a circuit. Next, in grade 5: circuits drawn with symbols, and circuits with two paths."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an electric circuit?",
+			"hint": "Think of the path from the battery and back again.",
+			"explain": "A circuit is a complete loop: from the battery, through the wires and the bulb, and back.",
+			"choices": [
+				"a complete loop that electricity flows round",
+				"a kind of battery",
+				"a gap in a wire",
+				"a plastic cover for wires"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In this circuit the switch is open, so the bulb lights up.",
+			"hint": "What does an open switch make in the loop?",
+			"explain": "False: an open switch is a gap, so the loop is broken and the bulb stays off.",
+			"picture": {
+				"kind": "lab_circuit",
+				"parts": [
+					"bulb"
+				],
+				"switch": "open"
+			},
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a conductor of electricity?",
+			"hint": "Which one is made of metal?",
+			"explain": "Copper is a metal, and metals let electricity through.",
+			"choices": [
+				"a copper wire",
+				"a rubber band",
+				"a wooden spoon",
+				"a plastic ruler"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is an insulator?",
+			"hint": "Insulators are not metals.",
+			"explain": "Plastic does not let electricity through: an insulator. Steel, iron and aluminium are metals: conductors.",
+			"choices": [
+				"a plastic ruler",
+				"a steel key",
+				"an iron nail",
+				"aluminium foil"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the right thing to do with a plug socket?",
+			"hint": "Mains electricity is strong enough to badly hurt you.",
+			"explain": "Never play with sockets: the electricity in the walls can badly hurt you. Experiment only with small batteries.",
+			"choices": [
+				"leave it alone and ask a grown-up",
+				"poke a pencil into it",
+				"use it for experiments",
+				"touch it with wet hands"
+			],
+			"answer": 0
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort them: do they run on mains electricity or on batteries?",
+			"hint": "Could you carry it around? Things you carry often run on batteries.",
+			"explain": "Mains: the fridge, the washing machine and the cooker. Batteries: the torch, the watch and the remote.",
+			"groups": [
+				"mains (socket)",
+				"battery"
+			],
+			"items": [
+				"a torch",
+				"a fridge",
+				"a watch",
+				"a washing machine",
+				"a TV remote",
+				"an electric cooker"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				1,
+				0
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does this bulb not light?",
+			"hint": "Follow the wire all the way round. Is it joined everywhere?",
+			"explain": "The bottom wire has a gap, so the loop is broken and no electricity can flow.",
+			"picture": {
+				"kind": "lab_circuit",
+				"parts": [
+					"bulb"
+				],
+				"gap": true
+			},
+			"choices": [
+				"There is a gap in the loop.",
+				"The bulb is too big.",
+				"The wires are made of copper.",
+				"The battery has a + end."
+			],
+			"answer": 0
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the path of the electricity in order, starting at the battery.",
+			"hint": "Electricity goes out of the battery, round the loop and back.",
+			"explain": "Out of the + end, along the wire, through the bulb and back to the − end: a complete loop.",
+			"items": [
+				"out of the battery's + end",
+				"through the bulb, which glows",
+				"along a wire to the bulb",
+				"along a wire back to the battery's − end"
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				3
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are wires made of copper with a plastic coat?",
+			"hint": "Which part lets electricity through, and which part is safe to touch?",
+			"explain": "Copper is a good conductor, so electricity flows along it. The plastic coat is an insulator, so it keeps the electricity in.",
+			"choices": [
+				"Copper conducts; the plastic keeps us safe.",
+				"Plastic makes electricity go faster.",
+				"Copper is an insulator.",
+				"The plastic makes the light."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Two bulbs in one loop glow more brightly than one bulb on its own.",
+			"hint": "Remember the Lab: what happened when you added a second bulb?",
+			"explain": "False: two bulbs share the battery's push, so each glows more dimly.",
+			"picture": {
+				"kind": "lab_circuit",
+				"parts": [
+					"bulb",
+					"bulb"
+				],
+				"switch": "closed"
+			},
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does a switch do in a circuit?",
+			"hint": "Think of what happens when you press a light switch.",
+			"explain": "A switch opens a gap (off) or closes it (on), so it breaks or completes the loop.",
+			"choices": [
+				"It opens and closes a gap in the loop.",
+				"It stores the electricity.",
+				"It turns plastic into metal.",
+				"It makes the wires longer."
+			],
+			"answer": 0
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part of a circuit to its job.",
+			"hint": "Which part gives the push, and which parts use the electricity or control it?",
+			"explain": "The cell pushes electricity round, the wire carries it, the bulb gives out light, the switch opens and closes the loop, and the buzzer makes a sound.",
+			"items": [
+				"cell (battery)",
+				"wire",
+				"bulb",
+				"switch",
+				"buzzer"
+			],
+			"matches": [
+				"makes a sound",
+				"pushes electricity round",
+				"carries electricity",
+				"gives out light",
+				"opens and closes the loop"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				4,
+				0
+			]
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In this circuit, the buzzer buzzes.",
+			"hint": "Is the loop complete, and is the switch closed?",
+			"explain": "True: the loop is complete and the switch is closed, so electricity flows and the buzzer buzzes.",
+			"picture": {
+				"kind": "lab_circuit",
+				"parts": [
+					"buzzer"
+				],
+				"switch": "closed",
+				"glow": "?"
+			},
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly lays a rubber eraser across the gap. What will happen?",
+			"hint": "Is rubber a metal?",
+			"explain": "Rubber is an insulator: it does not let electricity through, so the gap stays open and the bulb stays off.",
+			"picture": {
+				"kind": "lab_circuit",
+				"parts": [
+					"bulb"
+				],
+				"gap": true,
+				"bridge": "rubber",
+				"glow": "?"
+			},
+			"choices": [
+				"The bulb stays off: rubber is an insulator.",
+				"The bulb lights: rubber is a conductor.",
+				"The bulb lights, but only for a second.",
+				"The bulb glows more brightly than before."
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram's loop is complete and his switch is closed, but the bulb does not light. What could be wrong?",
+			"hint": "Everything is joined. What gives the push?",
+			"explain": "If the loop is complete and the switch is closed, the battery may be flat: used up, with no push left. A new battery would light the bulb.",
+			"choices": [
+				"The battery is used up (flat).",
+				"The wires are copper.",
+				"The switch is closed.",
+				"The bulb is in the loop."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Water can conduct electricity, so electrical things must be kept away from water.",
+			"hint": "Why are plug sockets kept away from baths and sinks?",
+			"explain": "True: water can carry electricity, which is why sockets are kept away from sinks and baths.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara wants a torch that she can turn off. What must she add to her circuit?",
+			"hint": "What opens and closes the loop?",
+			"explain": "A switch lets her open the loop (off) and close it again (on).",
+			"choices": [
+				"a switch",
+				"a second battery",
+				"a longer wire",
+				"a plastic bulb"
+			],
+			"answer": 0
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort them: conductors or insulators of electricity?",
+			"hint": "Test each one in your head: would it light the bulb across the gap? Only the metals do.",
+			"explain": "Conductors: the foil, the gold ring and the brass key (all metals). Insulators: the glass marble, the china cup and the cork.",
+			"groups": [
+				"conductor",
+				"insulator"
+			],
+			"items": [
+				"a glass marble",
+				"aluminium foil",
+				"a china cup",
+				"a gold ring",
+				"a cork",
+				"a brass key"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				1,
+				0
+			]
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps to test whether a material conducts electricity.",
+			"items": [
+				"Watch the bulb.",
+				"Make a gap in the loop.",
+				"Lay the material across the gap.",
+				"Build a loop with a battery and a bulb."
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "Build a working circuit first, then make the gap for the test.",
+			"explain": "Build a loop with a battery and a bulb, make a gap in it, lay the material across the gap, and watch: if the bulb lights, the material conducts."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each thing you notice to its cause.",
+			"items": [
+				"a complete loop, but no light",
+				"two bulbs glow dimly",
+				"the bulb suddenly goes out",
+				"the wire is safe to hold"
+			],
+			"matches": [
+				"the plastic coat insulates",
+				"two bulbs share the push",
+				"the switch was opened",
+				"the battery is flat"
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "Think about the battery's push, sharing it, gaps, and insulators.",
+			"explain": "A complete loop with no light: the battery is flat. Two dim bulbs: they share the battery's push. A bulb that suddenly goes out: the switch was opened. A wire safe to hold: its plastic coat insulates."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4c.circuit_lights",
+			"level": 1
+		},
+		{
+			"gen": "g4c.circuit_lights",
+			"level": 2
+		},
+		{
+			"gen": "g4c.circuit_lights",
+			"level": 3
+		},
+		{
+			"gen": "g4c.conductor_sort",
+			"level": 1
+		},
+		{
+			"gen": "g4c.conductor_sort",
+			"level": 2
+		},
+		{
+			"gen": "g4c.conductor_sort",
+			"level": 3
+		}
+	],
+	"play": {
+		"hook": "The lamp on the workbench is dark. Find out what a circuit needs to make it shine!",
+		"game": "generic",
+		"params": {
+			"costume": "give"
+		},
+		"coach": [
+			"A circuit is a complete loop.",
+			"A gap anywhere stops the electricity.",
+			"A switch is a gap you can open and close.",
+			"Metals conduct; plastic, rubber and wood do not.",
+			"Keep electrical things away from water."
+		],
+		"world_task": "In your world, join a lever to a lamp and flip it on and off, just like a switch."
+	}
+}

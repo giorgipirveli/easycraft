@@ -1,0 +1,403 @@
+{
+	"id": "g5.health_pe.tactics",
+	"lesson": [
+		{
+			"text": "Quick memory: in an invasion game, what is a free player? (A teammate with no defender close by, so it is safe to pass to them.) Today: team tactics."
+		},
+		{
+			"text": "A tactic is a plan to help your team win. Teams plan how to attack: keep the ball, find space and score. And they plan how to defend: stop the other team scoring, and win the ball back."
+		},
+		{
+			"text": "Positions and roles: in football, a goalkeeper guards the goal, defenders stop attacks, midfielders link defence and attack, and attackers try to score. Each player knows their job, and helps the others."
+		},
+		{
+			"text": "Netball has 7 players, each with a bib: GS, GA, WA, C, WD, GD and GK. Each may only go in some thirds of the court. Only the Goal Shooter and Goal Attack may score, from inside the shooting circle."
+		},
+		{
+			"text": "Attacking tactics: spread out to make the pitch big, and pass to a free teammate. Two attackers against one defender is an overload: run at the defender, and pass the moment they come to you.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 7,
+				"players": [
+					[
+						7.2,
+						2.4,
+						"a"
+					],
+					[
+						7.4,
+						4.8,
+						"a",
+						"B"
+					],
+					[
+						9.4,
+						3.6,
+						"d"
+					]
+				],
+				"ball": 0
+			}
+		},
+		{
+			"text": "Defending tactics: make the pitch small by staying close together, stay goal-side, between the attacker and your goal, and block the passing lanes. Mark a player each, or guard an area each: a zone.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 7,
+				"players": [
+					[
+						8.5,
+						3.5,
+						"d"
+					],
+					[
+						5.2,
+						1.6,
+						"d"
+					],
+					[
+						4.8,
+						5.3,
+						"d"
+					],
+					[
+						4.2,
+						1.9,
+						"a"
+					],
+					[
+						3.8,
+						5.0,
+						"a"
+					],
+					[
+						7.2,
+						3.3,
+						"a"
+					]
+				],
+				"ball": 0
+			}
+		},
+		{
+			"text": "A one-two (a give and go): pass to a teammate, run past your defender into space, and get the ball straight back. When your team loses the ball, everyone switches to defending at once."
+		},
+		{
+			"text": "Try it in the world: build a pitch and plan a 3 against 3 game with friends. Choose a tactic before you play, then ask afterwards: did it work, and what will we change?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a tactic?",
+			"answer": 0,
+			"hint": "Teams choose one before a game, and change it if it does not work.",
+			"choices": [
+				"a plan to help your team win",
+				"a kind of pass",
+				"a rule of the game",
+				"a type of ball"
+			],
+			"explain": "A tactic is a plan to help your team win, in attack and in defence."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When your team loses the ball, everyone should switch to defending.",
+			"answer": true,
+			"hint": "Who has the ball now, and what will they try to do?",
+			"explain": "True: the moment the other team has the ball, your whole team defends."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In netball, which two positions may score a goal?",
+			"answer": 0,
+			"hint": "Which positions have 'Goal' and attack in their names?",
+			"choices": [
+				"Goal Shooter and Goal Attack",
+				"Centre and Wing Attack",
+				"Goal Keeper and Goal Defence",
+				"any player on court"
+			],
+			"explain": "The Goal Shooter (GS) and the Goal Attack (GA), from inside the shooting circle."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each football position to its job.",
+			"items": [
+				"goalkeeper",
+				"defender",
+				"midfielder",
+				"attacker"
+			],
+			"matches": [
+				"stops attacks",
+				"links defence and attack",
+				"tries to score",
+				"guards the goal"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of where each player stands on the pitch.",
+			"explain": "The goalkeeper guards the goal, defenders stop attacks, midfielders link the two, and attackers try to score."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Your team is attacking. Should you spread out or bunch together?",
+			"answer": 0,
+			"hint": "Which makes more space to pass into?",
+			"choices": [
+				"spread out, to make the pitch big",
+				"bunch together round the ball",
+				"all stand still",
+				"all run to the goal"
+			],
+			"explain": "Spread out: a big pitch gives your team space and pulls the defenders apart."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Your team is defending. How should you play?",
+			"answer": 0,
+			"hint": "Where must the attackers get to, and how can you make it hard?",
+			"choices": [
+				"stay close together and goal-side",
+				"spread out along the side lines",
+				"all wait on the halfway line",
+				"all chase the ball at once"
+			],
+			"explain": "Stay close together and goal-side: there is little space to pass or run through."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a one-two (a give and go) in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "It starts with a pass.",
+			"items": [
+				"you have the ball in space",
+				"your teammate passes it straight back",
+				"run past the defender into space",
+				"pass to a teammate"
+			],
+			"explain": "Pass, run past the defender, get the ball straight back, and you are in space."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In player-to-player marking, each defender guards one attacker.",
+			"answer": true,
+			"hint": "Who does each defender stay with?",
+			"explain": "True: each defender marks one attacker. In a zone, each guards an area instead."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Attacking tactic or defending tactic?",
+			"groups": [
+				"attacking",
+				"defending"
+			],
+			"items": [
+				"spread out wide",
+				"stay goal-side",
+				"the one-two",
+				"block the passing lanes",
+				"make the pitch big",
+				"a zone defence"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which ones help your team when it has the ball?",
+			"explain": "Attacking: spreading out, the one-two, making the pitch big. Defending: goal-side, blocking lanes, a zone."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is an overload?",
+			"answer": 0,
+			"hint": "Think of two against one.",
+			"choices": [
+				"more attackers than defenders in one area",
+				"too many players on the pitch",
+				"a very heavy ball",
+				"a long kick"
+			],
+			"explain": "An overload is more attackers than defenders in one part of the pitch, like 2 against 1."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two attackers face one defender. The attacker with the ball should …",
+			"answer": 0,
+			"hint": "How can you make the defender choose which attacker to stop?",
+			"choices": [
+				"run at the defender, then pass",
+				"pass straight away",
+				"shoot from far away",
+				"stop and wait"
+			],
+			"explain": "Run at the defender to draw them in, then pass to your free teammate.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 7,
+				"players": [
+					[
+						7.2,
+						2.4,
+						"a"
+					],
+					[
+						7.4,
+						4.8,
+						"a",
+						"B"
+					],
+					[
+						9.4,
+						3.6,
+						"d"
+					]
+				],
+				"ball": 0
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Blue is attacking, but everyone is bunched together. What should blue do?",
+			"answer": 0,
+			"hint": "Look at the empty parts of the pitch.",
+			"choices": [
+				"spread out into the empty space",
+				"move even closer to the ball",
+				"pass back to the goalkeeper",
+				"stop and wait"
+			],
+			"explain": "Spread out: the right side of the pitch is empty, and a teammate there would be free.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 7,
+				"players": [
+					[
+						4.5,
+						1.5,
+						"a"
+					],
+					[
+						5.2,
+						2.2,
+						"a"
+					],
+					[
+						4.0,
+						2.6,
+						"a"
+					],
+					[
+						5.6,
+						1.2,
+						"a"
+					],
+					[
+						6.6,
+						2.4,
+						"d"
+					],
+					[
+						7.4,
+						3.8,
+						"d"
+					]
+				],
+				"ball": 0
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In a zone defence, each defender guards an area of the pitch, not one player.",
+			"answer": true,
+			"hint": "What does the word zone mean?",
+			"explain": "True: each defender guards a zone, an area, and marks whoever comes into it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The other team is very fast. Which tactic might help most?",
+			"answer": 0,
+			"hint": "Fast players are hard to stop when there is lots of space behind you.",
+			"choices": [
+				"stay close together near your goal",
+				"mark them all on the halfway line",
+				"spread out wide in defence",
+				"only attack and never defend"
+			],
+			"explain": "Stay compact near your goal: there is little space behind you for fast players to run into."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 5-a-side football team has a goalkeeper, 2 defenders and 1 midfielder. How many attackers does it have?",
+			"answer": "1",
+			"hint": "5 players in all: take away the ones you know.",
+			"explain": "5 − 1 − 2 − 1 = 1 attacker."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Your team wins the ball back. Put what happens next in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "First you need to see who is free.",
+			"items": [
+				"attack the goal",
+				"spread out and move forward",
+				"pass to them",
+				"look up for a free teammate"
+			],
+			"explain": "Look up, pass to a free teammate, spread out and move forward, then attack the goal."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.pass_lane",
+			"level": 1
+		},
+		{
+			"gen": "g5w.pass_lane",
+			"level": 2
+		},
+		{
+			"gen": "g5w.pass_lane",
+			"level": 3
+		}
+	]
+}

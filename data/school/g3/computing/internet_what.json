@@ -1,0 +1,306 @@
+{
+	"id": "g3.computing.internet_what",
+	"lesson": [
+		{
+			"text": "Quick memory: what is data? (Facts and numbers we collect.) Today: how data travels between computers."
+		},
+		{
+			"text": "A network is computers joined together so they can share information. The computers in a school can be a network.",
+			"picture": {
+				"kind": "network",
+				"devices": [
+					"laptop",
+					"tablet",
+					"phone"
+				],
+				"router": true
+			}
+		},
+		{
+			"text": "The internet is a huge network of networks. It joins computers, phones and games all over the world. It uses cables, wireless signals and even long cables under the sea."
+		},
+		{
+			"text": "Information travels in small pieces called packets. Each packet finds its way, and the computer at the other end puts them back together.",
+			"picture": {
+				"kind": "packets",
+				"message": "HELLO FRIEND",
+				"size": 4
+			}
+		},
+		{
+			"text": "The World Wide Web is the web pages you look at, joined by links. It is one of many things that use the internet. Email, video calls and online games use it too."
+		},
+		{
+			"text": "So the internet is like the roads, and the web is one kind of traffic on them. The web was invented in 1989; the internet is older.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"The internet",
+						"The web"
+					],
+					[
+						"the roads",
+						"one kind of traffic"
+					],
+					[
+						"older",
+						"1989"
+					]
+				]
+			}
+		},
+		{
+			"text": "When you play online with friends in this game, your moves travel over the internet as packets to their game and back."
+		},
+		{
+			"text": "Try it in the world: build a “network” of paths joining some houses in your world. Walk a message from one house to another. How many ways can it go?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the internet?",
+			"answer": 0,
+			"hint": "Think of a net: many threads joined together.",
+			"choices": [
+				"a network joining computers all over the world",
+				"one big computer",
+				"one web page",
+				"a cable in your house"
+			],
+			"explain": "The internet is a huge network of networks, joining computers all over the world."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A network is computers joined together to share information.",
+			"answer": true,
+			"hint": "Think of the computers in a school.",
+			"explain": "True: joined computers that share information make a network."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The internet and the World Wide Web are exactly the same thing.",
+			"answer": false,
+			"hint": "Is the web the roads, or the traffic on them?",
+			"explain": "False: the internet joins the computers; the web is the pages we look at, and it runs on the internet."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What joins web pages together?",
+			"answer": 0,
+			"hint": "What do you tap to jump to another page?",
+			"choices": [
+				"links",
+				"glue",
+				"loops",
+				"cables inside the screen"
+			],
+			"explain": "Links join web pages: tap one to go to another page."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: does it use the internet, or not?",
+			"groups": [
+				"uses the internet",
+				"does not"
+			],
+			"items": [
+				"a video call with a grandparent",
+				"reading a paper book",
+				"an online game with friends",
+				"sending an email",
+				"drawing with crayons",
+				"looking at a web page"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Does information travel to another computer far away?",
+			"explain": "Uses the internet: the video call, the online game, the email, the web page. Not: the book, the crayons."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How does information travel across the internet?",
+			"answer": 0,
+			"hint": "Remember the lesson card: small pieces.",
+			"choices": [
+				"in small pieces called packets",
+				"in one big piece",
+				"by post",
+				"in a lorry"
+			],
+			"explain": "In small pieces called packets, which are put back together at the other end."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which of these is part of the World Wide Web?",
+			"answer": 0,
+			"hint": "The web is made of pages.",
+			"choices": [
+				"a web page",
+				"a keyboard",
+				"a cable under the sea",
+				"a printer"
+			],
+			"explain": "A web page is part of the web. The cable is part of the internet itself."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The internet uses long cables under the sea to join the continents.",
+			"answer": true,
+			"hint": "How could information cross an ocean?",
+			"explain": "True: long cables under the sea carry information between continents."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"network",
+				"internet",
+				"web page",
+				"link"
+			],
+			"matches": [
+				"the network of networks",
+				"a page you can visit",
+				"jumps to another page",
+				"computers joined together"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Start with the one you are surest of.",
+			"explain": "Network: joined computers. Internet: the network of networks. Web page: a page to visit. Link: jumps to a page."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which came first?",
+			"answer": 0,
+			"hint": "Which one does the web travel on? That one must have come first.",
+			"choices": [
+				"the internet",
+				"the World Wide Web",
+				"they began on the same day",
+				"neither exists yet"
+			],
+			"explain": "The internet came first. The web, invented in 1989, runs on it."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put what happens in order when you send a message to a friend's game.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Split it up, send it, then join it again.",
+			"items": [
+				"Your friend's game puts them back together",
+				"The packets travel across the internet",
+				"The message is split into packets",
+				"You press send"
+			],
+			"explain": "You press send, it is split into packets, they travel, and your friend's game puts them back together."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "If the internet is like the roads, what is the web like?",
+			"answer": 0,
+			"hint": "What travels along the roads?",
+			"choices": [
+				"one kind of traffic on the roads",
+				"the petrol",
+				"only the road signs",
+				"a car park"
+			],
+			"explain": "The web is one kind of traffic on the internet's roads, like email is another."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Your game can talk to a friend's game on the other side of the world through the internet.",
+			"answer": true,
+			"hint": "How far does the internet reach?",
+			"explain": "True: the internet joins computers all over the world."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does information travel in packets?",
+			"answer": 0,
+			"hint": "Think of sending a big jigsaw puzzle by post in several boxes.",
+			"choices": [
+				"small pieces find their way and join up again",
+				"packets are prettier",
+				"computers can only count to ten",
+				"so that nobody gets it"
+			],
+			"explain": "Small packets can each find a way through the network, and the other computer puts them back together."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the networks from the smallest to the biggest.",
+			"items": [
+				"the internet",
+				"two computers joined by a cable",
+				"a school's network"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The internet is a network of networks.",
+			"explain": "Two joined computers make a tiny network, a school's network joins many more, and the internet joins networks all over the world."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort them: part of the internet itself, or something that uses it?",
+			"groups": [
+				"part of the internet",
+				"uses the internet"
+			],
+			"items": [
+				"a cable under the sea",
+				"a web page",
+				"a wireless signal",
+				"an email",
+				"an online game"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "The internet is the roads; the web, email and games are traffic on them.",
+			"explain": "Part of the internet: cables under the sea and wireless signals carry the packets. Using it: web pages, emails and online games all travel over it."
+		}
+	],
+	"generators": []
+}

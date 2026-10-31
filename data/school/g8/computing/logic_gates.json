@@ -1,0 +1,431 @@
+{
+	"id": "g8.computing.logic_gates",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, when is A AND B true? (Only when A and B are both true.) Today: logic gates, the tiny circuits that do this inside every processor."
+		},
+		{
+			"text": "A logic gate takes inputs of 1 (on, true) or 0 (off, false) and gives an output. AND gives 1 only when both inputs are 1. OR gives 1 when either is 1. NOT flips its input.",
+			"picture": {
+				"kind": "gate_circuit",
+				"expr": [
+					"AND",
+					"A",
+					"B"
+				],
+				"inputs": {
+					"A": 1,
+					"B": 1
+				},
+				"lit": true
+			}
+		},
+		{
+			"text": "A truth table lists every set of inputs and the output. With 2 inputs it has 4 rows; with 3 inputs, 8. Each extra input doubles the rows.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"A",
+						"B",
+						"A AND B"
+					],
+					[
+						"0",
+						"0",
+						"0"
+					],
+					[
+						"0",
+						"1",
+						"0"
+					],
+					[
+						"1",
+						"0",
+						"0"
+					],
+					[
+						"1",
+						"1",
+						"1"
+					]
+				]
+			}
+		},
+		{
+			"text": "Gates join into circuits: one gate's output becomes another's input. Work from the inputs to the lamp, one gate at a time.",
+			"picture": {
+				"kind": "gate_circuit",
+				"expr": [
+					"OR",
+					[
+						"AND",
+						"A",
+						"B"
+					],
+					"C"
+				],
+				"inputs": {
+					"A": 1,
+					"B": 1,
+					"C": 0
+				},
+				"lit": true
+			}
+		},
+		{
+			"text": "Worked example: a safe opens when (the key is in AND the code is right) OR the manager presses the override. With key 1, code 0 and override 1: AND gives 0, then OR gives 1, so it opens.",
+			"picture": {
+				"kind": "gate_circuit",
+				"expr": [
+					"OR",
+					[
+						"AND",
+						"A",
+						"B"
+					],
+					"C"
+				],
+				"inputs": {
+					"A": 1,
+					"B": 0,
+					"C": 1
+				},
+				"lit": true
+			}
+		},
+		{
+			"text": "Inside a processor, billions of tiny transistors make gates, and gates that add binary numbers make the ALU. Claude Shannon (1916-2001) showed in 1937 how circuits of switches can do logic."
+		},
+		{
+			"text": "Gates are all around: a car alarm sounds when it is set AND a door opens. A lift moves only when its door is shut AND a button is pressed. A hall light comes on from either switch: OR."
+		},
+		{
+			"text": "Try it in the world: in the game, put a lamp between two levers. Either lever lights it, like an OR gate. Two switches one after the other on a real wire make AND. Next: databases."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Will the lamp light?",
+			"choices": [
+				"yes: the output is 1",
+				"no: the output is 0"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "gate_circuit",
+				"expr": [
+					"AND",
+					"A",
+					"B"
+				],
+				"inputs": {
+					"A": 1,
+					"B": 1
+				},
+				"out": false
+			},
+			"hint": "AND needs both inputs to be 1.",
+			"explain": "A = 1 and B = 1, so AND gives 1 and the lamp lights."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "OR gives 1 when either input is 1.",
+			"answer": true,
+			"hint": "Say the rule for OR in words.",
+			"explain": "True: OR gives 1 if A is 1, if B is 1, or if both are."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many rows does a truth table for 2 inputs have?",
+			"answer": "4",
+			"hint": "List the ways two 0s and 1s can be set.",
+			"explain": "00, 01, 10 and 11: 4 rows."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each gate to its rule.",
+			"items": [
+				"AND",
+				"OR",
+				"NOT"
+			],
+			"matches": [
+				"1 if either input is 1",
+				"flips 1 to 0 and 0 to 1",
+				"1 only if both inputs are 1"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Say each gate's name as a sentence about its inputs.",
+			"explain": "AND needs both, OR needs either, and NOT gives the opposite of its input."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the output?",
+			"choices": [
+				"0",
+				"1"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "gate_circuit",
+				"expr": [
+					"NOT",
+					"A"
+				],
+				"inputs": {
+					"A": 1
+				},
+				"out": false
+			},
+			"hint": "NOT gives the opposite of its input.",
+			"explain": "The input A is 1, and NOT flips it to 0."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Will the lamp light?",
+			"choices": [
+				"yes: the output is 1",
+				"no: the output is 0"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "gate_circuit",
+				"expr": [
+					"AND",
+					[
+						"OR",
+						"A",
+						"B"
+					],
+					[
+						"NOT",
+						"C"
+					]
+				],
+				"inputs": {
+					"A": 0,
+					"B": 1,
+					"C": 0
+				},
+				"out": false
+			},
+			"hint": "Work out OR and NOT first, then AND.",
+			"explain": "A OR B = 0 OR 1 = 1; NOT C = NOT 0 = 1; and 1 AND 1 = 1, so it lights."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A circuit has three inputs: A, B and C. How many rows does its truth table need?",
+			"answer": "8",
+			"hint": "Each extra input doubles the rows.",
+			"explain": "2 inputs need 4 rows, so 3 inputs need 4 × 2 = 8 rows."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Does A AND B give 1 or 0?",
+			"groups": [
+				"gives 1",
+				"gives 0"
+			],
+			"items": [
+				"A = 1, B = 1",
+				"A = 1, B = 0",
+				"A = 0, B = 1",
+				"A = 0, B = 0"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "AND needs both inputs to be 1.",
+			"explain": "Only A = 1, B = 1 gives 1; every other row gives 0."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The lamp lights.",
+			"answer": true,
+			"picture": {
+				"kind": "gate_circuit",
+				"expr": [
+					"OR",
+					[
+						"AND",
+						"A",
+						"B"
+					],
+					"C"
+				],
+				"inputs": {
+					"A": 1,
+					"B": 0,
+					"C": 1
+				},
+				"out": false
+			},
+			"hint": "Work out the AND gate first, then the OR.",
+			"explain": "True: A AND B = 1 AND 0 = 0, then 0 OR C = 0 OR 1 = 1."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps to work out a circuit's output.",
+			"items": [
+				"read the lamp",
+				"feed its output into the next gate",
+				"work out the first gate",
+				"write each input's value"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start at the inputs, finish at the lamp.",
+			"explain": "Inputs first, then each gate in turn from left to right, then the lamp shows the output."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In the truth table for A OR B, how many of the 4 rows give 1?",
+			"answer": "3",
+			"hint": "Which row has neither input on?",
+			"explain": "Only 0 OR 0 gives 0, so 3 of the 4 rows give 1."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Will the lamp light?",
+			"choices": [
+				"yes: the output is 1",
+				"no: the output is 0"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "gate_circuit",
+				"expr": [
+					"NOT",
+					[
+						"OR",
+						"A",
+						[
+							"NOT",
+							"B"
+						]
+					]
+				],
+				"inputs": {
+					"A": 0,
+					"B": 1
+				},
+				"out": false
+			},
+			"hint": "Work from the inputs: the NOT on B first.",
+			"explain": "NOT B = NOT 1 = 0; A OR 0 = 0 OR 0 = 0; NOT 0 = 1, so the lamp lights."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An alarm's circuit has 5 sensors as its inputs. How many rows does its full truth table have?",
+			"answer": "32",
+			"hint": "Double the rows for each extra input.",
+			"explain": "2 × 2 × 2 × 2 × 2 = 32 rows."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A lift moves when its door is shut and a floor button is pressed. Which logic fits?",
+			"choices": [
+				"door shut AND button",
+				"door shut OR button",
+				"NOT door shut",
+				"door shut AND NOT button"
+			],
+			"answer": 0,
+			"hint": "Must both be true, or is one enough?",
+			"explain": "The lift needs both at once: door shut AND button pressed."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A security light: (dark AND movement) OR the test button. On or off?",
+			"groups": [
+				"on",
+				"off"
+			],
+			"items": [
+				"dark, movement, no test",
+				"daylight, movement, no test",
+				"daylight, still, test pressed",
+				"dark, still, no test"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Check the AND part first, then the OR.",
+			"explain": "It is on when it is dark with movement, or when the test button is pressed; otherwise it is off."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "NOT (A AND B) gives 0 only when A and B are both 1.",
+			"answer": true,
+			"hint": "Work out A AND B for each row, then flip it.",
+			"explain": "True: A AND B is 1 only for 1 and 1; NOT flips that to 0, and every other row to 1."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In the truth table for A AND B AND C, how many of the 8 rows give 1?",
+			"answer": "1",
+			"hint": "AND needs every input on.",
+			"explain": "Only A = 1, B = 1, C = 1 gives 1: 1 row of 8."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.gate_out",
+			"level": 1
+		},
+		{
+			"gen": "g8c.gate_out",
+			"level": 2
+		},
+		{
+			"gen": "g8c.gate_out",
+			"level": 3
+		},
+		{
+			"gen": "g8c.truth_rows",
+			"level": 1
+		},
+		{
+			"gen": "g8c.truth_rows",
+			"level": 2
+		},
+		{
+			"gen": "g8c.truth_rows",
+			"level": 3
+		}
+	]
+}

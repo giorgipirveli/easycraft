@@ -1,0 +1,308 @@
+{
+	"id": "g7.health_pe.dance_styles",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you created a dance. What is a motif? (A short movement idea that is repeated and developed.) Today: three styles of dance, and how dancers count and work together."
+		},
+		{
+			"text": "Dancers count music in phrases of 8 counts, and '5, 6, 7, 8!' starts everyone together. Tap LISTEN: a steady beat, one phrase of 8 counts.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 100
+			}
+		},
+		{
+			"text": "Street dance grew in cities. Hip-hop dance began in New York in the 1970s with breaking: toprock (steps standing up), footwork on the floor and freezes. Popping tenses muscles on the beat; locking stops quick moves in a hold.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"stand",
+					"crouch",
+					"tuck"
+				],
+				"labels": [
+					"toprock",
+					"footwork",
+					"freeze"
+				]
+			}
+		},
+		{
+			"text": "Folk dance belongs to a people and is passed down. Irish step dance has quick feet and still arms; English Morris has bells, sticks and handkerchiefs. There is Bhangra at harvest in Punjab, Georgian dancing on the toes, and circle dances in many lands."
+		},
+		{
+			"text": "Contemporary dance began in the 1900s as a freer style. It uses the floor, falls and recoveries, and contraction and release: curling the body's centre in, then opening out. Martha Graham (1894-1991) made it famous."
+		},
+		{
+			"text": "Choreography tools: unison (together), canon (one after another), mirroring, levels (high, medium, low) and dynamics (sharp, smooth, strong, soft). Worked example: 4 dancers in canon, 2 counts apart, start on counts 1, 3, 5 and 7.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"dancer",
+						"starts on"
+					],
+					[
+						"1",
+						"count 1"
+					],
+					[
+						"2",
+						"count 3"
+					],
+					[
+						"3",
+						"count 5"
+					],
+					[
+						"4",
+						"count 7"
+					]
+				]
+			}
+		},
+		{
+			"text": "Dance safely and well: warm up, land with soft knees, mark out your space, and practise slowly before full speed. Respect each style: learn where it comes from, and dance it with care."
+		},
+		{
+			"text": "Try it in the world: build a stage in your world and teach a friend a phrase of 8 counts, then dance it in canon. For real: learn a short phrase of one style and perform it in unison with friends. Next: leading and officiating."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which style of dance includes breaking, popping and locking?",
+			"choices": [
+				"street dance",
+				"ballet",
+				"folk dance",
+				"ballroom"
+			],
+			"answer": 0,
+			"hint": "Which style grew up in cities, alongside hip-hop music?",
+			"explain": "Street dance: breaking, popping and locking grew with hip-hop in cities."
+		},
+		{
+			"type": "rhythm",
+			"level": 1,
+			"prompt": "Listen, then copy the steps' claps and rests in the boxes.",
+			"hint": "Each box is half a beat. Tap a box for each clap.",
+			"explain": "Clap, rest, clap, rest, clap, rest, clap, rest: x-x-x-x-, a steady beat.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A routine has 4 phrases of 8 counts. How many counts is that?",
+			"answer": "32",
+			"hint": "Each phrase has 8 counts.",
+			"explain": "4 × 8 = 32 counts."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a canon, all the dancers do the same move at the same time.",
+			"answer": false,
+			"hint": "Think of a round in music: when does each voice start?",
+			"explain": "False: that is unison. In canon, dancers start one after another."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each choreography word to its meaning.",
+			"items": [
+				"unison",
+				"canon",
+				"mirroring",
+				"levels"
+			],
+			"matches": [
+				"all together",
+				"like a reflection",
+				"high, medium and low",
+				"one after another"
+			],
+			"answer": [
+				0,
+				3,
+				1,
+				2
+			],
+			"hint": "Say each word aloud and picture the dancers.",
+			"explain": "Unison: all together. Canon: one after another. Mirroring: like a reflection. Levels: high, medium, low."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the moves into their dance styles.",
+			"groups": [
+				"street",
+				"folk",
+				"contemporary"
+			],
+			"items": [
+				"popping on the beat",
+				"rolling across the floor",
+				"contraction and release",
+				"bells and sticks in two lines",
+				"a freeze on the hands",
+				"a harvest dance from Punjab"
+			],
+			"answer": [
+				0,
+				2,
+				2,
+				1,
+				0,
+				1
+			],
+			"hint": "Ask where each comes from: a city's streets, a people's tradition, or the stage.",
+			"explain": "Street: a freeze, popping. Folk: Morris bells and sticks, Bhangra. Contemporary: contraction and release, rolling on the floor."
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Copy this hip-hop step's rhythm.",
+			"hint": "Each box is half a beat. Listen for the two quick claps close together.",
+			"explain": "Clap, rest, clap, clap, rest, clap, rest, rest: x-xx-x--.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xx-x--",
+				"tempo": 96
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The music has 120 beats a minute, one count a beat. How many seconds does one phrase of 8 counts last?",
+			"answer": "4",
+			"hint": "How many beats are there in one second?",
+			"explain": "120 ÷ 60 = 2 beats a second, so 8 counts take 8 ÷ 2 = 4 seconds."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In Irish step dance, what do the arms usually do?",
+			"choices": [
+				"stay still by the sides",
+				"wave above the head",
+				"swing in circles",
+				"clap all the time"
+			],
+			"answer": 0,
+			"hint": "The fast footwork is the star of this dance.",
+			"explain": "The arms stay still by the sides while the feet do quick, neat steps."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the making of a dance in order.",
+			"items": [
+				"choose a style and an idea",
+				"rehearse, then perform",
+				"add canon and unison",
+				"develop it: levels and dynamics",
+				"create a motif of 8 counts"
+			],
+			"answer": [
+				0,
+				4,
+				3,
+				2,
+				1
+			],
+			"hint": "Start with an idea, make it, change it, combine, then practise.",
+			"explain": "Idea, motif, develop it, add canon and unison, then rehearse and perform."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Learning where a folk dance comes from is part of dancing it with respect.",
+			"answer": true,
+			"hint": "Who first danced it, and why?",
+			"explain": "True: folk dances belong to a people and their history."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In a canon, 5 dancers each start 2 counts after the one before. The first starts on count 1. On which count does the last start?",
+			"answer": "9",
+			"hint": "Count the gaps between the first and the last dancer.",
+			"explain": "5 dancers have 4 gaps; 4 × 2 = 8, and 1 + 8 = count 9."
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Copy this longer locking phrase: quick moves, then holds.",
+			"hint": "Each box is half a beat. The rests are the 'locks', when you hold still.",
+			"explain": "Claps in boxes 1, 2, 4, 6 and 7, holds in 3, 5 and 8: xx-x-xx-.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xx-x-xx-",
+				"tempo": 92
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A group wants their dance to look powerful and sharp. Which choice fits?",
+			"choices": [
+				"strong, sudden moves in unison",
+				"slow, soft moves alone",
+				"standing still the whole time",
+				"random moves out of time"
+			],
+			"answer": 0,
+			"hint": "Think about dynamics: how a move is done, not just what it is.",
+			"explain": "Strong, sudden moves in unison look powerful: dynamics change how a move feels."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A dance is 3 phrases of 8 counts at 96 beats a minute. How many seconds does it last?",
+			"answer": "15",
+			"hint": "Count the beats, then find how long one beat lasts.",
+			"explain": "3 × 8 = 24 counts; 24 × 60 ÷ 96 = 15 seconds."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Contemporary dance often uses the floor, with falls and recoveries.",
+			"answer": true,
+			"hint": "Think of the freer style from the 1900s.",
+			"explain": "True: floorwork, fall and recovery, and contraction and release are part of it."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.dance_counts",
+			"level": 1
+		},
+		{
+			"gen": "g7w.dance_counts",
+			"level": 2
+		},
+		{
+			"gen": "g7w.dance_counts",
+			"level": 3
+		},
+		{
+			"gen": "g7w.dance_style",
+			"level": 1
+		},
+		{
+			"gen": "g7w.dance_style",
+			"level": 2
+		},
+		{
+			"gen": "g7w.dance_style",
+			"level": 3
+		}
+	]
+}

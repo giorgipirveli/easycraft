@@ -1,0 +1,448 @@
+{
+	"id": "g4.computing.conditions",
+	"lesson": [
+		{
+			"text": "Quick memory: what is an event? (Something that happens, like a tap, that starts some steps.) Today: programs that make choices."
+		},
+		{
+			"text": "A condition is a question with only two answers: true or false (yes or no). Is it raining? Is the score more than 10? Programs check conditions to choose what to do."
+		},
+		{
+			"text": "IF runs its steps only when the condition is true. IF it is raining, take an umbrella. When it isn't raining, the program skips that step.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"IF it is raining",
+					"  TAKE an umbrella"
+				]
+			}
+		},
+		{
+			"text": "IF … ELSE chooses one of two ways. IF it is raining, take an umbrella; ELSE (otherwise), wear a sun hat. One of them always happens, never both.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "START"
+					},
+					{
+						"shape": "decision",
+						"text": "Is it raining?",
+						"no": "Wear a sun hat"
+					},
+					{
+						"shape": "step",
+						"text": "Take an umbrella"
+					},
+					{
+						"shape": "step",
+						"text": "Go out"
+					},
+					{
+						"shape": "end",
+						"text": "END"
+					}
+				]
+			}
+		},
+		{
+			"text": "Conditions can compare numbers. With a score of 12, 12 > 10 is true: Gold star! With a score of 10, 10 > 10 is false (10 is not more than 10): Keep going!",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"IF score > 10",
+					"  SAY Gold star!",
+					"ELSE",
+					"  SAY Keep going!"
+				]
+			}
+		},
+		{
+			"text": "The robot can choose too: IF a wall is ahead, TURN RIGHT, ELSE FORWARD. Repeat it, and the robot walks on until it meets a wall, then turns."
+		},
+		{
+			"text": "Games use conditions all the time: IF your player is in water, swim; IF it is night, the sky goes dark; IF it is night in a Survivor world, the monsters come out."
+		},
+		{
+			"text": "Try it in the world: play IF … ELSE with a friend in your world: IF they place a red block, you jump; ELSE you spin round. Next: variables, which keep a score."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a condition, a question with a true or false answer?",
+			"answer": 0,
+			"hint": "Can you answer it with yes or no?",
+			"choices": [
+				"Is the door open?",
+				"Open the door.",
+				"Walk 3 steps.",
+				"a red door"
+			],
+			"explain": "Is the door open? has only two answers, yes or no: a condition."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "With IF … ELSE, both parts can run at the same time.",
+			"answer": false,
+			"hint": "How many ways does IF … ELSE choose between?",
+			"explain": "False: the condition is true or false, so only one part runs."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "It is sunny today. What does this program choose?",
+			"answer": 0,
+			"hint": "Is the condition true or false today?",
+			"choices": [
+				"trainers",
+				"boots",
+				"both",
+				"nothing"
+			],
+			"explain": "It is not raining, so the condition is false and the ELSE part runs: trainers.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"IF it is raining",
+					"  WEAR boots",
+					"ELSE",
+					"  WEAR trainers"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: a condition (a yes or no question), or an instruction?",
+			"groups": [
+				"a condition",
+				"an instruction"
+			],
+			"items": [
+				"Is it dark?",
+				"Is the bath full?",
+				"Is it more than 10?",
+				"Turn on the light.",
+				"Jump 3 times.",
+				"Close the door."
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Can you answer it with yes or no, or is it telling you to do something?",
+			"explain": "Conditions ask a yes or no question. Instructions tell you what to do."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does this program say?",
+			"answer": 0,
+			"hint": "Put 15 into the condition. Is 15 less than 10?",
+			"choices": [
+				"Wear a T-shirt",
+				"Wear a coat"
+			],
+			"explain": "temp is 15, and 15 < 10 is false, so the ELSE part runs: Wear a T-shirt.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET temp TO 15",
+					"IF temp < 10",
+					"  SAY Wear a coat",
+					"ELSE",
+					"  SAY Wear a T-shirt"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does this program say?",
+			"answer": 0,
+			"hint": "Is 10 more than 10?",
+			"choices": [
+				"Keep going!",
+				"Gold star!"
+			],
+			"explain": "10 > 10 is false: 10 is not more than 10. The ELSE part runs: Keep going!",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET score TO 10",
+					"IF score > 10",
+					"  SAY Gold star!",
+					"ELSE",
+					"  SAY Keep going!"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each condition to what to do.",
+			"items": [
+				"IF it is dark",
+				"IF the bath is full",
+				"IF the light is red",
+				"IF you are thirsty"
+			],
+			"matches": [
+				"drink some water",
+				"turn on the lamp",
+				"turn off the tap",
+				"stop and wait"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Which action makes sense when each is true?",
+			"explain": "Dark: the lamp. Full bath: the tap off. Red light: stop. Thirsty: water."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "IF gems ≥ 5, open the gate. With exactly 5 gems, the gate opens.",
+			"answer": true,
+			"hint": "≥ means more than, or equal to.",
+			"explain": "True: 5 ≥ 5 is true, because 5 is equal to 5."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "It is not raining. Which way does the flowchart go?",
+			"answer": 0,
+			"hint": "Follow the arrow for the answer to the diamond's question.",
+			"choices": [
+				"Wear a sun hat, then Go out",
+				"Take an umbrella, then Go out",
+				"Take an umbrella and wear a sun hat",
+				"Go straight to END"
+			],
+			"explain": "The answer to Is it raining? is no, so follow the no arrow: Wear a sun hat, then Go out.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "START"
+					},
+					{
+						"shape": "decision",
+						"text": "Is it raining?",
+						"no": "Wear a sun hat"
+					},
+					{
+						"shape": "step",
+						"text": "Take an umbrella"
+					},
+					{
+						"shape": "step",
+						"text": "Go out"
+					},
+					{
+						"shape": "end",
+						"text": "END"
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does this program say?",
+			"answer": 0,
+			"hint": "Go down the program line by line. At each IF, is the condition true or false? Only one SAY runs.",
+			"choices": [
+				"Hot",
+				"Warm",
+				"Cold"
+			],
+			"explain": "temp is 30. 30 > 25 is true, so it says Hot and skips the ELSE part.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET temp TO 30",
+					"IF temp > 25",
+					"  SAY Hot",
+					"ELSE",
+					"  IF temp > 12",
+					"    SAY Warm",
+					"  ELSE",
+					"    SAY Cold"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does this program say?",
+			"answer": 0,
+			"hint": "Go down the program line by line. At each IF, is the condition true or false? Only one SAY runs.",
+			"choices": [
+				"Cold",
+				"Warm",
+				"Hot"
+			],
+			"explain": "temp is 8. 8 > 25 is false: go to ELSE. 8 > 12 is false too: it says Cold.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET temp TO 8",
+					"IF temp > 25",
+					"  SAY Hot",
+					"ELSE",
+					"  IF temp > 12",
+					"    SAY Warm",
+					"  ELSE",
+					"    SAY Cold"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which condition opens the gate only when there are 10 gems or more?",
+			"answer": 0,
+			"hint": "Try each with exactly 10 gems, and with 9.",
+			"choices": [
+				"gems ≥ 10",
+				"gems > 10",
+				"gems < 10",
+				"gems = 1"
+			],
+			"explain": "gems ≥ 10 is true for 10 and more, false for 9. gems > 10 would keep the gate shut with exactly 10."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The robot runs REPEAT 4 TIMES: IF a wall is ahead, TURN RIGHT, ELSE FORWARD. How many squares does it move?",
+			"answer": "3",
+			"hint": "Follow it round by round. Look at the square in front of the robot each time.",
+			"explain": "Round 1: FORWARD. Round 2: FORWARD. Round 3: a wall, so TURN RIGHT. Round 4: FORWARD. 3 squares.",
+			"picture": {
+				"kind": "robot",
+				"cols": 4,
+				"rows": 3,
+				"start": [
+					0,
+					1
+				],
+				"facing": "E",
+				"walls": [
+					[
+						3,
+						1
+					]
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "gems is 6. Sort these conditions: true or false?",
+			"groups": [
+				"true",
+				"false"
+			],
+			"items": [
+				"gems > 5",
+				"gems < 5",
+				"gems = 6",
+				"gems ≥ 7",
+				"gems ≥ 6"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Put 6 in place of gems in each one.",
+			"explain": "True: 6 > 5, 6 = 6 and 6 ≥ 6. False: 6 < 5 and 6 ≥ 7."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "IF score > 10, SAY Gold star!, ELSE SAY Keep going!. With a score of 11, it says both.",
+			"answer": false,
+			"hint": "How many parts of IF … ELSE run?",
+			"explain": "False: 11 > 10 is true, so it says only Gold star!"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A number starts at 7. IF it is even, add 1; ELSE add 2. What is the number now?",
+			"answer": 0,
+			"hint": "Is 7 even or odd? Then follow the right part.",
+			"choices": [
+				"9",
+				"8",
+				"7",
+				"10"
+			],
+			"explain": "7 is odd, so the condition is false and the ELSE part adds 2: 7 + 2 = 9."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "temp is 20. Sort the conditions: true or false?",
+			"groups": [
+				"true",
+				"false"
+			],
+			"items": [
+				"temp > 25",
+				"temp < 25",
+				"temp = 20",
+				"temp ≥ 21",
+				"temp > 19",
+				"temp < 20"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Put 20 in place of temp and check each one.",
+			"explain": "True: 20 < 25, 20 = 20 and 20 > 19. False: 20 > 25, 20 ≥ 21 and 20 < 20 (20 is not less than itself)."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "IF score > 10, add 5 gold, ELSE add 1 gold. Three players score 12, 8 and 10. How much gold is added in all?",
+			"answer": "7",
+			"hint": "Check the condition for each score. Careful with exactly 10!",
+			"explain": "12 > 10 is true: 5 gold. 8 > 10 is false: 1 gold. 10 > 10 is false: 1 gold. In all: 5 + 1 + 1 = 7 gold."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.if_else",
+			"level": 1
+		},
+		{
+			"gen": "g4a.if_else",
+			"level": 2
+		},
+		{
+			"gen": "g4a.if_else",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,389 @@
+{
+	"id": "g3.english.text_features",
+	"lesson": [
+		{
+			"text": "Remember? A fact text has a main idea and details. Text features help you find the facts you need, fast."
+		},
+		{
+			"text": "The title tells what the whole text is about. Headings tell what each part is about, like signposts: \"Where Volcanoes Are\", \"When a Volcano Erupts\"."
+		},
+		{
+			"text": "Pictures, maps and diagrams give facts too. A caption under a picture tells what it shows. A map key tells what each sign means. This map shows two volcanoes near the sea.",
+			"picture": {
+				"kind": "map",
+				"rows": [
+					"~~~...^..",
+					"~~..v.^..",
+					"~~~..v...",
+					"~~~~....."
+				],
+				"key": true
+			}
+		},
+		{
+			"text": "Bold words are important words. Their meanings are in the glossary, near the end, in alphabetical order. \"lava: melted rock that flows out of a volcano\"."
+		},
+		{
+			"text": "The contents page, at the front, lists the chapters and their pages. The index, at the back, lists topics in alphabetical order with the pages where you find them.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Contents",
+						"Page"
+					],
+					[
+						"Volcano parts",
+						"2"
+					],
+					[
+						"Eruptions",
+						"6"
+					],
+					[
+						"Famous volcanoes",
+						"10"
+					],
+					[
+						"Glossary",
+						"14"
+					],
+					[
+						"Index",
+						"15"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it: to find where ash is explained, look in the index under A. To check what magma means, look in the glossary: \"magma: melted rock under the ground\"."
+		},
+		{
+			"text": "Try it in the world: open the game's Books and find a title, a heading and a picture with a caption. Which helps you find a fact fastest? Next: first, next, because."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a heading tell you?",
+			"answer": 0,
+			"hint": "Headings are like signposts.",
+			"choices": [
+				"what a part of the text is about",
+				"the author's name",
+				"the price of the book"
+			],
+			"explain": "A heading tells you what that part of the text is about."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where do you find what a bold word means?",
+			"answer": 0,
+			"hint": "It is near the end of the book.",
+			"choices": [
+				"in the glossary",
+				"on the cover",
+				"in a caption"
+			],
+			"explain": "The glossary gives the meanings of the bold words."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A caption tells what a picture shows.",
+			"answer": true,
+			"hint": "Look under the picture.",
+			"explain": "True: a caption explains the picture."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where is the contents page?",
+			"answer": 0,
+			"hint": "You use it before you start reading.",
+			"choices": [
+				"at the front of the book",
+				"at the back",
+				"in the middle"
+			],
+			"explain": "The contents page is at the front."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which part is at the back and lists topics in alphabetical order with their pages?",
+			"answer": 0,
+			"hint": "It helps you find one topic fast.",
+			"choices": [
+				"the index",
+				"the contents page",
+				"the title"
+			],
+			"explain": "The index is at the back, in alphabetical order."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Look at the map. How many volcanoes does it show?",
+			"answer": "2",
+			"hint": "Use the key to find the volcano sign, then count.",
+			"explain": "The key shows the volcano sign; there are 2 on the map.",
+			"picture": {
+				"kind": "map",
+				"rows": [
+					"~~~...^..",
+					"~~..v.^..",
+					"~~~..v...",
+					"~~~~....."
+				],
+				"key": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which heading fits this part? \"Lava flows down the mountain. Ash fills the sky.\"",
+			"answer": 0,
+			"hint": "What are both sentences about?",
+			"choices": [
+				"When a Volcano Erupts",
+				"How to Make a Sandwich",
+				"Volcano Words"
+			],
+			"explain": "Both sentences describe an eruption."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which word comes first in a glossary?",
+			"answer": 0,
+			"hint": "Glossaries are in alphabetical order.",
+			"choices": [
+				"ash",
+				"lava",
+				"magma",
+				"crater"
+			],
+			"explain": "a comes before c, l and m, so ash comes first."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A glossary is in alphabetical order.",
+			"answer": true,
+			"hint": "How would you find a word fast?",
+			"explain": "True: like a dictionary, a glossary is in alphabetical order."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "On which page does \"Famous volcanoes\" start?",
+			"answer": 0,
+			"hint": "Find the chapter in the contents.",
+			"choices": [
+				"10",
+				"6",
+				"14",
+				"2"
+			],
+			"explain": "The contents page says Famous volcanoes starts on page 10.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Contents",
+						"Page"
+					],
+					[
+						"Volcano parts",
+						"2"
+					],
+					[
+						"Eruptions",
+						"6"
+					],
+					[
+						"Famous volcanoes",
+						"10"
+					],
+					[
+						"Glossary",
+						"14"
+					],
+					[
+						"Index",
+						"15"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You want to know what \"magma\" means. Where do you look?",
+			"answer": 0,
+			"hint": "Where are word meanings?",
+			"choices": [
+				"the glossary",
+				"the contents page",
+				"a caption"
+			],
+			"explain": "The glossary gives the meanings of important words."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A diagram shows a volcano cut in half, with labels. What does it help you see?",
+			"answer": 0,
+			"hint": "What do labels on a diagram name?",
+			"choices": [
+				"the parts inside the volcano",
+				"the author's face",
+				"tomorrow's weather"
+			],
+			"explain": "The diagram shows and names the parts inside the volcano."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these glossary words in alphabetical order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Look at the first letter of each word.",
+			"items": [
+				"magma",
+				"lava",
+				"crater",
+				"ash"
+			],
+			"explain": "a, c, l, m: ash, crater, lava, magma."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which caption best fits a picture of red, hot rock flowing down a hill?",
+			"answer": 0,
+			"hint": "What does the picture show?",
+			"choices": [
+				"Hot lava flows from the volcano.",
+				"Snow falls on the mountain.",
+				"A lake fills the crater."
+			],
+			"explain": "Red, hot, flowing rock is lava."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do fact books print some words in bold?",
+			"answer": 0,
+			"hint": "Where can you look them up?",
+			"choices": [
+				"to show important words in the glossary",
+				"to make the book heavier",
+				"to show the page numbers"
+			],
+			"explain": "Bold words are important, and their meanings are in the glossary."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each text feature to its job.",
+			"hint": "Where would you look for each thing?",
+			"items": [
+				"heading",
+				"caption",
+				"glossary",
+				"index"
+			],
+			"matches": [
+				"gives word meanings",
+				"lists topics and pages",
+				"tells what a part is about",
+				"tells what a picture shows"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"explain": "Headings name the parts, captions explain pictures, the glossary gives meanings and the index lists topics with their pages."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the text features: at the front of a book, or at the back?",
+			"groups": [
+				"at the front",
+				"at the back"
+			],
+			"items": [
+				"the contents page",
+				"the index",
+				"the glossary",
+				"the title page"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Which ones help you start, and which help you look things up at the end?",
+			"explain": "At the front: the title page and the contents page, which lists the chapters. At the back: the glossary of word meanings and the index of topics."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each question to the text feature that answers it fastest.",
+			"items": [
+				"What does lava mean?",
+				"Which page is about ash?",
+				"What does this picture show?",
+				"What is this part about?"
+			],
+			"matches": [
+				"the caption",
+				"the heading",
+				"the glossary",
+				"the index"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of each feature's job: word meanings, page numbers, pictures or parts.",
+			"explain": "A word's meaning: the glossary. Which page a topic is on: the index. What a picture shows: its caption. What a part is about: its heading."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these index words in alphabetical order.",
+			"items": [
+				"volcano",
+				"eruption",
+				"ash",
+				"magma",
+				"crater"
+			],
+			"answer": [
+				2,
+				4,
+				1,
+				3,
+				0
+			],
+			"hint": "Look at the first letter of each word: a, c, e, m, v.",
+			"explain": "a, c, e, m, v: ash, crater, eruption, magma, volcano. An index is in alphabetical order so you can find a topic fast."
+		}
+	],
+	"generators": []
+}

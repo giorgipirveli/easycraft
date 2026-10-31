@@ -1,0 +1,449 @@
+{
+	"id": "g3.music.loud_quiet_fast_slow",
+	"lesson": [
+		{
+			"text": "Quick memory: what is pitch? (How high or low a sound is.) Today: loud and quiet, fast and slow."
+		},
+		{
+			"text": "Dynamics means how loud or quiet music is. Musicians use Italian words: forte (f) means loud, and piano (p) means quiet.",
+			"picture": {
+				"kind": "waveform",
+				"levels": [
+					8,
+					8,
+					8,
+					8,
+					8,
+					2,
+					2,
+					2,
+					2,
+					2
+				]
+			}
+		},
+		{
+			"text": "Crescendo means getting louder bit by bit. Diminuendo means getting quieter bit by bit.",
+			"picture": {
+				"kind": "waveform",
+				"levels": [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			}
+		},
+		{
+			"text": "Tempo is how fast or slow the music goes. Listen: these claps are slow…",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 60
+			}
+		},
+		{
+			"text": "…and these are fast.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 160
+			},
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"slow",
+						"x---x---x---x---"
+					],
+					[
+						"fast",
+						"x-x-x-x-x-x-x-x-"
+					]
+				]
+			}
+		},
+		{
+			"text": "Music can speed up (accelerando) or slow down (rallentando). Listen: these claps speed up.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x---x---x--x--x-x-xxxx",
+				"tempo": 110
+			}
+		},
+		{
+			"text": "Dynamics and tempo change the feeling: slow and quiet can feel calm; fast and loud can feel exciting. In the Hall of the Mountain King, by Grieg, starts slow and quiet, then gets faster and louder."
+		},
+		{
+			"text": "Try it in the world: walk a path in your world with slow, big steps, then fast, tiny steps. Clap your steps as you go: slow, then fast."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this beat fast or slow?",
+			"answer": 0,
+			"hint": "Could you walk calmly to it, or would you run?",
+			"choices": [
+				"slow",
+				"fast"
+			],
+			"explain": "Slow: there is a long gap between the claps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 60
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this beat fast or slow?",
+			"answer": 0,
+			"hint": "Could you walk calmly to it, or would you run?",
+			"choices": [
+				"fast",
+				"slow"
+			],
+			"explain": "Fast: the claps come quickly, one after another.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 170
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does forte (f) mean?",
+			"answer": 0,
+			"hint": "It is about dynamics.",
+			"choices": [
+				"loud",
+				"quiet",
+				"fast",
+				"slow"
+			],
+			"explain": "Forte (f) means loud."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does piano (p) mean in music?",
+			"answer": 0,
+			"hint": "It is about dynamics too.",
+			"choices": [
+				"quiet",
+				"loud",
+				"fast",
+				"high"
+			],
+			"explain": "Piano (p) means quiet. The instrument's full name, pianoforte, means quiet-loud: it can play both!"
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Tempo means how fast or slow music is.",
+			"answer": true,
+			"hint": "Think of the slow claps and the fast claps.",
+			"explain": "True: tempo is the speed of the music."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Do the claps get faster or slower?",
+			"answer": 0,
+			"hint": "Listen to the gaps between the claps. Do they get shorter or longer?",
+			"choices": [
+				"faster",
+				"slower"
+			],
+			"explain": "Faster: the gaps get shorter and shorter. That is an accelerando.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x---x---x--x--x-x-xxxx",
+				"tempo": 110
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Is this tune fast or slow?",
+			"answer": 0,
+			"hint": "Would you march, or tiptoe slowly?",
+			"choices": [
+				"slow",
+				"fast"
+			],
+			"explain": "Slow: each note is long.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"D4:2",
+					"E4:2",
+					"F4:2"
+				],
+				"beat": 0.6
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Is this tune fast or slow?",
+			"answer": 0,
+			"hint": "Would you march, or run?",
+			"choices": [
+				"fast",
+				"slow"
+			],
+			"explain": "Fast: the notes rush by, one after another.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"B4",
+					"A4",
+					"G4",
+					"F4",
+					"E4",
+					"D4",
+					"C4"
+				],
+				"beat": 0.15
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"forte",
+				"piano",
+				"crescendo",
+				"tempo"
+			],
+			"matches": [
+				"getting louder",
+				"how fast music goes",
+				"loud",
+				"quiet"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Two are about loudness, one is about getting louder, one is about speed.",
+			"explain": "Forte: loud. Piano: quiet. Crescendo: getting louder. Tempo: how fast the music goes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A lullaby helps a baby fall asleep. How is it usually sung?",
+			"answer": 0,
+			"hint": "What helps you feel calm and sleepy?",
+			"choices": [
+				"slow and quiet",
+				"fast and loud",
+				"fast and quiet",
+				"loud, with drums"
+			],
+			"explain": "Slow and quiet: it feels calm and sleepy."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. What happens to the speed?",
+			"answer": 0,
+			"hint": "Listen to the gaps between the claps at the end.",
+			"choices": [
+				"it slows down",
+				"it speeds up",
+				"it stays the same"
+			],
+			"explain": "It slows down: the gaps get longer. That is a rallentando.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x--x--x---x---x",
+				"tempo": 110
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In the Hall of the Mountain King starts slow and quiet. What happens next?",
+			"answer": 0,
+			"hint": "Remember the lesson card: think of trolls chasing!",
+			"choices": [
+				"it gets faster and louder",
+				"it gets slower and quieter",
+				"it stops",
+				"it stays the same"
+			],
+			"explain": "It gets faster and louder and faster, to an exciting end."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which word means getting quieter bit by bit?",
+			"answer": 0,
+			"hint": "The opposite of crescendo.",
+			"choices": [
+				"diminuendo",
+				"crescendo",
+				"forte",
+				"accelerando"
+			],
+			"explain": "Diminuendo means getting quieter bit by bit."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen. The speed stays the same all the way through.",
+			"answer": true,
+			"hint": "Are the gaps between the claps all the same?",
+			"explain": "True: every gap is the same, so the tempo stays the same.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Music for a chase in a film is most likely to be…",
+			"answer": 0,
+			"hint": "How does a chase feel?",
+			"choices": [
+				"fast and loud",
+				"slow and quiet",
+				"slow and sleepy",
+				"silent"
+			],
+			"explain": "Fast and loud: it feels exciting, like the chase."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these words: about loudness, or about speed?",
+			"groups": [
+				"loud or quiet",
+				"fast or slow"
+			],
+			"items": [
+				"forte",
+				"tempo",
+				"piano",
+				"accelerando",
+				"crescendo",
+				"rallentando"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Dynamics are about loudness; tempo is about speed.",
+			"explain": "Loudness: forte, piano, crescendo. Speed: tempo, accelerando, rallentando."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to what the music does.",
+			"items": [
+				"crescendo",
+				"diminuendo",
+				"accelerando"
+			],
+			"matches": [
+				"gets quieter bit by bit",
+				"speeds up",
+				"gets louder bit by bit"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Two are about loudness and one is about speed.",
+			"explain": "Crescendo gets louder, diminuendo gets quieter, and accelerando speeds up."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A slow piece has 60 beats a minute. A fast piece has twice as many. How many beats a minute is the fast piece?",
+			"answer": "120",
+			"hint": "Twice as many means 2 lots of 60.",
+			"explain": "60 × 2 = 120 beats a minute."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each music word to its meaning.",
+			"items": [
+				"f",
+				"p",
+				"accelerando",
+				"rallentando"
+			],
+			"matches": [
+				"slowing down",
+				"speeding up",
+				"quiet",
+				"loud"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Two are about loudness and two are about speed.",
+			"explain": "f (forte) means loud, p (piano) means quiet, accelerando means speeding up, and rallentando means slowing down."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the music for a film scene, from the calmest to the most exciting.",
+			"items": [
+				"fast and loud",
+				"slow and quiet",
+				"medium speed, getting louder"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Slow and quiet feels calm; fast and loud feels exciting.",
+			"explain": "Slow and quiet feels calm, a medium speed getting louder (a crescendo) builds up the feeling, and fast and loud is the most exciting."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3a.faster_slower",
+			"level": 1
+		},
+		{
+			"gen": "g3a.faster_slower",
+			"level": 2
+		},
+		{
+			"gen": "g3a.faster_slower",
+			"level": 3
+		}
+	]
+}

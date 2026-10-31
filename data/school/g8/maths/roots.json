@@ -1,0 +1,102 @@
+{
+	"id": "g8.maths.roots",
+	"lesson": [
+		{
+			"text": "The square root of a number is what you multiply by itself to get it: √81 = 9, because 9 × 9 = 81."
+		},
+		{
+			"text": "The cube root of a number is what you multiply by itself three times to get it: the cube root of 64 is 4."
+		},
+		{
+			"text": "x² = 49 has two solutions, x = 7 and x = −7, because both square to 49."
+		},
+		{
+			"text": "x³ = 27 has one real solution: x = 3."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "√64 = ?",
+			"answer": "8",
+			"hint": "What times itself is 64?",
+			"explain": "8 × 8 = 64."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "√121 = ?",
+			"answer": "11",
+			"hint": "What times itself is 121?",
+			"explain": "11 × 11 = 121."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The cube root of 27 is 3.",
+			"answer": true,
+			"hint": "3 × 3 × 3.",
+			"explain": "Yes: 27."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is the cube root of 125?",
+			"answer": "5",
+			"hint": "5 × 5 × 5.",
+			"explain": "125."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Solve: x² = 144, where x is positive. What is x?",
+			"answer": "12",
+			"hint": "Square root.",
+			"explain": "12² = 144."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How many solutions does x² = 25 have?",
+			"answer": 0,
+			"hint": "Negatives square to positives too.",
+			"choices": [
+				"two: 5 and −5",
+				"one: 5",
+				"none"
+			],
+			"explain": "5² and (−5)² both make 25."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A square room has an area of 36 m². How long is each side, in metres?",
+			"answer": "6",
+			"hint": "√36.",
+			"explain": "6 m."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A cube has a volume of 216 cm³. How long is each edge, in cm?",
+			"answer": "6",
+			"hint": "The cube root of 216.",
+			"explain": "6 × 6 × 6 = 216."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8n.roots",
+			"level": 1
+		},
+		{
+			"gen": "g8n.roots",
+			"level": 2
+		},
+		{
+			"gen": "g8n.roots",
+			"level": 3
+		}
+	]
+}

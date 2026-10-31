@@ -1,0 +1,332 @@
+{
+	"id": "g7.health_pe.lead_and_officiate",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you gave feedback. What does 'Even better if' give? (One thing to improve next time.) Today: how to lead a group fairly, as a referee, a captain or a coach."
+		},
+		{
+			"text": "A referee (or umpire) applies the rules fairly. Good officials know the rules and keep in a place where they can see. They decide quickly, signal clearly, stay calm, and treat both teams the same.",
+			"picture": {
+				"kind": "ref_signal",
+				"signal": "direct",
+				"name": true
+			}
+		},
+		{
+			"text": "Football's signals (the Laws of the Game): advantage, both arms forward; a direct free kick, an arm pointing the way; an indirect free kick, an arm straight up until another player touches the ball; a penalty, pointing at the spot.",
+			"picture": {
+				"kind": "ref_signal",
+				"signal": "advantage",
+				"name": true
+			}
+		},
+		{
+			"text": "Advantage: if a team is fouled but still has a good chance, the referee lets play go on. Then the foul does not help the team that did it. If the chance is gone within a few seconds, the free kick is given after all."
+		},
+		{
+			"text": "A captain leads on the field: encourages teammates, speaks calmly with the referee, sets an example of fair play, and shakes hands at the end, win or lose. A good captain lifts the team after a mistake."
+		},
+		{
+			"text": "A coach plans practices and gives feedback. Keep it short and specific, one point at a time, with what went well first: 'Great run! Next time, look up before you pass' helps far more than 'That was bad.'"
+		},
+		{
+			"text": "A tournament: in a knockout, losers go out, so 8 teams play 8 − 1 = 7 matches. In a round robin, everyone plays everyone: 4 teams play 4 × 3 ÷ 2 = 6 matches.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"teams",
+						"knockout",
+						"round robin"
+					],
+					[
+						"4",
+						"3",
+						"6"
+					],
+					[
+						"6",
+						"5",
+						"15"
+					],
+					[
+						"8",
+						"7",
+						"28"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: run a mini tournament in your world for friends, with a board of matches and results. For real: referee a short game at school and use the signals. Next: sleep for teenagers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the referee signalling?",
+			"choices": [
+				"an indirect free kick",
+				"advantage: play on",
+				"a penalty kick",
+				"a goal"
+			],
+			"answer": 0,
+			"hint": "Look at the raised arm: held straight up, high.",
+			"explain": "An arm raised straight up: an indirect free kick, so a goal only counts after another player touches it.",
+			"picture": {
+				"kind": "ref_signal",
+				"signal": "indirect"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A good referee changes decisions to please whoever shouts loudest.",
+			"answer": false,
+			"hint": "What makes an official fair to both teams?",
+			"explain": "False: a fair referee decides by the rules, calmly, whoever shouts."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who leads a team on the field and speaks with the referee?",
+			"choices": [
+				"the captain",
+				"the timekeeper",
+				"a spectator",
+				"the groundskeeper"
+			],
+			"answer": 0,
+			"hint": "Which player often wears an armband?",
+			"explain": "The captain leads on the field and speaks calmly with the referee."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A knockout has 16 teams. How many matches are needed to find a winner?",
+			"answer": "15",
+			"hint": "Every team except the winner loses exactly once.",
+			"explain": "16 − 1 = 15 matches."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each role to its job.",
+			"items": [
+				"referee",
+				"captain",
+				"coach",
+				"timekeeper"
+			],
+			"matches": [
+				"watches the clock",
+				"plans practices and feedback",
+				"applies the rules fairly",
+				"leads on the field"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Who is on the field, who is beside it, and who is in charge of the rules?",
+			"explain": "Referee: the rules. Captain: leads on the field. Coach: practices and feedback. Timekeeper: the clock."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In a round robin, every team plays every other once. How many matches do 5 teams play?",
+			"answer": "10",
+			"hint": "Each team plays the 4 others; then halve, because each match has two teams.",
+			"explain": "5 × 4 ÷ 2 = 10 matches."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Mimi is fouled but passes to Zara, who is clear through on goal. What should the referee do?",
+			"choices": [
+				"let play go on: advantage",
+				"stop play at once",
+				"book Zara",
+				"give a goal kick"
+			],
+			"answer": 0,
+			"hint": "Would stopping play help the team that did the foul?",
+			"explain": "Advantage: stopping play would take away Zara's chance, so play goes on."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put good feedback in order.",
+			"items": [
+				"show or explain how",
+				"give one clear thing to improve",
+				"praise the effort",
+				"say what went well",
+				"let them try again"
+			],
+			"answer": [
+				3,
+				1,
+				0,
+				4,
+				2
+			],
+			"hint": "Start positive, then one point, how, practice, praise.",
+			"explain": "What went well, one thing to improve, how to do it, a new try, and praise for the effort."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Fair play or not?",
+			"groups": [
+				"fair play",
+				"not fair play"
+			],
+			"items": [
+				"owning up to a last touch",
+				"shaking hands after the game",
+				"pretending to be fouled",
+				"arguing with every decision",
+				"helping an opponent up"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Would you be happy if the other team did it to you?",
+			"explain": "Fair play: shaking hands, helping an opponent up, owning up. Not: arguing every decision, pretending."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In a round robin, every team plays every other team once.",
+			"answer": true,
+			"hint": "Think of the name: the matches go all the way round.",
+			"explain": "True: everyone meets everyone once."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is this signal?",
+			"choices": [
+				"advantage: play on",
+				"a penalty kick",
+				"an indirect free kick",
+				"a corner kick"
+			],
+			"answer": 0,
+			"hint": "Both arms are stretched forward, the way the team is attacking.",
+			"explain": "Both arms forward: advantage. Play goes on because the fouled team still has a good chance.",
+			"picture": {
+				"kind": "ref_signal",
+				"signal": "advantage"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A round robin of 6 teams on 3 pitches, 10 minutes a match. How many minutes does it take at least?",
+			"answer": "50",
+			"hint": "Find the matches, then the rounds the pitches need, then the time.",
+			"explain": "6 × 5 ÷ 2 = 15 matches; 3 pitches play 3 at once, so 5 rounds; 5 × 10 = 50 minutes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A teammate keeps passing too late. Which feedback helps most?",
+			"choices": [
+				"Look up early and pass before the tackle.",
+				"Just try harder.",
+				"Pass whenever you like.",
+				"Watch the others instead."
+			],
+			"answer": 0,
+			"hint": "Good feedback is specific: it says what to do next time.",
+			"explain": "'Look up early and pass before the tackle': one clear thing, and how."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If the advantage does not lead to a chance within a few seconds, the referee can still give the free kick.",
+			"answer": true,
+			"hint": "Advantage should never help the team that did the foul.",
+			"explain": "True: if the advantage does not happen, the referee goes back and gives the free kick."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You are refereeing a friendly. Your brother's team trips an attacker in their penalty area. What do you give?",
+			"choices": [
+				"a penalty kick, as for any team",
+				"nothing: it is your brother",
+				"a goal kick",
+				"a drop ball"
+			],
+			"answer": 0,
+			"hint": "A referee treats both teams the same.",
+			"explain": "A penalty kick: a foul in the penalty area, whoever the players are."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "8 teams play a round robin, then the top 4 play a knockout. How many matches in all?",
+			"answer": "31",
+			"hint": "Round robin: 8 × 7 ÷ 2. Knockout of 4: one fewer than the teams.",
+			"explain": "28 + 3 = 31 matches."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put a referee's steps for advantage in order.",
+			"items": [
+				"watch the next few seconds",
+				"signal advantage and call 'Play on!'",
+				"see the foul",
+				"give the free kick if the chance is lost",
+				"check if the team still has a chance"
+			],
+			"answer": [
+				2,
+				4,
+				1,
+				0,
+				3
+			],
+			"hint": "See, judge, signal, watch, decide.",
+			"explain": "See the foul, judge the chance, signal and call 'Play on!', watch, and give the free kick if the chance goes."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.ref_call",
+			"level": 1
+		},
+		{
+			"gen": "g7w.ref_call",
+			"level": 2
+		},
+		{
+			"gen": "g7w.ref_call",
+			"level": 3
+		},
+		{
+			"gen": "g7w.tournament",
+			"level": 1
+		},
+		{
+			"gen": "g7w.tournament",
+			"level": 2
+		},
+		{
+			"gen": "g7w.tournament",
+			"level": 3
+		}
+	]
+}

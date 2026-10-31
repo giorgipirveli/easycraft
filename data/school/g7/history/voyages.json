@@ -1,0 +1,392 @@
+{
+	"id": "g7.history.voyages",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you learned latitude. What is the latitude of the Equator? (0°.) Today: how sailors found their latitude from the stars, and the great voyages of the 1400s and 1500s."
+		},
+		{
+			"text": "Why explore? Traders wanted Asia's spices, silk and gold without paying the many middlemen on the old routes. Rulers wanted riches and fame, some wanted to spread their faith, and many sailors were simply curious."
+		},
+		{
+			"text": "From 1405 to 1433, the Chinese admiral Zheng He led seven great voyages to Southeast Asia, India, Arabia and East Africa. His first fleet had hundreds of ships and about 28,000 people. He brought back gifts for the emperor, even a giraffe.",
+			"picture": {
+				"kind": "voyage_map",
+				"routes": [
+					{
+						"name": "Zheng He",
+						"points": [
+							[
+								32,
+								119
+							],
+							[
+								13,
+								109
+							],
+							[
+								2,
+								102
+							],
+							[
+								11,
+								76
+							],
+							[
+								27,
+								56
+							],
+							[
+								-3,
+								40
+							]
+						]
+					},
+					{
+						"name": "Columbus 1492",
+						"points": [
+							[
+								37,
+								-7
+							],
+							[
+								28,
+								-16
+							],
+							[
+								24,
+								-74
+							]
+						]
+					},
+					{
+						"name": "da Gama 1498",
+						"points": [
+							[
+								39,
+								-9
+							],
+							[
+								15,
+								-23
+							],
+							[
+								-34,
+								18
+							],
+							[
+								-3,
+								40
+							],
+							[
+								11,
+								76
+							]
+						]
+					}
+				],
+				"places": [
+					{
+						"lat": 32,
+						"long": 119,
+						"label": "Nanjing"
+					},
+					{
+						"lat": 11,
+						"long": 76,
+						"label": "Calicut"
+					},
+					{
+						"lat": 39,
+						"long": -9,
+						"label": "Lisbon"
+					}
+				]
+			}
+		},
+		{
+			"text": "In 1492 Christopher Columbus sailed west from Spain with three small ships and about 90 sailors, hoping to reach Asia. About five weeks after the Canary Islands he reached the Bahamas, home to the Taino people but unknown to Europeans."
+		},
+		{
+			"text": "In 1488 Bartolomeu Dias sailed round the southern tip of Africa, and in 1498 Vasco da Gama reached India that way. From 1519 to 1522 Magellan's expedition sailed round the world: of about 270 men, 18 came home. Magellan died on the way.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1400,
+				"to": 1550,
+				"step": 25,
+				"events": [
+					[
+						1405,
+						"Zheng He sets sail"
+					],
+					[
+						1488,
+						"Dias rounds Africa"
+					],
+					[
+						1492,
+						"Columbus crosses"
+					],
+					[
+						1498,
+						"da Gama in India"
+					],
+					[
+						1522,
+						"Round the world"
+					]
+				]
+			}
+		},
+		{
+			"text": "Sailors found their latitude from the Pole Star: in the northern hemisphere, its height above the horizon, measured with a quadrant, is your latitude. A compass gave direction, and speed × time gave the distance sailed: dead reckoning.",
+			"picture": {
+				"kind": "pole_star",
+				"angle": 52,
+				"labels": true
+			}
+		},
+		{
+			"text": "Ships improved too. Portuguese caravels were small and quick, and their triangular sails could sail closer into the wind. Chinese treasure ships were far larger, with many masts and watertight sections. Mapmakers drew each coast as it was found."
+		},
+		{
+			"text": "Try it in the world: build a caravel with a compass rose on its deck. On a clear night, with a grown-up, find the Pole Star: held at arm's length, a fist is about 10°. Next: encounters in the Americas."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who led seven great voyages for Ming China?",
+			"answer": 0,
+			"hint": "He sailed from 1405 to 1433.",
+			"choices": [
+				"Zheng He",
+				"Christopher Columbus",
+				"Magellan",
+				"Caxton"
+			],
+			"explain": "Zheng He, admiral of the Ming emperors."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In which year did Columbus first cross the Atlantic?",
+			"answer": 0,
+			"hint": "It is in the 1400s.",
+			"choices": [
+				"1492",
+				"1066",
+				"1605",
+				"1215"
+			],
+			"explain": "1492: Columbus sailed west from Spain and reached the Bahamas about five weeks after the Canaries."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In the northern hemisphere, the Pole Star's height above the horizon tells a sailor the latitude.",
+			"answer": true,
+			"hint": "Think of the angle in the picture.",
+			"explain": "True: the angle is the latitude north.",
+			"picture": {
+				"kind": "pole_star",
+				"angle": 40
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a compass show?",
+			"answer": 0,
+			"hint": "Its needle points north.",
+			"choices": [
+				"direction",
+				"speed",
+				"latitude",
+				"the time"
+			],
+			"explain": "Direction: the needle points north, so you can steer a course."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why did traders want new sea routes to Asia?",
+			"answer": 0,
+			"hint": "Each trader on the old routes added a profit.",
+			"choices": [
+				"to buy spices and silk without so many middlemen",
+				"to find ice",
+				"to escape the Sun",
+				"to see penguins"
+			],
+			"explain": "To buy Asia's spices and silk directly, without paying every middleman on the way."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Zheng He's first fleet carried about 28,000 people; Columbus had about 90 sailors. How many more people did Zheng He have?",
+			"answer": "27910",
+			"hint": "Take the smaller number from the bigger one.",
+			"explain": "28,000 − 90 = 27,910 more people."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Magellan's expedition set out with about 270 men, and 18 came home on the Victoria. How many did not come home with it?",
+			"answer": "252",
+			"hint": "Take those who came home from those who set out.",
+			"explain": "270 − 18 = 252."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these voyages in order, earliest first.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "The smaller the year, the earlier.",
+			"items": [
+				"Dias rounds southern Africa (1488)",
+				"Da Gama reaches India (1498)",
+				"Zheng He's first voyage (1405)",
+				"Columbus crosses the Atlantic (1492)",
+				"Magellan's ship returns (1522)"
+			],
+			"explain": "1405, 1488, 1492, 1498, 1522."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each tool to what it tells a sailor.",
+			"items": [
+				"compass",
+				"quadrant",
+				"log line",
+				"chart"
+			],
+			"matches": [
+				"the shape of the coast",
+				"direction",
+				"the Pole Star's height",
+				"the ship's speed"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "One points north, one measures an angle, one measures speed, one is a map.",
+			"explain": "Compass: direction. Quadrant: the star's height, so the latitude. Log line: speed. Chart: the coast."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why could caravels sail closer into the wind?",
+			"answer": 0,
+			"hint": "Look at the shape of their sails.",
+			"choices": [
+				"their triangular sails",
+				"they had oars",
+				"they had engines",
+				"they were heavier"
+			],
+			"explain": "Their triangular (lateen) sails could catch wind blowing from the side."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A caravel sails 8 km an hour, day and night. How far does it sail in 24 hours?",
+			"answer": "192",
+			"hint": "Distance is speed times time.",
+			"explain": "8 × 24 = 192 km."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "At the Canary Islands the Pole Star stood 28° high; in the Bahamas about 24°. How many degrees south had Columbus sailed?",
+			"answer": "4",
+			"hint": "Each angle is a latitude: take one from the other.",
+			"explain": "28 − 24 = 4 degrees south."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Compare the voyages. Which is true?",
+			"answer": 0,
+			"hint": "Hundreds of ships, or three?",
+			"choices": [
+				"Zheng He's fleets were far bigger",
+				"Columbus had more ships than Zheng He",
+				"Zheng He sailed to the Americas",
+				"Columbus reached India"
+			],
+			"explain": "Zheng He led hundreds of ships and about 28,000 people; Columbus had three ships and about 90 sailors."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Columbus reached the lands he was aiming for.",
+			"answer": false,
+			"hint": "Where did he hope to go, and where did he land?",
+			"explain": "False: he aimed for Asia but reached the Bahamas, in the Americas."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: Zheng He or Columbus?",
+			"groups": [
+				"Zheng He",
+				"Columbus"
+			],
+			"items": [
+				"sailed for the Ming emperor",
+				"sailed for Spain's king and queen",
+				"reached East Africa",
+				"reached the Bahamas",
+				"hundreds of ships",
+				"three ships"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "One sailed west across the Atlantic; one sailed across the Indian Ocean.",
+			"explain": "Zheng He: the Ming emperor, East Africa, hundreds of ships. Columbus: Spain, the Bahamas, three ships."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.pole_star_latitude",
+			"level": 1
+		},
+		{
+			"gen": "g7h.pole_star_latitude",
+			"level": 2
+		},
+		{
+			"gen": "g7h.pole_star_latitude",
+			"level": 3
+		},
+		{
+			"gen": "g7h.dead_reckoning",
+			"level": 1
+		},
+		{
+			"gen": "g7h.dead_reckoning",
+			"level": 2
+		},
+		{
+			"gen": "g7h.dead_reckoning",
+			"level": 3
+		}
+	]
+}

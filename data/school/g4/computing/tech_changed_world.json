@@ -1,0 +1,336 @@
+{
+	"id": "g4.computing.tech_changed_world",
+	"lesson": [
+		{
+			"text": "Quick memory: what should you do if something online upsets you? (Stop, block, report and tell a trusted adult.) Today: how computers changed the world."
+		},
+		{
+			"text": "Long ago, a computer was a person whose job was doing sums. People used counting frames called abacuses for thousands of years."
+		},
+		{
+			"text": "In 1804 a loom in France wove patterns from cards with holes punched in them: the holes told it what to do, like a program. In 1843 Ada Lovelace wrote what is often called the first computer program.",
+			"picture": {
+				"kind": "pixels",
+				"rows": [
+					"1011001",
+					"0110110",
+					"1101011"
+				]
+			}
+		},
+		{
+			"text": "In the 1940s, the first electronic computers filled whole rooms. One called ENIAC (1945) weighed about 27 tonnes, as much as four or five elephants, and used thousands of glass valves."
+		},
+		{
+			"text": "Computers helped people land on the Moon in 1969. Yet the computer on board had far less memory than a phone has today. Then tiny microchips made computers small enough for homes, from the late 1970s.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1800,
+				"to": 2020,
+				"step": 20,
+				"events": [
+					[
+						1804,
+						"punched-card loom"
+					],
+					[
+						1843,
+						"Lovelace's program"
+					],
+					[
+						1945,
+						"ENIAC"
+					],
+					[
+						1969,
+						"Moon landing"
+					],
+					[
+						1989,
+						"the Web"
+					]
+				]
+			}
+		},
+		{
+			"text": "In 1989 the World Wide Web was invented, and soon millions of people could share pages. In the 2000s, phones became pocket computers with touch screens.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"when",
+						"what came"
+					],
+					[
+						"1989",
+						"the World Wide Web"
+					],
+					[
+						"2000s",
+						"touch-screen phones"
+					]
+				]
+			}
+		},
+		{
+			"text": "Computers changed work and play. Robots build cars, doctors see inside bodies with scanners, and farmers check fields from the air. Friends talk on video calls, and children play games like this one."
+		},
+		{
+			"text": "Try it in the world: build a timeline road in your world, with a block for each machine in this lesson, from the abacus to the phone. Next year: more coding, and more about how computers work."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Before machines did it, what was a computer?",
+			"answer": 0,
+			"hint": "Remember the first lesson card.",
+			"choices": [
+				"a person who did sums",
+				"a kind of robot",
+				"a phone",
+				"a counting game"
+			],
+			"explain": "A computer was a person whose job was doing sums."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The first electronic computers were as small as a phone.",
+			"answer": false,
+			"hint": "How big was ENIAC?",
+			"explain": "False: they filled whole rooms. ENIAC weighed about 27 tonnes."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each machine to what it was.",
+			"items": [
+				"abacus",
+				"punched cards",
+				"ENIAC",
+				"smartphone"
+			],
+			"matches": [
+				"filled a whole room",
+				"a computer in your pocket",
+				"a counting frame",
+				"told a loom what to weave"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Go from the oldest to the newest.",
+			"explain": "Abacus: counting frame. Punched cards: the loom's program. ENIAC: a room. Smartphone: a pocket computer."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a computer many people carry in a pocket today?",
+			"answer": 0,
+			"hint": "Which of these fits in a pocket?",
+			"choices": [
+				"a phone",
+				"a loom",
+				"an abacus",
+				"a room-sized machine"
+			],
+			"explain": "Phones are small computers with touch screens."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, oldest first.",
+			"answer": [
+				5,
+				4,
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Use the years in brackets. The abacus is thousands of years old.",
+			"items": [
+				"phones with touch screens (2000s)",
+				"the World Wide Web (1989)",
+				"room-sized computers (1940s)",
+				"Ada Lovelace's program (1843)",
+				"a loom with punched cards (1804)",
+				"the abacus"
+			],
+			"explain": "Abacus, 1804, 1843, 1940s, 1989, 2000s."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Ada Lovelace wrote her program in 1843. ENIAC was built in 1945. How many years apart are they?",
+			"answer": "102",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1945 − 1843 = 102 years."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What did the punched cards on the 1804 loom do?",
+			"answer": 0,
+			"hint": "The holes worked like a program.",
+			"choices": [
+				"told it which pattern to weave",
+				"kept the thread warm",
+				"counted money",
+				"showed pictures"
+			],
+			"explain": "The holes told the loom which threads to lift: the pattern to weave."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: did computers change work, or play?",
+			"groups": [
+				"work",
+				"play"
+			],
+			"items": [
+				"robots building cars",
+				"a doctor's scanner",
+				"a farmer's flying camera",
+				"video games",
+				"cartoons made on computers",
+				"music apps"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Is it a job, or fun?",
+			"explain": "Cars, scanners and flying cameras are work. Games, cartoons and music apps are play."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Computers helped people land on the Moon in 1969.",
+			"answer": true,
+			"hint": "Remember the lesson card about 1969.",
+			"explain": "True: computers helped guide the Moon landing in 1969."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many years after ENIAC (1945) was the World Wide Web invented (1989)?",
+			"answer": "44",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1989 − 1945 = 44 years."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why couldn't the first computers fit in homes?",
+			"answer": 0,
+			"hint": "How big was ENIAC?",
+			"choices": [
+				"they were as big as a room",
+				"homes had no doors",
+				"they were made of paper",
+				"nobody wanted them"
+			],
+			"explain": "They filled whole rooms, weighed tonnes and used thousands of hot glass valves. No home had room for one, and it would have cost far too much to run."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What made computers small enough for homes?",
+			"answer": 0,
+			"hint": "What replaced rooms full of glass valves?",
+			"choices": [
+				"tiny microchips",
+				"bigger valves",
+				"more punched cards",
+				"stronger tables"
+			],
+			"explain": "Microchips put thousands of tiny switches on one small chip, where the first computers used thousands of glass valves. So from the late 1970s, computers fitted on a desk."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The Moon landing's computer had more memory than a phone today.",
+			"answer": false,
+			"hint": "Have computers got smaller and stronger, or bigger and weaker?",
+			"explain": "False: it had far less memory than a phone has today."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each year to what happened.",
+			"items": [
+				"1804",
+				"1843",
+				"1969",
+				"1989"
+			],
+			"matches": [
+				"Ada Lovelace's program",
+				"people land on the Moon",
+				"the World Wide Web",
+				"a loom with punched cards"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Go in order: the oldest year first.",
+			"explain": "1804: the loom. 1843: Ada Lovelace. 1969: the Moon. 1989: the web."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How is a phone today like ENIAC?",
+			"answer": 0,
+			"hint": "What does every computer do, big or small?",
+			"choices": [
+				"it follows programs to do its jobs",
+				"it fills a room",
+				"it uses punched cards",
+				"it weighs 27 tonnes"
+			],
+			"explain": "Every computer, big or small, follows programs."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort them: from before electronic computers, or after them?",
+			"groups": [
+				"before",
+				"after"
+			],
+			"items": [
+				"the abacus",
+				"ENIAC",
+				"the punched-card loom",
+				"the Moon landing's computer",
+				"Ada Lovelace's program",
+				"touch-screen phones"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The first electronic computers came in the 1940s.",
+			"explain": "Before the 1940s: the abacus, the 1804 loom and Ada Lovelace's program of 1843. From the 1940s on: ENIAC (1945), the Moon landing's computer (1969) and touch-screen phones (2000s)."
+		}
+	],
+	"generators": []
+}

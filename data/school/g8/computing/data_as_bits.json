@@ -1,0 +1,344 @@
+{
+	"id": "g8.computing.data_as_bits",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, what number is 1010 in binary? (Ten: an 8 and a 2.) Today: how text, sound and pictures are all stored as bits."
+		},
+		{
+			"text": "Text: each character has a number code. In ASCII, from 1963, A is 65, B is 66 and so on to Z, 90; a is 97. 7 bits give 128 codes. Unicode now has codes for over 150,000 characters of every writing system.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"character",
+						"code",
+						"binary"
+					],
+					[
+						"A",
+						"65",
+						"1000001"
+					],
+					[
+						"B",
+						"66",
+						"1000010"
+					],
+					[
+						"a",
+						"97",
+						"1100001"
+					]
+				]
+			}
+		},
+		{
+			"text": "Worked example: CAT is stored as 67, 65, 84. At 8 bits (1 byte) a character, a 5-letter word takes 5 bytes, which is 5 × 8 = 40 bits."
+		},
+		{
+			"text": "Sound: a microphone turns sound into a wave. The computer measures the wave many times a second; each measurement is a sample. CD sound takes 44,100 samples a second.",
+			"picture": {
+				"kind": "sampled_wave",
+				"samples": [
+					4,
+					6,
+					7,
+					7,
+					6,
+					4,
+					2,
+					1,
+					0,
+					1,
+					2,
+					4
+				],
+				"bits": 3
+			}
+		},
+		{
+			"text": "More samples a second and more bits a sample sound better but make bigger files. Size in bits = samples a second × bits a sample × seconds. CD sound: 44,100 × 16 = 705,600 bits a second for each ear.",
+			"picture": {
+				"kind": "sampled_wave",
+				"samples": [
+					2,
+					3,
+					3,
+					3,
+					2,
+					1,
+					0,
+					0,
+					0,
+					1,
+					2,
+					3
+				],
+				"bits": 2,
+				"view": "steps"
+			}
+		},
+		{
+			"text": "Pictures: an image is a grid of pixels, each colour stored as bits (the colour depth). 1 bit a pixel gives 2 colours; 8 bits give 256; 24 bits give over 16 million.",
+			"picture": {
+				"kind": "pixel_art",
+				"rows": [
+					"..RR..",
+					".RRRR.",
+					"RRYYRR",
+					"RRYYRR",
+					".RRRR.",
+					"..RR.."
+				],
+				"key": {
+					"R": "red",
+					"Y": "yellow"
+				},
+				"grid": true
+			}
+		},
+		{
+			"text": "Worked example: a picture 100 pixels wide and 50 high has 5,000 pixels. At 8 bits each, that is 40,000 bits, or 5,000 bytes. Compression makes files smaller by storing patterns, not every pixel."
+		},
+		{
+			"text": "Try it in the world: write a short message as ASCII codes (A = 65, B = 66 …) for a friend to decode. Next: logic gates."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "In ASCII, A is 65. What is the code for C?",
+			"answer": "67",
+			"hint": "Count on through the alphabet from A.",
+			"explain": "A is 65, B is 66, so C is 67."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a sample?",
+			"choices": [
+				"one measurement of a sound wave",
+				"a whole song",
+				"a pixel's colour",
+				"a letter's code"
+			],
+			"answer": 0,
+			"hint": "Think about what a computer does many times a second to a sound.",
+			"explain": "A sample is one measurement of the wave's height; many samples a second make the stored sound."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "8 bits make 1 byte.",
+			"answer": true,
+			"hint": "Remember the size of one ASCII character in memory.",
+			"explain": "True: a byte is 8 bits, enough for one character's code."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each character to its ASCII code.",
+			"items": [
+				"A",
+				"a",
+				"Z",
+				"B"
+			],
+			"matches": [
+				"97",
+				"90",
+				"66",
+				"65"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Capitals start at 65 and go up by one; small letters start at 97.",
+			"explain": "A is 65, B is 66 and Z is 90; small a is 97."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many colours can 1 bit a pixel show?",
+			"answer": "2",
+			"hint": "One bit is 0 or 1.",
+			"explain": "1 bit has 2 values, 0 and 1, so 2 colours, such as black and white."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A picture is 20 pixels wide and 10 high, at 8 bits a pixel. How many bits is it?",
+			"answer": "1600",
+			"hint": "Count the pixels first, then multiply by the bits each one needs.",
+			"explain": "20 × 10 = 200 pixels, and 200 × 8 = 1,600 bits."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which makes a sound file bigger?",
+			"choices": [
+				"more samples a second",
+				"a quieter sound",
+				"a shorter recording",
+				"fewer bits a sample"
+			],
+			"answer": 0,
+			"hint": "Use the rule: samples a second × bits a sample × seconds.",
+			"explain": "More samples a second means more numbers to store, so a bigger file."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A picture stores each pixel's colour in 4 bits. How many different colours can it use?",
+			"answer": "16",
+			"hint": "Each extra bit doubles the number of values.",
+			"explain": "2 × 2 × 2 × 2 = 16 colours."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Does it make an image file bigger or smaller?",
+			"groups": [
+				"bigger",
+				"smaller"
+			],
+			"items": [
+				"more pixels",
+				"more bits a pixel",
+				"compression",
+				"fewer colours",
+				"a higher resolution"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Does it mean more numbers to store, or fewer?",
+			"explain": "More pixels, more bits a pixel and a higher resolution add numbers; compression and fewer colours store fewer."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In ASCII, small a's code is 32 more than capital A's.",
+			"answer": true,
+			"hint": "Compare 97 and 65.",
+			"explain": "True: 97 − 65 = 32, and every small letter is 32 more than its capital."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Each sample here has 3 bits. How many different levels can a sample have?",
+			"answer": "8",
+			"picture": {
+				"kind": "sampled_wave",
+				"samples": [
+					4,
+					6,
+					7,
+					7,
+					6,
+					4,
+					2,
+					1,
+					0,
+					1,
+					2,
+					4
+				],
+				"bits": 3
+			},
+			"hint": "Count the values 3 bits can make.",
+			"explain": "3 bits make 2 × 2 × 2 = 8 levels, from 0 to 7."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A sound is sampled 8,000 times a second at 8 bits a sample. How many bits for 3 seconds?",
+			"answer": "192000",
+			"hint": "Use samples a second × bits a sample × seconds.",
+			"explain": "8,000 × 8 = 64,000 bits a second, and 64,000 × 3 = 192,000 bits."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A picture is 40 × 30 pixels in 24-bit colour. How many bytes is it?",
+			"answer": "3600",
+			"hint": "Find the bits first, then divide by 8.",
+			"explain": "40 × 30 = 1,200 pixels; 1,200 × 24 = 28,800 bits; 28,800 ÷ 8 = 3,600 bytes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The word HI is stored in ASCII. Which codes?",
+			"choices": [
+				"72, 73",
+				"8, 9",
+				"104, 105",
+				"72, 74"
+			],
+			"answer": 0,
+			"hint": "A is 65: count on to H, and check capitals or small letters.",
+			"explain": "H is 65 + 7 = 72 and I is 73. Small h and i would be 104 and 105."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Doubling the samples a second, with everything else the same, doubles a sound file's size.",
+			"answer": true,
+			"hint": "Look at the size rule: what happens when one part doubles?",
+			"explain": "True: size = samples a second × bits a sample × seconds, so doubling one part doubles the size."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order from the smallest file to the biggest, for the same size of picture.",
+			"items": [
+				"24 bits a pixel",
+				"8 bits a pixel",
+				"4 bits a pixel",
+				"1 bit a pixel"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Each pixel's bits are stored for every pixel.",
+			"explain": "The same number of pixels times more bits each: 1, then 4, then 8, then 24 bits a pixel."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.char_code",
+			"level": 1
+		},
+		{
+			"gen": "g8c.char_code",
+			"level": 2
+		},
+		{
+			"gen": "g8c.char_code",
+			"level": 3
+		},
+		{
+			"gen": "g8c.file_size",
+			"level": 1
+		},
+		{
+			"gen": "g8c.file_size",
+			"level": 2
+		},
+		{
+			"gen": "g8c.file_size",
+			"level": 3
+		}
+	]
+}

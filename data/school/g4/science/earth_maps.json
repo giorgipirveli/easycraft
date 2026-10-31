@@ -1,0 +1,419 @@
+{
+	"id": "g4.science.earth_maps",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, weathering and erosion. What carries broken rock away? Water, wind and ice."
+		},
+		{
+			"text": "A map shows where things are. Its key tells you what each colour and symbol means. Maps of the land and of the ocean floor show mountains, volcanoes and deep trenches.",
+			"picture": {
+				"kind": "map",
+				"rows": [
+					"...^.v~~~~",
+					"....^v~~~~",
+					"....*v=~~~",
+					"...^.v=~~~",
+					"....^x=~~~"
+				],
+				"key": true
+			}
+		},
+		{
+			"text": "Scientists noticed patterns on these maps. Many volcanoes and earthquakes happen in long lines, often along the edges of continents. Around the Pacific Ocean there are so many that the line is called the Ring of Fire.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60,
+				"points": [
+					{
+						"lat": 36,
+						"long": 138,
+						"label": "Japan"
+					},
+					{
+						"lat": -8,
+						"long": 112,
+						"label": "Indonesia"
+					},
+					{
+						"lat": 61,
+						"long": -150,
+						"label": "Alaska"
+					},
+					{
+						"lat": -33,
+						"long": -71,
+						"label": "Chile"
+					}
+				]
+			}
+		},
+		{
+			"text": "Mountain ranges often run in long chains too. The Andes run along the west side of South America, and the Rocky Mountains through western North America."
+		},
+		{
+			"text": "The ocean floor is not flat. The longest mountain range on Earth runs along the middle of the oceans, under the water. And some trenches are deeper than the tallest mountain is high."
+		},
+		{
+			"text": "Mount Everest, the highest mountain above the sea, is about 8,800 m tall. The Mariana Trench in the Pacific Ocean is nearly 11,000 m deep: Everest would fit inside with room to spare!",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"Everest",
+						8800
+					],
+					[
+						"the trench",
+						10900
+					]
+				],
+				"step": 2000,
+				"top": 12000,
+				"name": "metres"
+			}
+		},
+		{
+			"text": "Why the patterns? Earth's outer shell is cracked into giant pieces that move very slowly. Where the pieces meet, the ground shakes, mountains are pushed up and volcanoes can grow."
+		},
+		{
+			"text": "Maps help people stay safe: where earthquakes happen, they build stronger houses. Try it in the world: open MY MAP and find your world's mountains, rivers and sea. Next: energy resources."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a map's key tell you?",
+			"hint": "Look beside a map for its key.",
+			"explain": "A map's key tells you what each colour and symbol stands for.",
+			"choices": [
+				"what each colour and symbol means",
+				"the way to unlock a door",
+				"the time of day",
+				"how old the map is"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The ocean floor is completely flat.",
+			"hint": "What is the longest mountain range on Earth?",
+			"explain": "The ocean floor has mountains, valleys and deep trenches.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the Ring of Fire?",
+			"hint": "It is a pattern on a map of volcanoes.",
+			"explain": "The Ring of Fire is the long line of volcanoes and earthquakes around the Pacific Ocean.",
+			"choices": [
+				"a line of volcanoes around the Pacific Ocean",
+				"a circle of campfires",
+				"a ring made of gold",
+				"a desert in Africa"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many volcanoes are on this map?",
+			"hint": "Find the volcano in the key, then count them.",
+			"explain": "There are 3 volcanoes, all near the coast.",
+			"picture": {
+				"kind": "map",
+				"rows": [
+					"~~~v......",
+					"~~~^......",
+					"~~~v......",
+					"~~~~v.....",
+					"~~~~......"
+				],
+				"key": true
+			},
+			"answer": "3"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where do many earthquakes and volcanoes happen?",
+			"hint": "Think of the Ring of Fire.",
+			"explain": "They happen in long lines, often at the edges of continents.",
+			"choices": [
+				"in long lines, often at the edges of continents",
+				"spread evenly everywhere",
+				"only in the middle of continents",
+				"only at the North Pole"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which of these is deeper than Mount Everest is tall?",
+			"hint": "Everest is about 8,800 m tall.",
+			"explain": "The Mariana Trench is nearly 11,000 m deep: deeper than Everest is tall.",
+			"choices": [
+				"the Mariana Trench",
+				"a village pond",
+				"a deep well",
+				"a river bed"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The longest mountain range on Earth is under the ocean.",
+			"hint": "Where does it run?",
+			"explain": "It runs along the middle of the oceans, under the water.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where are the Andes mountains?",
+			"hint": "They are in South America.",
+			"explain": "The Andes run along the west side of South America.",
+			"choices": [
+				"along the west side of South America",
+				"in the middle of Africa",
+				"at the North Pole",
+				"under the Pacific Ocean"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "On this map, where are the volcanoes?",
+			"hint": "Find each volcano with the key. Is there a pattern?",
+			"explain": "The volcanoes lie in a line along the coast.",
+			"picture": {
+				"kind": "map",
+				"rows": [
+					"......v~~~",
+					".....v~~~~",
+					".....^~~~~",
+					"......v~~~",
+					"......v~~~"
+				],
+				"key": true
+			},
+			"choices": [
+				"in a line along the coast",
+				"spread all over the land",
+				"far out in the sea",
+				"in the middle of the land"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mount Everest is about 8,800 m tall. The Mariana Trench is about 10,900 m deep. How many metres deeper is the trench than Everest is tall?",
+			"hint": "Subtract the height from the depth.",
+			"explain": "10,900 − 8,800 = 2,100 m.",
+			"answer": "2100"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Scientists mark every earthquake of a year on a map. What do they see?",
+			"hint": "Think of the patterns in the lesson.",
+			"explain": "Most earthquakes lie in long belts, often at the edges of continents.",
+			"choices": [
+				"Most of them lie in long belts",
+				"They are spread evenly everywhere",
+				"There are none near the sea",
+				"They make a smiley face"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is it useful to know where earthquakes happen?",
+			"hint": "We cannot stop earthquakes. What can we do?",
+			"explain": "Knowing where they happen, people build stronger houses there.",
+			"choices": [
+				"People can build stronger houses there",
+				"To stop the ground from moving",
+				"To make more earthquakes",
+				"To move the mountains"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Volcanoes are only found on land.",
+			"hint": "Think of the ocean floor.",
+			"explain": "Many volcanoes are under the sea. Some grow tall enough to become islands, like Hawaii.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What do the Rocky Mountains and the Andes have in common?",
+			"hint": "Where is each one?",
+			"explain": "Both are long chains of mountains in the west of a continent: North and South America.",
+			"choices": [
+				"long chains in the west of a continent",
+				"Both are in Europe",
+				"Both are under the sea",
+				"Both are made of ice"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A map of the Atlantic Ocean's floor shows a long mountain range. Where does it run?",
+			"hint": "Remember the longest mountain range on Earth.",
+			"explain": "The mountain range runs down the middle of the Atlantic.",
+			"choices": [
+				"down the middle of the ocean",
+				"along the beaches",
+				"across the top of the water",
+				"nowhere: the floor is flat"
+			],
+			"answer": 0
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each feature to where it is.",
+			"items": [
+				"the Andes",
+				"the Ring of Fire",
+				"the longest mountain range",
+				"the Mariana Trench"
+			],
+			"matches": [
+				"under the oceans",
+				"the Pacific Ocean's floor",
+				"around the Pacific",
+				"west of South America"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "Think of the lesson's map patterns: coasts, oceans and a very deep place.",
+			"explain": "The Andes run down the west of South America; the Ring of Fire circles the Pacific; the longest range runs under the oceans; the Mariana Trench is in the Pacific's floor."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: above the sea, or under it?",
+			"items": [
+				"Mount Everest",
+				"the Mariana Trench",
+				"the Andes",
+				"the longest mountain range"
+			],
+			"groups": [
+				"above the sea",
+				"under the sea"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Where does the card say the longest mountain range runs?",
+			"explain": "Everest and the Andes are on land. The Mariana Trench and the longest mountain range are under the oceans."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order these places from the highest to the deepest.",
+			"items": [
+				"a sandy beach",
+				"the floor of the Mariana Trench",
+				"the top of Mount Everest",
+				"the middle of the ocean floor"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1
+			],
+			"hint": "A beach is at sea level. What is above it, and what is below?",
+			"explain": "Everest's top is about 8,800 m up. A beach is at sea level. The ocean floor is thousands of metres down, and the Mariana Trench is deepest of all, nearly 11,000 m down."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Where are earthquakes and volcanoes most likely? Sort the places.",
+			"groups": [
+				"more likely",
+				"less likely"
+			],
+			"items": [
+				"around the edge of the Pacific",
+				"where two of Earth's pieces meet",
+				"in the middle of a big, old continent",
+				"along the Andes",
+				"far from the edges of the pieces",
+				"along the mountains under the ocean"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Where Earth's giant pieces meet, the ground shakes and volcanoes grow.",
+			"explain": "More likely: the Pacific's edge, the Andes and the mountains under the ocean are all where Earth's pieces meet. Less likely: the middle of a big, old continent, far from any edge."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4t.map_count",
+			"level": 1
+		},
+		{
+			"gen": "g4t.map_count",
+			"level": 2
+		},
+		{
+			"gen": "g4t.map_count",
+			"level": 3
+		},
+		{
+			"gen": "g4t.map_pattern",
+			"level": 1
+		},
+		{
+			"gen": "g4t.map_pattern",
+			"level": 2
+		},
+		{
+			"gen": "g4t.map_pattern",
+			"level": 3
+		},
+		{
+			"gen": "g4t.height_depth",
+			"level": 1
+		},
+		{
+			"gen": "g4t.height_depth",
+			"level": 2
+		},
+		{
+			"gen": "g4t.height_depth",
+			"level": 3
+		}
+	]
+}

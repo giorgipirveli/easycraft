@@ -1,0 +1,24 @@
+{
+	"id": "life.around.journeys_and_bearings",
+	"lesson": [
+		{"text": "Quick memory: where do you change trains on a metro map? (Where two lines meet.) Today: a journey on your own, a map's grid and a compass bearing."},
+		{"text": "Plan it: your start, the change, your end. Trains are signed by the last station they go to, so take the one towards the end of the line past your stop."},
+		{"text": "Wait behind the yellow line; let people off first; mind the gap. Separated from your group? Stay put and ask the staff at a help point."},
+		{"text": "A map's key explains its symbols. Grid squares: read along the bottom first, then up the side: along the corridor, then up the stairs."},
+		{"text": "A bearing: set the degrees on the dial at the arrow, turn until the red needle sits in its outline, then walk where the arrow points. 90 degrees is east."},
+		{"text": "Try it in the world: open the practice metro and park, on the Big track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "A bearing of 90 degrees is...", "answer": 0, "choices": ["east", "south", "north"], "hint": "A quarter turn clockwise from north.", "explain": "East."},
+		{"type": "truefalse", "level": 1, "prompt": "Separated from your group, you ride round the lines to find them.", "answer": false, "hint": "Moving makes you harder to find.", "explain": "False: stay put and ask the staff."},
+		{"type": "choice", "level": 1, "prompt": "A map's key tells you...", "answer": 0, "choices": ["what its symbols mean", "where the map was bought", "the time"], "hint": "Think of the symbols.", "explain": "What its symbols mean."},
+		{"type": "choice", "level": 2, "prompt": "Grid square C2 means...", "answer": 0, "choices": ["along to C, then up to 2", "up to C, then along to 2", "C times 2"], "hint": "Along the corridor, then up the stairs.", "explain": "Along to C, then up to 2."},
+		{"type": "order", "level": 2, "prompt": "Walking on a bearing: put it in order.", "answer": [2, 0, 1], "items": ["turn until the needle sits in its outline", "walk where the arrow points", "set the degrees on the dial"], "hint": "Set it first.", "explain": "Set, turn, walk."},
+		{"type": "truefalse", "level": 2, "prompt": "Metro trains are signed by the last station they go to.", "answer": true, "hint": "Look at the train's sign.", "explain": "True."},
+		{"type": "choice", "level": 2, "prompt": "Halfway between south and west is...", "answer": 0, "choices": ["south-west", "north-east", "south-east"], "hint": "Put the two names together.", "explain": "South-west."},
+		{"type": "choice", "level": 3, "prompt": "A bearing of 180 degrees is...", "answer": 0, "choices": ["south", "east", "west"], "hint": "Half a turn from north.", "explain": "South."},
+		{"type": "sort", "level": 3, "prompt": "On the platform: safe, or not?", "groups": ["safe", "not safe"], "items": ["behind the yellow line", "at the edge", "letting people off first", "pushing on"], "answer": [0, 1, 0, 1], "hint": "Trains come in close.", "explain": "Behind the line and people off first."},
+		{"type": "truefalse", "level": 3, "prompt": "Knowing your grown-up's phone number by heart helps if you're separated.", "answer": true, "hint": "Staff can help you call.", "explain": "True."},
+		{"type": "choice", "level": 3, "prompt": "A bearing of 45 degrees is...", "answer": 0, "choices": ["north-east", "south-west", "north-west"], "hint": "Halfway between north and east.", "explain": "North-east."}
+	]
+}

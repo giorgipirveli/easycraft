@@ -1,0 +1,261 @@
+{
+	"id": "g4.art.portraits",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the highlight on a shaded ball? (The brightest spot, nearest the light.) Today: portraits, pictures of people's faces."
+		},
+		{
+			"text": "A portrait shows a person, often their face. A self-portrait is a portrait artists make of themselves, often by looking in a mirror."
+		},
+		{
+			"text": "Faces follow proportions. A head is shaped like an egg. The eyes are halfway down the head, not near the top: the top half holds the forehead and the hair.",
+			"picture": {
+				"kind": "face",
+				"mark": "eyes"
+			}
+		},
+		{
+			"text": "The bottom of the nose is about halfway between the eyes and the chin. The mouth is about a third of the way down from the nose to the chin.",
+			"picture": {
+				"kind": "face",
+				"mark": "nose"
+			}
+		},
+		{
+			"text": "A face is about five eyes wide, with one eye's width between the eyes. The ears fit between the eye line and the bottom of the nose. The corners of the mouth sit under the middles of the eyes.",
+			"picture": {
+				"kind": "face",
+				"mark": "ears"
+			}
+		},
+		{
+			"text": "Worked example: draw an egg shape. Draw a line halfway down for the eyes, then the nose line, then the mouth line. Add the eyes, nose, mouth, ears and hair. Then look again, and fix what is not quite right."
+		},
+		{
+			"text": "Great portraits: Leonardo da Vinci's Mona Lisa, painted over 500 years ago. Rembrandt and Vincent van Gogh painted dozens of self-portraits. Giuseppe Arcimboldo made faces out of fruit, vegetables and flowers!"
+		},
+		{
+			"text": "Try it in the world: build a giant face on a wall in your world with blocks: eyes halfway down, then the nose, then the mouth. Or draw a self-portrait, looking in a mirror."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where do the eyes go on a head?",
+			"answer": 0,
+			"hint": "Look at the line the eyes sit on. How far down the head is it?",
+			"choices": [
+				"halfway down",
+				"near the top",
+				"at the very bottom",
+				"on the chin"
+			],
+			"explain": "The eyes are halfway down the head.",
+			"picture": {
+				"kind": "face"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A self-portrait is a portrait artists make of themselves.",
+			"answer": true,
+			"hint": "What does self mean?",
+			"explain": "True: self-portraits are pictures of the artist, often made by looking in a mirror."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a portrait?",
+			"answer": 0,
+			"hint": "Think of the Mona Lisa.",
+			"choices": [
+				"a picture of a person",
+				"a picture of hills",
+				"a bowl of fruit",
+				"a map"
+			],
+			"explain": "A portrait is a picture of a person, often of the face."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In this face, the eyes are in the right place.",
+			"answer": false,
+			"hint": "Measure: are the eyes halfway between the top of the head and the chin?",
+			"explain": "False: the eyes are too high. They belong halfway down the head.",
+			"picture": {
+				"kind": "face",
+				"guides": false,
+				"eyes": "high"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "About how many eyes wide is a face?",
+			"answer": "5",
+			"hint": "Count: eye, gap, eye, and the space on each side.",
+			"explain": "A face is about 5 eyes wide: a gap, an eye, a gap one eye wide, an eye and a gap."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where is the bottom of the nose?",
+			"answer": 0,
+			"hint": "Measure from the eye line down to the chin.",
+			"choices": [
+				"about halfway from the eyes to the chin",
+				"just under the eyes",
+				"on the chin",
+				"at the top of the head"
+			],
+			"explain": "The bottom of the nose is about halfway from the eyes to the chin."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of drawing a face in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start with the big shape and end with the details.",
+			"items": [
+				"Draw the eye line halfway down",
+				"Add the eyes, nose and mouth",
+				"Draw an egg shape",
+				"Draw the nose and mouth lines",
+				"Add the ears and hair, then look again"
+			],
+			"explain": "Egg, eye line, nose and mouth lines, the features, then ears, hair and a last look."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each portrait to its artist.",
+			"items": [
+				"the Mona Lisa",
+				"faces made of fruit",
+				"self-portraits with flowers",
+				"a self-portrait in a straw hat"
+			],
+			"matches": [
+				"Frida Kahlo",
+				"Vincent van Gogh",
+				"Leonardo da Vinci",
+				"Giuseppe Arcimboldo"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Remember the lesson; Frida Kahlo, a Mexican artist, often painted flowers in her hair.",
+			"explain": "Leonardo: the Mona Lisa. Arcimboldo: fruit faces. Frida Kahlo: flowers. Van Gogh: a straw hat."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The ears fit between which two lines?",
+			"answer": 0,
+			"hint": "Look where the orange ears start and stop.",
+			"choices": [
+				"the eye line and the nose line",
+				"the top of the head and the eyes",
+				"the mouth and the chin",
+				"the nose and the mouth"
+			],
+			"explain": "The ears fit between the eye line and the bottom of the nose.",
+			"picture": {
+				"kind": "face",
+				"mark": "ears"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do many children draw the eyes too high up?",
+			"answer": 0,
+			"hint": "What fills the top half of the head?",
+			"choices": [
+				"they forget how big the forehead and hair are",
+				"eyes really are near the top",
+				"the paper is too small",
+				"pencils slide upwards"
+			],
+			"explain": "The top half of the head holds the forehead and the hair, so the eyes are lower than many people think."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where do the corners of the mouth sit?",
+			"answer": 0,
+			"hint": "Draw lines straight down from the eyes.",
+			"choices": [
+				"under the middles of the eyes",
+				"under the ears",
+				"at the edges of the face",
+				"under the tip of the nose"
+			],
+			"explain": "The corners of the mouth sit under the middles of the eyes."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The gap between the two eyes is about one eye wide.",
+			"answer": true,
+			"hint": "Imagine one more eye between them.",
+			"explain": "True: one more eye would fit between them."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A head is 24 cm from the top to the chin. How far down from the top are the eyes?",
+			"answer": "12",
+			"hint": "The eyes are halfway down.",
+			"explain": "Halfway down 24 cm: 24 ÷ 2 = 12 cm."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In a drawing, the eyes are 6 cm above the chin. About how far above the chin is the bottom of the nose?",
+			"answer": "3",
+			"hint": "The bottom of the nose is halfway between the eyes and the chin.",
+			"explain": "Halfway of 6 cm: 6 ÷ 2 = 3 cm."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: a portrait or not?",
+			"groups": [
+				"portrait",
+				"not a portrait"
+			],
+			"items": [
+				"a painting of your grandma",
+				"a self-portrait from a mirror",
+				"a photo of a friend's face",
+				"a painting of hills and a river",
+				"a bowl of fruit",
+				"a map of a town"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Is it a picture of a person?",
+			"explain": "Grandma, a self-portrait and a friend's face are portraits. Hills are a landscape, fruit a still life."
+		}
+	],
+	"generators": []
+}

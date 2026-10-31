@@ -1,0 +1,447 @@
+{
+	"id": "g7.health_pe.invasion_advanced",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you learnt team tactics. Which attacking idea means spreading out near the sidelines? (Width.) Today: advanced tactics that make space, win the ball back and switch between attack and defence."
+		},
+		{
+			"text": "An overlap: a teammate sprints round the outside of the player with the ball. Now the defender must choose who to mark, and one attacker is free. It works in football, hockey, rugby and netball. Here B overlaps A.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 8,
+				"players": [
+					[
+						7,
+						6,
+						"a",
+						"A"
+					],
+					[
+						5,
+						7,
+						"a",
+						"B"
+					],
+					[
+						9,
+						6,
+						"d"
+					],
+					[
+						8,
+						3,
+						"a"
+					],
+					[
+						9,
+						3,
+						"d"
+					]
+				],
+				"ball": 0
+			}
+		},
+		{
+			"text": "A third-man run: A passes to B, and C is already running into space for B's next pass. A switch of play moves the ball fast from a crowded side to the empty side. Both make defenders turn and chase."
+		},
+		{
+			"text": "Defending as a team. Man-to-man marking: each defender follows one attacker. Zonal marking: each defender guards an area and marks whoever comes into it. Always try to stay goal-side: between the attacker and your own goal.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 8,
+				"players": [
+					[
+						9,
+						2,
+						"a"
+					],
+					[
+						10,
+						2,
+						"d"
+					],
+					[
+						9,
+						6,
+						"a"
+					],
+					[
+						10,
+						6,
+						"d"
+					],
+					[
+						7,
+						4,
+						"a"
+					],
+					[
+						8,
+						4,
+						"d"
+					]
+				],
+				"ball": 4
+			}
+		},
+		{
+			"text": "Pressing: straight after losing the ball, the nearest players close it down together. They win it back high up the pitch while teammates block the nearby passes. One player pressing alone does not work: it is a team job."
+		},
+		{
+			"text": "Transition is the moment the ball changes team. Won it? Attack fast, before the other team is back in shape: a counter-attack. Lost it? Press at once, or sprint back goal-side and get compact."
+		},
+		{
+			"text": "Worked example: a 3 v 2 counter-attack. A dribbles at a defender to draw them in. The moment that defender commits, A passes to the free teammate. Three attackers against two defenders leaves one player free: the overload.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 8,
+				"players": [
+					[
+						6,
+						4,
+						"a",
+						"A"
+					],
+					[
+						7,
+						1,
+						"a",
+						"B"
+					],
+					[
+						7,
+						7,
+						"a",
+						"C"
+					],
+					[
+						8,
+						3,
+						"d"
+					],
+					[
+						9,
+						5,
+						"d"
+					]
+				],
+				"ball": 0
+			}
+		},
+		{
+			"text": "Try it in the world: mark out a small pitch with friends and play 3 v 2, then swap to defend. For real: in a small-sided game, try an overlap, and shout 'Switch!' when one side is crowded. Next: racket sports."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A teammate runs round the outside of the player with the ball. What is this called?",
+			"choices": [
+				"an overlap",
+				"a recovery run",
+				"zonal marking",
+				"a screen"
+			],
+			"answer": 0,
+			"hint": "Picture where the runner goes: inside, or round the outside?",
+			"explain": "An overlap: the runner goes round the outside, so the defender has two attackers to stop."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In zonal marking, each defender follows one attacker wherever they go.",
+			"answer": false,
+			"hint": "Zonal comes from 'zone': an area.",
+			"explain": "False: that is man-to-man marking. In zonal marking each defender guards an area."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does 'goal-side' mean for a defender?",
+			"choices": [
+				"between the attacker and your own goal",
+				"next to the other team's goal",
+				"out on the sideline",
+				"far behind the attacker"
+			],
+			"answer": 0,
+			"hint": "Think about what you are protecting.",
+			"explain": "Goal-side: standing between the attacker and your goal, so they cannot run straight at it."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the tactics: attacking (with the ball) or defending (without it)?",
+			"groups": [
+				"attacking",
+				"defending"
+			],
+			"items": [
+				"overlap",
+				"switch of play",
+				"third-man run",
+				"pressing",
+				"man-to-man marking"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Ask: does the team doing it have the ball, or want it back?",
+			"explain": "Attacking: overlap, switch of play, third-man run. Defending: pressing, man-to-man marking."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A switch of play moves the ball quickly to the side of the pitch with more space.",
+			"answer": true,
+			"hint": "Where is the space when one side is crowded?",
+			"explain": "True: switching to the empty side makes the defenders run across the pitch."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a counter-attack in order.",
+			"items": [
+				"win the ball",
+				"look forward at once",
+				"run or pass into the space",
+				"shoot",
+				"draw a defender",
+				"pass to the free player"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				4,
+				5,
+				3
+			],
+			"hint": "Speed matters: forward first, before the other team gets back.",
+			"explain": "Win it, look forward, move into the space, draw a defender, pass to the free player, then shoot."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each tactic to what it means.",
+			"items": [
+				"overlap",
+				"pressing",
+				"switch of play",
+				"transition"
+			],
+			"matches": [
+				"the moment the ball changes team",
+				"move the ball to the far side",
+				"close down the ball together",
+				"run round the ball carrier"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Say each name slowly: what does it describe?",
+			"explain": "Overlap: run round the outside. Pressing: close down together. Switch: to the far side. Transition: the moment the ball changes team."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Blue attack in this part of the pitch. How many spare attackers does blue have?",
+			"answer": "2",
+			"hint": "Count both teams in that part of the pitch, then subtract.",
+			"explain": "4 − 2 = 2 spare attackers: a 4 v 2 overload.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 8,
+				"players": [
+					[
+						7,
+						2,
+						"a"
+					],
+					[
+						7,
+						5,
+						"a"
+					],
+					[
+						8,
+						7,
+						"a"
+					],
+					[
+						6,
+						4,
+						"a"
+					],
+					[
+						9,
+						3,
+						"d"
+					],
+					[
+						9,
+						6,
+						"d"
+					]
+				],
+				"ball": 3
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Your team has just lost the ball near the other team's goal. What should the nearest players do?",
+			"choices": [
+				"close it down together, at once",
+				"walk back slowly",
+				"wait for the referee",
+				"chase it one at a time"
+			],
+			"answer": 0,
+			"hint": "Think about the moment just after losing the ball: who is nearest, and is one player enough?",
+			"explain": "Press together at once: the other team is not yet organised, so the ball can be won back high up."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In basketball, a player stands still to block a defender's path, so a teammate gets free. What is this?",
+			"choices": [
+				"a screen",
+				"a foul",
+				"a fast break",
+				"a rebound"
+			],
+			"answer": 0,
+			"hint": "It is legal only if the blocking player stands still.",
+			"explain": "A screen (or pick): standing still to block a defender legally, so a teammate gets free."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A team lost the ball 24 times in a match and won it back within 5 seconds 9 times. What percentage is that?",
+			"answer": "37.5",
+			"hint": "Won back ÷ times lost, then × 100.",
+			"explain": "9 ÷ 24 = 0.375, so 37.5% of their presses worked."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The other team keeps scoring with long passes over your defenders, who stand very high up the pitch. What change helps most?",
+			"choices": [
+				"defend a little deeper, nearer your goal",
+				"press even higher with everyone",
+				"leave the goal empty",
+				"stop marking anyone"
+			],
+			"answer": 0,
+			"hint": "Where is the space they keep using: in front of your defenders or behind them?",
+			"explain": "Defending deeper takes away the space behind your back line, so long passes are easier to deal with."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Red always defend man-to-man. How can blue use that?",
+			"choices": [
+				"decoy runs that drag defenders away",
+				"all stand still in a group",
+				"only pass backwards",
+				"kick the ball out"
+			],
+			"answer": 0,
+			"hint": "If each defender follows one attacker, where will a runner take their defender?",
+			"explain": "Each decoy run pulls its marker out of position, leaving space for a teammate."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "During a counter-attack, passing backwards to slow it down is usually the best choice.",
+			"answer": false,
+			"hint": "What makes a counter-attack work: speed, or waiting?",
+			"explain": "False: a counter-attack needs speed, before the defenders are back in shape."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "After each moment, does your team attack now or defend now?",
+			"groups": [
+				"attack now",
+				"defend now"
+			],
+			"items": [
+				"our pass is intercepted",
+				"we win a tackle",
+				"we lose the ball in their half",
+				"our keeper catches their shot",
+				"our defender wins a header"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Who has the ball after the moment?",
+			"explain": "Attack now: we win a tackle, our keeper catches it, our defender wins a header. Defend now: our pass is intercepted, we lose the ball in their half."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put a team's press in order.",
+			"items": [
+				"the ball is won back",
+				"the ball is lost",
+				"teammates block the nearby passes",
+				"the nearest player closes it down",
+				"attack again, quickly"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0,
+				4
+			],
+			"hint": "First the moment, then the closest player, then the whole team.",
+			"explain": "Lost, the nearest player closes down, teammates block passes, the ball is won, then a quick attack."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.tactic_case",
+			"level": 1
+		},
+		{
+			"gen": "g7w.tactic_case",
+			"level": 2
+		},
+		{
+			"gen": "g7w.tactic_case",
+			"level": 3
+		},
+		{
+			"gen": "g7w.overload",
+			"level": 1
+		},
+		{
+			"gen": "g7w.overload",
+			"level": 2
+		},
+		{
+			"gen": "g7w.overload",
+			"level": 3
+		}
+	]
+}

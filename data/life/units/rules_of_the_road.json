@@ -1,0 +1,169 @@
+{
+	"id": "life.around.rules_of_the_road",
+	"lesson": [
+		{
+			"text": "Quick memory: which way do you look first at the kerb? (Where the nearest cars come from.) Today: the road from the driver's seat."
+		},
+		{
+			"text": "Everyone in a car wears a seat belt, in every seat, on every trip. A driver checks everyone's belt before driving off."
+		},
+		{
+			"text": "Red: stop behind the line. Amber: stop, unless it is not safe to stop. Green: go only if the way is clear. Give way to people crossing."
+		},
+		{
+			"text": "The faster a car goes, the more room it needs to stop: about 12 metres at 20 mph, about 23 metres at 30 mph. That is why limits near schools are low."
+		},
+		{
+			"text": "Drivers never use a phone while driving. They give cyclists plenty of room and expect a child after a ball."
+		},
+		{
+			"text": "Try it in the world: open the practice car and use the belt, the brake and the accelerator. As a walker, you now know what drivers see."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who wears a seat belt?",
+			"answer": 0,
+			"choices": [
+				"everyone, in every seat",
+				"only the driver",
+				"only on long trips"
+			],
+			"hint": "Front and back.",
+			"explain": "Everyone, every seat, every trip."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A red light means...",
+			"answer": 0,
+			"choices": [
+				"stop behind the line",
+				"go faster",
+				"honk"
+			],
+			"hint": "The colour of stop.",
+			"explain": "Red: stop and wait behind the line."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Green means go, even if people are still crossing.",
+			"answer": false,
+			"hint": "Who goes first?",
+			"explain": "False: green means go only if the way is clear."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Amber means...",
+			"answer": 0,
+			"choices": [
+				"stop, unless it isn't safe to stop",
+				"speed up",
+				"turn around"
+			],
+			"hint": "Almost red.",
+			"explain": "Amber: stop at the line if you safely can."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "About how far does a car at 30 mph need to stop?",
+			"answer": 0,
+			"choices": [
+				"about 23 metres",
+				"about 2 metres",
+				"no room at all"
+			],
+			"hint": "Nearly twice as far as at 20 mph.",
+			"explain": "About 23 metres, nearly twice the 12 metres at 20 mph."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A driver may read a message while driving slowly.",
+			"answer": false,
+			"hint": "Where must eyes be?",
+			"explain": "False: never a phone while driving."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How much room do you give a cyclist when passing in town?",
+			"answer": 0,
+			"choices": [
+				"at least 1.5 metres",
+				"10 centimetres",
+				"none"
+			],
+			"hint": "More than an arm's length.",
+			"explain": "Give at least 1.5 metres, and pass slowly."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Before driving off: put it in order.",
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"items": [
+				"drive off slowly",
+				"belt on",
+				"check everyone's belt",
+				"check the way is clear"
+			],
+			"hint": "Belts first.",
+			"explain": "Belt on, everyone's belts, check the way, then drive off."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A ball rolls into the road. The driver...",
+			"answer": 0,
+			"choices": [
+				"brakes: a child may follow",
+				"drives round it fast",
+				"honks and goes on"
+			],
+			"hint": "Who might run after it?",
+			"explain": "Brake and expect a child after a ball."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Safe driving or not?",
+			"groups": [
+				"safe",
+				"not safe"
+			],
+			"items": [
+				"keeping to the limit",
+				"a phone at the wheel",
+				"giving way at a zebra",
+				"passing a cyclist closely"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Think of the people around.",
+			"explain": "Keeping to the limit and giving way are safe; phones and close passes are not."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Someone waits at a zebra crossing: the driver gives way.",
+			"answer": true,
+			"hint": "People first at crossings.",
+			"explain": "True: slow down and stop for them."
+		}
+	]
+}

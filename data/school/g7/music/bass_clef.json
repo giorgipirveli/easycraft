@@ -1,0 +1,529 @@
+{
+	"id": "g7.music.bass_clef",
+	"lesson": [
+		{
+			"text": "Quick memory: on the treble clef, which notes sit on the lines, from the bottom? (E, G, B, D and F: Every Good Boy Deserves Fun.) Today: the bass clef, dotted notes and ties."
+		},
+		{
+			"text": "Low notes are written on the bass clef, also called the F clef: its two dots sit either side of the F line, the fourth line up. Cellos, bass guitars, tubas and a pianist's left hand read it.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"F3"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"F3:2",
+					"F2:2"
+				]
+			}
+		},
+		{
+			"text": "The bass clef's lines are G, B, D, F and A, from the bottom: Good Boys Deserve Fun Always. The bass clef's spaces are A, C, E and G: All Cows Eat Grass.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"G2",
+					"B2",
+					"D3",
+					"F3",
+					"A3"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G2",
+					"B2",
+					"D3",
+					"F3",
+					"A3:2"
+				]
+			}
+		},
+		{
+			"text": "Middle C sits on a ledger line just above the bass stave and just below the treble stave. Piano music uses the two together: the grand stave.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "grand",
+				"notes": [
+					"C3",
+					"E3",
+					"G3",
+					"C4",
+					"E4",
+					"G4",
+					"C5"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "A dot after a note adds half its value again: a dotted minim lasts 3 beats and a dotted crotchet lasts 1½ beats. A dotted crotchet is often followed by a quaver, to fill 2 beats.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"C3",
+					"C3",
+					"E3",
+					"G3"
+				],
+				"values": [
+					"dotted crotchet",
+					"quaver",
+					"dotted crotchet",
+					"quaver"
+				],
+				"time": "4/4",
+				"bars": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3:3",
+					"C3",
+					"E3:3",
+					"G3"
+				],
+				"beat": 0.25
+			}
+		},
+		{
+			"text": "A tie is a curve joining two notes of the same pitch: play one note that lasts as long as both, so a minim tied to a crotchet lasts 3 beats. A curve over different notes is a slur: play them smoothly.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"G2",
+					"G2",
+					"D3"
+				],
+				"values": [
+					"minim",
+					"crotchet",
+					"crotchet"
+				],
+				"ties": [
+					0
+				],
+				"time": "4/4",
+				"bars": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G2:3",
+					"D3"
+				]
+			}
+		},
+		{
+			"text": "Worked example: C3, E3 and G3 sit in the bass clef's 2nd, 3rd and 4th spaces, and C4 on the ledger line above. That is a C major chord, broken, then middle C.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"C3",
+					"E3",
+					"G3",
+					"C4"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"E3",
+					"G3",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: find the bass clef in some piano music and name the first 4 notes of the left hand. Next: folk music."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which note is this on the bass clef?",
+			"answer": 0,
+			"hint": "Bottom line first: Good Boys Deserve Fun Always.",
+			"choices": [
+				"G",
+				"B",
+				"E",
+				"A"
+			],
+			"explain": "The bottom line of the bass clef is G.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"G2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which note is this on the bass clef?",
+			"answer": 0,
+			"hint": "The clef's two dots sit either side of this line.",
+			"choices": [
+				"F",
+				"D",
+				"A",
+				"C"
+			],
+			"explain": "The fourth line up, between the dots, is F.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"F3"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The bass clef is also called the F clef.",
+			"answer": true,
+			"hint": "Where do its two dots sit?",
+			"explain": "True: its dots mark the F line."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which instrument reads the bass clef?",
+			"answer": 0,
+			"hint": "Which one plays low notes?",
+			"choices": [
+				"the cello",
+				"the flute",
+				"the violin",
+				"the piccolo"
+			],
+			"explain": "The cello plays low, so its music is on the bass clef."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many beats does a dotted minim last?",
+			"answer": "3",
+			"hint": "A dot adds half the note again.",
+			"explain": "A minim is 2 beats and half of 2 is 1: 2 + 1 = 3, so a dotted minim lasts 3 beats."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A dotted crotchet lasts 1½ beats.",
+			"answer": true,
+			"hint": "A crotchet is 1 beat; add half of it.",
+			"explain": "True: 1 + ½, so a dotted crotchet lasts 1½ beats."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which note is this on the bass clef?",
+			"answer": 0,
+			"hint": "Lines from the bottom: Good Boys Deserve Fun Always.",
+			"choices": [
+				"D",
+				"F",
+				"B",
+				"G"
+			],
+			"explain": "The middle line is D.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"D3"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D3:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which note is this on the bass clef?",
+			"answer": 0,
+			"hint": "Spaces from the bottom: All Cows Eat Grass.",
+			"choices": [
+				"C",
+				"A",
+				"E",
+				"G"
+			],
+			"explain": "The second space is C.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"C3"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which note is this on the bass clef?",
+			"answer": 0,
+			"hint": "It sits on a ledger line below the stave: one step under the bottom space?",
+			"choices": [
+				"E",
+				"G",
+				"C",
+				"B"
+			],
+			"explain": "Below the bottom line (G) is the space F, and the ledger line below that is E.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"E2"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E2:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many beats do these notes last in all?",
+			"answer": "2",
+			"hint": "A dotted crotchet is 1½ beats; a quaver is ½.",
+			"explain": "1½ + ½ = 2 beats.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"C3",
+					"E3"
+				],
+				"values": [
+					"dotted crotchet",
+					"quaver"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: which note is lower, the first or the second?",
+			"answer": 0,
+			"hint": "Is the second note higher or lower?",
+			"choices": [
+				"the first",
+				"the second"
+			],
+			"explain": "The first is G2 and the second the G an octave above: the first is lower.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G2:2",
+					"G3:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A tie joins two notes of the same pitch into one longer note.",
+			"answer": true,
+			"hint": "Compare it with a slur.",
+			"explain": "True: play one note lasting as long as both."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which rhythm do you hear?",
+			"answer": 0,
+			"hint": "Are the notes the same length?",
+			"choices": [
+				"long-short, long-short (dotted)",
+				"all even",
+				"short-long, short-long"
+			],
+			"explain": "Dotted crotchet, quaver, twice: long-short, long-short.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3:3",
+					"C3",
+					"C3:3",
+					"C3"
+				],
+				"beat": 0.25
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many beats do these notes last in all?",
+			"answer": "5",
+			"hint": "Add each note's beats; a tie just joins two of them.",
+			"explain": "Minim 2 + crotchet 1 (tied, played as 3) + dotted crotchet 1½ + quaver ½ = 5 beats.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"G2",
+					"G2",
+					"B2",
+					"D3"
+				],
+				"values": [
+					"minim",
+					"crotchet",
+					"dotted crotchet",
+					"quaver"
+				],
+				"ties": [
+					0
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which note is the orange one?",
+			"answer": 0,
+			"hint": "Count the spaces from the bottom: A, C, E, G.",
+			"choices": [
+				"E",
+				"C",
+				"G",
+				"B"
+			],
+			"explain": "The orange note is in the third space: E.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"A2",
+					"C3",
+					"E3",
+					"G3"
+				],
+				"mark": 2
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which notes are played, from low to high?",
+			"answer": 0,
+			"hint": "Is it a major or a minor chord, broken?",
+			"choices": [
+				"C, E, G, C",
+				"A, C, E, A",
+				"G, B, D, G",
+				"E, G, B, E"
+			],
+			"explain": "C, E, G, then C again at the top: a broken C major chord.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"E3",
+					"G3",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In 3/4, a bar holds a dotted minim, or how many quavers?",
+			"answer": "6",
+			"hint": "3 beats, and 2 quavers in each beat.",
+			"explain": "3 × 2 = 6 quavers."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen: a minim tied to a crotchet. How many beats does the note sound?",
+			"answer": "3",
+			"hint": "Add the tied notes.",
+			"explain": "2 + 1 = 3 beats, one long note.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G3:3"
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "On the bass clef, order these places from the lowest note to the highest.",
+			"items": [
+				"the top line",
+				"the bottom line",
+				"the second space",
+				"the middle line"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Name each note first: lines G, B, D, F, A; spaces A, C, E, G.",
+			"explain": "The bottom line is G, the second space is C, the middle line is D and the top line is A. Higher on the stave means higher in pitch, so: G, C, D, A."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.bass_note",
+			"level": 1
+		},
+		{
+			"gen": "g7c.bass_note",
+			"level": 2
+		},
+		{
+			"gen": "g7c.bass_note",
+			"level": 3
+		},
+		{
+			"gen": "g7c.dotted_beats",
+			"level": 1
+		},
+		{
+			"gen": "g7c.dotted_beats",
+			"level": 2
+		},
+		{
+			"gen": "g7c.dotted_beats",
+			"level": 3
+		}
+	]
+}

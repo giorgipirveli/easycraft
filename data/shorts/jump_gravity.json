@@ -1,0 +1,718 @@
+{
+	"id": "jump_gravity",
+	"title": "Jump on other worlds",
+	"topic": "space",
+	"link": {
+		"star_map": true
+	},
+	"scenes": [
+		{
+			"seconds": 7.5,
+			"background": "grass",
+			"caption": "On Earth, a good jump lifts you about 30 cm.",
+			"say": "On Earth, gravity pulls you down, so a good jump lifts you about 30 centimetres.",
+			"sounds": [
+				{
+					"at": 1.0,
+					"effect": "boing"
+				},
+				{
+					"at": 3.2,
+					"effect": "boing"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "earth",
+					"at": [
+						300,
+						90
+					],
+					"size": 70,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.1
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "pip",
+					"at": [
+						150,
+						370
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.3
+						},
+						{
+							"do": "bounce",
+							"at": 1.0,
+							"dur": 0.9,
+							"height": 30,
+							"times": 1
+						},
+						{
+							"do": "bounce",
+							"at": 3.2,
+							"dur": 0.9,
+							"height": 30,
+							"times": 1
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						250,
+						380
+					],
+					"to": [
+						250,
+						350
+					],
+					"color": "yellow",
+					"width": 8,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.0,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "30 cm",
+					"at": [
+						250,
+						320
+					],
+					"size": 26,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.4
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						60,
+						200
+					],
+					"to": [
+						60,
+						330
+					],
+					"color": "red",
+					"width": 10,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 4.4,
+							"dur": 0.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "gravity",
+					"at": [
+						66,
+						170
+					],
+					"size": 22,
+					"color": "white",
+					"box": "red",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.8
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9.5,
+			"background": "space",
+			"caption": "The Moon pulls 6 times more gently: the same jump lifts you 1.8 m!",
+			"say": "On the Moon, gravity pulls about six times more gently. The same jump would lift you about 1.8 metres!",
+			"sounds": [
+				{
+					"at": 1.0,
+					"effect": "boing"
+				},
+				{
+					"at": 5.0,
+					"effect": "boing"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "earth",
+					"at": [
+						300,
+						70
+					],
+					"size": 40,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.1
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "crater",
+					"at": [
+						80,
+						420
+					],
+					"size": 90,
+					"moves": [],
+					"bleed": true
+				},
+				{
+					"kind": "shape",
+					"shape": "crater",
+					"at": [
+						290,
+						430
+					],
+					"size": 70,
+					"moves": [],
+					"bleed": true
+				},
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 380,
+					"h": 40,
+					"at": [
+						180,
+						440
+					],
+					"color": "grey",
+					"moves": [],
+					"bleed": true
+				},
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						170,
+						370
+					],
+					"size": 100,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.3
+						},
+						{
+							"do": "bounce",
+							"at": 1.0,
+							"dur": 2.8,
+							"height": 180,
+							"times": 1
+						},
+						{
+							"do": "bounce",
+							"at": 5.0,
+							"dur": 2.8,
+							"height": 180,
+							"times": 1
+						}
+					]
+				},
+				{
+					"kind": "line",
+					"from": [
+						270,
+						420
+					],
+					"to": [
+						270,
+						240
+					],
+					"color": "yellow",
+					"width": 5,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.0,
+							"dur": 0.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "1.8 m",
+					"at": [
+						290,
+						210
+					],
+					"size": 30,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.6
+						},
+						{
+							"do": "pulse",
+							"at": 3.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"caption": "Mars: about 80 cm. Tiny Pluto: about 4.7 m, as tall as a giraffe!",
+			"say": "On Mars you would jump about 80 centimetres. On tiny Pluto, about 4.7 metres: as tall as a giraffe!",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "ui_tick"
+				},
+				{
+					"at": 1.4,
+					"effect": "ui_tick"
+				},
+				{
+					"at": 2.4,
+					"effect": "ui_tick"
+				},
+				{
+					"at": 3.4,
+					"effect": "jingle_goal"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 340,
+					"h": 6,
+					"at": [
+						180,
+						412
+					],
+					"color": "white",
+					"moves": []
+				},
+				{
+					"kind": "line",
+					"from": [
+						60,
+						410
+					],
+					"to": [
+						60,
+						392
+					],
+					"color": "blue",
+					"width": 34,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 0.3,
+							"dur": 0.6
+						}
+					]
+				},
+				{
+					"kind": "line",
+					"from": [
+						140,
+						410
+					],
+					"to": [
+						140,
+						363
+					],
+					"color": "red",
+					"width": 34,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.3,
+							"dur": 0.7
+						}
+					]
+				},
+				{
+					"kind": "line",
+					"from": [
+						220,
+						410
+					],
+					"to": [
+						220,
+						301
+					],
+					"color": "grey",
+					"width": 34,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.3,
+							"dur": 0.8
+						}
+					]
+				},
+				{
+					"kind": "line",
+					"from": [
+						300,
+						410
+					],
+					"to": [
+						300,
+						125
+					],
+					"color": "cream",
+					"width": 34,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 3.3,
+							"dur": 1.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "30 cm",
+					"at": [
+						60,
+						370
+					],
+					"size": 20,
+					"color": "white",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.9
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "80 cm",
+					"at": [
+						140,
+						340
+					],
+					"size": 20,
+					"color": "white",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "1.8 m",
+					"at": [
+						220,
+						278
+					],
+					"size": 20,
+					"color": "white",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.1
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "4.7 m",
+					"at": [
+						300,
+						100
+					],
+					"size": 22,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.5
+						},
+						{
+							"do": "pulse",
+							"at": 5.2
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "earth",
+					"at": [
+						60,
+						432
+					],
+					"size": 32,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "mars",
+					"at": [
+						140,
+						432
+					],
+					"size": 32,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.2
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "moon",
+					"at": [
+						220,
+						432
+					],
+					"size": 32,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.2
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "pluto",
+					"at": [
+						300,
+						432
+					],
+					"size": 32,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.2
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "pip",
+					"at": [
+						100,
+						180
+					],
+					"size": 90,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 5.0
+						},
+						{
+							"do": "bounce",
+							"at": 5.6,
+							"dur": 1.6,
+							"height": 60,
+							"times": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8.5,
+			"background": "space",
+			"caption": "Jupiter pulls hardest: a jump would lift you only about 12 cm.",
+			"say": "Jupiter pulls hardest: a jump would lift you only about 12 centimetres, if it had ground to stand on.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "thud"
+				},
+				{
+					"at": 3.0,
+					"effect": "boing"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "jupiter",
+					"at": [
+						180,
+						180
+					],
+					"size": 200,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "spin",
+							"at": 0.6,
+							"dur": 7.8,
+							"turns": 0.05
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "pip",
+					"at": [
+						180,
+						380
+					],
+					"size": 90,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.6
+						},
+						{
+							"do": "bounce",
+							"at": 3.0,
+							"dur": 0.5,
+							"height": 12,
+							"times": 1
+						},
+						{
+							"do": "bounce",
+							"at": 4.5,
+							"dur": 0.5,
+							"height": 12,
+							"times": 1
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "12 cm",
+					"at": [
+						290,
+						360
+					],
+					"size": 26,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 6,
+			"background": "space",
+			"caption": "Where in space would you most like to jump?",
+			"say": "Where in space would you most like to try a jump?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "moon",
+					"at": [
+						70,
+						120
+					],
+					"size": 60,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "mars",
+					"at": [
+						180,
+						90
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.4
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "pluto",
+					"at": [
+						290,
+						120
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.6
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						180,
+						320
+					],
+					"size": 130,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.8
+						},
+						{
+							"do": "bounce",
+							"at": 1.6,
+							"dur": 1.6,
+							"height": 70,
+							"times": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

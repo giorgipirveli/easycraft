@@ -1,0 +1,534 @@
+{
+	"id": "g6.music.intervals",
+	"lesson": [
+		{
+			"text": "Quick memory: in a melody, what is a leap? (A jump over one note or more.) Today: measuring the jumps between notes: intervals."
+		},
+		{
+			"text": "An interval is the distance between two notes. Count the letters from the lower note up to the higher one, counting both: C, D, E is 3 letters, so C up to E is a third.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"C4",
+					"E4"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"E4:2"
+				]
+			}
+		},
+		{
+			"text": "C to the next D is a second, a step. C up to G is a fifth: the jump at the start of Twinkle, Twinkle.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"C4",
+					"G4"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"C4",
+					"G4",
+					"G4",
+					"A4",
+					"A4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"text": "An octave is 8 letter names, from C up to the next C. The two notes sound so alike they share a name; the higher one vibrates twice as fast.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"C4",
+					"C5"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"text": "Hear them: a step sounds like walking, and a third like a small skip. A fifth sounds open and strong. An octave sounds like the same note, higher."
+		},
+		{
+			"text": "Worked example: on the stave, the notes are E and B. Count E, F, G, A, B: 5 letters, so E up to B is a fifth.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"E4",
+					"B4"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4:2",
+					"B4:2"
+				]
+			}
+		},
+		{
+			"text": "Intervals build chords: a major chord is a root with the notes a third and a fifth above it. The C major chord is C, E and G.",
+			"picture": {
+				"kind": "chord_stave",
+				"chords": [
+					[
+						"C4",
+						"E4",
+						"G4"
+					]
+				],
+				"names": [
+					"C"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:3"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: sing the start of a song you know and find its first jump: a step, a third, a fifth or an octave? Next: the blues."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What interval is marked?",
+			"answer": 0,
+			"hint": "Count the letters, both ends too.",
+			"choices": [
+				"second",
+				"third",
+				"fifth",
+				"octave"
+			],
+			"explain": "C, D: 2 letters, a second (a step).",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"C4",
+					"D4"
+				],
+				"names": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen: is the jump a step or an octave?",
+			"answer": 0,
+			"hint": "Does the second note sound like the same note, higher?",
+			"choices": [
+				"a step",
+				"an octave"
+			],
+			"explain": "It moved from C to the very next note, D: a step.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"D4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen: two notes, low then high. Is the jump a step, a third, a fifth or an octave?",
+			"answer": 0,
+			"hint": "Does it sound like the same note again, higher?",
+			"choices": [
+				"an octave",
+				"a step",
+				"a third",
+				"a fifth"
+			],
+			"explain": "C up to the next C: the same note name, higher. An octave.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "C up to E is a third.",
+			"answer": true,
+			"hint": "Count C, D, E.",
+			"explain": "True: C, D, E is 3 letters, a third."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many letter names are in an octave, counting both ends (C up to the next C)?",
+			"answer": "8",
+			"hint": "Say the letter names from C up to the next C, and count them.",
+			"explain": "C, D, E, F, G, A, B, C: 8 letters."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: low then high. Is the jump a step, a third, a fifth or an octave?",
+			"answer": 0,
+			"hint": "It is the jump at the start of Twinkle, Twinkle.",
+			"choices": [
+				"a fifth",
+				"a step",
+				"a third",
+				"an octave"
+			],
+			"explain": "C up to G: C, D, E, F, G is 5 letters, a fifth.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: low then high. Is the jump a step, a third, a fifth or an octave?",
+			"answer": 0,
+			"hint": "A small skip, like the first two notes of a chord.",
+			"choices": [
+				"a third",
+				"a step",
+				"a fifth",
+				"an octave"
+			],
+			"explain": "F up to A: F, G, A is 3 letters, a third.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"F4:2",
+					"A4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What interval is it from the lower note up to the higher one?",
+			"answer": 0,
+			"hint": "Read the notes' letters, then count them.",
+			"choices": [
+				"fifth",
+				"fourth",
+				"sixth",
+				"third"
+			],
+			"explain": "D up to A: D, E, F, G, A is 5 letters, a fifth.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"D4",
+					"A4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What interval is it from the lower note up to the higher one?",
+			"answer": 0,
+			"hint": "Are the notes next to each other?",
+			"choices": [
+				"second",
+				"third",
+				"unison",
+				"fourth"
+			],
+			"explain": "G up to A: 2 letters, a second.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"G4",
+					"A4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What interval is marked?",
+			"answer": 0,
+			"hint": "Count the white keys' letters.",
+			"choices": [
+				"third",
+				"second",
+				"fourth",
+				"fifth"
+			],
+			"explain": "E, F, G: 3 letters, a third.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"E4",
+					"G4"
+				],
+				"names": true
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each pair of notes to its interval.",
+			"items": [
+				"C up to D",
+				"C up to E",
+				"C up to G",
+				"C up to the next C"
+			],
+			"matches": [
+				"an octave",
+				"a second",
+				"a third",
+				"a fifth"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Count the letters, both ends too.",
+			"explain": "C to D is 2 letters, C to E 3, C to G 5 and C to C 8: a second, a third, a fifth and an octave."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen: low then high. Is the jump a step, a third, a fifth or an octave?",
+			"answer": 0,
+			"hint": "Open and strong, not the same note again.",
+			"choices": [
+				"a fifth",
+				"an octave",
+				"a third",
+				"a step"
+			],
+			"explain": "A up to E: A, B, C, D, E is 5 letters, a fifth.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A3:2",
+					"E4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen: low then high. Is the jump a step, a third, a fifth or an octave?",
+			"answer": 0,
+			"hint": "Does the second note share the first one's name?",
+			"choices": [
+				"an octave",
+				"a fifth",
+				"a third",
+				"a step"
+			],
+			"explain": "D up to the next D: an octave.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D4:2",
+					"D5:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What interval is it from the lower note up to the higher one?",
+			"answer": 0,
+			"hint": "Read both notes, then count the letters from the lower.",
+			"choices": [
+				"third",
+				"second",
+				"fourth",
+				"fifth"
+			],
+			"explain": "B up to D: B, C, D is 3 letters, a third.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"B4",
+					"D5"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What interval is it from the lower note up to the higher one?",
+			"answer": 0,
+			"hint": "Read both notes, then count the letters from the lower.",
+			"choices": [
+				"fourth",
+				"third",
+				"fifth",
+				"sixth"
+			],
+			"explain": "C up to F: C, D, E, F is 4 letters, a fourth.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"F4"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A note vibrates 220 times a second. How many times a second does the note an octave above it vibrate?",
+			"answer": "440",
+			"hint": "An octave higher vibrates twice as fast.",
+			"explain": "220 × 2 = 440 times a second."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which interval is it from G up to the next D?",
+			"answer": 0,
+			"hint": "Count G, A, B, C, D.",
+			"choices": [
+				"a fifth",
+				"a fourth",
+				"a sixth",
+				"a third"
+			],
+			"explain": "G, A, B, C, D is 5 letters: a fifth."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A major chord is built from a root with the notes a third and a fifth above it.",
+			"answer": true,
+			"hint": "Think of C, E and G.",
+			"explain": "True: C (root), E (a third up) and G (a fifth up)."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Listen to three jumps up from C. Order them from the smallest to the biggest.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"G4",
+					"-",
+					"C4",
+					"E4",
+					"-",
+					"C4",
+					"C5"
+				]
+			},
+			"items": [
+				"the first jump",
+				"the second jump",
+				"the third jump"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Hum each pair: the further apart the two notes, the bigger the jump.",
+			"explain": "The second jump, C up to E, is a third: the smallest. The first, C up to G, is a fifth. The third, C up to the next C, is an octave: the biggest."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the intervals: small (a second or a third) or big (a fifth or an octave)?",
+			"groups": [
+				"a second or a third",
+				"a fifth or an octave"
+			],
+			"items": [
+				"C up to D",
+				"D up to A",
+				"E up to G",
+				"F up to the next F",
+				"A up to E",
+				"B up to C"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Count the letters from the lower note up to the higher one, counting both.",
+			"explain": "C to D and B to C are 2 letters: seconds. E to G is 3: a third. D to A and A to E are 5: fifths. F to the next F is 8: an octave."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A flute's A vibrates 440 times a second. The flute then plays the A two octaves higher. How many vibrations a second is that?",
+			"answer": "1760",
+			"hint": "Each octave up doubles the vibrations. Double it, then double it again.",
+			"explain": "One octave up: 440 × 2 = 880. Two octaves up: 880 × 2 = 1,760 times a second."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Build the F major chord from the bottom: root, then a third up, then a fifth up.",
+			"items": [
+				"C",
+				"F",
+				"A"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Start on the root F, then count up 3 letters, then 5 letters, counting F each time.",
+			"explain": "F is the root. F, G, A: A is a third up. F, G, A, B, C: C is a fifth up. So the F major chord is F, A and C."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.interval_size",
+			"level": 1
+		},
+		{
+			"gen": "g6c.interval_size",
+			"level": 2
+		},
+		{
+			"gen": "g6c.interval_size",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,321 @@
+{
+	"id": "g6.art.medieval_world_art",
+	"lesson": [
+		{
+			"text": "Quick memory: what are the small tiles of a mosaic called? (Tesserae.) Today: art from around the world, from 500 to 1500."
+		},
+		{
+			"text": "In monasteries, monks copied books by hand on parchment. They illuminated them: big decorated capitals, bright colours and real gold that catches the light. The Book of Kells was made around 800.",
+			"picture": {
+				"kind": "illuminated",
+				"letter": "B"
+			}
+		},
+		{
+			"text": "Their paints came from nature: blue from a stone called lapis lazuli, carried all the way from Afghanistan; red from minerals; ink from oak galls. They wrote with quill pens made from feathers."
+		},
+		{
+			"text": "Islamic artists covered mosques and palaces with geometric patterns, flowing plants and beautiful writing, drawn with just a compass and a ruler. The Alhambra palace in Spain (1300s) is famous for them.",
+			"picture": {
+				"kind": "star_pattern",
+				"points": 8
+			}
+		},
+		{
+			"text": "In the Kingdom of Benin, in today's Nigeria, skilled casters made brass heads and plaques for the Oba, the king. They made them from about the 1200s, by the lost-wax method. Benin City's casters still work today."
+		},
+		{
+			"text": "Lost-wax casting: model the shape in wax over a clay core, and cover it in clay. Heat it so the wax melts out, and pour hot metal into the gap. Then break the mould to free the metal shape."
+		},
+		{
+			"text": "In China, Song dynasty painters (960-1279) painted mountains and water in ink: shan shui, mountain-water. Mist is left as empty paper, far hills are pale, and a tiny traveller shows how vast nature is.",
+			"picture": {
+				"kind": "ink_landscape",
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: design an illuminated first letter of your name with a border of vines. Or build a tiled floor with an eight-pointed star in your world. Next: geometric patterns."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an illuminated manuscript?",
+			"answer": 0,
+			"hint": "Illuminate means light up. What lit up the pages?",
+			"choices": [
+				"a hand-made book with colour and gold",
+				"a book with a lamp inside",
+				"a printed newspaper",
+				"a painting on a wall"
+			],
+			"explain": "It is a book copied by hand and lit up with bright colours and real gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Monks in Europe copied books by hand because there were no printing presses there yet.",
+			"answer": true,
+			"hint": "Printing came to Europe around 1450.",
+			"explain": "True: before printing, every book was copied by hand."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What kind of Chinese painting is this?",
+			"answer": 0,
+			"hint": "Mountains, mist and water in ink.",
+			"choices": [
+				"shan shui: mountain-water",
+				"a mosaic",
+				"a stained glass window",
+				"a brass plaque"
+			],
+			"explain": "It is shan shui, mountain-water painting, in ink on a scroll.",
+			"picture": {
+				"kind": "ink_landscape"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where would you see a pattern like this eight-pointed star?",
+			"answer": 0,
+			"hint": "Geometry drawn with a compass and ruler.",
+			"choices": [
+				"on Islamic tiles and walls",
+				"in a Chinese landscape",
+				"on a Benin brass head",
+				"on a Greek vase"
+			],
+			"explain": "Eight-pointed stars are found on Islamic tiles, as at the Alhambra.",
+			"picture": {
+				"kind": "star_pattern",
+				"points": 8
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each art to where it was made.",
+			"items": [
+				"illuminated books",
+				"brass heads and plaques",
+				"shan shui paintings",
+				"geometric tile patterns"
+			],
+			"matches": [
+				"the Kingdom of Benin",
+				"Song dynasty China",
+				"the Alhambra in Spain",
+				"monasteries in Europe"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Monks, the Oba, ink mountains and a palace in Spain.",
+			"explain": "Illuminated books came from monasteries, brass heads from Benin, shan shui from Song China and tiled geometry from the Alhambra."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of lost-wax casting in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "The wax must be gone before the metal goes in.",
+			"items": [
+				"cover it in clay",
+				"pour in hot metal",
+				"model it in wax",
+				"heat it so the wax melts out",
+				"break the clay mould"
+			],
+			"explain": "Wax model, clay coat, melt the wax out, pour the metal, break the mould."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the Chinese landscape: tap a word, then its number.",
+			"hint": "Far things are pale and high up; mist is the empty band; the traveller is tiny.",
+			"explain": "Pale peaks at the top are the far mountains, the empty band is mist, the dark slopes are the near mountains and the tiny figure is the traveller.",
+			"picture": {
+				"kind": "ink_landscape"
+			},
+			"spots": [
+				[
+					0.9423,
+					0.207,
+					0.5,
+					0.207
+				],
+				[
+					0.9423,
+					0.447,
+					0.5,
+					0.4112
+				],
+				[
+					0.0577,
+					0.6066,
+					0.4432,
+					0.6066
+				],
+				[
+					0.9423,
+					0.7176,
+					0.5804,
+					0.7176
+				]
+			],
+			"labels": [
+				"mist",
+				"near mountains",
+				"traveller",
+				"far mountains"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are the far mountains in shan shui painted pale?",
+			"answer": 0,
+			"hint": "Think of hills on a misty day.",
+			"choices": [
+				"pale things look far away",
+				"the ink ran out",
+				"they are made of snow",
+				"to hide them"
+			],
+			"explain": "Far-away things look paler, so pale ink makes them seem far."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Islamic geometric patterns were drawn with just a compass and a ruler.",
+			"answer": true,
+			"hint": "Think of the eight dots on a circle.",
+			"explain": "True: circles and straight lines build every star and tile."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where did the blue for illuminated books often come from?",
+			"answer": 0,
+			"hint": "It was precious, carried very far.",
+			"choices": [
+				"lapis lazuli, a stone from Afghanistan",
+				"blueberries",
+				"the sea",
+				"plastic paint"
+			],
+			"explain": "Lapis lazuli, ground into powder, came all the way from Afghanistan."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The Book of Kells was made around the year 800. How many years is it from 800 to 2026?",
+			"answer": "1226",
+			"hint": "Take the smaller year away from the bigger one.",
+			"explain": "2026 − 800 = 1226 years."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How is this eight-pointed star built?",
+			"answer": 0,
+			"hint": "Join every second point on the circle.",
+			"choices": [
+				"from two squares, one turned 45°",
+				"from eight circles",
+				"from a triangle and a circle",
+				"from four hexagons"
+			],
+			"explain": "Joining every second point makes two squares, one turned 45°.",
+			"picture": {
+				"kind": "star_pattern",
+				"points": 8,
+				"stage": 2
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The Benin plaques were carved from wood.",
+			"answer": false,
+			"hint": "What did the casters pour into their moulds?",
+			"explain": "False: they were cast in brass with the lost-wax method."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In shan shui painting, what does the tiny traveller show?",
+			"answer": 0,
+			"hint": "Compare the traveller with the mountains.",
+			"choices": [
+				"how vast nature is next to people",
+				"who painted it",
+				"the painting's price",
+				"where the mist is"
+			],
+			"explain": "The tiny figure makes the mountains feel huge: people are small in nature."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these artworks in time order, oldest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Read the dates in brackets.",
+			"items": [
+				"Benin's brass plaques (1500s)",
+				"the Alhambra's palaces (1300s)",
+				"Fan Kuan's mountains (about 1000)",
+				"the Book of Kells (about 800)"
+			],
+			"explain": "About 800, about 1000, the 1300s, then the 1500s."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does illuminated mean for these books?",
+			"answer": 0,
+			"hint": "What catches the light on the page?",
+			"choices": [
+				"lit up with gold and bright colour",
+				"written by candlelight",
+				"burned at the edges",
+				"printed by a machine"
+			],
+			"explain": "The gold and bright colours make the page seem to glow with light."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A monk copies one page a day, every day. How many weeks does a 350-page book take?",
+			"answer": "50",
+			"hint": "How many pages in one week?",
+			"explain": "7 pages a week, and 350 ÷ 7 = 50 weeks: nearly a year."
+		}
+	],
+	"generators": []
+}

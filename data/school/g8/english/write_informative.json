@@ -1,0 +1,370 @@
+{
+	"id": "g8.english.write_informative",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you planned an information page. What does a caption do? (It says what a picture or a diagram shows.) Today: explain a complex idea so that anyone can follow it."
+		},
+		{
+			"text": "Start with an introduction that says what the reader will learn, and why it matters. Then give each part its own section, under a heading that tells the reader what is in it.",
+			"picture": {
+				"kind": "info_page",
+				"title": "How volcanoes work",
+				"heading": "What is magma?",
+				"caption": "Magma rises up the vent.",
+				"glossary": [
+					"magma",
+					"vent",
+					"crater"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Organise by the idea's shape. A process goes in time order; causes and effects use “because” and “as a result”; a comparison uses “similarly” and “in contrast”; a problem leads to a solution.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"shape",
+						"signal words"
+					],
+					[
+						"time order",
+						"first, next, finally"
+					],
+					[
+						"cause and effect",
+						"because, as a result"
+					],
+					[
+						"compare",
+						"similarly, in contrast"
+					],
+					[
+						"problem",
+						"one answer is"
+					]
+				]
+			}
+		},
+		{
+			"text": "Add graphics that teach: a labelled diagram for parts, a flowchart for a process, a table to compare. Use a graph for numbers and a map for places. Refer to each one (“Figure 1 shows…”) and give it a caption."
+		},
+		{
+			"text": "Choose precise words. Use the subject's own terms, like “evaporates” and “condenses”, not “goes up” and “turns back”. Define a hard term the first time: “Magma (melted rock underground) rises…”"
+		},
+		{
+			"text": "Develop each section with facts, definitions, examples and quotations from experts. Join the ideas with transitions: “for example”, “as a result”, “in contrast”, “however”."
+		},
+		{
+			"text": "Keep a formal, calm tone. End with a conclusion that pulls the ideas together and says why they matter: “Volcanoes destroy, but they also build new land.”",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"introduction",
+					"a section for each part",
+					"graphics with captions",
+					"conclusion"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: write a one-page guide to how something in your world works, with headings, one diagram with a caption and two defined words. Next: craft a narrative."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should an explanation's introduction do?",
+			"choices": [
+				"say what the reader will learn",
+				"give every fact at once",
+				"end the text",
+				"list the sources"
+			],
+			"answer": 0,
+			"hint": "Think about what a reader needs before the details.",
+			"explain": "An introduction tells the reader what they will learn and why it matters, so they can follow the rest."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each kind of information to its graphic.",
+			"items": [
+				"a process, step by step",
+				"the parts of a machine",
+				"numbers to compare",
+				"places on Earth"
+			],
+			"matches": [
+				"a labelled diagram",
+				"a bar chart",
+				"a map",
+				"a flowchart"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Steps want arrows, parts want labels, amounts want bars and places want a map.",
+			"explain": "A process suits a flowchart, parts a labelled diagram, numbers a bar chart, and places a map."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A heading tells the reader what a section is about.",
+			"answer": true,
+			"hint": "What is a heading for, on a page full of text?",
+			"explain": "True: a clear heading lets the reader see what each section explains and find it again."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word is the most precise in this explanation? “Water vapour ___ into tiny drops in a cloud.”",
+			"choices": [
+				"condenses",
+				"goes",
+				"does",
+				"turns about"
+			],
+			"answer": 0,
+			"hint": "Which word would a scientist use?",
+			"explain": "“Condenses” is the exact term for a gas turning into a liquid."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the transitions by their job.",
+			"groups": [
+				"time order",
+				"cause and effect",
+				"comparing"
+			],
+			"items": [
+				"as a result",
+				"first",
+				"in contrast",
+				"next",
+				"similarly",
+				"because of this"
+			],
+			"answer": [
+				1,
+				0,
+				2,
+				0,
+				2,
+				1
+			],
+			"hint": "Does each one move on in time, give a reason, or set two things side by side?",
+			"explain": "“First” and “next” show time order; “as a result” and “because of this” show cause and effect; “in contrast” and “similarly” compare."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which sentence defines a hard term for the reader?",
+			"choices": [
+				"Lava, melted rock on the surface, cools fast.",
+				"Lava is a word that scientists use.",
+				"Lava is very hot and stuff.",
+				"Lava is in many places."
+			],
+			"answer": 0,
+			"hint": "A definition says exactly what the word means.",
+			"explain": "It says what lava is, melted rock on the surface, right where the word first appears."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the sections of an explanation of how a volcano erupts.",
+			"items": [
+				"Conclusion: why it matters",
+				"How pressure builds up",
+				"How magma forms underground",
+				"What happens when it erupts",
+				"Introduction: what a volcano is"
+			],
+			"answer": [
+				4,
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "Follow the process from start to finish, inside an introduction and a conclusion.",
+			"explain": "The introduction, then magma forming, pressure building and the eruption, in time order, then the conclusion."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which heading best fits a section about what makes magma rise?",
+			"choices": [
+				"Why magma rises",
+				"Volcanoes",
+				"Some more things",
+				"Part 2"
+			],
+			"answer": 0,
+			"hint": "A good heading tells you exactly what the section explains.",
+			"explain": "“Why magma rises” names the section's exact topic; the others are too vague to help a reader."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A figure should be mentioned in the text, not just placed on the page.",
+			"answer": true,
+			"hint": "How does the reader know when to look at it?",
+			"explain": "True: “Figure 1 shows…” tells the reader when to look, and what to notice."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each structure to its signal words.",
+			"items": [
+				"time order",
+				"cause and effect",
+				"compare and contrast",
+				"problem and solution"
+			],
+			"matches": [
+				"similarly, in contrast",
+				"the issue, one answer",
+				"because, as a result",
+				"first, then, finally"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "Each structure has its own words for joining ideas.",
+			"explain": "Time order: first, then, finally. Cause and effect: because, as a result. Compare: similarly, in contrast. Problem and solution: the issue, and one answer."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the best caption for a diagram of the water cycle?",
+			"choices": [
+				"Figure 2: water moves from sea to sky to land.",
+				"A nice picture.",
+				"Diagram.",
+				"Look at this!"
+			],
+			"answer": 0,
+			"hint": "A caption says what the graphic shows.",
+			"explain": "It names the figure and says what it shows; the others tell the reader nothing."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which sentence is the most precise?",
+			"choices": [
+				"The cables carry the deck's load to the towers.",
+				"The bridge has stuff that holds it up.",
+				"Things hold the bridge up somehow.",
+				"The bridge is really strong."
+			],
+			"answer": 0,
+			"hint": "Look for the sentence with exact names for the parts and what they do.",
+			"explain": "It names the parts (cables, deck, towers) and says exactly what they do; the others are vague."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the sentences: formal and precise, or chatty and vague?",
+			"groups": [
+				"formal and precise",
+				"chatty and vague"
+			],
+			"items": [
+				"Magma rises because it is less dense.",
+				"Volcanoes are, like, super scary.",
+				"Loads of stuff comes out.",
+				"Ash can travel hundreds of kilometres.",
+				"The vent carries magma to the surface.",
+				"It's basically a mountain that explodes."
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Look for exact terms and a calm tone, or slang and fuzzy words.",
+			"explain": "The sentences about magma, the vent and the ash use exact terms in a calm tone; “like”, “loads of stuff” and “basically” are chatty and vague."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order a paragraph that develops one idea.",
+			"items": [
+				"Reason: it is less dense than rock.",
+				"Link: as a result, pressure builds.",
+				"Example: like a cork in water.",
+				"Topic sentence: magma rises."
+			],
+			"answer": [
+				3,
+				0,
+				2,
+				1
+			],
+			"hint": "Say the idea, give the reason, show an example, then link to what follows.",
+			"explain": "A topic sentence, then the reason, then an example that makes it clear, then a link to the next idea."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You are explaining the heart to 8-year-olds. What should change?",
+			"choices": [
+				"simpler words, with hard terms defined",
+				"more slang",
+				"no pictures",
+				"longer sentences"
+			],
+			"answer": 0,
+			"hint": "Think about who will read it.",
+			"explain": "Younger readers need simpler words, and every hard term defined; a clear picture helps too."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A conclusion should add lots of new facts.",
+			"answer": false,
+			"hint": "What is a conclusion for?",
+			"explain": "False: it pulls the main ideas together and says why they matter; new facts belong in the sections."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8k.graphic_pick",
+			"level": 1
+		},
+		{
+			"gen": "g8k.graphic_pick",
+			"level": 2
+		},
+		{
+			"gen": "g8k.graphic_pick",
+			"level": 3
+		},
+		{
+			"gen": "g8k.precise_word",
+			"level": 1
+		},
+		{
+			"gen": "g8k.precise_word",
+			"level": 2
+		},
+		{
+			"gen": "g8k.precise_word",
+			"level": 3
+		}
+	]
+}

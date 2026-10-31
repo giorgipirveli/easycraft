@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EasyCraft: no internet</title>
+<!-- Owner #93: the page the offline worker shows when this device has not kept the whole game yet (a first visit
+     that was cut short). After one full visit the game itself opens without the internet (tools/export_web.sh). -->
+<style>
+html, body { margin: 0; height: 100%; }
+body {
+	display: flex; align-items: center; justify-content: center;
+	background: linear-gradient(#5fb8ff, #139e9b); color: #ffffff;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif; text-align: center;
+}
+.card { max-width: 34rem; margin: 1rem; padding: 2rem 1.5rem; background: rgba(20, 28, 48, 0.86); border-radius: 1.5rem; }
+h1 { margin: 0 0 1rem; font-size: 2rem; color: #ffd166; }
+p { margin: 0.8rem 0; font-size: 1.25rem; line-height: 1.5; }
+button {
+	margin-top: 1.5rem; padding: 1rem 2.5rem; font-size: 1.3rem; font-weight: bold; color: #ffffff;
+	background: #2eaa4f; border: none; border-radius: 1rem; box-shadow: 0 6px 0 #1d7a36; cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="card">
+	<h1>EasyCraft needs the internet once</h1>
+	<p>The first time, EasyCraft downloads itself onto this device. Connect to the internet and open it again.</p>
+	<p>After that, you can play alone without the internet: Sandbox, Survivor, Monster Wave and the School.</p>
+	<button type="button" onclick="window.location.reload()">TRY AGAIN</button>
+</div>
+<script>
+window.addEventListener('online', function () { window.location.reload(); });
+</script>
+</body>
+</html>

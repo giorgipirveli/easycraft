@@ -1,0 +1,339 @@
+{
+	"id": "g7.history.printing_press",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met Bi Sheng of Song China. What did he make, about 1040? (Movable type of baked clay.) Today: how a press with metal type changed Europe from the 1450s."
+		},
+		{
+			"text": "Before printing, every book in Europe was copied by hand, often by monks and scribes. A long book took months, so books were rare and costly. In Korea, the book Jikji was printed with metal type in 1377: the oldest such book that survives."
+		},
+		{
+			"text": "In Mainz, Germany, about 1450, Johannes Gutenberg built a printing press. He cast letters in metal and set them in rows. He inked them, laid paper on top and turned a big screw to press it down. The type could be used again and again.",
+			"picture": {
+				"kind": "hand_press",
+				"view": "press",
+				"labels": true
+			}
+		},
+		{
+			"text": "Each piece of type is a mirror image of its letter. A line is set backwards, right to left, so the page prints the right way round. Printers picked the letters quickly from cases with a box for each letter.",
+			"picture": {
+				"kind": "hand_press",
+				"view": "type",
+				"word": "Books"
+			}
+		},
+		{
+			"text": "Gutenberg's Bible was printed about 1455: perhaps 180 copies, of which 49 survive. A press could print about 3,600 pages a working day, when a scribe copied a few. By 1500, presses in over 250 European towns had printed more than 20 million books."
+		},
+		{
+			"text": "William Caxton set up the first press in England, at Westminster, in 1476, and printed Chaucer's Canterbury Tales. Printing slowly fixed English spelling, because readers everywhere saw the same words spelt the same way.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1350,
+				"to": 1550,
+				"step": 50,
+				"events": [
+					[
+						1377,
+						"Jikji is printed"
+					],
+					[
+						1455,
+						"Gutenberg's Bible"
+					],
+					[
+						1476,
+						"Caxton's press"
+					],
+					[
+						1517,
+						"Luther's new ideas"
+					]
+				]
+			}
+		},
+		{
+			"text": "Cheaper books meant more people learned to read, and ideas spread faster than ever: news sheets, maps, science, and new beliefs about the Church, such as Martin Luther's in 1517, reached thousands of readers within weeks."
+		},
+		{
+			"text": "Try it in the world: build a print shop with a press, cases of letter blocks and a line of pages drying. Set a sign's word backwards, letter by letter, as a printer would. Next: the Renaissance."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What did Gutenberg make his type from?",
+			"answer": 0,
+			"hint": "He cast them, like tiny statues.",
+			"choices": [
+				"metal letters cast in moulds",
+				"baked clay",
+				"carved wooden pages",
+				"wax"
+			],
+			"explain": "Metal letters cast in moulds: they lasted and could be used again and again."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In which town did Gutenberg build his press?",
+			"answer": 0,
+			"hint": "It is on the river Rhine.",
+			"choices": [
+				"Mainz, in Germany",
+				"London",
+				"Florence",
+				"Beijing"
+			],
+			"explain": "Mainz, in Germany, on the river Rhine: Gutenberg built his press there about 1450."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Before printing presses, books in Europe were copied by hand.",
+			"answer": true,
+			"hint": "Think of monks and scribes.",
+			"explain": "True: every copy was written out by hand, which took months."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who set up the first printing press in England, in 1476?",
+			"answer": 0,
+			"hint": "He printed The Canterbury Tales at Westminster.",
+			"choices": [
+				"William Caxton",
+				"Henry VIII",
+				"Leonardo da Vinci",
+				"Johannes Kepler"
+			],
+			"explain": "William Caxton, at Westminster in 1476. He printed Chaucer's Canterbury Tales there."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does the screw of a hand press do?",
+			"answer": 0,
+			"hint": "Follow the screw down to the platen.",
+			"choices": [
+				"presses the paper down onto the inked type",
+				"cuts the paper",
+				"mixes the ink",
+				"turns the pages"
+			],
+			"explain": "Turning the screw pushes the platen down, pressing the paper onto the inked type.",
+			"picture": {
+				"kind": "hand_press",
+				"view": "press",
+				"labels": true,
+				"mark": "screw"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Jikji was printed in Korea in 1377, and the Gutenberg Bible about 1455. About how many years apart were they?",
+			"answer": "78",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1455 − 1377 = 78 years."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which word will this type print?",
+			"answer": 0,
+			"hint": "Flip each letter and read the line from the other end.",
+			"choices": [
+				"ink",
+				"kni",
+				"nki"
+			],
+			"explain": "The type reads k, n, i flipped; the page reads “ink”.",
+			"picture": {
+				"kind": "hand_press",
+				"view": "type",
+				"word": "ink",
+				"print": false
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of printing a page in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "The type must be ready and inked before the paper goes on.",
+			"items": [
+				"dab ink onto the type",
+				"turn the screw to press",
+				"set the type in rows",
+				"lay the paper on top",
+				"hang the page to dry"
+			],
+			"explain": "Set the type, ink it, lay the paper, press, then dry the page."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A press prints about 3,600 pages a working day. How many pages in 5 days?",
+			"answer": "18000",
+			"hint": "Multiply the pages a day by the days.",
+			"explain": "3,600 × 5 = 18,000 pages."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each to what it is.",
+			"items": [
+				"Jikji",
+				"Gutenberg Bible",
+				"The Canterbury Tales",
+				"Bi Sheng"
+			],
+			"matches": [
+				"clay type, about 1040",
+				"metal type in Korea, 1377",
+				"Mainz, about 1455",
+				"printed by Caxton"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Two are in Asia, two in Europe.",
+			"explain": "Jikji: Korea, 1377. Gutenberg Bible: Mainz, about 1455. Caxton printed The Canterbury Tales. Bi Sheng: clay type."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is a line of type set backwards?",
+			"answer": 0,
+			"hint": "What happens to writing when you press it onto paper, like a stamp?",
+			"choices": [
+				"so the page prints the right way round",
+				"to save ink",
+				"to hide secrets",
+				"so the press turns faster"
+			],
+			"explain": "Pressing flips it, like a stamp, so type is set as a mirror and the page reads the right way."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How did printing help science to grow?",
+			"answer": 0,
+			"hint": "Think of hundreds of identical copies travelling to other towns.",
+			"choices": [
+				"scientists shared the same results quickly",
+				"it made experiments shorter",
+				"printers did the experiments",
+				"it stopped people disagreeing"
+			],
+			"explain": "Printed books let scientists everywhere read the same results and pictures, check them and build on them."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Printing made books cost more.",
+			"answer": false,
+			"hint": "Compare 3,600 pages a day with a few by hand.",
+			"explain": "False: printing made books far cheaper, so many more people could own and read them."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: before printing presses, or after?",
+			"groups": [
+				"before",
+				"after"
+			],
+			"items": [
+				"books copied by scribes",
+				"hundreds of identical copies",
+				"few people own a book",
+				"news sheets sold in the street",
+				"a book takes months to copy",
+				"spellings begin to settle"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Printing made many identical copies quickly and cheaply.",
+			"explain": "Before: scribes, few books, months to copy. After: identical copies, news sheets, settling spelling."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Gutenberg printed perhaps 180 Bibles, and 49 survive. How many are lost?",
+			"answer": "131",
+			"hint": "Take the ones that survive from the ones printed.",
+			"explain": "180 − 49 = 131."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A printer needs to print the letter b. What does its piece of type look like?",
+			"answer": 0,
+			"hint": "Flip a b from left to right in your mind.",
+			"choices": [
+				"like a d",
+				"like a b",
+				"like a p",
+				"like a q"
+			],
+			"explain": "A b flipped left to right looks like a d, so the type looks like a d and prints a b."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.print_run",
+			"level": 1
+		},
+		{
+			"gen": "g7h.print_run",
+			"level": 2
+		},
+		{
+			"gen": "g7h.print_run",
+			"level": 3
+		},
+		{
+			"gen": "g7h.mirror_type",
+			"level": 1
+		},
+		{
+			"gen": "g7h.mirror_type",
+			"level": 2
+		},
+		{
+			"gen": "g7h.mirror_type",
+			"level": 3
+		},
+		{
+			"gen": "g7h.early_modern_order",
+			"level": 1
+		},
+		{
+			"gen": "g7h.early_modern_order",
+			"level": 2
+		},
+		{
+			"gen": "g7h.early_modern_order",
+			"level": 3
+		}
+	]
+}

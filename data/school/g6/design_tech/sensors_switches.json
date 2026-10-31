@@ -1,0 +1,419 @@
+{
+	"id": "g6.design_tech.sensors_switches",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you controlled a model with a program. What are the three parts of a control system? (Input, process and output.) Today: the sensors and switches that make products react."
+		},
+		{
+			"text": "A control system has an input: a sensor or switch notices a change. It has a process: a microcontroller or circuit decides what to do. And it has an output: a lamp, buzzer or motor acts.",
+			"picture": {
+				"kind": "sensor_system",
+				"input": "light",
+				"process": "IF dark",
+				"output": "lamp"
+			}
+		},
+		{
+			"text": "A light sensor notices how bright it is. One kind, a light-dependent resistor (LDR), lets more electricity through in bright light. A night light uses one: when it gets dark, the lamp comes on."
+		},
+		{
+			"text": "A temperature sensor, such as a thermistor, measures how hot or cold it is: its resistance changes with the temperature. A frost alarm beeps when it is freezing; a fan turns on when a room gets hot."
+		},
+		{
+			"text": "A threshold is the level that switches the output. IF light < 30 THEN lamp on: as the evening gets darker, the reading falls below the dashed line, and the lamp comes on.",
+			"picture": {
+				"kind": "threshold_graph",
+				"readings": [
+					80,
+					62,
+					41,
+					24,
+					12
+				],
+				"labels": [
+					"4 pm",
+					"5 pm",
+					"6 pm",
+					"7 pm",
+					"8 pm"
+				],
+				"threshold": 30,
+				"name": "light level"
+			}
+		},
+		{
+			"text": "More inputs: a moisture sensor (is the soil dry?) and a sound sensor. A motion sensor (PIR) notices warm bodies moving. A tilt switch, and a reed switch, which a magnet closes."
+		},
+		{
+			"text": "Switches: a push-to-make switch works while you press it, like a doorbell. A push-to-break switch turns off while pressed: a closed fridge door holds its switch, so the light is off until the door opens.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Switch",
+						"Pressed",
+						"Let go"
+					],
+					[
+						"push-to-make",
+						"on",
+						"off"
+					],
+					[
+						"push-to-break",
+						"off",
+						"on"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a street with lamps that come on at night, and a pressure plate that opens a door. For real: spot the sensors at home: the fridge light, a night light, a smoke alarm. Next: food science."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put a control system in order.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Notice, decide, act.",
+			"items": [
+				"process",
+				"input",
+				"output"
+			],
+			"explain": "Input (notice a change), process (decide), output (act)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sensor would a night light use?",
+			"answer": 0,
+			"hint": "What changes when night comes?",
+			"choices": [
+				"a light sensor",
+				"a sound sensor",
+				"a moisture sensor",
+				"a tilt switch"
+			],
+			"explain": "A light sensor: it notices when it gets dark."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "An output is the part that acts, like a lamp, a buzzer or a motor.",
+			"answer": true,
+			"hint": "Input, process, output.",
+			"explain": "True: the output does something the user can see, hear or feel."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A room gets hot, and something should cool it. What is the hidden output?",
+			"answer": 0,
+			"hint": "What cools a room?",
+			"choices": [
+				"a fan",
+				"a lamp",
+				"a buzzer",
+				"a light sensor"
+			],
+			"explain": "A fan: a temperature sensor notices the heat, and the fan turns on.",
+			"picture": {
+				"kind": "sensor_system",
+				"input": "heat",
+				"output": "fan",
+				"hide": "output"
+			}
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the plant waterer's system: tap a word, then its number.",
+			"picture": {
+				"kind": "sensor_system",
+				"input": "moisture",
+				"output": "pump",
+				"headings": false
+			},
+			"spots": [
+				[
+					0.15,
+					0.1,
+					0.1499,
+					0.554
+				],
+				[
+					0.5,
+					0.1,
+					0.5,
+					0.554
+				],
+				[
+					0.85,
+					0.1,
+					0.8501,
+					0.554
+				]
+			],
+			"labels": [
+				"process",
+				"output",
+				"input"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "What notices, what decides, and what acts?",
+			"explain": "The moisture sensor is the input, the microcontroller is the process, and the water pump is the output."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which input would a burglar alarm use to notice someone moving?",
+			"answer": 0,
+			"hint": "What is the alarm watching for?",
+			"choices": [
+				"a motion sensor",
+				"a light sensor",
+				"a moisture sensor",
+				"a tilt switch"
+			],
+			"explain": "A motion sensor (PIR): it notices warm bodies moving."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "IF light < 30 THEN lamp on. At what time does the lamp first come on?",
+			"answer": 0,
+			"hint": "Find the first reading below the dashed line.",
+			"choices": [
+				"7 pm",
+				"6 pm",
+				"8 pm",
+				"5 pm"
+			],
+			"explain": "At 7 pm the light is 24, below 30 for the first time.",
+			"picture": {
+				"kind": "threshold_graph",
+				"readings": [
+					80,
+					62,
+					41,
+					24,
+					12
+				],
+				"labels": [
+					"4 pm",
+					"5 pm",
+					"6 pm",
+					"7 pm",
+					"8 pm"
+				],
+				"threshold": 30,
+				"name": "light level"
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each input to what it notices.",
+			"items": [
+				"an LDR",
+				"a thermistor",
+				"a moisture sensor",
+				"a reed switch"
+			],
+			"matches": [
+				"how hot it is",
+				"how wet the soil is",
+				"a magnet nearby",
+				"how bright it is"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Light, heat, water, magnet.",
+			"explain": "LDR: light. Thermistor: heat. Moisture sensor: wet soil. Reed switch: a magnet."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A fridge light uses a push-to-break switch: the closed door holds it off.",
+			"answer": true,
+			"hint": "When is the fridge light on?",
+			"explain": "True: open the door, the switch is released, and the light comes on."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Input or output?",
+			"groups": [
+				"input",
+				"output"
+			],
+			"items": [
+				"a light sensor",
+				"a buzzer",
+				"a push switch",
+				"a motor",
+				"a thermistor",
+				"an LED"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it notice something, or do something?",
+			"explain": "Inputs notice: the light sensor, the switch, the thermistor. Outputs act: the buzzer, the motor, the LED."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "IF temperature > 20 THEN fan on. On how many days is the fan on?",
+			"answer": "4",
+			"hint": "Count the readings above the dashed line.",
+			"explain": "22, 25, 23 and 21 are above 20: 4 days (Tue, Wed, Fri, Sun).",
+			"picture": {
+				"kind": "threshold_graph",
+				"readings": [
+					14,
+					22,
+					25,
+					19,
+					23,
+					17,
+					21
+				],
+				"labels": [
+					"Mon",
+					"Tue",
+					"Wed",
+					"Thu",
+					"Fri",
+					"Sat",
+					"Sun"
+				],
+				"threshold": 20,
+				"below": false,
+				"top": 40,
+				"name": "temperature (°C)"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A plant pot waters itself. Which rule belongs in its program?",
+			"answer": 0,
+			"hint": "When does a plant need water?",
+			"choices": [
+				"IF soil is dry THEN pump on",
+				"IF soil is wet THEN pump on",
+				"IF it is dark THEN pump on",
+				"IF it is noisy THEN pump on"
+			],
+			"explain": "IF soil is dry THEN pump on: water only when the soil needs it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A lamp should come on at 6 pm, not before. Readings: 5 pm 52, 6 pm 38, 7 pm 21. Which number works in IF light < ? THEN lamp on?",
+			"answer": 0,
+			"hint": "At 6 pm the reading must be below the number; at 5 pm it must not be.",
+			"choices": [
+				"45",
+				"30",
+				"60",
+				"20"
+			],
+			"explain": "45: 38 is below 45, but 52 is not. With 60 it comes on at 5 pm; with 30 or 20, too late."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "An LDR lets more electricity through in bright light than in the dark.",
+			"answer": true,
+			"hint": "Light-dependent: its resistance depends on the light.",
+			"explain": "True: in bright light its resistance is low, so more current flows."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "A frost alarm: put what happens in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "It starts with the weather.",
+			"items": [
+				"the buzzer sounds",
+				"the reading passes the threshold",
+				"the sensor's reading falls",
+				"the air gets colder"
+			],
+			"explain": "The air cools, the reading falls, it passes the threshold, and the buzzer sounds."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does the hidden part of this system do?",
+			"answer": 0,
+			"hint": "It sits between the sensor and the lamp.",
+			"choices": [
+				"decides what the output should do",
+				"notices a change",
+				"makes a sound",
+				"gives power"
+			],
+			"explain": "The process: it reads the sensor and decides whether to switch the lamp on.",
+			"picture": {
+				"kind": "sensor_system",
+				"input": "light",
+				"output": "lamp",
+				"hide": "process"
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.sensor_pick",
+			"level": 1
+		},
+		{
+			"gen": "g6w.sensor_pick",
+			"level": 2
+		},
+		{
+			"gen": "g6w.sensor_pick",
+			"level": 3
+		},
+		{
+			"gen": "g6w.threshold_check",
+			"level": 1
+		},
+		{
+			"gen": "g6w.threshold_check",
+			"level": 2
+		},
+		{
+			"gen": "g6w.threshold_check",
+			"level": 3
+		}
+	]
+}

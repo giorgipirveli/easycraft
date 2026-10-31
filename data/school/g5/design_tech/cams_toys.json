@@ -1,0 +1,322 @@
+{
+	"id": "g5.design_tech.cams_toys",
+	"lesson": [
+		{
+			"text": "Quick memory: in a moving picture, what does a lever turn about? (A pivot.) Today: cams, which turn a turning movement into an up-and-down one."
+		},
+		{
+			"text": "Machines move in four ways. Rotary: turning round. Linear: in a straight line. Reciprocating: up and down, or backwards and forwards. Oscillating: swinging to and fro, like a pendulum."
+		},
+		{
+			"text": "A cam is a shaped piece fixed to an axle. As a handle turns the axle, the cam turns, and its edge pushes a rod, the follower, up and down. The follower rests on the cam, in a guide.",
+			"picture": {
+				"kind": "cam",
+				"shape": "round",
+				"labels": true
+			}
+		},
+		{
+			"text": "The cam's shape decides the movement. A round cam with its axle off-centre lifts the follower smoothly up and down, once every turn.",
+			"picture": {
+				"kind": "cam",
+				"shape": "round",
+				"turn": 120,
+				"graph": true
+			}
+		},
+		{
+			"text": "A pear-shaped cam keeps the follower still for most of the turn, then lifts and drops it once. An oval cam lifts it twice every turn.",
+			"picture": {
+				"kind": "cam",
+				"shape": "pear",
+				"turn": 60,
+				"graph": true
+			}
+		},
+		{
+			"text": "A snail cam lifts the follower slowly, then lets it drop suddenly. It must only turn one way, or the follower jams against its step.",
+			"picture": {
+				"kind": "cam",
+				"shape": "snail",
+				"turn": 240,
+				"graph": true
+			}
+		},
+		{
+			"text": "A cam toy: a box frame, with an axle across it and a handle. Cams sit on the axle, and followers poke up through a guide, each with a figure on top. Cams set at different angles move the figures one after another."
+		},
+		{
+			"text": "Try it in the world: build a giant cam toy with a turning wheel of blocks and a figure that bobs up and down. For real: make a card box, a dowel axle and a card cam, and design a figure for the top."
+		}
+	],
+	"exercises": [
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each movement to its name.",
+			"items": [
+				"turning round",
+				"in a straight line",
+				"up and down",
+				"swinging like a pendulum"
+			],
+			"matches": [
+				"linear",
+				"reciprocating",
+				"oscillating",
+				"rotary"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Picture each one: a wheel, a sliding door, a pump, a swing.",
+			"explain": "Turning: rotary. Straight: linear. Up and down: reciprocating. Swinging: oscillating."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What rests on a cam and moves up and down?",
+			"answer": 0,
+			"hint": "It follows the cam's edge.",
+			"choices": [
+				"the follower",
+				"the axle",
+				"the handle",
+				"the frame"
+			],
+			"explain": "The follower rides on the cam's edge, up and down."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A cam turns a turning movement into an up-and-down movement.",
+			"answer": true,
+			"hint": "What does the axle do, and what does the follower do?",
+			"explain": "True: the axle turns (rotary), and the follower goes up and down (reciprocating)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What shape of cam is this?",
+			"answer": 0,
+			"hint": "Look at the outline: is it long, pointed, or does it have a step?",
+			"choices": [
+				"oval",
+				"snail",
+				"pear-shaped",
+				"round, off-centre"
+			],
+			"explain": "Oval: a stretched circle.",
+			"picture": {
+				"kind": "cam",
+				"shape": "oval",
+				"turn": 30
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which cam makes the follower rise slowly and then drop suddenly?",
+			"answer": 0,
+			"hint": "Which cam has a step in its edge?",
+			"choices": [
+				"a snail cam",
+				"an oval cam",
+				"a round cam",
+				"a pear-shaped cam"
+			],
+			"explain": "A snail cam: its edge grows slowly round the turn, then drops at the step."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "An oval cam turns 4 times. How many times does the follower rise?",
+			"answer": "8",
+			"hint": "How many times does an oval cam lift the follower in one turn?",
+			"explain": "Twice a turn: 4 × 2 = 8 rises.",
+			"picture": {
+				"kind": "cam",
+				"shape": "oval"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which cam lifts its follower twice in every turn?",
+			"answer": 0,
+			"hint": "Which shape has two far points, opposite each other?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "cam",
+						"shape": "oval"
+					}
+				},
+				{
+					"picture": {
+						"kind": "cam",
+						"shape": "round"
+					}
+				},
+				{
+					"picture": {
+						"kind": "cam",
+						"shape": "snail"
+					}
+				},
+				{
+					"picture": {
+						"kind": "cam",
+						"shape": "pear"
+					}
+				}
+			],
+			"explain": "The oval: its two long ends each lift the follower, so it rises twice every turn."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A snail cam can turn either way.",
+			"answer": false,
+			"hint": "What would happen when the step turns into the follower?",
+			"explain": "False: turned the wrong way, the follower jams against the step. It must turn one way only."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put making a cam toy in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start with what holds everything.",
+			"items": [
+				"fit the axle and handle",
+				"put the follower in its guide",
+				"build the box frame",
+				"fix the cam on the axle",
+				"add the figure on top"
+			],
+			"explain": "The frame, the axle and handle, the cam, the follower in its guide, then the figure."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Rotary or reciprocating?",
+			"groups": [
+				"rotary (turning)",
+				"reciprocating"
+			],
+			"items": [
+				"a turning handle",
+				"a follower going up and down",
+				"a spinning wheel",
+				"a sewing machine's needle",
+				"a turning axle",
+				"a figure bobbing up and down"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it go round and round, or up and down?",
+			"explain": "Rotary: the handle, the wheel, the axle. Reciprocating: the follower, the needle, the bobbing figure."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two cams on one axle point different ways. What happens?",
+			"answer": 0,
+			"hint": "Each cam's far point reaches the top at a different moment.",
+			"choices": [
+				"the figures rise at different times",
+				"they move exactly together",
+				"the axle cannot turn",
+				"nothing moves"
+			],
+			"explain": "The figures rise one after the other, because each cam's far point comes round at a different time."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A pear-shaped cam turns 7 times. How many times does the follower rise?",
+			"answer": "7",
+			"hint": "How many times does a pear-shaped cam lift the follower in one turn?",
+			"explain": "Once a turn: 7 × 1 = 7 rises."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does the follower need a guide?",
+			"answer": 0,
+			"hint": "What would the rod do without anything to hold it?",
+			"choices": [
+				"to keep it moving straight up and down",
+				"to make it heavier",
+				"to slow the handle down",
+				"to hold the cam"
+			],
+			"explain": "The guide keeps the follower moving straight up and down, so it does not fall over or wobble off the cam."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A car engine uses cams to open and close its valves.",
+			"answer": true,
+			"hint": "Cams are not only in toys.",
+			"explain": "True: a camshaft's cams push the engine's valves open and let them close, again and again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You want a figure to stay still, then pop up once each turn. Which cam?",
+			"answer": 0,
+			"hint": "Which cam keeps the follower still for most of the turn?",
+			"choices": [
+				"pear-shaped",
+				"oval",
+				"round, off-centre",
+				"none of them"
+			],
+			"explain": "Pear-shaped: its round part keeps the follower still, and its nose pops it up once."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A cam's edge is 3 cm from its axle at the nearest point and 5 cm at the farthest. How far does the follower rise, in cm?",
+			"answer": "2",
+			"hint": "The follower goes from the nearest edge to the farthest edge.",
+			"explain": "5 − 3 = 2 cm.",
+			"picture": {
+				"kind": "cam",
+				"shape": "round",
+				"labels": true,
+				"turn": 180
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.cam_rises",
+			"level": 1
+		},
+		{
+			"gen": "g5w.cam_rises",
+			"level": 2
+		},
+		{
+			"gen": "g5w.cam_rises",
+			"level": 3
+		}
+	]
+}

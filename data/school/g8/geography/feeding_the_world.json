@@ -1,0 +1,389 @@
+{
+	"id": "g8.geography.feeding_the_world",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met how water is used. Roughly how much of the fresh water people take goes to farming? (About 70 in every 100 litres.) Today: farming systems, water in our food, food miles, and feeding over 8 billion people."
+		},
+		{
+			"text": "A farm is a system: inputs (seeds, water, sunlight, work, machines), processes (ploughing, sowing, milking, harvesting) and outputs (crops, milk, meat). Arable farms grow crops, pastoral farms keep animals, and mixed farms do both.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"inputs",
+					"processes",
+					"outputs"
+				],
+				"title": "A farm is a system"
+			}
+		},
+		{
+			"text": "Subsistence farmers grow food mainly for their own family; commercial farmers grow it to sell. Intensive farms put many inputs on small areas, such as greenhouses. Extensive farms use few inputs over huge areas, such as sheep stations."
+		},
+		{
+			"text": "From the 1960s the Green Revolution brought high-yield seeds, fertilisers and irrigation, and harvests in Asia and Latin America grew fast. A Chinese scientist's hybrid rice fed many millions more. But it used much more water and chemicals."
+		},
+		{
+			"text": "Food takes water to grow. A kilogram of beef needs about 15,400 litres, chicken about 4,300, rice 2,500, bread 1,600 and potatoes only about 290. This hidden water is called virtual water.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"beef",
+						15400
+					],
+					[
+						"chicken",
+						4300
+					],
+					[
+						"rice",
+						2500
+					],
+					[
+						"bread",
+						1600
+					],
+					[
+						"potatoes",
+						290
+					]
+				],
+				"step": 2000,
+				"top": 16000,
+				"name": "Litres of water for 1 kg"
+			}
+		},
+		{
+			"text": "Food miles are how far food travels from farm to plate. Flying fresh food across the world adds the most pollution; ships add far less for each kilogram. Local, seasonal food often has fewer food miles, but how it is grown matters too.",
+			"picture": {
+				"kind": "voyage_map",
+				"window": {
+					"lat": [
+						-10,
+						60
+					],
+					"long": [
+						-90,
+						45
+					]
+				},
+				"lat_step": 20,
+				"long_step": 45,
+				"routes": [
+					{
+						"name": "beans by air",
+						"points": [
+							[
+								-1,
+								37
+							],
+							[
+								51,
+								0
+							]
+						]
+					},
+					{
+						"name": "bananas by sea",
+						"points": [
+							[
+								10,
+								-84
+							],
+							[
+								10,
+								-60
+							],
+							[
+								51,
+								0
+							]
+						]
+					}
+				],
+				"places": [
+					{
+						"lat": 51,
+						"long": 0,
+						"label": "London"
+					},
+					{
+						"lat": -1,
+						"long": 37,
+						"label": "Kenya"
+					},
+					{
+						"lat": 10,
+						"long": -84,
+						"label": "Costa Rica"
+					}
+				]
+			}
+		},
+		{
+			"text": "About 8.2 billion people live on Earth. In 2024 about 670 million went hungry, while about a third of all food was lost or wasted. Food security means everyone always having enough safe, healthy food."
+		},
+		{
+			"text": "Try it in the world: read the rice scientist's story in Success Stories, on the Story Shelf. Then plan a farm in your world: crops in one field, animals in another, and a water channel. Next: cities of the future."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do arable farms do?",
+			"choices": [
+				"make cars",
+				"keep animals",
+				"grow crops",
+				"catch fish"
+			],
+			"answer": 2,
+			"hint": "Think of fields of wheat and barley.",
+			"explain": "Arable farms grow crops such as wheat, barley and potatoes."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "1 kg of potatoes takes about 290 litres of water. How many litres for 2 kg?",
+			"answer": "580",
+			"hint": "Multiply the litres for 1 kg by the kilograms.",
+			"explain": "290 × 2 = 580 litres."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Subsistence farmers grow food mainly to sell abroad.",
+			"answer": false,
+			"hint": "Think who eats a subsistence farm's food.",
+			"explain": "False: subsistence farmers grow food mainly for their own family."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What are food miles?",
+			"choices": [
+				"a kind of tractor",
+				"how far food travels to your plate",
+				"the size of a farm",
+				"how fast farmers walk"
+			],
+			"answer": 1,
+			"hint": "Think of the journey from the farm to your table.",
+			"explain": "Food miles are the distance food travels from where it is grown to where it is eaten."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these into a farm's inputs, processes and outputs.",
+			"groups": [
+				"input",
+				"process",
+				"output"
+			],
+			"items": [
+				"harvesting",
+				"milk",
+				"rain",
+				"wheat",
+				"seeds",
+				"ploughing"
+			],
+			"answer": [
+				1,
+				2,
+				0,
+				2,
+				0,
+				1
+			],
+			"hint": "What goes in, what is done, and what comes out?",
+			"explain": "Inputs: seeds, rain. Processes: ploughing, harvesting. Outputs: milk, wheat."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "1 kg of beef takes about 15,400 litres of water and 1 kg of chicken about 4,300. How many litres are saved by choosing chicken?",
+			"answer": "11100",
+			"hint": "Take the smaller amount from the bigger one.",
+			"explain": "15,400 − 4,300 = 11,100 litres."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each kind of farming to an example.",
+			"items": [
+				"arable",
+				"pastoral",
+				"mixed",
+				"intensive"
+			],
+			"matches": [
+				"a big greenhouse",
+				"a sheep station",
+				"crops and cattle together",
+				"a wheat field"
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "Crops, animals, both, and many inputs on a small area.",
+			"explain": "Arable: wheat. Pastoral: sheep. Mixed: crops and cattle. Intensive: a greenhouse."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do strawberries flown across the world cause so much pollution?",
+			"choices": [
+				"planes burn a lot of fuel per kilogram",
+				"they grow in the dark",
+				"strawberries are heavy",
+				"ships are faster"
+			],
+			"answer": 0,
+			"hint": "Compare a plane and a ship carrying the same kilogram.",
+			"explain": "Flying burns far more fuel for each kilogram carried than shipping does."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these foods in order of water used for 1 kg, least first.",
+			"items": [
+				"bread",
+				"rice",
+				"beef",
+				"chicken",
+				"potatoes"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				3,
+				2
+			],
+			"hint": "Look at the bar graph on the lesson's card.",
+			"explain": "290, 1,600, 2,500, 4,300, then 15,400 litres."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "About a third of all food is lost or wasted.",
+			"answer": true,
+			"hint": "Look back at the card about food security.",
+			"explain": "True: food is lost on farms and in transport, and wasted in shops and homes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What was one downside of the Green Revolution?",
+			"choices": [
+				"harvests got smaller",
+				"farms stopped using seeds",
+				"rice disappeared",
+				"it used much more water and chemicals"
+			],
+			"answer": 3,
+			"hint": "Think about what high-yield crops needed to grow so well.",
+			"explain": "High-yield crops needed more irrigation water, fertilisers and pesticides."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "About 670 million of the world's 8,200 million people went hungry in 2024. About how many in every 100 is that? Round to a whole number.",
+			"answer": "8",
+			"hint": "Divide the hungry by everyone, then multiply by 100.",
+			"explain": "670 ÷ 8,200 × 100 is about 8, so about 8 in every 100."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is local food not always lower in carbon?",
+			"choices": [
+				"heated greenhouses can use more energy",
+				"local farms are bigger",
+				"it never is lower",
+				"local food travels further"
+			],
+			"answer": 0,
+			"hint": "Think of growing tomatoes in a cold winter.",
+			"explain": "Growing out of season in heated greenhouses can use more energy than shipping from a sunny country."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: intensive or extensive farming?",
+			"groups": [
+				"intensive",
+				"extensive"
+			],
+			"items": [
+				"a huge sheep station",
+				"a shed of 10,000 chickens",
+				"reindeer herding on the tundra",
+				"rice terraces tended by hand",
+				"a big greenhouse of tomatoes",
+				"cattle roaming open grassland"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Many inputs on a small area, or few inputs over a huge one?",
+			"explain": "Intensive: greenhouses, chicken sheds, rice terraces. Extensive: sheep stations, open cattle grazing, reindeer herding."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Food security means everyone always has enough safe, healthy food.",
+			"answer": true,
+			"hint": "Look back at the last teaching card.",
+			"explain": "True: enough food, safe and healthy, for everyone, all the time."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.virtual_water",
+			"level": 1
+		},
+		{
+			"gen": "g8h.virtual_water",
+			"level": 2
+		},
+		{
+			"gen": "g8h.virtual_water",
+			"level": 3
+		},
+		{
+			"gen": "g8h.farm_type",
+			"level": 1
+		},
+		{
+			"gen": "g8h.farm_type",
+			"level": 2
+		},
+		{
+			"gen": "g8h.farm_type",
+			"level": 3
+		},
+		{
+			"gen": "g8h.farm_scale",
+			"level": 1
+		},
+		{
+			"gen": "g8h.farm_scale",
+			"level": 2
+		},
+		{
+			"gen": "g8h.farm_scale",
+			"level": 3
+		}
+	]
+}

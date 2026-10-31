@@ -1,0 +1,24 @@
+{
+	"id": "life.world.dog_signs",
+	"lesson": [
+		{"text": "Quick memory: what do you do if a dog runs at you? (Be a tree.) Today: how dogs talk with their bodies, the farm, wasps and snakes."},
+		{"text": "A relaxed dog: a loose body, a soft face, a gently wagging tail. A dog saying 'leave me alone': a stiff body, a hard stare, lips pulled back, the tail held high. Give it space."},
+		{"text": "Most dogs don't like hugs: arms round the neck feel like being trapped. Ask the owner, let it sniff your hand, stroke its side."},
+		{"text": "Near cows with calves, walk calmly round the edge of the field. Never walk behind a horse. Wasps: move away slowly, no swatting."},
+		{"text": "A snake on the path: step back slowly and leave it alone. A swollen face or trouble breathing after a sting: call {number}."},
+		{"text": "Try it in the world: open the park, the farm and the hill path. Next: the hills, guard dogs and stings, on the Big track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "Which dog wants space?", "answer": 0, "choices": ["a stiff body and a hard stare", "a loose, wiggly body", "a play bow"], "hint": "Stiff means worried.", "explain": "The stiff, staring one."},
+		{"type": "truefalse", "level": 1, "prompt": "Most dogs love a hug from someone they don't know.", "answer": false, "hint": "A hug can feel like a trap.", "explain": "False: ask, sniff, stroke instead."},
+		{"type": "choice", "level": 1, "prompt": "A dog runs towards you. You...", "answer": 0, "choices": ["be a tree", "run fast", "shout and wave"], "hint": "Running makes it chase.", "explain": "Be a tree."},
+		{"type": "choice", "level": 2, "prompt": "A play bow (bottom up, front legs down) means...", "answer": 0, "choices": ["it wants to play", "it is angry", "it is asleep"], "hint": "A happy invitation.", "explain": "It wants to play."},
+		{"type": "sort", "level": 2, "prompt": "Warning sign, or relaxed?", "groups": ["warning sign", "relaxed"], "items": ["lips pulled back", "a soft face", "a tail held high and stiff", "a loose body"], "answer": [0, 1, 0, 1], "hint": "Stiff and tense, or loose and soft?", "explain": "Lips back and a stiff high tail are warnings."},
+		{"type": "choice", "level": 2, "prompt": "Your path crosses a field of cows with calves. You...", "answer": 0, "choices": ["walk calmly round the edge", "run across the middle", "stroke the calves"], "hint": "Cows protect their calves.", "explain": "Calmly round the edge."},
+		{"type": "truefalse", "level": 2, "prompt": "Swatting a wasp makes it less likely to sting.", "answer": false, "hint": "It feels attacked.", "explain": "False: move away slowly."},
+		{"type": "order", "level": 3, "prompt": "A dog runs at you: put it in order.", "answer": [1, 2, 0], "items": ["walk away slowly when it goes", "stand still like a tree", "fold your arms in and look at your feet"], "hint": "Still first.", "explain": "Stand still, arms in, eyes down, then walk away slowly."},
+		{"type": "choice", "level": 3, "prompt": "A snake lies on the path. You...", "answer": 0, "choices": ["step back slowly and go round", "poke it with a stick", "pick it up"], "hint": "Give it space.", "explain": "Step back and go round."},
+		{"type": "choice", "level": 3, "prompt": "After a sting, a friend's lips swell and breathing sounds strange. You...", "answer": 0, "choices": ["get a grown-up and call {number}", "wait and see", "give them a drink"], "hint": "It can be an allergy emergency.", "explain": "Call {number} straight away."},
+		{"type": "truefalse", "level": 3, "prompt": "A dog that is eating may guard its food.", "answer": true, "hint": "Leave eating dogs alone.", "explain": "True: never take a dog's food or bowl."}
+	]
+}

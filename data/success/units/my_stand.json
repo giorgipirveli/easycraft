@@ -1,0 +1,25 @@
+{
+	"id": "life.money.my_stand",
+	"lesson": [
+		{"text": "Quick memory: at My Money Stall, what did you say when a customer paid? (Thank you!) Today your stand grows."},
+		{"text": "A sign tells people what you sell. It must be true: BREAD AND CAKES, not TOYS."},
+		{"text": "Ask first: \"Hello! What would you like?\" Then you know what people want."},
+		{"text": "A fair price is what it cost to make, and a little more. Too much and nobody can pay."},
+		{"text": "Give the right change, coin by coin, and say thank you."},
+		{"text": "Keep some coins to buy flour. Then you can make more bread tomorrow."},
+		{"text": "Try it in the practice room: run your own stand."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "A customer comes. What do you say first?", "answer": 0, "choices": ["Hello! What would you like?", "Buy my cake!", "Nothing"], "hint": "Ask first.", "explain": "Ask what they would like."},
+		{"type": "truefalse", "level": 1, "prompt": "A sign should tell the truth about what you sell.", "answer": true, "hint": "Honest signs.", "explain": "True."},
+		{"type": "choice", "level": 1, "prompt": "Which sign is right for a bread stand?", "answer": 0, "choices": ["BREAD AND CAKES", "TOYS", "A blank sign"], "hint": "What do you sell?", "explain": "BREAD AND CAKES tells the truth."},
+		{"type": "choice", "level": 1, "prompt": "A cake cost 1 coin to make. A fair price?", "answer": 0, "choices": ["2 coins", "20 coins", "0 coins"], "hint": "The cost and a little more.", "explain": "2 coins: the cost and a little more."},
+		{"type": "number", "level": 2, "prompt": "Bread is 2 coins. Mo gives you 5. How much change?", "answer": "3", "hint": "5 take away 2.", "explain": "5 - 2 = 3 coins."},
+		{"type": "number", "level": 2, "prompt": "Two customers each pay 2 coins. How many coins in the cash box?", "answer": "4", "hint": "2 and 2.", "explain": "2 + 2 = 4."},
+		{"type": "truefalse", "level": 2, "prompt": "If you spend every coin, you can still buy flour tomorrow.", "answer": false, "hint": "Keep some.", "explain": "False: keep some for flour."},
+		{"type": "order", "level": 2, "prompt": "A sale: put it in order.", "answer": [1, 0, 3, 2], "items": ["give the right thing", "ask what they want", "say thank you", "take the coins"], "hint": "Ask first.", "explain": "Ask, give it, take the coins, say thank you."},
+		{"type": "number", "level": 3, "prompt": "You took 4 coins and kept 2 for flour. How many are left for you?", "answer": "2", "hint": "4 take away 2.", "explain": "4 - 2 = 2: your profit."},
+		{"type": "choice", "level": 3, "prompt": "A customer asks for pies. You only sell bread and cakes. You say...", "answer": 0, "choices": ["Sorry, no pies. Bread or a cake?", "Yes! (and give a cake)", "Go away"], "hint": "Honest and kind.", "explain": "Be honest, then offer what you have."},
+		{"type": "sort", "level": 3, "prompt": "Fair price or not?", "groups": ["fair", "not fair"], "items": ["2 coins for a 1-coin cake", "20 coins for a 1-coin cake", "0 coins: no money for flour", "3 coins for a 2-coin loaf"], "answer": [0, 1, 1, 0], "hint": "The cost and a little more.", "explain": "A fair price is the cost and a little more."}
+	]
+}

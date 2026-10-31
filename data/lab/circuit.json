@@ -1,0 +1,23 @@
+{
+	"id": "circuit",
+	"title": "A simple circuit",
+	"card": "Light a bulb with a battery.",
+	"units": ["g4.science.circuits", "g4.science.energy_moves", "g5.science.electric_systems", "g8.science.circuits_voltage",
+		"g4.design_tech.electric_products", "g4.projects.light_and_sound_show"],
+	"supplies": {"glass": 1},
+	"predict": {
+		"type": "choice",
+		"prompt": "The bulb is lit. What will happen if you make a gap in one of the wires?",
+		"choices": ["The bulb goes out", "The bulb stays lit", "The bulb gets brighter"],
+		"answer": 0
+	},
+	"scene": {"kind": "circuit", "wires": 3, "bulbs": 2},
+	"try": "Tap the switch to close the loop. Tap a wire to take it out and make a gap. Then add a second bulb.",
+	"safety": "Only ever experiment with small batteries. Never play with plugs or sockets: the electricity in the walls is dangerous.",
+	"result": "The bulb lit only when the loop was closed. A gap or an open switch put it out. Two bulbs in one loop both lit, but more dimly.",
+	"why": [
+		"Electricity flows only round a complete loop, called a circuit: from the battery, through the wires and the bulb, and back to the battery.",
+		"A switch is a gap you can open and close. Open, it breaks the loop and the light goes out. Closed, the electricity flows again.",
+		"With two bulbs in one loop, they share the battery's push, so each glows more dimly. Wires are made of copper because metals let electricity through easily."
+	]
+}

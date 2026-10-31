@@ -1,0 +1,432 @@
+{
+	"id": "g7.maths.primes_estimation",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you found the greatest common factor (GCF). What is the GCF of 12 and 18? It is 6. In Britain it is called the highest common factor (HCF)."
+		},
+		{
+			"text": "A prime number has exactly two factors: 1 and itself. 2, 3, 5, 7, 11 and 13 are prime. 1 is not, and 9 is not (3 × 3). Every whole number above 1 is a product of primes in just one way.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"number",
+						"its factors",
+						"prime?"
+					],
+					[
+						"7",
+						"1, 7",
+						"yes"
+					],
+					[
+						"9",
+						"1, 3, 9",
+						"no"
+					],
+					[
+						"13",
+						"1, 13",
+						"yes"
+					],
+					[
+						"15",
+						"1, 3, 5, 15",
+						"no"
+					]
+				]
+			}
+		},
+		{
+			"text": "A factor tree splits a number again and again until every branch ends in a prime. 60 = 2 × 30 = 2 × 2 × 15 = 2 × 2 × 3 × 5. With powers, 60 = 2² × 3 × 5.",
+			"picture": {
+				"kind": "factor_tree",
+				"n": 60,
+				"powers": true
+			}
+		},
+		{
+			"text": "To find the HCF, put both numbers' primes in a Venn diagram. 60 = 2² × 3 × 5 and 84 = 2² × 3 × 7. The shared primes sit in the middle: HCF = 2 × 2 × 3 = 12.",
+			"picture": {
+				"kind": "prime_venn",
+				"a": 60,
+				"b": 84,
+				"show": "hcf"
+			}
+		},
+		{
+			"text": "The lowest common multiple (LCM) uses every prime in the diagram once: LCM = 2 × 2 × 3 × 5 × 7 = 420. The HCF shares things into equal groups; the LCM finds when things line up again.",
+			"picture": {
+				"kind": "prime_venn",
+				"a": 60,
+				"b": 84,
+				"show": "lcm"
+			}
+		},
+		{
+			"text": "Rounding: 3.14159 is 3.14 to 2 decimal places. Significant figures count from the first digit that is not 0: 0.004072 is 0.0041 to 2 significant figures, and 48,350 is 48,000.",
+			"picture": {
+				"kind": "number_line",
+				"from": "3.14",
+				"to": "3.15",
+				"step": "0.001",
+				"dot": "3.14159",
+				"labels": "ends"
+			}
+		},
+		{
+			"text": "Estimate before you calculate: round every number to 1 significant figure. 48.7 × 21.3 is about 50 × 20 = 1,000. The exact answer is 1,037.31, so a calculator showing 103.731 has slipped a decimal point."
+		},
+		{
+			"text": "Try it in the world: count a build's blocks and write the number as a product of primes. In LIFE, My Money Stall: estimate a basket's total before you pay, rounding each price to 1 significant figure. Next: adding and subtracting integers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which number is prime?",
+			"choices": [
+				"23",
+				"21",
+				"27",
+				"1"
+			],
+			"answer": 0,
+			"hint": "A prime has exactly two factors. Try dividing each number by 2, 3, 5 and 7.",
+			"explain": "23 has only the factors 1 and 23. 21 = 3 × 7, 27 = 3 × 9, and 1 has only one factor."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "1 is a prime number.",
+			"answer": false,
+			"hint": "Count its factors: a prime needs exactly two.",
+			"explain": "False: 1 has only one factor, itself, so it is not prime."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the numbers: prime or not prime?",
+			"groups": [
+				"prime",
+				"not prime"
+			],
+			"items": [
+				"51",
+				"17",
+				"29",
+				"1",
+				"9",
+				"2"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Try dividing by 2, 3, 5 and 7, and remember how many factors 1 has.",
+			"explain": "Prime: 2, 17 and 29. Not prime: 9 = 3 × 3, 51 = 3 × 17, and 1, which has only one factor."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is 2³ × 5?",
+			"answer": "40",
+			"hint": "Work out 2³ first: three 2s multiplied together.",
+			"explain": "2³ = 2 × 2 × 2 = 8, and 8 × 5 = 40."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each number to its product of primes.",
+			"items": [
+				"12",
+				"18",
+				"20",
+				"30"
+			],
+			"matches": [
+				"2² × 5",
+				"2 × 3 × 5",
+				"2² × 3",
+				"2 × 3²"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Multiply out each product of primes and see which number it makes.",
+			"explain": "2² × 3 is 12; 2 × 3² is 18; 2² × 5 is 20; 2 × 3 × 5 is 30."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Round 3.476 to 1 decimal place.",
+			"answer": "3.5",
+			"hint": "Look at the second decimal place: 5 or more rounds up.",
+			"explain": "The digit after the first decimal place is 7, so 3.476 rounds up to 3.5."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Round 6,382 to 1 significant figure.",
+			"answer": "6000",
+			"hint": "Keep the first digit, then look at the next one.",
+			"explain": "The first digit is 6 and the next is 3, so it rounds down to 6,000."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The Venn diagram shows the primes of 60 and 90. What is their HCF?",
+			"answer": "30",
+			"hint": "Multiply only the primes in the middle: the ones both numbers share.",
+			"explain": "60 = 2² × 3 × 5 and 90 = 2 × 3² × 5. They share 2, 3 and 5: HCF = 2 × 3 × 5 = 30.",
+			"picture": {
+				"kind": "prime_venn",
+				"a": 60,
+				"b": 90
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The Venn diagram shows the primes of 24 and 36. What is their LCM?",
+			"answer": "72",
+			"hint": "Multiply every prime in the diagram once: both sides and the middle.",
+			"explain": "24 = 2³ × 3 and 36 = 2² × 3². LCM = 2 × 2 × 2 × 3 × 3 = 72.",
+			"picture": {
+				"kind": "prime_venn",
+				"a": 24,
+				"b": 36
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The factor tree splits 84 into primes. What is the hidden prime?",
+			"answer": "7",
+			"hint": "Multiply the primes you can see, then divide 84 by that.",
+			"explain": "2 × 2 × 3 = 12, and 84 ÷ 12 = 7.",
+			"picture": {
+				"kind": "factor_tree",
+				"n": 84,
+				"hide": 3
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Round 0.04736 to 2 significant figures.",
+			"answer": "0.047",
+			"hint": "Start counting at the 4: zeros at the front are not significant.",
+			"explain": "The first two significant figures are 4 and 7. The next digit, 3, rounds down: 0.047."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Round 2.0649 to 2 decimal places.",
+			"answer": "2.06",
+			"hint": "Look at the third decimal place to decide.",
+			"explain": "The third decimal place is 4, so 2.0649 rounds down to 2.06."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Estimate 39.6 × 5.12 by rounding each number to 1 significant figure.",
+			"choices": [
+				"200",
+				"20",
+				"2,000",
+				"150"
+			],
+			"answer": 0,
+			"hint": "Round each number to its first digit with zeros after it, then multiply.",
+			"explain": "39.6 is about 40 and 5.12 is about 5: 40 × 5 = 200."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps to find an HCF with primes.",
+			"items": [
+				"Multiply the primes in the middle",
+				"Draw a factor tree for each number",
+				"Write each as a product of primes",
+				"Put the shared primes in the middle"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Start by breaking each number into primes.",
+			"explain": "Factor trees first, then the products of primes, then the Venn diagram, then multiply the shared primes."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "48,350 rounded to 2 significant figures is 48.",
+			"answer": false,
+			"hint": "Rounding keeps a number about the same size.",
+			"explain": "False: it is 48,000. The zeros keep the number's size."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each rounded number to where it came from.",
+			"items": [
+				"0.0041",
+				"3.14",
+				"48,000",
+				"1,000"
+			],
+			"matches": [
+				"48,350 to 2 s.f.",
+				"0.004072 to 2 s.f.",
+				"3.14159 to 2 d.p.",
+				"1,037.31 to 1 s.f."
+			],
+			"answer": [
+				1,
+				2,
+				0,
+				3
+			],
+			"hint": "Round each number on the right yourself, then find its partner.",
+			"explain": "0.004072 is 0.0041; 3.14159 is 3.14; 48,350 is 48,000; 1,037.31 is 1,000."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Buses leave together at 9:00: one every 12 minutes and one every 18 minutes. After how many minutes do they next leave together?",
+			"answer": "36",
+			"hint": "You want the first number in both times tables: the LCM.",
+			"explain": "12 = 2² × 3 and 18 = 2 × 3², so the LCM is 2 × 2 × 3 × 3 = 36 minutes."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Use primes to find the HCF of 84 and 126.",
+			"answer": "42",
+			"hint": "Write both as products of primes, then multiply the primes they share.",
+			"explain": "84 = 2² × 3 × 7 and 126 = 2 × 3² × 7. They share 2, 3 and 7, so the HCF is 42."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Estimate (61.3 + 38.9) ÷ 4.8 by rounding each number to 1 significant figure.",
+			"answer": "20",
+			"hint": "Round each number first, then work out the brackets.",
+			"explain": "61.3 is about 60, 38.9 about 40 and 4.8 about 5. 60 + 40 = 100, and 100 ÷ 5 = 20."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A calculator says 297.6 ÷ 0.51 = 58.35. What does an estimate show?",
+			"choices": [
+				"It should be about 600: a slip.",
+				"It is about right.",
+				"It should be about 6."
+			],
+			"answer": 0,
+			"hint": "Round to 1 significant figure: how many halves are there in 300?",
+			"explain": "300 ÷ 0.5 = 600, so 58.35 is far too small. The true answer is about 583.5."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Round 299,512 to 2 significant figures.",
+			"answer": "300000",
+			"hint": "The first two digits are 2 and 9: look at the third.",
+			"explain": "The third digit, 9, rounds 29 up to 30, so the answer is 300,000."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The LCM of two numbers can never be smaller than the larger number.",
+			"answer": true,
+			"hint": "The LCM is a multiple of both numbers: can a multiple of 18 be less than 18?",
+			"explain": "True: the LCM is a multiple of the larger number, so it is at least that big."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7k.prime_pick",
+			"level": 1
+		},
+		{
+			"gen": "g7k.prime_pick",
+			"level": 2
+		},
+		{
+			"gen": "g7k.prime_pick",
+			"level": 3
+		},
+		{
+			"gen": "g7k.factorise",
+			"level": 1
+		},
+		{
+			"gen": "g7k.factorise",
+			"level": 2
+		},
+		{
+			"gen": "g7k.factorise",
+			"level": 3
+		},
+		{
+			"gen": "g7k.hcf_lcm",
+			"level": 1
+		},
+		{
+			"gen": "g7k.hcf_lcm",
+			"level": 2
+		},
+		{
+			"gen": "g7k.hcf_lcm",
+			"level": 3
+		},
+		{
+			"gen": "g7k.round_dp",
+			"level": 1
+		},
+		{
+			"gen": "g7k.round_dp",
+			"level": 2
+		},
+		{
+			"gen": "g7k.round_dp",
+			"level": 3
+		},
+		{
+			"gen": "g7k.round_sf",
+			"level": 1
+		},
+		{
+			"gen": "g7k.round_sf",
+			"level": 2
+		},
+		{
+			"gen": "g7k.round_sf",
+			"level": 3
+		},
+		{
+			"gen": "g7k.estimate_calc",
+			"level": 1
+		},
+		{
+			"gen": "g7k.estimate_calc",
+			"level": 2
+		},
+		{
+			"gen": "g7k.estimate_calc",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,317 @@
+{
+	"id": "g8.citizenship.public_services",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met income tax. What is take-home pay? (What is left after tax and other deductions.) Today: how taxes pay for public services, and why governments must choose."
+		},
+		{
+			"text": "Public services are paid for together: schools, hospitals, police, fire services, roads, parks, libraries, pensions and help for people in need. Most of the money comes from taxes.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"people pay taxes",
+					"government collects",
+					"it pays for services",
+					"people use them"
+				],
+				"loop": true,
+				"title": "Taxes and services"
+			}
+		},
+		{
+			"text": "Income tax is taken from pay: in the UK the first part is tax-free, and the rest is taxed at rising rates. VAT is added to many prices (20% in the UK). Companies pay tax on profits; homes pay council tax for local services."
+		},
+		{
+			"text": "In this example, the first 12,000 gold a year is tax-free, then 20% is taken up to 50,000, and 40% above that. On 30,000 gold: 30,000 − 12,000 = 18,000 is taxed. 20% of 18,000 is 3,600 gold of tax."
+		},
+		{
+			"text": "A government spends on many things at once: welfare and pensions, health, education, defence and police, transport, and interest on what it has borrowed. In the UK the biggest shares go to welfare and pensions, then health.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"welfare",
+						3
+					],
+					[
+						"health",
+						2
+					],
+					[
+						"education",
+						1
+					],
+					[
+						"interest",
+						1
+					],
+					[
+						"defence",
+						1
+					],
+					[
+						"other",
+						2
+					]
+				],
+				"whole": 10,
+				"key": true
+			}
+		},
+		{
+			"text": "Money is limited, so governments must choose: more for hospitals may mean less for roads, higher taxes, or more borrowing. People and groups argue for different choices, and voters decide who makes them. There is no single right answer."
+		},
+		{
+			"text": "When spending is more than tax income, the government borrows: a deficit. All the borrowing added up is the national debt, and interest must be paid on it. Some taxes also aim to change what people do, such as taxes on sugary drinks."
+		},
+		{
+			"text": "Try it in the world: run your village's budget. Collect 10 gold a week from each player, then vote on spending it on a school, a road or a park. What did you have to give up? Next: budget like a grown-up."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does most money for public services come from?",
+			"choices": [
+				"taxes",
+				"selling parks",
+				"gifts from banks",
+				"lottery wins"
+			],
+			"answer": 0,
+			"hint": "Think of what is taken from pay and added to prices.",
+			"explain": "Taxes: income tax, VAT, company tax and council tax."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "VAT of 20% is added to a price of 50 gold. How much is the VAT?",
+			"answer": "10",
+			"hint": "Find a tenth of the price, then double it.",
+			"explain": "10% of 50 is 5; 20% is 10 gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Public services include schools, hospitals and fire services.",
+			"answer": true,
+			"hint": "Look at the lesson's list.",
+			"explain": "True: services we pay for together and all can use."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a deficit?",
+			"choices": [
+				"a pension",
+				"a kind of tax",
+				"a public park",
+				"spending more than the tax coming in"
+			],
+			"answer": 3,
+			"hint": "Compare what goes out with what comes in.",
+			"explain": "A deficit is when a government spends more than its income, so it borrows."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: a national service or a local council's service, in the UK?",
+			"groups": [
+				"national",
+				"local council"
+			],
+			"items": [
+				"libraries",
+				"bin collections",
+				"the armed forces",
+				"the health service",
+				"street lights",
+				"pensions"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it the same across the country, or run by your town?",
+			"explain": "National: the armed forces, pensions, the health service. Local: bins, libraries, street lights."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In this example the first 12,000 gold is tax-free and the rest is taxed at 20%. How much tax is paid on 20,000 gold?",
+			"answer": "1600",
+			"hint": "Take away the tax-free part, then find 20% of the rest.",
+			"explain": "20,000 − 12,000 = 8,000; 20% of 8,000 = 1,600 gold."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each tax to what it is charged on.",
+			"items": [
+				"income tax",
+				"VAT",
+				"council tax",
+				"corporation tax"
+			],
+			"matches": [
+				"company profits",
+				"homes",
+				"pay from work",
+				"things you buy"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Pay, shopping, homes and profits.",
+			"explain": "Income tax: pay. VAT: shopping. Council tax: homes. Corporation tax: company profits."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why can't a government buy everything people want?",
+			"choices": [
+				"services cost nothing",
+				"nobody asks",
+				"its money is limited",
+				"it does not want to"
+			],
+			"answer": 2,
+			"hint": "Every gold spent on one thing can't be spent on another.",
+			"explain": "Its money is limited, so it must choose what matters most, or raise taxes, or borrow."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the money's journey in order.",
+			"items": [
+				"income tax is taken",
+				"the government collects it",
+				"people earn pay",
+				"patients are treated",
+				"it pays for a hospital"
+			],
+			"answer": [
+				2,
+				0,
+				1,
+				4,
+				3
+			],
+			"hint": "Follow one gold coin from a payslip to a hospital bed.",
+			"explain": "Pay is earned, tax is taken, the government collects it, pays for a hospital, and patients are treated."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Taxes on sugary drinks aim to change what people buy.",
+			"answer": true,
+			"hint": "Look back at the card about borrowing.",
+			"explain": "True: some taxes are meant to cut harm as well as raise money."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "If a government spends more on hospitals and keeps taxes the same, what must happen?",
+			"choices": [
+				"taxes vanish",
+				"spend less elsewhere or borrow",
+				"hospitals cost less",
+				"nothing changes"
+			],
+			"answer": 1,
+			"hint": "The money has to come from somewhere.",
+			"explain": "It must cut something else or borrow more: every choice has a cost."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Income is 60,000 gold. In this example: 0% up to 12,000, 20% from 12,000 to 50,000, 40% above 50,000. How much tax is paid?",
+			"answer": "11600",
+			"hint": "Work out each band's tax separately, then add.",
+			"explain": "20% of 38,000 = 7,600; 40% of 10,000 = 4,000; 7,600 + 4,000 = 11,600 gold."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is there no single right answer about public spending?",
+			"choices": [
+				"spending is random",
+				"people value different things",
+				"the numbers are secret",
+				"only one service matters"
+			],
+			"answer": 1,
+			"hint": "Think of a parent, a pensioner and a bus driver choosing.",
+			"explain": "People value different services and different levels of tax, so they argue for different choices."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: does each choice raise money, or save money?",
+			"groups": [
+				"raises money",
+				"saves money"
+			],
+			"items": [
+				"buying fewer new buses",
+				"a new tax on sugary drinks",
+				"closing some libraries",
+				"borrowing more",
+				"raising income tax",
+				"cutting road repairs"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Does money come in, or does less go out?",
+			"explain": "Raise money: income tax, a drinks tax, borrowing. Save money: closing libraries, fewer road repairs, fewer buses."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Interest must be paid on the national debt.",
+			"answer": true,
+			"hint": "Borrowed money has a price.",
+			"explain": "True: like any loan, the government pays interest on what it owes."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.tax_maths",
+			"level": 1
+		},
+		{
+			"gen": "g8h.tax_maths",
+			"level": 2
+		},
+		{
+			"gen": "g8h.tax_maths",
+			"level": 3
+		},
+		{
+			"gen": "g8h.spend_share",
+			"level": 1
+		},
+		{
+			"gen": "g8h.spend_share",
+			"level": 2
+		},
+		{
+			"gen": "g8h.spend_share",
+			"level": 3
+		}
+	]
+}

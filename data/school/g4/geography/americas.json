@@ -1,0 +1,360 @@
+{
+	"id": "g4.geography.americas",
+	"lesson": [
+		{
+			"text": "Quick memory: which river flows through 10 countries in Europe? (The Danube.) Now cross the Atlantic Ocean to two continents joined by a narrow strip of land: North and South America."
+		},
+		{
+			"text": "North America's biggest countries are Canada, the United States and Mexico. South of Mexico lie the smaller countries of Central America. In the Caribbean Sea lie islands such as Cuba and Jamaica."
+		},
+		{
+			"text": "South America has 12 countries. Brazil is by far the biggest, covering almost half the continent. People in Brazil speak Portuguese; in most other South American countries, Spanish.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"country",
+						"people speak"
+					],
+					[
+						"Brazil",
+						"Portuguese"
+					],
+					[
+						"Argentina",
+						"Spanish"
+					],
+					[
+						"Peru",
+						"Spanish"
+					],
+					[
+						"Chile",
+						"Spanish"
+					]
+				]
+			}
+		},
+		{
+			"text": "Two great chains of mountains run down the west side. The Rocky Mountains cross Canada and the United States. The Andes are the longest mountain range on land, about 7,000 km long through 7 countries.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 30,
+				"points": [
+					{
+						"lat": 40,
+						"long": -105,
+						"label": "Rockies"
+					},
+					{
+						"lat": -20,
+						"long": -68,
+						"label": "Andes"
+					},
+					{
+						"lat": -3,
+						"long": -60,
+						"label": "Amazon"
+					},
+					{
+						"lat": 9,
+						"long": -80,
+						"label": "Panama"
+					}
+				]
+			}
+		},
+		{
+			"text": "The Amazon River flows east across South America to the Atlantic. It carries more water than any other river. Around it grows the Amazon, the biggest rainforest on Earth, home to about one in ten of all known living things."
+		},
+		{
+			"text": "The two continents meet at Panama. The Panama Canal opened there in 1914. Now ships can sail between the Atlantic and Pacific Oceans without going all the way round South America."
+		},
+		{
+			"text": "Some capitals of the Americas. Other wonders: the Great Lakes, and the Atacama Desert in Chile, one of the driest places on Earth. Angel Falls in Venezuela is the highest waterfall in the world.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"country",
+						"capital"
+					],
+					[
+						"Canada",
+						"Ottawa"
+					],
+					[
+						"United States",
+						"Washington, D.C."
+					],
+					[
+						"Mexico",
+						"Mexico City"
+					],
+					[
+						"Brazil",
+						"Brasilia"
+					],
+					[
+						"Argentina",
+						"Buenos Aires"
+					],
+					[
+						"Peru",
+						"Lima"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build the Americas from snow and sand: the Rockies and the Andes down the west, and a long river for the Amazon flowing east to the sea. Next: rivers, from source to mouth."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the biggest country in South America?",
+			"answer": 0,
+			"hint": "It covers almost half the continent.",
+			"choices": [
+				"Brazil",
+				"Peru",
+				"Chile",
+				"Uruguay"
+			],
+			"explain": "Brazil, which covers almost half of South America."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which mountains run down the west of South America?",
+			"answer": 0,
+			"hint": "They are the longest mountain range on land.",
+			"choices": [
+				"the Andes",
+				"the Alps",
+				"the Pyrenees",
+				"the Urals"
+			],
+			"explain": "The Andes, about 7,000 km long, through 7 countries."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Canada, the United States and Mexico are in North America.",
+			"answer": true,
+			"hint": "Look back at the card about North America.",
+			"explain": "True: they are North America's three biggest countries."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What language do most people in Brazil speak?",
+			"answer": 0,
+			"hint": "It is not Spanish, like most of its neighbours.",
+			"choices": [
+				"Portuguese",
+				"English",
+				"French",
+				"Chinese"
+			],
+			"explain": "Portuguese. Most other South American countries speak Spanish."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which river carries more water than any other?",
+			"answer": 0,
+			"hint": "It flows east across South America.",
+			"choices": [
+				"the Amazon",
+				"the Thames",
+				"the Danube",
+				"the Volga"
+			],
+			"explain": "The Amazon carries more water than any other river in the world."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these countries: North America or South America?",
+			"groups": [
+				"North America",
+				"South America"
+			],
+			"items": [
+				"Canada",
+				"Peru",
+				"Mexico",
+				"Chile",
+				"Cuba",
+				"Argentina"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The two continents meet at Panama.",
+			"explain": "North America: Canada, Mexico and Cuba. South America: Peru, Chile and Argentina."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each country to its capital.",
+			"items": [
+				"Canada",
+				"Mexico",
+				"Argentina",
+				"Peru"
+			],
+			"matches": [
+				"Mexico City",
+				"Buenos Aires",
+				"Lima",
+				"Ottawa"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Use the table of capitals.",
+			"explain": "Canada: Ottawa. Mexico: Mexico City. Argentina: Buenos Aires. Peru: Lima."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does the Panama Canal let ships do?",
+			"answer": 0,
+			"hint": "Panama is a narrow strip of land between two oceans.",
+			"choices": [
+				"sail between the Atlantic and Pacific",
+				"sail up the Amazon",
+				"cross the Andes",
+				"reach the North Pole"
+			],
+			"explain": "It joins the Atlantic and Pacific Oceans, so ships need not sail all the way round South America."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The Rocky Mountains are in South America.",
+			"answer": false,
+			"hint": "They run through Canada and the United States.",
+			"explain": "False: the Rockies are in North America; the Andes are in South America."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these countries in order from north to south.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start near the North Pole and move towards Antarctica.",
+			"items": [
+				"the United States",
+				"Panama",
+				"Canada",
+				"Mexico",
+				"Argentina"
+			],
+			"explain": "Canada, the United States, Mexico, Panama (where the continents meet), then Argentina in the far south."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does the Amazon rainforest matter so much?",
+			"answer": 0,
+			"hint": "Think about how many plants and animals live in a rainforest.",
+			"choices": [
+				"one in ten known living things live there",
+				"it is the coldest place on Earth",
+				"it has no animals",
+				"it is a desert"
+			],
+			"explain": "The Amazon is the biggest rainforest on Earth, home to about one in ten of all known kinds of animals and plants."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Andes are about 7,000 km long and the Rocky Mountains about 4,800 km. How much longer are the Andes, in km?",
+			"answer": "2200",
+			"hint": "Take the shorter length from the longer one.",
+			"explain": "7,000 − 4,800 = 2,200 km longer."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is one of the driest places on Earth?",
+			"answer": 0,
+			"hint": "Deserts get almost no rain.",
+			"choices": [
+				"the Atacama Desert in Chile",
+				"the Amazon rainforest",
+				"the Great Lakes",
+				"Angel Falls"
+			],
+			"explain": "The Atacama Desert in Chile: some parts get almost no rain for years."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Most countries in South America speak Spanish.",
+			"answer": true,
+			"hint": "Brazil speaks Portuguese. What do most of its neighbours speak?",
+			"explain": "True: Spanish is spoken in most of South America; Brazil speaks Portuguese."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the wonders: in North America, or South America?",
+			"groups": [
+				"North America",
+				"South America"
+			],
+			"items": [
+				"the Rocky Mountains",
+				"the Andes",
+				"the Great Lakes",
+				"the Amazon River",
+				"the Atacama Desert",
+				"Angel Falls"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Two are in the north; the rest are south of Panama.",
+			"explain": "North America: the Rockies and the Great Lakes. South America: the Andes, the Amazon, the Atacama Desert in Chile and Angel Falls in Venezuela."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4h.americas_capital",
+			"level": 1
+		},
+		{
+			"gen": "g4h.americas_capital",
+			"level": 2
+		},
+		{
+			"gen": "g4h.americas_capital",
+			"level": 3
+		}
+	]
+}

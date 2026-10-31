@@ -1,0 +1,319 @@
+{
+	"id": "g8.art.identity_art",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4, where do the eyes sit in a face drawn in proportion? (About halfway down the head.) Today: self-portraits that show who someone is, not just how they look."
+		},
+		{
+			"text": "A self-portrait is a picture of the artist by the artist. Albrecht Dürer (1471-1528) painted one in 1500. Rembrandt (1606-1669) made about 80, and they show him growing older.",
+			"picture": {
+				"kind": "face",
+				"guides": true
+			}
+		},
+		{
+			"text": "Frida Kahlo (1907-1954) painted 55 self-portraits. She put in what mattered to her: Mexican clothes and plants, her pets, her feelings. Objects in a portrait can be symbols.",
+			"picture": {
+				"kind": "symbol_portrait",
+				"symbols": [
+					"plant",
+					"cat",
+					"brush"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "A symbol is a thing that stands for an idea: a book for learning, music for joy, a rocket for dreams, a home for family. Choose symbols that are true to you.",
+			"picture": {
+				"kind": "symbol_portrait",
+				"symbols": [
+					"book",
+					"music",
+					"rocket",
+					"home"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Worked example: a portrait of someone who loves football and space: a ball at the side, a rocket above, a deep blue background. Colour shows feeling too: warm for lively, cool for calm.",
+			"picture": {
+				"kind": "feeling_art",
+				"feeling": "joy",
+				"colour": true
+			}
+		},
+		{
+			"text": "Identity is many things: family, culture, language, place, beliefs, hobbies and hopes. Many cultures show it in masks, clothes and patterns. Identity also changes as you grow."
+		},
+		{
+			"text": "Look closely before you draw: measure with your pencil, check where the eyes, nose and mouth sit, and draw what you see, not what you expect. A mirror helps.",
+			"picture": {
+				"kind": "face",
+				"guides": true,
+				"mark": "nose"
+			}
+		},
+		{
+			"text": "Try it in the world: draw a self-portrait in a mirror, then add 3 symbols of what matters to you. It is yours: share it only if you wish. Next: public art and murals."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a self-portrait?",
+			"choices": [
+				"a picture of the artist, by the artist",
+				"any picture of a face",
+				"a photo taken by a friend",
+				"a statue of a king"
+			],
+			"answer": 0,
+			"hint": "Who is in the picture, and who made it?",
+			"explain": "A self-portrait shows the artist and is made by the artist."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each symbol to an idea it can stand for.",
+			"items": [
+				"a book",
+				"music notes",
+				"a rocket",
+				"a home"
+			],
+			"matches": [
+				"joy in music",
+				"big dreams",
+				"family",
+				"learning"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Ask what each object makes you think of.",
+			"explain": "A book suggests learning, music joy, a rocket big dreams and a home family."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Frida Kahlo put her pets and plants into her self-portraits.",
+			"answer": true,
+			"hint": "Remember what mattered to her.",
+			"explain": "True: her pets, plants and Mexican clothes appear in her self-portraits as symbols."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "These symbols surround a self-portrait. What do they suggest the person loves?",
+			"choices": [
+				"reading, painting and music",
+				"football and cats",
+				"space and rockets",
+				"gardening"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "symbol_portrait",
+				"symbols": [
+					"book",
+					"brush",
+					"music"
+				]
+			},
+			"hint": "Name each symbol, then put them together.",
+			"explain": "A book, a paintbrush and music notes: reading, painting and music."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A head is drawn 24 cm tall. The eyes go halfway down. How many cm from the top are they?",
+			"answer": "12",
+			"hint": "Halfway down means half the height.",
+			"explain": "24 ÷ 2 = 12 cm from the top."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Does it show identity, or only looks?",
+			"groups": [
+				"shows identity",
+				"only shows looks"
+			],
+			"items": [
+				"a symbol of a hobby",
+				"clothes from the person's culture",
+				"hair colour",
+				"a favourite place behind",
+				"the shape of the ears"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it tell you who the person is, or only what they look like?",
+			"explain": "Hobbies, culture and favourite places tell who someone is; hair colour and ear shape are only looks."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Albrecht Dürer was born in 1471 and painted his self-portrait in 1500. How many years after his birth?",
+			"answer": "29",
+			"hint": "Take 1471 from 1500.",
+			"explain": "1500 − 1471 = 29 years."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Kahlo often painted herself in Mexican clothes. What does that show?",
+			"choices": [
+				"pride in her culture",
+				"she had no other clothes",
+				"it was a uniform",
+				"the paint was cheap"
+			],
+			"answer": 0,
+			"hint": "Clothes in a self-portrait are a choice.",
+			"explain": "She chose them on purpose, as a symbol of her Mexican culture."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A portrait's colours can show a feeling as well as a face.",
+			"answer": true,
+			"hint": "Think of warm and cool colours.",
+			"explain": "True: warm colours can feel lively and cool ones calm, so colour adds feeling."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps to make a self-portrait with symbols.",
+			"items": [
+				"add colour that fits the feeling",
+				"choose symbols that matter",
+				"sketch the head in proportion",
+				"look closely in a mirror"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with looking, finish with colour.",
+			"explain": "Look, sketch in proportion, choose symbols, then colour."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In this face, the nose's bottom is halfway between which two lines?",
+			"choices": [
+				"the eyes and the chin",
+				"the eyes and the hair",
+				"the mouth and the chin",
+				"the ears and the eyes"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "face",
+				"guides": true,
+				"mark": "nose"
+			},
+			"hint": "Follow the guide lines from the eyes down.",
+			"explain": "The bottom of the nose sits halfway between the eye line and the chin."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A head is 24 cm tall: eyes halfway, and the nose's bottom halfway from the eyes to the chin. How many cm from the top is the nose's bottom?",
+			"answer": "18",
+			"hint": "Find the eye line, then halfway on to the chin.",
+			"explain": "Eyes: 24 ÷ 2 = 12 cm. Eyes to chin: 24 − 12 = 12 cm, half is 6. Nose: 12 + 6 = 18 cm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Rembrandt made about 80 self-portraits over 40 years. What do they show best?",
+			"choices": [
+				"how a face changes with age",
+				"how to paint horses",
+				"the fashion of one year",
+				"his friends"
+			],
+			"answer": 0,
+			"hint": "Think about painting yourself again and again for years.",
+			"explain": "Painting himself from youth to old age, Rembrandt showed how a face, and a life, change."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Lively, warm colour or calm, cool colour?",
+			"groups": [
+				"warm: lively",
+				"cool: calm"
+			],
+			"items": [
+				"red",
+				"orange",
+				"blue",
+				"blue-green",
+				"yellow",
+				"purple"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Think of fire and the sun, then of sea and night.",
+			"explain": "Red, orange and yellow are warm and lively; blue, blue-green and purple are cool and calm."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A symbol must look exactly like the idea it stands for.",
+			"answer": false,
+			"hint": "Can you draw learning or a dream?",
+			"explain": "False: ideas have no shape, so a symbol is an object that suggests them, like a book for learning."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why might an artist keep a self-portrait private?",
+			"choices": [
+				"it shows personal feelings",
+				"it is badly drawn",
+				"portraits are not allowed",
+				"it is too big to show"
+			],
+			"answer": 0,
+			"hint": "Think about what a self-portrait with symbols shares.",
+			"explain": "A self-portrait can share private feelings and things that matter, so the artist chooses who sees it."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.face_measure",
+			"level": 1
+		},
+		{
+			"gen": "g8c.face_measure",
+			"level": 2
+		},
+		{
+			"gen": "g8c.face_measure",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,414 @@
+{
+	"id": "g5.computing.procedures",
+	"lesson": [
+		{
+			"text": "Quick memory: a line sits inside REPEAT 3 TIMES, inside REPEAT 2 TIMES. How many times does it run? (2 × 3 = 6 times.) Today: giving a group of steps a name, and using it again."
+		},
+		{
+			"text": "A procedure is a group of steps with a name. DEFINE square teaches the computer the steps once; after that, the one word square runs them all.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"DEFINE square",
+					"  REPEAT 4 TIMES",
+					"    FORWARD 2",
+					"    TURN LEFT",
+					"square"
+				],
+				"mark": 4
+			}
+		},
+		{
+			"text": "The steps under DEFINE do nothing on their own. They wait until a line calls the procedure by its name. Call it twice, and its steps run twice."
+		},
+		{
+			"text": "Worked example: this program calls square, moves on 3 with the pen up, and calls square again: two squares. Without the procedure, the square's loop would be written out twice.",
+			"picture": {
+				"kind": "pen",
+				"lines": [
+					"DEFINE square",
+					"  REPEAT 4 TIMES",
+					"    FORWARD 2",
+					"    TURN LEFT",
+					"square",
+					"PEN UP",
+					"FORWARD 3",
+					"PEN DOWN",
+					"square"
+				],
+				"cols": 8,
+				"rows": 5,
+				"code": true
+			}
+		},
+		{
+			"text": "Procedures make programs shorter and easier to read. They are easier to fix too: fix a bug inside DEFINE square once, and every square the program draws is fixed."
+		},
+		{
+			"text": "Give procedures names that say what they do: jump, draw_star, open_gate. A recipe works the same way: 'make the dough' is one step, with its own steps written somewhere else."
+		},
+		{
+			"text": "Procedures can call other procedures: DEFINE house could call square, then roof. Big programs are built this way, from small named parts (you split big jobs into small ones in grade 3).",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"DEFINE house",
+					"call square",
+					"call roof",
+					"a house is drawn"
+				],
+				"title": "Procedures call procedures"
+			}
+		},
+		{
+			"text": "Try it in the world: invent a dance with a named move, like spin = turn round, clap, jump. Teach it to a friend, then call it: spin, spin, wave, spin. Next: simulations."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The steps under DEFINE run as soon as the program starts, even if nothing calls them.",
+			"answer": false,
+			"hint": "What makes a procedure's steps run?",
+			"explain": "False: they wait until a line calls the procedure by its name."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a procedure?",
+			"answer": 0,
+			"hint": "Think of DEFINE square.",
+			"choices": [
+				"a group of steps with a name",
+				"a variable that holds a number",
+				"a loop that never stops",
+				"a kind of robot"
+			],
+			"explain": "A procedure is a group of steps with a name, like square."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many times does the marked line run?",
+			"answer": "2",
+			"hint": "The steps under DEFINE run once for each call. Count the calls.",
+			"explain": "hop is called 2 times, so JUMP runs 2 times.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"DEFINE hop",
+					"  JUMP",
+					"  CLAP",
+					"hop",
+					"hop"
+				],
+				"mark": 1
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each procedure's name to what it probably does.",
+			"items": [
+				"draw_square",
+				"open_gate",
+				"jump_twice",
+				"say_hello"
+			],
+			"matches": [
+				"says hello",
+				"draws a square",
+				"opens the gate",
+				"jumps two times"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "A good name says what the steps do.",
+			"explain": "draw_square draws a square, open_gate opens the gate, jump_twice jumps twice and say_hello says hello."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many times does the marked line run?",
+			"answer": "4",
+			"hint": "Count every call: the ones in the loop and any others.",
+			"explain": "The loop calls cheer 3 times, and it is called once more after the loop: 3 + 1 = 4 claps.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"DEFINE cheer",
+					"  CLAP",
+					"  JUMP",
+					"REPEAT 3 TIMES",
+					"  cheer",
+					"cheer"
+				],
+				"mark": 1
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which drawing does this program make? The pen starts at the green dot, facing right.",
+			"answer": 0,
+			"hint": "Draw one step first: along 1, up 1. Then count the calls.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "pen",
+						"lines": [
+							"DEFINE step",
+							"  FORWARD 1",
+							"  TURN LEFT",
+							"  FORWARD 1",
+							"  TURN RIGHT",
+							"step",
+							"step",
+							"step"
+						],
+						"cols": 8,
+						"rows": 5
+					}
+				},
+				{
+					"picture": {
+						"kind": "pen",
+						"lines": [
+							"DEFINE step",
+							"  FORWARD 1",
+							"  TURN LEFT",
+							"  FORWARD 1",
+							"  TURN RIGHT",
+							"step",
+							"step"
+						],
+						"cols": 8,
+						"rows": 5
+					}
+				},
+				{
+					"picture": {
+						"kind": "pen",
+						"lines": [
+							"DEFINE step",
+							"  FORWARD 2",
+							"  TURN LEFT",
+							"  FORWARD 1",
+							"  TURN RIGHT",
+							"step",
+							"step",
+							"step"
+						],
+						"cols": 8,
+						"rows": 5
+					}
+				},
+				{
+					"picture": {
+						"kind": "pen",
+						"lines": [
+							"DEFINE step",
+							"  FORWARD 1",
+							"  TURN LEFT",
+							"  FORWARD 2",
+							"  TURN RIGHT",
+							"step",
+							"step"
+						],
+						"cols": 8,
+						"rows": 5
+					}
+				}
+			],
+			"explain": "One step goes along 1 and up 1, and step is called 3 times: a staircase of 3 steps.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"DEFINE step",
+					"  FORWARD 1",
+					"  TURN LEFT",
+					"  FORWARD 1",
+					"  TURN RIGHT",
+					"step",
+					"step",
+					"step"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is DEFINE square better than writing the square's steps out 5 times?",
+			"answer": 0,
+			"hint": "Think about reading the program, and fixing it.",
+			"choices": [
+				"It is shorter, and a bug is fixed in one place",
+				"It makes the squares bigger",
+				"It makes the computer use more power",
+				"It is the only way to draw"
+			],
+			"explain": "The steps are written once and called 5 times: a shorter program, and one place to fix a bug."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of making and using a procedure in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You can't call something before it has a name and steps.",
+			"items": [
+				"Watch its steps run",
+				"Call it by its name",
+				"DEFINE it with its steps",
+				"Choose a name that says what it does"
+			],
+			"explain": "Name it, DEFINE its steps, call it by name, and its steps run."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "DEFINE corner: FORWARD 2, TURN LEFT. The program is corner, corner. Which moves does the robot make?",
+			"answer": 0,
+			"hint": "Write out corner's steps once for every call.",
+			"choices": [
+				"FORWARD 2, TURN LEFT, FORWARD 2, TURN LEFT",
+				"FORWARD 2, TURN RIGHT, FORWARD 2, TURN RIGHT",
+				"TURN LEFT, FORWARD 2, TURN LEFT, FORWARD 2",
+				"FORWARD 3, TURN LEFT, FORWARD 3, TURN LEFT"
+			],
+			"explain": "Each call of corner is FORWARD 2, TURN LEFT, and there are 2 calls, so the steps come twice. They take the robot to the flag.",
+			"picture": {
+				"kind": "robot",
+				"cols": 5,
+				"rows": 5,
+				"start": [
+					0,
+					4
+				],
+				"facing": "E",
+				"goal": [
+					2,
+					2
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A bug fixed inside DEFINE square is fixed for every square the program draws.",
+			"answer": true,
+			"hint": "Where do the steps of every square come from?",
+			"explain": "True: every call runs the same steps from DEFINE square, so one fix mends them all."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many times does the marked line run?",
+			"answer": "12",
+			"hint": "How many blocks does one call of row place? How many calls?",
+			"explain": "Each call of row places 4 blocks, and the loop calls row 3 times: 3 × 4 = 12.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"DEFINE row",
+					"  REPEAT 4 TIMES",
+					"    PLACE a block",
+					"REPEAT 3 TIMES",
+					"  row"
+				],
+				"mark": 2
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many times does the marked line run?",
+			"answer": "12",
+			"hint": "Work from the inside out: how many claps in clap3? How many calls of clap3 in song? How many songs?",
+			"explain": "clap3 claps 3 times; song calls clap3 twice (6 claps); song is called twice: 2 × 6 = 12 claps.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"DEFINE clap3",
+					"  REPEAT 3 TIMES",
+					"    CLAP",
+					"DEFINE song",
+					"  clap3",
+					"  STAMP",
+					"  clap3",
+					"song",
+					"song"
+				],
+				"mark": 2
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "DEFINE house calls square and then roof. Which is true?",
+			"answer": 0,
+			"hint": "What does a call do, wherever it is written?",
+			"choices": [
+				"house runs the steps of square, then roof",
+				"square can only be used once",
+				"roof must be written inside house",
+				"a procedure can't call another one"
+			],
+			"explain": "Calling house runs its steps, and those steps call square and roof, so all their steps run in order."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A procedure draw_star has 10 lines. Mimi calls it 6 times. Without the procedure she would write its lines out 6 times. How many lines would that be?",
+			"answer": "60",
+			"hint": "Each time is all 10 lines.",
+			"explain": "6 × 10 = 60 lines, instead of the 10 lines written once and 6 short calls."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Nothing happens when Bram's program runs. Why?",
+			"answer": 0,
+			"hint": "Read the call letter by letter and compare it with the name.",
+			"choices": [
+				"He calls jmup, but the procedure is jump",
+				"JUMP needs a loop",
+				"DEFINE must come last",
+				"Procedures can't jump"
+			],
+			"explain": "The call must match the name exactly. jmup is not jump, so nothing is called.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"DEFINE jump",
+					"  JUMP",
+					"  CLAP",
+					"jmup"
+				]
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.call_count",
+			"level": 1
+		},
+		{
+			"gen": "g5a.call_count",
+			"level": 2
+		},
+		{
+			"gen": "g5a.call_count",
+			"level": 3
+		}
+	]
+}

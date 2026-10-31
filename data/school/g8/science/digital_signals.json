@@ -1,0 +1,204 @@
+{
+	"id": "g8.science.digital_signals",
+	"lesson": [
+		{
+			"text": "Information can be sent as waves in two ways: analogue signals change smoothly; digital signals are coded as numbers, usually 1s and 0s."
+		},
+		{
+			"text": "Signals pick up noise (unwanted changes) on the way. An analogue signal copies the noise; a digital receiver only has to tell 1 from 0, so small noise doesn't matter."
+		},
+		{
+			"text": "Digital signals can be copied again and again without getting worse, compressed to take less space, and checked for mistakes."
+		},
+		{
+			"text": "That is why phones, the internet and music streaming use digital signals."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What are digital signals coded as?",
+			"answer": 0,
+			"hint": "Digits…",
+			"choices": [
+				"numbers, usually 1s and 0s",
+				"smells",
+				"colours only"
+			],
+			"explain": "Numbers, usually 1s and 0s."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How does an analogue signal change?",
+			"answer": 0,
+			"hint": "Like a dial…",
+			"choices": [
+				"smoothly",
+				"in jumps of 1 and 0",
+				"never"
+			],
+			"explain": "Smoothly."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Digital signals can be copied without getting worse.",
+			"answer": true,
+			"hint": "1s stay 1s…",
+			"explain": "Yes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is noise in a signal?",
+			"answer": 0,
+			"hint": "Crackle…",
+			"choices": [
+				"unwanted changes",
+				"loud music",
+				"the message"
+			],
+			"explain": "Unwanted changes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which uses digital signals?",
+			"answer": 0,
+			"hint": "Computers…",
+			"choices": [
+				"the internet",
+				"a smoke signal",
+				"a drum message"
+			],
+			"explain": "The internet is digital."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is a digital signal more reliable than an analogue one?",
+			"answer": 0,
+			"hint": "Small noise…",
+			"choices": [
+				"The receiver only has to tell 1 from 0.",
+				"It is louder.",
+				"It is slower."
+			],
+			"explain": "Small noise can't change a 1 into a 0."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A photocopy of a photocopy gets blurry. Is that like analogue or digital copying?",
+			"answer": 0,
+			"hint": "It gets worse each time.",
+			"choices": [
+				"analogue",
+				"digital"
+			],
+			"explain": "Analogue copies pick up noise each time."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why can a phone check a digital message for mistakes?",
+			"answer": 0,
+			"hint": "Numbers can be checked.",
+			"choices": [
+				"Extra check numbers are sent with it.",
+				"Phones read minds.",
+				"Mistakes can't happen."
+			],
+			"explain": "Check digits catch errors."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Noise affects digital signals more than analogue ones.",
+			"answer": false,
+			"hint": "Tell 1 from 0…",
+			"explain": "No: digital signals resist small noise."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does compressing a digital file do?",
+			"answer": 0,
+			"hint": "Squeeze…",
+			"choices": [
+				"makes it take less space",
+				"makes it louder",
+				"adds noise"
+			],
+			"explain": "It takes less space."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A signal is sent as 1011. Noise makes one pulse weaker, but still above the middle. What does the receiver read?",
+			"answer": 0,
+			"hint": "Above the middle counts as 1.",
+			"choices": [
+				"1011",
+				"1001",
+				"nothing"
+			],
+			"explain": "It still reads it as a 1: 1011."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do music streaming services use digital signals?",
+			"answer": 0,
+			"hint": "Copying and sending…",
+			"choices": [
+				"They compress and copy without losing quality.",
+				"They are analogue.",
+				"They need no electricity."
+			],
+			"explain": "Digital music can be compressed and copied perfectly."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An old radio crackles in a storm, but a digital radio stays clear or cuts out. Why?",
+			"answer": 0,
+			"hint": "1 or 0…",
+			"choices": [
+				"Digital either decodes the numbers or doesn't.",
+				"Digital radios are louder.",
+				"Storms help digital."
+			],
+			"explain": "Digital signals are decoded fully or not at all."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The pattern 1s and 0s can stand for letters, colours and sounds.",
+			"answer": true,
+			"hint": "Codes…",
+			"explain": "Yes: everything digital is coded as numbers."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order how a photo is sent digitally.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start by coding it.",
+			"items": [
+				"The photo is rebuilt.",
+				"The receiver decodes the numbers.",
+				"The numbers are sent as pulses.",
+				"The photo is turned into numbers."
+			],
+			"explain": "Encode, send, decode, rebuild."
+		}
+	]
+}

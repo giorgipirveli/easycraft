@@ -1,0 +1,268 @@
+{
+	"id": "g6.art.art_from_nature",
+	"lesson": [
+		{
+			"text": "Quick memory: which plant gives a blue dye? (Indigo.) Today: art made from nature, out in nature."
+		},
+		{
+			"text": "Land art is made outdoors from natural things: leaves, stones, sticks, shells, petals, sand and snow. Often it lasts only a short time, until wind, rain or the sea takes it away.",
+			"picture": {
+				"kind": "land_art",
+				"design": "spiral",
+				"material": "leaves"
+			}
+		},
+		{
+			"text": "Because it does not last, land artists photograph their work. The photo is how most people see it. Robert Smithson's Spiral Jetty (1970) is a huge spiral of rocks built out into a lake in Utah, USA."
+		},
+		{
+			"text": "Nature is full of patterns to borrow: spirals in shells and seed heads, circles in ripples, lines of pebbles along a beach, and the symmetry of leaves.",
+			"picture": {
+				"kind": "land_art",
+				"design": "seeds",
+				"material": "petals"
+			}
+		},
+		{
+			"text": "Many seed heads follow the Fibonacci numbers, where each is the two before added: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55. A sunflower often has 34 spirals one way and 55 the other."
+		},
+		{
+			"text": "Leave no trace: use fallen leaves, loose stones and dead sticks, never living plants or birds' nests, and put stones back where you found them."
+		},
+		{
+			"text": "Worked example: a leaf spiral. Collect fallen leaves from yellow to deep red. Lay them in a spiral from the middle out, yellow first, so the colour deepens as it grows.",
+			"picture": {
+				"kind": "land_art",
+				"design": "spiral",
+				"material": "leaves"
+			}
+		},
+		{
+			"text": "Try it in the world: make a small circle or spiral from fallen things in a park or garden, photograph it, and let nature take it back. Next: analyse an artwork."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is land art?",
+			"answer": 0,
+			"hint": "Where is it made, and from what?",
+			"choices": [
+				"art made outdoors from natural things",
+				"paintings of fields",
+				"maps of the land",
+				"art made of plastic"
+			],
+			"explain": "Land art is made outdoors from natural things like leaves and stones."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is fine to pull up living flowers for land art.",
+			"answer": false,
+			"hint": "Remember: leave no trace.",
+			"explain": "False: use fallen or loose things only, never living plants."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What comes next? 1, 1, 2, 3, 5, 8, …",
+			"answer": "13",
+			"hint": "Each number is the two before added.",
+			"explain": "5 + 8 = 13."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is this land art made of?",
+			"answer": 0,
+			"hint": "Look at the grey shapes.",
+			"choices": [
+				"stones",
+				"leaves",
+				"sticks",
+				"petals"
+			],
+			"explain": "It is a circle of grey stones.",
+			"picture": {
+				"kind": "land_art",
+				"design": "circle",
+				"material": "stones"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A sunflower head has 34 spirals one way. The other way is the next Fibonacci number. How many?",
+			"answer": "55",
+			"hint": "Which number comes before 34? Add them.",
+			"explain": "21 comes before 34, and 21 + 34 = 55.",
+			"picture": {
+				"kind": "land_art",
+				"design": "seeds",
+				"material": "petals"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do land artists photograph their work?",
+			"answer": 0,
+			"hint": "How long does land art last?",
+			"choices": [
+				"it may soon be washed or blown away",
+				"photos are required",
+				"to sell the stones",
+				"to make it bigger"
+			],
+			"explain": "It may last only hours, so the photo keeps it."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: fine to use for land art, or leave alone?",
+			"groups": [
+				"fine to use",
+				"leave it alone"
+			],
+			"items": [
+				"fallen leaves",
+				"a bird's nest",
+				"loose pebbles",
+				"living flowers",
+				"dead sticks",
+				"moss growing on a rock"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it fallen and loose, or alive or someone's home?",
+			"explain": "Use fallen leaves, loose pebbles and dead sticks. Leave nests, living flowers and growing moss."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A spiral of leaves going from yellow to red shows a colour gradient.",
+			"answer": true,
+			"hint": "A gradient changes a little at a time.",
+			"explain": "True: the colour changes step by step along the spiral."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "12 stones lie evenly round a circle. What angle is there between two stones next to each other, from the middle?",
+			"answer": "30",
+			"hint": "All the way round is 360°.",
+			"explain": "12 gaps: 360 ÷ 12 = 30°.",
+			"picture": {
+				"kind": "land_art",
+				"design": "circle",
+				"material": "stones"
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each design to where nature shows it.",
+			"items": [
+				"spiral",
+				"circle",
+				"line",
+				"radial"
+			],
+			"matches": [
+				"a trail of pebbles",
+				"a daisy's petals",
+				"a snail's shell",
+				"ripples on a pond"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Picture each one outdoors.",
+			"explain": "Spirals in shells, circles in ripples, lines of pebbles and radial daisies."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Robert Smithson's Spiral Jetty (1970) is a spiral of rocks built out into a lake.",
+			"answer": true,
+			"hint": "Think of the lesson's example.",
+			"explain": "True: it is a huge rock spiral in a lake in Utah, USA."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Fibonacci numbers go … 21, 34, 55, … What comes after 55?",
+			"answer": "89",
+			"hint": "Add the two before.",
+			"explain": "34 + 55 = 89."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An artist lays 8 stones on the first ring, 16 on the second and 24 on the third. How many stones in all?",
+			"answer": "48",
+			"hint": "Add the three rings.",
+			"explain": "8 + 16 + 24 = 48 stones."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which principle does this land art show most?",
+			"answer": 0,
+			"hint": "Where does it all start from?",
+			"choices": [
+				"radial balance",
+				"asymmetry",
+				"contrast",
+				"movement"
+			],
+			"explain": "Rings spread out from the middle: radial balance.",
+			"picture": {
+				"kind": "land_art",
+				"design": "mandala",
+				"material": "stones"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Land art that lasts only a day is not real art.",
+			"answer": false,
+			"hint": "Why do artists choose it?",
+			"explain": "False: many artists choose art that changes and fades as part of the idea."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A leaf spiral has 5 turns. The first uses 4 leaves, and each turn uses 6 more than the one before. How many leaves in all?",
+			"answer": "80",
+			"hint": "List each turn: 4, then 6 more each time.",
+			"explain": "4 + 10 + 16 + 22 + 28 = 80 leaves."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.nature_numbers",
+			"level": 1
+		},
+		{
+			"gen": "g6c.nature_numbers",
+			"level": 2
+		},
+		{
+			"gen": "g6c.nature_numbers",
+			"level": 3
+		}
+	]
+}

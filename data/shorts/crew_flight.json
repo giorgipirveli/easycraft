@@ -1,0 +1,680 @@
+{
+	"id": "crew_flight",
+	"title": "Friends fly together",
+	"topic": "rockets",
+	"link": {
+		"board": true
+	},
+	"scenes": [
+		{
+			"seconds": 8,
+			"background": "night",
+			"caption": "In a crew flight, friends fly the rocket together.",
+			"say": "In a crew flight, friends fly the rocket together. Each astronaut needs a seat of their own.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 0.9,
+					"effect": "pop"
+				},
+				{
+					"at": 2.2,
+					"effect": "party_horn"
+				}
+			],
+			"actors": [
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						110,
+						280
+					],
+					"size": 130,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.2,
+							"height": 360
+						},
+						{
+							"do": "bounce",
+							"at": 2.2,
+							"height": 26
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						250,
+						280
+					],
+					"size": 130,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.8,
+							"height": 360
+						},
+						{
+							"do": "bounce",
+							"at": 2.5,
+							"height": 26
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "CREW FLIGHT!",
+					"at": [
+						180,
+						100
+					],
+					"size": 38,
+					"color": "white",
+					"box": "purple",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.6
+						},
+						{
+							"do": "pulse",
+							"at": 3.4
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "star",
+					"at": [
+						50,
+						150
+					],
+					"size": 40,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.2
+						},
+						{
+							"do": "spin",
+							"at": 2.4,
+							"dur": 4,
+							"turns": 1
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "star",
+					"at": [
+						318,
+						170
+					],
+					"size": 30,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.5
+						},
+						{
+							"do": "spin",
+							"at": 2.7,
+							"dur": 4,
+							"turns": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8,
+			"background": "night",
+			"caption": "One crew capsule has one seat: two friends need two.",
+			"say": "One crew capsule has one seat, so two friends need two capsules.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "thud"
+				},
+				{
+					"at": 0.9,
+					"effect": "thud"
+				},
+				{
+					"at": 3.6,
+					"effect": "ding"
+				}
+			],
+			"actors": [
+				{
+					"kind": "part",
+					"part": "CREW_CAPSULE",
+					"at": [
+						120,
+						300
+					],
+					"size": 96,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.1,
+							"height": 360
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "CREW_CAPSULE",
+					"at": [
+						240,
+						300
+					],
+					"size": 96,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.6,
+							"height": 360
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						60,
+						150
+					],
+					"size": 80,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.6
+						},
+						{
+							"do": "move",
+							"at": 2.4,
+							"dur": 1.0,
+							"to": [
+								120,
+								300
+							],
+							"ease": "back"
+						},
+						{
+							"do": "out",
+							"at": 3.4
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						300,
+						150
+					],
+					"size": 80,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.8
+						},
+						{
+							"do": "move",
+							"at": 2.6,
+							"dur": 1.0,
+							"to": [
+								240,
+								300
+							],
+							"ease": "back"
+						},
+						{
+							"do": "out",
+							"at": 3.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "2 seats",
+					"at": [
+						180,
+						110
+					],
+					"size": 40,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.6
+						},
+						{
+							"do": "pulse",
+							"at": 4.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"caption": "To Mars: 210 days. One service module keeps one astronaut the whole way.",
+			"say": "Mars is about 210 days away. One service module reuses air and water, like the space station, for one astronaut. Two friends need two.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 3.6,
+					"effect": "thud"
+				},
+				{
+					"at": 4.8,
+					"effect": "thud"
+				},
+				{
+					"at": 6.0,
+					"effect": "jingle_goal"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "mars",
+					"at": [
+						300,
+						80
+					],
+					"size": 70,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "count",
+					"from": 0,
+					"to": 210,
+					"suffix": " days",
+					"at": [
+						130,
+						90
+					],
+					"size": 40,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						},
+						{
+							"do": "value",
+							"at": 1.0,
+							"dur": 2.0,
+							"to": 210
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "SERVICE_MODULE",
+					"at": [
+						95,
+						260
+					],
+					"size": 80,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 3.3,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "SERVICE_MODULE",
+					"at": [
+						265,
+						260
+					],
+					"size": 80,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 4.5,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "1 astronaut",
+					"at": [
+						95,
+						340
+					],
+					"size": 20,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "1 astronaut",
+					"at": [
+						265,
+						340
+					],
+					"size": 20,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "2 modules: one each!",
+					"at": [
+						180,
+						400
+					],
+					"size": 22,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 6.4
+						},
+						{
+							"do": "pulse",
+							"at": 7.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "sunset",
+			"caption": "Mars has air: a heat shield and a parachute slow you down.",
+			"say": "Mars has air, so the lander needs a heat shield and a parachute, and three landing legs to stand steady.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "pop"
+				},
+				{
+					"at": 2.0,
+					"effect": "whoosh"
+				},
+				{
+					"at": 4.6,
+					"effect": "thud"
+				}
+			],
+			"actors": [
+				{
+					"kind": "part",
+					"part": "HEAT_SHIELD",
+					"at": [
+						70,
+						150
+					],
+					"size": 84,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.3
+						},
+						{
+							"do": "shake",
+							"at": 1.0,
+							"amount": 4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "heat shield",
+					"at": [
+						66,
+						214
+					],
+					"size": 16,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.8
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "PARACHUTE_PACK",
+					"at": [
+						180,
+						150
+					],
+					"size": 84,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.9
+						},
+						{
+							"do": "bounce",
+							"at": 2.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "parachute",
+					"at": [
+						180,
+						254
+					],
+					"size": 16,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.4
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "LANDING_LEGS",
+					"at": [
+						290,
+						150
+					],
+					"size": 84,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 3.8,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "3 legs",
+					"at": [
+						290,
+						214
+					],
+					"size": 16,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.8
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "mars",
+					"at": [
+						180,
+						420
+					],
+					"size": 200,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.0,
+							"from": [
+								180,
+								560
+							]
+						}
+					],
+					"bleed": true
+				}
+			]
+		},
+		{
+			"seconds": 7,
+			"background": "space",
+			"caption": "Puzzle: how many service modules would three friends need for Mars?",
+			"say": "Puzzle: how many service modules would three friends need to fly to Mars?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						80,
+						250
+					],
+					"size": 90,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						180,
+						250
+					],
+					"size": 90,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.4
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						280,
+						250
+					],
+					"size": 90,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.6
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "SERVICE_MODULE",
+					"at": [
+						150,
+						380
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "× ?",
+					"at": [
+						226,
+						380
+					],
+					"size": 44,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.5
+						},
+						{
+							"do": "pulse",
+							"at": 2.3,
+							"times": 3,
+							"dur": 1.8
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "mars",
+					"at": [
+						300,
+						90
+					],
+					"size": 60,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.8
+						}
+					]
+				}
+			]
+		}
+	]
+}

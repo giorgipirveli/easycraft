@@ -1,0 +1,566 @@
+{
+	"id": "g3.music.music_stories",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a pentatonic scale? (A scale of five notes.) Today: music that paints pictures and tells stories."
+		},
+		{
+			"text": "Composers can make music sound like animals, weather or feelings: low and slow for something big and heavy, high and quick for something small and light."
+		},
+		{
+			"text": "Camille Saint-Saëns, a French composer, wrote The Carnival of the Animals in 1886. It is a musical zoo of 14 short pieces.",
+			"picture": {
+				"kind": "lifespans",
+				"people": [
+					[
+						"Saint-Saëns",
+						1835,
+						1921
+					]
+				],
+				"from": 1800,
+				"to": 1950,
+				"year": 1886
+			}
+		},
+		{
+			"text": "In The Elephant, a double bass plays a heavy, slow dance with low notes. Listen: low and slow, like a big animal dancing.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G3:2",
+					"B3",
+					"D4:2",
+					"B3",
+					"G3:2"
+				],
+				"beat": 0.45
+			},
+			"picture": {
+				"kind": "orchestra",
+				"mark": "strings"
+			}
+		},
+		{
+			"text": "In The Aviary, a flute flutters high and fast, like birds. In Tortoises, a famous fast dance tune is played very, very slowly!",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C6",
+					"D6",
+					"E6",
+					"D6",
+					"C6",
+					"D6",
+					"E6",
+					"G6",
+					"C6",
+					"D6",
+					"E6",
+					"D6",
+					"C6",
+					"D6",
+					"E6",
+					"G6"
+				],
+				"beat": 0.12
+			}
+		},
+		{
+			"text": "In The Swan, a cello sings a smooth, flowing tune while pianos ripple like water. Smooth music sounds like this.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4:2",
+					"A4",
+					"B4",
+					"D5:2",
+					"B4",
+					"A4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"text": "In The Cuckoo in the Depths of the Woods, a clarinet plays the cuckoo's two notes, high then low, again and again.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5:2",
+					"C5:2",
+					"-",
+					"E5:2",
+					"C5:2"
+				]
+			},
+			"picture": {
+				"kind": "orchestra",
+				"mark": "woodwind"
+			}
+		},
+		{
+			"text": "Try it in the world: pick an animal in your world. Is it big or small, fast or slow? Hum a tune for it: low and slow, or high and quick."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who wrote The Carnival of the Animals?",
+			"answer": 0,
+			"hint": "Remember the French composer on the lesson card.",
+			"choices": [
+				"Camille Saint-Saëns",
+				"Vincent van Gogh",
+				"Katsushika Hokusai",
+				"Leonardo da Vinci"
+			],
+			"explain": "Camille Saint-Saëns wrote it in 1886."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Which animal could this low, slow tune be?",
+			"answer": 0,
+			"hint": "Big and heavy, or small and light?",
+			"choices": [
+				"an elephant",
+				"a tiny bird",
+				"a buzzing bee",
+				"a mouse"
+			],
+			"explain": "Low and slow notes sound big and heavy, like an elephant.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G3:2",
+					"B3",
+					"D4:2",
+					"B3",
+					"G3:2"
+				],
+				"beat": 0.45
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Which animal could this high, quick music show?",
+			"answer": 0,
+			"hint": "Big and heavy, or small and light?",
+			"choices": [
+				"a little bird",
+				"an elephant",
+				"a tortoise",
+				"a whale"
+			],
+			"explain": "High, quick notes sound small and light, like a little bird fluttering.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C6",
+					"D6",
+					"E6",
+					"D6",
+					"C6",
+					"D6",
+					"E6",
+					"G6",
+					"C6",
+					"D6",
+					"E6",
+					"D6",
+					"C6",
+					"D6",
+					"E6",
+					"G6"
+				],
+				"beat": 0.12
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In The Carnival of the Animals, a double bass plays the elephant.",
+			"answer": true,
+			"hint": "Remember the lesson card.",
+			"explain": "True: the big, low double bass plays The Elephant."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each piece to its music in The Carnival of the Animals.",
+			"items": [
+				"The Elephant",
+				"The Swan",
+				"The Aviary",
+				"The Cuckoo"
+			],
+			"matches": [
+				"a fluttering flute",
+				"a clarinet's two notes",
+				"a low double bass",
+				"a cello's smooth tune"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Big animal, low instrument; birds, a high one.",
+			"explain": "The Elephant: double bass. The Swan: cello. The Aviary: flute. The Cuckoo: clarinet."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which bird's call is this?",
+			"answer": 0,
+			"hint": "Two notes, high then low: say the bird's name to them!",
+			"choices": [
+				"a cuckoo",
+				"an owl",
+				"a duck",
+				"a chicken"
+			],
+			"explain": "A cuckoo: two notes, high then low, “cuck-oo”.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5:2",
+					"C5:2",
+					"-",
+					"E5:2",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In Tortoises, a fast dance tune is played very slowly. Why?",
+			"answer": 0,
+			"hint": "How do tortoises move?",
+			"choices": [
+				"to show how slowly tortoises move, as a joke",
+				"the players were tired",
+				"the music was broken",
+				"tortoises dislike fast music"
+			],
+			"explain": "It's a musical joke: a famous fast tune slowed right down, like a tortoise."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which words best describe this tune?",
+			"answer": 0,
+			"hint": "Does it glide, or hop about?",
+			"choices": [
+				"smooth and flowing",
+				"spiky and jumpy",
+				"loud and angry",
+				"fast and buzzing"
+			],
+			"explain": "Smooth and flowing, like a swan gliding on water.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4:2",
+					"A4",
+					"B4",
+					"D5:2",
+					"B4",
+					"A4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The Carnival of the Animals was written more than 100 years ago.",
+			"answer": true,
+			"hint": "It was written in 1886.",
+			"explain": "True: it was written in 1886, about 140 years ago."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which animal's movement could these jumpy notes show?",
+			"answer": 0,
+			"hint": "Low, high, low, high: what jumps like that?",
+			"choices": [
+				"a kangaroo hopping",
+				"a swan gliding",
+				"a snail sliding",
+				"a cat sleeping"
+			],
+			"explain": "Jumpy notes, low then high, sound like a kangaroo hopping.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"C5",
+					"-",
+					"C4",
+					"C5",
+					"-",
+					"C4",
+					"C5"
+				],
+				"beat": 0.25
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. This tune is played very slowly. Which animal does music like this suit?",
+			"answer": 0,
+			"hint": "Which animal is the slowest?",
+			"choices": [
+				"a tortoise",
+				"a cheetah",
+				"a hummingbird",
+				"a hare running"
+			],
+			"explain": "A tortoise moves very slowly, so slow music matches it. A cheetah, a hummingbird and a running hare are fast: they would need quick notes.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4:2"
+				],
+				"beat": 0.9
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did Saint-Saëns choose a double bass for the elephant?",
+			"answer": 0,
+			"hint": "Think about how an elephant would sound.",
+			"choices": [
+				"it plays low, heavy notes, like a big animal",
+				"it is the smallest instrument",
+				"it plays the highest notes",
+				"elephants like double basses"
+			],
+			"explain": "The double bass plays low, heavy notes that sound big, like an elephant."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which music would best show a mouse scurrying?",
+			"answer": 0,
+			"hint": "Small, fast and quiet.",
+			"choices": [
+				"high, quick, quiet notes",
+				"low, slow, loud notes",
+				"one long, low note",
+				"slow, heavy drums"
+			],
+			"explain": "High, quick, quiet notes sound small and fast, like a scurrying mouse."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen. This could be a buzzing bee: it is high and very fast.",
+			"answer": true,
+			"hint": "Draw the tune in the air with your finger as you listen: up for higher notes, down for lower ones.",
+			"explain": "True: a bee is small, so high notes suit it, and its wings beat very fast, so quick notes going back and forth sound like buzzing.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C6",
+					"B5",
+					"C6",
+					"B5",
+					"C6",
+					"B5",
+					"C6",
+					"B5",
+					"C6",
+					"B5",
+					"C6",
+					"B5",
+					"C6",
+					"B5",
+					"C6",
+					"B5"
+				],
+				"beat": 0.1
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Flight of the Bumblebee, by Rimsky-Korsakov, is very fast. What does the speed show?",
+			"answer": 0,
+			"hint": "Think of how a bee flies.",
+			"choices": [
+				"a bee buzzing and darting about",
+				"a bear sleeping",
+				"a calm sea",
+				"a tortoise walking"
+			],
+			"explain": "The very fast notes show a bee buzzing and darting about."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. The music climbs higher and higher. Which story fits?",
+			"answer": 0,
+			"hint": "Which one goes up?",
+			"choices": [
+				"a bird flying up into the sky",
+				"a stone sinking in a pond",
+				"someone falling asleep",
+				"an elephant sitting down"
+			],
+			"explain": "The notes go up and up, like a bird flying up into the sky.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"A4",
+					"B4",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which instrument plays The Swan?",
+			"answer": 0,
+			"hint": "Remember the lesson card about The Swan.",
+			"choices": [
+				"a cello",
+				"a trumpet",
+				"a drum",
+				"a flute"
+			],
+			"explain": "A cello plays The Swan's smooth tune, with pianos rippling like water."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Which animals would you play low and slow, and which high and quick?",
+			"items": [
+				"an elephant",
+				"a bird",
+				"a tortoise",
+				"a mouse"
+			],
+			"groups": [
+				"low and slow",
+				"high and quick"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Big and heavy, or small and light?",
+			"explain": "An elephant and a tortoise are big or slow: low and slow music. A bird and a mouse are small and quick: high and quick music."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these instruments from the lowest notes to the highest.",
+			"items": [
+				"a flute",
+				"a double bass",
+				"a cello"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The biggest instrument plays the lowest notes.",
+			"explain": "The double bass is lowest, then the cello, and the little flute is highest."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The Carnival of the Animals has 14 pieces. You have heard 4 of them. How many are left?",
+			"answer": "10",
+			"hint": "Take away the ones you have heard.",
+			"explain": "14 − 4 = 10 pieces left."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the music: does it suit something big and slow, or small and quick?",
+			"groups": [
+				"big and slow",
+				"small and quick"
+			],
+			"items": [
+				"low notes",
+				"high notes",
+				"a slow tempo",
+				"a fast tempo",
+				"a double bass",
+				"a flute"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Think of an elephant and a little bird: what music suits each one?",
+			"explain": "Big and slow: low notes, a slow tempo, a double bass. Small and quick: high notes, a fast tempo, a flute."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each animal to the music you would write for it.",
+			"items": [
+				"a whale",
+				"a hummingbird",
+				"a snail",
+				"a galloping horse"
+			],
+			"matches": [
+				"very slow, smooth notes",
+				"low, long, deep notes",
+				"fast, bouncy beats",
+				"very high, very fast notes"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Ask two questions for each animal: big or small? fast or slow?",
+			"explain": "A whale is huge: low, long, deep notes. A hummingbird is tiny and quick: very high, very fast notes. A snail is slow: very slow, smooth notes. A galloping horse: fast, bouncy beats."
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Listen to the galloping horse. Copy its rhythm: clap where you hear the claps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xx-xx-x-",
+				"tempo": 100
+			},
+			"hint": "Say 'gal-lop, gal-lop, go' as you clap.",
+			"explain": "Gal-lop in boxes 1 and 2, gal-lop in boxes 4 and 5, go in box 7: music can copy the way an animal moves."
+		}
+	],
+	"generators": []
+}

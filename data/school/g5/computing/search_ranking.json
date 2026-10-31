@@ -1,0 +1,396 @@
+{
+	"id": "g5.computing.search_ranking",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a search engine's index? (A giant list of words and the pages they are on.) Today: why some results come first."
+		},
+		{
+			"text": "A search engine sends out programs called crawlers. They visit pages and follow their links, again and again, adding every page's words to the index.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"crawlers visit pages",
+					"they follow the links",
+					"words go in the index",
+					"search finds them"
+				],
+				"title": "How pages are found"
+			}
+		},
+		{
+			"text": "When you search, the search engine finds every page with your words, then ranks them: it puts them in order, with the pages it thinks will help you most at the top.",
+			"picture": {
+				"kind": "search_page",
+				"query": "how do bees make honey",
+				"results": [
+					{
+						"title": "Buy honey now: half price!",
+						"ad": true
+					},
+					{
+						"title": "How bees make honey",
+						"note": "a nature society's page"
+					},
+					{
+						"title": "Bees for children"
+					}
+				]
+			}
+		},
+		{
+			"text": "It ranks by clues. Is every search word on the page, even in its title? Do many other pages link to it, like friends recommending it? Is it new? Is it in your language?"
+		},
+		{
+			"text": "Worked example: two pages both have all your words. 30 pages link to page A and only 5 to page B, so page A usually ranks higher: more pages point to it.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Page",
+						"Search words",
+						"Links to it"
+					],
+					[
+						"A",
+						"4 of 4",
+						"30"
+					],
+					[
+						"B",
+						"4 of 4",
+						"5"
+					]
+				]
+			}
+		},
+		{
+			"text": "Adverts: companies pay to put their pages at the top, marked Ad or Sponsored. An advert is there because someone paid, not because it is the best answer."
+		},
+		{
+			"text": "The top result is not always true or the best. Check it the grade 4 way: who wrote it, when and why? Then compare it with another good page."
+		},
+		{
+			"text": "Try it in the world: with a grown-up, search for the same question in two different ways. Which results moved up or down, and which were adverts? Next: real or edited pictures."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a search engine's crawler do?",
+			"answer": 0,
+			"hint": "Think of a spider walking along the web's threads.",
+			"choices": [
+				"visits pages and follows their links",
+				"writes new pages",
+				"deletes old pages",
+				"pays for adverts"
+			],
+			"explain": "A crawler visits pages, follows their links to more pages, and adds their words to the index."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Adverts in search results are marked with words like Ad or Sponsored.",
+			"answer": true,
+			"hint": "Look at the first result in the picture.",
+			"explain": "True: adverts are marked, so you can tell them from other results.",
+			"picture": {
+				"kind": "search_page",
+				"query": "how do bees make honey",
+				"results": [
+					{
+						"title": "Buy honey now: half price!",
+						"ad": true
+					},
+					{
+						"title": "How bees make honey",
+						"note": "a nature society's page"
+					},
+					{
+						"title": "Bees for children"
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which result is an advert?",
+			"answer": 0,
+			"hint": "Look for the small tag in front of a result.",
+			"choices": [
+				"Buy honey now: half price!",
+				"How bees make honey",
+				"Bees for children"
+			],
+			"explain": "The first result has the Ad tag: someone paid to put it there.",
+			"picture": {
+				"kind": "search_page",
+				"query": "how do bees make honey",
+				"results": [
+					{
+						"title": "Buy honey now: half price!",
+						"ad": true
+					},
+					{
+						"title": "How bees make honey"
+					},
+					{
+						"title": "Bees for children"
+					}
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: is it a clue a search engine ranks by, or not?",
+			"groups": [
+				"a clue",
+				"not a clue"
+			],
+			"items": [
+				"your words in the page's title",
+				"many pages linking to it",
+				"the page is new",
+				"the page's background colour",
+				"the writer's favourite food"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Would it help the search engine guess which page answers you best?",
+			"explain": "Your words, links and how new a page is are clues. A background colour or a favourite food don't help."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "This search engine puts pages with more of your search words first; if two tie, the one with more links comes first. Put the pages in order.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Sort by search words first. Only when two pages tie, look at the links.",
+			"items": [
+				"Honey Farm",
+				"Buzz Facts",
+				"Bee Club"
+			],
+			"explain": "Buzz Facts (4 words, 20 links) and Honey Farm (4 words, 12 links) tie on words, and Buzz Facts has more links. Bee Club has only 2 words.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Page",
+						"Search words",
+						"Links to it"
+					],
+					[
+						"Honey Farm",
+						"4",
+						"12"
+					],
+					[
+						"Bee Club",
+						"2",
+						"30"
+					],
+					[
+						"Buzz Facts",
+						"4",
+						"20"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is an advert at the top of the results?",
+			"answer": 0,
+			"hint": "What does the Ad tag tell you?",
+			"choices": [
+				"Someone paid for it to be there",
+				"It is the truest page",
+				"Most pages link to it",
+				"It is the newest page"
+			],
+			"explain": "An advert is at the top because someone paid for it to be shown there."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The first result is always the most correct answer.",
+			"answer": false,
+			"hint": "Is ranking the same as checking that something is true?",
+			"explain": "False: ranking is the search engine's best guess from clues. Check the page yourself."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Mimi and Juno search the same words in different countries. Why may their results differ?",
+			"answer": 0,
+			"hint": "Think of the clues a search engine uses.",
+			"choices": [
+				"Search engines use where you are as a clue",
+				"One of them typed it wrong",
+				"Results are chosen at random",
+				"Results never change"
+			],
+			"explain": "Where you are and your language are clues, so people in different places can see different results."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part to what it does.",
+			"items": [
+				"crawler",
+				"index",
+				"ranking",
+				"advert"
+			],
+			"matches": [
+				"is paid to be shown",
+				"visits pages, follows links",
+				"lists words and their pages",
+				"puts results in order"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Think about how a search engine finds, lists and orders pages.",
+			"explain": "The crawler visits pages, the index lists their words, ranking orders the results, and adverts are paid for."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A page repeats the word dragon 500 times but says nothing useful. Why might a good search engine rank it low?",
+			"answer": 0,
+			"hint": "Is having the word lots of times the only clue?",
+			"choices": [
+				"It uses other clues too, like links to it",
+				"It can't count words",
+				"Long pages are banned",
+				"Dragons are not allowed"
+			],
+			"explain": "Search engines use many clues. Few good pages link to a useless page, so it ranks low."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "This search engine puts pages with more search words first; if two tie, more links wins. Put them in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Search words first, biggest first. Break each tie with the links.",
+			"items": [
+				"Bee Club",
+				"Meadow News",
+				"Garden Tips",
+				"Nature Notes"
+			],
+			"explain": "Nature Notes and Garden Tips have 3 words (18 and 9 links), then Meadow News and Bee Club have 2 (25 and 7 links).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Page",
+						"Search words",
+						"Links to it"
+					],
+					[
+						"Bee Club",
+						"2",
+						"7"
+					],
+					[
+						"Garden Tips",
+						"3",
+						"9"
+					],
+					[
+						"Meadow News",
+						"2",
+						"25"
+					],
+					[
+						"Nature Notes",
+						"3",
+						"18"
+					]
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these results: an advert, or a result that earned its place?",
+			"groups": [
+				"an advert",
+				"an earned result"
+			],
+			"items": [
+				"Ad · Toy Shop: dragons half price",
+				"Sponsored · Kite World",
+				"Dragon facts · Nature Notes",
+				"How kites fly · Science Club"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Look for the words Ad and Sponsored.",
+			"explain": "The Ad and Sponsored results are paid for. The others earned their places by the search engine's clues."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the best way to check a top result?",
+			"answer": 0,
+			"hint": "Being first is not the same as being true.",
+			"choices": [
+				"Compare it with another trusted page",
+				"Believe it because it is first",
+				"Click the advert next to it",
+				"Search until you find what you hoped"
+			],
+			"explain": "Compare it with another trusted page, and ask who wrote it, when and why."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "More links pointing to a page is a bit like more people recommending it.",
+			"answer": true,
+			"hint": "Why would many pages link to one page?",
+			"explain": "True: pages link to pages they think are useful, like recommendations, so links are a ranking clue."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.rank_results",
+			"level": 1
+		},
+		{
+			"gen": "g5a.rank_results",
+			"level": 2
+		},
+		{
+			"gen": "g5a.rank_results",
+			"level": 3
+		}
+	]
+}

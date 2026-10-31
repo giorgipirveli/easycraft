@@ -1,0 +1,328 @@
+{
+	"id": "g3.computing.computer_parts",
+	"lesson": [
+		{
+			"text": "Quick memory: what does decomposition mean? (Breaking a big problem into small parts.) Today we break a computer into its parts!"
+		},
+		{
+			"text": "Input is how information goes into a computer. You can type on a keyboard, click a mouse or tap a touch screen. You can talk to a microphone, show a camera or press a game controller.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"input",
+						"output",
+						"storage"
+					],
+					[
+						"keyboard",
+						"screen",
+						"saved worlds"
+					],
+					[
+						"mouse",
+						"speakers",
+						"photos"
+					],
+					[
+						"microphone",
+						"printer",
+						"music"
+					]
+				]
+			}
+		},
+		{
+			"text": "Processing is the computer working on the information. Its processor follows the program's steps: billions of tiny steps every second.",
+			"picture": {
+				"kind": "computer_parts",
+				"labels": true
+			}
+		},
+		{
+			"text": "Output is how the computer gives information back: a screen, speakers, headphones, a printer, or a phone's buzz.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"output",
+						"it"
+					],
+					[
+						"screen",
+						"shows pictures"
+					],
+					[
+						"speakers",
+						"play sound"
+					],
+					[
+						"printer",
+						"prints on paper"
+					]
+				]
+			}
+		},
+		{
+			"text": "Storage keeps information to use later, even when the computer is off: your photos, your music and your saved worlds."
+		},
+		{
+			"text": "Hardware is the parts you can touch. Software is the programs that tell the hardware what to do, like this game. They need each other."
+		},
+		{
+			"text": "Some parts do two jobs: a touch screen is an input (you tap it) and an output (it shows pictures)."
+		},
+		{
+			"text": "Try it in the world: as you play, notice each part. Your tap is input, and the processor moves your player. The screen and sound are output, and your world is saved in storage."
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: input or output?",
+			"groups": [
+				"input",
+				"output"
+			],
+			"items": [
+				"keyboard",
+				"speakers",
+				"microphone",
+				"screen",
+				"mouse",
+				"printer"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it put information in, or give it back out to you?",
+			"explain": "Input: keyboard, microphone, mouse. Output: speakers, screen, printer."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is an output device?",
+			"answer": 0,
+			"hint": "Output comes out of the computer to you.",
+			"choices": [
+				"speakers",
+				"keyboard",
+				"mouse",
+				"microphone"
+			],
+			"explain": "Speakers are output: sound comes out of them."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A keyboard is an input device.",
+			"answer": true,
+			"hint": "When you type, where does the information go?",
+			"explain": "True: typing puts information into the computer."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does storage do?",
+			"answer": 0,
+			"hint": "Think of where your saved world waits for you.",
+			"choices": [
+				"keeps information to use later",
+				"shows pictures",
+				"plays sounds",
+				"takes photos"
+			],
+			"explain": "Storage keeps information, like photos and saved worlds, for later."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part to its job.",
+			"items": [
+				"input",
+				"processing",
+				"output",
+				"storage"
+			],
+			"matches": [
+				"working on information",
+				"shows or plays the result",
+				"keeps things for later",
+				"information going in"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of a tap on the screen: in, worked on, shown, saved.",
+			"explain": "Input: information in. Processing: working on it. Output: showing the result. Storage: keeping it for later."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: hardware or software?",
+			"groups": [
+				"hardware",
+				"software"
+			],
+			"items": [
+				"a mouse",
+				"a game",
+				"a screen",
+				"a drawing program",
+				"a printer",
+				"a music program"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Can you touch it, or is it a program?",
+			"explain": "Hardware: the mouse, screen and printer. Software: the game, the drawing program and the music program."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which part follows the program's instructions?",
+			"answer": 0,
+			"hint": "Which part does the thinking work?",
+			"choices": [
+				"the processor",
+				"the screen",
+				"the speakers",
+				"the mouse"
+			],
+			"explain": "The processor follows the instructions and works on the information."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A touch screen is both an input and an output device.",
+			"answer": true,
+			"hint": "Do you tap it? Does it show you things?",
+			"explain": "True: you tap it (input) and it shows pictures (output)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "When you save your world, where does it go?",
+			"answer": 0,
+			"hint": "Where are things kept for later?",
+			"choices": [
+				"storage",
+				"the speakers",
+				"the microphone",
+				"the keyboard"
+			],
+			"explain": "Saved worlds are kept in storage, ready for next time."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "You tap JUMP in a game. Put what happens in order.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "In, worked on, then out.",
+			"items": [
+				"The processor works out the jump",
+				"Your tap goes in (input)",
+				"The screen shows the jump (output)"
+			],
+			"explain": "Input first (your tap), then processing (working out the jump), then output (the screen shows it)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A robot vacuum cleaner has a bump sensor. What kind of part is the sensor?",
+			"answer": 0,
+			"hint": "Does the sensor take information in, or give it out?",
+			"choices": [
+				"input",
+				"output",
+				"storage",
+				"software"
+			],
+			"explain": "Input: the sensor tells the robot's processor that it has bumped into something."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why can't hardware do anything on its own?",
+			"answer": 0,
+			"hint": "What tells a computer what to do?",
+			"choices": [
+				"it needs software to tell it what to do",
+				"it is too heavy",
+				"it has no colours",
+				"it is always switched off"
+			],
+			"explain": "Hardware needs software: the programs tell it what to do, step by step."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Software is the parts of a computer you can touch.",
+			"answer": false,
+			"hint": "Can you touch a program?",
+			"explain": "False: hardware is the parts you can touch. Software is the programs."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: input, output or storage?",
+			"groups": [
+				"input",
+				"output",
+				"storage"
+			],
+			"items": [
+				"microphone",
+				"headphones",
+				"memory card",
+				"game controller",
+				"printer",
+				"hard drive"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "In, out, or kept for later?",
+			"explain": "Input: microphone, game controller. Output: headphones, printer. Storage: memory card, hard drive."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which of these could be an input for a weather station?",
+			"answer": 0,
+			"hint": "Which one takes information in?",
+			"choices": [
+				"a thermometer that measures the temperature",
+				"a loudspeaker",
+				"a lamp",
+				"a printer"
+			],
+			"explain": "A thermometer measures the temperature and sends it in: that is an input."
+		}
+	],
+	"generators": []
+}

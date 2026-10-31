@@ -1,0 +1,403 @@
+{
+	"id": "g7.design_tech.electronic_circuits",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met sensors. What does an LDR sense? (Light.) Today: build circuits with LEDs, resistors and switches, read a resistor's colour code, and make a simple alarm."
+		},
+		{
+			"text": "Circuit diagrams use symbols. A cell or battery gives the push, in volts (V); current flows round the loop, in amps (A) or milliamps (mA). A resistor limits the current; its resistance is measured in ohms.",
+			"picture": {
+				"kind": "schematic",
+				"parts": [
+					"switch",
+					"resistor",
+					"led",
+					"battery"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "An LED (light-emitting diode) is bright and uses little energy, but it only lets current through one way: its long leg goes to the positive side. Put it in the wrong way round and it stays dark.",
+			"picture": {
+				"kind": "schematic",
+				"parts": [
+					"closed",
+					"led_back",
+					"resistor",
+					"battery"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "An LED needs a resistor in series, or too much current flows and it burns out. Resistance = volts across the resistor ÷ current. A 9 V battery and a 2 V LED at 20 mA (0.02 A): (9 − 2) ÷ 0.02 = 350 ohms.",
+			"picture": {
+				"kind": "schematic",
+				"parts": [
+					"closed",
+					"resistor",
+					"led",
+					"battery"
+				],
+				"lit": true,
+				"values": [
+					"",
+					"350 ohms",
+					"2 V",
+					"9 V"
+				]
+			}
+		},
+		{
+			"text": "Resistors come in standard values, so pick the next one up: 390 ohms. Coloured bands show the value: the first two are digits, and the third says how many zeros. Brown, black, red: 1, 0 and two zeros, 1,000 ohms.",
+			"picture": {
+				"kind": "resistor",
+				"bands": [
+					"brown",
+					"black",
+					"red",
+					"gold"
+				],
+				"names": true,
+				"value": true
+			}
+		},
+		{
+			"text": "The colour code: black 0, brown 1, red 2, orange 3, yellow 4, green 5, blue 6, violet 7, grey 8, white 9. A fourth band, gold or silver, is the tolerance: how close to its value it really is.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"colour",
+						"digit",
+						"colour",
+						"digit"
+					],
+					[
+						"black",
+						"0",
+						"green",
+						"5"
+					],
+					[
+						"brown",
+						"1",
+						"blue",
+						"6"
+					],
+					[
+						"red",
+						"2",
+						"violet",
+						"7"
+					],
+					[
+						"orange",
+						"3",
+						"grey",
+						"8"
+					],
+					[
+						"yellow",
+						"4",
+						"white",
+						"9"
+					]
+				]
+			}
+		},
+		{
+			"text": "A simple alarm: a battery, a sensing switch and a buzzer in series. A pressure pad stepped on, a tilt switch tipped or a reed switch near a magnet completes the loop. Build it on a breadboard, then solder it with a grown-up.",
+			"picture": {
+				"kind": "schematic",
+				"parts": [
+					"pad",
+					"buzzer",
+					"cell"
+				],
+				"active": true,
+				"lit": true,
+				"names": true
+			}
+		},
+		{
+			"text": "Try it in the world: the smoke alarm in LIFE's Fire Escape is an electronic alarm: a sensor, a chip and a buzzer. Find the smoke alarm in the Tool Book: test it every month. Next: microcontrollers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "An LED only lets current through one way.",
+			"answer": true,
+			"hint": "What does the 'diode' in light-emitting diode do?",
+			"explain": "True: a diode lets current through one way only."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a resistor do in a circuit?",
+			"choices": [
+				"limits the current",
+				"makes light",
+				"stores sound",
+				"turns the circuit off"
+			],
+			"answer": 0,
+			"hint": "Think of its name: what does it resist?",
+			"explain": "A resistor limits the current, protecting parts like LEDs."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is this resistor's value in ohms? (The gold band is its tolerance.)",
+			"answer": "220",
+			"hint": "Bands 1 and 2 are digits; band 3 says how many zeros to add.",
+			"explain": "Red 2, red 2, brown: 1 zero, so 220 ohms.",
+			"picture": {
+				"kind": "resistor",
+				"bands": [
+					"red",
+					"red",
+					"brown",
+					"gold"
+				],
+				"names": true
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each part to its job.",
+			"items": [
+				"cell",
+				"LED",
+				"resistor",
+				"buzzer"
+			],
+			"matches": [
+				"makes a sound",
+				"limits the current",
+				"pushes the current round",
+				"lights up, one way only"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "What does each part do to the current?",
+			"explain": "Cell: pushes. LED: lights, one way. Resistor: limits. Buzzer: sounds."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the parts: input (senses) or output (acts)?",
+			"groups": [
+				"input (senses)",
+				"output (acts)"
+			],
+			"items": [
+				"LED",
+				"reed switch",
+				"lamp",
+				"buzzer",
+				"tilt switch",
+				"pressure pad"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Does it notice something, or do something?",
+			"explain": "Inputs: the pressure pad, tilt and reed switches. Outputs: the buzzer, the LED, the lamp."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 6 V battery lights an LED that needs 2 V at 20 mA. What resistor does it need, in ohms?",
+			"answer": "200",
+			"hint": "Volts across the resistor ÷ the current in amps.",
+			"explain": "6 − 2 = 4 V, and 4 ÷ 0.02 = 200 ohms."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is this resistor's value in ohms?",
+			"answer": "4700",
+			"hint": "Read the colours: two digits, then the number of zeros.",
+			"explain": "Yellow 4, violet 7, red 2 zeros: 4,700 ohms.",
+			"picture": {
+				"kind": "resistor",
+				"bands": [
+					"yellow",
+					"violet",
+					"red",
+					"gold"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Look at the circuit. The LED lights.",
+			"answer": false,
+			"hint": "Which way does the LED's triangle point compared with the current?",
+			"explain": "False: the LED is the wrong way round, so it blocks the current.",
+			"picture": {
+				"kind": "schematic",
+				"parts": [
+					"closed",
+					"led_back",
+					"resistor",
+					"battery"
+				],
+				"names": true
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put building an alarm in order.",
+			"items": [
+				"draw the circuit diagram",
+				"test it and fix faults",
+				"build it on a breadboard",
+				"solder it onto a board",
+				"fit it in a case and test again"
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				3,
+				4
+			],
+			"hint": "Plan, try out, test, make it last, then finish.",
+			"explain": "Diagram, breadboard, test and fix, solder, then the case and a final test."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which band shows how many zeros to add?",
+			"choices": [
+				"the third band",
+				"the first band",
+				"the gold band",
+				"the second band"
+			],
+			"answer": 0,
+			"hint": "The first two bands are digits.",
+			"explain": "The third band: its digit is the number of zeros."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which colour means 5 in the resistor code?",
+			"choices": [
+				"green",
+				"blue",
+				"yellow",
+				"red"
+			],
+			"answer": 0,
+			"hint": "Black is 0: count along from brown, red, orange, yellow.",
+			"explain": "Green is 5: black 0, brown 1, red 2, orange 3, yellow 4, green 5."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 12 V supply, an LED that needs 3 V and 20 mA. What resistor does it need, in ohms?",
+			"answer": "450",
+			"hint": "Find the volts left for the resistor, then divide by the current in amps.",
+			"explain": "12 − 3 = 9 V, and 9 ÷ 0.02 = 450 ohms."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The sum gives 450 ohms. Standard values near it are 390, 470 and 560. Which do you use?",
+			"choices": [
+				"470 ohms",
+				"390 ohms",
+				"560 ohms"
+			],
+			"answer": 0,
+			"hint": "Choose the nearest standard value that is not smaller.",
+			"explain": "470 ohms: the next value up keeps the current safe; 390 would let too much through."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which first three bands make 330 ohms?",
+			"choices": [
+				"orange, orange, brown",
+				"orange, orange, orange",
+				"brown, orange, orange",
+				"red, red, brown"
+			],
+			"answer": 0,
+			"hint": "Write it as two digits and a number of zeros.",
+			"explain": "330 is 3, 3 and one zero: orange, orange, brown."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A reed switch closes when a magnet comes near it.",
+			"answer": true,
+			"hint": "What are the two thin metal strips inside made of?",
+			"explain": "True: the magnet pulls its two metal strips together."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 9 V battery is shared equally by two identical resistors in series. How many volts are across each?",
+			"answer": "4.5",
+			"hint": "In series, the battery's volts are shared round the loop.",
+			"explain": "9 ÷ 2 = 4.5 V across each."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.resistor_code",
+			"level": 1
+		},
+		{
+			"gen": "g7w.resistor_code",
+			"level": 2
+		},
+		{
+			"gen": "g7w.resistor_code",
+			"level": 3
+		},
+		{
+			"gen": "g7w.led_resistor",
+			"level": 1
+		},
+		{
+			"gen": "g7w.led_resistor",
+			"level": 2
+		},
+		{
+			"gen": "g7w.led_resistor",
+			"level": 3
+		},
+		{
+			"gen": "g7w.alarm_logic",
+			"level": 1
+		},
+		{
+			"gen": "g7w.alarm_logic",
+			"level": 2
+		},
+		{
+			"gen": "g7w.alarm_logic",
+			"level": 3
+		}
+	]
+}

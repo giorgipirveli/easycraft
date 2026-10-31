@@ -1,0 +1,22 @@
+{
+	"id": "melting",
+	"title": "Melting and freezing",
+	"card": "Warm ice on the burner, then cool it.",
+	"units": ["g4.science.states_of_matter", "g4.science.heat_temperature", "g5.science.particles", "g7.science.states"],
+	"supplies": {"coal": 1},
+	"predict": {
+		"type": "choice",
+		"prompt": "You warm a block of ice from the freezer on the burner. At what temperature will it melt?",
+		"choices": ["0 °C", "20 °C", "50 °C", "100 °C"],
+		"answer": 0
+	},
+	"scene": {"kind": "heat", "start": -20, "low": -20, "step": 20, "melt": 0, "boil": 100},
+	"try": "Tap WARM to heat the beaker on the burner. Tap COOL to stand it in an ice bath. Watch the thermometer!",
+	"safety": "In a real lab, only a grown-up lights the burner. Never play with fire at home.",
+	"result": "The ice melted into water at 0 °C, and the water boiled into steam at 100 °C. Cooled in the ice bath, the water froze into ice again at 0 °C.",
+	"why": [
+		"Ice, water and steam are all water: a solid, a liquid and a gas. Warming water or cooling it changes its state.",
+		"Ice melts at 0 °C and water boils at 100 °C (at sea level). While the ice melts or the water boils, the thermometer stays still: the heat goes into changing the state.",
+		"Cooling works the other way round: steam turns back into water, and water freezes into ice at 0 °C. The ice bath is ice with salt, which gets colder than 0 °C."
+	]
+}

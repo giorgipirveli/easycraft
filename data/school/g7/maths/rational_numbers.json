@@ -1,0 +1,241 @@
+{
+	"id": "g7.maths.rational_numbers",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, multiplying integers. What is (−3) × (−4)? Two negatives make a positive: 12."
+		},
+		{
+			"text": "Rational numbers can be written as fractions: 3/4, −2, 0.5 and −1 1/3 are all rational. They all sit on the number line.",
+			"picture": {
+				"kind": "number_line",
+				"from": "-2",
+				"to": "2",
+				"step": "1/4",
+				"dot": "3/4",
+				"labels": "ends"
+			}
+		},
+		{
+			"text": "To write a fraction as a decimal, divide: 3/8 = 3 ÷ 8 = 0.375. Some decimals end; others repeat, like 1/3 = 0.333…",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"fraction",
+						"decimal",
+						"kind"
+					],
+					[
+						"1/4",
+						"0.25",
+						"ends"
+					],
+					[
+						"3/8",
+						"0.375",
+						"ends"
+					],
+					[
+						"1/3",
+						"0.333…",
+						"repeats"
+					],
+					[
+						"2/3",
+						"0.666…",
+						"repeats"
+					]
+				]
+			}
+		},
+		{
+			"text": "A decimal ends only if the fraction's bottom number (in lowest terms) has only 2s and 5s as factors."
+		},
+		{
+			"text": "The rules for signs work for fractions too: −1/2 × 2/3 = −1/3."
+		},
+		{
+			"text": "Try it in the world: share 3 cakes between 8 friends in your world: each gets 3/8 of a cake, which is 0.375. Share 1 cake between 3 and the decimal never ends! Next: proportional relationships."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Write 1/4 as a decimal.",
+			"answer": "0.25",
+			"hint": "Divide 1 by 4: how many hundredths?",
+			"explain": "1 ÷ 4 = 0.25."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Write 3/5 as a decimal.",
+			"answer": "0.6",
+			"hint": "Divide 3 by 5, or make it tenths: 3/5 = 6/10.",
+			"explain": "3/5 = 6/10 = 0.6."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "1/3 as a decimal repeats: 0.333…",
+			"answer": true,
+			"hint": "Divide 1 by 3.",
+			"explain": "Yes: 1 divided by 3 is 0.333… and the 3s go on for ever."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Does 7/12 end or repeat as a decimal?",
+			"answer": 0,
+			"hint": "12 = 2 × 2 × 3.",
+			"choices": [
+				"it repeats",
+				"it ends"
+			],
+			"explain": "The factor 3 makes it repeat."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "−1/2 + 3/4 = ?",
+			"answer": "1/4",
+			"hint": "Make both into quarters: −1/2 is −2/4.",
+			"explain": "−2/4 + 3/4 = 1/4.",
+			"accept": [
+				"0.25"
+			]
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "−2/3 × 3/4 = ?",
+			"answer": "-1/2",
+			"hint": "Multiply tops and bottoms.",
+			"explain": "−6/12 = −1/2.",
+			"accept": [
+				"-0.5"
+			]
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "−1.5 × 2.4 = ?",
+			"answer": "-3.6",
+			"hint": "Multiply 15 by 24, place the decimal point, then decide the sign.",
+			"explain": "First ignore the signs: 15 × 24 = 360, and two decimal places make 3.6. One number is negative and one positive, so the answer is negative: −3.6."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the largest?",
+			"answer": 0,
+			"hint": "Closest to 0 on the right.",
+			"choices": [
+				"−0.2",
+				"−1/4",
+				"−0.3"
+			],
+			"explain": "Write them as decimals: −1/4 is −0.25. On the number line −0.3 is furthest left, then −0.25, then −0.2. With negatives, the one closest to 0 is the largest: −0.2."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the fractions: does the decimal end or repeat?",
+			"items": [
+				"1/4",
+				"1/3",
+				"3/8",
+				"5/6",
+				"7/10",
+				"2/9"
+			],
+			"groups": [
+				"ends",
+				"repeats"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Put each in lowest terms and look at the bottom number: only 2s and 5s means it ends.",
+			"explain": "1/4, 3/8 and 7/10 have only 2s and 5s below: they end (0.25, 0.375, 0.7). 1/3, 5/6 and 2/9 have a 3 below: they repeat."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each fraction to its decimal.",
+			"items": [
+				"1/2",
+				"3/4",
+				"1/5",
+				"1/8"
+			],
+			"matches": [
+				"0.2",
+				"0.125",
+				"0.5",
+				"0.75"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Divide the top by the bottom.",
+			"explain": "1/2 = 0.5; 3/4 = 0.75; 1/5 = 0.2; 1/8 = 0.125."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order these numbers from the smallest to the largest.",
+			"items": [
+				"−3/4",
+				"−0.7",
+				"1/8",
+				"−1/3",
+				"0.2"
+			],
+			"answer": [
+				0,
+				1,
+				3,
+				2,
+				4
+			],
+			"hint": "Write each one as a decimal first, then picture the number line.",
+			"explain": "As decimals: −3/4 is −0.75, −1/3 is −0.333… and 1/8 is 0.125. On the number line from left to right: −0.75, −0.7, −0.333…, 0.125, 0.2."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7n.frac_decimal",
+			"level": 1
+		},
+		{
+			"gen": "g7n.frac_decimal",
+			"level": 2
+		},
+		{
+			"gen": "g7n.frac_decimal",
+			"level": 3
+		},
+		{
+			"gen": "g7n.rational_ops",
+			"level": 1
+		},
+		{
+			"gen": "g7n.rational_ops",
+			"level": 2
+		},
+		{
+			"gen": "g7n.rational_ops",
+			"level": 3
+		}
+	]
+}

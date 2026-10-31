@@ -1,0 +1,308 @@
+{
+	"id": "g4.computing.report_concerns",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a digital footprint? (The trail of what you do and share online.) Today: what to do when something online doesn't feel right."
+		},
+		{
+			"text": "Most people online are kind: they say nice things, play fair and ask before joining in. Some behaviour is not OK: mean words, threats, scary pictures, asking for secrets or photos, or asking to meet."
+		},
+		{
+			"text": "Warning signs: someone asks you to keep a secret from your grown-ups, promises gifts, asks where you live, or asks to talk somewhere private. These are never OK, even when they seem friendly."
+		},
+		{
+			"text": "If something online upsets you: stop, don't reply, and tell a trusted adult. It is never your fault, and you won't be in trouble for telling.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"stop",
+					"don't reply",
+					"tell a trusted adult"
+				],
+				"title": "If something upsets you"
+			}
+		},
+		{
+			"text": "Trusted adults are grown-ups who keep you safe: a parent or carer, a teacher, someone in your family. Think of three of your own now.",
+			"picture": {
+				"kind": "hand",
+				"labels": [
+					"mum or dad",
+					"carer",
+					"teacher",
+					"grandparent",
+					"school nurse"
+				]
+			}
+		},
+		{
+			"text": "In this game: MUTE hides someone's messages, BLOCK stops them contacting you, and REPORT tells the game what happened: MEAN WORDS, SCARY, ASKED SECRETS or SOMETHING ELSE."
+		},
+		{
+			"text": "Worked example: a player Tilly doesn't know says, Don't tell your mum, but what school do you go to? Tilly doesn't answer. She taps REPORT, then ASKED SECRETS, then BLOCK, and tells her mum.",
+			"picture": {
+				"kind": "chat",
+				"name": "unknown player",
+				"messages": [
+					[
+						"them",
+						"Don't tell your mum, but..."
+					],
+					[
+						"them",
+						"what school do you go to?"
+					]
+				],
+				"mark": 1
+			}
+		},
+		{
+			"text": "Try it in the world: with a grown-up, find MUTE, BLOCK and REPORT in the game's world. Then you know where they are before you ever need them. Next: how computers changed the world."
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: OK online, or not OK?",
+			"groups": [
+				"OK",
+				"not OK"
+			],
+			"items": [
+				"saying good game!",
+				"asking to join a team",
+				"sharing a building tip",
+				"calling someone names",
+				"asking where you live",
+				"asking you to keep a secret"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Would you be happy for a grown-up to see it?",
+			"explain": "Good game, joining a team and tips are OK. Names, asking where you live and secrets are not."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Something online upsets you. What should you do first?",
+			"answer": 0,
+			"hint": "Who can help you?",
+			"choices": [
+				"stop, and tell a trusted adult",
+				"reply with something mean",
+				"keep it a secret",
+				"share it with everyone"
+			],
+			"explain": "Stop, don't reply, and tell a trusted adult."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "If something online upsets you, it is your fault.",
+			"answer": false,
+			"hint": "Who chose to send it?",
+			"explain": "False: it is never your fault. Tell a trusted adult."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who is a trusted adult?",
+			"answer": 0,
+			"hint": "Who keeps you safe in real life?",
+			"choices": [
+				"your teacher",
+				"a player you just met online",
+				"a stranger who gives gifts",
+				"someone who asks for secrets"
+			],
+			"explain": "Your teacher is a grown-up who keeps you safe."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each button to what it does.",
+			"items": [
+				"MUTE",
+				"BLOCK",
+				"REPORT"
+			],
+			"matches": [
+				"stops them contacting you",
+				"tells the game what happened",
+				"hides their messages"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Think of the three buttons in this game.",
+			"explain": "MUTE hides messages, BLOCK stops contact, REPORT tells the game."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A player keeps calling you names. Which REPORT reason fits?",
+			"answer": 0,
+			"hint": "What kind of behaviour is name-calling?",
+			"choices": [
+				"MEAN WORDS",
+				"ASKED SECRETS",
+				"SCARY",
+				"SOMETHING ELSE"
+			],
+			"explain": "Calling names is MEAN WORDS."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A player asks for your address. Which REPORT reason fits?",
+			"answer": 0,
+			"hint": "Is your address personal information?",
+			"choices": [
+				"ASKED SECRETS",
+				"MEAN WORDS",
+				"SCARY",
+				"SOMETHING ELSE"
+			],
+			"explain": "Your address is personal information: ASKED SECRETS."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order: someone online is being mean.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "First protect yourself, then get help.",
+			"items": [
+				"Tell a trusted adult",
+				"Report what happened",
+				"Block the person",
+				"Stop and don't reply"
+			],
+			"explain": "Stop, block, report, and tell a trusted adult."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Someone asking you to keep a secret from your grown-ups is a warning sign.",
+			"answer": true,
+			"hint": "Why would anyone want your grown-ups not to know?",
+			"explain": "True: that is a warning sign. Tell a trusted adult."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An online friend offers free gold if you talk somewhere private. What is the best choice?",
+			"answer": 0,
+			"hint": "Is this one of the warning signs?",
+			"choices": [
+				"stay away: block, report and tell a grown-up",
+				"go, but only for a minute",
+				"ask for more gold first",
+				"give them your password"
+			],
+			"explain": "Gifts and a private place are warning signs: block, report and tell a grown-up."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why tell a trusted adult, even after you have blocked someone?",
+			"answer": 0,
+			"hint": "Who else might that person bother?",
+			"choices": [
+				"they can help, and it may help others too",
+				"so you get into trouble",
+				"blocking never works",
+				"to keep it a secret"
+			],
+			"explain": "A grown-up can help you, and can stop the person upsetting other children."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: a warning sign, or friendly?",
+			"groups": [
+				"warning sign",
+				"friendly"
+			],
+			"items": [
+				"asks you to keep a secret",
+				"promises you gifts",
+				"asks to meet you",
+				"says nice build!",
+				"invites you to a team game",
+				"asks for a photo of you"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Would it be OK if your grown-ups saw it?",
+			"explain": "Secrets, gifts, meeting and photos are warning signs. Nice build and a team game are friendly."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "You will be in trouble if you tell a grown-up about something that happened online.",
+			"answer": false,
+			"hint": "What did the lesson say about telling?",
+			"explain": "False: you won't be in trouble. Telling is always right."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A player sends a scary picture. Which REPORT reason fits?",
+			"answer": 0,
+			"hint": "How did the picture make you feel?",
+			"choices": [
+				"SCARY",
+				"MEAN WORDS",
+				"ASKED SECRETS",
+				"SOMETHING ELSE"
+			],
+			"explain": "A frightening picture: SCARY."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each problem to the REPORT reason that fits.",
+			"items": [
+				"calls you names",
+				"asks your school's name",
+				"sends a frightening picture",
+				"fills the chat with adverts"
+			],
+			"matches": [
+				"SCARY",
+				"SOMETHING ELSE",
+				"MEAN WORDS",
+				"ASKED SECRETS"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Your school is personal information. Anything that fits no other reason is SOMETHING ELSE.",
+			"explain": "Names are MEAN WORDS. Your school's name is personal, so ASKED SECRETS. A frightening picture is SCARY. Adverts in the chat fit none of these, so SOMETHING ELSE. Then tell a trusted adult."
+		}
+	],
+	"generators": []
+}

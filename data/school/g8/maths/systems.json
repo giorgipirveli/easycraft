@@ -1,0 +1,107 @@
+{
+	"id": "g8.maths.systems",
+	"lesson": [
+		{
+			"text": "A system is two equations together. Its solution is the point that works in both: where the two lines cross."
+		},
+		{
+			"text": "By graphing: draw both lines and read the crossing point."
+		},
+		{
+			"text": "By substitution: y = x + 3 and y = 2x. Set them equal: 2x = x + 3, so x = 3, and y = 6."
+		},
+		{
+			"text": "Parallel lines never cross: no solution. The same line: infinitely many solutions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Solve together: y = x + 2 and y = 2x. What is x?",
+			"answer": "2",
+			"hint": "2x = x + 2.",
+			"explain": "x = 2, y = 4."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The solution to a system is where the two lines cross.",
+			"answer": true,
+			"hint": "It works in both.",
+			"explain": "Yes."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Solve together: y = 3x and y = x + 4. What is x?",
+			"answer": "2",
+			"hint": "3x = x + 4.",
+			"explain": "x = 2, y = 6."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Solve together: y = 2x + 1 and y = x + 5. What is y?",
+			"answer": "9",
+			"hint": "2x + 1 = x + 5 gives x = 4.",
+			"explain": "y = 4 + 5 = 9."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How many solutions do y = 2x + 1 and y = 2x + 5 have?",
+			"answer": 0,
+			"hint": "Same slope, different start.",
+			"choices": [
+				"none: the lines are parallel",
+				"one",
+				"infinitely many"
+			],
+			"explain": "Parallel lines never meet."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "x + y = 10 and x − y = 4. What is x?",
+			"answer": "7",
+			"hint": "Add the equations.",
+			"explain": "2x = 14, x = 7."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Two tickets cost 14 coins; an adult ticket costs 4 more than a child's. What does a child's cost?",
+			"answer": "5",
+			"hint": "c + (c + 4) = 14.",
+			"explain": "2c = 10, c = 5."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which point solves both y = x + 1 and y = −x + 5?",
+			"answer": 0,
+			"hint": "Check both equations.",
+			"choices": [
+				"(2, 3)",
+				"(3, 2)",
+				"(1, 2)"
+			],
+			"explain": "3 = 2 + 1 and 3 = −2 + 5."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8n.system",
+			"level": 1
+		},
+		{
+			"gen": "g8n.system",
+			"level": 2
+		},
+		{
+			"gen": "g8n.system",
+			"level": 3
+		}
+	]
+}

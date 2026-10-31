@@ -1,0 +1,5 @@
+# EasyCraft 0.3.1 — what's new (2026-09-24 21:18)
+File: `~/Downloads/EasyCraft-0.3.1.apk` (arm64, versionCode 6, installs over 0.3.0). From main after the merges of 21:13 (suite 3235/3235).
+- **Fixed (your reports):** PAUSE works again (#32); ATTACK always attacks — your weapon, else the best weapon in your hotbar, else your fists (#29); animals can be defeated: they puff away, and in Survivor drop a few blocks, never gold; pets are never hurt (#26); swimmers climb out onto banks (#30).
+- **New:** Frostpeak (universe 3: snowy peaks, slippery frozen lakes, igloos, yetis, ice bats, snowstorms, the Frost Giant); smart blocks (buttons, levers, powered doors, lamps, teleport pads) and Game Blocks (START, CHECKPOINT, FINISH, coins, bounce pads — race your friends and bot friends, medals); levels and titles, the ADVENTURE BOARD in the pause menu (pick 3 picture goals), badges and a trophy room, presents from your pet while you play.
+- Online play still needs the internet server (being set up now).

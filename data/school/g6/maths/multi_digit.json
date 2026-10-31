@@ -1,0 +1,204 @@
+{
+	"id": "g6.maths.multi_digit",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you divided by two-digit numbers. How many 24s make 240? 10."
+		},
+		{
+			"text": "Long division: divide, multiply, take away, bring down, and repeat. 7,452 ÷ 23: 23 goes into 74 three times (69), 5 left; bring down 5: 55 ÷ 23 = 2 (46), 9 left; bring down 2: 92 ÷ 23 = 4. Answer 324."
+		},
+		{
+			"text": "Adding and taking away decimals: line up the decimal points. 12.6 − 4.75 = 7.85.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"12.60",
+					"− 4.75",
+					"7.85"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"text": "Multiplying decimals: multiply as whole numbers, then count the decimal places in both: 1.2 × 3.5: 12 × 35 = 420, and two decimal places make 4.20.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"1",
+					"0.2"
+				],
+				"rows": [
+					"3",
+					"0.5"
+				],
+				"cells": [
+					[
+						"3",
+						"0.6"
+					],
+					[
+						"0.5",
+						"0.1"
+					]
+				]
+			}
+		},
+		{
+			"text": "Dividing by a decimal: multiply both numbers by 10 (or 100) until you divide by a whole number: 8.4 ÷ 0.4 = 84 ÷ 4 = 21."
+		},
+		{
+			"text": "Try it in the world: you earn 2.5 gold a quest. How much after 14 quests? 25 × 14 = 350, so 35 gold. Then share 35 gold between 7 friends. Next: common factors and multiples."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "936 ÷ 4 = ?",
+			"answer": "234",
+			"hint": "Divide step by step.",
+			"explain": "9 ÷ 4 = 2 r 1; 13 ÷ 4 = 3 r 1; 16 ÷ 4 = 4: 234."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "3.45 + 2.7 = ?",
+			"answer": "6.15",
+			"hint": "Line up the points.",
+			"explain": "3.45 + 2.70 = 6.15."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "0.3 × 0.2 = 0.06",
+			"answer": true,
+			"hint": "3 × 2 = 6, two decimal places.",
+			"explain": "Yes: 3 × 2 = 6, and two decimal places make 0.06."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "1,564 ÷ 17 = ?",
+			"answer": "92",
+			"hint": "How many 17s in 156?",
+			"explain": "17 × 92 = 1,564."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "2.5 × 1.4 = ?",
+			"answer": "3.5",
+			"hint": "25 × 14 = 350, two places.",
+			"explain": "3.50 = 3.5."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "10 − 3.68 = ?",
+			"answer": "6.32",
+			"hint": "10 is 10.00.",
+			"explain": "10.00 − 3.68 = 6.32."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "9.6 ÷ 0.3 = ?",
+			"answer": "32",
+			"hint": "Multiply both by 10.",
+			"explain": "Multiply both numbers by 10 so you divide by a whole number: 9.6 ÷ 0.3 becomes 96 ÷ 3, and 96 ÷ 3 = 32. Check: 32 × 0.3 = 9.6."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the same as 4.8 ÷ 0.06?",
+			"answer": 0,
+			"hint": "Multiply both by 100.",
+			"choices": [
+				"480 ÷ 6",
+				"48 ÷ 6",
+				"4.8 ÷ 6"
+			],
+			"explain": "Multiplying both numbers by the same amount keeps the answer. 0.06 needs × 100 to be whole: 0.06 × 100 = 6 and 4.8 × 100 = 480. So it is 480 ÷ 6, which is 80."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each calculation to its answer.",
+			"items": [
+				"0.3 × 0.2",
+				"1.5 × 4",
+				"9.6 ÷ 0.3",
+				"3.45 + 2.7"
+			],
+			"matches": [
+				"32",
+				"0.06",
+				"6.15",
+				"6"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Count decimal places when multiplying; line up the points when adding.",
+			"explain": "0.3 × 0.2 = 0.06; 1.5 × 4 = 6; 9.6 ÷ 0.3 = 32; 3.45 + 2.7 = 6.15."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps of long division.",
+			"items": [
+				"multiply",
+				"divide",
+				"bring down",
+				"take away"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Think of the rhyme: divide, multiply, take away, bring down.",
+			"explain": "Divide, multiply, take away, bring down, and repeat."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "You earn 1.5 gold a quest. After 12 quests you share all your gold equally between 4 friends. How much does each friend get?",
+			"answer": "4.5",
+			"hint": "First multiply to find all the gold, then divide it into 4 equal shares.",
+			"explain": "Multiply as whole numbers: 15 × 12 = 180, and one decimal place makes 18 gold. Then 18 ÷ 4 = 4.5 gold each. Check: 4.5 × 4 = 18."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6n.long_divide",
+			"level": 1
+		},
+		{
+			"gen": "g6n.long_divide",
+			"level": 2
+		},
+		{
+			"gen": "g6n.long_divide",
+			"level": 3
+		},
+		{
+			"gen": "g6n.decimal_ops",
+			"level": 1
+		},
+		{
+			"gen": "g6n.decimal_ops",
+			"level": 2
+		},
+		{
+			"gen": "g6n.decimal_ops",
+			"level": 3
+		}
+	]
+}

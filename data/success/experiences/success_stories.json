@@ -1,0 +1,267 @@
+{
+	"id": "success_stories",
+	"title": "Success Stories",
+	"area": "stories",
+	"room": "story_stage",
+	"devices": {
+		"stopwatch": {
+			"controls": ["START and STOP", "RESET"],
+			"shows": ["the seconds"],
+			"order": ["reset it", "start when the plane lifts off", "stop when it lands"],
+			"safety": ["write the time down at once", "time it twice if you can"]
+		}
+	},
+	"tracks": {
+		"little": {
+			"skill": "Stories of trying again",
+			"twist": "One more story: Mary Seacole was told no.",
+			"can_now": "tell a true story of someone who kept going, worked as a team or tried again, and say which skill they used",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "stage", "react": "curtain_up",
+					"say": "Welcome to the Story Theatre! The buddies act out true stories of real people. You help!"},
+				{"id": "braille", "kind": "info", "story": "braille", "view": "stage", "react": "scene_braille",
+					"say": "Paris, 1824. Louis Braille could not see. Books for blind children had huge raised letters, slow to feel. Louis, aged 15, made letters of dots instead."},
+				{"id": "dots", "kind": "sequence", "targets": ["dot_1", "dot_2"], "motion": "press", "view": "close",
+					"say": "Make Louis's letter B: touch dot 1, then dot 2.",
+					"done": "B! Blind people read Louis's dots with their fingertips, all over the world."},
+				{"id": "braille_skill", "kind": "choose", "view": "stage",
+					"say": "Louis kept working on his dots for years, again and again. Which skill did he use?",
+					"choices": [
+						{"text": "Kept going", "icon": "skill_kept_going"},
+						{"text": "Gave up", "icon": "cross", "why": "He didn't give up: he worked on his dots for years."},
+						{"text": "Waited for someone else", "icon": "clock", "why": "He didn't wait: he made it himself."}],
+					"answer": 0, "done": "Kept going!"},
+				{"id": "trees", "kind": "info", "story": "maathai", "view": "stage", "react": "scene_trees",
+					"say": "Kenya, 1977. Wangari Maathai saw trees being cut down and the land getting dry. She started small: with seven trees."},
+				{"id": "plant", "kind": "find", "targets": ["hole_1", "hole_2", "hole_3", "hole_4", "hole_5"], "view": "stage",
+					"say": "Plant trees with Wangari and her friends: touch each hole.",
+					"done": "Together, they have planted more than 50 million trees!"},
+				{"id": "team", "kind": "choose", "view": "stage",
+					"say": "Wangari didn't plant them alone. Which skill helped most?",
+					"choices": [
+						{"text": "Teamwork: many people together", "icon": "skill_team"},
+						{"text": "One person, very fast", "icon": "run", "why": "Nobody could plant millions alone. Many hands did it together."},
+						{"text": "Luck", "icon": "skill_luck", "why": "It wasn't luck: thousands of people worked together."}],
+					"answer": 0, "done": "Teamwork!"},
+				{"id": "seacole", "kind": "info", "story": "seacole", "view": "stage", "mode": "expert", "react": "scene_seacole",
+					"say": "Jamaica and far away, 1854. Mary Seacole asked to go and help sick soldiers. She was told no."},
+				{"id": "seacole_skill", "kind": "choose", "view": "stage", "mode": "expert",
+					"say": "Mary paid for the journey herself and opened a hotel to look after soldiers. Which skill did she use?",
+					"choices": [
+						{"text": "Kept going and found another way", "icon": "skill_kept_going"},
+						{"text": "Gave up", "icon": "cross", "why": "She didn't stop at no: she found another way to help."},
+						{"text": "Got cross", "icon": "cross_arms", "why": "She didn't waste time being cross: she found a way."}],
+					"answer": 0, "done": "She found another way!"},
+				{"id": "wright", "kind": "info", "story": "wright", "view": "stage", "react": "scene_wright",
+					"say": "America, about 1900. The Wright brothers fixed bicycles, and dreamed of flying. They built gliders."},
+				{"id": "glider", "kind": "touch", "target": "glider", "view": "stage", "after": "glider_falls",
+					"say": "Launch the glider: touch it.", "done": "Whoosh... bump. It came down too soon."},
+				{"id": "try_again", "kind": "choose", "view": "stage",
+					"say": "The glider came down. Which skill did the brothers use?",
+					"choices": [
+						{"text": "Fixed it and tried again", "icon": "skill_try_again"},
+						{"text": "Gave up", "icon": "cross", "why": "If they had given up, there would be no aeroplanes!"},
+						{"text": "Blamed the wind", "icon": "talk", "why": "They didn't blame anything: they made better wings."}],
+					"answer": 0, "done": "They tried again, and again."},
+				{"id": "fly", "kind": "timelapse", "seconds": 4, "label": "12 seconds", "view": "stage", "react": "plane_flies",
+					"device": "stopwatch", "say": "17 December 1903: the first aeroplane flight with an engine! 12 seconds in the air."},
+				{"id": "end", "kind": "info", "view": "stage", "react": "curtain_down",
+					"say": "Real people built these things step by step. Open the SUCCESS STORIES shelf for twenty true stories!"}
+			],
+			"check": [
+				{"say": "Louis Braille made letters out of...", "answer": 0, "choices": [
+					{"text": "dots you can feel", "icon": "story_braille"}, {"text": "sounds", "icon": "ear"},
+					{"text": "stars", "icon": "star"}]},
+				{"say": "Lots of people planting trees together is...", "answer": 0, "choices": [
+					{"text": "teamwork", "icon": "skill_team"}, {"text": "magic", "icon": "star"}, {"text": "luck", "icon": "skill_luck"}]},
+				{"say": "Your glider comes down too soon. You...", "answer": 0, "choices": [
+					{"text": "fix it and try again", "icon": "skill_try_again"}, {"text": "give up", "icon": "cross"},
+					{"text": "blame the wind", "icon": "talk"}]}
+			],
+			"name_it": {"title": "What they did", "lines": ["Louis Braille kept going for years.",
+				"Wangari Maathai started small, and worked as a team.", "The Wright brothers tried again and again.",
+				"You can do these things too."],
+				"source": "The National Federation of the Blind, the Nobel Prize and the Smithsonian's National Air and Space Museum"},
+			"try_real": "With a grown-up: find a real person near you who helps others (a nurse, a teacher, a builder) and ask them how they started.",
+			"sources": [
+				{"fact": "Louis Braille, blind from the age of three, made a six-dot alphabet by 1824, aged 15.", "source": "National Federation of the Blind", "url": "https://nfb.org/node/9796"},
+				{"fact": "Wangari Maathai founded the Green Belt Movement in 1977 and won the Nobel Peace Prize in 2004.", "source": "The Nobel Prize", "url": "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/"},
+				{"fact": "The first Wright flight on 17 December 1903 lasted 12 seconds (120 feet).", "source": "Smithsonian National Air and Space Museum", "url": "https://airandspace.si.edu/collection-objects/stopwatch-wright-brothers/nasm_A19640054000"}
+			]
+		},
+		"middle": {
+			"skill": "Test, share, show the truth",
+			"twist": "One more story: Fleming's messy dish.",
+			"can_now": "tell how real people tested ideas, shared what they knew and used numbers to show the truth",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "stage", "react": "curtain_up",
+					"say": "Welcome to the Story Theatre! The buddies act out true stories of real people. You help!"},
+				{"id": "wright", "kind": "info", "story": "wright", "view": "stage", "react": "scene_wright",
+					"say": "America, 1901. Wilbur and Orville Wright ran a bicycle shop and built gliders. Their new glider lifted much less than they hoped."},
+				{"id": "glider", "kind": "touch", "target": "glider", "view": "stage", "after": "glider_falls",
+					"say": "Test the glider: touch it.", "done": "Whoosh... bump. Not enough lift."},
+				{"id": "tunnel", "kind": "find", "targets": ["wing_1", "wing_2", "wing_3"], "view": "stage", "react": "tunnel_on",
+					"lines": {"wing_1": "Too flat: little lift.", "wing_2": "Too curved: it drags.", "wing_3": "Just right: it lifts!"},
+					"say": "So they built a wind tunnel and tested lots of wing shapes. Test each wing: touch them.",
+					"done": "Testing small saves trouble big."},
+				{"id": "fly", "kind": "timelapse", "seconds": 4, "label": "12 seconds", "view": "stage", "react": "plane_flies",
+					"device": "stopwatch", "say": "17 December 1903: the first aeroplane flight with an engine! 12 seconds, about 37 metres."},
+				{"id": "wright_skill", "kind": "choose", "view": "stage",
+					"say": "Which skill did the Wright brothers use?",
+					"choices": [
+						{"text": "Testing and trying again", "icon": "skill_try_again"},
+						{"text": "Waiting for luck", "icon": "skill_luck", "why": "They didn't wait: they tested and learned."},
+						{"text": "Giving up", "icon": "cross", "why": "If they had given up, there would be no aeroplanes."}],
+					"answer": 0, "done": "Test, learn, try again!"},
+				{"id": "carver", "kind": "info", "story": "carver", "view": "stage", "react": "scene_carver",
+					"say": "Alabama, USA, about 1900. George Washington Carver taught farmers. Growing cotton every year had made the soil tired and poor."},
+				{"id": "rotate", "kind": "sequence", "targets": ["plot_peanuts", "plot_cotton"], "motion": "press", "view": "stage",
+					"say": "Help the soil: plant peanuts this year, then cotton next year. Touch the peanut field, then the cotton field.",
+					"done": "Peanuts put goodness back into the soil, and the cotton grew better."},
+				{"id": "carver_skill", "kind": "choose", "view": "stage",
+					"say": "Carver took his lessons to farms on a wagon, a school on wheels. Which skill did he use?",
+					"choices": [
+						{"text": "Sharing what he knew", "icon": "skill_share"},
+						{"text": "Keeping it secret", "icon": "lock", "why": "He did the opposite: he took his lessons to everyone."},
+						{"text": "Waiting for farmers to come", "icon": "clock", "why": "Many couldn't come, so he went to them."}],
+					"answer": 0, "done": "Sharing what you know helps everyone."},
+				{"id": "nightingale", "kind": "info", "story": "nightingale", "view": "stage", "react": "scene_ward",
+					"say": "1854. Florence Nightingale looked after soldiers in a war hospital. It was dirty, and many got ill from germs."},
+				{"id": "clean", "kind": "find", "targets": ["window", "basin", "sheets"], "view": "stage",
+					"lines": {"window": "Fresh air in!", "basin": "Clean water and washing.", "sheets": "Clean sheets."},
+					"say": "Help Florence's nurses: open the window, fill the basin and change the sheets.",
+					"done": "A cleaner ward, and fewer soldiers got ill."},
+				{"id": "chart", "kind": "choose", "view": "stage",
+					"say": "Florence counted and drew charts, to show that most of the illness could be stopped. Which skill?",
+					"choices": [
+						{"text": "Using numbers to show the truth", "icon": "skill_checked"},
+						{"text": "Drawing pictures for fun", "icon": "star", "why": "Her charts were for something important: showing the truth with numbers."},
+						{"text": "Shouting louder", "icon": "talk_over", "why": "Her charts did the talking: careful numbers can change minds."}],
+					"answer": 0, "done": "Numbers that show the truth can change things."},
+				{"id": "fleming", "kind": "touch", "story": "fleming", "target": "dish", "view": "stage", "mode": "expert", "react": "scene_fleming",
+					"say": "London, 1928. Alexander Fleming finds a messy dish with mould on it. Look closely: touch the dish.",
+					"done": "Round the mould, the germs have gone!"},
+				{"id": "fleming_skill", "kind": "choose", "view": "stage", "mode": "expert",
+					"say": "Fleming didn't throw the dish away: he found penicillin. Which skill did he use?",
+					"choices": [
+						{"text": "Noticing something odd and looking closely", "icon": "skill_notice"},
+						{"text": "Tidying up fast", "icon": "tidy", "why": "If he had tidied it away, nobody would have noticed then."},
+						{"text": "Ignoring surprises", "icon": "cross", "why": "Surprises can be clues: he looked closely."}],
+					"answer": 0, "done": "Noticing: surprises can be clues."},
+				{"id": "end", "kind": "info", "view": "stage", "react": "curtain_down",
+					"say": "Test, share and show the truth: real people succeed like that. Open the SUCCESS STORIES shelf for twenty true stories!"}
+			],
+			"check": [
+				{"say": "The Wright brothers' glider didn't lift enough. They...", "answer": 0, "choices": [
+					{"text": "tested wing shapes and tried again", "icon": "skill_try_again"}, {"text": "gave up", "icon": "cross"},
+					{"text": "waited for luck", "icon": "skill_luck"}]},
+				{"say": "Carver's farmers grew peanuts one year and cotton the next to...", "answer": 0, "choices": [
+					{"text": "make the soil better", "icon": "story_peanut"}, {"text": "trick the birds", "icon": "question"},
+					{"text": "make the fields look nice", "icon": "star"}]},
+				{"say": "Florence Nightingale used her charts to...", "answer": 0, "choices": [
+					{"text": "show what was making soldiers ill", "icon": "skill_checked"}, {"text": "draw pictures for fun", "icon": "star"},
+					{"text": "count her money", "icon": "coins"}]}
+			],
+			"name_it": {"title": "How real people succeed", "lines": ["Test, learn and try again (the Wright brothers).",
+				"Share what you know (George Washington Carver).", "Let numbers show the truth (Florence Nightingale).",
+				"Start small, and keep going."],
+				"source": "NASA, the Smithsonian, the National Park Service, the Science History Institute and the National Army Museum"},
+			"try_real": "With a grown-up: read or watch one true story of an inventor, and tell your grown-up which skill they used.",
+			"sources": [
+				{"fact": "Disappointed by their 1901 glider, the Wrights built a wind tunnel to test wing shapes.", "source": "NASA, the Beginner's Guide to Aeronautics", "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/wind-tunnel/"},
+				{"fact": "Carver taught crop rotation with peanuts and sweet potatoes; the Jesup Wagon took lessons to farms from 1906.", "source": "The National Park Service", "url": "https://www.nps.gov/museum/exhibits/tuskegee/gwcarver/movable_school.html"},
+				{"fact": "Nightingale's statistics showed most army deaths came from preventable disease.", "source": "MacTutor History of Mathematics, University of St Andrews", "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Nightingale/"}
+			]
+		},
+		"big": {
+			"skill": "Help, check, be patient",
+			"twist": "One more story: Savitribai Phule and her school.",
+			"can_now": "tell how real people helped everyone, checked carefully and kept trying for years, and that failing is part of success",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "stage", "react": "curtain_up",
+					"say": "Welcome to the Story Theatre! The buddies act out true stories of real people. You help!"},
+				{"id": "dunant", "kind": "info", "story": "dunant", "view": "stage", "react": "scene_dunant",
+					"say": "Italy, 1859. Henry Dunant, a Swiss businessman, came to a town after a battle. Thousands of wounded soldiers had almost no one to care for them."},
+				{"id": "helpers", "kind": "find", "targets": ["helper_1", "helper_2", "helper_3"], "view": "stage",
+					"lines": {"helper_1": "\"I'll bring water!\"", "helper_2": "\"I'll bring bandages!\"", "helper_3": "\"I'll sit with them.\""},
+					"say": "Like Henry, ask the town's people to help: touch each one.", "done": "A whole town helping, soldiers from both sides."},
+				{"id": "dunant_skill", "kind": "choose", "view": "stage",
+					"say": "He wrote a book, and in 1863 the Red Cross began. Later his business went wrong, but in 1901 he shared the first Nobel Peace Prize. Which skill?",
+					"choices": [
+						{"text": "Bringing people together to help", "icon": "skill_team"},
+						{"text": "Doing it all alone", "icon": "run", "why": "There were too many for one person: he got a whole town helping."},
+						{"text": "Helping only his friends", "icon": "lock", "why": "He helped everyone, from both sides."}],
+					"answer": 0, "done": "Bringing people together, for everyone."},
+				{"id": "johnson", "kind": "info", "story": "johnson", "view": "stage", "react": "scene_johnson",
+					"say": "USA, 1962. Katherine Johnson did the sums for spaceflights. John Glenn asked her to check the computer's numbers before he flew round the Earth."},
+				{"id": "check", "kind": "count", "view": "stage",
+					"say": "Check like Katherine: one lap of the Earth took Glenn about 90 minutes. He flew 3 laps. About how long were the laps?",
+					"choices": [
+						{"text": "about 270 minutes", "icon": "story_orbit"},
+						{"text": "about 93 minutes", "icon": "clock", "why": "That adds 3 to 90. Each lap is 90 minutes: 3 × 90 = 270."},
+						{"text": "about 30 minutes", "icon": "clock", "why": "That's 90 ÷ 3. Three laps is 3 × 90 = 270 minutes."}],
+					"answer": 0, "done": "3 × 90 = 270 minutes: about four and a half hours. Checked!"},
+				{"id": "johnson_skill", "kind": "choose", "view": "stage",
+					"say": "When Katherine said the numbers were right, Glenn was ready to go. Which skill made people trust her?",
+					"choices": [
+						{"text": "Checking carefully", "icon": "skill_checked"},
+						{"text": "Guessing fast", "icon": "run", "why": "A guess isn't safe for a spaceflight: she checked every step."},
+						{"text": "Never asking questions", "icon": "lock", "why": "Asking good questions was part of her work."}],
+					"answer": 0, "done": "Careful checking builds trust."},
+				{"id": "yuan", "kind": "info", "story": "yuan", "view": "stage", "react": "scene_rice",
+					"say": "China, the 1960s. Yuan Longping wanted rice plants that gave much more rice, so nobody went hungry. For years he searched the fields."},
+				{"id": "search", "kind": "touch", "target": "special_rice", "view": "stage",
+					"say": "Search the field like Yuan: find the special plant and touch it.",
+					"done": "Found it! In 1970 his team found a special wild rice plant, and made rice that gave about a fifth more."},
+				{"id": "yuan_skill", "kind": "choose", "view": "stage",
+					"say": "Yuan searched for years, and many tries didn't work. Which skill did he use?",
+					"choices": [
+						{"text": "Patience: keep trying", "icon": "skill_patience"},
+						{"text": "Quitting after one try", "icon": "cross", "why": "One try is rarely enough: he searched for years."},
+						{"text": "Waiting for luck", "icon": "skill_luck", "why": "He didn't wait: he kept searching."}],
+					"answer": 0, "done": "Patience: years of tries."},
+				{"id": "phule", "kind": "info", "story": "phule", "view": "stage", "mode": "expert", "react": "scene_school",
+					"say": "India, 1848. Savitribai Phule opened a school for girls. Some people threw stones and dirt at her on the way. She kept teaching."},
+				{"id": "phule_skill", "kind": "choose", "view": "stage", "mode": "expert",
+					"say": "It is said she carried a spare sari, changed at school, and taught anyway. Which skill did she use?",
+					"choices": [
+						{"text": "Courage to keep going", "icon": "skill_courage"},
+						{"text": "Throwing it back", "icon": "talk", "why": "She didn't fight back: she kept teaching. That took courage."},
+						{"text": "Giving up", "icon": "cross", "why": "She didn't give up: the girls needed their teacher."}],
+					"answer": 0, "done": "Courage: she kept going for the girls."},
+				{"id": "fail", "kind": "choose", "view": "stage",
+					"say": "What do these real stories show about success?",
+					"choices": [
+						{"text": "People often fail, learn and try again", "icon": "skill_try_again"},
+						{"text": "Successful people never make mistakes", "icon": "star", "why": "They all had things go wrong. They learned, and went on."},
+						{"text": "Success is only about money", "icon": "coins", "why": "They helped people, taught and found things out: success means many things."}],
+					"answer": 0, "done": "Failing is part of the story."},
+				{"id": "end", "kind": "info", "view": "stage", "react": "curtain_down",
+					"say": "Help everyone, check carefully, be patient and keep going. Open the SUCCESS STORIES shelf for twenty true stories!"}
+			],
+			"check": [
+				{"say": "Henry Dunant got people to help soldiers from...", "answer": 0, "choices": [
+					{"text": "both sides", "icon": "skill_team"}, {"text": "only his side", "icon": "lock"}, {"text": "no side", "icon": "cross"}]},
+				{"say": "John Glenn asked Katherine Johnson to...", "answer": 0, "choices": [
+					{"text": "check the computer's numbers", "icon": "skill_checked"}, {"text": "fly the spacecraft", "icon": "rocket"},
+					{"text": "build the computer", "icon": "screen"}]},
+				{"say": "Yuan Longping found his special rice plant after...", "answer": 0, "choices": [
+					{"text": "years of searching", "icon": "skill_patience"}, {"text": "one minute", "icon": "clock"},
+					{"text": "buying it", "icon": "coins"}]},
+				{"say": "Real successful people often...", "answer": 0, "choices": [
+					{"text": "fail, learn and try again", "icon": "skill_try_again"}, {"text": "never make mistakes", "icon": "star"},
+					{"text": "do everything alone", "icon": "run"}]}
+			],
+			"name_it": {"title": "Success, the real way", "lines": ["Help others, whoever they are (Henry Dunant).",
+				"Check carefully, so people can trust you (Katherine Johnson).", "Be patient: years of tries (Yuan Longping).",
+				"Failing is part of the story: learn, and go on."],
+				"source": "The Nobel Prize, NASA, Nature and Britannica"},
+			"try_real": "With a grown-up: ask someone you know about a time something went wrong for them, and what they learned and did next.",
+			"sources": [
+				{"fact": "Dunant organised help for the wounded after Solferino (1859); the ICRC began in 1863; he went bankrupt, and shared the first Nobel Peace Prize in 1901.", "source": "Britannica and the Nobel Prize", "url": "https://www.nobelprize.org/prizes/peace/1901/dunant/facts/"},
+				{"fact": "John Glenn asked Katherine Johnson to check the electronic computer's orbit calculations in 1962.", "source": "NASA", "url": "https://www.nasa.gov/people-of-nasa/katherine-johnson-biography/"},
+				{"fact": "Yuan Longping's team found a male-sterile wild rice in Hainan in 1970; the 1970s hybrids gave about 20-30% more rice.", "source": "HumanProgress, Heroes of Progress: Yuan Longping", "url": "https://humanprogress.org/heroes-of-progress-pt-52-yuan-longping/"}
+			]
+		}
+	}
+}

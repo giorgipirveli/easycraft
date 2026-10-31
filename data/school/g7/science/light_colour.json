@@ -1,0 +1,467 @@
+{
+	"id": "g7.science.light_colour",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met mirrors. A ray hits a mirror at 30° to the normal. What is the angle of reflection? Also 30°: the two angles are always equal."
+		},
+		{
+			"text": "A smooth surface, like a mirror or still water, reflects light neatly and gives a clear image. A rough surface, like paper, scatters light in every direction: diffuse reflection. Scattered light is how we see most things.",
+			"picture": {
+				"kind": "light_rays",
+				"view": "diffuse",
+				"labels": true
+			}
+		},
+		{
+			"text": "Light slows down when it passes from air into glass or water, so it changes direction: refraction. Going in, it bends towards the normal; coming out into air, it bends away. That is why a straw in water looks broken.",
+			"picture": {
+				"kind": "light_rays",
+				"view": "refraction",
+				"labels": true
+			}
+		},
+		{
+			"text": "White light is a mix of colours. A prism bends each colour by a different amount and spreads them into a spectrum: red, orange, yellow, green, blue, indigo and violet. Red bends least and violet most. Raindrops make rainbows this way.",
+			"picture": {
+				"kind": "light_rays",
+				"view": "prism",
+				"labels": true
+			}
+		},
+		{
+			"text": "We see a thing's colour by the light it reflects. A red apple reflects red light and absorbs the rest. A white page reflects every colour, and black absorbs nearly all of them.",
+			"picture": {
+				"kind": "seen_colour",
+				"light": "white",
+				"object": "red",
+				"thing": "apple"
+			}
+		},
+		{
+			"text": "A filter lets only its own colour through. In red light, a green leaf looks black: there is no green light for it to reflect. Coloured lights add up: red and green make yellow, and red, green and blue make white.",
+			"picture": {
+				"kind": "rgb_mix",
+				"r": 255,
+				"g": 255,
+				"b": 255,
+				"view": "lights"
+			}
+		},
+		{
+			"text": "Try it in the world: at the Science Lab, shine red and green torches together in \"Mixing colours\". Never look straight at the Sun. In LIFE, Safe Streets: bright, reflective clothes help drivers see you. Next: photosynthesis and respiration."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which surface gives a clear reflection?",
+			"choices": [
+				"a still pond",
+				"a towel",
+				"a brick wall"
+			],
+			"answer": 0,
+			"hint": "A clear image needs a very smooth surface.",
+			"explain": "A still pond is smooth, so it reflects light neatly, like a mirror."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "White light is a mix of colours.",
+			"answer": true,
+			"hint": "Think of what a prism or a raindrop does to sunlight.",
+			"explain": "True: a prism spreads white light into the colours of the spectrum."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the spectrum's colours in order, starting with red.",
+			"items": [
+				"violet",
+				"green",
+				"blue",
+				"orange",
+				"red",
+				"yellow"
+			],
+			"answer": [
+				4,
+				3,
+				5,
+				1,
+				2,
+				0
+			],
+			"hint": "Picture a rainbow from its outer edge to its inner edge.",
+			"explain": "Red, orange, yellow, green, blue and violet, with indigo between blue and violet."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A blue book looks blue in white light because it…",
+			"choices": [
+				"reflects blue light and absorbs the rest",
+				"makes its own blue light",
+				"absorbs blue light"
+			],
+			"answer": 0,
+			"hint": "We see the light that bounces off a thing into our eyes.",
+			"explain": "It reflects blue light into your eyes and absorbs the other colours."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each thing to the light it reflects in white light.",
+			"items": [
+				"a white page",
+				"black cloth",
+				"a red apple",
+				"a green leaf"
+			],
+			"matches": [
+				"green",
+				"almost none",
+				"red",
+				"every colour"
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "Think about which colours each thing bounces back, and which it soaks up.",
+			"explain": "A white page reflects every colour, black cloth almost none, a red apple red, and a green leaf green."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The angle of incidence is 40°. What is the angle of reflection, in degrees?",
+			"answer": "40",
+			"hint": "Compare the two angles, both measured from the normal.",
+			"explain": "The angle of reflection always equals the angle of incidence: 40°.",
+			"picture": {
+				"kind": "reflection",
+				"i": 40,
+				"values": true,
+				"unknown": "r"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Light passes from air into glass. Which way does it bend?",
+			"choices": [
+				"towards the normal",
+				"away from the normal",
+				"it does not bend"
+			],
+			"answer": 0,
+			"hint": "Does light speed up or slow down as it enters glass? Slowing down turns the ray towards the dashed line.",
+			"explain": "Light slows down in glass, so it bends towards the normal.",
+			"picture": {
+				"kind": "light_rays",
+				"view": "refraction",
+				"angle": 50
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which colour bends most in a prism?",
+			"choices": [
+				"violet",
+				"red",
+				"green"
+			],
+			"answer": 0,
+			"hint": "The colours spread out in the spectrum's order, red at one end.",
+			"explain": "Violet bends most and red least, so they end up at opposite edges."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A red rose is lit by green light. What colour does it look?",
+			"choices": [
+				"black",
+				"red",
+				"green",
+				"yellow"
+			],
+			"answer": 0,
+			"hint": "Which light reaches the rose, and can a red rose reflect that light?",
+			"explain": "The rose reflects only red light, but green light holds no red, so it looks black.",
+			"picture": {
+				"kind": "seen_colour",
+				"light": "green",
+				"object": "red",
+				"thing": "flower",
+				"hide": true
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the surfaces: a clear reflection or scattered light?",
+			"groups": [
+				"clear reflection",
+				"scattered light"
+			],
+			"items": [
+				"paper",
+				"polished metal",
+				"still water",
+				"a mirror",
+				"a woolly jumper",
+				"a brick wall"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Smooth surfaces reflect light neatly; rough ones send it every way.",
+			"explain": "Clear reflections: a mirror, still water and polished metal. Scattered light: paper, a brick wall and a woolly jumper."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A straw in a glass of water looks bent because light refracts at the water's surface.",
+			"answer": true,
+			"hint": "Light from the straw changes speed as it leaves the water.",
+			"explain": "True: the light bends as it passes from water into air, so the straw seems broken."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the prism picture.",
+			"spots": [
+				[
+					0.2438,
+					0.91,
+					0.2438,
+					0.5266
+				],
+				[
+					0.4317,
+					0.91,
+					0.4317,
+					0.6066
+				],
+				[
+					0.8074,
+					0.91,
+					0.8074,
+					0.6066
+				],
+				[
+					0.8757,
+					0.09,
+					0.8757,
+					0.4378
+				],
+				[
+					0.9266,
+					0.91,
+					0.8757,
+					0.8197
+				]
+			],
+			"labels": [
+				"spectrum",
+				"prism",
+				"violet",
+				"red",
+				"white light"
+			],
+			"answer": [
+				2,
+				1,
+				4,
+				3,
+				0
+			],
+			"hint": "Follow the light: in from the left, through the glass, then out in a fan of colours.",
+			"explain": "White light enters the prism and spreads into a spectrum, with red at the top (bent least) and violet at the bottom (bent most).",
+			"picture": {
+				"kind": "light_rays",
+				"view": "prism"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Light travels about 300,000 km each second in air and about 200,000 km each second in glass. How many km a second slower is it in glass?",
+			"answer": "100000",
+			"hint": "Take the smaller speed from the larger one.",
+			"explain": "300,000 − 200,000 = 100,000 km each second slower."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A white book is seen through a red filter. What colour does it look?",
+			"choices": [
+				"red",
+				"white",
+				"black",
+				"green"
+			],
+			"answer": 0,
+			"hint": "The book reflects every colour; the filter lets only one through.",
+			"explain": "The white book reflects red, green and blue light, but the red filter passes only red, so it looks red.",
+			"picture": {
+				"kind": "seen_colour",
+				"light": "white",
+				"object": "white",
+				"filter": "red",
+				"thing": "book",
+				"hide": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A blue ball is seen through a red filter. What colour does it look?",
+			"choices": [
+				"black",
+				"blue",
+				"red",
+				"purple"
+			],
+			"answer": 0,
+			"hint": "What colour leaves the ball, and does the filter let it through?",
+			"explain": "The ball reflects only blue light, and the red filter blocks blue, so no light reaches you: it looks black.",
+			"picture": {
+				"kind": "seen_colour",
+				"light": "white",
+				"object": "blue",
+				"filter": "red",
+				"hide": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which coloured light, added to red light, makes yellow light?",
+			"choices": [
+				"green",
+				"blue",
+				"white"
+			],
+			"answer": 0,
+			"hint": "Coloured lights add up: think of the Science Lab's torches on the wall.",
+			"explain": "Red light and green light add up to yellow light; add blue as well and you get white."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A ray enters a glass block along the normal, at 90° to its surface. What happens?",
+			"choices": [
+				"It goes straight on, slower.",
+				"It bends towards the normal.",
+				"It bends away from the normal."
+			],
+			"answer": 0,
+			"hint": "Bending needs the light to meet the surface at a slant.",
+			"explain": "It slows down, but it meets the glass straight on, so it does not change direction.",
+			"picture": {
+				"kind": "light_rays",
+				"view": "along_normal"
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order how you see a red apple.",
+			"items": [
+				"Red light reaches your eyes",
+				"It falls on the apple",
+				"Light leaves the Sun or a lamp",
+				"The apple absorbs all but red"
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "Follow the light from where it starts to your eye.",
+			"explain": "Light leaves its source and falls on the apple. The apple absorbs every colour but red, and the red light bounces into your eyes."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"refraction",
+				"reflection",
+				"spectrum",
+				"absorption"
+			],
+			"matches": [
+				"light taken in by a surface",
+				"the colours of white light",
+				"bouncing off a surface",
+				"bending as light changes speed"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Reflect means to bend back; refract means to break, as the straw seems to.",
+			"explain": "Refraction: bending as light changes speed. Reflection: bouncing off. Spectrum: the colours of white light. Absorption: light taken in."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Light travels faster in water than in air.",
+			"answer": false,
+			"hint": "Which slows light down more: water or air?",
+			"explain": "False: light slows from about 300,000 km/s in air to about 225,000 km/s in water."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7k.colour_seen",
+			"level": 1
+		},
+		{
+			"gen": "g7k.colour_seen",
+			"level": 2
+		},
+		{
+			"gen": "g7k.colour_seen",
+			"level": 3
+		},
+		{
+			"gen": "g7k.refraction_bend",
+			"level": 1
+		},
+		{
+			"gen": "g7k.refraction_bend",
+			"level": 2
+		},
+		{
+			"gen": "g7k.refraction_bend",
+			"level": 3
+		},
+		{
+			"gen": "g7k.spectrum_order",
+			"level": 1
+		},
+		{
+			"gen": "g7k.spectrum_order",
+			"level": 2
+		},
+		{
+			"gen": "g7k.spectrum_order",
+			"level": 3
+		}
+	]
+}

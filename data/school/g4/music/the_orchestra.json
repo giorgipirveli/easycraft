@@ -1,0 +1,340 @@
+{
+	"id": "g4.music.the_orchestra",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a drone? (A long note held under the music.) In grade 3 you met the instrument families. Today: the orchestra."
+		},
+		{
+			"text": "A symphony orchestra can have up to 100 players, in four families: strings, woodwind, brass and percussion. The conductor stands at the front and keeps everyone together.",
+			"picture": {
+				"kind": "orchestra"
+			}
+		},
+		{
+			"text": "The strings sit at the front, nearest the conductor; the woodwind behind them; the brass behind the woodwind; and the percussion at the back. The loudest instruments sit furthest back.",
+			"picture": {
+				"kind": "orchestra",
+				"mark": "strings"
+			}
+		},
+		{
+			"text": "The strings are the biggest family: violins, violas, cellos and double basses, played with a bow or plucked. In many orchestras the violins sit on the conductor's left, and the cellos on the right."
+		},
+		{
+			"text": "Woodwind: the piccolo, flute, oboe, clarinet and bassoon. Players blow across a hole (the flute) or through a reed (the oboe, clarinet and bassoon). A flute is often made of metal, but it is still woodwind!",
+			"picture": {
+				"kind": "orchestra",
+				"mark": "woodwind"
+			}
+		},
+		{
+			"text": "Brass: the trumpet, French horn, trombone and tuba: players buzz their lips into a cup-shaped mouthpiece. Percussion: timpani (kettle drums), snare drum, cymbals, triangle and xylophone, hit, shaken or scraped.",
+			"picture": {
+				"kind": "orchestra",
+				"mark": "brass"
+			}
+		},
+		{
+			"text": "Before a concert, the oboe plays the note A and everyone tunes to it. Listen: this is that A.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A4:4",
+					"A4:4"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build an orchestra's seats in your world: half circles of blocks with the strings at the front and the percussion at the back. Stand on the conductor's box and wave your arms! Next: rounds."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which family sits at the back?",
+			"answer": 0,
+			"hint": "The loudest instruments sit furthest from the conductor.",
+			"choices": [
+				"percussion",
+				"strings",
+				"woodwind",
+				"brass"
+			],
+			"explain": "The percussion sits at the back.",
+			"picture": {
+				"kind": "orchestra",
+				"mark": "percussion",
+				"hide": "percussion"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who stands at the front and keeps everyone together?",
+			"answer": 0,
+			"hint": "Who faces all the players?",
+			"choices": [
+				"the conductor",
+				"the drummer",
+				"the audience",
+				"the pianist"
+			],
+			"explain": "The conductor keeps everyone together, showing the beat."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The strings sit nearest the conductor.",
+			"answer": true,
+			"hint": "Look at the orchestra's seats.",
+			"explain": "True: the strings sit at the front, nearest the conductor.",
+			"picture": {
+				"kind": "orchestra"
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each instrument to its family.",
+			"items": [
+				"violin",
+				"flute",
+				"trumpet",
+				"timpani"
+			],
+			"matches": [
+				"woodwind",
+				"brass",
+				"percussion",
+				"strings"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Is it bowed, blown across or through a reed, buzzed, or hit?",
+			"explain": "Violin: strings. Flute: woodwind. Trumpet: brass. Timpani: percussion."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these instruments: woodwind or brass?",
+			"groups": [
+				"woodwind",
+				"brass"
+			],
+			"items": [
+				"flute",
+				"trombone",
+				"clarinet",
+				"tuba",
+				"oboe",
+				"French horn"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Brass players buzz their lips; woodwind players blow across a hole or through a reed.",
+			"explain": "Woodwind: flute, clarinet, oboe. Brass: trombone, tuba, French horn."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A flute is a brass instrument because it is made of metal.",
+			"answer": false,
+			"hint": "How does a flute player make the sound?",
+			"explain": "False: the player blows across a hole, so the flute is woodwind, even when it is made of metal."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which family sits here, between the strings and the brass?",
+			"answer": 0,
+			"hint": "Go from the front to the back: strings, then?",
+			"choices": [
+				"woodwind",
+				"percussion",
+				"strings",
+				"brass"
+			],
+			"explain": "The woodwind sits between the strings and the brass.",
+			"picture": {
+				"kind": "orchestra",
+				"mark": "woodwind",
+				"hide": "woodwind"
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these brass instruments in order, from the highest sound to the lowest.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Smaller instruments usually sound higher.",
+			"items": [
+				"tuba",
+				"trombone",
+				"French horn",
+				"trumpet"
+			],
+			"explain": "Trumpet, French horn, trombone, tuba: from high to low."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which instrument plays the note A for the orchestra to tune to?",
+			"answer": 0,
+			"hint": "Remember the last lesson card.",
+			"choices": [
+				"the oboe",
+				"the tuba",
+				"the triangle",
+				"the cello"
+			],
+			"explain": "The oboe plays the A, and everyone tunes to it.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A4:4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do the loudest instruments sit at the back?",
+			"answer": 0,
+			"hint": "Which family is quieter, strings or brass?",
+			"choices": [
+				"so they don't cover up the strings",
+				"so they can leave early",
+				"they are the heaviest",
+				"the conductor can't hear them"
+			],
+			"explain": "Brass and percussion are loud, so they sit at the back, and the audience can still hear the strings."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "In Peter and the Wolf, each character is an instrument. Match them.",
+			"items": [
+				"the bird",
+				"the duck",
+				"the cat",
+				"the grandfather",
+				"the wolf"
+			],
+			"matches": [
+				"three French horns",
+				"the flute",
+				"the oboe",
+				"the clarinet",
+				"the bassoon"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				4,
+				0
+			],
+			"hint": "The bird is high and quick; the grandfather is low and grumbly.",
+			"explain": "Bird: flute. Duck: oboe. Cat: clarinet. Grandfather: bassoon. Wolf: three French horns."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the string instruments in order, from the highest sound to the lowest.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The bigger the instrument, the lower it sounds.",
+			"items": [
+				"double bass",
+				"cello",
+				"viola",
+				"violin"
+			],
+			"explain": "Violin, viola, cello, double bass."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A string quartet has 2 violins, 1 viola and 1 cello. How many players is that?",
+			"answer": "4",
+			"hint": "Quartet means a group of how many?",
+			"explain": "2 + 1 + 1 = 4 players: a quartet."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How do brass players make a sound?",
+			"answer": 0,
+			"hint": "Remember the brass card.",
+			"choices": [
+				"they buzz their lips into a mouthpiece",
+				"they blow through a reed",
+				"they pluck strings",
+				"they hit the instrument"
+			],
+			"explain": "Brass players buzz their lips into a cup-shaped mouthpiece."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these instruments: bowed (strings) or blown (woodwind)?",
+			"groups": [
+				"bowed (strings)",
+				"blown (woodwind)"
+			],
+			"items": [
+				"violin",
+				"cello",
+				"double bass",
+				"oboe",
+				"bassoon",
+				"clarinet"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Which ones have a bow?",
+			"explain": "Bowed: violin, cello, double bass. Blown: oboe, bassoon, clarinet."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Who wrote Peter and the Wolf, where each character is played by instruments?",
+			"answer": 0,
+			"hint": "He was a Russian composer.",
+			"choices": [
+				"Sergei Prokofiev",
+				"Johann Strauss",
+				"Maurice Ravel",
+				"Edvard Grieg"
+			],
+			"explain": "Sergei Prokofiev wrote Peter and the Wolf in 1936."
+		}
+	],
+	"generators": []
+}

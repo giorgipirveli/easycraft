@@ -1,0 +1,107 @@
+{
+	"id": "g8.maths.volume",
+	"lesson": [
+		{
+			"text": "Cylinder: V = π × r² × h, like a prism with a circle for its end."
+		},
+		{
+			"text": "Cone: V = 1/3 × π × r² × h, a third of the cylinder with the same base and height."
+		},
+		{
+			"text": "Sphere: V = 4/3 × π × r³."
+		},
+		{
+			"text": "Use 3.14 for π. A cylinder with radius 2 cm and height 5 cm holds 3.14 × 4 × 5 = 62.8 cm³."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A cylinder has a radius of 1 cm and a height of 10 cm. What is its volume in cm³? Use 3.14.",
+			"answer": "31.4",
+			"hint": "π × 1 × 1 × 10.",
+			"explain": "31.4 cm³."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A cone holds a third of a cylinder with the same base and height.",
+			"answer": true,
+			"hint": "1/3 × π × r² × h.",
+			"explain": "Yes."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A cylinder has a radius of 2 cm and a height of 5 cm. What is its volume in cm³? Use 3.14.",
+			"answer": "62.8",
+			"hint": "3.14 × 4 × 5.",
+			"explain": "62.8 cm³."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A cone has a radius of 3 cm and a height of 4 cm. What is its volume in cm³? Use 3.14.",
+			"answer": "37.68",
+			"hint": "1/3 × 3.14 × 9 × 4.",
+			"explain": "37.68 cm³."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which holds the most (same radius and height)?",
+			"answer": 0,
+			"hint": "A cone is a third.",
+			"choices": [
+				"the cylinder",
+				"the cone",
+				"they hold the same"
+			],
+			"explain": "The cylinder."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A cylinder's volume is 3.14 × 3² × h and equals 282.6 cm³. What is h, in cm?",
+			"answer": "10",
+			"hint": "3.14 × 9 = 28.26.",
+			"explain": "282.6 ÷ 28.26 = 10 cm."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A sphere has a radius of 3 cm. What is its volume in cm³? Use 3.14.",
+			"answer": "113.04",
+			"hint": "4/3 × 3.14 × 27.",
+			"explain": "113.04 cm³."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A ball's radius doubles. What happens to its volume?",
+			"answer": 0,
+			"hint": "r³…",
+			"choices": [
+				"it becomes 8 times as big",
+				"it doubles",
+				"it becomes 4 times as big"
+			],
+			"explain": "2³ = 8."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8g.round_volume",
+			"level": 1
+		},
+		{
+			"gen": "g8g.round_volume",
+			"level": 2
+		},
+		{
+			"gen": "g8g.round_volume",
+			"level": 3
+		}
+	]
+}

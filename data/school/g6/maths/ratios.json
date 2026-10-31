@@ -1,0 +1,255 @@
+{
+	"id": "g6.maths.ratios",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met equal fractions. Is 2/3 equal to 4/6? Yes: multiply the top and bottom by 2."
+		},
+		{
+			"text": "A ratio compares two amounts. If there are 3 cats and 5 dogs, the ratio of cats to dogs is 3 : 5, said \"3 to 5\".",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"name": "cats",
+						"parts": [
+							{
+								"text": "1",
+								"size": 1
+							},
+							{
+								"text": "1",
+								"size": 1
+							},
+							{
+								"text": "1",
+								"size": 1
+							}
+						]
+					},
+					{
+						"name": "dogs",
+						"parts": [
+							{
+								"text": "1",
+								"size": 1
+							},
+							{
+								"text": "1",
+								"size": 1
+							},
+							{
+								"text": "1",
+								"size": 1
+							},
+							{
+								"text": "1",
+								"size": 1
+							},
+							{
+								"text": "1",
+								"size": 1
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"text": "Order matters: the ratio of dogs to cats is 5 : 3. You can also compare a part to the whole: cats to all the animals is 3 : 8."
+		},
+		{
+			"text": "Equal ratios are like equivalent fractions: multiply or divide both numbers by the same number. 2 : 3 = 4 : 6 = 6 : 9."
+		},
+		{
+			"text": "A ratio table lists equal ratios: flour 2, 4, 6 cups for sugar 1, 2, 3 cups.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"flour",
+						"sugar"
+					],
+					[
+						"2",
+						"1"
+					],
+					[
+						"4",
+						"2"
+					],
+					[
+						"6",
+						"3"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: for every 2 sheep in your farm, plant 3 trees. With 8 sheep, how many trees? 2 : 3 is 8 : 12. Next: rates and unit rates."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A class has 12 girls and 10 boys. What is the ratio of girls to boys?",
+			"answer": 0,
+			"hint": "Put the girls' number first, then the boys'.",
+			"choices": [
+				"12 : 10",
+				"10 : 12",
+				"12 : 22"
+			],
+			"explain": "Girls to boys: 12 : 10."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "2 : 5 = 4 : ?",
+			"answer": "10",
+			"hint": "Both numbers are multiplied by 2.",
+			"explain": "2 × 2 = 4, so 5 × 2 = 10."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "3 : 4 and 6 : 8 are equal ratios.",
+			"answer": true,
+			"hint": "Multiply 3 : 4 by 2.",
+			"explain": "Yes: 3 × 2 = 6 and 4 × 2 = 8."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A recipe uses 3 cups of flour for every 2 cups of milk. How much milk for 9 cups of flour?",
+			"answer": 0,
+			"hint": "9 is 3 × 3.",
+			"choices": [
+				"6 cups",
+				"4 cups",
+				"8 cups"
+			],
+			"explain": "3 × 3 = 9 flour, so 2 × 3 = 6 milk."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "6 : 9 = 2 : ?",
+			"answer": "3",
+			"hint": "Divide both by 3.",
+			"explain": "6 ÷ 3 = 2 and 9 ÷ 3 = 3."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The ratio 4 : 6 is the same as 2 : 3.",
+			"answer": true,
+			"hint": "Divide both by 2.",
+			"explain": "Yes: 4 ÷ 2 = 2 and 6 ÷ 2 = 3."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In a bag, the ratio of red to blue marbles is 2 : 3. There are 20 marbles. How many are red?",
+			"answer": 0,
+			"hint": "2 + 3 = 5 parts.",
+			"choices": [
+				"8",
+				"10",
+				"12",
+				"4"
+			],
+			"explain": "20 ÷ 5 = 4 in each part; red is 2 × 4 = 8."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A ratio table pairs 3 with 7, 6 with 14 and 9 with 21. What goes with 15?",
+			"answer": "35",
+			"hint": "What do you multiply 3 by to get 15?",
+			"explain": "15 = 3 × 5, so 7 × 5 = 35."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each ratio to an equal ratio.",
+			"items": [
+				"2 : 3",
+				"1 : 4",
+				"5 : 2",
+				"3 : 5"
+			],
+			"matches": [
+				"6 : 10",
+				"4 : 6",
+				"10 : 4",
+				"3 : 12"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Multiply both numbers by the same number.",
+			"explain": "2 : 3 = 4 : 6; 1 : 4 = 3 : 12; 5 : 2 = 10 : 4; 3 : 5 = 6 : 10."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the pairs: equal ratios or not?",
+			"items": [
+				"2 : 5 and 4 : 10",
+				"3 : 4 and 4 : 5",
+				"6 : 9 and 2 : 3",
+				"1 : 2 and 2 : 3"
+			],
+			"groups": [
+				"equal",
+				"not equal"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Can you multiply or divide both numbers by the same number to get the other?",
+			"explain": "2 : 5 doubled is 4 : 10, and 6 : 9 divided by 3 is 2 : 3, so they are equal. 3 : 4 and 4 : 5, and 1 : 2 and 2 : 3, are not."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Juice is mixed 2 parts orange to 3 parts water. You make 1,500 mL of juice. How many mL of orange do you need?",
+			"answer": "600",
+			"hint": "How many parts are there in all? How big is one part?",
+			"explain": "2 + 3 = 5 parts in all. One part is 1,500 ÷ 5 = 300 mL. Orange is 2 parts: 2 × 300 = 600 mL (and water 900 mL)."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6n.ratio_words",
+			"level": 1
+		},
+		{
+			"gen": "g6n.ratio_words",
+			"level": 2
+		},
+		{
+			"gen": "g6n.ratio_words",
+			"level": 3
+		},
+		{
+			"gen": "g6n.ratio_table",
+			"level": 1
+		},
+		{
+			"gen": "g6n.ratio_table",
+			"level": 2
+		},
+		{
+			"gen": "g6n.ratio_table",
+			"level": 3
+		}
+	]
+}

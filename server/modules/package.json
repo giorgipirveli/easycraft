@@ -1,0 +1,19 @@
+{
+  "name": "easycraft-nakama-modules",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "EasyCraft server logic for Nakama's TypeScript runtime (M4). Built to build/index.js, which Nakama loads.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "clean": "rm -rf build",
+    "test": "tsc && node --test \"test/*.test.ts\"",
+    "test:server": "tsc && node --test --test-concurrency=1 \"test/integration/*.server.ts\""
+  },
+  "devDependencies": {
+    "nakama-runtime": "file:vendor/nakama-runtime",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,327 @@
+{
+	"id": "g3.health_pe.team_games",
+	"lesson": [
+		{
+			"text": "Quick memory: what makes a rule fair? (It is the same for everyone.) Games need fair rules too, and players who keep them."
+		},
+		{
+			"text": "A good sport plays by the rules, takes turns and tells the truth: if the ball touched you last before it went out, say so."
+		},
+		{
+			"text": "Win well and lose well. When your team wins, say 'well played' and do not boast. When your team does not win, clap the other team and think about what to try next time.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"When you win",
+						"When you lose"
+					],
+					[
+						"say 'well played'",
+						"clap the other team"
+					],
+					[
+						"do not boast",
+						"think what to try"
+					]
+				]
+			}
+		},
+		{
+			"text": "Team players talk and share: call your teammate's name, pass to someone in space, and make sure everyone gets a turn with the ball."
+		},
+		{
+			"text": "Attack and defence: when your team has the ball, you attack (find space, move forward, try to score). When the other team has it, you defend (mark a player, block the way to your goal).",
+			"picture": {
+				"kind": "pitch",
+				"cols": 10,
+				"rows": 6,
+				"players": [
+					[
+						3,
+						2,
+						"a"
+					],
+					[
+						5,
+						4,
+						"a"
+					],
+					[
+						6,
+						2,
+						"d"
+					],
+					[
+						8,
+						3,
+						"d"
+					]
+				],
+				"ball": 0
+			}
+		},
+		{
+			"text": "If something feels unfair, stay calm and ask the referee or a grown-up. Shouting or walking off spoils the game for everyone."
+		},
+		{
+			"text": "Try it in the world: invent a team game with a friend, with a pitch, two goals and three fair rules on a sign. After you play, ask: was it fair and fun for everyone?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A good sport says 'well played' at the end of a game.",
+			"answer": true,
+			"hint": "Is it a kind thing to say?",
+			"explain": "True: saying 'well played' shows respect for the other team, whoever won."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a good thing to say to the other team after a game?",
+			"answer": 0,
+			"hint": "Which words are kind, whoever won?",
+			"choices": [
+				"well played!",
+				"we won, you did not",
+				"that was boring",
+				"nothing at all"
+			],
+			"explain": "'Well played!' is kind and fair, whether your team won or not."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The ball went out, and it touched your foot last. What do you do?",
+			"answer": 0,
+			"hint": "A good sport tells the truth.",
+			"choices": [
+				"say so honestly",
+				"say it touched someone else",
+				"hide the ball",
+				"keep quiet and play on"
+			],
+			"explain": "Say so: being honest keeps the game fair, even when it helps the other team."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Only the best player on a team should get the ball.",
+			"answer": false,
+			"hint": "Would that be fair or fun for everyone?",
+			"explain": "False: a good team makes sure everyone gets a turn with the ball."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the actions: attacking or defending?",
+			"groups": [
+				"attacking",
+				"defending"
+			],
+			"items": [
+				"moving into space for a pass",
+				"marking a player",
+				"shooting at the goal",
+				"blocking a pass",
+				"dribbling forward",
+				"guarding your goal"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which team has the ball in each one?",
+			"explain": "Attacking: moving into space, shooting, dribbling forward. Defending: marking, blocking a pass, guarding your goal."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Your team has the ball. What is your team doing?",
+			"answer": 0,
+			"hint": "Which one means trying to score?",
+			"choices": [
+				"attacking",
+				"defending",
+				"resting",
+				"refereeing"
+			],
+			"explain": "When your team has the ball, you are attacking: trying to move forward and score."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why pass to a teammate who is in space?",
+			"answer": 0,
+			"hint": "What does 'in space' mean?",
+			"choices": [
+				"nobody is near enough to block the pass",
+				"it is their birthday",
+				"they are the tallest",
+				"to give the ball away"
+			],
+			"explain": "A teammate in space has nobody close by, so the pass is less likely to be blocked."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each moment to a good-sport action.",
+			"items": [
+				"your team wins",
+				"your team does not win",
+				"a rule is broken",
+				"someone is left out"
+			],
+			"matches": [
+				"clap the other team",
+				"tell the referee calmly",
+				"invite them to join in",
+				"say 'well played' kindly"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of what a good sport would do each time.",
+			"explain": "Win: say 'well played'. Not win: clap the other team. A rule broken: tell the referee calmly. Someone left out: invite them in."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When the other team has the ball, your team defends.",
+			"answer": true,
+			"hint": "Who is trying to score?",
+			"explain": "True: without the ball, your team defends: marking players and blocking the way to your goal."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara's team lost by 3 goals to 4. What is the best thing to do?",
+			"answer": 0,
+			"hint": "What would help her team next time, and keep the game friendly?",
+			"choices": [
+				"say 'well played' and plan what to practise",
+				"blame the referee",
+				"quit the team",
+				"say the other team cheated"
+			],
+			"explain": "Saying 'well played' is kind, and planning what to practise helps her team improve."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps for sorting out a disagreement in a game in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You cannot listen while shouting.",
+			"items": [
+				"agree and play on",
+				"check the rules together",
+				"listen to each player",
+				"stop and stay calm"
+			],
+			"explain": "Stop and stay calm, listen to each player, check the rules together, then agree and play on."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In a game of tag, the same child is always 'it'. What fair change could the group make?",
+			"answer": 0,
+			"hint": "What makes a game fair for everyone?",
+			"choices": [
+				"take turns to be 'it'",
+				"make that child 'it' forever",
+				"stop playing",
+				"let only the fastest play"
+			],
+			"explain": "Taking turns to be 'it' gives everyone the same chance."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Changing the rules in the middle of a game so that your team wins is fair.",
+			"answer": false,
+			"hint": "Would the same rule be fair for both teams?",
+			"explain": "False: rules must be the same for everyone, agreed before the game starts."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do many games have a referee?",
+			"answer": 0,
+			"hint": "Who decides when a rule is broken?",
+			"choices": [
+				"to make sure the rules are kept fairly",
+				"to score the goals",
+				"to pick the winner before the game",
+				"to shout at players"
+			],
+			"explain": "A referee watches the game and makes sure everyone keeps the rules, so it is fair."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the actions: a good sport, or not?",
+			"groups": [
+				"good sport",
+				"not a good sport"
+			],
+			"items": [
+				"saying 'well played'",
+				"boasting after a win",
+				"passing to someone in space",
+				"blaming the referee",
+				"owning up when the ball touched you",
+				"walking off when losing"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it fair, honest and kind to both teams?",
+			"explain": "Good sport: saying 'well played', passing to someone in space, owning up. Not: boasting, blaming the referee, walking off when losing."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each problem in a game to a fair fix.",
+			"items": [
+				"the same child is always 'it'",
+				"a team keeps changing the rules",
+				"one player never gets the ball",
+				"two players argue about a goal"
+			],
+			"matches": [
+				"agree rules before you start",
+				"check the rules together calmly",
+				"take turns being 'it'",
+				"pass to everyone"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1
+			],
+			"hint": "Think about turns, rules agreed at the start, sharing, and staying calm.",
+			"explain": "Always 'it': take turns. Rules that keep changing: agree them before you start. One player left out: pass to everyone. An argument: stop, stay calm and check the rules together."
+		}
+	],
+	"generators": []
+}

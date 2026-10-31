@@ -1,0 +1,306 @@
+{
+	"id": "g6.computing.pixels_images",
+	"lesson": [
+		{
+			"text": "Quick memory: what is 101 in binary as an ordinary number? (5, which is 4 + 1.) Today: how a computer stores a picture."
+		},
+		{
+			"text": "A digital picture is a grid of tiny squares called pixels, short for picture elements. Each pixel is one colour. Look very closely at a screen and you can see them.",
+			"picture": {
+				"kind": "pixels",
+				"rows": [
+					"01100110",
+					"11111111",
+					"11111111",
+					"01111110",
+					"00111100",
+					"00011000"
+				]
+			}
+		},
+		{
+			"text": "In a black-and-white picture, each pixel needs one bit: 1 for black and 0 for white. The computer stores the picture as rows of bits.",
+			"picture": {
+				"kind": "pixels",
+				"rows": [
+					"01100110",
+					"11111111",
+					"11111111",
+					"01111110",
+					"00111100",
+					"00011000"
+				],
+				"digits": true
+			}
+		},
+		{
+			"text": "More colours need more bits for each pixel. 1 bit gives 2 colours, 2 bits give 4, 3 bits give 8 and 8 bits give 256. Each extra bit doubles the colours."
+		},
+		{
+			"text": "A screen makes each pixel's colour from red, green and blue light, each a number from 0 (off) to 255 (full). Light adds up: (255, 255, 0) makes yellow and (255, 255, 255) makes white.",
+			"picture": {
+				"kind": "rgb_mix",
+				"r": 255,
+				"g": 255,
+				"b": 255,
+				"view": "lights"
+			}
+		},
+		{
+			"text": "Resolution is how many pixels a picture has. A picture 1,000 pixels wide and 800 tall has 1,000 × 800 = 800,000 pixels. More pixels show more detail, but the file is bigger."
+		},
+		{
+			"text": "Worked example: a 10 × 10 picture with 1 bit a pixel needs 10 × 10 = 100 bits. With 8 bits a pixel (256 colours) it needs 800 bits, which is 100 bytes."
+		},
+		{
+			"text": "Try it in the world: on squared paper, draw a 6 × 6 picture and write each row as 1s and 0s. Can a friend draw it again from your numbers? Next: AND, OR and NOT."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a pixel?",
+			"answer": 0,
+			"hint": "Zoom right in on a screen. What do you see?",
+			"choices": [
+				"one tiny square of colour in a picture",
+				"a kind of camera",
+				"a short sound",
+				"a whole photo"
+			],
+			"explain": "A pixel is one tiny square of one colour; a picture is a grid of them."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many pixels make this picture?",
+			"answer": "20",
+			"hint": "Count one row, then the rows, and multiply.",
+			"explain": "5 pixels in a row and 4 rows: 5 × 4 = 20.",
+			"picture": {
+				"kind": "pixels",
+				"rows": [
+					"01110",
+					"10001",
+					"10001",
+					"01110"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a black-and-white picture, one bit is enough for each pixel.",
+			"answer": true,
+			"hint": "How many choices does each pixel have? How many can one bit show?",
+			"explain": "True: one bit is 0 or 1, and a pixel is white or black."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What colour do red, green and blue light make together?",
+			"answer": 0,
+			"hint": "Light adds up, it is not like mixing paint.",
+			"choices": [
+				"white",
+				"brown",
+				"black",
+				"grey"
+			],
+			"explain": "All three lights full make white: (255, 255, 255) is white."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "This pixel is (0, 0, 255). What colour is it?",
+			"answer": 0,
+			"hint": "The first number is red and the second is green. Which number is at its full 255?",
+			"choices": [
+				"blue",
+				"red",
+				"green",
+				"black"
+			],
+			"explain": "Only blue is on: (0, 0, 255) is blue.",
+			"picture": {
+				"kind": "rgb_mix",
+				"r": 0,
+				"g": 0,
+				"b": 255
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Each pixel uses 2 bits. How many different colours can a pixel be?",
+			"answer": "4",
+			"hint": "Write every pattern two bits can make, starting with 00 and 01.",
+			"explain": "2 bits can be 00, 01, 10 or 11: 4 colours."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which colour of light is (255, 255, 0)?",
+			"answer": 0,
+			"hint": "Which two lights are on? Light adds up.",
+			"choices": [
+				"yellow",
+				"brown",
+				"orange",
+				"green"
+			],
+			"explain": "Red and green light are on, and (255, 255, 0) makes yellow."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A picture is 20 pixels wide and 15 pixels tall. How many pixels does it have?",
+			"answer": "300",
+			"hint": "Width times height.",
+			"explain": "20 × 15 = 300 pixels."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "1 is black and 0 is white. Which is the top row of this picture?",
+			"answer": 0,
+			"hint": "Read the top row from the left: black is 1, white is 0.",
+			"choices": [
+				"0110",
+				"1001",
+				"1111",
+				"0000"
+			],
+			"explain": "The top row is white, black, black, white: 0110.",
+			"picture": {
+				"kind": "pixels",
+				"rows": [
+					"0110",
+					"1111",
+					"1111",
+					"0110"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Red light and green light make brown, just like red and green paint.",
+			"answer": false,
+			"hint": "Think of a screen: which colour comes when red and green pixels are both lit?",
+			"explain": "False: red and green light add up to yellow. Paint is different."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each colour's numbers (red, green, blue) to its colour.",
+			"items": [
+				"(255, 0, 0)",
+				"(0, 255, 0)",
+				"(0, 0, 0)",
+				"(255, 255, 255)"
+			],
+			"matches": [
+				"black",
+				"white",
+				"red",
+				"green"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "255 is full and 0 is off.",
+			"explain": "(255, 0, 0) is red, (0, 255, 0) is green, (0, 0, 0) is black with every light off, and (255, 255, 255) is white."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 16 × 16 picture uses 8 bits (1 byte) for each pixel. How many bytes is it?",
+			"answer": "256",
+			"hint": "Find the pixels; each one is a byte.",
+			"explain": "16 × 16 = 256 pixels, and each is 1 byte: 256 bytes."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many bits must each pixel have for 16 different colours?",
+			"answer": "4",
+			"hint": "Double from 2 until you reach 16, counting the bits.",
+			"explain": "1 bit gives 2, 2 bits 4, 3 bits 8 and 4 bits 16."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which picture has the most pixels?",
+			"answer": 0,
+			"hint": "Multiply each one, or compare both numbers.",
+			"choices": [
+				"1,920 × 1,080",
+				"640 × 480",
+				"800 × 600",
+				"1,024 × 768"
+			],
+			"explain": "1,920 × 1,080 = 2,073,600 pixels: the most detail."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Doubling a picture's width and its height gives it twice as many pixels.",
+			"answer": false,
+			"hint": "Try a 2 × 2 picture made twice as wide and twice as tall.",
+			"explain": "False: it has 2 × 2 = 4 times as many. A 2 × 2 picture has 4 pixels; a 4 × 4 one has 16."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which numbers make magenta light?",
+			"answer": 0,
+			"hint": "Magenta is red and blue light together.",
+			"choices": [
+				"(255, 0, 255)",
+				"(255, 255, 0)",
+				"(0, 255, 255)",
+				"(255, 0, 0)"
+			],
+			"explain": "Red and blue full, green off: (255, 0, 255) makes magenta."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 12 × 10 black-and-white picture uses 1 bit a pixel. How many bytes is it? (8 bits make a byte.)",
+			"answer": "15",
+			"hint": "Pixels first, then bits, then share the bits into bytes of 8.",
+			"explain": "12 × 10 = 120 pixels, so 120 bits, and 120 ÷ 8 = 15 bytes."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.image_bits",
+			"level": 1
+		},
+		{
+			"gen": "g6c.image_bits",
+			"level": 2
+		},
+		{
+			"gen": "g6c.image_bits",
+			"level": 3
+		},
+		{
+			"gen": "g6c.light_colour",
+			"level": 1
+		},
+		{
+			"gen": "g6c.light_colour",
+			"level": 2
+		},
+		{
+			"gen": "g6c.light_colour",
+			"level": 3
+		}
+	]
+}

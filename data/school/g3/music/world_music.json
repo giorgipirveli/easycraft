@@ -1,0 +1,407 @@
+{
+	"id": "g3.music.world_music",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a music loop? (A short pattern that repeats.) Today: music from around the world."
+		},
+		{
+			"text": "Every culture on Earth makes music. People sing, dance and play for celebrations, for work, for stories and for fun."
+		},
+		{
+			"text": "In West Africa, drummers play djembes and talking drums. A talking drum can copy the rise and fall of people's speech!",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "djembe",
+				"labels": true
+			}
+		},
+		{
+			"text": "Call and response: a leader sings a line and everyone answers. You hear it in many places, from West Africa to old sea songs. Listen: a call, then its answer.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4:2",
+					"-",
+					"E4",
+					"D4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"text": "Many folk tunes use just five notes, a pentatonic scale, like C, D, E, G and A. You hear it in music from China, Scotland, West Africa and many other places.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"A4:2"
+				]
+			}
+		},
+		{
+			"text": "In Indonesia, a gamelan orchestra plays gongs and metal bars that shimmer. In Trinidad and Tobago, people made steel pans from old oil drums.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "steelpan",
+				"labels": true
+			}
+		},
+		{
+			"text": "In Cuba, one small rhythm called the clave holds the music together. Listen: three claps, then two.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x--x--x---x-x---",
+				"tempo": 100
+			},
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"clave",
+						"x--x--x---x-x---"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a festival stage in your world with instruments from three places. Play call and response with a friend: you clap, they answer."
+		}
+	],
+	"exercises": [
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each instrument to a place famous for it.",
+			"items": [
+				"djembe",
+				"steel pan",
+				"bagpipes",
+				"taiko drum"
+			],
+			"matches": [
+				"Japan",
+				"West Africa",
+				"Trinidad and Tobago",
+				"Scotland"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Remember the lesson cards, and match the ones you are surest of first.",
+			"explain": "Djembe: West Africa. Steel pan: Trinidad and Tobago. Bagpipes: Scotland. Taiko drum: Japan."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Every culture in the world makes its own music.",
+			"answer": true,
+			"hint": "Think of all the places on the lesson cards.",
+			"explain": "True: people everywhere sing, dance and play music."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. A leader sings, then the group answers. What is this called?",
+			"answer": 0,
+			"hint": "One calls, the others respond.",
+			"choices": [
+				"call and response",
+				"a solo",
+				"a lullaby",
+				"silence"
+			],
+			"explain": "Call and response: a leader sings a line and the group answers.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4:2",
+					"-",
+					"E4",
+					"D4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What were the first steel pans made from?",
+			"answer": 0,
+			"hint": "Remember the lesson card about Trinidad and Tobago.",
+			"choices": [
+				"old metal oil drums",
+				"wood and string",
+				"pumpkins",
+				"glass bottles"
+			],
+			"explain": "People in Trinidad and Tobago made them from old oil drums."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Listen to the clave rhythm from Cuba. How many claps do you hear?",
+			"answer": "5",
+			"hint": "Listen as often as you like. Tap along, or say the rhythm quietly as you listen.",
+			"explain": "Three claps, then two: 3 + 2 = 5 claps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x--x--x---x-x---",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. How many different notes are in this tune?",
+			"answer": 0,
+			"hint": "Count each new note as the tune climbs.",
+			"choices": [
+				"5",
+				"3",
+				"7",
+				"2"
+			],
+			"explain": "5 different notes: C, D, E, G and A, a pentatonic scale.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"A4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a pentatonic scale?",
+			"answer": 0,
+			"hint": "Penta means five, like a pentagon's five sides.",
+			"choices": [
+				"a scale of five notes",
+				"a drum from India",
+				"a very loud song",
+				"a scale of ten notes"
+			],
+			"explain": "A pentatonic scale has five notes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What can a talking drum do?",
+			"answer": 0,
+			"hint": "Remember the lesson card about West Africa.",
+			"choices": [
+				"copy the rise and fall of speech",
+				"say words out loud by itself",
+				"play only one note",
+				"record your voice"
+			],
+			"explain": "A talking drum's player changes its pitch to copy how speech rises and falls."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Listen. The clave plays three claps, then two.",
+			"answer": true,
+			"hint": "Count the claps in each group.",
+			"explain": "True: three claps, a gap, then two claps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x--x--x---x-x---",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: drums, or not drums?",
+			"groups": [
+				"drums",
+				"not drums"
+			],
+			"items": [
+				"tabla",
+				"sitar",
+				"taiko",
+				"bagpipes",
+				"djembe",
+				"panpipes"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Do you hit it with your hands or sticks?",
+			"explain": "Drums: tabla, taiko, djembe. Not drums: sitar, bagpipes, panpipes."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen. In this call and response, the group sings back exactly the same notes.",
+			"answer": true,
+			"hint": "Hum the notes as you listen. Does your voice go up, go down or stay where it is?",
+			"explain": "True: the answer copies the call note for note, like an echo.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"G4",
+					"E4:2",
+					"-",
+					"G4",
+					"G4",
+					"E4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where does the gamelan, an orchestra of gongs and metal bars, come from?",
+			"answer": 0,
+			"hint": "Remember the lesson card.",
+			"choices": [
+				"Indonesia",
+				"Scotland",
+				"Brazil",
+				"Egypt"
+			],
+			"explain": "The gamelan comes from Indonesia."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which words describe this rhythm?",
+			"answer": 0,
+			"hint": "Count the claps in each group.",
+			"choices": [
+				"three claps, then two",
+				"two claps, then three",
+				"four even claps",
+				"one long clap"
+			],
+			"explain": "Three claps, then two: the clave from Cuba.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x--x--x---x-x---",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is a good way to describe music from another place?",
+			"answer": 0,
+			"hint": "Describe, just like looking at art.",
+			"choices": [
+				"say what you hear: instruments, speed, feeling",
+				"say it sounds wrong",
+				"say only your music is good",
+				"don't listen to it"
+			],
+			"explain": "Say what you hear: the instruments, the speed and how it makes you feel."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. This tune uses the five notes of a pentatonic scale. Does it go up or down?",
+			"answer": 0,
+			"hint": "Draw the tune in the air with your finger as you listen: up for higher notes, down for lower ones.",
+			"choices": [
+				"down",
+				"up"
+			],
+			"explain": "It goes down, from high C to low C, using only C, D, E, G and A.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"A4",
+					"G4",
+					"E4",
+					"D4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each instrument to how it is played.",
+			"items": [
+				"sitar",
+				"didgeridoo",
+				"tabla",
+				"erhu"
+			],
+			"matches": [
+				"blown, with buzzing lips",
+				"hit with the hands",
+				"bowed strings",
+				"plucked strings"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the families: plucked, bowed, blown or hit?",
+			"explain": "Sitar: plucked strings. Didgeridoo: blown with buzzing lips. Tabla: hit with the hands. Erhu: bowed strings."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the instruments by how they are played.",
+			"groups": [
+				"hit",
+				"blown",
+				"plucked"
+			],
+			"items": [
+				"djembe",
+				"bagpipes",
+				"sitar",
+				"taiko drum",
+				"didgeridoo",
+				"steel pan"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				0
+			],
+			"hint": "Drums and pans are hit. Pipes are blown. Strings are plucked.",
+			"explain": "Hit: the djembe, the taiko drum and the steel pan. Blown: the bagpipes and the didgeridoo. Plucked: the sitar's strings."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Cuban clave is three claps, then two. A band plays it 8 times. How many claps is that?",
+			"answer": "40",
+			"hint": "First find the claps in one clave, then multiply.",
+			"explain": "One clave: 3 + 2 = 5 claps. 8 times: 5 × 8 = 40 claps."
+		}
+	],
+	"generators": []
+}

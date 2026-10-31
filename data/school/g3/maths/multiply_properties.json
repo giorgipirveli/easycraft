@@ -1,0 +1,346 @@
+{
+	"id": "g3.maths.multiply_properties",
+	"lesson": [
+		{
+			"text": "Quick memory: 3 × 4 = 12. Here are 3 rows of 4 blocks. Can you also see 4 columns of 3?",
+			"picture": {
+				"kind": "array",
+				"rows": 3,
+				"cols": 4
+			}
+		},
+		{
+			"text": "Swap: turn an array round and it still has the same blocks. So 3 × 4 = 4 × 3 = 12. If you know 6 × 8, you know 8 × 6 too. Adding can swap as well, but taking away and dividing cannot.",
+			"picture": {
+				"kind": "array",
+				"rows": 4,
+				"cols": 3
+			}
+		},
+		{
+			"text": "Group: with three numbers, multiply any two first. 2 × 7 × 5: do 2 × 5 = 10 first, then 10 × 7 = 70. Look for a 10!"
+		},
+		{
+			"text": "Split: a big fact is two small facts. For 8 × 7, split 7 into 5 and 2. 8 × 5 = 40 and 8 × 2 = 16. Together: 40 + 16 = 56.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"5",
+					"2"
+				],
+				"rows": [
+					"8"
+				],
+				"cells": [
+					[
+						"40",
+						"16"
+					]
+				]
+			}
+		},
+		{
+			"text": "Hoot's puzzle: 6 × 12. Zara splits 12 into 10 + 2: 60 + 12 = 72. Bram doubles 6 × 6 = 36: 36 + 36 = 72. Both ways are right!",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"10",
+					"2"
+				],
+				"rows": [
+					"6"
+				],
+				"cells": [
+					[
+						"60",
+						"12"
+					]
+				]
+			}
+		},
+		{
+			"text": "A split can take away too: 9 × 6 is 10 × 6 take away 1 × 6: 60 − 6 = 54. Choose a split that uses facts you know. Next: bigger numbers times one digit."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "5 × 8 = 8 × ?",
+			"answer": "5",
+			"hint": "Multiplying works in any order: the numbers can swap places.",
+			"explain": "5 × 8 = 8 × 5 = 40."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "4 × 9 = 9 × 4",
+			"answer": true,
+			"hint": "Turn an array of 4 rows of 9 round.",
+			"explain": "Yes: both are 36."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "10 − 4 = 4 − 10",
+			"answer": false,
+			"hint": "Can taking away swap its numbers?",
+			"explain": "No: 10 − 4 = 6, but 4 − 10 is not 6."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "2 × 9 × 5 = ?",
+			"answer": "90",
+			"hint": "Multiply 2 × 5 first: it makes 10.",
+			"explain": "2 × 5 = 10, and 10 × 9 = 90."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which array has as many blocks as 2 rows of 6?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "array",
+						"rows": 6,
+						"cols": 2
+					}
+				},
+				{
+					"picture": {
+						"kind": "array",
+						"rows": 2,
+						"cols": 5
+					}
+				},
+				{
+					"picture": {
+						"kind": "array",
+						"rows": 6,
+						"cols": 3
+					}
+				},
+				{
+					"picture": {
+						"kind": "array",
+						"rows": 3,
+						"cols": 3
+					}
+				}
+			],
+			"answer": 0,
+			"hint": "2 × 6 = 12. Which array has 12 blocks?",
+			"explain": "6 rows of 2 is 12 blocks, the same as 2 rows of 6."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "8 × 7 = 8 × 5 + 8 × ?",
+			"answer": "2",
+			"hint": "Split 7 into 5 and something.",
+			"explain": "7 = 5 + 2, so 8 × 7 = 40 + 16 = 56.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"5",
+					"?"
+				],
+				"rows": [
+					"8"
+				],
+				"cells": [
+					[
+						"40",
+						"?"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "7 × 12 = 7 × 10 + 7 × 2 = ?",
+			"answer": "84",
+			"hint": "Work out 7 × 10 and 7 × 2, then add.",
+			"explain": "70 + 14 = 84."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the same as 6 × 9?",
+			"choices": [
+				"6 × 5 + 6 × 4",
+				"6 × 5 + 4",
+				"6 + 5 × 4",
+				"6 × 5 + 9 × 4"
+			],
+			"answer": 0,
+			"hint": "Split 9 into 5 + 4. Both parts are multiplied by 6.",
+			"explain": "6 × 5 + 6 × 4 = 30 + 24 = 54 = 6 × 9."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "5 × 3 × 4 = ?",
+			"answer": "60",
+			"hint": "Which two make an easy number? Try 5 × 4 first.",
+			"explain": "5 × 4 = 20, and 20 × 3 = 60."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "3 × 8 × 5 = 3 × 40",
+			"answer": true,
+			"hint": "Multiply 8 × 5 first.",
+			"explain": "8 × 5 = 40, so 3 × 8 × 5 = 3 × 40 = 120."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "9 × 7 = 10 × 7 − ?",
+			"answer": "7",
+			"hint": "9 sevens is one seven less than 10 sevens.",
+			"explain": "10 × 7 = 70, and 70 − 7 = 63 = 9 × 7."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The rectangle is 4 by 13. What is 4 × 13?",
+			"answer": "52",
+			"hint": "Work out each part: 4 × 10 and 4 × 3. Then add.",
+			"explain": "40 + 12 = 52.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"10",
+					"3"
+				],
+				"rows": [
+					"4"
+				],
+				"cells": [
+					[
+						"40",
+						"12"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "25 × 4 × 3 = ?",
+			"answer": "300",
+			"hint": "25 × 4 makes an easy number.",
+			"explain": "25 × 4 = 100, and 100 × 3 = 300."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "8 × 12 = ?",
+			"answer": "96",
+			"hint": "Split 12 into 10 and 2.",
+			"explain": "8 × 10 = 80 and 8 × 2 = 16. 80 + 16 = 96."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly wants 7 × 11. Which split is right?",
+			"choices": [
+				"7 × 10 + 7 × 1",
+				"7 × 10 + 1",
+				"7 + 10 × 1",
+				"7 × 5 + 7 × 5"
+			],
+			"answer": 0,
+			"hint": "Split 11 into 10 + 1. Both parts are multiplied by 7.",
+			"explain": "7 × 10 + 7 × 1 = 70 + 7 = 77 = 7 × 11."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "6 × 14 = 6 × 7 + 6 × 7",
+			"answer": true,
+			"hint": "Split 14 into 7 + 7.",
+			"explain": "6 × 7 = 42, and 42 + 42 = 84 = 6 × 14."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "4 × 7 × 25 = ?",
+			"answer": "700",
+			"hint": "Group 4 × 25 first.",
+			"explain": "4 × 25 = 100, and 100 × 7 = 700."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these in order, smallest first.",
+			"items": [
+				"5 × 2 × 5",
+				"3 × 3 × 5",
+				"4 × 2 × 5",
+				"2 × 3 × 5"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Look for × 2 × 5 = × 10.",
+			"explain": "30, then 40, then 45, then 50."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3m.swap",
+			"level": 1
+		},
+		{
+			"gen": "g3m.swap",
+			"level": 2
+		},
+		{
+			"gen": "g3m.swap",
+			"level": 3
+		},
+		{
+			"gen": "g3m.split",
+			"level": 1
+		},
+		{
+			"gen": "g3m.split",
+			"level": 2
+		},
+		{
+			"gen": "g3m.split",
+			"level": 3
+		},
+		{
+			"gen": "g3m.group_three",
+			"level": 1
+		},
+		{
+			"gen": "g3m.group_three",
+			"level": 2
+		},
+		{
+			"gen": "g3m.group_three",
+			"level": 3
+		},
+		{
+			"gen": "g3m.split_area",
+			"level": 1
+		},
+		{
+			"gen": "g3m.split_area",
+			"level": 2
+		},
+		{
+			"gen": "g3m.split_area",
+			"level": 3
+		}
+	]
+}

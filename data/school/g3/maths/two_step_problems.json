@@ -1,0 +1,428 @@
+{
+	"id": "g3.maths.two_step_problems",
+	"lesson": [
+		{
+			"text": "Quick memory: 45 + 30 = 75, and 75 − 30 = 45. An adding and a take-away undo each other.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "45",
+								"size": 45
+							},
+							{
+								"text": "30",
+								"size": 30
+							}
+						],
+						"total": "75"
+					}
+				]
+			}
+		},
+		{
+			"text": "A bar model draws a story. Tilly has 45 blocks and Bram gives her 30 more. Two parts make the whole: 45 + 30 = 75 blocks.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "45",
+								"size": 45
+							},
+							{
+								"text": "30",
+								"size": 30
+							}
+						],
+						"name": "Tilly",
+						"total": "?"
+					}
+				]
+			}
+		},
+		{
+			"text": "Comparing: Zara has 60 shells and Pip has 35. How many more has Zara? Draw two bars. The gap is the difference: 60 − 35 = 25.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "60",
+								"size": 60
+							}
+						],
+						"name": "Zara"
+					},
+					{
+						"parts": [
+							{
+								"text": "35",
+								"size": 35
+							}
+						],
+						"name": "Pip"
+					}
+				],
+				"diff": "?"
+			}
+		},
+		{
+			"text": "Two steps: Mimi has 35 shells. Pip has 18 fewer. How many do they have together? Step 1: Pip has 35 − 18 = 17. Step 2: 35 + 17 = 52.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "35",
+								"size": 35
+							}
+						],
+						"name": "Mimi"
+					},
+					{
+						"parts": [
+							{
+								"text": "?",
+								"size": 17
+							}
+						],
+						"name": "Pip"
+					}
+				],
+				"diff": "18"
+			}
+		},
+		{
+			"text": "Equal parts: 4 bags of 8 apples and 5 more apples. Step 1: 4 × 8 = 32. Step 2: 32 + 5 = 37 apples.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "8",
+								"size": 8
+							},
+							{
+								"text": "8",
+								"size": 8
+							},
+							{
+								"text": "8",
+								"size": 8
+							},
+							{
+								"text": "8",
+								"size": 8
+							},
+							{
+								"text": "5",
+								"size": 5
+							}
+						],
+						"total": "?"
+					}
+				]
+			}
+		},
+		{
+			"text": "A letter can stand for the number we do not know: 45 + n = 72. Undo the adding: n = 72 − 45 = 27."
+		},
+		{
+			"text": "Check that an answer makes sense: round the numbers. 298 + 405 is about 300 + 400 = 700, so 703 makes sense and 1,003 does not. Next, in grade 4: stories with more steps."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Tilly has 24 blocks and finds 18 more. Then Tilly uses 10. How many blocks are left?",
+			"answer": "32",
+			"hint": "Step 1: how many after finding more? Step 2: take away the ones used.",
+			"explain": "24 + 18 = 42, then 42 − 10 = 32."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which number sentence matches the bar model?",
+			"choices": [
+				"30 + 12 = ?",
+				"30 − 12 = ?",
+				"30 × 12 = ?",
+				"12 − 30 = ?"
+			],
+			"answer": 0,
+			"hint": "The \"?\" is the whole. Two parts make the whole.",
+			"explain": "30 + 12 = ?: the parts added make the whole, 42.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "30",
+								"size": 30
+							},
+							{
+								"text": "12",
+								"size": 12
+							}
+						],
+						"total": "?"
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Bram buys 3 bags of 5 apples and 4 more apples. How many apples is that?",
+			"answer": "19",
+			"hint": "Step 1: 3 bags of 5. Step 2: add the 4 more.",
+			"explain": "3 × 5 = 15, then 15 + 4 = 19."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "45 + n = 60. What is n?",
+			"answer": "15",
+			"hint": "Undo the adding with a take-away.",
+			"explain": "n = 60 − 45 = 15."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Zara has 50 shells. Pip has 20 fewer. So Pip has 30 shells.",
+			"answer": true,
+			"hint": "Fewer means take away.",
+			"explain": "50 − 20 = 30, so yes."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A farm has 4 rows of 6 seeds. 5 seeds do not grow. How many seeds grow?",
+			"answer": "19",
+			"hint": "Step 1: 4 rows of 6. Step 2: take away the 5 that do not grow.",
+			"explain": "4 × 6 = 24, then 24 − 5 = 19."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Mimi has 64 shells. Pip has 27 fewer than Mimi. How many shells do they have together?",
+			"answer": "101",
+			"hint": "Step 1: find Pip's shells. Step 2: add both.",
+			"explain": "Pip has 64 − 27 = 37. Together: 64 + 37 = 101.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "64",
+								"size": 64
+							}
+						],
+						"name": "Mimi"
+					},
+					{
+						"parts": [
+							{
+								"text": "?",
+								"size": 37
+							}
+						],
+						"name": "Pip"
+					}
+				],
+				"diff": "27"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Nell shares 36 gems equally among 4 friends. One friend gives 3 away. How many gems does that friend have now?",
+			"answer": "6",
+			"hint": "Step 1: share 36 into 4. Step 2: take away 3.",
+			"explain": "36 ÷ 4 = 9, then 9 − 3 = 6."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "6 boxes hold 8 pens each, and 5 pens are lost. How many pens are left? What is the first step?",
+			"choices": [
+				"6 × 8 = 48",
+				"48 − 5 = 43",
+				"8 − 5 = 3",
+				"6 + 8 = 14"
+			],
+			"answer": 0,
+			"hint": "First find all the pens, then take away the lost ones.",
+			"explain": "First 6 × 8 = 48 pens, then 48 − 5 = 43 are left."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "n × 7 = 56. What is n?",
+			"answer": "8",
+			"hint": "Undo the times with a division: 56 ÷ 7.",
+			"explain": "56 ÷ 7 = 8, so n = 8."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Bram says 298 + 405 = 1,003. Rounding shows this could be right.",
+			"answer": false,
+			"hint": "Round to the nearest hundred: 300 + 400.",
+			"explain": "300 + 400 = 700, far from 1,003. The answer is 703."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A tower is 85 blocks tall. Zara builds one 27 blocks shorter, then adds 12 blocks to it. How tall is Zara's tower now?",
+			"answer": "70",
+			"hint": "Step 1: 27 shorter than 85. Step 2: add 12.",
+			"explain": "85 − 27 = 58, then 58 + 12 = 70."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A cake needs 3 eggs. Tilly bakes 7 cakes and had 30 eggs. How many eggs are left?",
+			"answer": "9",
+			"hint": "Step 1: the eggs 7 cakes need. Step 2: take them from 30.",
+			"explain": "7 × 3 = 21, then 30 − 21 = 9."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "There are 125 lanterns. 45 are red, and the rest are shared equally between 4 houses. How many does each house get?",
+			"answer": "20",
+			"hint": "Step 1: how many are not red? Step 2: share them into 4.",
+			"explain": "125 − 45 = 80, then 80 ÷ 4 = 20."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Pip reads 24 pages a day for 5 days. The book has 150 pages. How many pages are left?",
+			"answer": "30",
+			"hint": "Step 1: the pages read in 5 days. Step 2: take them from 150.",
+			"explain": "24 × 5 = 120, then 150 − 120 = 30."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara spent 45 gold and now has 78 gold. Which finds how much gold she had at first?",
+			"choices": [
+				"78 + 45",
+				"78 − 45",
+				"45 − 78",
+				"78 × 45"
+			],
+			"answer": 0,
+			"hint": "Undo the spending: put the 45 back.",
+			"explain": "78 + 45 = 123 gold."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi has 3 times as many stamps as Nell. Nell has 15. How many stamps do they have altogether?",
+			"answer": "60",
+			"hint": "Draw Nell's bar once and Mimi's three times as long.",
+			"explain": "Mimi has 3 × 15 = 45. Together: 45 + 15 = 60.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "15",
+								"size": 1
+							},
+							{
+								"text": "15",
+								"size": 1
+							},
+							{
+								"text": "15",
+								"size": 1
+							}
+						],
+						"name": "Mimi"
+					},
+					{
+						"parts": [
+							{
+								"text": "15",
+								"size": 1
+							}
+						],
+						"name": "Nell"
+					}
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Bram buys 4 hats at 25 gold each and pays with 100 gold. He gets no change.",
+			"answer": true,
+			"hint": "Step 1: the cost of 4 hats. Step 2: compare it with 100.",
+			"explain": "4 × 25 = 100, so there is no change."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3m.two_step",
+			"level": 1
+		},
+		{
+			"gen": "g3m.two_step",
+			"level": 2
+		},
+		{
+			"gen": "g3m.two_step",
+			"level": 3
+		},
+		{
+			"gen": "g3m.letter_unknown",
+			"level": 1
+		},
+		{
+			"gen": "g3m.letter_unknown",
+			"level": 2
+		},
+		{
+			"gen": "g3m.letter_unknown",
+			"level": 3
+		},
+		{
+			"gen": "g3m.estimate_check",
+			"level": 1
+		},
+		{
+			"gen": "g3m.estimate_check",
+			"level": 2
+		},
+		{
+			"gen": "g3m.estimate_check",
+			"level": 3
+		},
+		{
+			"gen": "g3m.model_sentence",
+			"level": 1
+		},
+		{
+			"gen": "g3m.model_sentence",
+			"level": 2
+		},
+		{
+			"gen": "g3m.model_sentence",
+			"level": 3
+		}
+	]
+}

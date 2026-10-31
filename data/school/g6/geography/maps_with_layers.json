@@ -1,0 +1,495 @@
+{
+	"id": "g6.geography.maps_with_layers",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, what can a digital map do that a paper atlas cannot? (Zoom in and out, and show satellite pictures.) Today: maps with layers, called GIS."
+		},
+		{
+			"text": "A GIS (geographic information system) keeps a map as layers: roads, rivers, houses, schools and more. You switch layers on and off, like stacking see-through sheets.",
+			"picture": {
+				"kind": "layer_map",
+				"w": 6,
+				"h": 4,
+				"view": "stack",
+				"layers": [
+					{
+						"name": "roads",
+						"what": "road",
+						"cells": [
+							"######",
+							"..#...",
+							"..#...",
+							"..#..."
+						]
+					},
+					{
+						"name": "river",
+						"what": "water",
+						"cells": [
+							"....#.",
+							"....#.",
+							"...##.",
+							"...#.."
+						]
+					},
+					{
+						"name": "houses",
+						"what": "houses",
+						"cells": [
+							".....#",
+							"#.....",
+							".#...#",
+							"#....."
+						]
+					},
+					{
+						"name": "schools",
+						"what": "schools",
+						"cells": [
+							"......",
+							"...#..",
+							"......",
+							".#...."
+						]
+					}
+				]
+			}
+		},
+		{
+			"text": "Put layers together to answer questions. Here the river, its flood zone and the houses are on. Which houses could flood? The ones inside the shaded zone.",
+			"picture": {
+				"kind": "layer_map",
+				"w": 8,
+				"h": 5,
+				"layers": [
+					{
+						"name": "river",
+						"what": "water",
+						"cells": [
+							"...##...",
+							"....##..",
+							"....#...",
+							"...##...",
+							"...#...."
+						]
+					},
+					{
+						"name": "flood zone",
+						"what": "flood",
+						"cells": [
+							"..####..",
+							"...####.",
+							"...###..",
+							"..####..",
+							"..###..."
+						]
+					},
+					{
+						"name": "houses",
+						"what": "houses",
+						"cells": [
+							"#.#...#.",
+							".#.#....",
+							".....#.#",
+							"#.....#.",
+							"..#....."
+						]
+					}
+				]
+			}
+		},
+		{
+			"text": "Layers hold three kinds of thing: points (a school, a bus stop), lines (a road, a river) and areas (a park, a flood zone). Each thing can carry facts, such as a school's number of pupils.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"kind",
+						"for example"
+					],
+					[
+						"point",
+						"a bus stop"
+					],
+					[
+						"line",
+						"a river"
+					],
+					[
+						"area",
+						"a flood zone"
+					]
+				]
+			}
+		},
+		{
+			"text": "The data comes from surveys, satellites, drones and GPS. A GPS receiver works out where it is from satellite signals, to within a few metres."
+		},
+		{
+			"text": "People use GIS to plan: where a new school should go so most children live near it; which roads an ambulance should take; where to plant trees; which streets to warn before a flood."
+		},
+		{
+			"text": "Location data is personal. A map of where you go each day could show where you live and go to school. So apps should ask before using your location, and you can say no."
+		},
+		{
+			"text": "Try it in the world: make layered maps of your land on signs: one for paths, one for water, one for farms. Which farms are near water? Next: in grade 7, tectonic plates and people."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does GIS stand for?",
+			"answer": 0,
+			"hint": "It is about maps and information.",
+			"choices": [
+				"geographic information system",
+				"great island system",
+				"giant ice sheet",
+				"global internet store"
+			],
+			"explain": "A geographic information system: a map in layers of information."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a GIS, you can switch layers on and off.",
+			"answer": true,
+			"hint": "Think of see-through sheets.",
+			"explain": "True: you choose which layers to show together."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a point on a GIS map?",
+			"answer": 0,
+			"hint": "A point is one place, not a line or a shape.",
+			"choices": [
+				"a bus stop",
+				"a river",
+				"a road",
+				"a flood zone"
+			],
+			"explain": "A bus stop is a single place: a point."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many houses does this map show?",
+			"answer": "10",
+			"hint": "Find the house symbol in the key, then count them all.",
+			"explain": "There are 10 house symbols.",
+			"picture": {
+				"kind": "layer_map",
+				"w": 8,
+				"h": 5,
+				"layers": [
+					{
+						"name": "river",
+						"what": "water",
+						"cells": [
+							"...##...",
+							"....##..",
+							"....#...",
+							"...##...",
+							"...#...."
+						]
+					},
+					{
+						"name": "flood zone",
+						"what": "flood",
+						"cells": [
+							"..####..",
+							"...####.",
+							"...###..",
+							"..####..",
+							"..###..."
+						]
+					},
+					{
+						"name": "houses",
+						"what": "houses",
+						"cells": [
+							"#.#...#.",
+							".#.#....",
+							".....#.#",
+							"#.....#.",
+							"..#....."
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does GPS get its signals from?",
+			"answer": 0,
+			"hint": "They circle the Earth.",
+			"choices": [
+				"satellites",
+				"street lights",
+				"the Moon",
+				"rivers"
+			],
+			"explain": "From satellites in orbit round the Earth."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many houses are inside the flood zone?",
+			"answer": "4",
+			"hint": "Look only at the shaded flood zone and count the houses on it.",
+			"explain": "4 houses are on the shaded zone; the other 6 are outside it.",
+			"picture": {
+				"kind": "layer_map",
+				"w": 8,
+				"h": 5,
+				"layers": [
+					{
+						"name": "river",
+						"what": "water",
+						"cells": [
+							"...##...",
+							"....##..",
+							"....#...",
+							"...##...",
+							"...#...."
+						]
+					},
+					{
+						"name": "flood zone",
+						"what": "flood",
+						"cells": [
+							"..####..",
+							"...####.",
+							"...###..",
+							"..####..",
+							"..###..."
+						]
+					},
+					{
+						"name": "houses",
+						"what": "houses",
+						"cells": [
+							"#.#...#.",
+							".#.#....",
+							".....#.#",
+							"#.....#.",
+							"..#....."
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: a point, a line or an area on a map?",
+			"groups": [
+				"point",
+				"line",
+				"area"
+			],
+			"items": [
+				"a school",
+				"a river",
+				"a park",
+				"a road",
+				"a bus stop",
+				"a lake"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				1,
+				0,
+				2
+			],
+			"hint": "Is it one spot, a long thin path, or a shape with an inside?",
+			"explain": "Points: a school, a bus stop. Lines: a river, a road. Areas: a park, a lake."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A town wants to know which schools could flood. Which layers does it need?",
+			"answer": 0,
+			"hint": "One layer shows the schools; which shows where water can reach?",
+			"choices": [
+				"schools and flood zone",
+				"roads and parks",
+				"houses and shops",
+				"bus stops and trees"
+			],
+			"explain": "The schools layer over the flood zone layer."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Data about where you go each day is personal.",
+			"answer": true,
+			"hint": "What could someone learn from it?",
+			"explain": "True: it could show where you live and go to school, so keep it private."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why might an ambulance service use GIS?",
+			"answer": 0,
+			"hint": "Think of the roads layer.",
+			"choices": [
+				"to find the quickest route",
+				"to choose a colour for the van",
+				"to count the stars",
+				"to play music"
+			],
+			"explain": "It can find the quickest route to a patient using roads and traffic."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many buildings, houses and schools together, are outside the flood zone?",
+			"answer": "7",
+			"hint": "Count the houses and the schools that are not on the shaded zone.",
+			"explain": "Houses outside: 6. Schools outside: 1. 7 in all.",
+			"picture": {
+				"kind": "layer_map",
+				"w": 8,
+				"h": 5,
+				"layers": [
+					{
+						"name": "river",
+						"what": "water",
+						"cells": [
+							"...##...",
+							"....##..",
+							"....#...",
+							"...##...",
+							"...#...."
+						]
+					},
+					{
+						"name": "flood zone",
+						"what": "flood",
+						"cells": [
+							"..####..",
+							"...####.",
+							"...###..",
+							"..####..",
+							"..###..."
+						]
+					},
+					{
+						"name": "houses",
+						"what": "houses",
+						"cells": [
+							"#.#...#.",
+							".#.#....",
+							".....#.#",
+							"#.....#.",
+							"..#....."
+						]
+					},
+					{
+						"name": "schools",
+						"what": "schools",
+						"cells": [
+							"........",
+							"......#.",
+							"........",
+							".#......",
+							"........"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Using layers, where is the best place for a new school?",
+			"answer": 0,
+			"hint": "Which layers would you switch on together?",
+			"choices": [
+				"near most homes and outside the flood zone",
+				"inside the flood zone",
+				"far from all homes",
+				"in the river"
+			],
+			"explain": "Near most homes (the houses layer) and outside the flood zone (the flood layer)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An app asks to use your location all the time. What is wise?",
+			"answer": 0,
+			"hint": "Where you go is personal.",
+			"choices": [
+				"allow only when needed, and ask a grown-up",
+				"always say yes",
+				"post your address",
+				"share it with strangers"
+			],
+			"explain": "Only let an app use your location when it needs it, and check with a grown-up."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"point",
+				"line",
+				"area",
+				"layer"
+			],
+			"matches": [
+				"one set of things on a map",
+				"a single place, like a well",
+				"a path, like a river",
+				"a shape, like a park"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Three are kinds of thing; one holds them.",
+			"explain": "Point: a single place. Line: a path. Area: a shape. Layer: one set of things."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of answering a question with GIS in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with what you want to know.",
+			"items": [
+				"read the answer off the map",
+				"switch them on together",
+				"choose the layers you need",
+				"ask a question"
+			],
+			"explain": "Ask, choose the layers, switch them on together, then read the answer."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.layer_query",
+			"level": 1
+		},
+		{
+			"gen": "g6h.layer_query",
+			"level": 2
+		},
+		{
+			"gen": "g6h.layer_query",
+			"level": 3
+		}
+	]
+}

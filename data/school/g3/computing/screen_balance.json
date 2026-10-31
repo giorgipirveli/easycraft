@@ -1,0 +1,308 @@
+{
+	"id": "g3.computing.screen_balance",
+	"lesson": [
+		{
+			"text": "Quick memory: what should you do if something online upsets you? (Stop, and tell a grown-up you trust.) Today: screens and balance."
+		},
+		{
+			"text": "Screens can be great: games, learning, and video calls with family. But a healthy day has lots of different things in it."
+		},
+		{
+			"text": "A balanced day has sleep, food, moving and playing outside, time with family and friends, learning, rest, and some screen time.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"sleep",
+						5
+					],
+					[
+						"learning",
+						3
+					],
+					[
+						"outside",
+						1
+					],
+					[
+						"family, food",
+						2
+					],
+					[
+						"screens",
+						1
+					]
+				],
+				"whole": 12,
+				"key": true
+			}
+		},
+		{
+			"text": "Notice how you feel. Too long on screens can give you tired eyes, a sore neck, grumpiness or trouble sleeping. That is your body saying “time for a break”."
+		},
+		{
+			"text": "Screens just before bed can make it harder to fall asleep, so many families switch them off about an hour before bedtime."
+		},
+		{
+			"text": "Stop at a good moment: the end of a level, a finished build, or bedtime in the game. When your player sleeps, this game gives you a STOP FOR TODAY button.",
+			"picture": {
+				"kind": "comic",
+				"panels": [
+					{
+						"think": "One more level?",
+						"shot": "close"
+					},
+					{
+						"say": "I'll stop after this build.",
+						"shot": "medium"
+					}
+				]
+			}
+		},
+		{
+			"text": "Rest your eyes: every 20 minutes, look at something far away for about 20 seconds.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"20 minutes on screen",
+					"look far away",
+					"count to 20",
+					"back to it"
+				],
+				"title": "Rest your eyes",
+				"loop": true
+			}
+		},
+		{
+			"text": "Try it in the world: when night comes in your world, let it be your signal to take a break. Do something off-screen, like reading or playing outside."
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: screen time or off-screen time?",
+			"groups": [
+				"screen time",
+				"off-screen"
+			],
+			"items": [
+				"playing a video game",
+				"riding a bike",
+				"watching a cartoon",
+				"reading a paper book",
+				"a video call",
+				"building a den outside"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is there a screen?",
+			"explain": "Screen time: the game, the cartoon, the video call. Off-screen: the bike, the book, the den."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A balanced day has many different activities, not only screens.",
+			"answer": true,
+			"hint": "Think of all the parts of a day.",
+			"explain": "True: sleep, food, play outside, family, learning, rest and some screen time make a balanced day."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Your eyes feel tired after playing. What is the best thing to do?",
+			"answer": 0,
+			"hint": "What does your body need?",
+			"choices": [
+				"take a break and look far away",
+				"play faster",
+				"make the screen brighter",
+				"rub your eyes and keep going"
+			],
+			"explain": "Take a break and look at something far away to rest your eyes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a good time to stop playing?",
+			"answer": 0,
+			"hint": "Look for a natural stopping place.",
+			"choices": [
+				"at the end of a level or a finished build",
+				"in the middle of a boss fight",
+				"never",
+				"only when the battery runs out"
+			],
+			"explain": "The end of a level or a finished build is a good moment to stop."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is it a good idea to switch off screens before bed?",
+			"answer": 0,
+			"hint": "Think about how you fall asleep.",
+			"choices": [
+				"screens can make it harder to fall asleep",
+				"screens need to sleep too",
+				"it makes the battery bigger",
+				"the game gets cross"
+			],
+			"explain": "Screens just before bed can keep you awake, so switching off helps you sleep."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each feeling to what might help.",
+			"items": [
+				"tired eyes",
+				"a stiff neck",
+				"feeling grumpy after a game",
+				"can't fall asleep"
+			],
+			"matches": [
+				"no screens before bed",
+				"look far away for a while",
+				"stretch and move around",
+				"take a break and play outside"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "What does each part of your body need?",
+			"explain": "Tired eyes: look far away. Stiff neck: stretch. Grumpy: a break outside. Can't sleep: no screens before bed."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Feeling grumpy after a long time on screens can be a sign that you need a break.",
+			"answer": true,
+			"hint": "Listen to your body and your feelings.",
+			"explain": "True: grumpiness can be your body saying it is time for a break."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bram has 1 hour of screen time today. He has used 35 minutes. How many minutes are left?",
+			"answer": "25",
+			"hint": "1 hour is 60 minutes. Take away what he has used.",
+			"explain": "1 hour is 60 minutes, and 60 − 35 = 25 minutes are left."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What should you do every 20 minutes on a screen?",
+			"answer": 0,
+			"hint": "Remember the lesson card about resting your eyes.",
+			"choices": [
+				"look at something far away for about 20 seconds",
+				"play for 20 more hours",
+				"sleep for 20 minutes",
+				"take 20 steps backwards"
+			],
+			"explain": "Every 20 minutes, look at something far away for about 20 seconds."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Tilly's plan for Saturday: put it in time order, from morning to night.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Look at the times.",
+			"items": [
+				"10:00 play outside in the park",
+				"15:00 an hour of games",
+				"8:00 breakfast with family",
+				"12:30 lunch",
+				"19:00 bath, book and bed"
+			],
+			"explain": "8:00 breakfast, 10:00 the park, 12:30 lunch, 15:00 games, 19:00 bath, book and bed."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which day is the most balanced?",
+			"answer": 0,
+			"hint": "Look for lots of different things.",
+			"choices": [
+				"school, play outside, some games, a book, bed",
+				"8 hours of games",
+				"no sleep, only games",
+				"videos all day"
+			],
+			"explain": "The first day has learning, play, some games, reading and sleep: balanced."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara wants to stop playing but finds it hard. What might help her?",
+			"answer": 0,
+			"hint": "What could she decide before she starts playing, like when she will stop?",
+			"choices": [
+				"decide a stopping point before she starts",
+				"hide the clock",
+				"play until she falls asleep",
+				"start a new level every time"
+			],
+			"explain": "Deciding a stopping point before she starts, like the end of a level, makes stopping easier."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Some screen time, like a video call with family or a lesson in the School, can be good for you.",
+			"answer": true,
+			"hint": "Are all screens the same?",
+			"explain": "True: screens can help us learn and stay close to family. Balance is what matters."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How can you tell your body needs a break from screens?",
+			"answer": 0,
+			"hint": "Listen to your body.",
+			"choices": [
+				"tired eyes, a sore neck or feeling grumpy",
+				"you are having fun",
+				"you just started",
+				"your battery is full"
+			],
+			"explain": "Tired eyes, a sore neck or grumpiness are signs you need a break."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "When your player sleeps in this game, what button helps you stop?",
+			"answer": 0,
+			"hint": "Remember the lesson card about stopping at a good moment.",
+			"choices": [
+				"STOP FOR TODAY",
+				"PLAY FASTER",
+				"ONE MORE LEVEL",
+				"NEVER STOP"
+			],
+			"explain": "STOP FOR TODAY: when your player sleeps, the game offers it as a good moment to stop."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Every 20 minutes on a screen, you look far away for 20 seconds. How many seconds of looking far away is that in 1 hour?",
+			"answer": "60",
+			"hint": "First find how many lots of 20 minutes are in an hour.",
+			"explain": "1 hour is 60 minutes, and 60 ÷ 20 = 3 breaks. Each break is 20 seconds: 3 × 20 = 60 seconds, a whole minute of rest for your eyes."
+		}
+	],
+	"generators": []
+}

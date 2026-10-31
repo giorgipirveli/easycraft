@@ -1,0 +1,469 @@
+{
+	"id": "g8.music.sight_reading",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, how many sharps does G major's key signature have? (One: F sharp.) Today: sight-reading, playing music you have never seen before."
+		},
+		{
+			"text": "Before you play, read the key signature: which notes are sharp or flat. Read the time signature: the beats in a bar. Find the highest and lowest notes, and patterns that repeat.",
+			"picture": {
+				"kind": "key_signature",
+				"key": "G",
+				"notes": [
+					"G4",
+					"A4",
+					"B4",
+					"C5",
+					"D5",
+					"E5",
+					"F5",
+					"G5"
+				],
+				"names": true,
+				"title": true
+			}
+		},
+		{
+			"text": "Clap the rhythm first, counting the beats aloud. Then read the shape: does the melody step to the next note, leap, or repeat?",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"quavers",
+					"crotchet",
+					"rest"
+				],
+				"words": true
+			}
+		},
+		{
+			"text": "Worked example: in 3/4 time, a minim and a crotchet make 2 + 1 = 3 beats, a full bar. A dotted minim fills a bar alone.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"E4",
+					"G4",
+					"C5"
+				],
+				"values": [
+					"minim",
+					"crotchet",
+					"dotted minim"
+				],
+				"time": "3/4",
+				"bars": true
+			}
+		},
+		{
+			"text": "In G major every F is played as F sharp, even with no sign beside it. In F major every B is B flat. Check the key signature before every line.",
+			"picture": {
+				"kind": "key_signature",
+				"key": "F",
+				"names": true,
+				"notes": [
+					"F4",
+					"A4",
+					"B4",
+					"C5"
+				]
+			}
+		},
+		{
+			"text": "Keep going: a sight-reader never stops to fix a mistake. Keep the beat steady and pick up again in the next bar. Choose a slow tempo you can keep."
+		},
+		{
+			"text": "Look ahead: while you play one bar, your eyes are already reading the next. A little practice every day makes reading music quicker, just like reading words."
+		},
+		{
+			"text": "Try it in the world: sight-read a short tune each day on a keyboard or the game's Xylophone. Clap it, find the first note, set a slow beat and play it through. Next: composition project."
+		}
+	],
+	"exercises": [
+		{
+			"type": "rhythm",
+			"level": 1,
+			"prompt": "Read and clap this rhythm.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx---",
+				"tempo": 90
+			},
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"quavers",
+					"crotchet",
+					"rest"
+				]
+			},
+			"hint": "Say ta for a crotchet, ti-ti for quavers, and rest in silence.",
+			"explain": "Crotchet, quavers, crotchet, rest: claps in boxes 1, 3, 4 and 5, then silence."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In this key, which note is always played sharp?",
+			"choices": [
+				"F",
+				"C",
+				"G",
+				"B"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "key_signature",
+				"key": "G",
+				"title": true
+			},
+			"hint": "Look at the sign at the start of the stave.",
+			"explain": "The key signature of G major has one sharp, on the F line: every F is F sharp."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Listen: the tune you hear matches these notes.",
+			"answer": true,
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4"
+				],
+				"beat": 0.5
+			},
+			"hint": "Follow the notes with your eyes as you listen.",
+			"explain": "True: C, D, E, F and G step up, just as written."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many beats are in this bar?",
+			"answer": "4",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"E4",
+					"G4"
+				],
+				"values": [
+					"minim",
+					"crotchet",
+					"crotchet"
+				],
+				"time": "4/4"
+			},
+			"hint": "A minim is 2 beats; a crotchet is 1.",
+			"explain": "Minim 2 + crotchet 1 + crotchet 1 = 4 beats."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should a sight-reader do after a wrong note?",
+			"choices": [
+				"keep going with the beat",
+				"stop and start again",
+				"play faster to catch up",
+				"skip to the end"
+			],
+			"answer": 0,
+			"hint": "Think of the steady beat.",
+			"explain": "Keep the beat and carry on: one wrong note matters less than stopping."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Listen: the tune you hear matches these notes.",
+			"answer": false,
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"G4",
+					"E4",
+					"G4",
+					"C5"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"E4",
+					"A4",
+					"C5"
+				],
+				"beat": 0.5
+			},
+			"hint": "Follow each note: is one different?",
+			"explain": "False: the written tune goes G, E, G, C, but the third note played is A, not G."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "This tune has 3 bars of 3/4. How many beats is that in all?",
+			"answer": "9",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C5"
+				],
+				"values": [
+					"minim",
+					"crotchet",
+					"dotted minim",
+					"minim",
+					"crotchet"
+				],
+				"time": "3/4",
+				"bars": true
+			},
+			"hint": "Each bar has 3 beats.",
+			"explain": "3 bars × 3 beats = 9 beats."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In F major, which note is played flat?",
+			"choices": [
+				"B",
+				"E",
+				"F",
+				"C"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "key_signature",
+				"key": "F",
+				"title": true
+			},
+			"hint": "Look at the flat sign's line in the key signature.",
+			"explain": "F major has one flat, B flat: every B is played flat."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps before sight-reading.",
+			"items": [
+				"find the first note",
+				"read the time signature",
+				"set a slow, steady beat",
+				"clap the rhythm",
+				"read the key signature"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Look at the signs first, then the rhythm, then the notes.",
+			"explain": "Key signature, time signature, clap the rhythm, find the first note, then count in slowly."
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Read and clap this rhythm.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxx-xxx-",
+				"tempo": 90
+			},
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"quavers",
+					"crotchet",
+					"quavers",
+					"crotchet"
+				]
+			},
+			"hint": "Quavers are two claps in one beat.",
+			"explain": "Quavers, crotchet, quavers, crotchet: claps in boxes 1, 2, 3, 5, 6 and 7."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen and look. Which note is played wrong?",
+			"choices": [
+				"the third note",
+				"the first note",
+				"the last note"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"F4",
+					"F4",
+					"G4"
+				],
+				"beat": 0.5
+			},
+			"hint": "Point to each note as you hear it.",
+			"explain": "The third note is written E, but F is played."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many leaps (jumps bigger than a step) are in this tune?",
+			"answer": "3",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"E4",
+					"D4",
+					"G4",
+					"F4",
+					"C5"
+				]
+			},
+			"hint": "Check each pair of notes side by side: next door, or further?",
+			"explain": "C to E leaps, E to D steps, D to G leaps, G to F steps, F to C leaps: 3 leaps."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen: every F is played as F sharp, as G major's key signature says.",
+			"answer": true,
+			"picture": {
+				"kind": "key_signature",
+				"key": "G",
+				"notes": [
+					"D5",
+					"E5",
+					"F5",
+					"G5"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D5",
+					"E5",
+					"F#5",
+					"G5:2"
+				],
+				"beat": 0.45
+			},
+			"hint": "Listen to the F: is it a little higher than plain F?",
+			"explain": "True: the key signature makes every F an F sharp, and that is what is played."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A bar in 4/4 has a minim and a crotchet. What is missing to fill it?",
+			"choices": [
+				"one crotchet (1 beat)",
+				"a minim (2 beats)",
+				"a semibreve (4 beats)",
+				"nothing"
+			],
+			"answer": 0,
+			"hint": "Add up what is there, then take it from 4.",
+			"explain": "2 + 1 = 3 beats, and 4 − 3 = 1: one crotchet is missing."
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Read and clap this rhythm.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x---xxx-",
+				"tempo": 90
+			},
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"minim",
+					"quavers",
+					"crotchet"
+				]
+			},
+			"hint": "Hold the minim for two beats before the next claps.",
+			"explain": "Minim, quavers, crotchet: claps in boxes 1, 5, 6 and 7."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A step or a leap?",
+			"groups": [
+				"step",
+				"leap"
+			],
+			"items": [
+				"C to D",
+				"E to F",
+				"C to G",
+				"D to B",
+				"G to A"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Next-door letters are a step.",
+			"explain": "C to D, E to F and G to A are steps; C to G and D to B jump over notes: leaps."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.note_read",
+			"level": 1
+		},
+		{
+			"gen": "g8c.note_read",
+			"level": 2
+		},
+		{
+			"gen": "g8c.note_read",
+			"level": 3
+		},
+		{
+			"gen": "g8c.bar_check",
+			"level": 1
+		},
+		{
+			"gen": "g8c.bar_check",
+			"level": 2
+		},
+		{
+			"gen": "g8c.bar_check",
+			"level": 3
+		}
+	]
+}

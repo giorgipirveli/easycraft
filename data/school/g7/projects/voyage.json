@@ -1,0 +1,386 @@
+{
+	"id": "g7.projects.voyage",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you found places by latitude and longitude. Which comes first in a position? (Latitude: how far north or south.) In this project you plan, sail and log a voyage of exploration, like sailors of the 1400s and 1500s."
+		},
+		{
+			"text": "Step 1, plan the route. Choose ports and find their positions. Lisbon is at about 39°N 9°W and the Canary Islands at about 28°N 16°W. Cape Verde is at about 15°N 23°W. Draw the route on a map.",
+			"picture": {
+				"kind": "voyage_map",
+				"window": {
+					"lat": [
+						0,
+						45
+					],
+					"long": [
+						-40,
+						0
+					]
+				},
+				"lat_step": 15,
+				"long_step": 15,
+				"routes": [
+					{
+						"name": "our voyage",
+						"points": [
+							[
+								39,
+								-9
+							],
+							[
+								28,
+								-16
+							],
+							[
+								15,
+								-23
+							]
+						]
+					}
+				],
+				"places": [
+					{
+						"lat": 39,
+						"long": -9,
+						"label": "Lisbon"
+					},
+					{
+						"lat": 28,
+						"long": -16,
+						"label": "Canary Is."
+					},
+					{
+						"lat": 15,
+						"long": -23,
+						"label": "Cape Verde"
+					}
+				]
+			}
+		},
+		{
+			"text": "Step 2, the distance. At sea it is measured in nautical miles; 1 degree of latitude is 60 nautical miles. Lisbon to the Canaries is 11 degrees south: 11 × 60 = 660 nautical miles, a little more as the route bends west."
+		},
+		{
+			"text": "Step 3, speed and time. Speed at sea is in knots: nautical miles an hour. Sailors counted the knots on a rope that ran out while a sand glass ran. A caravel at 5 knots sails 5 × 24 = 120 nautical miles a day."
+		},
+		{
+			"text": "Step 4, supplies: count the crew and the days, and add extra for storms. Our plan: 3 litres of water a sailor a day, so 20 sailors for 15 days need 20 × 15 × 3 = 900 litres. Fresh fruit prevents scurvy.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"supply",
+						"a sailor a day",
+						"20 sailors, 15 days"
+					],
+					[
+						"water",
+						"3 litres",
+						"900 litres"
+					],
+					[
+						"biscuits",
+						"4",
+						"1,200"
+					],
+					[
+						"fruit",
+						"1",
+						"300"
+					]
+				]
+			}
+		},
+		{
+			"text": "Step 5, navigate. A compass gives the direction; the Pole Star's height above the horizon gives your latitude; speed × time gives the distance sailed: dead reckoning. Mark your position on the chart each day.",
+			"picture": {
+				"kind": "pole_star",
+				"angle": 28,
+				"labels": true
+			}
+		},
+		{
+			"text": "Step 6, keep a log and present it: each day's date, position, course, speed, weather and events, as explorers did. Remember that the coasts they reached were already home to people. Show your route, log and supplies.",
+			"picture": {
+				"kind": "compass",
+				"points": 8,
+				"bearing": 225,
+				"degrees": true
+			}
+		},
+		{
+			"text": "Try it in the world: build a caravel and sail it between two islands, logging each day. In LIFE, the Tool Book shows how to hold a compass and keep it away from magnets. Next: an eco-district."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A ship sails at 6 knots for 10 hours. How many nautical miles does it sail?",
+			"answer": "60",
+			"hint": "Distance = speed × time.",
+			"explain": "6 × 10 = 60 nautical miles."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a knot, at sea?",
+			"choices": [
+				"one nautical mile an hour",
+				"just a piece of rope",
+				"one kilometre",
+				"a minute at sea"
+			],
+			"answer": 0,
+			"hint": "It measures a ship's speed.",
+			"explain": "A knot is a speed: one nautical mile an hour."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "One degree of latitude is about 60 nautical miles.",
+			"answer": true,
+			"hint": "Think of the rule for distance on a chart.",
+			"explain": "True: each degree north or south is about 60 nautical miles."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the voyage project in order.",
+			"items": [
+				"present the voyage",
+				"pack the supplies",
+				"plan the route",
+				"work out distance and time",
+				"sail and keep a log"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				4,
+				0
+			],
+			"hint": "Plan before you pack, sail before you present.",
+			"explain": "Plan the route, the distance and time, the supplies, sail with a log, then present."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each tool to its job.",
+			"items": [
+				"compass",
+				"Pole Star",
+				"log line",
+				"logbook"
+			],
+			"matches": [
+				"records each day",
+				"measures the speed",
+				"gives the direction",
+				"gives the latitude"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Which tells you which way, how far north, how fast, and what happened?",
+			"explain": "Compass: direction. Pole Star: latitude. Log line: speed. Logbook: each day's record."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "The ship's hold is a rectangle. Build it with an area of 18 squares and a perimeter of 18.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 3,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 18,
+				"perimeter": 18
+			},
+			"hint": "Which two numbers multiply to 18 and add up to 9?",
+			"explain": "6 by 3: 6 × 3 = 18 squares, and 6 + 3 + 6 + 3 = 18."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A caravel sails at 5 knots, day and night. How many nautical miles does it sail in one day?",
+			"answer": "120",
+			"hint": "A day has 24 hours.",
+			"explain": "5 × 24 = 120 nautical miles."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "20 sailors sail for 12 days. Each needs 3 litres of water a day. How many litres must go on board?",
+			"answer": "720",
+			"hint": "Multiply the sailors, the days and the litres.",
+			"explain": "20 × 12 = 240 sailor-days, and 240 × 3 = 720 litres."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "On the map, which port is furthest north?",
+			"choices": [
+				"Lisbon",
+				"the Canary Islands",
+				"Cape Verde"
+			],
+			"answer": 0,
+			"hint": "The bigger the latitude north, the further north.",
+			"explain": "Lisbon, at about 39°N, is furthest north.",
+			"picture": {
+				"kind": "voyage_map",
+				"window": {
+					"lat": [
+						0,
+						45
+					],
+					"long": [
+						-40,
+						0
+					]
+				},
+				"lat_step": 15,
+				"long_step": 15,
+				"places": [
+					{
+						"lat": 39,
+						"long": -9,
+						"label": "Lisbon"
+					},
+					{
+						"lat": 28,
+						"long": -16,
+						"label": "Canary Is."
+					},
+					{
+						"lat": 15,
+						"long": -23,
+						"label": "Cape Verde"
+					}
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Dead reckoning works out your position from speed, time and direction.",
+			"answer": true,
+			"hint": "How did sailors know where they were without a satellite?",
+			"explain": "True: speed × time gives the distance, and the compass the direction, from the last known position."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Lisbon is at 39°N and Cape Verde at 15°N. How many degrees of latitude apart are they?",
+			"answer": "24",
+			"hint": "Both are north, so subtract.",
+			"explain": "39 − 15 = 24 degrees."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Plymouth is at 50°N and Recife at 8°S. How many nautical miles apart are their latitudes?",
+			"answer": "3480",
+			"hint": "Across the Equator, add the two latitudes; then × 60.",
+			"explain": "50 + 8 = 58 degrees, and 58 × 60 = 3,480 nautical miles."
+		},
+		{
+			"type": "build",
+			"level": 3,
+			"prompt": "The hold has room for 8 barrels. Fill 3/4 of it with water barrels.",
+			"board": {
+				"cols": 8,
+				"rows": 1,
+				"block": 9,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "fraction",
+				"num": 3,
+				"den": 4
+			},
+			"hint": "How many barrels is 1/4 of 8? Then take three of them.",
+			"explain": "1/4 of 8 is 2, so 3/4 is 6 barrels."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A voyage is 1,200 nautical miles at 5 knots, sailing day and night. How many days does it take?",
+			"answer": "10",
+			"hint": "Find the distance sailed in a day first.",
+			"explain": "5 × 24 = 120 a day, and 1,200 ÷ 120 = 10 days."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A sailor measures the Pole Star at this angle. What is the ship's latitude?",
+			"choices": [
+				"15°N",
+				"15°S",
+				"75°N",
+				"0°"
+			],
+			"answer": 0,
+			"hint": "In the northern hemisphere, the Pole Star's height is your latitude.",
+			"explain": "15° above the horizon: the ship is at about 15°N.",
+			"picture": {
+				"kind": "pole_star",
+				"angle": 15,
+				"labels": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The coasts the explorers reached were empty, with nobody living there.",
+			"answer": false,
+			"hint": "Who met Columbus's ships in the Bahamas?",
+			"explain": "False: almost every coast was already home to people, like the Taino in the Bahamas."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The plan needs 900 litres of water, plus a fifth extra for storms. How many litres in all?",
+			"answer": "1080",
+			"hint": "Find a fifth (divide by 5), then add it.",
+			"explain": "900 ÷ 5 = 180, and 900 + 180 = 1,080 litres."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.sea_distance",
+			"level": 1
+		},
+		{
+			"gen": "g7w.sea_distance",
+			"level": 2
+		},
+		{
+			"gen": "g7w.sea_distance",
+			"level": 3
+		},
+		{
+			"gen": "g7w.voyage_supplies",
+			"level": 1
+		},
+		{
+			"gen": "g7w.voyage_supplies",
+			"level": 2
+		},
+		{
+			"gen": "g7w.voyage_supplies",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,116 @@
+# EasyCraft: HTTPS in front of Nakama (docs/hosting.md). docker-compose.yml mounts this file.
+#
+# Caddy gets the certificate for EASYCRAFT_DOMAIN from Let's Encrypt by itself (it needs ports 80
+# and 443 open and the domain pointing at this server), renews it before it runs out, and sends
+# http:// visitors to https://. For "localhost" it makes its own local certificate instead
+# (local-try.yml, for trying the kit on a PC).
+{
+	# The game speaks HTTP/1.1 and WebSocket over TCP: no HTTP/3, so 443/udp stays closed.
+	servers {
+		protocols h1 h2
+	}
+
+	# Caddy's own log goes to Docker, which keeps it by size, not by age (docker-compose.yml): so it
+	# never names a player's address, and never holds a session token (the game's socket sends it in
+	# the address) or the server's HTTP key. Addresses are only in the access log below.
+	log default {
+		output stdout
+		format filter {
+			request>remote_ip delete
+			request>remote_port delete
+			request>client_ip delete
+			request>headers delete
+			request>uri query {
+				delete token
+				delete http_key
+			}
+			wrap json
+		}
+	}
+}
+
+{$EASYCRAFT_DOMAIN} {
+	# The game's public pages, which Google Play links to (owner feedback #46; tools/make_store_pages.py):
+	# the privacy policy and how to delete an online account. Static files from site/, nothing else.
+	# Owner #89: /tv/, EasyCraft TV's player page for Safari and Firefox (site/tv/index.html; the game opens it in a
+	# tab: YouTube's player can't show inside the game's cross-origin-isolated page there), without the thread headers.
+	@pages path /privacy /privacy/ /delete-account /delete-account/ /tv /tv/
+	handle @pages {
+		root * /srv/site
+		try_files {path}/index.html {path}index.html
+		file_server
+	}
+
+	# The game in the browser (M7, spec §20): the web export in play/ (tools/deploy_web.sh copies it
+	# there; it is not in git). Its threads need a cross-origin-isolated page, so everything under /play/
+	# carries COOP/COEP. The big files go up already compressed (.br, .gz) and are sent that way.
+	redir /play /play/ 308
+	handle_path /play/* {
+		root * /srv/play
+		header {
+			Cross-Origin-Opener-Policy "same-origin"
+			Cross-Origin-Embedder-Policy "require-corp"
+			Cross-Origin-Resource-Policy "same-origin"
+			Cache-Control "no-cache"
+		}
+		file_server {
+			precompressed br gzip
+		}
+	}
+
+	# Owner #101: the game in a VR headset's browser (the Meta Quest's): the "Web VR" export in vr/ (tools/export_web_vr.sh,
+	# tools/deploy_web_vr.sh; not in git), beside /play/ and outside its service worker's scope, with the same thread
+	# headers. A top-level page may use the headset (xr-spatial-tracking) by default; it is said here too.
+	redir /vr /vr/ 308
+	handle_path /vr/* {
+		root * /srv/vr
+		header {
+			Cross-Origin-Opener-Policy "same-origin"
+			Cross-Origin-Embedder-Policy "require-corp"
+			Cross-Origin-Resource-Policy "same-origin"
+			Permissions-Policy "xr-spatial-tracking=(self)"
+			Cache-Control "no-cache"
+		}
+		file_server {
+			precompressed br gzip
+		}
+	}
+
+	# Everything else goes to Nakama's port 7350: sign-in, RPCs and the realtime socket (/ws). The
+	# socket's WebSocket upgrade passes through reverse_proxy as it is, so the game's wss:// works.
+	handle {
+		reverse_proxy nakama:7350 {
+			# A config reload keeps open game sockets for up to 5 minutes instead of cutting every
+			# player off at once.
+			stream_close_delay 5m
+		}
+	}
+
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		-Server
+	}
+
+	# The access log (M4 Task 8b): who connected from which address, for security only (tracing
+	# abuse), in its own file on the caddy_logs volume. A new file every midnight (UTC), even when
+	# nobody connects; rolled files are deleted after 12 days, at the next midnight's roll: no line is
+	# older than 14 days (docs/store/data-retention-and-security.md). No headers (a device's details),
+	# and the session token and HTTP key are cut out of the address.
+	log {
+		output file /var/log/caddy/access.log {
+			roll_at 00:00
+			roll_keep_for 288h
+			roll_keep 30
+			roll_size 50MiB
+		}
+		format filter {
+			request>headers delete
+			resp_headers delete
+			request>uri query {
+				delete token
+				delete http_key
+			}
+			wrap json
+		}
+	}
+}

@@ -1,0 +1,322 @@
+{
+	"id": "g8.citizenship.life_budget",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you made a budget. Which comes first: needs, wants or saving? (Needs, then saving, then wants.) Today: a grown-up's monthly budget: pay, bills, saving and fun."
+		},
+		{
+			"text": "Gross pay is what you earn; net, or take-home, pay is what is left after tax and other deductions. A payslip shows both. A budget plans what the take-home pay will do each month, before it is spent."
+		},
+		{
+			"text": "Some costs are fixed, the same every month: rent, a phone contract, a bus pass. Others are variable and change: food, electricity, clothes, fun. Fixed costs come first; variable costs are where you can save.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"item",
+						"gold"
+					],
+					[
+						"rent",
+						"800"
+					],
+					[
+						"food",
+						"300"
+					],
+					[
+						"bills",
+						"200"
+					],
+					[
+						"costs",
+						"=SUM(B2:B4)"
+					],
+					[
+						"pay",
+						"2000"
+					],
+					[
+						"left",
+						"=B6-B5"
+					]
+				],
+				"mark": "B7"
+			}
+		},
+		{
+			"text": "One simple plan is the 50/30/20 rule: about 50% of take-home pay for needs, 30% for wants and 20% for saving. On 2,000 gold, that is 1,000 for needs, 600 for wants and 400 saved.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"needs",
+						5
+					],
+					[
+						"wants",
+						3
+					],
+					[
+						"saving",
+						2
+					]
+				],
+				"whole": 10,
+				"key": true
+			}
+		},
+		{
+			"text": "Pay yourself first: move your saving out on payday, before spending. Build an emergency fund of a few months' needs for surprises. Save for goals: divide the price by the months to find each month's amount."
+		},
+		{
+			"text": "Track spending for a month: small things add up. A drink of 3 gold every school day is about 60 gold a month. Compare prices, plan meals, and wait a day before buying wants. A spreadsheet can help."
+		},
+		{
+			"text": "If costs are more than income, the budget does not balance. Fix it early: cut wants, find cheaper deals, or earn more; don't borrow to pay everyday bills. If money worries grow, talk to a trusted adult or a free advice service."
+		},
+		{
+			"text": "Try it in the world: run My Money Stall in Life for a week of game days. Plan its budget first: stock, saving and a little fun. Did it balance? Next: credit and debt."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is take-home pay?",
+			"choices": [
+				"pay after tax and deductions",
+				"a loan",
+				"a bonus",
+				"pay before tax"
+			],
+			"answer": 0,
+			"hint": "It is what you actually take home to spend.",
+			"explain": "Take-home, or net, pay is what is left after tax and other deductions."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Pay is 2,000 gold a month. Rent is 800, food 300 and bills 200. How much is left?",
+			"answer": "700",
+			"hint": "Add up the costs, then take them from the pay.",
+			"explain": "800 + 300 + 200 = 1,300; 2,000 − 1,300 = 700 gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Rent is usually a fixed cost.",
+			"answer": true,
+			"hint": "Is it the same every month?",
+			"explain": "True: rent stays the same each month."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In the 50/30/20 rule, what is the 20% for?",
+			"choices": [
+				"taxes",
+				"needs",
+				"wants",
+				"saving"
+			],
+			"answer": 3,
+			"hint": "It is the part kept for later and for surprises.",
+			"explain": "Saving: 20% of take-home pay."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: needs or wants?",
+			"groups": [
+				"need",
+				"want"
+			],
+			"items": [
+				"takeaway meals",
+				"rent",
+				"cinema trips",
+				"food shopping",
+				"a new games console",
+				"electricity"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Could you live safely without it?",
+			"explain": "Needs: rent, food shopping, electricity. Wants: cinema trips, a games console, takeaways."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Take-home pay is 2,500 gold. Using the 50/30/20 rule, how much goes to wants?",
+			"answer": "750",
+			"hint": "Find 10%, then multiply by 3.",
+			"explain": "10% of 2,500 is 250; 30% is 750 gold."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"gross pay",
+				"net pay",
+				"fixed cost",
+				"variable cost"
+			],
+			"matches": [
+				"pay after deductions",
+				"the same each month",
+				"changes month to month",
+				"pay before deductions"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Before or after deductions; steady or changing.",
+			"explain": "Gross: before deductions. Net: after. Fixed: the same each month. Variable: it changes."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a good payday plan in order.",
+			"items": [
+				"move saving out first",
+				"pay the bills",
+				"spend what is left on fun",
+				"get paid",
+				"buy food and needs"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				4,
+				2
+			],
+			"hint": "Pay yourself first, then the musts, then the fun.",
+			"explain": "Get paid, save first, pay bills, buy needs, then spend what is left."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A drink costs 3 gold each school day. How much is that over 20 school days?",
+			"answer": "60",
+			"hint": "Multiply the cost by the days.",
+			"explain": "3 × 20 = 60 gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "An emergency fund is for planned holidays.",
+			"answer": false,
+			"hint": "Think of what 'emergency' means.",
+			"explain": "False: it is for surprises, such as a broken boiler or a lost job."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Costs are more than income. What is the best first step?",
+			"choices": [
+				"borrow to pay bills",
+				"ignore it",
+				"stop paying rent",
+				"cut wants and look for cheaper deals"
+			],
+			"answer": 3,
+			"hint": "Change what you can control first.",
+			"explain": "Cut wants and find cheaper deals; borrowing for everyday bills makes the gap bigger."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "You want a bike costing 840 gold and can save 70 gold a month. How many months will it take?",
+			"answer": "12",
+			"hint": "Divide the price by the saving each month.",
+			"explain": "840 ÷ 70 = 12 months."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why 'pay yourself first' on payday?",
+			"choices": [
+				"it avoids tax",
+				"saving happens before money is spent",
+				"it costs less",
+				"the bank asks you to"
+			],
+			"answer": 1,
+			"hint": "Think what happens to money left until the end of the month.",
+			"explain": "Saving first means it really happens, instead of hoping something is left at the end."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: a good budget habit, or a risky one?",
+			"groups": [
+				"good habit",
+				"risky"
+			],
+			"items": [
+				"ignoring bills",
+				"tracking spending for a month",
+				"waiting a day before buying wants",
+				"borrowing to pay the rent",
+				"keeping an emergency fund",
+				"spending all of payday at once"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it help the budget balance, or make trouble later?",
+			"explain": "Good: tracking, waiting a day, an emergency fund. Risky: borrowing for rent, ignoring bills, spending it all at once."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If money worries grow, it helps to talk to a trusted adult or a free advice service.",
+			"answer": true,
+			"hint": "Problems are easier to solve early, with help.",
+			"explain": "True: free advice services help people plan and solve money problems."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.monthly_budget",
+			"level": 1
+		},
+		{
+			"gen": "g8h.monthly_budget",
+			"level": 2
+		},
+		{
+			"gen": "g8h.monthly_budget",
+			"level": 3
+		},
+		{
+			"gen": "g8h.fixed_variable",
+			"level": 1
+		},
+		{
+			"gen": "g8h.fixed_variable",
+			"level": 2
+		},
+		{
+			"gen": "g8h.fixed_variable",
+			"level": 3
+		}
+	]
+}

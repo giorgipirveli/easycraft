@@ -1,0 +1,437 @@
+{
+	"id": "gold_prospecting",
+	"title": "How gold is found",
+	"topic": "science",
+	"link": {"unit": "g7.science.resources"},
+	"still": 37,
+	"stage": {
+		"sky": {"top": "#3a7be8", "horizon": "#cdeeff", "bottom": "#8fb86a"},
+		"light": "day",
+		"sun": [0.45, 0.8, 0.45],
+		"models": [
+			{
+				"id": "land",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [
+					{"box": [-12, -4, -12, 12, -4, 7], "block": "STONE"},
+					{"box": [-12, -3, -12, 12, -2, 7], "block": "DIRT"},
+					{"box": [-12, -1, -12, 12, -1, 7], "block": "GRASS"},
+					{"disc": [-4, 0, -7, 8.5], "block": "GRASS"},
+					{"disc": [-4, 0, -7, 7.3], "block": "STONE"},
+					{"disc": [-4, 1, -7, 7.645], "block": "GRASS"},
+					{"disc": [-4, 1, -7, 6.445], "block": "STONE"},
+					{"disc": [-4, 2, -7, 6.779], "block": "STONE"},
+					{"disc": [-4, 3, -7, 5.901], "block": "STONE"},
+					{"disc": [-4, 4, -7, 5.008], "block": "STONE"},
+					{"disc": [-4, 5, -7, 4.097], "block": "STONE"},
+					{"disc": [-4, 6, -7, 3.162], "block": "STONE"},
+					{"disc": [-4, 7, -7, 2.195], "block": "STONE"},
+					{"disc": [-4, 8, -7, 1.177], "block": "STONE"},
+					{"box": [-12, 0, -2, 12, 9, 7], "block": "AIR"},
+					{"box": [-2, -2, -2, -2, -1, -2], "block": "WATER"},
+					{"box": [-2, -2, -1, -2, -1, -1], "block": "WATER"},
+					{"box": [-1, -2, -1, -1, -1, -1], "block": "WATER"},
+					{"box": [-1, -2, 0, -1, -1, 0], "block": "WATER"},
+					{"box": [0, -2, 0, 0, -1, 0], "block": "WATER"},
+					{"box": [0, -2, 1, 0, -1, 1], "block": "WATER"},
+					{"box": [1, -2, 0, 1, -1, 0], "block": "WATER"},
+					{"box": [1, -2, 1, 1, -1, 1], "block": "WATER"},
+					{"box": [2, -2, 1, 2, -2, 1], "block": "GOLD_GRAVEL"},
+					{"box": [2, -1, 1, 2, -1, 1], "block": "WATER"},
+					{"box": [2, -2, 2, 2, -2, 2], "block": "GOLD_GRAVEL"},
+					{"box": [2, -1, 2, 2, -1, 2], "block": "WATER"},
+					{"box": [3, -2, 1, 3, -2, 1], "block": "GOLD_GRAVEL"},
+					{"box": [3, -1, 1, 3, -1, 1], "block": "WATER"},
+					{"box": [3, -2, 2, 3, -2, 2], "block": "GOLD_GRAVEL"},
+					{"box": [3, -1, 2, 3, -1, 2], "block": "WATER"},
+					{"box": [4, -2, 2, 4, -2, 2], "block": "GOLD_GRAVEL"},
+					{"box": [4, -1, 2, 4, -1, 2], "block": "WATER"},
+					{"box": [4, -2, 3, 4, -2, 3], "block": "GOLD_GRAVEL"},
+					{"box": [4, -1, 3, 4, -1, 3], "block": "WATER"},
+					{"box": [5, -2, 3, 5, -2, 3], "block": "GOLD_GRAVEL"},
+					{"box": [5, -1, 3, 5, -1, 3], "block": "WATER"},
+					{"box": [5, -2, 4, 5, -2, 4], "block": "GOLD_GRAVEL"},
+					{"box": [5, -1, 4, 5, -1, 4], "block": "WATER"},
+					{"box": [6, -2, 4, 6, -1, 4], "block": "WATER"},
+					{"box": [6, -2, 5, 6, -1, 5], "block": "WATER"},
+					{"box": [7, -2, 4, 7, -1, 4], "block": "WATER"},
+					{"box": [7, -2, 5, 7, -1, 5], "block": "WATER"},
+					{"box": [8, -2, 5, 8, -1, 5], "block": "WATER"},
+					{"box": [8, -2, 6, 8, -1, 6], "block": "WATER"},
+					{"box": [9, -2, 6, 9, -1, 6], "block": "WATER"},
+					{"box": [9, -2, 7, 9, -1, 7], "block": "WATER"},
+					{"box": [10, -2, 6, 10, -1, 6], "block": "WATER"},
+					{"box": [10, -2, 7, 10, -1, 7], "block": "WATER"},
+					{"box": [3, -1, 3, 3, -1, 3], "block": "GOLD_GRAVEL"},
+					{"box": [5, -1, 1, 5, -1, 1], "block": "GOLD_GRAVEL"},
+					{"box": [4, -1, 1, 4, -1, 1], "block": "GOLD_GRAVEL"},
+					{"cylinder": [8, 0, -3, 0.3, 3], "block": "LOG"},
+					{"ball": [8, 4, -3, 1.6], "block": "LEAVES"},
+					{"cylinder": [10, 0, 1, 0.3, 3], "block": "LOG"},
+					{"ball": [10, 4, 1, 1.6], "block": "LEAVES"},
+					{"cylinder": [-9, 0, 3, 0.3, 3], "block": "LOG"},
+					{"ball": [-9, 4, 3, 1.6], "block": "LEAVES"}
+				]
+			},
+			{
+				"id": "vein",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"cells": [
+					[-5, 0, -6, "GOLD_QUARTZ"],
+					[-5, 0, -5, "GOLD_QUARTZ"],
+					[-5, 0, -4, "GOLD_QUARTZ"],
+					[-5, 0, -3, "GOLD_QUARTZ"],
+					[-4, 0, -6, "GOLD_QUARTZ"],
+					[-4, 0, -5, "GOLD_QUARTZ"],
+					[-4, 0, -4, "GOLD_QUARTZ"],
+					[-4, 0, -3, "GOLD_QUARTZ"],
+					[-4, 1, -6, "GOLD_QUARTZ"],
+					[-4, 1, -5, "GOLD_QUARTZ"],
+					[-4, 1, -4, "GOLD_QUARTZ"],
+					[-4, 1, -3, "GOLD_QUARTZ"],
+					[-3, 1, -6, "GOLD_QUARTZ"],
+					[-3, 1, -5, "GOLD_QUARTZ"],
+					[-3, 1, -4, "GOLD_QUARTZ"],
+					[-3, 1, -3, "GOLD_QUARTZ"],
+					[-4, 2, -6, "GOLD_QUARTZ"],
+					[-4, 2, -5, "GOLD_QUARTZ"],
+					[-4, 2, -4, "GOLD_QUARTZ"],
+					[-4, 2, -3, "GOLD_QUARTZ"],
+					[-3, 2, -6, "GOLD_QUARTZ"],
+					[-3, 2, -5, "GOLD_QUARTZ"],
+					[-3, 2, -4, "GOLD_QUARTZ"],
+					[-3, 2, -3, "GOLD_QUARTZ"],
+					[-3, 3, -6, "GOLD_QUARTZ"],
+					[-3, 3, -5, "GOLD_QUARTZ"],
+					[-3, 3, -4, "GOLD_QUARTZ"],
+					[-3, 3, -3, "GOLD_QUARTZ"],
+					[-2, 3, -6, "GOLD_QUARTZ"],
+					[-2, 3, -5, "GOLD_QUARTZ"],
+					[-2, 3, -4, "GOLD_QUARTZ"],
+					[-2, 3, -3, "GOLD_QUARTZ"],
+					[-2, 4, -6, "GOLD_QUARTZ"],
+					[-2, 4, -5, "GOLD_QUARTZ"],
+					[-2, 4, -4, "GOLD_QUARTZ"],
+					[-2, 4, -3, "GOLD_QUARTZ"],
+					[-1, 4, -6, "GOLD_QUARTZ"],
+					[-1, 4, -5, "GOLD_QUARTZ"],
+					[-1, 4, -4, "GOLD_QUARTZ"],
+					[-1, 4, -3, "GOLD_QUARTZ"],
+					[-1, 5, -6, "GOLD_QUARTZ"],
+					[-1, 5, -5, "GOLD_QUARTZ"],
+					[-1, 5, -4, "GOLD_QUARTZ"],
+					[0, 5, -6, "GOLD_QUARTZ"],
+					[-1, 6, -6, "GOLD_QUARTZ"]
+				]
+			},
+			{
+				"id": "flake",
+				"model": "mark",
+				"at": [-1.8, 0.15, -1.2],
+				"moves": [
+					{"do": "appear", "at": 11},
+					{"do": "move", "at": 11, "dur": 1.6, "to": [0.5, 0.15, 0.6], "ease": "smooth"},
+					{"do": "move", "at": 12.6, "dur": 1.6, "to": [2.6, 0.15, 1.6], "ease": "smooth"},
+					{"do": "move", "at": 14.2, "dur": 1.6, "to": [4.6, 0.15, 2.8], "ease": "smooth"},
+					{"do": "move", "at": 15.8, "dur": 1.6, "to": [7, 0.15, 4.6], "ease": "smooth"},
+					{"do": "move", "at": 17.4, "dur": 1.6, "to": [10, 0.15, 6.4], "ease": "smooth"}
+				]
+			},
+			{
+				"id": "pebble0",
+				"model": "blocks",
+				"at": [-2.6, 5, -2.2],
+				"cells": [[0, 0, 0, "STONE"]],
+				"size": 0.4,
+				"moves": [
+					{"do": "pop", "at": 10.4},
+					{"do": "move", "at": 10.7, "dur": 0.8, "to": [-2.2, 0.2, -1.4], "ease": "smooth"},
+					{"do": "out", "at": 20}
+				]
+			},
+			{
+				"id": "pebble1",
+				"model": "blocks",
+				"at": [-1.4, 3.4, -2.2],
+				"cells": [[0, 0, 0, "STONE"]],
+				"size": 0.4,
+				"moves": [
+					{"do": "pop", "at": 10.9},
+					{"do": "move", "at": 11.2, "dur": 0.8, "to": [-1, 0.2, -1.4], "ease": "smooth"},
+					{"do": "out", "at": 20}
+				]
+			},
+			{
+				"id": "gold0",
+				"model": "blocks",
+				"at": [2.8, 0.3, 1.5],
+				"cells": [[0, 0, 0, "GOLD_LAMP"]],
+				"size": 0.3,
+				"moves": [
+					{"do": "pop", "at": 21},
+					{"do": "move", "at": 21.3, "dur": 1.6, "to": [3.1, -1, 1.7], "ease": "smooth"},
+					{"do": "out", "at": 30}
+				]
+			},
+			{
+				"id": "gold1",
+				"model": "blocks",
+				"at": [3.4, 0.3, 1.8],
+				"cells": [[0, 0, 0, "GOLD_LAMP"]],
+				"size": 0.3,
+				"moves": [
+					{"do": "pop", "at": 21.7},
+					{"do": "move", "at": 22, "dur": 1.6, "to": [3.7, -1, 2], "ease": "smooth"},
+					{"do": "out", "at": 30}
+				]
+			},
+			{
+				"id": "gold2",
+				"model": "blocks",
+				"at": [4, 0.3, 2.1],
+				"cells": [[0, 0, 0, "GOLD_LAMP"]],
+				"size": 0.3,
+				"moves": [
+					{"do": "pop", "at": 22.4},
+					{"do": "move", "at": 22.7, "dur": 1.6, "to": [4.3, -1, 2.3], "ease": "smooth"},
+					{"do": "out", "at": 30}
+				]
+			},
+			{
+				"id": "sand0",
+				"model": "blocks",
+				"at": [2.8, 0.3, 1.3],
+				"cells": [[0, 0, 0, "SAND"]],
+				"size": 0.28,
+				"moves": [
+					{"do": "pop", "at": 21.3},
+					{"do": "move", "at": 21.6, "dur": 2, "to": [5.4, -0.4, 2.8], "ease": "smooth"},
+					{"do": "move", "at": 23.6, "dur": 2, "to": [7.6, -0.4, 4.4], "ease": "smooth"},
+					{"do": "out", "at": 30}
+				]
+			},
+			{
+				"id": "sand1",
+				"model": "blocks",
+				"at": [3.4, 0.3, 1.6],
+				"cells": [[0, 0, 0, "SAND"]],
+				"size": 0.28,
+				"moves": [
+					{"do": "pop", "at": 22},
+					{"do": "move", "at": 22.3, "dur": 2, "to": [5.7, -0.4, 2.8], "ease": "smooth"},
+					{"do": "move", "at": 24.3, "dur": 2, "to": [8, -0.4, 4.4], "ease": "smooth"},
+					{"do": "out", "at": 30}
+				]
+			},
+			{
+				"id": "sand2",
+				"model": "blocks",
+				"at": [4, 0.3, 1.9],
+				"cells": [[0, 0, 0, "SAND"]],
+				"size": 0.28,
+				"moves": [
+					{"do": "pop", "at": 22.7},
+					{"do": "move", "at": 23, "dur": 2, "to": [6, -0.4, 2.8], "ease": "smooth"},
+					{"do": "move", "at": 25, "dur": 2, "to": [8.4, -0.4, 4.4], "ease": "smooth"},
+					{"do": "out", "at": 30}
+				]
+			},
+			{
+				"id": "me",
+				"model": "avatar",
+				"at": [5.4, 0, 0.4],
+				"look": "explorer",
+				"turn": [0, 200, 0],
+				"moves": [
+					{"do": "emote", "at": 38, "emote": "cheer"},
+					{"do": "move", "at": 41, "dur": 6, "to": [-0.8, 0, -1.4], "ease": "smooth"},
+					{"do": "legs", "at": 41, "dur": 6},
+					{"do": "turn", "at": 40.4, "dur": 0.6, "to": [0, 60, 0]},
+					{"do": "emote", "at": 47.4, "emote": "think"}
+				]
+			},
+			{
+				"id": "pan",
+				"model": "blocks",
+				"at": [0, 0.95, -0.55],
+				"on": "me",
+				"fill": [
+					{"cylinder": [0, 0, 0, 3.2, 1], "block": "PAINTED_SILVER"},
+					{"cylinder": [0, 1, 0, 3.2, 1], "block": "PAINTED_SILVER"},
+					{"cylinder": [0, 1, 0, 2.2, 1], "block": "AIR"}
+				],
+				"size": 0.11,
+				"moves": [
+					{"do": "pop", "at": 30.6},
+					{"do": "spin", "at": 31, "dur": 6, "turns": 5, "ease": "smooth"},
+					{"do": "out", "at": 40.6}
+				]
+			},
+			{"id": "pan_mark", "model": "mark", "at": [0, 1.1, -0.55], "on": "me"}
+		],
+		"effects": [
+			{
+				"kind": "sparkles",
+				"at": [-3, 4, -2.4],
+				"from": 0,
+				"to": 20,
+				"size": 1,
+				"area": [4, 1],
+				"amount": 40,
+				"color": "#ffe27a"
+			},
+			{"kind": "sparkles", "at": [3.7, 0.15, 2], "from": 22.6, "to": 30, "size": 0.45, "amount": 30},
+			{"kind": "sparkles", "on": "flake", "from": 11, "to": 19, "size": 0.7, "amount": 50, "color": "#ffd23a"},
+			{
+				"kind": "billow",
+				"on": "pan_mark",
+				"from": 31,
+				"to": 37,
+				"size": 0.07,
+				"speed": 0.6,
+				"amount": 40,
+				"color": "#8cd0ff"
+			},
+			{
+				"kind": "dust",
+				"on": "pan_mark",
+				"from": 31.2,
+				"to": 36.5,
+				"size": 0.08,
+				"amount": 30,
+				"color": "#e4cf9c"
+			},
+			{"kind": "sparkles", "on": "pan_mark", "from": 36.6, "to": 40.6, "size": 0.25, "amount": 24},
+			{
+				"kind": "sparkles",
+				"at": [-3, 4, -2.4],
+				"from": 45,
+				"to": 50,
+				"size": 1.2,
+				"area": [4, 1],
+				"amount": 50,
+				"color": "#ffe27a"
+			}
+		],
+		"camera": [
+			{"at": 0, "pos": [1.5, 4, 9], "look": [-3.5, 3.4, -3], "fov": 50},
+			{"at": 9.95, "pos": [0.5, 4.4, 8.2], "look": [-3.5, 3.4, -3], "fov": 50},
+			{"at": 10, "pos": [11, 9, 15], "look": [1.5, 0, 1], "fov": 50, "cut": true},
+			{"at": 19.95, "pos": [12, 8, 13], "look": [3, 0, 2], "fov": 50},
+			{"at": 20, "pos": [4.6, 3.6, 4.8], "look": [3.7, -1, 2.2], "fov": 45, "cut": true},
+			{"at": 29.95, "pos": [4.4, 3.3, 4.4], "look": [3.7, -1, 2.2], "fov": 45},
+			{"at": 30, "pos": [4.4, 2.2, 5], "look": [5.4, 1, 0.4], "fov": 45, "cut": true},
+			{"at": 39.95, "pos": [3.6, 2, 4.4], "look": [5.4, 0.9, 0.4], "fov": 45},
+			{"at": 41, "pos": [7.4, 4, 7.4], "look": [3.4, 2, 0.4], "fov": 50},
+			{"at": 50, "pos": [2, 5, 8], "look": [-2.5, 3, -3], "fov": 50}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Gold forms in white quartz veins, deep inside old hills.",
+			"say": "Gold forms in veins of white quartz rock, deep inside old hills. Can you see the sparkly stripe?",
+			"sounds": [{"at": 1.2, "effect": "pop"}, {"at": 4, "effect": "sparkle"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "QUARTZ VEIN",
+					"at": [130.4, 120],
+					"size": 28,
+					"color": "ink",
+					"box": "white",
+					"moves": [{"do": "pop", "at": 1.2}]
+				},
+				{
+					"kind": "arrow",
+					"from": [110, 142],
+					"to": [244, 282],
+					"color": "white",
+					"width": 6,
+					"moves": [{"do": "draw", "at": 1.6}],
+					"bend": 0.2
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Rain and rivers wear the rock away and wash tiny flakes downstream.",
+			"say": "Over thousands of years, rain and rivers wear the rock away, and wash tiny flakes of gold down the stream.",
+			"sounds": [{"at": 0.8, "effect": "rock_crash"}, {"at": 3, "effect": "splash"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "WASHED DOWNSTREAM",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 3}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Gold is very heavy, so the flakes sink and hide in the river's gravel.",
+			"say": "Gold is very heavy: 19 times heavier than the same amount of water. So the flakes sink and hide in the gravel.",
+			"sounds": [{"at": 1.6, "effect": "pop"}, {"at": 4.4, "effect": "bubbles"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "19 × HEAVIER THAN WATER",
+					"at": [180, 84],
+					"size": 20,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 1.6}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Prospectors swirl gravel in a pan. Light sand washes out; gold stays!",
+			"say": "Prospectors swirl the gravel in a pan of water. The light sand washes out, and the heavy gold stays at the bottom.",
+			"sounds": [{"at": 1.2, "effect": "splash"}, {"at": 4, "effect": "splash"}, {"at": 7.6, "effect": "sparkle"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "PANNING",
+					"at": [180, 84],
+					"size": 34,
+					"color": "white",
+					"box": "teal",
+					"moves": [{"do": "pop", "at": 1}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Follow the flakes upstream to find the vein. Where would you dig?",
+			"say": "Find flakes? Follow the river upstream, testing as you go, until you find the vein in the hill. Where would you dig?",
+			"sounds": [{"at": 1.2, "effect": "pop"}, {"at": 7, "effect": "chime"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "UPSTREAM TO THE VEIN",
+					"at": [180, 84],
+					"size": 24,
+					"color": "white",
+					"box": "brown",
+					"moves": [{"do": "pop", "at": 1.2}]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,252 @@
+{
+	"id": "g5.maths.divide_whole",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met dividing with remainders. What is 17 ÷ 5? 3 remainder 2."
+		},
+		{
+			"text": "768 ÷ 24 asks: how many 24s make 768? Start with multiples of 24 you know: 24 × 10 = 240, 24 × 20 = 480, 24 × 30 = 720."
+		},
+		{
+			"text": "720 is 30 lots of 24. What is left? 768 − 720 = 48, and 48 = 2 × 24. So 768 ÷ 24 = 30 + 2 = 32.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"30",
+					"2"
+				],
+				"rows": [
+					"24"
+				],
+				"cells": [
+					[
+						"720",
+						"48"
+					]
+				]
+			}
+		},
+		{
+			"text": "Check by multiplying back: 32 × 24 = 768. If it does not match, look for the step that went wrong."
+		},
+		{
+			"text": "Sometimes there is a remainder: 100 ÷ 24 = 4 remainder 4, because 24 × 4 = 96 and 100 − 96 = 4. In a story, think about what the remainder means: 100 children need 5 boats that hold 24 each.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "24",
+								"size": 24
+							},
+							{
+								"text": "24",
+								"size": 24
+							},
+							{
+								"text": "24",
+								"size": 24
+							},
+							{
+								"text": "24",
+								"size": 24
+							},
+							{
+								"text": "4",
+								"size": 4
+							}
+						],
+						"total": "100"
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: you have 150 blocks to share equally between 12 friends. How many does each get, and how many are left? 12 each, 6 left. Next: adding and subtracting decimals."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "96 ÷ 12 = ?",
+			"answer": "8",
+			"hint": "Which number times 12 makes 96?",
+			"explain": "12 × 8 = 96, so 96 ÷ 12 = 8."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "240 ÷ 20 = ?",
+			"answer": "12",
+			"hint": "How many 20s make 240? 20 × 10 = 200.",
+			"explain": "20 × 12 = 240, so 240 ÷ 20 = 12."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "480 ÷ 24 = 20",
+			"answer": true,
+			"hint": "Multiply back: 24 × 20.",
+			"explain": "24 × 20 = 480, so it is true."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "672 ÷ 21 = ?",
+			"answer": "32",
+			"hint": "21 × 30 = 630. How many more 21s make 672?",
+			"explain": "672 − 630 = 42, and 42 = 21 × 2. So 672 ÷ 21 = 30 + 2 = 32."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The area model shows 855 ÷ 45. What number goes in the ? part?",
+			"answer": "9",
+			"hint": "Which number times 45 makes 405?",
+			"explain": "45 × 9 = 405, so the ? is 9, and 855 ÷ 45 = 10 + 9 = 19.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"10",
+					"?"
+				],
+				"rows": [
+					"45"
+				],
+				"cells": [
+					[
+						"450",
+						"405"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "500 is shared into groups of 23. How many are left over?",
+			"answer": "17",
+			"hint": "Find the biggest multiple of 23 that is not more than 500.",
+			"explain": "23 × 21 = 483, and 500 − 483 = 17 left over."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "3,648 ÷ 48 = ?",
+			"answer": "76",
+			"hint": "48 × 70 = 3,360. How many more 48s make 3,648?",
+			"explain": "3,648 − 3,360 = 288, and 288 = 48 × 6. So 3,648 ÷ 48 = 70 + 6 = 76."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A boat holds 28 children. How many boats are needed for 150 children?",
+			"answer": "6",
+			"hint": "Divide, then think about the children left over.",
+			"explain": "28 × 5 = 140, and 10 children are left over. They need one more boat: 6 boats."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara says 1,265 ÷ 55 = 23. How can she check?",
+			"choices": [
+				"Work out 23 × 55",
+				"Work out 1,265 − 55",
+				"Work out 1,265 + 23",
+				"Work out 55 ÷ 23"
+			],
+			"answer": 0,
+			"hint": "Division undoes multiplication.",
+			"explain": "23 × 55 = 1,265, so Zara was right."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the divisions: is there a remainder?",
+			"items": [
+				"96 ÷ 12",
+				"100 ÷ 24",
+				"480 ÷ 24",
+				"500 ÷ 23",
+				"672 ÷ 21"
+			],
+			"groups": [
+				"remainder",
+				"no remainder"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Multiply back to check: does the divisor go in exactly?",
+			"explain": "96 ÷ 12 = 8, 480 ÷ 24 = 20 and 672 ÷ 21 = 32 are exact. 100 ÷ 24 leaves 4, and 500 ÷ 23 leaves 17."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5n.divide",
+			"level": 1
+		},
+		{
+			"gen": "g5n.divide",
+			"level": 2
+		},
+		{
+			"gen": "g5n.divide",
+			"level": 3
+		},
+		{
+			"gen": "g5n.remainder",
+			"level": 1
+		},
+		{
+			"gen": "g5n.remainder",
+			"level": 2
+		},
+		{
+			"gen": "g5n.remainder",
+			"level": 3
+		},
+		{
+			"gen": "g5n.division_story",
+			"level": 1
+		},
+		{
+			"gen": "g5n.division_story",
+			"level": 2
+		},
+		{
+			"gen": "g5n.division_story",
+			"level": 3
+		},
+		{
+			"gen": "g5n.division_area",
+			"level": 1
+		},
+		{
+			"gen": "g5n.division_area",
+			"level": 2
+		},
+		{
+			"gen": "g5n.division_area",
+			"level": 3
+		},
+		{
+			"gen": "g5n.check_division",
+			"level": 1
+		},
+		{
+			"gen": "g5n.check_division",
+			"level": 2
+		},
+		{
+			"gen": "g5n.check_division",
+			"level": 3
+		}
+	]
+}

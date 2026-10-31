@@ -1,0 +1,29 @@
+{
+	"id": "plants",
+	"title": "What do plants need?",
+	"card": "A fair test with three seeds.",
+	"units": ["g3.science.plants_needs", "g3.science.fair_tests", "g5.science.plants_air_water", "g7.science.photosynthesis"],
+	"supplies": {"dirt": 2},
+	"predict": {
+		"type": "choice",
+		"prompt": "Three seeds get the same soil and pots. One gets light and water, one is kept in the dark, one gets no water. Which will grow into a healthy green plant?",
+		"choices": ["Light and water", "In the dark", "No water", "All three the same"],
+		"answer": 0
+	},
+	"scene": {
+		"kind": "plants",
+		"days": 2,
+		"pots": [
+			{"name": "Light and water", "light": true, "water": true},
+			{"name": "In the dark", "light": false, "water": true},
+			{"name": "No water", "light": true, "water": false}
+		]
+	},
+	"try": "Tap each pot to plant its seed. Then come back after two game days (two turns of the sun) to see what grew.",
+	"result": "With light and water, the seed grew into a green, healthy plant. In the dark, it grew a thin, pale yellow shoot. With no water, the seed did not sprout at all.",
+	"why": [
+		"This was a fair test: the seeds had the same soil and the same pots, and only one thing changed each time. That way we know what made the difference.",
+		"Seeds need water to sprout. A seed carries a little food of its own, so it can start growing in the dark, but the shoot grows pale and thin, stretching to find light.",
+		"Green plants need light to make their own food from air and water. Real seeds take days or weeks to sprout: the Lab's seeds are extra quick!"
+	]
+}

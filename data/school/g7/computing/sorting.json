@@ -1,0 +1,341 @@
+{
+	"id": "g7.computing.sorting",
+	"lesson": [
+		{
+			"text": "Quick memory: why must a list be sorted for binary search? (It throws away a half, which only works when the items are in order.) Today: two ways to sort a list."
+		},
+		{
+			"text": "Bubble sort compares each pair of neighbours from the left and swaps them when the bigger one is first. One pass carries the biggest number to the end, like a bubble rising.",
+			"picture": {
+				"kind": "sort_bars",
+				"items": [
+					5,
+					1,
+					4,
+					2,
+					8
+				],
+				"method": "bubble",
+				"compare": 0
+			}
+		},
+		{
+			"text": "Worked example: 5, 1, 4, 2, 8. Swap 5 and 1, swap 5 and 4, swap 5 and 2; then 5 and 8 are in order. After pass 1: 1, 4, 2, 5, 8, with 8 in its place.",
+			"picture": {
+				"kind": "sort_bars",
+				"items": [
+					5,
+					1,
+					4,
+					2,
+					8
+				],
+				"method": "bubble",
+				"pass": 1
+			}
+		},
+		{
+			"text": "Pass 2 swaps 4 and 2: 1, 2, 4, 5, 8. Pass 3 makes no swaps, so bubble sort stops: the list is sorted. A list of n items needs at most n − 1 passes that swap.",
+			"picture": {
+				"kind": "sort_bars",
+				"items": [
+					5,
+					1,
+					4,
+					2,
+					8
+				],
+				"method": "bubble",
+				"pass": 2
+			}
+		},
+		{
+			"text": "Bubble sort is simple but slow on long lists: sorting 1,000 items can take about 500,000 comparisons."
+		},
+		{
+			"text": "Merge sort splits the list in half, and the halves in half, until every group has one item. Then it merges pairs of groups, in order, until one sorted list is left.",
+			"picture": {
+				"kind": "sort_bars",
+				"items": [
+					38,
+					27,
+					43,
+					3,
+					9,
+					82,
+					10,
+					5
+				],
+				"method": "merge",
+				"view": "tree"
+			}
+		},
+		{
+			"text": "Merging two sorted lists is quick: compare their front numbers and move the smaller to the new list, again and again. John von Neumann described merge sort in 1945; on big lists it is far faster than bubble sort."
+		},
+		{
+			"text": "Try it in the world: sort a shuffled hand of playing cards with bubble sort, then shuffle them and sort by splitting into piles and merging. Which was quicker? Next: testing properly."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the list after one pass of bubble sort (smallest to biggest)?",
+			"answer": 0,
+			"hint": "Compare 3 and 1 and swap them if needed, then move along one pair.",
+			"choices": [
+				"1, 2, 3",
+				"1, 3, 2",
+				"3, 1, 2",
+				"3, 2, 1"
+			],
+			"explain": "3 and 1 swap: 1, 3, 2. Then 3 and 2 swap: 1, 2, 3.",
+			"picture": {
+				"kind": "sort_bars",
+				"items": [
+					3,
+					1,
+					2
+				],
+				"method": "bubble"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "One pass of bubble sort always moves the biggest number to the end.",
+			"answer": true,
+			"hint": "What happens to the biggest number at every comparison?",
+			"explain": "True: the biggest wins every comparison, so it is swapped along to the end."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In bubble sort, when do two neighbours swap?",
+			"answer": 0,
+			"hint": "Smallest to biggest: which order is wrong?",
+			"choices": [
+				"when the bigger one is first",
+				"always",
+				"never",
+				"when they are equal"
+			],
+			"explain": "They swap when the bigger comes first; then the smaller moves left."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "After one pass of bubble sort, which number is at the end?",
+			"answer": "9",
+			"hint": "Follow the biggest number through the pass.",
+			"explain": "9 is the biggest, so it is carried along to the end.",
+			"picture": {
+				"kind": "sort_bars",
+				"items": [
+					4,
+					9,
+					2,
+					6
+				],
+				"method": "bubble"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does merge sort do first?",
+			"answer": 0,
+			"hint": "Merge sort splits before it merges.",
+			"choices": [
+				"splits the list in halves",
+				"swaps neighbours",
+				"finds the middle item",
+				"counts the items"
+			],
+			"explain": "It splits the list in half, again and again, before merging the pieces in order."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many swaps does the first pass of bubble sort make?",
+			"answer": "3",
+			"hint": "Go along the pairs, swapping on paper, and count.",
+			"explain": "5 and 1 swap, 5 and 4 swap, 5 and 2 swap, and 5 and 8 do not: 3 swaps.",
+			"picture": {
+				"kind": "sort_bars",
+				"items": [
+					5,
+					1,
+					4,
+					2,
+					8
+				],
+				"method": "bubble"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the list after one pass of bubble sort?",
+			"answer": 0,
+			"hint": "Compare 6 and 3, then 6 and 8, then 8 and 1.",
+			"choices": [
+				"3, 6, 1, 8",
+				"1, 3, 6, 8",
+				"3, 6, 8, 1",
+				"6, 3, 1, 8"
+			],
+			"explain": "6 and 3 swap: 3, 6, 8, 1. 6 and 8 stay. 8 and 1 swap: 3, 6, 1, 8.",
+			"picture": {
+				"kind": "sort_bars",
+				"items": [
+					6,
+					3,
+					8,
+					1
+				],
+				"method": "bubble"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Merge the sorted lists 2, 7 and 4, 5. What is the merged list?",
+			"answer": 0,
+			"hint": "Compare the front numbers and move the smaller one each time.",
+			"choices": [
+				"2, 4, 5, 7",
+				"2, 7, 4, 5",
+				"4, 5, 2, 7",
+				"2, 4, 7, 5"
+			],
+			"explain": "2 before 4, then 4 before 7, then 5 before 7, then 7: 2, 4, 5, 7."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Merge sort splits a list of 8 items in half, again and again, until every group has 1 item. How many rounds of splitting is that?",
+			"answer": "3",
+			"hint": "Halve 8 until you reach 1.",
+			"explain": "8 splits into 4s, then 2s, then 1s: 3 rounds."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Bubble sort can stop early when a pass makes no swaps.",
+			"answer": true,
+			"hint": "If nothing swaps, what must be true of the list?",
+			"explain": "True: no swaps means every neighbour is in order, so the list is sorted."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of merge sort in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Merge sort splits first, then merges.",
+			"items": [
+				"stop when one sorted list is left",
+				"merge pairs of groups in order",
+				"keep splitting until groups have 1 item",
+				"split the list in half"
+			],
+			"explain": "Split, keep splitting to single items, merge pairs in order, and stop at one sorted list."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many swaps does the first pass of bubble sort make?",
+			"answer": "4",
+			"hint": "Swap on paper as you go along the pairs.",
+			"explain": "9 is carried past 7, 5, 3 and 1: 4 swaps.",
+			"picture": {
+				"kind": "sort_bars",
+				"items": [
+					9,
+					7,
+					5,
+					3,
+					1
+				],
+				"method": "bubble"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A list of 6 items is in the opposite order, biggest first. How many passes of bubble sort make at least one swap?",
+			"answer": "5",
+			"hint": "Each pass puts one more number in its place at the end.",
+			"explain": "Each pass fixes one number at the end; after 5 passes the last one is in place too: 5 passes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is faster for sorting 10,000 names?",
+			"answer": 0,
+			"hint": "Which one compares every neighbour pass after pass?",
+			"choices": [
+				"merge sort",
+				"bubble sort",
+				"they take the same time"
+			],
+			"explain": "Merge sort: bubble sort's passes add up to millions of comparisons on 10,000 items."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the list after two passes of bubble sort?",
+			"answer": 0,
+			"hint": "Do one pass on paper, then a second on its result.",
+			"choices": [
+				"2, 1, 3, 4",
+				"3, 2, 1, 4",
+				"1, 2, 3, 4",
+				"4, 3, 2, 1"
+			],
+			"explain": "Pass 1: 3, 2, 1, 4. Pass 2: 2, 1, 3, 4. One more pass would finish it.",
+			"picture": {
+				"kind": "sort_bars",
+				"items": [
+					4,
+					3,
+					2,
+					1
+				],
+				"method": "bubble"
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.bubble_step",
+			"level": 1
+		},
+		{
+			"gen": "g7c.bubble_step",
+			"level": 2
+		},
+		{
+			"gen": "g7c.bubble_step",
+			"level": 3
+		},
+		{
+			"gen": "g7c.merge_step",
+			"level": 1
+		},
+		{
+			"gen": "g7c.merge_step",
+			"level": 2
+		},
+		{
+			"gen": "g7c.merge_step",
+			"level": 3
+		}
+	]
+}

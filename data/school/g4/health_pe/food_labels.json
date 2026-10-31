@@ -1,0 +1,410 @@
+{
+	"id": "g4.health_pe.food_labels",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the best drink? (Water.) Today: reading the labels on food packets, and choosing drinks wisely."
+		},
+		{
+			"text": "Most food packets have a label of numbers. The most useful column says per 100 g: how much is in every 100 g of the food. Use it to compare two foods fairly."
+		},
+		{
+			"text": "Many packets show traffic lights for fat, saturates, sugars and salt. Green means low, amber medium and red high. Choose more greens and ambers, and have reds less often.",
+			"picture": {
+				"kind": "food_label",
+				"rows": [
+					[
+						"Fat",
+						"2.1 g",
+						"low"
+					],
+					[
+						"Saturates",
+						"0.4 g",
+						"low"
+					],
+					[
+						"Sugars",
+						"24 g",
+						"high"
+					],
+					[
+						"Salt",
+						"0.9 g",
+						"medium"
+					]
+				]
+			}
+		},
+		{
+			"text": "Sugars: 5 g or less in every 100 g is low (green), and more than 22.5 g is high (red). A sugar cube is about 4 g, so 24 g of sugar is 24 ÷ 4 = 6 cubes.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Sugars in 100 g",
+						"Label"
+					],
+					[
+						"5 g or less",
+						"green, low"
+					],
+					[
+						"5 g to 22.5 g",
+						"amber"
+					],
+					[
+						"over 22.5 g",
+						"red, high"
+					]
+				]
+			}
+		},
+		{
+			"text": "Children aged 7 to 10 should have no more than 24 g of free sugars a day: sugar added to food and drinks, and sugar in honey, syrup and juice. That is 6 cubes. Salt: no more than 5 g a day."
+		},
+		{
+			"text": "The ingredients list starts with the biggest ingredient and goes down to the smallest. Allergens, like milk, nuts or wheat, are in bold. The use by date is the last day the food is safe to eat."
+		},
+		{
+			"text": "Choose drinks wisely: water and milk are best. A can of sugary fizzy drink can hold about 35 g of sugar, nearly 9 cubes. Fruit juice counts, but have no more than 150 mL a day, with a meal."
+		},
+		{
+			"text": "Try it in the world: build a shop with shelves of drinks, and put a green, amber or red sign on each. For real: with a grown-up, find the per 100 g column on 3 packets at home, and compare their sugar."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "On a traffic-light label, what does green mean?",
+			"answer": 0,
+			"hint": "Think of traffic lights: which colour is the most relaxed?",
+			"choices": [
+				"low",
+				"medium",
+				"high",
+				"sold out"
+			],
+			"explain": "Green means low; amber means medium; red means high."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Water is one of the best drinks.",
+			"answer": true,
+			"hint": "What did the lesson say is best?",
+			"explain": "True: water and milk are the best drinks for children."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Look at the label. Which one is red (HIGH)?",
+			"answer": 0,
+			"hint": "Find the red box that says HIGH.",
+			"choices": [
+				"sugars",
+				"fat",
+				"saturates",
+				"salt"
+			],
+			"explain": "Sugars: 27 g in every 100 g is high, so its box is red.",
+			"picture": {
+				"kind": "food_label",
+				"rows": [
+					[
+						"Fat",
+						"1.2 g",
+						"low"
+					],
+					[
+						"Saturates",
+						"0.3 g",
+						"low"
+					],
+					[
+						"Sugars",
+						"27 g",
+						"high"
+					],
+					[
+						"Salt",
+						"0.1 g",
+						"low"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "About how much sugar is in one sugar cube?",
+			"answer": 0,
+			"hint": "A sugar cube is small: think of the lesson's number.",
+			"choices": [
+				"4 g",
+				"40 g",
+				"1 kg",
+				"100 g"
+			],
+			"explain": "A sugar cube is about 4 g of sugar."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A drink has 20 g of sugar. How many 4 g sugar cubes is that?",
+			"answer": "5",
+			"hint": "Share the grams into groups of 4.",
+			"explain": "20 ÷ 4 = 5 sugar cubes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which yoghurt has less sugar in every 100 g?",
+			"answer": 0,
+			"hint": "Compare the numbers in the per 100 g column.",
+			"choices": [
+				"yoghurt B",
+				"yoghurt A"
+			],
+			"explain": "Yoghurt B has 8.1 g and yoghurt A 12.5 g: B has less.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"per 100 g",
+						"sugars"
+					],
+					[
+						"yoghurt A",
+						"12.5 g"
+					],
+					[
+						"yoghurt B",
+						"8.1 g"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The first ingredient in the list is the one there is most of.",
+			"answer": true,
+			"hint": "How is the list ordered?",
+			"explain": "True: ingredients go from the biggest amount to the smallest."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why compare the per 100 g column, not the per portion column?",
+			"answer": 0,
+			"hint": "A fair test compares the same amount.",
+			"choices": [
+				"the amounts of food are then the same",
+				"it has bigger numbers",
+				"it is always red",
+				"it tells you the price"
+			],
+			"explain": "Per 100 g compares the same amount of each food, so the comparison is fair."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Low (green) or high (red) in sugars, per 100 g?",
+			"groups": [
+				"low",
+				"high"
+			],
+			"items": [
+				"3 g",
+				"30 g",
+				"4.5 g",
+				"25 g",
+				"1 g",
+				"40 g"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "5 g or less is low; more than 22.5 g is high.",
+			"explain": "Low: 3 g, 4.5 g, 1 g (5 g or less). High: 30 g, 25 g, 40 g (more than 22.5 g)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How are allergens, like milk and nuts, shown in an ingredients list?",
+			"answer": 0,
+			"hint": "They must be easy to spot.",
+			"choices": [
+				"in bold",
+				"in tiny letters at the end",
+				"they are never shown",
+				"in a separate book"
+			],
+			"explain": "Allergens are in bold, so people who must avoid them can find them quickly."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 500 mL bottle of drink has 6 g of sugar in every 100 mL. How many grams of sugar are in the bottle?",
+			"answer": "30",
+			"hint": "How many lots of 100 mL are in 500 mL?",
+			"explain": "500 mL is 5 lots of 100 mL: 6 × 5 = 30 g of sugar."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Drink A has 10.6 g of sugars in every 100 mL, and drink B has 4.5 g. Which has less sugar?",
+			"answer": 0,
+			"hint": "Compare the whole numbers first, then the tenths.",
+			"choices": [
+				"drink B",
+				"drink A",
+				"they are the same"
+			],
+			"explain": "4.5 g is less than 10.6 g, so drink B has less sugar in every 100 mL."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Children of 7 to 10 should have no more than 24 g of free sugars a day. Mimi had a yoghurt with 8 g and a juice with 10 g. How many grams below 24 g is that?",
+			"answer": "6",
+			"hint": "Add what she had, then take it from 24.",
+			"explain": "8 + 10 = 18 g. 24 − 18 = 6 g below the limit."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This food has 14 g of sugars in every 100 g. What colour is its sugars box?",
+			"answer": 0,
+			"hint": "5 g or less is low; more than 22.5 g is high; anything between is medium.",
+			"choices": [
+				"amber (MEDIUM)",
+				"green (LOW)",
+				"red (HIGH)"
+			],
+			"explain": "14 g is more than 5 g but not more than 22.5 g, so it is medium: amber.",
+			"picture": {
+				"kind": "food_label",
+				"rows": [
+					[
+						"Sugars",
+						"14 g",
+						"?"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A food with a red box for salt is one to have less often, not every day.",
+			"answer": true,
+			"hint": "What does the lesson say about reds?",
+			"explain": "True: red means high, so have that food less often."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which drink swap cuts sugar the most?",
+			"answer": 0,
+			"hint": "Which swap goes from a lot of sugar to none?",
+			"choices": [
+				"water instead of a can of fizzy drink",
+				"juice instead of water",
+				"a sugary drink instead of milk",
+				"two cans instead of one"
+			],
+			"explain": "Water instead of a can of fizzy drink: from about 35 g of sugar to none."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each part of a label to what it tells you.",
+			"items": [
+				"per 100 g",
+				"ingredients",
+				"allergens",
+				"use by"
+			],
+			"matches": [
+				"what the food is made of",
+				"what some people must avoid",
+				"the last day it is safe",
+				"the amount in every 100 g"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think about where you would look on a packet.",
+			"explain": "Per 100 g: amounts to compare. Ingredients: what is in it. Allergens: what some must avoid. Use by: the last safe day."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the drinks from the least sugar to the most, per 100 mL.",
+			"items": [
+				"drink A: 10.6 g",
+				"drink B: 4.5 g",
+				"water: 0 g",
+				"drink C: 7 g"
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "Compare the grams of sugar in every 100 mL.",
+			"explain": "Water has none, then drink B (4.5 g), drink C (7 g) and drink A (10.6 g). Water is the best choice; A has the most sugar."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.label_light",
+			"level": 1
+		},
+		{
+			"gen": "g4w.label_light",
+			"level": 2
+		},
+		{
+			"gen": "g4w.label_light",
+			"level": 3
+		},
+		{
+			"gen": "g4w.sugar_cubes",
+			"level": 1
+		},
+		{
+			"gen": "g4w.sugar_cubes",
+			"level": 2
+		},
+		{
+			"gen": "g4w.sugar_cubes",
+			"level": 3
+		}
+	],
+	"play": {
+		"hook": "The shop's shelves need their traffic light signs. Read the labels and help stock them!",
+		"game": "generic",
+		"params": {
+			"costume": "give"
+		},
+		"coach": [
+			"Compare foods with the per 100 g column.",
+			"Green means low, amber medium, red high.",
+			"A sugar cube is about 4 g of sugar.",
+			"Water and milk are the best drinks."
+		],
+		"world_task": "With a grown-up, find the per 100 g column on 3 packets at home and compare their sugar."
+	}
+}

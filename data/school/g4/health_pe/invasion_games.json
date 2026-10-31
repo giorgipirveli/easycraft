@@ -1,0 +1,451 @@
+{
+	"id": "g4.health_pe.invasion_games",
+	"lesson": [
+		{
+			"text": "Quick memory: when your team has the ball, are you attacking or defending? (Attacking.) Today: how to keep the ball, find space and defend a goal."
+		},
+		{
+			"text": "In invasion games, two teams invade each other's half to score in a goal or an end zone. Football, netball, basketball, hockey and rugby are all invasion games."
+		},
+		{
+			"text": "Keep the ball: pass to a teammate who is free, not one who is marked. Call their name, then pass firmly and straight, with a chest pass, a bounce pass or an overhead pass."
+		},
+		{
+			"text": "Find space: when a teammate has the ball, move away from the player marking you into an empty space, and call for it. After you pass, move again: pass and move! Here, B is in space.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 7,
+				"players": [
+					[
+						1.5,
+						3.5,
+						"a"
+					],
+					[
+						5.5,
+						1.5,
+						"a",
+						"A"
+					],
+					[
+						9.5,
+						2.5,
+						"a",
+						"B"
+					],
+					[
+						6.5,
+						4.5,
+						"a",
+						"C"
+					],
+					[
+						6.5,
+						2.5,
+						"d"
+					],
+					[
+						5.5,
+						5.5,
+						"d"
+					]
+				],
+				"ball": 0
+			}
+		},
+		{
+			"text": "Defend: when the other team has the ball, mark a player. Stay close, between them and the goal you defend, watch the ball and try to intercept a pass. Never grab or push."
+		},
+		{
+			"text": "Width and depth: attackers spread out across the pitch, and some stay behind the ball. That stretches the defenders and makes gaps to pass through."
+		},
+		{
+			"text": "Every game has its own rules. In netball you may not run with the ball, and must pass it within 3 seconds. In basketball you dribble by bouncing it. In football, only the goalkeeper may handle the ball, in their area.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Game",
+						"A rule"
+					],
+					[
+						"netball",
+						"pass within 3 s"
+					],
+					[
+						"basketball",
+						"dribble to move"
+					],
+					[
+						"football",
+						"keeper handles it"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a pitch with two goals and play 3 against 3 with friends in a park. Pass and move, find space, and mark a player when you defend."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is an invasion game?",
+			"answer": 0,
+			"hint": "In which game do two teams try to get into each other's half to score?",
+			"choices": [
+				"netball",
+				"rounders",
+				"tennis",
+				"gymnastics"
+			],
+			"explain": "Netball: two teams try to score in each other's goal. Rounders is striking and fielding, tennis is a net game."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When your team has the ball, you are defending.",
+			"answer": false,
+			"hint": "Who is trying to score?",
+			"explain": "False: with the ball, your team is attacking. Without it, you defend."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Your teammate has the ball. What should you do?",
+			"answer": 0,
+			"hint": "How can your teammate pass to you safely?",
+			"choices": [
+				"move into a space and call for it",
+				"stand behind a defender",
+				"sit down and wait",
+				"run off the pitch"
+			],
+			"explain": "Move away from defenders into a space and call for the ball, so your teammate can pass to you."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Your team is blue and has the ball. Which teammate is free to pass to?",
+			"answer": 0,
+			"hint": "Look for the blue letter with no red square close by.",
+			"choices": [
+				"B",
+				"A",
+				"C"
+			],
+			"explain": "B: every red player is far from B. A and C each have a red player right beside them.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 7,
+				"players": [
+					[
+						1.5,
+						3.5,
+						"a"
+					],
+					[
+						5.5,
+						1.5,
+						"a",
+						"A"
+					],
+					[
+						9.5,
+						2.5,
+						"a",
+						"B"
+					],
+					[
+						6.5,
+						4.5,
+						"a",
+						"C"
+					],
+					[
+						6.5,
+						2.5,
+						"d"
+					],
+					[
+						5.5,
+						5.5,
+						"d"
+					]
+				],
+				"ball": 0
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each pass to how it travels.",
+			"items": [
+				"chest pass",
+				"bounce pass",
+				"overhead pass"
+			],
+			"matches": [
+				"bounces once on the way",
+				"high over a defender",
+				"straight from your chest"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "The name of each pass tells you where it goes.",
+			"explain": "A chest pass goes straight from your chest, a bounce pass bounces once, and an overhead pass goes high over a defender."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When you mark a player, you stay between them and the goal you are defending.",
+			"answer": true,
+			"hint": "Where would the attacker want to go?",
+			"explain": "True: between the player and your goal, so they cannot run or pass straight to it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In netball, what are you not allowed to do?",
+			"answer": 0,
+			"hint": "Think of the netball rule about moving.",
+			"choices": [
+				"run with the ball",
+				"pass the ball",
+				"catch the ball",
+				"jump for the ball"
+			],
+			"explain": "You may not run with the ball in netball: you must stop and pass it within 3 seconds."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put pass and move in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You have to see a teammate before you pass.",
+			"items": [
+				"call for the ball back",
+				"move into a new space",
+				"pass the ball",
+				"look up for a free teammate"
+			],
+			"explain": "Look up, pass, move into a new space, then call for the ball back."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do attackers spread out across the pitch?",
+			"answer": 0,
+			"hint": "What happens to the defenders when attackers spread out?",
+			"choices": [
+				"to stretch the defenders and make gaps",
+				"to stay out of the game",
+				"to make the pitch look full",
+				"so they cannot hear each other"
+			],
+			"explain": "Spread out, the attackers pull the defenders apart, which makes gaps to pass through."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Attacking or defending?",
+			"groups": [
+				"attacking",
+				"defending"
+			],
+			"items": [
+				"finding space",
+				"marking a player",
+				"shooting at goal",
+				"intercepting a pass",
+				"calling for the ball",
+				"blocking the way to goal"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which ones do you do when your team has the ball?",
+			"explain": "Attacking: finding space, shooting, calling for the ball. Defending: marking, intercepting, blocking the way to goal."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You are blue and the red team has the ball. Which red player is free, so a blue player should mark them?",
+			"answer": 0,
+			"hint": "Find the red letter with no blue circle close by.",
+			"choices": [
+				"B",
+				"A",
+				"C"
+			],
+			"explain": "B: no blue player is near B, so B could get an easy pass. A and C are already marked.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 7,
+				"players": [
+					[
+						9.5,
+						3.5,
+						"d"
+					],
+					[
+						6.5,
+						1.5,
+						"d",
+						"A"
+					],
+					[
+						3.5,
+						4.5,
+						"d",
+						"B"
+					],
+					[
+						7.5,
+						5.5,
+						"d",
+						"C"
+					],
+					[
+						7.5,
+						0.5,
+						"a"
+					],
+					[
+						6.5,
+						5.5,
+						"a"
+					]
+				],
+				"ball": 0
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A good defender pushes the attacker to get the ball.",
+			"answer": false,
+			"hint": "What does the lesson say about grabbing or pushing?",
+			"explain": "False: pushing or grabbing is a foul, and the other team gets a free pass. A good defender stays close, between the player and the goal, and tries to intercept the ball."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your team loses the ball to the other team. What should everyone do?",
+			"answer": 0,
+			"hint": "Who has the ball now?",
+			"choices": [
+				"change to defending straight away",
+				"stop and wait",
+				"keep attacking",
+				"argue with the referee"
+			],
+			"explain": "The other team is attacking now, so your whole team defends straight away: find a player to mark."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A netball team has 7 players on court. Two teams play. How many players are on court altogether?",
+			"answer": "14",
+			"hint": "Two teams of 7: add or double.",
+			"explain": "Each netball team has 7 players on court, so 7 + 7 = 14 players. In football there are 11 a side, so 11 + 11 = 22 players."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is an interception?",
+			"answer": 0,
+			"hint": "Think of stepping in front of a pass.",
+			"choices": [
+				"catching a pass meant for the other team",
+				"a foul",
+				"a shot at goal",
+				"a pass to your goalkeeper"
+			],
+			"explain": "An interception is catching or stopping a pass meant for a player on the other team. Watch the ball, step in front as it is thrown, and now your team is attacking."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In basketball, you move with the ball by bouncing it as you go: dribbling.",
+			"answer": true,
+			"hint": "Can you run with the ball in basketball if you bounce it?",
+			"explain": "True: bouncing the ball as you move is dribbling."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each invasion game to how you move with the ball.",
+			"items": [
+				"netball",
+				"basketball",
+				"football",
+				"rugby"
+			],
+			"matches": [
+				"kick it along",
+				"you may not run with it",
+				"carry it as you run",
+				"bounce it as you go"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Every game has its own rules for moving with the ball.",
+			"explain": "In netball you may not run with the ball; in basketball you bounce it as you go; in football you kick it along; in rugby you carry it as you run."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Your team wins the ball. Put a good attack in order.",
+			"items": [
+				"Shoot when you are close to goal.",
+				"Look up for a teammate in space.",
+				"Pass, then move into a new space.",
+				"Intercept a pass from the other team."
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "First you need the ball. Then keep it, move it forward and score.",
+			"explain": "Intercept to win the ball, look up for a teammate in space, pass and move to keep it and get closer, then shoot when you are near the goal."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.find_space",
+			"level": 1
+		},
+		{
+			"gen": "g4w.find_space",
+			"level": 2
+		},
+		{
+			"gen": "g4w.find_space",
+			"level": 3
+		}
+	]
+}

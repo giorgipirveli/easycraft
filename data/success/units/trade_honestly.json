@@ -1,0 +1,23 @@
+{
+	"id": "life.money.trade_honestly",
+	"lesson": [
+		{"text": "Quick memory: why do prices move? (Supply and demand.) Today: trading for the long run."},
+		{"text": "Buy when there's plenty and sell when it's scarce, honestly: apples bought in autumn feed people in winter."},
+		{"text": "Keep only the stock you can store and sell before it goes bad. Spread across goods: a storm hits one."},
+		{"text": "A game that pays a prize for a 6 is made to take more than it gives. A 6 comes about once in 6 throws."},
+		{"text": "Over many throws the player always ends up with less. Gambling is paying for a chance to win: trading and saving are not. For real money, talk to a grown-up you trust."},
+		{"text": "Try it in the practice room: trade honestly, and see the dice lesson."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "A fair dice shows a 6 about...", "answer": 0, "choices": ["once in 6 throws", "every other throw", "when you need one"], "hint": "6 faces.", "explain": "About once in 6 throws."},
+		{"type": "truefalse", "level": 1, "prompt": "Spreading your trading across goods keeps you steadier if one goes wrong.", "answer": true, "hint": "A storm hits one basket.", "explain": "True."},
+		{"type": "choice", "level": 1, "prompt": "Which one is gambling?", "answer": 0, "choices": ["Paying for a chance to win a prize", "Selling apples you bought honestly", "Saving in the bank"], "hint": "Paying for a chance.", "explain": "Paying for a chance to win."},
+		{"type": "choice", "level": 2, "prompt": "An honest way to trade apples:", "answer": 0, "choices": ["Buy in autumn, store well, sell in winter fairly", "Sell old apples as fresh", "Buy every apple so nobody else can"], "hint": "Honest and fair.", "explain": "Buy when plenty, sell when scarce, honestly."},
+		{"type": "number", "level": 2, "prompt": "You can sell 5 bags a month, and apples keep 3 months. How many bags do you buy?", "answer": "15", "hint": "5 × 3.", "explain": "15 bags."},
+		{"type": "number", "level": 2, "prompt": "A game: pay 1 counter a throw; a 6 gives 4 back. In 6 throws you pay 6. About how many come back?", "answer": "4", "hint": "About one 6.", "explain": "About 4 back for 6 paid."},
+		{"type": "truefalse", "level": 2, "prompt": "After a few losses, a win is \"due\".", "answer": false, "hint": "The dice don't remember.", "explain": "False: every throw is new."},
+		{"type": "number", "level": 3, "prompt": "Over 600 throws you pay 600 counters and about 100 sixes give 4 each. About how many counters lost?", "answer": "200", "hint": "600 take away 400.", "explain": "600 - 400 = 200 lost."},
+		{"type": "choice", "level": 3, "prompt": "Why does a game like this always win over time?", "answer": 0, "choices": ["It pays back less than it takes", "The player is unlucky", "Throwing too slowly"], "hint": "4 back for about 6 paid.", "explain": "It pays back less than it takes."},
+		{"type": "sort", "level": 3, "prompt": "Gambling or not?", "groups": ["gambling", "not gambling"], "items": ["paying to throw for a prize", "saving in the bank", "a loot box bought with money", "selling bread you baked"], "answer": [0, 1, 0, 1], "hint": "Paying for a chance?", "explain": "Paying for a chance to win is gambling."}
+	]
+}

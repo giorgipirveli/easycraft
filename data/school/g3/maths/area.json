@@ -1,0 +1,397 @@
+{
+	"id": "g3.maths.area",
+	"lesson": [
+		{
+			"text": "Quick memory: 3 rows of 4 is 3 × 4 = 12. Keep that in mind: it is the secret of area!",
+			"picture": {
+				"kind": "array",
+				"rows": 3,
+				"cols": 4
+			}
+		},
+		{
+			"text": "Area is how much flat space a shape covers. We measure it in unit squares: count the squares. This shape covers 7 squares, so its area is 7 square units.",
+			"picture": {
+				"kind": "unit_squares",
+				"rows": [
+					"###",
+					"##.",
+					"##."
+				],
+				"grid": true,
+				"labels": false,
+				"per": 1
+			}
+		},
+		{
+			"text": "A square can be 1 centimetre each way (a square centimetre, cm²) or 1 metre each way (a square metre, m²). A farm is measured in square metres.",
+			"picture": {
+				"kind": "rect",
+				"w": 4,
+				"h": 3,
+				"grid": true,
+				"unit": "m"
+			}
+		},
+		{
+			"text": "A rectangle is an array of squares. 3 rows of 5 squares: 3 × 5 = 15 square units. Area = length × width.",
+			"picture": {
+				"kind": "rect",
+				"w": 5,
+				"h": 3,
+				"grid": true
+			}
+		},
+		{
+			"text": "No squares drawn? Multiply the sides. A farm 6 m long and 4 m wide has an area of 6 × 4 = 24 square metres.",
+			"picture": {
+				"kind": "rect",
+				"w": 6,
+				"h": 4,
+				"grid": false,
+				"unit": "m"
+			}
+		},
+		{
+			"text": "An L-shape is two rectangles. Split it, find each area, then add: 3 × 2 = 6 and 5 × 1 = 5, so the L-shape has an area of 6 + 5 = 11 square metres.",
+			"picture": {
+				"kind": "unit_squares",
+				"rows": [
+					"aaa..",
+					"aaa..",
+					"bbbbb"
+				],
+				"grid": false,
+				"labels": true,
+				"per": 1,
+				"unit": "m"
+			}
+		},
+		{
+			"text": "Build it: a farm with an area of 12 squares could be 3 by 4, 2 by 6 or 1 by 12. Next: the fence round the outside, the perimeter.",
+			"picture": {
+				"kind": "rect",
+				"w": 6,
+				"h": 2,
+				"grid": true
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Each square is 1 square unit. What is the area of the shape, in square units?",
+			"answer": "8",
+			"hint": "Count the squares, or multiply: 2 rows of 4.",
+			"explain": "2 × 4 = 8 squares: 8 square units.",
+			"picture": {
+				"kind": "unit_squares",
+				"rows": [
+					"####",
+					"####"
+				],
+				"grid": true,
+				"labels": false,
+				"per": 1
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Each square is 1 square unit. What is the area of the shape, in square units?",
+			"answer": "5",
+			"hint": "Count every square once.",
+			"explain": "3 squares on top and 2 more below: 5 square units.",
+			"picture": {
+				"kind": "unit_squares",
+				"rows": [
+					"###",
+					"#..",
+					"#.."
+				],
+				"grid": true,
+				"labels": false,
+				"per": 1
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is the area of the rectangle, in square metres?",
+			"answer": "6",
+			"hint": "Count the squares: 2 rows of 3.",
+			"explain": "3 × 2 = 6 square metres.",
+			"picture": {
+				"kind": "rect",
+				"w": 3,
+				"h": 2,
+				"grid": true,
+				"unit": "m"
+			}
+		},
+		{
+			"type": "build",
+			"level": 1,
+			"prompt": "Build a rectangle farm with an area of 8 squares, with no side shorter than 2.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 8,
+				"min_side": 2
+			},
+			"hint": "Which two numbers multiply to make 8?",
+			"explain": "For example 2 by 4: 2 × 4 = 8 squares."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A rectangle 4 squares long and 2 squares wide has an area of 8 square units.",
+			"answer": true,
+			"hint": "Multiply the sides.",
+			"explain": "4 × 2 = 8, so yes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which unit is right for the area of a playground?",
+			"choices": [
+				"square metres (m²)",
+				"metres (m)",
+				"litres (L)",
+				"kilograms (kg)"
+			],
+			"answer": 0,
+			"hint": "Area is measured in squares.",
+			"explain": "A playground's area is in square metres."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is the area of the rectangle, in square centimetres?",
+			"answer": "35",
+			"hint": "Area = length × width.",
+			"explain": "7 × 5 = 35 square centimetres.",
+			"picture": {
+				"kind": "rect",
+				"w": 7,
+				"h": 5,
+				"grid": false,
+				"unit": "cm"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A farm is 9 m long and 6 m wide. What is its area, in square metres?",
+			"answer": "54",
+			"hint": "Multiply the length by the width.",
+			"explain": "9 × 6 = 54 square metres."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The area of the rectangle is 32 square metres. How long is the side marked ?, in metres?",
+			"answer": "8",
+			"hint": "Which number times 4 makes 32?",
+			"explain": "8 × 4 = 32, so the missing side is 8 m.",
+			"picture": {
+				"kind": "rect",
+				"w": 8,
+				"h": 4,
+				"grid": false,
+				"unit": "m",
+				"unknown": "w"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A 2 by 8 rectangle and a 4 by 4 rectangle have the same area.",
+			"answer": true,
+			"hint": "Work out both areas.",
+			"explain": "2 × 8 = 16 and 4 × 4 = 16: the same."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Build a rectangle farm with an area of 18 squares, with no side shorter than 3.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 18,
+				"min_side": 3
+			},
+			"hint": "Which two numbers, both 3 or more, multiply to make 18?",
+			"explain": "3 by 6: 3 × 6 = 18 squares."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which rectangle has the biggest area?",
+			"choices": [
+				"5 m by 6 m",
+				"4 m by 7 m",
+				"3 m by 9 m",
+				"8 m by 3 m"
+			],
+			"answer": 0,
+			"hint": "Work out each area.",
+			"explain": "30, 28, 27 and 24 square metres: 5 m by 6 m is the biggest."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is the area of the L-shape, in square metres?",
+			"answer": "16",
+			"hint": "Split it into two rectangles and add their areas.",
+			"explain": "Top: 2 × 2 = 4. Bottom: 6 × 2 = 12. 4 + 12 = 16 square metres.",
+			"picture": {
+				"kind": "unit_squares",
+				"rows": [
+					"aa....",
+					"aa....",
+					"bbbbbb",
+					"bbbbbb"
+				],
+				"grid": false,
+				"labels": true,
+				"per": 1,
+				"unit": "m"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is the area of the L-shape, in square metres?",
+			"answer": "14",
+			"hint": "Split it into two rectangles.",
+			"explain": "Top: 4 × 2 = 8. Bottom: 2 × 3 = 6. 8 + 6 = 14 square metres.",
+			"picture": {
+				"kind": "unit_squares",
+				"rows": [
+					"aaaa",
+					"aaaa",
+					"bb..",
+					"bb..",
+					"bb.."
+				],
+				"grid": false,
+				"labels": true,
+				"per": 1,
+				"unit": "m"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A room is 12 m long and 9 m wide. What is its area, in square metres?",
+			"answer": "108",
+			"hint": "Split 12 into 10 and 2.",
+			"explain": "10 × 9 = 90 and 2 × 9 = 18. 90 + 18 = 108 square metres."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A garden has an area of 56 square metres. It is 8 m wide. How long is it, in metres?",
+			"answer": "7",
+			"hint": "Which number times 8 makes 56?",
+			"explain": "7 × 8 = 56, so it is 7 m long."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara's farm is 6 m by 4 m. Bram's is 5 m by 5 m. Whose farm has more space?",
+			"choices": [
+				"Bram's",
+				"Zara's",
+				"They are the same"
+			],
+			"answer": 0,
+			"hint": "Work out both areas.",
+			"explain": "6 × 4 = 24 and 5 × 5 = 25: Bram's has more."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Doubling both sides of a rectangle doubles its area.",
+			"answer": false,
+			"hint": "Try it: a 2 by 3 rectangle, then a 4 by 6 one.",
+			"explain": "2 × 3 = 6, but 4 × 6 = 24: four times as much, not double."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3g.count_squares",
+			"level": 1
+		},
+		{
+			"gen": "g3g.count_squares",
+			"level": 2
+		},
+		{
+			"gen": "g3g.count_squares",
+			"level": 3
+		},
+		{
+			"gen": "g3g.rect_area",
+			"level": 1
+		},
+		{
+			"gen": "g3g.rect_area",
+			"level": 2
+		},
+		{
+			"gen": "g3g.rect_area",
+			"level": 3
+		},
+		{
+			"gen": "g3g.area_build",
+			"level": 1
+		},
+		{
+			"gen": "g3g.area_build",
+			"level": 2
+		},
+		{
+			"gen": "g3g.area_build",
+			"level": 3
+		},
+		{
+			"gen": "g3g.l_area",
+			"level": 1
+		},
+		{
+			"gen": "g3g.l_area",
+			"level": 2
+		},
+		{
+			"gen": "g3g.l_area",
+			"level": 3
+		},
+		{
+			"gen": "g3g.missing_side_area",
+			"level": 1
+		},
+		{
+			"gen": "g3g.missing_side_area",
+			"level": 2
+		},
+		{
+			"gen": "g3g.missing_side_area",
+			"level": 3
+		}
+	]
+}

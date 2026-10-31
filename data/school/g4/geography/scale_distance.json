@@ -1,0 +1,236 @@
+{
+	"id": "g4.geography.scale_distance",
+	"lesson": [
+		{
+			"text": "Quick memory: what does a map's key tell you? (What its symbols mean.) Maps are much smaller than the real world. A scale tells you how much smaller, so you can work out real distances."
+		},
+		{
+			"text": "A scale can be written in words: '1 cm stands for 1 km' means every centimetre on the map is 1 km on the ground. If two villages are 5 cm apart on the map, they are 5 km apart for real.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"On the map",
+						"On the ground"
+					],
+					[
+						"1 cm",
+						"1 km"
+					],
+					[
+						"5 cm",
+						"5 km"
+					],
+					[
+						"12 cm",
+						"12 km"
+					]
+				]
+			}
+		},
+		{
+			"text": "Many maps have a scale bar: a line marked with distances. Lay a strip of paper between two places on the map and mark it. Then hold it against the scale bar to read the real distance. This bar is marked in km.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "10",
+				"step": "2",
+				"labels": "all"
+			}
+		},
+		{
+			"text": "Worked example: on a map, 1 cm stands for 2 km. The lake is 4 cm from the farm. The real distance is 4 × 2 = 8 km. Going back the other way: 8 km ÷ 2 = 4 cm on the map.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"on the map",
+						"for real"
+					],
+					[
+						"1 cm",
+						"2 km"
+					],
+					[
+						"4 cm",
+						"8 km"
+					],
+					[
+						"5 cm",
+						"10 km"
+					]
+				]
+			}
+		},
+		{
+			"text": "A straight line gives the distance 'as the crow flies'. Roads bend, so lay a piece of string along the road on the map, straighten it, and measure the string. A road is never shorter than the straight line."
+		},
+		{
+			"text": "A scale can also be a ratio: 1 : 100,000 means 1 cm on the map is 100,000 cm in real life. 100 cm make 1 m, so 100,000 cm is 1,000 m, which is 1 km."
+		},
+		{
+			"text": "Walkers' maps often use 1 : 25,000, where 4 cm stand for 1 km, and show every path and stream. A map of the whole world shows huge areas but little detail. Choose the map that fits your journey."
+		},
+		{
+			"text": "Try it in the world: walk from your house to the lake counting blocks, then draw a map where 1 square is 10 blocks. How many squares long is your path? Next: two regions compared."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "On a map, 1 cm stands for 1 km. Two villages are 6 cm apart on the map. How far apart are they really, in km?",
+			"answer": "6",
+			"hint": "Each centimetre is one kilometre.",
+			"explain": "6 × 1 = 6 km."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a map's scale tell you?",
+			"answer": 0,
+			"hint": "It helps you work out real distances.",
+			"choices": [
+				"how much smaller the map is than the place",
+				"which way is north",
+				"what the symbols mean",
+				"how old the map is"
+			],
+			"explain": "The scale tells you how much smaller the map is, so you can turn map distances into real ones."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A scale bar is a line on a map marked with real distances.",
+			"answer": true,
+			"hint": "Look at the picture of the scale bar.",
+			"explain": "True: you measure on the map, then compare with the scale bar."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "On a map, 1 cm stands for 2 km. The river is 3 cm from the farm on the map. How far is it really, in km?",
+			"answer": "6",
+			"hint": "Each centimetre is 2 km: count in twos.",
+			"explain": "3 × 2 = 6 km."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "On a map, 1 cm stands for 5 km. A road on the map is 7 cm long. How long is it really, in km?",
+			"answer": "35",
+			"hint": "Multiply the centimetres by 5.",
+			"explain": "7 × 5 = 35 km."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "On a map, 1 cm stands for 10 km. Two towns are 40 km apart. How far apart are they on the map, in cm?",
+			"answer": "4",
+			"hint": "How many lots of 10 km make 40 km?",
+			"explain": "40 ÷ 10 = 4 cm."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How can you measure a winding road on a map?",
+			"answer": 0,
+			"hint": "A ruler is straight, but the road bends.",
+			"choices": [
+				"lay string along it, then measure the string",
+				"measure it with a straight ruler",
+				"guess",
+				"count the towns"
+			],
+			"explain": "Lay a string along the bends, straighten it, measure it, then use the scale."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A road between two towns is never shorter than the straight line between them.",
+			"answer": true,
+			"hint": "Can a bendy path be shorter than a straight one?",
+			"explain": "True: the straight line, as the crow flies, is the shortest way; roads that bend are longer."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which map would show every path and stream near your house?",
+			"answer": 0,
+			"hint": "Which map shows a small area in lots of detail?",
+			"choices": [
+				"a walker's map, like 1 : 25,000",
+				"a map of the whole world",
+				"a map of Europe",
+				"a globe"
+			],
+			"explain": "A walker's map, such as 1 : 25,000, shows a small area in detail: paths, streams and even walls."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A map's scale is 1 : 100,000, so 1 cm stands for 1 km. A lake is 3 cm across on the map. How many metres across is it really?",
+			"answer": "3000",
+			"hint": "First find the kilometres, then remember that 1 km is 1,000 m.",
+			"explain": "3 cm stand for 3 km, and 3 km is 3,000 m."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "On a map, 1 cm stands for 4 km. A path goes 3 cm to a bridge, then 2 cm to a castle. How far is that really, in km?",
+			"answer": "20",
+			"hint": "Add the centimetres first, then use the scale.",
+			"explain": "3 + 2 = 5 cm, and 5 × 4 = 20 km."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "On a walker's map at 1 : 25,000, how many cm stand for 1 km?",
+			"answer": 0,
+			"hint": "1 cm is 25,000 cm, which is 250 m. How many lots of 250 m make 1,000 m?",
+			"choices": [
+				"4 cm",
+				"1 cm",
+				"25 cm",
+				"100 cm"
+			],
+			"explain": "1 cm stands for 250 m, and 4 × 250 = 1,000 m, which is 1 km. So 4 cm stand for 1 km."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "1 : 50,000 means 1 cm on the map stands for 50,000 cm. How many metres is that?",
+			"answer": "500",
+			"hint": "100 cm make 1 m, so divide by 100.",
+			"explain": "50,000 ÷ 100 = 500 m."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara measures 6 cm on a map where 1 cm stands for 2 km, but she walks 15 km. Why?",
+			"answer": 0,
+			"hint": "Did she walk as the crow flies?",
+			"choices": [
+				"her path bent, so it was longer",
+				"the map is wrong",
+				"she walked backwards",
+				"kilometres change size"
+			],
+			"explain": "6 × 2 = 12 km is the straight line. Her path bent round hills and rivers, so it was longer: 15 km."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4h.map_scale",
+			"level": 1
+		},
+		{
+			"gen": "g4h.map_scale",
+			"level": 2
+		},
+		{
+			"gen": "g4h.map_scale",
+			"level": 3
+		}
+	]
+}

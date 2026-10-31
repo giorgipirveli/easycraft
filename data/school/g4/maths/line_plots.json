@@ -1,0 +1,250 @@
+{
+	"id": "g4.maths.line_plots",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met line plots with halves and quarters. On a line plot, what does each X stand for? One thing that was measured."
+		},
+		{
+			"text": "A line plot shows data on a number line. Each X is one thing that was measured: here, each X is one stick.",
+			"picture": {
+				"kind": "line_plot",
+				"den": 4,
+				"from": 0,
+				"to": 4,
+				"counts": {
+					"1": 2,
+					"2": 3,
+					"3": 1
+				},
+				"unit": "Length of the sticks (m)"
+			}
+		},
+		{
+			"text": "Read a line plot by counting the Xs: in this one, 3 sticks are 2/4 m long and 1 stick is 3/4 m long."
+		},
+		{
+			"text": "Find the difference between the longest and the shortest stick by taking away: 3/4 − 1/4 = 2/4 m.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "1",
+				"step": "1/4",
+				"marks": [
+					"1/4",
+					"3/4"
+				],
+				"labels": "all"
+			}
+		},
+		{
+			"text": "Add lengths to put sticks end to end: two sticks of 1/4 m make a line 2/4 m long."
+		},
+		{
+			"text": "Try it in the world: measure 6 sticks or planks in quarters of a metre and draw a line plot. Which length has the most Xs? Next: angles."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many sticks are 3/8 m long?",
+			"answer": "4",
+			"hint": "Count the Xs above 3/8.",
+			"explain": "There are 4 Xs above 3/8.",
+			"picture": {
+				"kind": "line_plot",
+				"den": 8,
+				"from": 0,
+				"to": 8,
+				"counts": {
+					"2": 2,
+					"3": 4,
+					"5": 1,
+					"6": 3
+				},
+				"unit": "Length of the sticks (m)"
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many sticks are longer than 4/8 m?",
+			"answer": "4",
+			"hint": "Count the Xs to the right of 4/8.",
+			"explain": "1 stick is 5/8 m and 3 are 6/8 m: 4 sticks.",
+			"picture": {
+				"kind": "line_plot",
+				"den": 8,
+				"from": 0,
+				"to": 8,
+				"counts": {
+					"2": 2,
+					"3": 4,
+					"5": 1,
+					"6": 3
+				},
+				"unit": "Length of the sticks (m)"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many sticks were measured?",
+			"answer": "10",
+			"hint": "Every X is one stick: count them all.",
+			"explain": "2 + 4 + 1 + 3 = 10 sticks.",
+			"picture": {
+				"kind": "line_plot",
+				"den": 8,
+				"from": 0,
+				"to": 8,
+				"counts": {
+					"2": 2,
+					"3": 4,
+					"5": 1,
+					"6": 3
+				},
+				"unit": "Length of the sticks (m)"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is the difference in length between the longest and the shortest stick, in metres?",
+			"answer": "4/8",
+			"hint": "The longest is 6/8 m and the shortest 2/8 m.",
+			"explain": "6/8 − 2/8 = 4/8 m",
+			"picture": {
+				"kind": "line_plot",
+				"den": 8,
+				"from": 0,
+				"to": 8,
+				"counts": {
+					"2": 2,
+					"3": 4,
+					"5": 1,
+					"6": 3
+				},
+				"unit": "Length of the sticks (m)"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which length is the most common?",
+			"choices": [
+				"3/8 m",
+				"6/8 m",
+				"2/8 m",
+				"5/8 m"
+			],
+			"answer": 0,
+			"hint": "Which length has the most Xs?",
+			"explain": "3/8 m has 4 Xs, the most.",
+			"picture": {
+				"kind": "line_plot",
+				"den": 8,
+				"from": 0,
+				"to": 8,
+				"counts": {
+					"2": 2,
+					"3": 4,
+					"5": 1,
+					"6": 3
+				},
+				"unit": "Length of the sticks (m)"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "All the 6/8 m sticks are laid end to end. How long is the line, in metres?",
+			"answer": "18/8",
+			"hint": "There are 3 sticks of 6/8 m.",
+			"explain": "6/8 + 6/8 + 6/8 = 18/8 m",
+			"picture": {
+				"kind": "line_plot",
+				"den": 8,
+				"from": 0,
+				"to": 8,
+				"counts": {
+					"2": 2,
+					"3": 4,
+					"5": 1,
+					"6": 3
+				},
+				"unit": "Length of the sticks (m)"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Together, the two 2/8 m sticks are as long as one 4/8 m stick.",
+			"answer": true,
+			"hint": "Add 2/8 + 2/8.",
+			"explain": "2/8 + 2/8 = 4/8",
+			"picture": {
+				"kind": "line_plot",
+				"den": 8,
+				"from": 0,
+				"to": 8,
+				"counts": {
+					"2": 2,
+					"3": 4,
+					"5": 1,
+					"6": 3
+				},
+				"unit": "Length of the sticks (m)"
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the lengths: more than 1/2 m, or not?",
+			"items": [
+				"1/4 m",
+				"3/4 m",
+				"2/4 m",
+				"4/4 m"
+			],
+			"groups": [
+				"more than 1/2 m",
+				"1/2 m or less"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "2/4 is the same as 1/2. Compare the quarters with 2/4.",
+			"explain": "3/4 m and 4/4 m are more than 1/2 m. 1/4 m is less, and 2/4 m is exactly 1/2 m."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4g.plot_read",
+			"level": 1
+		},
+		{
+			"gen": "g4g.plot_read",
+			"level": 2
+		},
+		{
+			"gen": "g4g.plot_read",
+			"level": 3
+		},
+		{
+			"gen": "g4g.plot_math",
+			"level": 1
+		},
+		{
+			"gen": "g4g.plot_math",
+			"level": 2
+		},
+		{
+			"gen": "g4g.plot_math",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,364 @@
+{
+	"id": "g3.design_tech.levers_linkages",
+	"lesson": [
+		{
+			"text": "Quick memory: which shape makes a frame strong? (A triangle.) Today: how to make things move, with levers and linkages."
+		},
+		{
+			"text": "A lever is a bar that turns about a point called the pivot. You push or pull on one part (the effort) to move something on another part (the load). A seesaw is a lever.",
+			"picture": {
+				"kind": "lever",
+				"pivot": 5,
+				"load": 1,
+				"effort": 9
+			}
+		},
+		{
+			"text": "The further from the pivot you push, the easier it is to lift the load. That is why a long spoon opens a tight lid more easily than a short one.",
+			"picture": {
+				"kind": "lever",
+				"pivot": 2,
+				"load": 0,
+				"effort": 10
+			}
+		},
+		{
+			"text": "Levers are everywhere: scissors (two levers), a bottle opener and a wheelbarrow. A spoon lifting a lid is one, and so is your own arm, which turns at the elbow."
+		},
+		{
+			"text": "Push one end of a seesaw down and the other end goes up: a lever can change the direction of a movement."
+		},
+		{
+			"text": "A linkage is levers joined with pivots. A fixed pivot is pinned to the card and does not move; a loose pivot joins two levers and moves with them. Paper fasteners make good pivots.",
+			"picture": {
+				"kind": "linkage",
+				"type": "reverse",
+				"labels": true
+			}
+		},
+		{
+			"text": "In a moving picture, pulling a lever can make a bird flap its wings or a door swing open. Where you put the pivots decides which way the part moves, and how far."
+		},
+		{
+			"text": "Try it in the world: make a real moving picture with card and a paper fastener. Then build a giant model of it with blocks, showing the pivot, the lever and the load."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the point a lever turns about called?",
+			"answer": 0,
+			"hint": "Look at the triangle under the bar.",
+			"choices": [
+				"the pivot",
+				"the load",
+				"the effort",
+				"the handle"
+			],
+			"explain": "The pivot is the point the lever turns about.",
+			"picture": {
+				"kind": "lever",
+				"pivot": 5,
+				"load": 2,
+				"effort": 8,
+				"tags": {
+					"pivot": "?",
+					"load": "load",
+					"effort": "effort"
+				}
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A seesaw is a lever.",
+			"answer": true,
+			"hint": "Does it turn about a point in the middle?",
+			"explain": "True: a seesaw is a bar that turns about its pivot in the middle."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Is it a lever or not?",
+			"groups": [
+				"lever",
+				"not a lever"
+			],
+			"items": [
+				"scissors",
+				"a ball",
+				"a seesaw",
+				"a sock",
+				"a bottle opener",
+				"a wheelbarrow"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Does it have a bar that turns about a pivot?",
+			"explain": "Levers: scissors, a seesaw, a bottle opener, a wheelbarrow. A ball and a sock have no bar and pivot."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do we call the push or pull you give a lever?",
+			"answer": 0,
+			"hint": "It is the work you put in.",
+			"choices": [
+				"the effort",
+				"the pivot",
+				"the load",
+				"the base"
+			],
+			"explain": "Your push or pull is the effort."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where should you push a lever to lift a heavy load most easily?",
+			"answer": 0,
+			"hint": "Think of the long spoon and the tight lid.",
+			"choices": [
+				"as far from the pivot as you can",
+				"right on the pivot",
+				"right next to the load",
+				"anywhere: it makes no difference"
+			],
+			"explain": "Pushing far from the pivot makes lifting easier."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "You push one end of a seesaw down. What does the other end do?",
+			"answer": 0,
+			"hint": "The bar turns about the middle.",
+			"choices": [
+				"goes up",
+				"goes down too",
+				"stays still",
+				"falls off"
+			],
+			"explain": "It goes up: a lever can change the direction of a movement."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part to its meaning.",
+			"items": [
+				"pivot",
+				"effort",
+				"load",
+				"linkage"
+			],
+			"matches": [
+				"the push or pull",
+				"what is being moved",
+				"levers joined by pivots",
+				"the point it turns about"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the lever picture.",
+			"explain": "Pivot: where it turns. Effort: the push or pull. Load: what moves. Linkage: levers joined by pivots."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A fixed pivot moves around with the levers.",
+			"answer": false,
+			"hint": "What does 'fixed' mean?",
+			"explain": "False: a fixed pivot is pinned to the card and stays still. A loose pivot moves with the levers."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "On this lever, which letter is the load?",
+			"answer": 0,
+			"hint": "The load is the crate being lifted.",
+			"choices": [
+				"A",
+				"B",
+				"C"
+			],
+			"explain": "A is the crate, the load. B is the pivot and C is the effort.",
+			"picture": {
+				"kind": "lever",
+				"pivot": 4,
+				"load": 1,
+				"effort": 9,
+				"tags": {
+					"load": "A",
+					"pivot": "B",
+					"effort": "C"
+				}
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is a tight lid easier to open with a long spoon than a short one?",
+			"answer": 0,
+			"hint": "Where is your hand compared with the pivot?",
+			"choices": [
+				"you push further from the pivot",
+				"long spoons are lighter",
+				"short spoons are sharper",
+				"the lid likes long spoons"
+			],
+			"explain": "With a long spoon your hand is further from the pivot, so the same push lifts more."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Scissors are two levers. Where is their pivot?",
+			"answer": 0,
+			"hint": "Where do the two blades turn?",
+			"choices": [
+				"the screw that joins the blades",
+				"the tips",
+				"the finger holes",
+				"the paper"
+			],
+			"explain": "The screw joining the blades is the pivot; your fingers give the effort and the paper is the load."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which lever lifts the crate most easily?",
+			"answer": 0,
+			"hint": "Find the one where the push is furthest from the pivot and the crate is close to it.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "lever",
+						"pivot": 3,
+						"load": 1,
+						"effort": 10
+					}
+				},
+				{
+					"picture": {
+						"kind": "lever",
+						"pivot": 5,
+						"load": 8,
+						"effort": 3
+					}
+				},
+				{
+					"picture": {
+						"kind": "lever",
+						"pivot": 6,
+						"load": 0,
+						"effort": 9
+					}
+				}
+			],
+			"explain": "The one whose push is furthest from the pivot, with the crate close to it: a small push lifts the crate."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps for making a moving picture in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Design first, then make, then test.",
+			"items": [
+				"test and improve the movement",
+				"join it with a paper fastener pivot",
+				"cut a lever from card",
+				"draw the picture and its moving part"
+			],
+			"explain": "Draw it, cut the lever, join it with a paper fastener as the pivot, then test and improve."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Your forearm works like a lever, with the elbow as its pivot.",
+			"answer": true,
+			"hint": "Where does your arm turn when you lift a cup?",
+			"explain": "True: your forearm turns at the elbow, and your muscles give the effort."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara wants the bird's wing to go up when she pushes the handle down. Where should the pivot go?",
+			"answer": 0,
+			"hint": "Think of a seesaw.",
+			"choices": [
+				"between the handle and the wing",
+				"at the end of the handle",
+				"on the wing's tip",
+				"nowhere"
+			],
+			"explain": "With the pivot in between, like a seesaw, pushing one end down lifts the other end up."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the parts of these levers: pivot, effort or load?",
+			"groups": [
+				"pivot",
+				"effort",
+				"load"
+			],
+			"items": [
+				"the middle of a seesaw",
+				"your hand pushing a spoon",
+				"the tight lid",
+				"the screw in scissors",
+				"your push on a wheelbarrow",
+				"the soil in a wheelbarrow"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "The pivot is where it turns, the effort is your push or pull, and the load is what moves.",
+			"explain": "Pivots: the middle of a seesaw, the screw in scissors. Effort: your hand on the spoon, your push on the wheelbarrow. Loads: the tight lid, the soil in the wheelbarrow."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the spoons from the easiest for opening a tight lid to the hardest.",
+			"items": [
+				"a short teaspoon",
+				"a long serving spoon",
+				"a dessert spoon"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The further from the pivot you push, the easier it is.",
+			"explain": "The long serving spoon lets you push furthest from the pivot, so it is easiest. The dessert spoon is next, and the short teaspoon is hardest."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A seesaw's pivot is in the middle. Bram pushes his end down by 30 cm. How many cm does the other end go up?",
+			"answer": "30",
+			"hint": "With the pivot exactly in the middle, both ends move the same distance, in opposite directions.",
+			"explain": "The pivot is in the middle, so both arms are the same length. One end goes down 30 cm and the other goes up 30 cm: the lever changes the direction."
+		}
+	],
+	"generators": []
+}

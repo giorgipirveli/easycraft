@@ -1,0 +1,342 @@
+{
+	"id": "g4.science.rock_layers",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met fossils. What is a fossil? What is left of a living thing from long ago, kept in rock."
+		},
+		{
+			"text": "Rock often forms in layers. Rivers and seas carry sand, mud and tiny bits of shell. They sink and settle on the bottom, one layer on top of another.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					17,
+					3,
+					64,
+					4,
+					2
+				]
+			}
+		},
+		{
+			"text": "Over a very long time, new layers press down on the old ones and they harden into rock. A thick layer can take thousands of years to build up."
+		},
+		{
+			"text": "The layers stack up like pancakes: the one at the bottom was made first, so it is the oldest. The top layer is the youngest.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					17,
+					3,
+					64,
+					4,
+					2
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "A fossil is what is left of a living thing, kept in rock: a shell, a bone, a leaf or even a footprint. It was buried in mud, and the mud slowly turned to stone around it.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					17,
+					3,
+					64,
+					65,
+					2
+				],
+				"fossils": {
+					"1": "shell",
+					"2": "fish",
+					"3": "leaf"
+				}
+			}
+		},
+		{
+			"text": "Fossils tell stories. A fish fossil high on a mountain means that place was once under water. A fern fossil in a cold place means it was once warm and wet."
+		},
+		{
+			"text": "In your worlds, look at a cliff or dig down: grass and dirt on top, stone below, deep stone and bedrock at the bottom. Real rock layers build up in a similar way, only far more slowly. Next: weathering.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					18,
+					17,
+					3,
+					2,
+					1
+				]
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In rock layers that have not been moved, the bottom layer is usually the oldest.",
+			"answer": true,
+			"hint": "Which layer was laid down first?",
+			"explain": "Layers settle one on top of another, so the bottom one came first."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which layer in this cliff is the oldest?",
+			"answer": 0,
+			"hint": "Layers are laid down from the bottom up.",
+			"choices": [
+				"the bottom layer",
+				"the top layer",
+				"the middle layer"
+			],
+			"explain": "The bottom layer formed first.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					17,
+					3,
+					64,
+					4,
+					2
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in the order they happen, first to last.",
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "What has to happen before layers can pile up?",
+			"items": [
+				"More layers pile on top.",
+				"The layers are pressed and harden into rock.",
+				"Sand and mud settle on the sea floor."
+			],
+			"explain": "First sand and mud settle, then more layers pile on top, and at last they harden into rock."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a fossil?",
+			"answer": 0,
+			"hint": "Think of shells and bones found in rock.",
+			"choices": [
+				"the remains of a living thing kept in rock",
+				"a shiny crystal that grows in caves",
+				"a rock that melted in a volcano",
+				"a layer of sand on a beach"
+			],
+			"explain": "A fossil is the remains or the trace of a living thing, kept in rock."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A fish fossil is found near the top of a mountain. What does it tell us?",
+			"answer": 0,
+			"hint": "Where do fish live?",
+			"choices": [
+				"That place was once under water",
+				"Fish once lived on mountain tops",
+				"The fossil fell from the sky",
+				"Someone dropped it there"
+			],
+			"explain": "Fish live in water, so the rock of that mountain was once under water."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A fern fossil in a cold, dry desert shows the place was once warm and wet.",
+			"answer": true,
+			"hint": "Where do ferns grow?",
+			"explain": "Ferns grow where it is warm and wet, so that is what the place was like long ago."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which of these could become a fossil?",
+			"answer": 0,
+			"hint": "A fossil forms from a living thing buried in mud.",
+			"choices": [
+				"a shell buried in mud",
+				"a cloud",
+				"a sound",
+				"a shadow"
+			],
+			"explain": "A shell buried in mud can turn into a fossil."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Each layer of this cliff took about 1,000 years to form. How many years did the 5 layers take?",
+			"answer": "5,000",
+			"hint": "5 layers of 1,000 years each: multiply.",
+			"explain": "5 × 1,000 = 5,000 years.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					17,
+					3,
+					64,
+					4,
+					2
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which fossil is older?",
+			"answer": 0,
+			"hint": "The deeper the layer, the older it is.",
+			"choices": [
+				"the shell",
+				"the leaf",
+				"They are the same age"
+			],
+			"explain": "The shell is in a lower layer than the leaf, so it is older.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					17,
+					3,
+					64,
+					4,
+					2
+				],
+				"fossils": {
+					"1": "shell",
+					"3": "leaf"
+				}
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A footprint can become a fossil.",
+			"answer": true,
+			"hint": "Think of a footprint pressed into soft mud.",
+			"explain": "A footprint pressed into mud can harden and be kept in rock. It is called a trace fossil."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The bottom layers of a cliff have fish fossils. The top layers have leaf fossils. What happened to this place?",
+			"answer": 0,
+			"hint": "Older layers are lower. What lived there first, and what lived there later?",
+			"choices": [
+				"A sea became dry land",
+				"Dry land became a sea",
+				"Nothing changed",
+				"The leaves turned into fish"
+			],
+			"explain": "Fish lived there first, under water. Later, plants grew: a sea became dry land."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the layers in order from oldest to youngest.",
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The oldest is the one laid down first.",
+			"items": [
+				"the top layer",
+				"the bottom layer",
+				"the middle layer"
+			],
+			"explain": "Bottom, middle, top: the bottom layer was laid down first, so it is the oldest."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In your worlds, where is the oldest rock?",
+			"answer": 0,
+			"hint": "Think of the layers you dig through.",
+			"choices": [
+				"deep underground",
+				"at the top of a hill",
+				"in the sky",
+				"on the grass"
+			],
+			"explain": "The deepest layers were laid down first: deep stone and bedrock at the bottom."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: could it become a fossil, or not?",
+			"groups": [
+				"could become a fossil",
+				"could not"
+			],
+			"items": [
+				"a bone buried in mud",
+				"a cloud",
+				"a leaf pressed in mud",
+				"a song",
+				"a footprint in soft mud",
+				"a puff of smoke"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "A fossil is kept in rock. Could it be buried in mud?",
+			"explain": "A bone, a leaf and a footprint can be buried in mud that turns to rock. A cloud, a song and smoke can never be buried, so they cannot become fossils."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In a cliff, the bottom 3 layers took 2,000 years each. The top 2 layers took 1,000 years each. How many years in all?",
+			"answer": "8,000",
+			"accept": [
+				"8000"
+			],
+			"hint": "Work out the bottom layers and the top layers, then add.",
+			"explain": "3 × 2,000 = 6,000 years for the bottom layers. 2 × 1,000 = 2,000 years for the top. 6,000 + 2,000 = 8,000 years."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4s.older_fossil",
+			"level": 1
+		},
+		{
+			"gen": "g4s.older_fossil",
+			"level": 2
+		},
+		{
+			"gen": "g4s.older_fossil",
+			"level": 3
+		},
+		{
+			"gen": "g4s.layer_years",
+			"level": 1
+		},
+		{
+			"gen": "g4s.layer_years",
+			"level": 2
+		},
+		{
+			"gen": "g4s.layer_years",
+			"level": 3
+		},
+		{
+			"gen": "g4s.layer_age",
+			"level": 1
+		},
+		{
+			"gen": "g4s.layer_age",
+			"level": 2
+		}
+	]
+}

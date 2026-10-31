@@ -1,0 +1,462 @@
+{
+	"id": "g6.science.nutrition_digestion",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4, where does digested food pass into the blood? (Through the walls of the small intestine.) Today: what is in food, how to test for it, and the enzymes that break it down."
+		},
+		{
+			"text": "Food gives you seven things: carbohydrates (energy), proteins (growth and repair) and fats (stored energy and warmth). Vitamins and minerals keep you healthy in small amounts. Fibre keeps food moving through the gut. And water."
+		},
+		{
+			"text": "A balanced diet has all seven in the right amounts: plenty of fruit, vegetables and starchy foods, some protein and dairy, a little oil, and water. Missing one causes problems: no vitamin C causes scurvy, and too little iron causes anaemia.",
+			"picture": {
+				"kind": "plate"
+			}
+		},
+		{
+			"text": "You can test food for nutrients. Iodine turns from orange-brown to blue-black with starch. Benedict's solution, heated, turns from blue to brick red with sugar. Biuret turns from blue to purple with protein. Fat leaves a see-through spot on paper.",
+			"picture": {
+				"kind": "food_test",
+				"tubes": [
+					[
+						"starch",
+						true,
+						"bread"
+					],
+					[
+						"sugar",
+						true,
+						"grape"
+					],
+					[
+						"protein",
+						true,
+						"egg"
+					],
+					[
+						"fat",
+						true,
+						"butter"
+					]
+				]
+			}
+		},
+		{
+			"text": "Digestion breaks big food molecules into small ones that can pass into the blood. Enzymes do the cutting: they are special proteins that speed up the breaking, and each one works on one kind of food.",
+			"picture": {
+				"kind": "enzyme_cut",
+				"food": "starch"
+			}
+		},
+		{
+			"text": "Amylase, in your saliva, breaks starch into sugars. Protease, in your stomach, breaks proteins into amino acids. Lipase breaks fats into fatty acids and glycerol, helped by bile from the liver, which breaks fat into tiny drops.",
+			"picture": {
+				"kind": "enzyme_cut",
+				"food": "fat"
+			}
+		},
+		{
+			"text": "In the small intestine, digested food passes into the blood through millions of tiny, finger-like villi, which give it a huge surface. The large intestine takes back water, and fibre keeps everything moving.",
+			"picture": {
+				"kind": "digestion",
+				"labels": true,
+				"mark": "small intestine"
+			}
+		},
+		{
+			"text": "Try it in the world: chew a piece of bread for a minute: it starts to taste sweet as amylase turns its starch into sugar. Food tests with chemicals are done only in a lab, with a teacher. Next: senses and memory."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which nutrient gives you most of your energy?",
+			"choices": [
+				"carbohydrates",
+				"vitamins",
+				"fibre",
+				"minerals"
+			],
+			"answer": 0,
+			"hint": "Think of bread, rice and pasta.",
+			"explain": "Carbohydrates, such as the starch in bread and rice, are your main energy food."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Iodine was dropped on a food and turned blue-black. What does the food contain?",
+			"choices": [
+				"starch",
+				"protein",
+				"fat",
+				"sugar"
+			],
+			"answer": 0,
+			"hint": "Which nutrient does iodine test for?",
+			"explain": "Iodine turns from orange-brown to blue-black when there is starch.",
+			"picture": {
+				"kind": "food_test",
+				"tubes": [
+					[
+						"starch",
+						true,
+						"A"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Fibre keeps food moving through your gut.",
+			"answer": true,
+			"hint": "Think about wholegrain bread and vegetables.",
+			"explain": "True: fibre helps food move along and stops constipation."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each nutrient to its job.",
+			"items": [
+				"proteins",
+				"fats",
+				"calcium",
+				"iron"
+			],
+			"matches": [
+				"stored energy",
+				"strong bones",
+				"red blood cells",
+				"growth and repair"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Start with the one you are surest of.",
+			"explain": "Proteins: growth and repair. Fats: stored energy. Calcium: strong bones. Iron: red blood cells."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The picture shows protein being cut into amino acids. Which enzyme is doing it?",
+			"choices": [
+				"protease",
+				"amylase",
+				"lipase",
+				"saliva"
+			],
+			"answer": 0,
+			"hint": "Enzymes that break protein have prote- in their name.",
+			"explain": "Protease breaks proteins into amino acids.",
+			"picture": {
+				"kind": "enzyme_cut",
+				"food": "protein",
+				"hide": "enzyme"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an enzyme?",
+			"choices": [
+				"a protein that speeds up breaking food",
+				"a kind of vitamin",
+				"a part of the stomach",
+				"a sugar"
+			],
+			"answer": 0,
+			"hint": "Think of the cutting shape in the pictures.",
+			"explain": "An enzyme is a special protein that speeds up a reaction, such as cutting big food molecules into small ones."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the foods by the nutrient they are richest in.",
+			"groups": [
+				"carbohydrates",
+				"proteins",
+				"fats"
+			],
+			"items": [
+				"pasta",
+				"eggs",
+				"butter",
+				"potatoes",
+				"lentils",
+				"olive oil"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Energy foods, growth foods, or oils and butter?",
+			"explain": "Carbohydrates: pasta, potatoes. Proteins: eggs, lentils. Fats: butter, olive oil."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Three foods were tested with biuret. Which one contains protein?",
+			"choices": [
+				"food B",
+				"food A",
+				"food C"
+			],
+			"answer": 0,
+			"hint": "Biuret changes from blue to purple when there is protein.",
+			"explain": "Food B turned purple, so it contains protein; A and C stayed blue.",
+			"picture": {
+				"kind": "food_test",
+				"tubes": [
+					[
+						"protein",
+						false,
+						"A"
+					],
+					[
+						"protein",
+						true,
+						"B"
+					],
+					[
+						"protein",
+						false,
+						"C"
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the path of food in order.",
+			"items": [
+				"gullet",
+				"small intestine",
+				"mouth",
+				"stomach",
+				"large intestine"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start where you chew.",
+			"explain": "Mouth, gullet, stomach, small intestine, large intestine."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A lack of which vitamin causes scurvy?",
+			"choices": [
+				"vitamin C",
+				"vitamin D",
+				"iron",
+				"calcium"
+			],
+			"answer": 0,
+			"hint": "Sailors long ago caught it on long voyages without fresh fruit.",
+			"explain": "Vitamin C. In 1747 James Lind found that oranges and lemons made sailors with scurvy better."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Bile, made in the liver, breaks fat into tiny drops so lipase can work faster.",
+			"answer": true,
+			"hint": "Think of washing-up liquid on a greasy pan.",
+			"explain": "True: bile breaks fat into tiny drops, giving lipase much more surface to work on."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where does most digested food pass into the blood?",
+			"choices": [
+				"the small intestine",
+				"the stomach",
+				"the large intestine",
+				"the gullet"
+			],
+			"answer": 0,
+			"hint": "It is the longest part, lined with villi.",
+			"explain": "In the small intestine, through the villi, into the blood.",
+			"picture": {
+				"kind": "digestion",
+				"labels": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A food was tested four ways. What does it contain?",
+			"choices": [
+				"starch and protein",
+				"sugar and fat",
+				"starch only",
+				"protein and fat"
+			],
+			"answer": 0,
+			"hint": "Read each result: blue-black, brick red, purple, or a see-through spot?",
+			"explain": "Iodine went blue-black (starch) and biuret purple (protein); Benedict's stayed blue and the paper had no spot.",
+			"picture": {
+				"kind": "food_test",
+				"tubes": [
+					[
+						"starch",
+						true
+					],
+					[
+						"sugar",
+						false
+					],
+					[
+						"protein",
+						true
+					],
+					[
+						"fat",
+						false
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does bread start to taste sweet if you chew it for a long time?",
+			"choices": [
+				"amylase turns its starch into sugar",
+				"bread has sugar on top",
+				"your tongue gets tired",
+				"water makes it sweet"
+			],
+			"answer": 0,
+			"hint": "Which enzyme is in saliva, and what does it make?",
+			"explain": "Amylase in your saliva breaks starch into sugars, which taste sweet."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An adult's small intestine is about 6 m long and the large intestine about 1.5 m. About how long are they together, in metres?",
+			"answer": "7.5",
+			"hint": "Add the two lengths.",
+			"explain": "6 + 1.5 = 7.5 m."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Villi make the small intestine's surface much bigger, so food passes into the blood faster.",
+			"answer": true,
+			"hint": "Why does a towel have loops?",
+			"explain": "True: millions of villi give a huge surface for digested food to pass through."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each enzyme to what it makes.",
+			"items": [
+				"amylase",
+				"protease",
+				"lipase"
+			],
+			"matches": [
+				"amino acids",
+				"fatty acids and glycerol",
+				"sugars"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Match each enzyme to the food it cuts, then to what that food is made of.",
+			"explain": "Amylase: starch into sugars. Protease: protein into amino acids. Lipase: fat into fatty acids and glycerol."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A meal is only white bread and butter. What is it missing?",
+			"choices": [
+				"protein, vitamins and fibre",
+				"carbohydrates",
+				"fats",
+				"nothing at all"
+			],
+			"answer": 0,
+			"hint": "Which of the seven do bread and butter give? Which are left out?",
+			"explain": "Bread gives carbohydrates and butter gives fat; the meal lacks protein, vitamins, minerals and fibre, so add beans, fruit and vegetables."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each food test to the result that shows the nutrient is there.",
+			"items": [
+				"iodine (starch)",
+				"Benedict's (sugar)",
+				"biuret (protein)",
+				"paper (fat)"
+			],
+			"matches": [
+				"purple",
+				"a see-through spot",
+				"blue-black",
+				"brick red"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Each test changes in its own way when the nutrient is there.",
+			"explain": "Iodine turns blue-black with starch. Benedict's, heated, turns brick red with sugar. Biuret turns purple with protein. Fat leaves a see-through spot on paper."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6k.nutrient_find",
+			"level": 1
+		},
+		{
+			"gen": "g6k.nutrient_find",
+			"level": 2
+		},
+		{
+			"gen": "g6k.nutrient_find",
+			"level": 3
+		},
+		{
+			"gen": "g6k.food_test_read",
+			"level": 1
+		},
+		{
+			"gen": "g6k.food_test_read",
+			"level": 2
+		},
+		{
+			"gen": "g6k.food_test_read",
+			"level": 3
+		},
+		{
+			"gen": "g6k.enzyme_job",
+			"level": 1
+		},
+		{
+			"gen": "g6k.enzyme_job",
+			"level": 2
+		},
+		{
+			"gen": "g6k.enzyme_job",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,40 @@
+# Nakama settings for the EasyCraft server on the internet (server/deploy, docs/hosting.md).
+# Reference: https://heroiclabs.com/docs/nakama/getting-started/configuration/
+#
+# No secrets here. At every start, start.sh writes them from .env into a second config file in
+# memory (/run/easycraft/secrets.yml): socket.server_key, both session encryption keys, the
+# console's username, password and signing key, runtime.http_key, the database address and
+# runtime.env. Nakama merges the two files (the second wins).
+#
+# Keep the values the game depends on equal to the development server's (server/nakama/local.yml):
+# tests/unit/test_hosting_kit.gd compares them.
+
+name: easycraft
+
+logger:
+  level: "INFO"
+  format: "json"
+  stdout: true
+  file: ""                        # no log file: Docker keeps and rotates stdout (docker-compose.yml)
+
+session:
+  token_expiry_sec: 7200          # 2 h; the game signs in again by device id
+  refresh_token_expiry_sec: 2592000
+
+socket:
+  # The game sends Godot packets over 32 KiB in pieces (RelayBridge), about 44 KB as base64 in JSON;
+  # Nakama closes a session that sends a message bigger than this (server/nakama/local.yml).
+  max_message_size_bytes: 65536
+  # One HTTP request's size (default 256 KiB): the profile backup of a child who practised the whole School
+  # is up to ~1 MB, sent as an escaped JSON string (owner #70/#71; tests/unit/test_hosting_kit.gd).
+  max_request_size_bytes: 4194304
+  # Messages waiting for one session; a full queue closes that session.
+  outgoing_queue_size: 1024
+
+runtime:
+  js_entrypoint: "build/index.js"
+
+console:
+  # The developer console. docker-compose.yml publishes it on the server's 127.0.0.1 only: open it
+  # through an SSH tunnel (docs/hosting.md, "The console").
+  port: 7351

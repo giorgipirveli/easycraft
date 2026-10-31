@@ -1,0 +1,107 @@
+{
+	"id": "g8.maths.linear_equations",
+	"lesson": [
+		{
+			"text": "When x is on both sides, move the x terms to one side first: 5x + 3 = 2x + 12 gives 3x + 3 = 12, then 3x = 9, so x = 3."
+		},
+		{
+			"text": "Some equations have one solution, some none, some infinitely many."
+		},
+		{
+			"text": "No solution: the x terms cancel and a false statement is left: 2x + 1 = 2x + 5 gives 1 = 5."
+		},
+		{
+			"text": "Infinitely many: both sides are the same: 3(x + 2) = 3x + 6 is true for every x."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Solve: 5x + 3 = 2x + 12. What is x?",
+			"answer": "3",
+			"hint": "Take 2x from both sides.",
+			"explain": "3x = 9, x = 3."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Solve: 4x − 2 = x + 7. What is x?",
+			"answer": "3",
+			"hint": "3x = 9.",
+			"explain": "x = 3."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "2x + 1 = 2x + 5 has no solution.",
+			"answer": true,
+			"hint": "The x terms cancel.",
+			"explain": "Yes: 1 = 5 is false."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Solve: 3(x + 1) = x + 11. What is x?",
+			"answer": "4",
+			"hint": "3x + 3 = x + 11.",
+			"explain": "2x = 8, x = 4."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How many solutions does 3(x + 2) = 3x + 6 have?",
+			"answer": 0,
+			"hint": "Expand the left.",
+			"choices": [
+				"infinitely many",
+				"one",
+				"none"
+			],
+			"explain": "Both sides are the same."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Solve: 7x − 5 = 3x + 15. What is x?",
+			"answer": "5",
+			"hint": "4x = 20.",
+			"explain": "x = 5."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Solve: 2(x − 3) = 5x + 9. What is x?",
+			"answer": "-5",
+			"hint": "2x − 6 = 5x + 9.",
+			"explain": "−3x = 15, x = −5."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which equation has exactly one solution?",
+			"answer": 0,
+			"hint": "Different x terms.",
+			"choices": [
+				"4x + 1 = 2x + 7",
+				"4x + 1 = 4x + 7",
+				"4x + 1 = 4x + 1"
+			],
+			"explain": "It gives x = 3."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8n.both_sides",
+			"level": 1
+		},
+		{
+			"gen": "g8n.both_sides",
+			"level": 2
+		},
+		{
+			"gen": "g8n.both_sides",
+			"level": 3
+		}
+	]
+}

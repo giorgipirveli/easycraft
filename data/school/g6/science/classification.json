@@ -1,0 +1,497 @@
+{
+	"id": "g6.science.classification",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3, what does a key do? (It asks yes-or-no questions, one at a time, until it names a living thing.) Today: how scientists sort every living thing into groups, and why.",
+			"picture": {
+				"kind": "key_tree",
+				"questions": [
+					"Does it have feathers?",
+					"Does it have fur?"
+				],
+				"ends": [
+					"robin",
+					"fox",
+					"trout"
+				]
+			}
+		},
+		{
+			"text": "Scientists classify living things by the features they share. The biggest groups are kingdoms; many schools use five: animals, plants, fungi, protists (single cells with a nucleus, like an amoeba) and bacteria (single cells with no nucleus).",
+			"picture": {
+				"kind": "kingdoms",
+				"show": [
+					"animals",
+					"plants",
+					"fungi",
+					"protists",
+					"bacteria"
+				]
+			}
+		},
+		{
+			"text": "Fungi are not plants: they cannot make their own food from sunlight. Mushrooms, moulds and yeast feed on dead or living things and grow from spores. Plants make their own food; animals must eat.",
+			"picture": {
+				"kind": "kingdoms",
+				"show": [
+					"plants",
+					"fungi",
+					"animals"
+				]
+			}
+		},
+		{
+			"text": "Animals with a backbone are vertebrates, in five groups. Fish: gills, fins, scales. Amphibians: moist skin, young in water. Reptiles: dry scales, eggs on land. Birds: feathers, hard eggs. Mammals: fur, milk for their young."
+		},
+		{
+			"text": "Animals with no backbone are invertebrates: about 97% of all animal species. Insects have 6 legs, arachnids such as spiders 8; crustaceans such as crabs wear a hard shell; molluscs such as snails have soft bodies; worms have rings."
+		},
+		{
+			"text": "In 1735 Carl Linnaeus, a Swedish scientist, sorted living things into levels, from kingdom down to species. Later he gave each species a two-part Latin name: you are Homo sapiens, and the wolf is Canis lupus.",
+			"picture": {
+				"kind": "taxon_levels",
+				"example": [
+					"animals",
+					"chordates",
+					"mammals",
+					"carnivores",
+					"dog family",
+					"Canis",
+					"Canis lupus"
+				]
+			}
+		},
+		{
+			"text": "A species is one kind of living thing: its members are alike and can have young together. Why classify? It gives each living thing one name all over the world. It shows how they are related, and helps us find and protect them."
+		},
+		{
+			"text": "Try it in the world: find five small animals in a garden or park (look, but never touch or harm them). Make a key of yes-or-no questions that names each one, and test it on a friend. Next: light travels."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A penguin cannot fly. Which group of vertebrates is it in?",
+			"choices": [
+				"birds",
+				"mammals",
+				"fish",
+				"reptiles"
+			],
+			"answer": 0,
+			"hint": "Look for feathers and a beak.",
+			"explain": "Penguins have feathers and lay hard-shelled eggs: they are birds.",
+			"picture": {
+				"kind": "icon",
+				"animal": "penguin"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A mushroom is a plant.",
+			"answer": false,
+			"hint": "Can it make its own food from sunlight?",
+			"explain": "False: a mushroom is a fungus. It cannot make its own food; it feeds on dead things."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an invertebrate?",
+			"choices": [
+				"an animal with no backbone",
+				"an animal with fur",
+				"a plant with no flowers",
+				"a kind of fish"
+			],
+			"answer": 0,
+			"hint": "A vertebra is one bone of the backbone.",
+			"explain": "Invertebrates, such as insects and worms, have no backbone."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A seal lives in the sea and has flippers. Which group is it in?",
+			"choices": [
+				"mammals",
+				"fish",
+				"amphibians",
+				"reptiles"
+			],
+			"answer": 0,
+			"hint": "Does it breathe air and feed its young on milk?",
+			"explain": "Seals breathe air and feed their pups on milk: they are mammals.",
+			"picture": {
+				"kind": "icon",
+				"animal": "seal"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which group is a lizard in?",
+			"choices": [
+				"reptiles",
+				"amphibians",
+				"mammals",
+				"birds"
+			],
+			"answer": 0,
+			"hint": "Dry, scaly skin and eggs laid on land.",
+			"explain": "A lizard has dry scales and lays eggs on land: a reptile.",
+			"picture": {
+				"kind": "icon",
+				"animal": "lizard"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Use the key. An animal has no feathers, but it has fur. What is it?",
+			"choices": [
+				"fox",
+				"robin",
+				"trout"
+			],
+			"answer": 0,
+			"hint": "Start at question 1: no takes you down, yes names it.",
+			"explain": "Question 1: no feathers, so go down. Question 2: it has fur, yes: a fox.",
+			"picture": {
+				"kind": "key_tree",
+				"questions": [
+					"Does it have feathers?",
+					"Does it have fur?"
+				],
+				"ends": [
+					"robin",
+					"fox",
+					"trout"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the animals: vertebrate or invertebrate?",
+			"groups": [
+				"vertebrate",
+				"invertebrate"
+			],
+			"items": [
+				"frog",
+				"snail",
+				"owl",
+				"spider",
+				"shark",
+				"earthworm"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it have a backbone inside?",
+			"explain": "Vertebrates: frog, owl, shark. Invertebrates: snail, spider, earthworm."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each group of vertebrates to its feature.",
+			"items": [
+				"fish",
+				"amphibian",
+				"reptile",
+				"bird",
+				"mammal"
+			],
+			"matches": [
+				"moist skin",
+				"dry scales",
+				"feathers",
+				"fur and milk",
+				"gills and fins"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				2,
+				3
+			],
+			"hint": "One feature each: how it breathes, its skin or covering, or how it feeds its young.",
+			"explain": "Fish: gills and fins. Amphibian: moist skin. Reptile: dry scales. Bird: feathers. Mammal: fur and milk."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Linnaeus's levels: put them in order, from the biggest group to the smallest.",
+			"items": [
+				"class",
+				"genus",
+				"kingdom",
+				"family",
+				"species"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Kind People Can Often Find Good Snacks: kingdom, phylum, class, order, family, genus, species.",
+			"explain": "Kingdom, class, family, genus, species (phylum and order fit in between)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which kingdom does yeast belong to?",
+			"choices": [
+				"fungi",
+				"plants",
+				"bacteria",
+				"animals"
+			],
+			"answer": 0,
+			"hint": "Yeast cannot make its own food, and it makes bread rise.",
+			"explain": "Yeast is a fungus, like mushrooms and mould."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In this key, which question first tells a spider from a slug?",
+			"choices": [
+				"question 2, about 8 legs",
+				"question 1, about wings",
+				"question 3, about a shell"
+			],
+			"answer": 0,
+			"hint": "Follow each animal down the key: where do their answers first differ?",
+			"explain": "Neither has wings, so question 1 is no for both; the spider has 8 legs, so question 2 separates them.",
+			"picture": {
+				"kind": "key_tree",
+				"questions": [
+					"Does it have wings?",
+					"Does it have 8 legs?",
+					"Does it have a shell?"
+				],
+				"ends": [
+					"butterfly",
+					"spider",
+					"snail",
+					"slug"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "About 97 out of every 100 kinds of animal are invertebrates.",
+			"answer": true,
+			"hint": "Think how many kinds of insect there are.",
+			"explain": "True: about 97% of animal species have no backbone, and most of them are insects."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A bat flies and a penguin swims. Which of them is a mammal?",
+			"choices": [
+				"the bat",
+				"the penguin",
+				"both of them",
+				"neither of them"
+			],
+			"answer": 0,
+			"hint": "Check how each feeds its young, not how it moves.",
+			"explain": "The bat has fur and feeds its young on milk: a mammal. The penguin has feathers: a bird."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do scientists use Latin names like Canis lupus?",
+			"choices": [
+				"one name that the whole world uses",
+				"Latin names are shorter",
+				"to keep the names secret",
+				"animals understand Latin"
+			],
+			"answer": 0,
+			"hint": "A robin in Britain and a robin in America are different birds.",
+			"explain": "Common names change from place to place; a scientific name is the same everywhere."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A dolphin lives in the sea like a fish. Which feature shows it is a mammal?",
+			"choices": [
+				"it breathes air and feeds its young milk",
+				"it has fins",
+				"it swims fast",
+				"it lives in groups"
+			],
+			"answer": 0,
+			"hint": "Fish have fins too. What do only mammals do?",
+			"explain": "Dolphins breathe air with lungs and feed their calves on milk: they are mammals."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort them into kingdoms.",
+			"groups": [
+				"plants",
+				"fungi",
+				"animals"
+			],
+			"items": [
+				"moss",
+				"mould",
+				"coral",
+				"fern",
+				"toadstool",
+				"sponge"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Makes its own food: a plant. Feeds on dead things and grows from spores: a fungus. Eats food: an animal.",
+			"explain": "Plants: moss, fern. Fungi: mould, toadstool. Animals: coral, sponge (both are animals, though they stay in one place)."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Use the key. How many questions does it ask before it names the frog?",
+			"answer": "4",
+			"hint": "Follow the no arrows down until you reach the frog.",
+			"explain": "The frog has no feathers, fur, fins or dry scales, so all 4 questions are answered no before the key names it.",
+			"picture": {
+				"kind": "key_tree",
+				"questions": [
+					"Does it have feathers?",
+					"Does it have fur?",
+					"Does it have fins?",
+					"Does it have dry scales?"
+				],
+				"ends": [
+					"robin",
+					"fox",
+					"trout",
+					"lizard",
+					"frog"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is NOT a reason to classify living things?",
+			"choices": [
+				"to decide which animals are best",
+				"to name each one clearly",
+				"to show how they are related",
+				"to find and protect them"
+			],
+			"answer": 0,
+			"hint": "Scientists sort living things by their features, not by liking them.",
+			"explain": "Classifying names living things, shows how they are related and helps protect them; no group is better."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the invertebrates into their groups.",
+			"groups": [
+				"insects",
+				"arachnids",
+				"molluscs"
+			],
+			"items": [
+				"ant",
+				"spider",
+				"snail",
+				"beetle",
+				"scorpion",
+				"slug"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Count the legs: insects have 6, arachnids 8. Molluscs have soft bodies.",
+			"explain": "Insects, with 6 legs: the ant and the beetle. Arachnids, with 8: the spider and the scorpion. Molluscs, with soft bodies: the snail and the slug."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6k.vertebrate_group",
+			"level": 1
+		},
+		{
+			"gen": "g6k.vertebrate_group",
+			"level": 2
+		},
+		{
+			"gen": "g6k.vertebrate_group",
+			"level": 3
+		},
+		{
+			"gen": "g6k.invertebrate_group",
+			"level": 1
+		},
+		{
+			"gen": "g6k.invertebrate_group",
+			"level": 2
+		},
+		{
+			"gen": "g6k.invertebrate_group",
+			"level": 3
+		},
+		{
+			"gen": "g6k.key_walk",
+			"level": 1
+		},
+		{
+			"gen": "g6k.key_walk",
+			"level": 2
+		},
+		{
+			"gen": "g6k.key_walk",
+			"level": 3
+		},
+		{
+			"gen": "g6k.kingdom_pick",
+			"level": 1
+		},
+		{
+			"gen": "g6k.kingdom_pick",
+			"level": 2
+		},
+		{
+			"gen": "g6k.kingdom_pick",
+			"level": 3
+		},
+		{
+			"gen": "g6k.taxon_order",
+			"level": 1
+		},
+		{
+			"gen": "g6k.taxon_order",
+			"level": 2
+		},
+		{
+			"gen": "g6k.taxon_order",
+			"level": 3
+		}
+	]
+}

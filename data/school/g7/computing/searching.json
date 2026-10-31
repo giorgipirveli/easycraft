@@ -1,0 +1,359 @@
+{
+	"id": "g7.computing.searching",
+	"lesson": [
+		{
+			"text": "Quick memory: what is gems[0]? (The first item of the list: indexes start at 0.) Today: how computers find things in lists, and how to find them fast."
+		},
+		{
+			"text": "Linear search checks the items one by one from the start until it finds the target. It works on any list, sorted or not. Looking for 8 here takes 5 checks.",
+			"picture": {
+				"kind": "search_steps",
+				"items": [
+					9,
+					4,
+					7,
+					1,
+					8,
+					2
+				],
+				"target": 8,
+				"method": "linear"
+			}
+		},
+		{
+			"text": "Linear search can be slow: in 1,000 items the target might be last, so up to 1,000 checks. If the target is not there, it must check every item to be sure."
+		},
+		{
+			"text": "Binary search needs a sorted list. It checks the middle item. If that is not the target, it throws away the half the target cannot be in. Then it checks the middle of what is left.",
+			"picture": {
+				"kind": "search_steps",
+				"items": [
+					3,
+					8,
+					12,
+					15,
+					21,
+					27,
+					30,
+					36,
+					41
+				],
+				"target": 27,
+				"method": "binary",
+				"steps": 1
+			}
+		},
+		{
+			"text": "Worked example: looking for 27. The middle of 9 items is 21: too small, so keep the right half. Its middle is 30: too big. Then 27: found in 3 checks, where linear search takes 6.",
+			"picture": {
+				"kind": "search_steps",
+				"items": [
+					3,
+					8,
+					12,
+					15,
+					21,
+					27,
+					30,
+					36,
+					41
+				],
+				"target": 27,
+				"method": "binary"
+			}
+		},
+		{
+			"text": "Each check halves what is left, so binary search is fast: at most 10 checks for 1,000 items, and at most 20 checks for 1,000,000 items. Doubling the list adds only one check."
+		},
+		{
+			"text": "Which is better? Binary search is far faster on big lists, but the list must be sorted first. For a short or unsorted list, linear search is simpler. A dictionary is searched a bit like binary search."
+		},
+		{
+			"text": "Try it in the world: ask someone to think of a number from 1 to 100. Find it by always guessing the middle of what is left. It never takes more than 7 guesses. Next: sorting algorithms."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A linear search looks for 7, checking from the start. How many checks does it make?",
+			"answer": "3",
+			"hint": "Count along from the first item until you reach 7.",
+			"explain": "It checks 3, then 9, then 7: 3 checks.",
+			"picture": {
+				"kind": "search_steps",
+				"items": [
+					3,
+					9,
+					7,
+					5,
+					1
+				],
+				"target": 7,
+				"method": "linear",
+				"steps": 0
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Binary search looks for 12 in this sorted list. Which number does it check first?",
+			"answer": 0,
+			"hint": "It starts in the middle: 7 items, so item 3 (counting from 0).",
+			"choices": [
+				"12",
+				"2",
+				"23",
+				"8"
+			],
+			"explain": "The middle of indexes 0 to 6 is 3, which holds 12: found in one check.",
+			"picture": {
+				"kind": "search_steps",
+				"items": [
+					2,
+					5,
+					8,
+					12,
+					15,
+					19,
+					23
+				],
+				"target": 12,
+				"method": "binary",
+				"steps": 0
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Binary search only works on a sorted list.",
+			"answer": true,
+			"hint": "How does it know which half to throw away?",
+			"explain": "True: it keeps the half the target can be in, which only works when the items are in order."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Linear search only works on a sorted list.",
+			"answer": false,
+			"hint": "Linear search looks at every item in turn.",
+			"explain": "False: checking every item in turn works on any list."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which search checks the items one by one from the start?",
+			"answer": 0,
+			"hint": "Linear means in a line.",
+			"choices": [
+				"linear search",
+				"binary search",
+				"bubble search",
+				"middle search"
+			],
+			"explain": "Linear search goes along the line of items from the start."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Binary search looks for 30. How many checks does it make?",
+			"answer": "2",
+			"hint": "Check the middle (rounding down), then the middle of the half that is left.",
+			"explain": "The middle of 8 items (0 to 7) is item 3, 18: too small. The middle of items 4 to 7 is item 5, 30: found in 2 checks.",
+			"picture": {
+				"kind": "search_steps",
+				"items": [
+					4,
+					9,
+					13,
+					18,
+					22,
+					30,
+					35,
+					40
+				],
+				"target": 30,
+				"method": "binary",
+				"steps": 0
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A linear search looks for 11 in this list. How many checks does it make?",
+			"answer": "6",
+			"hint": "Count along from the first item.",
+			"explain": "6, 2, 14, 8, 3, then 11: 6 checks.",
+			"picture": {
+				"kind": "search_steps",
+				"items": [
+					6,
+					2,
+					14,
+					8,
+					3,
+					11,
+					5,
+					9
+				],
+				"target": 11,
+				"method": "linear",
+				"steps": 0
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A linear search looks for 20, which is not in this list. How many checks does it make before it knows?",
+			"answer": "6",
+			"hint": "When can a linear search be sure something is missing?",
+			"explain": "It must check all 6 items to be sure 20 is not there: 6 checks.",
+			"picture": {
+				"kind": "search_steps",
+				"items": [
+					6,
+					2,
+					14,
+					8,
+					3,
+					11
+				],
+				"target": 20,
+				"method": "linear",
+				"steps": 0
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Binary search checks the middle item, 21, but it is looking for 9. Which part does it keep?",
+			"answer": 0,
+			"hint": "In a sorted list, where are the numbers smaller than 21?",
+			"choices": [
+				"the items before 21",
+				"the items after 21",
+				"all the items",
+				"only 21"
+			],
+			"explain": "9 is smaller than 21, so it can only be in the part before 21."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of binary search in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What does it do first, and what does it do with the answer?",
+			"items": [
+				"look at the middle of that half",
+				"keep the half the target could be in",
+				"stop if it is the target",
+				"look at the middle item"
+			],
+			"explain": "Middle, found?, keep the right half, then the middle of that half, again and again."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A list has only 6 items and is not sorted. Which search is simplest?",
+			"answer": 0,
+			"hint": "Which one needs the list sorted?",
+			"choices": [
+				"linear search",
+				"binary search"
+			],
+			"explain": "Linear search: binary search would need the list sorted first, which is more work than 6 checks."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A sorted list has 100 names. What is the most checks binary search can need?",
+			"answer": "7",
+			"hint": "Halve 100 again and again, rounding down, until 1 is left, and count.",
+			"explain": "What is left: 100, 50, 25, 12, 6, 3, 1. That is 7 checks at most."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Binary search looks for 26 in this sorted list. How many checks does it make?",
+			"answer": "4",
+			"hint": "Check the middle, keep a half, and count every check.",
+			"explain": "It checks 23 (too small), then 35 (too big), then 29 (too big), then 26: 4 checks.",
+			"picture": {
+				"kind": "search_steps",
+				"items": [
+					2,
+					5,
+					8,
+					11,
+					14,
+					17,
+					20,
+					23,
+					26,
+					29,
+					32,
+					35,
+					38,
+					41,
+					44
+				],
+				"target": 26,
+				"method": "binary",
+				"steps": 0
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A sorted list has 1,000,000 items. What is the most checks binary search can need?",
+			"answer": 0,
+			"hint": "Each check halves what is left. How many halvings take a million down to 1?",
+			"choices": [
+				"20",
+				"1,000",
+				"500,000",
+				"1,000,000"
+			],
+			"explain": "Halving a million 20 times leaves 1, so at most 20 checks."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Doubling the length of a sorted list adds about one check to a binary search.",
+			"answer": true,
+			"hint": "The first check of the longer list halves it.",
+			"explain": "True: the first check halves the doubled list back to the old size."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.linear_checks",
+			"level": 1
+		},
+		{
+			"gen": "g7c.linear_checks",
+			"level": 2
+		},
+		{
+			"gen": "g7c.linear_checks",
+			"level": 3
+		},
+		{
+			"gen": "g7c.binary_checks",
+			"level": 1
+		},
+		{
+			"gen": "g7c.binary_checks",
+			"level": 2
+		},
+		{
+			"gen": "g7c.binary_checks",
+			"level": 3
+		}
+	]
+}

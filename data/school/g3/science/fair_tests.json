@@ -1,0 +1,421 @@
+{
+	"id": "g3.science.fair_tests",
+	"lesson": [
+		{
+			"text": "Remember? In the bean test, only the water changed, so the test was fair. Today we work like scientists from start to finish."
+		},
+		{
+			"text": "Scientists start with a question they can test, like \"Which ball bounces highest?\" Then they predict: \"I think the rubber ball will, because it is bouncy.\""
+		},
+		{
+			"text": "Plan a fair test. Change one thing (the ball). Keep everything else the same (the drop height and the floor). Measure one thing (how high it bounces)."
+		},
+		{
+			"text": "Use the right tool. A ruler or tape measure is for length (cm, m), and scales are for mass (g, kg). A thermometer is for temperature (°C), a stopwatch for time (seconds) and a measuring jug for liquids (mL, L).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"to measure",
+						"use"
+					],
+					[
+						"length",
+						"a ruler"
+					],
+					[
+						"mass",
+						"scales"
+					],
+					[
+						"temperature",
+						"a thermometer"
+					],
+					[
+						"time",
+						"a stopwatch"
+					]
+				]
+			}
+		},
+		{
+			"text": "Record the results in a table with headings and units. Do the test three times, so one odd result does not trick you.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Ball",
+						"Bounce"
+					],
+					[
+						"rubber",
+						"60 cm"
+					],
+					[
+						"tennis",
+						"45 cm"
+					],
+					[
+						"foam",
+						"15 cm"
+					]
+				]
+			}
+		},
+		{
+			"text": "Say what the results show: \"The rubber ball bounced highest, 60 cm. My prediction was right.\" If it was not right, that is useful too: you have learned something new!",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"rubber",
+						60
+					],
+					[
+						"tennis",
+						45
+					],
+					[
+						"foam",
+						15
+					]
+				],
+				"step": 10,
+				"top": 70,
+				"name": "bounce (cm)"
+			}
+		},
+		{
+			"text": "Then ask the next question: \"Does the floor change the bounce?\" Science never stops asking."
+		},
+		{
+			"text": "Try it in the world: every Science Lab experiment starts with a prediction. Do \"Float or sink?\" and write your prediction first. Were you right? Next: design and test a solution."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What would you use to measure how long a pencil is?",
+			"answer": 0,
+			"hint": "Length is measured in centimetres.",
+			"choices": [
+				"a ruler",
+				"scales",
+				"a thermometer",
+				"a stopwatch"
+			],
+			"explain": "A ruler measures length."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What would you use to measure how hot water is?",
+			"answer": 0,
+			"hint": "Temperature is measured in °C.",
+			"choices": [
+				"a thermometer",
+				"a ruler",
+				"scales"
+			],
+			"explain": "A thermometer measures temperature."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a fair test, you change only one thing.",
+			"answer": true,
+			"hint": "Why would changing two things be confusing?",
+			"explain": "True: if only one thing changes, you know what caused the result."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which ball bounced highest?",
+			"answer": 0,
+			"hint": "Find the biggest number in the table.",
+			"choices": [
+				"rubber",
+				"tennis",
+				"foam"
+			],
+			"explain": "The rubber ball bounced 60 cm, the highest.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Ball",
+						"Bounce"
+					],
+					[
+						"rubber",
+						"60 cm"
+					],
+					[
+						"tennis",
+						"45 cm"
+					],
+					[
+						"foam",
+						"15 cm"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bram tests which ball bounces highest. What should he change?",
+			"answer": 0,
+			"hint": "The question is about the balls.",
+			"choices": [
+				"the kind of ball",
+				"the drop height",
+				"the floor"
+			],
+			"explain": "He changes only the ball; the height and floor stay the same."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In that test, what should stay the same?",
+			"answer": 0,
+			"hint": "Everything except the ball.",
+			"choices": [
+				"the drop height and the floor",
+				"the kind of ball",
+				"nothing"
+			],
+			"explain": "Keep the drop height and the floor the same, so only the ball changes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a prediction?",
+			"answer": 0,
+			"hint": "You make it before the test.",
+			"choices": [
+				"what you think will happen",
+				"what did happen",
+				"a tool for measuring"
+			],
+			"explain": "A prediction is what you think will happen, and why, before you test."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many centimetres higher did the rubber ball bounce than the foam ball?",
+			"answer": "45",
+			"hint": "Take the foam ball's bounce from the rubber ball's.",
+			"explain": "60 − 15 = 45 cm higher.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Ball",
+						"Bounce"
+					],
+					[
+						"rubber",
+						"60 cm"
+					],
+					[
+						"tennis",
+						"45 cm"
+					],
+					[
+						"foam",
+						"15 cm"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Scales measure how heavy something is.",
+			"answer": true,
+			"hint": "Think of weighing flour for a cake.",
+			"explain": "True: scales measure mass, in grams and kilograms."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do scientists do a test three times?",
+			"answer": 0,
+			"hint": "What if one drop went wrong?",
+			"choices": [
+				"so one odd result does not trick them",
+				"to make it take longer",
+				"because three is a nice number"
+			],
+			"explain": "Repeating the test shows if a result was odd, so the results can be trusted."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of a science test in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "What do you need before you can test?",
+			"items": [
+				"Make a prediction",
+				"Record the results",
+				"Ask a question",
+				"Do a fair test",
+				"Say what they show"
+			],
+			"explain": "Question, prediction, fair test, record the results, and say what they show."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi's ball bounced 40 cm, 42 cm and then 10 cm. What should she think?",
+			"answer": 0,
+			"hint": "Is one result very different from the others?",
+			"choices": [
+				"The 10 cm result may be odd",
+				"The ball bounces 10 cm",
+				"Balls never bounce"
+			],
+			"explain": "Two results are close; the 10 cm one is odd, so she should check it or test again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which question can you test fairly?",
+			"answer": 0,
+			"hint": "A testable question has an answer you can measure.",
+			"choices": [
+				"Does salt help ice melt faster?",
+				"Is blue the best colour?",
+				"Are cats nicer than dogs?"
+			],
+			"explain": "You can measure how fast ice melts with and without salt. The others are opinions."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A prediction that turns out wrong means the test was useless.",
+			"answer": false,
+			"hint": "Did you learn something?",
+			"explain": "False: a wrong prediction still teaches you something new. That is science!"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What would you use to measure 250 mL of water?",
+			"answer": 0,
+			"hint": "mL measures liquids.",
+			"choices": [
+				"a measuring jug",
+				"a ruler",
+				"a thermometer"
+			],
+			"explain": "A measuring jug measures liquids in millilitres."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each tool to its unit.",
+			"hint": "What does each tool measure?",
+			"items": [
+				"ruler",
+				"scales",
+				"thermometer",
+				"stopwatch"
+			],
+			"matches": [
+				"degrees Celsius",
+				"seconds",
+				"centimetres",
+				"grams"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"explain": "A ruler measures centimetres, scales grams, a thermometer degrees Celsius and a stopwatch seconds."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "In the ball test, what do you change, keep the same, or measure?",
+			"items": [
+				"the ball",
+				"the drop height",
+				"how high it bounces",
+				"the floor"
+			],
+			"groups": [
+				"change",
+				"keep the same",
+				"measure"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				1
+			],
+			"hint": "Only one thing changes, and only one thing is measured.",
+			"explain": "Change the ball; keep the drop height and the floor the same; measure how high it bounces."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the questions: can you test it fairly, or is it an opinion?",
+			"groups": [
+				"can test it",
+				"opinion"
+			],
+			"items": [
+				"Which paper towel soaks up most water?",
+				"Is red the nicest colour?",
+				"Does a seed grow faster in the light?",
+				"Which pet is the best?",
+				"Which ball rolls furthest on grass?",
+				"Are cats nicer than dogs?"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Could you measure the answer with a tool?",
+			"explain": "You can measure water soaked up, how fast a seed grows and how far a ball rolls. Nicest, best and nicer are opinions: no tool can measure them."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The rubber ball bounced 60 cm and the foam ball 15 cm. How many times as high did the rubber ball bounce?",
+			"answer": "4",
+			"hint": "How many lots of 15 cm make 60 cm?",
+			"explain": "60 ÷ 15 = 4, so the rubber ball bounced 4 times as high. Check: 4 × 15 = 60 cm."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3s.tool_unit",
+			"level": 1
+		},
+		{
+			"gen": "g3s.tool_unit",
+			"level": 2
+		},
+		{
+			"gen": "g3s.tool_unit",
+			"level": 3
+		}
+	]
+}

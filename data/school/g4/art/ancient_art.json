@@ -1,0 +1,340 @@
+{
+	"id": "g4.art.ancient_art",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the background of a landscape? (The part furthest away.) In grade 3 you met Stone Age cave art. Today: the art of the first civilisations, like Ancient Egypt."
+		},
+		{
+			"text": "Ancient Egypt lasted about 3,000 years. Its artists painted and carved the walls of tombs and temples with people, animals, and the gods the Egyptians believed in."
+		},
+		{
+			"text": "Egyptian artists followed rules. A person's head is shown from the side, but the eye as if seen from the front. The shoulders face the front, and the legs and feet are shown from the side."
+		},
+		{
+			"text": "Important people were drawn bigger: the pharaoh, the king, is often the biggest person in a picture. Artists drew a grid of squares first, so every figure had the same proportions."
+		},
+		{
+			"text": "Paints came from the earth: red and yellow ochre, green malachite, black soot and white chalk. The Egyptians also made one of the first colours made by people: Egyptian blue.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"red",
+					"yellow",
+					"green",
+					"black",
+					"white",
+					"blue"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Hieroglyphs were Egyptian writing, with hundreds of picture signs. Some stand for sounds: the water sign for n, the mouth for r, the loaf of bread for t.",
+			"picture": {
+				"kind": "glyphs",
+				"signs": [
+					"water",
+					"mouth",
+					"bread"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "A royal name was written inside an oval called a cartouche. The Rosetta Stone, found in 1799, had the same words in hieroglyphs and in Greek. It helped Jean-François Champollion read hieroglyphs in 1822.",
+			"picture": {
+				"kind": "glyphs",
+				"signs": [
+					"stool",
+					"reed",
+					"basket",
+					"foot"
+				],
+				"cartouche": true
+			}
+		},
+		{
+			"text": "Try it in the world: build your own cartouche on a wall in your world: an oval of blocks around signs for the sounds of a made-up name. Then add a figure with Egyptian rules: head from the side, eye from the front."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In Egyptian art, how is a person's eye drawn?",
+			"answer": 0,
+			"hint": "The head is from the side, but the eye breaks the rule.",
+			"choices": [
+				"as if seen from the front",
+				"from the side",
+				"closed",
+				"not at all"
+			],
+			"explain": "The eye is drawn as if seen from the front, even though the head is from the side."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The pharaoh was often drawn bigger than other people.",
+			"answer": true,
+			"hint": "Who was the most important person?",
+			"explain": "True: important people were drawn bigger."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "This hieroglyph is the water sign. Which sound does it stand for?",
+			"answer": 0,
+			"hint": "Remember the three signs from the lesson: water, mouth and bread.",
+			"choices": [
+				"n",
+				"r",
+				"t",
+				"b"
+			],
+			"explain": "The water sign stands for n.",
+			"picture": {
+				"kind": "glyphs",
+				"signs": [
+					"water"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: in Egyptian art, is each part shown from the side or from the front?",
+			"groups": [
+				"from the side",
+				"from the front"
+			],
+			"items": [
+				"the head",
+				"the eye",
+				"the shoulders",
+				"the legs",
+				"the feet"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Remember the rule: the head from the side, but not everything is.",
+			"explain": "From the side: the head, the legs and the feet. From the front: the eye and the shoulders."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each Egyptian paint to its colour.",
+			"items": [
+				"ochre",
+				"malachite",
+				"soot",
+				"chalk"
+			],
+			"matches": [
+				"black",
+				"white",
+				"red or yellow",
+				"green"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Soot comes from fire; malachite is a green stone.",
+			"explain": "Ochre: red or yellow. Malachite: green. Soot: black. Chalk: white."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a cartouche?",
+			"answer": 0,
+			"hint": "Look at the picture: what is drawn around the signs?",
+			"choices": [
+				"an oval around a royal name",
+				"a kind of pyramid",
+				"a paintbrush",
+				"a river boat"
+			],
+			"explain": "A cartouche is the oval drawn around a royal name.",
+			"picture": {
+				"kind": "glyphs",
+				"signs": [
+					"stool",
+					"reed",
+					"basket"
+				],
+				"cartouche": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The Rosetta Stone was found in 1799, and hieroglyphs were read again in 1822. How many years later?",
+			"answer": "23",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1822 − 1799 = 23 years."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why did Egyptian artists draw a grid of squares first?",
+			"answer": 0,
+			"hint": "Think of the portraits lesson: proportions.",
+			"choices": [
+				"to keep every figure in proportion",
+				"to play games",
+				"to count the gods",
+				"to make the paint dry"
+			],
+			"explain": "The grid kept every figure in the same proportions."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Ancient Egypt lasted about 30 years.",
+			"answer": false,
+			"hint": "Was it a short time or a very long one?",
+			"explain": "False: Ancient Egypt lasted about 3,000 years."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which sounds do these two signs stand for?",
+			"answer": 0,
+			"hint": "The first sign is a mouth; the second is a loaf of bread.",
+			"choices": [
+				"r, then t",
+				"t, then r",
+				"n, then b",
+				"k, then p"
+			],
+			"explain": "The mouth stands for r and the bread for t: r, then t.",
+			"picture": {
+				"kind": "glyphs",
+				"signs": [
+					"mouth",
+					"bread"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The Rosetta Stone helped people read hieroglyphs again. Why?",
+			"answer": 0,
+			"hint": "What could people already read?",
+			"choices": [
+				"it had the same words in Greek too",
+				"it was the biggest stone",
+				"it was painted gold",
+				"it had pictures of cats"
+			],
+			"explain": "It had the same words in Greek, which people could read, so they could match them to the hieroglyphs."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Hieroglyphs are read from the side that the people and animals face. The birds in a line face left. Where do you start reading?",
+			"answer": 0,
+			"hint": "You read towards the faces.",
+			"choices": [
+				"on the left",
+				"on the right",
+				"in the middle",
+				"at the bottom"
+			],
+			"explain": "The signs face the start of the line, as if walking towards you. The birds face left, so you start reading on the left and read towards the right."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of an Egyptian wall painting in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The grid comes first; the outline last.",
+			"items": [
+				"Outline everything in dark lines",
+				"Paint flat colours",
+				"Sketch the figures",
+				"Draw a grid of squares"
+			],
+			"explain": "A grid, then the sketch, then flat colours, then dark outlines."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Egyptian blue was one of the first colours made by people, not just dug from the ground.",
+			"answer": true,
+			"hint": "Remember the paints card.",
+			"explain": "True: over 4,000 years ago, the Egyptians heated sand, copper and lime together to make Egyptian blue, one of the first colours made by people."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: an Egyptian rule, or not?",
+			"groups": [
+				"Egyptian rule",
+				"not an Egyptian rule"
+			],
+			"items": [
+				"head drawn from the side",
+				"important people bigger",
+				"a grid for proportions",
+				"shading to look solid",
+				"far things smaller and paler",
+				"shoulders facing the front"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Egyptian painting used flat colours and did not try to show distance.",
+			"explain": "Egyptian rules: head from the side, bigger for importance, grids, shoulders to the front. Shading and distance came much later."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which sounds do these two signs stand for?",
+			"answer": 0,
+			"hint": "The first sign is a foot; the second is a reed.",
+			"choices": [
+				"b, then i",
+				"i, then b",
+				"t, then n",
+				"r, then k"
+			],
+			"explain": "The foot stands for b and the reed for i: b, then i.",
+			"picture": {
+				"kind": "glyphs",
+				"signs": [
+					"foot",
+					"reed"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Egyptian artists drew a standing figure 18 grid squares tall, from the feet to the hairline. Each square is 2 cm. How tall is the figure, in cm?",
+			"answer": "36",
+			"hint": "Multiply the number of squares by the size of one square.",
+			"explain": "18 squares × 2 cm = 36 cm. The grid kept every figure in the same proportions, whoever painted it."
+		}
+	],
+	"generators": []
+}

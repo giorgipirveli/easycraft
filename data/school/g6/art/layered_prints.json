@@ -1,0 +1,295 @@
+{
+	"id": "g6.art.layered_prints",
+	"lesson": [
+		{
+			"text": "Quick memory: in a relief print, which parts take the ink? (The raised parts left after carving.) Today: prints in two or more colours."
+		},
+		{
+			"text": "A layered print is printed several times on the same paper, one colour at a time. Print the lightest colour first: darker ink covers lighter ink, but light ink hardly shows on dark.",
+			"picture": {
+				"kind": "print_layers",
+				"layers": [
+					"yellow",
+					"orange",
+					"red",
+					"black"
+				],
+				"view": "final"
+			}
+		},
+		{
+			"text": "Multi-block prints use a different block for each colour. Japanese woodblock printers like Katsushika Hokusai (1760-1849) carved a block for each colour of The Great Wave, around 1831."
+		},
+		{
+			"text": "Registration keeps the layers lined up. Japanese printers cut two guide marks, called kento, into every block. So the paper went on each one in exactly the same place."
+		},
+		{
+			"text": "A reduction print uses just one block. Print the first colour, cut away more, print the next colour on top, and so on. Pablo Picasso made famous reduction linocuts. There is no going back: cut parts are gone!",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"print colour 1",
+					"cut away more",
+					"print colour 2",
+					"cut again",
+					"print colour 3"
+				],
+				"title": "A reduction print"
+			}
+		},
+		{
+			"text": "Plan it first: draw the design, number the colour areas from lightest to darkest, and decide what to cut away before each colour."
+		},
+		{
+			"text": "Worked example: a sunset in 4 colours. Print yellow all over; cut the sun and print orange; cut the hills' light parts and print red; cut away all but the details and print black.",
+			"picture": {
+				"kind": "print_layers",
+				"layers": [
+					"yellow",
+					"orange",
+					"red",
+					"black"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: plan a two-colour print of your buddy: which parts are light, which are dark, and which colour goes first? Next: lettering and calligraphy."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which colour should you usually print first?",
+			"answer": 0,
+			"hint": "Which ink covers the other?",
+			"choices": [
+				"the lightest",
+				"the darkest",
+				"black",
+				"any: it does not matter"
+			],
+			"explain": "The lightest: darker inks can cover it later."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a multi-block print, each colour has its own block.",
+			"answer": true,
+			"hint": "Think of Hokusai's printers.",
+			"explain": "True: one carved block for each colour."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does registration do?",
+			"answer": 0,
+			"hint": "What goes wrong if the paper moves?",
+			"choices": [
+				"keeps each layer lined up",
+				"shows the price",
+				"makes the ink dry",
+				"signs the print"
+			],
+			"explain": "Registration lines each layer up with the others."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A print has 4 colours, each with its own block. How many blocks are there?",
+			"answer": "4",
+			"hint": "One block for each colour.",
+			"explain": "4 colours, so 4 blocks."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these inks in printing order, first to last.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Print the lightest colour first and the darkest last.",
+			"items": [
+				"black",
+				"red",
+				"orange",
+				"yellow"
+			],
+			"explain": "Lightest to darkest: yellow, orange, red, black."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In a reduction print, you can glue the cut pieces back to print an earlier colour again.",
+			"answer": false,
+			"hint": "What happens to the parts you cut away?",
+			"explain": "False: cut parts are gone for good, so you must plan ahead."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How many blocks does a 5-colour reduction print use?",
+			"answer": 0,
+			"hint": "Reduction: one block, cut down.",
+			"choices": [
+				"1",
+				"5",
+				"2",
+				"10"
+			],
+			"explain": "Just 1 block, cut away a little more before each colour."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "After which layer does the house appear in these prints?",
+			"answer": 0,
+			"hint": "Look at each print from the left.",
+			"choices": [
+				"layer 3",
+				"layer 1",
+				"layer 2",
+				"layer 4"
+			],
+			"explain": "The house first shows in the third print: layer 3.",
+			"picture": {
+				"kind": "print_layers",
+				"layers": [
+					"yellow",
+					"orange",
+					"red",
+					"black"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"multi-block print",
+				"reduction print",
+				"registration",
+				"brayer"
+			],
+			"matches": [
+				"lining up the layers",
+				"a roller that spreads ink",
+				"a block for each colour",
+				"one block, cut each time"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Many blocks, one block, lining up, rolling.",
+			"explain": "Multi-block: a block per colour. Reduction: one block cut down. Registration: lining up. A brayer rolls ink."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why print the lightest colour first?",
+			"answer": 0,
+			"hint": "Try yellow over black, then black over yellow.",
+			"choices": [
+				"dark ink covers light ink, not the other way",
+				"light ink costs the most",
+				"dark ink dries slowly",
+				"the block breaks otherwise"
+			],
+			"explain": "Dark ink covers light ink, but light ink hardly shows on dark."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A print has 7 colours, each on its own block, and 100 copies are made. How many times is paper pressed onto a block?",
+			"answer": "700",
+			"hint": "Each copy is pressed once for each colour.",
+			"explain": "7 × 100 = 700 pressings."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "You can only make as many copies of a reduction print as you printed of the first colour.",
+			"answer": true,
+			"hint": "Once you cut the block for colour 2, can you print colour 1 again?",
+			"explain": "True: after cutting, the first colour cannot be printed again, so the number of copies is fixed at the start."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of a reduction print in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Plan first; what must stay white is cut before any ink.",
+			"items": [
+				"cut away what stays paper colour",
+				"cut away what stays that colour",
+				"draw the design and plan the colours",
+				"print the lightest colour",
+				"print the next, darker colour"
+			],
+			"explain": "Plan, cut the white parts, print the lightest, cut what stays that colour, then print the darker one."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How was Hokusai's Great Wave printed?",
+			"answer": 0,
+			"hint": "Japanese printers of the 1830s used wood.",
+			"choices": [
+				"woodblocks: a block for each colour",
+				"one reduction linocut",
+				"a photograph",
+				"an oil painting"
+			],
+			"explain": "It is a woodblock print, with a carved block for each colour."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A print's second colour lands a little to the left of the first. What went wrong?",
+			"answer": 0,
+			"hint": "Were the layers lined up?",
+			"choices": [
+				"the registration: the paper moved",
+				"the ink was too light",
+				"there were too many copies",
+				"the block was too big"
+			],
+			"explain": "The paper was not lined up the same way: a registration mistake."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly makes 12 copies of a 3-colour reduction print. How many times does she press paper onto the block?",
+			"answer": "36",
+			"hint": "Each copy is pressed once for each colour.",
+			"explain": "12 × 3 = 36 pressings."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.print_order",
+			"level": 1
+		},
+		{
+			"gen": "g6c.print_order",
+			"level": 2
+		},
+		{
+			"gen": "g6c.print_order",
+			"level": 3
+		}
+	]
+}

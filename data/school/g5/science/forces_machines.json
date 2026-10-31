@@ -1,0 +1,477 @@
+{
+	"id": "g5.science.forces_machines",
+	"lesson": [
+		{
+			"text": "Quick memory: which force pulls everything towards the centre of the Earth? (Gravity.) Gravity makes things fall, but other forces push back on moving things: friction, air resistance and water resistance."
+		},
+		{
+			"text": "Friction is a force between two surfaces that rub or slide. It acts against the way something moves, so it slows it down. Rough surfaces like sandpaper and carpet make more friction than smooth ones like ice.",
+			"picture": {
+				"kind": "force_arrows",
+				"thing": "block",
+				"arrows": [
+					[
+						"right",
+						2,
+						"push"
+					],
+					[
+						"left",
+						1,
+						"friction"
+					]
+				],
+				"ground": "carpet",
+				"moving": "right"
+			}
+		},
+		{
+			"text": "Friction is useful: it lets shoes grip, brakes stop a bike and matches light. It is a nuisance too: it wears things out and makes them hot. Oil and grease make surfaces slippery, so there is less friction."
+		},
+		{
+			"text": "Air resistance is friction from the air: air pushes back on things moving through it. A parachute has a big surface, so it catches lots of air and falls slowly. Forces are measured in newtons (N).",
+			"picture": {
+				"kind": "force_arrows",
+				"thing": "parachute",
+				"arrows": [
+					[
+						"up",
+						3,
+						"air resistance"
+					],
+					[
+						"down",
+						3,
+						"gravity"
+					]
+				],
+				"moving": "down"
+			}
+		},
+		{
+			"text": "Water resistance slows things moving through water. Fish, dolphins and fast boats have smooth, pointed, streamlined shapes that slip through with less resistance. Cyclists crouch low to be streamlined in air.",
+			"picture": {
+				"kind": "force_arrows",
+				"thing": "boat",
+				"arrows": [
+					[
+						"right",
+						2,
+						"engine"
+					],
+					[
+						"left",
+						1,
+						"water resistance"
+					]
+				],
+				"moving": "right"
+			}
+		},
+		{
+			"text": "Machines let a small force do a big job. A lever is a bar that turns on a pivot. Push far from the pivot and a small effort lifts a heavy load: seesaws, crowbars, scissors and bottle openers are levers.",
+			"picture": {
+				"kind": "lever",
+				"pivot": 3,
+				"load": 1,
+				"effort": 9
+			}
+		},
+		{
+			"text": "A pulley is a wheel with a rope round it: pull down to lift up. With a moving pulley too, you need about half the effort. Gears are wheels with teeth: a small gear turning a big one turns it slower, with more force.",
+			"picture": {
+				"kind": "pulleys",
+				"lift": 2,
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: slide a shoe down a tilted tray, then again on a tea towel and on sandpaper. Where does it stop soonest? Next, in grade 6: how energy moves and changes; in grade 8: forces and motion."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which force slows a bike down when you squeeze the brakes?",
+			"hint": "The brake pads rub on the wheel.",
+			"explain": "Friction: the brake pads rub on the wheel and slow it down.",
+			"choices": [
+				"friction",
+				"gravity",
+				"water resistance"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A parachute falls slowly because it catches lots of air.",
+			"hint": "Think about its big canopy.",
+			"explain": "True: its big canopy pushes against lots of air, so the air resistance is big and slows the fall.",
+			"answer": true,
+			"picture": {
+				"kind": "force_arrows",
+				"thing": "parachute",
+				"arrows": [
+					[
+						"up",
+						3,
+						"air resistance"
+					],
+					[
+						"down",
+						3,
+						"gravity"
+					]
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort them: more friction or less friction?",
+			"hint": "Rough, grippy surfaces make more friction; smooth or slippery ones make less.",
+			"explain": "More friction: sandpaper, the rubber mat and carpet. Less: ice, the oily floor and the polished floor.",
+			"groups": [
+				"more friction",
+				"less friction"
+			],
+			"items": [
+				"sandpaper",
+				"ice",
+				"a rubber mat",
+				"an oily floor",
+				"carpet",
+				"a polished floor"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			]
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which shape moves most easily through water?",
+			"hint": "Which shape pushes the least water out of its way?",
+			"explain": "A smooth, pointed, streamlined shape has the least water resistance.",
+			"choices": [
+				"a smooth, pointed shape like a fish",
+				"a flat, square box",
+				"a wide, open umbrella"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a lever?",
+			"hint": "Think of a seesaw.",
+			"explain": "A lever is a bar that turns on a pivot, like a seesaw. (A wheel with teeth is a gear; a rope round a wheel is a pulley.)",
+			"choices": [
+				"a bar that turns on a pivot",
+				"a wheel with teeth",
+				"a rope round a wheel",
+				"a kind of force"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bram pushes down far from the pivot. What does that do?",
+			"hint": "The farther from the pivot you push, the less effort you need.",
+			"explain": "Pushing far from the pivot lets a small effort lift a big load.",
+			"choices": [
+				"A small push lifts the heavy load.",
+				"He needs a bigger push.",
+				"The load gets heavier."
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "lever",
+				"pivot": 2,
+				"load": 1,
+				"effort": 9
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each machine to what it is.",
+			"hint": "Picture each one working, then find its description.",
+			"explain": "Lever: a bar on a pivot. Pulley: a rope round a wheel. Gears: wheels with teeth. Brakes: pads that rub.",
+			"items": [
+				"lever",
+				"pulley",
+				"gears",
+				"brakes"
+			],
+			"matches": [
+				"a rope round a wheel",
+				"wheels with teeth that mesh",
+				"pads that rub to slow a wheel",
+				"a bar that turns on a pivot"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "A toy car rolls off a ramp onto each surface. Put them in order, from where it rolls farthest to where it stops soonest.",
+			"hint": "The less friction, the farther it rolls.",
+			"explain": "Ice has the least friction, then smooth wood, then carpet; sand stops the car soonest.",
+			"items": [
+				"smooth wood",
+				"ice",
+				"sand",
+				"carpet"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			]
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The push and the friction are the same size, so the forces are balanced.",
+			"hint": "Compare the lengths of the two arrows.",
+			"explain": "True: the arrows are the same length, so the forces are balanced: the crate keeps a steady speed, or stays still.",
+			"answer": true,
+			"picture": {
+				"kind": "force_arrows",
+				"thing": "block",
+				"arrows": [
+					[
+						"right",
+						2,
+						"push"
+					],
+					[
+						"left",
+						2,
+						"friction"
+					]
+				],
+				"ground": "wood"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The small gear turns clockwise. How does the big gear turn?",
+			"hint": "Meshing gears turn opposite ways. The big gear has more teeth to go round.",
+			"explain": "It turns anticlockwise (the opposite way) and more slowly: its 20 teeth take two turns of the 10-tooth gear.",
+			"choices": [
+				"anticlockwise, and more slowly",
+				"clockwise, and faster",
+				"anticlockwise, and faster",
+				"clockwise, and more slowly"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "gears",
+				"gears": [
+					10,
+					20
+				],
+				"turn": "cw"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do skydivers spread out their arms and legs as they fall?",
+			"hint": "A bigger surface catches more air.",
+			"explain": "Spreading out makes a bigger surface, so more air resistance slows the fall.",
+			"choices": [
+				"to make more air resistance",
+				"to make gravity weaker",
+				"to make less friction with the air",
+				"to fall faster"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "force_arrows",
+				"thing": "skydiver",
+				"arrows": [
+					[
+						"up",
+						2,
+						"air resistance"
+					],
+					[
+						"down",
+						3,
+						"gravity"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Friction is always a nuisance.",
+			"hint": "What would happen to your shoes on the floor without friction?",
+			"explain": "False: friction lets us walk, grip and stop. It also wears things out, so it can be useful or a nuisance.",
+			"answer": false
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "With a fixed and a moving pulley, Zara needs about half the effort. About how many newtons does she need to lift a 300 N crate?",
+			"hint": "A moving pulley halves the effort.",
+			"explain": "300 ÷ 2 = 150 N, but she must pull twice as much rope.",
+			"answer": "150",
+			"picture": {
+				"kind": "pulleys",
+				"lift": 2,
+				"labels": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a racing cyclist wear a smooth, pointed helmet?",
+			"hint": "Think about the air rushing past at high speed.",
+			"explain": "A smooth, streamlined helmet lets the air slip past: less air resistance, so she goes faster.",
+			"choices": [
+				"to cut air resistance",
+				"to add friction with the road",
+				"to make gravity pull harder",
+				"to make the bike heavier"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi's crate slides at a steady speed as she pushes it. What can you say about her push and the friction?",
+			"hint": "If the speed does not change, are the forces balanced or unbalanced?",
+			"explain": "A steady speed means balanced forces: her push is the same size as the friction.",
+			"choices": [
+				"They are the same size: balanced.",
+				"The push is much smaller.",
+				"There is no friction.",
+				"Friction is bigger than the push."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "An astronaut on the Moon dropped a hammer and a feather together, and they landed at the same time.",
+			"hint": "Is there any air on the Moon to slow the feather?",
+			"explain": "True: the Moon has no air, so there is no air resistance. On Earth, air slows the feather far more than the hammer.",
+			"answer": true
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "The same load, the same lever: put the pushes in order, from the smallest effort to the biggest.",
+			"hint": "The farther from the pivot you push, the less effort you need.",
+			"explain": "Pushing 3 m away needs the least effort, then 2 m; 1 m away needs the most.",
+			"items": [
+				"2 m from the pivot",
+				"3 m from the pivot",
+				"1 m from the pivot"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			]
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort them: which force slows each one down?",
+			"hint": "Is it moving through air, moving through water, or rubbing on a surface?",
+			"explain": "Air: the leaf and the paper plane. Water: the duck and the submarine. Friction: the sledge and the book.",
+			"groups": [
+				"air resistance",
+				"water resistance",
+				"friction"
+			],
+			"items": [
+				"a falling leaf",
+				"a swimming duck",
+				"a sledge on grass",
+				"a paper plane",
+				"a moving submarine",
+				"a book sliding on a desk"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5c.force_name",
+			"level": 1
+		},
+		{
+			"gen": "g5c.force_name",
+			"level": 2
+		},
+		{
+			"gen": "g5c.force_name",
+			"level": 3
+		},
+		{
+			"gen": "g5c.friction_test",
+			"level": 1
+		},
+		{
+			"gen": "g5c.friction_test",
+			"level": 2
+		},
+		{
+			"gen": "g5c.friction_test",
+			"level": 3
+		},
+		{
+			"gen": "g5c.lever_push",
+			"level": 1
+		},
+		{
+			"gen": "g5c.lever_push",
+			"level": 2
+		},
+		{
+			"gen": "g5c.lever_push",
+			"level": 3
+		},
+		{
+			"gen": "g5c.machine_gears",
+			"level": 1
+		},
+		{
+			"gen": "g5c.machine_gears",
+			"level": 2
+		},
+		{
+			"gen": "g5c.machine_gears",
+			"level": 3
+		}
+	]
+}

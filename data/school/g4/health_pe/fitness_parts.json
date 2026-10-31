@@ -1,0 +1,304 @@
+{
+	"id": "g4.health_pe.fitness_parts",
+	"lesson": [
+		{
+			"text": "Quick memory: why does your heart beat faster when you exercise? (Your muscles need more oxygen.) Today: the parts of fitness, and how to warm up and cool down."
+		},
+		{
+			"text": "Fitness has parts. Stamina: keeping going for a long time. Strength: pushing, pulling and lifting. Speed: moving fast. Flexibility: bending and stretching easily.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"part",
+						"means"
+					],
+					[
+						"stamina",
+						"keep going"
+					],
+					[
+						"strength",
+						"push, pull, lift"
+					],
+					[
+						"speed",
+						"move fast"
+					],
+					[
+						"flexibility",
+						"bend and stretch"
+					]
+				]
+			}
+		},
+		{
+			"text": "Different activities build different parts. Swimming lengths builds stamina, press-ups build strength, sprints build speed, and yoga stretches build flexibility. Many games build them all!",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"run",
+					"stretch"
+				],
+				"labels": [
+					"speed",
+					"flexibility"
+				]
+			}
+		},
+		{
+			"text": "Warm up before exercise, in three parts: a pulse raiser, like gentle jogging, to warm your muscles and speed up your heart; then moving your joints, like arm circles; then moving stretches."
+		},
+		{
+			"text": "Cool down after exercise: slow down gently, like walking, so your heart and breathing slow down. Then hold still stretches for about 10 seconds each, gently, never bouncing."
+		},
+		{
+			"text": "Circuit training is a set of stations, each with a different exercise. Work at each one for, say, 30 seconds. 6 stations of 30 seconds is 6 × 30 = 180 seconds: 3 minutes."
+		},
+		{
+			"text": "Children should be active for at least 60 minutes a day on average. On at least 3 days a week, do things that make muscles and bones strong, like climbing, jumping and skipping."
+		},
+		{
+			"text": "Try it in the world: build a fitness trail with a station for each part: a long track for stamina, a climbing wall for strength, a sprint lane for speed and a stretching mat for flexibility. Then try a real one!"
+		}
+	],
+	"exercises": [
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each part of fitness to its meaning.",
+			"items": [
+				"stamina",
+				"strength",
+				"speed",
+				"flexibility"
+			],
+			"matches": [
+				"pushing, pulling and lifting",
+				"moving fast",
+				"bending and stretching",
+				"keeping going a long time"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of a long jog, a climb, a sprint and a stretch.",
+			"explain": "Stamina: keeping going. Strength: pushing, pulling, lifting. Speed: moving fast. Flexibility: bending and stretching."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part of fitness does a long, steady jog build most?",
+			"answer": 0,
+			"hint": "A long jog is about keeping going.",
+			"choices": [
+				"stamina",
+				"flexibility",
+				"speed",
+				"balance"
+			],
+			"explain": "Stamina: a long, steady jog trains you to keep going for a long time."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "You should warm up before exercise.",
+			"answer": true,
+			"hint": "What gets your muscles ready?",
+			"explain": "True: a warm-up gets your heart, muscles and joints ready, so you move well and safely."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a stretch for flexibility?",
+			"answer": 0,
+			"hint": "Flexibility is about bending and stretching.",
+			"choices": [
+				"touching your toes gently",
+				"a 30 m sprint",
+				"press-ups",
+				"a long bike ride"
+			],
+			"explain": "Touching your toes gently stretches the backs of your legs: flexibility."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a warm-up in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start gently, and warm your muscles before you stretch them.",
+			"items": [
+				"the main activity",
+				"moving stretches",
+				"arm circles and knee lifts",
+				"gentle jogging to raise your pulse"
+			],
+			"explain": "Pulse raiser first, then moving your joints, then moving stretches, then the main activity."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do we cool down slowly after exercise?",
+			"answer": 0,
+			"hint": "What happens to your heart after a race?",
+			"choices": [
+				"so the heart and breathing slow down gently",
+				"to make the heart beat faster",
+				"to build speed",
+				"to warm the muscles up"
+			],
+			"explain": "A slow cool-down lets your heart and breathing come back down gently."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A circuit has 8 stations. You work for 30 seconds at each one. How many seconds is that?",
+			"answer": "240",
+			"hint": "The same time at every station: multiply.",
+			"explain": "8 × 30 = 240 seconds, which is 4 minutes."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When you stretch, you should bounce to reach further.",
+			"answer": false,
+			"hint": "What does the lesson say about bouncing?",
+			"explain": "False: stretch gently and hold still. Bouncing can hurt your muscles."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Warm-up or cool-down?",
+			"groups": [
+				"warm-up",
+				"cool-down"
+			],
+			"items": [
+				"a gentle jog to raise your pulse",
+				"a slow walk at the end",
+				"arm circles before the game",
+				"still stretches after the game",
+				"knee lifts before running",
+				"slow, deep breaths at the end"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it getting you ready, or helping you slow down afterwards?",
+			"explain": "Warm-up: jog, arm circles, knee lifts. Cool-down: slow walk, still stretches, slow breaths."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara wants to run further without stopping. Which part of fitness should she build?",
+			"answer": 0,
+			"hint": "Running further is about keeping going.",
+			"choices": [
+				"stamina",
+				"flexibility",
+				"strength",
+				"speed"
+			],
+			"explain": "Stamina: long, steady runs help her keep going for longer."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram wants to reach his toes more easily. Which activity helps most?",
+			"answer": 0,
+			"hint": "Reaching further is about bending and stretching.",
+			"choices": [
+				"gentle stretches every day",
+				"sprint starts",
+				"a long bike ride",
+				"press-ups"
+			],
+			"explain": "Gentle stretches every day build flexibility, little by little."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "6 stations of 40 seconds, with a 20 second rest between one station and the next. How many seconds from start to finish?",
+			"answer": "340",
+			"hint": "There is one fewer rest than stations.",
+			"explain": "Work: 6 × 40 = 240. Rests: 5 × 20 = 100. 240 + 100 = 340 seconds."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Children should be active for at least 60 minutes a day on average.",
+			"answer": true,
+			"hint": "Think of about an hour of being active.",
+			"explain": "True: at least 60 minutes a day on average, across the week."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does a pulse raiser do in a warm-up?",
+			"answer": 0,
+			"hint": "The name tells you what it raises.",
+			"choices": [
+				"warms the muscles and speeds up the heart",
+				"stretches the muscles as far as they go",
+				"cools you down",
+				"builds your strength"
+			],
+			"explain": "A pulse raiser, like gentle jogging, raises your pulse and warms your muscles."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Holding still stretches for about 10 seconds is part of a cool-down.",
+			"answer": true,
+			"hint": "What do you do after slowing down at the end?",
+			"explain": "True: after slowing down, hold gentle still stretches."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara is active for 45 minutes on Monday, 70 on Tuesday and 65 on Wednesday. Share the total equally over the 3 days: how many minutes a day is that?",
+			"answer": "60",
+			"hint": "Add the three days, then share the total into 3 equal parts.",
+			"explain": "45 + 70 + 65 = 180 minutes. Shared over 3 days: 180 ÷ 3 = 60 minutes a day, exactly the 60 minutes a day children should aim for on average."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.circuit_training",
+			"level": 1
+		},
+		{
+			"gen": "g4w.circuit_training",
+			"level": 2
+		},
+		{
+			"gen": "g4w.circuit_training",
+			"level": 3
+		},
+		{
+			"gen": "g4w.fitness_sort",
+			"level": 1
+		},
+		{
+			"gen": "g4w.fitness_sort",
+			"level": 2
+		},
+		{
+			"gen": "g4w.fitness_sort",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,202 @@
+{
+	"id": "g6.maths.volume_surface",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met volume with cubes. How many 1 cm cubes fill a box 2 cm by 3 cm by 4 cm? 24."
+		},
+		{
+			"text": "Volume = length × width × height, even with fraction edges: a box 1/2 m by 3 m by 4 m holds 6 m³.",
+			"picture": {
+				"kind": "cubes",
+				"boxes": [
+					{
+						"l": 4,
+						"w": 3,
+						"h": 2
+					}
+				],
+				"labels": true,
+				"unit": "cm"
+			}
+		},
+		{
+			"text": "Think of small cubes. A box 1 cm by 1 cm by 1/2 cm holds 4 cubes with 1/2 cm edges. That is because 8 of them fill a 1 cm cube."
+		},
+		{
+			"text": "Surface area is the total area of all the faces. Unfold a box into a net: 6 rectangles, in 3 matching pairs.",
+			"picture": {
+				"kind": "net",
+				"rows": [
+					".#..",
+					"####",
+					".#.."
+				]
+			}
+		},
+		{
+			"text": "A box 3 cm by 2 cm by 4 cm: 2 × (3 × 2 + 3 × 4 + 2 × 4) = 2 × 26 = 52 cm²."
+		},
+		{
+			"text": "Try it in the world: build a storage box 3 blocks long, 2 wide and 2 high. How many blocks fit inside, and how many block faces cover its outside? Next: statistics."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A box is 1/2 m by 2 m by 3 m. What is its volume in m³?",
+			"answer": "3",
+			"hint": "Multiply all three.",
+			"explain": "1/2 × 2 × 3 = 3 m³."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A cube has edges of 3 cm. What is its surface area in cm²?",
+			"answer": "54",
+			"hint": "6 faces of 3 × 3.",
+			"explain": "6 × 9 = 54 cm²."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A box has 6 faces.",
+			"answer": true,
+			"hint": "Count them on a net.",
+			"explain": "Yes: top, bottom, front, back and two sides."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A box is 5 cm by 2 cm by 3 cm. What is its surface area in cm²?",
+			"answer": "62",
+			"hint": "2 × (5 × 2 + 5 × 3 + 2 × 3).",
+			"explain": "2 × 31 = 62 cm²."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A box is 3/2 m by 2 m by 2 m. What is its volume in m³?",
+			"answer": "6",
+			"hint": "Multiply the three edges: 3/2 × 2 × 2.",
+			"explain": "3/2 × 4 = 6 m³."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which net folds into a cube?",
+			"answer": 0,
+			"hint": "A cube needs 6 faces around it.",
+			"choices": [
+				"a cross of 6 squares",
+				"a row of 6 squares",
+				"5 squares in a plus"
+			],
+			"explain": "A cross of 6 squares folds into a cube."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many cubes with 1/2 cm edges fill a box 1 cm by 2 cm by 3 cm?",
+			"answer": "48",
+			"hint": "8 small cubes fill each 1 cm cube.",
+			"explain": "The box is 1 × 2 × 3 = 6 cm³. Each 1 cm cube holds 2 × 2 × 2 = 8 cubes with 1/2 cm edges, so 6 × 8 = 48 small cubes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A box of cereal is 20 cm by 5 cm by 30 cm. How much card covers it?",
+			"answer": 0,
+			"hint": "2 × (100 + 600 + 150).",
+			"choices": [
+				"1,700 cm²",
+				"3,000 cm²",
+				"850 cm²"
+			],
+			"explain": "Three pairs of faces: 20 × 5 = 100, 20 × 30 = 600 and 5 × 30 = 150. 100 + 600 + 150 = 850, and each face has a twin: 2 × 850 = 1,700 cm²."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the measurements: volume or surface area?",
+			"items": [
+				"the water a tank holds",
+				"the paper to wrap a present",
+				"cm³",
+				"cm²",
+				"the sand in a box",
+				"the paint for a box's outside"
+			],
+			"groups": [
+				"volume",
+				"surface area"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it fill the inside, or cover the outside?",
+			"explain": "The water, cm³ and the sand fill the inside: volume. The wrapping paper, cm² and the paint cover the outside: surface area."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each box to its volume.",
+			"items": [
+				"2 by 3 by 4 cm",
+				"1/2 by 4 by 6 m",
+				"5 by 5 by 2 cm"
+			],
+			"matches": [
+				"12 m³",
+				"50 cm³",
+				"24 cm³"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Multiply the three edges of each box.",
+			"explain": "2 × 3 × 4 = 24 cm³; 1/2 × 4 × 6 = 12 m³; 5 × 5 × 2 = 50 cm³."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A box is 4 cm by 3 cm by 2 cm. A second box has every edge twice as long. How many times as big is its volume?",
+			"answer": "8",
+			"hint": "Work out both volumes, then divide. Or think: three edges each doubled.",
+			"explain": "First box: 4 × 3 × 2 = 24 cm³. Second box: 8 × 6 × 4 = 192 cm³. 192 ÷ 24 = 8 times: each of the three edges doubles, and 2 × 2 × 2 = 8."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6a.volume_fraction",
+			"level": 1
+		},
+		{
+			"gen": "g6a.volume_fraction",
+			"level": 2
+		},
+		{
+			"gen": "g6a.volume_fraction",
+			"level": 3
+		},
+		{
+			"gen": "g6a.surface_area",
+			"level": 1
+		},
+		{
+			"gen": "g6a.surface_area",
+			"level": 2
+		},
+		{
+			"gen": "g6a.surface_area",
+			"level": 3
+		}
+	]
+}

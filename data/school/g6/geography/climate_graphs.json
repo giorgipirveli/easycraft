@@ -1,0 +1,548 @@
+{
+	"id": "g6.geography.climate_graphs",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, about how much colder does it get for every 1,000 m you climb? (About 6.5 °C.) Today: reading climate graphs, and why climates differ."
+		},
+		{
+			"text": "Weather is what the air is doing today: rain, sun, wind and temperature. Climate is the usual weather of a place over many years, often 30 years of records. A climate graph shows a place's average year."
+		},
+		{
+			"text": "On a climate graph, rain is blue bars, in mm, with the scale on the right. Temperature is a red line, in °C, on the left, month by month. This is London's: mild, with rain all year.",
+			"picture": {
+				"kind": "climograph",
+				"name": "London",
+				"temp": [
+					5,
+					5,
+					8,
+					10,
+					14,
+					17,
+					19,
+					19,
+					16,
+					12,
+					8,
+					6
+				],
+				"rain": [
+					55,
+					41,
+					42,
+					44,
+					49,
+					45,
+					45,
+					50,
+					49,
+					69,
+					59,
+					55
+				],
+				"t_top": 30,
+				"t_step": 5,
+				"r_top": 120,
+				"r_step": 20
+			}
+		},
+		{
+			"text": "Three things to read: the warmest and coldest months; the range, warmest take away coldest; and the total rain, all the bars added. London: 19 − 5 = 14 °C range, and about 600 mm of rain a year."
+		},
+		{
+			"text": "Mumbai, in India, has a monsoon climate. It is hot all year, and almost dry from November to May. Then very heavy rain falls from June to September, when wet winds blow in from the sea.",
+			"picture": {
+				"kind": "climograph",
+				"name": "Mumbai",
+				"temp": [
+					24,
+					25,
+					27,
+					29,
+					30,
+					29,
+					28,
+					27,
+					28,
+					29,
+					28,
+					26
+				],
+				"rain": [
+					1,
+					0,
+					0,
+					1,
+					12,
+					520,
+					840,
+					580,
+					330,
+					90,
+					15,
+					2
+				],
+				"t_top": 40,
+				"t_step": 10,
+				"r_top": 1000,
+				"r_step": 250
+			}
+		},
+		{
+			"text": "Why climates differ: latitude (near the Equator the Sun is higher and stronger), height (higher is colder), the sea (coasts are milder; inland, winters are colder and summers hotter), and winds and ocean currents.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60,
+				"lines": [
+					"tropics"
+				],
+				"points": [
+					{
+						"lat": 51,
+						"long": 0,
+						"label": "London"
+					},
+					{
+						"lat": 56,
+						"long": 38,
+						"label": "Moscow"
+					},
+					{
+						"lat": 19,
+						"long": 73,
+						"label": "Mumbai"
+					}
+				]
+			}
+		},
+		{
+			"text": "Britain is mild for how far north it is. A warm ocean current, the North Atlantic Drift, and wet winds from the west keep it so. Moscow, a little further north and far inland, has winters well below 0 °C."
+		},
+		{
+			"text": "Try it in the world: build a little weather station of blocks, with a rain gauge and a flag for the wind. Keep a week's log of the real weather at home. Next: rivers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "On a climate graph, what do the blue bars show?",
+			"answer": 0,
+			"hint": "Temperature is the red line.",
+			"choices": [
+				"rain, in mm",
+				"temperature",
+				"wind",
+				"sunshine hours"
+			],
+			"explain": "The blue bars show each month's rain in millimetres."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Look at Mumbai's graph. Which month is the wettest?",
+			"answer": 0,
+			"hint": "Find the tallest blue bar.",
+			"choices": [
+				"July",
+				"January",
+				"April",
+				"November"
+			],
+			"explain": "July's bar is the tallest, about 840 mm.",
+			"picture": {
+				"kind": "climograph",
+				"name": "Mumbai",
+				"temp": [
+					24,
+					25,
+					27,
+					29,
+					30,
+					29,
+					28,
+					27,
+					28,
+					29,
+					28,
+					26
+				],
+				"rain": [
+					1,
+					0,
+					0,
+					1,
+					12,
+					520,
+					840,
+					580,
+					330,
+					90,
+					15,
+					2
+				],
+				"t_top": 40,
+				"t_step": 10,
+				"r_top": 1000,
+				"r_step": 250
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Climate is the weather on one day.",
+			"answer": false,
+			"hint": "Which one is about many years?",
+			"explain": "False: weather is day to day; climate is the usual weather over many years."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a place's temperature range?",
+			"answer": 0,
+			"hint": "Range means the gap from lowest to highest.",
+			"choices": [
+				"the warmest month take away the coldest",
+				"the total rain",
+				"the wettest month",
+				"the height of a hill"
+			],
+			"explain": "The warmest month's temperature take away the coldest month's."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why are places near the Equator hot?",
+			"answer": 0,
+			"hint": "Remember the Sun's rays from grade 5.",
+			"choices": [
+				"the Sun is high and its rays are strong",
+				"they are near the sea",
+				"they are high up",
+				"they have long winters"
+			],
+			"explain": "The Sun is high in the sky there, so its rays are strong and direct."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Read the red line. What is this place's temperature range, in °C?",
+			"answer": "30",
+			"hint": "Find the highest and lowest points; count up from below 0 to above it.",
+			"explain": "Warmest 20 °C, coldest −10 °C. From −10 up to 0 is 10, and from 0 up to 20 is 20: 10 + 20 = 30 °C.",
+			"picture": {
+				"kind": "climograph",
+				"temp": [
+					-10,
+					-8,
+					-2,
+					5,
+					12,
+					17,
+					20,
+					18,
+					12,
+					5,
+					-2,
+					-8
+				],
+				"rain": [
+					30,
+					25,
+					30,
+					35,
+					50,
+					70,
+					80,
+					70,
+					55,
+					45,
+					40,
+					35
+				],
+				"t_from": -10,
+				"t_top": 30,
+				"t_step": 10,
+				"r_top": 100,
+				"r_step": 25
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "London's summer months have 45, 45 and 50 mm of rain. How much is that in all?",
+			"answer": "140",
+			"hint": "Add the three months.",
+			"explain": "45 + 45 + 50 = 140 mm."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Two cities are at the same latitude. Which is likely to have colder winters?",
+			"answer": 0,
+			"hint": "The sea keeps coasts milder.",
+			"choices": [
+				"the one far inland",
+				"the one on the coast"
+			],
+			"explain": "The sea keeps coasts warmer in winter, so the inland city is colder."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Higher places are usually colder than low places nearby.",
+			"answer": true,
+			"hint": "Remember climbing a mountain in grade 5.",
+			"explain": "True: about 6.5 °C colder for every 1,000 m up."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "When does Mumbai get most of its rain?",
+			"answer": 0,
+			"hint": "Find the tall blue bars.",
+			"choices": [
+				"June to September",
+				"December to February",
+				"evenly all year",
+				"never"
+			],
+			"explain": "June to September, when the monsoon winds blow in from the sea.",
+			"picture": {
+				"kind": "climograph",
+				"name": "Mumbai",
+				"temp": [
+					24,
+					25,
+					27,
+					29,
+					30,
+					29,
+					28,
+					27,
+					28,
+					29,
+					28,
+					26
+				],
+				"rain": [
+					1,
+					0,
+					0,
+					1,
+					12,
+					520,
+					840,
+					580,
+					330,
+					90,
+					15,
+					2
+				],
+				"t_top": 40,
+				"t_step": 10,
+				"r_top": 1000,
+				"r_step": 250
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This place's warmest months are December to February. Which hemisphere is it in?",
+			"answer": 0,
+			"hint": "When is summer north of the Equator, and when south of it?",
+			"choices": [
+				"southern",
+				"northern"
+			],
+			"explain": "Summer in December to February means it is south of the Equator.",
+			"picture": {
+				"kind": "climograph",
+				"temp": [
+					18,
+					18,
+					16,
+					13,
+					10,
+					7,
+					6,
+					7,
+					9,
+					12,
+					14,
+					17
+				],
+				"rain": [
+					50,
+					45,
+					60,
+					70,
+					90,
+					100,
+					95,
+					90,
+					70,
+					65,
+					55,
+					50
+				],
+				"t_top": 25,
+				"t_step": 5,
+				"r_top": 125,
+				"r_step": 25
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which climate does this graph show?",
+			"answer": 0,
+			"hint": "Look at both: how hot is it, and how much rain falls?",
+			"choices": [
+				"hot desert",
+				"tropical rainforest",
+				"monsoon",
+				"temperate"
+			],
+			"explain": "Hot summers and almost no rain all year: a hot desert.",
+			"picture": {
+				"kind": "climograph",
+				"temp": [
+					14,
+					16,
+					20,
+					24,
+					28,
+					30,
+					31,
+					31,
+					29,
+					25,
+					20,
+					16
+				],
+				"rain": [
+					5,
+					4,
+					3,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					3,
+					5
+				],
+				"t_top": 35,
+				"t_step": 5,
+				"r_top": 70,
+				"r_step": 10
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is Britain milder in winter than Moscow?",
+			"answer": 0,
+			"hint": "Think of the sea round Britain and where Moscow is.",
+			"choices": [
+				"a warm ocean current and winds from the sea",
+				"Britain is nearer the Equator by far",
+				"Britain is higher",
+				"Moscow has more sun"
+			],
+			"explain": "The North Atlantic Drift and wet westerly winds bring milder air; Moscow is far inland."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A place has 8 months with 50 mm of rain each and 4 months with 200 mm each. How much rain in a year?",
+			"answer": "1200",
+			"hint": "Find each group's total, then add.",
+			"explain": "8 × 50 = 400. 4 × 200 = 800. 400 + 800 = 1,200 mm."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A tropical rainforest climate is hot and wet all year.",
+			"answer": true,
+			"hint": "Think of the rainforests near the Equator in grade 5.",
+			"explain": "True: about 26-27 °C every month, and rain every month."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the facts: weather or climate?",
+			"groups": [
+				"weather",
+				"climate"
+			],
+			"items": [
+				"It is raining in Leeds today.",
+				"London gets about 600 mm of rain a year.",
+				"This afternoon will be windy.",
+				"Mumbai is hot all year.",
+				"It snowed last night."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it about one day, or the usual pattern over many years?",
+			"explain": "Weather: rain in Leeds today, a windy afternoon, last night's snow. Climate: London's 600 mm a year and Mumbai being hot all year are the usual pattern over many years."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each place to the reason for its climate.",
+			"items": [
+				"Mumbai's wet summers",
+				"Britain's mild winters",
+				"Moscow's cold winters",
+				"a cold mountain town"
+			],
+			"matches": [
+				"far inland, away from the sea",
+				"high above the sea",
+				"monsoon winds from the sea",
+				"a warm ocean current"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Card 5 lists latitude, height, the sea, and winds and currents.",
+			"explain": "Mumbai: monsoon winds from the sea bring summer rain. Britain: a warm ocean current, the North Atlantic Drift. Moscow: far inland, away from the sea's warmth. A mountain town: high up, so colder."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A town at sea level is 20 °C. About how warm is it at the top of a 2,000 m mountain nearby, in °C?",
+			"answer": "7",
+			"hint": "It gets about 6.5 °C colder for every 1,000 m you climb.",
+			"explain": "2,000 m is two lots of 1,000 m: 2 × 6.5 = 13 °C colder. 20 − 13 = 7 °C at the top."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.climate_read",
+			"level": 1
+		},
+		{
+			"gen": "g6h.climate_read",
+			"level": 2
+		},
+		{
+			"gen": "g6h.climate_read",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,1175 @@
+{
+	"id": "rocket_push",
+	"title": "Push against weight",
+	"topic": "rockets",
+	"link": {
+		"board": true
+	},
+	"scenes": [
+		{
+			"seconds": 8,
+			"background": "sky",
+			"caption": "A rocket lifts off when its push beats its weight.",
+			"say": "A rocket lifts off only when its engines push harder than the whole rocket weighs.",
+			"sounds": [
+				{
+					"at": 1.2,
+					"effect": "whoosh"
+				},
+				{
+					"at": 3.2,
+					"effect": "thud"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 220,
+					"h": 22,
+					"at": [
+						180,
+						426
+					],
+					"color": "grey",
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						180,
+						380
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.1
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						316
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.25
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "CREW_CAPSULE",
+					"at": [
+						180,
+						252
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.4
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						300,
+						400
+					],
+					"to": [
+						300,
+						230
+					],
+					"color": "green",
+					"width": 14,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.2,
+							"dur": 0.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "PUSH",
+					"at": [
+						300,
+						196
+					],
+					"size": 24,
+					"color": "white",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.0
+						}
+					],
+					"box": "green"
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						60,
+						230
+					],
+					"to": [
+						60,
+						400
+					],
+					"color": "red",
+					"width": 14,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 3.0,
+							"dur": 0.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "WEIGHT",
+					"at": [
+						70,
+						196
+					],
+					"size": 24,
+					"color": "white",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.8
+						}
+					],
+					"box": "red"
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "sky",
+			"caption": "One engine pushes 250 tonnes.",
+			"say": "One rocket engine pushes with 250 tonnes of force: enough to hold up 250 tonnes.",
+			"sounds": [
+				{
+					"at": 0.6,
+					"effect": "thud"
+				},
+				{
+					"at": 1.6,
+					"effect": "ui_tick"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 220,
+					"h": 22,
+					"at": [
+						180,
+						426
+					],
+					"color": "grey",
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						180,
+						380
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.3,
+							"height": 400
+						},
+						{
+							"do": "pulse",
+							"at": 3.4,
+							"times": 2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						180,
+						446
+					],
+					"size": 70,
+					"rot": 180,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						},
+						{
+							"do": "pulse",
+							"at": 2.2,
+							"times": 4,
+							"dur": 2.0
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						300,
+						400
+					],
+					"to": [
+						300,
+						150
+					],
+					"color": "green",
+					"width": 16,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.4,
+							"dur": 1.0
+						}
+					]
+				},
+				{
+					"kind": "count",
+					"from": 0,
+					"to": 250,
+					"suffix": " t",
+					"at": [
+						290,
+						126
+					],
+					"size": 40,
+					"color": "lime",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						},
+						{
+							"do": "value",
+							"at": 1.4,
+							"dur": 1.6,
+							"to": 250
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "PUSH",
+					"at": [
+						290,
+						70
+					],
+					"size": 24,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.2
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9.5,
+			"background": "sky",
+			"caption": "Two full tanks and the engine weigh 204 tonnes: it lifts!",
+			"say": "Two full fuel tanks weigh 100 tonnes each. With the engine, that is 204 tonnes: less than 250, so up it goes!",
+			"sounds": [
+				{
+					"at": 0.55,
+					"effect": "thud"
+				},
+				{
+					"at": 1.25,
+					"effect": "thud"
+				},
+				{
+					"at": 6.0,
+					"effect": "rocket_whoosh"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 220,
+					"h": 22,
+					"at": [
+						180,
+						426
+					],
+					"color": "grey",
+					"moves": []
+				},
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						180,
+						446
+					],
+					"size": 70,
+					"rot": 180,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						},
+						{
+							"do": "grow",
+							"at": 5.6,
+							"to": 1.6
+						},
+						{
+							"do": "move",
+							"at": 6.0,
+							"dur": 2.5,
+							"to": [
+								180,
+								316
+							]
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						180,
+						380
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "move",
+							"at": 6.0,
+							"dur": 2.5,
+							"to": [
+								180,
+								250
+							]
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						316
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.3,
+							"height": 400
+						},
+						{
+							"do": "move",
+							"at": 6.0,
+							"dur": 2.5,
+							"to": [
+								180,
+								186
+							]
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						252
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 1.0,
+							"height": 400
+						},
+						{
+							"do": "move",
+							"at": 6.0,
+							"dur": 2.5,
+							"to": [
+								180,
+								122
+							]
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "WEIGHT",
+					"at": [
+						66,
+						70
+					],
+					"size": 22,
+					"color": "white",
+					"box": "red",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.6
+						}
+					]
+				},
+				{
+					"kind": "count",
+					"from": 4,
+					"to": 204,
+					"suffix": " t",
+					"at": [
+						66,
+						126
+					],
+					"size": 36,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.6
+						},
+						{
+							"do": "value",
+							"at": 1.8,
+							"dur": 1.8,
+							"to": 204
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "PUSH",
+					"at": [
+						296,
+						70
+					],
+					"size": 22,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "250 t",
+					"at": [
+						296,
+						126
+					],
+					"size": 36,
+					"color": "lime",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "LIFTS!",
+					"at": [
+						280,
+						300
+					],
+					"size": 40,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 6.2
+						},
+						{
+							"do": "bounce",
+							"at": 7.0,
+							"height": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9.5,
+			"background": "sky",
+			"caption": "A third tank makes 304 tonnes: too heavy!",
+			"say": "Add a third tank and it weighs 304 tonnes. That is more than 250, so the engine can't lift it.",
+			"sounds": [
+				{
+					"at": 0.55,
+					"effect": "thud"
+				},
+				{
+					"at": 4.5,
+					"effect": "boing"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 220,
+					"h": 22,
+					"at": [
+						180,
+						426
+					],
+					"color": "grey",
+					"moves": []
+				},
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						180,
+						446
+					],
+					"size": 70,
+					"rot": 180,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						},
+						{
+							"do": "pulse",
+							"at": 3.0,
+							"times": 3,
+							"dur": 2.0
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						180,
+						380
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "shake",
+							"at": 3.0,
+							"dur": 2.4,
+							"amount": 4,
+							"times": 14
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						316
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "shake",
+							"at": 3.0,
+							"dur": 2.4,
+							"amount": 4,
+							"times": 14
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						252
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "shake",
+							"at": 3.0,
+							"dur": 2.4,
+							"amount": 4,
+							"times": 14
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						188
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.3,
+							"height": 360
+						},
+						{
+							"do": "shake",
+							"at": 3.0,
+							"dur": 2.4,
+							"amount": 4,
+							"times": 14
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "WEIGHT",
+					"at": [
+						66,
+						70
+					],
+					"size": 22,
+					"color": "white",
+					"box": "red",
+					"moves": []
+				},
+				{
+					"kind": "count",
+					"from": 204,
+					"to": 304,
+					"suffix": " t",
+					"at": [
+						66,
+						126
+					],
+					"size": 36,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "value",
+							"at": 1.0,
+							"dur": 1.4,
+							"to": 304
+						},
+						{
+							"do": "pulse",
+							"at": 2.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "PUSH",
+					"at": [
+						296,
+						70
+					],
+					"size": 22,
+					"color": "white",
+					"box": "green",
+					"moves": []
+				},
+				{
+					"kind": "words",
+					"text": "250 t",
+					"at": [
+						296,
+						126
+					],
+					"size": 36,
+					"color": "lime",
+					"moves": []
+				},
+				{
+					"kind": "words",
+					"text": "TOO HEAVY!",
+					"at": [
+						180,
+						196
+					],
+					"size": 34,
+					"color": "white",
+					"box": "red",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.4
+						},
+						{
+							"do": "shake",
+							"at": 5.0,
+							"amount": 6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "sky",
+			"caption": "Two engines push 500 tonnes against 308: lift off!",
+			"say": "Put a second engine beside the first: 500 tonnes of push against 308 tonnes. Lift off!",
+			"sounds": [
+				{
+					"at": 0.6,
+					"effect": "thud"
+				},
+				{
+					"at": 4.4,
+					"effect": "rocket_whoosh"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 220,
+					"h": 22,
+					"at": [
+						180,
+						426
+					],
+					"color": "grey",
+					"moves": []
+				},
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						148,
+						446
+					],
+					"size": 64,
+					"rot": 180,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						},
+						{
+							"do": "grow",
+							"at": 4.0,
+							"to": 1.6
+						},
+						{
+							"do": "move",
+							"at": 4.4,
+							"dur": 3.6,
+							"to": [
+								148,
+								-120
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						212,
+						446
+					],
+					"size": 64,
+					"rot": 180,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.6
+						},
+						{
+							"do": "grow",
+							"at": 4.0,
+							"to": 1.6
+						},
+						{
+							"do": "move",
+							"at": 4.4,
+							"dur": 3.6,
+							"to": [
+								212,
+								-120
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						148,
+						380
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.0,
+							"from": [
+								180,
+								380
+							]
+						},
+						{
+							"do": "move",
+							"at": 4.4,
+							"dur": 3.6,
+							"to": [
+								148,
+								-186
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						212,
+						380
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.3,
+							"height": 400
+						},
+						{
+							"do": "move",
+							"at": 4.4,
+							"dur": 3.6,
+							"to": [
+								212,
+								-186
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						316
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "move",
+							"at": 4.4,
+							"dur": 3.6,
+							"to": [
+								180,
+								-250
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						252
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "move",
+							"at": 4.4,
+							"dur": 3.6,
+							"to": [
+								180,
+								-314
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						188
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "move",
+							"at": 4.4,
+							"dur": 3.6,
+							"to": [
+								180,
+								-378
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "WEIGHT",
+					"at": [
+						66,
+						70
+					],
+					"size": 22,
+					"color": "white",
+					"box": "red",
+					"moves": []
+				},
+				{
+					"kind": "count",
+					"from": 304,
+					"to": 308,
+					"suffix": " t",
+					"at": [
+						66,
+						126
+					],
+					"size": 36,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "value",
+							"at": 1.0,
+							"dur": 0.8,
+							"to": 308
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "PUSH",
+					"at": [
+						296,
+						70
+					],
+					"size": 22,
+					"color": "white",
+					"box": "green",
+					"moves": []
+				},
+				{
+					"kind": "count",
+					"from": 250,
+					"to": 500,
+					"suffix": " t",
+					"at": [
+						296,
+						126
+					],
+					"size": 36,
+					"color": "lime",
+					"moves": [
+						{
+							"do": "value",
+							"at": 1.8,
+							"dur": 1.6,
+							"to": 500
+						},
+						{
+							"do": "pulse",
+							"at": 3.5
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "LIFT OFF!",
+					"at": [
+						180,
+						250
+					],
+					"size": 42,
+					"color": "white",
+					"box": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.6
+						},
+						{
+							"do": "pulse",
+							"at": 5.4,
+							"times": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 6.5,
+			"background": "space",
+			"caption": "Puzzle: how many engines would lift five full tanks?",
+			"say": "Here is a puzzle for you: how many engines would lift five full tanks?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						52,
+						250
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						116,
+						250
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.35
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						250
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.5
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						244,
+						250
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.65
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						308,
+						250
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.8
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						150,
+						350
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "× ?",
+					"at": [
+						226,
+						350
+					],
+					"size": 46,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.8
+						},
+						{
+							"do": "pulse",
+							"at": 2.6,
+							"times": 3,
+							"dur": 1.8
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "hoot",
+					"at": [
+						180,
+						120
+					],
+					"size": 120,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.1,
+							"height": 300
+						}
+					]
+				}
+			]
+		}
+	]
+}

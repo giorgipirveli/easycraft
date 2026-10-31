@@ -1,0 +1,191 @@
+{
+	"id": "g7.maths.area_volume",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met volume. What is the volume of a box 2 cm by 3 cm by 4 cm? 2 × 3 × 4 = 24 cm³."
+		},
+		{
+			"text": "The volume of any prism is the area of its end × its length. A triangular prism with an end of 12 cm² and a length of 10 cm holds 120 cm³.",
+			"picture": {
+				"kind": "cubes",
+				"boxes": [
+					{
+						"l": 5,
+						"w": 4,
+						"h": 3
+					}
+				],
+				"labels": true,
+				"unit": "cm"
+			}
+		},
+		{
+			"text": "Surface area adds the areas of every face: a triangular prism has 2 triangles and 3 rectangles."
+		},
+		{
+			"text": "Composite shapes: split them into rectangles and triangles, or take a hole away from the whole. A 10 cm by 8 cm card with a 3 cm square cut out has 80 − 9, which is 71 cm² left.",
+			"picture": {
+				"kind": "unit_squares",
+				"rows": [
+					"##########",
+					"##########",
+					"###...####",
+					"###...####",
+					"###...####",
+					"##########",
+					"##########",
+					"##########"
+				],
+				"grid": true
+			}
+		},
+		{
+			"text": "Check the units: area in cm², volume in cm³."
+		},
+		{
+			"text": "Try it in the world: build a pool 5 blocks long, 4 wide and 3 deep. How many blocks of water fill it? Each block is 1 m³, so 60 m³. Next: samples and populations."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A prism's end has an area of 15 cm² and it is 8 cm long. What is its volume in cm³?",
+			"answer": "120",
+			"hint": "End area × length.",
+			"explain": "15 × 8 = 120 cm³."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A box is 5 cm by 4 cm by 3 cm. What is its volume in cm³?",
+			"answer": "60",
+			"hint": "Multiply the three lengths: 5 × 4 × 3.",
+			"explain": "5 × 4 × 3 = 60 cm³."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Volume is measured in cubic units, like cm³.",
+			"answer": true,
+			"hint": "Volume counts cubes. What does the little 3 in cm³ mean?",
+			"explain": "Yes: volume counts unit cubes, like cm³ or m³."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A triangular prism's end has a base of 6 cm and a height of 4 cm. It is 10 cm long. What is its volume in cm³?",
+			"answer": "120",
+			"hint": "½ × 6 × 4 × 10.",
+			"explain": "12 × 10 = 120 cm³."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 10 cm by 8 cm card has a 3 cm by 3 cm square cut out. What area is left, in cm²?",
+			"answer": "71",
+			"hint": "Find the whole card's area, then take away the hole: 80 − 9.",
+			"explain": "80 − 9 = 71 cm² left."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How many faces does a triangular prism have?",
+			"answer": 0,
+			"hint": "2 triangles and 3 rectangles.",
+			"choices": [
+				"5",
+				"6",
+				"3"
+			],
+			"explain": "5 faces: 2 triangles at the ends and 3 rectangles round the sides."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A cube has a volume of 64 cm³. What is its surface area in cm²?",
+			"answer": "96",
+			"hint": "Each edge is 4 cm.",
+			"explain": "Find the edge first: 4 × 4 × 4 = 64, so each edge is 4 cm. Each face is 4 × 4 = 16 cm², and a cube has 6 faces: 6 × 16 = 96 cm²."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A tank 50 cm by 30 cm is filled to 20 cm deep. How many litres is that? (1 litre = 1,000 cm³)",
+			"answer": "30",
+			"hint": "50 × 30 × 20 = 30,000 cm³.",
+			"explain": "The water's volume: 50 × 30 × 20 = 30,000 cm³. 1,000 cm³ make a litre: 30,000 ÷ 1,000 = 30 L."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each shape to its volume.",
+			"items": [
+				"a 2 × 3 × 4 box",
+				"a 5 × 5 × 5 cube",
+				"a 10 × 2 × 1 box"
+			],
+			"matches": [
+				"125 cm³",
+				"20 cm³",
+				"24 cm³"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Multiply length × width × height for each.",
+			"explain": "2 × 3 × 4 = 24 cm³; 5 × 5 × 5 = 125 cm³; 10 × 2 × 1 = 20 cm³."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the measurements: area or volume?",
+			"items": [
+				"cm²",
+				"cm³",
+				"the paint on a wall",
+				"the water in a tank",
+				"m²",
+				"litres"
+			],
+			"groups": [
+				"area",
+				"volume"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Area is flat (square units); volume fills space (cubic units and litres).",
+			"explain": "cm², m² and the paint on a wall are areas. cm³, litres and the water in a tank are volumes."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A garden bed is 4 m long, 2 m wide and 0.5 m deep. Soil comes in bags of 0.25 m³. How many bags fill it?",
+			"answer": "16",
+			"hint": "Find the volume first, then how many bags fit in it.",
+			"explain": "Volume: 4 × 2 × 0.5 = 4 m³. Each bag is a quarter of a cubic metre, so 4 m³ needs 4 ÷ 0.25 = 16 bags."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7g.prism",
+			"level": 1
+		},
+		{
+			"gen": "g7g.prism",
+			"level": 2
+		},
+		{
+			"gen": "g7g.prism",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,531 @@
+{
+	"id": "g8.design_tech.brief_to_product",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you used ACCESS FM. What do its letters stand for? (Aesthetics, Cost, Customer, Environment, Safety, Size, Function, Materials.) Today: from a design brief to a plan for making."
+		},
+		{
+			"text": "A design brief is a short statement of the problem: who the product is for, what is needed, and why. It often comes from a client: 'Design a desk tidy for a student with a very small desk.'"
+		},
+		{
+			"text": "Research: ask users, analyse similar products, and measure. Anthropometrics are the sizes of people's bodies: a handle must fit most hands. Write down the constraints: cost, time, tools and materials.",
+			"picture": {
+				"kind": "access_fm",
+				"words": true
+			}
+		},
+		{
+			"text": "A specification is a list of checkable points. 'It must hold 10 pens' can be tested; 'It must be good' cannot. Each point fits an ACCESS FM heading, so the finished product can be tested against it.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"vague",
+						"checkable"
+					],
+					[
+						"good",
+						"holds 10 pens"
+					],
+					[
+						"cheap",
+						"costs under 5 gold"
+					],
+					[
+						"small",
+						"fits a 30 cm shelf"
+					]
+				]
+			}
+		},
+		{
+			"text": "Sketch several ideas, score each against the specification, and develop the best with models. Idea A scores 4 + 3 + 5 = 12 and idea B 5 + 4 + 2 = 11, so develop idea A.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"idea A",
+						"idea B"
+					],
+					[
+						"holds 10 pens",
+						"4",
+						"5"
+					],
+					[
+						"fits the desk",
+						"3",
+						"4"
+					],
+					[
+						"looks good",
+						"5",
+						"2"
+					],
+					[
+						"total",
+						"12",
+						"11"
+					]
+				]
+			}
+		},
+		{
+			"text": "Plan the making: the steps in order, with tools, materials, time and safety. A Gantt chart shows each task as a bar across the lessons, and which tasks can happen side by side.",
+			"picture": {
+				"kind": "making_plan",
+				"tasks": [
+					[
+						"research",
+						0,
+						2
+					],
+					[
+						"sketch ideas",
+						2,
+						2
+					],
+					[
+						"order materials",
+						2,
+						1
+					],
+					[
+						"make a model",
+						4,
+						1
+					],
+					[
+						"cut the parts",
+						5,
+						2
+					],
+					[
+						"join the parts",
+						7,
+						2
+					],
+					[
+						"test it",
+						9,
+						1
+					]
+				],
+				"columns": 10
+			}
+		},
+		{
+			"text": "A cutting list gives each part's size and number: 4 legs of 300 mm need 4 × 300 = 1,200 mm of wood. A tolerance says how far a size may vary: 120 mm, plus or minus 0.5 mm. Quality control checks every part.",
+			"picture": {
+				"kind": "making_plan",
+				"tasks": [
+					[
+						"mark out",
+						0,
+						1
+					],
+					[
+						"cut the parts",
+						1,
+						2
+					],
+					[
+						"check sizes",
+						3,
+						1
+					],
+					[
+						"join the parts",
+						4,
+						2
+					]
+				],
+				"columns": 6,
+				"mark": 2
+			}
+		},
+		{
+			"text": "Try it in the world: write a brief and three checkable specification points for a problem at home. In LIFE, Real Builder measures and plans a shed before it is built. Next: smart and modern materials."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A design brief says who the product is for and what is needed.",
+			"answer": true,
+			"hint": "Think of the brief as the problem, in a few lines.",
+			"explain": "True: the brief states the problem, the user and what is needed, before any designing."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which specification point can be checked?",
+			"choices": [
+				"It must hold 10 pens.",
+				"It must be good.",
+				"It must look nice.",
+				"It must be the right size."
+			],
+			"answer": 0,
+			"hint": "Could two people test it and agree?",
+			"explain": "'It must hold 10 pens' can be tested; the others have no number to check."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"design brief",
+				"specification",
+				"client",
+				"constraint"
+			],
+			"matches": [
+				"a list of checkable points",
+				"the problem, in a few lines",
+				"a limit, such as cost or time",
+				"who the design is for"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Which words describe the problem, the list, the person and the limits?",
+			"explain": "Brief: the problem. Specification: the checkable list. Client: who it is for. Constraint: a limit."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A cutting list says 4 legs of 300 mm. How much wood is needed, in mm?",
+			"answer": "1200",
+			"hint": "Multiply the number of pieces by each length.",
+			"explain": "4 × 300 = 1,200 mm."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which ACCESS FM heading is about who will use the product?",
+			"picture": {
+				"kind": "access_fm",
+				"words": true
+			},
+			"choices": [
+				"Customer",
+				"Aesthetics",
+				"Function",
+				"Size"
+			],
+			"answer": 0,
+			"hint": "Think of the person, not the product.",
+			"explain": "Customer is about the users: their age, needs and wishes."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many lessons does 'cut the parts' take in this plan?",
+			"picture": {
+				"kind": "making_plan",
+				"tasks": [
+					[
+						"research",
+						0,
+						2
+					],
+					[
+						"sketch ideas",
+						2,
+						2
+					],
+					[
+						"order materials",
+						2,
+						1
+					],
+					[
+						"make a model",
+						4,
+						1
+					],
+					[
+						"cut the parts",
+						5,
+						2
+					],
+					[
+						"join the parts",
+						7,
+						2
+					],
+					[
+						"test it",
+						9,
+						1
+					]
+				],
+				"columns": 10
+			},
+			"answer": "2",
+			"hint": "Count the squares its bar covers.",
+			"explain": "Its bar covers lessons 6 and 7: 2 lessons."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In which lesson does this plan finish?",
+			"picture": {
+				"kind": "making_plan",
+				"tasks": [
+					[
+						"research",
+						0,
+						2
+					],
+					[
+						"sketch ideas",
+						2,
+						2
+					],
+					[
+						"order materials",
+						2,
+						1
+					],
+					[
+						"make a model",
+						4,
+						1
+					],
+					[
+						"cut the parts",
+						5,
+						2
+					],
+					[
+						"join the parts",
+						7,
+						2
+					],
+					[
+						"test it",
+						9,
+						1
+					]
+				],
+				"columns": 10
+			},
+			"answer": "10",
+			"hint": "Find the bar that reaches furthest to the right.",
+			"explain": "'Test it' ends in lesson 10, the last bar to finish."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the design steps in order.",
+			"items": [
+				"sketch and choose ideas",
+				"research users and products",
+				"write the design brief",
+				"plan the making",
+				"write the specification"
+			],
+			"answer": [
+				2,
+				1,
+				4,
+				0,
+				3
+			],
+			"hint": "You need the problem before research, and research before a checkable list.",
+			"explain": "Brief, research, specification, ideas, then a plan for making."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "A checkable specification point, or a vague one?",
+			"groups": [
+				"checkable",
+				"vague"
+			],
+			"items": [
+				"It must weigh under 1 kg.",
+				"It must fit a 30 cm shelf.",
+				"It must be eco-friendly.",
+				"It must be good quality.",
+				"It must use 50% recycled card."
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Look for a number, or a test with a clear yes or no.",
+			"explain": "Checkable: under 1 kg, a 30 cm shelf, 50% recycled. Vague: eco-friendly, good quality."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do designers use anthropometrics?",
+			"choices": [
+				"so products fit the people who use them",
+				"to make products cheaper",
+				"to choose colours",
+				"to test the strength of wood"
+			],
+			"answer": 0,
+			"hint": "Anthropometrics are measurements of something: what?",
+			"explain": "Measuring people's bodies, hands and reach means handles, chairs and desks fit most users."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "On a Gantt chart, two tasks can happen in the same lessons.",
+			"picture": {
+				"kind": "making_plan",
+				"tasks": [
+					[
+						"research",
+						0,
+						2
+					],
+					[
+						"sketch ideas",
+						2,
+						2
+					],
+					[
+						"order materials",
+						2,
+						1
+					],
+					[
+						"make a model",
+						4,
+						1
+					],
+					[
+						"cut the parts",
+						5,
+						2
+					],
+					[
+						"join the parts",
+						7,
+						2
+					],
+					[
+						"test it",
+						9,
+						1
+					]
+				],
+				"columns": 10
+			},
+			"answer": true,
+			"hint": "Look at 'sketch ideas' and 'order materials' in the plan.",
+			"explain": "True: tasks that don't depend on each other can run side by side, as these two do in lesson 3."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A part must be 85 mm, plus or minus 0.5 mm. What is the largest size allowed, in mm?",
+			"answer": "85.5",
+			"hint": "Plus or minus means it may be that much bigger or that much smaller.",
+			"explain": "85 + 0.5 = 85.5 mm; the smallest is 85 − 0.5 = 84.5 mm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The client says function counts double. Idea A: function 3, looks 5. Idea B: function 5, looks 3. Which wins?",
+			"choices": [
+				"idea B, with 13 points",
+				"idea A, with 11 points",
+				"a draw",
+				"idea A, with 13 points"
+			],
+			"answer": 0,
+			"hint": "Double the function score, then add the looks score.",
+			"explain": "A: 3 × 2 + 5 = 11. B: 5 × 2 + 3 = 13. Idea B wins because function matters most to this client."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 1,800 mm board is cut into 4 legs of 350 mm and 2 rails of 150 mm. How much is left over, in mm?",
+			"answer": "100",
+			"hint": "Add up all the pieces, then take the total from the board.",
+			"explain": "4 × 350 = 1,400 and 2 × 150 = 300; 1,400 + 300 = 1,700; 1,800 − 1,700 = 100 mm left."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A part that measures 120.6 mm passes a tolerance of 120 mm, plus or minus 0.5 mm.",
+			"answer": false,
+			"hint": "Work out the largest size allowed first.",
+			"explain": "False: the largest allowed is 120 + 0.5 = 120.5 mm, and 120.6 mm is bigger, so it fails quality control."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the quality control steps for a part in order.",
+			"items": [
+				"check the marks",
+				"mark out from the drawing",
+				"fix or remake it if it is outside the tolerance",
+				"cut on the waste side",
+				"measure the part"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				4,
+				2
+			],
+			"hint": "Check before you cut, and measure after.",
+			"explain": "Mark out, check the marks, cut on the waste side, measure, and fix or remake if it is outside the tolerance."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.spec_point",
+			"level": 1
+		},
+		{
+			"gen": "g8l.spec_point",
+			"level": 2
+		},
+		{
+			"gen": "g8l.spec_point",
+			"level": 3
+		},
+		{
+			"gen": "g8l.plan_time",
+			"level": 1
+		},
+		{
+			"gen": "g8l.plan_time",
+			"level": 2
+		},
+		{
+			"gen": "g8l.plan_time",
+			"level": 3
+		},
+		{
+			"gen": "g8l.cutting_list",
+			"level": 1
+		},
+		{
+			"gen": "g8l.cutting_list",
+			"level": 2
+		},
+		{
+			"gen": "g8l.cutting_list",
+			"level": 3
+		}
+	]
+}

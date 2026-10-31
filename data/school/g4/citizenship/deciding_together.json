@@ -1,0 +1,318 @@
+{
+	"id": "g4.citizenship.deciding_together",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a win-win? (An idea that is good for both sides.) Groups must make choices all the time. Today: fair ways to decide together."
+		},
+		{
+			"text": "One person decides: quick, and fine for small things, like a team captain choosing a team name. But if others never get a say, they may feel it is unfair."
+		},
+		{
+			"text": "Voting: everyone gets one vote, and the choice with the most votes wins. It is fair when many people must decide. In a secret vote nobody sees how you voted, so you can choose freely."
+		},
+		{
+			"text": "A majority means more than half. With 30 voters, a majority is 16 or more. One idea gets 12 votes, another 10 and another 8. The first wins with the most votes, but not with a majority.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"treehouse",
+						12
+					],
+					[
+						"pond",
+						10
+					],
+					[
+						"maze",
+						8
+					]
+				],
+				"step": 2,
+				"top": 16,
+				"name": "Votes"
+			}
+		},
+		{
+			"text": "Agreeing, or consensus: the group talks until everyone can accept one choice. It takes longer, but nobody is left out. It works well in small groups, like friends planning a build."
+		},
+		{
+			"text": "Taking turns: when the same choice comes up again and again, like who picks the game, take turns so everyone gets a go. Picking a name from a hat is fair when every choice is equally good."
+		},
+		{
+			"text": "Which way is fair? Ask: How many people? How important is it? How much time is there? After a vote, respect the result, and remember that the other side's ideas still matter.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Way",
+						"Good when"
+					],
+					[
+						"one decides",
+						"small things"
+					],
+					[
+						"voting",
+						"many people"
+					],
+					[
+						"consensus",
+						"small groups"
+					],
+					[
+						"taking turns",
+						"it comes up often"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: with your friends, choose your next build three ways: a show of hands, a secret vote with signs, and talking until you agree. Which felt fairest? Next: keep going when things get hard."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a vote, which choice wins?",
+			"answer": 0,
+			"hint": "Count the votes.",
+			"choices": [
+				"the one with the most votes",
+				"the one the loudest person likes",
+				"the first one said",
+				"the one with the fewest votes"
+			],
+			"explain": "The choice with the most votes wins."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a secret vote, nobody sees how you voted.",
+			"answer": true,
+			"hint": "What does 'secret' mean?",
+			"explain": "True: a secret vote lets everyone choose freely."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does 'taking turns' mean?",
+			"answer": 0,
+			"hint": "Think of who picks the game each day.",
+			"choices": [
+				"each person gets a go, one after another",
+				"one person always chooses",
+				"nobody ever chooses",
+				"everyone shouts at once"
+			],
+			"explain": "Taking turns means each person gets a go, one after another."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a majority?",
+			"answer": 0,
+			"hint": "Split the voters into two equal groups. A majority is bigger than one of them.",
+			"choices": [
+				"more than half",
+				"exactly half",
+				"less than half",
+				"just one"
+			],
+			"explain": "A majority is more than half of the votes."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "There are 20 voters. How many votes make a majority?",
+			"answer": "11",
+			"hint": "Half of 20 is 10. A majority is more than half.",
+			"explain": "Half of 20 is 10, so 11 votes or more is a majority."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each way of deciding to when it works well.",
+			"items": [
+				"one person decides",
+				"a vote",
+				"consensus",
+				"taking turns"
+			],
+			"matches": [
+				"many people choosing",
+				"a small group with time",
+				"a choice made often",
+				"small, quick choices"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of how many people there are, and how much time.",
+			"explain": "One person: small, quick choices. A vote: many people. Consensus: small groups with time. Turns: choices made again and again."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Three friends choose a game every day. What is a fair way?",
+			"answer": 0,
+			"hint": "The same choice comes up again and again.",
+			"choices": [
+				"take turns choosing",
+				"the tallest always chooses",
+				"never play",
+				"the loudest wins"
+			],
+			"explain": "Take turns: over the week, everyone gets to choose."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is consensus?",
+			"answer": 0,
+			"hint": "It takes time, but nobody is left out.",
+			"choices": [
+				"talking until everyone can accept one choice",
+				"the oldest person decides",
+				"a secret vote",
+				"tossing a coin"
+			],
+			"explain": "Consensus means talking until everyone can accept one choice."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "After a fair vote, the losing side's ideas no longer matter.",
+			"answer": false,
+			"hint": "Respect the result. Could the other side's good ideas still help the group?",
+			"explain": "False: respect the result, but the other side's ideas still matter and may help next time."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "30 children choose a class trip. Which way is fairest?",
+			"answer": 0,
+			"hint": "Lots of people must decide.",
+			"choices": [
+				"a vote, so everyone has a say",
+				"the teacher's helper decides",
+				"no trip at all",
+				"the first child to shout"
+			],
+			"explain": "With many people, a vote gives everyone an equal say."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In a vote of 12, 10 and 8, the winner has a majority.",
+			"answer": false,
+			"hint": "Add up the votes and find half.",
+			"explain": "False: 12 + 10 + 8 = 30, and half of 30 is 15. 12 is not more than 15, so it wins with the most votes but no majority."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "When is picking a name from a hat a fair way to decide?",
+			"answer": 0,
+			"hint": "Would you pick from a hat when one choice is clearly better?",
+			"choices": [
+				"when every choice is equally good",
+				"never",
+				"only on Mondays",
+				"when one choice is clearly best"
+			],
+			"explain": "A draw is fair when all the choices are equally good; for choices that matter, talking or voting is better."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two friends want different names for their shared pet. What could they do?",
+			"answer": 0,
+			"hint": "Remember win-win and compromise.",
+			"choices": [
+				"find a name both like, or mix their ideas",
+				"stop being friends",
+				"let the pet decide",
+				"have no name"
+			],
+			"explain": "They can talk until they agree, perhaps mixing their ideas: a win-win."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In a vote, 9 children chose the pond, 6 the maze and 5 the tower. How many more votes would the pond have needed for a majority?",
+			"answer": "2",
+			"hint": "Add up all the votes, find a majority, then compare it with the pond's 9.",
+			"explain": "9 + 6 + 5 = 20 voters, so a majority is 11. 11 − 9 = 2 more votes."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the choices by the fairest way to make them.",
+			"groups": [
+				"a vote",
+				"take turns",
+				"consensus"
+			],
+			"items": [
+				"30 pupils choose a class trip",
+				"who picks the game each day",
+				"3 friends plan a shared build",
+				"a school chooses a council member",
+				"who goes first on the swing",
+				"2 friends name a shared pet"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Many people: vote. A choice made again and again: turns. A small group with time: talk until all agree.",
+			"explain": "A vote: the class trip and the council member (many people). Take turns: the daily game and the swing. Consensus: the shared build and the pet's name (a small group with time)."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A vote: the pond 9, the maze 6, the tower 5. Sort the statements: true or false?",
+			"groups": [
+				"true",
+				"false"
+			],
+			"items": [
+				"The pond won the most votes.",
+				"The pond has a majority.",
+				"20 children voted.",
+				"A majority would be 11 votes."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Add the votes first, then find half.",
+			"explain": "9 + 6 + 5 = 20 voters, so a majority is 11 or more. The pond won the most votes (9), but 9 is not a majority."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4h.vote_count",
+			"level": 1
+		},
+		{
+			"gen": "g4h.vote_count",
+			"level": 2
+		},
+		{
+			"gen": "g4h.vote_count",
+			"level": 3
+		}
+	]
+}

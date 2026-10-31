@@ -1,0 +1,396 @@
+{
+	"id": "g3.citizenship.saving",
+	"lesson": [
+		{
+			"text": "Quick memory: how do most grown-ups earn money? (By working at a job.) Once you have some, you can spend it now or save it for later."
+		},
+		{
+			"text": "Saving means keeping some money to use later, instead of spending it all now. People save for things that cost more than they have, and for surprises, like a broken bike."
+		},
+		{
+			"text": "Start with a goal: what do you want, and how much does it cost? Bram wants a saddle for his horse. It costs 30 gold.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "5",
+								"size": 1
+							},
+							{
+								"text": "5",
+								"size": 1
+							},
+							{
+								"text": "5",
+								"size": 1
+							},
+							{
+								"text": "5",
+								"size": 1
+							},
+							{
+								"text": "5",
+								"size": 1
+							},
+							{
+								"text": "5",
+								"size": 1
+							}
+						],
+						"total": "30 gold: the saddle"
+					}
+				]
+			}
+		},
+		{
+			"text": "Then make a plan: how much can you save each time? Bram saves 5 gold a day and counts in fives: 5, 10, 15, 20, 25, 30. After 6 days he can buy it!",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"day",
+						"gold saved"
+					],
+					[
+						"1",
+						"5"
+					],
+					[
+						"2",
+						"10"
+					],
+					[
+						"3",
+						"15"
+					],
+					[
+						"4",
+						"20"
+					],
+					[
+						"5",
+						"25"
+					],
+					[
+						"6",
+						"30"
+					]
+				]
+			}
+		},
+		{
+			"text": "Keep savings safe: in a money box at home, or in a bank, where a grown-up can open an account for you. A bank keeps money safe and may add a little extra, called interest."
+		},
+		{
+			"text": "Never tell anyone online a bank's details or a password, and never carry lots of money around. Talk to a grown-up you trust about money."
+		},
+		{
+			"text": "Saving takes patience, but reaching a goal feels great. And if you change your mind about the goal, the gold you saved is still yours!"
+		},
+		{
+			"text": "Try it in the world: choose something at Tilly's stall to save for. Put your goal and your plan on a sign by your home, and see how many days it takes."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does saving mean?",
+			"answer": 0,
+			"hint": "Think of Bram and his saddle.",
+			"choices": [
+				"keeping money to use later",
+				"spending it all at once",
+				"giving it all away",
+				"losing it"
+			],
+			"explain": "Saving means keeping some money now to use later."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a safe place to keep savings?",
+			"answer": 0,
+			"hint": "Where is it protected and kept track of?",
+			"choices": [
+				"a bank or a money box at home",
+				"under a stone in the park",
+				"in your pocket all day",
+				"with a stranger"
+			],
+			"explain": "A money box at home or a bank account keeps savings safe."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A savings goal is something you are saving up for.",
+			"answer": true,
+			"hint": "Bram's goal was a saddle.",
+			"explain": "True: a goal is what you want to buy with your savings."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is fine to tell people online your bank password.",
+			"answer": false,
+			"hint": "Who should know a password?",
+			"explain": "False: never share a bank's details or a password online."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of a savings plan in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You need a goal before you can know the price.",
+			"items": [
+				"save until you reach it",
+				"decide how much to save each time",
+				"find out how much it costs",
+				"choose a goal"
+			],
+			"explain": "Choose a goal, find its price, decide how much to save each time, then save until you get there."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is interest?",
+			"answer": 0,
+			"hint": "Remember the card about banks.",
+			"choices": [
+				"a little extra money a bank may add",
+				"a kind of coin",
+				"the price of a toy",
+				"a money box"
+			],
+			"explain": "Interest is extra money a bank may add to your savings."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bram saves 5 gold a day for a 30-gold saddle. How many days does it take?",
+			"answer": 0,
+			"hint": "Count in fives up to 30.",
+			"choices": [
+				"6",
+				"5",
+				"25",
+				"35"
+			],
+			"explain": "5, 10, 15, 20, 25, 30: six fives, so 6 days.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"day",
+						"gold saved"
+					],
+					[
+						"1",
+						"5"
+					],
+					[
+						"2",
+						"10"
+					],
+					[
+						"3",
+						"15"
+					],
+					[
+						"4",
+						"20"
+					],
+					[
+						"5",
+						"25"
+					],
+					[
+						"6",
+						"30"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Saving can help when something unexpected happens, like a broken bike.",
+			"answer": true,
+			"hint": "What if you suddenly need money for a repair?",
+			"explain": "True: savings help with surprises as well as goals."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara has 20 gold and saves 5 gold a day. How much will she have after 4 days?",
+			"answer": 0,
+			"hint": "Work out 4 days of saving, then add what she has already.",
+			"choices": [
+				"40 gold",
+				"25 gold",
+				"20 gold",
+				"9 gold"
+			],
+			"explain": "4 × 5 = 20 gold saved, plus her 20 gold: 40 gold."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi wants a 50-gold oven. Which plan gets there fastest?",
+			"answer": 0,
+			"hint": "The more she saves each day, the fewer days it takes.",
+			"choices": [
+				"save 10 gold a day",
+				"save 2 gold a day",
+				"save 5 gold a day",
+				"save 1 gold a day"
+			],
+			"explain": "Saving 10 gold a day takes 5 days; 5 gold a day takes 10 days. 10 a day is fastest."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If you change your mind about your goal, the gold you saved is lost.",
+			"answer": false,
+			"hint": "Whose gold is it?",
+			"explain": "False: saved gold is still yours, ready for a new goal."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly saved 18 gold, then spent 6 gold. How much is saved now?",
+			"answer": 0,
+			"hint": "Spending takes gold away from the savings.",
+			"choices": [
+				"12 gold",
+				"24 gold",
+				"6 gold",
+				"18 gold"
+			],
+			"explain": "18 − 6 = 12 gold still saved."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why might a bank be safer than a money box at home?",
+			"answer": 0,
+			"hint": "What could happen to a money box that cannot happen to a bank account?",
+			"choices": [
+				"it guards the money and keeps records",
+				"money boxes are always open",
+				"banks are open all night",
+				"banks give money to everyone"
+			],
+			"explain": "A bank guards the money and writes down every coin in and out, so it is safe and counted."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these places for savings: safe, or not safe?",
+			"groups": [
+				"safe",
+				"not safe"
+			],
+			"items": [
+				"a bank account",
+				"under a stone in the park",
+				"a money box at home",
+				"with a stranger"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Would the money still be there, and still yours, next week?",
+			"explain": "Safe: a bank account or a money box at home. Not safe: under a stone or with a stranger."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Zara wants a lantern that costs 40 gold. She saves 5 gold a day. How many days will it take?",
+			"answer": "8",
+			"hint": "Count in fives until you reach 40.",
+			"explain": "40 ÷ 5 = 8 days."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"a goal",
+				"interest",
+				"a money box"
+			],
+			"matches": [
+				"a little extra a bank may add",
+				"a safe place at home",
+				"what you are saving for"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "The goal is the thing you want.",
+			"explain": "A goal is what you save for, interest is a little extra from a bank, and a money box keeps savings at home."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: helps you save, or makes saving harder?",
+			"groups": [
+				"helps you save",
+				"makes it harder"
+			],
+			"items": [
+				"putting 5 gold away each day",
+				"spending it all on sweets",
+				"writing down your goal",
+				"buying things you don't need",
+				"keeping coins in a money box",
+				"carrying all your gold around"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "A goal, a plan and a safe place help. Spending it all does not.",
+			"explain": "Helps: saving a little each day, writing your goal down and a money box. Harder: spending on sweets or things you don't need, and carrying gold around, where it can be lost."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi wants a 50-gold oven. She already has 10 gold and saves 5 gold a day. How many days until she can buy it?",
+			"answer": "8",
+			"hint": "First find how much more she needs. Then count in fives.",
+			"explain": "She needs 50 − 10 = 40 more gold. 40 ÷ 5 = 8 days."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3h.coins_save",
+			"level": 1
+		},
+		{
+			"gen": "g3h.coins_save",
+			"level": 2
+		},
+		{
+			"gen": "g3h.coins_save",
+			"level": 3
+		}
+	]
+}

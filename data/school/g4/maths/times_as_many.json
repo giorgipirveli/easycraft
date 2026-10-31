@@ -1,0 +1,210 @@
+{
+	"id": "g4.maths.times_as_many",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met times tables. What is 6 × 7? 42."
+		},
+		{
+			"text": "Times as many compares by multiplying. Zara has 3 gems. Bram has 4 times as many: 4 × 3 = 12 gems.",
+			"picture": {
+				"kind": "array",
+				"rows": 4,
+				"cols": 3,
+				"block": 23
+			}
+		},
+		{
+			"text": "35 = 5 × 7 can be read two ways: 35 is 5 times as many as 7, and 35 is 7 times as many as 5."
+		},
+		{
+			"text": "Times as many is not the same as more. 3 more than 4 is 7, but 3 times as many as 4 is 12.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"name": "4",
+						"parts": [
+							{
+								"text": "4",
+								"size": 4
+							}
+						]
+					},
+					{
+						"name": "3 times",
+						"parts": [
+							{
+								"text": "4",
+								"size": 4
+							},
+							{
+								"text": "4",
+								"size": 4
+							},
+							{
+								"text": "4",
+								"size": 4
+							}
+						],
+						"total": "12"
+					}
+				]
+			}
+		},
+		{
+			"text": "To find the smaller amount, divide: if 24 is 6 times as many as a number, that number is 24 ÷ 6 = 4."
+		},
+		{
+			"text": "Try it in the world: build a tower 3 blocks tall, then one 4 times as tall. How tall is the second? 12 blocks. Next: multiplying bigger numbers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Pip has 5 carrots. Tilly has 3 times as many. How many carrots does Tilly have?",
+			"answer": "15",
+			"hint": "3 times as many as 5 means 3 × 5.",
+			"explain": "3 × 5 = 15 carrots."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which means \"4 times as many as 6\"?",
+			"choices": [
+				"4 × 6",
+				"4 + 6",
+				"6 − 4",
+				"6 ÷ 4"
+			],
+			"answer": 0,
+			"hint": "Times as many means multiply.",
+			"explain": "4 times as many as 6 is 4 × 6 = 24."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A dragon's tail is 8 times as long as its 2 m nose. How long is the tail, in metres?",
+			"answer": "16",
+			"hint": "8 times as long as 2 m: multiply.",
+			"explain": "8 × 2 = 16 m."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "6 times as many as 3 is the same as 3 more than 6.",
+			"answer": false,
+			"hint": "Work out both: 6 × 3 and 6 + 3.",
+			"explain": "6 × 3 = 18, but 6 + 3 = 9."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Nell has 42 feathers. That is 7 times as many as Pip has. How many feathers does Pip have?",
+			"answer": "6",
+			"hint": "Which number times 7 makes 42?",
+			"explain": "7 × 6 = 42, so Pip has 6 feathers."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara's tower is 5 blocks tall. Bram's is 3 times as tall. Mimi's is 3 blocks taller than Zara's. Whose tower is tallest?",
+			"choices": [
+				"Bram's",
+				"Mimi's",
+				"Zara's"
+			],
+			"answer": 0,
+			"hint": "Work out both: 3 × 5 and 5 + 3.",
+			"explain": "Bram's is 3 × 5 = 15 blocks; Mimi's is 5 + 3 = 8."
+		},
+		{
+			"type": "build",
+			"level": 1,
+			"prompt": "Pip's tower is 2 blocks tall. Build a tower 4 times as tall.",
+			"board": {
+				"cols": 5,
+				"rows": 10,
+				"block": 9,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "array",
+				"rows": 8,
+				"cols": 1
+			},
+			"hint": "4 times as tall as 2 is 4 × 2.",
+			"explain": "4 × 2 = 8 blocks, one on top of another."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A giant tree is 45 m tall. It is 9 times as tall as a house. How tall is the house, in metres?",
+			"answer": "5",
+			"hint": "Which number times 9 makes 45?",
+			"explain": "9 × 5 = 45, so the house is 5 m tall."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the sentences: times as many, or more than?",
+			"items": [
+				"5 × 3",
+				"5 + 3",
+				"3 lots of 5",
+				"5 and 3 more"
+			],
+			"groups": [
+				"times as many",
+				"more than"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Times as many multiplies; more than adds.",
+			"explain": "5 × 3 and 3 lots of 5 are times as many (15). 5 + 3 and 5 and 3 more are more than (8)."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4m.times_as_many",
+			"level": 1
+		},
+		{
+			"gen": "g4m.times_as_many",
+			"level": 2
+		},
+		{
+			"gen": "g4m.times_as_many",
+			"level": 3
+		},
+		{
+			"gen": "g4m.comparison_sentence",
+			"level": 1
+		},
+		{
+			"gen": "g4m.comparison_sentence",
+			"level": 2
+		},
+		{
+			"gen": "g4m.times_or_more",
+			"level": 2
+		},
+		{
+			"gen": "g4m.times_or_more",
+			"level": 3
+		},
+		{
+			"gen": "g4m.build_times",
+			"level": 1
+		},
+		{
+			"gen": "g4m.build_times",
+			"level": 2
+		}
+	]
+}

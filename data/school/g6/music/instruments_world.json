@@ -1,0 +1,462 @@
+{
+	"id": "g6.music.instruments_world",
+	"lesson": [
+		{
+			"text": "Quick memory: which orchestra family do the violin and the cello belong to? (The strings.) Today: instruments of the world, and how they make their sound."
+		},
+		{
+			"text": "Musicians sort instruments by what vibrates: strings (chordophones), a stretched skin (membranophones), air (aerophones), or the instrument itself (idiophones)."
+		},
+		{
+			"text": "The sitar, from India, has a long neck with curved frets, a gourd body and extra strings that ring along in sympathy. It is plucked with a wire pick worn on a finger.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "sitar",
+				"labels": true
+			}
+		},
+		{
+			"text": "The koto, from Japan, is a long wooden zither with 13 strings. A movable bridge under each string sets its note, and players pluck with picks on their fingers.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "koto",
+				"labels": true
+			}
+		},
+		{
+			"text": "The djembe, from West Africa, is a goblet-shaped drum carved from one piece of wood, with a goatskin pulled tight by ropes. Hands play three main sounds: bass, tone and slap.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "djembe",
+				"labels": true
+			}
+		},
+		{
+			"text": "Bagpipes, famous in Scotland and played in many countries, keep air in a bag. The chanter plays the tune, while the drones hold steady notes underneath.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "bagpipes",
+				"labels": true
+			}
+		},
+		{
+			"text": "The steelpan was invented in Trinidad and Tobago in the 1930s and 1940s, from oil drums. Each dent hammered into its top plays a different note. Listen: five notes from five dents.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "steelpan",
+				"labels": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"D5",
+					"E5",
+					"G5",
+					"A5:2"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: with a grown-up, find a recording of each instrument and sort them by what vibrates. Next: the science of sound."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which instrument is this?",
+			"answer": 0,
+			"hint": "A long neck, curved frets and a round gourd.",
+			"choices": [
+				"sitar",
+				"koto",
+				"djembe",
+				"bagpipes"
+			],
+			"explain": "It is a sitar, from India.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "sitar"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What vibrates to make the djembe's sound?",
+			"answer": 0,
+			"hint": "What do the hands hit?",
+			"choices": [
+				"a stretched skin",
+				"strings",
+				"air in a tube",
+				"metal bars"
+			],
+			"explain": "Hands strike the goatskin, which vibrates.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "djembe"
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each instrument to where it comes from.",
+			"items": [
+				"sitar",
+				"koto",
+				"steelpan",
+				"djembe"
+			],
+			"matches": [
+				"Japan",
+				"Trinidad and Tobago",
+				"West Africa",
+				"India"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the lesson's map.",
+			"explain": "The sitar is from India, the koto Japan, the steelpan Trinidad and Tobago and the djembe West Africa."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The first steelpans were made from oil drums.",
+			"answer": true,
+			"hint": "Think of Trinidad and Tobago.",
+			"explain": "True: players hammered notes into old oil drums."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many strings does a koto usually have?",
+			"answer": "13",
+			"hint": "The lesson told you.",
+			"explain": "A koto usually has 13 strings."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the bagpipes: tap a word, then its number.",
+			"hint": "You blow into the blowpipe; the tune comes from the pipe with holes; the drones rest on the shoulder.",
+			"explain": "The tartan bag holds the air, the three pipes up top are drones, the pipe with holes is the chanter and the pipe you blow into is the blowpipe.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "bagpipes"
+			},
+			"spots": [
+				[
+					0.9423,
+					0.571,
+					0.5,
+					0.571
+				],
+				[
+					0.9423,
+					0.1981,
+					0.6419,
+					0.1981
+				],
+				[
+					0.0577,
+					0.8019,
+					0.377,
+					0.8019
+				],
+				[
+					0.0577,
+					0.3668,
+					0.2966,
+					0.3668
+				]
+			],
+			"labels": [
+				"drones",
+				"chanter",
+				"blowpipe",
+				"bag"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			]
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these instruments by what vibrates.",
+			"groups": [
+				"strings",
+				"a skin",
+				"air"
+			],
+			"items": [
+				"sitar",
+				"djembe",
+				"didgeridoo",
+				"koto",
+				"bodhran",
+				"bagpipes"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Plucked, hit on a skin, or blown?",
+			"explain": "Strings: sitar, koto. A skin: djembe, bodhran (an Irish drum). Air: didgeridoo, bagpipes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which family is the steelpan in?",
+			"answer": 0,
+			"hint": "It has no strings, skin or tube.",
+			"choices": [
+				"idiophone: it vibrates itself",
+				"chordophone",
+				"membranophone",
+				"aerophone"
+			],
+			"explain": "The metal pan itself vibrates: an idiophone.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "steelpan"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The kora, from West Africa, has 21 strings over a big gourd. Which family is it in?",
+			"answer": 0,
+			"hint": "Think about which part vibrates to make the sound.",
+			"choices": [
+				"chordophone",
+				"membranophone",
+				"aerophone",
+				"idiophone"
+			],
+			"explain": "Its strings vibrate: a chordophone.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "kora"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The drones of the bagpipes play the tune.",
+			"answer": false,
+			"hint": "What do the drones do?",
+			"explain": "False: the chanter plays the tune; the drones hold steady notes."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the sitar: tap a word, then its number.",
+			"hint": "The pegs tune the strings at the top end; the frets are curved bars on the neck; the gourd is the round body.",
+			"explain": "The tuning pegs are at the end, the long part is the neck, the curved bars are frets and the round body is the gourd.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "sitar"
+			},
+			"spots": [
+				[
+					0.0577,
+					0.3579,
+					0.1594,
+					0.3579
+				],
+				[
+					0.0577,
+					0.5979,
+					0.3865,
+					0.4467
+				],
+				[
+					0.9423,
+					0.3579,
+					0.5189,
+					0.3579
+				],
+				[
+					0.9423,
+					0.6066,
+					0.8028,
+					0.6066
+				]
+			],
+			"labels": [
+				"neck",
+				"frets",
+				"gourd",
+				"pegs"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			]
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label the djembe.",
+			"hint": "What do the hands hit? What pulls it tight?",
+			"explain": "The top is the goatskin, the carved wood is the shell, and the ropes pull the skin tight.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "djembe"
+			},
+			"spots": [
+				[
+					0.9423,
+					0.1626,
+					0.5,
+					0.1626
+				],
+				[
+					0.9423,
+					0.5533,
+					0.5,
+					0.5533
+				],
+				[
+					0.0577,
+					0.3579,
+					0.377,
+					0.3579
+				]
+			],
+			"labels": [
+				"shell",
+				"ropes",
+				"skin"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The erhu, from China, has 2 strings and is played with a bow. Where does its bow go?",
+			"answer": 0,
+			"hint": "Look closely where the bow hair runs.",
+			"choices": [
+				"between its two strings",
+				"under the sound box",
+				"over the top of the neck",
+				"it has no bow"
+			],
+			"explain": "The erhu's bow hair runs between its two strings.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "erhu"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How do players keep a didgeridoo sounding without stopping?",
+			"answer": 0,
+			"hint": "It is called circular breathing.",
+			"choices": [
+				"breathing in through the nose while blowing out",
+				"holding their breath",
+				"pressing keys",
+				"hitting it"
+			],
+			"explain": "Circular breathing: they breathe in through the nose while their cheeks push air out.",
+			"picture": {
+				"kind": "world_instrument",
+				"what": "didgeridoo"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The strings of a koto are tuned by moving the bridges under them.",
+			"answer": true,
+			"hint": "What sets each string's note?",
+			"explain": "True: moving a bridge changes how much of the string vibrates."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "One sitar has 7 playing strings and 13 strings that ring in sympathy. How many strings is that?",
+			"answer": "20",
+			"hint": "Add the playing strings and the ringing strings together.",
+			"explain": "7 + 13 = 20 strings."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which three sounds does a djembe player make with their hands?",
+			"answer": 0,
+			"hint": "Think back to the lesson.",
+			"choices": [
+				"bass, tone and slap",
+				"do, re and mi",
+				"loud, quiet and silent",
+				"strum, bow and blow"
+			],
+			"explain": "Bass (the middle), tone (the edge) and slap (a sharp edge sound)."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these instruments by what makes their sound.",
+			"groups": [
+				"strings",
+				"air",
+				"the instrument itself"
+			],
+			"items": [
+				"erhu",
+				"shakuhachi",
+				"balafon",
+				"kora",
+				"didgeridoo",
+				"gong"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Bowed or plucked, blown, or struck and shaking itself?",
+			"explain": "Strings: erhu, kora. Air: shakuhachi (a Japanese flute), didgeridoo. Itself: balafon (a wooden xylophone), gong."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.instrument_family",
+			"level": 1
+		},
+		{
+			"gen": "g6c.instrument_family",
+			"level": 2
+		},
+		{
+			"gen": "g6c.instrument_family",
+			"level": 3
+		}
+	]
+}

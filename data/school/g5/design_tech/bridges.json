@@ -1,0 +1,359 @@
+{
+	"id": "g5.design_tech.bridges",
+	"lesson": [
+		{
+			"text": "Quick memory: which shape makes a frame strongest? (A triangle.) Today: how bridges carry their loads, and how engineers test them."
+		},
+		{
+			"text": "Two forces act inside every bridge: compression, which squashes, and tension, which stretches. Stone and concrete are strong when squashed; steel cables are strong when stretched."
+		},
+		{
+			"text": "A beam bridge is a beam resting on supports. A load bends it: the top is squashed and the bottom is stretched. Beams are simple, but only span short gaps, so long ones need piers.",
+			"picture": {
+				"kind": "bridge",
+				"type": "beam",
+				"load": 0.5,
+				"forces": true
+			}
+		},
+		{
+			"text": "An arch bridge carries its load round the curve and down into the ground at each end, the abutments. Every stone is squashed together, and the keystone locks them. Roman stone arches still stand today.",
+			"picture": {
+				"kind": "bridge",
+				"type": "arch",
+				"forces": true,
+				"labels": true
+			}
+		},
+		{
+			"text": "A truss bridge stiffens a beam with a frame of triangles, a truss. A triangle cannot be pushed out of shape, so the truss spreads the load: some bars are squashed and others stretched.",
+			"picture": {
+				"kind": "bridge",
+				"type": "truss",
+				"spans": 2,
+				"labels": true
+			}
+		},
+		{
+			"text": "A suspension bridge hangs its deck from cables over tall towers, anchored at each end. The cables are stretched and the towers squashed. The longest have more than 2 km between their towers.",
+			"picture": {
+				"kind": "bridge",
+				"type": "suspension",
+				"forces": true,
+				"labels": true
+			}
+		},
+		{
+			"text": "Test model bridges fairly: the same gap, the same material, loads added the same way. Add washers one at a time, and record how many each holds before it sags too far. Test each design 3 times."
+		},
+		{
+			"text": "Try it in the world: build a beam, an arch and a truss bridge over a river, and drive a cart across each. For real: make paper bridges over a 20 cm gap, flat, folded and arched, and test which holds the most coins."
+		}
+	],
+	"exercises": [
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"compression",
+				"tension",
+				"load",
+				"pier"
+			],
+			"matches": [
+				"a stretching force",
+				"what a bridge must hold up",
+				"a support in the river",
+				"a squashing force"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of a squashed sponge and a stretched elastic band.",
+			"explain": "Compression squashes, tension stretches, the load is what the bridge holds, and a pier is a support."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What kind of bridge is this?",
+			"answer": 0,
+			"hint": "Look at the curved shape under the deck.",
+			"choices": [
+				"an arch bridge",
+				"a beam bridge",
+				"a truss bridge",
+				"a suspension bridge"
+			],
+			"explain": "An arch bridge: the curve carries the load down to the ends.",
+			"picture": {
+				"kind": "bridge",
+				"type": "arch"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which shape makes a truss strong?",
+			"answer": 0,
+			"hint": "Which shape cannot be pushed out of shape?",
+			"choices": [
+				"triangles",
+				"squares",
+				"circles",
+				"hexagons"
+			],
+			"explain": "Triangles: a triangle keeps its shape when it is pushed."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A suspension bridge hangs its deck from cables.",
+			"answer": true,
+			"hint": "What does 'suspend' mean?",
+			"explain": "True: the deck hangs from cables slung over tall towers."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A load presses on a beam bridge. Which part of the beam is squashed?",
+			"answer": 0,
+			"hint": "The beam bends down in the middle. Which side gets shorter?",
+			"choices": [
+				"the top",
+				"the bottom",
+				"the river under it",
+				"the banks"
+			],
+			"explain": "The top: as the beam bends down, its top is squashed and its bottom is stretched.",
+			"picture": {
+				"kind": "bridge",
+				"type": "beam",
+				"load": 0.5
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Squashed or stretched?",
+			"groups": [
+				"compression",
+				"tension"
+			],
+			"items": [
+				"the stones of an arch",
+				"a suspension bridge's cables",
+				"a suspension bridge's towers",
+				"the bottom of a loaded beam",
+				"the top of a loaded beam",
+				"a rope in a tug of war"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it being pushed together, or pulled apart?",
+			"explain": "Compression: arch stones, towers, a beam's top. Tension: cables, a beam's bottom, a tug-of-war rope."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do long beam bridges need piers?",
+			"answer": 0,
+			"hint": "What happens to a very long beam with a load on it?",
+			"choices": [
+				"a beam can only span a short gap",
+				"piers look nice",
+				"to stop boats",
+				"to make the bridge longer"
+			],
+			"explain": "A beam bends more the longer it is, so piers hold it up every short span."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a fair bridge test in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need the bridge in place before any load.",
+			"items": [
+				"add one washer at a time",
+				"record how many it held",
+				"build the bridge over the gap",
+				"stop when it sags too far",
+				"test it twice more"
+			],
+			"explain": "Build it, add washers one at a time, stop when it sags too far, record the number, then test twice more."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In an arch bridge, the keystone at the top locks the stones together.",
+			"answer": true,
+			"hint": "Which stone sits at the very top of the arch?",
+			"explain": "True: the keystone is the last stone in, and it locks the arch."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What holds up a suspension bridge's deck?",
+			"answer": 0,
+			"hint": "Look for the long curved lines and the tall posts.",
+			"choices": [
+				"cables hung over towers",
+				"piers every few metres",
+				"a stone arch",
+				"floats on the water"
+			],
+			"explain": "Cables hung over tall towers, with hangers down to the deck.",
+			"picture": {
+				"kind": "bridge",
+				"type": "suspension",
+				"labels": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which type of bridge can span the longest gaps?",
+			"answer": 0,
+			"hint": "Which one uses steel cables that are strong when stretched?",
+			"choices": [
+				"suspension",
+				"beam",
+				"stone arch",
+				"a log across a stream"
+			],
+			"explain": "Suspension bridges: the longest have more than 2 km between their towers."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A paper bridge held 24 washers. Each washer has a mass of 5 g. What load did it hold, in grams?",
+			"answer": "120",
+			"hint": "The same mass for every washer: multiply.",
+			"explain": "24 × 5 = 120 g."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bridge A (50 g) held 1,000 g. Bridge B (100 g) held 1,500 g. Which is the better design for its own mass?",
+			"answer": 0,
+			"hint": "How many times its own mass did each bridge hold?",
+			"choices": [
+				"A: 20 times its mass, B only 15",
+				"B: it held more",
+				"they are the same",
+				"neither"
+			],
+			"explain": "A: 1,000 ÷ 50 = 20 times its mass. B: 1,500 ÷ 100 = 15 times. A is stronger for its mass."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why test each bridge 3 times?",
+			"answer": 0,
+			"hint": "Could one result be unusual, by chance?",
+			"choices": [
+				"one test could be a fluke",
+				"to break it",
+				"to use up washers",
+				"because the rules say so"
+			],
+			"explain": "One test could be a fluke; results that agree 3 times can be trusted."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Stone is strong when squashed, but weak when stretched.",
+			"answer": true,
+			"hint": "Which bridges are built of stone, and why?",
+			"explain": "True: that is why stone bridges are arches, which keep every stone squashed."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did the Romans build their stone bridges as arches?",
+			"answer": 0,
+			"hint": "What is stone strong at?",
+			"choices": [
+				"an arch keeps every stone squashed",
+				"arches are cheaper than wood",
+				"stone floats",
+				"the Romans had steel cables"
+			],
+			"explain": "Stone is strong when squashed, and an arch keeps every stone squashed together."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each bridge to how it carries its load.",
+			"items": [
+				"beam",
+				"arch",
+				"truss",
+				"suspension"
+			],
+			"matches": [
+				"a frame of triangles",
+				"cables over tall towers",
+				"a beam on supports",
+				"a curve down to the ends"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Picture each bridge: a plank, a curve, a frame or hanging cables.",
+			"explain": "A beam bridge rests on supports, an arch carries its load round the curve to the ends, a truss stiffens a beam with triangles, and a suspension bridge hangs from cables over towers."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A beam bridge must cross a 60 m river. Each beam can span 15 m. The ends rest on the banks. How many piers are needed in the river?",
+			"answer": "3",
+			"hint": "First find how many spans you need. Piers go between the spans.",
+			"explain": "60 ÷ 15 = 4 spans. The two ends rest on the banks, so piers are only needed between spans: 4 − 1 = 3 piers."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.bridge_piers",
+			"level": 1
+		},
+		{
+			"gen": "g5w.bridge_piers",
+			"level": 2
+		},
+		{
+			"gen": "g5w.bridge_piers",
+			"level": 3
+		},
+		{
+			"gen": "g5w.bridge_test",
+			"level": 1
+		},
+		{
+			"gen": "g5w.bridge_test",
+			"level": 2
+		},
+		{
+			"gen": "g5w.bridge_test",
+			"level": 3
+		}
+	]
+}

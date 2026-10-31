@@ -1,0 +1,401 @@
+{
+	"id": "g3.science.weather_hazards",
+	"lesson": [
+		{
+			"text": "Remember? Weather changes from day to day. Sometimes it turns wild and dangerous: a weather hazard.",
+			"picture": {
+				"kind": "icon",
+				"block": 11
+			}
+		},
+		{
+			"text": "Weather hazards include thunderstorms with lightning, floods and heatwaves. A hurricane is a huge storm with very strong winds. A drought is months with too little rain. A blizzard is a snowstorm with strong winds."
+		},
+		{
+			"text": "We cannot stop the weather, but we can reduce the harm it does. Forecasters watch the weather and send warnings, so people have time to get ready.",
+			"picture": {
+				"kind": "weather_kit",
+				"tools": [
+					"thermometer",
+					"rain_gauge",
+					"anemometer",
+					"barometer"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Designs that help: flood walls and barriers, and houses on stilts. Lightning rods on tall buildings, strong roofs and storm shutters. And reservoirs that store water for dry times.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Hazard",
+						"A design"
+					],
+					[
+						"flood",
+						"flood wall"
+					],
+					[
+						"lightning",
+						"lightning rod"
+					],
+					[
+						"strong wind",
+						"storm shutters"
+					],
+					[
+						"drought",
+						"reservoir"
+					]
+				]
+			}
+		},
+		{
+			"text": "Stay safe: in a thunderstorm, go indoors. In a flood, never walk or play in flood water. In a blizzard, stay inside and keep warm. In a heatwave, drink water and stay in the shade.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"hazard",
+						"stay safe"
+					],
+					[
+						"thunderstorm",
+						"go indoors"
+					],
+					[
+						"flood",
+						"keep out of the water"
+					],
+					[
+						"blizzard",
+						"stay in, keep warm"
+					],
+					[
+						"heatwave",
+						"water and shade"
+					]
+				]
+			}
+		},
+		{
+			"text": "Engineers compare designs. How well does it work? How much does it cost? How long does it take to build? Does it harm anything? A good design helps the most within the limits."
+		},
+		{
+			"text": "Try it in the world: build a house on stilts beside a river, or put a lightning rod on your tallest tower. What harm does each one stop? Next: working like a scientist."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a drought?",
+			"answer": 0,
+			"hint": "Think of dry, cracked ground.",
+			"choices": [
+				"a long time with too little rain",
+				"a very big snowstorm",
+				"a strong wind"
+			],
+			"explain": "A drought is a long time with too little rain."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should you do in a thunderstorm?",
+			"answer": 0,
+			"hint": "Where are you safest from lightning?",
+			"choices": [
+				"go indoors",
+				"shelter under a tall tree",
+				"swim in a lake"
+			],
+			"explain": "Go indoors. Tall trees and water are dangerous in a thunderstorm."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A weather warning helps people get ready before a storm comes.",
+			"answer": true,
+			"hint": "What can people do with the time?",
+			"explain": "True: a warning gives people time to tie things down and get to safety."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a blizzard?",
+			"answer": 0,
+			"hint": "It happens in winter.",
+			"choices": [
+				"a snowstorm with strong winds",
+				"a hot, dry day",
+				"a gentle rain"
+			],
+			"explain": "A blizzard is a snowstorm with strong winds."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is safe to play in flood water.",
+			"answer": false,
+			"hint": "Flood water can be deep, fast and dirty.",
+			"explain": "False: never walk or play in flood water. It can sweep you away."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does a lightning rod do?",
+			"answer": 0,
+			"hint": "Where does the lightning go?",
+			"choices": [
+				"It carries lightning safely to the ground",
+				"It makes it rain",
+				"It stops the wind"
+			],
+			"explain": "A lightning rod gives lightning a safe path to the ground, so the building is not harmed."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are some houses built on stilts?",
+			"answer": 0,
+			"hint": "What rises around the house in a flood?",
+			"choices": [
+				"to stay above flood water",
+				"to catch more wind",
+				"to be nearer the Sun"
+			],
+			"explain": "Stilts keep the house above the water when a river floods."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which design helps a farm in a drought?",
+			"answer": 0,
+			"hint": "What does a farm need when no rain falls?",
+			"choices": [
+				"a reservoir that stores water",
+				"a flood wall",
+				"a lightning rod"
+			],
+			"explain": "A reservoir stores water from wet times to use in a drought."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the storm plan in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What must happen before a warning?",
+			"items": [
+				"The storm passes safely",
+				"People tie things down and go in",
+				"A warning is sent out",
+				"Forecasters see a storm coming"
+			],
+			"explain": "The storm is seen, a warning goes out, people get ready, and the storm passes safely."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "People can stop a hurricane from happening.",
+			"answer": false,
+			"hint": "Can we control the weather?",
+			"explain": "False: we cannot stop hurricanes, but we can reduce the harm they do."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The playground gets very hot in heatwaves. Which plan gives shade fastest?",
+			"answer": 0,
+			"hint": "Look at the \"Ready\" column.",
+			"choices": [
+				"Plan B: a shade roof",
+				"Plan A: plant trees",
+				"Plan C: stay inside"
+			],
+			"explain": "The shade roof is ready in 1 week, so it gives shade fastest, though it costs more.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Plan",
+						"Cost",
+						"Ready"
+					],
+					[
+						"A trees",
+						"low",
+						"5 years"
+					],
+					[
+						"B roof",
+						"high",
+						"1 week"
+					],
+					[
+						"C inside",
+						"none",
+						"now, no play"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Engineers must build a flood wall that costs less than the town's money. What is that limit called?",
+			"answer": 0,
+			"hint": "Money, time and materials limit a design. What is the word for such a limit?",
+			"choices": [
+				"a constraint",
+				"a forecast",
+				"a hazard"
+			],
+			"explain": "A constraint is a limit, like money, time or materials."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is sending warnings early a good design?",
+			"answer": 0,
+			"hint": "What do people need before a storm arrives?",
+			"choices": [
+				"It gives people time to get ready",
+				"It stops the rain",
+				"It makes the storm smaller"
+			],
+			"explain": "Early warnings give people time to get to safety and protect their homes."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A design can be good even if it does not stop every bit of harm.",
+			"answer": true,
+			"hint": "Does a raincoat keep every drop off?",
+			"explain": "True: a good design reduces harm a lot, within its limits."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A school's field floods after heavy rain. Which plan helps?",
+			"answer": 0,
+			"hint": "Where can the water go?",
+			"choices": [
+				"drains and plants that soak up water",
+				"more concrete",
+				"a taller slide"
+			],
+			"explain": "Drains carry water away and plants soak it up, so the field floods less."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The highest flood reached 3 metres. The new wall must be 1 metre higher than that. How tall must it be? (metres)",
+			"answer": "4",
+			"hint": "Add the extra height.",
+			"explain": "3 m + 1 m = 4 m."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each hazard to a design that helps.",
+			"hint": "What harm does each hazard do?",
+			"items": [
+				"flood",
+				"lightning",
+				"drought"
+			],
+			"matches": [
+				"a reservoir",
+				"houses on stilts",
+				"a lightning rod"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"explain": "Stilts keep homes above floods, a lightning rod leads lightning to the ground, and a reservoir stores water for a drought."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Thunderstorm or heatwave: what keeps you safe?",
+			"items": [
+				"go indoors",
+				"drink water",
+				"stay away from water",
+				"find shade"
+			],
+			"groups": [
+				"thunderstorm",
+				"heatwave"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is the danger lightning, or the heat of the Sun?",
+			"explain": "In a thunderstorm, go indoors and stay away from water. In a heatwave, drink water and find shade."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the designs and actions by the hazard they help with.",
+			"groups": [
+				"a flood",
+				"a drought",
+				"lightning"
+			],
+			"items": [
+				"houses on stilts",
+				"a reservoir",
+				"a lightning rod",
+				"a flood wall",
+				"saving water",
+				"going indoors in a storm"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Too much water, too little water, or electricity from the sky?",
+			"explain": "Floods: houses on stilts and flood walls. Droughts: a reservoir and saving water. Lightning: a lightning rod, and going indoors in a storm."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A reservoir holds 600 tonnes of water. In a drought, a town uses 20 tonnes a day. How many days will the water last?",
+			"answer": "30",
+			"hint": "Share the water out: how many 20s are there in 600?",
+			"explain": "600 ÷ 20 = 30 days of water, so the reservoir helps the town through about a month of drought."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3s.hazard_design",
+			"level": 1
+		},
+		{
+			"gen": "g3s.hazard_design",
+			"level": 2
+		},
+		{
+			"gen": "g3s.hazard_design",
+			"level": 3
+		}
+	]
+}

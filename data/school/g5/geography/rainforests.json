@@ -1,0 +1,354 @@
+{
+	"id": "g5.geography.rainforests",
+	"lesson": [
+		{
+			"text": "Quick memory: which biome holds more than half of all kinds of land plants and animals? (The tropical rainforest.) Today: inside a rainforest, layer by layer, and why rainforests matter to the whole world."
+		},
+		{
+			"text": "The Amazon rainforest in South America is the biggest on Earth, spread over nine countries, most of it in Brazil. It is hot, about 27 °C, and rain falls on most days, often in heavy afternoon storms.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60,
+				"lines": [
+					"tropics"
+				],
+				"points": [
+					{
+						"lat": -3,
+						"long": -60,
+						"label": "Manaus"
+					}
+				]
+			}
+		},
+		{
+			"text": "The tallest trees, the emergents, poke out at the top, up to 60 m high, where eagles nest. Below them the canopy is a thick roof of leaves, full of fruit, monkeys, sloths, toucans and tree frogs.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"layer",
+						"height",
+						"light"
+					],
+					[
+						"emergent",
+						"up to 60 m",
+						"full sun"
+					],
+					[
+						"canopy",
+						"about 35 m",
+						"bright"
+					],
+					[
+						"understorey",
+						"below 20 m",
+						"dim"
+					],
+					[
+						"forest floor",
+						"the ground",
+						"dark"
+					]
+				]
+			}
+		},
+		{
+			"text": "Under the canopy, the understorey is dim and still: young trees, big leaves, jaguars and snakes. On the forest floor, very little light reaches down. Fallen leaves rot within weeks, and the soil is thin."
+		},
+		{
+			"text": "Plants reach for light: vines climb up trees, and big leaves catch the little light below. Many leaves have pointed drip tips so heavy rain runs off. Sloths move so slowly that tiny plants called algae grow in their fur.",
+			"picture": {
+				"kind": "climograph",
+				"name": "Manaus",
+				"temp": [
+					26,
+					26,
+					26,
+					26,
+					26,
+					27,
+					27,
+					28,
+					28,
+					28,
+					27,
+					27
+				],
+				"rain": [
+					260,
+					290,
+					320,
+					300,
+					260,
+					110,
+					90,
+					60,
+					80,
+					120,
+					180,
+					220
+				],
+				"t_top": 40,
+				"t_step": 10,
+				"r_top": 400,
+				"r_step": 100
+			}
+		},
+		{
+			"text": "Rainforests matter to everyone. Their trees store carbon, which helps slow climate change, and give off water that makes rain. They give us medicines and foods such as cacao and Brazil nuts, and are home to hundreds of Indigenous peoples."
+		},
+		{
+			"text": "But large areas are cut down, mostly to make room for cattle and crops, and for wood, mines and roads. Once the trees go, the thin soil washes away. Nature reserves, replanting and buying carefully grown goods help protect them."
+		},
+		{
+			"text": "Try it in the world: build a rainforest tree with all four layers, and put a sign on each layer naming an animal that lives there. Next: deserts and polar lands."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the rainforest's layers in order, from the top down.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The tallest trees poke out at the very top.",
+			"items": [
+				"forest floor",
+				"understorey",
+				"canopy",
+				"emergent"
+			],
+			"explain": "Emergent, canopy, understorey, then the forest floor."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the biggest rainforest on Earth?",
+			"answer": 0,
+			"hint": "It is in South America.",
+			"choices": [
+				"the Amazon",
+				"the Congo",
+				"the Sahara",
+				"the Alps"
+			],
+			"explain": "The Amazon, spread over nine countries, most of it in Brazil."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which layer is like a thick roof of leaves?",
+			"answer": 0,
+			"hint": "It is just below the tallest trees.",
+			"choices": [
+				"the canopy",
+				"the forest floor",
+				"the understorey",
+				"the roots"
+			],
+			"explain": "The canopy: a thick roof of leaves, full of fruit and monkeys."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The forest floor of a rainforest is dark.",
+			"answer": true,
+			"hint": "How much light gets through the layers above?",
+			"explain": "True: very little light reaches the forest floor."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "On which continent is the Amazon rainforest?",
+			"answer": 0,
+			"hint": "Most of it is in Brazil.",
+			"choices": [
+				"South America",
+				"Africa",
+				"Asia",
+				"Europe"
+			],
+			"explain": "South America: most of the Amazon rainforest is in Brazil."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each layer to something that lives there.",
+			"items": [
+				"emergent",
+				"canopy",
+				"understorey",
+				"forest floor"
+			],
+			"matches": [
+				"rotting leaves and ants",
+				"eagles nesting",
+				"monkeys and toucans",
+				"jaguars"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Eagles like the very top; rotting leaves lie on the ground.",
+			"explain": "Emergent: eagles. Canopy: monkeys and toucans. Understorey: jaguars. Floor: rotting leaves and ants."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do many rainforest leaves have pointed drip tips?",
+			"answer": 0,
+			"hint": "It rains on most days.",
+			"choices": [
+				"heavy rain runs off quickly",
+				"to scare animals",
+				"to catch insects",
+				"to keep warm"
+			],
+			"explain": "The pointed tip lets heavy rain run off, so the leaf dries and stays healthy."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: helps the rainforest or harms it?",
+			"groups": [
+				"helps",
+				"harms"
+			],
+			"items": [
+				"planting new trees",
+				"clearing land for cattle",
+				"making nature reserves",
+				"building roads through it",
+				"buying carefully grown goods",
+				"cutting trees illegally"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it keep trees standing, or bring more trees down?",
+			"explain": "Helps: replanting, reserves, careful buying. Harms: clearing for cattle, roads, illegal cutting."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do vines climb up tree trunks?",
+			"answer": 0,
+			"hint": "What is short on the forest floor?",
+			"choices": [
+				"to reach the light at the top",
+				"to hide from rain",
+				"to find water",
+				"to keep the trees warm"
+			],
+			"explain": "Vines climb towards the light, high in the canopy."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Rainforest soil is deep and rich, so crops grow well there for many years.",
+			"answer": false,
+			"hint": "What happens to fallen leaves, and to the soil?",
+			"explain": "False: the soil is thin; most goodness is in the plants, and the soil washes away when trees are cut."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How do rainforests help slow climate change?",
+			"answer": 0,
+			"hint": "Trees take carbon dioxide from the air as they grow.",
+			"choices": [
+				"their trees store carbon",
+				"they make the Sun weaker",
+				"they cool the sea",
+				"they stop the wind"
+			],
+			"explain": "Trees store carbon, keeping it out of the air, which helps slow climate change."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does cleared rainforest soon become poor for farming?",
+			"answer": 0,
+			"hint": "What held the soil in place, and fed it?",
+			"choices": [
+				"the thin soil washes away without trees",
+				"it becomes a desert overnight",
+				"there is too much shade",
+				"the rain stops for ever"
+			],
+			"explain": "Without trees, heavy rain washes the thin soil away, and nothing adds new goodness."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are sloths sometimes green?",
+			"answer": 0,
+			"hint": "Sloths move very slowly in a wet place.",
+			"choices": [
+				"tiny plants called algae grow in their fur",
+				"they eat green paint",
+				"they are made of leaves",
+				"they are always cold"
+			],
+			"explain": "Algae grow in their slow-moving, damp fur, which also helps them hide."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The emergents reach up to 60 m and the canopy is about 35 m up. How much higher is the top of the emergents, in m?",
+			"answer": "25",
+			"hint": "Take the smaller height from the bigger one.",
+			"explain": "60 − 35 = 25 m higher."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Rainforests matter only to the people who live in them.",
+			"answer": false,
+			"hint": "Think of carbon, rain and medicines.",
+			"explain": "False: they store carbon, make rain and give medicines and foods to the whole world."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: something rainforests give the world, or a cause of their loss?",
+			"groups": [
+				"gifts to the world",
+				"causes of loss"
+			],
+			"items": [
+				"medicines",
+				"clearing land for cattle",
+				"rain",
+				"roads and mines",
+				"cacao and Brazil nuts",
+				"cutting trees for wood"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "What do rainforests give us, and what takes them away?",
+			"explain": "Gifts: medicines, rain from the trees' water, and foods like cacao and Brazil nuts. Losses: clearing for cattle, roads and mines, and cutting trees for wood."
+		}
+	]
+}

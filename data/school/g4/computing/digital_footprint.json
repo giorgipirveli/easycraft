@@ -1,0 +1,357 @@
+{
+	"id": "g4.computing.digital_footprint",
+	"lesson": [
+		{
+			"text": "Quick memory: what does filtering a table do? (It shows only the rows that match a rule.) Today: the trail you leave online."
+		},
+		{
+			"text": "When you walk on a beach, you leave footprints. When you go online, you leave a digital footprint: a trail of what you post, share, like, comment on and search for."
+		},
+		{
+			"text": "Some of your footprint you make on purpose, like a message or a photo you share. Some is made without you noticing, like the pages you visit and what you search for.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"On purpose",
+						"Without noticing"
+					],
+					[
+						"a message you send",
+						"pages you visit"
+					],
+					[
+						"a photo you share",
+						"what you search"
+					]
+				]
+			}
+		},
+		{
+			"text": "What you share can stay online for a long time. Other people can copy it, or take a picture of the screen and share it on, even if you delete it later."
+		},
+		{
+			"text": "Think before you post. Is it True? Is it Helpful? Is it Inspiring? Is it Necessary? Is it Kind? (THINK.) Would you be happy for your family or your teacher to see it?",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"letter",
+						"ask"
+					],
+					[
+						"T",
+						"Is it true?"
+					],
+					[
+						"H",
+						"Is it helpful?"
+					],
+					[
+						"I",
+						"Is it inspiring?"
+					],
+					[
+						"N",
+						"Is it necessary?"
+					],
+					[
+						"K",
+						"Is it kind?"
+					]
+				]
+			}
+		},
+		{
+			"text": "Photos can give away more than you think: a school jumper, a street sign or a house number shows where you are. Always ask before you post a photo of someone else."
+		},
+		{
+			"text": "Worked example: Zara wants to share a photo of her sandcastle. She checks: no faces, no names, no signs. It is kind and true. She asks a grown-up, then shares it with friends only.",
+			"picture": {
+				"kind": "privacy_panel",
+				"title": "Share my sandcastle",
+				"rows": [
+					[
+						"who can see it",
+						"friends"
+					],
+					[
+						"show my name",
+						"off"
+					],
+					[
+						"show where I am",
+						"off"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: before you send a chat message or share a build in this game's world, do the THINK check. Next: getting help online."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a digital footprint?",
+			"answer": 0,
+			"hint": "Think of footprints on a beach.",
+			"choices": [
+				"the trail of what you do and share online",
+				"a shoe print on a screen",
+				"a kind of password",
+				"a computer's size"
+			],
+			"explain": "Your digital footprint is the trail of what you post, share, like and search."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "If you delete a post, it always disappears from everywhere for ever.",
+			"answer": false,
+			"hint": "Could someone have copied it first?",
+			"explain": "False: someone may have copied it or taken a picture of the screen."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: fine to share, or keep it private?",
+			"groups": [
+				"fine to share",
+				"keep it private"
+			],
+			"items": [
+				"a drawing of a dragon",
+				"your home address",
+				"a photo of your sandcastle",
+				"the name of your school",
+				"your password",
+				"a kind comment on a build"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Could it help a stranger find you or get into your account?",
+			"explain": "Keep private: your address, your school and your password. A dragon, a sandcastle and kind words are fine."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Before posting a photo of your friend, you should…",
+			"answer": 0,
+			"hint": "Would you want to be asked?",
+			"choices": [
+				"ask them first",
+				"post it quickly",
+				"add where they live",
+				"add their school's name"
+			],
+			"explain": "Ask first: it is their photo too, and they may not want it shared."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each letter of THINK to its question.",
+			"items": [
+				"T",
+				"H",
+				"I",
+				"N",
+				"K"
+			],
+			"matches": [
+				"Is it kind?",
+				"Is it true?",
+				"Is it helpful?",
+				"Is it inspiring?",
+				"Is it necessary?"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				4,
+				0
+			],
+			"hint": "Each letter starts the word in its question.",
+			"explain": "True, Helpful, Inspiring, Necessary, Kind: T, H, I, N, K."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which part of a photo could show where you live?",
+			"answer": 0,
+			"hint": "What would help a stranger find your house?",
+			"choices": [
+				"the number on your front door",
+				"the blue sky",
+				"your smile",
+				"a cloud"
+			],
+			"explain": "A house number shows where you live. Leave it out of photos."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these parts of a footprint: made on purpose, or without noticing?",
+			"groups": [
+				"on purpose",
+				"without noticing"
+			],
+			"items": [
+				"a message you send",
+				"a photo you share",
+				"a comment you write",
+				"the pages you visit",
+				"what you search for"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Did you choose to share it with other people?",
+			"explain": "Messages, photos and comments you share on purpose. Pages you visit and searches are recorded without you noticing."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Other people can copy or take a picture of what you post.",
+			"answer": true,
+			"hint": "Once it is shared, who can see it?",
+			"explain": "True: that is why you think before you post."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order: before you post something.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Thinking comes first; sharing comes last.",
+			"items": [
+				"Do the THINK check",
+				"Ask a grown-up",
+				"Stop and think",
+				"Check for personal information",
+				"Share it with friends only"
+			],
+			"explain": "Stop, THINK, check for personal information, ask a grown-up, then share with friends only."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram posts an unkind joke about a classmate, then deletes it an hour later. What could still happen?",
+			"answer": 0,
+			"hint": "Who could have seen it in that hour?",
+			"choices": [
+				"someone may have copied it and shared it",
+				"nothing: deleting fixes it",
+				"the joke becomes kind",
+				"the internet forgets at once"
+			],
+			"explain": "In an hour, others could copy it or take a picture of the screen. Better to THINK first."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which comment passes the THINK check?",
+			"answer": 0,
+			"hint": "Is it true, helpful and kind?",
+			"choices": [
+				"Great castle! I love the tall towers.",
+				"Your castle is bad.",
+				"Everyone look at this mess",
+				"Tell me where you live"
+			],
+			"explain": "Great castle! I love the tall towers. is kind, true and helpful."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The pages you visit can be part of your footprint, even if you never post anything.",
+			"answer": true,
+			"hint": "Remember the part made without you noticing.",
+			"explain": "True: the pages you visit and what you search for leave a trail too."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: would it pass THINK, or not?",
+			"groups": [
+				"passes",
+				"doesn't pass"
+			],
+			"items": [
+				"Well done, that took ages!",
+				"Thanks for helping me",
+				"a rumour you heard",
+				"a mean nickname",
+				"a made-up story about a friend"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Is it true, helpful and kind?",
+			"explain": "Well done and thanks are kind and true. Rumours, mean nicknames and made-up stories are not."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why can your footprint matter years from now?",
+			"answer": 0,
+			"hint": "Remember: what you share can stay online for a long time.",
+			"choices": [
+				"it can still be found later",
+				"it gets smaller",
+				"it turns into gold",
+				"it is deleted every night"
+			],
+			"explain": "What you share can be copied, saved and found years later by people you have not met yet, like a future teacher or a club. So think before you post."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort them: part of your digital footprint, or not?",
+			"groups": [
+				"part of it",
+				"not part of it"
+			],
+			"items": [
+				"a photo you posted",
+				"a search you made",
+				"a drawing on your fridge",
+				"a comment on a video",
+				"a game you played offline",
+				"a page you visited"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Your footprint is the trail you leave online, even without posting.",
+			"explain": "Part of it: the photo, the comment, and also the search and the pages you visited, though you posted nothing. Not part of it: a drawing on the fridge and an offline game never went online."
+		}
+	],
+	"generators": []
+}

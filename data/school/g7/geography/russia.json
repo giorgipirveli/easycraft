@@ -1,0 +1,474 @@
+{
+	"id": "g7.geography.russia",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you learned about time zones. How many degrees of longitude make one hour? (15°.) Today: Russia, the largest country, with 11 time zones, its taiga and its tundra."
+		},
+		{
+			"text": "Russia is the largest country on Earth, about 17 million km², about a ninth of all the land. It stretches across two continents: the Ural Mountains divide European Russia in the west from Asian Russia, Siberia, in the east.",
+			"picture": {
+				"kind": "voyage_map",
+				"window": {
+					"lat": [
+						40,
+						75
+					],
+					"long": [
+						20,
+						180
+					]
+				},
+				"lat_step": 10,
+				"long_step": 20,
+				"routes": [
+					{
+						"name": "Trans-Siberian",
+						"points": [
+							[
+								56,
+								38
+							],
+							[
+								57,
+								61
+							],
+							[
+								55,
+								83
+							],
+							[
+								52,
+								104
+							],
+							[
+								43,
+								132
+							]
+						]
+					}
+				],
+				"places": [
+					{
+						"lat": 56,
+						"long": 38,
+						"label": "Moscow"
+					},
+					{
+						"lat": 57,
+						"long": 61,
+						"label": "Yekaterinburg"
+					},
+					{
+						"lat": 55,
+						"long": 83,
+						"label": "Novosibirsk"
+					},
+					{
+						"lat": 52,
+						"long": 104,
+						"label": "Irkutsk"
+					},
+					{
+						"lat": 43,
+						"long": 132,
+						"label": "Vladivostok"
+					},
+					{
+						"lat": 62,
+						"long": 130,
+						"label": "Yakutsk"
+					}
+				]
+			}
+		},
+		{
+			"text": "Russia is so wide that it has 11 time zones. When it is 12:00 in Kaliningrad, in the far west, it is 22:00 in Kamchatka, in the far east. More than 140 million people live in Russia, most of them in the west.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Place",
+						"The time"
+					],
+					[
+						"Kaliningrad",
+						"12:00"
+					],
+					[
+						"Moscow",
+						"13:00"
+					],
+					[
+						"Novosibirsk",
+						"17:00"
+					],
+					[
+						"Vladivostok",
+						"20:00"
+					],
+					[
+						"Kamchatka",
+						"22:00"
+					]
+				]
+			}
+		},
+		{
+			"text": "In the far north lies the tundra: too cold for trees, with ground that stays frozen all year, permafrost, under about two-thirds of Russia. In the short summer the top layer thaws, and reindeer graze on mosses and lichens."
+		},
+		{
+			"text": "South of it is the taiga, the largest forest on Earth, of pine, spruce and larch; Russia holds about a fifth of the world's forests. Further south are the grassy steppes, where much of Russia's wheat grows.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Zone",
+						"Plants",
+						"Where"
+					],
+					[
+						"tundra",
+						"mosses, lichens",
+						"far north"
+					],
+					[
+						"taiga",
+						"pine, spruce, larch",
+						"the middle"
+					],
+					[
+						"steppe",
+						"grasses, wheat",
+						"the south"
+					]
+				]
+			}
+		},
+		{
+			"text": "Siberia's winters are among the coldest anywhere: Oymyakon, a village of about 500 people, once reached −67.7 °C. Great rivers, the Ob, Yenisei and Lena, flow north to the Arctic Ocean. Lake Baikal, 1,642 m deep, is the world's deepest lake.",
+			"picture": {
+				"kind": "thermometer",
+				"from": -70,
+				"to": 30,
+				"step": 10,
+				"values": [
+					-67.7,
+					-18,
+					0
+				],
+				"names": [
+					"Oymyakon",
+					"a freezer",
+					"ice forms"
+				]
+			}
+		},
+		{
+			"text": "Across it all runs the Trans-Siberian Railway, built from 1891 to 1916: 9,289 km from Moscow to Vladivostok, a journey of about a week. Russia also has much oil, gas, timber and metal, and a long northern coast on the Arctic Ocean."
+		},
+		{
+			"text": "Try it in the world: lay a railway from one side of your world to the other. Put a station and a clock every so often, each set an hour later than the one before as you go east. Next: a fieldwork enquiry."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the largest country on Earth?",
+			"answer": 0,
+			"hint": "It has 11 time zones.",
+			"choices": [
+				"Russia",
+				"China",
+				"Canada",
+				"Brazil"
+			],
+			"explain": "Russia, about 17 million km²."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which mountains divide European Russia from Asian Russia?",
+			"answer": 0,
+			"hint": "Look for the line between Moscow and Yekaterinburg.",
+			"choices": [
+				"the Urals",
+				"the Alps",
+				"the Andes",
+				"the Himalayas"
+			],
+			"explain": "The Ural Mountains: west of them is European Russia, and east of them is Asian Russia, Siberia."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Permafrost is ground that stays frozen all year.",
+			"answer": true,
+			"hint": "Perma- means lasting.",
+			"explain": "True: it lies under about two-thirds of Russia."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the taiga?",
+			"answer": 0,
+			"hint": "Pine, spruce and larch grow there.",
+			"choices": [
+				"a huge forest of conifer trees",
+				"a desert",
+				"a sea",
+				"a mountain"
+			],
+			"explain": "The largest forest on Earth, mostly conifers."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many time zones does Russia have?",
+			"answer": 0,
+			"hint": "From Kaliningrad UTC+2 to Kamchatka UTC+12.",
+			"choices": [
+				"11",
+				"1",
+				"4",
+				"24"
+			],
+			"explain": "11 time zones, from Kaliningrad at UTC+2 to Kamchatka at UTC+12."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Moscow keeps UTC+3 and Vladivostok UTC+10. How many hours ahead of Moscow is Vladivostok?",
+			"answer": "7",
+			"hint": "Take the smaller UTC number from the bigger.",
+			"explain": "10 − 3 = 7 hours ahead."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The Trans-Siberian Railway is 9,289 km long. A train covers about 1,300 km a day. To the nearest whole day, how many days does it take?",
+			"answer": "7",
+			"hint": "Divide the distance by the km a day, then round.",
+			"explain": "9,289 ÷ 1,300 is about 7.1, so about 7 days."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: tundra or taiga?",
+			"groups": [
+				"tundra",
+				"taiga"
+			],
+			"items": [
+				"reindeer grazing on lichen",
+				"pine and spruce forest",
+				"permafrost with no trees",
+				"the largest forest on Earth",
+				"mosses and small flowers",
+				"bears among the trees"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The tundra is too cold for trees; the taiga is forest.",
+			"explain": "Tundra: reindeer, permafrost, mosses. Taiga: pine and spruce, the largest forest, bears."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do Siberia's rivers flood in spring?",
+			"answer": 0,
+			"hint": "Which way do the rivers flow, and where does ice melt first?",
+			"choices": [
+				"the south thaws while ice still blocks the north",
+				"it never rains",
+				"the sea pushes in",
+				"snow falls in spring"
+			],
+			"explain": "They flow north: their southern parts thaw first, while ice still blocks the colder north, so the water spills over."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each place to a fact.",
+			"items": [
+				"Lake Baikal",
+				"Oymyakon",
+				"the Volga",
+				"Moscow"
+			],
+			"matches": [
+				"Russia's capital",
+				"the world's deepest lake",
+				"a very cold village",
+				"Europe's longest river"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "A lake, a village, a river and a capital city.",
+			"explain": "Baikal: deepest lake. Oymyakon: −67.7 °C. The Volga: Europe's longest river. Moscow: the capital."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "When it is 09:00 in Moscow (UTC+3), what time is it in Kamchatka (UTC+12)?",
+			"answer": 0,
+			"hint": "Find how many hours ahead Kamchatka is, then add.",
+			"choices": [
+				"18:00",
+				"00:00",
+				"12:00",
+				"06:00"
+			],
+			"explain": "12 − 3 = 9 hours ahead; 9 + 9 = 18, so 18:00."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Lake Baikal is 1,642 m deep. How much deeper is it than a lake 250 m deep?",
+			"answer": "1392",
+			"hint": "Take the smaller depth from the bigger one.",
+			"explain": "1,642 − 250 = 1,392 m."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Most of Russia's people live in Siberia.",
+			"answer": false,
+			"hint": "Where are Moscow and St Petersburg?",
+			"explain": "False: most live in the west, in European Russia."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do most of Russia's people live in the west?",
+			"answer": 0,
+			"hint": "Compare the west with frozen Siberia.",
+			"choices": [
+				"it has milder weather and better farmland",
+				"Siberia is too warm",
+				"the west has no cities",
+				"the tundra is crowded"
+			],
+			"explain": "The west has a milder climate and good farmland; much of Siberia is frozen forest and tundra."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these cities in order from west to east.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Follow the railway on the map, from its start.",
+			"items": [
+				"Yekaterinburg",
+				"Irkutsk",
+				"Moscow",
+				"Novosibirsk",
+				"Vladivostok"
+			],
+			"explain": "Moscow 38° E, Yekaterinburg 61° E, Novosibirsk 83° E, Irkutsk 104° E, Vladivostok 132° E.",
+			"picture": {
+				"kind": "voyage_map",
+				"window": {
+					"lat": [
+						40,
+						75
+					],
+					"long": [
+						20,
+						180
+					]
+				},
+				"lat_step": 10,
+				"long_step": 20,
+				"routes": [
+					{
+						"name": "Trans-Siberian",
+						"points": [
+							[
+								56,
+								38
+							],
+							[
+								57,
+								61
+							],
+							[
+								55,
+								83
+							],
+							[
+								52,
+								104
+							],
+							[
+								43,
+								132
+							]
+						]
+					}
+				],
+				"places": [
+					{
+						"lat": 56,
+						"long": 38,
+						"label": "Moscow"
+					},
+					{
+						"lat": 57,
+						"long": 61,
+						"label": "Yekaterinburg"
+					},
+					{
+						"lat": 55,
+						"long": 83,
+						"label": "Novosibirsk"
+					},
+					{
+						"lat": 52,
+						"long": 104,
+						"label": "Irkutsk"
+					},
+					{
+						"lat": 43,
+						"long": 132,
+						"label": "Vladivostok"
+					},
+					{
+						"lat": 62,
+						"long": 130,
+						"label": "Yakutsk"
+					}
+				]
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.russia_time",
+			"level": 1
+		},
+		{
+			"gen": "g7h.russia_time",
+			"level": 2
+		},
+		{
+			"gen": "g7h.russia_time",
+			"level": 3
+		}
+	]
+}

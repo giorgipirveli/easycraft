@@ -1,0 +1,300 @@
+{
+	"id": "g8.geography.map_projections",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you learned latitude and longitude. What is the latitude of the equator? (0°.) Today: why every flat map stretches the globe, and how to choose the right map for a job."
+		},
+		{
+			"text": "The Earth is a ball, so only a globe shows every size, shape and distance truly. Try to flatten an orange peel: it tears or stretches. A map projection is a way of flattening the globe; each keeps some things true and stretches others.",
+			"picture": {
+				"kind": "projection",
+				"view": "globe",
+				"circles": true
+			}
+		},
+		{
+			"text": "Gerardus Mercator's map of 1569 keeps directions true: a straight line is a steady compass course, perfect for sailors. But it stretches sizes towards the poles: lengths 2 times at 60°, so areas there look 4 times too big.",
+			"picture": {
+				"kind": "projection",
+				"view": "mercator",
+				"circles": true,
+				"mark": 60
+			}
+		},
+		{
+			"text": "On a Mercator map Greenland looks about as big as Africa. In fact Africa is about 14 times bigger: about 30 million km² against about 2.2 million. Web maps on phones use a kind of Mercator too, because it keeps shapes right as you zoom."
+		},
+		{
+			"text": "Equal-area maps, such as the Gall-Peters, show every country's true size, so Africa looks as big as it really is. But shapes near the equator look tall and stretched, and near the poles squashed flat.",
+			"picture": {
+				"kind": "projection",
+				"view": "equal_area",
+				"circles": true
+			}
+		},
+		{
+			"text": "Compromise maps, such as the Robinson projection (1963), bend the edges so nothing is very wrong: good for wall maps. Azimuthal maps centre on one point and keep true distances from it; the United Nations' emblem uses one centred on the North Pole.",
+			"picture": {
+				"kind": "projection",
+				"view": "compromise",
+				"circles": true
+			}
+		},
+		{
+			"text": "Choose a map for its job. Mercator is for steering by compass, equal-area for comparing sizes, and compromise for a wall map. Azimuthal is for distances from one place. Ask what a map keeps true, and what it stretches.",
+			"picture": {
+				"kind": "projection",
+				"view": "azimuthal",
+				"circles": true
+			}
+		},
+		{
+			"text": "Try it in the world: make a map of your village that keeps distances true: pace out each path and draw it to scale. Then try to wrap a flat square around a round hill: where does it crumple? Next: a GIS investigation."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Only a globe shows every size and shape truly.",
+			"answer": true,
+			"hint": "Think what happens when you flatten an orange peel.",
+			"explain": "True: every flat map stretches the globe somewhere."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a Mercator map keep true?",
+			"choices": [
+				"directions (compass courses)",
+				"nothing at all",
+				"distances from the North Pole",
+				"the size of every country"
+			],
+			"answer": 0,
+			"hint": "It was made for sailors in 1569.",
+			"explain": "Directions: a straight line on it is a steady compass course."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Africa is about 30.4 million km² and Greenland about 2.2 million km². About how many times bigger is Africa? Round to a whole number.",
+			"answer": "14",
+			"hint": "Divide Africa's area by Greenland's, then round.",
+			"explain": "30.4 ÷ 2.2 is about 13.8, so about 14 times."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which map shows every country's true size?",
+			"choices": [
+				"a weather map",
+				"a street map of one town",
+				"an equal-area map",
+				"Mercator"
+			],
+			"answer": 2,
+			"hint": "Its name tells you what it keeps equal.",
+			"explain": "An equal-area map, such as the Gall-Peters."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each kind of map to what it keeps true.",
+			"items": [
+				"Mercator",
+				"equal-area",
+				"azimuthal",
+				"compromise"
+			],
+			"matches": [
+				"a bit of everything",
+				"directions",
+				"sizes",
+				"distances from its centre"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Directions, sizes, distances, and a balance.",
+			"explain": "Mercator: directions. Equal-area: sizes. Azimuthal: distances from its centre. Compromise: a balance."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "At 60° Mercator stretches lengths 2 times, both east-west and north-south. How many times too big do areas there look?",
+			"answer": "4",
+			"hint": "An area stretches both ways: multiply.",
+			"explain": "2 × 2 = 4 times too big."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: what does a Mercator map do well, and what does it get wrong?",
+			"groups": [
+				"does well",
+				"gets wrong"
+			],
+			"items": [
+				"the size of Greenland",
+				"zooming on web maps",
+				"shapes of small areas",
+				"the poles (it cannot show them)",
+				"the size of Antarctica",
+				"straight compass courses"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "It keeps directions and small shapes; it stretches sizes near the poles.",
+			"explain": "Well: compass courses, small shapes, zooming. Wrong: Greenland's and Antarctica's sizes, and the poles."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do web maps on phones use a kind of Mercator?",
+			"choices": [
+				"it shows true sizes",
+				"it is round",
+				"it keeps shapes right when you zoom",
+				"it has no grid"
+			],
+			"answer": 2,
+			"hint": "Think of zooming into a street corner.",
+			"explain": "It keeps shapes and angles right close up, so streets look right as you zoom."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these places in order of how much Mercator stretches them, least first.",
+			"items": [
+				"30° N",
+				"75° N",
+				"60° N",
+				"the equator"
+			],
+			"answer": [
+				3,
+				0,
+				2,
+				1
+			],
+			"hint": "The nearer the pole, the bigger the stretch.",
+			"explain": "The equator 1 time, 30° about 1.15, 60° 2, 75° nearly 4."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "On a Mercator map, Greenland looks far smaller than it really is.",
+			"answer": false,
+			"hint": "Remember what Mercator does near the poles.",
+			"explain": "False: it looks far bigger than it really is."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which map would you choose to compare the sizes of African and European countries?",
+			"choices": [
+				"Mercator",
+				"a street map",
+				"an equal-area map",
+				"an azimuthal map of the North Pole"
+			],
+			"answer": 2,
+			"hint": "The job is comparing sizes fairly.",
+			"explain": "An equal-area map: every country at its true size, so the comparison is fair."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A country at 60° N looks 8 million km² on a Mercator map, where areas look 4 times too big. What is its true area, in million km²?",
+			"answer": "2",
+			"hint": "Divide how big it looks by the stretch of areas.",
+			"explain": "8 ÷ 4 = 2 million km²."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why can no flat map be perfect?",
+			"choices": [
+				"a ball cannot be flattened without stretching",
+				"the Earth keeps moving",
+				"maps are too small",
+				"printers make mistakes"
+			],
+			"answer": 0,
+			"hint": "Think of the orange peel.",
+			"explain": "A sphere's surface cannot lie flat without stretching or tearing, so every map distorts something."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these jobs: which kind of map is best?",
+			"groups": [
+				"Mercator",
+				"equal-area",
+				"azimuthal"
+			],
+			"items": [
+				"radio distances from one city",
+				"planning a sea voyage",
+				"flights from the North Pole",
+				"comparing farmland areas",
+				"sailing by compass",
+				"a map of world population"
+			],
+			"answer": [
+				2,
+				0,
+				2,
+				1,
+				0,
+				1
+			],
+			"hint": "Directions, fair sizes, or distances from one point?",
+			"explain": "Mercator: sailing, sea voyages. Equal-area: farmland, population. Azimuthal: flights from the Pole, radio distances."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The United Nations' emblem shows an azimuthal map centred on the North Pole.",
+			"answer": true,
+			"hint": "Look back at the card about compromise and azimuthal maps.",
+			"explain": "True: its map is centred on the North Pole, with olive branches round it."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.mercator_stretch",
+			"level": 1
+		},
+		{
+			"gen": "g8h.mercator_stretch",
+			"level": 2
+		},
+		{
+			"gen": "g8h.mercator_stretch",
+			"level": 3
+		},
+		{
+			"gen": "g8h.projection_choice",
+			"level": 1
+		},
+		{
+			"gen": "g8h.projection_choice",
+			"level": 2
+		},
+		{
+			"gen": "g8h.projection_choice",
+			"level": 3
+		}
+	]
+}

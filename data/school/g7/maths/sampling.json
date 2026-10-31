@@ -1,0 +1,207 @@
+{
+	"id": "g7.maths.sampling",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met statistics. What is the mean of 2, 4 and 6? Add them and share: 12 ÷ 3 = 4."
+		},
+		{
+			"text": "A population is the whole group you want to learn about; a sample is the part you actually ask. To learn about all 500 pupils, you might ask 50 of them.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"name": "school",
+						"parts": [
+							{
+								"text": "sample: 50",
+								"size": 50
+							},
+							{
+								"text": "the rest: 450",
+								"size": 450
+							}
+						],
+						"total": "500 pupils"
+					}
+				]
+			}
+		},
+		{
+			"text": "A random sample gives everyone the same chance of being picked, so it tends to represent the population fairly."
+		},
+		{
+			"text": "A biased sample favours some people: asking only the football club about their favourite sport."
+		},
+		{
+			"text": "Use a sample to estimate: if 12 of a random 40 pupils walk to school, about 12/40, which is 30%, of the whole school does.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"walk",
+						3
+					],
+					[
+						"other ways",
+						7
+					]
+				],
+				"whole": 10,
+				"lines": true
+			}
+		},
+		{
+			"text": "Try it in the world: ask 10 friends in the game which world they like best. Is your sample random, or biased towards your own friends? Next: probability."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a sample?",
+			"answer": 0,
+			"hint": "Part of a population.",
+			"choices": [
+				"the part of the group you ask",
+				"the whole group",
+				"a kind of graph"
+			],
+			"explain": "The part you ask."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a random sample, everyone has the same chance of being picked.",
+			"answer": true,
+			"hint": "Think of names pulled from a hat: does any name have a better chance?",
+			"explain": "Yes: that is what makes a sample random and fair."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sample is biased for \"What is the school's favourite sport?\"",
+			"answer": 0,
+			"hint": "Who would favour one sport?",
+			"choices": [
+				"only the football club",
+				"names from a hat",
+				"every 10th pupil on the list"
+			],
+			"explain": "The football club favours football."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In a random sample of 50 pupils, 20 walk to school. About how many of 500 pupils walk?",
+			"answer": "200",
+			"hint": "Find the fraction who walk, 20 out of 50, then take that fraction of 500.",
+			"explain": "20/50 of 500 = 200 pupils."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why might a phone poll on a sunny afternoon be biased?",
+			"answer": 0,
+			"hint": "Who is missing?",
+			"choices": [
+				"Many people are out and won't answer.",
+				"Phones are random.",
+				"Sun is fair."
+			],
+			"explain": "It misses people who are out."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A bigger random sample usually gives a better estimate.",
+			"answer": true,
+			"hint": "Would asking 10 pupils or 100 pupils give a better guess?",
+			"explain": "Yes: a bigger random sample usually gives a better estimate."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "12 of a random 40 pupils play an instrument. What percent is that?",
+			"answer": "30",
+			"hint": "Divide 12 by 40, then turn it into a percentage.",
+			"explain": "12 ÷ 40 = 0.3, which is 30%."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two random samples of 50 give 18 and 22 pupils who like chess. What is a sensible estimate for 50?",
+			"answer": 0,
+			"hint": "The two samples give 18 and 22. What number is halfway between them?",
+			"choices": [
+				"about 20",
+				"exactly 18",
+				"about 40"
+			],
+			"explain": "About 20: halfway between the two samples."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the samples for \"What is the school's favourite lunch?\"",
+			"items": [
+				"names drawn from a hat",
+				"only the pizza club",
+				"every 10th name on the register",
+				"only your best friends",
+				"pupils picked by a dice roll"
+			],
+			"groups": [
+				"fair",
+				"biased"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Does everyone have the same chance of being picked?",
+			"explain": "Names from a hat, every 10th name and a dice roll give everyone a chance: fair. The pizza club and your best friends favour some answers: biased."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"population",
+				"sample",
+				"random",
+				"biased"
+			],
+			"matches": [
+				"unfair to some answers",
+				"the whole group",
+				"the part you ask",
+				"everyone has the same chance"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Think of the school and the pupils you ask.",
+			"explain": "Population: the whole group. Sample: the part you ask. Random: everyone has the same chance. Biased: unfair to some answers."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7g.sampling",
+			"level": 1
+		},
+		{
+			"gen": "g7g.sampling",
+			"level": 2
+		},
+		{
+			"gen": "g7g.sampling",
+			"level": 3
+		}
+	]
+}

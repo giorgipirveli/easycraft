@@ -1,0 +1,616 @@
+{
+	"id": "g6.music.scales_keys",
+	"lesson": [
+		{
+			"text": "Quick memory: what steps does a major scale climb? (Tone, tone, semitone, tone, tone, tone, semitone.) Today: major scales from any note, and key signatures."
+		},
+		{
+			"text": "Start on any note and climb T T S T T T S to build a major scale. From C you use only white keys; from G, the 7th note lands on a black key: F sharp.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"G4",
+					"A4",
+					"B4",
+					"C5",
+					"D5",
+					"E5",
+					"F#5",
+					"G5"
+				],
+				"names": true,
+				"steps": true,
+				"scale": "major",
+				"title": "G major scale",
+				"from": "C4",
+				"keys": 12
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"B4",
+					"C5",
+					"D5",
+					"E5",
+					"F#5",
+					"G5"
+				]
+			}
+		},
+		{
+			"text": "The G major scale is G, A, B, C, D, E, F sharp, G. The F major scale needs a flat instead: F, G, A, B flat, C, D, E, F.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"F4",
+					"G4",
+					"A4",
+					"Bb4",
+					"C5",
+					"D5",
+					"E5",
+					"F5"
+				],
+				"names": true,
+				"steps": true,
+				"scale": "major",
+				"title": "F major scale",
+				"from": "C4",
+				"keys": 11
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"F4",
+					"G4",
+					"A4",
+					"Bb4",
+					"C5",
+					"D5",
+					"E5",
+					"F5"
+				]
+			}
+		},
+		{
+			"text": "A key is the family of notes a piece uses, taken from its scale. A piece in G major uses G's scale, and G is its home note, where the tune feels finished."
+		},
+		{
+			"text": "Instead of writing a sharp before every F, music puts a key signature at the start of each line: one sharp on the F line means G major, and one flat on the B line means F major.",
+			"picture": {
+				"kind": "key_signature",
+				"key": "G",
+				"notes": [
+					"G4",
+					"A4",
+					"B4",
+					"C5",
+					"D5",
+					"E5",
+					"F5",
+					"G5"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "No sharps or flats means C major. G major has one sharp and F major has one flat. D major has two sharps: F sharp and C sharp.",
+			"picture": {
+				"kind": "key_signature",
+				"key": "D",
+				"title": true
+			}
+		},
+		{
+			"text": "Worked example: build D major. From D, a tone to E, a tone to F sharp, a semitone to G, then A, B, C sharp and D. The D major scale is D, E, F sharp, G, A, B, C sharp, D.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"D4",
+					"E4",
+					"F#4",
+					"G4",
+					"A4",
+					"B4",
+					"C#5",
+					"D5"
+				],
+				"names": true,
+				"steps": true,
+				"scale": "major",
+				"from": "C4",
+				"keys": 10
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D4",
+					"E4",
+					"F#4",
+					"G4",
+					"A4",
+					"B4",
+					"C#5",
+					"D5"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: look at the start of any song sheet or music book and find its key signature. Count the sharps or flats and name the key. Next: intervals."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which note of the G major scale is sharp?",
+			"answer": 0,
+			"hint": "Climb T T S T T T S from G. Which step lands on a black key?",
+			"choices": [
+				"F sharp",
+				"C sharp",
+				"B flat",
+				"none of them"
+			],
+			"explain": "G, A, B, C, D, E, F sharp, G: the 7th note is F sharp."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. This scale starts on C and uses only white keys. Which scale is it?",
+			"answer": 0,
+			"hint": "Only one major scale uses no black keys.",
+			"choices": [
+				"C major",
+				"G major",
+				"F major",
+				"D major"
+			],
+			"explain": "C major: C, D, E, F, G, A, B, C, all white keys.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"A4",
+					"B4",
+					"C5"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A key signature is written at the start of each line of music.",
+			"answer": true,
+			"hint": "Look at the stave after the clef.",
+			"explain": "True: it comes right after the clef on every line."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which key has no sharps or flats?",
+			"answer": 0,
+			"hint": "Which scale is all white keys?",
+			"choices": [
+				"C major",
+				"G major",
+				"F major",
+				"D major"
+			],
+			"explain": "C major has no sharps or flats.",
+			"picture": {
+				"kind": "key_signature",
+				"key": "C",
+				"notes": [
+					"C4",
+					"E4",
+					"G4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this scale major or minor?",
+			"answer": 0,
+			"hint": "Listen to the third note up from home.",
+			"choices": [
+				"major",
+				"minor"
+			],
+			"explain": "It is G major: B is 4 semitones above G, a major third, so it sounds bright.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"B4",
+					"C5",
+					"D5",
+					"E5",
+					"F#5",
+					"G5"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which major key has this key signature?",
+			"answer": 0,
+			"hint": "One sharp, on the F line.",
+			"choices": [
+				"G major",
+				"F major",
+				"D major",
+				"C major"
+			],
+			"explain": "One sharp, F sharp, is G major.",
+			"picture": {
+				"kind": "key_signature",
+				"key": "G"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which major key has this key signature?",
+			"answer": 0,
+			"hint": "One flat, on the B line.",
+			"choices": [
+				"F major",
+				"G major",
+				"B flat major",
+				"C major"
+			],
+			"explain": "One flat, B flat, is F major.",
+			"picture": {
+				"kind": "key_signature",
+				"key": "F"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen to the F major scale. Which note is the flat one?",
+			"answer": 0,
+			"hint": "Climb T T S from F: which note must be lower than the white key?",
+			"choices": [
+				"B flat",
+				"E flat",
+				"A flat",
+				"G flat"
+			],
+			"explain": "F, G, A, then a semitone up is B flat. The rest are white keys.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"F4",
+					"G4",
+					"A4",
+					"Bb4",
+					"C5",
+					"D5",
+					"E5",
+					"F5"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many sharps does D major have?",
+			"answer": "2",
+			"hint": "Build it from D with T T S T T T S.",
+			"explain": "D, E, F sharp, G, A, B, C sharp, D: 2 sharps."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which scale is marked?",
+			"answer": 0,
+			"hint": "It starts on D. Read the steps: T T S T T T S is major.",
+			"choices": [
+				"D major",
+				"D minor",
+				"G major",
+				"C major"
+			],
+			"explain": "It starts on D and climbs T T S T T T S: D major.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"D4",
+					"E4",
+					"F#4",
+					"G4",
+					"A4",
+					"B4",
+					"C#5",
+					"D5"
+				],
+				"names": true,
+				"steps": true,
+				"from": "C4",
+				"keys": 10
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Listen: this tune is in a major key.",
+			"answer": true,
+			"hint": "Listen for the third note up from its home note, D.",
+			"explain": "True: it uses D, F sharp and A; F sharp is 4 semitones above D, so it is major.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D4",
+					"F#4",
+					"A4",
+					"F#4",
+					"D4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the 4th note of the F major scale?",
+			"answer": 0,
+			"hint": "Climb from F: tone, tone, semitone.",
+			"choices": [
+				"B flat",
+				"B",
+				"A",
+				"C"
+			],
+			"explain": "Climb from F: a tone to G, a tone to A, then a semitone. A semitone above A is B flat, so the 4th note is B flat, not B."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In any major scale, how many semitones is it from the 7th note up to the 8th?",
+			"answer": "1",
+			"hint": "The last step of T T S T T T S.",
+			"explain": "The pattern is T T S T T T S, and its last step, from the 7th note to the 8th, is S: 1 semitone (B up to C in C major)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which scale is this?",
+			"answer": 0,
+			"hint": "Its first note is its home note. Is it bright?",
+			"choices": [
+				"D major",
+				"G major",
+				"A major",
+				"C major"
+			],
+			"explain": "It starts and ends on D and climbs T T S T T T S: D major.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D4",
+					"E4",
+					"F#4",
+					"G4",
+					"A4",
+					"B4",
+					"C#5",
+					"D5"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does D major's key signature have two sharps?",
+			"answer": 0,
+			"hint": "Build the scale and look for black keys.",
+			"choices": [
+				"its scale needs F sharp and C sharp",
+				"to make it louder",
+				"every key has two",
+				"it is a minor key"
+			],
+			"explain": "The D major scale is D, E, F sharp, G, A, B, C sharp, D: two sharps.",
+			"picture": {
+				"kind": "key_signature",
+				"key": "D",
+				"notes": [
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"A4",
+					"B4",
+					"C5",
+					"D5"
+				],
+				"names": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "G major uses only the white keys.",
+			"answer": false,
+			"hint": "Check its 7th note.",
+			"explain": "False: climb from G with T T S T T T S and the 7th note lands on F sharp, a black key."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A key signature has three sharps: F, C and G sharp. The major key is a semitone above the last sharp. Which key is it?",
+			"answer": 0,
+			"hint": "What is a semitone above G sharp?",
+			"choices": [
+				"A major",
+				"G major",
+				"D major",
+				"E major"
+			],
+			"explain": "A semitone above G sharp is A: A major.",
+			"picture": {
+				"kind": "key_signature",
+				"key": "A"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. This tune ends on its home note. Which note is home?",
+			"answer": 0,
+			"hint": "Where does the tune sound finished?",
+			"choices": [
+				"G",
+				"D",
+				"B",
+				"F sharp"
+			],
+			"explain": "It rests on G at the end, and it uses F sharp: it is in G major.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"B4",
+					"D5",
+					"B4",
+					"A4",
+					"F#4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each major key to its key signature.",
+			"items": [
+				"C major",
+				"G major",
+				"F major",
+				"D major"
+			],
+			"matches": [
+				"two sharps",
+				"one flat",
+				"no sharps or flats",
+				"one sharp"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Count the sharps or flats each scale needs as it climbs T T S T T T S.",
+			"explain": "C major: no sharps or flats. G major: one sharp, F sharp. F major: one flat, B flat. D major: two sharps, F sharp and C sharp."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Build the G major scale: put the notes after G in order.",
+			"items": [
+				"D",
+				"B",
+				"F sharp",
+				"A",
+				"E",
+				"C"
+			],
+			"answer": [
+				3,
+				1,
+				5,
+				0,
+				4,
+				2
+			],
+			"hint": "Climb from G one letter at a time; the 7th note needs a sharp.",
+			"explain": "G, then A, B, C, D, E and F sharp, and back to G: tone, tone, semitone, tone, tone, tone, semitone."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the notes: in the F major scale, or not?",
+			"groups": [
+				"in F major",
+				"not in F major"
+			],
+			"items": [
+				"B flat",
+				"B",
+				"E",
+				"F sharp",
+				"C",
+				"C sharp"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Build F major first: F, G, A, then a semitone up, then on with tones to the top.",
+			"explain": "F major is F, G, A, B flat, C, D, E, F. So B flat, E and C are in it; B, F sharp and C sharp are not."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Build a major scale from A. How many sharps does it need?",
+			"answer": "3",
+			"hint": "Climb from A with T T S T T T S, and mark every black key you land on.",
+			"explain": "A, a tone to B, a tone to C sharp, a semitone to D, then E, a tone to F sharp, a tone to G sharp, and a semitone to A. That is 3 sharps: C, F and G sharp."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the major scales: do they need sharps, flats, or neither?",
+			"groups": [
+				"sharps",
+				"flats",
+				"neither"
+			],
+			"items": [
+				"G major",
+				"F major",
+				"C major",
+				"D major",
+				"A major"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				0
+			],
+			"hint": "Build each scale with T T S T T T S, or remember its key signature.",
+			"explain": "G, D and A major need sharps: 1, 2 and 3 of them. F major needs one flat, B flat. C major needs neither: all white keys."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.scale_notes",
+			"level": 1
+		},
+		{
+			"gen": "g6c.scale_notes",
+			"level": 2
+		},
+		{
+			"gen": "g6c.scale_notes",
+			"level": 3
+		}
+	]
+}

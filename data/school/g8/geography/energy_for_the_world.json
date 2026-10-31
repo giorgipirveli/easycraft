@@ -1,0 +1,334 @@
+{
+	"id": "g8.geography.energy_for_the_world",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met natural resources. What is a non-renewable resource? (One that will run out, such as coal or oil.) Today: where the world's energy comes from, and how fossil fuels and renewables compare."
+		},
+		{
+			"text": "Almost all our energy began as sunlight. The fossil fuels, coal, oil and gas, are the remains of ancient plants and sea life. The Sun drives the wind, and the water cycle fills rivers. Nuclear and geothermal energy come from atoms and the Earth."
+		},
+		{
+			"text": "In 2023 fossil fuels still gave about 80% of all the energy the world used. They are reliable and easy to store. But burning them releases carbon dioxide and dirty air, and one day they will run out.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"fossil fuels",
+						8
+					],
+					[
+						"low-carbon",
+						2
+					]
+				],
+				"whole": 10,
+				"lines": true,
+				"key": true
+			}
+		},
+		{
+			"text": "Renewable sources never run out: wind, sunlight, flowing water (hydroelectric), the Earth's heat (geothermal), tides and waves. In 2024 they made about a third of the world's electricity. But the wind does not always blow, so energy must be stored.",
+			"picture": {
+				"kind": "energy_chain",
+				"steps": [
+					"kinetic",
+					"kinetic",
+					"electrical"
+				],
+				"things": [
+					"wind",
+					"turbine",
+					"the grid"
+				],
+				"wasted": [
+					"sound",
+					"heat"
+				]
+			}
+		},
+		{
+			"text": "Nuclear power stations split uranium atoms to make heat, giving lots of electricity with little carbon dioxide. But they cost a great deal to build, and their waste stays dangerous for thousands of years and must be stored safely."
+		},
+		{
+			"text": "Energy resources are spread unevenly: some countries have oil or gas, others sun, wind, rivers or volcanoes. Iceland heats homes with geothermal energy; Norway makes almost all its electricity from rivers. Countries trade energy by pipeline, cable and tanker."
+		},
+		{
+			"text": "Energy use per person differs hugely between countries. Saving energy helps everyone: insulation, efficient machines, and LED bulbs, which use about a sixth of the power of old bulbs. A kilowatt-hour (kWh) is 1 kW used for 1 hour.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"old bulb",
+						60
+					],
+					[
+						"LED",
+						10
+					]
+				],
+				"step": 10,
+				"top": 60,
+				"name": "Watts for the same light"
+			}
+		},
+		{
+			"text": "Try it in the world: build a wind turbine and a solar farm in your world, and store their energy to light your village at night. How many kWh would a 2 kW heater use in 3 hours? Next: feeding the world."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a fossil fuel?",
+			"choices": [
+				"natural gas",
+				"tides",
+				"sunlight",
+				"wind"
+			],
+			"answer": 0,
+			"hint": "Fossil fuels formed from ancient plants and sea life.",
+			"explain": "Natural gas, like coal and oil, is a fossil fuel."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Renewable energy sources never run out.",
+			"answer": true,
+			"hint": "Think of the wind and the Sun.",
+			"explain": "True: wind, sunlight, rivers, tides and the Earth's heat keep coming."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A 2 kW heater runs for 3 hours. How many kWh does it use?",
+			"answer": "6",
+			"hint": "Multiply the power in kW by the hours.",
+			"explain": "2 × 3 = 6 kWh."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a nuclear power station split to make heat?",
+			"choices": [
+				"water",
+				"coal",
+				"wind",
+				"uranium atoms"
+			],
+			"answer": 3,
+			"hint": "'Nuclear' means to do with the centres of atoms.",
+			"explain": "It splits uranium atoms, which gives off great heat."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: renewable or non-renewable?",
+			"groups": [
+				"renewable",
+				"non-renewable"
+			],
+			"items": [
+				"geothermal",
+				"oil",
+				"solar",
+				"hydroelectric",
+				"uranium",
+				"coal"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Will it run out one day?",
+			"explain": "Renewable: solar, hydroelectric, geothermal. Non-renewable: coal, oil, uranium."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each source to how it makes electricity.",
+			"items": [
+				"wind",
+				"solar panels",
+				"hydroelectric",
+				"coal"
+			],
+			"matches": [
+				"falling water spins a turbine",
+				"turns a turbine's blades",
+				"turn light into electricity",
+				"heat boils water into steam"
+			],
+			"answer": [
+				1,
+				2,
+				0,
+				3
+			],
+			"hint": "Moving air, light, falling water and fire.",
+			"explain": "Wind turns blades; solar panels use light; falling water spins turbines; burning coal makes steam."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Fossil fuels give about 80% of the world's energy. What percentage comes from other sources?",
+			"answer": "20",
+			"hint": "All the energy is 100%.",
+			"explain": "100 − 80 = 20%."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a gas power station's energy changes in order.",
+			"items": [
+				"heat from burning",
+				"movement of the turbine",
+				"chemical energy in the gas",
+				"electricity from the generator"
+			],
+			"answer": [
+				2,
+				0,
+				1,
+				3
+			],
+			"hint": "Fuel first, electricity last.",
+			"explain": "Chemical energy, heat, movement (kinetic), then electricity."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why must energy from wind and sun often be stored?",
+			"choices": [
+				"the wind and sun are not always there",
+				"it is too strong",
+				"it is a fossil fuel",
+				"it costs nothing"
+			],
+			"answer": 0,
+			"hint": "Think of a calm night.",
+			"explain": "The wind drops and the Sun sets, so energy is stored for when it is needed."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A country makes 600 TWh of electricity a year, and a third of it is renewable. How many TWh is that?",
+			"answer": "200",
+			"hint": "A third means dividing by 3.",
+			"explain": "600 ÷ 3 = 200 TWh."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is a drawback of nuclear power?",
+			"choices": [
+				"it only works on windy days",
+				"its waste stays dangerous for thousands of years",
+				"it gives off lots of carbon dioxide",
+				"it runs on coal"
+			],
+			"answer": 1,
+			"hint": "Think about what is left over after the atoms are split.",
+			"explain": "Its waste stays dangerous for thousands of years, so it must be stored very safely."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An old 60 W bulb is swapped for a 10 W LED. How many times less power does the LED use?",
+			"answer": "6",
+			"hint": "Divide the old bulb's power by the LED's.",
+			"explain": "60 ÷ 10 = 6 times less."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: an advantage or a disadvantage of fossil fuels?",
+			"groups": [
+				"advantage",
+				"disadvantage"
+			],
+			"items": [
+				"easy to store",
+				"power stations already built",
+				"will run out one day",
+				"release carbon dioxide",
+				"reliable day and night",
+				"cause air pollution"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it a reason to use them, or a reason to stop?",
+			"explain": "Advantages: reliable, easy to store, already built. Disadvantages: carbon dioxide, running out, air pollution."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does Iceland use so much geothermal energy?",
+			"choices": [
+				"it is very sunny",
+				"it has big coal mines",
+				"it imports wind",
+				"it has many volcanoes and hot rocks"
+			],
+			"answer": 3,
+			"hint": "Think of Iceland's plates, from grade 7.",
+			"explain": "It sits on a plate boundary, with volcanoes and hot rocks close to the surface."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A country can change its energy mix over time.",
+			"answer": true,
+			"hint": "Think of new wind farms replacing coal power stations.",
+			"explain": "True: countries build new kinds of power stations and close old ones."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.energy_sort",
+			"level": 1
+		},
+		{
+			"gen": "g8h.energy_sort",
+			"level": 2
+		},
+		{
+			"gen": "g8h.energy_sort",
+			"level": 3
+		},
+		{
+			"gen": "g8h.energy_mix",
+			"level": 1
+		},
+		{
+			"gen": "g8h.energy_mix",
+			"level": 2
+		},
+		{
+			"gen": "g8h.energy_mix",
+			"level": 3
+		},
+		{
+			"gen": "g8h.power_cost",
+			"level": 1
+		},
+		{
+			"gen": "g8h.power_cost",
+			"level": 2
+		},
+		{
+			"gen": "g8h.power_cost",
+			"level": 3
+		}
+	]
+}

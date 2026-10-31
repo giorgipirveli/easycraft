@@ -1,0 +1,222 @@
+{
+	"id": "g6.maths.gcf_lcm",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met factors and multiples. Is 7 a factor of 21? Yes: 7 × 3 makes 21."
+		},
+		{
+			"text": "Factors divide a number exactly: the factors of 12 are 1, 2, 3, 4, 6 and 12. The greatest common factor (GCF) of 12 and 18 is 6, the biggest number in both lists.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"number",
+						"its factors"
+					],
+					[
+						"12",
+						"1, 2, 3, 4, 6, 12"
+					],
+					[
+						"18",
+						"1, 2, 3, 6, 9, 18"
+					]
+				]
+			}
+		},
+		{
+			"text": "Multiples are a number's times table: 4, 8, 12, 16… The least common multiple (LCM) of 4 and 6 is 12, the first number in both tables.",
+			"picture": {
+				"kind": "times_grid",
+				"rows": 2,
+				"cols": 6,
+				"r0": 4,
+				"c0": 1,
+				"shade_col": 3
+			}
+		},
+		{
+			"text": "The GCF helps share things into equal groups; the LCM helps find when things line up again."
+		},
+		{
+			"text": "The distributive property: 36 + 48 = 12 × 3 + 12 × 4 = 12 × (3 + 4)."
+		},
+		{
+			"text": "Try it in the world: you have 18 apples and 24 carrots to share into gift chests for friends, with nothing left. What is the most chests you can fill? 6: the GCF. Next: negative numbers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is the greatest common factor of 8 and 12?",
+			"answer": "4",
+			"hint": "List the factors of each.",
+			"explain": "8: 1, 2, 4, 8; 12: 1, 2, 3, 4, 6, 12. The biggest shared is 4."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is the least common multiple of 3 and 4?",
+			"answer": "12",
+			"hint": "Count in 3s and 4s.",
+			"explain": "3, 6, 9, 12 and 4, 8, 12: 12."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "1 is a factor of every whole number.",
+			"answer": true,
+			"hint": "Divide by 1.",
+			"explain": "Yes: every number divided by 1 is itself."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is the greatest common factor of 24 and 36?",
+			"answer": "12",
+			"hint": "List the factors of 24 and of 36, and find the biggest one they share.",
+			"explain": "24 = 12 × 2 and 36 = 12 × 3."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "24 + 40 = ?",
+			"answer": 0,
+			"hint": "The GCF of 24 and 40 is 8.",
+			"choices": [
+				"8 × (3 + 5)",
+				"4 × (6 + 8)",
+				"8 × (3 + 4)"
+			],
+			"explain": "8 × 3 = 24 and 8 × 5 = 40."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is the least common multiple of 6 and 8?",
+			"answer": "24",
+			"hint": "Count in 8s: which is also a multiple of 6?",
+			"explain": "8, 16, 24: 24 is a multiple of 6."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "18 apples and 24 pears are shared into identical bags with nothing left. What is the most bags?",
+			"answer": "6",
+			"hint": "The GCF of 18 and 24.",
+			"explain": "The most bags is the greatest common factor. Factors of 18: 1, 2, 3, 6, 9, 18. Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. The biggest in both is 6: 6 bags, each with 3 apples and 4 pears."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Hot dogs come in packs of 10 and buns in packs of 8. What is the fewest of each so none are left over?",
+			"answer": 0,
+			"hint": "The LCM of 10 and 8.",
+			"choices": [
+				"40",
+				"80",
+				"18"
+			],
+			"explain": "You need the least common multiple of 10 and 8. 10: 10, 20, 30, 40. 8: 8, 16, 24, 32, 40. 40 is the first in both: 4 packs of hot dogs and 5 packs of buns."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the numbers: factors of 24, or multiples of 24?",
+			"items": [
+				"6",
+				"48",
+				"8",
+				"72",
+				"12",
+				"96"
+			],
+			"groups": [
+				"factor of 24",
+				"multiple of 24"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Factors are smaller and divide 24; multiples are 24's times table.",
+			"explain": "6, 8 and 12 divide 24 exactly: factors. 48, 72 and 96 are in 24's times table: multiples."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each pair to its GCF.",
+			"items": [
+				"8 and 12",
+				"15 and 25",
+				"14 and 21",
+				"9 and 18"
+			],
+			"matches": [
+				"5",
+				"7",
+				"9",
+				"4"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Find the biggest number that divides both.",
+			"explain": "8 and 12: 4. 15 and 25: 5. 14 and 21: 7. 9 and 18: 9."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "One lighthouse flashes every 6 seconds and another every 10 seconds. They flash together now. How many seconds until they next flash together?",
+			"answer": "30",
+			"hint": "When do they line up again? That is a common multiple.",
+			"explain": "Find the least common multiple. 6: 6, 12, 18, 24, 30. 10: 10, 20, 30. The first number in both lists is 30, so they flash together again after 30 seconds."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6n.gcf",
+			"level": 1
+		},
+		{
+			"gen": "g6n.gcf",
+			"level": 2
+		},
+		{
+			"gen": "g6n.gcf",
+			"level": 3
+		},
+		{
+			"gen": "g6n.lcm",
+			"level": 1
+		},
+		{
+			"gen": "g6n.lcm",
+			"level": 2
+		},
+		{
+			"gen": "g6n.lcm",
+			"level": 3
+		},
+		{
+			"gen": "g6n.factor_sum",
+			"level": 1
+		},
+		{
+			"gen": "g6n.factor_sum",
+			"level": 2
+		},
+		{
+			"gen": "g6n.factor_sum",
+			"level": 3
+		}
+	]
+}

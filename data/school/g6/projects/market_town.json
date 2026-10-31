@@ -1,0 +1,310 @@
+{
+	"id": "g6.projects.market_town",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you ran a fair on a budget. What is profit? (The income less the costs.) In this project you plan, build, test and present a medieval market town, with fair prices."
+		},
+		{
+			"text": "Step 1, plan: a medieval town grew round a castle, a church and a market place. To hold a market, a lord needed a charter from the king. Draw a map: castle, church, guild halls, houses and the market square.",
+			"picture": {
+				"kind": "castle_type",
+				"type": "motte_bailey",
+				"labels": true
+			}
+		},
+		{
+			"text": "Craftspeople joined guilds: bakers, weavers, smiths. A guild set fair prices and good standards, and trained apprentices for about 7 years. Each guild met in its own guild hall."
+		},
+		{
+			"text": "Step 2, fair prices use a ratio. 3 loaves for 6 gold is a ratio of 1 : 2, so one loaf costs 6 ÷ 3 = 2 gold, and 5 loaves cost 5 × 2 = 10 gold. A price list keeps the rate the same for everyone.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"goods",
+						"price"
+					],
+					[
+						"3 loaves",
+						"6 gold"
+					],
+					[
+						"2 candles",
+						"3 gold"
+					],
+					[
+						"4 pies",
+						"10 gold"
+					],
+					[
+						"1 horseshoe",
+						"4 gold"
+					]
+				]
+			}
+		},
+		{
+			"text": "Markets had rules: scales and measures had to be honest, and the town charged a toll on each sale, like 10%. A market court sorted out quarrels on the spot. 10% of 30 gold is 3 gold."
+		},
+		{
+			"text": "Step 3, make: build the town in your world: the castle on its mound, the church, guild halls round the market square, stalls with price signs, and houses along the streets."
+		},
+		{
+			"text": "Step 4, test and present: walk round as a buyer. Are the prices fair and clear? Is there room to move? Then present your town: its map, its guilds, its price list, and one thing you would improve."
+		},
+		{
+			"text": "Try it in the world: open your market to friends, and share the takings between two guilds in a ratio, like 2 : 3. Next: a weather station."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What did a lord need from the king to hold a market?",
+			"answer": 0,
+			"hint": "It was a written permission.",
+			"choices": [
+				"a charter",
+				"a castle",
+				"a crown",
+				"a ship"
+			],
+			"explain": "A charter: the king's written permission to hold a market."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Guilds trained apprentices for years.",
+			"answer": true,
+			"hint": "How did young people learn a craft?",
+			"explain": "True: about 7 years of training with a master."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "3 loaves cost 6 gold. What does 1 loaf cost, in gold?",
+			"answer": "2",
+			"hint": "Share the price between the loaves.",
+			"explain": "6 ÷ 3 = 2 gold."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where did a guild's members meet?",
+			"answer": 0,
+			"hint": "The building is named after them.",
+			"choices": [
+				"in their guild hall",
+				"in the castle's dungeon",
+				"on a ship",
+				"in the forest"
+			],
+			"explain": "In their guild hall, often near the market square."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Using the price list, what do 4 candles cost at the same rate, in gold?",
+			"answer": "6",
+			"hint": "Find the price of 1 candle first.",
+			"explain": "2 candles cost 3 gold, so 1 costs 1.5 gold, and 4 cost 4 × 1.5 = 6 gold.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"goods",
+						"price"
+					],
+					[
+						"3 loaves",
+						"6 gold"
+					],
+					[
+						"2 candles",
+						"3 gold"
+					],
+					[
+						"4 pies",
+						"10 gold"
+					],
+					[
+						"1 horseshoe",
+						"4 gold"
+					]
+				]
+			}
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "The market square is a rectangle with an area of 24 squares and a perimeter of 20. Build it.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 3,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 24,
+				"perimeter": 20
+			},
+			"hint": "Which two numbers multiply to 24 and add up to 10?",
+			"explain": "6 by 4: 6 × 4 = 24 squares, and 6 + 4 + 6 + 4 = 20."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The town's toll is 10% of each sale. A weaver sells cloth for 40 gold. What is the toll, in gold?",
+			"answer": "4",
+			"hint": "10% is a tenth.",
+			"explain": "40 ÷ 10 = 4 gold."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the project in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Plan before you build.",
+			"items": [
+				"test it and present it",
+				"build it in the world",
+				"set fair prices",
+				"plan the town on a map"
+			],
+			"explain": "Plan, set prices, build, then test and present."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why did a guild set the same price for everyone?",
+			"answer": 0,
+			"hint": "What would happen if each baker charged anything?",
+			"choices": [
+				"to be fair to buyers and makers",
+				"to make bread expensive",
+				"to stop people eating",
+				"to please only the king"
+			],
+			"explain": "One fair price protects buyers and honest makers."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "At the same rate, if 2 pies cost 5 gold, then 4 pies cost 10 gold.",
+			"answer": true,
+			"hint": "Double the pies, double the price.",
+			"explain": "True: 4 is 2 × 2, so the price is 2 × 5 = 10 gold."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Two guilds share 50 gold of takings in the ratio 2 : 3. How much does the second guild get, in gold?",
+			"answer": "30",
+			"hint": "Add the parts, find one part, then take 3 of them.",
+			"explain": "2 + 3 = 5 parts, 50 ÷ 5 = 10 gold a part, 3 × 10 = 30 gold."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Using the price list, what would 6 pies cost at the same rate, in gold?",
+			"answer": "15",
+			"hint": "Find the price of one pie first.",
+			"explain": "4 pies cost 10 gold, so 1 costs 2.5 gold, and 6 cost 6 × 2.5 = 15 gold.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"goods",
+						"price"
+					],
+					[
+						"3 loaves",
+						"6 gold"
+					],
+					[
+						"2 candles",
+						"3 gold"
+					],
+					[
+						"4 pies",
+						"10 gold"
+					],
+					[
+						"1 horseshoe",
+						"4 gold"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A baker starts selling smaller loaves at the same price. Is that fair?",
+			"answer": 0,
+			"hint": "Compare what you get for your gold.",
+			"choices": [
+				"no: buyers get less for the same gold",
+				"yes, always",
+				"yes, if it rains",
+				"it does not matter"
+			],
+			"explain": "No: the rate has changed, and buyers are cheated. Guilds stopped this."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A market court sorted out quarrels on the spot.",
+			"answer": true,
+			"hint": "Markets needed quick fairness.",
+			"explain": "True: traders and buyers could settle quarrels the same day."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A stall sold 12 candles at 1.50 gold each. What was its income, in gold?",
+			"answer": "18",
+			"hint": "Multiply the number sold by the price.",
+			"explain": "12 × 1.5 = 18 gold."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put a fair price check in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You need the amount before the rate.",
+			"items": [
+				"change it if it is unfair",
+				"compare it with other stalls",
+				"work out the price of one",
+				"measure the goods"
+			],
+			"explain": "Measure, find the price of one, compare, then put it right."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.market_price",
+			"level": 1
+		},
+		{
+			"gen": "g6w.market_price",
+			"level": 2
+		},
+		{
+			"gen": "g6w.market_price",
+			"level": 3
+		}
+	]
+}

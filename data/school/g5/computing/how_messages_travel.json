@@ -1,0 +1,287 @@
+{
+	"id": "g5.computing.how_messages_travel",
+	"lesson": [
+		{
+			"text": "Quick memory: what does a router do? (It passes messages between the devices on a network and the internet.) Today: the journey of one message."
+		},
+		{
+			"text": "A message is not sent in one piece. The computer cuts it into small packets, each with a number, like the pages of a letter sent in separate envelopes.",
+			"picture": {
+				"kind": "packets",
+				"message": "MEET AT THE OAK TREE",
+				"size": 5,
+				"to": "Zara",
+				"from": "Tilly"
+			}
+		},
+		{
+			"text": "Every packet carries the address it is going to, the address it came from, and its number, like 2 of 4. Addresses on the internet are numbers, called IP addresses."
+		},
+		{
+			"text": "Routers pass each packet on, closer and closer to its address. Packets of one message may take different routes, like cars taking different roads to the same town.",
+			"picture": {
+				"kind": "network",
+				"devices": [
+					"laptop",
+					"phone"
+				],
+				"internet": true,
+				"server": true,
+				"mark": "internet"
+			}
+		},
+		{
+			"text": "Packets can arrive in a muddle. The computer at the other end puts them back in order by their numbers. If one is missing, it asks for that packet to be sent again.",
+			"picture": {
+				"kind": "packets",
+				"message": "HELLO GRAN",
+				"size": 4,
+				"order": [
+					2,
+					0,
+					1
+				]
+			}
+		},
+		{
+			"text": "Worked example: HELLO GRAN in packets of 4 letters and spaces is HELL, O GR and AN: 3 packets. They arrive as 3, 1, 2, and their numbers put them back: HELL, O GR, AN."
+		},
+		{
+			"text": "Packets travel as electric signals in copper wires, as flashes of light in fibre-optic cables and as radio waves through the air. Between continents, most go through cables under the sea."
+		},
+		{
+			"text": "Try it in the world: write a sentence on numbered paper strips and hand them to a friend in a muddle. Can they rebuild it? Next: how search engines rank pages."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A long message is sent as lots of small packets.",
+			"answer": true,
+			"hint": "Think of the letter in separate envelopes.",
+			"explain": "True: the computer cuts the message into packets and sends each one."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does each packet carry so that it finds its way?",
+			"answer": 0,
+			"hint": "What does an envelope need so the post gets it to the right house?",
+			"choices": [
+				"the address it is going to",
+				"a picture of the sender",
+				"the whole message",
+				"a password"
+			],
+			"explain": "Each packet carries the address it is going to (and where it came from, and its number)."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each thing to its job.",
+			"items": [
+				"packet",
+				"router",
+				"IP address",
+				"packet number"
+			],
+			"matches": [
+				"says which computer",
+				"puts pieces back in order",
+				"carries part of a message",
+				"passes packets on"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the journey from one computer to another.",
+			"explain": "A packet carries part of the message, a router passes it on, an IP address names the computer, and the number puts the pieces in order."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A message has 20 letters and spaces. Each packet carries 5 of them. How many packets does it need?",
+			"answer": "4",
+			"hint": "Share the letters into packets of 5.",
+			"explain": "20 ÷ 5 = 4 packets."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "The packets arrived in a muddle. Put them in order to read the message.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Look at each packet's number: 1 of 5, 2 of 5 … The number says where it goes.",
+			"items": [
+				"YOU·",
+				"HE·L",
+				"SEE·",
+				"AT·T",
+				"AKE"
+			],
+			"explain": "By their numbers: SEE, YOU, AT T, HE L, AKE. The message: SEE YOU AT THE LAKE.",
+			"picture": {
+				"kind": "packets",
+				"message": "SEE YOU AT THE LAKE",
+				"size": 4,
+				"order": [
+					3,
+					0,
+					4,
+					1,
+					2
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Two packets of the same message took different routes. Why can that happen?",
+			"answer": 0,
+			"hint": "Think of cars choosing roads when one is busy.",
+			"choices": [
+				"Routers choose a free route for each packet",
+				"One packet was lost",
+				"Packets always go the same way",
+				"The sender used two computers"
+			],
+			"explain": "Each router sends each packet the best way it can at that moment, so packets can take different routes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "One packet never arrives. What does the computer at the other end do?",
+			"answer": 0,
+			"hint": "The packets are numbered. How does it know which one to ask for?",
+			"choices": [
+				"Asks for that packet to be sent again",
+				"Throws the whole message away",
+				"Makes up the missing letters",
+				"Waits for ever"
+			],
+			"explain": "The numbers show which packet is missing, so the computer asks for just that one again."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "How does it travel: as electric signals, light or radio waves?",
+			"groups": [
+				"electric signals",
+				"light",
+				"radio waves"
+			],
+			"items": [
+				"a copper network cable",
+				"a fibre-optic cable",
+				"a cable of glass under the sea",
+				"a wireless link to the router",
+				"a link to a satellite"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				2,
+				2
+			],
+			"hint": "Copper carries electricity, glass carries light, and nothing at all is needed for radio.",
+			"explain": "Copper cables carry electric signals; fibre-optic cables (glass, under the sea too) carry light; wireless and satellite links use radio waves."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A picture of 60 KB (kilobytes) is sent in packets of 4 KB. How many packets does it need?",
+			"answer": "15",
+			"hint": "Divide the picture into packets of the same size.",
+			"explain": "60 ÷ 4 = 15 packets."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A message of 26 letters and spaces goes in packets of 4. How many letters and spaces are in the last packet?",
+			"answer": "2",
+			"hint": "How many full packets of 4 fit into 26? What is left over?",
+			"explain": "26 ÷ 4 = 6 remainder 2: 6 full packets, and the last one carries the 2 that are left."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Packets 1, 2, 4 and 5 of 5 have arrived. What happens next?",
+			"answer": 0,
+			"hint": "Which number is missing?",
+			"choices": [
+				"The computer asks for packet 3 again",
+				"It shows the message without packet 3",
+				"It asks for all 5 again",
+				"It sends packet 3 to itself"
+			],
+			"explain": "Packet 3 is missing, so the computer asks for packet 3 to be sent again, then puts all 5 in order."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Every packet of a message must travel along exactly the same route.",
+			"answer": false,
+			"hint": "Think of the cars on different roads.",
+			"explain": "False: each packet can take a different route; the numbers put them back in order at the end."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why cut messages into packets at all?",
+			"answer": 0,
+			"hint": "Think about a busy road, and about losing one envelope.",
+			"choices": [
+				"Packets share the network; a lost one is resent",
+				"Big messages are not allowed",
+				"Packets look nicer",
+				"So that nobody can ever read them"
+			],
+			"explain": "Small packets let many messages share the network, and if one is lost, only that one is sent again."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put a packet's journey in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start where the message is written and end where it is read.",
+			"items": [
+				"Your router sends them onto the internet",
+				"The other computer receives them",
+				"Your computer cuts the message into packets",
+				"Other routers pass them along",
+				"It puts them in order by number"
+			],
+			"explain": "Cut into packets, sent by your router, passed on by other routers, received, and put back in order."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.packet_count",
+			"level": 1
+		},
+		{
+			"gen": "g5a.packet_count",
+			"level": 2
+		},
+		{
+			"gen": "g5a.packet_count",
+			"level": 3
+		}
+	]
+}

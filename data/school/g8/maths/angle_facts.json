@@ -1,0 +1,102 @@
+{
+	"id": "g8.maths.angle_facts",
+	"lesson": [
+		{
+			"text": "A triangle's angles add up to 180°. An exterior angle equals the two opposite inside angles added."
+		},
+		{
+			"text": "When a transversal crosses two parallel lines, corresponding angles are equal (an F shape) and alternate angles are equal (a Z shape)."
+		},
+		{
+			"text": "Co-interior angles (a C shape) add up to 180°."
+		},
+		{
+			"text": "Use these facts to find unknown angles, step by step."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A triangle has angles 70° and 50°. What is the third angle, in degrees?",
+			"answer": "60",
+			"hint": "180 − 120.",
+			"explain": "60°."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Parallel lines are crossed by a transversal. One angle is 65°. What is its corresponding angle, in degrees?",
+			"answer": "65",
+			"hint": "Corresponding angles are equal.",
+			"explain": "65°."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Alternate angles between parallel lines are equal.",
+			"answer": true,
+			"hint": "Z shape.",
+			"explain": "Yes."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Co-interior angles: one is 110°. What is the other, in degrees?",
+			"answer": "70",
+			"hint": "They add up to 180°.",
+			"explain": "70°."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A triangle's inside angles are 45° and 60°. What is the exterior angle at the third corner, in degrees?",
+			"answer": "105",
+			"hint": "45 + 60.",
+			"explain": "105°."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What do co-interior angles add up to?",
+			"answer": 0,
+			"hint": "C shape.",
+			"choices": [
+				"180°",
+				"90°",
+				"360°"
+			],
+			"explain": "180°."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A triangle's angles are x, 2x and 3x. What is x, in degrees?",
+			"answer": "30",
+			"hint": "6x = 180.",
+			"explain": "x = 30°."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An isosceles triangle has one angle of 100°. What is each of the other two, in degrees?",
+			"answer": "40",
+			"hint": "(180 − 100) ÷ 2.",
+			"explain": "40°."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8g.parallel_angles",
+			"level": 1
+		},
+		{
+			"gen": "g8g.parallel_angles",
+			"level": 2
+		},
+		{
+			"gen": "g8g.parallel_angles",
+			"level": 3
+		}
+	]
+}

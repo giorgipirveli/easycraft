@@ -1,0 +1,407 @@
+{
+	"id": "g7.science.acids_alkalis",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you mixed baking soda and vinegar. What did you see? Bubbles of gas: a new substance was made. Vinegar is an acid. Today: what that means."
+		},
+		{
+			"text": "Acids taste sour, like lemon juice and vinegar. Alkalis feel soapy, like soap. Strong acids and alkalis, such as drain cleaner, are corrosive: they burn skin and eyes. Never taste or touch chemicals to test them.",
+			"picture": {
+				"kind": "ph_scale",
+				"marks": [
+					[
+						2,
+						"lemon juice"
+					],
+					[
+						3,
+						"vinegar"
+					],
+					[
+						10,
+						"soap"
+					],
+					[
+						14,
+						"drain cleaner"
+					]
+				]
+			}
+		},
+		{
+			"text": "The pH scale runs from 0 to 14. Below 7 is acidic, 7 is neutral, like pure water, and above 7 is alkaline. The further from 7, the stronger: pH 1 is strongly acidic and pH 13 strongly alkaline.",
+			"picture": {
+				"kind": "ph_scale",
+				"marks": [
+					[
+						1,
+						"stomach acid"
+					],
+					[
+						7,
+						"pure water"
+					],
+					[
+						13,
+						"oven cleaner"
+					]
+				],
+				"bands": true
+			}
+		},
+		{
+			"text": "An indicator changes colour to show an acid or an alkali. Litmus turns red in acids and blue in alkalis. Universal indicator has a colour for each pH: red when strongly acidic, green at 7, purple when strongly alkaline.",
+			"picture": {
+				"kind": "ph_scale",
+				"litmus": true
+			}
+		},
+		{
+			"text": "Neutralisation: an acid and an alkali cancel each other out, making a salt and water. Hydrochloric acid + sodium hydroxide make sodium chloride (table salt) + water."
+		},
+		{
+			"text": "A base is anything that neutralises an acid; an alkali is a base that dissolves in water. Indigestion tablets hold a base that neutralises extra stomach acid. Farmers spread lime on soil that is too acidic."
+		},
+		{
+			"text": "Try it in the world: with a grown-up, use red cabbage water as an indicator: it turns pink in vinegar and blue-green in baking soda water. In LIFE, The Poisons Cupboard: cleaners can be corrosive, so never mix them. Next: natural and made materials."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What pH is neutral?",
+			"answer": "7",
+			"hint": "Pure water is neither acidic nor alkaline: where is it on the scale?",
+			"explain": "pH 7 is neutral, in the middle of the scale from 0 to 14."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort them: acidic, neutral or alkaline?",
+			"groups": [
+				"acidic",
+				"neutral",
+				"alkaline"
+			],
+			"items": [
+				"vinegar",
+				"sugar water",
+				"soap",
+				"pure water",
+				"lemon juice",
+				"bleach"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				1,
+				0,
+				2
+			],
+			"hint": "Below pH 7 is acidic, 7 is neutral, above 7 is alkaline: recall each one's pH.",
+			"explain": "Acidic: lemon juice and vinegar. Neutral: pure water and sugar water. Alkaline: soap and bleach."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Litmus turns red in an acid.",
+			"answer": true,
+			"hint": "Think of litmus's two colours, and which goes with sour things like lemon juice.",
+			"explain": "True: litmus is red in acids and blue in alkalis."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is an alkali?",
+			"choices": [
+				"soap",
+				"vinegar",
+				"lemon juice"
+			],
+			"answer": 0,
+			"hint": "Acids are sour, like lemons. Which one is not sour and feels slippery?",
+			"explain": "Soap is a weak alkali; vinegar and lemon juice are acids."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each pH to how it is described.",
+			"items": [
+				"pH 1",
+				"pH 5",
+				"pH 7",
+				"pH 9",
+				"pH 13"
+			],
+			"matches": [
+				"weakly alkaline",
+				"weakly acidic",
+				"strongly alkaline",
+				"strongly acidic",
+				"neutral"
+			],
+			"answer": [
+				3,
+				1,
+				4,
+				0,
+				2
+			],
+			"hint": "7 is neutral; the further from 7, the stronger.",
+			"explain": "pH 1: strongly acidic. pH 5: weakly acidic. pH 7: neutral. pH 9: weakly alkaline. pH 13: strongly alkaline."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Universal indicator turns purple. What does that show?",
+			"choices": [
+				"It is strongly alkaline.",
+				"It is strongly acidic.",
+				"It is neutral."
+			],
+			"answer": 0,
+			"hint": "Red is at the acid end; purple is at the other end.",
+			"explain": "Purple is at the top of the scale, pH 11 to 14: strongly alkaline.",
+			"picture": {
+				"kind": "ph_scale"
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order from the most acidic to the most alkaline.",
+			"items": [
+				"pure water",
+				"oven cleaner",
+				"black coffee",
+				"lemon juice",
+				"soap"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				4,
+				1
+			],
+			"hint": "The most acidic has the lowest pH: recall each one's pH first.",
+			"explain": "Lemon juice (pH 2), black coffee (5), pure water (7), soap (10), oven cleaner (13)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "An acid and an alkali make a salt and what else?",
+			"choices": [
+				"water",
+				"oxygen",
+				"more acid"
+			],
+			"answer": 0,
+			"hint": "Neutralisation makes two things; one of them is an everyday liquid.",
+			"explain": "An acid and an alkali make a salt and water."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do farmers spread lime on some fields?",
+			"choices": [
+				"to neutralise soil that is too acidic",
+				"to make the soil more acidic",
+				"to keep the birds away"
+			],
+			"answer": 0,
+			"hint": "Lime is a base: what does a base do to an acid?",
+			"explain": "Lime is a base, so it neutralises acidic soil, and crops grow better."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "pH 2 is more strongly acidic than pH 5.",
+			"answer": true,
+			"hint": "Which one is further from 7?",
+			"explain": "True: pH 2 is further below 7, so it is more strongly acidic."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A cleaner turns red cabbage juice green. Is the cleaner acidic or alkaline?",
+			"choices": [
+				"alkaline",
+				"acidic",
+				"neutral"
+			],
+			"answer": 0,
+			"hint": "Red cabbage juice turns pink in acids and stays purple when neutral.",
+			"explain": "Green means alkaline: red cabbage juice turns green or blue-green in alkalis."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: an acid or a base?",
+			"groups": [
+				"acid",
+				"base"
+			],
+			"items": [
+				"soap",
+				"indigestion tablets",
+				"lemon juice",
+				"stomach acid",
+				"lime for fields",
+				"vinegar"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Bases neutralise acids; acids are sour.",
+			"explain": "Acids: vinegar, lemon juice and stomach acid. Bases: indigestion tablets, lime and soap."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Hydrochloric acid + sodium hydroxide make sodium chloride + water. Which is the salt?",
+			"choices": [
+				"sodium chloride",
+				"water",
+				"sodium hydroxide"
+			],
+			"answer": 0,
+			"hint": "A salt is the new compound with the metal in it, made alongside the water.",
+			"explain": "Sodium chloride is the salt; water is the other product."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You add alkali to an acid, drop by drop. What happens to the pH?",
+			"choices": [
+				"It rises towards 7.",
+				"It falls towards 0.",
+				"It stays the same."
+			],
+			"answer": 0,
+			"hint": "The alkali cancels the acid a little at a time.",
+			"explain": "The pH rises towards 7 as the alkali neutralises the acid. At 7 it is neutral; too much alkali takes it above 7, to an alkaline solution."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the steps to neutralise an acid using universal indicator.",
+			"items": [
+				"Add alkali a drop at a time",
+				"Stop when it turns green",
+				"Add a few drops of indicator",
+				"Pour the acid into a beaker"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "You need to see the colour before you start adding anything.",
+			"explain": "Acid in the beaker, then the indicator, then alkali drop by drop while you stir; stop at green, pH 7."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Mixing bleach with an acid cleaner makes it clean better.",
+			"answer": false,
+			"hint": "Think about the Poisons Cupboard rule for cleaners.",
+			"explain": "False: mixing them gives off a poisonous gas, chlorine. Never mix cleaners."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Each step down the pH scale is 10 times as acidic. How many times as acidic is pH 2 as pH 4?",
+			"answer": "100",
+			"hint": "Count the steps from 4 down to 2, then multiply by 10 for each step.",
+			"explain": "That is two steps down: 10 × 10 = 100 times as acidic."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which acid and alkali make potassium nitrate and water?",
+			"choices": [
+				"nitric acid + potassium hydroxide",
+				"hydrochloric acid + potassium hydroxide",
+				"nitric acid + sodium hydroxide"
+			],
+			"answer": 0,
+			"hint": "The salt's first word comes from the alkali, and its second word from the acid.",
+			"explain": "The salt's name has two parts. Potassium comes from potassium hydroxide, and nitrate comes from nitric acid, so nitric acid + potassium hydroxide make potassium nitrate + water."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each indicator colour to what it shows.",
+			"items": [
+				"litmus turns red",
+				"litmus turns blue",
+				"universal green",
+				"universal purple",
+				"universal red"
+			],
+			"matches": [
+				"an acid",
+				"neutral, pH 7",
+				"an alkali",
+				"strongly alkaline",
+				"strongly acidic"
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				3,
+				4
+			],
+			"hint": "Litmus has two colours; universal indicator runs from red, through green, to purple.",
+			"explain": "Red litmus: an acid. Blue litmus: an alkali. Green: neutral. Purple: strongly alkaline. Red: strongly acidic."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7k.ph_kind",
+			"level": 1
+		},
+		{
+			"gen": "g7k.ph_kind",
+			"level": 2
+		},
+		{
+			"gen": "g7k.ph_kind",
+			"level": 3
+		},
+		{
+			"gen": "g7k.indicator_colour",
+			"level": 1
+		},
+		{
+			"gen": "g7k.indicator_colour",
+			"level": 2
+		},
+		{
+			"gen": "g7k.indicator_colour",
+			"level": 3
+		},
+		{
+			"gen": "g7k.salt_name",
+			"level": 1
+		},
+		{
+			"gen": "g7k.salt_name",
+			"level": 2
+		},
+		{
+			"gen": "g7k.salt_name",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,300 @@
+{
+	"id": "g6.geography.river_processes",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met rivers. Where does a river start, and where does it end? (At its source; at its mouth, often the sea.) Today: how rivers shape the land."
+		},
+		{
+			"text": "A river's long profile: in its upper course it is steep and fast, high in the hills, in a narrow V-shaped valley; in the lower course it is wide, deep and slow, crossing a flat floodplain to its mouth.",
+			"picture": {
+				"kind": "river_course",
+				"view": "long",
+				"labels": true
+			}
+		},
+		{
+			"text": "Rivers do three jobs. Erosion wears away the bed and banks. Transport carries the worn-away material along. Deposition drops it when the water slows down: fast water erodes and carries, slow water drops."
+		},
+		{
+			"text": "Erosion works four ways. Hydraulic action: the force of the water breaks rock. Abrasion: stones scrape the bed and banks. Attrition: stones knock together, becoming smaller and rounder. Solution: some rocks dissolve."
+		},
+		{
+			"text": "A waterfall forms where a river flows over hard rock onto softer rock. The soft rock wears away faster, leaving an overhang that falls in. The water digs a plunge pool, and the waterfall moves back, leaving a gorge.",
+			"picture": {
+				"kind": "river_course",
+				"view": "waterfall",
+				"labels": true
+			}
+		},
+		{
+			"text": "Lower down, the river swings into bends, meanders. On the outside of a bend the water is fast and deep and erodes a river cliff; on the inside it is slow and shallow and deposits a slip-off slope of sand.",
+			"picture": {
+				"kind": "river_course",
+				"view": "meander",
+				"labels": true
+			}
+		},
+		{
+			"text": "When a flood cuts through a meander's narrow neck, the old loop is left as an ox-bow lake. Floods spread mud over the floodplain and build banks, levees. Roads and roofs make floods worse; trees and open floodplains help."
+		},
+		{
+			"text": "Try it in the world: dig a winding channel in sand, and pour water in at one end. Watch where it wears the bank away, and where it drops sand. Next: Africa."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does a river begin?",
+			"answer": 0,
+			"hint": "Where is it highest, up in the hills?",
+			"choices": [
+				"at its source",
+				"at its mouth",
+				"at a delta",
+				"at an estuary"
+			],
+			"explain": "At its source, often a spring or a lake high in the hills."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Deposition happens when a river slows down.",
+			"answer": true,
+			"hint": "Slow water cannot carry as much.",
+			"explain": "True: slow water drops the sand and mud it carried."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part of a river is usually steep and fast?",
+			"answer": 0,
+			"hint": "Think of the hills near the source.",
+			"choices": [
+				"the upper course",
+				"the lower course",
+				"the mouth",
+				"the delta"
+			],
+			"explain": "The upper course, high in the hills."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is erosion?",
+			"answer": 0,
+			"hint": "It makes valleys deeper.",
+			"choices": [
+				"wearing away the land",
+				"dropping sand and mud",
+				"carrying stones",
+				"freezing water"
+			],
+			"explain": "Erosion is the wearing away of the river's bed and banks."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the deep hollow at the foot of a waterfall called?",
+			"answer": 0,
+			"hint": "The falling water digs it.",
+			"choices": [
+				"a plunge pool",
+				"a meander",
+				"a levee",
+				"a delta"
+			],
+			"explain": "A plunge pool, dug by the falling water and the stones it swirls.",
+			"picture": {
+				"kind": "river_course",
+				"view": "waterfall",
+				"labels": true,
+				"hide": "plunge pool"
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these features: upper course or lower course?",
+			"groups": [
+				"upper course",
+				"lower course"
+			],
+			"items": [
+				"waterfall",
+				"delta",
+				"gorge",
+				"wide floodplain",
+				"V-shaped valley"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "The upper course is steep, in the hills; the lower course is wide and flat.",
+			"explain": "Upper: waterfall, gorge, V-shaped valley. Lower: delta, wide floodplain."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each kind of erosion to what happens.",
+			"items": [
+				"hydraulic action",
+				"abrasion",
+				"attrition",
+				"solution"
+			],
+			"matches": [
+				"rock dissolves in water",
+				"water's force breaks rock",
+				"stones scrape the banks",
+				"stones knock and round off"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "One is the water alone, two are stones, one is chemistry.",
+			"explain": "Hydraulic action: the water's force. Abrasion: scraping. Attrition: stones knocking together. Solution: dissolving."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "On the outside of this bend, what does the fast water wear into the bank?",
+			"answer": 0,
+			"hint": "The outside of a bend is where the water is fastest.",
+			"choices": [
+				"a river cliff",
+				"a slip-off slope",
+				"a delta",
+				"a levee"
+			],
+			"explain": "It erodes a steep river cliff; the slow inside gets a slip-off slope.",
+			"picture": {
+				"kind": "river_course",
+				"view": "meander",
+				"labels": true,
+				"hide": "river cliff"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "On the inside of a meander's bend, the water is fastest.",
+			"answer": false,
+			"hint": "Where does the sand pile up?",
+			"explain": "False: the inside is slow and shallow, so sand is dropped there; the outside is fastest."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is an ox-bow lake?",
+			"answer": 0,
+			"hint": "Think of a bend that the river left behind.",
+			"choices": [
+				"a cut-off meander loop",
+				"a lake behind a dam",
+				"a waterfall's pool",
+				"a lake in a volcano"
+			],
+			"explain": "An old meander loop cut off when the river broke through its neck."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the making of a waterfall in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with the soft rock wearing faster.",
+			"items": [
+				"the waterfall moves back upstream",
+				"the overhang falls into the plunge pool",
+				"an overhang of hard rock is left",
+				"soft rock under hard rock wears away"
+			],
+			"explain": "Soft rock wears away, leaving an overhang, which falls; so the waterfall moves back."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a waterfall leave a gorge behind it?",
+			"answer": 0,
+			"hint": "What happens each time the overhang falls?",
+			"choices": [
+				"it moves back upstream, step by step",
+				"a dam is built",
+				"the sea fills it",
+				"it freezes in winter"
+			],
+			"explain": "Each fall moves the waterfall back, cutting a steep-sided gorge downstream."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which makes flooding in a town more likely?",
+			"answer": 0,
+			"hint": "Where does rain go when it cannot soak into the ground?",
+			"choices": [
+				"roads and roofs that water cannot soak into",
+				"more trees on the hills",
+				"a wide floodplain of fields",
+				"dry weather"
+			],
+			"explain": "Rain runs off hard roads and roofs straight into drains and rivers, which then overflow."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these ways to stop floods: building works, or working with nature?",
+			"groups": [
+				"building works",
+				"working with nature"
+			],
+			"items": [
+				"a flood wall",
+				"planting trees on hills",
+				"a dam",
+				"leaving floodplains as fields"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it built of concrete, or does it help the land soak up water?",
+			"explain": "Building works: a flood wall, a dam. Working with nature: planting trees, leaving floodplains as fields."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Suppose a waterfall moves back 1 m every 10 years. How many metres does it move back in 1,000 years?",
+			"answer": "100",
+			"hint": "How many lots of 10 years are there in 1,000?",
+			"explain": "1,000 ÷ 10 = 100 lots, 1 m each: 100 m."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.river_sort",
+			"level": 1
+		},
+		{
+			"gen": "g6h.river_sort",
+			"level": 2
+		},
+		{
+			"gen": "g6h.river_sort",
+			"level": 3
+		}
+	]
+}

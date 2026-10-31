@@ -1,0 +1,463 @@
+{
+	"id": "g6.music.blues",
+	"lesson": [
+		{
+			"text": "Quick memory: which notes make the C major chord? (C, E and G.) Today: the blues."
+		},
+		{
+			"text": "The blues grew among African American communities in the southern United States in the late 1800s. It came from work songs, spirituals and call and response. It sings about hard times, and about hope."
+		},
+		{
+			"text": "The 12-bar blues is a pattern of chords that repeats: four bars of chord I, two of IV, two of I, then V, IV, I, I. In C, those chords are C, F and G.",
+			"picture": {
+				"kind": "twelve_bar",
+				"key": "C",
+				"numerals": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4",
+					"C4+E4+G4",
+					"C4+E4+G4",
+					"C4+E4+G4",
+					"F4+A4+C5",
+					"F4+A4+C5",
+					"C4+E4+G4",
+					"C4+E4+G4",
+					"G4+B4+D5",
+					"F4+A4+C5",
+					"C4+E4+G4",
+					"C4+E4+G4"
+				],
+				"beat": 0.5
+			}
+		},
+		{
+			"text": "Chord I is built on the home note. Chord IV is built on the 4th note of the scale, and chord V on the 5th. So the 12-bar blues in G uses G, C and D.",
+			"picture": {
+				"kind": "twelve_bar",
+				"key": "G",
+				"numerals": true
+			}
+		},
+		{
+			"text": "Blues words often go A A B: a line is sung, sung again, then answered by a new line that rhymes with it. The singer and a guitar often call and answer each other."
+		},
+		{
+			"text": "The blues scale gives the blues its sound, with blue notes that feel bent and sad. The C blues scale is C, E flat, F, F sharp, G and B flat.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"C4",
+					"Eb4",
+					"F4",
+					"F#4",
+					"G4",
+					"Bb4",
+					"C5"
+				],
+				"names": true,
+				"from": "C4",
+				"keys": 8
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"Eb4",
+					"F4",
+					"F#4",
+					"G4",
+					"Bb4",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"text": "Improvise: make up a tune as you play. Over the 12 bars, play short phrases from the blues scale, then leave a gap, like a question and an answer. W. C. Handy (1873-1958) wrote blues down so others could play it."
+		},
+		{
+			"text": "Try it in the world: clap 4 beats in each of 12 bars while a friend calls out the chords: C C C C, F F C C, G F C C. Next: early music."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which chord goes in bar 5 of this 12-bar blues in C?",
+			"answer": 0,
+			"hint": "The pattern is I I I I, IV IV I I, V IV I I.",
+			"choices": [
+				"F",
+				"C",
+				"G",
+				"D"
+			],
+			"explain": "Bar 5 starts the second line: chord IV, which is F in C.",
+			"picture": {
+				"kind": "twelve_bar",
+				"key": "C",
+				"mark": 4,
+				"hide": [
+					4
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many bars are in one time round the 12-bar blues?",
+			"answer": "12",
+			"hint": "Read its name.",
+			"explain": "12 bars, then it repeats."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The blues grew in African American communities in the southern United States.",
+			"answer": true,
+			"hint": "Think back to the lesson.",
+			"explain": "True: it grew there in the late 1800s, from work songs and spirituals."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this the blues scale or a major scale?",
+			"answer": 0,
+			"hint": "Do some notes sound bent and sad?",
+			"choices": [
+				"the blues scale",
+				"a major scale"
+			],
+			"explain": "It has E flat, F sharp and B flat, the blue notes: the C blues scale.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"Eb4",
+					"F4",
+					"F#4",
+					"G4",
+					"Bb4",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Blues words often go A A B. What does that mean?",
+			"answer": 0,
+			"hint": "A and A are the same letter.",
+			"choices": [
+				"a line, the same line again, then an answer",
+				"three different lines",
+				"a line sung backwards",
+				"no words at all"
+			],
+			"explain": "Line A, line A again, then a new line B that answers it."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this chord major or minor?",
+			"answer": 0,
+			"hint": "Bright, or darker? Listen to the middle note.",
+			"choices": [
+				"major",
+				"minor"
+			],
+			"explain": "It is C, E and G, chord I of the blues in C: 4 semitones from C to E, so it is major.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:3"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which chord goes in bar 9 of this 12-bar blues in G?",
+			"answer": 0,
+			"hint": "Bar 9 is chord V. Count 5 notes up from G.",
+			"choices": [
+				"D",
+				"C",
+				"G",
+				"A"
+			],
+			"explain": "Bar 9 is chord V: G, A, B, C, D, so D.",
+			"picture": {
+				"kind": "twelve_bar",
+				"key": "G",
+				"mark": 8,
+				"hide": [
+					8
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: chord I, then another chord, in C. Which chord is the second one?",
+			"answer": 0,
+			"hint": "Chord I is C. The blues' other chords are IV and V.",
+			"choices": [
+				"F",
+				"G",
+				"C",
+				"D"
+			],
+			"explain": "It is F, A and C: chord IV, F.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"F4+A4+C5:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Each bar of the 12-bar blues has 4 beats. How many beats in one time round?",
+			"answer": "48",
+			"hint": "12 bars of 4 beats.",
+			"explain": "12 × 4 = 48 beats."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which note is the blue note in this phrase?",
+			"answer": 0,
+			"hint": "Which note sounds bent and sad, between D and E?",
+			"choices": [
+				"E flat",
+				"E",
+				"D",
+				"G"
+			],
+			"explain": "C, E flat, C: E flat is the blue note, a semitone below E.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"Eb4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which chords does the 12-bar blues in G use?",
+			"answer": 0,
+			"hint": "Chords I, IV and V: count up from G.",
+			"choices": [
+				"G, C and D",
+				"G, A and B",
+				"C, F and G",
+				"G, D and E"
+			],
+			"explain": "I is G, IV is C (the 4th note) and V is D (the 5th)."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The C blues scale has an F sharp in it.",
+			"answer": true,
+			"hint": "Read the blues scale in the lesson.",
+			"explain": "True: C, E flat, F, F sharp, G, B flat."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which chord goes in bar 10 of this 12-bar blues in A?",
+			"answer": 0,
+			"hint": "Bar 10 is chord IV: count 4 notes up from A.",
+			"choices": [
+				"D",
+				"E",
+				"A",
+				"B"
+			],
+			"explain": "Bar 10 is IV: A, B, C, D, so D.",
+			"picture": {
+				"kind": "twelve_bar",
+				"key": "A",
+				"mark": 9,
+				"hide": [
+					9
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen: chords I, IV and V in C, in some order. Which chord is the last one?",
+			"answer": 0,
+			"hint": "Find each chord's lowest note.",
+			"choices": [
+				"G",
+				"F",
+				"C",
+				"D"
+			],
+			"explain": "The last chord is G, B and D: chord V, G.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"F4+A4+C5:2",
+					"C4+E4+G4:2",
+					"G4+B4+D5:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A band plays the 12-bar blues 3 times, with 4 beats in each bar. How many beats is that?",
+			"answer": "144",
+			"hint": "Beats in one time round, then times 3.",
+			"explain": "12 × 4 = 48, and 48 × 3 = 144 beats."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which scale is this?",
+			"answer": 0,
+			"hint": "Does it have bent, blue notes?",
+			"choices": [
+				"the G blues scale",
+				"the G major scale",
+				"the C major scale"
+			],
+			"explain": "It is the G blues scale: the G blues scale is G, B flat, C, C sharp, D and F.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"Bb4",
+					"C5",
+					"C#5",
+					"D5",
+					"F5",
+					"G5:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Improvising means making up music as you play.",
+			"answer": true,
+			"hint": "Think of the blues player's phrases.",
+			"explain": "True: blues players often improvise with the blues scale."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What makes a blue note sound bluesy?",
+			"answer": 0,
+			"hint": "Think of E flat instead of E.",
+			"choices": [
+				"it is bent a little flatter",
+				"it is played very loudly",
+				"it is always the home note",
+				"it is played on a blue piano"
+			],
+			"explain": "Blue notes are a little flatter than the major scale's notes, like E flat."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the 12-bar blues' three lines in order (in C).",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "It starts on the home chord for four bars.",
+			"items": [
+				"F F C C",
+				"C C C C",
+				"G F C C"
+			],
+			"explain": "C C C C, then F F C C, then G F C C."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each chord number to its chord in the blues in C.",
+			"items": [
+				"I",
+				"IV",
+				"V"
+			],
+			"matches": [
+				"G",
+				"C",
+				"F"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Count up the C major scale: C is 1, F is 4, G is 5.",
+			"explain": "In C, chord I is C, chord IV is F (the 4th note) and chord V is G (the 5th note)."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the bars of the 12-bar blues by their chord.",
+			"groups": [
+				"chord I",
+				"chord IV",
+				"chord V"
+			],
+			"items": [
+				"bar 1",
+				"bar 5",
+				"bar 9",
+				"bar 7",
+				"bar 10",
+				"bar 12"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				0
+			],
+			"hint": "I I I I, IV IV I I, V IV I I: count along the bars.",
+			"explain": "The pattern is I I I I, IV IV I I, V IV I I. So bars 1, 7 and 12 are chord I, bars 5 and 10 are IV, and bar 9 is V."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The C blues scale is C, E flat, F, F sharp, G and B flat. How many of its notes are black keys?",
+			"answer": "3",
+			"hint": "Which of the six notes have a sharp or a flat?",
+			"explain": "E flat, F sharp and B flat are black keys: 3 of the 6. C, F and G are white keys."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.blues_bar",
+			"level": 1
+		},
+		{
+			"gen": "g6c.blues_bar",
+			"level": 2
+		},
+		{
+			"gen": "g6c.blues_bar",
+			"level": 3
+		}
+	]
+}

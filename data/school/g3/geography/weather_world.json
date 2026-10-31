@@ -1,0 +1,347 @@
+{
+	"id": "g3.geography.weather_world",
+	"lesson": [
+		{
+			"text": "Quick memory: why are places near the Equator hot? (The Sun shines straight down.) Today: hot, cold and mild places, and how to read a weather map."
+		},
+		{
+			"text": "Weather is what the air is like today: sunny, rainy, windy or snowy, hot or cold. Climate is the usual weather of a place over many years."
+		},
+		{
+			"text": "Near the Equator it is hot. Rainforests like the Amazon are hot and wet all year. Hot deserts like the Sahara get very little rain, with scorching days and cold nights."
+		},
+		{
+			"text": "Near the Poles it is cold all year, and Antarctica is the coldest place on Earth. High mountains are cold too: the higher you climb, the colder the air.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 30,
+				"bands": true
+			}
+		},
+		{
+			"text": "In between are mild places, like Britain and New Zealand: warm summers, cool winters and rain at any time of year. Geographers call this a temperate climate."
+		},
+		{
+			"text": "Temperature is measured with a thermometer, in degrees Celsius (°C). Water freezes at 0 °C. Below freezing, temperatures have a minus sign: −5 °C is colder than 0 °C.",
+			"picture": {
+				"kind": "thermometer",
+				"from": -10,
+				"to": 30,
+				"step": 10,
+				"values": [
+					-5,
+					0,
+					25
+				],
+				"names": [
+					"a cold night",
+					"freezing",
+					"a warm day"
+				]
+			}
+		},
+		{
+			"text": "A weather map shows symbols like a sun, a cloud, raindrops and snowflakes, with numbers for the temperature in °C. This one shows three places in the game's worlds.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"place",
+						"weather",
+						"°C"
+					],
+					[
+						"Frostpeak",
+						"snow",
+						"−5"
+					],
+					[
+						"Meadows",
+						"rain",
+						"12"
+					],
+					[
+						"Desert",
+						"sunny",
+						"38"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: visit a hot place and a cold place in the game, like the desert and Frostpeak. What do you notice about the plants, the animals and the ground?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is climate?",
+			"answer": 0,
+			"hint": "Weather is today. Climate is over a long time.",
+			"choices": [
+				"the usual weather of a place over many years",
+				"the weather right now",
+				"a kind of cloud",
+				"a hot drink"
+			],
+			"explain": "Climate is the usual weather of a place over many years."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the coldest place on Earth?",
+			"answer": 0,
+			"hint": "It is around the South Pole.",
+			"choices": [
+				"Antarctica",
+				"the Sahara Desert",
+				"the Amazon rainforest",
+				"Britain"
+			],
+			"explain": "Antarctica, around the South Pole, is the coldest place on Earth."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A thermometer measures temperature.",
+			"answer": true,
+			"hint": "Therm means heat.",
+			"explain": "True: a thermometer measures how hot or cold something is, in °C."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Hot deserts get lots of rain every day.",
+			"answer": false,
+			"hint": "What makes a desert a desert?",
+			"explain": "False: deserts get very little rain."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the weather like in a rainforest?",
+			"answer": 0,
+			"hint": "The name has a clue, and rainforests are near the Equator.",
+			"choices": [
+				"hot and wet all year",
+				"cold and dry",
+				"snowy all year",
+				"mild, with cool winters"
+			],
+			"explain": "Rainforests are hot and wet all year."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Look at the weather map. Where is it snowing?",
+			"answer": 0,
+			"hint": "Find snow in the weather column, then read the place.",
+			"choices": [
+				"Frostpeak",
+				"Meadows",
+				"Desert",
+				"nowhere"
+			],
+			"explain": "It is snowing in Frostpeak, where it is −5 °C.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"place",
+						"weather",
+						"°C"
+					],
+					[
+						"Frostpeak",
+						"snow",
+						"−5"
+					],
+					[
+						"Meadows",
+						"rain",
+						"12"
+					],
+					[
+						"Desert",
+						"sunny",
+						"38"
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these temperatures in order, coldest first.",
+			"answer": [
+				2,
+				0,
+				1,
+				3
+			],
+			"hint": "Numbers with a minus sign are below freezing, colder than 0 °C.",
+			"items": [
+				"0 °C",
+				"12 °C",
+				"−10 °C",
+				"35 °C"
+			],
+			"explain": "−10 °C is coldest, then 0 °C, 12 °C and 35 °C."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The higher you climb up a mountain, the warmer it gets.",
+			"answer": false,
+			"hint": "Why do high mountains have snow on top?",
+			"explain": "False: the higher you climb, the colder the air gets."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which place has a mild climate, with warm summers and cool, rainy winters?",
+			"answer": 0,
+			"hint": "It is not near the Equator or near a Pole.",
+			"choices": [
+				"Britain",
+				"Antarctica",
+				"the Sahara",
+				"the Amazon rainforest"
+			],
+			"explain": "Britain has a mild (temperate) climate."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is colder: −5 °C or −15 °C?",
+			"answer": 0,
+			"hint": "Below 0, the bigger the number after the minus sign, the colder it is.",
+			"choices": [
+				"−15 °C",
+				"−5 °C",
+				"they are the same",
+				"you cannot tell"
+			],
+			"explain": "−15 °C is 10 degrees colder than −5 °C."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Look at the weather map. How many degrees warmer is it in the Desert than in the Meadows?",
+			"answer": "26",
+			"hint": "Find both temperatures, then take the smaller from the bigger.",
+			"explain": "Desert 38 °C, Meadows 12 °C: 38 − 12 = 26 degrees warmer.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"place",
+						"weather",
+						"°C"
+					],
+					[
+						"Frostpeak",
+						"snow",
+						"−5"
+					],
+					[
+						"Meadows",
+						"rain",
+						"12"
+					],
+					[
+						"Desert",
+						"sunny",
+						"38"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Deserts can be cold at night, even when the days are very hot.",
+			"answer": true,
+			"hint": "With no clouds, heat escapes quickly at night.",
+			"explain": "True: clear desert skies let the heat escape, so nights can be cold."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Frostpeak is cold and snowy nearly all year. Which word describes its climate best?",
+			"answer": 0,
+			"hint": "Think about what the climate is like for most of the year.",
+			"choices": [
+				"cold",
+				"tropical",
+				"hot and dry",
+				"mild"
+			],
+			"explain": "A place that is snowy nearly all year has a cold climate."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each kind of place to its climate.",
+			"items": [
+				"rainforest",
+				"hot desert",
+				"polar land",
+				"temperate land"
+			],
+			"matches": [
+				"cold all year",
+				"warm summers, cool winters",
+				"hot and wet all year",
+				"hot days, very little rain"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the Amazon, the Sahara, Antarctica and Britain.",
+			"explain": "Rainforest: hot and wet. Desert: hot days, little rain. Polar: cold all year. Temperate: warm summers, cool winters."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the places by their climate.",
+			"groups": [
+				"hot",
+				"cold",
+				"mild"
+			],
+			"items": [
+				"the Amazon rainforest",
+				"Antarctica",
+				"Britain",
+				"the Sahara",
+				"the top of a high mountain",
+				"New Zealand"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Is it near the Equator, near a Pole or high up, or in between?",
+			"explain": "Hot: the Amazon and the Sahara, near the Equator. Cold: Antarctica and a high mountain top. Mild: Britain and New Zealand, in between."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In the morning it is −3 °C. By noon it is 8 °C. How many degrees warmer is it at noon?",
+			"answer": "11",
+			"hint": "Count up from −3 to 0, then from 0 to 8.",
+			"explain": "From −3 °C up to 0 °C is 3 degrees, and from 0 °C up to 8 °C is 8 more: 3 + 8 = 11 degrees warmer."
+		}
+	],
+	"generators": []
+}

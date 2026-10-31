@@ -1,0 +1,438 @@
+{
+	"id": "g7.english.write_argument",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you wrote arguments. What is a counterclaim? The other side's view: what someone who disagrees would say."
+		},
+		{
+			"text": "A strong argument does not hide the other side; it answers it. Name the counterclaim fairly, then give a rebuttal: a reason or evidence that shows why your claim still stands.",
+			"picture": {
+				"kind": "argument_map",
+				"claim": "Our village needs a library.",
+				"reasons": [
+					"families lack books",
+					"a quiet place to study"
+				],
+				"evidence": [
+					"300 families signed",
+					"12 pupils asked for it"
+				],
+				"counter": "It would cost too much.",
+				"rebuttal": "Book sales and gifts could pay.",
+				"titles": true
+			}
+		},
+		{
+			"text": "Useful phrases: 'Some people argue that...', 'It is true that..., but...', 'However, the evidence shows...'. When you concede a small point, you sound fair, and readers trust a fair writer."
+		},
+		{
+			"text": "Logical reasoning links evidence to the claim step by step. Watch for gaps: following the crowd, too few examples, or a false choice between only two options.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"gap",
+						"example"
+					],
+					[
+						"following the crowd",
+						"Everyone has one."
+					],
+					[
+						"too few examples",
+						"Two rude, all rude."
+					],
+					[
+						"a false choice",
+						"Ban it or we fail."
+					]
+				]
+			}
+		},
+		{
+			"text": "Use trustworthy sources: experts on the topic, recent, with evidence, and with nothing to gain. A seller's blog is weaker than a careful study by scientists."
+		},
+		{
+			"text": "Plan it: an introduction with your claim; two or three reasons with evidence; a paragraph that answers the counterclaim; and a conclusion that sums up and leaves a last thought.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"claim",
+					"reason 1 + evidence",
+					"reason 2 + evidence",
+					"counterclaim, rebuttal",
+					"conclusion"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: argue with a friend about whether your village needs a new bridge, each answering the other's best point. In LIFE, Talk & Deal: ask what the other person needs before a deal. Next: explain like an expert."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a rebuttal?",
+			"choices": [
+				"your answer to the other side's view",
+				"the other side's view",
+				"your first reason"
+			],
+			"answer": 0,
+			"hint": "It comes straight after the counterclaim.",
+			"explain": "A rebuttal answers the counterclaim and shows why your claim still stands."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each part of an argument to an example.",
+			"items": [
+				"claim",
+				"evidence",
+				"counterclaim",
+				"rebuttal"
+			],
+			"matches": [
+				"The village needs a library.",
+				"But book sales could help pay.",
+				"300 families signed a petition.",
+				"Some say it costs too much."
+			],
+			"answer": [
+				0,
+				2,
+				3,
+				1
+			],
+			"hint": "Your point, the proof, the other side, then your answer.",
+			"explain": "Claim: the village needs a library. Evidence: the petition. Counterclaim: the cost. Rebuttal: book sales could help pay."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A strong argument ignores the other side.",
+			"answer": false,
+			"hint": "Would a reader trust you more if you answered their doubts?",
+			"explain": "False: answering the other side makes an argument stronger."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part of the argument map is marked in orange?",
+			"choices": [
+				"the rebuttal",
+				"the claim",
+				"the evidence"
+			],
+			"answer": 0,
+			"hint": "Look at the box beside the other side's view.",
+			"explain": "The orange box answers the counterclaim: it is the rebuttal.",
+			"picture": {
+				"kind": "argument_map",
+				"claim": "Our village needs a library.",
+				"reasons": [
+					"families lack books",
+					"a quiet place to study"
+				],
+				"evidence": [
+					"300 families signed",
+					"12 pupils asked for it"
+				],
+				"counter": "It would cost too much.",
+				"rebuttal": "Book sales and gifts could pay.",
+				"titles": true,
+				"mark": "rebuttal"
+			}
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the phrases: bringing in the other side, or answering it?",
+			"groups": [
+				"the other side",
+				"your answer"
+			],
+			"items": [
+				"Others believe",
+				"Critics say",
+				"Yet this ignores",
+				"Some people argue that",
+				"However, the evidence shows",
+				"But in fact"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Which phrases report a view, and which turn back to your claim?",
+			"explain": "The other side: some people argue, others believe, critics say. Your answer: however, yet and but in fact."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which source is most trustworthy about how much sleep teenagers need?",
+			"choices": [
+				"a study by sleep scientists",
+				"an advert for a mattress",
+				"a post by a stranger"
+			],
+			"answer": 0,
+			"hint": "Who knows the topic and has nothing to sell?",
+			"explain": "Sleep scientists study it carefully and gain nothing from what you choose."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Counterclaim: \"A new bridge costs too much.\" Which rebuttal is best?",
+			"choices": [
+				"Yet the long road round costs more each year.",
+				"Bridges are big.",
+				"That is a silly thing to say."
+			],
+			"answer": 0,
+			"hint": "A rebuttal answers the worry with a reason.",
+			"explain": "It answers the worry about cost with a reason; the others are off the point or rude."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is wrong with this reasoning? \"Everyone is buying these trainers, so they must be the best.\"",
+			"choices": [
+				"following the crowd",
+				"too few examples",
+				"a false choice"
+			],
+			"answer": 0,
+			"hint": "Does being popular prove that something is good?",
+			"explain": "Following the crowd: popularity is not proof of quality."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the paragraphs of an argument.",
+			"items": [
+				"Conclusion",
+				"Reason 1 with evidence",
+				"The counterclaim and your rebuttal",
+				"Reason 2 with evidence",
+				"Introduction with your claim"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Claim first and conclusion last; answer the other side after your reasons.",
+			"explain": "The introduction, two reasons with evidence, the counterclaim and rebuttal, then the conclusion."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Conceding a small point can make your argument more convincing.",
+			"answer": true,
+			"hint": "Do readers trust a writer who seems fair?",
+			"explain": "True: admitting a small point shows fairness, so readers trust the rest more."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the reasons: logical or faulty?",
+			"groups": [
+				"logical",
+				"faulty"
+			],
+			"items": [
+				"Two dogs barked, so all dogs are noisy.",
+				"She's twelve, so her plan is silly.",
+				"The road is closed, so we need another way.",
+				"The plants died in the dark, so they need light.",
+				"Ban phones or no one will learn.",
+				"The shop shuts at five, so go before five."
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "If the first part is true, must the second part follow?",
+			"explain": "Logical: the road, the plants and the shop. Faulty: two dogs (too few examples), ban or fail (a false choice), her age (attacking the person)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which rebuttal fits this argument map's counterclaim?",
+			"choices": [
+				"A garden club could share the work.",
+				"Gardens are green.",
+				"Time is a silly worry."
+			],
+			"answer": 0,
+			"hint": "Answer the worry about time with a reason.",
+			"explain": "A garden club shares the work, so the worry about time is answered.",
+			"picture": {
+				"kind": "argument_map",
+				"claim": "Our school needs a garden.",
+				"reasons": [
+					"it teaches science",
+					"it grows food"
+				],
+				"counter": "Gardens take too much time.",
+				"titles": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the strongest conclusion?",
+			"choices": [
+				"So a library would help every family read.",
+				"The end.",
+				"Libraries are buildings."
+			],
+			"answer": 0,
+			"hint": "A conclusion sums up the claim and leaves a last thought.",
+			"explain": "It restates the claim and why it matters; the others add nothing."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which answers the other side most fairly?",
+			"choices": [
+				"It does cost money, but it saves more.",
+				"Nobody sensible worries about money.",
+				"Money does not matter."
+			],
+			"answer": 0,
+			"hint": "Fair answers admit what is true, then give a reason.",
+			"explain": "It concedes the cost, then answers with a reason: fair and convincing."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each flaw to an example.",
+			"items": [
+				"following the crowd",
+				"too few examples",
+				"a false choice",
+				"attacking the person"
+			],
+			"matches": [
+				"Lots believe it, so it's true.",
+				"Ban them all or never learn.",
+				"Two were rude, so all are.",
+				"He cannot even spell."
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				3
+			],
+			"hint": "Popular, a tiny sample, only two options, or a jab at a person?",
+			"explain": "The crowd: lots believe it. Too few: two were rude. A false choice: ban or never learn. Attacking: he cannot spell."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the sources from the least to the most trustworthy about a new bridge's safety.",
+			"items": [
+				"an engineers' safety report",
+				"a rumour",
+				"a news report",
+				"the builder's advert"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Rank by knowledge, evidence and having nothing to gain.",
+			"explain": "A rumour has no evidence; the builder gains from praise; a news report is better; engineers who tested the bridge are best."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "\"Either we build the bridge today or the village dies\" is logical reasoning.",
+			"answer": false,
+			"hint": "Are there really only two choices?",
+			"explain": "False: it is a false choice; there are other options, such as building it next year."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where does the counterclaim paragraph usually go?",
+			"choices": [
+				"after your reasons, before the conclusion",
+				"as the very first sentence",
+				"after the conclusion"
+			],
+			"answer": 0,
+			"hint": "Build your case first, then answer doubts before you finish.",
+			"explain": "After your reasons and before the conclusion, so you finish on your own strong point."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the sentences: a fair rebuttal or not?",
+			"groups": [
+				"fair rebuttal",
+				"not fair"
+			],
+			"items": [
+				"But the long road costs more.",
+				"People who think that are wrong.",
+				"That idea is silly.",
+				"Whatever.",
+				"However, the survey shows the opposite.",
+				"Yet a club could share the work."
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "A fair rebuttal answers the point with a reason, and stays polite.",
+			"explain": "Fair: the club, the long road and the survey. Not fair: 'silly', 'wrong' with no reason, and 'whatever'."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7k.rebuttal_pick",
+			"level": 1
+		},
+		{
+			"gen": "g7k.rebuttal_pick",
+			"level": 2
+		},
+		{
+			"gen": "g7k.rebuttal_pick",
+			"level": 3
+		},
+		{
+			"gen": "g7k.reasoning_flaw",
+			"level": 1
+		},
+		{
+			"gen": "g7k.reasoning_flaw",
+			"level": 2
+		},
+		{
+			"gen": "g7k.reasoning_flaw",
+			"level": 3
+		}
+	]
+}

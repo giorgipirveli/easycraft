@@ -1,0 +1,482 @@
+{
+	"id": "g3.geography.local_area",
+	"lesson": [
+		{
+			"text": "Quick memory: why did people settle near rivers? (For water, fish and boats.) Today: find out how the land near you is used."
+		},
+		{
+			"text": "Land use means what each piece of land is used for: homes, shops, farms, parks, roads, factories or woods. A land-use map shows each kind differently, with a key."
+		},
+		{
+			"text": "Here is a land-use map of Tilly's village, one word for each square. Counting the squares of each kind shows what takes the most space. How many squares are homes? (6.)",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"",
+						"north",
+						"",
+						""
+					],
+					[
+						"home",
+						"home",
+						"shop",
+						"park",
+						"park"
+					],
+					[
+						"home",
+						"home",
+						"road",
+						"park",
+						"farm"
+					],
+					[
+						"home",
+						"home",
+						"road",
+						"farm",
+						"farm"
+					],
+					[
+						"shop",
+						"road",
+						"road",
+						"farm",
+						"farm"
+					]
+				]
+			}
+		},
+		{
+			"text": "Geographers find out about a place by fieldwork: they go outside to look, count, take photos, draw sketch maps and ask people questions. Always go with a grown-up."
+		},
+		{
+			"text": "A survey starts with a question, like: how do children get to school? Plan who to ask, where and when. Count with a tally chart, then show the results in a table or a bar chart.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Ask a question"
+					},
+					{
+						"shape": "step",
+						"text": "Plan who, where, when"
+					},
+					{
+						"shape": "step",
+						"text": "Tally the answers"
+					},
+					{
+						"shape": "end",
+						"text": "Draw a bar chart"
+					}
+				]
+			}
+		},
+		{
+			"text": "Bram asked 25 children how they come to school. Walking was the most common way and the bus the least. What could help more children walk or cycle safely?",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"how they come",
+						"children"
+					],
+					[
+						"walk",
+						"12"
+					],
+					[
+						"car",
+						"6"
+					],
+					[
+						"bike",
+						"4"
+					],
+					[
+						"bus",
+						"3"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: make a land-use map of the land around your home on a grid: count the squares of homes, farms, water and woods. Which takes the most space?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does land use mean?",
+			"answer": 0,
+			"hint": "Think of homes, shops, farms and parks.",
+			"choices": [
+				"what a piece of land is used for",
+				"how heavy the land is",
+				"how old the land is",
+				"who drew the map"
+			],
+			"explain": "Land use is what each piece of land is used for, like homes, farms or parks."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Look at the land-use map. How many squares are parks?",
+			"answer": "3",
+			"hint": "Find every square that says park and count them.",
+			"explain": "There are 3 park squares: two in the top row and one below them.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"",
+						"north",
+						"",
+						""
+					],
+					[
+						"home",
+						"home",
+						"shop",
+						"park",
+						"park"
+					],
+					[
+						"home",
+						"home",
+						"road",
+						"park",
+						"farm"
+					],
+					[
+						"home",
+						"home",
+						"road",
+						"farm",
+						"farm"
+					],
+					[
+						"shop",
+						"road",
+						"road",
+						"farm",
+						"farm"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Fieldwork means going outside to look, count and ask questions.",
+			"answer": true,
+			"hint": "Field means outside, in the real place.",
+			"explain": "True: fieldwork is finding things out in the real place, not only from books."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a kind of land use?",
+			"answer": 0,
+			"hint": "Which one covers a piece of land?",
+			"choices": [
+				"a park",
+				"a rainbow",
+				"a cloud",
+				"a song"
+			],
+			"explain": "A park is a land use (leisure). Rainbows, clouds and songs do not use land."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Look at the land-use map. How many squares are farms?",
+			"answer": "5",
+			"hint": "Find every farm square. Count them row by row.",
+			"explain": "1 in the second row, 2 in the third and 2 in the fourth: 5 farm squares.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"",
+						"north",
+						"",
+						""
+					],
+					[
+						"home",
+						"home",
+						"shop",
+						"park",
+						"park"
+					],
+					[
+						"home",
+						"home",
+						"road",
+						"park",
+						"farm"
+					],
+					[
+						"home",
+						"home",
+						"road",
+						"farm",
+						"farm"
+					],
+					[
+						"shop",
+						"road",
+						"road",
+						"farm",
+						"farm"
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of a survey in order.",
+			"answer": [
+				0,
+				3,
+				1,
+				2
+			],
+			"hint": "You need a question first; the answer comes at the end.",
+			"items": [
+				"ask a question",
+				"collect the answers in a tally chart",
+				"show the results and decide",
+				"plan who, where and when"
+			],
+			"explain": "Ask a question, plan it, collect the data, then show the results and decide what they tell you."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Look at Bram's survey. How do most children come to school?",
+			"answer": 0,
+			"hint": "Find the biggest number in the table.",
+			"choices": [
+				"they walk",
+				"by car",
+				"by bike",
+				"by bus"
+			],
+			"explain": "12 children walk, more than any other way.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"how they come",
+						"children"
+					],
+					[
+						"walk",
+						"12"
+					],
+					[
+						"car",
+						"6"
+					],
+					[
+						"bike",
+						"4"
+					],
+					[
+						"bus",
+						"3"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "It is fine to do fieldwork beside a busy road on your own.",
+			"answer": false,
+			"hint": "Who should always come with you on fieldwork?",
+			"explain": "False: always do fieldwork with a grown-up, and keep away from busy roads."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Look at the land-use map. Which land use takes the most squares?",
+			"answer": 0,
+			"hint": "Count each kind, then compare.",
+			"choices": [
+				"homes",
+				"farms",
+				"roads",
+				"parks"
+			],
+			"explain": "Homes 6, farms 5, roads 4, parks 3, shops 2: homes take the most.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"",
+						"north",
+						"",
+						""
+					],
+					[
+						"home",
+						"home",
+						"shop",
+						"park",
+						"park"
+					],
+					[
+						"home",
+						"home",
+						"road",
+						"park",
+						"farm"
+					],
+					[
+						"home",
+						"home",
+						"road",
+						"farm",
+						"farm"
+					],
+					[
+						"shop",
+						"road",
+						"road",
+						"farm",
+						"farm"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In Bram's survey, how many more children walk than come by car?",
+			"answer": "6",
+			"hint": "Find both numbers in the table, then take the smaller from the bigger.",
+			"explain": "12 walk and 6 come by car: 12 − 6 = 6 more walk.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"how they come",
+						"children"
+					],
+					[
+						"walk",
+						"12"
+					],
+					[
+						"car",
+						"6"
+					],
+					[
+						"bike",
+						"4"
+					],
+					[
+						"bus",
+						"3"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara wants to know if the village needs a new park. Which is the best survey question?",
+			"answer": 0,
+			"hint": "The question must help answer what Zara wants to know.",
+			"choices": [
+				"Where do you play, and is there room?",
+				"What is your favourite colour?",
+				"How old is your cat?",
+				"Can you whistle?"
+			],
+			"explain": "Asking where children play and if there is enough room helps decide if a park is needed."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A bar chart is a good way to show the results of a survey.",
+			"answer": true,
+			"hint": "Taller bars show bigger numbers.",
+			"explain": "True: a bar chart lets you see at a glance which answer was most common."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many children did Bram ask in his survey?",
+			"answer": "25",
+			"hint": "Add up every number in the children column.",
+			"explain": "12 + 6 + 4 + 3 = 25 children.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"how they come",
+						"children"
+					],
+					[
+						"walk",
+						"12"
+					],
+					[
+						"car",
+						"6"
+					],
+					[
+						"bike",
+						"4"
+					],
+					[
+						"bus",
+						"3"
+					]
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these features: made by nature, or made by people?",
+			"groups": [
+				"physical: made by nature",
+				"human: made by people"
+			],
+			"items": [
+				"river",
+				"bridge",
+				"mountain",
+				"school",
+				"forest",
+				"road"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Could it be there if no people had ever lived nearby?",
+			"explain": "Physical features (nature made them): river, mountain, forest. Human features (people made them): bridge, school, road."
+		}
+	],
+	"generators": []
+}

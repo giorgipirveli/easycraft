@@ -1,0 +1,339 @@
+{
+	"id": "g7.science.reactions",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, solids, liquids and gases. When ice melts, is a new substance made? No: it is still water, only in a new state."
+		},
+		{
+			"text": "In a chemical reaction, atoms are rearranged into new substances. No atoms are made or destroyed."
+		},
+		{
+			"text": "So the total mass stays the same: the mass of the reactants (what you start with) equals the mass of the products (what you end with). 12 g of carbon and 32 g of oxygen make 44 g of carbon dioxide.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"name": "reactants",
+						"parts": [
+							{
+								"text": "12 g carbon",
+								"size": 12
+							},
+							{
+								"text": "32 g oxygen",
+								"size": 32
+							}
+						]
+					},
+					{
+						"name": "product",
+						"parts": [
+							{
+								"text": "44 g carbon dioxide",
+								"size": 44
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"text": "In an open container, a gas may escape and the mass seems to drop; in a sealed one, it stays the same."
+		},
+		{
+			"text": "Some reactions give out heat (exothermic), like a hand warmer or burning. Some take in heat (endothermic), like an instant cold pack.",
+			"picture": {
+				"kind": "thermometer",
+				"from": 0,
+				"to": 50,
+				"step": 10,
+				"values": [
+					45,
+					5
+				],
+				"names": [
+					"hand warmer",
+					"cold pack"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: at a campfire in your world, think about the burning logs: the wood's atoms join oxygen to make gases and ash. Nothing vanishes. Next: natural and made materials."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a reaction, what happens to atoms?",
+			"answer": 0,
+			"hint": "Atoms are never lost.",
+			"choices": [
+				"They are rearranged.",
+				"They are destroyed.",
+				"New atoms are made."
+			],
+			"explain": "Atoms are rearranged into new substances."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The total mass stays the same in a sealed reaction.",
+			"answer": true,
+			"hint": "No atoms escape.",
+			"explain": "Yes: every atom is still there."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What are reactants?",
+			"answer": 0,
+			"hint": "Reactants react: are they what you start with, or what you end with?",
+			"choices": [
+				"the substances you start with",
+				"the substances you end with",
+				"the container"
+			],
+			"explain": "Reactants are what you start with."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A hand warmer gets hot. What kind of reaction is this?",
+			"answer": 0,
+			"hint": "exo means out.",
+			"choices": [
+				"exothermic: it gives out heat",
+				"endothermic: it takes in heat"
+			],
+			"explain": "It gives out heat: exothermic."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What are products?",
+			"answer": 0,
+			"hint": "They are produced.",
+			"choices": [
+				"the substances made in a reaction",
+				"the substances you start with",
+				"the heat"
+			],
+			"explain": "Products are the new substances made."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "20 g of reactants react in a sealed bag. What is the mass of the products?",
+			"answer": 0,
+			"hint": "Nothing gets in or out.",
+			"choices": [
+				"20 g",
+				"less than 20 g",
+				"more than 20 g"
+			],
+			"explain": "Mass is kept: 20 g."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "An instant cold pack gets cold when squeezed. What kind of reaction is it?",
+			"answer": 0,
+			"hint": "It takes heat in.",
+			"choices": [
+				"endothermic",
+				"exothermic"
+			],
+			"explain": "It takes in heat: endothermic."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Vinegar and baking soda fizz in an open cup, and the mass drops. Why?",
+			"answer": 0,
+			"hint": "The cup is open.",
+			"choices": [
+				"Gas escaped into the air.",
+				"Atoms were destroyed.",
+				"The cup got lighter."
+			],
+			"explain": "The gas made escaped, taking its mass with it."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Burning a log destroys its atoms.",
+			"answer": false,
+			"hint": "Where do they go?",
+			"explain": "No: they become gases and ash."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What makes a reaction exothermic?",
+			"answer": 0,
+			"hint": "exo means out.",
+			"choices": [
+				"It gives out heat.",
+				"It takes in heat.",
+				"It makes light only."
+			],
+			"explain": "Exothermic reactions give out heat."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A candle burns and gets lighter. Where did the wax's atoms go?",
+			"answer": 0,
+			"hint": "Atoms are never lost.",
+			"choices": [
+				"into gases in the air",
+				"nowhere: they vanished",
+				"into the flame forever"
+			],
+			"explain": "They joined oxygen to make gases."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Engineers design a hand warmer. What must its reaction do?",
+			"answer": 0,
+			"hint": "It must warm hands.",
+			"choices": [
+				"give out heat slowly and safely",
+				"take in heat",
+				"explode"
+			],
+			"explain": "An exothermic reaction, slow and safe."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "12 g of carbon reacts with 32 g of oxygen. What mass of carbon dioxide forms?",
+			"answer": 0,
+			"hint": "Mass is kept.",
+			"choices": [
+				"44 g",
+				"20 g",
+				"12 g"
+			],
+			"explain": "12 + 32 = 44 g."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Counting atoms before and after a reaction gives the same number of each kind.",
+			"answer": true,
+			"hint": "Atoms are rearranged.",
+			"explain": "Yes: every atom is accounted for."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order what happens in a sealed flask.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You need a mass to compare. What must you do before the reaction?",
+			"items": [
+				"The masses match.",
+				"Weigh the products.",
+				"The reaction happens.",
+				"Weigh the reactants."
+			],
+			"explain": "Weigh, react, weigh again: the masses match."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the reactions: exothermic or endothermic?",
+			"items": [
+				"a hand warmer",
+				"an instant cold pack",
+				"a burning candle",
+				"a campfire"
+			],
+			"groups": [
+				"gives out heat",
+				"takes in heat"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Does it warm things up, or cool them down?",
+			"explain": "The hand warmer, the candle and the campfire give out heat: exothermic. The cold pack takes heat in: endothermic."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In a sealed flask, 30 g of reactants make two products. One product is 18 g. What is the mass of the other, in grams?",
+			"answer": "12",
+			"hint": "The products must add up to the reactants' mass.",
+			"explain": "30 − 18 = 12 g: no atoms are made or lost."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "A log burns in air. Sort what you start with and what you end with.",
+			"groups": [
+				"reactants (start)",
+				"products (end)"
+			],
+			"items": [
+				"wood",
+				"oxygen from the air",
+				"ash",
+				"carbon dioxide",
+				"water vapour"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Reactants are used up; products are the new substances made.",
+			"explain": "The reactants are the wood and the oxygen it burns in. The products are new substances: ash, carbon dioxide and water vapour. No atoms vanish: they are rearranged."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In a sealed box, 50 g of wood burns in 70 g of oxygen. 2 g of ash is left. What mass of gases is made, in grams?",
+			"answer": "118",
+			"hint": "Add up the reactants' mass, then take away the ash: the rest became gas.",
+			"explain": "Reactants: 50 + 70 = 120 g. The products must weigh 120 g too, so the gases are 120 − 2 = 118 g. Mass is kept in a sealed box."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each observation to its explanation.",
+			"items": [
+				"the mass drops in an open cup",
+				"the mass stays in a sealed flask",
+				"a cold pack gets cold",
+				"a candle gets lighter"
+			],
+			"matches": [
+				"it takes in heat",
+				"its wax becomes gases",
+				"a gas escaped",
+				"no atoms got out"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think about atoms: are they escaping, staying in, or is heat moving?",
+			"explain": "In an open cup a gas escaped, so the mass drops. In a sealed flask no atoms got out, so the mass stays. A cold pack takes in heat: endothermic. A candle gets lighter as its wax becomes gases in the air."
+		}
+	]
+}

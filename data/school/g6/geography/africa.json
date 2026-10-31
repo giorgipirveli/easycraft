@@ -1,0 +1,362 @@
+{
+	"id": "g6.geography.africa",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, which two lines of latitude mark the edges of the tropics? (The Tropic of Cancer and the Tropic of Capricorn.) Africa is the only continent crossed by the Equator and both tropics."
+		},
+		{
+			"text": "Africa is the second-largest continent, with more than 50 countries and more than a billion people. The Equator crosses its middle near Nairobi; Cairo is far to the north and Cape Town far to the south.",
+			"picture": {
+				"kind": "latlong",
+				"lines": [
+					"tropics"
+				],
+				"points": [
+					{
+						"lat": 30,
+						"long": 31,
+						"label": "Cairo"
+					},
+					{
+						"lat": 17,
+						"long": -3,
+						"label": "Timbuktu"
+					},
+					{
+						"lat": -1,
+						"long": 37,
+						"label": "Nairobi"
+					},
+					{
+						"lat": -34,
+						"long": 18,
+						"label": "Cape Town"
+					}
+				]
+			}
+		},
+		{
+			"text": "North Africa holds the Sahara, the largest hot desert on Earth, over 9 million km². The Nile, one of the two longest rivers in the world, flows north through it to the Mediterranean Sea."
+		},
+		{
+			"text": "Near the Equator lies rainforest, round the Congo, the world's deepest river. North and south of it are savannas, grasslands with scattered trees, home to elephants, lions and zebras. The Kalahari and the Namib are southern deserts.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"zone",
+						"what grows"
+					],
+					[
+						"rainforest",
+						"tall, thick trees"
+					],
+					[
+						"savanna",
+						"grass, a few trees"
+					],
+					[
+						"hot desert",
+						"very little"
+					]
+				]
+			}
+		},
+		{
+			"text": "East Africa has the Great Rift Valley, where the Earth's plates are pulling apart, with deep lakes. Nearby Kilimanjaro, 5,895 m, is Africa's highest mountain, with snow close to the Equator.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"Kilimanjaro",
+						5895
+					],
+					[
+						"Mont Blanc",
+						4805
+					],
+					[
+						"Ben Nevis",
+						1345
+					]
+				],
+				"step": 1000,
+				"top": 6000,
+				"name": "Height (m)"
+			}
+		},
+		{
+			"text": "Africa's people are the youngest of any continent, and cities such as Lagos, Cairo and Kinshasa are growing fast. People speak well over 1,000 languages, among them Swahili, Hausa, Yoruba, Amharic and Arabic."
+		},
+		{
+			"text": "A region, East Africa: Kenya grows tea and flowers to sell abroad; visitors come to its savanna parks; and paying with money on mobile phones started there in 2007. Nairobi is a fast-growing city near the Equator."
+		},
+		{
+			"text": "Try it in the world: build a savanna with flat-topped trees and a waterhole, then a rainforest beside it. Which would need more rain? Next: Asia."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Equator crosses Africa.",
+			"answer": true,
+			"hint": "Look at the world's grid: which lines cross Africa?",
+			"explain": "True: the Equator crosses its middle, near Nairobi and Kinshasa."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the largest hot desert in the world?",
+			"answer": 0,
+			"hint": "It covers much of North Africa.",
+			"choices": [
+				"the Sahara",
+				"the Kalahari",
+				"the Namib",
+				"the Gobi"
+			],
+			"explain": "The Sahara, over 9 million km²."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is Africa's highest mountain?",
+			"answer": 0,
+			"hint": "It stands in East Africa, with snow near the Equator.",
+			"choices": [
+				"Kilimanjaro",
+				"Everest",
+				"Mont Blanc",
+				"Aconcagua"
+			],
+			"explain": "Kilimanjaro, 5,895 m."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a savanna?",
+			"answer": 0,
+			"hint": "Think of lions and zebras on open plains.",
+			"choices": [
+				"grassland with scattered trees",
+				"a thick rainforest",
+				"an ice sheet",
+				"a sandy beach"
+			],
+			"explain": "A grassland with scattered trees."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which river flows north through the Sahara to the Mediterranean?",
+			"answer": 0,
+			"hint": "It runs through Egypt.",
+			"choices": [
+				"the Nile",
+				"the Congo",
+				"the Niger",
+				"the Amazon"
+			],
+			"explain": "The Nile: it flows north through the Sahara to the Mediterranean Sea."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which of these places is furthest south?",
+			"answer": 0,
+			"hint": "Look for the biggest latitude with an S.",
+			"choices": [
+				"Cape Town",
+				"Cairo",
+				"Nairobi",
+				"Dakar"
+			],
+			"explain": "Cape Town, at about 34°S.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 15,
+				"long_step": 30,
+				"points": [
+					{
+						"lat": 30,
+						"long": 31,
+						"label": "Cairo"
+					},
+					{
+						"lat": -1,
+						"long": 37,
+						"label": "Nairobi"
+					},
+					{
+						"lat": -34,
+						"long": 18,
+						"label": "Cape Town"
+					},
+					{
+						"lat": 15,
+						"long": -17,
+						"label": "Dakar"
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Cairo is at 30°N and Cape Town at 34°S. How many degrees of latitude apart are they?",
+			"answer": "64",
+			"hint": "They are on opposite sides of the Equator: add.",
+			"explain": "30° to the Equator and 34° beyond it: 30 + 34 = 64°."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each name to what it is.",
+			"items": [
+				"Sahara",
+				"Congo",
+				"Great Rift Valley",
+				"savanna"
+			],
+			"matches": [
+				"grassland with trees",
+				"a hot desert",
+				"the deepest river",
+				"where plates pull apart"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "One is a river, one a desert, one a valley, one a biome.",
+			"explain": "Sahara: hot desert. Congo: deepest river. Great Rift Valley: plates pulling apart. Savanna: grassland."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: North Africa or East Africa?",
+			"groups": [
+				"North Africa",
+				"East Africa"
+			],
+			"items": [
+				"the Sahara",
+				"Kilimanjaro",
+				"Cairo",
+				"Nairobi",
+				"the Great Rift Valley"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Cairo is by the Mediterranean; Nairobi near the Equator.",
+			"explain": "North: the Sahara, Cairo. East: Kilimanjaro, Nairobi, the Great Rift Valley."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Most of Africa's people are older than 50.",
+			"answer": false,
+			"hint": "Which continent has the youngest people?",
+			"explain": "False: Africa has the youngest population of any continent."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is there snow on Kilimanjaro, so near the Equator?",
+			"answer": 0,
+			"hint": "Remember how the temperature changes as you climb.",
+			"choices": [
+				"it is very high, and higher is colder",
+				"it is in the Arctic",
+				"it is by the sea",
+				"it never gets sunshine"
+			],
+			"explain": "It is so high that the top is far colder than the plains: about 6.5 °C colder for every 1,000 m."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "It is about 6.5 °C colder for every 1,000 m up. How much colder is it 4,000 m up a mountain than at the bottom?",
+			"answer": "26",
+			"hint": "How many lots of 1,000 m are there? Multiply.",
+			"explain": "4 × 6.5 = 26 °C colder."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do many Kenyan farmers grow tea and flowers?",
+			"answer": 0,
+			"hint": "Think of exports from grade 5.",
+			"choices": [
+				"to sell them to other countries",
+				"to feed camels",
+				"to make paper money",
+				"because nothing else grows"
+			],
+			"explain": "They are exports: other countries buy them, which brings money to Kenya."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are Africa's cities growing fast?",
+			"answer": 0,
+			"hint": "Think of natural change and migration.",
+			"choices": [
+				"young families and people moving in for jobs",
+				"people are leaving them",
+				"they are all new",
+				"it never rains there"
+			],
+			"explain": "Many young families have children, and people move in from the countryside for work."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "People in Africa speak only a few languages.",
+			"answer": false,
+			"hint": "Look back at the card on people.",
+			"explain": "False: people in Africa speak well over 1,000 languages."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order these African cities from north to south.",
+			"items": [
+				"Cape Town (34°S)",
+				"Cairo (30°N)",
+				"Nairobi (1°S)",
+				"Kinshasa (4°S)"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "North latitudes come first. Then the further south, the bigger the °S number.",
+			"explain": "Cairo, at 30°N, is furthest north. South of the Equator come Nairobi (1°S), Kinshasa (4°S) and, far to the south, Cape Town (34°S)."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.africa_places",
+			"level": 1
+		},
+		{
+			"gen": "g6h.africa_places",
+			"level": 2
+		},
+		{
+			"gen": "g6h.africa_places",
+			"level": 3
+		}
+	]
+}

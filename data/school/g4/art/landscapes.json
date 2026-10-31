@@ -1,0 +1,259 @@
+{
+	"id": "g4.art.landscapes",
+	"lesson": [
+		{
+			"text": "Quick memory: in a face, where do the eyes go? (Halfway down the head.) Today: landscapes, pictures of places."
+		},
+		{
+			"text": "A landscape is a picture of a place outdoors: hills, fields, rivers or mountains. A seascape shows the sea, and a townscape a town. Paper turned so it is wider than tall is called landscape too."
+		},
+		{
+			"text": "A landscape has three parts. The foreground is nearest you, at the bottom of the picture. The middle ground is further away. The background is furthest away, near the horizon.",
+			"picture": {
+				"kind": "landscape",
+				"labels": true
+			}
+		},
+		{
+			"text": "The horizon is the line where the land or the sea meets the sky. It is at the height of your eyes.",
+			"picture": {
+				"kind": "landscape",
+				"mark": "horizon"
+			}
+		},
+		{
+			"text": "Things far away look smaller, sit higher up the picture and show less detail. They also look paler and bluer, because of all the air between you and them.",
+			"picture": {
+				"kind": "landscape",
+				"mark": "background"
+			}
+		},
+		{
+			"text": "Things in front overlap things behind: a tree in the foreground can hide part of a hill. Painters often paint the sky and the background first, then the middle ground, then the foreground on top."
+		},
+		{
+			"text": "Katsushika Hokusai made a print of a huge wave in the foreground, with Mount Fuji tiny in the background. John Constable painted the English countryside, and Claude Monet painted the same haystacks at different times of day."
+		},
+		{
+			"text": "Try it in the world: stand on a hill in your world and look at the view. What is in the foreground, the middle ground and the background? Remember it, then paint it."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part of the landscape is marked?",
+			"answer": 0,
+			"hint": "Is the marked part near you or far away?",
+			"choices": [
+				"the foreground",
+				"the background",
+				"the middle ground",
+				"the sky"
+			],
+			"explain": "The marked part is at the bottom, nearest you: the foreground.",
+			"picture": {
+				"kind": "landscape",
+				"mark": "foreground"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Things far away look smaller than things near you.",
+			"answer": true,
+			"hint": "Think of a tree near you and one far away.",
+			"explain": "True: far-away things look smaller, so painters draw them smaller."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a landscape?",
+			"answer": 0,
+			"hint": "Think of hills, rivers and fields.",
+			"choices": [
+				"a picture of a place outdoors",
+				"a picture of a face",
+				"a bowl of fruit",
+				"a pattern"
+			],
+			"explain": "A landscape is a picture of a place outdoors."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where is the foreground in a picture?",
+			"answer": 0,
+			"hint": "Fore means in front.",
+			"choices": [
+				"at the bottom, nearest you",
+				"at the top, near the sky",
+				"in the clouds",
+				"behind the mountains"
+			],
+			"explain": "The foreground is in front: at the bottom of the picture, nearest you."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the orange line called?",
+			"answer": 0,
+			"hint": "Where does the land meet the sky?",
+			"choices": [
+				"the horizon",
+				"the foreground",
+				"a river",
+				"the frame"
+			],
+			"explain": "The line where the land meets the sky is the horizon.",
+			"picture": {
+				"kind": "landscape",
+				"mark": "horizon"
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, from nearest to furthest away.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Fore means front, back means back.",
+			"items": [
+				"the middle ground",
+				"the foreground",
+				"the background"
+			],
+			"explain": "The foreground is nearest, then the middle ground, then the background."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: do they belong in the foreground or the background?",
+			"groups": [
+				"foreground",
+				"background"
+			],
+			"items": [
+				"big and full of detail",
+				"at the bottom of the picture",
+				"overlaps other things",
+				"small",
+				"pale and bluish",
+				"near the horizon"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Near things are big and detailed; far things are small and pale.",
+			"explain": "Foreground: big, detailed, at the bottom, overlapping. Background: small, pale, bluish, near the horizon."
+		},
+		{
+			"type": "mix",
+			"level": 2,
+			"prompt": "Mix a pale colour for far-away hills: blue and white.",
+			"hint": "Far-away things look paler and bluer. Which paint makes a colour paler?",
+			"explain": "Light blue is 1 blue and 1 white.",
+			"target": "light blue"
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Painters often paint the background first.",
+			"answer": true,
+			"hint": "Which parts overlap which?",
+			"explain": "True: the sky and the background go first, so the nearer things can be painted on top."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do far-away mountains look pale and bluish?",
+			"answer": 0,
+			"hint": "What is between you and a far-away mountain?",
+			"choices": [
+				"there is lots of air between you and them",
+				"they are made of ice",
+				"the sun is behind you",
+				"mountains are always blue"
+			],
+			"explain": "All the air between you and the mountains makes them look paler and bluer."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In Hokusai's print of the great wave, where is Mount Fuji?",
+			"answer": 0,
+			"hint": "The wave is huge and near.",
+			"choices": [
+				"small, in the background",
+				"huge, in the foreground",
+				"not in the picture",
+				"in the sky"
+			],
+			"explain": "The great wave fills the foreground; Mount Fuji is small, in the background."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Constable painted The Hay Wain in 1821, and Monet his haystacks in 1890. How many years apart?",
+			"answer": "69",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1890 − 1821 = 69 years."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A tree hides part of a hill behind it. What is this called?",
+			"answer": 0,
+			"hint": "One thing covers part of another.",
+			"choices": [
+				"overlapping",
+				"shading",
+				"printing",
+				"mixing"
+			],
+			"explain": "Overlapping: the nearer tree covers part of the hill, so the hill looks further away."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The horizon line is always at the very top of a landscape.",
+			"answer": false,
+			"hint": "Where is the horizon compared with your eyes?",
+			"explain": "False: the horizon is at the height of your eyes, often across the middle of a picture."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each part of a landscape to what it is like.",
+			"items": [
+				"foreground",
+				"middle ground",
+				"background",
+				"horizon"
+			],
+			"matches": [
+				"where land meets sky",
+				"nearest, most detail",
+				"between near and far",
+				"furthest, least detail"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Think of the picture's three grounds and its line.",
+			"explain": "Foreground: nearest. Middle ground: between. Background: furthest. Horizon: where land meets sky."
+		}
+	],
+	"generators": []
+}

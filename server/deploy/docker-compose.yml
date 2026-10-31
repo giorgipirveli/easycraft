@@ -1,0 +1,138 @@
+# EasyCraft's online server on the internet (spec §7.1, §11, §17): Nakama + PostgreSQL + Caddy, and
+# a daily database backup. Step by step for the owner: docs/hosting.md. Day to day: ./kit.sh.
+#
+# - Every secret comes from .env next to this file (never committed; ./kit.sh keys makes it from
+#   .env.example). docker compose refuses to start while one is missing.
+# - Only Caddy is reachable from outside: port 80 (certificates, and a redirect to https) and 443
+#   (HTTPS and the game's secure WebSocket). Nakama's developer console is on this server's
+#   127.0.0.1 only (open it through an SSH tunnel). PostgreSQL is not published at all.
+# - Logs: Docker keeps at most 5 × 10 MB per service and rotates them (by size: Docker has no age
+#   limit, so nothing in them names a player's address). Caddy's access log (addresses, for security)
+#   is its own file on the caddy_logs volume: a new file every midnight, none older than 14 days
+#   (caddy/Caddyfile; M4 Task 8b).
+# - The project is "easycraft_live", never "easycraft" (the development server on the lead's PC).
+name: easycraft_live
+
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "5"
+
+x-database: &database
+  PGHOST: postgres
+  PGUSER: nakama
+  PGDATABASE: nakama
+  PGPASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is empty in .env (run ./kit.sh keys)}
+
+services:
+  postgres:
+    image: postgres:16-alpine          # PostgreSQL 16 as in development; minor updates with ./kit.sh update
+    environment:
+      POSTGRES_USER: nakama
+      POSTGRES_DB: nakama
+      # Used when the database is first made; changing it later locks Nakama out (docs/hosting.md).
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is empty in .env (run ./kit.sh keys)}
+    volumes:
+      - db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "nakama", "-d", "nakama"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+    logging: *logging
+
+  nakama:
+    build:
+      context: ..                      # server/: the module source (modules/) and this kit (deploy/)
+      dockerfile: deploy/Dockerfile
+    image: easycraft/nakama:live
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      # Checked by nakama/start.sh, which refuses placeholders and Nakama's defaults.
+      NAKAMA_SERVER_KEY: ${NAKAMA_SERVER_KEY:?NAKAMA_SERVER_KEY is empty in .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is empty in .env (run ./kit.sh keys)}
+      NAKAMA_SESSION_ENCRYPTION_KEY: ${NAKAMA_SESSION_ENCRYPTION_KEY:?empty in .env (run ./kit.sh keys)}
+      NAKAMA_SESSION_REFRESH_ENCRYPTION_KEY: ${NAKAMA_SESSION_REFRESH_ENCRYPTION_KEY:?empty in .env (run ./kit.sh keys)}
+      NAKAMA_CONSOLE_USERNAME: ${NAKAMA_CONSOLE_USERNAME:?empty in .env (run ./kit.sh keys)}
+      NAKAMA_CONSOLE_PASSWORD: ${NAKAMA_CONSOLE_PASSWORD:?empty in .env (run ./kit.sh keys)}
+      NAKAMA_CONSOLE_SIGNING_KEY: ${NAKAMA_CONSOLE_SIGNING_KEY:?empty in .env (run ./kit.sh keys)}
+      NAKAMA_RUNTIME_HTTP_KEY: ${NAKAMA_RUNTIME_HTTP_KEY:?empty in .env (run ./kit.sh keys)}
+      EASYCRAFT_RUNTIME_ENV: ${EASYCRAFT_RUNTIME_ENV:-}
+    tmpfs:
+      - /run/easycraft:mode=0700       # the secrets file start.sh writes lives in memory only
+    expose:
+      - "7350"                         # HTTP API + realtime socket, for Caddy only
+    ports:
+      - "127.0.0.1:7351:7351"          # developer console: this server only (SSH tunnel)
+    healthcheck:
+      test: ["CMD", "/nakama/nakama", "healthcheck"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 60s
+      start_interval: 2s
+    restart: unless-stopped
+    logging: *logging
+
+  caddy:
+    image: caddy:2.11-alpine
+    depends_on:
+      nakama:
+        condition: service_healthy
+    environment:
+      EASYCRAFT_DOMAIN: ${EASYCRAFT_DOMAIN:?EASYCRAFT_DOMAIN is empty in .env (docs/hosting.md step 3)}
+    ports:
+      - "80:80"                        # Let's Encrypt's check, and the redirect to https
+      - "443:443"                      # HTTPS and wss:// for the game
+    volumes:
+      - ./caddy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./site:/srv/site:ro           # the public pages (privacy policy, account deletion)
+      - ./play:/srv/play:ro           # the game in the browser (M7; tools/deploy_web.sh, not in git)
+      - ./vr:/srv/vr:ro               # owner #101: the game in a VR headset's browser (tools/deploy_web_vr.sh, not in git)
+      - caddy_data:/data               # certificates and keys: keep this volume
+      - caddy_config:/config
+      - caddy_logs:/var/log/caddy      # the access log, rolled every midnight, 14 days at most
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:2019/config/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+      start_interval: 2s
+    restart: unless-stopped
+    logging: *logging
+
+  backup:
+    image: postgres:16-alpine          # the same tools as the database
+    depends_on:
+      postgres:
+        condition: service_healthy
+    user: "${BACKUP_UID:-0}:${BACKUP_GID:-0}"   # ./kit.sh sets these: the backups belong to you
+    init: true                         # stops at once (the script sleeps between backups)
+    entrypoint: ["/bin/sh", "/backup.sh"]
+    command: ["daily"]
+    environment:
+      <<: *database
+      BACKUP_AT: ${BACKUP_AT:-03:30}
+      BACKUP_KEEP: ${BACKUP_KEEP:-7}
+    volumes:
+      - ./backup/backup.sh:/backup.sh:ro
+      - ${BACKUP_DIR:-./backups}:/backups
+    healthcheck:
+      test: ["CMD", "/bin/sh", "/backup.sh", "health"]   # the newest daily backup is under 26 h old
+      interval: 1h
+      timeout: 10s
+      start_period: 5m
+      start_interval: 5s
+    restart: unless-stopped
+    logging: *logging
+
+volumes:
+  db:
+  caddy_data:
+  caddy_config:
+  caddy_logs:

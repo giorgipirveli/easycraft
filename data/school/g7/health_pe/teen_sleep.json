@@ -1,0 +1,306 @@
+{
+	"id": "g7.health_pe.teen_sleep",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you learnt about sleep and screens. Which hormone makes you sleepy as it gets dark? (Melatonin.) Today: why teenagers need 8 to 10 hours of sleep, and how to get them."
+		},
+		{
+			"text": "How much? Children aged 6 to 12 need about 9 to 12 hours of sleep a night; teenagers need about 8 to 10 hours. Many teenagers get less, especially on school nights."
+		},
+		{
+			"text": "In the teenage years, the body clock moves later: melatonin is released later in the evening, so you may not feel sleepy until later. School still starts early, so sleep can get squeezed."
+		},
+		{
+			"text": "Sleep is busy. In deep sleep the body grows and repairs; in dreaming sleep the brain sorts memories. Cycles of about 90 minutes repeat all night. Good sleep helps learning, mood, health and sport.",
+			"picture": {
+				"kind": "sleep_dial",
+				"sleep": "22:00",
+				"wake": "07:00"
+			}
+		},
+		{
+			"text": "Screens: their bright light holds back melatonin, and games, videos and messages keep the brain alert. Switch off an hour before bed, and charge your phone outside the bedroom so alerts cannot wake you.",
+			"picture": {
+				"kind": "sleep_dial",
+				"sleep": "22:00",
+				"wake": "07:00",
+				"screens": "21:00"
+			}
+		},
+		{
+			"text": "Habits that help: sleep and wake at the same time every day, even at weekends; get daylight in the morning; exercise earlier in the day; keep the room dark, quiet and cool; no caffeine (cola, coffee, tea, energy drinks) after lunch."
+		},
+		{
+			"text": "Worked example: Bram must wake at 07:00. For 9 hours of sleep, he needs to be asleep by 22:00. His phone goes off at 21:00, an hour before, and he reads in bed from 21:30."
+		},
+		{
+			"text": "Try it in the world: build a calm bedroom in your world, with dark curtains and the phone charging outside. In LIFE, Calm Corner's slow balloon breaths help you wind down. For real: keep a sleep diary for a week. Next: what influences your choices."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Tilly sleeps from 22:00 to 07:00. How many hours of sleep is that?",
+			"answer": "9",
+			"hint": "Count to midnight, then add the hours after it.",
+			"explain": "22:00 to midnight is 2 hours, and midnight to 07:00 is 7: 9 hours.",
+			"picture": {
+				"kind": "sleep_dial",
+				"sleep": "22:00",
+				"wake": "07:00",
+				"hide": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "About how much sleep do teenagers need a night?",
+			"choices": [
+				"8 to 10 hours",
+				"5 to 6 hours",
+				"12 to 14 hours",
+				"as little as possible"
+			],
+			"answer": 0,
+			"hint": "Remember the range for 13 to 18-year-olds.",
+			"explain": "Teenagers need about 8 to 10 hours of sleep a night."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Melatonin is released as it gets dark, and it makes you feel sleepy.",
+			"answer": true,
+			"hint": "What happens in your body as evening comes?",
+			"explain": "True: melatonin rises in the dark and makes you sleepy."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort them: does each help or harm a teenager's sleep?",
+			"groups": [
+				"helps sleep",
+				"harms sleep"
+			],
+			"items": [
+				"a phone in bed",
+				"daylight in the morning",
+				"a dark, cool bedroom",
+				"the same bedtime every day",
+				"games just before bed",
+				"an energy drink in the evening"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Does it calm the body and brain for the night, or wake them up?",
+			"explain": "Helps: a steady bedtime, morning daylight, a dark, cool room. Harms: a phone in bed, an energy drink, late games."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which drink is best in the evening?",
+			"choices": [
+				"water or milk",
+				"cola",
+				"an energy drink",
+				"strong tea"
+			],
+			"answer": 0,
+			"hint": "Which drinks have caffeine in them?",
+			"explain": "Water or milk: cola, energy drinks and tea contain caffeine, which keeps you awake."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Zara falls asleep at 23:30 and wakes at 07:00. How many hours of sleep is that?",
+			"answer": "7.5",
+			"hint": "Count to midnight, then add the hours after it.",
+			"explain": "23:30 to midnight is half an hour, then 7 hours: 7.5 hours.",
+			"picture": {
+				"kind": "sleep_dial",
+				"sleep": "23:30",
+				"wake": "07:00",
+				"hide": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bram wakes at 06:30 and needs 9 hours of sleep. By when should he be asleep?",
+			"choices": [
+				"21:30",
+				"22:30",
+				"23:00",
+				"20:00"
+			],
+			"answer": 0,
+			"hint": "Count back from the time he wakes.",
+			"explain": "06:30 back 9 hours is 21:30."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a good bedtime routine in order.",
+			"items": [
+				"lights out at the same time",
+				"a warm shower",
+				"read a paper book",
+				"pyjamas on and teeth brushed",
+				"phone off and charging outside"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Screens off first, then calm steps, then lights out.",
+			"explain": "Phone off, a shower, pyjamas and teeth, a book, then lights out at the usual time."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part of sleep to what it does.",
+			"items": [
+				"deep sleep",
+				"dreaming sleep",
+				"melatonin",
+				"body clock"
+			],
+			"matches": [
+				"the body grows and repairs",
+				"a cycle of about 24 hours",
+				"the brain sorts memories",
+				"the sleepy hormone"
+			],
+			"answer": [
+				0,
+				2,
+				3,
+				1
+			],
+			"hint": "Think of what happens in the body, the brain and the day.",
+			"explain": "Deep sleep: grow and repair. Dreaming sleep: sort memories. Melatonin: makes you sleepy. Body clock: a 24-hour cycle."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A bright screen just before bed can make it harder to fall asleep.",
+			"answer": true,
+			"hint": "What does bright light tell the body clock?",
+			"explain": "True: bright light holds back melatonin, so sleep comes later."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Mimi sleeps 7 hours on each of 5 school nights but needs 9. How many hours of sleep does she miss in the week?",
+			"answer": "10",
+			"hint": "Find the hours short each night, then multiply.",
+			"explain": "9 − 7 = 2 hours a night, and 2 × 5 = 10 hours."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram falls asleep at 22:45 and wakes at 06:30. How many hours of sleep is that?",
+			"answer": "7.75",
+			"hint": "Count to midnight in hours and minutes, then add the rest.",
+			"explain": "22:45 to midnight is 1 h 15 min; midnight to 06:30 is 6 h 30 min; in all 7 h 45 min, which is 7.75 hours.",
+			"picture": {
+				"kind": "sleep_dial",
+				"sleep": "22:45",
+				"wake": "06:30",
+				"hide": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara sleeps from midnight to 11:00 at weekends, but 23:00 to 07:00 on school nights. Why is Monday morning hard?",
+			"choices": [
+				"her body clock shifts later at weekends",
+				"she sleeps too much on school nights",
+				"Mondays are always harder",
+				"weekend sleep does not count"
+			],
+			"answer": 0,
+			"hint": "What happens to the body clock when bedtimes jump around?",
+			"explain": "Big weekend changes move the body clock later, so Monday's early start feels like the middle of the night."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A long lie-in every weekend fully makes up for a week of short nights.",
+			"answer": false,
+			"hint": "What do big changes in sleep times do to the body clock?",
+			"explain": "False: long lie-ins shift the body clock later; steady times every day work better."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram can't sleep because of worries. What helps most?",
+			"choices": [
+				"write the worries down, then slow breaths",
+				"check his phone for an hour",
+				"play a scary game",
+				"drink some cola"
+			],
+			"answer": 0,
+			"hint": "What calms the brain instead of waking it up?",
+			"explain": "Writing worries down and slow breaths calm the brain; screens, scary games and caffeine wake it."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "From lights out, put one sleep cycle in order.",
+			"items": [
+				"the next cycle begins",
+				"light sleep",
+				"dreaming sleep",
+				"deep sleep",
+				"light sleep again"
+			],
+			"answer": [
+				1,
+				3,
+				4,
+				2,
+				0
+			],
+			"hint": "Down into deep sleep, back up, then dreams.",
+			"explain": "Light, deep, light again, then dreaming sleep: a cycle of about 90 minutes, then the next one."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.sleep_hours",
+			"level": 1
+		},
+		{
+			"gen": "g7w.sleep_hours",
+			"level": 2
+		},
+		{
+			"gen": "g7w.sleep_hours",
+			"level": 3
+		},
+		{
+			"gen": "g7w.sleep_habit",
+			"level": 1
+		},
+		{
+			"gen": "g7w.sleep_habit",
+			"level": 2
+		},
+		{
+			"gen": "g7w.sleep_habit",
+			"level": 3
+		}
+	]
+}

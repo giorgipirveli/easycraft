@@ -1,0 +1,352 @@
+{
+	"id": "g5.health_pe.emergency_first_aid",
+	"lesson": [
+		{
+			"text": "Quick memory: in first aid, what do you check first? (Danger: that it is safe for you to go near.) Today: what to do when someone is badly hurt, or will not wake up."
+		},
+		{
+			"text": "Remember DR ABC. D is Danger: is it safe? R is Response: speak loudly, 'Can you hear me? Open your eyes,' and tap their shoulders. If they do not respond, shout for a grown-up."
+		},
+		{
+			"text": "A is Airway: tilt the head back and lift the chin to open it. B is Breathing: look, listen and feel for normal breathing, for up to 10 seconds. C is Circulation: look for bad bleeding.",
+			"picture": {
+				"kind": "lying",
+				"pose": "back",
+				"labels": true
+			}
+		},
+		{
+			"text": "Call 999 (or 112) and put the phone on speaker, so your hands are free, or send someone to call. Say where you are and what has happened. The call handler will tell you what to do."
+		},
+		{
+			"text": "Not responding, but breathing? Put them in the recovery position: on their side, top hand under the cheek, top knee bent, head tilted back so the airway stays open. Keep checking their breathing.",
+			"picture": {
+				"kind": "lying",
+				"pose": "recovery",
+				"labels": true
+			}
+		},
+		{
+			"text": "Not breathing normally? Call 999 at once and get an adult. The call handler can talk anyone through CPR, pushing hard and fast in the middle of the chest. A defibrillator, an AED, talks you through each step."
+		},
+		{
+			"text": "Choking: someone suddenly cannot speak, cough or breathe, and may clutch their throat. If they can cough, encourage them to keep coughing. If they cannot, shout for an adult at once, who gives back blows and calls 999."
+		},
+		{
+			"text": "Try it in the world: build a first aid station with a DR ABC sign and a defibrillator box on the wall. For real: find the nearest defibrillator to your home and school, and practise the recovery position with a grown-up."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put DR ABC in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Say the letters: D, R, A, B, C.",
+			"items": [
+				"Response",
+				"Breathing",
+				"Danger",
+				"Airway",
+				"Circulation"
+			],
+			"explain": "Danger, Response, Airway, Breathing, Circulation: DR ABC."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does the D in DR ABC stand for?",
+			"answer": 0,
+			"hint": "What must you check before you go near?",
+			"choices": [
+				"Danger",
+				"Doctor",
+				"Dial",
+				"Drink"
+			],
+			"explain": "D is Danger: make sure it is safe for you first."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "If someone does not respond, you should shout for help.",
+			"answer": true,
+			"hint": "Can you manage an emergency alone?",
+			"explain": "True: shout for a grown-up straight away, so help comes as fast as possible."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which number do you call for an ambulance in the UK?",
+			"answer": 0,
+			"hint": "It is the emergency number for police, fire and ambulance.",
+			"choices": [
+				"999",
+				"101",
+				"111",
+				"0800 1111"
+			],
+			"explain": "999 (nine nine nine). 101 is for police matters that are not emergencies, 111 for health advice, and 0800 1111 is Childline."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Choking is when something blocks the airway, so a person cannot breathe properly.",
+			"answer": true,
+			"hint": "What happens if food goes down the wrong way?",
+			"explain": "True: something stuck in the airway stops the air getting through."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How do you check whether someone is breathing?",
+			"answer": 0,
+			"hint": "Use your eyes, your ears and your cheek.",
+			"choices": [
+				"look, listen and feel for up to 10 seconds",
+				"shake them hard",
+				"pour water on them",
+				"ask them to count"
+			],
+			"explain": "Look at the chest, listen and feel for breath on your cheek, for up to 10 seconds."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A person is not responding but is breathing normally. What should you do?",
+			"answer": 0,
+			"hint": "How can you keep their airway open while help comes?",
+			"choices": [
+				"the recovery position, and call 999",
+				"sit them up",
+				"give them a drink",
+				"leave them to sleep"
+			],
+			"explain": "Put them in the recovery position to keep the airway open, and call 999.",
+			"picture": {
+				"kind": "lying",
+				"pose": "recovery"
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Keep coughing, or get an adult at once?",
+			"groups": [
+				"keep coughing",
+				"get an adult at once"
+			],
+			"items": [
+				"coughing loudly",
+				"cannot speak or cough",
+				"coughing, and can still talk",
+				"clutching the throat, silent",
+				"lips turning blue"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Can air still get through? A person who can cough can breathe a little.",
+			"explain": "Coughing and talking: keep coughing. Silent, clutching the throat or turning blue: get an adult at once."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each letter to its check.",
+			"items": [
+				"D",
+				"R",
+				"A",
+				"B"
+			],
+			"matches": [
+				"can they hear me?",
+				"open the airway",
+				"are they breathing?",
+				"is it safe?"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Say DR ABC and think what each letter means.",
+			"explain": "D: Danger. R: Response. A: Airway. B: Breathing."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In the recovery position, the head is tilted back to keep the airway open.",
+			"answer": true,
+			"hint": "Look at the picture of the recovery position.",
+			"explain": "True: tilting the head back keeps the airway open, and lying on the side lets fluid drain out."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why put the phone on speaker when you call 999?",
+			"answer": 0,
+			"hint": "What might the call handler ask you to do?",
+			"choices": [
+				"so your hands are free to help",
+				"so it is louder for fun",
+				"it is the law",
+				"to save the battery"
+			],
+			"explain": "So your hands are free to help, while the call handler tells you what to do."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which picture shows the recovery position?",
+			"answer": 0,
+			"hint": "Look for the person on their side, with a knee bent.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "lying",
+						"pose": "recovery"
+					}
+				},
+				{
+					"picture": {
+						"kind": "lying",
+						"pose": "back"
+					}
+				}
+			],
+			"explain": "The person on their side, with the top knee bent and the hand under the cheek."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Someone collapses in the park. Put what you do in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Remember DR ABC.",
+			"items": [
+				"check for a response",
+				"open the airway and check breathing",
+				"check for danger",
+				"shout for help",
+				"call 999"
+			],
+			"explain": "Danger, then Response. Shout for help, check the airway and breathing, and call 999."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your friend is choking and cannot cough or speak. What should you do first?",
+			"answer": 0,
+			"hint": "Can they breathe? How fast does help need to come?",
+			"choices": [
+				"shout for an adult at once",
+				"give them a drink of water",
+				"wait to see if it passes",
+				"make them laugh"
+			],
+			"explain": "Shout for an adult at once: the adult gives back blows and calls 999 if it does not clear."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A defibrillator (an AED) talks you through what to do, step by step.",
+			"answer": true,
+			"hint": "What does the lesson say about an AED?",
+			"explain": "True: it speaks each step aloud, so anyone can use it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What should you tell the 999 call handler?",
+			"answer": 0,
+			"hint": "What do they need to send help?",
+			"choices": [
+				"where you are and what has happened",
+				"your favourite song",
+				"only your age",
+				"nothing: just hang up"
+			],
+			"explain": "Where you are and what has happened, and answer their questions. Stay on the line."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does a defibrillator do?",
+			"answer": 0,
+			"hint": "It is kept in a box on a wall, for hearts.",
+			"choices": [
+				"gives a shock that can restart a heart",
+				"measures a temperature",
+				"cleans a wound",
+				"pumps up tyres"
+			],
+			"explain": "It gives a shock that can get a stopped heart beating normally again."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "The person does not respond. Sort what you find: recovery position, or call 999 for CPR?",
+			"groups": [
+				"recovery position",
+				"999 and CPR"
+			],
+			"items": [
+				"breathing normally",
+				"not breathing",
+				"chest rising and falling evenly",
+				"no breath felt for 10 seconds"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "First ask: are they breathing normally?",
+			"explain": "Breathing normally, with the chest rising and falling: recovery position, call 999 and keep checking. Not breathing, or no breath for 10 seconds: call 999 at once and get an adult; the call handler talks you through CPR."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each first aid step to why it matters.",
+			"items": [
+				"check for danger first",
+				"put the phone on speaker",
+				"tilt the head back",
+				"lie them on their side"
+			],
+			"matches": [
+				"keeps your hands free",
+				"opens the airway",
+				"so you don't get hurt too",
+				"lets fluid drain out"
+			],
+			"answer": [
+				2,
+				0,
+				1,
+				3
+			],
+			"hint": "Each step keeps someone safe: you, or the person who is hurt.",
+			"explain": "Checking for danger keeps you safe too. A phone on speaker keeps your hands free to help. Tilting the head back opens the airway, and lying them on their side lets fluid drain out."
+		}
+	],
+	"generators": []
+}

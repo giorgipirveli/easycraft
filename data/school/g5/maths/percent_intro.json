@@ -1,0 +1,446 @@
+{
+	"id": "g5.maths.percent_intro",
+	"lesson": [
+		{
+			"text": "Quick memory: what is 35/100 as a decimal? (0.35.) You met hundredths in grade 4 and fractions as division this year. Today hundredths get a new name: per cent."
+		},
+		{
+			"text": "Per cent means \"out of 100\", and the sign % means per cent. This square is cut into 100 small squares and 35 are shaded, so 35% of the square is shaded: 35 out of 100.",
+			"picture": {
+				"kind": "hundred_square",
+				"shaded": 35,
+				"label": "percent"
+			}
+		},
+		{
+			"text": "The whole of something is 100%. If 35% of the square is shaded, then 100% − 35% = 65% is not shaded. Half of something is 50%.",
+			"picture": {
+				"kind": "hundred_square",
+				"shaded": 50,
+				"label": "percent"
+			}
+		},
+		{
+			"text": "Fractions, decimals and percentages are three ways to write the same amount: 35% = 35/100 = 0.35. To change a fraction to a percentage, make it out of 100: 3/5 = 60/100 = 60%."
+		},
+		{
+			"text": "Learn these by heart: 1/2 = 50%, 1/4 = 25%, 3/4 = 75%, 1/10 = 10% and 1/5 = 20%. A decimal becomes a percentage when you multiply it by 100: 0.07 = 7%, and 0.7 = 70%.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Fraction",
+						"Decimal",
+						"Per cent"
+					],
+					[
+						"1/2",
+						"0.5",
+						"50%"
+					],
+					[
+						"1/4",
+						"0.25",
+						"25%"
+					],
+					[
+						"3/4",
+						"0.75",
+						"75%"
+					],
+					[
+						"1/10",
+						"0.1",
+						"10%"
+					],
+					[
+						"1/5",
+						"0.2",
+						"20%"
+					]
+				]
+			}
+		},
+		{
+			"text": "To find a percentage of an amount, start with 10%, which is a tenth: 10% of 80 gold is 80 ÷ 10 = 8 gold. Then build: 20% is 2 × 8 = 16 gold, and 5% is half of 10%, 4 gold.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							}
+						],
+						"total": "80 gold"
+					}
+				]
+			}
+		},
+		{
+			"text": "A worked example: a saddle costs 40 gold, and the shop takes 25% off. 25% is a quarter, so 40 ÷ 4 = 10 gold is taken off, and the sale price is 40 − 10 = 30 gold.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "10 off",
+								"size": 1
+							},
+							{
+								"text": "30 to pay",
+								"size": 3
+							}
+						],
+						"total": "40 gold"
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: find something in your world's shop that costs 20 gold or more, and work out 10%, 25% and 50% of its price. Next, in grade 6: percentages of any amount, and finding the whole from a part."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does per cent mean?",
+			"hint": "Think of a century: 100 years. Cent means 100.",
+			"explain": "Per cent means out of 100: 35% is 35 out of 100.",
+			"choices": [
+				"out of 100",
+				"out of 10",
+				"times 100",
+				"out of 1,000"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What percentage of the square is shaded?",
+			"hint": "Count the full rows of 10 first, then the single squares.",
+			"explain": "4 full rows of 10 and 2 more: 42 of the 100 squares, so 42%.",
+			"answer": "42",
+			"picture": {
+				"kind": "hundred_square",
+				"shaded": 42
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "50% of something is half of it.",
+			"hint": "How much is 50 out of 100?",
+			"explain": "True: 50 out of 100 is 50/100, which is 1/2.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the same as 1/4?",
+			"hint": "Make the fraction out of 100: 1/4 = ?/100.",
+			"explain": "1/4 = 25/100 = 25%.",
+			"choices": [
+				"25%",
+				"14%",
+				"40%",
+				"4%"
+			],
+			"answer": 0
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each fraction to its percentage.",
+			"hint": "Make each fraction out of 100: what do you multiply its bottom number by?",
+			"explain": "1/2 = 50/100, 1/4 = 25/100, 3/4 = 75/100, 1/10 = 10/100 and 1/5 = 20/100.",
+			"items": [
+				"1/2",
+				"1/4",
+				"3/4",
+				"1/10",
+				"1/5"
+			],
+			"matches": [
+				"75%",
+				"10%",
+				"20%",
+				"50%",
+				"25%"
+			],
+			"answer": [
+				3,
+				4,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "0.3 = ?%",
+			"hint": "Multiply the decimal by 100: the digits move two places to the left.",
+			"explain": "0.3 = 3 tenths = 30 hundredths = 30%.",
+			"answer": "30"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "10% of 70 gold = ? gold",
+			"hint": "10% is a tenth: divide by 10.",
+			"explain": "70 ÷ 10 = 7 gold.",
+			"answer": "7"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "25% of 60 = ?",
+			"hint": "25% is a quarter: divide by 4.",
+			"explain": "A quarter of 60: 60 ÷ 4 = 15.",
+			"answer": "15"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What percentage of the square is NOT shaded?",
+			"hint": "The whole square is 100%. Take the shaded part away.",
+			"explain": "35% is shaded, so 100% − 35% = 65% is not shaded.",
+			"answer": "65",
+			"picture": {
+				"kind": "hundred_square",
+				"shaded": 35
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which decimal is the same as 7%?",
+			"hint": "7% is 7 hundredths. Which place holds hundredths?",
+			"explain": "7% = 7/100 = 0.07: the 7 is in the hundredths place.",
+			"choices": [
+				"0.07",
+				"0.7",
+				"7.0",
+				"0.007"
+			],
+			"answer": 0
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put them in order, smallest first.",
+			"hint": "Change them all into percentages first, then compare.",
+			"explain": "0.2 = 20%, 1/4 = 25%, then 30%, 0.45 = 45% and 1/2 = 50%.",
+			"items": [
+				"1/4",
+				"1/2",
+				"30%",
+				"0.2",
+				"0.45"
+			],
+			"answer": [
+				3,
+				0,
+				2,
+				4,
+				1
+			]
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: more than half, or less than half?",
+			"hint": "Half is 50%. Change each one into a percentage and compare it with 50%.",
+			"explain": "More than half: 60%, 3/4 = 75% and 0.55 = 55%. Less than half: 0.4 = 40%, 45% and 2/5 = 40%.",
+			"groups": [
+				"more than half",
+				"less than half"
+			],
+			"items": [
+				"60%",
+				"0.4",
+				"3/4",
+				"45%",
+				"0.55",
+				"2/5"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			]
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "20% of 50 is 10.",
+			"hint": "Find 10% first, then double it.",
+			"explain": "True: 10% of 50 is 5, and 20% is 2 × 5 = 10.",
+			"answer": true
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A bow costs 60 gold. In the sale it is 20% off. What is the sale price, in gold?",
+			"hint": "Find 20% of 60, then take it away from 60.",
+			"explain": "10% of 60 is 6, so 20% is 12 gold off, and 60 − 12 = 48 gold.",
+			"answer": "48"
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram got 18 out of 20 in a quiz. What percentage is that?",
+			"hint": "Make it out of 100: what do you multiply 20 by to get 100?",
+			"explain": "20 × 5 = 100, and 18 × 5 = 90, so 18/20 = 90/100 = 90%.",
+			"answer": "90"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is bigger, 3/5 or 55%?",
+			"hint": "Change 3/5 into a percentage first.",
+			"explain": "3/5 = 60/100 = 60%, and 60% is more than 55%.",
+			"choices": [
+				"3/5, because it is 60%",
+				"55%, because 55 is bigger than 5",
+				"They are the same size."
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly saves 25% of her 48 gold. Zara saves 10% of her 100 gold. Who saves more?",
+			"hint": "Work out each amount in gold, then compare.",
+			"explain": "A quarter of 48: 48 ÷ 4 = 12 gold. A tenth of 100: 100 ÷ 10 = 10 gold. Tilly saves more.",
+			"choices": [
+				"Tilly (12 gold)",
+				"Zara (10 gold)",
+				"They save the same."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Mimi says 5% of 200 is 100.",
+			"hint": "5% is half of 10%. What is 10% of 200?",
+			"explain": "False: 10% of 200 is 20, so 5% is half of that, 10, not 100.",
+			"answer": false
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "75% of 32 blocks = ? blocks",
+			"hint": "Find 25% (a quarter), then times it by 3.",
+			"explain": "32 ÷ 4 = 8, and 3 × 8 = 24 blocks.",
+			"answer": "24"
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5c.percent_square",
+			"level": 1
+		},
+		{
+			"gen": "g5c.percent_square",
+			"level": 2
+		},
+		{
+			"gen": "g5c.percent_square",
+			"level": 3
+		},
+		{
+			"gen": "g5c.percent_convert",
+			"level": 1
+		},
+		{
+			"gen": "g5c.percent_convert",
+			"level": 2
+		},
+		{
+			"gen": "g5c.percent_convert",
+			"level": 3
+		},
+		{
+			"gen": "g5c.percent_of",
+			"level": 1
+		},
+		{
+			"gen": "g5c.percent_of",
+			"level": 2
+		},
+		{
+			"gen": "g5c.percent_of",
+			"level": 3
+		},
+		{
+			"gen": "g5c.discount",
+			"level": 1
+		},
+		{
+			"gen": "g5c.discount",
+			"level": 2
+		},
+		{
+			"gen": "g5c.discount",
+			"level": 3
+		},
+		{
+			"gen": "g5c.percent_order",
+			"level": 1
+		},
+		{
+			"gen": "g5c.percent_order",
+			"level": 2
+		},
+		{
+			"gen": "g5c.percent_order",
+			"level": 3
+		}
+	]
+}

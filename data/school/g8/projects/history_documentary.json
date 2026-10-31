@@ -1,0 +1,363 @@
+{
+	"id": "g8.projects.history_documentary",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 history you used sources. What is a primary source? (Something made at the time, by someone who was there.) Today: make a short animated documentary about a turning point in modern history."
+		},
+		{
+			"text": "A turning point is a moment after which life changed. Think of the first inter-city railway (1830), the first powered flight (1903), and votes for women on equal terms (1928). Or the Moon landing (1969), or the fall of the Berlin Wall (1989).",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1800,
+				"to": 2000,
+				"step": 50,
+				"events": [
+					[
+						1830,
+						"inter-city railway"
+					],
+					[
+						1903,
+						"first powered flight"
+					],
+					[
+						1928,
+						"votes on equal terms"
+					],
+					[
+						1969,
+						"the Moon landing"
+					],
+					[
+						1989,
+						"the Berlin Wall falls"
+					]
+				]
+			}
+		},
+		{
+			"text": "Research with primary sources, like photos, letters and newspapers from the time, and secondary sources, like books and documentaries made later. Ask who made each one, when and why, and compare two."
+		},
+		{
+			"text": "Tell it as a story with a question: 'How did railways change everyday life?' Show the before, the turning point and the after. What changed for ordinary people?"
+		},
+		{
+			"text": "Plan every shot in a storyboard. A wide shot sets the scene, a medium shot shows people, and a close-up shows a detail. Add captions and the narration: the words spoken over the pictures.",
+			"picture": {
+				"kind": "comic",
+				"panels": [
+					{
+						"caption": "1830: a crowd waits",
+						"shot": "wide"
+					},
+					{
+						"say": "Here it comes!",
+						"shot": "medium"
+					},
+					{
+						"caption": "the wheels turn",
+						"sfx": "CHUFF",
+						"shot": "close"
+					},
+					{
+						"caption": "life speeds up",
+						"shot": "wide"
+					}
+				]
+			}
+		},
+		{
+			"text": "Stop-motion animation photographs a model moved a tiny bit each time. At 12 frames a second, 10 seconds need 12 × 10 = 120 frames. Keep the camera still and the light steady."
+		},
+		{
+			"text": "Be fair and accurate. Check each fact in two sources, and show different views. Credit every source, picture and piece of music, and tell sad parts of history with respect."
+		},
+		{
+			"text": "Try it in the world: make a 30-second stop-motion film with a grown-up's help, about one turning point. In LIFE, Success Stories tells true stories of people who kept trying. Next: a global goal campaign."
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "A primary or a secondary source?",
+			"groups": [
+				"primary",
+				"secondary"
+			],
+			"items": [
+				"a textbook written in 2015",
+				"a 1918 poster",
+				"a photo taken in 1969",
+				"a letter written in 1830",
+				"a documentary made in 2010"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				0,
+				1
+			],
+			"hint": "Was it made at the time, or later, about the time?",
+			"explain": "Primary: the 1969 photo, the 1830 letter, the 1918 poster. Secondary: the textbook and the documentary."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A close-up shot shows a small detail.",
+			"answer": true,
+			"hint": "Think of the camera moving in.",
+			"explain": "True: a close-up fills the screen with a detail, like a hand or a wheel."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "At 12 frames a second, how many frames make a 5-second shot?",
+			"answer": "60",
+			"hint": "Frames = frames a second × seconds.",
+			"explain": "12 × 5 = 60 frames."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these was a turning point in transport?",
+			"choices": [
+				"the first powered flight",
+				"a new school uniform",
+				"a rainy summer",
+				"a football score"
+			],
+			"answer": 0,
+			"hint": "Which one changed how people travel for ever?",
+			"explain": "The first powered flight, in 1903, led to planes that changed travel for everyone."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put these turning points in time order, the earliest first.",
+			"items": [
+				"the Moon landing",
+				"the fall of the Berlin Wall",
+				"the first powered flight",
+				"the first inter-city railway"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "Trains, then planes, then space, then 1989.",
+			"explain": "Railway (1830), flight (1903), the Moon landing (1969), the Berlin Wall falls (1989)."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"wide shot",
+				"medium shot",
+				"close-up",
+				"narration"
+			],
+			"matches": [
+				"shows people",
+				"sets the scene",
+				"words spoken over pictures",
+				"shows a detail"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Think of the camera's distance, and of the voice.",
+			"explain": "Wide: the scene. Medium: people. Close-up: a detail. Narration: the spoken words."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In this storyboard, which panel is a close-up?",
+			"picture": {
+				"kind": "comic",
+				"panels": [
+					{
+						"caption": "1830: a crowd waits",
+						"shot": "wide"
+					},
+					{
+						"say": "Here it comes!",
+						"shot": "medium"
+					},
+					{
+						"caption": "the wheels turn",
+						"sfx": "CHUFF",
+						"shot": "close"
+					},
+					{
+						"caption": "life speeds up",
+						"shot": "wide"
+					}
+				]
+			},
+			"choices": [
+				"the third panel",
+				"the first panel",
+				"the second panel",
+				"the last panel"
+			],
+			"answer": 0,
+			"hint": "Find the panel that fills the frame with one detail.",
+			"explain": "The third panel shows the wheels turning up close: a close-up."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Some UK women first voted in 1918. Women voted on equal terms 10 years later. In which year?",
+			"answer": "1928",
+			"year": true,
+			"hint": "Add the gap to the earlier year.",
+			"explain": "1918 + 10 = 1928."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A documentary made in 2010 is a primary source about the Moon landing in 1969.",
+			"answer": false,
+			"hint": "Was it made at the time?",
+			"explain": "False: it was made 41 years later, so it is a secondary source."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Two sources disagree about a date. What should you do?",
+			"choices": [
+				"check a third source and say they differ",
+				"pick the one you like",
+				"leave the date out and say nothing",
+				"make up a date"
+			],
+			"answer": 0,
+			"hint": "An accurate documentary checks facts.",
+			"explain": "Checking another source, and saying where sources disagree, keeps the film accurate and honest."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Plan the storyboard: build 2 rows of 4 frames.",
+			"board": {
+				"cols": 8,
+				"rows": 4,
+				"block": 1,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "array",
+				"rows": 2,
+				"cols": 4
+			},
+			"hint": "Two rows, each with four frames side by side.",
+			"explain": "2 rows × 4 frames = 8 frames in the storyboard."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many years passed between the first powered flight (1903) and the Moon landing (1969)?",
+			"answer": "66",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1969 − 1903 = 66 years: from the first flight to the Moon in one lifetime."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A film has shots of 4, 6 and 5 seconds, at 12 frames a second. How many frames are needed in all?",
+			"answer": "180",
+			"hint": "Add the seconds first, then multiply by 12.",
+			"explain": "4 + 6 + 5 = 15 seconds; 15 × 12 = 180 frames."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How should a documentary tell a sad part of history?",
+			"choices": [
+				"truthfully and with respect",
+				"as a joke",
+				"with frightening pictures",
+				"by leaving it out"
+			],
+			"answer": 0,
+			"hint": "Think of the people it was about.",
+			"explain": "Telling it truthfully and with respect honours the people involved and keeps the film accurate."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "You should credit the music you use in your film.",
+			"answer": true,
+			"hint": "Who made the music?",
+			"explain": "True: crediting every source, picture and piece of music is fair to the people who made them."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the documentary's making in order.",
+			"items": [
+				"write the narration",
+				"storyboard the shots",
+				"find primary and secondary sources",
+				"choose a turning point",
+				"check who made them and why"
+			],
+			"answer": [
+				3,
+				2,
+				4,
+				0,
+				1
+			],
+			"hint": "Topic, then sources, then checking, then words, then pictures.",
+			"explain": "Choose the topic, find sources, check them, write the narration, then storyboard the shots."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.frame_count",
+			"level": 1
+		},
+		{
+			"gen": "g8l.frame_count",
+			"level": 2
+		},
+		{
+			"gen": "g8l.frame_count",
+			"level": 3
+		},
+		{
+			"gen": "g8l.source_type",
+			"level": 1
+		},
+		{
+			"gen": "g8l.source_type",
+			"level": 2
+		},
+		{
+			"gen": "g8l.source_type",
+			"level": 3
+		},
+		{
+			"gen": "g8l.years_between",
+			"level": 1
+		},
+		{
+			"gen": "g8l.years_between",
+			"level": 2
+		},
+		{
+			"gen": "g8l.years_between",
+			"level": 3
+		}
+	]
+}

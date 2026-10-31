@@ -1,0 +1,307 @@
+{
+	"id": "g4.geography.mountains",
+	"lesson": [
+		{
+			"text": "Quick memory: which is the longest mountain range on land? (The Andes.) Mountains are high land with steep sides and a peak. Today: how mountains form, and how people live on them."
+		},
+		{
+			"text": "Geographers often call land over about 600 m high a mountain. A line of mountains is a range, and the top of a mountain is its summit, or peak. The highest mountain in the United Kingdom is Ben Nevis, 1,345 m.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"Ben Nevis",
+						1345
+					],
+					[
+						"Kilimanjaro",
+						5895
+					],
+					[
+						"Everest",
+						8849
+					]
+				],
+				"step": 1000,
+				"top": 9000,
+				"name": "height (m)"
+			}
+		},
+		{
+			"text": "Earth's outer shell is cracked into giant pieces called plates, which move very slowly. When two plates push together, rock crumples upwards like a rug pushed against a wall. These are fold mountains, like the Alps."
+		},
+		{
+			"text": "Volcanic mountains grow as lava and ash pile up, like Mount Fuji in Japan and Kilimanjaro in Africa. Block mountains form when the land cracks and a big block is pushed up between the cracks."
+		},
+		{
+			"text": "The Himalayas are fold mountains that are still rising, a few millimetres a year. India is still pushing into the rest of Asia. They hold Mount Everest, the highest mountain on Earth: 8,849 m.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"mountain",
+						"height"
+					],
+					[
+						"Everest",
+						"8,849 m"
+					],
+					[
+						"Aconcagua",
+						"6,961 m"
+					],
+					[
+						"Kilimanjaro",
+						"5,895 m"
+					],
+					[
+						"Mont Blanc",
+						"about 4,800 m"
+					],
+					[
+						"Ben Nevis",
+						"1,345 m"
+					]
+				]
+			}
+		},
+		{
+			"text": "The higher you climb, the colder it gets: about 6.5 °C colder for every 1,000 m. The air is thinner, so breathing is harder. That is why Kilimanjaro has snow, even though it is near the Equator.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"height",
+						"about"
+					],
+					[
+						"0 m",
+						"20 °C"
+					],
+					[
+						"1,000 m",
+						"13.5 °C"
+					],
+					[
+						"2,000 m",
+						"7 °C"
+					],
+					[
+						"3,000 m",
+						"0.5 °C"
+					]
+				]
+			}
+		},
+		{
+			"text": "People live in mountains too. They farm on flat steps cut into slopes, called terraces. They keep yaks in the Himalayas and llamas in the Andes, and take herds up to summer meadows. Visitors come to walk, climb and ski."
+		},
+		{
+			"text": "Try it in the world: build a mountain with a snowy peak and trees only on its lower slopes. Add terraces for crops and a safe zigzag path to the top. Next: volcanoes and earthquakes."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the top of a mountain called?",
+			"answer": 0,
+			"hint": "Climbers try to reach it.",
+			"choices": [
+				"the summit",
+				"the valley",
+				"the source",
+				"the delta"
+			],
+			"explain": "The top is the summit, or peak."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the highest mountain on Earth?",
+			"answer": 0,
+			"hint": "It is in the Himalayas.",
+			"choices": [
+				"Mount Everest",
+				"Ben Nevis",
+				"Mont Blanc",
+				"Kilimanjaro"
+			],
+			"explain": "Mount Everest, 8,849 m, in the Himalayas."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The higher you climb a mountain, the colder it gets.",
+			"answer": true,
+			"hint": "Why do high peaks have snow?",
+			"explain": "True: it gets about 6.5 °C colder for every 1,000 m you climb."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a line of mountains called?",
+			"answer": 0,
+			"hint": "The Alps and the Andes are both one.",
+			"choices": [
+				"a range",
+				"a river",
+				"a plain",
+				"a coast"
+			],
+			"explain": "A line of mountains is a range, like the Alps or the Andes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How do fold mountains form?",
+			"answer": 0,
+			"hint": "Think of a rug pushed against a wall.",
+			"choices": [
+				"two plates push together and the rock crumples",
+				"lava piles up",
+				"rain washes the land away",
+				"people build them"
+			],
+			"explain": "When two plates push together, the rock between them crumples and folds upwards."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: fold mountains or volcanic mountains?",
+			"groups": [
+				"fold",
+				"volcanic"
+			],
+			"items": [
+				"the Himalayas",
+				"Mount Fuji",
+				"the Alps",
+				"Kilimanjaro",
+				"the Rockies"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Did it grow from lava and ash, or was it pushed up by plates?",
+			"explain": "Fold: the Himalayas, the Alps and the Rockies. Volcanic: Mount Fuji and Kilimanjaro."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each mountain to its continent.",
+			"items": [
+				"Everest",
+				"Kilimanjaro",
+				"Aconcagua",
+				"Mont Blanc"
+			],
+			"matches": [
+				"Africa",
+				"South America",
+				"Europe",
+				"Asia"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Kilimanjaro is near the Equator, in the east of Africa.",
+			"explain": "Everest: Asia. Kilimanjaro: Africa. Aconcagua: South America. Mont Blanc: Europe."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which animal do people keep high in the Andes?",
+			"answer": 0,
+			"hint": "It is a woolly animal of South America.",
+			"choices": [
+				"llamas",
+				"camels",
+				"penguins",
+				"kangaroos"
+			],
+			"explain": "Llamas (and alpacas) are kept high in the Andes; yaks are kept in the Himalayas."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The Himalayas are still getting higher.",
+			"answer": true,
+			"hint": "Is India still pushing into Asia?",
+			"explain": "True: India is still pushing into Asia, so the Himalayas rise a few millimetres a year."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "At the foot of a mountain it is 20 °C. About how warm is it 2,000 m higher up, in °C?",
+			"answer": "7",
+			"hint": "It gets about 6.5 °C colder for every 1,000 m you climb.",
+			"explain": "2,000 m is two lots of 1,000 m: 6.5 + 6.5 = 13 °C colder. 20 − 13 = 7 °C."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these mountains in order of height, highest first.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Use the table of heights.",
+			"items": [
+				"Aconcagua",
+				"Mont Blanc",
+				"Everest",
+				"Kilimanjaro",
+				"Ben Nevis"
+			],
+			"explain": "Everest 8,849 m, Aconcagua 6,961 m, Kilimanjaro 5,895 m, Mont Blanc about 4,800 m, Ben Nevis 1,345 m."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do people in the mountains farm on terraces?",
+			"answer": 0,
+			"hint": "What happens to rain and soil on a steep slope?",
+			"choices": [
+				"flat steps stop the soil washing away",
+				"terraces are warmer than the sun",
+				"crops grow upside down",
+				"it is the law"
+			],
+			"explain": "Terraces make flat steps on steep slopes, so the soil and rainwater stay and crops can grow."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does Kilimanjaro have snow so near the Equator?",
+			"answer": 0,
+			"hint": "Remember how the temperature changes as you climb.",
+			"choices": [
+				"its peak is so high that it is very cold",
+				"it is in Antarctica",
+				"snow is brought by lorries",
+				"the Equator is cold"
+			],
+			"explain": "Kilimanjaro is 5,895 m high; so high up, the air is cold enough for snow and ice."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Everest is 8,849 m high and Ben Nevis is 1,345 m. How much higher is Everest, in m?",
+			"answer": "7504",
+			"hint": "Take the smaller height from the bigger one.",
+			"explain": "8,849 − 1,345 = 7,504 m higher."
+		}
+	],
+	"generators": []
+}

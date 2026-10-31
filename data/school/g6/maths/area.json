@@ -1,0 +1,206 @@
+{
+	"id": "g6.maths.area",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met area. What is the area of a rectangle 6 cm by 4 cm? 6 × 4 = 24 cm²."
+		},
+		{
+			"text": "A parallelogram's area is base × height: cut off a triangle and move it to make a rectangle."
+		},
+		{
+			"text": "A triangle is half a parallelogram: area = ½ × base × height. A right triangle with base 10 cm and height 4 cm has area ½ × 10 × 4, which is 20 cm².",
+			"picture": {
+				"kind": "side_lengths",
+				"points": [
+					[
+						0,
+						0
+					],
+					[
+						10,
+						0
+					],
+					[
+						10,
+						4
+					]
+				],
+				"labels": [
+					"10 cm",
+					"4 cm",
+					""
+				]
+			}
+		},
+		{
+			"text": "A trapezium's area is the average of its parallel sides times its height: (a + b) ÷ 2 × h."
+		},
+		{
+			"text": "Other shapes can be split into rectangles and triangles; add the parts. An L-shape of 24 cm² and 6 cm² is 30 cm² in all.",
+			"picture": {
+				"kind": "unit_squares",
+				"rows": [
+					"######",
+					"######",
+					"######",
+					"######",
+					"##....",
+					"##....",
+					"##...."
+				],
+				"grid": true
+			}
+		},
+		{
+			"text": "Try it in the world: build a triangular garden in your world with a base of 8 blocks and a height of 6. How many blocks does it cover? About ½ × 8 × 6, which is 24. Next: volume and surface area."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A triangle has a base of 10 cm and a height of 4 cm. What is its area in cm²?",
+			"answer": "20",
+			"hint": "Multiply the base by the height, then halve it.",
+			"explain": "½ × 10 × 4 = 20 cm²."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A parallelogram has a base of 7 cm and a height of 5 cm. What is its area in cm²?",
+			"answer": "35",
+			"hint": "A parallelogram is a pushed-over rectangle: base times height.",
+			"explain": "7 × 5 = 35 cm²."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A triangle's area is half the area of a parallelogram with the same base and height.",
+			"answer": true,
+			"hint": "Two triangles make a parallelogram.",
+			"explain": "Yes: two matching triangles make a parallelogram, so each is half: ½ × base × height."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A trapezium has parallel sides of 4 cm and 8 cm and a height of 5 cm. What is its area in cm²?",
+			"answer": "30",
+			"hint": "(4 + 8) ÷ 2 × 5.",
+			"explain": "6 × 5 = 30 cm²."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A right triangle has legs of 6 cm and 9 cm. What is its area in cm²?",
+			"answer": "27",
+			"hint": "The legs are the base and the height.",
+			"explain": "½ × 6 × 9 = 27 cm²."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the height of a triangle?",
+			"answer": 0,
+			"hint": "Height meets the base at a right angle.",
+			"choices": [
+				"the distance straight up from the base",
+				"its longest side",
+				"the side on the left"
+			],
+			"explain": "The height is measured at a right angle to the base."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An L-shape is made of a 6 cm by 4 cm rectangle and a 2 cm by 3 cm rectangle. What is its area in cm²?",
+			"answer": "30",
+			"hint": "Add the parts.",
+			"explain": "Split it into its two rectangles: 6 × 4 = 24 cm² and 2 × 3 = 6 cm². Add the parts: 24 + 6 = 30 cm²."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A triangle has an area of 24 cm² and a base of 8 cm. What is its height?",
+			"answer": 0,
+			"hint": "½ × 8 × h = 24.",
+			"choices": [
+				"6 cm",
+				"3 cm",
+				"12 cm"
+			],
+			"explain": "Area = ½ × base × height, so 24 = ½ × 8 × h. Half of 8 is 4, so 4 × h = 24 and h = 24 ÷ 4 = 6 cm."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each shape to its area formula.",
+			"items": [
+				"rectangle",
+				"triangle",
+				"parallelogram",
+				"trapezium"
+			],
+			"matches": [
+				"base × height",
+				"(a + b) ÷ 2 × h",
+				"length × width",
+				"½ × base × height"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Which shapes are halves, and which use the average of two sides?",
+			"explain": "Rectangle: length × width. Triangle: ½ × base × height. Parallelogram: base × height. Trapezium: (a + b) ÷ 2 × h."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the shapes: area ½ × base × height, or base × height?",
+			"items": [
+				"a right triangle",
+				"a parallelogram",
+				"a thin triangle",
+				"a rhombus",
+				"a triangle on its side"
+			],
+			"groups": [
+				"½ × base × height",
+				"base × height"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Triangles are half a parallelogram.",
+			"explain": "Every triangle uses ½ × base × height. A parallelogram and a rhombus (a kind of parallelogram) use base × height."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A garden is a trapezium with parallel sides of 6 m and 10 m, 4 m apart. Turf costs 3 gold a square metre. How much does it cost to turf the garden?",
+			"answer": "96",
+			"hint": "Find the area first: the average of the parallel sides times the height. Then the cost.",
+			"explain": "Area: (6 + 10) ÷ 2 × 4, which is 8 × 4 = 32 m². Cost: 32 × 3 = 96 gold."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6a.area",
+			"level": 1
+		},
+		{
+			"gen": "g6a.area",
+			"level": 2
+		},
+		{
+			"gen": "g6a.area",
+			"level": 3
+		}
+	]
+}

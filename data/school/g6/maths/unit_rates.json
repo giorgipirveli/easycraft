@@ -1,0 +1,217 @@
+{
+	"id": "g6.maths.unit_rates",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, ratios. If there are 3 cats for every 5 dogs, what is the ratio of cats to dogs? 3 : 5."
+		},
+		{
+			"text": "A rate compares two different kinds of amounts: 12 blocks in 4 minutes, or 60 km in 2 hours."
+		},
+		{
+			"text": "A unit rate is for one of something: 12 blocks in 4 minutes is 3 blocks a minute.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "3",
+								"size": 1
+							},
+							{
+								"text": "3",
+								"size": 1
+							},
+							{
+								"text": "3",
+								"size": 1
+							},
+							{
+								"text": "3",
+								"size": 1
+							}
+						],
+						"total": "12 blocks in 4 minutes"
+					}
+				]
+			}
+		},
+		{
+			"text": "Unit rates make comparing easy: 4 apples for 60 gold is 15 gold an apple; 6 for 84 gold is 14 gold an apple, the better buy.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"pack",
+						"price",
+						"one apple"
+					],
+					[
+						"4 apples",
+						"60 gold",
+						"15 gold"
+					],
+					[
+						"6 apples",
+						"84 gold",
+						"14 gold"
+					]
+				]
+			}
+		},
+		{
+			"text": "Speed is a unit rate: distance ÷ time. 150 km in 3 hours is 50 km an hour."
+		},
+		{
+			"text": "Try it in the world: time how many blocks you can lay in 2 minutes, then work out your unit rate: blocks a minute. Could a friend beat it? Next: percent."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A buddy lays 30 blocks in 5 minutes. How many blocks a minute?",
+			"answer": "6",
+			"hint": "Divide by 5.",
+			"explain": "30 ÷ 5 = 6 blocks a minute."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A car goes 120 km in 2 hours. What is its speed in km an hour?",
+			"answer": "60",
+			"hint": "Share the distance equally between the hours.",
+			"explain": "120 ÷ 2 = 60 km an hour."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A unit rate tells you the amount for one of something.",
+			"answer": true,
+			"hint": "Unit means one.",
+			"explain": "Yes: per one minute, per one apple…"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the better buy?",
+			"answer": 0,
+			"hint": "Find the price of one pen.",
+			"choices": [
+				"5 pens for 40 gold",
+				"3 pens for 30 gold"
+			],
+			"explain": "8 gold a pen beats 10 gold a pen."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A tap fills 18 L in 3 minutes. How many litres in 7 minutes?",
+			"answer": "42",
+			"hint": "Find the unit rate first.",
+			"explain": "18 ÷ 3 = 6 L a minute; 6 × 7 = 42 L."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A cyclist rides at 15 km an hour. How far in 4 hours?",
+			"answer": "60",
+			"hint": "Each hour covers 15 km. How many hours?",
+			"explain": "15 × 4 = 60 km."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A snail crawls 12 cm in 4 minutes. How long does it take to crawl 30 cm?",
+			"answer": 0,
+			"hint": "Find cm a minute.",
+			"choices": [
+				"10 minutes",
+				"8 minutes",
+				"12 minutes"
+			],
+			"explain": "Find the unit rate first: 12 ÷ 4 = 3 cm a minute. Then 30 cm at 3 cm a minute takes 30 ÷ 3 = 10 minutes."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "5 kg of apples cost 750 gold. How much does 1 kg cost, in gold?",
+			"answer": "150",
+			"hint": "Divide by 5.",
+			"explain": "750 ÷ 5 = 150 gold a kilogram."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each rate to its unit rate.",
+			"items": [
+				"12 blocks in 4 minutes",
+				"60 km in 2 hours",
+				"20 gold for 5 apples"
+			],
+			"matches": [
+				"30 km an hour",
+				"4 gold an apple",
+				"3 blocks a minute"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Divide to find the amount for one.",
+			"explain": "12 ÷ 4 = 3 blocks a minute; 60 ÷ 2 = 30 km an hour; 20 ÷ 5 = 4 gold an apple."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the packs from the best buy to the worst.",
+			"items": [
+				"4 for 60 gold",
+				"6 for 84 gold",
+				"2 for 32 gold"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Find the price of one in each pack.",
+			"explain": "6 for 84 is 14 each, 4 for 60 is 15 each, 2 for 32 is 16 each."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Shop A sells 6 eggs for 90 gold. Shop B sells 10 eggs for 140 gold. You need 30 eggs. How much do you save at the better shop?",
+			"answer": "30",
+			"hint": "Find the price of one egg at each shop first.",
+			"explain": "A: 90 ÷ 6 = 15 gold an egg. B: 140 ÷ 10 = 14 gold an egg, the better buy. 30 eggs cost 30 × 15 = 450 at A and 30 × 14 = 420 at B: 450 − 420 = 30 gold saved."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6n.unit_rate",
+			"level": 1
+		},
+		{
+			"gen": "g6n.unit_rate",
+			"level": 2
+		},
+		{
+			"gen": "g6n.unit_rate",
+			"level": 3
+		},
+		{
+			"gen": "g6n.better_buy",
+			"level": 1
+		},
+		{
+			"gen": "g6n.better_buy",
+			"level": 2
+		},
+		{
+			"gen": "g6n.better_buy",
+			"level": 3
+		}
+	]
+}

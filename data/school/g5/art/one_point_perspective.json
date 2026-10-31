@@ -1,0 +1,298 @@
+{
+	"id": "g5.art.one_point_perspective",
+	"lesson": [
+		{
+			"text": "Quick memory: in a landscape, how do things far away look? (Smaller, paler and bluer.) Today: a drawing trick that makes a road or a room go deep into the distance."
+		},
+		{
+			"text": "Stand on a long straight road: its two edges seem to meet far away, though they never really do. Artists call the point where they seem to meet the vanishing point.",
+			"picture": {
+				"kind": "perspective",
+				"scene": "road",
+				"lines": true,
+				"mark": "vanishing point"
+			}
+		},
+		{
+			"text": "The vanishing point sits on the horizon line, and the horizon line is always at your eye level. Climb a hill and the horizon rises with your eyes; lie on the grass and it drops."
+		},
+		{
+			"text": "In one-point perspective, every line that goes away from you (artists call them orthogonals) is drawn to the one vanishing point. Lines across stay flat, and upright lines stay upright.",
+			"picture": {
+				"kind": "perspective",
+				"scene": "room",
+				"labels": true
+			}
+		},
+		{
+			"text": "Worked example: to draw a road, draw the horizon and put a dot on it. Then draw lines from the bottom corners of the page to the dot. Posts beside the road get smaller the nearer they are to the dot.",
+			"picture": {
+				"kind": "perspective",
+				"scene": "road",
+				"lines": true
+			}
+		},
+		{
+			"text": "A room works the same way: draw the back wall as a small rectangle round the vanishing point, then join its corners to the corners of the page. The floor, ceiling and walls appear.",
+			"picture": {
+				"kind": "perspective",
+				"scene": "room",
+				"lines": true
+			}
+		},
+		{
+			"text": "Around 1415, the architect Filippo Brunelleschi showed how perspective works, in Florence, Italy. In 1435 Leon Battista Alberti wrote down its rules. Raphael's The School of Athens (1511) is a famous example."
+		},
+		{
+			"text": "Try it in the world: stand at the end of a long straight path or a row of fences in your world and look along it. Where do its edges seem to meet? Next: Greek and Roman art."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the marked point called?",
+			"answer": 0,
+			"hint": "It is where the road's edges seem to meet.",
+			"choices": [
+				"the vanishing point",
+				"the horizon line",
+				"the foreground",
+				"the eye"
+			],
+			"explain": "The road's edges meet at the vanishing point.",
+			"picture": {
+				"kind": "perspective",
+				"scene": "road",
+				"lines": true,
+				"mark": "vanishing point"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In one-point perspective, lines that go away from you all meet at one point.",
+			"answer": true,
+			"hint": "Think of the road's two edges.",
+			"explain": "True: they all meet at the vanishing point, on the horizon."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where is the horizon line?",
+			"answer": 0,
+			"hint": "What happens to the horizon when you climb a hill?",
+			"choices": [
+				"at your eye level",
+				"always at the top of the page",
+				"always at the bottom of the page",
+				"wherever the sun is"
+			],
+			"explain": "The horizon line is always at your eye level, so it moves up and down with your eyes."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"vanishing point",
+				"horizon line",
+				"orthogonals",
+				"foreground"
+			],
+			"matches": [
+				"lines going to the point",
+				"the part nearest you",
+				"where lines seem to meet",
+				"at your eye level"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the road picture.",
+			"explain": "The vanishing point is where lines meet, the horizon is at eye level, orthogonals go to the point, and the foreground is nearest you."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Posts stand beside a road. What happens to them as they get nearer the vanishing point?",
+			"answer": 0,
+			"hint": "Things further away look ...?",
+			"choices": [
+				"They get smaller",
+				"They get bigger",
+				"They stay the same size",
+				"They turn upside down"
+			],
+			"explain": "Further away means smaller, so the posts shrink towards the vanishing point.",
+			"picture": {
+				"kind": "perspective",
+				"scene": "road"
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps for drawing a road in one-point perspective in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You need the horizon before you can put a point on it.",
+			"items": [
+				"Add posts that shrink towards the point",
+				"Draw lines from the bottom corners to the point",
+				"Put a vanishing point on it",
+				"Draw the horizon line"
+			],
+			"explain": "Horizon, vanishing point, the road's edges to the point, then posts that shrink towards it."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The upright sides of a door facing you stay upright in one-point perspective.",
+			"answer": true,
+			"hint": "Only the lines going away from you go to the point.",
+			"explain": "True: upright lines stay upright and lines across stay flat; only lines going away meet at the point."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the marked line?",
+			"answer": 0,
+			"hint": "It goes right across the picture, where the land meets the sky.",
+			"choices": [
+				"the horizon line",
+				"a railway sleeper",
+				"the vanishing point",
+				"the ground"
+			],
+			"explain": "The marked line is the horizon line, at the viewer's eye level.",
+			"picture": {
+				"kind": "perspective",
+				"scene": "rails",
+				"mark": "horizon",
+				"vp": 0.35
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "In a room drawing, does each line go to the vanishing point, or stay flat or upright?",
+			"groups": [
+				"to the point",
+				"flat or upright"
+			],
+			"items": [
+				"the lines along the floor",
+				"where a wall meets the ceiling",
+				"the top edge of the back wall",
+				"the side of the back door"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Does the line go away from you, or does it face you?",
+			"explain": "Lines going away from you, along the floor and the walls, go to the point. The back wall and its door face you, so their lines stay flat or upright."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You look down from a high tower. Where is the horizon line in your drawing?",
+			"answer": 0,
+			"hint": "The horizon is always at your eye level. Where are your eyes now?",
+			"choices": [
+				"high on the page, at your eye level",
+				"at the very bottom of the page",
+				"it is not there at all",
+				"always in the middle"
+			],
+			"explain": "Your eyes are high up, so the horizon is high on the page and you see lots of ground below it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Who showed how perspective works, around 1415 in Florence?",
+			"answer": 0,
+			"hint": "He was an architect in Florence, Italy.",
+			"choices": [
+				"Filippo Brunelleschi",
+				"Vincent van Gogh",
+				"Katsushika Hokusai",
+				"Frida Kahlo"
+			],
+			"explain": "Filippo Brunelleschi, an architect, showed how perspective works around 1415 in Florence."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Five posts stand in a row. On the page the first is 16 cm tall and each next one is half as tall. How tall is the 4th post, in cm?",
+			"answer": "2",
+			"hint": "Halve the height again for each post along the row.",
+			"explain": "16, then 8, 4 and 2: the 4th post is 2 cm tall."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A road's two edges really do meet far away.",
+			"answer": false,
+			"hint": "Walk along the road: do the edges ever touch?",
+			"explain": "False: they only seem to meet. The road stays the same width; it just looks narrower further away."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where do the lines from the four corners of this room go?",
+			"answer": 0,
+			"hint": "Follow the dashed lines from the corners.",
+			"choices": [
+				"to the vanishing point",
+				"to the corners of the door",
+				"to the window",
+				"to the bottom of the page"
+			],
+			"explain": "All four go to the vanishing point in the middle of the back wall.",
+			"picture": {
+				"kind": "perspective",
+				"scene": "room",
+				"lines": true
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "In a drawing of a straight road, sort the lines: to the vanishing point, or flat or upright?",
+			"groups": [
+				"to the point",
+				"flat or upright"
+			],
+			"items": [
+				"the road's edges",
+				"a fence post",
+				"the top of a fence going away",
+				"a railway sleeper across the track",
+				"the rails",
+				"a lamp post"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Only lines that go away from you meet at the vanishing point.",
+			"explain": "To the point: the road's edges, the fence top and the rails all go away from you. Flat or upright: posts stand upright, and a sleeper lies across, facing you."
+		}
+	],
+	"generators": []
+}

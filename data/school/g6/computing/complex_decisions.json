@@ -1,0 +1,437 @@
+{
+	"id": "g6.computing.complex_decisions",
+	"lesson": [
+		{
+			"text": "Quick memory: when is A OR B true? (When A is true, when B is true, or both.) Today: decisions inside decisions, and conditions joined together."
+		},
+		{
+			"text": "A game makes many decisions every second: is the player touching lava? Is it night? Does the player have enough gold for the shop?"
+		},
+		{
+			"text": "A combined condition joins tests with AND or OR in one IF: IF gold ≥ 50 AND level ≥ 3, the shop sells you the rocket.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"IF gold ≥ 50 AND level ≥ 3",
+					"  OUTPUT \"Rocket for sale!\""
+				]
+			}
+		},
+		{
+			"text": "A nested IF is an IF inside another IF. The inner question is only asked when the outer condition is true.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET keys TO 1",
+					"SET gems TO 7",
+					"IF keys > 0",
+					"  IF gems ≥ 5",
+					"    OUTPUT \"Treasure!\"",
+					"  ELSE",
+					"    OUTPUT \"Nearly!\"",
+					"ELSE",
+					"  OUTPUT \"Find a key\""
+				]
+			}
+		},
+		{
+			"text": "ELSE catches everything else. With IF and ELSE, exactly one side runs: never both, and never neither."
+		},
+		{
+			"text": "Worked example: keys is 1 and gems is 7. The outer test keys > 0 is true, so the inner test runs: gems ≥ 5 is true too, so it outputs Treasure! With 0 keys it would say Find a key."
+		},
+		{
+			"text": "Test every path: try values that make each condition true and false, and the edges, like gems exactly 5 for gems ≥ 5. Bugs love edges.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"gems",
+						"gems ≥ 5?"
+					],
+					[
+						"4",
+						"false"
+					],
+					[
+						"5",
+						"true: the edge"
+					],
+					[
+						"6",
+						"true"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: write the rules of a board game turn as nested IFs, then test them with a friend's moves. Next: hardware and software."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does this program output?",
+			"answer": 0,
+			"hint": "Is gold ≥ 50 true with this gold?",
+			"choices": [
+				"Rocket for sale!",
+				"Save more gold"
+			],
+			"explain": "gold is 60, and 60 ≥ 50 is true: Rocket for sale!",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET gold TO 60",
+					"IF gold ≥ 50",
+					"  OUTPUT \"Rocket for sale!\"",
+					"ELSE",
+					"  OUTPUT \"Save more gold\""
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does this program output?",
+			"answer": 0,
+			"hint": "Is gold ≥ 50 true with this gold?",
+			"choices": [
+				"Save more gold",
+				"Rocket for sale!"
+			],
+			"explain": "gold is 30, and 30 ≥ 50 is false, so ELSE runs: Save more gold.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET gold TO 30",
+					"IF gold ≥ 50",
+					"  OUTPUT \"Rocket for sale!\"",
+					"ELSE",
+					"  OUTPUT \"Save more gold\""
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "With IF and ELSE, both sides can run.",
+			"answer": false,
+			"hint": "If the condition is true, which side runs? If false?",
+			"explain": "False: exactly one side runs, IF's when true and ELSE's when false."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a nested IF, when is the inner question asked?",
+			"answer": 0,
+			"hint": "The inner IF sits inside the outer IF's lines.",
+			"choices": [
+				"only when the outer condition is true",
+				"always",
+				"only when the outer condition is false",
+				"never"
+			],
+			"explain": "Only when the outer condition is true do its lines run, inner IF and all."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does this program output?",
+			"answer": 0,
+			"hint": "Test the outer IF first, then the inner one.",
+			"choices": [
+				"Treasure!",
+				"Nearly!",
+				"Find a key"
+			],
+			"explain": "keys > 0 is true, then gems ≥ 5 is true (7): Treasure!",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET keys TO 1",
+					"SET gems TO 7",
+					"IF keys > 0",
+					"  IF gems ≥ 5",
+					"    OUTPUT \"Treasure!\"",
+					"  ELSE",
+					"    OUTPUT \"Nearly!\"",
+					"ELSE",
+					"  OUTPUT \"Find a key\""
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does this program output?",
+			"answer": 0,
+			"hint": "OR needs only one side to be true.",
+			"choices": [
+				"Game over",
+				"Play on"
+			],
+			"explain": "lives = 0 is false, but time = 0 is true: Game over.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET lives TO 2",
+					"SET time TO 0",
+					"IF lives = 0 OR time = 0",
+					"  OUTPUT \"Game over\"",
+					"ELSE",
+					"  OUTPUT \"Play on\""
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "gems is 5. The condition gems > 5 is true.",
+			"answer": false,
+			"hint": "Is 5 more than 5?",
+			"explain": "False: 5 is not more than 5. gems ≥ 5 would be true."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many different messages can this program show?",
+			"answer": "3",
+			"hint": "Count the OUTPUT lines, and check each can happen.",
+			"explain": "Treasure!, Nearly! and Find a key: 3 messages, one for each path.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET keys TO 1",
+					"SET gems TO 7",
+					"IF keys > 0",
+					"  IF gems ≥ 5",
+					"    OUTPUT \"Treasure!\"",
+					"  ELSE",
+					"    OUTPUT \"Nearly!\"",
+					"ELSE",
+					"  OUTPUT \"Find a key\""
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "This program gives medals. Sort each player by what it shows.",
+			"groups": [
+				"Gold",
+				"Silver",
+				"Keep going"
+			],
+			"items": [
+				"gems is 12",
+				"gems is 10",
+				"gems is 7",
+				"gems is 5",
+				"gems is 2"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				2
+			],
+			"hint": "Check gems ≥ 10 first; only if that is false, check gems ≥ 5.",
+			"explain": "12 and 10 get Gold (10 ≥ 10). 7 and 5 get Silver (5 ≥ 5). 2 gets Keep going.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"IF gems ≥ 10",
+					"  OUTPUT \"Gold\"",
+					"ELSE",
+					"  IF gems ≥ 5",
+					"    OUTPUT \"Silver\"",
+					"  ELSE",
+					"    OUTPUT \"Keep going\""
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which values test the edge of IF gems ≥ 5?",
+			"answer": 0,
+			"hint": "The edge is where the answer changes from false to true.",
+			"choices": [
+				"gems 4 and gems 5",
+				"gems 1 and gems 100",
+				"gems 10 and gems 20",
+				"gems 0 only"
+			],
+			"explain": "4 is false and 5 is true: the two values each side of the edge."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does this program output?",
+			"answer": 0,
+			"hint": "Work out NOT (shield) first, then the AND.",
+			"choices": [
+				"Watch out!",
+				"Safe"
+			],
+			"explain": "lives > 0 is true, and shield is FALSE so NOT (shield) is true. Both are true: Watch out!",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET lives TO 2",
+					"SET shield TO FALSE",
+					"IF lives > 0 AND NOT (shield)",
+					"  OUTPUT \"Watch out!\"",
+					"ELSE",
+					"  OUTPUT \"Safe\""
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does this program output?",
+			"answer": 0,
+			"hint": "Outer IF first. If it is true, go inside and test the inner IF.",
+			"choices": [
+				"Reach level 3",
+				"Buy the rocket",
+				"Save gold"
+			],
+			"explain": "gold ≥ 50 is true (70), but level ≥ 3 is false (2), so the inner ELSE runs: Reach level 3.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET gold TO 70",
+					"SET level TO 2",
+					"IF gold ≥ 50",
+					"  IF level ≥ 3",
+					"    OUTPUT \"Buy the rocket\"",
+					"  ELSE",
+					"    OUTPUT \"Reach level 3\"",
+					"ELSE",
+					"  OUTPUT \"Save gold\""
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "IF gold ≥ 50 AND level ≥ 3 works like an IF level ≥ 3 inside an IF gold ≥ 50 (with no ELSE).",
+			"answer": true,
+			"hint": "When does the inner line run in each?",
+			"explain": "True: in both, the line runs only when both conditions are true."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A program has an IF with an ELSE, and inside the IF's lines another IF with an ELSE. How many paths can it take?",
+			"answer": "3",
+			"hint": "Draw it as a tree: the outer question, then the inner one on its true side.",
+			"explain": "Outer false is 1 path; outer true splits into inner true and inner false: 3 paths."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The shop should sell the rocket for 50 gold or more, but the code says IF gold > 50. Which test finds the bug?",
+			"answer": 0,
+			"hint": "Test the edge.",
+			"choices": [
+				"gold is exactly 50",
+				"gold is 100",
+				"gold is 0",
+				"gold is 70"
+			],
+			"explain": "With exactly 50, gold > 50 is false, so the shop wrongly says no. It should be gold ≥ 50."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is big when the program ends?",
+			"answer": "3",
+			"hint": "Trace n. Which values are more than 2 and less than 6?",
+			"explain": "n goes 1 to 6; 3, 4 and 5 pass both tests, so big is 3.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET n TO 0",
+					"SET big TO 0",
+					"REPEAT 6 TIMES",
+					"  CHANGE n BY 1",
+					"  IF n > 2 AND n < 6",
+					"    CHANGE big BY 1"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Testing IF gems ≥ 5: match each test value to why it is useful.",
+			"items": [
+				"gems is 4",
+				"gems is 5",
+				"gems is 50"
+			],
+			"matches": [
+				"the edge itself: just true",
+				"just below the edge: false",
+				"far above the edge: true"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Bugs love edges. Where is this condition's edge?",
+			"explain": "4 is just below the edge, so the test should be false. 5 is the edge itself, and ≥ makes it true. 50 checks a value far above, which must be true."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "gold is 60 and level is 2. Sort the conditions: true or false?",
+			"groups": [
+				"true",
+				"false"
+			],
+			"items": [
+				"gold ≥ 50",
+				"level ≥ 3",
+				"gold ≥ 50 AND level ≥ 3",
+				"gold ≥ 50 OR level ≥ 3",
+				"NOT (level ≥ 3)",
+				"gold < 50"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Work out the two simple tests first, then join them with AND, OR and NOT.",
+			"explain": "60 ≥ 50 is true and 2 ≥ 3 is false. AND needs both, so it is false. OR needs one, so it is true. NOT turns false into true. 60 < 50 is false."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.game_decision",
+			"level": 1
+		},
+		{
+			"gen": "g6c.game_decision",
+			"level": 2
+		},
+		{
+			"gen": "g6c.game_decision",
+			"level": 3
+		},
+		{
+			"gen": "g6c.logic_check",
+			"level": 3
+		}
+	]
+}

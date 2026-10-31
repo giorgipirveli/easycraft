@@ -1,0 +1,332 @@
+{
+	"id": "g3.art.looking_at_art",
+	"lesson": [
+		{
+			"text": "Quick memory: what did Stone Age artists paint most? (Animals.) Today: how to look at a painting like an art detective."
+		},
+		{
+			"text": "Step 1, describe: what do you see? Colours, shapes, lines, people, places. Say it without judging yet: “I see a big wave with white foam.”",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"describe: what I see",
+					"feel: how it feels",
+					"why: what makes it"
+				],
+				"title": "Looking at art"
+			}
+		},
+		{
+			"text": "Step 2, feel: how does it make you feel? Calm, excited, sad, happy, curious? There is no wrong feeling."
+		},
+		{
+			"text": "Step 3, why: what makes you feel that? “The swirling lines make the sky look alive.” Point to the part of the painting that shows it."
+		},
+		{
+			"text": "Vincent van Gogh painted The Starry Night in 1889. Its sky is full of swirling lines and bright stars over a sleeping village.",
+			"picture": {
+				"kind": "masterwork",
+				"what": "starry_night"
+			}
+		},
+		{
+			"text": "Katsushika Hokusai made The Great Wave, a woodblock print, about 200 years ago. A huge wave curls over small boats, with Mount Fuji far behind.",
+			"picture": {
+				"kind": "masterwork",
+				"what": "great_wave"
+			}
+		},
+		{
+			"text": "Georges Seurat painted with thousands of tiny dots of colour. Up close you see dots; step back and your eyes mix them into a picture."
+		},
+		{
+			"text": "Try it in the world: build a gallery in your world and invite a friend. Stand in front of each build and take turns: describe, feel, why."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the three steps of looking at art in order.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "See it, feel it, then give the reason.",
+			"items": [
+				"Say how it makes you feel",
+				"Describe what you see",
+				"Explain why"
+			],
+			"explain": "Describe what you see, say how it makes you feel, then explain why."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who painted The Starry Night?",
+			"answer": 0,
+			"hint": "Remember the swirling night sky.",
+			"choices": [
+				"Vincent van Gogh",
+				"Katsushika Hokusai",
+				"Georges Seurat",
+				"Leonardo da Vinci"
+			],
+			"explain": "Vincent van Gogh painted The Starry Night in 1889."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When you look at a painting, there is no wrong feeling.",
+			"answer": true,
+			"hint": "Can two people feel differently?",
+			"explain": "True: everyone can feel something different about a painting."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is describing, not judging?",
+			"answer": 0,
+			"hint": "Describing says what is there.",
+			"choices": [
+				"I see a big blue wave",
+				"It's the best painting ever",
+				"I don't like it",
+				"It's boring"
+			],
+			"explain": "“I see a big blue wave” says what is there, without judging."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is The Great Wave?",
+			"answer": 0,
+			"hint": "Remember the lesson card about Hokusai.",
+			"choices": [
+				"a woodblock print by Hokusai",
+				"a cave painting",
+				"a sculpture of the sea",
+				"a photo"
+			],
+			"explain": "The Great Wave is a woodblock print by Katsushika Hokusai."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each artwork to what you would see in it.",
+			"items": [
+				"The Starry Night",
+				"The Great Wave",
+				"Seurat's paintings"
+			],
+			"matches": [
+				"tiny dots of colour",
+				"a swirling night sky",
+				"a huge wave over small boats"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Remember the three lesson cards.",
+			"explain": "The Starry Night: a swirling sky. The Great Wave: a huge wave over boats. Seurat: tiny dots of colour."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Tilly says, “The dark colours make me feel sad.” Which step is she doing?",
+			"answer": 0,
+			"hint": "She gives a feeling and a reason.",
+			"choices": [
+				"explaining why she feels something",
+				"describing only",
+				"making a print",
+				"measuring it"
+			],
+			"explain": "She is explaining why: the dark colours are the reason for her feeling."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Seurat's paintings are made of thousands of tiny dots.",
+			"answer": true,
+			"hint": "Remember what you see up close.",
+			"explain": "True: Seurat painted with tiny dots of colour."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: describing or feeling?",
+			"groups": [
+				"describing",
+				"feeling"
+			],
+			"items": [
+				"I see three boats",
+				"It makes me feel calm",
+				"The sky is dark blue",
+				"I feel excited",
+				"There are swirly lines",
+				"It makes me curious"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it about what is there, or about you?",
+			"explain": "Describing: boats, a dark blue sky, swirly lines. Feeling: calm, excited, curious."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do Seurat's dots look like a picture when you step back?",
+			"answer": 0,
+			"hint": "What happens to tiny things far away?",
+			"choices": [
+				"your eyes mix the dots together",
+				"the dots move",
+				"the paint dries",
+				"the lights go out"
+			],
+			"explain": "From further away, your eyes mix the dots into shapes and colours."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram says, “The swirling lines make the sky look alive.” What is good about this?",
+			"answer": 0,
+			"hint": "Think of describe, feel, why.",
+			"choices": [
+				"he says what he sees and why he feels it",
+				"he only says he likes it",
+				"he talks about the frame",
+				"he says it is old"
+			],
+			"explain": "He points to what he sees (swirling lines) and says what it does (looks alive)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which question helps you look more closely at a painting?",
+			"answer": 0,
+			"hint": "Which question sends your eyes back to the picture?",
+			"choices": [
+				"What is happening in the background?",
+				"How much does the frame weigh?",
+				"Is it time for lunch?",
+				"Can I touch it?"
+			],
+			"explain": "Asking about the background makes you look at parts you might miss."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Hokusai made The Great Wave about 200 years ago.",
+			"answer": true,
+			"hint": "Remember the lesson card.",
+			"explain": "True: Hokusai made The Great Wave about 200 years ago, as a woodblock print."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two friends feel different things about the same painting. Who is right?",
+			"answer": 0,
+			"hint": "Is there a wrong feeling?",
+			"choices": [
+				"both of them: feelings can differ",
+				"only the older friend",
+				"only the one who likes it",
+				"neither of them"
+			],
+			"explain": "Both: people can feel differently about the same art, and each can say why."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "When did Vincent van Gogh paint The Starry Night?",
+			"answer": 0,
+			"hint": "Remember the lesson card.",
+			"choices": [
+				"in 1889",
+				"in 1989",
+				"30,000 years ago",
+				"last year"
+			],
+			"explain": "He painted it in 1889, more than 130 years ago."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort Tilly's sentences about a painting: describing, feeling, or saying why?",
+			"groups": [
+				"describe",
+				"feel",
+				"why"
+			],
+			"items": [
+				"I see a curling wave.",
+				"It makes me feel nervous.",
+				"The tiny boats make the wave look huge.",
+				"There are three boats.",
+				"I feel calm.",
+				"The blue dots make it look cool."
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Describing says what is there, feeling names a feeling, and why points to a part that causes it.",
+			"explain": "Describe: a curling wave, three boats. Feel: nervous, calm. Why: the tiny boats make the wave look huge, and the blue dots make it look cool."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the artworks from the oldest to the newest.",
+			"items": [
+				"The Starry Night",
+				"cave paintings of animals",
+				"The Great Wave"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Cave paintings are tens of thousands of years old. Which is older: about 200 years ago, or 1889?",
+			"explain": "Cave paintings are oldest, tens of thousands of years old. The Great Wave was made about 200 years ago, and The Starry Night in 1889."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each artwork to a 'why' sentence about it.",
+			"items": [
+				"The Starry Night",
+				"The Great Wave",
+				"a Seurat painting"
+			],
+			"matches": [
+				"The tiny boats make it scary.",
+				"Up close it is only dots.",
+				"The swirls make the sky alive."
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Remember what each artwork shows: swirls, a huge wave over boats, or dots.",
+			"explain": "The Starry Night: the swirling lines make the sky look alive. The Great Wave: the tiny boats make the wave look huge and scary. Seurat: up close it is only dots, which your eyes mix from further away."
+		}
+	],
+	"generators": []
+}

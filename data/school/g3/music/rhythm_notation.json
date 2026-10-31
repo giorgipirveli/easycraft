@@ -1,0 +1,579 @@
+{
+	"id": "g3.music.rhythm_notation",
+	"lesson": [
+		{
+			"text": "Quick memory: which family do drums belong to? (Percussion.) Today: writing rhythms down."
+		},
+		{
+			"text": "A crotchet (a quarter note) lasts one beat. Say “ta”. It has a filled-in head and a stem.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"crotchet",
+					"crotchet",
+					"crotchet"
+				],
+				"words": true
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "Two quavers (eighth notes) share one beat: two quick sounds, “ti-ti”. A line called a beam joins them.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"quavers",
+					"quavers",
+					"quavers",
+					"quavers"
+				],
+				"words": true
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxxxxxxx",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "A crotchet rest means one beat of silence. It looks like a squiggle. Think “rest”, but make no sound.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"crotchet",
+					"rest",
+					"crotchet"
+				],
+				"words": true
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x---x-",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "Now read a mix: ta, ti-ti, ta, rest. Clap it while you count 1, 2, 3, 4.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"quavers",
+					"crotchet",
+					"rest"
+				],
+				"words": true
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx---",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "When you copy a rhythm in boxes, each beat has two boxes: ta claps in the first box, ti-ti claps in both, and a rest leaves both empty."
+		},
+		{
+			"text": "Music is split into bars by bar lines. In many songs, each bar has 4 beats.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"quavers",
+					"rest",
+					"crotchet",
+					"quavers",
+					"quavers",
+					"crotchet",
+					"rest"
+				],
+				"bars": true
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xx--x-xxxxx---",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "Try it in the world: write a rhythm in blocks in your world: a tall block for ta, two short blocks for ti-ti, and a gap for rest. Walk along it and clap it."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is this note called?",
+			"answer": 0,
+			"hint": "One filled-in note with a stem.",
+			"choices": [
+				"a crotchet",
+				"two quavers",
+				"a rest",
+				"a bar line"
+			],
+			"explain": "A crotchet: one beat, “ta”.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet"
+				]
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 1,
+			"prompt": "Listen: ta, ti-ti. Copy it in the boxes.",
+			"hint": "Each beat has two boxes. ta: a clap in the first box. ti-ti: claps in both. A rest: no clap at all.",
+			"explain": "You heard ta, ti-ti: claps in boxes 1, 3 and 4.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xx",
+				"tempo": 70
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Listen, then copy the rhythm: two boxes for each beat.",
+			"hint": "Each beat has two boxes. ta: a clap in the first box. ti-ti: claps in both. A rest: no clap at all.",
+			"explain": "You heard ti-ti, ta, rest: claps in boxes 1, 2 and 3.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxx---",
+				"tempo": 75
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Listen, then copy this rhythm: two boxes for each beat.",
+			"hint": "Each beat has two boxes. ta: a clap in the first box. ti-ti: claps in both. A rest: no clap at all.",
+			"explain": "You heard ta, rest, ti-ti, ta: claps in boxes 1, 5, 6 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x---xxx-",
+				"tempo": 80
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many beats does a crotchet last?",
+			"answer": 0,
+			"hint": "Say “ta” once.",
+			"choices": [
+				"1",
+				"2",
+				"half a beat",
+				"4"
+			],
+			"explain": "A crotchet lasts 1 beat."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Two quavers together last one beat.",
+			"answer": true,
+			"hint": "Say “ti-ti” in the time of one “ta”.",
+			"explain": "True: two quavers share one beat, “ti-ti”."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does this sign mean?",
+			"answer": 0,
+			"hint": "It is the squiggle from the lesson card.",
+			"choices": [
+				"one beat of silence",
+				"one loud clap",
+				"two quick claps",
+				"play faster"
+			],
+			"explain": "It is a crotchet rest: one beat of silence.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"rest"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What are these notes called?",
+			"answer": 0,
+			"hint": "Two notes joined by a beam.",
+			"choices": [
+				"two quavers",
+				"a crotchet",
+				"a rest",
+				"two bar lines"
+			],
+			"explain": "Two quavers: “ti-ti”, two quick sounds in one beat.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"quavers"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many claps does this rhythm have?",
+			"answer": "6",
+			"hint": "A crotchet is one clap, two quavers are two claps, a rest is none.",
+			"explain": "ta, ti-ti, ta, ti-ti: 1 + 2 + 1 + 2 = 6 claps.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"quavers",
+					"crotchet",
+					"quavers"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which rhythm did you hear?",
+			"answer": 0,
+			"hint": "Listen as often as you like. Tap along, or say the rhythm quietly as you listen.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"crotchet",
+							"quavers",
+							"crotchet",
+							"crotchet"
+						],
+						"words": true
+					}
+				},
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"quavers",
+							"crotchet",
+							"crotchet",
+							"crotchet"
+						],
+						"words": true
+					}
+				},
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"crotchet",
+							"crotchet",
+							"quavers",
+							"crotchet"
+						],
+						"words": true
+					}
+				}
+			],
+			"explain": "You heard ta, ti-ti, ta, ta.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which of these rhythms did you hear?",
+			"answer": 0,
+			"hint": "Listen as often as you like. Tap along, or say the rhythm quietly as you listen.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"quavers",
+							"crotchet",
+							"quavers",
+							"crotchet"
+						],
+						"words": true
+					}
+				},
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"crotchet",
+							"quavers",
+							"crotchet",
+							"quavers"
+						],
+						"words": true
+					}
+				},
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"quavers",
+							"quavers",
+							"crotchet",
+							"crotchet"
+						],
+						"words": true
+					}
+				}
+			],
+			"explain": "You heard ti-ti, ta, ti-ti, ta.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxx-xxx-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "This rhythm has 2 claps.",
+			"answer": true,
+			"hint": "Count the notes, not the rests.",
+			"explain": "True: two crotchets are two claps, and the rests are silent.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"rest",
+					"crotchet",
+					"rest"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Listen. How many beats of silence (rests) do you hear?",
+			"answer": "1",
+			"hint": "Count 1, 2, 3, 4 with the beat. On which beats is there no clap?",
+			"explain": "ta, ta, rest, ta: 1 beat of silence, on beat 3.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x---x-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each rhythm word to its sign.",
+			"items": [
+				"ta",
+				"ti-ti",
+				"rest"
+			],
+			"matches": [
+				"a squiggle: one silent beat",
+				"a filled note with a stem",
+				"two notes joined by a beam"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Remember the lesson cards.",
+			"explain": "ta: a crotchet, a filled note with a stem. ti-ti: two quavers joined by a beam. rest: the squiggle."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which rhythm did you hear?",
+			"answer": 0,
+			"hint": "Listen as often as you like. Tap along, or say the rhythm quietly as you listen.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"quavers",
+							"crotchet",
+							"rest",
+							"quavers"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"quavers",
+							"rest",
+							"crotchet",
+							"quavers"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"crotchet",
+							"quavers",
+							"rest",
+							"quavers"
+						]
+					}
+				}
+			],
+			"explain": "You heard ti-ti, ta, rest, ti-ti.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxx---xx",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many claps are in these two bars?",
+			"answer": "11",
+			"hint": "Go beat by beat: a crotchet is 1, two quavers are 2, a rest is 0.",
+			"explain": "2 + 2 + 1 + 0 + 1 + 2 + 2 + 1 = 11 claps.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"quavers",
+					"quavers",
+					"crotchet",
+					"rest",
+					"crotchet",
+					"quavers",
+					"quavers",
+					"crotchet"
+				],
+				"bars": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A bar has 4 beats. It already has a crotchet and two quavers. How many more beats does it need?",
+			"answer": "2",
+			"hint": "How many beats is a crotchet? How many are two quavers?",
+			"explain": "The crotchet is 1 beat and the two quavers are 1 beat: 1 + 1 = 2, and 4 − 2 = 2 more beats."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. What goes in the gap?",
+			"answer": 0,
+			"hint": "Count the beats as you listen. What do you hear on beat 2?",
+			"choices": [
+				"a crotchet (ta)",
+				"two quavers (ti-ti)",
+				"a rest"
+			],
+			"explain": "You heard ta, ta, ti-ti, ta: the gap is a crotchet (ta).",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"?",
+					"quavers",
+					"crotchet"
+				]
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-xxx-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen. Does the sound match the rhythm in the picture?",
+			"answer": false,
+			"hint": "Follow the picture with your finger as you listen.",
+			"explain": "False: the sound claps on beat 3, but the picture has a rest there.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"crotchet",
+					"rest",
+					"crotchet"
+				]
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen. How many claps do you hear?",
+			"answer": "5",
+			"hint": "Listen as often as you like. Tap along, or say the rhythm quietly as you listen.",
+			"explain": "ti-ti, ti-ti, rest, ta: 2 + 2 + 0 + 1 = 5 claps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxxx--x-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In some countries a crotchet has another name. What is it?",
+			"answer": 0,
+			"hint": "Remember the name in brackets on the lesson card.",
+			"choices": [
+				"a quarter note",
+				"an eighth note",
+				"a whole note",
+				"a long note"
+			],
+			"explain": "A crotchet is also called a quarter note."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3a.which_rhythm",
+			"level": 1
+		},
+		{
+			"gen": "g3a.which_rhythm",
+			"level": 2
+		},
+		{
+			"gen": "g3a.which_rhythm",
+			"level": 3
+		},
+		{
+			"gen": "g3a.claps_in_rhythm",
+			"level": 1
+		},
+		{
+			"gen": "g3a.claps_in_rhythm",
+			"level": 2
+		},
+		{
+			"gen": "g3a.claps_in_rhythm",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"id": "life.safe.water_rules",
+	"lesson": [
+		{"text": "Quick memory: who must be with you when you are near water? (A grown-up who is watching.) Today: the water rules, and how to help from the side."},
+		{"text": "Water is fun, and it needs rules. A grown-up watches you every time you are near water: a pool, a pond, the sea, even a bath."},
+		{"text": "By the pool, walk: wet floors are slippery. On a boat, wear a life jacket: it helps you float."},
+		{"text": "Someone is in the water and can't get out? Never jump in. Shout for help, then throw them something that floats.",
+			"picture": {"kind": "flowchart", "steps": [{"shape": "start", "text": "Shout for help"}, {"shape": "step", "text": "Throw a float"},
+				{"shape": "end", "text": "Stay on the side"}]}},
+		{"text": "A toy floats away? Leave it. Ask a grown-up to get it with a long pole. Never lean over the water."},
+		{"text": "Try it in the world: open the practice pool and help Pip-pop from the side. Next: spotting trouble and rip currents, on the Middle track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "Who must watch you near water?", "answer": 0,
+			"choices": ["a grown-up", "nobody", "my teddy"], "hint": "Someone big and awake.", "explain": "A grown-up watches you, every time."},
+		{"type": "truefalse", "level": 1, "prompt": "You can run by the pool.", "answer": false,
+			"hint": "What is the floor like?", "explain": "False: wet floors are slippery. Walk."},
+		{"type": "choice", "level": 1, "prompt": "What helps you float on a boat?", "answer": 0,
+			"choices": ["a life jacket", "a sun hat", "a rucksack"], "hint": "You wear it round your body.",
+			"explain": "A life jacket helps you float."},
+		{"type": "choice", "level": 2, "prompt": "Your friend is in the water and can't get out. First you...", "answer": 0,
+			"choices": ["shout for help", "jump in", "walk away"], "hint": "Get a grown-up.", "explain": "Shout for help first."},
+		{"type": "truefalse", "level": 2, "prompt": "You should jump in to help a friend in the water.", "answer": false,
+			"hint": "Help from the side.", "explain": "False: never jump in. Throw something that floats."},
+		{"type": "order", "level": 2, "prompt": "Someone needs help in the water: put it in order.", "answer": [1, 0, 2],
+			"items": ["throw a float", "shout for help", "stay on the side"], "hint": "Help first comes from a grown-up.",
+			"explain": "Shout for help, throw a float, stay on the side."},
+		{"type": "choice", "level": 2, "prompt": "Your ball floats into the deep water. You...", "answer": 0,
+			"choices": ["ask a grown-up to get it", "lean over for it", "jump in after it"], "hint": "Toys can wait.",
+			"explain": "Ask a grown-up: they can use a long pole."},
+		{"type": "sort", "level": 3, "prompt": "Safe near water, or not safe?", "groups": ["safe", "not safe"],
+			"items": ["a grown-up watching", "running on wet tiles", "a life jacket on a boat", "swimming alone"], "answer": [0, 1, 0, 1],
+			"hint": "Think of the water rules.", "explain": "A grown-up and a life jacket are safe; running and swimming alone are not."},
+		{"type": "choice", "level": 3, "prompt": "Which thing could you throw to someone in the water?", "answer": 0,
+			"choices": ["a float or a ball", "a heavy stone", "a book"], "hint": "It must stay on top of the water.",
+			"explain": "Something that floats, so they can hold on."},
+		{"type": "truefalse", "level": 3, "prompt": "A grown-up should watch you even in the bath.", "answer": true,
+			"hint": "Water is water.", "explain": "True: little children need a grown-up even in the bath."},
+		{"type": "choice", "level": 3, "prompt": "Where do you stay while you help someone in the water?", "answer": 0,
+			"choices": ["on the side, back from the edge", "in the water", "on the diving board"], "hint": "Somewhere dry and safe.",
+			"explain": "On the side, back from the edge, so you can't slip in."}
+	]
+}

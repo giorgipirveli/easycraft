@@ -1,0 +1,286 @@
+{
+	"id": "g5.computing.tech_for_everyone",
+	"lesson": [
+		{
+			"text": "Quick memory: what are inputs and outputs? (Inputs take things in, like a touch screen; outputs give things out, like a speaker.) Today: technology everyone can use."
+		},
+		{
+			"text": "People use technology in different ways. Some can't see well or at all, and some can't hear. Some find reading hard, and some can't use their hands on a screen."
+		},
+		{
+			"text": "Captions show the words spoken in a video. They help deaf people, and anyone watching in a noisy place or learning a new language.",
+			"picture": {
+				"kind": "access_feature",
+				"what": "captions"
+			}
+		},
+		{
+			"text": "A screen reader reads the screen aloud for people who can't see it. Pictures need alt text, a short description, so the screen reader can say what they show.",
+			"picture": {
+				"kind": "access_feature",
+				"what": "alt_text"
+			}
+		},
+		{
+			"text": "Big text, zoom and high contrast (bright text on a dark screen) help people who see a little. Voice control and switches let people use a device without touching it.",
+			"picture": {
+				"kind": "access_feature",
+				"what": "high_contrast"
+			}
+		},
+		{
+			"text": "Worked example: a game map shows safe paths in green and danger in red, and nothing else. About 1 in 12 boys can't easily tell red from green, so good designers add shapes or words too."
+		},
+		{
+			"text": "Louis Braille, who was blind, invented braille in the 1820s: raised dots read by touch. Today braille displays turn a screen's words into dots. This School reads every card aloud too."
+		},
+		{
+			"text": "Try it in the world: with a grown-up, turn on captions or read-aloud on a device at home. Who else would they help? Next, in grade 6: binary, the numbers computers use."
+		}
+	],
+	"exercises": [
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each feature to who it helps most.",
+			"items": [
+				"captions",
+				"screen reader",
+				"voice control",
+				"big text"
+			],
+			"matches": [
+				"people who can't use hands",
+				"people who see a little",
+				"people who can't hear well",
+				"people who can't see well"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Captions are words to read; a screen reader speaks.",
+			"explain": "Captions help people who can't hear well, screen readers people who can't see, voice control people who can't use their hands, and big text people who see a little."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Captions only help deaf people.",
+			"answer": false,
+			"hint": "Have you ever watched a video somewhere noisy?",
+			"explain": "False: captions also help in noisy places, in quiet places, and when learning a language."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is alt text?",
+			"answer": 0,
+			"hint": "What does a screen reader need to say what a picture shows?",
+			"choices": [
+				"a short description of a picture",
+				"a secret password",
+				"a kind of font",
+				"text that flashes"
+			],
+			"explain": "Alt text is a short description of a picture, which a screen reader reads aloud."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does this phone show?",
+			"answer": 0,
+			"hint": "Look at the words at the bottom of the video.",
+			"choices": [
+				"captions",
+				"a screen reader",
+				"high contrast",
+				"voice control"
+			],
+			"explain": "The spoken words are shown under the video: captions.",
+			"picture": {
+				"kind": "access_feature",
+				"what": "captions"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does this phone show?",
+			"answer": 0,
+			"hint": "Look at the speaker next to the lines of text.",
+			"choices": [
+				"a screen reader reading aloud",
+				"captions",
+				"big text",
+				"high contrast"
+			],
+			"explain": "The speaker shows the screen's words being read aloud.",
+			"picture": {
+				"kind": "access_feature",
+				"what": "read_aloud"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A game map shows safe paths in green and danger in red only. How could it help colour-blind players?",
+			"answer": 0,
+			"hint": "What could someone use if they can't tell the two colours apart?",
+			"choices": [
+				"Add shapes or words as well as colours",
+				"Use a brighter red",
+				"Take the map away",
+				"Use more colours"
+			],
+			"explain": "Shapes or words as well as colours mean nobody needs to tell red from green."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: does it help with seeing, or with hearing?",
+			"groups": [
+				"seeing",
+				"hearing"
+			],
+			"items": [
+				"big text",
+				"a screen reader",
+				"high contrast",
+				"captions",
+				"a doorbell that flashes a light"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Does it make something easier to see, or does it show a sound?",
+			"explain": "Big text, screen readers and high contrast help with seeing. Captions and a flashing doorbell help with hearing."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Voice control lets someone use a device without touching it.",
+			"answer": true,
+			"hint": "Look at the microphone.",
+			"explain": "True: you speak, and the device does what you say.",
+			"picture": {
+				"kind": "access_feature",
+				"what": "voice"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which alt text is most helpful for a photo of a red boat on a lake?",
+			"answer": 0,
+			"hint": "Which one tells someone who can't see it what is in the picture?",
+			"choices": [
+				"A red boat on a calm blue lake",
+				"photo123.jpg",
+				"boat boat boat",
+				"Picture"
+			],
+			"explain": "A red boat on a calm blue lake says what the picture shows. The others tell a listener nothing."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is designing for everyone good for everyone?",
+			"answer": 0,
+			"hint": "Who else used captions in a noisy place?",
+			"choices": [
+				"Features like captions help lots of people",
+				"It makes devices cost more",
+				"Only a few people use them",
+				"It makes games harder"
+			],
+			"explain": "Features made for some people, like captions, turn out to help lots of others too."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "About 1 in 12 boys is colour-blind. In a school with 240 boys, about how many is that?",
+			"answer": "20",
+			"hint": "Share the 240 boys into groups of 12.",
+			"explain": "240 ÷ 12 = 20 boys."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Louis Braille invented a way to read by touch. What is braille made of?",
+			"answer": 0,
+			"hint": "You read it with your fingertips.",
+			"choices": [
+				"raised dots",
+				"tiny pictures",
+				"coloured lines",
+				"sounds"
+			],
+			"explain": "Braille is raised dots, felt with the fingertips."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: input (you give it to the device) or output (the device gives it to you)?",
+			"groups": [
+				"input",
+				"output"
+			],
+			"items": [
+				"voice control",
+				"a switch",
+				"captions",
+				"a screen reader",
+				"big text"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Does it take something in, or give something out?",
+			"explain": "Voice control and a switch are inputs. Captions, a screen reader and big text are outputs."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Louis Braille, who invented braille, was blind himself.",
+			"answer": true,
+			"hint": "Think of the card about braille.",
+			"explain": "True: Louis Braille was blind from when he was 3, and he invented braille as a teenager."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each problem to a design that solves it.",
+			"items": [
+				"a video, for a deaf viewer",
+				"a photo, for a blind reader",
+				"red and green map paths",
+				"small text on a phone"
+			],
+			"matches": [
+				"add shapes or words",
+				"zoom and big text",
+				"add captions",
+				"add alt text"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Who cannot hear, see, tell colours apart, or read small print?",
+			"explain": "Captions show a deaf viewer the words. Alt text lets a screen reader describe the photo. Shapes or words help players who cannot tell red from green. Zoom and big text help people who see a little."
+		}
+	],
+	"generators": []
+}

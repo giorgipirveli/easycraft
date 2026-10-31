@@ -1,0 +1,352 @@
+{
+	"id": "g6.citizenship.spot_a_scam",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, what would a real bank never ask for in a message? (Your password.) Today: how to spot a scam, and what to do about one."
+		},
+		{
+			"text": "A scam is a trick to take your money, your things or your personal details. Scammers use messages, emails, texts, pop-ups and game chats. They may pretend to be a bank, a shop, a game or even a friend."
+		},
+		{
+			"text": "Warning signs: a prize you never entered for; a rush ('act now or lose it'); a request for your password, PIN or card details; a link with an odd spelling; a request to keep it secret; something too good to be true."
+		},
+		{
+			"text": "Game scams: 'free gold makers', and people who offer to double your items if you hand them over first. Fake login pages look like the real game. A game never needs your password to give you anything.",
+			"picture": {
+				"kind": "phish_mail",
+				"from": "prizes@free-gold-maker.biz",
+				"subject": "You WON 10,000 free gold!!",
+				"lines": [
+					"Act now or lose it!",
+					"Just type your game password below."
+				],
+				"button": "CLAIM NOW",
+				"mark": 1
+			}
+		},
+		{
+			"text": "Stop, think, check: don't click the link or reply. Check by going to the real website or app yourself, not through the message. Ask: who sent this, and how would they know me?",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "A strange message"
+					},
+					{
+						"shape": "step",
+						"text": "Stop: don't click"
+					},
+					{
+						"shape": "step",
+						"text": "Check the real app"
+					},
+					{
+						"shape": "end",
+						"text": "Tell a grown-up"
+					}
+				]
+			}
+		},
+		{
+			"text": "Tell a trusted grown-up at once, even if you already clicked or shared something: it is never too late, and you are not in trouble. Use REPORT and BLOCK in the game, and change a password you shared."
+		},
+		{
+			"text": "Protect yourself: use a strong, different password for each account. Keep your passwords secret from everyone but your grown-up, and turn on the extra login check when you can."
+		},
+		{
+			"text": "Try it in the world: put up a Scam Spotter sign in your village with the warning signs. Then act out a scam message with a friend, and practise the safe reply. Next: sustainable choices."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a scam?",
+			"answer": 0,
+			"hint": "Scammers pretend to be someone else.",
+			"choices": [
+				"a trick to take money or details",
+				"a kind of game",
+				"a school club",
+				"a bank account"
+			],
+			"explain": "A trick to take your money, things or personal details."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A real game will never ask for your password to give you a prize.",
+			"answer": true,
+			"hint": "Who should know your password?",
+			"explain": "True: a game never needs your password to give you anything."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a warning sign of a scam?",
+			"answer": 0,
+			"hint": "Can you win something you never entered?",
+			"choices": [
+				"a prize you never entered for",
+				"a teacher's note about homework",
+				"a bill you expected",
+				"a friend saying hello"
+			],
+			"explain": "A prize you never entered for is too good to be true."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A message says 'Act now or lose your account!' What is this trick?",
+			"answer": 0,
+			"hint": "Why would a scammer want you to act fast?",
+			"choices": [
+				"rushing you so you don't think",
+				"a kind reminder",
+				"always a real warning",
+				"a birthday card"
+			],
+			"explain": "Scammers rush you so you act before you stop and think."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who should you tell if you get a scam message?",
+			"answer": 0,
+			"hint": "It is never too late to get help.",
+			"choices": [
+				"a trusted grown-up",
+				"nobody",
+				"the scammer",
+				"everyone online"
+			],
+			"explain": "A trusted grown-up, and use REPORT in the game."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: a scam's warning sign, or a safe thing to do?",
+			"groups": [
+				"warning sign",
+				"safe thing to do"
+			],
+			"items": [
+				"asks you to keep it secret",
+				"type the website address yourself",
+				"a link with an odd spelling",
+				"tell a trusted grown-up",
+				"offers to double your items"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Scams rush, tempt and ask for secrets; safe habits slow down and get help.",
+			"explain": "Warning signs: secrets, odd links, doubling offers. Safe: typing the address yourself, telling a grown-up."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Someone offers to double your gold if you give it to them first. What should you do?",
+			"answer": 0,
+			"hint": "What happens once you hand it over?",
+			"choices": [
+				"say no, block and report them",
+				"give half",
+				"give it all",
+				"ask them to triple it"
+			],
+			"explain": "It is a scam: say no, block and report them."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If you have already clicked a scam link, it is too late to tell anyone.",
+			"answer": false,
+			"hint": "Can a grown-up still help?",
+			"explain": "False: tell a trusted grown-up at once; it is never too late, and you are not in trouble."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"phishing",
+				"password",
+				"pop-up",
+				"REPORT"
+			],
+			"matches": [
+				"tells the game about a problem",
+				"fake messages fishing for data",
+				"a secret key for an account",
+				"a window that appears suddenly"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Phishing sounds like fishing.",
+			"explain": "Phishing: fishing for details. Password: a secret key. Pop-up: a sudden window. REPORT: tells the game."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How should you check a message that says it is from your bank?",
+			"answer": 0,
+			"hint": "Do not use anything the message gives you.",
+			"choices": [
+				"go to the real app or website yourself",
+				"click its link",
+				"reply with your details",
+				"call the number in it"
+			],
+			"explain": "Go to the real app or website yourself, with a grown-up."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A 'friend' on a new number asks for gold urgently and says 'tell no one'. Which signs show a scam?",
+			"answer": 0,
+			"hint": "Look for the warning signs from the lesson.",
+			"choices": [
+				"a new number, a rush and a secret",
+				"it says hello",
+				"it is short",
+				"it is polite"
+			],
+			"explain": "A new number, a rush and a request for secrecy are all warning signs."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A scam promises to turn 50 gold into 500 gold in one day. How many times bigger is that promise?",
+			"answer": "10",
+			"hint": "Divide the promised amount by what you put in.",
+			"explain": "500 ÷ 50 = 10 times: far too good to be true."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why should each account have a different password?",
+			"answer": 0,
+			"hint": "What if a scammer learned one password?",
+			"choices": [
+				"if one leaks, the others stay safe",
+				"it is more fun",
+				"passwords wear out",
+				"games need it"
+			],
+			"explain": "If one password leaks, the others still protect your other accounts."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A pop-up says your device has a virus and asks you to call a number. What is best?",
+			"answer": 0,
+			"hint": "Who made the pop-up, and why the rush?",
+			"choices": [
+				"close it and tell a grown-up",
+				"call the number",
+				"type your password",
+				"pay to fix it"
+			],
+			"explain": "It is a common scam: close it and tell a grown-up."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A website with a padlock sign is always safe.",
+			"answer": false,
+			"hint": "What does the padlock really show?",
+			"explain": "False: the padlock only means the connection is private; scam websites can have one too."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the messages: probably a scam, or probably fine?",
+			"groups": [
+				"probably a scam",
+				"probably fine"
+			],
+			"items": [
+				"You won a prize! Send your password.",
+				"Teacher: homework due on Friday.",
+				"Double your gold: send it to me first!",
+				"Mum: tea is at 6.",
+				"Act now or lose your account!"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Look for the warning signs: prizes, rushing, passwords, secrets, things too good to be true.",
+			"explain": "Scams: a prize that wants your password, an offer to double your gold, and 'act now or lose your account'. Fine: an expected note from your teacher, and Mum about tea."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "You clicked a strange link and typed your password. Order what to do.",
+			"items": [
+				"Change that password with your grown-up.",
+				"Tell a trusted grown-up at once.",
+				"Stop: don't type anything more."
+			],
+			"answer": [
+				2,
+				1,
+				0
+			],
+			"hint": "First stop, then get help, then fix what was shared.",
+			"explain": "Stop and type nothing more, tell a trusted grown-up at once (you are not in trouble), then change that password together."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each scam message to its warning sign.",
+			"items": [
+				"'Free gold maker: log in here'",
+				"'Tell no one, it's our secret'",
+				"'You won!' (you never entered)",
+				"'Only 5 minutes left!'"
+			],
+			"matches": [
+				"a rush",
+				"a fake login page",
+				"too good to be true",
+				"a request for secrecy"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Each message shows one of the signs on cards 2 and 3.",
+			"explain": "A free gold maker that wants you to log in is a fake login page. 'Tell no one' asks for secrecy. A prize you never entered for is too good to be true. 'Only 5 minutes left!' rushes you."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.scam_signs",
+			"level": 1
+		},
+		{
+			"gen": "g6h.scam_signs",
+			"level": 2
+		},
+		{
+			"gen": "g6h.scam_signs",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,349 @@
+{
+	"id": "g5.health_pe.create_a_dance",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a motif in dance? (A short move you repeat and change.) Today you become a choreographer: someone who creates a dance."
+		},
+		{
+			"text": "Start with a stimulus: an idea to dance about, like a storm, a machine, a festival or a story. Brainstorm words for it: a storm could be swirling, crashing, then calm again."
+		},
+		{
+			"text": "Create a motif of about 8 counts from your words. Tap LISTEN and count the steady beat: 1, 2, 3, 4, 5, 6, 7, 8.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 100
+			}
+		},
+		{
+			"text": "Develop your motif: change its speed, its level (high, middle or low), its size, its direction or its dynamics, strong or soft, sharp or smooth. Listen to a motif's rhythm: clap, rest, clap, rest, clap, clap, rest, rest.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"stretch",
+					"stand",
+					"crouch"
+				],
+				"labels": [
+					"high",
+					"middle",
+					"low"
+				]
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-xx--",
+				"tempo": 100
+			}
+		},
+		{
+			"text": "Relationships: unison (all at once), canon (one after another) and mirroring (like a reflection). In question and answer, or action and reaction, one dancer moves and another responds."
+		},
+		{
+			"text": "Formations: dancers can stand in a line, a circle, a V shape or scattered. Changing formation between sections keeps the audience watching, and everyone must know where to go."
+		},
+		{
+			"text": "Structure: a beginning, a middle and an end. In the form ABA, section A comes back at the end. In a rondo, ABACA, A returns between new sections. Start and finish in a still shape.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"A",
+					"B",
+					"A",
+					"C",
+					"A"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a stage with coloured floor blocks and lamps. For real: create a 32-count dance with friends, perform it, then say what went well and what would be even better."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a choreographer?",
+			"answer": 0,
+			"hint": "Who decides the moves and the order of a dance?",
+			"choices": [
+				"someone who creates a dance",
+				"a dancer who only dances alone",
+				"a kind of music",
+				"the stage"
+			],
+			"explain": "A choreographer creates a dance: the moves, the order and where everyone goes."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In unison, all the dancers do the same move at the same time.",
+			"answer": true,
+			"hint": "What does 'uni' mean in a word?",
+			"explain": "True: unison means together, at the same time."
+		},
+		{
+			"type": "rhythm",
+			"level": 1,
+			"prompt": "Listen, then copy the motif's claps and rests in the boxes.",
+			"hint": "Each box is half a beat. Tap a box for each clap, and leave the rests empty.",
+			"explain": "Clap, rest, clap, rest: x-x-.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each dance word to its meaning.",
+			"items": [
+				"unison",
+				"canon",
+				"mirroring",
+				"level"
+			],
+			"matches": [
+				"one after another",
+				"copying like a reflection",
+				"high, middle or low",
+				"all at the same time"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Picture a group of dancers doing each one.",
+			"explain": "Unison: together. Canon: one after another. Mirroring: like a reflection. Level: high, middle or low."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which dancer is at a low level?",
+			"answer": 0,
+			"hint": "A low level is close to the floor.",
+			"choices": [
+				"B",
+				"A",
+				"C"
+			],
+			"explain": "B is crouching, close to the floor: a low level. A reaches up high, and C stands in a wide star shape.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"stretch",
+					"crouch",
+					"star"
+				],
+				"labels": [
+					"A",
+					"B",
+					"C"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is a way to develop a motif?",
+			"answer": 0,
+			"hint": "Developing means changing the same motif, not replacing it.",
+			"choices": [
+				"do it at a lower level",
+				"stop dancing",
+				"do a different dance",
+				"sit down and watch"
+			],
+			"explain": "Do it at a lower level: the motif changes, but it is still the same motif. You could also change its speed or size."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of making a dance in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need an idea before you can make any moves.",
+			"items": [
+				"create a motif",
+				"join the sections",
+				"choose a stimulus",
+				"develop the motif",
+				"perform and review"
+			],
+			"explain": "Choose a stimulus, create a motif, develop it, join the sections, then perform and review."
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Copy the rhythm of this motif.",
+			"hint": "Each box is half a beat. Listen for the quick claps close together.",
+			"explain": "Clap, rest, clap, clap, rest, clap: x-xx-x.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xx-x",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A stimulus is the idea a dance is about.",
+			"answer": true,
+			"hint": "Where does a choreographer's first idea come from?",
+			"explain": "True: a stimulus, like a storm or a story, is what the dance is about."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Relationship or formation?",
+			"groups": [
+				"relationship",
+				"formation"
+			],
+			"items": [
+				"unison",
+				"a circle",
+				"canon",
+				"a V shape",
+				"question and answer",
+				"scattered"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it about how dancers move together, or where they stand?",
+			"explain": "Relationships: unison, canon, question and answer. Formations: a circle, a V shape, scattered."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In a canon, 4 dancers start one count apart. Who finishes last?",
+			"answer": 0,
+			"hint": "Everyone does the same moves, but not at the same time.",
+			"choices": [
+				"dancer 4",
+				"dancer 1",
+				"they all finish together",
+				"dancer 2"
+			],
+			"explain": "Dancer 4: the last to start is the last to finish."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A dance has the form ABA. Section A is 16 counts and section B is 24 counts. How many counts is the whole dance?",
+			"answer": "56",
+			"hint": "Write the form as counts: A, then B, then A again.",
+			"explain": "16 + 24 + 16 = 56 counts."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your storm dance looks the same all the way through. How could you improve it?",
+			"answer": 0,
+			"hint": "What makes an audience notice a change?",
+			"choices": [
+				"add contrasts: fast and slow, strong and soft",
+				"make every move exactly the same",
+				"dance with your eyes shut",
+				"add more of the same move"
+			],
+			"explain": "Add contrasts, like fast and slow or strong and soft, so the storm grows, crashes and calms."
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Copy this longer motif.",
+			"hint": "Each box is half a beat. Count the claps in each half, then fill the boxes.",
+			"explain": "Claps in boxes 1, 2, 4, 6 and 7, rests in boxes 3, 5 and 8: xx-x-xx-. Count the 8 boxes as you clap, like the 8 counts of a motif.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xx-x-xx-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In the form ABACA, section A is danced three times.",
+			"answer": true,
+			"hint": "Count the letter A in ABACA.",
+			"explain": "True: A, then B, then A, then C, then A: three times."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does action and reaction mean in a dance?",
+			"answer": 0,
+			"hint": "Think of a push, and someone being pushed back.",
+			"choices": [
+				"one dancer moves, and another responds",
+				"everyone moves at once",
+				"the dancers stand still",
+				"the audience claps"
+			],
+			"explain": "One dancer does an action, like a push, and another reacts, like falling back."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which gives the clearest ending?",
+			"answer": 0,
+			"hint": "How does the audience know the dance is over?",
+			"choices": [
+				"finish together in a still shape",
+				"stop wherever you are",
+				"walk off one by one while others dance",
+				"keep going after the music stops"
+			],
+			"explain": "Finish together in a still shape, and hold it: everyone can see the dance has ended."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A dance has the form ABACA. Section A is 8 counts, B is 16 counts and C is 12 counts. How many counts is the whole dance?",
+			"answer": "52",
+			"hint": "Count how many times A is danced first.",
+			"explain": "A is danced 3 times: 3 × 8 = 24 counts. Add B and C once each: 24 + 16 + 12 = 52 counts."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.dance_counts",
+			"level": 1
+		},
+		{
+			"gen": "g5w.dance_counts",
+			"level": 2
+		},
+		{
+			"gen": "g5w.dance_counts",
+			"level": 3
+		},
+		{
+			"gen": "g5w.motif_claps",
+			"level": 1
+		},
+		{
+			"gen": "g5w.motif_claps",
+			"level": 2
+		},
+		{
+			"gen": "g5w.motif_claps",
+			"level": 3
+		}
+	]
+}

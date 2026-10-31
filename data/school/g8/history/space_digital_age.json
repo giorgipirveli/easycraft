@@ -1,0 +1,335 @@
+{
+	"id": "g8.history.space_digital_age",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met Galileo's telescope. What did he see going round Jupiter in 1610? (Four moons.) Today: the space race, computers, the internet, and how technology has changed daily life since 1945."
+		},
+		{
+			"text": "After 1945 the USA and the Soviet Union became rivals in a 'Cold War': they never fought each other directly, but competed in arms, sport and science. Space became a race: on 4 October 1957 the Soviet Union launched Sputnik, the first satellite."
+		},
+		{
+			"text": "On 12 April 1961 Yuri Gagarin became the first person in space, and in 1963 the first woman flew. The USA answered with the Apollo programme. Behind it were mathematicians such as Katherine Johnson, who checked the computers' sums.",
+			"picture": {
+				"kind": "rocket_stages",
+				"stages": 3,
+				"labels": true
+			}
+		},
+		{
+			"text": "On 20 July 1969 Apollo 11 landed on the Moon. Neil Armstrong stepped out first: 'one small step for man, one giant leap for mankind'. Twelve astronauts walked on the Moon between 1969 and 1972."
+		},
+		{
+			"text": "The first electronic computers, like Colossus (1944) at Bletchley Park, filled rooms. Transistors (1947) and microchips (about 1959) shrank them. In 1971 a computer's brain fitted on a chip of 2,300 transistors; that number has doubled about every 2 years.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"start",
+						1
+					],
+					[
+						"2 years",
+						2
+					],
+					[
+						"4 years",
+						4
+					],
+					[
+						"6 years",
+						8
+					],
+					[
+						"8 years",
+						16
+					],
+					[
+						"10 years",
+						32
+					]
+				],
+				"step": 4,
+				"top": 32,
+				"name": "Doubling every two years"
+			}
+		},
+		{
+			"text": "In 1969 the first message passed between computers on ARPANET, the internet's ancestor. In 1989 a British scientist at CERN invented the World Wide Web: pages joined by links. It was given free to the world. Smartphones spread from 2007.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1940,
+				"to": 2010,
+				"step": 10,
+				"events": [
+					[
+						1944,
+						"Colossus"
+					],
+					[
+						1957,
+						"Sputnik"
+					],
+					[
+						1961,
+						"Gagarin"
+					],
+					[
+						1969,
+						"Moon landing"
+					],
+					[
+						1989,
+						"World Wide Web"
+					],
+					[
+						2007,
+						"smartphones"
+					]
+				]
+			}
+		},
+		{
+			"text": "Daily life changed: television in most homes by the 1960s, washing machines, cheaper flights, then email, online shopping, video calls and maps in your pocket. Technology also brings new questions about privacy, screen time and AI."
+		},
+		{
+			"text": "Try it in the world: read Katherine Johnson's story in Success Stories, on the Story Shelf. Then build a launch pad in your world: how long would a trip to the Moon take at 1,000 km an hour? Next: geography's climate change."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What was Sputnik?",
+			"choices": [
+				"a computer",
+				"a space station",
+				"the first person on the Moon",
+				"the first satellite in orbit"
+			],
+			"answer": 3,
+			"hint": "It went up in October 1957, launched by the Soviet Union.",
+			"explain": "Sputnik, launched by the Soviet Union in 1957, was the first satellite."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "In which year did people first land on the Moon?",
+			"answer": "1969",
+			"hint": "It was at the end of the 1960s.",
+			"explain": "On 20 July 1969: Apollo 11.",
+			"year": true
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Yuri Gagarin was the first person in space.",
+			"answer": true,
+			"hint": "Think of 12 April 1961.",
+			"explain": "True: he orbited the Earth on 12 April 1961."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: the Soviet Union's firsts, or the USA's?",
+			"groups": [
+				"the Soviet Union",
+				"the USA"
+			],
+			"items": [
+				"the first Moon landing",
+				"the first person in space",
+				"the first woman in space",
+				"the first satellite"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				0
+			],
+			"hint": "The Soviet Union won the early firsts; the USA won the race to the Moon.",
+			"explain": "The Soviet Union: the first satellite, person and woman in space. The USA: the first Moon landing."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, earliest first.",
+			"items": [
+				"the Moon landing (1969)",
+				"the World Wide Web (1989)",
+				"Gagarin in space (1961)",
+				"Sputnik (1957)",
+				"Colossus (1944)"
+			],
+			"answer": [
+				4,
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "Compare the years.",
+			"explain": "1944, 1957, 1961, 1969, 1989."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The first message on ARPANET was sent in 1969 and the World Wide Web was invented in 1989. How many years apart?",
+			"answer": "20",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1989 − 1969 = 20 years."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each invention to what it does.",
+			"items": [
+				"the transistor",
+				"the microprocessor",
+				"the World Wide Web",
+				"a satellite"
+			],
+			"matches": [
+				"circles the Earth",
+				"a computer's brain on a chip",
+				"a tiny electronic switch",
+				"pages joined by links"
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "A switch, a brain, pages and an orbit.",
+			"explain": "Transistor: a tiny switch. Microprocessor: a computer's brain on one chip. The Web: linked pages. Satellite: circles the Earth."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why did the USA and the Soviet Union race into space?",
+			"choices": [
+				"to deliver post",
+				"to show whose science and system was best",
+				"to find new places to live",
+				"they were best friends"
+			],
+			"answer": 1,
+			"hint": "Think about what a 'Cold War' rivalry was about.",
+			"explain": "Each wanted to prove its science and its way of running a country were the best."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Radio signals take about 1.3 seconds to travel from the Moon to the Earth. About how many seconds for a question to the Moon and its answer back?",
+			"answer": "2.6",
+			"hint": "The signal makes the trip twice: there and back.",
+			"explain": "1.3 + 1.3 = 2.6 seconds."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Smartphones were common in the 1960s.",
+			"answer": false,
+			"hint": "Think of when touch-screen smartphones spread.",
+			"explain": "False: they spread from 2007; in the 1960s computers filled whole rooms."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How did chips doubling every two years change daily life?",
+			"choices": [
+				"it ended television",
+				"computers got bigger and slower",
+				"it stopped the space race",
+				"cheap chips put computers in homes and pockets"
+			],
+			"answer": 3,
+			"hint": "If chips double in power every two years, what happens to their price and size?",
+			"explain": "Chips got far more powerful and cheaper, so computers moved into homes in the 1980s and pockets after 2007."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Moon is about 384,000 km away. At 1,000 km an hour, how many hours would the trip take?",
+			"answer": "384",
+			"hint": "Divide the distance by the speed.",
+			"explain": "384,000 ÷ 1,000 = 384 hours, which is 16 days."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did Katherine Johnson's work matter to the space programme?",
+			"choices": [
+				"she built the rockets",
+				"she was an astronaut",
+				"she checked the sums that steered the craft",
+				"she sold the tickets"
+			],
+			"answer": 2,
+			"hint": "Think of the Story Shelf's 'Check the numbers'.",
+			"explain": "She worked out and checked the paths that took astronauts safely into orbit and back."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: before 1945, or since 1945?",
+			"groups": [
+				"before 1945",
+				"since 1945"
+			],
+			"items": [
+				"video calls",
+				"the first electronic computer",
+				"the first steam railway",
+				"the World Wide Web",
+				"people on the Moon",
+				"the Wright brothers' flight"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Think about the timeline on the lesson's cards, and earlier units.",
+			"explain": "Before 1945: Colossus (1944), the Wright brothers (1903), steam railways (1825). Since: the Web, the Moon, video calls."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "New technology brings only good things.",
+			"answer": false,
+			"hint": "Think about privacy, screen time and how AI is used.",
+			"explain": "False: it brings huge benefits and new questions, such as privacy, screen time and fairness, for citizens to think about."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.moore_doubling",
+			"level": 1
+		},
+		{
+			"gen": "g8h.moore_doubling",
+			"level": 2
+		},
+		{
+			"gen": "g8h.moore_doubling",
+			"level": 3
+		},
+		{
+			"gen": "g8h.space_firsts",
+			"level": 1
+		},
+		{
+			"gen": "g8h.space_firsts",
+			"level": 2
+		},
+		{
+			"gen": "g8h.space_firsts",
+			"level": 3
+		}
+	]
+}

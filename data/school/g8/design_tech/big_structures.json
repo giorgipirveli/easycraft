@@ -1,0 +1,404 @@
+{
+	"id": "g8.design_tech.big_structures",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met the forces in structures. Which force squashes, and which stretches? (Compression squashes; tension stretches.) Today: how towers and bridges stand up to wind and earthquakes."
+		},
+		{
+			"text": "Big structures carry loads. The dead load is the structure's own mass; live loads come and go, like people and traffic. Wind, snow and earthquakes add environmental loads.",
+			"picture": {
+				"kind": "struct_force",
+				"forces": [
+					"compression",
+					"tension",
+					"bending"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Engineers use a factor of safety: the load that would break a part ÷ the load it should carry. A cable that breaks at 600 kN and carries 150 kN: 600 ÷ 150 = 4."
+		},
+		{
+			"text": "Tall towers in the wind need a wide base, a stiff core, cross-bracing and a shape the wind slips past. A tuned mass damper, a huge mass near the top, sways against the building and calms it.",
+			"picture": {
+				"kind": "tall_structure",
+				"type": "damper",
+				"labels": true
+			}
+		},
+		{
+			"text": "In an earthquake, base isolation lets the ground shake beneath a building that sits on rubber bearings, so the building moves gently. Flexible steel frames bend without breaking.",
+			"picture": {
+				"kind": "tall_structure",
+				"type": "isolation",
+				"labels": true
+			}
+		},
+		{
+			"text": "A suspension bridge hangs its deck from cables over towers, fixed at each end in anchorages. The cables are in tension and the towers in compression. A cable-stayed bridge runs cables straight to the deck.",
+			"picture": {
+				"kind": "tall_structure",
+				"type": "suspension",
+				"labels": true
+			}
+		},
+		{
+			"text": "Designs are tested first: models in a wind tunnel or on a shake table, and computer models. In 1940 the Tacoma Narrows Bridge twisted in the wind and fell; since then, bridge shapes are tested in the wind.",
+			"picture": {
+				"kind": "tall_structure",
+				"type": "cable_stayed"
+			}
+		},
+		{
+			"text": "Try it in the world: build a paper tower and test it with a fan, then add cross-bracing. In LIFE, Earth and Weather practises sheltering safely in an earthquake, and Real Builder lays a strong wall in bond. Next: nutrition for life."
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "A dead load or a live load?",
+			"groups": [
+				"dead load",
+				"live load"
+			],
+			"items": [
+				"the concrete floors",
+				"lorries crossing",
+				"the bridge's own deck",
+				"people in the stadium",
+				"the steel frame"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it part of the structure itself, or does it come and go?",
+			"explain": "Dead: the deck, the frame, the floors. Live: lorries and people, which come and go."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a suspension bridge, the main cables are in…",
+			"choices": [
+				"tension",
+				"compression",
+				"shear",
+				"torsion"
+			],
+			"answer": 0,
+			"hint": "The deck hangs from them: are they squashed or stretched?",
+			"explain": "The deck pulls down on the cables, stretching them: they are in tension."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A cable breaks at 600 kN and carries 150 kN. What is its factor of safety?",
+			"answer": "4",
+			"hint": "Factor of safety = breaking load ÷ working load.",
+			"explain": "600 ÷ 150 = 4."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A tuned mass damper sways against the building's sway to calm it.",
+			"picture": {
+				"kind": "tall_structure",
+				"type": "damper"
+			},
+			"answer": true,
+			"hint": "Look at the mass near the top of the tower.",
+			"explain": "True: the huge mass swings the opposite way, so the building sways much less."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each feature to the danger it fights.",
+			"items": [
+				"tuned mass damper",
+				"base isolation",
+				"deep piles",
+				"expansion joints"
+			],
+			"matches": [
+				"hot weather",
+				"soft ground",
+				"earthquakes",
+				"swaying in the wind"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Wind, shaking, soft ground or heat?",
+			"explain": "Damper: wind sway. Isolation: earthquakes. Piles: soft ground. Expansion joints: heat."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the suspension bridge: tap a word, then its number.",
+			"picture": {
+				"kind": "tall_structure",
+				"type": "suspension",
+				"pins": true
+			},
+			"labels": [
+				"tower",
+				"main cable",
+				"hangers",
+				"deck",
+				"anchorage"
+			],
+			"hint": "Follow the load: the deck hangs from hangers, on the main cable, over the towers, into the ground.",
+			"explain": "The deck hangs on hangers from the main cable, which runs over the towers to the anchorages.",
+			"spots": [
+				[
+					0.4489,
+					0.09,
+					0.4168,
+					0.4667
+				],
+				[
+					0.5999,
+					0.91,
+					0.5999,
+					0.5533
+				],
+				[
+					0.7997,
+					0.91,
+					0.7997,
+					0.5799
+				],
+				[
+					0.1087,
+					0.91,
+					0.1087,
+					0.6266
+				],
+				[
+					0.3335,
+					0.09,
+					0.3335,
+					0.3801
+				]
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A beam breaks at 900 kN and needs a factor of safety of 3. What is the most load it should carry, in kN?",
+			"answer": "300",
+			"hint": "Working load = breaking load ÷ factor of safety.",
+			"explain": "900 ÷ 3 = 300 kN."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do tall towers often have wide bases?",
+			"choices": [
+				"to stop them tipping over",
+				"to look grand",
+				"to save materials",
+				"to make them sway more"
+			],
+			"answer": 0,
+			"hint": "Think about a traffic cone.",
+			"explain": "A wide base keeps the centre of mass over the base, so the tower is stable in wind."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Base isolation fixes a building rigidly to the ground.",
+			"picture": {
+				"kind": "tall_structure",
+				"type": "isolation"
+			},
+			"answer": false,
+			"hint": "Look at what sits between the building and the foundation.",
+			"explain": "False: rubber bearings let the ground move beneath the building, so less shaking reaches it."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put testing a new tower design in order.",
+			"items": [
+				"change the design",
+				"test it in a wind tunnel",
+				"build a scale model",
+				"test it again",
+				"find where it sways most"
+			],
+			"answer": [
+				2,
+				1,
+				4,
+				0,
+				3
+			],
+			"hint": "Model, test, find the weak point, improve, retest.",
+			"explain": "Build a model, test it, find the problem, change the design and test again."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What did the Tacoma Narrows Bridge teach engineers in 1940?",
+			"choices": [
+				"to test bridge shapes in the wind",
+				"that bridges need no towers",
+				"that steel is too weak",
+				"to build only in summer"
+			],
+			"answer": 0,
+			"hint": "The bridge twisted in the wind. What did engineers start doing?",
+			"explain": "Wind made the deck twist until it fell, so bridge shapes are now tested in wind tunnels before building."
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label the tower: tap a word, then its number.",
+			"picture": {
+				"kind": "tall_structure",
+				"type": "damper",
+				"pins": true
+			},
+			"labels": [
+				"tuned mass damper",
+				"stiff core",
+				"cross-bracing",
+				"piles"
+			],
+			"hint": "Top to bottom: what sways, what stands in the middle, what makes triangles, what goes into the ground?",
+			"explain": "The tuned mass damper hangs near the top, the stiff core runs up the middle, cross-bracing makes triangles, and piles go deep into the ground.",
+			"spots": [
+				[
+					0.94,
+					0.5533,
+					0.5,
+					0.5533
+				],
+				[
+					0.06,
+					0.64,
+					0.4556,
+					0.6421
+				],
+				[
+					0.06,
+					0.88,
+					0.4667,
+					0.873
+				],
+				[
+					0.94,
+					0.2336,
+					0.5,
+					0.2336
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A bridge cable will carry 250 kN and needs a factor of safety of 4. What breaking load must it have, at least, in kN?",
+			"answer": "1000",
+			"hint": "Breaking load = working load × factor of safety.",
+			"explain": "250 × 4 = 1,000 kN."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In a suspension bridge, the towers are in…",
+			"choices": [
+				"compression",
+				"tension",
+				"torsion",
+				"no force at all"
+			],
+			"answer": 0,
+			"hint": "The cables press down on the tower tops.",
+			"explain": "The cables pull down on the tower tops, squashing the towers: they are in compression."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A dead, live or environmental load?",
+			"groups": [
+				"dead",
+				"live",
+				"environmental"
+			],
+			"items": [
+				"the steel frame",
+				"the bridge's own deck",
+				"a strong wind",
+				"lorries crossing",
+				"furniture and people",
+				"snow on the roof"
+			],
+			"answer": [
+				0,
+				0,
+				2,
+				1,
+				1,
+				2
+			],
+			"hint": "The structure itself, what comes and goes, or what nature brings?",
+			"explain": "Dead: the frame and the deck. Live: furniture, people and lorries. Environmental: wind and snow."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A factor of safety of 1 means a part would break at exactly its working load.",
+			"answer": true,
+			"hint": "Work out breaking ÷ working when they are equal.",
+			"explain": "True: breaking ÷ working = 1 means no margin at all, which is why engineers use factors above 1."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.safety_factor",
+			"level": 1
+		},
+		{
+			"gen": "g8l.safety_factor",
+			"level": 2
+		},
+		{
+			"gen": "g8l.safety_factor",
+			"level": 3
+		},
+		{
+			"gen": "g8l.structure_feature",
+			"level": 1
+		},
+		{
+			"gen": "g8l.structure_feature",
+			"level": 2
+		},
+		{
+			"gen": "g8l.structure_feature",
+			"level": 3
+		}
+	]
+}

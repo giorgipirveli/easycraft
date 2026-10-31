@@ -1,0 +1,597 @@
+{
+	"id": "g7.music.baroque",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, when were the first operas written? (Around 1600.) Today: Baroque music, from about 1600 to 1750."
+		},
+		{
+			"text": "Baroque music is busy and decorated, over a steady beat. The harpsichord plucks its strings, so it cannot play louder by pressing harder: the music changes loudness in sudden steps, terraced dynamics. Listen: loud, then an echo.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"E5",
+					"G5",
+					"E5",
+					"-:4"
+				],
+				"parts": [
+					{
+						"notes": [
+							"-:4",
+							"C5",
+							"E5",
+							"G5",
+							"E5"
+						],
+						"volume": 0.3
+					}
+				]
+			}
+		},
+		{
+			"text": "Basso continuo: a bass line played all the way through by a cello or a bassoon. A harpsichord or an organ fills in the chords. It holds the music up like a floor."
+		},
+		{
+			"text": "A ground bass is a short bass line that repeats again and again while the music above changes. Johann Pachelbel (1653-1706) built his Canon on a ground bass of 8 notes: D, A, B, F sharp, G, D, G, A.",
+			"picture": {
+				"kind": "tracks",
+				"bars": 8,
+				"tracks": [
+					[
+						"melody",
+						[
+							[
+								2,
+								2
+							],
+							[
+								4,
+								2
+							],
+							[
+								6,
+								2
+							]
+						]
+					],
+					[
+						"bass",
+						[
+							[
+								0,
+								2
+							],
+							[
+								2,
+								2
+							],
+							[
+								4,
+								2
+							],
+							[
+								6,
+								2
+							]
+						]
+					]
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D3",
+					"A2",
+					"B2",
+					"F#2",
+					"G2",
+					"D2",
+					"G2",
+					"A2"
+				]
+			}
+		},
+		{
+			"text": "Ornaments decorate a note: a trill turns quickly between the note and the one above; a mordent is the note, the one above and back; a turn goes above, the note, below and back.",
+			"picture": {
+				"kind": "ornament_signs",
+				"type": "trill",
+				"note": "C5",
+				"played": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D5",
+					"C5",
+					"D5",
+					"C5",
+					"D5",
+					"C5",
+					"D5",
+					"C5:2"
+				],
+				"beat": 0.15
+			}
+		},
+		{
+			"text": "Antonio Vivaldi (1678-1741) wrote hundreds of concertos: a soloist against an orchestra, fast, slow, fast. His Four Seasons, printed in 1725, paints birdsong, storms and shivering winter in sound."
+		},
+		{
+			"text": "Johann Sebastian Bach (1685-1750) wrote fugues, where one tune enters in each part in turn and they weave together. George Frideric Handel (1685-1759) wrote Messiah (1741), with its Hallelujah Chorus.",
+			"picture": {
+				"kind": "lifespans",
+				"people": [
+					[
+						"Vivaldi",
+						1678,
+						1741
+					],
+					[
+						"Bach",
+						1685,
+						1750
+					],
+					[
+						"Handel",
+						1685,
+						1759
+					]
+				],
+				"from": 1670,
+				"to": 1770
+			}
+		},
+		{
+			"text": "Try it in the world: hum a short bass line over and over while someone makes up a new tune on top each time: a ground bass. Next: the Classical era."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "About when was the Baroque period?",
+			"answer": 0,
+			"hint": "It began with the first operas and ended with Bach's death.",
+			"choices": [
+				"1600 to 1750",
+				"1750 to 1820",
+				"1100 to 1300",
+				"1900 to 2000"
+			],
+			"explain": "About 1600 to 1750."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A harpsichord plays louder when you press its keys harder.",
+			"answer": false,
+			"hint": "How does a harpsichord make its sound?",
+			"explain": "False: it plucks the strings the same way however hard you press, so Baroque music changes loudness in steps."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a ground bass?",
+			"answer": 0,
+			"hint": "Think of Pachelbel's Canon.",
+			"choices": [
+				"a short bass line repeated again and again",
+				"a very loud drum",
+				"the lowest singer",
+				"a bass line played once"
+			],
+			"explain": "A short bass line that keeps repeating while the music above changes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen: does the bass line repeat?",
+			"answer": 0,
+			"hint": "Listen to the low notes only.",
+			"choices": [
+				"yes, again and again",
+				"no, it changes every time"
+			],
+			"explain": "The same four low notes come round again and again under a changing tune: a ground bass.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D5",
+					"F#5",
+					"A5",
+					"F#5",
+					"G5",
+					"B5",
+					"A5",
+					"F#5",
+					"E5",
+					"D5",
+					"C#5",
+					"D5:4"
+				],
+				"parts": [
+					{
+						"notes": [
+							"D3:2",
+							"A2:2",
+							"B2:2",
+							"F#2:2",
+							"D3:2",
+							"A2:2",
+							"B2:2",
+							"F#2:2"
+						],
+						"volume": 0.6
+					}
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each composer to a famous work.",
+			"items": [
+				"Vivaldi",
+				"Handel",
+				"Pachelbel",
+				"Bach"
+			],
+			"matches": [
+				"Messiah",
+				"the Canon",
+				"fugues for keyboard",
+				"The Four Seasons"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Pachelbel is known for one piece above all.",
+			"explain": "Vivaldi: The Four Seasons; Handel: Messiah; Pachelbel: the Canon; Bach: fugues."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which ornament is this?",
+			"answer": 0,
+			"hint": "Look for tr and a wavy line.",
+			"choices": [
+				"a trill",
+				"a mordent",
+				"a turn"
+			],
+			"explain": "tr with a wavy line is a trill: the note and the one above, quickly, again and again.",
+			"picture": {
+				"kind": "ornament_signs",
+				"type": "trill",
+				"note": "C5"
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D5",
+					"C5",
+					"D5",
+					"C5",
+					"D5",
+					"C5",
+					"D5",
+					"C5:2"
+				],
+				"beat": 0.15
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: the same phrase is played twice. How does the loudness change?",
+			"answer": 0,
+			"hint": "Compare the second time with the first.",
+			"choices": [
+				"loud, then suddenly soft",
+				"soft, then loud",
+				"louder bit by bit",
+				"it stays the same"
+			],
+			"explain": "Loud, then a sudden soft echo: terraced dynamics, as a harpsichord or an organ plays them.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"E5",
+					"G5",
+					"E5",
+					"-:4"
+				],
+				"parts": [
+					{
+						"notes": [
+							"-:4",
+							"C5",
+							"E5",
+							"G5",
+							"E5"
+						],
+						"volume": 0.3
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which notes does this ornament play?",
+			"answer": 0,
+			"hint": "Name the ornament from its sign first: a short zigzag.",
+			"choices": [
+				"G A G",
+				"A G F G",
+				"A G A G A G A G",
+				"G F G"
+			],
+			"explain": "A mordent: the note, the one above and back: G A G.",
+			"picture": {
+				"kind": "ornament_signs",
+				"type": "mordent",
+				"note": "G4"
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"G4:2"
+				],
+				"beat": 0.2
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which notes does this ornament play?",
+			"answer": 0,
+			"hint": "tr and a wavy line: which ornament is it?",
+			"choices": [
+				"E D E D E D E D",
+				"D E D",
+				"E D C D",
+				"D C D"
+			],
+			"explain": "A trill on D, starting on the note above: E D E D E D E D.",
+			"picture": {
+				"kind": "ornament_signs",
+				"type": "trill",
+				"note": "D5"
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5",
+					"D5",
+					"E5",
+					"D5",
+					"E5",
+					"D5",
+					"E5",
+					"D5:2"
+				],
+				"beat": 0.15
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bach was born in 1685 and died in 1750. How many years is that?",
+			"answer": "65",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1750 − 1685 = 65 years."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In a concerto, a soloist plays with and against an orchestra.",
+			"answer": true,
+			"hint": "Think of Vivaldi's violin concertos.",
+			"explain": "True: the soloist and the orchestra take turns and play together."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: which part repeats, the tune or the bass?",
+			"answer": 0,
+			"hint": "Follow the low notes, then the high ones.",
+			"choices": [
+				"the bass",
+				"the tune"
+			],
+			"explain": "The low part plays the same notes again and again; the tune above keeps changing.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A4",
+					"B4",
+					"C#5",
+					"D5",
+					"E5",
+					"F#5",
+					"E5",
+					"D5:4"
+				],
+				"parts": [
+					{
+						"notes": [
+							"D3",
+							"A2",
+							"B2",
+							"F#2",
+							"D3",
+							"A2",
+							"B2",
+							"F#2",
+							"D3:4"
+						],
+						"volume": 0.6
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen: how many times does the ground bass play?",
+			"answer": "3",
+			"hint": "Listen for the start of the low pattern each time.",
+			"explain": "The four low notes play 3 times while the tune above changes.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"D5",
+					"E5",
+					"F#5",
+					"D5",
+					"A5",
+					"G5",
+					"F#5",
+					"E5",
+					"D5",
+					"C#5",
+					"E5",
+					"D5"
+				],
+				"parts": [
+					{
+						"notes": [
+							"D3",
+							"B2",
+							"G2",
+							"A2",
+							"D3",
+							"B2",
+							"G2",
+							"A2",
+							"D3",
+							"B2",
+							"G2",
+							"A2"
+						],
+						"volume": 0.6
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many notes does the ground bass of Pachelbel's Canon have?",
+			"answer": "8",
+			"hint": "Say the bass notes as you listen, and count each one: D, A, B, F sharp and on.",
+			"explain": "D, A, B, F sharp, G, D, G, A: 8 notes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which notes does this ornament play?",
+			"answer": 0,
+			"hint": "A lying S is a turn: above, the note, below, the note.",
+			"choices": [
+				"F E D E",
+				"E F E",
+				"F E F E F E F E",
+				"E D E"
+			],
+			"explain": "A turn on E: F, E, D, E.",
+			"picture": {
+				"kind": "ornament_signs",
+				"type": "turn",
+				"note": "E5"
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"F5",
+					"E5",
+					"D5",
+					"E5:2"
+				],
+				"beat": 0.2
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does Baroque music change loudness in sudden steps?",
+			"answer": 0,
+			"hint": "Think of how a harpsichord makes its sound.",
+			"choices": [
+				"harpsichords could not get gradually louder",
+				"composers disliked loud music",
+				"the halls were small",
+				"the audience asked for it"
+			],
+			"explain": "A harpsichord plucks every note the same, so loudness changed by adding or dropping instruments: in steps."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort into Baroque and Classical.",
+			"groups": [
+				"Baroque",
+				"Classical"
+			],
+			"items": [
+				"a harpsichord continuo",
+				"a ground bass",
+				"a fugue",
+				"a symphony in four movements",
+				"an Alberti bass"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Baroque ended about 1750; the Classical era followed with the piano and the symphony.",
+			"explain": "Continuo, ground bass and fugue are Baroque; the four-movement symphony and the Alberti bass are Classical."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Vivaldi's Four Seasons is 4 concertos, each in 3 movements: fast, slow, fast. How many fast movements are there in all?",
+			"answer": "8",
+			"hint": "How many fast movements does one concerto have?",
+			"explain": "Each concerto has 2 fast movements and 1 slow one. 4 × 2 = 8 fast movements, and 4 slow ones: 12 movements in all."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.ornament_play",
+			"level": 1
+		},
+		{
+			"gen": "g7c.ornament_play",
+			"level": 2
+		},
+		{
+			"gen": "g7c.ornament_play",
+			"level": 3
+		},
+		{
+			"gen": "g7c.era_facts",
+			"level": 1
+		},
+		{
+			"gen": "g7c.era_facts",
+			"level": 2
+		},
+		{
+			"gen": "g7c.era_facts",
+			"level": 3
+		}
+	]
+}

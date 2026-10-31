@@ -1,0 +1,526 @@
+{
+	"id": "g7.music.classical_era",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a ground bass? (A short bass line repeated while the music above changes.) Today: the Classical era, from about 1750 to 1820."
+		},
+		{
+			"text": "Classical music is clear and balanced: tunes in neat phrases, often a question and then an answer, over a simple accompaniment. Listen: the first phrase asks, the second answers and ends at home.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"E5",
+					"G5",
+					"E5",
+					"D5:4",
+					"C5",
+					"E5",
+					"D5",
+					"B4",
+					"C5:4"
+				],
+				"beat": 0.35
+			}
+		},
+		{
+			"text": "The piano took over from the harpsichord: it plays soft and loud, and can grow louder bit by bit (a crescendo). The orchestra grew too, and the clarinet joined it."
+		},
+		{
+			"text": "An Alberti bass breaks a chord into a pattern, low, high, middle, high (C, G, E, G). It repeats again and again under the tune, and keeps the music moving without getting in the way.",
+			"picture": {
+				"kind": "clef_stave",
+				"clef": "bass",
+				"notes": [
+					"C3",
+					"G3",
+					"E3",
+					"G3"
+				],
+				"values": [
+					"quaver",
+					"quaver",
+					"quaver",
+					"quaver"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"G3",
+					"E3",
+					"G3",
+					"C3",
+					"G3",
+					"E3",
+					"G3",
+					"B2",
+					"G3",
+					"D3",
+					"G3",
+					"C3",
+					"G3",
+					"E3",
+					"G3"
+				],
+				"beat": 0.2
+			}
+		},
+		{
+			"text": "A symphony is a big piece for orchestra, usually in four movements: fast, slow, a minuet and trio (a dance in 3 beats), and a fast finale.",
+			"picture": {
+				"kind": "symphony_plan",
+				"view": "movements"
+			}
+		},
+		{
+			"text": "The first movement often uses sonata form: the exposition gives two themes, the development changes them in new keys, and the recapitulation brings both back home.",
+			"picture": {
+				"kind": "symphony_plan",
+				"view": "sonata"
+			}
+		},
+		{
+			"text": "Joseph Haydn (1732-1809) is called the father of the symphony. Wolfgang Amadeus Mozart (1756-1791) wrote music from the age of 5. Ludwig van Beethoven (1770-1827) kept composing as he went deaf; his Fifth opens short-short-short-long.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"G4",
+					"G4",
+					"Eb4:4",
+					"-",
+					"F4",
+					"F4",
+					"F4",
+					"D4:4"
+				],
+				"beat": 0.3
+			}
+		},
+		{
+			"text": "Try it in the world: listen to a Classical symphony and follow its four movements; in the first, listen for the moment the first theme comes back home. Next: how popular music is built."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "About when was the Classical era?",
+			"answer": 0,
+			"hint": "It came straight after the Baroque.",
+			"choices": [
+				"1750 to 1820",
+				"1600 to 1750",
+				"1900 to 2000",
+				"1400 to 1600"
+			],
+			"explain": "About 1750 to 1820."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many movements does a Classical symphony usually have?",
+			"answer": 0,
+			"hint": "Fast, slow, a dance, fast.",
+			"choices": [
+				"four",
+				"one",
+				"two",
+				"ten"
+			],
+			"explain": "Four: fast, slow, a minuet and trio, and a fast finale.",
+			"picture": {
+				"kind": "symphony_plan",
+				"view": "movements"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The piano can grow louder bit by bit, which the harpsichord cannot.",
+			"answer": true,
+			"hint": "Think of a crescendo.",
+			"explain": "True: the harder you press a piano key, the louder the note."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen to this famous opening. Who wrote it?",
+			"answer": 0,
+			"hint": "Listen to its rhythm: three short notes, then a long one.",
+			"choices": [
+				"Beethoven",
+				"Bach",
+				"Vivaldi",
+				"Pachelbel"
+			],
+			"explain": "It is the opening of Beethoven's Fifth Symphony (1808).",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"G4",
+					"G4",
+					"Eb4:4",
+					"-",
+					"F4",
+					"F4",
+					"F4",
+					"D4:4"
+				],
+				"beat": 0.3
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each composer to a fact.",
+			"items": [
+				"Haydn",
+				"Mozart",
+				"Beethoven"
+			],
+			"matches": [
+				"composing at the age of 5",
+				"composed as he went deaf",
+				"father of the symphony"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Haydn wrote 104 symphonies; Mozart began young.",
+			"explain": "Haydn wrote 104 symphonies; Mozart wrote 41 numbered symphonies; Beethoven wrote nine symphonies and kept going as he went deaf."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which pattern is the bass playing?",
+			"answer": 0,
+			"hint": "Follow the notes: which is lowest, which highest?",
+			"choices": [
+				"low, high, middle, high",
+				"low, middle, high, middle",
+				"the same note again and again",
+				"high, low, high, low"
+			],
+			"explain": "Low C, high G, middle E, high G: an Alberti bass.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"G3",
+					"E3",
+					"G3",
+					"C3",
+					"G3",
+					"E3",
+					"G3"
+				],
+				"beat": 0.3
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: a question and an answer. Which phrase sounds finished?",
+			"answer": 0,
+			"hint": "Which one ends on the home note?",
+			"choices": [
+				"the second",
+				"the first"
+			],
+			"explain": "The first ends on D and asks; the second ends on C, home, and answers.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"E5",
+					"G5",
+					"E5",
+					"D5:4",
+					"C5",
+					"E5",
+					"D5",
+					"B4",
+					"C5:4"
+				],
+				"beat": 0.35
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What happens in the recapitulation?",
+			"answer": 0,
+			"hint": "Recapitulate means to go over again.",
+			"choices": [
+				"both themes come back in the home key",
+				"new themes are made up",
+				"the music stops",
+				"the orchestra tunes up"
+			],
+			"explain": "Both themes return, now in the home key.",
+			"picture": {
+				"kind": "symphony_plan",
+				"view": "sonata",
+				"hide": 2
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Mozart lived from 1756 to 1791. How old was he when he died?",
+			"answer": "35",
+			"hint": "Take the earlier year from the later one (his birthday was in January).",
+			"explain": "1791 − 1756 = 35: he died at 35, having written over 600 works."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The third movement of a Classical symphony is often a minuet, a dance in 3 beats.",
+			"answer": true,
+			"hint": "Think of the four movements.",
+			"explain": "True: a minuet and trio in 3/4."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which movement is marked?",
+			"answer": 0,
+			"hint": "It is the second of four.",
+			"choices": [
+				"the slow movement",
+				"the fast first movement",
+				"the minuet",
+				"the finale"
+			],
+			"explain": "The second movement is usually the slow one.",
+			"picture": {
+				"kind": "symphony_plan",
+				"view": "movements",
+				"mark": 1
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. What is the tune played over?",
+			"answer": 0,
+			"hint": "Listen to the low part's pattern.",
+			"choices": [
+				"an Alberti bass",
+				"a ground bass",
+				"a drone",
+				"nothing"
+			],
+			"explain": "A broken chord, low, high, middle, high, keeps moving under the tune: an Alberti bass.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5:2",
+					"G5:2",
+					"F5",
+					"E5",
+					"D5:2",
+					"C5:4",
+					"D5:2",
+					"B4:2"
+				],
+				"beat": 0.25,
+				"parts": [
+					{
+						"notes": [
+							"C3",
+							"G3",
+							"E3",
+							"G3",
+							"C3",
+							"G3",
+							"E3",
+							"G3",
+							"B2",
+							"G3",
+							"D3",
+							"G3",
+							"C3",
+							"G3",
+							"E3",
+							"G3"
+						],
+						"volume": 0.5
+					}
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the parts of sonata form in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Give, change, return, end.",
+			"items": [
+				"coda",
+				"recapitulation",
+				"development",
+				"exposition"
+			],
+			"explain": "Exposition (the themes), development (changed), recapitulation (back home), coda (the ending)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which rhythm opens Beethoven's Fifth Symphony?",
+			"answer": 0,
+			"hint": "Listen and tap along.",
+			"choices": [
+				"short-short-short-long",
+				"long-long-long-short",
+				"short-long-short-long",
+				"all long notes"
+			],
+			"explain": "Three short notes and one long one, twice.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"G4",
+					"G4",
+					"Eb4:4",
+					"-",
+					"F4",
+					"F4",
+					"F4",
+					"D4:4"
+				],
+				"beat": 0.3
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is Beethoven called a bridge between two eras?",
+			"answer": 0,
+			"hint": "What came after the Classical era?",
+			"choices": [
+				"his later music leads into the Romantic era",
+				"he wrote in the Baroque style",
+				"he only wrote operas",
+				"he lived before Bach"
+			],
+			"explain": "He began in the Classical style, and his later, bigger, stormier music leads into Romantic music."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen to this tune from Beethoven's Ninth Symphony. What is it called?",
+			"answer": 0,
+			"hint": "It is sung by a choir in the last movement.",
+			"choices": [
+				"Ode to Joy",
+				"The Four Seasons",
+				"the Hallelujah Chorus",
+				"the Surprise Symphony"
+			],
+			"explain": "Ode to Joy, from Beethoven's Ninth Symphony (1824).",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4",
+					"E4",
+					"F4",
+					"G4",
+					"G4",
+					"F4",
+					"E4",
+					"D4",
+					"C4",
+					"C4",
+					"D4",
+					"E4",
+					"E4:2",
+					"D4",
+					"D4:2"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: the Baroque era, or the Classical era that came after it?",
+			"groups": [
+				"Baroque",
+				"Classical"
+			],
+			"items": [
+				"the harpsichord leads",
+				"the piano takes over",
+				"a ground bass",
+				"an Alberti bass",
+				"Bach",
+				"Haydn"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The Classical era began about 1750. Which belong to the earlier Baroque?",
+			"explain": "Baroque (about 1600 to 1750): the harpsichord, the ground bass and Bach. Classical (about 1750 to 1820): the piano, the Alberti bass and Haydn."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Beethoven was born in 1770 and Mozart died in 1791. How old was Beethoven when Mozart died?",
+			"answer": "21",
+			"hint": "Take Beethoven's birth year away from 1791.",
+			"explain": "1791 − 1770 = 21: Beethoven was 21 (or turning 21) when Mozart died. Both composed in the Classical era."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the four movements of a Classical symphony.",
+			"items": [
+				"a minuet and trio",
+				"a fast finale",
+				"a fast first movement",
+				"a slow movement"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Fast, slow, a dance, then fast again.",
+			"explain": "A fast first movement, often in sonata form, then a slow movement, a minuet and trio in 3 beats, and a fast finale."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.era_facts",
+			"level": 1
+		},
+		{
+			"gen": "g7c.era_facts",
+			"level": 2
+		},
+		{
+			"gen": "g7c.era_facts",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,324 @@
+{
+	"id": "g4.design_tech.bread_grains",
+	"lesson": [
+		{
+			"text": "Quick memory: what is flour made from? (Ground wheat.) Today: how wheat becomes flour and bread, and what yeast does."
+		},
+		{
+			"text": "Wheat was one of the first crops people farmed, about 10,000 years ago in the Middle East. Today it grows all over the world. Its grains grow in ears at the top of tall stalks."
+		},
+		{
+			"text": "At harvest, a combine harvester cuts the wheat and separates the grain from the stalks, which become straw. The grain goes to a mill to be ground into flour. Wholemeal flour uses the whole grain.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Wheat in the field"
+					},
+					{
+						"shape": "step",
+						"text": "Combine harvester"
+					},
+					{
+						"shape": "step",
+						"text": "Mill grinds the grain"
+					},
+					{
+						"shape": "end",
+						"text": "Flour"
+					}
+				]
+			}
+		},
+		{
+			"text": "Other grains feed the world too: rice, maize, oats, barley, rye and millet. Grains are starchy foods that give us energy, and wholegrains give us fibre as well."
+		},
+		{
+			"text": "Bread needs flour, water, yeast and a little salt. One loaf: 500 g of flour, 300 mL of water, 7 g of yeast and 10 g of salt. Mix them, then knead the dough for about 10 minutes, until it is smooth and stretchy.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"ingredient",
+						"one loaf"
+					],
+					[
+						"flour",
+						"500 g"
+					],
+					[
+						"water",
+						"300 mL"
+					],
+					[
+						"yeast",
+						"7 g"
+					],
+					[
+						"salt",
+						"10 g"
+					]
+				]
+			}
+		},
+		{
+			"text": "Yeast is alive: a tiny fungus. In warm dough it feeds on sugars and makes bubbles of gas, carbon dioxide. Kneading makes the dough stretchy, so it traps the bubbles and the dough rises."
+		},
+		{
+			"text": "Let it rise until it doubles in size, about 1 hour in a warm place. Shape it, then bake it in a hot oven for about 30 minutes; a grown-up handles the oven. Flatbreads, like chapatis, have no yeast.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"knead the dough",
+					"let it rise 1 hour",
+					"shape it",
+					"bake 30 minutes"
+				],
+				"title": "Making bread"
+			}
+		},
+		{
+			"text": "Try it in the world: build a bakery with a wheat field, a windmill to grind the flour and a clay oven. For real: bake bread rolls with a grown-up, and watch the dough rise."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is flour made from?",
+			"answer": 0,
+			"hint": "What does the mill grind?",
+			"choices": [
+				"ground grains, like wheat",
+				"chalk",
+				"sugar",
+				"milk"
+			],
+			"explain": "Flour is ground grain, most often wheat."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Yeast is a living thing.",
+			"answer": true,
+			"hint": "What does yeast do in warm dough?",
+			"explain": "True: yeast is a tiny fungus that feeds and makes gas."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which machine cuts wheat and separates the grain?",
+			"answer": 0,
+			"hint": "It combines two jobs.",
+			"choices": [
+				"a combine harvester",
+				"a washing machine",
+				"a lawnmower",
+				"a digger"
+			],
+			"explain": "A combine harvester cuts the wheat and separates the grain."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a grain?",
+			"answer": 0,
+			"hint": "Grains are seeds of grasses.",
+			"choices": [
+				"rice",
+				"a carrot",
+				"an apple",
+				"cheese"
+			],
+			"explain": "Rice is a grain, like wheat, maize and oats."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put wheat to bread in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Follow the wheat from the field to the table.",
+			"items": [
+				"a combine harvester harvests it",
+				"the baker makes the dough",
+				"the wheat grows in the field",
+				"the mill grinds it into flour",
+				"the bread bakes in the oven"
+			],
+			"explain": "It grows, is harvested, is ground into flour, is made into dough and is baked."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which gas does yeast make in dough?",
+			"answer": 0,
+			"hint": "It is the same gas that makes the bubbles in fizzy drinks.",
+			"choices": [
+				"carbon dioxide",
+				"oxygen",
+				"steam",
+				"smoke"
+			],
+			"explain": "Carbon dioxide: its bubbles make the dough rise."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "One loaf needs 500 g of flour. How many grams of flour for 3 loaves?",
+			"answer": "1500",
+			"hint": "Three loaves: multiply by 3.",
+			"explain": "500 × 3 = 1,500 g of flour."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Kneading makes dough stretchy, so it can trap gas bubbles.",
+			"answer": true,
+			"hint": "Why knead for 10 minutes?",
+			"explain": "True: kneading makes the dough stretchy, and the stretchy dough traps the yeast's bubbles."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each grain to a food made from it.",
+			"items": [
+				"wheat",
+				"oats",
+				"maize",
+				"rice"
+			],
+			"matches": [
+				"porridge",
+				"tortillas and popcorn",
+				"rice cakes",
+				"bread and pasta"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of breakfast, lunch and snacks.",
+			"explain": "Wheat: bread and pasta. Oats: porridge. Maize: tortillas and popcorn. Rice: rice cakes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does dough rise best in a warm place?",
+			"answer": 0,
+			"hint": "Yeast is alive.",
+			"choices": [
+				"the yeast is more active and makes more gas",
+				"the flour melts",
+				"warm air pushes it up",
+				"the salt makes it grow"
+			],
+			"explain": "Warmth makes the yeast more active, so it makes more gas and the dough rises faster."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do chapatis stay flat?",
+			"answer": 0,
+			"hint": "What makes bread rise?",
+			"choices": [
+				"they have no yeast",
+				"they have too much salt",
+				"they bake too long",
+				"they use cold water"
+			],
+			"explain": "Chapatis have no yeast, so there are no gas bubbles to make them rise."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "500 g of flour makes 10 rolls. How many grams of flour for 25 rolls?",
+			"answer": "1250",
+			"hint": "Find the flour for 1 roll first.",
+			"explain": "1 roll: 500 ÷ 10 = 50 g. 25 rolls: 50 × 25 = 1,250 g."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Wholemeal flour is made from the whole grain.",
+			"answer": true,
+			"hint": "What does whole in wholemeal mean?",
+			"explain": "True: wholemeal flour uses the whole grain, so it has more fibre than white flour."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Dough starts to rise at 10:15 am and rises for 1 hour. Then it bakes for 30 minutes. When is it ready?",
+			"answer": 0,
+			"hint": "Count on 1 hour, then 30 minutes more.",
+			"choices": [
+				"11:45 am",
+				"11:15 am",
+				"10:45 am",
+				"12:15 pm"
+			],
+			"explain": "10:15 am + 1 hour = 11:15 am. 30 minutes more is 11:45 am."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Made with yeast, or without?",
+			"groups": [
+				"with yeast",
+				"without yeast"
+			],
+			"items": [
+				"a sandwich loaf",
+				"a chapati",
+				"a bread roll",
+				"a tortilla",
+				"a pizza base",
+				"an oatcake"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it puffy and full of holes, or flat?",
+			"explain": "With yeast: the loaf, the roll, the pizza base. Without: the chapati, the tortilla, the oatcake."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.bread_recipe",
+			"level": 1
+		},
+		{
+			"gen": "g4w.bread_recipe",
+			"level": 2
+		},
+		{
+			"gen": "g4w.bread_recipe",
+			"level": 3
+		},
+		{
+			"gen": "g4w.bake_time",
+			"level": 1
+		},
+		{
+			"gen": "g4w.bake_time",
+			"level": 2
+		},
+		{
+			"gen": "g4w.bake_time",
+			"level": 3
+		}
+	]
+}

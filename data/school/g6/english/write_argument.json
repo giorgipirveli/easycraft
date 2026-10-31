@@ -1,0 +1,458 @@
+{
+	"id": "g6.english.write_argument",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, where does the strongest reason often go in an opinion piece? (Last, so the reader remembers it.) Today: grow opinions into arguments, with evidence, and with the other side answered."
+		},
+		{
+			"text": "An argument makes a claim: the point you want the reader to accept, such as \"Our school should have a garden.\" Each reason is backed by evidence: facts, numbers, examples and what experts say."
+		},
+		{
+			"text": "Plan with an argument map: the claim at the top, two or three reasons under it, and evidence under each reason.",
+			"picture": {
+				"kind": "argument_map",
+				"claim": "Our school should have a garden.",
+				"reasons": [
+					"It teaches science.",
+					"It helps wildlife."
+				],
+				"evidence": [
+					"We could test soils.",
+					"Bees need flowers."
+				]
+			}
+		},
+		{
+			"text": "Strong arguments answer the other side. A counterclaim is what someone who disagrees might say: \"Some say a garden takes too much time.\" Then rebut it: \"However, a garden club could share the work.\"",
+			"picture": {
+				"kind": "argument_map",
+				"claim": "Our school should have a garden.",
+				"reasons": [
+					"It teaches science.",
+					"It helps wildlife."
+				],
+				"evidence": [
+					"We could test soils.",
+					"Bees need flowers."
+				],
+				"counter": "Some say it takes too much time.",
+				"rebuttal": "A garden club can share the work."
+			}
+		},
+		{
+			"text": "Link ideas with words that show how they connect: firstly, furthermore and moreover add a reason; for example brings in evidence; however and on the other hand turn to the other side; therefore shows a result."
+		},
+		{
+			"text": "Keep a formal style: full words, no slang, no short forms, and the third person where you can: \"Pupils would benefit\", not \"You'd love it!\" Stay polite about the other side: answer the idea, never the person."
+		},
+		{
+			"text": "End with a conclusion that says the claim again in new words and sums up the reasons: \"For these reasons, a garden would help pupils learn and help nature thrive.\""
+		},
+		{
+			"text": "Try it in the world: choose something to argue for in your world, such as a new bridge or a library. Draw an argument map, then write it with a counterclaim and a rebuttal. Next: write to inform."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a claim?",
+			"choices": [
+				"the point you want the reader to accept",
+				"a fact from an expert",
+				"a joke at the start",
+				"a list of sources"
+			],
+			"answer": 0,
+			"hint": "It sits at the top of the argument map.",
+			"explain": "The claim is your main point, which the reasons and evidence support."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sentence is evidence?",
+			"choices": [
+				"The garden club grew 30 kg of vegetables.",
+				"Gardens are lovely.",
+				"We should have a garden.",
+				"I think it would be fun."
+			],
+			"answer": 0,
+			"hint": "Evidence is a fact, a number or an example.",
+			"explain": "The amount of vegetables grown is a fact that backs up a reason."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "An argument should leave out what people on the other side think.",
+			"answer": false,
+			"hint": "What makes an argument stronger?",
+			"explain": "False: answering a counterclaim shows you have thought about both sides."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which linking word turns to the other side?",
+			"choices": [
+				"however",
+				"furthermore",
+				"for example",
+				"firstly"
+			],
+			"answer": 0,
+			"hint": "Which word shows a contrast?",
+			"explain": "However brings in the other side, or a contrast."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sentence is the most formal?",
+			"choices": [
+				"Pupils would benefit from a garden.",
+				"A garden would be well cool!",
+				"Gardens are awesome, yeah?"
+			],
+			"answer": 0,
+			"hint": "Look for slang and exclamations.",
+			"explain": "\"Pupils would benefit from a garden\" uses full, polite words: it is formal."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the parts of an argument in order.",
+			"items": [
+				"reasons with evidence",
+				"rebuttal",
+				"claim",
+				"counterclaim",
+				"conclusion"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start with your point, and end by summing up.",
+			"explain": "The claim, the reasons with evidence, the counterclaim, the rebuttal, then the conclusion."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the argument map: tap a word, then its number.",
+			"picture": {
+				"kind": "argument_map",
+				"claim": "Our town needs a skate park.",
+				"reasons": [
+					"It keeps us active.",
+					"It is a safe place to meet."
+				],
+				"evidence": [
+					"Skating is exercise.",
+					"Parks have rangers."
+				],
+				"counter": "Some say it will be noisy.",
+				"rebuttal": "It can close at 8 pm.",
+				"titles": false
+			},
+			"spots": [
+				[
+					0.06,
+					0.12,
+					0.2483,
+					0.147
+				],
+				[
+					0.06,
+					0.38,
+					0.1405,
+					0.3823
+				],
+				[
+					0.06,
+					0.62,
+					0.1405,
+					0.6177
+				],
+				[
+					0.06,
+					0.88,
+					0.1405,
+					0.853
+				],
+				[
+					0.94,
+					0.88,
+					0.8595,
+					0.853
+				]
+			],
+			"labels": [
+				"reason",
+				"evidence",
+				"counterclaim",
+				"rebuttal",
+				"claim"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				4,
+				0
+			],
+			"hint": "The claim is at the top, reasons under it and evidence under them; the other side is at the bottom.",
+			"explain": "Claim at the top, reasons below it, evidence under each reason, the counterclaim at the bottom left and the rebuttal answering it."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the sentences: counterclaim or rebuttal?",
+			"groups": [
+				"counterclaim",
+				"rebuttal"
+			],
+			"items": [
+				"Some say bikes are dangerous.",
+				"However, bike lanes make cycling safer.",
+				"Others argue it costs too much.",
+				"Yet the cost is paid back in a year."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "A counterclaim gives the other side; a rebuttal answers it.",
+			"explain": "Counterclaims: bikes are dangerous; it costs too much. Rebuttals: bike lanes make cycling safer; the cost is paid back in a year."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Choose the linking words: Walking is healthy. ___, it costs nothing.",
+			"choices": [
+				"Furthermore",
+				"However",
+				"For example",
+				"In conclusion"
+			],
+			"answer": 0,
+			"hint": "Is the second sentence another reason?",
+			"explain": "Furthermore adds another reason."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which reason best supports: Our town needs a library?",
+			"choices": [
+				"It lets everyone borrow books for free.",
+				"Libraries are quiet.",
+				"My friend likes books.",
+				"Some libraries are old."
+			],
+			"answer": 0,
+			"hint": "Which reason matters to the most people?",
+			"explain": "Free books for everyone is a strong reason that matters to the whole town."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Make it formal: \"You'd totally love a skate park!\"",
+			"choices": [
+				"Pupils would enjoy a skate park.",
+				"Skate parks rock, you'd love it!",
+				"A skate park? Totally!",
+				"Loads of kids would love it!"
+			],
+			"answer": 0,
+			"hint": "Remove the slang and write about people in the third person.",
+			"explain": "\"Pupils would enjoy a skate park\" uses full words, no slang and the third person."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A conclusion should bring in a brand new reason.",
+			"answer": false,
+			"hint": "What is a conclusion for?",
+			"explain": "False: a conclusion sums up the claim and reasons in new words; new reasons belong in the body."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the best rebuttal to: Some say school uniforms are uncomfortable?",
+			"choices": [
+				"However, uniforms can be made of soft cotton.",
+				"Uniforms are blue.",
+				"Uniforms have been worn for years.",
+				"Some pupils wear hats."
+			],
+			"answer": 0,
+			"hint": "A rebuttal answers the counterclaim with a reason or evidence.",
+			"explain": "It answers the worry directly with a solution."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which evidence is strongest for: Trees make streets cooler?",
+			"choices": [
+				"Streets in tree shade measured cooler.",
+				"Trees are beautiful.",
+				"Everyone knows trees are nice.",
+				"My street has a tree."
+			],
+			"answer": 0,
+			"hint": "Which one is a measured fact about the claim?",
+			"explain": "A measurement that tests the claim is the strongest evidence."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Build the paragraph in order.",
+			"items": [
+				"Firstly, walking keeps us fit.",
+				"Some say walking takes too long.",
+				"We should walk to school.",
+				"Children need 60 active minutes a day.",
+				"However, it can beat the traffic."
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Claim, reason, evidence, counterclaim, then the rebuttal.",
+			"explain": "The claim, a reason, evidence for it (60 active minutes a day), the counterclaim, then the rebuttal."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which sentence answers the person, not the idea?",
+			"choices": [
+				"People who disagree just don't care.",
+				"Cars add to pollution.",
+				"Buses carry many people at once.",
+				"Walking is free."
+			],
+			"answer": 0,
+			"hint": "Which one is about people instead of facts?",
+			"explain": "It judges people instead of answering their idea; good arguments stay polite and use evidence."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Furthermore and moreover both add another point.",
+			"answer": true,
+			"hint": "What job do they do?",
+			"explain": "True: both add another reason pointing the same way."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the best conclusion?",
+			"choices": [
+				"For these reasons, our town needs a library.",
+				"Libraries have books.",
+				"The end.",
+				"I went to a library once."
+			],
+			"answer": 0,
+			"hint": "Say the claim again and sum up.",
+			"explain": "It says the claim again and points back to the reasons."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each linking word to its job.",
+			"items": [
+				"furthermore",
+				"for example",
+				"however",
+				"therefore"
+			],
+			"matches": [
+				"turns to the other side",
+				"shows a result",
+				"adds a reason",
+				"brings in evidence"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Card 5 groups the linking words by what they do.",
+			"explain": "Furthermore adds a reason, for example brings in evidence, however turns to the other side, and therefore shows a result."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Claim: our school should have a garden. Sort each sentence.",
+			"groups": [
+				"reason",
+				"counterclaim",
+				"rebuttal"
+			],
+			"items": [
+				"It teaches us how food grows.",
+				"Some say it takes too much time.",
+				"However, a club could share the work.",
+				"It gives bees a home.",
+				"Others say it costs too much.",
+				"Yet seeds cost very little."
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "A reason supports the claim, a counterclaim disagrees, and a rebuttal answers it.",
+			"explain": "Reasons: it teaches how food grows, and it gives bees a home. Counterclaims: too much time, too much money. Rebuttals: a club could share the work, and seeds cost very little."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6k.argument_part",
+			"level": 1
+		},
+		{
+			"gen": "g6k.argument_part",
+			"level": 2
+		},
+		{
+			"gen": "g6k.argument_part",
+			"level": 3
+		},
+		{
+			"gen": "g6k.argument_link",
+			"level": 1
+		},
+		{
+			"gen": "g6k.argument_link",
+			"level": 2
+		},
+		{
+			"gen": "g6k.argument_link",
+			"level": 3
+		},
+		{
+			"gen": "g6k.formal_style",
+			"level": 1
+		},
+		{
+			"gen": "g6k.formal_style",
+			"level": 2
+		},
+		{
+			"gen": "g6k.formal_style",
+			"level": 3
+		}
+	]
+}

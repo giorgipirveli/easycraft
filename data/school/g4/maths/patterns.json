@@ -1,0 +1,203 @@
+{
+	"id": "g4.maths.patterns",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met odd and even numbers. Is 15 odd or even? Odd: it ends in 5."
+		},
+		{
+			"text": "A pattern follows a rule. Start at 3 and add 4: 3, 7, 11, 15, 19… Each number is 4 more than the one before.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "20",
+				"step": "1",
+				"marks": [
+					"3",
+					"7",
+					"11",
+					"15",
+					"19"
+				],
+				"labels": "ends"
+			}
+		},
+		{
+			"text": "Some rules multiply. Start at 2 and double: 2, 4, 8, 16, 32…"
+		},
+		{
+			"text": "Shapes can grow in patterns too. These towers grow by 2 blocks each time: 2, 4, 6… The next tower has 8.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					2,
+					4,
+					6
+				],
+				"missing": true
+			}
+		},
+		{
+			"text": "Look for things the rule does not say. Start at 1 and add 2: 1, 3, 5, 7… Every number is odd, because adding 2 to an odd number gives another odd number."
+		},
+		{
+			"text": "Try it in the world: build a staircase where each step is 2 blocks higher than the last. How tall is step 6? The rule: 2, 4, 6, 8, 10, 12. Next: equal fractions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What comes next?  5, 10, 15, 20, ?",
+			"answer": "25",
+			"hint": "Each number is 5 more.",
+			"explain": "The rule is add 5: 20 + 5 = 25."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What comes next?  50, 45, 40, 35, ?",
+			"answer": "30",
+			"hint": "Each number is 5 less.",
+			"explain": "The rule is subtract 5: 35 − 5 = 30."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the rule?  3, 6, 12, 24",
+			"choices": [
+				"multiply by 2",
+				"add 3",
+				"add 6",
+				"multiply by 3"
+			],
+			"answer": 0,
+			"hint": "Check the rule on every step, not just the first.",
+			"explain": "3 × 2 = 6, 6 × 2 = 12, 12 × 2 = 24."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Start at 7 and add 7 each time. What is the 10th number?",
+			"answer": "70",
+			"hint": "7, 14, 21… this is counting in 7s.",
+			"explain": "The 10th number is 10 × 7 = 70."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Start at 2 and add 4: 2, 6, 10, 14… All the numbers are even.",
+			"answer": true,
+			"hint": "Adding an even number to an even number gives an even number.",
+			"explain": "2 is even and 4 is even, so every number is even."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Start at 1 and multiply by 3: 1, 3, 9, 27… Which is true?",
+			"choices": [
+				"Every number is odd",
+				"Every number is even",
+				"They take turns odd and even"
+			],
+			"answer": 0,
+			"hint": "An odd number times an odd number is odd.",
+			"explain": "1 is odd, and odd × 3 is always odd."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Each row of a pyramid has 2 fewer blocks than the row below. The bottom row has 15. How many blocks are in the 5th row from the bottom?",
+			"answer": "7",
+			"hint": "15, 13, 11… keep going to the 5th.",
+			"explain": "15, 13, 11, 9, 7: the 5th row has 7."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The towers grow by the same number each time. How many blocks will the next tower have?",
+			"answer": "7",
+			"hint": "How many blocks are added each time?",
+			"explain": "1, 3, 5: they grow by 2, so the next has 7.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					1,
+					3,
+					5
+				],
+				"missing": true
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each pattern to its rule.",
+			"items": [
+				"3, 7, 11, 15",
+				"2, 4, 8, 16",
+				"1, 3, 5, 7",
+				"30, 25, 20, 15"
+			],
+			"matches": [
+				"take away 5",
+				"add 2",
+				"add 4",
+				"double"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Look at how you get from each number to the next.",
+			"explain": "3, 7, 11, 15: add 4. 2, 4, 8, 16: double. 1, 3, 5, 7: add 2. 30, 25, 20, 15: take away 5."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4m.next_term",
+			"level": 1
+		},
+		{
+			"gen": "g4m.next_term",
+			"level": 2
+		},
+		{
+			"gen": "g4m.next_term",
+			"level": 3
+		},
+		{
+			"gen": "g4m.find_rule",
+			"level": 1
+		},
+		{
+			"gen": "g4m.find_rule",
+			"level": 2
+		},
+		{
+			"gen": "g4m.find_rule",
+			"level": 3
+		},
+		{
+			"gen": "g4m.odd_even_pattern",
+			"level": 2
+		},
+		{
+			"gen": "g4m.odd_even_pattern",
+			"level": 3
+		},
+		{
+			"gen": "g4m.tower_pattern",
+			"level": 1
+		},
+		{
+			"gen": "g4m.tower_pattern",
+			"level": 2
+		},
+		{
+			"gen": "g4m.tower_pattern",
+			"level": 3
+		}
+	]
+}

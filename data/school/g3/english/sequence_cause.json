@@ -1,0 +1,334 @@
+{
+	"id": "g3.english.sequence_cause",
+	"lesson": [
+		{
+			"text": "Remember? Headings tell you what each part of a fact text is about. Some texts tell steps in time order, and some explain why things happen."
+		},
+		{
+			"text": "Time-order words show the order of steps or events: first, next, then, after that, later and finally."
+		},
+		{
+			"text": "From Wheat to Bread\nFirst, a farmer plants wheat seeds. Next, the wheat grows tall and turns golden in the summer Sun. Then the farmer harvests it.",
+			"picture": {
+				"kind": "icon",
+				"block": 268
+			}
+		},
+		{
+			"text": "After that, a mill grinds the grains into flour. Then a baker mixes the flour with water, yeast and salt to make dough. Finally, the dough rises and is baked into bread.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Plant wheat seeds"
+					},
+					{
+						"shape": "step",
+						"text": "Harvest the wheat"
+					},
+					{
+						"shape": "step",
+						"text": "Grind it into flour"
+					},
+					{
+						"shape": "end",
+						"text": "Bake the bread"
+					}
+				]
+			}
+		},
+		{
+			"text": "A cause is why something happens. An effect is what happens. Clue words: because, so, as a result. \"Because the yeast makes tiny bubbles of gas, the dough rises.\""
+		},
+		{
+			"text": "\"It rained for a week, so the river flooded.\" Ask: what happened? The river flooded (the effect). Why? It rained for a week (the cause)."
+		},
+		{
+			"text": "Try it in the world: write the steps to build a boat in your world with time words: first, next, then, finally. Then give a cause and an effect: it floats because… Next: two texts, one topic."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word shows the last step?",
+			"answer": 0,
+			"hint": "Which word ends a list of steps?",
+			"choices": [
+				"finally",
+				"first",
+				"next"
+			],
+			"explain": "\"Finally\" tells you it is the last step."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a mill do to wheat grains?",
+			"answer": 0,
+			"hint": "Find the word mill in the text.",
+			"choices": [
+				"grinds them into flour",
+				"plants them",
+				"bakes them"
+			],
+			"explain": "\"A mill grinds the grains into flour.\""
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In the text, the farmer plants the seeds first.",
+			"answer": true,
+			"hint": "Look for the word first.",
+			"explain": "True: \"First, a farmer plants wheat seeds.\""
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word is a clue for a cause?",
+			"answer": 0,
+			"hint": "Which word answers why?",
+			"choices": [
+				"because",
+				"first",
+				"blue"
+			],
+			"explain": "\"Because\" tells you a reason, a cause, is coming."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps from wheat to bread in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Look for first, then, after that and finally.",
+			"items": [
+				"bake the bread",
+				"grind it into flour",
+				"harvest the wheat",
+				"plant the seeds"
+			],
+			"explain": "Plant, harvest, grind, bake: the time-order words show the order."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "\"Because the yeast makes gas, the dough rises.\" What is the cause?",
+			"answer": 0,
+			"hint": "The cause answers: why?",
+			"choices": [
+				"the yeast makes gas",
+				"the dough rises"
+			],
+			"explain": "Why does the dough rise? Because the yeast makes gas: that is the cause."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "\"It rained for a week, so the river flooded.\" What is the effect?",
+			"answer": 0,
+			"hint": "The effect answers: what happened?",
+			"choices": [
+				"the river flooded",
+				"it rained for a week"
+			],
+			"explain": "The river flooding is what happened: the effect."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "\"Mia forgot her coat, so she got wet.\" Why did Mia get wet?",
+			"answer": 0,
+			"hint": "Find the cause before the word so.",
+			"choices": [
+				"She forgot her coat",
+				"She went swimming",
+				"It was sunny"
+			],
+			"explain": "She got wet because she forgot her coat."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "An effect is what happens because of a cause.",
+			"answer": true,
+			"hint": "Think of the rain and the flood.",
+			"explain": "True: the cause makes the effect happen."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "\"The ice melted because the Sun came out.\" Which is the cause?",
+			"answer": 0,
+			"hint": "The cause comes after because.",
+			"choices": [
+				"the Sun came out",
+				"the ice melted"
+			],
+			"explain": "The Sun coming out is why the ice melted."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which sentence shows a cause and an effect?",
+			"answer": 0,
+			"hint": "Look for a clue word like so or because.",
+			"choices": [
+				"The wind blew hard, so the kite flew high.",
+				"The kite is red and blue.",
+				"I have a kite."
+			],
+			"explain": "The hard wind caused the kite to fly high."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the life of a puddle in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What makes the puddle?",
+			"items": [
+				"The puddle dries up",
+				"The Sun comes out",
+				"A puddle forms",
+				"Rain falls"
+			],
+			"explain": "Rain falls, a puddle forms, the Sun comes out, and the puddle dries up."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In the bread text, what happens right after the grains are ground?",
+			"answer": 0,
+			"hint": "Find \"after that\" and read on.",
+			"choices": [
+				"A baker mixes the dough",
+				"The farmer plants seeds",
+				"The wheat turns golden"
+			],
+			"explain": "After the mill grinds the flour, the baker mixes it into dough."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Choose the best joining word: \"The road was icy, ___ the cars drove slowly.\"",
+			"answer": 0,
+			"hint": "The ice caused the slow driving.",
+			"choices": [
+				"so",
+				"because",
+				"but"
+			],
+			"explain": "\"So\" joins a cause to its effect: the road was icy, so the cars drove slowly."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Time-order words like first and finally help readers follow steps.",
+			"answer": true,
+			"hint": "Think of a recipe.",
+			"explain": "True: they show the order things happen in."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each cause to its effect.",
+			"hint": "Ask: what happened because of it?",
+			"items": [
+				"It rained for a week.",
+				"The Sun came out.",
+				"Mia forgot her coat."
+			],
+			"matches": [
+				"She got wet.",
+				"The river flooded.",
+				"The ice melted."
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"explain": "The rain flooded the river, the Sun melted the ice, and Mia got wet without her coat."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: a cause or an effect?",
+			"items": [
+				"It rained for a week.",
+				"The river flooded.",
+				"The yeast makes gas.",
+				"The dough rises."
+			],
+			"groups": [
+				"cause",
+				"effect"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Ask why for each one. The why is the cause.",
+			"explain": "The rain and the yeast's gas are causes; the flood and the rising dough are their effects."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the clue words: time order, or cause and effect?",
+			"groups": [
+				"time order",
+				"cause and effect"
+			],
+			"items": [
+				"first",
+				"because",
+				"next",
+				"so",
+				"finally",
+				"as a result"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does the word tell when, or why?",
+			"explain": "Time order: first, next and finally tell when. Cause and effect: because, so and as a result tell why."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Each event causes the next. Put them in order.",
+			"items": [
+				"The puddles froze.",
+				"The children slid on the ice.",
+				"It rained all day.",
+				"That night it was very cold."
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Ask what had to happen first for each event.",
+			"explain": "It rained all day, so there were puddles. That night it was very cold, so the puddles froze. Because they froze, the children slid on the ice."
+		}
+	],
+	"generators": []
+}

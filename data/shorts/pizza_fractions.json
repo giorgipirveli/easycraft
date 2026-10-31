@@ -1,0 +1,605 @@
+{
+	"id": "pizza_fractions",
+	"title": "Fractions of a pizza",
+	"topic": "maths",
+	"link": {
+		"unit": "g3.maths.equivalent_fractions"
+	},
+	"scenes": [
+		{
+			"seconds": 8,
+			"background": "paper",
+			"caption": "Cut a pizza into 8 equal slices: each slice is one eighth.",
+			"say": "Cut a pizza into 8 equal slices. Each slice is one eighth of the pizza.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 2.6,
+					"effect": "ding"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "pizza",
+					"slices": 8,
+					"at": [
+						180,
+						230
+					],
+					"size": 260,
+					"value": 0,
+					"color": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "spin",
+							"at": 0.2,
+							"dur": 1.2,
+							"turns": 0.25
+						},
+						{
+							"do": "value",
+							"at": 2.4,
+							"dur": 0.5,
+							"to": 1
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "1/8",
+					"at": [
+						288,
+						90
+					],
+					"size": 48,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.8
+						},
+						{
+							"do": "pulse",
+							"at": 3.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "paper",
+			"caption": "Take 4 of the 8 slices: 4/8 is one half.",
+			"say": "Take 4 of the 8 slices. That is four eighths, which is exactly one half of the pizza.",
+			"sounds": [
+				{
+					"at": 0.6,
+					"effect": "ui_tick"
+				},
+				{
+					"at": 1.0,
+					"effect": "ui_tick"
+				},
+				{
+					"at": 1.4,
+					"effect": "ui_tick"
+				},
+				{
+					"at": 4.0,
+					"effect": "jingle_goal"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "pizza",
+					"slices": 8,
+					"at": [
+						180,
+						230
+					],
+					"size": 260,
+					"value": 1,
+					"color": "orange",
+					"moves": [
+						{
+							"do": "value",
+							"at": 0.4,
+							"dur": 1.4,
+							"to": 4,
+							"ease": "linear"
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "4/8",
+					"at": [
+						80,
+						80
+					],
+					"size": 44,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "= 1/2",
+					"at": [
+						240,
+						80
+					],
+					"size": 44,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.8
+						},
+						{
+							"do": "pulse",
+							"at": 4.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "paper",
+			"caption": "Half is half however you cut it: 1/2 = 2/4 = 4/8.",
+			"say": "Cut in 2, in 4 or in 8, half the pizza is still the same: one half is two quarters is four eighths.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "pop"
+				},
+				{
+					"at": 1.0,
+					"effect": "pop"
+				},
+				{
+					"at": 1.6,
+					"effect": "pop"
+				},
+				{
+					"at": 5.0,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "pizza",
+					"slices": 2,
+					"at": [
+						62,
+						200
+					],
+					"size": 106,
+					"value": 0,
+					"color": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.3
+						},
+						{
+							"do": "value",
+							"at": 2.4,
+							"dur": 0.6,
+							"to": 1
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "pizza",
+					"slices": 4,
+					"at": [
+						180,
+						200
+					],
+					"size": 106,
+					"value": 0,
+					"color": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.9
+						},
+						{
+							"do": "value",
+							"at": 3.0,
+							"dur": 0.8,
+							"to": 2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "pizza",
+					"slices": 8,
+					"at": [
+						298,
+						200
+					],
+					"size": 106,
+					"value": 0,
+					"color": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.5
+						},
+						{
+							"do": "value",
+							"at": 3.8,
+							"dur": 1.0,
+							"to": 4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "1/2",
+					"at": [
+						62,
+						300
+					],
+					"size": 34,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "2/4",
+					"at": [
+						180,
+						300
+					],
+					"size": 34,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "4/8",
+					"at": [
+						298,
+						300
+					],
+					"size": 34,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.6
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "equals",
+					"at": [
+						121,
+						300
+					],
+					"size": 30,
+					"color": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 5.0
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "equals",
+					"at": [
+						239,
+						300
+					],
+					"size": 30,
+					"color": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 5.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "THE SAME!",
+					"at": [
+						180,
+						390
+					],
+					"size": 34,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 5.6
+						},
+						{
+							"do": "bounce",
+							"at": 6.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8,
+			"background": "paper",
+			"caption": "Share 8 slices fairly among 4 friends: 2 each, one quarter each.",
+			"say": "Share the 8 slices fairly among 4 friends: 2 slices each, which is one quarter each.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "pop"
+				},
+				{
+					"at": 0.7,
+					"effect": "pop"
+				},
+				{
+					"at": 1.0,
+					"effect": "pop"
+				},
+				{
+					"at": 1.3,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "pizza",
+					"slices": 8,
+					"at": [
+						180,
+						230
+					],
+					"size": 190,
+					"value": 0,
+					"color": "orange",
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						},
+						{
+							"do": "value",
+							"at": 2.4,
+							"dur": 0.6,
+							"to": 2
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "pip",
+					"at": [
+						60,
+						110
+					],
+					"size": 80,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.4
+						},
+						{
+							"do": "bounce",
+							"at": 3.2
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "fox",
+					"at": [
+						300,
+						110
+					],
+					"size": 80,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.7
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "owl",
+					"at": [
+						60,
+						360
+					],
+					"size": 80,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "dog",
+					"at": [
+						300,
+						360
+					],
+					"size": 80,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.3
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "2/8 = 1/4",
+					"at": [
+						180,
+						70
+					],
+					"size": 34,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						},
+						{
+							"do": "pulse",
+							"at": 4.2
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 6.5,
+			"background": "paper",
+			"caption": "Would you rather have 3/8 or 1/2 of a pizza?",
+			"say": "Would you rather have three eighths or one half of a pizza?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "pizza",
+					"slices": 8,
+					"at": [
+						96,
+						220
+					],
+					"size": 150,
+					"value": 3,
+					"color": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "pizza",
+					"slices": 2,
+					"at": [
+						264,
+						220
+					],
+					"size": 150,
+					"value": 1,
+					"color": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.5
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "3/8",
+					"at": [
+						96,
+						330
+					],
+					"size": 34,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "1/2",
+					"at": [
+						264,
+						330
+					],
+					"size": 34,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "?",
+					"at": [
+						180,
+						110
+					],
+					"size": 64,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						},
+						{
+							"do": "bounce",
+							"at": 2.2
+						}
+					]
+				}
+			]
+		}
+	]
+}

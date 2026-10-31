@@ -1,0 +1,288 @@
+{
+	"id": "g5.art.greek_roman_art",
+	"lesson": [
+		{
+			"text": "Quick memory: whom did Egyptian artists draw biggest? (The most important person, like the pharaoh.) Today: the art of Ancient Greece and Rome, from about 2,500 to 2,000 years ago."
+		},
+		{
+			"text": "Greek temples stand on columns of three styles, called orders. Look at the top, the capital: Doric is plain, Ionic has two scrolls, and Corinthian has leaves.",
+			"picture": {
+				"kind": "greek_column",
+				"orders": [
+					"doric",
+					"ionic",
+					"corinthian"
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "Greek pots were painted with stories. On black-figure pots the figures are black on orange clay. Around 530 BC, painters in Athens swapped it round: red-figure pots have orange figures on black.",
+			"picture": {
+				"kind": "greek_vase",
+				"style": "black-figure"
+			}
+		},
+		{
+			"text": "Greek sculptors carved marble and cast bronze. They studied bodies closely, and their statues began to stand naturally, with the weight on one leg. Many were painted in bright colours that have worn away."
+		},
+		{
+			"text": "Worked example: to tell a column's order, look at its capital. A plain cushion and no base: Doric, like the Parthenon's. Two scrolls: Ionic. Leaves of the acanthus plant: Corinthian.",
+			"picture": {
+				"kind": "greek_column",
+				"orders": [
+					"ionic"
+				],
+				"mark": 0
+			}
+		},
+		{
+			"text": "The Romans loved Greek art. They copied Greek statues (some Greek originals are only known from Roman copies) and made portraits of real people, wrinkles and all.",
+			"picture": {
+				"kind": "greek_vase",
+				"style": "red-figure"
+			}
+		},
+		{
+			"text": "Romans covered floors with mosaics and walls with frescoes, paintings on wet plaster. In AD 79 the volcano Vesuvius buried the town of Pompeii in ash, keeping its paintings and mosaics safe until today."
+		},
+		{
+			"text": "Try it in the world: build a temple front in your world: choose Doric, Ionic or Corinthian columns and give it a triangular top, like the Parthenon. Next: mosaics."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which order is this column?",
+			"answer": 0,
+			"hint": "Look at its capital, the top: plain, scrolls or leaves?",
+			"choices": [
+				"Ionic",
+				"Doric",
+				"Corinthian"
+			],
+			"explain": "It has two scrolls: Ionic.",
+			"picture": {
+				"kind": "greek_column",
+				"orders": [
+					"ionic"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What kind of Greek pot is this?",
+			"answer": 0,
+			"hint": "What colour are the figures?",
+			"choices": [
+				"black-figure",
+				"red-figure"
+			],
+			"explain": "The figures are black on the orange clay: black-figure.",
+			"picture": {
+				"kind": "greek_vase",
+				"style": "black-figure"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Doric columns have leaves of the acanthus plant at the top.",
+			"answer": false,
+			"hint": "Which order is the plainest?",
+			"explain": "False: Doric capitals are plain. Corinthian ones have acanthus leaves."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"Doric",
+				"Ionic",
+				"Corinthian",
+				"capital"
+			],
+			"matches": [
+				"acanthus leaves",
+				"the top of a column",
+				"a plain top, no base",
+				"two scrolls"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the three columns side by side.",
+			"explain": "Doric is plain with no base, Ionic has scrolls, Corinthian has leaves, and the capital is the top."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What kind of Greek pot is this?",
+			"answer": 0,
+			"hint": "What colour are the figures, and what colour is the background?",
+			"choices": [
+				"red-figure",
+				"black-figure"
+			],
+			"explain": "Orange figures on a black background: red-figure, invented in Athens around 530 BC.",
+			"picture": {
+				"kind": "greek_vase",
+				"style": "red-figure"
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, oldest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "BC dates count down towards AD 1; AD dates count up.",
+			"items": [
+				"Vesuvius buries Pompeii",
+				"Greek red-figure pots",
+				"Greek black-figure pots",
+				"the Great Pyramid is built"
+			],
+			"explain": "The Great Pyramid (about 2560 BC), black-figure pots (from about 700 BC), red-figure (from about 530 BC), then Pompeii (AD 79)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a fresco?",
+			"answer": 0,
+			"hint": "Think of the walls of Pompeii.",
+			"choices": [
+				"a painting on wet plaster",
+				"a statue of bronze",
+				"a pot with two handles",
+				"a floor of tiny tiles"
+			],
+			"explain": "A fresco is painted on wet plaster, so the colours dry into the wall."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Many Greek statues were once painted in bright colours.",
+			"answer": true,
+			"hint": "Why do they look white today?",
+			"explain": "True: tiny traces of paint show they were coloured; the paint has worn away over thousands of years."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: Greek or Roman?",
+			"groups": [
+				"Greek",
+				"Roman"
+			],
+			"items": [
+				"the Parthenon in Athens",
+				"red-figure pots",
+				"the wall paintings of Pompeii",
+				"portraits with every wrinkle"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Athens was Greek; Pompeii was a Roman town.",
+			"explain": "The Parthenon and red-figure pots are Greek. Pompeii's paintings and wrinkled portraits are Roman."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do we know some Greek statues only from Roman copies?",
+			"answer": 0,
+			"hint": "Many were bronze, and bronze could be melted down and reused.",
+			"choices": [
+				"The Greek originals were lost",
+				"The Greeks never made statues",
+				"The Romans made them first",
+				"Greek statues were too small to see"
+			],
+			"explain": "Many Greek originals, often bronze, were lost or melted down; Roman marble copies survived."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How did black-figure painters draw the details inside a black figure?",
+			"answer": 0,
+			"hint": "The clay under the black paint is orange.",
+			"choices": [
+				"They scratched lines through the black",
+				"They used white chalk",
+				"They painted blue lines",
+				"They left no details"
+			],
+			"explain": "They scratched lines through the black paint, so the orange clay showed through as thin lines."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Parthenon was built from 447 BC to 432 BC. How many years did it take?",
+			"answer": "15",
+			"hint": "BC years count down: take the smaller year from the bigger one.",
+			"explain": "447 − 432 = 15 years."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A column has two scrolls at the top and a base of rings. Which order is it?",
+			"answer": 0,
+			"hint": "Scrolls are the clue; Doric has no base at all.",
+			"choices": [
+				"Ionic",
+				"Doric",
+				"Corinthian"
+			],
+			"explain": "Scrolls mean Ionic, and Ionic columns stand on a base."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In AD 79, what kept Pompeii's paintings and mosaics safe for almost 2,000 years?",
+			"answer": 0,
+			"hint": "What happened to Pompeii in AD 79?",
+			"choices": [
+				"ash from the volcano Vesuvius",
+				"a roof of glass",
+				"being painted underground",
+				"being carried to Rome"
+			],
+			"explain": "Vesuvius buried Pompeii in ash, which kept its paintings and mosaics safe until people dug them out."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Parthenon was finished in 432 BC. Vesuvius buried Pompeii in AD 79. How many years apart? Remember: there is no year 0.",
+			"answer": "510",
+			"hint": "Count from 432 BC to AD 1, then on to AD 79.",
+			"explain": "From 432 BC to AD 1 is 432 years. From AD 1 to AD 79 is 78 more. 432 + 78 = 510 years."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.column_order",
+			"level": 1
+		},
+		{
+			"gen": "g5a.column_order",
+			"level": 2
+		},
+		{
+			"gen": "g5a.column_order",
+			"level": 3
+		}
+	]
+}

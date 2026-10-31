@@ -1,0 +1,29 @@
+You are building part of **EasyCraft**, a Godot 4.7.2 (typed GDScript, Jolt, Voxel Tools 1.7) 3D block game for children (Minecraft/Roblox-like), Android landscape. You are in your own git worktree on a branch cut from `m2-survive-the-night`. Other agents build other tasks in parallel (M3 and M4 agents); the lead merges.
+
+**Read first:** `CLAUDE.md`, `docs/DEVELOPMENT.md` (§8 gotchas are hard-won: per-event materials cause 100+ ms frames; simulate things near players only, decide at 10 Hz; collision exists only within 48 blocks of players), the spec `docs/superpowers/specs/2026-09-23-realm-hoppers-design.md` §14 (M3 detailed spec) and §6, §16, the plan `docs/superpowers/plans/2026-09-24-m3-worlds-of-wonder.md` (your task and the **Allocations**), and the notes of the merged tasks you build on (`docs/devlog/parts/m2-task-*.md`, especially **m2-task-4.md for the Monster API**, m2-task-2 knock-outs, m2-task-3 inventories, m2-task-15 bots (group `bots`), m2-task-11 `Feel`/music). Developer run: `XDG_DATA_HOME=<private dir with a copy of ~/.local/share/godot/app_userdata/EasyCraft/profile.json under godot/app_userdata/EasyCraft/> godot --headless --path . -- --survivor --new-world`.
+
+## House rules
+- No per-event materials or meshes (use `Fx` and cached meshes/materials); ≤ 10 Hz decisions; per-frame code cheap; `is_instance_valid` for players that can vanish.
+- Keep edits to shared files small and self-contained; Session signals/RPCs in a new section at the end of `autoloads/session.gd` titled `# --- M3 Task <n>: …`.
+- TDD: write the test, watch it fail for the right reason, implement, watch it pass, then run the **full suite** `tests/run_tests.sh` and **commit only if it exits 0** (check the exit code). New `class_name` → `godot --headless --path . --import` first. Redirect long output to a file and read its tail.
+- Never use adb/the emulator; never call godot-mcp tools. CC0 assets only (credited in `assets/CREDITS.md`).
+- Match the code style (typed GDScript, tabs, short `##` doc comments, child-friendly on-screen text).
+- Commit messages end with `Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>`. Never merge or push.
+- Document in `docs/devlog/parts/m3-task-<n>.md`: what you built, tests RED→GREEN, every decision with its cost if wrong. Final report: commits, suite count before/after, rulings, what the lead should check on the emulator.
+- New blocks live on your universe's **block atlas page** (M3 Task 1, done: read `docs/DEVELOPMENT.md` "Block atlas pages" and `tests/unit/test_block_pages.gd`): register it with `BlockLibrary.register_page(page, [pixel, albedo, normal], {id: [top, side, bottom, kind?]})`, files in `data/blocks/pages/<name>*.png`, both styles (pixel art drawn by your own tool like `tools/make_atlas.gd`; the realistic twin like `tools/make_realistic_atlas.py`, from CC0 textures only, credited).
+- The PC is shared: at most 3 agents run at once; `tests/run_tests.sh` runs Godot under `nice`. Run the full suite before commits, not in a loop.
+- Before implementing each Godot system, invoke the matching `godot-prompter:*` skill (e.g. `procedural-generation`, `ai-navigation`, `shader-basics`, `audio-system`, `godot-ui`) and write in your notes which pattern you chose and which you rejected.
+- **The HUD** was reworked by M2 Task 17 (merged): every spot is in one table, `ui/hud/hud_layout.gd`; buttons are icon + word, ≥ 135 px; rare actions live in the **MORE** panel (`ui/hud/more_panel.gd`). Add no new always-visible HUD buttons: put a new action in MORE (and the layout test `tests/integration/test_hud_layout.gd`), or a context button that shows only when it applies. **Blocks and items share one id space**: items own 100–175 and 400+, block pages are 64–95 and 176–255 (M3 dev log 18:20); `test_no_block_takes_an_item_id` guards it.
+- If an API limit stops you and you are resumed, check `git status`/`git log` first and continue.
+
+# Your task: M3 Task 21b — Wonder pack: books and memories (spec §16 M3 core set; research: the Animal Book, the Memory Book, the trophy shelf, idea cards, the wish list, Secret Book page rewards, the Hub Tree; plan Task 21)
+Read M2 Task 16's Secret Book, M3 Task 12's achievements and trophy room page (merged or running — `git grep class_name` for what exists; build on it, don't duplicate), M3 Task 16's photo files, the creature minds' animal species.
+Build, test-first:
+- **Animal Book**: every animal kind the child has met, fed, tamed (pictures, a fun fact each, silhouettes until met); saved in the profile.
+- **Memory Book**: the child's moments collected automatically (first buddy woken, first night survived, the Golem beaten, a friend visited…) with a photo when there is one (the photo system's files) and a date; never shared automatically.
+- **Trophy shelf** (in the world): a placeable shelf block (use an existing decorative block id range you're allocated below) that shows the child's achievement badges as small 3D trophies (cached meshes).
+- **Idea cards**: picture cards with build ideas ("Build a house for your dog", "A tower as tall as a tree") the child can flip through for inspiration — no rewards, no timers.
+- **Wish list**: the child can mark things they want (a tool at Tilly's, an avatar item) and see a have/need bar — never a nag, never a purchase.
+- **Secret Book page rewards**: completing a Secret Book page gives a fixed reward (a sticker, an avatar item via `AvatarUnlocks.earn`) once.
+- **The Hub Tree**: at the portal hub (the stone circle, M3 Task 5), a tree that grows a leaf/fruit for each universe explored and each boss beaten — a picture of progress.
+Allocation: block ids **217–218 on page 10** if you need blocks (the shelf); books open from the pause menu's existing BOOK/secret book entry (tabs), not new pause rows (keep the fit test green). Tests for every rule (unlock once, saved, old profiles load, no timers anywhere). Notes: `docs/devlog/parts/m3-task-21b.md`.

@@ -1,0 +1,141 @@
+{
+	"id": "moon_colony",
+	"title": "A home on the Moon",
+	"topic": "space",
+	"link": {"star_map": true},
+	"video": "moon_colony",
+	"still": 16.0,
+	"stage": {
+		"sky": "moon",
+		"light": "moon",
+		"sun": [0.62, 0.42, 0.66],
+		"models": [
+			{"id": "ground", "model": "ground", "look": "moon", "at": [0, -0.6, 0], "size": 900, "rocks": 1},
+			{"id": "colony", "model": "blocks", "build": "colony", "at": [0, 0, 0]},
+			{
+				"id": "earth",
+				"model": "planet",
+				"body": "earth",
+				"at": [-5800, 2300, -5400],
+				"size": 620,
+				"turn": [18, 200, 0]
+			}
+		],
+		"effects": [{"kind": "sparkles", "at": [3, 3, -4], "from": 20, "to": 30, "size": 1.6, "amount": 30}],
+		"camera": [
+			{"at": 0, "pos": [-100, 46, 86], "look": [0, 4, 0], "fov": 44},
+			{"at": 9.9, "pos": [-62, 30, 56], "look": [0, 4, 0], "fov": 44},
+			{"at": 10, "cut": true, "pos": [-30, 13, 14], "look": [0, 5, 0], "fov": 46},
+			{"at": 19.9, "pos": [-14, 16, -28], "look": [0, 5, 0], "fov": 46, "path": "orbit"},
+			{"at": 20, "cut": true, "pos": [-15, 8.5, 7], "look": [3, 2, -3], "fov": 46},
+			{"at": 29.9, "pos": [-9, 6.5, 2.5], "look": [4, 1.5, -4], "fov": 46},
+			{"at": 30, "cut": true, "pos": [2, 10, 36], "look": [18, 2, 18], "fov": 46},
+			{"at": 35.5, "pos": [10, 12, 32], "look": [22, 4, 6], "fov": 46},
+			{"at": 39.9, "pos": [15, 8, 14], "look": [33, 17, -15], "fov": 52},
+			{"at": 40, "cut": true, "pos": [48, 12, 46], "look": [0, 6, 0], "fov": 48},
+			{"at": 49.9, "pos": [72, 34, 66], "look": [-12, 30, -12], "fov": 50}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "A colony on the Moon: homes, a garden, a lab and a rocket.",
+			"say": "Welcome to a colony on the Moon: homes, a garden, a lab and a rocket, joined by glass tunnels.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "MOON COLONY",
+					"at": [180, 74],
+					"size": 28,
+					"color": "white",
+					"box": "teal",
+					"moves": [{"do": "pop", "at": 1.0}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "The Moon has no air, so glass domes hold air in for people.",
+			"say": "The Moon has no air to breathe, so the glass domes hold air inside, like a big bubble.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "AIR INSIDE",
+					"at": [180, 74],
+					"size": 28,
+					"color": "white",
+					"box": "sea",
+					"moves": [{"do": "pop", "at": 2.0}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Plants grow under pink lamps. Their leaves give out oxygen.",
+			"say": "In the garden, plants grow under pink lamps. Their leaves give out oxygen for everyone to breathe.",
+			"sounds": [{"at": 2.0, "effect": "sparkle"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "PLANTS MAKE OXYGEN",
+					"at": [180, 74],
+					"size": 24,
+					"color": "white",
+					"box": "leaf",
+					"moves": [{"do": "pop", "at": 3.0}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Ice from the ground becomes water, air to breathe and rocket fuel.",
+			"say": "Ice dug from the ground melts into water. Split up, it gives air to breathe and fuel for the rocket.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "ICE",
+					"at": [100, 74],
+					"size": 28,
+					"color": "ink",
+					"box": "ice",
+					"moves": [{"do": "pop", "at": 1.0}]
+				},
+				{
+					"kind": "words",
+					"text": "WATER",
+					"at": [250, 74],
+					"size": 28,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 3.0}]
+				},
+				{
+					"kind": "words",
+					"text": "AIR + FUEL",
+					"at": [180, 130],
+					"size": 28,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 6.0}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Earth shines in the black sky. Who would you invite to your Moon home?",
+			"say": "Earth shines in the black sky above. Who would you invite to your home on the Moon?",
+			"sounds": [{"at": 6.5, "effect": "chime"}],
+			"actors": []
+		}
+	]
+}

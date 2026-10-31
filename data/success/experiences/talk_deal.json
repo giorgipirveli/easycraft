@@ -1,0 +1,326 @@
+{
+	"id": "talk_deal",
+	"title": "Talk & Deal",
+	"area": "talk",
+	"room": "talk_square",
+	"vary": "success",
+	"devices": {
+		"tablet": {
+			"controls": ["the screen", "NEXT"],
+			"shows": ["the pitch's slide"],
+			"order": ["the problem", "your idea", "why you", "what you need"],
+			"safety": ["say only what is true", "honest numbers, never tricks"]
+		}
+	},
+	"tracks": {
+		"little": {
+			"skill": "Listen, say sorry, clear words",
+			"twist": "Mo has two problems, and Robo needs two steps in one go.",
+			"can_now": "listen to someone who is upset, say sorry and fix it, and give clear instructions",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "stall", "react": "mo_comes", "book": {"meet": ["mo"]},
+					"say": "Market day at your stall! Here comes Mo. Oh: he looks cross."},
+				{"id": "listen", "kind": "choose", "view": "stall", "after": "mo_talks",
+					"say": "What do you do first?",
+					"choices": [
+						{"text": "Look at Mo and listen", "icon": "ear"},
+						{"text": "Talk over him", "icon": "talk_over", "why": "When someone is upset, listen first. Then they feel heard."},
+						{"text": "Walk away", "icon": "door", "why": "Walking away leaves the problem. Stay, look at Mo and listen."}],
+					"answer": 0, "done": "You looked at Mo and listened. He feels heard."},
+				{"id": "mo_says", "kind": "info", "view": "stall", "say": "Mo says: \"{gripe}\""},
+				{"id": "say_back", "kind": "choose", "view": "stall",
+					"say": "Show Mo you listened. What do you say?",
+					"choices": [
+						{"text": "\"{gripe_back}\"", "icon": "say_back"},
+						{"text": "\"Not my fault!\"", "icon": "cross_arms", "why": "Blaming makes people crosser. Saying it back shows you listened."},
+						{"text": "\"Bread is bread.\"", "icon": "shrug", "why": "That doesn't show you listened. Say back what happened."}],
+					"answer": 0, "done": "Mo nods: you understood him."},
+				{"id": "sorry", "kind": "choose", "view": "stall", "after": "mo_calm",
+					"say": "Now say sorry.",
+					"choices": [
+						{"text": "\"I'm sorry about that.\"", "icon": "sorry"},
+						{"text": "\"Whatever.\"", "icon": "shrug", "why": "That sounds as if you don't care. A real sorry helps."},
+						{"text": "\"Sorry, but it's your bag.\"", "icon": "cross_arms", "why": "A 'but' takes the sorry away. Just say sorry."}],
+					"answer": 0, "done": "A kind sorry. Mo feels better."},
+				{"id": "fix", "kind": "touch", "target": "bread", "view": "stall", "after": "give_bread", "book": {"help": "mo"},
+					"say": "Fix it: give Mo a fresh loaf. Touch the bread.", "done": "A fresh loaf for Mo!"},
+				{"id": "jam", "kind": "touch", "target": "jam", "view": "stall", "mode": "expert", "after": "give_jam",
+					"say": "Mo says: \"And the lid of my jam was loose!\" Fix that too: touch the jam.", "done": "A new jar of jam, with its lid on tight."},
+				{"id": "thanks", "kind": "choose", "view": "stall", "after": "mo_happy",
+					"say": "Mo smiles. What do you say now?",
+					"choices": [
+						{"text": "\"Thank you for telling me!\"", "icon": "thank_you"},
+						{"text": "\"Don't come back.\"", "icon": "door", "why": "Mo helped you by telling you. Thank him, and he'll come back."},
+						{"text": "Say nothing", "icon": "quiet", "why": "A thank you shows you're glad he told you."}],
+					"answer": 0, "done": "Mo says he'll come back tomorrow."},
+				{"id": "robo_hello", "kind": "info", "view": "robo", "react": "robo_wakes",
+					"say": "Robo the robot helps you tidy up. Robo does EXACTLY what you say, so say it clearly!"},
+				{"id": "robo_red", "kind": "choose", "view": "robo", "on_miss": "robo_muddle", "after": "robo_red",
+					"say": "The red box goes in the basket. What do you tell Robo?",
+					"choices": [
+						{"text": "\"Robo, put the red box in the basket.\"", "icon": "box_red"},
+						{"text": "\"Put it there.\"", "icon": "question", "why": "Robo did exactly that: something, somewhere! 'It' and 'there' could be anything. Say which box, and where."},
+						{"text": "\"Do the thing!\"", "icon": "shrug", "why": "Robo spun round: 'the thing' could be anything. Say what to do."}],
+					"answer": 0, "done": "Robo put the red box in the basket. Clear words!"},
+				{"id": "robo_blue", "kind": "choose", "view": "robo", "mode": "normal", "on_miss": "robo_muddle", "after": "robo_blue",
+					"say": "Now the blue box goes on the table.",
+					"choices": [
+						{"text": "\"Robo, put the blue box on the table.\"", "icon": "box_blue"},
+						{"text": "\"Blue!\"", "icon": "talk", "why": "Robo said \"Blue!\" back. Say what to do with it, and where."},
+						{"text": "\"Tidy up.\"", "icon": "tidy", "why": "Robo tidied himself into the basket! Say which box goes where."}],
+					"answer": 0, "done": "The blue box is on the table. Robo beeps happily."},
+				{"id": "robo_two", "kind": "choose", "view": "robo", "mode": "expert", "on_miss": "robo_muddle", "after": "robo_stack",
+					"say": "The yellow box goes on top of the red one. Two steps in one go: what do you say?",
+					"choices": [
+						{"text": "\"Robo, pick up the yellow box, then put it on the red box.\"", "icon": "box_yellow"},
+						{"text": "\"Robo, yellow, red, go!\"", "icon": "talk", "why": "Robo is muddled: say each step, in order."},
+						{"text": "\"Stack them.\"", "icon": "shrug", "why": "Robo stacked everything, even his own feet! Say which box goes where."}],
+					"answer": 0, "done": "Yellow on red: Robo did both steps, in order."},
+				{"id": "turn", "kind": "choose", "view": "stall", "react": "pip_ball",
+					"say": "Pip-pop has a ball. You'd like a turn. How do you ask?",
+					"choices": [
+						{"text": "\"Can I have a turn, please?\"", "icon": "please"},
+						{"text": "\"Give it!\"", "icon": "bossy", "why": "That sounds bossy. A question and a please work better."},
+						{"text": "Grab the ball", "icon": "hand", "why": "Grabbing isn't fair. Ask, and wait for your turn."}],
+					"answer": 0, "done": "Pip-pop says: \"Yes! Your turn next.\""},
+				{"id": "end", "kind": "info", "view": "stall",
+					"say": "You listened, said sorry, fixed it and gave clear words. That's how good talkers do it!"}
+			],
+			"check": [
+				{"say": "Someone is upset with you. What do you do first?", "answer": 0, "choices": [
+					{"text": "Listen", "icon": "ear"}, {"text": "Shout", "icon": "talk_over"}, {"text": "Run away", "icon": "run"}]},
+				{"say": "Which one is a good sorry?", "answer": 0, "choices": [
+					{"text": "\"I'm sorry.\"", "icon": "sorry"}, {"text": "\"Sorry, but...\"", "icon": "cross_arms"},
+					{"text": "\"Whatever.\"", "icon": "shrug"}]},
+				{"say": "Robo does exactly what you say. Which words are clear?", "answer": 0, "choices": [
+					{"text": "\"Put the red box in the basket.\"", "icon": "box_red"}, {"text": "\"Put it there.\"", "icon": "question"},
+					{"text": "\"Do the thing.\"", "icon": "shrug"}]},
+				{"say": "How do you ask for a turn?", "answer": 0, "choices": [
+					{"text": "\"Can I have a turn, please?\"", "icon": "please"}, {"text": "\"Give it!\"", "icon": "bossy"},
+					{"text": "Grab it", "icon": "hand"}]}
+			],
+			"name_it": {"title": "Talk like a pro", "lines": ["Look at the person, and listen first.", "Say back what you heard.",
+				"Say sorry, and fix it if you can.", "Say thank you.", "Clear words: what, which and where."],
+				"source": "CASEL's relationship skills (communicate clearly, listen actively) and the EU's EntreComp (working with others)"},
+			"try_real": "With a grown-up: play Robo. One of you gives instructions to make a sandwich, and the other does EXACTLY what is said.",
+			"sources": [
+				{"fact": "Relationship skills: communicating clearly, listening actively, cooperating, solving conflicts well and asking for or offering help.", "source": "CASEL, the CASEL framework", "url": "https://casel.org/fundamentals-of-sel/what-is-the-casel-framework/"},
+				{"fact": "Children's social skills at five predict education, work and staying out of trouble as young adults.", "source": "Jones, Greenberg and Crowley (2015), American Journal of Public Health 105(11)", "url": "https://ideas.repec.org/a/aph/ajpbhl/10.2105-ajph.2015.302630_9.html"},
+				{"fact": "Working with others and communicating are part of turning ideas into value for others.", "source": "EntreComp, the EU's Entrepreneurship Competence Framework (2016)", "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC101581"}
+			]
+		},
+		"middle": {
+			"skill": "Win-win deals, clear instructions",
+			"twist": "Ana can only spare half a crate: can you still find a win-win?",
+			"can_now": "ask what the other person needs, make a fair win-win deal and keep the promise",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "farm", "react": "ana_comes", "book": {"meet": ["ana"]},
+					"say": "Your stall needs apples for apple cake. Ana the farmer has apples. Let's make a deal that's good for both of you."},
+				{"id": "ask", "kind": "choose", "view": "farm",
+					"say": "Before you offer anything, find out what Ana wants. What do you ask?",
+					"choices": [
+						{"text": "\"What do you need most this week?\"", "icon": "question_bubble"},
+						{"text": "\"How cheap can you go?\"", "icon": "coins", "why": "That only thinks of you. Ask what she needs: then you can help each other."},
+						{"text": "\"Give me apples.\"", "icon": "bossy", "why": "That's an order, not a deal. Ask first."}],
+					"answer": 0, "done": "A good question: now you know what she needs."},
+				{"id": "ana_says", "kind": "info", "view": "farm",
+					"say": "Ana says: \"I need bread for my helpers at harvest time. And my crates are so heavy!\""},
+				{"id": "offer", "kind": "choose", "view": "farm", "mode": "normal",
+					"say": "What is a win-win offer?",
+					"choices": [
+						{"text": "\"4 loaves for a crate of apples, and I'll help you carry.\"", "icon": "handshake"},
+						{"text": "\"1 loaf for all your apples.\"", "icon": "fair_not", "why": "That's not fair for Ana. She'd say no, and she wouldn't trust you next time."},
+						{"text": "\"I'll pay you one day.\"", "icon": "clock", "why": "'One day' isn't a deal. Say what you'll give, and when."}],
+					"answer": 0, "done": "Ana smiles: \"That works for both of us!\""},
+				{"id": "offer_half", "kind": "choose", "view": "farm", "mode": "expert",
+					"say": "Ana says: \"I can only spare half a crate this week.\" What now?",
+					"choices": [
+						{"text": "\"Half a crate for 2 loaves, and I'll help carry your crates.\"", "icon": "handshake"},
+						{"text": "\"Then give me the whole crate anyway.\"", "icon": "bossy", "why": "She can't, so that's no deal. Find what you can both do."},
+						{"text": "\"Forget it.\"", "icon": "cross", "why": "Don't give up too fast: a smaller deal can still be win-win."}],
+					"answer": 0, "done": "A smaller deal, still good for both of you."},
+				{"id": "shake", "kind": "hold", "target": "ana_hand", "seconds": 1, "reach": "hand", "motion": "squeeze", "view": "farm",
+					"after": "handshake", "say": "Shake hands on the deal: hold Ana's hand.", "done": "It's a deal!"},
+				{"id": "promise", "kind": "choose", "view": "farm",
+					"say": "You said you'd bring the bread on Friday. On Friday you're very busy. What do you do?",
+					"choices": [
+						{"text": "Bring it anyway, or tell Ana early and agree a new time", "icon": "promise"},
+						{"text": "Forget it: they were only words", "icon": "cross", "why": "A promise is a deal. Keeping it is how people come to trust you."},
+						{"text": "Hide from Ana", "icon": "door", "why": "Hiding makes it worse. Tell her early and agree a new time."}],
+					"answer": 0, "done": "That's someone people can count on."},
+				{"id": "deliver", "kind": "touch", "target": "ana_basket", "view": "farm", "after": "bread_delivered",
+					"book": {"promise": "ana"}, "say": "Friday: keep your promise. Put the bread in Ana's basket.",
+					"done": "Promise kept! Ana trusts you more."},
+				{"id": "robo_hi", "kind": "info", "view": "robo", "react": "robo_wakes",
+					"say": "Robo is helping you tidy the stall. Remember: Robo does EXACTLY what you say."},
+				{"id": "robo_apples", "kind": "choose", "view": "robo", "on_miss": "robo_muddle", "after": "robo_apples",
+					"say": "The apples go in the blue crate, under the table. What do you say?",
+					"choices": [
+						{"text": "\"Robo, put the apples in the blue crate under the table.\"", "icon": "box_blue"},
+						{"text": "\"Robo, put them away.\"", "icon": "question", "why": "Robo put them... away! Where? Say what, and exactly where."},
+						{"text": "\"Apples, crate, go!\"", "icon": "talk", "why": "Robo is muddled: say it as one whole, clear sentence."}],
+					"answer": 0, "done": "Apples in the blue crate, under the table. Exactly right."},
+				{"id": "robo_steps", "kind": "sequence", "targets": ["card_forward", "card_left", "card_pick"], "motion": "press",
+					"view": "robo", "say": "Robo must fetch the yellow box: it's ahead, then to his left. Give him the steps in order: touch the cards.",
+					"done": "FORWARD, TURN LEFT, PICK UP: Robo did it, step by step."},
+				{"id": "complaint", "kind": "choose", "view": "stall", "react": "customer_comes",
+					"say": "A customer says: \"Your apple cake was {cake_gripe}.\" What do you do?",
+					"choices": [
+						{"text": "Listen, say sorry, offer a fresh slice and thank them", "icon": "sorry"},
+						{"text": "Say the cake is fine", "icon": "cross_arms", "why": "Listen first: a complaint is free advice to make things better."},
+						{"text": "Pretend not to hear", "icon": "quiet", "why": "Ignoring it loses a customer. Listen, say sorry and fix it."}],
+					"answer": 0, "done": "The customer says: \"Thank you! I'll come again.\""},
+				{"id": "end", "kind": "info", "view": "stall",
+					"say": "You asked what Ana needed, made a win-win deal, kept your promise and gave clear steps. Well done!"}
+			],
+			"check": [
+				{"say": "Before you make a deal, you...", "answer": 0, "choices": [
+					{"text": "ask what the other person needs", "icon": "question_bubble"},
+					{"text": "ask for the lowest price", "icon": "coins"}, {"text": "say what you want, loudly", "icon": "talk_over"}]},
+				{"say": "A win-win deal is...", "answer": 0, "choices": [
+					{"text": "good for both people", "icon": "handshake"}, {"text": "good for me only", "icon": "fair_not"},
+					{"text": "a game you win", "icon": "star"}]},
+				{"say": "You made a promise, and now you can't keep it. You...", "answer": 0, "choices": [
+					{"text": "tell them early and agree a new time", "icon": "promise"}, {"text": "say nothing", "icon": "quiet"},
+					{"text": "hide", "icon": "door"}]},
+				{"say": "Which instruction is clearest?", "answer": 0, "choices": [
+					{"text": "\"Put the apples in the blue crate under the table.\"", "icon": "box_blue"},
+					{"text": "\"Put them away.\"", "icon": "question"}, {"text": "\"Apples!\"", "icon": "talk"}]}
+			],
+			"name_it": {"title": "A win-win deal", "lines": ["Ask what the other person needs.", "Make a fair offer that helps you both.",
+				"Shake on it, and keep your promise.", "Clear instructions: what, which, where, in order."],
+				"source": "The Harvard Program on Negotiation (interests, not positions; from Getting to Yes) and CASEL's relationship skills"},
+			"try_real": "With a grown-up: plan a fair swap with a friend or a brother or sister (a toy, a turn, a job), where you both get something you want.",
+			"sources": [
+				{"fact": "Understanding the other side's interests leads to agreements that satisfy each side's interests.", "source": "Program on Negotiation, Harvard Law School: BATNA and interests (after Fisher, Ury and Patton, Getting to Yes)", "url": "https://www.pon.harvard.edu/tag/batna/"},
+				{"fact": "Relationship skills include communicating clearly, listening actively and negotiating conflict constructively.", "source": "CASEL, the CASEL framework", "url": "https://casel.org/fundamentals-of-sel/what-is-the-casel-framework/"},
+				{"fact": "Working with others and mobilising resources are entrepreneurship competences.", "source": "EntreComp (2016)", "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC101581"}
+			]
+		},
+		"big": {
+			"skill": "Pitch, feedback, fair deals",
+			"twist": "A tricky numbers question, and a 'sign now' offer.",
+			"can_now": "pitch an idea (the problem, the idea, why me, what I need), take feedback and say no to an unfair deal",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "tent", "react": "investors_in", "book": {"meet": ["diaz", "ade", "kowalski"]},
+					"say": "You want a bread cart to sell at the Launch Site. Three friendly investors will listen to your pitch. Stand tall, smile and speak clearly."},
+				{"id": "order", "kind": "sequence", "targets": ["card_problem", "card_idea", "card_why", "card_need"], "motion": "press",
+					"device": "tablet", "view": "tent",
+					"say": "A strong pitch has four parts. Touch them in order on your pitch board: the PROBLEM, your IDEA, WHY YOU, WHAT YOU NEED.",
+					"done": "That's the order of a strong pitch."},
+				{"id": "problem", "kind": "choose", "view": "tent",
+					"say": "First, the PROBLEM. Say it so they can picture it:",
+					"choices": [
+						{"text": "\"The builders at the Launch Site walk 20 minutes to buy lunch.\"", "icon": "problem_walk"},
+						{"text": "\"Bread is good.\"", "icon": "bread", "why": "True, but what's the problem? Say who needs something, and why."},
+						{"text": "\"I want money.\"", "icon": "coins", "why": "Investors want to hear what people need, not what you want."}],
+					"answer": 0, "done": "Mr Diaz nods: he can picture it."},
+				{"id": "idea", "kind": "choose", "view": "tent",
+					"say": "Now your IDEA:",
+					"choices": [
+						{"text": "\"A bread cart that comes to the Launch Site at lunchtime.\"", "icon": "cart"},
+						{"text": "\"A bakery on the Moon, by Tuesday!\"", "icon": "rocket", "why": "Exciting, but can you really do it? Investors trust ideas you can do."},
+						{"text": "\"Something with bread, maybe.\"", "icon": "question", "why": "Be clear: what exactly is your idea?"}],
+					"answer": 0, "done": "A clear idea that fixes the problem."},
+				{"id": "why_you", "kind": "choose", "view": "tent",
+					"say": "WHY YOU?",
+					"choices": [
+						{"text": "\"I ran my stall for two weeks, and customers came back.\"", "icon": "stall"},
+						{"text": "\"I'm the best baker in the world.\"", "icon": "star", "why": "Show it, don't boast: say what you have done."},
+						{"text": "\"Because I want to.\"", "icon": "talk", "why": "Wanting is a start. What have you done that shows you can?"}],
+					"answer": 0, "done": "Facts they can check: that builds trust."},
+				{"id": "need", "kind": "choose", "view": "tent",
+					"say": "WHAT YOU NEED:",
+					"choices": [
+						{"text": "\"50 coins for a cart. You get 1 coin of every 10 it makes, for a year.\"", "icon": "money_deal"},
+						{"text": "\"Lots of money, please.\"", "icon": "coins", "why": "How much, and what for? Give a clear number, and say what they get."},
+						{"text": "\"Everything you have.\"", "icon": "cross", "why": "Ask for what the idea really needs, and say what they get back."}],
+					"answer": 0, "done": "A clear ask, and what they get back."},
+				{"id": "eyes", "kind": "find", "targets": ["diaz", "ade", "kowalski"], "view": "tent",
+					"lines": {"diaz": "Mr Diaz nods.", "ade": "Ms Ade smiles.", "kowalski": "Mrs Kowalski listens."},
+					"say": "Look at each investor as you speak: one, two, three. Touch each one.",
+					"done": "Good eye contact: they feel you're talking to them."},
+				{"id": "rain", "kind": "choose", "view": "tent", "mode": "normal",
+					"say": "Mr Diaz asks: \"What if it rains?\"",
+					"choices": [
+						{"text": "\"Good question! I'll put a cover on the cart and test it in the first week.\"", "icon": "rain_cover"},
+						{"text": "\"It never rains here.\"", "icon": "cross", "why": "Making things up loses trust. Say what you'll do, or that you'll find out."},
+						{"text": "\"Next question!\"", "icon": "talk_over", "why": "Every question is a chance to show you've thought about it."}],
+					"answer": 0, "done": "An honest answer with a plan."},
+				{"id": "numbers", "kind": "choose", "view": "tent", "mode": "expert",
+					"say": "Mr Diaz asks: \"You make 2 coins on each loaf. How many loaves pay back the 50 coins?\"",
+					"choices": [
+						{"text": "\"25 loaves.\"", "icon": "bread"},
+						{"text": "\"50 loaves.\"", "icon": "coins", "why": "Each loaf makes 2 coins, so 50 ÷ 2 = 25 loaves."},
+						{"text": "\"I don't know, and it doesn't matter.\"", "icon": "shrug", "why": "It's fine not to know at once, but say you'll work it out: the numbers matter."}],
+					"answer": 0, "done": "25 loaves: you know your numbers."},
+				{"id": "feedback_in", "kind": "choose", "view": "tent",
+					"say": "Ms Ade says: \"Your price is a bit high for the builders.\"",
+					"choices": [
+						{"text": "\"Thank you. What price would feel fair to them?\"", "icon": "ear"},
+						{"text": "\"You're wrong.\"", "icon": "cross_arms", "why": "Feedback is free advice. Listen, ask, then decide."},
+						{"text": "Go quiet and sad", "icon": "quiet", "why": "It's fine to feel a bit sad. Feedback helps you get better: ask about it."}],
+					"answer": 0, "done": "Ms Ade: \"I like how you listen.\""},
+				{"id": "walk_away", "kind": "choose", "view": "tent",
+					"say": "Mrs Kowalski offers 50 coins, but she wants 9 of every 10 coins your cart makes, for ever.",
+					"choices": [
+						{"text": "\"Thank you, but no: that's not fair for the cart.\"", "icon": "walk_away"},
+						{"text": "\"Yes! Any money is good.\"", "icon": "coins", "why": "Not every deal is a good deal. You can say no politely and keep looking."},
+						{"text": "\"How rude!\"", "icon": "cross_arms", "why": "Stay polite: you can say no kindly, and she may offer better later."}],
+					"answer": 0, "done": "A polite no. Mrs Kowalski nods: she respects that."},
+				{"id": "pressure", "kind": "choose", "view": "tent", "mode": "expert",
+					"say": "Mrs Kowalski says: \"Sign now, or the offer is gone for ever!\"",
+					"choices": [
+						{"text": "\"I'll think it over, and talk to a grown-up first.\"", "icon": "grown_up"},
+						{"text": "Sign quickly, before it's gone", "icon": "clock", "why": "'Now or never' is a pressure trick. A fair offer can wait while you think."},
+						{"text": "Sign it to be polite", "icon": "please", "why": "Being polite doesn't mean saying yes. Take your time."}],
+					"answer": 0, "done": "Good: a fair offer can always wait while you think."},
+				{"id": "fair", "kind": "choose", "view": "tent", "after": "ade_comes",
+					"say": "Ms Ade offers 50 coins for 1 coin of every 10 the cart makes, for one year.",
+					"choices": [
+						{"text": "\"That's fair for both of us. Yes, please!\"", "icon": "handshake"},
+						{"text": "\"No: I want 100 coins for nothing.\"", "icon": "cross", "why": "Investors need something back too. Fair for both is the best deal."},
+						{"text": "\"Can I have it for free?\"", "icon": "question", "why": "She's taking a risk on you, so a fair share back is right."}],
+					"answer": 0, "done": "Ms Ade comes round the table to shake on it."},
+				{"id": "shake", "kind": "hold", "target": "ade_hand", "seconds": 1, "reach": "hand", "motion": "squeeze", "view": "tent",
+					"after": "handshake", "say": "Shake hands with Ms Ade: hold her hand.", "done": "Deal! Your bread cart is on its way."},
+				{"id": "feedback_out", "kind": "choose", "view": "tent", "react": "pip_pitch",
+					"say": "Pip-pop pitched her lemonade stand. Give her kind, useful feedback:",
+					"choices": [
+						{"text": "\"I liked your sign! Next time, say how much you need.\"", "icon": "thank_you"},
+						{"text": "\"That was bad.\"", "icon": "cross", "why": "Feedback should help: one thing you liked, and one thing to try."},
+						{"text": "\"Great!\" and nothing else", "icon": "star", "why": "Kind, but it doesn't help her get better. Add one thing to try."}],
+					"answer": 0, "done": "Pip-pop: \"Thanks! I'll try that.\""},
+				{"id": "end", "kind": "info", "view": "tent",
+					"say": "A clear pitch, honest answers, a polite no and a fair deal. That's how founders talk!"}
+			],
+			"check": [
+				{"say": "A strong pitch starts with...", "answer": 0, "choices": [
+					{"text": "the problem people have", "icon": "problem_walk"}, {"text": "how much money you want", "icon": "coins"},
+					{"text": "a joke", "icon": "star"}]},
+				{"say": "An investor says your price is too high. You...", "answer": 0, "choices": [
+					{"text": "thank them and ask what would be fair", "icon": "ear"}, {"text": "say they're wrong", "icon": "cross_arms"},
+					{"text": "walk out", "icon": "door"}]},
+				{"say": "An offer is unfair. You can...", "answer": 0, "choices": [
+					{"text": "say no politely and keep looking", "icon": "walk_away"}, {"text": "say yes anyway", "icon": "coins"},
+					{"text": "be rude", "icon": "cross_arms"}]},
+				{"say": "'Sign now or it's gone for ever!' is...", "answer": 0, "choices": [
+					{"text": "a pressure trick: take your time", "icon": "clock"}, {"text": "a reason to sign quickly", "icon": "run"},
+					{"text": "a kind offer", "icon": "thank_you"}]},
+				{"say": "Good feedback is...", "answer": 0, "choices": [
+					{"text": "one thing you liked, and one thing to try", "icon": "thank_you"}, {"text": "\"That was bad.\"", "icon": "cross"},
+					{"text": "only \"Great!\"", "icon": "star"}]}
+			],
+			"name_it": {"title": "Pitch, listen, deal fairly", "lines": ["The problem, your idea, why you, what you need.",
+				"Look at your listeners and speak clearly.", "Answer honestly: say when you'll find out.",
+				"Feedback is free advice: listen, then decide.", "Say no politely to an unfair deal."],
+				"source": "EntreComp (2016: mobilising others, working with others) and the Harvard Program on Negotiation (your best alternative)"},
+			"try_real": "With a grown-up: pitch an idea for something at home (a family game night, a garden patch) in four parts: the problem, the idea, why you, what you need.",
+			"sources": [
+				{"fact": "Your best alternative to a negotiated agreement (BATNA) is the measure of any deal: you can say no to a bad one.", "source": "Program on Negotiation, Harvard Law School", "url": "https://www.pon.harvard.edu/daily/batna/batna-examples-and-what-you-can-learn-from-them/"},
+				{"fact": "Mobilising others (inspire, persuade, communicate) and working with others are entrepreneurship competences; value for others can be financial, cultural or social.", "source": "EntreComp (2016)", "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC101581"},
+				{"fact": "Leadership and social influence are among the skills employers rank highest.", "source": "World Economic Forum, The Future of Jobs Report 2025", "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/3-skills-outlook/"}
+			]
+		}
+	}
+}

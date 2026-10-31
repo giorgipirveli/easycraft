@@ -1,0 +1,457 @@
+{
+	"id": "g7.science.periodic_table",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, atoms and molecules. About how many kinds of atom, or elements, are there? About 118. Today: the table that puts them all in order."
+		},
+		{
+			"text": "The periodic table lists the elements in order of atomic number: the number of protons, tiny particles in the centre of each atom. Hydrogen is 1, helium 2, lithium 3, and so on up to 118.",
+			"picture": {
+				"kind": "periodic_grid",
+				"view": "first20"
+			}
+		},
+		{
+			"text": "Each row is a period, and each column is a group. Elements in a group react in similar ways. Group 1 holds lithium, sodium and potassium. Group 0, also called group 18, holds helium, neon and argon.",
+			"picture": {
+				"kind": "periodic_grid",
+				"view": "first20",
+				"groups": true,
+				"periods": true,
+				"col": 1
+			}
+		},
+		{
+			"text": "In 1869 Dmitri Mendeleev put the elements in this order and left gaps for elements nobody had found yet. He predicted their properties. When gallium (1875) and germanium (1886) were found, they fitted his gaps."
+		},
+		{
+			"text": "Most elements are metals, on the left and in the middle of the table. The non-metals are on the right, past a staircase line. The elements along the line are metalloids, a little like both.",
+			"picture": {
+				"kind": "periodic_grid",
+				"view": "full",
+				"shade": true
+			}
+		},
+		{
+			"text": "Metals are usually shiny and strong, conduct heat and electricity well, and bend instead of shattering. Non-metals are usually dull, brittle when solid and poor conductors. Many, like oxygen and nitrogen, are gases.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"metals",
+						"non-metals"
+					],
+					[
+						"look",
+						"shiny",
+						"dull"
+					],
+					[
+						"heat, electricity",
+						"conduct well",
+						"conduct poorly"
+					],
+					[
+						"when solid",
+						"bend",
+						"brittle"
+					],
+					[
+						"at 20 °C",
+						"solid (not mercury)",
+						"many are gases"
+					]
+				]
+			}
+		},
+		{
+			"text": "Some groups have names. The alkali metals (group 1) are soft and fizz in water, more fiercely down the group. The halogens (group 7) are reactive non-metals: chlorine keeps pools clean. The noble gases (group 0) hardly react.",
+			"picture": {
+				"kind": "periodic_grid",
+				"view": "first20",
+				"labels": true,
+				"numbers": false
+			}
+		},
+		{
+			"text": "Try it in the world: sort what you mine in Survivor into metals and non-metals: iron and gold are metals, but coal, mostly carbon, is not. In LIFE, Electricity Safety: metals conduct, so never poke a fork into a socket. Next: pure substances and reactions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a row of the periodic table called?",
+			"choices": [
+				"a period",
+				"a group",
+				"a family"
+			],
+			"answer": 0,
+			"hint": "Columns are called groups: what is the other name, for rows?",
+			"explain": "A row is a period and a column is a group."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The elements are listed in order of atomic number.",
+			"answer": true,
+			"hint": "Hydrogen is first and helium second: which number goes up by one each time?",
+			"explain": "True: each element has one more proton than the one before it."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each symbol to its element.",
+			"items": [
+				"Na",
+				"K",
+				"Fe",
+				"Cl",
+				"He"
+			],
+			"matches": [
+				"potassium",
+				"iron",
+				"chlorine",
+				"helium",
+				"sodium"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				2,
+				3
+			],
+			"hint": "Some symbols come from Latin names: natrium, kalium and ferrum.",
+			"explain": "Na is sodium (natrium), K is potassium (kalium), Fe is iron (ferrum), Cl is chlorine and He is helium."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the elements: metal or non-metal?",
+			"groups": [
+				"metal",
+				"non-metal"
+			],
+			"items": [
+				"iron",
+				"copper",
+				"oxygen",
+				"sulfur",
+				"magnesium",
+				"neon"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Metals are shiny and conduct; non-metals are often gases or dull, brittle solids.",
+			"explain": "Metals: iron, copper and magnesium. Non-metals: oxygen, sulfur and neon."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is the atomic number of the hidden element?",
+			"answer": "8",
+			"hint": "Count along the row: the numbers go up by one.",
+			"explain": "It sits between nitrogen (7) and fluorine (9), so it is 8: oxygen.",
+			"picture": {
+				"kind": "periodic_grid",
+				"view": "first20",
+				"hide": "O"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which element is a noble gas?",
+			"choices": [
+				"argon",
+				"chlorine",
+				"sodium",
+				"iron"
+			],
+			"answer": 0,
+			"hint": "Noble gases sit in the last column and hardly react.",
+			"explain": "Argon is in group 0 with helium and neon; it hardly reacts."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Most elements are metals.",
+			"answer": true,
+			"hint": "Look at how much of the table lies left of the staircase.",
+			"explain": "True: metals fill the left and the middle of the table."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Which group is the element in orange in?",
+			"answer": "2",
+			"hint": "Read the number at the top of its column.",
+			"explain": "Magnesium is in the second column: group 2.",
+			"picture": {
+				"kind": "periodic_grid",
+				"view": "first20",
+				"groups": true,
+				"mark": [
+					"Mg"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Which period is sodium in?",
+			"answer": "3",
+			"hint": "Periods are rows: count down from the top row.",
+			"explain": "Sodium is in the third row: period 3.",
+			"picture": {
+				"kind": "periodic_grid",
+				"view": "first20",
+				"mark": [
+					"Na"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Potassium is below sodium in group 1. How does it react with water?",
+			"choices": [
+				"even faster than sodium",
+				"slower than sodium",
+				"not at all"
+			],
+			"answer": 0,
+			"hint": "Alkali metals react more fiercely the further down the group they are.",
+			"explain": "Potassium is lower in group 1, so it reacts even faster than sodium."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "All metals are solid at room temperature.",
+			"answer": false,
+			"hint": "Think of the silver liquid in old thermometers.",
+			"explain": "False: mercury is a metal, and it is a liquid at room temperature."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the properties: of metals or of non-metals?",
+			"groups": [
+				"metals",
+				"non-metals"
+			],
+			"items": [
+				"bend without breaking",
+				"dull",
+				"poor at carrying heat",
+				"conduct electricity well",
+				"brittle when solid",
+				"shiny"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Picture a copper wire, then a lump of sulfur.",
+			"explain": "Metals: shiny, good conductors, bend without breaking. Non-metals: dull, brittle when solid, poor at carrying heat."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the alkali metals from the slowest to react with water to the fastest.",
+			"items": [
+				"sodium",
+				"lithium",
+				"potassium"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "They react faster the further down group 1 they are.",
+			"explain": "Lithium is at the top, then sodium, then potassium: each reacts faster than the one above."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the families of the periodic table.",
+			"spots": [
+				[
+					0.0615,
+					0.09,
+					0.0532,
+					0.3907
+				],
+				[
+					0.4212,
+					0.91,
+					0.4212,
+					0.6093
+				],
+				[
+					0.8192,
+					0.09,
+					0.8942,
+					0.3907
+				],
+				[
+					0.9385,
+					0.09,
+					0.9468,
+					0.3907
+				]
+			],
+			"labels": [
+				"halogens",
+				"noble gases",
+				"transition metals",
+				"alkali metals"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Group 1 is on the far left, groups 7 and 0 on the far right, and the wide middle block is in between.",
+			"explain": "Alkali metals: group 1. Transition metals: the middle block. Halogens: group 7. Noble gases: group 0, the last column.",
+			"picture": {
+				"kind": "periodic_grid",
+				"view": "full"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An element is shiny, bends and conducts electricity. Where is it in the table?",
+			"choices": [
+				"on the left or in the middle",
+				"in the last column",
+				"at the top right"
+			],
+			"answer": 0,
+			"hint": "Which kind of element has these properties, and where do they sit?",
+			"explain": "These are the properties of a metal, and the metals are on the left and in the middle."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mendeleev left gaps in 1869, and germanium was found in 1886. How many years later was that?",
+			"answer": "17",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1886 − 1869 = 17 years."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is helium used in party balloons instead of hydrogen?",
+			"choices": [
+				"Helium hardly reacts; hydrogen burns.",
+				"Helium is heavier.",
+				"Hydrogen is a metal."
+			],
+			"answer": 0,
+			"hint": "Think about which family each one belongs to.",
+			"explain": "Helium is a noble gas and hardly reacts, but hydrogen catches fire easily."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Elements in the same period react in similar ways.",
+			"answer": false,
+			"hint": "Is it the rows or the columns that share their properties?",
+			"explain": "False: elements in the same group (column) react alike, not those in the same period (row)."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each group to its name.",
+			"items": [
+				"group 1",
+				"group 7",
+				"group 0",
+				"the middle block"
+			],
+			"matches": [
+				"noble gases",
+				"halogens",
+				"alkali metals",
+				"transition metals"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "The halogens and the noble gases are on the right; the alkali metals on the left.",
+			"explain": "Group 1: the alkali metals. Group 7: the halogens. Group 0: the noble gases. The middle block: the transition metals."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Element 12 is in period 3. Which group is it in?",
+			"choices": [
+				"group 2",
+				"group 3",
+				"group 1"
+			],
+			"answer": 0,
+			"hint": "Period 3 starts with element 11 in group 1: count along from there.",
+			"explain": "Element 11 (sodium) is in group 1, so element 12 (magnesium) is in group 2."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7k.element_place",
+			"level": 1
+		},
+		{
+			"gen": "g7k.element_place",
+			"level": 2
+		},
+		{
+			"gen": "g7k.element_place",
+			"level": 3
+		},
+		{
+			"gen": "g7k.metal_sort",
+			"level": 1
+		},
+		{
+			"gen": "g7k.metal_sort",
+			"level": 2
+		},
+		{
+			"gen": "g7k.metal_sort",
+			"level": 3
+		},
+		{
+			"gen": "g7k.element_symbol",
+			"level": 1
+		},
+		{
+			"gen": "g7k.element_symbol",
+			"level": 2
+		},
+		{
+			"gen": "g7k.element_symbol",
+			"level": 3
+		}
+	]
+}

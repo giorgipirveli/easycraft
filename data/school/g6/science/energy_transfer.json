@@ -1,0 +1,384 @@
+{
+	"id": "g6.science.energy_transfer",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, heat and temperature. Which way does heat always flow? From hotter things to colder things."
+		},
+		{
+			"text": "Kinetic energy is the energy of movement. The faster something moves, and the more mass it has, the more it has. A pendulum moves fastest at the bottom of its swing: its energy is kinetic there, and stored (potential) at the top.",
+			"picture": {
+				"kind": "pendulum",
+				"energy": true
+			}
+		},
+		{
+			"text": "When objects collide or push each other, energy is transferred: a moving ball hits a still one, slows down, and the still one starts to move."
+		},
+		{
+			"text": "Energy is never lost; it changes form or moves. When a skateboard slows down, some of its kinetic energy becomes heat and sound.",
+			"picture": {
+				"kind": "energy_chain",
+				"steps": [
+					"kinetic",
+					"heat"
+				],
+				"things": [
+					"skateboard",
+					"warm wheels"
+				],
+				"wasted": [
+					"sound"
+				]
+			}
+		},
+		{
+			"text": "Stored energy can become kinetic energy: a stretched catapult, a ball held high, or a wound-up spring.",
+			"picture": {
+				"kind": "energy_chain",
+				"steps": [
+					"gravitational",
+					"kinetic",
+					"sound"
+				],
+				"things": [
+					"a high ball",
+					"falling",
+					"thud"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: ride down a hill in your world, or roll a boat down a slope into water. Where does the moving energy come from, and where does it go at the bottom? Next: energy changes."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is kinetic energy?",
+			"answer": 0,
+			"hint": "kinetic means moving.",
+			"choices": [
+				"the energy of movement",
+				"energy stored in food",
+				"the energy of light"
+			],
+			"explain": "Kinetic energy is the energy of movement."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which has more kinetic energy?",
+			"answer": 0,
+			"hint": "Which one is moving faster?",
+			"choices": [
+				"a fast bike",
+				"the same bike, going slowly"
+			],
+			"explain": "The faster it moves, the more kinetic energy."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A rolling ball has kinetic energy.",
+			"answer": true,
+			"hint": "It is moving.",
+			"explain": "Yes: anything moving has kinetic energy."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A moving marble hits a still one. What happens?",
+			"answer": 0,
+			"hint": "The still one starts to move.",
+			"choices": [
+				"Energy passes to the still marble.",
+				"Both stop forever.",
+				"Energy disappears."
+			],
+			"explain": "Energy is transferred to the still marble."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Energy can be destroyed.",
+			"answer": false,
+			"hint": "Where does it go?",
+			"explain": "No: energy changes form or moves, but is never destroyed."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which has more kinetic energy at the same speed?",
+			"answer": 0,
+			"hint": "They go at the same speed. Which one has more mass?",
+			"choices": [
+				"a lorry",
+				"a bicycle"
+			],
+			"explain": "The lorry has more mass."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A skateboard slows down on a flat path. Where does its energy go?",
+			"answer": 0,
+			"hint": "Energy is never lost.",
+			"choices": [
+				"into heat and sound",
+				"nowhere: it vanishes",
+				"into the sky"
+			],
+			"explain": "Rubbing turns kinetic energy into heat and sound."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What kind of energy does a stretched catapult have?",
+			"answer": 0,
+			"hint": "It isn't moving yet.",
+			"choices": [
+				"stored energy",
+				"kinetic energy only",
+				"light energy"
+			],
+			"explain": "It stores energy, ready to become movement."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When you rub your hands together, kinetic energy becomes heat.",
+			"answer": true,
+			"hint": "Your hands get warm.",
+			"explain": "Yes: movement turns into heat."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A bowling ball hits the pins. What does the ball lose?",
+			"answer": 0,
+			"hint": "The pins start to move.",
+			"choices": [
+				"some of its kinetic energy",
+				"all its mass",
+				"its colour"
+			],
+			"explain": "It gives some of its kinetic energy to the pins."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a car need more braking to stop when it goes faster?",
+			"answer": 0,
+			"hint": "Faster means more energy.",
+			"choices": [
+				"It has more kinetic energy.",
+				"It has less mass.",
+				"Its brakes get bigger."
+			],
+			"explain": "More kinetic energy must be changed into heat to stop."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the energy changes when you drop a ball.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Start before you let go.",
+			"items": [
+				"kinetic energy, falling",
+				"stored energy, held high",
+				"sound and heat, hitting the ground"
+			],
+			"explain": "Stored, then kinetic, then sound and heat."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In marbles, the shooter stops dead and the target shoots off. What happened?",
+			"answer": 0,
+			"hint": "Energy moves from one to the other.",
+			"choices": [
+				"The shooter gave its energy to the target.",
+				"Energy was destroyed.",
+				"The target made new energy."
+			],
+			"explain": "The shooter's kinetic energy was transferred to the target."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A heavier ball rolling at the same speed as a lighter one has more kinetic energy.",
+			"answer": true,
+			"hint": "Same speed, but which ball is heavier?",
+			"explain": "Yes: more mass at the same speed means more kinetic energy."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which design would make a toy car roll farthest after a push?",
+			"answer": 0,
+			"hint": "Less rubbing wastes less energy.",
+			"choices": [
+				"smooth wheels that rub less",
+				"square wheels",
+				"sticky tyres"
+			],
+			"explain": "Less rubbing means less energy turned into heat."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort each one: moving energy (kinetic) or stored energy?",
+			"items": [
+				"a rolling ball",
+				"a stretched catapult",
+				"a running dog",
+				"a ball held high",
+				"a wound-up spring",
+				"a flying bird"
+			],
+			"groups": [
+				"kinetic",
+				"stored"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Is it moving now, or ready to move?",
+			"explain": "The rolling ball, running dog and flying bird are moving: kinetic. The catapult, the ball held high and the spring store energy, ready to move."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each event to its energy change.",
+			"items": [
+				"rubbing your hands",
+				"a ball dropped",
+				"a catapult let go",
+				"a skateboard slowing"
+			],
+			"matches": [
+				"stored to kinetic",
+				"kinetic to heat",
+				"kinetic to heat and sound",
+				"stored to kinetic, then sound"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Start with the energy it has before, then what it becomes.",
+			"explain": "Rubbing hands: kinetic to heat. A dropped ball: stored to kinetic, then sound as it lands. A catapult: stored to kinetic. A skateboard slowing: kinetic to heat and sound."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Watch the pendulum and its energy bars. Where does it have the most kinetic energy?",
+			"picture": {
+				"kind": "pendulum",
+				"energy": true,
+				"animate": true
+			},
+			"choices": [
+				"at the bottom of its swing",
+				"at the top of its swing",
+				"the same all the way"
+			],
+			"answer": 0,
+			"hint": "Kinetic energy is movement energy. Where is the pendulum moving fastest?",
+			"explain": "At the bottom it moves fastest, so its kinetic energy is biggest. At the top it stops for a moment, and its energy is all stored."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort each energy change: stored to kinetic, or kinetic to heat or sound?",
+			"groups": [
+				"stored to kinetic",
+				"kinetic to heat or sound"
+			],
+			"items": [
+				"a catapult lets go",
+				"a skateboard slows down",
+				"a ball rolls off a shelf",
+				"brakes stop a bike",
+				"a wound-up toy starts",
+				"hands rubbed together"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is something starting to move, or is something that moves slowing down?",
+			"explain": "Starting to move uses stored energy: the catapult, the ball falling off the shelf, the wound-up toy. Slowing down turns kinetic energy into heat and sound: the skateboard, the brakes, rubbing hands."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order them from the least kinetic energy to the most.",
+			"items": [
+				"a lorry at 30 km/h",
+				"a bike at 10 km/h",
+				"a lorry at 60 km/h",
+				"a bike at 30 km/h"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "More mass and more speed both mean more kinetic energy. Compare the bikes, then the lorries.",
+			"explain": "The slow bike has the least, then the faster bike. A lorry has far more mass, so even at 30 km/h it has more than either bike, and the lorry at 60 km/h has the most."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A toy car must roll as far as it can. Sort the choices: less energy lost to rubbing, or more?",
+			"groups": [
+				"less lost",
+				"more lost"
+			],
+			"items": [
+				"oiled wheels",
+				"a rusty axle",
+				"a smooth ramp",
+				"a carpet track",
+				"round wheels",
+				"sticky tyres"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Rubbing turns kinetic energy into heat. Which choices rub less?",
+			"explain": "Oiled wheels, a smooth ramp and round wheels rub less, so the car keeps more kinetic energy. A rusty axle, a carpet and sticky tyres rub more, turning it into heat."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A pendulum has 10 units of energy, all stored at the top. Halfway down, 6 units are kinetic. How many units are still stored there?",
+			"answer": "4",
+			"hint": "Energy is never lost: the stored and the kinetic parts add up to the same total.",
+			"explain": "The total stays 10 units. Halfway down, 6 are kinetic, so 10 − 6 = 4 are still stored. At the bottom all 10 are kinetic (if nothing is lost to rubbing)."
+		}
+	]
+}

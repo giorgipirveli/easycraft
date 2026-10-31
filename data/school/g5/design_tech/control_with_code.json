@@ -1,0 +1,377 @@
+{
+	"id": "g5.design_tech.control_with_code",
+	"lesson": [
+		{
+			"text": "Quick memory: what does a switch do in a circuit? (It opens and closes a gap in the loop.) Today: switching things on and off with a program, instead of a finger."
+		},
+		{
+			"text": "A control system has an input, a process and an output. A sensor or a button is the input. A program on a microcontroller (a tiny computer) is the process, and a light, motor or buzzer is the output."
+		},
+		{
+			"text": "Sensors measure the world: light, temperature, sound, distance, movement and moisture. The program reads a sensor and decides what to do."
+		},
+		{
+			"text": "IF makes a decision. A night light: IF the light level is low, turn the LED on, ELSE turn it off. FOREVER keeps checking, again and again.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"FOREVER",
+					"  IF light < 30",
+					"    LED ON",
+					"  ELSE",
+					"    LED OFF"
+				],
+				"mark": 1
+			}
+		},
+		{
+			"text": "A loop repeats steps. To flash a light 5 times: REPEAT 5, LED on, wait 1 second, LED off, wait 1 second. Each flash takes 2 seconds, so it takes 5 × 2 = 10 seconds.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"REPEAT 5",
+					"  LED ON",
+					"  WAIT 1",
+					"  LED OFF",
+					"  WAIT 1"
+				]
+			}
+		},
+		{
+			"text": "UK traffic lights follow a sequence: red, then red and amber together, then green, then amber, then red again. A program with waits can run it, and a button input can ask for people to cross.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Red"
+					},
+					{
+						"shape": "step",
+						"text": "Red and amber"
+					},
+					{
+						"shape": "step",
+						"text": "Green"
+					},
+					{
+						"shape": "end",
+						"text": "Amber, then red"
+					}
+				]
+			}
+		},
+		{
+			"text": "A buggy's motors follow commands: forward, turn left, turn right. Test the program, find the bugs (the mistakes), fix them and test again: that is debugging."
+		},
+		{
+			"text": "Try it in the world: put a lamp beside a pressure plate, so stepping on the plate lights it: an input and an output. For real: program a microcontroller or a screen buggy to light up or follow a path."
+		}
+	],
+	"exercises": [
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each part to its job.",
+			"items": [
+				"sensor",
+				"microcontroller",
+				"LED",
+				"motor"
+			],
+			"matches": [
+				"runs the program",
+				"gives out light",
+				"makes things turn",
+				"measures the world"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Which part senses, which thinks, which acts?",
+			"explain": "A sensor measures, a microcontroller runs the program, an LED lights up and a motor turns."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is an input?",
+			"answer": 0,
+			"hint": "An input brings information into the program.",
+			"choices": [
+				"a light sensor",
+				"an LED",
+				"a buzzer",
+				"a motor"
+			],
+			"explain": "A light sensor: it tells the program how light it is."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A loop repeats steps in a program.",
+			"answer": true,
+			"hint": "What does REPEAT do?",
+			"explain": "True: a loop repeats its steps, a number of times or forever."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In this program, what turns the LED on?",
+			"answer": 0,
+			"hint": "Read the IF line.",
+			"choices": [
+				"the light level being low",
+				"a loud noise",
+				"the time of day",
+				"nothing"
+			],
+			"explain": "IF light < 30: when it is dark, the light level is low and the LED turns on.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"FOREVER",
+					"  IF light < 30",
+					"    LED ON",
+					"  ELSE",
+					"    LED OFF"
+				],
+				"mark": 1
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the UK traffic lights in order, starting from red.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Red and amber together warn that green is coming.",
+			"items": [
+				"amber",
+				"green",
+				"red and amber",
+				"red"
+			],
+			"explain": "Red, red and amber, green, amber, then red again."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Input or output?",
+			"groups": [
+				"input",
+				"output"
+			],
+			"items": [
+				"a button",
+				"a buzzer",
+				"a temperature sensor",
+				"a motor",
+				"a motion sensor",
+				"an LED"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it bring information in, or do something?",
+			"explain": "Inputs: a button and the temperature and motion sensors. Outputs: a buzzer, a motor and an LED."
+		},
+		{
+			"type": "robot",
+			"level": 2,
+			"prompt": "Program the buggy to reach the flag.",
+			"board": {
+				"cols": 5,
+				"rows": 4,
+				"start": [
+					0,
+					3
+				],
+				"facing": "N",
+				"goal": [
+					4,
+					0
+				]
+			},
+			"hint": "Check which way the buggy faces first. Plan one square at a time: a turn does not move it.",
+			"explain": "One program that works: FORWARD 3, TURN RIGHT, FORWARD 4."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A program with IF can make a decision.",
+			"answer": true,
+			"hint": "What does IF check?",
+			"explain": "True: IF checks something, like a sensor reading, and chooses what to do."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many seconds does this program take to run?",
+			"answer": "12",
+			"hint": "Add the waits in one time round, then times by the repeats.",
+			"explain": "One time round: 2 + 1 = 3 seconds. 4 × 3 = 12 seconds.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"REPEAT 4",
+					"  LED ON",
+					"  WAIT 2",
+					"  LED OFF",
+					"  WAIT 1"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does the night light's program use FOREVER?",
+			"answer": 0,
+			"hint": "The light level changes all evening.",
+			"choices": [
+				"so it keeps checking the light level",
+				"so it only runs once",
+				"to switch off the computer",
+				"to save the battery"
+			],
+			"explain": "FOREVER keeps checking, so the LED turns on as soon as it gets dark."
+		},
+		{
+			"type": "robot",
+			"level": 3,
+			"prompt": "Program the buggy round the wall to the flag.",
+			"board": {
+				"cols": 5,
+				"rows": 5,
+				"start": [
+					0,
+					4
+				],
+				"facing": "E",
+				"goal": [
+					4,
+					4
+				],
+				"walls": [
+					[
+						2,
+						4
+					],
+					[
+						2,
+						3
+					],
+					[
+						2,
+						2
+					]
+				]
+			},
+			"hint": "The wall blocks the way. Go up and over it, one square at a time.",
+			"explain": "One program that works: FORWARD 1, TURN LEFT, FORWARD 3, TURN RIGHT, FORWARD 3, TURN RIGHT, FORWARD 3.",
+			"max": 15
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A plant waterer's program says IF moisture < 30, pump ON. The soil reads 45. What happens?",
+			"answer": 0,
+			"hint": "Is 45 less than 30?",
+			"choices": [
+				"the pump stays off",
+				"the pump turns on",
+				"the program stops",
+				"the plant is watered twice"
+			],
+			"explain": "45 is not less than 30, so the soil is damp enough and the pump stays off."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The buggy turns left when it should turn right. What is this mistake called?",
+			"answer": 0,
+			"hint": "Programmers find and fix these.",
+			"choices": [
+				"a bug",
+				"a loop",
+				"an input",
+				"a sensor"
+			],
+			"explain": "A bug: fixing it is called debugging."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Debugging means finding and fixing mistakes in a program.",
+			"answer": true,
+			"hint": "What is a bug in a program?",
+			"explain": "True: test, find the bug, fix it and test again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which product uses a temperature sensor as its input?",
+			"answer": 0,
+			"hint": "Which one needs to know how warm it is?",
+			"choices": [
+				"a heating thermostat",
+				"a doorbell",
+				"a torch",
+				"a whistle"
+			],
+			"explain": "A thermostat reads the temperature and turns the heating on or off."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put this parking sensor's program in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The loop goes round everything.",
+			"items": [
+				"sound the buzzer",
+				"IF the distance is small",
+				"read the distance sensor",
+				"FOREVER"
+			],
+			"explain": "FOREVER: read the distance sensor, and IF the distance is small, sound the buzzer."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A night light's program says: IF light < 30, LED ON. Over the evening the light reads 50, 40, 20, 10 and 35. How many of these readings turn the LED on?",
+			"answer": "2",
+			"hint": "Check each reading: is it less than 30?",
+			"explain": "50, 40 and 35 are not less than 30, so the LED stays off. 20 and 10 are less than 30, so it turns on: 2 readings."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.control_trace",
+			"level": 1
+		},
+		{
+			"gen": "g5w.control_trace",
+			"level": 2
+		},
+		{
+			"gen": "g5w.control_trace",
+			"level": 3
+		}
+	]
+}

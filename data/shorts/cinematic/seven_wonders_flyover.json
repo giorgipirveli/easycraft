@@ -1,0 +1,199 @@
+{
+	"id": "seven_wonders_flyover",
+	"title": "Fly over the Seven Wonders",
+	"topic": "history",
+	"link": {"star_map": true},
+	"video": "seven_wonders_flyover",
+	"still": 12.0,
+	"stage": {
+		"sky": "day",
+		"light": "day",
+		"sun": [0.45, 0.75, 0.5],
+		"models": [
+			{"id": "ground", "model": "ground", "look": "grass", "at": [0, -0.3, 0], "size": 1200},
+			{"id": "pyramid", "model": "blocks", "build": "wonder", "wonder": "pyramid", "at": [0, 0, 0]},
+			{"id": "gardens", "model": "blocks", "build": "wonder", "wonder": "gardens", "at": [0, 0, 0]},
+			{"id": "artemis", "model": "blocks", "build": "wonder", "wonder": "artemis", "at": [0, 0, 0]},
+			{"id": "zeus", "model": "blocks", "build": "wonder", "wonder": "zeus", "at": [0, 0, 0]},
+			{"id": "mausoleum", "model": "blocks", "build": "wonder", "wonder": "mausoleum", "at": [0, 0, 0]},
+			{"id": "colossus", "model": "blocks", "build": "wonder", "wonder": "colossus", "at": [0, 0, 0]},
+			{"id": "lighthouse", "model": "blocks", "build": "wonder", "wonder": "lighthouse", "at": [0, 0, 0]}
+		],
+		"camera": [
+			{"at": 0, "pos": [20, 70, -40], "look": [-8, 6, 100], "fov": 46},
+			{"at": 8.9, "pos": [8, 46, 30], "look": [-8, 8, 105], "fov": 46},
+			{"at": 9, "cut": true, "pos": [44, 12, 50], "look": [-8, 11, 105], "fov": 48},
+			{"at": 17.9, "pos": [-60, 16, 54], "look": [-8, 11, 105], "fov": 48, "path": "orbit"},
+			{"at": 18, "cut": true, "pos": [62, 16, 44], "look": [100, 8, 70], "fov": 48},
+			{"at": 26.9, "pos": [70, 22, 104], "look": [100, 8, 70], "fov": 48, "path": "orbit"},
+			{"at": 27, "cut": true, "pos": [92, 20, 4], "look": [145, 17, -40], "fov": 50},
+			{"at": 31.4, "pos": [98, 26, -80], "look": [145, 18, -40], "fov": 50, "path": "orbit"},
+			{"at": 31.5, "cut": true, "pos": [52, 10, -22], "look": [42, 15, -72], "fov": 50},
+			{"at": 35.9, "pos": [22, 14, -28], "look": [42, 16, -72], "fov": 50, "path": "orbit"},
+			{"at": 36, "cut": true, "pos": [20, 18, -58], "look": [-12, 12, -102], "fov": 50},
+			{"at": 40.4, "pos": [6, 24, -52], "look": [-12, 13, -102], "fov": 50},
+			{"at": 40.5, "cut": true, "pos": [-150, 16, -18], "look": [-95, 8, -55], "fov": 50},
+			{"at": 44.9, "pos": [-146, 22, -90], "look": [-95, 8, -55], "fov": 50, "path": "orbit"},
+			{"at": 45, "cut": true, "pos": [-76, 5, 45.5], "look": [-104, 9, 45.5], "fov": 56},
+			{"at": 49, "pos": [-84, 6, 45.5], "look": [-106, 11, 45.5], "fov": 56},
+			{"at": 49.1, "cut": true, "pos": [62, 26, 150], "look": [-8, 10, 105], "fov": 48},
+			{"at": 53.9, "pos": [44, 52, 186], "look": [-8, 6, 102], "fov": 50}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 9,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Long ago, Greek travellers listed seven amazing places to see.",
+			"say": "Long ago, Greek travellers made a list of amazing places to see: the Seven Wonders of the World.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "7 WONDERS",
+					"at": [180, 74],
+					"size": 34,
+					"color": "white",
+					"box": "brown",
+					"moves": [{"do": "pop", "at": 1.0}]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "The Great Pyramid is 4,500 years old, and it still stands!",
+			"say": "The Great Pyramid was built about 4,500 years ago as a king's tomb, and it still stands today.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "GREAT PYRAMID",
+					"at": [180, 74],
+					"size": 28,
+					"color": "ink",
+					"box": "gold",
+					"moves": [{"do": "pop", "at": 0.6}]
+				},
+				{
+					"kind": "words",
+					"text": "STILL STANDING",
+					"at": [180, 118],
+					"size": 20,
+					"color": "white",
+					"box": "green",
+					"moves": [{"do": "pop", "at": 5.0}]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "The Hanging Gardens of Babylon: were they ever real?",
+			"say": "Old writers told of gardens on high terraces in Babylon. No one knows for sure they were real.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "HANGING GARDENS",
+					"at": [180, 74],
+					"size": 28,
+					"color": "white",
+					"box": "leaf",
+					"moves": [{"do": "pop", "at": 0.6}]
+				},
+				{
+					"kind": "words",
+					"text": "REAL OR NOT?",
+					"at": [180, 118],
+					"size": 20,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 5.4}]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "A lighthouse fire guided ships. The Colossus was a bronze giant.",
+			"say": "The Lighthouse of Alexandria burned a fire at night for ships. The Colossus was a giant bronze statue.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "LIGHTHOUSE",
+					"at": [180, 74],
+					"size": 28,
+					"color": "white",
+					"box": "sea",
+					"moves": [{"do": "pop", "at": 0.6}, {"do": "out", "at": 4.0}]
+				},
+				{
+					"kind": "words",
+					"text": "COLOSSUS",
+					"at": [180, 74],
+					"size": 28,
+					"color": "white",
+					"box": "orange",
+					"moves": [{"do": "pop", "at": 4.8}]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "The Mausoleum was a giant tomb. Artemis had over 100 columns.",
+			"say": "The Mausoleum was a giant tomb with horses on its top. The Temple of Artemis had over 100 marble columns.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "MAUSOLEUM",
+					"at": [180, 74],
+					"size": 28,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "pop", "at": 0.6}, {"do": "out", "at": 4.0}]
+				},
+				{
+					"kind": "words",
+					"text": "TEMPLE OF ARTEMIS",
+					"at": [180, 74],
+					"size": 24,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 4.8}]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Zeus sat on his throne. Six wonders are gone: which would you visit?",
+			"say": "The Statue of Zeus sat on a great throne. Six of the wonders are gone now. Which one would you visit?",
+			"sounds": [{"at": 6.0, "effect": "fanfare"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "STATUE OF ZEUS",
+					"at": [180, 74],
+					"size": 28,
+					"color": "ink",
+					"box": "gold",
+					"moves": [{"do": "pop", "at": 0.6}, {"do": "out", "at": 4.0}]
+				},
+				{
+					"kind": "words",
+					"text": "6 GONE, 1 STANDS",
+					"at": [180, 74],
+					"size": 24,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "pop", "at": 4.8}]
+				}
+			]
+		}
+	]
+}

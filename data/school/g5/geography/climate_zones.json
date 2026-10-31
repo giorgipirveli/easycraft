@@ -1,0 +1,299 @@
+{
+	"id": "g5.geography.climate_zones",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the line at about 23.5°N called? (The Tropic of Cancer.) Weather changes day by day; climate is the usual weather of a place over many years. Today: the world's climate zones and why they differ."
+		},
+		{
+			"text": "Near the Equator, the Sun's rays hit the ground almost straight on, packing their heat into a small area. Near the poles the same rays arrive at a slant and spread over a bigger area, so they warm it less."
+		},
+		{
+			"text": "So Earth has bands of climate: tropical near the Equator, hot all year; temperate in the middle, with warm summers and cool winters; polar near the poles, cold all year with long dark winters.",
+			"picture": {
+				"kind": "latlong",
+				"lines": [
+					"tropics",
+					"polar"
+				],
+				"bands": true
+			}
+		},
+		{
+			"text": "Deserts are places with very little rain, less than about 250 mm a year. Many hot deserts, such as the Sahara, lie near the Tropics, where dry air sinks and clouds rarely form. Antarctica is a cold desert."
+		},
+		{
+			"text": "The sea warms up and cools down slowly, so coasts have milder summers and winters; far inland, summers are hotter and winters colder. A warm ocean current keeps Britain milder than places as far north in eastern Canada.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"by the coast",
+						"far inland"
+					],
+					[
+						"milder summers",
+						"hotter summers"
+					],
+					[
+						"milder winters",
+						"colder winters"
+					]
+				]
+			}
+		},
+		{
+			"text": "Height changes climate too: it gets about 6.5 °C colder for every 1,000 m. At 3,000 m it is about 3 × 6.5 = 19.5 °C colder than at the sea. So snowy peaks can stand near the Equator."
+		},
+		{
+			"text": "Compare four places. Singapore is hot and wet all year, and Cairo is hot and dry. London is mild with rain in every season, and Antarctica is freezing and dry.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"place",
+						"zone",
+						"rain a year"
+					],
+					[
+						"Singapore",
+						"tropical",
+						"over 2,000 mm"
+					],
+					[
+						"Cairo",
+						"desert",
+						"about 20 mm"
+					],
+					[
+						"London",
+						"temperate",
+						"about 600 mm"
+					],
+					[
+						"Antarctica",
+						"polar",
+						"very little"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: put a thermometer post in each land of your world, from the snowy peaks to the desert, and record which is warmest. Next: the world's biomes."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is climate?",
+			"answer": 0,
+			"hint": "Weather is day by day. Think about many years of weather.",
+			"choices": [
+				"the usual weather of a place over many years",
+				"the weather today",
+				"a kind of cloud",
+				"the temperature at noon"
+			],
+			"explain": "Climate is the usual weather of a place, measured over many years."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which zone is near the Equator and hot all year?",
+			"answer": 0,
+			"hint": "The tropics lie between the Tropic of Cancer and the Tropic of Capricorn.",
+			"choices": [
+				"tropical",
+				"polar",
+				"temperate",
+				"mountain"
+			],
+			"explain": "The tropical zone: the Sun is high there all year, so it stays hot."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Polar lands are cold all year.",
+			"answer": true,
+			"hint": "How much do the Sun's rays warm the poles?",
+			"explain": "True: the Sun's rays arrive at a slant and spread out, so polar lands stay cold."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What makes a desert a desert?",
+			"answer": 0,
+			"hint": "Antarctica is a desert too.",
+			"choices": [
+				"very little rain",
+				"sand everywhere",
+				"hot weather every day",
+				"no people"
+			],
+			"explain": "Very little rain, less than about 250 mm a year. Deserts can be hot or cold."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Sun's rays are more spread out near the poles.",
+			"answer": true,
+			"hint": "Think of a torch shining straight down, then at a slant.",
+			"explain": "True: at a slant, the same rays cover a bigger area, so each part gets less heat."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these places by climate zone.",
+			"groups": [
+				"tropical",
+				"temperate",
+				"polar"
+			],
+			"items": [
+				"Singapore",
+				"London",
+				"Antarctica",
+				"the Amazon rainforest",
+				"Paris",
+				"the North Pole"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Near the Equator, in the middle, or near a pole?",
+			"explain": "Tropical: Singapore, the Amazon. Temperate: London, Paris. Polar: Antarctica, the North Pole."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are coasts milder than places far inland?",
+			"answer": 0,
+			"hint": "Which heats up faster on a sunny day: sand or the sea?",
+			"choices": [
+				"the sea warms and cools slowly",
+				"coasts are higher",
+				"the sea is always hot",
+				"there is no wind at the coast"
+			],
+			"explain": "The sea changes temperature slowly, so it keeps coasts cooler in summer and warmer in winter."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "It is 20 °C at the sea. It gets about 6.5 °C colder for every 1,000 m. About how warm is it 2,000 m up, in °C?",
+			"answer": "7",
+			"hint": "2,000 m is 2 lots of 1,000 m.",
+			"explain": "2 × 6.5 = 13 °C colder. 20 − 13 = 7 °C."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do many hot deserts lie near the Tropics?",
+			"answer": 0,
+			"hint": "Rain needs clouds. What does sinking dry air do to clouds?",
+			"choices": [
+				"dry air sinks there and clouds rarely form",
+				"the Sun never shines there",
+				"it is too windy for rain",
+				"the ground is made of sand"
+			],
+			"explain": "Near the Tropics dry air sinks, so clouds rarely form and little rain falls."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Antarctica is a desert.",
+			"answer": true,
+			"hint": "What makes a place a desert?",
+			"explain": "True: very little snow or rain falls there, so it is a cold desert."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "London and a town on Canada's east coast are about as far north. Why is London milder in winter?",
+			"answer": 0,
+			"hint": "It is not the latitude: they are about the same. What flows past Britain?",
+			"choices": [
+				"a warm ocean current flows near Britain",
+				"London is higher up",
+				"Canada is nearer the Equator",
+				"London has more sunshine"
+			],
+			"explain": "A warm ocean current from the tropics flows past Britain and keeps its winters milder."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Cairo gets about 20 mm of rain a year and London about 600 mm. How many times more rain does London get?",
+			"answer": "30",
+			"hint": "How many lots of 20 make 600? Divide.",
+			"explain": "600 ÷ 20 = 30 times more."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Quito lies near the Equator but about 2,800 m high. Why is it mild, not hot?",
+			"answer": 0,
+			"hint": "About 6.5 °C colder for every 1,000 m.",
+			"choices": [
+				"height makes it cooler",
+				"it is near a pole",
+				"it is in a desert",
+				"the Sun is weaker there"
+			],
+			"explain": "At about 2,800 m, it is roughly 18 °C cooler than at sea level near the Equator, so it is mild."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "At the foot of a mountain it is 12 °C. It gets about 6.5 °C colder for every 1,000 m. About how cold is it 4,000 m higher, in °C?",
+			"answer": "-14",
+			"hint": "Work out how much colder first, then take it from 12. The answer may be below 0.",
+			"explain": "4 × 6.5 = 26 °C colder. 12 − 26 = −14 °C."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: climate or weather?",
+			"groups": [
+				"climate",
+				"weather"
+			],
+			"items": [
+				"It is raining this morning.",
+				"Deserts get little rain each year.",
+				"Tomorrow will be windy.",
+				"Britain has mild winters.",
+				"Today it is 25 °C."
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it about today, or about many years?",
+			"explain": "Weather: this morning's rain, tomorrow's wind, today's 25 °C. Climate: dry deserts and Britain's mild winters."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5h.altitude_temp",
+			"level": 1
+		},
+		{
+			"gen": "g5h.altitude_temp",
+			"level": 2
+		},
+		{
+			"gen": "g5h.altitude_temp",
+			"level": 3
+		}
+	]
+}

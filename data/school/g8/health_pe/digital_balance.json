@@ -1,0 +1,323 @@
+{
+	"id": "g8.health_pe.digital_balance",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you learnt about teenage sleep. How many hours of sleep do teenagers need? (About 8 to 10 hours.) Today: balancing screens, sleep and focus."
+		},
+		{
+			"text": "Screens are great for learning, making things and staying in touch. Balance means screens fit around sleep, school, activity, family and time outside, not the other way round. This day, in 2-hour parts, has room for all of them.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"sleep",
+						5
+					],
+					[
+						"school",
+						3
+					],
+					[
+						"screens",
+						1
+					],
+					[
+						"active",
+						1
+					],
+					[
+						"other",
+						2
+					]
+				],
+				"whole": 12,
+				"lines": true,
+				"key": true
+			}
+		},
+		{
+			"text": "Apps are designed to hold your attention. Notifications pull you back, autoplay starts the next video, and the feed never ends. Likes keep you checking. Knowing the tricks helps you choose.",
+			"picture": {
+				"kind": "phone_feed",
+				"labels": true
+			}
+		},
+		{
+			"text": "Focus: switching between tasks costs time, and every alert breaks concentration. Try one task with the phone in another room. Work for 25 minutes, then take a 5-minute break."
+		},
+		{
+			"text": "Worked example: 3 hours of screens a day is 3 × 7 = 21 hours a week. In a year it is 3 × 365 = 1,095 hours. The screen-time report on a phone shows your own numbers."
+		},
+		{
+			"text": "Screens and sleep: screens off an hour before bed, the phone charged outside the bedroom, and notifications silenced at night. The body clock needs darkness to get sleepy."
+		},
+		{
+			"text": "Look after your eyes with the 20-20-20 rule. Every 20 minutes, look at something far away, about 6 metres, for 20 seconds. Sit up, and get up and move at least every hour."
+		},
+		{
+			"text": "Try it in the world: look at a week's screen-time report with a grown-up, and choose one change. In LIFE, the Goal Board helps you keep a new habit, and Calm Corner helps you wind down. Next: more health lessons are coming."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Screens for 2 hours a day: how many hours is that in a week?",
+			"answer": "14",
+			"hint": "A week has 7 days.",
+			"explain": "2 × 7 = 14 hours a week."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Charging your phone outside the bedroom helps you sleep.",
+			"answer": true,
+			"hint": "What wakes you, and what keeps you up?",
+			"explain": "True: no alerts and no late scrolling means better, longer sleep."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does autoplay do?",
+			"choices": [
+				"starts the next video by itself",
+				"saves battery",
+				"blocks adverts",
+				"turns the screen off"
+			],
+			"answer": 0,
+			"hint": "Think what happens when one video ends.",
+			"explain": "Autoplay starts another video straight away, so it is easy to keep watching without choosing to."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Helps focus, or breaks it?",
+			"groups": [
+				"helps",
+				"breaks it"
+			],
+			"items": [
+				"a break after 25 minutes",
+				"one task at a time",
+				"an alert for every like",
+				"homework with three apps open",
+				"the phone in another room"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Does it cut interruptions, or add them?",
+			"explain": "Helps: the phone away, one task, planned breaks. Breaks it: alerts and many apps at once."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which takes the most hours in this day?",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"sleep",
+						5
+					],
+					[
+						"school",
+						3
+					],
+					[
+						"screens",
+						1
+					],
+					[
+						"active",
+						1
+					],
+					[
+						"other",
+						2
+					]
+				],
+				"whole": 12,
+				"lines": true,
+				"key": true
+			},
+			"choices": [
+				"sleep",
+				"school",
+				"screens",
+				"active time"
+			],
+			"answer": 0,
+			"hint": "Compare the slices: count the parts.",
+			"explain": "Sleep has 5 parts of 2 hours, 10 hours: the biggest share of the day."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each design trick to what it does.",
+			"items": [
+				"notifications",
+				"autoplay",
+				"endless scroll",
+				"likes"
+			],
+			"matches": [
+				"keep you checking for approval",
+				"pull you back to the app",
+				"starts the next video",
+				"the feed never ends"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Each trick keeps you on the app longer. How?",
+			"explain": "Notifications pull you back, autoplay plays on, the scroll never ends, and likes keep you checking."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Screens for 3 hours a day, every day for a year: how many hours is that?",
+			"answer": "1095",
+			"hint": "Multiply by the days in a year, 365.",
+			"explain": "3 × 365 = 1,095 hours: more than 45 whole days."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a wind-down plan in order, starting an hour before bed.",
+			"items": [
+				"screens off",
+				"phone on charge outside",
+				"lights out at the same time",
+				"a calm activity, like reading"
+			],
+			"answer": [
+				0,
+				1,
+				3,
+				2
+			],
+			"hint": "First stop the screen, then remove it, then calm down, then sleep.",
+			"explain": "Screens off, the phone out of the room, something calm, then lights out at the usual time."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Switching between apps while doing homework makes you finish faster.",
+			"answer": false,
+			"hint": "Does each switch cost time to get back into the work?",
+			"explain": "False: switching costs time and focus each time, so the work takes longer and has more mistakes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the 20-20-20 rule?",
+			"choices": [
+				"every 20 minutes, look far away for 20 seconds",
+				"20 minutes of screens a day",
+				"20 apps at most",
+				"sleep 20 minutes after lunch"
+			],
+			"answer": 0,
+			"hint": "It is about resting your eyes.",
+			"explain": "Every 20 minutes, look at something about 6 metres away for 20 seconds."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Zara is awake for 16 hours and spends 4 of them on screens. What percentage of her waking time is that?",
+			"answer": "25",
+			"hint": "Divide the screen hours by the waking hours, then times 100.",
+			"explain": "4 ÷ 16 = 0.25, which is 25%."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A screen-time report shows 2, 3, 4, 2, 3, 5 and 2 hours. What is the mean a day?",
+			"answer": "3",
+			"hint": "Add the seven days, then divide by 7.",
+			"explain": "2 + 3 + 4 + 2 + 3 + 5 + 2 = 21; 21 ÷ 7 = 3 hours a day."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mo's report shows 5 hours a day, mostly late at night, and he feels tired. What is the best first change?",
+			"choices": [
+				"screens off an hour before bed",
+				"a brighter screen",
+				"more alerts",
+				"gaming until he falls asleep"
+			],
+			"answer": 0,
+			"hint": "Which change helps sleep the most?",
+			"explain": "Ending screens an hour before bed lets his body clock make him sleepy, so he sleeps longer and feels better."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A design trick, or a wellbeing tool?",
+			"groups": [
+				"design trick",
+				"wellbeing tool"
+			],
+			"items": [
+				"a bedtime quiet mode",
+				"autoplay",
+				"endless scroll",
+				"a screen-time report",
+				"rewards for coming back daily"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it built to keep you there, or to help you choose?",
+			"explain": "Tricks: autoplay, endless scroll, daily rewards. Tools: the screen-time report and quiet mode."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Balance means no screens at all.",
+			"answer": false,
+			"hint": "Read the lesson's meaning of balance.",
+			"explain": "False: balance means screens fit around sleep, school, activity, family and time outside."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.screen_time",
+			"level": 1
+		},
+		{
+			"gen": "g8l.screen_time",
+			"level": 2
+		},
+		{
+			"gen": "g8l.screen_time",
+			"level": 3
+		},
+		{
+			"gen": "g8l.focus_habit",
+			"level": 1
+		},
+		{
+			"gen": "g8l.focus_habit",
+			"level": 2
+		},
+		{
+			"gen": "g8l.focus_habit",
+			"level": 3
+		}
+	]
+}

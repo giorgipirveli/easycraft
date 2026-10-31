@@ -1,0 +1,248 @@
+{
+	"id": "rocket_launch",
+	"title": "Lift-off!",
+	"topic": "rockets",
+	"link": {"board": true},
+	"stage": {
+		"sky": [{"at": 0, "sky": "launch"}, {"at": 19, "dur": 8, "sky": "space"}],
+		"light": "day",
+		"sun": [0.55, 0.65, 0.5],
+		"models": [
+			{
+				"id": "ground",
+				"model": "ground",
+				"look": "grass",
+				"at": [0, -0.02, 0],
+				"size": 900,
+				"moves": [{"do": "out", "at": 27}]
+			},
+			{
+				"id": "site",
+				"model": "blocks",
+				"build": "launch_tower",
+				"at": [0, 0, 0],
+				"moves": [{"do": "out", "at": 27}]
+			},
+			{
+				"id": "rocket",
+				"model": "rocket",
+				"rocket": "moon",
+				"at": [0, 0, 0],
+				"moves": [
+					{"do": "move", "at": 14, "dur": 34, "to": [0, 6000, 0], "ease": "accel"},
+					{"do": "stage", "at": 29, "stage": 0},
+					{"do": "stage", "at": 40.5, "stage": 1}
+				]
+			},
+			{
+				"id": "earth",
+				"model": "planet",
+				"body": "earth",
+				"at": [0, -9800, -3000],
+				"size": 9000,
+				"turn": [10, 200, 0],
+				"moves": [{"do": "appear", "at": 27}]
+			},
+			{
+				"id": "moon",
+				"model": "planet",
+				"body": "moon",
+				"at": [0, 12000, -8000],
+				"size": 1500,
+				"moves": [{"do": "appear", "at": 37}]
+			}
+		],
+		"effects": [
+			{"kind": "billow", "at": [0, 0.4, 0], "from": 12.3, "to": 19, "size": 1.0, "speed": 1.3, "amount": 120},
+			{"kind": "flame", "on": "rocket", "from": 12, "to": 48},
+			{"kind": "smoke", "on": "rocket", "at": [0, -2, 0], "from": 14, "to": 27, "size": 0.6},
+			{"kind": "smoke", "on": "rocket", "at": [0, 0.5, 0], "from": 29, "to": 29.5, "size": 0.45, "amount": 40},
+			{"kind": "smoke", "on": "rocket", "at": [0, 0.5, 0], "from": 40.5, "to": 41, "size": 0.35, "amount": 30}
+		],
+		"camera": [
+			{"at": 0, "pos": [9, 1.2, 13], "look": [0, 6.5, 0], "fov": 50},
+			{"at": 8.9, "pos": [5, 13, 11], "look": [0, 7, 0], "fov": 48, "path": "orbit"},
+			{"at": 9, "cut": true, "pos": [-16, 4, 20], "look": [0, 2.2, 0], "fov": 50},
+			{"at": 12, "pos": [-15.5, 4, 19.4], "look": [0, 2.2, 0], "fov": 50, "shake": 0.22},
+			{"at": 14, "pos": [-15.5, 4, 19.4], "look": [0, 2.6, 0], "fov": 50},
+			{"at": 16.9, "follow": "rocket", "pos": [-14, -26, 17], "look": [0, 4, 0], "fov": 46},
+			{
+				"at": 17,
+				"cut": true,
+				"follow": "rocket",
+				"pos": [16, -8, 20],
+				"look": [0, -2, 0],
+				"fov": 46,
+				"shake": 0.1
+			},
+			{"at": 22, "follow": "rocket", "pos": [13, -16, 17], "look": [0, -2, 0], "fov": 46, "shake": 0},
+			{"at": 26.9, "follow": "rocket", "pos": [9, -30, 13], "look": [0, 3, 0], "fov": 46},
+			{"at": 27, "cut": true, "follow": "rocket", "pos": [24, 8, 18], "look": [0, 2, 0], "fov": 42},
+			{"at": 31.5, "follow": "rocket", "pos": [30, 1, 26], "look": [0, -2, 0], "fov": 46},
+			{"at": 36.9, "follow": "rocket", "pos": [14, 8, 26], "look": [0, 3, 0], "fov": 42, "path": "orbit"},
+			{"at": 37, "cut": true, "follow": "rocket", "pos": [0, -4, 20], "look": [0, 10, 0], "fov": 52},
+			{"at": 47.9, "follow": "rocket", "pos": [0, 0, 15], "look": [0, 8, 0], "fov": 52}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 9,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Our Moon rocket stands on its pad: nine engines, three stages.",
+			"say": "Here is a Moon rocket, built from real parts on the launch pad. It has nine engines and three stages.",
+			"sounds": [{"at": 0.6, "effect": "pop"}, {"at": 4.0, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "MOON ROCKET",
+					"at": [180, 74],
+					"size": 28,
+					"color": "white",
+					"box": "orange",
+					"moves": [{"do": "pop", "at": 0.6}]
+				},
+				{
+					"kind": "words",
+					"text": "3 STAGES",
+					"at": [180, 122],
+					"size": 20,
+					"color": "white",
+					"box": "ink",
+					"moves": [{"do": "pop", "at": 4.0}]
+				}
+			]
+		},
+		{
+			"seconds": 8,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "3, 2, 1… lift-off! The engines push harder than the rocket weighs.",
+			"say": "Three, two, one, lift off! The nine engines push harder than the whole rocket weighs, so up it goes.",
+			"sounds": [
+				{"at": 0.3, "effect": "ui_tick"},
+				{"at": 1.3, "effect": "ui_tick"},
+				{"at": 2.3, "effect": "ui_tick"},
+				{"at": 3.0, "effect": "rocket_whoosh"}
+			],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "3",
+					"at": [180, 150],
+					"size": 110,
+					"color": "white",
+					"moves": [{"do": "pop", "at": 0.3, "dur": 0.4}, {"do": "out", "at": 1.0}]
+				},
+				{
+					"kind": "words",
+					"text": "2",
+					"at": [180, 150],
+					"size": 110,
+					"color": "white",
+					"moves": [{"do": "pop", "at": 1.3, "dur": 0.4}, {"do": "out", "at": 2.0}]
+				},
+				{
+					"kind": "words",
+					"text": "1",
+					"at": [180, 150],
+					"size": 110,
+					"color": "white",
+					"moves": [{"do": "pop", "at": 2.3, "dur": 0.4}, {"do": "out", "at": 3.0}]
+				},
+				{
+					"kind": "words",
+					"text": "LIFT-OFF!",
+					"at": [180, 110],
+					"size": 46,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "pop", "at": 5.0}, {"do": "pulse", "at": 5.8}]
+				},
+				{
+					"kind": "words",
+					"text": "PUSH 2,250 t",
+					"at": [104, 356],
+					"size": 20,
+					"color": "white",
+					"box": "green",
+					"moves": [{"do": "slide", "at": 5.6, "from": [-120, 356]}]
+				},
+				{
+					"kind": "words",
+					"text": "WEIGHT 1,582 t",
+					"at": [252, 412],
+					"size": 20,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "slide", "at": 6.2, "from": [480, 412]}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Faster and faster! The sky turns black: space has almost no air.",
+			"say": "It climbs faster and faster. The blue sky turns black, because there is almost no air up in space.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "NO AIR IN SPACE",
+					"at": [180, 92],
+					"size": 24,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "pop", "at": 6.0}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Stage 1 is empty. It lets go and falls away, so the rest is lighter.",
+			"say": "The first stage has burned all its fuel. It lets go and falls back, so the rocket is lighter and speeds up.",
+			"sounds": [{"at": 2.0, "effect": "whoosh"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "STAGE 1 LETS GO",
+					"at": [180, 84],
+					"size": 24,
+					"color": "white",
+					"box": "orange",
+					"moves": [{"do": "pop", "at": 2.1}]
+				}
+			]
+		},
+		{
+			"seconds": 11,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Stage 2 lets go too. Why do rockets drop their empty stages?",
+			"say": "Now stage two drops away, and the lander flies on toward the Moon. Why do you think rockets drop their empty stages?",
+			"sounds": [{"at": 3.5, "effect": "whoosh"}, {"at": 8.0, "effect": "chime"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "STAGE 2 LETS GO",
+					"at": [180, 84],
+					"size": 24,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "pop", "at": 3.6}, {"do": "out", "at": 6.2}]
+				},
+				{
+					"kind": "words",
+					"text": "TO THE MOON!",
+					"at": [180, 84],
+					"size": 28,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 6.6}]
+				}
+			]
+		}
+	]
+}

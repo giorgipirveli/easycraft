@@ -1,0 +1,110 @@
+{
+	"id": "g8.maths.exponents",
+	"lesson": [
+		{
+			"text": "Multiplying powers of the same number: add the exponents. 2³ × 2⁴ = 2⁷."
+		},
+		{
+			"text": "Dividing: take away the exponents. 5⁶ ÷ 5² = 5⁴. A power of a power: multiply them. (3²)³ = 3⁶."
+		},
+		{
+			"text": "Any number (except 0) to the power 0 is 1: 7⁰ = 1."
+		},
+		{
+			"text": "A negative exponent means 1 over the power: 2 to the power of −3 is 1/2³ = 1/8."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "2³ × 2⁴ = 2 to the power of what?",
+			"answer": "7",
+			"hint": "Add the exponents.",
+			"explain": "3 + 4 = 7."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "5⁶ ÷ 5² = 5 to the power of what?",
+			"answer": "4",
+			"hint": "Take away the exponents.",
+			"explain": "6 − 2 = 4."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "7⁰ = 1",
+			"answer": true,
+			"hint": "Any number to the 0.",
+			"explain": "Yes."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "(3²)⁴ = 3 to the power of what?",
+			"answer": "8",
+			"hint": "Multiply the exponents.",
+			"explain": "2 × 4 = 8."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is 10 to the power of −2 as a fraction?",
+			"answer": "1/100",
+			"hint": "1 over 10².",
+			"explain": "1/100 = 0.01.",
+			"accept": [
+				"0.01"
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is equal to 6⁴ × 6³?",
+			"answer": 0,
+			"hint": "Same base: add.",
+			"choices": [
+				"6⁷",
+				"6¹²",
+				"36⁷"
+			],
+			"explain": "4 + 3 = 7: 6⁷."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "2⁵ × 2 to the power of −2 = ?",
+			"answer": "8",
+			"hint": "5 + (−2) = 3.",
+			"explain": "2³ = 8."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Simplify: (2³ × 2⁵) ÷ 2⁴",
+			"answer": 0,
+			"hint": "Add, then take away.",
+			"choices": [
+				"2⁴",
+				"2⁴ × 2",
+				"2¹²"
+			],
+			"explain": "3 + 5 − 4 = 4: 2⁴."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8n.exponent_rules",
+			"level": 1
+		},
+		{
+			"gen": "g8n.exponent_rules",
+			"level": 2
+		},
+		{
+			"gen": "g8n.exponent_rules",
+			"level": 3
+		}
+	]
+}

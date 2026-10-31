@@ -1,0 +1,456 @@
+{
+	"id": "g5.science.electric_systems",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4, what did a bulb need to light up? (A complete loop, with no gap and the switch closed.) Now you will draw circuits with symbols and build two kinds: series and parallel."
+		},
+		{
+			"text": "Scientists draw circuits with symbols, so anyone can read them. Wires are straight lines. A cell is a long line (+) and a short, thick one (−); two or more make a battery. A lamp is a circle with a cross; a motor, a circle with M.",
+			"picture": {
+				"kind": "circuit_symbols",
+				"symbols": [
+					"cell",
+					"battery",
+					"lamp",
+					"open",
+					"closed",
+					"buzzer"
+				]
+			}
+		},
+		{
+			"text": "Stay safe: mains electricity from sockets is strong enough to badly hurt you. Never poke anything into a socket, keep water and wet hands away from plugs, and keep away from power lines. If a button battery is swallowed, tell a grown-up at once."
+		},
+		{
+			"text": "In a series circuit everything is in one loop. Add a lamp and they all glow more dimly; if one breaks, they all go out. More cells push harder: the push is the voltage, in volts (V). One cell is about 1.5 V.",
+			"picture": {
+				"kind": "circuit_symbols",
+				"series": [
+					"lamp",
+					"lamp"
+				],
+				"lit": true
+			}
+		},
+		{
+			"text": "In a parallel circuit the electricity has more than one path. Each lamp has its own branch, so it glows as brightly as a lamp on its own. If one breaks, the others stay lit. Homes are wired in parallel.",
+			"picture": {
+				"kind": "circuit_symbols",
+				"branches": [
+					[
+						"lamp"
+					],
+					[
+						"lamp"
+					]
+				],
+				"lit": true
+			}
+		},
+		{
+			"text": "A switch in one branch turns only that branch on and off. A switch before the paths split turns everything off. Here the switch in lamp A's branch is open, so lamp A is off, but lamp B still lights.",
+			"picture": {
+				"kind": "circuit_symbols",
+				"branches": [
+					[
+						"open",
+						"lamp"
+					],
+					[
+						"lamp"
+					]
+				],
+				"main": [
+					"closed"
+				],
+				"tags": true,
+				"lit": true
+			}
+		},
+		{
+			"text": "On this unit's page, tap TRY IT IN THE LAB: close the switch, then take out a wire to make a gap. Add a second bulb: two bulbs in one loop share the cell's push, so both glow more dimly, just like a series circuit.",
+			"picture": {
+				"kind": "lab_circuit",
+				"parts": [
+					"bulb",
+					"bulb"
+				],
+				"switch": "closed"
+			}
+		},
+		{
+			"text": "Try it in the world: count the light switches at home: each light has its own, because homes are wired in parallel. Then draw a torch's circuit with symbols. Next, in grade 8: circuits, current and voltage."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part does this symbol stand for?",
+			"hint": "Think of a bulb's glowing wire: a cross inside a circle.",
+			"explain": "A circle with a cross is a lamp (bulb).",
+			"choices": [
+				"a lamp (bulb)",
+				"a cell",
+				"a motor",
+				"a switch"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "circuit_symbols",
+				"symbols": [
+					"lamp"
+				],
+				"names": false
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a series circuit, all the parts are in one loop.",
+			"hint": "Series means one after another.",
+			"explain": "True: a series circuit has one loop, and the electricity flows through every part in turn.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What must you never do with a plug socket?",
+			"hint": "Mains electricity is strong enough to badly hurt you.",
+			"explain": "Never poke anything into a socket: mains electricity can badly hurt you.",
+			"choices": [
+				"poke something into it",
+				"ask a grown-up to plug a lamp in",
+				"keep it dry"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The switch is closed. How many lamps light?",
+			"hint": "Is the one loop complete?",
+			"explain": "The switch is closed, so the one loop is complete and both lamps light.",
+			"answer": "2",
+			"picture": {
+				"kind": "circuit_symbols",
+				"series": [
+					"closed",
+					"lamp",
+					"lamp"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Two or more cells joined together make a battery.",
+			"hint": "Look at the battery symbol: how many cells?",
+			"explain": "True: a battery is two or more cells joined together.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "One lamp in a series circuit breaks. What happens to the other lamps?",
+			"hint": "A broken lamp makes a gap in the only loop.",
+			"explain": "The broken lamp leaves a gap in the only loop, so every lamp goes out.",
+			"choices": [
+				"They all go out.",
+				"They glow more brightly.",
+				"Nothing changes."
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What kind of circuit is this?",
+			"hint": "Count the paths from the cell and back.",
+			"explain": "Each lamp has its own branch: more than one path, so it is a parallel circuit.",
+			"choices": [
+				"a parallel circuit",
+				"a series circuit",
+				"not a circuit"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "circuit_symbols",
+				"branches": [
+					[
+						"lamp"
+					],
+					[
+						"lamp"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Lamp B lights, even though the switch in lamp A's branch is open.",
+			"hint": "Does lamp B's branch have a gap?",
+			"explain": "True: lamp B has its own complete path, so the open switch in A's branch does not stop it.",
+			"answer": true,
+			"picture": {
+				"kind": "circuit_symbols",
+				"branches": [
+					[
+						"open",
+						"lamp"
+					],
+					[
+						"lamp"
+					]
+				],
+				"tags": true
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: series or parallel?",
+			"hint": "Series is one path; parallel is several branches.",
+			"explain": "Series: one loop; all go out together; more lamps, dimmer. Parallel: several paths; own switches; homes.",
+			"groups": [
+				"series",
+				"parallel"
+			],
+			"items": [
+				"one loop only",
+				"more than one path",
+				"one lamp breaks, all go out",
+				"each light has its own switch",
+				"adding lamps makes all dimmer",
+				"the lights in a house"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "This lamp has two cells. Compared with one cell, how does it glow?",
+			"hint": "Two cells push harder than one.",
+			"explain": "Two cells give a bigger push (a higher voltage), so the lamp glows more brightly.",
+			"choices": [
+				"more brightly",
+				"more dimly",
+				"the same"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "circuit_symbols",
+				"series": [
+					"lamp"
+				],
+				"cells": 2
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part to its symbol.",
+			"hint": "Picture each real part, then its simple drawing.",
+			"explain": "Lamp: a circle with a cross. Cell: a long and a short line. Motor: a circle with M. Open switch: a lifted line.",
+			"items": [
+				"lamp",
+				"cell",
+				"motor",
+				"open switch"
+			],
+			"matches": [
+				"a long and a short line",
+				"a circle with M",
+				"a line lifted, a gap",
+				"a circle with a cross"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A buzzer sounds louder when you add more cells.",
+			"hint": "More cells give a bigger push.",
+			"explain": "True: more cells push harder, so a buzzer sounds louder and a lamp glows brighter.",
+			"answer": true
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps in order to build a circuit with a lamp and a switch.",
+			"hint": "Make one complete loop from the cell and back, then close the gap.",
+			"explain": "The cell, a wire to the lamp, the lamp to the switch, back to the cell, then close the switch to complete the loop.",
+			"items": [
+				"Join a wire from + to the lamp",
+				"Close the switch",
+				"Join the lamp to the switch",
+				"Put a cell in its holder",
+				"Join the switch back to −"
+			],
+			"answer": [
+				3,
+				0,
+				2,
+				4,
+				1
+			]
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The main switch is closed. How many of the three lamps light?",
+			"hint": "Check each branch for an open switch.",
+			"explain": "The first two branches are complete paths; the third branch's switch is open. So 2 lamps light.",
+			"answer": "2",
+			"picture": {
+				"kind": "circuit_symbols",
+				"branches": [
+					[
+						"lamp"
+					],
+					[
+						"closed",
+						"lamp"
+					],
+					[
+						"open",
+						"lamp"
+					]
+				],
+				"main": [
+					"closed"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are homes wired in parallel, not in series?",
+			"hint": "Think about what happens when you switch off one room's light.",
+			"explain": "In parallel each light has its own path and switch; in series one switch or broken bulb would turn off every light.",
+			"choices": [
+				"So each light can be switched on its own.",
+				"So the lights are dimmer.",
+				"So one broken bulb turns all off.",
+				"So it uses fewer switches."
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly adds a third lamp to her series circuit. What happens?",
+			"hint": "In series, the lamps share the cell's push.",
+			"explain": "Three lamps share one cell's push in one loop, so each glows more dimly.",
+			"choices": [
+				"All three glow more dimly.",
+				"All three glow more brightly.",
+				"Only the new lamp lights.",
+				"They all go out."
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "circuit_symbols",
+				"series": [
+					"lamp",
+					"lamp",
+					"lamp"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If a button battery is swallowed, it is fine to wait and see.",
+			"hint": "Button batteries can burn the inside of the body quickly.",
+			"explain": "False: tell a grown-up at once and get help straight away. Keep button batteries away from little children.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What happens when the main switch is open?",
+			"hint": "The main switch is on the path every branch shares.",
+			"explain": "The main switch is before the paths split, so opening it breaks every path: both lamps go out.",
+			"choices": [
+				"Both lamps go out.",
+				"Only one lamp goes out.",
+				"Both lamps glow brighter."
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "circuit_symbols",
+				"branches": [
+					[
+						"lamp"
+					],
+					[
+						"lamp"
+					]
+				],
+				"main": [
+					"open"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A toy needs 6 V. Each cell gives 1.5 V. How many cells must be joined in series?",
+			"answer": "4",
+			"hint": "Cells in series add their voltages. How many lots of 1.5 make 6?",
+			"explain": "Cells in series add up their push: 1.5, 3, 4.5, 6. 6 ÷ 1.5 = 4 cells, which together make a battery."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5c.circuit_lit",
+			"level": 1
+		},
+		{
+			"gen": "g5c.circuit_lit",
+			"level": 2
+		},
+		{
+			"gen": "g5c.circuit_lit",
+			"level": 3
+		},
+		{
+			"gen": "g5c.circuit_bright",
+			"level": 1
+		},
+		{
+			"gen": "g5c.circuit_bright",
+			"level": 2
+		},
+		{
+			"gen": "g5c.circuit_bright",
+			"level": 3
+		},
+		{
+			"gen": "g5c.circuit_symbol",
+			"level": 1
+		},
+		{
+			"gen": "g5c.circuit_symbol",
+			"level": 2
+		},
+		{
+			"gen": "g5c.circuit_symbol",
+			"level": 3
+		}
+	]
+}

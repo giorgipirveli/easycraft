@@ -1,0 +1,401 @@
+{
+	"id": "g8.design_tech.food_production",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you learnt 'first in, first out'. What does it mean in a kitchen? (Use the older food first.) Today: how food gets from the farm to your fork."
+		},
+		{
+			"text": "Food is grown or reared. Arable farms grow crops such as wheat and potatoes; livestock farms raise animals for milk, eggs and meat. Fish are caught at sea or farmed."
+		},
+		{
+			"text": "Intensive farming gets a lot of food from a little land, using machines, fertilisers and sprays. Organic farming limits chemicals and gives animals more space, but usually needs more land. Both have trade-offs."
+		},
+		{
+			"text": "Primary processing makes a raw food ready to use, like milling wheat into flour. Secondary processing makes new products from it, like baking flour into bread.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"wheat grows",
+					"harvest",
+					"mill into flour",
+					"bake bread",
+					"deliver"
+				],
+				"title": "farm to fork"
+			}
+		},
+		{
+			"text": "Food is kept safe for longer. Pasteurising heats milk to 72 °C for 15 seconds to kill harmful bacteria. Canning, freezing, drying and chilling slow down the microbes that spoil food."
+		},
+		{
+			"text": "Food miles count how far food travels; food flown by air has a far bigger footprint than food shipped by sea. But often what a food is matters more: beef's footprint is about 100 times that of peas.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"beef",
+						100
+					],
+					[
+						"cheese",
+						24
+					],
+					[
+						"chicken",
+						10
+					],
+					[
+						"peas",
+						1
+					]
+				],
+				"step": 20,
+				"top": 100,
+				"name": "kg of gases per kg of food"
+			}
+		},
+		{
+			"text": "Seasonal food grows at its natural time, so it needs less heating and flying: UK strawberries in summer, apples in autumn. Sustainable choices: less waste, more plants, and fair pay for farmers.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"UK season",
+						"in season"
+					],
+					[
+						"spring",
+						"asparagus, rhubarb"
+					],
+					[
+						"summer",
+						"strawberries, peas"
+					],
+					[
+						"autumn",
+						"apples, pumpkins"
+					],
+					[
+						"winter",
+						"sprouts, parsnips"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: read the labels at home and find where three foods were grown. In LIFE, The Kitchen keeps food safe, raw and cooked apart, and cooks a meal. Next: circular design."
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "An arable farm or a livestock farm?",
+			"groups": [
+				"arable",
+				"livestock"
+			],
+			"items": [
+				"dairy cows",
+				"hens for eggs",
+				"wheat",
+				"potatoes",
+				"barley"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				0
+			],
+			"hint": "Is it a crop that grows, or an animal that is raised?",
+			"explain": "Arable: wheat, potatoes, barley. Livestock: dairy cows and hens."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is primary processing?",
+			"choices": [
+				"milling wheat into flour",
+				"baking bread",
+				"making pizza",
+				"making cakes"
+			],
+			"answer": 0,
+			"hint": "Primary processing gets a raw food ready to use.",
+			"explain": "Milling turns raw wheat into flour, ready to use; the others make new products from flour."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Pasteurising milk heats it to kill harmful bacteria.",
+			"answer": true,
+			"hint": "Think of the temperature and time.",
+			"explain": "True: heating milk to 72 °C for 15 seconds kills harmful bacteria but keeps the milk tasting fresh."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put bread's journey in order.",
+			"items": [
+				"mill it into flour",
+				"wheat grows",
+				"bake bread",
+				"deliver to shops",
+				"harvest it"
+			],
+			"answer": [
+				1,
+				4,
+				0,
+				2,
+				3
+			],
+			"hint": "Grow, gather, process, make, then deliver.",
+			"explain": "Wheat grows, is harvested, milled into flour, baked into bread and delivered."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which food on the chart has the biggest footprint for each kilogram?",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"beef",
+						100
+					],
+					[
+						"cheese",
+						24
+					],
+					[
+						"chicken",
+						10
+					],
+					[
+						"peas",
+						1
+					]
+				],
+				"step": 20,
+				"top": 100,
+				"name": "kg of gases per kg of food"
+			},
+			"choices": [
+				"beef",
+				"peas",
+				"chicken",
+				"cheese"
+			],
+			"answer": 0,
+			"hint": "Find the tallest bar.",
+			"explain": "Beef's bar reaches about 100 kg of gases per kg, the tallest by far."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which way of moving food usually gives the biggest footprint?",
+			"choices": [
+				"flying it",
+				"shipping it",
+				"moving it by train",
+				"a short van trip"
+			],
+			"answer": 0,
+			"hint": "Planes burn a lot of fuel for every kilogram they carry.",
+			"explain": "Air freight has a far bigger footprint for each kilogram and kilometre than ships or trains."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each food to a product made from it (secondary processing).",
+			"items": [
+				"flour",
+				"milk",
+				"potatoes",
+				"fruit"
+			],
+			"matches": [
+				"jam",
+				"crisps",
+				"bread",
+				"cheese"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "What new product is made from each one?",
+			"explain": "Flour makes bread, milk makes cheese, potatoes make crisps, and fruit makes jam."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Chicken gives off about 10 kg of greenhouse gases per kg. About how much for 0.5 kg?",
+			"answer": "5",
+			"hint": "Multiply the footprint for 1 kg by the kilograms.",
+			"explain": "10 × 0.5 = 5 kg."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Organic farming usually needs more land than intensive farming for the same food.",
+			"answer": true,
+			"hint": "Think about fewer fertilisers and more space for animals.",
+			"explain": "True: with fewer chemicals and more space, each field usually produces less, so more land is needed."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "More like intensive farming, or organic?",
+			"groups": [
+				"intensive",
+				"organic"
+			],
+			"items": [
+				"big machines and sprays",
+				"more space for animals",
+				"the most food per field",
+				"artificial fertilisers",
+				"fewer chemical sprays"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Which aims for the most food per field, and which limits chemicals?",
+			"explain": "Intensive: machines, sprays, fertilisers, the most per field. Organic: fewer sprays, more space for animals."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is in season in the UK in summer?",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"UK season",
+						"in season"
+					],
+					[
+						"spring",
+						"asparagus, rhubarb"
+					],
+					[
+						"summer",
+						"strawberries, peas"
+					],
+					[
+						"autumn",
+						"apples, pumpkins"
+					],
+					[
+						"winter",
+						"sprouts, parsnips"
+					]
+				]
+			},
+			"choices": [
+				"strawberries",
+				"sprouts",
+				"parsnips",
+				"pumpkins"
+			],
+			"answer": 0,
+			"hint": "Look at the summer row of the table.",
+			"explain": "Strawberries ripen in the UK summer; the others are autumn and winter crops."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Swapping 0.25 kg of beef (about 100 kg of gases per kg) for peas (about 1 kg) saves how many kg?",
+			"answer": "24.75",
+			"hint": "Find the saving for 1 kg, then multiply by 0.25.",
+			"explain": "100 − 1 = 99 kg saved per kg; 99 × 0.25 = 24.75 kg."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why can tomatoes grown in a heated greenhouse nearby have a bigger footprint than ones shipped from abroad?",
+			"choices": [
+				"heating the greenhouse uses a lot of energy",
+				"ships are slower",
+				"local food is never fresh",
+				"tomatoes grow better indoors"
+			],
+			"answer": 0,
+			"hint": "Count all the energy, not only the miles.",
+			"explain": "Heating a greenhouse through a cold season can use more energy than shipping sun-grown tomatoes: food miles are only part of the story."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A meal has 0.2 kg of chicken (about 10 kg of gases per kg) and 0.1 kg of cheese (about 24). About how many kg of gases in all?",
+			"answer": "4.4",
+			"hint": "Work out each food's footprint, then add.",
+			"explain": "10 × 0.2 = 2 kg; 24 × 0.1 = 2.4 kg; 2 + 2.4 = 4.4 kg."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Food miles alone tell you a food's whole footprint.",
+			"answer": false,
+			"hint": "Think of what happens on the farm, not only on the journey.",
+			"explain": "False: farming often makes most of the footprint, so what a food is can matter more than how far it went."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put cheese's journey in order.",
+			"items": [
+				"it is pasteurised",
+				"it is made into cheese",
+				"the milk is chilled",
+				"the cheese is sold",
+				"cows are milked"
+			],
+			"answer": [
+				4,
+				2,
+				0,
+				1,
+				3
+			],
+			"hint": "Farm, keep it cold, make it safe, make the product, sell.",
+			"explain": "Milking, chilling, pasteurising (primary), cheese-making (secondary), then selling."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.processing",
+			"level": 1
+		},
+		{
+			"gen": "g8l.processing",
+			"level": 2
+		},
+		{
+			"gen": "g8l.processing",
+			"level": 3
+		},
+		{
+			"gen": "g8l.food_footprint",
+			"level": 1
+		},
+		{
+			"gen": "g8l.food_footprint",
+			"level": 2
+		},
+		{
+			"gen": "g8l.food_footprint",
+			"level": 3
+		}
+	]
+}

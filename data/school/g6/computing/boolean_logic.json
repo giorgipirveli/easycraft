@@ -1,0 +1,356 @@
+{
+	"id": "g6.computing.boolean_logic",
+	"lesson": [
+		{
+			"text": "Quick memory: what does IF do in a program? (It checks a condition and runs its lines only when the condition is true.) Today: joining conditions with AND, OR and NOT."
+		},
+		{
+			"text": "A condition is either true or false, like score > 10. True-or-false logic is called Boolean logic, after George Boole, a teacher who wrote about it in 1854."
+		},
+		{
+			"text": "AND is true only when both sides are true. A door opens with a key AND a gem: with only one of them, it stays shut.",
+			"picture": {
+				"kind": "logic_gate",
+				"gate": "AND",
+				"inputs": [
+					1,
+					1
+				],
+				"names": [
+					"key",
+					"gem"
+				]
+			}
+		},
+		{
+			"text": "OR is true when either side is true, or both. You win a star if you finish first OR find 10 gems.",
+			"picture": {
+				"kind": "logic_gate",
+				"gate": "OR",
+				"inputs": [
+					0,
+					1
+				],
+				"names": [
+					"first",
+					"gems"
+				]
+			}
+		},
+		{
+			"text": "NOT turns true into false and false into true. NOT raining is true on a dry day.",
+			"picture": {
+				"kind": "logic_gate",
+				"gate": "NOT",
+				"inputs": [
+					0
+				]
+			}
+		},
+		{
+			"text": "A truth table lists every way the inputs can be, with 1 for true and 0 for false. AND gives 1 in just one row: where both inputs are 1.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"A",
+						"B",
+						"A AND B"
+					],
+					[
+						"0",
+						"0",
+						"0"
+					],
+					[
+						"0",
+						"1",
+						"0"
+					],
+					[
+						"1",
+						"0",
+						"0"
+					],
+					[
+						"1",
+						"1",
+						"1"
+					]
+				]
+			}
+		},
+		{
+			"text": "Worked example: lives is 2 and keys is 0. lives > 0 AND keys > 0 is false, because keys > 0 is false. But lives > 0 OR keys > 0 is true."
+		},
+		{
+			"text": "Try it in the world: inside a computer, tiny circuits called logic gates do AND, OR and NOT billions of times a second. Invent a game rule with AND and one with OR. Next: flowcharts and pseudocode."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "AND is true only when both sides are true.",
+			"answer": true,
+			"hint": "Think of the door: a key AND a gem.",
+			"explain": "True: AND needs both. One true side is not enough."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A lit wire is 1 and a dark one is 0. What comes out of this AND gate: 1 or 0?",
+			"answer": "0",
+			"hint": "AND needs both inputs to be 1.",
+			"explain": "The inputs are 1 and 0, so AND sends out 0.",
+			"picture": {
+				"kind": "logic_gate",
+				"gate": "AND",
+				"inputs": [
+					1,
+					0
+				],
+				"out": false
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What comes out of this OR gate: 1 or 0?",
+			"answer": "1",
+			"hint": "OR needs at least one input to be 1.",
+			"explain": "One input is 1, so OR sends out 1.",
+			"picture": {
+				"kind": "logic_gate",
+				"gate": "OR",
+				"inputs": [
+					0,
+					1
+				],
+				"out": false
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What comes out of this NOT gate: 1 or 0?",
+			"answer": "1",
+			"hint": "NOT turns its input round.",
+			"explain": "The input is 0, so NOT sends out 1.",
+			"picture": {
+				"kind": "logic_gate",
+				"gate": "NOT",
+				"inputs": [
+					0
+				],
+				"out": false
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word makes a condition true when either side is true?",
+			"answer": 0,
+			"hint": "Win a star if you finish first ___ find 10 gems.",
+			"choices": [
+				"OR",
+				"AND",
+				"NOT",
+				"ELSE"
+			],
+			"explain": "OR is true when either side is true, or both."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "score is 12 and lives is 0. True or false: score > 10 AND lives > 0",
+			"answer": false,
+			"hint": "Check each side, then join them with AND.",
+			"explain": "False: score > 10 is true, but lives > 0 is false, and AND needs both."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "gems is 3 and keys is 1. True or false: gems > 5 OR keys > 0",
+			"answer": true,
+			"hint": "Check each side, then join them with OR.",
+			"explain": "True: gems > 5 is false, but keys > 0 is true, and OR needs one."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "This is the truth table of A OR B. What goes in the ? box: 1 or 0?",
+			"answer": "0",
+			"hint": "Read that row's A and B, then use OR's rule.",
+			"explain": "A is 0 and B is 0: neither is true, so A OR B is 0.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"A",
+						"B",
+						"A OR B"
+					],
+					[
+						"0",
+						"0",
+						"?"
+					],
+					[
+						"0",
+						"1",
+						"1"
+					],
+					[
+						"1",
+						"0",
+						"1"
+					],
+					[
+						"1",
+						"1",
+						"1"
+					]
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Tilly has 7 gems and 0 keys. Sort each condition: true or false?",
+			"groups": [
+				"true",
+				"false"
+			],
+			"items": [
+				"gems > 5 AND keys = 0",
+				"gems > 5 AND keys > 0",
+				"gems < 5 OR keys = 0",
+				"NOT (gems > 5)"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Work out each small test with 7 and 0 first, then join them.",
+			"explain": "True: gems > 5 AND keys = 0, and gems < 5 OR keys = 0. False: the one needing keys > 0, and NOT (gems > 5)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which condition lets a player in only if they have a ticket and a mask?",
+			"answer": 0,
+			"hint": "Both things are needed.",
+			"choices": [
+				"ticket AND mask",
+				"ticket OR mask",
+				"NOT ticket",
+				"mask OR NOT ticket"
+			],
+			"explain": "Both are needed, so it is ticket AND mask."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many rows does a truth table for two inputs have?",
+			"answer": "4",
+			"hint": "List every way two switches can be: 00, 01, and so on.",
+			"explain": "00, 01, 10 and 11: 4 rows."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What comes out at the end: 1 or 0?",
+			"answer": "0",
+			"hint": "Work out the AND gate first, then the NOT gate.",
+			"explain": "AND gets 1 and 1, so it gives 1; NOT turns it round to 0.",
+			"picture": {
+				"kind": "logic_gate",
+				"gate": "AND",
+				"inputs": [
+					1,
+					1
+				],
+				"then": "NOT",
+				"out": false
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "lives is 3. True or false: NOT (lives = 0)",
+			"answer": true,
+			"hint": "Is lives = 0 true? Then turn it round.",
+			"explain": "True: lives = 0 is false, and NOT turns it into true."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In the truth table of A OR B, how many of the four rows give 1?",
+			"answer": "3",
+			"hint": "Only one row has neither input true.",
+			"explain": "Only 0 and 0 gives 0, so the other 3 rows give 1."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does this program output?",
+			"answer": 0,
+			"hint": "Test gems ≥ 5 and keys > 0 with the numbers, then join them with AND.",
+			"choices": [
+				"Door stays shut",
+				"Door opens",
+				"Both lines",
+				"Nothing"
+			],
+			"explain": "gems ≥ 5 is true (6), but keys > 0 is false (0). AND needs both, so ELSE runs: Door stays shut.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET gems TO 6",
+					"SET keys TO 0",
+					"IF gems ≥ 5 AND keys > 0",
+					"  OUTPUT \"Door opens\"",
+					"ELSE",
+					"  OUTPUT \"Door stays shut\""
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "NOT (score > 10) is true for exactly the scores where score ≤ 10 is true.",
+			"answer": true,
+			"hint": "Try score 10, then 11.",
+			"explain": "True: at 10, score > 10 is false so NOT makes it true, and 10 ≤ 10. At 11 both are false."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.logic_check",
+			"level": 1
+		},
+		{
+			"gen": "g6c.logic_check",
+			"level": 2
+		},
+		{
+			"gen": "g6c.logic_check",
+			"level": 3
+		},
+		{
+			"gen": "g6c.gate_output",
+			"level": 1
+		},
+		{
+			"gen": "g6c.gate_output",
+			"level": 2
+		},
+		{
+			"gen": "g6c.gate_output",
+			"level": 3
+		}
+	]
+}

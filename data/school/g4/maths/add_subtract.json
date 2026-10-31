@@ -1,0 +1,243 @@
+{
+	"id": "g4.maths.add_subtract",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you added in columns. What is 346 + 278? 624: add the ones, then the tens, then the hundreds, carrying as you go."
+		},
+		{
+			"text": "To add big numbers, write them in columns with the ones under the ones. Add the ones first, then the tens, the hundreds and on.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"4,875"
+					],
+					[
+						"+",
+						"3,160"
+					],
+					[
+						"=",
+						"8,035"
+					]
+				]
+			}
+		},
+		{
+			"text": "When a column makes 10 or more, carry: 5 + 0 = 5 ones, 7 + 6 = 13 tens, so write 3 and carry 1 hundred to the hundreds.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"4,875",
+					"+ 3,160",
+					"8,035"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"text": "To take away, start with the ones. When the top digit is smaller, exchange 1 from the next place: 1 ten becomes 10 ones."
+		},
+		{
+			"text": "Check a take-away by adding back: 8,000 − 2,345 = 5,655, and 5,655 + 2,345 = 8,000.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "5,655",
+								"size": 5655
+							},
+							{
+								"text": "2,345",
+								"size": 2345
+							}
+						],
+						"total": "8,000"
+					}
+				]
+			}
+		},
+		{
+			"text": "Estimate first, so you know if an answer makes sense: 4,875 + 3,160 is about 5,000 + 3,000 = 8,000."
+		},
+		{
+			"text": "Try it in the world: count the blocks in two of your builds and add them in columns. Estimate first, then check your answer makes sense. Next: times as many."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "2,358 + 1,427 = ?",
+			"answer": "3,785",
+			"hint": "Add the ones: 8 + 7 = 15. Write 5 and carry 1.",
+			"explain": "2,358 + 1,427 = 3,785"
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "6,742 − 1,521 = ?",
+			"answer": "5,221",
+			"hint": "Take away column by column, starting with the ones.",
+			"explain": "6,742 − 1,521 = 5,221"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "40,000 − 12,345 = ?",
+			"answer": "27,655",
+			"hint": "Exchange across the zeros: 40,000 is 39,999 + 1.",
+			"explain": "40,000 − 12,345 = 27,655. Check: 27,655 + 12,345 = 40,000."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the best estimate of 6,912 + 2,105?",
+			"choices": [
+				"about 9,000",
+				"about 8,000",
+				"about 90,000",
+				"about 4,000"
+			],
+			"answer": 0,
+			"hint": "Round each number to the nearest thousand first.",
+			"explain": "7,000 + 2,000 = 9,000"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bram's village has 12,560 snow blocks. He melts 3,875 of them. How many are left?",
+			"answer": "8,685",
+			"hint": "Blocks melted: take away.",
+			"explain": "12,560 − 3,875 = 8,685"
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi had 20,000 gold. She spent 7,450 on a bakery and 2,980 on flour. How much gold does she have left?",
+			"answer": "9,570",
+			"hint": "Two steps: take away one amount, then the other.",
+			"explain": "20,000 − 7,450 = 12,550, and 12,550 − 2,980 = 9,570."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "5,000 − 2,999 = 2,001",
+			"answer": true,
+			"hint": "2,999 is 1 less than 3,000.",
+			"explain": "5,000 − 3,000 = 2,000, and one more is 2,001."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What number must you add to 485,300 to make 500,000?",
+			"answer": "14,700",
+			"hint": "Take 485,300 away from 500,000.",
+			"explain": "500,000 − 485,300 = 14,700"
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each sum to its estimate (to the nearest thousand).",
+			"items": [
+				"4,875 + 3,160",
+				"6,912 + 2,105",
+				"3,210 + 2,650"
+			],
+			"matches": [
+				"about 6,000",
+				"about 8,000",
+				"about 9,000"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Round each number to the nearest thousand, then add.",
+			"explain": "5,000 + 3,000 is 8,000; 7,000 + 2,000 is 9,000; 3,000 + 3,000 is 6,000."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the sums: do you need to carry or exchange?",
+			"items": [
+				"2,358 + 1,427",
+				"4,321 + 1,234",
+				"6,742 − 1,521",
+				"40,000 − 12,345"
+			],
+			"groups": [
+				"yes",
+				"no"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Look at each column: does it make 10 or more, or is the top digit smaller?",
+			"explain": "8 + 7 makes 15, so 2,358 + 1,427 carries; 40,000 − 12,345 must exchange across the zeros. The other two work column by column."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4m.add_big",
+			"level": 1
+		},
+		{
+			"gen": "g4m.add_big",
+			"level": 2
+		},
+		{
+			"gen": "g4m.add_big",
+			"level": 3
+		},
+		{
+			"gen": "g4m.sub_big",
+			"level": 1
+		},
+		{
+			"gen": "g4m.sub_big",
+			"level": 2
+		},
+		{
+			"gen": "g4m.sub_big",
+			"level": 3
+		},
+		{
+			"gen": "g4m.missing_addend",
+			"level": 2
+		},
+		{
+			"gen": "g4m.missing_addend",
+			"level": 3
+		},
+		{
+			"gen": "g4m.add_sub_story",
+			"level": 1
+		},
+		{
+			"gen": "g4m.add_sub_story",
+			"level": 2
+		},
+		{
+			"gen": "g4m.add_sub_story",
+			"level": 3
+		},
+		{
+			"gen": "g4m.estimate_check",
+			"level": 2
+		},
+		{
+			"gen": "g4m.estimate_check",
+			"level": 3
+		}
+	]
+}

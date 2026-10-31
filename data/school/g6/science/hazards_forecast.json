@@ -1,0 +1,388 @@
+{
+	"id": "g6.science.hazards_forecast",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, plate tectonics. Where do most earthquakes happen? Along the edges of the plates, where they push, pull or slide past each other."
+		},
+		{
+			"text": "Natural hazards include earthquakes, volcanoes, floods, hurricanes and droughts. We can't stop them, but we can forecast some and reduce harm."
+		},
+		{
+			"text": "Scientists collect data: rainfall and river levels for floods, winds and ocean temperatures for hurricanes, small earthquakes and gases for volcanoes.",
+			"picture": {
+				"kind": "weather_kit",
+				"tools": [
+					"rain_gauge",
+					"anemometer",
+					"thermometer"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Maps of past hazards show where they are most likely. Weather satellites track hurricanes days ahead. A river level that keeps rising after heavy rain is a warning: act early.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"1 pm",
+						2
+					],
+					[
+						"2 pm",
+						3
+					],
+					[
+						"3 pm",
+						4
+					],
+					[
+						"4 pm",
+						5
+					]
+				],
+				"step": 1,
+				"top": 6,
+				"name": "river level (m)"
+			}
+		},
+		{
+			"text": "Reducing harm: warning systems, stronger buildings that bend in earthquakes, flood barriers and evacuation plans."
+		},
+		{
+			"text": "Try it in the world: build a flood post by a river in your world: a tall pole with a mark every block. Then you could see how fast the water rises. Next: people and the environment."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which one is a natural hazard?",
+			"answer": 0,
+			"hint": "It can harm people.",
+			"choices": [
+				"a flood",
+				"a rainbow",
+				"a sunset"
+			],
+			"explain": "A flood is a natural hazard."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What can track a hurricane from space?",
+			"answer": 0,
+			"hint": "It orbits Earth.",
+			"choices": [
+				"a satellite",
+				"a microscope",
+				"a compass"
+			],
+			"explain": "Weather satellites track hurricanes."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "We can stop earthquakes from happening.",
+			"answer": false,
+			"hint": "They start deep underground.",
+			"explain": "No: we can't stop them, but we can prepare."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which one helps people get ready for a flood?",
+			"answer": 0,
+			"hint": "Knowing early helps.",
+			"choices": [
+				"a warning system",
+				"ignoring the river",
+				"building on the riverbank"
+			],
+			"explain": "Warnings give people time to act."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Maps of past hazards show where they may happen again.",
+			"answer": true,
+			"hint": "Do hazards like earthquakes keep happening in the same places?",
+			"explain": "Yes: hazards often happen in the same places."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which data helps forecast a flood?",
+			"answer": 0,
+			"hint": "Rivers rise after rain.",
+			"choices": [
+				"river levels and rainfall",
+				"the phases of the Moon",
+				"bird songs"
+			],
+			"explain": "Rainfall and river levels warn of floods."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Before a volcano erupts, scientists often notice…",
+			"answer": 0,
+			"hint": "The ground and the air around it change.",
+			"choices": [
+				"small earthquakes and gases",
+				"more rainbows",
+				"colder seas"
+			],
+			"explain": "Small earthquakes and gases are warning signs."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are buildings in earthquake zones made to bend a little?",
+			"answer": 0,
+			"hint": "Stiff things snap.",
+			"choices": [
+				"So they don't crack and fall.",
+				"To look modern.",
+				"To catch wind."
+			],
+			"explain": "Bending lets them move with the shaking instead of breaking."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Hurricanes can be seen days before they reach land.",
+			"answer": true,
+			"hint": "What can see a storm from space before it reaches land?",
+			"explain": "Yes: satellites track them days ahead."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is an evacuation plan?",
+			"answer": 0,
+			"hint": "evacuate means leave.",
+			"choices": [
+				"a plan to get people safely away",
+				"a map of shops",
+				"a weather report"
+			],
+			"explain": "It plans how people leave safely."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A river rises 1 m every hour after heavy rain. What should the town do?",
+			"answer": 0,
+			"hint": "Use the data to act early.",
+			"choices": [
+				"Warn people and prepare to leave.",
+				"Wait until it floods.",
+				"Build a sandcastle."
+			],
+			"explain": "Rising data means act early: warn and prepare."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is it harder to forecast earthquakes than hurricanes?",
+			"answer": 0,
+			"hint": "Can satellites see them coming?",
+			"choices": [
+				"They start deep underground with little warning.",
+				"They are smaller.",
+				"They are rare."
+			],
+			"explain": "Earthquakes start underground and give little warning."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A drought can be forecast by watching rainfall over many months.",
+			"answer": true,
+			"hint": "A drought builds slowly.",
+			"explain": "Yes: months of low rainfall warn of drought."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which one reduces flood harm the most?",
+			"answer": 0,
+			"hint": "Stop the water and warn people.",
+			"choices": [
+				"flood barriers and warnings",
+				"painting houses",
+				"planting flowers only"
+			],
+			"explain": "Barriers hold water back; warnings give time."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do scientists study data from past eruptions?",
+			"answer": 0,
+			"hint": "Patterns help forecasts.",
+			"choices": [
+				"To find patterns before eruptions.",
+				"To make volcanoes erupt.",
+				"For fun only."
+			],
+			"explain": "Patterns from the past help forecast the future."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each hazard to the data that warns of it.",
+			"items": [
+				"flood",
+				"hurricane",
+				"volcano",
+				"drought"
+			],
+			"matches": [
+				"small earthquakes and gases",
+				"months of low rainfall",
+				"rising river levels",
+				"winds and warm oceans"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think about what changes before each one: the river, the wind, the ground or the rain.",
+			"explain": "Floods: rising river levels. Hurricanes: winds and warm oceans. Volcanoes: small earthquakes and gases. Droughts: months of low rainfall."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the actions: do they reduce harm or not?",
+			"items": [
+				"a warning system",
+				"building on a riverbank",
+				"a flood barrier",
+				"ignoring a warning",
+				"buildings that bend",
+				"an evacuation plan"
+			],
+			"groups": [
+				"reduces harm",
+				"does not"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Would it keep people safer when the hazard comes?",
+			"explain": "Warnings, flood barriers, buildings that bend and evacuation plans reduce harm. Building on a riverbank and ignoring warnings put people in danger."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the hazards: can scientists usually warn days ahead, or is there little warning?",
+			"groups": [
+				"days or more ahead",
+				"little warning"
+			],
+			"items": [
+				"a hurricane",
+				"an earthquake",
+				"a drought",
+				"a river flood after days of rain"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Can the warning signs be watched as they build up over time?",
+			"explain": "Satellites track hurricanes for days, droughts build over months, and a river rising after days of rain gives warning. Earthquakes start deep underground with little warning."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Heavy rain is coming to a river town. Order the town's actions.",
+			"items": [
+				"Open the shelters and evacuate.",
+				"Watch the river level each hour.",
+				"Warn people when it keeps rising.",
+				"Check the forecast for heavy rain."
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "Data first, then warnings, then action.",
+			"explain": "Check the rain forecast, watch the river level each hour, warn people when it keeps rising, then open the shelters and evacuate: act early on the data."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A river is 2 m deep and rises 1 m every hour. Its banks are 5 m high. In how many hours will it reach the top?",
+			"answer": "3",
+			"hint": "Find how far the water still has to rise, then how many hours that takes.",
+			"explain": "The water must rise 5 − 2 = 3 m more. At 1 m an hour, that takes 3 hours: time to warn people now, not later."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each way of reducing harm to the hazard it is for.",
+			"items": [
+				"buildings that bend",
+				"flood barriers",
+				"a storm shelter",
+				"storing water in reservoirs"
+			],
+			"matches": [
+				"drought",
+				"earthquake",
+				"flood",
+				"hurricane"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Think about what each hazard does: shakes, floods, blows or dries up.",
+			"explain": "Buildings that bend survive earthquakes. Flood barriers hold back floods. Storm shelters protect people in hurricanes. Reservoirs store water for droughts."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the data: which hazard does it warn of?",
+			"groups": [
+				"flood",
+				"volcano",
+				"hurricane"
+			],
+			"items": [
+				"rising river levels",
+				"small earthquakes under a mountain",
+				"warm ocean water",
+				"heavy rainfall",
+				"gases from the ground",
+				"strong winds far out at sea"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Ask what each hazard is made of: water on land, a mountain's insides, or the sea and the wind?",
+			"explain": "Floods: rising rivers and heavy rain. Volcanoes: small earthquakes and gases from the ground. Hurricanes: warm ocean water and strong winds out at sea."
+		}
+	]
+}

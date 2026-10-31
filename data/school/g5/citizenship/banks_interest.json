@@ -1,0 +1,263 @@
+{
+	"id": "g5.citizenship.banks_interest",
+	"lesson": [
+		{
+			"text": "Quick memory: in a budget, what comes after needs? (Saving.) Where can savings go? Under a bed, in a money box, or into a bank. Today: what banks do, and how interest makes savings grow."
+		},
+		{
+			"text": "A bank keeps people's money safe in accounts. It lets them pay by card or phone, as you saw in grade 4, and lends money to people and businesses. Banks keep a record of every coin that goes in and out."
+		},
+		{
+			"text": "Banks do not keep all the money in a vault. They lend much of it to others, who pay extra, called interest, for borrowing it. Part of that interest is paid back to the savers."
+		},
+		{
+			"text": "Interest is money a bank pays you for keeping your savings there. It is given as a percentage: 5% a year means 5 gold for every 100 gold saved, each year."
+		},
+		{
+			"text": "Tilly saves 300 gold at 5% a year. 300 gold is 3 hundreds, and each hundred earns 5 gold: 3 × 5 = 15 gold. After a year she has 300 + 15 = 315 gold, without doing any work.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"start",
+						300
+					],
+					[
+						"a year on",
+						315
+					]
+				],
+				"step": 50,
+				"top": 350,
+				"name": "Tilly's gold"
+			}
+		},
+		{
+			"text": "With simple interest, the bank pays the same each year, on the money first saved: 15 gold a year for 4 years is 15 × 4 = 60 gold. Many banks pay interest on the interest too, called compound interest: you will meet it next year.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"after",
+						"Tilly has"
+					],
+					[
+						"0 years",
+						"300 gold"
+					],
+					[
+						"1 year",
+						"315 gold"
+					],
+					[
+						"2 years",
+						"330 gold"
+					],
+					[
+						"3 years",
+						"345 gold"
+					],
+					[
+						"4 years",
+						"360 gold"
+					]
+				]
+			}
+		},
+		{
+			"text": "Keep your bank details private, like a password; your card's PIN is only for you. A real bank never asks for your password in a message. If something seems odd, tell a grown-up."
+		},
+		{
+			"text": "Try it in the world: set up a bank chest in your base with a sign: for every 10 gold kept there a whole week, add 1 gold of interest. Watch your savings grow. Next: borrowing and paying back."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is interest on savings?",
+			"answer": 0,
+			"hint": "It makes savings grow.",
+			"choices": [
+				"money a bank pays you for saving",
+				"money to open a door",
+				"a kind of coin",
+				"a bank's building"
+			],
+			"explain": "Interest is money the bank pays you for keeping your savings there."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Banks lend out some of the money people save.",
+			"answer": true,
+			"hint": "Where does a bank get money to lend?",
+			"explain": "True: banks lend out much of the money savers keep there."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "5% a year means how much for every 100 gold saved?",
+			"answer": 0,
+			"hint": "Per cent means 'for every hundred'.",
+			"choices": [
+				"5 gold",
+				"50 gold",
+				"100 gold",
+				"500 gold"
+			],
+			"explain": "5 gold for every 100 gold, each year."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is fine to tell a friend your bank password.",
+			"answer": false,
+			"hint": "Who should know a password?",
+			"explain": "False: keep it private, like your PIN."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a safe place for savings that can earn interest?",
+			"answer": 0,
+			"hint": "Which one pays you interest?",
+			"choices": [
+				"a bank account",
+				"under a bed",
+				"a pocket with a hole",
+				"a treasure map"
+			],
+			"explain": "A bank account keeps money safe and can pay interest."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Zara saves 400 gold at 5% a year. How much interest does she earn in one year?",
+			"answer": "20",
+			"hint": "5 gold for every 100 gold. How many hundreds?",
+			"explain": "400 gold is 4 hundreds: 4 × 5 = 20 gold."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bram saves 200 gold at 3% a year. How much is in his account after one year?",
+			"answer": "206",
+			"hint": "Find the interest, then add it to the savings.",
+			"explain": "200 gold is 2 hundreds: 2 × 3 = 6 gold. 200 + 6 = 206 gold."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"income",
+				"interest",
+				"account",
+				"PIN"
+			],
+			"matches": [
+				"a secret number for a card",
+				"money coming in",
+				"extra paid when money is lent",
+				"your money's record at a bank"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Which one must you keep secret?",
+			"explain": "Income: money in. Interest: extra paid. Account: your record. PIN: your secret number."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does a bank pay interest to savers?",
+			"answer": 0,
+			"hint": "Where does the bank's money come from?",
+			"choices": [
+				"it lends their money and earns interest",
+				"it is a birthday gift",
+				"savers work at the bank",
+				"the Moon says so"
+			],
+			"explain": "The bank lends savers' money to borrowers and shares part of the interest with the savers."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "At 10% a year, 100 gold earns 10 gold of interest in a year.",
+			"answer": true,
+			"hint": "10% means 10 for every 100.",
+			"explain": "True: 10 gold for every 100 gold."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi saves 500 gold at 4% simple interest. How much interest does she earn in 3 years?",
+			"answer": "60",
+			"hint": "Work out one year first, then times it by 3.",
+			"explain": "500 gold is 5 hundreds: 5 × 4 = 20 gold a year. 20 × 3 = 60 gold."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bank A pays 2% a year and Bank B pays 5% a year. Where do savings grow faster?",
+			"answer": 0,
+			"hint": "Which pays more gold for every 100?",
+			"choices": [
+				"Bank B",
+				"Bank A",
+				"the same",
+				"neither"
+			],
+			"explain": "Bank B: 5 gold for every 100 instead of 2."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly had 600 gold. After one year the bank added 18 gold. What percentage interest was that?",
+			"answer": "3",
+			"hint": "How much for each 100 gold?",
+			"explain": "600 gold is 6 hundreds. 18 ÷ 6 = 3 gold for every 100: 3%."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A message says it is from your bank and asks for your password. What do you do?",
+			"answer": 0,
+			"hint": "Would a real bank ask for your password?",
+			"choices": [
+				"don't reply, and tell a grown-up",
+				"send the password",
+				"send half of it",
+				"post it for your friends"
+			],
+			"explain": "A real bank never asks for your password in a message. Don't reply, and tell a grown-up."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Compound interest pays interest on the interest too.",
+			"answer": true,
+			"hint": "Next year you will meet it.",
+			"explain": "True: with compound interest, last year's interest earns interest too."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5h.simple_interest",
+			"level": 1
+		},
+		{
+			"gen": "g5h.simple_interest",
+			"level": 2
+		},
+		{
+			"gen": "g5h.simple_interest",
+			"level": 3
+		}
+	]
+}

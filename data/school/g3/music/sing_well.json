@@ -1,0 +1,439 @@
+{
+	"id": "g3.music.sing_well",
+	"lesson": [
+		{
+			"text": "Quick memory: how many beats does a crotchet last? (One.) Today: your voice, the instrument you always carry."
+		},
+		{
+			"text": "Stand or sit tall with relaxed shoulders. Good posture gives your lungs room to fill with air.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"stand"
+				],
+				"labels": [
+					"stand tall"
+				]
+			}
+		},
+		{
+			"text": "Breathe low and slow: your tummy moves out as you breathe in. Then let the air out steadily as you sing.",
+			"picture": {
+				"kind": "lungs",
+				"breath": "in",
+				"labels": true
+			}
+		},
+		{
+			"text": "Warm up first, like an athlete: hum, buzz your lips, yawn, and slide your voice from low to high like a siren."
+		},
+		{
+			"text": "Singing in tune means your notes match the notes you hear. Listen first, then copy. This tune goes up: sing it back.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4:2"
+				]
+			},
+			"picture": {
+				"kind": "melody",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4"
+				]
+			}
+		},
+		{
+			"text": "In an echo song, someone sings a line and you sing it straight back, exactly the same. Listen, then echo.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"E4",
+					"G4",
+					"E4:2"
+				]
+			}
+		},
+		{
+			"text": "Look after your voice: drink water, don't shout or strain, and rest it if it feels tired or scratchy."
+		},
+		{
+			"text": "Try it in the world: stand on a hill in your world and sing a warm-up siren, low to high. Then sing a short tune to a friend and let them echo it back."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why should you stand tall when you sing?",
+			"answer": 0,
+			"hint": "What do you need lots of to sing?",
+			"choices": [
+				"your lungs have room to fill with air",
+				"to look taller",
+				"to sing faster",
+				"so nobody hears you"
+			],
+			"explain": "Standing tall gives your lungs room to fill with air."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a good warm-up for your voice?",
+			"answer": 0,
+			"hint": "Warm-ups are gentle.",
+			"choices": [
+				"humming and sliding like a siren",
+				"shouting as loud as you can",
+				"eating crisps",
+				"whispering all day"
+			],
+			"explain": "Humming and sliding your voice like a siren gently gets it ready."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Drinking water helps look after your voice.",
+			"answer": true,
+			"hint": "Is a dry throat good for singing?",
+			"explain": "True: water keeps your voice comfortable."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Does this tune go up or down?",
+			"answer": 0,
+			"hint": "Draw the tune in the air with your finger as you listen: up for higher notes, down for lower ones.",
+			"choices": [
+				"up",
+				"down"
+			],
+			"explain": "It goes up, one step at a time.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Listen to the tune and its echo. Did the echo copy it exactly?",
+			"answer": true,
+			"hint": "Hum the notes as you listen. Does your voice go up, go down or stay where it is?",
+			"explain": "True: the echo sang the same three notes.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4:2",
+					"-",
+					"C4",
+					"E4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Listen to this tune and its echo. Did the echo copy it exactly?",
+			"answer": false,
+			"hint": "Hum the notes as you listen. Does your voice go up, go down or stay where it is?",
+			"explain": "False: the echo's middle note was higher than the tune's. In tune means matching every note.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4:2",
+					"-",
+					"C4",
+					"F4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How should your tummy move when you breathe in to sing?",
+			"answer": 0,
+			"hint": "Breathe low, like filling a balloon.",
+			"choices": [
+				"it moves out",
+				"it squeezes in tight",
+				"it doesn't move",
+				"it goes up to your chin"
+			],
+			"explain": "It moves out, as the air fills your lungs from the bottom."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Your voice feels scratchy after singing a lot. What should you do?",
+			"answer": 0,
+			"hint": "What helps anything that is tired?",
+			"choices": [
+				"rest it and drink water",
+				"sing louder",
+				"shout to clear it",
+				"sing higher"
+			],
+			"explain": "Rest it and drink water. Never strain a tired voice."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps for singing well in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Get your body ready first, then your voice, then sing.",
+			"items": [
+				"Sing the song",
+				"Warm up with humming",
+				"Breathe in low and slow",
+				"Stand tall and relax"
+			],
+			"explain": "Stand tall, breathe low and slow, warm up with humming, then sing."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen. Did the echo match the tune?",
+			"answer": true,
+			"hint": "Hum the notes as you listen. Does your voice go up, go down or stay where it is?",
+			"explain": "True: the echo sang every note the same.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"G4",
+					"E4:2",
+					"-",
+					"G4",
+					"A4",
+					"G4",
+					"E4:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen carefully. Did the echo match the tune this time?",
+			"answer": false,
+			"hint": "Hum the notes as you listen. Does your voice go up, go down or stay where it is?",
+			"explain": "False: the echo's last note stayed too high. It should have gone down one more step.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4",
+					"D4",
+					"C4:2",
+					"-",
+					"E4",
+					"D4",
+					"D4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen: someone tries to sing the same note three times. Which one is not in tune?",
+			"answer": 0,
+			"hint": "Hum the notes as you listen. Does your voice go up, go down or stay where it is?",
+			"choices": [
+				"the third",
+				"the first",
+				"the second",
+				"they are all in tune"
+			],
+			"explain": "The third note is higher than the other two, so it is not in tune.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"-",
+					"C4:2",
+					"-",
+					"D4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does singing in tune mean?",
+			"answer": 0,
+			"hint": "Think of the echo songs.",
+			"choices": [
+				"your notes match the notes you should sing",
+				"singing very loudly",
+				"singing very fast",
+				"singing with your mouth closed"
+			],
+			"explain": "Singing in tune means your notes match the right notes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do singers warm up before they sing?",
+			"answer": 0,
+			"hint": "Athletes warm up too.",
+			"choices": [
+				"to get their voices ready and avoid strain",
+				"to make the song shorter",
+				"to use up all their breath",
+				"to sing out of tune"
+			],
+			"explain": "Warming up gets the voice ready and helps stop it from being strained."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. To sing this, your voice has to…",
+			"answer": 0,
+			"hint": "Hum the notes as you listen. Does your voice go up, go down or stay where it is?",
+			"choices": [
+				"jump up high",
+				"go down a little",
+				"stay the same",
+				"go down a lot"
+			],
+			"explain": "It leaps up a long way: from a low note to the same note higher up.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Good for your voice, or not?",
+			"items": [
+				"drinking water",
+				"shouting",
+				"resting it",
+				"straining for high notes"
+			],
+			"groups": [
+				"good for your voice",
+				"not good"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Would it help your voice or hurt it?",
+			"explain": "Water and rest look after your voice; shouting and straining hurt it."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each warm-up to what you do.",
+			"items": [
+				"a hum",
+				"a siren",
+				"an echo"
+			],
+			"matches": [
+				"sing a line straight back",
+				"slide from low to high",
+				"sing with your lips closed"
+			],
+			"answer": [
+				2,
+				1,
+				0
+			],
+			"hint": "A siren goes up and down, like a fire engine.",
+			"explain": "A hum is sung with closed lips, a siren slides from low to high, and an echo sings a line back."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: good posture for singing, or not?",
+			"items": [
+				"standing tall",
+				"slumping forward",
+				"relaxed shoulders",
+				"hunched shoulders"
+			],
+			"groups": [
+				"good posture",
+				"not good"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it give your lungs room to fill?",
+			"explain": "Standing tall with relaxed shoulders gives your lungs room; slumping and hunching squash them."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the tips: posture, breathing, or looking after your voice?",
+			"groups": [
+				"posture",
+				"breathing",
+				"voice care"
+			],
+			"items": [
+				"stand tall",
+				"your tummy moves out",
+				"drink water",
+				"relaxed shoulders",
+				"let the air out steadily",
+				"rest a tired voice"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Is it about how you stand, how you breathe, or how you keep your voice healthy?",
+			"explain": "Posture: stand tall with relaxed shoulders. Breathing: your tummy moves out as you breathe in, and the air goes out steadily. Voice care: drink water and rest a tired voice."
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Echo this clapped rhythm, as you would echo a sung line.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-xx--",
+				"tempo": 90
+			},
+			"hint": "Listen to the whole pattern first, then copy it exactly, gaps and all.",
+			"explain": "Claps in boxes 1, 3, 5 and 6, rests in the others: an echo copies every sound and every gap exactly, just as in an echo song."
+		}
+	],
+	"generators": []
+}

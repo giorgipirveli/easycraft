@@ -1,0 +1,356 @@
+{
+	"id": "g4.geography.europe",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the capital of France? (Paris.) The United Kingdom is in Europe too. Europe is a small continent crowded with countries: more than 40 of them."
+		},
+		{
+			"text": "Europe and Asia are joined on one huge piece of land. Most maps draw the line between them along the Ural Mountains in Russia. So Russia is partly in Europe and partly in Asia."
+		},
+		{
+			"text": "Water all around: the Arctic Ocean to the north and the Atlantic Ocean to the west. The Mediterranean Sea lies to the south, between Europe and Africa. Smaller seas include the North Sea, the Baltic Sea and the Black Sea.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"side",
+						"water"
+					],
+					[
+						"north",
+						"Arctic Ocean"
+					],
+					[
+						"west",
+						"Atlantic Ocean"
+					],
+					[
+						"south",
+						"Mediterranean Sea"
+					]
+				]
+			}
+		},
+		{
+			"text": "The Alps are Europe's great mountain range, stretching across eight countries, such as France, Switzerland, Italy and Austria. Their highest peak, Mont Blanc, is about 4,800 m. The Pyrenees lie between France and Spain."
+		},
+		{
+			"text": "The Volga is Europe's longest river, flowing through Russia into the Caspian Sea. The Danube flows through 10 countries, more than any other river in the world, and passes four capital cities.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"Volga",
+						3530
+					],
+					[
+						"Danube",
+						2850
+					],
+					[
+						"Thames",
+						350
+					]
+				],
+				"from": 0,
+				"to": 4000,
+				"step": 500,
+				"title": "river length (km)"
+			}
+		},
+		{
+			"text": "Many capitals grew beside rivers, for water, trade and boats.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"capital",
+						"country",
+						"river"
+					],
+					[
+						"London",
+						"UK",
+						"Thames"
+					],
+					[
+						"Paris",
+						"France",
+						"Seine"
+					],
+					[
+						"Rome",
+						"Italy",
+						"Tiber"
+					],
+					[
+						"Vienna",
+						"Austria",
+						"Danube"
+					],
+					[
+						"Budapest",
+						"Hungary",
+						"Danube"
+					],
+					[
+						"Berlin",
+						"Germany",
+						"Spree"
+					]
+				]
+			}
+		},
+		{
+			"text": "Look for shapes: Italy is shaped like a boot, and Spain and Portugal share a big square peninsula. Norway and Sweden reach far north, where the Sun hardly sets in summer. Iceland is a volcanic island in the north Atlantic."
+		},
+		{
+			"text": "Try it in the world: build Europe on a beach: a boot for Italy, snowy Alps, and a long water channel for the Danube. Put a sign on each capital. Next: North and South America."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the capital of the United Kingdom?",
+			"answer": 0,
+			"hint": "It stands on the River Thames.",
+			"choices": [
+				"London",
+				"Paris",
+				"Rome",
+				"Berlin"
+			],
+			"explain": "London, on the River Thames."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sea lies between Europe and Africa?",
+			"answer": 0,
+			"hint": "Its name means 'the sea in the middle of the land'.",
+			"choices": [
+				"the Mediterranean Sea",
+				"the North Sea",
+				"the Baltic Sea",
+				"the Caspian Sea"
+			],
+			"explain": "The Mediterranean Sea lies south of Europe and north of Africa."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Italy is shaped like a boot.",
+			"answer": true,
+			"hint": "Picture a map of southern Europe.",
+			"explain": "True: Italy's long peninsula looks like a boot, about to kick the island of Sicily."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is Europe's great mountain range, with Mont Blanc?",
+			"answer": 0,
+			"hint": "It crosses France, Switzerland, Italy and Austria.",
+			"choices": [
+				"the Alps",
+				"the Andes",
+				"the Rockies",
+				"the Himalayas"
+			],
+			"explain": "The Alps; their highest peak is Mont Blanc, about 4,800 m."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which river flows through 10 countries, more than any other?",
+			"answer": 0,
+			"hint": "It passes Vienna and Budapest.",
+			"choices": [
+				"the Danube",
+				"the Thames",
+				"the Nile",
+				"the Volga"
+			],
+			"explain": "The Danube flows through 10 countries and past four capitals, into the Black Sea."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each capital to its river.",
+			"items": [
+				"London",
+				"Paris",
+				"Rome",
+				"Budapest"
+			],
+			"matches": [
+				"Seine",
+				"Tiber",
+				"Danube",
+				"Thames"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Use the table of capitals and rivers.",
+			"explain": "London: the Thames. Paris: the Seine. Rome: the Tiber. Budapest: the Danube."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: in Europe or not?",
+			"groups": [
+				"in Europe",
+				"not in Europe"
+			],
+			"items": [
+				"France",
+				"Egypt",
+				"Poland",
+				"Japan",
+				"Greece",
+				"Brazil"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Picture the map: which lie between the Atlantic and the Ural Mountains?",
+			"explain": "In Europe: France, Poland and Greece. Not in Europe: Egypt (Africa), Japan (Asia) and Brazil (South America)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where is the line between Europe and Asia usually drawn?",
+			"answer": 0,
+			"hint": "They are mountains in Russia.",
+			"choices": [
+				"along the Ural Mountains",
+				"along the River Thames",
+				"along the Alps",
+				"along the Equator"
+			],
+			"explain": "Along the Ural Mountains in Russia, so Russia is partly in each continent."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The Pyrenees mountains lie between France and Spain.",
+			"answer": true,
+			"hint": "Look back at the card about mountains.",
+			"explain": "True: the Pyrenees run between France and Spain."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these rivers in order of length, longest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The Volga is Europe's longest; the Thames is the shortest of these.",
+			"items": [
+				"the Thames",
+				"the Rhine",
+				"the Danube",
+				"the Volga"
+			],
+			"explain": "The Volga (about 3,500 km), the Danube (about 2,850 km), the Rhine (about 1,200 km), the Thames (about 350 km)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does Iceland have so many volcanoes?",
+			"answer": 0,
+			"hint": "Volcanoes grow where Earth's plates meet or pull apart.",
+			"choices": [
+				"it sits where two plates pull apart",
+				"it is very cold",
+				"it is in the middle of Europe",
+				"it has no rivers"
+			],
+			"explain": "Iceland sits on the line where two of Earth's plates are pulling apart, so melted rock rises up."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In the far north of Norway in summer, what happens?",
+			"answer": 0,
+			"hint": "Places near the North Pole have very long summer days.",
+			"choices": [
+				"the Sun hardly sets",
+				"it snows every day",
+				"the sea turns to sand",
+				"it is dark all day"
+			],
+			"explain": "North of the Arctic Circle the Sun hardly sets in summer: people call it the midnight Sun."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Russia is partly in Europe and partly in Asia.",
+			"answer": true,
+			"hint": "Where are the Ural Mountains?",
+			"explain": "True: the Ural Mountains, the usual line between Europe and Asia, run through Russia."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Danube is about 2,850 km long and the Thames about 350 km. How much longer is the Danube, in km?",
+			"answer": "2500",
+			"hint": "Take the shorter length from the longer one.",
+			"explain": "2,850 − 350 = 2,500 km longer."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort Europe's features: a sea, a mountain range, or a river?",
+			"groups": [
+				"sea",
+				"mountains",
+				"river"
+			],
+			"items": [
+				"the Baltic Sea",
+				"the Alps",
+				"the Danube",
+				"the Black Sea",
+				"the Pyrenees",
+				"the Volga"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Two of each.",
+			"explain": "Seas: the Baltic Sea and the Black Sea. Mountains: the Alps and the Pyrenees. Rivers: the Danube and the Volga, Europe's longest."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4h.europe_capital",
+			"level": 1
+		},
+		{
+			"gen": "g4h.europe_capital",
+			"level": 2
+		},
+		{
+			"gen": "g4h.europe_capital",
+			"level": 3
+		}
+	]
+}

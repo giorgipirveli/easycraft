@@ -1,0 +1,369 @@
+{
+	"id": "g7.computing.testing",
+	"lesson": [
+		{
+			"text": "Quick memory: what does a syntax error do to a program? (It stops it running at all.) Today: testing programs properly, so bugs are found before anyone else finds them."
+		},
+		{
+			"text": "There are three kinds of error. A syntax error breaks the language's rules. A runtime error stops the program as it runs: dividing by 0, or an index past the end, as on line 2 here.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"gems = [5, 1, 7]",
+					"print(gems[3])"
+				],
+				"error": 1
+			}
+		},
+		{
+			"text": "A logic error runs but gives the wrong answer, so nothing warns you. This program should add 1, 2 and 3 but prints 3, because range(1, 3) stops before 3.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"total = 0",
+					"for i in range(1, 3):",
+					"    total = total + i",
+					"print(total)"
+				],
+				"output": [
+					"3"
+				]
+			}
+		},
+		{
+			"text": "A test plan lists tests before you run them: what goes in, what should happen, then what did happen. A test passes when what happens matches what should.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Test",
+						"In",
+						"Should",
+						"Did"
+					],
+					[
+						"normal",
+						"8",
+						"Play!",
+						"Play!"
+					],
+					[
+						"boundary",
+						"5",
+						"Play!",
+						"Sorry"
+					],
+					[
+						"boundary",
+						"12",
+						"Play!",
+						"Play!"
+					],
+					[
+						"erroneous",
+						"20",
+						"Sorry",
+						"Sorry"
+					]
+				]
+			}
+		},
+		{
+			"text": "Test three kinds of data. For ages 5 to 12: normal data inside the range (8), and boundary data at its edges (5 and 12). And erroneous data that should be turned away (20, or a word)."
+		},
+		{
+			"text": "Worked example: the rule is ages 5 to 12, but the code says if age > 5. The normal test 8 passes, and the boundary test 5 fails: > should be >=. Edges are where bugs hide.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"age = 5",
+					"if age > 5 and age <= 12:",
+					"    print(\"Play!\")",
+					"else:",
+					"    print(\"Sorry\")"
+				],
+				"output": [
+					"Sorry"
+				]
+			}
+		},
+		{
+			"text": "Fix one bug at a time, then run every test again: a fix can break something that worked. To find a logic error, trace it: print a variable inside the loop and watch where it goes wrong."
+		},
+		{
+			"text": "Try it in the world: write a test plan for a machine that takes coins of 1 to 5 gold: one normal, two boundary and two erroneous tests. Next: how the internet works."
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort each mistake into its kind of error.",
+			"groups": [
+				"syntax error",
+				"runtime error",
+				"logic error"
+			],
+			"items": [
+				"a missing colon",
+				"dividing by 0",
+				"a total that is 1 too small",
+				"an index past the end",
+				"a missing quote mark",
+				"> where >= is needed"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				1,
+				0,
+				2
+			],
+			"hint": "Does it stop the program before it runs, while it runs, or not at all?",
+			"explain": "Syntax: the colon and the quote mark. Runtime: dividing by 0 and the index. Logic: the wrong total and > for >=."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Ages 5 to 12 are allowed. What kind of test data is 8?",
+			"answer": 0,
+			"hint": "Is it allowed? Is it at an edge?",
+			"choices": [
+				"normal",
+				"boundary",
+				"erroneous"
+			],
+			"explain": "8 is inside 5 to 12 and not at an edge: normal data."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Ages 5 to 12 are allowed. What kind of test data is 12?",
+			"answer": 0,
+			"hint": "Is 12 at an edge of the range?",
+			"choices": [
+				"boundary",
+				"normal",
+				"erroneous"
+			],
+			"explain": "12 is the biggest age allowed, the edge: boundary data."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Ages 5 to 12 are allowed. What kind of test data is the word twenty?",
+			"answer": 0,
+			"hint": "Should the program accept it?",
+			"choices": [
+				"erroneous",
+				"normal",
+				"boundary"
+			],
+			"explain": "A word is not an age from 5 to 12, so it should be turned away: erroneous data."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A test passes when what happens matches what should happen.",
+			"answer": true,
+			"hint": "Compare the last two columns of a test plan.",
+			"explain": "True: should and did must match."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "This program stops with an error. Which line stops it?",
+			"answer": "3",
+			"hint": "Which line cannot be worked out?",
+			"explain": "Line 3 divides by friends, which is 0: dividing by 0 is a runtime error.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"coins = 10",
+					"friends = 0",
+					"print(coins / friends)"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "It should add 1, 2 and 3 to make 6 but gives 3. What kind of error is it?",
+			"answer": 0,
+			"hint": "Does it run? Is the answer right?",
+			"choices": [
+				"a logic error",
+				"a syntax error",
+				"a runtime error",
+				"no error"
+			],
+			"explain": "It runs without stopping but gives the wrong answer: a logic error (range(1, 3) stops before 3).",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"total = 0",
+					"for i in range(1, 3):",
+					"    total = total + i",
+					"print(total)"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does this program print?",
+			"answer": 0,
+			"hint": "Is 12 >= 5 and is 12 <= 12?",
+			"choices": [
+				"Play!",
+				"Sorry",
+				"Play! Sorry",
+				"12"
+			],
+			"explain": "Both tests are true for 12, so the if part runs: Play!",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"age = 12",
+					"if age >= 5 and age <= 12:",
+					"    print(\"Play!\")",
+					"else:",
+					"    print(\"Sorry\")"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which set of tests is best for ages 5 to 12?",
+			"answer": 0,
+			"hint": "Good tests try normal data, both edges and something just outside.",
+			"choices": [
+				"4, 5, 8, 12, 13",
+				"8, 8, 8, 8",
+				"1, 2, 3",
+				"100, 200"
+			],
+			"explain": "4, 5, 8, 12, 13 tries both edges, just outside each, and a normal age."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "After fixing a bug, you only need to run the test that failed.",
+			"answer": false,
+			"hint": "Could the fix break something else?",
+			"explain": "False: run every test again, because a fix can break something that worked."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of fixing bugs in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "One bug at a time.",
+			"items": [
+				"run all the tests again",
+				"fix that one bug",
+				"find the first failing test",
+				"run all the tests"
+			],
+			"explain": "Run the tests, find the first test that fails, fix that one bug, and run everything again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The rule is 5 to 12, but the code says if age > 5 and age <= 12. Which test finds the bug?",
+			"answer": 0,
+			"hint": "Try each edge in the code in your head.",
+			"choices": [
+				"5",
+				"8",
+				"12",
+				"20"
+			],
+			"explain": "5 is allowed, but 5 > 5 is false, so the code turns it away: only testing 5 finds it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The rule is 1 to 20, but the code says if level >= 1 and level < 20. Which test finds the bug?",
+			"answer": 0,
+			"hint": "Try each edge in the code in your head.",
+			"choices": [
+				"20",
+				"1",
+				"10",
+				"0"
+			],
+			"explain": "20 is allowed, but 20 < 20 is false: only a test at 20 finds it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is total when the program ends?",
+			"answer": "15",
+			"hint": "Trace it: write total after each time round.",
+			"explain": "range(1, 6) is 1 to 5: 1 + 2 + 3 + 4 + 5 = 15.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"total = 0",
+					"for i in range(1, 6):",
+					"    total = total + i"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This program should find the biggest number, but it finds the smallest. What must change?",
+			"answer": 0,
+			"hint": "Which line decides when best changes?",
+			"choices": [
+				"< should be >",
+				"best should start at 0",
+				"for should be while",
+				"the list must be sorted"
+			],
+			"explain": "best changes when n < best, so it keeps the smallest. With n > best it keeps the biggest.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"nums = [3, 9, 4]",
+					"best = nums[0]",
+					"for n in nums:",
+					"    if n < best:",
+					"        best = n",
+					"print(best)"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "total starts at 0. For n in range(2, 8, 2): total = total + n. What is total at the end?",
+			"answer": "12",
+			"hint": "range(2, 8, 2) starts at 2, goes up in 2s and stops before 8.",
+			"explain": "range(2, 8, 2) gives 2, 4 and 6; it stops before 8. So total goes 0, 2, 6, 12. 2 + 4 + 6 = 12."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.test_data",
+			"level": 1
+		},
+		{
+			"gen": "g7c.test_data",
+			"level": 2
+		},
+		{
+			"gen": "g7c.test_data",
+			"level": 3
+		}
+	]
+}

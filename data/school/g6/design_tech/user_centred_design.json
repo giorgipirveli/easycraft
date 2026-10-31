@@ -1,0 +1,345 @@
+{
+	"id": "g6.design_tech.user_centred_design",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you designed for someone. What does a design brief say? (Who the product is for, and what it must do.) Today: user-centred design: finding out exactly what users need."
+		},
+		{
+			"text": "User-centred design puts the user first. The user is the person who will use the product. Designers study users all the way through: before they start, while they make, and when they test."
+		},
+		{
+			"text": "Interview a user to find out their needs. An open question, like 'What do you find hard about packing your bag?', gets a long answer. A closed question, like 'Do you like red?', gets yes or no.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"open question",
+						"closed question"
+					],
+					[
+						"What is hard?",
+						"Do you like red?"
+					],
+					[
+						"a long answer",
+						"yes or no"
+					]
+				]
+			}
+		},
+		{
+			"text": "Watch users too: see how they use a product now, and where they struggle. Take notes, and photos only with permission. Then write a user profile: who they are, what they need, and what they like."
+		},
+		{
+			"text": "The design brief says what the problem is and who it is for: 'Design a lunch box that a 7-year-old can open easily.' The specification lists exactly what the product must do."
+		},
+		{
+			"text": "Use ACCESS FM to write the specification: Aesthetics, Cost, Customer, Environment, Safety, Size, Function, Materials. Each point should be measurable, so it can be tested.",
+			"picture": {
+				"kind": "access_fm"
+			}
+		},
+		{
+			"text": "Not 'It must be light', but 'It must have a mass under 300 g'. Not 'cheap', but 'It must cost less than 5 gold to make'. Later, you test the product against every point.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Not this",
+						"But this"
+					],
+					[
+						"light",
+						"under 300 g"
+					],
+					[
+						"cheap",
+						"under 5 gold to make"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: interview a friend about a problem in the game, like carrying tools, and write a specification with ACCESS FM. For real: interview someone at home about something they find hard. Next: ideas from nature."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who is the user?",
+			"answer": 0,
+			"hint": "Think of who picks it up every day.",
+			"choices": [
+				"the person who will use the product",
+				"the designer",
+				"the shop",
+				"the factory"
+			],
+			"explain": "The user: the person who will use the product."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is an open question?",
+			"answer": 0,
+			"hint": "Which one cannot be answered with just yes or no?",
+			"choices": [
+				"What do you find hard about mornings?",
+				"Do you like blue?",
+				"Is it heavy?",
+				"Do you walk to school?"
+			],
+			"explain": "'What do you find hard about mornings?' needs a longer answer."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A specification lists what the product must do.",
+			"answer": true,
+			"hint": "Brief first, then a detailed list.",
+			"explain": "True: a specification lists exactly what the product must do, point by point."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word is hidden in ACCESS FM?",
+			"answer": 0,
+			"hint": "One S word is Safety. The other is about how big the product is.",
+			"choices": [
+				"Size",
+				"Speed",
+				"Style",
+				"Sound"
+			],
+			"explain": "Size: how big the product is.",
+			"picture": {
+				"kind": "access_fm",
+				"hide": 5
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Open or closed question?",
+			"groups": [
+				"open",
+				"closed"
+			],
+			"items": [
+				"How do you use it?",
+				"Is it too big?",
+				"What would you change?",
+				"Do you like it?",
+				"Tell me about your day."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Could it be answered with yes, no or one word?",
+			"explain": "Open: how, what, tell me. Closed: is it, do you."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which specification point can be tested?",
+			"answer": 0,
+			"hint": "Look for a number you can check.",
+			"choices": [
+				"It must hold 6 pencils upright.",
+				"It must look cool.",
+				"It must be nice.",
+				"It should be quite good."
+			],
+			"explain": "'It must hold 6 pencils upright': count the pencils and see."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each ACCESS FM heading to the question it asks.",
+			"items": [
+				"Aesthetics",
+				"Cost",
+				"Safety",
+				"Function"
+			],
+			"matches": [
+				"How much will it cost?",
+				"How will it keep users safe?",
+				"What must it do?",
+				"How will it look?"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Aesthetics is about looks.",
+			"explain": "Aesthetics: looks. Cost: how much. Safety: keeping users safe. Function: what it must do."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put user-centred design in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You cannot write a brief before you know the need.",
+			"items": [
+				"design, make and test",
+				"write the specification",
+				"write the brief",
+				"interview the user"
+			],
+			"explain": "Interview the user, write the brief, write the specification, then design, make and test."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Watching a user struggle with a product can show a need they never mentioned.",
+			"answer": true,
+			"hint": "Do people always say what is hard?",
+			"explain": "True: watching shows problems people are used to and forget to mention."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which heading is marked? It asks about the effect on the planet.",
+			"answer": 0,
+			"hint": "Which word means the world around us?",
+			"choices": [
+				"Environment",
+				"Materials",
+				"Cost",
+				"Size"
+			],
+			"explain": "Environment: reusing, recycling and less waste.",
+			"picture": {
+				"kind": "access_fm",
+				"mark": 3
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Make it measurable: 'The bag must be big.'",
+			"answer": 0,
+			"hint": "A measurable point can be tested with a check or a number.",
+			"choices": [
+				"It must hold 4 books and a lunch box.",
+				"It must be very big.",
+				"It must be bigger than most.",
+				"It must not be small."
+			],
+			"explain": "'It must hold 4 books and a lunch box': pack them and see if they fit."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A user says, 'My lunch box is hard to open.' What is the best next question?",
+			"answer": 0,
+			"hint": "Ask a question that finds the cause.",
+			"choices": [
+				"What makes it hard to open?",
+				"Do you like lunch?",
+				"Is it red?",
+				"Are you sure?"
+			],
+			"explain": "'What makes it hard to open?' is open, and finds the real problem."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "ACCESS FM: Safety or Size?",
+			"groups": [
+				"Safety",
+				"Size"
+			],
+			"items": [
+				"no sharp edges",
+				"fits in a school bag",
+				"no small loose parts",
+				"no wider than 20 cm",
+				"paint that is safe to lick"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it about keeping users safe, or about how big it is?",
+			"explain": "Safety: edges, loose parts, safe paint. Size: fits in a bag, no wider than 20 cm."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A design brief and a specification are exactly the same thing.",
+			"answer": false,
+			"hint": "Which is short, and which is a detailed list?",
+			"explain": "False: the brief states the problem and the user; the specification lists measurable points."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The lunch box must have a mass under 300 g. The prototype has a mass of 340 g. How many grams too much is that?",
+			"answer": "40",
+			"hint": "Compare the prototype with the specification.",
+			"explain": "340 − 300 = 40 g too much, so it needs a lighter material."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put an interview in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start politely, end politely.",
+			"items": [
+				"thank the user",
+				"take notes",
+				"ask open questions and listen",
+				"say who you are and why you are asking"
+			],
+			"explain": "Introduce yourself, ask and listen, take notes, then thank the user."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.spec_check",
+			"level": 1
+		},
+		{
+			"gen": "g6w.spec_check",
+			"level": 2
+		},
+		{
+			"gen": "g6w.spec_check",
+			"level": 3
+		},
+		{
+			"gen": "g6w.interview_q",
+			"level": 1
+		},
+		{
+			"gen": "g6w.interview_q",
+			"level": 2
+		},
+		{
+			"gen": "g6w.interview_q",
+			"level": 3
+		}
+	]
+}

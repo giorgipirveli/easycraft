@@ -1,0 +1,158 @@
+{
+	"id": "g4.maths.divide",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, multiplying. What is 4 × 30? 120: 4 × 3 is 12, then add the zero."
+		},
+		{
+			"text": "Dividing shares things into equal groups. 12 blocks shared into 3 equal groups is 4 in each: 12 ÷ 3 = 4.",
+			"picture": {
+				"kind": "groups",
+				"groups": 3,
+				"each": 4
+			}
+		},
+		{
+			"text": "Sometimes some are left over: the remainder. 14 blocks in groups of 4 make 3 groups and 2 left over: 14 ÷ 4 = 3 remainder 2.",
+			"picture": {
+				"kind": "groups",
+				"groups": 3,
+				"each": 4,
+				"left": 2
+			}
+		},
+		{
+			"text": "Share big numbers place by place. 848 ÷ 4: 8 hundreds ÷ 4 = 2 hundreds, 4 tens ÷ 4 = 1 ten, 8 ones ÷ 4 = 2 ones. So 848 ÷ 4 = 212."
+		},
+		{
+			"text": "In a story, think about what the remainder means. 29 children, 4 in each boat: 7 full boats and 1 child left over, so 8 boats are needed."
+		},
+		{
+			"text": "Try it in the world: share 29 friends into boats of 4. How many boats do you need? 7 full boats and 1 more for the last friend: 8. Next: factors, multiples and primes."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "36 ÷ 4 = ?",
+			"answer": "9",
+			"hint": "Which number times 4 makes 36?",
+			"explain": "4 × 9 = 36, so 36 ÷ 4 = 9."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "17 ÷ 5 = ?",
+			"choices": [
+				"3 remainder 2",
+				"3 remainder 5",
+				"2 remainder 7",
+				"4 remainder 3"
+			],
+			"answer": 0,
+			"hint": "How many whole 5s fit in 17? What is left over must be less than 5.",
+			"explain": "3 × 5 = 15, and 17 − 15 = 2 left over."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "963 ÷ 3 = ?",
+			"answer": "321",
+			"hint": "Share the hundreds, the tens and the ones.",
+			"explain": "9 hundreds ÷ 3 = 3, 6 tens ÷ 3 = 2, 3 ones ÷ 3 = 1: 321."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Mimi puts 50 cupcakes into boxes of 6. How many cupcakes are left over?",
+			"answer": "2",
+			"hint": "How many full boxes? What is left?",
+			"explain": "8 × 6 = 48, and 50 − 48 = 2 left over."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "22 friends ride in cars that hold 4. How many cars are needed so everyone gets a ride?",
+			"answer": "6",
+			"hint": "22 ÷ 4 leaves some friends over. They need a car too.",
+			"explain": "22 ÷ 4 = 5 remainder 2: 5 full cars and one more for the 2 left."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "4,000 ÷ 8 = 500",
+			"answer": true,
+			"hint": "8 × 5 = 40. How about 8 × 500?",
+			"explain": "8 × 500 = 4,000, so 4,000 ÷ 8 = 500."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly shares 1,256 gold coins equally between 8 chests. How many coins go in each chest?",
+			"answer": "157",
+			"hint": "Which number times 8 makes 1,256? Try 8 × 150 first.",
+			"explain": "Divide in steps: 1,200 ÷ 8 = 150, and 56 ÷ 8 = 7. 150 + 7 = 157 coins in each chest. Check: 8 × 157 = 1,256."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which one has a remainder of 3?",
+			"choices": [
+				"23 ÷ 5",
+				"24 ÷ 4",
+				"20 ÷ 6",
+				"30 ÷ 7"
+			],
+			"answer": 0,
+			"hint": "Work out each: whole groups, then what is left.",
+			"explain": "23 ÷ 5 = 4 remainder 3. The others leave 0, 2 and 2."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi packs 50 cakes into boxes of 6. She fills as many boxes as she can. How many cakes are left over?",
+			"answer": "2",
+			"hint": "Find the biggest multiple of 6 that is not more than 50.",
+			"explain": "6 × 8 = 48, and 6 × 9 = 54 is too many. So she fills 8 boxes, and 50 − 48 = 2 cakes are left: 50 ÷ 6 = 8 remainder 2."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4m.div_exact",
+			"level": 1
+		},
+		{
+			"gen": "g4m.div_exact",
+			"level": 2
+		},
+		{
+			"gen": "g4m.div_exact",
+			"level": 3
+		},
+		{
+			"gen": "g4m.div_remainder",
+			"level": 1
+		},
+		{
+			"gen": "g4m.div_remainder",
+			"level": 2
+		},
+		{
+			"gen": "g4m.div_remainder",
+			"level": 3
+		},
+		{
+			"gen": "g4m.remainder_story",
+			"level": 1
+		},
+		{
+			"gen": "g4m.remainder_story",
+			"level": 2
+		},
+		{
+			"gen": "g4m.remainder_story",
+			"level": 3
+		}
+	]
+}

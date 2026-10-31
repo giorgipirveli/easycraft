@@ -1,0 +1,426 @@
+{
+	"id": "g5.science.reproduction_life",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3, what does a tadpole change into? (A froglet, then an adult frog.) Every living thing makes new living things like itself: it reproduces. Today: how plants and animals do it."
+		},
+		{
+			"text": "A flower's parts each have a job. Petals attract insects with colour and scent. Stamens make a powder called pollen. The carpel in the middle has a sticky top, the stigma, and an ovary with tiny ovules.",
+			"picture": {
+				"kind": "flower_parts",
+				"labels": "groups"
+			}
+		},
+		{
+			"text": "Pollination is pollen moving from a stamen to a stigma. Bees, butterflies, birds and bats carry it as they drink nectar; the wind blows grasses' light pollen. Then pollen joins an ovule, which grows into a seed.",
+			"picture": {
+				"kind": "flower_parts",
+				"labels": "parts",
+				"bee": true
+			}
+		},
+		{
+			"text": "The ovary becomes a fruit with seeds inside. Seeds travel away from the plant, so new plants have room. They go on the wind (dandelion parachutes, sycamore wings), on fur (hooked burrs), inside animals, on water, or when pods burst."
+		},
+		{
+			"text": "Not every plant makes seeds. Ferns and mosses make tiny spores; mushrooms (fungi, not plants) drop millions of spores. Some plants grow from one parent: potatoes from tubers, daffodils from bulbs and strawberries from runners."
+		},
+		{
+			"text": "Animals have life cycles too. Mammals give birth to live young that drink their mother's milk. Birds lay eggs with hard shells and keep them warm until the chicks hatch. The platypus is a mammal that lays eggs!",
+			"picture": {
+				"kind": "life_cycle",
+				"stages": [
+					"born",
+					"drinks milk",
+					"young cat",
+					"adult cat"
+				],
+				"title": "cat"
+			}
+		},
+		{
+			"text": "Amphibians and insects change shape as they grow: metamorphosis. A frog: frogspawn, tadpole, froglet, frog. A butterfly: egg, caterpillar (larva), chrysalis (pupa), butterfly. A grasshopper's nymph moults as it grows.",
+			"picture": {
+				"kind": "life_cycle",
+				"stages": [
+					"frogspawn",
+					"tadpole",
+					"froglet",
+					"adult frog"
+				],
+				"title": "frog"
+			}
+		},
+		{
+			"text": "Try it in the world: look inside a flower for its stamens and pollen, and look for seeds that travel. Maria Sibylla Merian painted caterpillars turning into butterflies over 300 years ago. Next, in grade 6: cells and sorting living things."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is pollen?",
+			"hint": "It is what bees carry away on their furry bodies.",
+			"explain": "Pollen is a powder made by the stamens. (The sweet juice is nectar.) Pollen is needed to make seeds.",
+			"choices": [
+				"a powder made by the stamens",
+				"a sweet juice in flowers",
+				"a kind of seed",
+				"a flower's petal"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Mammals give birth to live young that drink their mother's milk.",
+			"hint": "Think of a kitten or a calf.",
+			"explain": "True: most mammals are born alive and fed on milk. (The platypus is a mammal that lays eggs.)",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the part marked ? called?",
+			"hint": "It is the sticky top of the middle part, where pollen lands.",
+			"explain": "The stigma is the sticky top of the carpel: pollen sticks to it.",
+			"choices": [
+				"the stigma",
+				"the anther",
+				"the petal",
+				"the sepal"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "flower_parts",
+				"labels": "parts",
+				"hide": "stigma",
+				"mark": "stigma"
+			}
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put a flowering plant's life cycle in order.",
+			"hint": "Start with the seed. What must happen to the flowers before new seeds form?",
+			"explain": "A seed grows into a seedling, then a flowering plant; its flowers are pollinated, and seeds form in a fruit.",
+			"items": [
+				"seedling",
+				"seeds in a fruit",
+				"flowering plant",
+				"seed",
+				"pollination"
+			],
+			"answer": [
+				3,
+				0,
+				2,
+				4,
+				1
+			]
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How do bees help flowers?",
+			"hint": "What sticks to a bee's hairy body?",
+			"explain": "Bees carry pollen from one flower to the next as they drink nectar: pollination.",
+			"choices": [
+				"They carry pollen from flower to flower.",
+				"They water the flowers.",
+				"They eat the seeds.",
+				"They make the petals."
+			],
+			"answer": 0
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each young animal to its adult.",
+			"hint": "Think through each life cycle from the start.",
+			"explain": "A tadpole becomes a frog, a caterpillar a butterfly, a calf a cow, a chick a hen, and a nymph a dragonfly.",
+			"items": [
+				"tadpole",
+				"caterpillar",
+				"calf",
+				"chick",
+				"nymph"
+			],
+			"matches": [
+				"cow",
+				"hen",
+				"dragonfly",
+				"frog",
+				"butterfly"
+			],
+			"answer": [
+				3,
+				4,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: which change shape completely as they grow (metamorphosis)?",
+			"hint": "Does the young look like a small adult, or like something quite different?",
+			"explain": "Metamorphosis: frog (tadpole), butterfly (caterpillar), ladybird (larva). Robin, cat and elephant young look like small adults.",
+			"groups": [
+				"metamorphosis",
+				"no big change"
+			],
+			"items": [
+				"frog",
+				"butterfly",
+				"robin",
+				"cat",
+				"ladybird",
+				"elephant"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0,
+				1
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What do ferns make instead of seeds?",
+			"hint": "Look under a fern's leaves for tiny brown dots.",
+			"explain": "Ferns make spores in tiny brown cases under their leaves.",
+			"choices": [
+				"spores",
+				"pollen",
+				"bulbs",
+				"tubers"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A mushroom is a plant.",
+			"hint": "Does a mushroom have green leaves to make its own food?",
+			"explain": "False: mushrooms are fungi. They grow from spores and cannot make food from sunlight.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A strawberry plant sends out long stems along the ground that grow new plants. What are they?",
+			"hint": "They run along the ground.",
+			"explain": "Runners grow new strawberry plants from one parent, without seeds.",
+			"choices": [
+				"runners",
+				"bulbs",
+				"spores",
+				"petals"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do plants need their seeds to travel away?",
+			"hint": "What would happen if every seed grew right under its parent?",
+			"explain": "Far from the parent, seedlings do not have to share light, water and space.",
+			"choices": [
+				"So new plants have room, light and water.",
+				"So the parent plant grows taller.",
+				"So bees can find them.",
+				"So the seeds stay warm."
+			],
+			"answer": 0
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps from flower to seed in order.",
+			"hint": "Pollination comes before the seed.",
+			"explain": "Petals attract a bee, which carries pollen to a stigma; pollen joins an ovule, which grows into a seed.",
+			"items": [
+				"The bee brings pollen to the stigma",
+				"Bright petals attract a bee",
+				"The ovule grows into a seed",
+				"Pollen joins an ovule"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Grass flowers are small and green, with no scent. How is their pollen carried?",
+			"hint": "Why would a flower not need bright petals or scent?",
+			"explain": "Grasses do not need to attract animals: the wind carries their light pollen.",
+			"choices": [
+				"by the wind",
+				"by bees",
+				"by birds",
+				"by bats"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which animal is a mammal that lays eggs?",
+			"hint": "It has fur and feeds its young on milk, but they hatch from eggs.",
+			"explain": "The platypus (and the echidna) are mammals that lay eggs. Penguins are birds, crocodiles are reptiles, and bats give birth to live young.",
+			"choices": [
+				"the platypus",
+				"the penguin",
+				"the crocodile",
+				"the bat"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A grasshopper goes through a pupa (chrysalis) stage.",
+			"hint": "Its young is a nymph that moults as it grows.",
+			"explain": "False: a grasshopper's egg hatches into a nymph that moults and grows into an adult, with no pupa.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which stage comes between the ladybird's larva and the adult?",
+			"hint": "Ladybirds change completely, like butterflies.",
+			"explain": "Egg, larva, pupa, adult: inside the pupa the larva changes into a ladybird.",
+			"choices": [
+				"pupa",
+				"nymph",
+				"egg",
+				"tadpole"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "life_cycle",
+				"stages": [
+					"egg",
+					"larva",
+					"pupa",
+					"ladybird"
+				],
+				"title": "ladybird",
+				"hide": 2
+			}
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort them: grown from a seed, or from one parent plant without a seed?",
+			"hint": "Is there a seed, or a piece of the parent plant?",
+			"explain": "From seeds: the acorn, the bean and the conker. From one parent: the tuber, the bulb and the runner.",
+			"groups": [
+				"from a seed",
+				"no seed"
+			],
+			"items": [
+				"an acorn grows into an oak",
+				"a potato grows from a tuber",
+				"a daffodil grows from a bulb",
+				"a bean sprouts in the soil",
+				"a runner makes a strawberry",
+				"a conker grows into a tree"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1,
+				0
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Over 300 years ago, Maria Sibylla Merian painted caterpillars and butterflies. What did she show?",
+			"hint": "Think about the butterfly's life cycle.",
+			"explain": "She watched and painted metamorphosis: egg, caterpillar, chrysalis, butterfly.",
+			"choices": [
+				"a caterpillar changes into a butterfly",
+				"butterflies grow from flowers",
+				"caterpillars are baby worms",
+				"butterflies give birth"
+			],
+			"answer": 0
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Look at each seed's shape. Match it to how it travels.",
+			"items": [
+				"a dandelion seed",
+				"a sycamore seed",
+				"a burdock burr",
+				"a pea in its pod"
+			],
+			"matches": [
+				"the pod bursts open",
+				"hooks catch on fur",
+				"a parachute on the wind",
+				"a spinning wing"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Fluffy, winged, hooked, or packed in a pod that dries and splits?",
+			"explain": "A dandelion's fluffy parachute floats on the wind. A sycamore's wing spins it away. A burr's hooks catch on passing fur. A dry pea pod bursts and flings its seeds out. All of them get seeds away from the parent."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5c.cycle_order",
+			"level": 1
+		},
+		{
+			"gen": "g5c.cycle_order",
+			"level": 2
+		},
+		{
+			"gen": "g5c.cycle_order",
+			"level": 3
+		},
+		{
+			"gen": "g5c.seed_travel",
+			"level": 1
+		},
+		{
+			"gen": "g5c.seed_travel",
+			"level": 2
+		},
+		{
+			"gen": "g5c.seed_travel",
+			"level": 3
+		},
+		{
+			"gen": "g5c.young_birth",
+			"level": 1
+		},
+		{
+			"gen": "g5c.young_birth",
+			"level": 2
+		},
+		{
+			"gen": "g5c.young_birth",
+			"level": 3
+		}
+	]
+}

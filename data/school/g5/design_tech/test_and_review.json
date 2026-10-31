@@ -1,0 +1,367 @@
+{
+	"id": "g5.design_tech.test_and_review",
+	"lesson": [
+		{
+			"text": "Quick memory: what are design criteria? (A checklist of what a product must do, written so it can be tested.) Today: testing a product against its criteria, and improving it."
+		},
+		{
+			"text": "Evaluating means judging how well a product works. Go through the design criteria one by one: does the pencil case hold 6 pencils? Does it open with one hand? Test each one, and record the result."
+		},
+		{
+			"text": "Make each test fair: change only one thing at a time, measure carefully, and do each test 3 times. Then find the mean, the average: add the results and share the total by 3.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"test",
+						"books it held"
+					],
+					[
+						"1st",
+						"6"
+					],
+					[
+						"2nd",
+						"8"
+					],
+					[
+						"3rd",
+						"7"
+					],
+					[
+						"mean",
+						"7"
+					]
+				]
+			}
+		},
+		{
+			"text": "Ask the user: watch them use the product, and ask what they think. Their answers can be scores, like 1 to 5 for each criterion, kept in a table.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"criterion",
+						"design A",
+						"design B"
+					],
+					[
+						"holds 6 pencils",
+						"5",
+						"4"
+					],
+					[
+						"opens one-handed",
+						"2",
+						"5"
+					],
+					[
+						"fits in a bag",
+						"4",
+						"4"
+					]
+				]
+			}
+		},
+		{
+			"text": "Compare designs: add up each one's scores, or see which criteria each meets. The best design is not always the prettiest: it is the one that does its job best for its user."
+		},
+		{
+			"text": "Suggest improvements that are clear and specific: not 'make it better', but 'make the handle 2 cm wider so it is easier to hold'. Then change the design, and test it again.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"test it",
+					"find what to improve",
+					"change the design",
+					"test again"
+				],
+				"title": "Improve it",
+				"loop": true
+			}
+		},
+		{
+			"text": "Product analysis: look at products that already exist. Who is it for? What is it made from, and why? How much does it cost? Can it be mended or recycled? Toys must pass safety tests before they are sold."
+		},
+		{
+			"text": "Try it in the world: build two designs of the same thing, like two bridges, and test them side by side. For real: pick a product at home, test it against 3 criteria, and write one clear improvement."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does evaluating a product mean?",
+			"answer": 0,
+			"hint": "Evaluate has 'value' inside it.",
+			"choices": [
+				"judging how well it does its job",
+				"painting it",
+				"selling it",
+				"throwing it away"
+			],
+			"explain": "Evaluating means judging how well it works for its user."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A fair test changes only one thing at a time.",
+			"answer": true,
+			"hint": "If you change two things, which one made the difference?",
+			"explain": "True: change one thing, keep everything else the same."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a clear, specific improvement?",
+			"answer": 0,
+			"hint": "Which one tells the designer exactly what to do?",
+			"choices": [
+				"make the handle 2 cm wider",
+				"make it better",
+				"make it nicer",
+				"change it"
+			],
+			"explain": "'Make the handle 2 cm wider': it says exactly what to change, and by how much."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Testing a product once is always enough.",
+			"answer": false,
+			"hint": "Could one test give an unusual result?",
+			"explain": "False: repeat each test, usually 3 times, so a fluke does not fool you."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A toy car rolled 120 cm, 130 cm and 140 cm in three tests. What is the mean, in cm?",
+			"answer": "130",
+			"hint": "Add the three results, then share by 3.",
+			"explain": "120 + 130 + 140 = 390, and 390 ÷ 3 = 130 cm."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the evaluation in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need the checklist before you can test.",
+			"items": [
+				"test the product against each one",
+				"suggest improvements",
+				"list the design criteria",
+				"record the results in a table",
+				"change it and test again"
+			],
+			"explain": "List the criteria, test, record, suggest improvements, then change it and test again."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The table shows design A's scores. Which criterion should its designer improve first?",
+			"answer": 0,
+			"hint": "Find design A's lowest score.",
+			"choices": [
+				"opens one-handed",
+				"holds 6 pencils",
+				"fits in a bag"
+			],
+			"explain": "Opens one-handed: design A scored only 2 out of 5 for it.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"criterion",
+						"design A",
+						"design B"
+					],
+					[
+						"holds 6 pencils",
+						"5",
+						"4"
+					],
+					[
+						"opens one-handed",
+						"2",
+						"5"
+					],
+					[
+						"fits in a bag",
+						"4",
+						"4"
+					]
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Fair or not fair?",
+			"groups": [
+				"fair",
+				"not fair"
+			],
+			"items": [
+				"the same ramp each time",
+				"a different car each time",
+				"repeating each test 3 times",
+				"a bigger push for one car",
+				"measuring from the same line",
+				"changing the ramp and the car together"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "How many things change?",
+			"explain": "Fair: the same ramp, 3 repeats, the same line. Not fair: a different car, a bigger push, two changes at once."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The user's opinion is useful when you evaluate a product.",
+			"answer": true,
+			"hint": "Who is the product for?",
+			"explain": "True: the user knows best whether it does its job for them."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why repeat a test 3 times?",
+			"answer": 0,
+			"hint": "Could one test go oddly by chance?",
+			"choices": [
+				"one result could be a fluke",
+				"to get tired",
+				"to use more materials",
+				"to change the result"
+			],
+			"explain": "One result could be a fluke; 3 results that agree can be trusted."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A torch's battery lasted 42, 45 and 48 minutes in three tests. What is the mean, in minutes?",
+			"answer": "45",
+			"hint": "Add the three results, then share by 3.",
+			"explain": "42 + 45 + 48 = 135, and 135 ÷ 3 = 45 minutes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which design scored more in total?",
+			"answer": 0,
+			"hint": "Add up each design's column.",
+			"choices": [
+				"design B",
+				"design A"
+			],
+			"explain": "A: 5 + 2 + 4 = 11. B: 4 + 5 + 4 = 13. Design B scored more.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"criterion",
+						"design A",
+						"design B"
+					],
+					[
+						"holds 6 pencils",
+						"5",
+						"4"
+					],
+					[
+						"opens one-handed",
+						"2",
+						"5"
+					],
+					[
+						"fits in a bag",
+						"4",
+						"4"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Test results: 50, 52, 12 and 49. What should you do with the 12?",
+			"answer": 0,
+			"hint": "Is 12 anything like the other results?",
+			"choices": [
+				"check it, and test again or leave it out",
+				"use it anyway",
+				"double it",
+				"ignore the others"
+			],
+			"explain": "12 is far from the rest, so something went wrong. Check the test, and repeat it or leave that result out."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The best design is always the best-looking one.",
+			"answer": false,
+			"hint": "What matters most for a product?",
+			"explain": "False: the best design is the one that does its job best for its user."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which question is part of product analysis?",
+			"answer": 0,
+			"hint": "Product analysis asks about the product.",
+			"choices": [
+				"What is it made from, and why?",
+				"What is my favourite song?",
+				"How old am I?",
+				"What is for tea?"
+			],
+			"explain": "'What is it made from, and why?' Designers ask this about products that already exist."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Design A scored 4, 3 and 5. Design B scored 5, 4 and 1. By how many points does the winner win?",
+			"answer": "2",
+			"hint": "Add each design's scores, then find the difference.",
+			"explain": "A: 4 + 3 + 5 = 12. B: 5 + 4 + 1 = 10. 12 − 10 = 2 points."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.test_average",
+			"level": 1
+		},
+		{
+			"gen": "g5w.test_average",
+			"level": 2
+		},
+		{
+			"gen": "g5w.test_average",
+			"level": 3
+		},
+		{
+			"gen": "g5w.criteria_score",
+			"level": 1
+		},
+		{
+			"gen": "g5w.criteria_score",
+			"level": 2
+		},
+		{
+			"gen": "g5w.criteria_score",
+			"level": 3
+		}
+	]
+}

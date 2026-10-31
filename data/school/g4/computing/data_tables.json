@@ -1,0 +1,561 @@
+{
+	"id": "g4.computing.data_tables",
+	"lesson": [
+		{
+			"text": "Quick memory: how do you check whether a fact is true? (Ask who, when and why, and check other good sources.) Today: finding answers in tables of data."
+		},
+		{
+			"text": "A table keeps data in rows and columns. Each row is one thing; each column is one kind of fact about it, with its name at the top.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Animal",
+						"Legs",
+						"Home"
+					],
+					[
+						"frog",
+						"4",
+						"pond"
+					],
+					[
+						"duck",
+						"2",
+						"pond"
+					],
+					[
+						"spider",
+						"8",
+						"garden"
+					],
+					[
+						"cat",
+						"4",
+						"house"
+					],
+					[
+						"snail",
+						"0",
+						"garden"
+					]
+				]
+			}
+		},
+		{
+			"text": "Sorting puts the rows in order by one column: A to Z, smallest to biggest, or biggest first. The data stays the same; only the order changes.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Animal",
+						"Legs"
+					],
+					[
+						"snake",
+						"0"
+					],
+					[
+						"hen",
+						"2"
+					],
+					[
+						"dog",
+						"4"
+					],
+					[
+						"spider",
+						"8"
+					]
+				]
+			}
+		},
+		{
+			"text": "Filtering hides the rows that don't match a rule, like only animals that live in a pond. The other rows are still there, just hidden."
+		},
+		{
+			"text": "Worked example: which pond animal has the most legs? Filter: Home is pond, which leaves the frog and the duck. Sort by Legs, biggest first: the frog (4) comes first.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Animal",
+						"Legs",
+						"Home"
+					],
+					[
+						"frog",
+						"4",
+						"pond"
+					],
+					[
+						"duck",
+						"2",
+						"pond"
+					],
+					[
+						"spider",
+						"8",
+						"garden"
+					],
+					[
+						"cat",
+						"4",
+						"house"
+					],
+					[
+						"snail",
+						"0",
+						"garden"
+					]
+				]
+			}
+		},
+		{
+			"text": "Computers sort and filter huge tables in a blink: a library's list of books, a shop's prices, or weather readings from every hour of a year."
+		},
+		{
+			"text": "Tables are made for questions: choose the column, filter the rows you need, then sort to find the biggest, the smallest or the first."
+		},
+		{
+			"text": "Try it in the world: make a table of 5 animals or blocks in your world, with two columns of facts. Sort it and filter it to answer a question. Next: your digital footprint."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Sort the table by Legs, biggest first. Which animal comes first?",
+			"answer": 0,
+			"hint": "Look down the Legs column for the biggest number.",
+			"choices": [
+				"spider",
+				"cat",
+				"frog",
+				"snail"
+			],
+			"explain": "The spider has 8 legs, more than any other: it comes first.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Animal",
+						"Legs",
+						"Home"
+					],
+					[
+						"frog",
+						"4",
+						"pond"
+					],
+					[
+						"duck",
+						"2",
+						"pond"
+					],
+					[
+						"spider",
+						"8",
+						"garden"
+					],
+					[
+						"cat",
+						"4",
+						"house"
+					],
+					[
+						"snail",
+						"0",
+						"garden"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many animals are in this table?",
+			"answer": "5",
+			"hint": "Count the rows under the column names.",
+			"explain": "Frog, duck, spider, cat and snail: 5 rows of animals.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Animal",
+						"Legs",
+						"Home"
+					],
+					[
+						"frog",
+						"4",
+						"pond"
+					],
+					[
+						"duck",
+						"2",
+						"pond"
+					],
+					[
+						"spider",
+						"8",
+						"garden"
+					],
+					[
+						"cat",
+						"4",
+						"house"
+					],
+					[
+						"snail",
+						"0",
+						"garden"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Sorting a table changes the order of the rows, not the data in them.",
+			"answer": true,
+			"hint": "Does the frog still have 4 legs after sorting?",
+			"explain": "True: every row keeps its facts; only the order changes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a table, what is a column?",
+			"answer": 0,
+			"hint": "Columns go up and down.",
+			"choices": [
+				"one kind of fact for every row",
+				"one thing and all its facts",
+				"the table's title",
+				"a kind of chart"
+			],
+			"explain": "A column is one kind of fact, like Legs, for every row."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Filter the table: keep only the rows where Home is garden. How many rows are left?",
+			"answer": "2",
+			"hint": "Cross out every row whose Home is not garden.",
+			"explain": "The spider and the snail live in the garden: 2 rows.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Animal",
+						"Legs",
+						"Home"
+					],
+					[
+						"frog",
+						"4",
+						"pond"
+					],
+					[
+						"duck",
+						"2",
+						"pond"
+					],
+					[
+						"spider",
+						"8",
+						"garden"
+					],
+					[
+						"cat",
+						"4",
+						"house"
+					],
+					[
+						"snail",
+						"0",
+						"garden"
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Sort these by Legs, fewest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Compare the numbers in brackets.",
+			"items": [
+				"spider (8)",
+				"cat (4)",
+				"duck (2)",
+				"snail (0)"
+			],
+			"explain": "0, 2, 4, 8: snail, duck, cat, spider."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which filter keeps only the frog and the duck?",
+			"answer": 0,
+			"hint": "What do the frog and the duck have in common in the table?",
+			"choices": [
+				"Home is pond",
+				"Legs is 4",
+				"Home is garden",
+				"Legs is more than 2"
+			],
+			"explain": "Both live in the pond: Home is pond.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Animal",
+						"Legs",
+						"Home"
+					],
+					[
+						"frog",
+						"4",
+						"pond"
+					],
+					[
+						"duck",
+						"2",
+						"pond"
+					],
+					[
+						"spider",
+						"8",
+						"garden"
+					],
+					[
+						"cat",
+						"4",
+						"house"
+					],
+					[
+						"snail",
+						"0",
+						"garden"
+					]
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"sort",
+				"filter",
+				"row",
+				"column"
+			],
+			"matches": [
+				"hides rows that don't match",
+				"one thing and its facts",
+				"one kind of fact",
+				"puts rows in order"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Sort orders, filter hides.",
+			"explain": "Sort puts rows in order, filter hides rows, a row is one thing, a column one kind of fact."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A table of 30 books is sorted by title, A to Z. Where is Zebra Tales?",
+			"answer": 0,
+			"hint": "Where does Z come in the alphabet?",
+			"choices": [
+				"near the bottom",
+				"at the top",
+				"in the middle",
+				"it disappears"
+			],
+			"explain": "Z is the last letter, so Zebra Tales is near the bottom."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Keep only the stalls with more than 6 pears, then sort by Apples, biggest first. Whose stall comes first?",
+			"answer": 0,
+			"hint": "Filter first: cross out stalls with 6 pears or fewer. Then compare the apples.",
+			"choices": [
+				"Juno",
+				"Zara",
+				"Bram",
+				"Mimi"
+			],
+			"explain": "More than 6 pears: Bram (7 apples), Mimi (4) and Juno (9). Juno has the most apples.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Stall",
+						"Apples",
+						"Pears"
+					],
+					[
+						"Tilly",
+						"12",
+						"5"
+					],
+					[
+						"Bram",
+						"7",
+						"9"
+					],
+					[
+						"Zara",
+						"15",
+						"3"
+					],
+					[
+						"Mimi",
+						"4",
+						"11"
+					],
+					[
+						"Juno",
+						"9",
+						"8"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many stalls have more apples than pears?",
+			"answer": "3",
+			"hint": "Compare the two numbers in each row.",
+			"explain": "Tilly 12 and 5, Zara 15 and 3, Juno 9 and 8: 3 stalls. Bram and Mimi have more pears.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Stall",
+						"Apples",
+						"Pears"
+					],
+					[
+						"Tilly",
+						"12",
+						"5"
+					],
+					[
+						"Bram",
+						"7",
+						"9"
+					],
+					[
+						"Zara",
+						"15",
+						"3"
+					],
+					[
+						"Mimi",
+						"4",
+						"11"
+					],
+					[
+						"Juno",
+						"9",
+						"8"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which question needs a filter and a sort?",
+			"answer": 0,
+			"hint": "Which question picks some rows, then puts them in order?",
+			"choices": [
+				"Which pond animal has the most legs?",
+				"How many animals are there?",
+				"What is the first row?",
+				"Which column says Home?"
+			],
+			"explain": "Which pond animal has the most legs? Filter the pond animals, then sort by legs."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "When you filter a table, the hidden rows are deleted for ever.",
+			"answer": false,
+			"hint": "What happens when you take the filter away?",
+			"explain": "False: filtered rows are only hidden. Take the filter away and they come back."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Sort the market table by Pears, fewest first. How many pears does the third stall have?",
+			"answer": "8",
+			"hint": "Put the pears in order: fewest first. Then count along to the third.",
+			"explain": "Pears, fewest first: 3, 5, 8, 9, 11. The third is 8 (Juno).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Stall",
+						"Apples",
+						"Pears"
+					],
+					[
+						"Tilly",
+						"12",
+						"5"
+					],
+					[
+						"Bram",
+						"7",
+						"9"
+					],
+					[
+						"Zara",
+						"15",
+						"3"
+					],
+					[
+						"Mimi",
+						"4",
+						"11"
+					],
+					[
+						"Juno",
+						"9",
+						"8"
+					]
+				]
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.table_query",
+			"level": 1
+		},
+		{
+			"gen": "g4a.table_query",
+			"level": 2
+		},
+		{
+			"gen": "g4a.table_query",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,422 @@
+{
+	"id": "g4.art.pixel_art",
+	"lesson": [
+		{
+			"text": "Quick memory: what is low relief? (A carving that stands out only a little.) Today: pictures made of tiny squares: pixel art."
+		},
+		{
+			"text": "A screen picture is made of tiny squares of colour called pixels (short for picture elements). Look very closely at a screen and you may see them."
+		},
+		{
+			"text": "Pixel art is drawn on a grid, one square at a time, and each square gets one colour. Plan the shape first, then fill it in.",
+			"picture": {
+				"kind": "pixel_art",
+				"rows": [
+					"..rr..rr..",
+					".rrrrrrrr.",
+					".rrrrrrrr.",
+					"..rrrrrr..",
+					"...rrrr...",
+					"....rr...."
+				],
+				"key": {
+					"r": "red"
+				}
+			}
+		},
+		{
+			"text": "Resolution is how many pixels a picture has. A picture 8 pixels wide and 8 tall has 8 × 8 = 64 pixels. More pixels show more detail: compare this circle with the one below.",
+			"picture": {
+				"kind": "pixel_art",
+				"rows": [
+					".rr.",
+					"rrrr",
+					"rrrr",
+					".rr."
+				],
+				"key": {
+					"r": "red"
+				}
+			}
+		},
+		{
+			"text": "The same circle with twice as many pixels across and down: 4 times as many pixels, and a rounder edge. In this game's BLOCKY style, every face of a block is pixel art: 16 × 16 = 256 pixels.",
+			"picture": {
+				"kind": "pixel_art",
+				"rows": [
+					"..rrrr..",
+					".rrrrrr.",
+					"rrrrrrrr",
+					"rrrrrrrr",
+					"rrrrrrrr",
+					"rrrrrrrr",
+					".rrrrrr.",
+					"..rrrr.."
+				],
+				"key": {
+					"r": "red"
+				}
+			}
+		},
+		{
+			"text": "Screens don't mix paint: they mix light. Every pixel is made of tiny red, green and blue lights, and red and green light together make yellow!"
+		},
+		{
+			"text": "Pixel art is like older crafts: Roman mosaics made pictures from small tiles, and cross-stitch from stitches on a grid. The first video games used pixel art because computers had very little memory."
+		},
+		{
+			"text": "Try it in the world: build a pixel picture in your world, one block for each pixel. Build half of a heart or a face, then mirror it to finish it."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a pixel?",
+			"answer": 0,
+			"hint": "Think of the squares in the heart.",
+			"choices": [
+				"a tiny square of colour in a picture",
+				"a kind of paintbrush",
+				"a colour wheel",
+				"a sound"
+			],
+			"explain": "A pixel is one tiny square of colour: a picture element."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many pixels does this picture have, empty ones too?",
+			"answer": "25",
+			"hint": "Count the squares in one row, then the rows, and multiply.",
+			"explain": "5 pixels in a row and 5 rows: 5 × 5 = 25.",
+			"picture": {
+				"kind": "pixel_art",
+				"rows": [
+					".yyy.",
+					"ykyky",
+					"yyyyy",
+					"ykkky",
+					".yyy."
+				],
+				"key": {
+					"y": "yellow",
+					"k": "black"
+				}
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "More pixels can show more detail.",
+			"answer": true,
+			"hint": "Compare the two circles in the lesson.",
+			"explain": "True: the circle with more pixels has a rounder, smoother edge."
+		},
+		{
+			"type": "build",
+			"level": 1,
+			"prompt": "Finish the pixel heart: make both halves match, like a mirror.",
+			"board": {
+				"cols": 8,
+				"rows": 6,
+				"block": 12,
+				"given": [
+					[
+						1,
+						5
+					],
+					[
+						2,
+						5
+					],
+					[
+						0,
+						4
+					],
+					[
+						1,
+						4
+					],
+					[
+						2,
+						4
+					],
+					[
+						3,
+						4
+					],
+					[
+						0,
+						3
+					],
+					[
+						1,
+						3
+					],
+					[
+						2,
+						3
+					],
+					[
+						3,
+						3
+					],
+					[
+						1,
+						2
+					],
+					[
+						2,
+						2
+					],
+					[
+						3,
+						2
+					],
+					[
+						2,
+						1
+					],
+					[
+						3,
+						1
+					],
+					[
+						3,
+						0
+					]
+				],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "mirror",
+				"sum": 7
+			},
+			"hint": "Each block needs a twin the same distance from the middle line on the other side.",
+			"explain": "Every block on the left gets a twin on the right, the same distance from the middle."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A pixel picture is 10 pixels wide and 10 tall. How many pixels does it have?",
+			"answer": "100",
+			"hint": "Width times height.",
+			"explain": "10 × 10 = 100 pixels."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Red and green light together make which colour?",
+			"answer": 0,
+			"hint": "Light doesn't mix like paint. Remember the lesson card about screens.",
+			"choices": [
+				"yellow",
+				"brown",
+				"purple",
+				"blue"
+			],
+			"explain": "Red and green light make yellow. (Red and green paint would make a muddy brown!)"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which picture has the higher resolution?",
+			"answer": 0,
+			"hint": "Which one is made of more pixels?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "pixel_art",
+						"rows": [
+							"..rrrr..",
+							".rrrrrr.",
+							"rrrrrrrr",
+							"rrrrrrrr",
+							"rrrrrrrr",
+							"rrrrrrrr",
+							".rrrrrr.",
+							"..rrrr.."
+						],
+						"key": {
+							"r": "red"
+						}
+					}
+				},
+				{
+					"picture": {
+						"kind": "pixel_art",
+						"rows": [
+							".rr.",
+							"rrrr",
+							"rrrr",
+							".rr."
+						],
+						"key": {
+							"r": "red"
+						}
+					}
+				}
+			],
+			"explain": "The circle with 8 × 8 = 64 pixels has more than the one with 4 × 4 = 16: a higher resolution, and a rounder edge."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"pixel",
+				"resolution",
+				"grid",
+				"mosaic"
+			],
+			"matches": [
+				"how many pixels",
+				"rows and columns of squares",
+				"a picture made of tiles",
+				"one tiny square of colour"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Remember the lesson cards.",
+			"explain": "A pixel is one square, resolution is how many, a grid holds them, a mosaic is made of tiles."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Finish the pixel tree: make both halves match. The middle column is the mirror line.",
+			"board": {
+				"cols": 7,
+				"rows": 6,
+				"block": 14,
+				"given": [
+					[
+						3,
+						5
+					],
+					[
+						2,
+						4
+					],
+					[
+						3,
+						4
+					],
+					[
+						1,
+						3
+					],
+					[
+						2,
+						3
+					],
+					[
+						3,
+						3
+					],
+					[
+						0,
+						2
+					],
+					[
+						1,
+						2
+					],
+					[
+						2,
+						2
+					],
+					[
+						3,
+						2
+					],
+					[
+						3,
+						1
+					],
+					[
+						3,
+						0
+					]
+				],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "mirror",
+				"sum": 6
+			},
+			"hint": "Blocks in the middle column are their own twins. Every other block needs a twin on the other side.",
+			"explain": "Each block on the left gets a twin on the right, as far from the middle column."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A picture is 16 pixels wide and 16 tall. How many pixels does it have?",
+			"answer": "256",
+			"hint": "Width times height: 16 × 10, then 16 × 6.",
+			"explain": "16 × 16 = 256 pixels, like a block face in the BLOCKY style."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An artist makes a 12 × 10 pixel picture twice as wide and twice as tall. How many pixels does it have now?",
+			"answer": "480",
+			"hint": "Work out the new width and height first.",
+			"explain": "The new picture is 24 × 20: 24 × 20 = 480 pixels."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did the first video games use pixel art?",
+			"answer": 0,
+			"hint": "Every pixel had to be stored somewhere.",
+			"choices": [
+				"computers had very little memory",
+				"pixels were cheaper than paint",
+				"screens were round",
+				"nobody could draw"
+			],
+			"explain": "Computers had very little memory, so pictures had few pixels and each one was planned."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A screen makes its colours by mixing paint.",
+			"answer": false,
+			"hint": "What is a pixel made of?",
+			"explain": "False: screens mix light: tiny red, green and blue lights."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which colours of light make up every pixel on a screen?",
+			"answer": 0,
+			"hint": "They are not the paint primaries.",
+			"choices": [
+				"red, green and blue",
+				"red, yellow and blue",
+				"black and white",
+				"orange, green and purple"
+			],
+			"explain": "Screens mix red, green and blue light."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.pixel_count",
+			"level": 1
+		},
+		{
+			"gen": "g4a.pixel_count",
+			"level": 2
+		},
+		{
+			"gen": "g4a.pixel_count",
+			"level": 3
+		}
+	]
+}

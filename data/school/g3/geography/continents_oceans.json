@@ -1,0 +1,381 @@
+{
+	"id": "g3.geography.continents_oceans",
+	"lesson": [
+		{
+			"text": "Quick memory: in the grid reference 2547, which figures are the column? (25.) Now we zoom out from maps of a village to the whole world."
+		},
+		{
+			"text": "Water covers more than two thirds of Earth. The biggest areas of land are the 7 continents. The biggest areas of salt water are the 5 oceans.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"water",
+						7
+					],
+					[
+						"land",
+						3
+					]
+				],
+				"whole": 10,
+				"lines": true,
+				"key": true
+			}
+		},
+		{
+			"text": "The 7 continents are Africa, Antarctica, Asia, Australia, Europe, North America and South America. Asia is the biggest and Australia is the smallest.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"7 continents",
+						""
+					],
+					[
+						"Africa",
+						"Europe"
+					],
+					[
+						"Antarctica",
+						"North America"
+					],
+					[
+						"Asia",
+						"South America"
+					],
+					[
+						"Australia",
+						""
+					]
+				]
+			}
+		},
+		{
+			"text": "The 5 oceans, biggest first: Pacific, Atlantic, Indian, Southern and Arctic. The Pacific is so big that all the land on Earth would fit inside it!",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"ocean",
+						"size"
+					],
+					[
+						"Pacific",
+						"1st"
+					],
+					[
+						"Atlantic",
+						"2nd"
+					],
+					[
+						"Indian",
+						"3rd"
+					],
+					[
+						"Southern",
+						"4th"
+					],
+					[
+						"Arctic",
+						"5th"
+					]
+				]
+			}
+		},
+		{
+			"text": "Each continent has its wonders. Africa has the Sahara Desert, and Asia has Mount Everest. South America has the Amazon rainforest. Antarctica, the coldest, lies under a huge sheet of ice."
+		},
+		{
+			"text": "Continents are made of countries. France is in Europe. Egypt and Kenya are in Africa. China and India are in Asia. Brazil is in South America, and Canada is in North America."
+		},
+		{
+			"text": "Some people count them another way. They call Australia and the islands near it Oceania. Most schools learn 7 continents and 5 oceans."
+		},
+		{
+			"text": "Try it in the world: build a giant world map on a flat beach, with water for the oceans and a different block for each continent. Can you make the Pacific the biggest?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many continents are there?",
+			"answer": 0,
+			"hint": "Count them on the table in the lesson.",
+			"choices": [
+				"7",
+				"5",
+				"10",
+				"3"
+			],
+			"explain": "There are 7 continents: Africa, Antarctica, Asia, Australia, Europe, North America and South America."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the biggest ocean?",
+			"answer": 0,
+			"hint": "All the land on Earth would fit inside it.",
+			"choices": [
+				"the Pacific Ocean",
+				"the Arctic Ocean",
+				"the Indian Ocean",
+				"the Atlantic Ocean"
+			],
+			"explain": "The Pacific is the biggest ocean; the Arctic is the smallest."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Antarctica is a continent covered in thick ice.",
+			"answer": true,
+			"hint": "Think of the coldest place on Earth.",
+			"explain": "True: Antarctica is the coldest continent, covered by a huge sheet of ice."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a continent?",
+			"answer": 0,
+			"hint": "A continent is a huge area of land.",
+			"choices": [
+				"Africa",
+				"the Pacific",
+				"London",
+				"the River Nile"
+			],
+			"explain": "Africa is a continent. The Pacific is an ocean, London a city, and the Nile a river."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these oceans in order of size, biggest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Remember the oceans' table: the Arctic is the smallest.",
+			"items": [
+				"Arctic",
+				"Indian",
+				"Atlantic",
+				"Pacific"
+			],
+			"explain": "Pacific, Atlantic, Indian, then Arctic (the Southern Ocean comes between the Indian and the Arctic)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the biggest continent?",
+			"answer": 0,
+			"hint": "It has Mount Everest and more people than any other continent.",
+			"choices": [
+				"Asia",
+				"Europe",
+				"Australia",
+				"Antarctica"
+			],
+			"explain": "Asia is the biggest continent; Australia is the smallest."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "On which continent is the Sahara Desert?",
+			"answer": 0,
+			"hint": "Remember the continents' wonders.",
+			"choices": [
+				"Africa",
+				"Europe",
+				"Antarctica",
+				"North America"
+			],
+			"explain": "The Sahara Desert is in the north of Africa."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "More than two thirds of Earth's surface is covered by water.",
+			"answer": true,
+			"hint": "Think of the oceans: which is bigger, all the water or all the land?",
+			"explain": "True: about 7 out of every 10 parts of Earth's surface are water."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which ocean is around the North Pole?",
+			"answer": 0,
+			"hint": "The Southern Ocean is in the far south. What is in the far north?",
+			"choices": [
+				"the Arctic Ocean",
+				"the Southern Ocean",
+				"the Indian Ocean",
+				"the Pacific Ocean"
+			],
+			"explain": "The Arctic Ocean is around the North Pole; the Southern Ocean surrounds Antarctica."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which continent is Brazil in?",
+			"answer": 0,
+			"hint": "Remember the countries card.",
+			"choices": [
+				"South America",
+				"Africa",
+				"Europe",
+				"Asia"
+			],
+			"explain": "Brazil is in South America, where the Amazon rainforest is. The Atlantic Ocean lies along its east coast."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which ocean lies between Africa and Australia?",
+			"answer": 0,
+			"hint": "It is named after a country on its northern shore.",
+			"choices": [
+				"the Indian Ocean",
+				"the Arctic Ocean",
+				"the Atlantic Ocean",
+				"the Southern Ocean"
+			],
+			"explain": "The Indian Ocean lies between Africa and Australia, south of India."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which ocean lies between Europe and North America?",
+			"answer": 0,
+			"hint": "It is the second biggest ocean.",
+			"choices": [
+				"the Atlantic Ocean",
+				"the Indian Ocean",
+				"the Arctic Ocean",
+				"the Pacific Ocean"
+			],
+			"explain": "The Atlantic Ocean lies between Europe and Africa on one side and the Americas on the other."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The Pacific Ocean is bigger than all the land on Earth put together.",
+			"answer": true,
+			"hint": "Remember the oceans card.",
+			"explain": "True: all seven continents together would fit inside the Pacific Ocean."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which continent is the coldest, covered by a huge sheet of ice?",
+			"answer": 0,
+			"hint": "It is around the South Pole.",
+			"choices": [
+				"Antarctica",
+				"Europe",
+				"Asia",
+				"Africa"
+			],
+			"explain": "Antarctica is the coldest continent, around the South Pole. It lies under a huge sheet of ice, with the Southern Ocean all around it."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: continent or ocean?",
+			"groups": [
+				"continent",
+				"ocean"
+			],
+			"items": [
+				"Africa",
+				"Pacific",
+				"Asia",
+				"Atlantic",
+				"Europe",
+				"Arctic"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Continents are huge areas of land; oceans are huge areas of salt water.",
+			"explain": "Continents: Africa, Asia, Europe. Oceans: Pacific, Atlantic, Arctic."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each continent to one of its wonders.",
+			"items": [
+				"Africa",
+				"Asia",
+				"South America",
+				"Antarctica"
+			],
+			"matches": [
+				"the Amazon rainforest",
+				"a huge sheet of ice",
+				"Mount Everest",
+				"the Sahara Desert"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "Remember the lesson card about each continent's wonders.",
+			"explain": "The Sahara is in Africa, Everest in Asia, the Amazon in South America, and the ice sheet covers Antarctica."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Water covers about 7 of every 10 parts of Earth's surface. How many parts are land?",
+			"answer": "3",
+			"hint": "The water and the land make 10 parts together.",
+			"explain": "10 − 7 = 3 parts are land."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each country to its continent.",
+			"items": [
+				"France",
+				"Egypt",
+				"China",
+				"Brazil",
+				"Canada"
+			],
+			"matches": [
+				"South America",
+				"Asia",
+				"North America",
+				"Europe",
+				"Africa"
+			],
+			"answer": [
+				3,
+				4,
+				1,
+				0,
+				2
+			],
+			"hint": "Continents are made of countries. Think of the wonders on each one.",
+			"explain": "France is in Europe, Egypt in Africa, China in Asia, Brazil in South America and Canada in North America."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Split Earth's surface into 10 parts: 7 are water and 3 are land. The Pacific alone covers 3 parts. How many parts do all the other oceans cover?",
+			"answer": "4",
+			"hint": "Start with all the water parts, then take away the Pacific's.",
+			"explain": "Water is 7 parts. The Pacific takes 3 of them, so 7 − 3 = 4 parts for all the other oceans. The Pacific alone is as big as all the land put together!"
+		}
+	],
+	"generators": []
+}

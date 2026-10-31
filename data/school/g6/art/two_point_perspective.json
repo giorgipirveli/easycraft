@@ -1,0 +1,423 @@
+{
+	"id": "g6.art.two_point_perspective",
+	"lesson": [
+		{
+			"text": "Quick memory: in one-point perspective, where do the lines going away from you meet? (At the vanishing point, on the horizon.) Today: two vanishing points."
+		},
+		{
+			"text": "Look at a building from its corner, not face on. Now both its sides go away from you, each to its own vanishing point. That is two-point perspective.",
+			"picture": {
+				"kind": "two_point",
+				"eye": "level",
+				"lines": true,
+				"labels": true
+			}
+		},
+		{
+			"text": "Draw the horizon at your eye level and put a vanishing point near each end. Then draw the nearest corner, the leading edge, as an upright line."
+		},
+		{
+			"text": "From the top and the bottom of the leading edge, draw lines to both vanishing points. Upright lines stay upright: they never go to a vanishing point.",
+			"picture": {
+				"kind": "two_point",
+				"eye": "below",
+				"lines": true,
+				"labels": true,
+				"mark": "near edge"
+			}
+		},
+		{
+			"text": "Choose where each side ends with two more upright lines. Then rub out the parts of the guide lines you do not need."
+		},
+		{
+			"text": "A box below the horizon shows its top, as if you look down on it; above the horizon you see its underside, like a tall building. Across the horizon you see neither.",
+			"picture": {
+				"kind": "two_point",
+				"eye": "above",
+				"lines": true,
+				"labels": true
+			}
+		},
+		{
+			"text": "Worked example: a house. Draw the corner, send its top and bottom to both points, add the far edges, then a roof. Windows and doors shrink towards their wall's vanishing point too."
+		},
+		{
+			"text": "Try it in the world: stand at the corner of a building in your world. See how the lines of its roof and base slope away to the left and to the right. Next: expression and emotion."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the marked point?",
+			"answer": 0,
+			"hint": "It sits on the horizon, and lines run to it.",
+			"choices": [
+				"a vanishing point",
+				"the leading edge",
+				"the horizon",
+				"the top of the box"
+			],
+			"explain": "It is a vanishing point: the box's right side goes back to it.",
+			"picture": {
+				"kind": "two_point",
+				"eye": "level",
+				"lines": true,
+				"mark": "right vp"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In two-point perspective, upright lines stay upright.",
+			"answer": true,
+			"hint": "Look at the box's corners.",
+			"explain": "True: only lines going back run to the vanishing points."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many vanishing points does two-point perspective have?",
+			"answer": 0,
+			"hint": "Read the name.",
+			"choices": [
+				"2",
+				"1",
+				"3",
+				"4"
+			],
+			"explain": "Two: one for each side of the box."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the marked line called?",
+			"answer": 0,
+			"hint": "It is the nearest corner, drawn first.",
+			"choices": [
+				"the leading edge",
+				"the horizon",
+				"a vanishing point",
+				"the back wall"
+			],
+			"explain": "It is the leading edge: the nearest corner, drawn as an upright line.",
+			"picture": {
+				"kind": "two_point",
+				"eye": "level",
+				"lines": true,
+				"mark": "near edge"
+			}
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the drawing (VP means vanishing point): tap a word, then its number.",
+			"hint": "The VPs are the dots at the ends of the horizon; the near edge is the box's front corner.",
+			"explain": "The dots at each end of the eye-level line are the left and right VPs, the line is the horizon, and the front corner is the near (leading) edge.",
+			"picture": {
+				"kind": "two_point",
+				"eye": "level",
+				"lines": true
+			},
+			"spots": [
+				[
+					0.0577,
+					0.5,
+					0.0553,
+					0.5
+				],
+				[
+					0.9423,
+					0.5,
+					0.9447,
+					0.5
+				],
+				[
+					0.0577,
+					0.74,
+					0.1499,
+					0.5
+				],
+				[
+					0.4622,
+					0.888,
+					0.4622,
+					0.5
+				]
+			],
+			"labels": [
+				"right vp",
+				"horizon",
+				"near edge",
+				"left vp"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where is this box, compared with the horizon?",
+			"answer": 0,
+			"hint": "Can you see the top of the box?",
+			"choices": [
+				"below it: we see its top",
+				"above it: we see its underside",
+				"across it",
+				"on a vanishing point"
+			],
+			"explain": "It is below the horizon, so we look down and see its top.",
+			"picture": {
+				"kind": "two_point",
+				"eye": "above",
+				"lines": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why can you see the underside of this box?",
+			"answer": 0,
+			"hint": "Where is the horizon: above or below the box?",
+			"choices": [
+				"it is above the horizon",
+				"it is below the horizon",
+				"it is upside down",
+				"it has no top"
+			],
+			"explain": "It is above the horizon, so we look up at it and see its underside.",
+			"picture": {
+				"kind": "two_point",
+				"eye": "below",
+				"lines": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The horizon is always drawn at the top of the page.",
+			"answer": false,
+			"hint": "Where is the horizon?",
+			"explain": "False: it is at your eye level, wherever that is in the picture."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of drawing a box in two-point perspective in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need the horizon before the points, and the corner before the lines.",
+			"items": [
+				"put a vanishing point near each end",
+				"draw lines to both points",
+				"draw the horizon",
+				"draw the leading edge",
+				"add the far edges and rub out"
+			],
+			"explain": "Horizon, two points, the leading edge, lines to both points, then the far edges."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which view needs two-point perspective?",
+			"answer": 0,
+			"hint": "How many sides go away from you?",
+			"choices": [
+				"a building seen from its corner",
+				"a road going straight away",
+				"a flat wall seen face on",
+				"a map seen from above"
+			],
+			"explain": "From a corner, two sides go away, so you need two points."
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label this drawing (VP means vanishing point).",
+			"hint": "The VPs sit on the horizon, high up here; the near edge is the front corner.",
+			"explain": "The dots on the high horizon are the left and right VPs; the box's front corner is the near edge.",
+			"picture": {
+				"kind": "two_point",
+				"eye": "above",
+				"lines": true
+			},
+			"spots": [
+				[
+					0.0577,
+					0.1981,
+					0.0553,
+					0.1981
+				],
+				[
+					0.9423,
+					0.1981,
+					0.9447,
+					0.1981
+				],
+				[
+					0.4622,
+					0.888,
+					0.4622,
+					0.571
+				]
+			],
+			"labels": [
+				"right vp",
+				"near edge",
+				"left vp"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			]
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Windows along a wall in two-point perspective get smaller towards that wall's vanishing point.",
+			"answer": true,
+			"hint": "Things further away look smaller.",
+			"explain": "True: they are further away, so they shrink towards the point."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara draws a tall tower as she sees it from the ground. Where should her horizon go?",
+			"answer": 0,
+			"hint": "The horizon is at eye level. Where are her eyes?",
+			"choices": [
+				"low, near the tower's base",
+				"high above the tower",
+				"at the tower's top",
+				"off the page"
+			],
+			"explain": "Her eyes are near the ground, so the horizon is low and she looks up at the tower."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What happens to lines that go straight up in two-point perspective?",
+			"answer": 0,
+			"hint": "Look at the box's three corners.",
+			"choices": [
+				"they stay upright",
+				"they go to the left point",
+				"they go to the right point",
+				"they bend"
+			],
+			"explain": "They stay upright; only lines going back meet at the points."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What are the dashed grey lines?",
+			"answer": 0,
+			"hint": "Follow them to where they end.",
+			"choices": [
+				"guide lines to the vanishing points",
+				"shadows",
+				"the horizon",
+				"the box's front edges"
+			],
+			"explain": "They are guide lines from the box's corners to the vanishing points.",
+			"picture": {
+				"kind": "two_point",
+				"eye": "level",
+				"lines": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If the two vanishing points are very close together, the box looks stretched and odd.",
+			"answer": true,
+			"hint": "Try it on paper.",
+			"explain": "True: points far apart give a natural look; close points bend it out of shape."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"horizon",
+				"vanishing point",
+				"leading edge"
+			],
+			"matches": [
+				"where lines going away meet",
+				"the nearest upright corner",
+				"a line at your eye level"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "The leading edge is the corner nearest to you.",
+			"explain": "The horizon is at your eye level, lines going away meet at a vanishing point, and the leading edge is the nearest upright corner."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "A house in two-point perspective: sort its lines. Upright, or to a vanishing point?",
+			"groups": [
+				"stays upright",
+				"to a vanishing point"
+			],
+			"items": [
+				"the leading edge",
+				"the top of the left wall",
+				"the side of a door",
+				"the bottom of the right wall",
+				"the far corners",
+				"the top of a window"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Upright lines stay upright. Lines along a wall go back to that wall's point.",
+			"explain": "Upright: the leading edge, a door's sides and the far corners. To a vanishing point: the tops and bottoms of the walls, and the top of a window, which all run back along a wall."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each choice in a two-point drawing to its effect.",
+			"items": [
+				"the horizon is low",
+				"the points are far apart",
+				"the points are close together",
+				"the horizon is high"
+			],
+			"matches": [
+				"you look up at a tall tower",
+				"the box looks stretched",
+				"you look down on the town",
+				"the box looks natural"
+			],
+			"answer": [
+				0,
+				3,
+				1,
+				2
+			],
+			"hint": "The horizon is your eye level. Where are your eyes? How far apart should the points be?",
+			"explain": "A low horizon puts your eyes near the ground, so you look up. A high horizon means you look down. Points far apart look natural; points close together stretch the box out of shape."
+		}
+	],
+	"generators": []
+}

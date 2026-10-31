@@ -1,0 +1,479 @@
+{
+	"id": "g6.science.skeleton_muscles",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3, what three jobs does your skeleton do? (It supports you, protects soft parts and lets you move.) Today: the bones, joints and muscles that move you, and how they work together."
+		},
+		{
+			"text": "An adult's skeleton has 206 bones. It does four jobs: support (it holds you up and gives you shape), protection and movement (muscles pull on bones). And it makes blood cells, in the soft marrow inside big bones.",
+			"picture": {
+				"kind": "skeleton",
+				"labels": true
+			}
+		},
+		{
+			"text": "Protection: your skull guards your brain, and your ribs guard your heart and lungs. The bones of your spine (backbone) guard the spinal cord: the bundle of nerves that carries messages to and from your brain.",
+			"picture": {
+				"kind": "skeleton",
+				"labels": true,
+				"mark": "ribs"
+			}
+		},
+		{
+			"text": "Bones are alive: they grow, and they mend when they break. Calcium makes them hard: milk, yoghurt and green leaves give you calcium, sunlight helps your skin make vitamin D, and exercise makes bones stronger."
+		},
+		{
+			"text": "A joint is where bones meet. Ligaments hold them together and smooth cartilage cushions their ends. Elbows and knees are hinge joints (one way); shoulders and hips are ball and socket joints (every way).",
+			"picture": {
+				"kind": "joint",
+				"type": "hinge",
+				"labels": true
+			}
+		},
+		{
+			"text": "A muscle can only pull: it contracts (gets shorter and fatter) and pulls a bone by a tendon, a tough cord. So muscles work in pairs: to bend your arm, the biceps contracts and the triceps relaxes; to straighten it, the triceps contracts.",
+			"picture": {
+				"kind": "muscle_pair",
+				"move": "bend",
+				"states": true
+			}
+		},
+		{
+			"text": "Your legs have pairs too: the hamstrings at the back of the thigh bend your knee, and the quadriceps at the front straighten it. A pivot joint at the top of your neck turns your head; skull joints are fixed.",
+			"picture": {
+				"kind": "muscle_pair",
+				"move": "straighten",
+				"states": true
+			}
+		},
+		{
+			"text": "Try it in the world: rest one hand on your upper arm and slowly bend and straighten your elbow. Feel the biceps bulge as it contracts, then the triceps at the back. Next: nutrition and digestion, the food your bones and muscles need."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many bones are in an adult's skeleton?",
+			"choices": [
+				"206",
+				"26",
+				"100",
+				"2,060"
+			],
+			"answer": 0,
+			"hint": "It is a little over 200.",
+			"explain": "An adult has 206 bones; a baby has more, and some join together as it grows."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which bone protects your brain?",
+			"choices": [
+				"the skull",
+				"the ribs",
+				"the femur",
+				"the pelvis"
+			],
+			"answer": 0,
+			"hint": "Which bone is round your head?",
+			"explain": "The skull is a hard case round the brain."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Muscles can push as well as pull.",
+			"answer": false,
+			"hint": "What does a muscle do when it contracts?",
+			"explain": "False: muscles only pull, so they work in pairs to move a bone both ways."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The arm is bending. Which muscle is contracting?",
+			"choices": [
+				"the biceps",
+				"the triceps",
+				"the tendon",
+				"the humerus"
+			],
+			"answer": 0,
+			"hint": "The contracting muscle is short and fat, pulling the forearm up.",
+			"explain": "The biceps, on the front of the upper arm, contracts; the triceps relaxes.",
+			"picture": {
+				"kind": "muscle_pair",
+				"move": "bend"
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each job of the skeleton to what it means.",
+			"items": [
+				"support",
+				"protection",
+				"movement",
+				"blood cells"
+			],
+			"matches": [
+				"guards your organs",
+				"muscles pull on bones",
+				"made in the marrow",
+				"holds you up"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Say what each job means for your body.",
+			"explain": "Support: holds you up. Protection: guards your organs. Movement: muscles pull on bones. Blood cells: made in the marrow."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Your ribs come in 12 pairs. How many ribs is that?",
+			"answer": "24",
+			"hint": "A pair is 2.",
+			"explain": "12 × 2 = 24 ribs."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the skeleton: tap a word, then its number.",
+			"picture": {
+				"kind": "skeleton"
+			},
+			"spots": [
+				[
+					0.3,
+					0.1,
+					0.4791,
+					0.1169
+				],
+				[
+					0.15,
+					0.32,
+					0.4364,
+					0.3172
+				],
+				[
+					0.15,
+					0.72,
+					0.4749,
+					0.6828
+				],
+				[
+					0.72,
+					0.28,
+					0.5402,
+					0.2998
+				],
+				[
+					0.72,
+					0.58,
+					0.5377,
+					0.5609
+				]
+			],
+			"labels": [
+				"humerus",
+				"femur",
+				"ribs",
+				"pelvis",
+				"skull"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				4,
+				0
+			],
+			"hint": "The skull is at the top, the ribs round the chest; the humerus is in the upper arm and the femur in the thigh.",
+			"explain": "Skull: the head. Ribs: round the chest. Humerus: the upper arm. Pelvis: the hips. Femur: the thigh."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the arm: tap a word, then its number.",
+			"picture": {
+				"kind": "muscle_pair",
+				"move": "bend"
+			},
+			"spots": [
+				[
+					0.3,
+					0.15,
+					0.3607,
+					0.5684
+				],
+				[
+					0.78,
+					0.3,
+					0.522,
+					0.5671
+				],
+				[
+					0.86,
+					0.78,
+					0.587,
+					0.6616
+				],
+				[
+					0.5,
+					0.93,
+					0.3653,
+					0.7548
+				]
+			],
+			"labels": [
+				"tendon",
+				"elbow joint",
+				"triceps",
+				"biceps"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "The biceps is on top, the triceps underneath; the tendon joins muscle to bone; the joint is where bones meet.",
+			"explain": "Biceps: the top muscle (contracting here). Triceps: underneath. Tendon: the cord from the biceps to the forearm. Elbow joint: where the bones meet."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "This joint is in your shoulder. What kind of joint is it?",
+			"choices": [
+				"ball and socket joint",
+				"hinge joint",
+				"pivot joint",
+				"fixed joint"
+			],
+			"answer": 0,
+			"hint": "A round end sits in a cup. How many ways can it turn?",
+			"explain": "A ball and socket joint, like the shoulder and hip, turns every way.",
+			"picture": {
+				"kind": "joint",
+				"type": "ball_socket",
+				"name": false
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the joints: hinge, or ball and socket?",
+			"groups": [
+				"hinge",
+				"ball and socket"
+			],
+			"items": [
+				"elbow",
+				"shoulder",
+				"knee",
+				"hip",
+				"finger joints"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Hinges move one way, like a door; ball and socket joints turn every way.",
+			"explain": "Hinge: elbow, knee, finger joints. Ball and socket: shoulder, hip."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Ligaments join bone to bone at a joint.",
+			"answer": true,
+			"hint": "Tendons join muscle to bone. What holds two bones together?",
+			"explain": "True: ligaments are tough bands between bones; tendons join muscles to bones."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "To straighten your leg, which muscle contracts?",
+			"choices": [
+				"the quadriceps",
+				"the hamstrings",
+				"the biceps",
+				"the triceps"
+			],
+			"answer": 0,
+			"hint": "The muscle at the front of the thigh pulls the lower leg forward.",
+			"explain": "The quadriceps contracts to straighten the knee, and the hamstrings relax."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are muscles found in pairs?",
+			"choices": [
+				"each can only pull, one way each",
+				"one is spare in case one breaks",
+				"they push against each other",
+				"they make blood cells"
+			],
+			"answer": 0,
+			"hint": "Think about what a muscle can and cannot do.",
+			"explain": "A muscle can only pull. One pulls a bone one way and its partner pulls it back."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps in order to lift a cup to your mouth.",
+			"items": [
+				"Nerves carry it to the biceps",
+				"The tendon pulls the forearm up",
+				"Your brain sends a message",
+				"The biceps contracts",
+				"The cup rises to your mouth"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start with the brain and end with the cup.",
+			"explain": "The brain sends a message along nerves; the biceps contracts; its tendon pulls the forearm; the cup rises."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A new baby has around 300 bones and an adult 206. Why?",
+			"choices": [
+				"some bones join together as we grow",
+				"adults lose bones",
+				"bones melt away",
+				"babies have extra toes"
+			],
+			"answer": 0,
+			"hint": "Think about the soft parts of a baby's skull.",
+			"explain": "Some of a baby's bones, such as the plates of the skull, join together as it grows, so an adult has fewer."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Red blood cells are made in the marrow inside some bones.",
+			"answer": true,
+			"hint": "What does the soft inside of a big bone do?",
+			"explain": "True: bone marrow makes red and white blood cells."
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label the arm as it straightens: tap a word, then its number.",
+			"picture": {
+				"kind": "muscle_pair",
+				"move": "straighten"
+			},
+			"spots": [
+				[
+					0.3,
+					0.1,
+					0.3562,
+					0.3701
+				],
+				[
+					0.8,
+					0.12,
+					0.5844,
+					0.4069
+				],
+				[
+					0.85,
+					0.75,
+					0.587,
+					0.4633
+				],
+				[
+					0.45,
+					0.9,
+					0.3607,
+					0.5565
+				],
+				[
+					0.1,
+					0.72,
+					0.2249,
+					0.4633
+				]
+			],
+			"labels": [
+				"tendon",
+				"elbow joint",
+				"triceps",
+				"humerus",
+				"biceps"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				4,
+				0
+			],
+			"hint": "The fat muscle underneath is contracting; the bone runs from the shoulder to the elbow.",
+			"explain": "Biceps on top (relaxing), triceps underneath (contracting), the tendon to the forearm, the humerus in the upper arm, and the elbow joint where the bones meet."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which helps keep your bones strong?",
+			"choices": [
+				"calcium, vitamin D and exercise",
+				"sitting still all day",
+				"staying indoors all the time",
+				"going without sleep"
+			],
+			"answer": 0,
+			"hint": "What do bones need to be hard, and what makes them stronger?",
+			"explain": "Calcium makes bones hard, vitamin D (made in sunlight) helps you take it in, and exercise makes bones stronger."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6k.bone_job",
+			"level": 1
+		},
+		{
+			"gen": "g6k.bone_job",
+			"level": 2
+		},
+		{
+			"gen": "g6k.bone_job",
+			"level": 3
+		},
+		{
+			"gen": "g6k.muscle_work",
+			"level": 1
+		},
+		{
+			"gen": "g6k.muscle_work",
+			"level": 2
+		},
+		{
+			"gen": "g6k.muscle_work",
+			"level": 3
+		},
+		{
+			"gen": "g6k.joint_type",
+			"level": 1
+		},
+		{
+			"gen": "g6k.joint_type",
+			"level": 2
+		},
+		{
+			"gen": "g6k.joint_type",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,483 @@
+{
+	"id": "g4.music.compose_melody",
+	"lesson": [
+		{
+			"text": "Quick memory: which notes are in the spaces of the treble stave? (F, A, C, E.) Today: making your own melody."
+		},
+		{
+			"text": "A melody is a tune: notes one after another. You can make one from just five notes, C, D, E, G and A. These five make the pentatonic scale (penta means five).",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"A4"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"A4:2"
+				]
+			}
+		},
+		{
+			"text": "The pentatonic scale leaves out F and B, so any of its notes sound good together. The black keys of a piano make a pentatonic scale too."
+		},
+		{
+			"text": "A step moves to the next letter name: C to D. A leap jumps over at least one letter: E to G, or C to A. Good melodies use lots of steps and a few leaps.",
+			"picture": {
+				"kind": "melody",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"C4",
+					"A4"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"-",
+					"C4",
+					"A4:2"
+				]
+			}
+		},
+		{
+			"text": "Start and finish on C, the home note, and a melody sounds finished. Finish on another note, and it sounds like a question. Listen: a question that ends on D, then an answer that ends on C.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"E4",
+					"D4:2",
+					"-",
+					"E4",
+					"G4",
+					"E4",
+					"D4",
+					"C4:2"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"text": "Repeat a short idea, called a motif, and change it a little. A question phrase, then an answer phrase that comes home to C, makes a melody feel complete."
+		},
+		{
+			"text": "Worked example: C, D, E climb in steps, and a small leap reaches G, then a step up to A. It comes back down: G, a leap to E, then D and C: home.",
+			"picture": {
+				"kind": "melody",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"A4",
+					"G4",
+					"E4",
+					"D4",
+					"C4"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4:2",
+					"A4",
+					"G4",
+					"E4",
+					"D4",
+					"C4:2"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"text": "Try it in the world: build 5 blocks in a row in your world and call them C, D, E, G and A. Hop along them to make up a tune, sing it, and end on C. Next: layers and ostinato."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these notes is not in the pentatonic scale C, D, E, G, A?",
+			"answer": 0,
+			"hint": "Check each letter against the five.",
+			"choices": [
+				"F",
+				"C",
+				"E",
+				"A"
+			],
+			"explain": "F is left out of this pentatonic scale (and so is B)."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many notes are in a pentatonic scale?",
+			"answer": "5",
+			"hint": "What does penta mean?",
+			"explain": "Penta means five: 5 notes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is it a step or a leap?",
+			"answer": 0,
+			"hint": "Say the letter names: C, D, E, F, G, A, B. Does the tune go to the next letter, or jump over some?",
+			"choices": [
+				"a step",
+				"a leap"
+			],
+			"explain": "C to D: the next letter, a step.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"-",
+					"D4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is it a step or a leap?",
+			"answer": 0,
+			"hint": "Say the letter names: C, D, E, F, G, A, B. Does the tune go to the next letter, or jump over some?",
+			"choices": [
+				"a leap",
+				"a step"
+			],
+			"explain": "C to A: it jumps over D, E, F and G, a leap.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"-",
+					"A4:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A step moves to the next letter name, like C to D.",
+			"answer": true,
+			"hint": "Remember the lesson card.",
+			"explain": "True: C to D is a step; C to E would be a leap."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: E, then G. Is it a step or a leap?",
+			"answer": 0,
+			"hint": "Say the letter names: C, D, E, F, G, A, B. Does the tune go to the next letter, or jump over some?",
+			"choices": [
+				"a leap",
+				"a step"
+			],
+			"explain": "E to G jumps over F: a small leap.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4:2",
+					"-",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which note makes a pentatonic tune in C sound finished?",
+			"answer": 0,
+			"hint": "Where does a melody feel at home?",
+			"choices": [
+				"the home note, C",
+				"D",
+				"E",
+				"A"
+			],
+			"explain": "Ending on C, the home note, sounds finished."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which picture shows the tune?",
+			"answer": 0,
+			"hint": "Does it go up or down first? By steps, or by leaps?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"C4",
+							"D4",
+							"E4",
+							"D4",
+							"C4"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"C4",
+							"D4",
+							"E4",
+							"G4",
+							"A4"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"E4",
+							"D4",
+							"C4",
+							"D4",
+							"E4"
+						]
+					}
+				}
+			],
+			"explain": "It goes up by steps, C, D, E, then back down, D, C.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"D4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: a step or a leap?",
+			"groups": [
+				"step",
+				"leap"
+			],
+			"items": [
+				"C to D",
+				"D to E",
+				"G to A",
+				"E to G",
+				"C to A",
+				"D to G"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Next letter: a step. Jumping over a letter: a leap.",
+			"explain": "Steps: C to D, D to E, G to A. Leaps: E to G, C to A, D to G."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the pentatonic notes in order, lowest first.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Say the alphabet of music from C, and skip the two notes that are left out.",
+			"items": [
+				"D4",
+				"G4",
+				"C4",
+				"E4",
+				"A4"
+			],
+			"explain": "C, D, E, G, A."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Does this tune sound finished, or like a question?",
+			"answer": 0,
+			"hint": "Which note does it end on? Is it the home note?",
+			"choices": [
+				"like a question",
+				"finished"
+			],
+			"explain": "It ends on D, not the home note C, so it sounds like a question waiting for an answer.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"E4",
+					"D4:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen and look. How many leaps are in this tune?",
+			"answer": "3",
+			"hint": "Say the letter names: C, D, E, F, G, A, B. Does the tune go to the next letter, or jump over some?",
+			"explain": "C to E a leap, E to G a leap, G to A a step, A to C a leap: 3 leaps.",
+			"picture": {
+				"kind": "melody",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"A4",
+					"C5"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"A4",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen and look. How many leaps are in this tune?",
+			"answer": "0",
+			"hint": "Say the letter names: C, D, E, F, G, A, B. Does the tune go to the next letter, or jump over some?",
+			"explain": "C, D, E, D, C: every move is to the next letter, so 0 leaps.",
+			"picture": {
+				"kind": "melody",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"D4",
+					"C4"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"D4",
+					"C4:2"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do any notes of the pentatonic scale sound good together?",
+			"answer": 0,
+			"hint": "Which notes of the full scale are missing?",
+			"choices": [
+				"it leaves out F and B",
+				"all its notes are the same",
+				"it is always loud",
+				"it is only for pianos"
+			],
+			"explain": "It leaves out F and B, the notes that sit closest to their neighbours E and C and clash with them."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The black keys of a piano make a pentatonic scale.",
+			"answer": true,
+			"hint": "How many black keys are in each group?",
+			"explain": "True: there are 5 black keys in each octave (a group of 2 and a group of 3), and they make a pentatonic scale."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara's tune goes C, D, E, G, A, G, E, and then? Which last note brings it home?",
+			"answer": 0,
+			"hint": "Which note sounds finished?",
+			"choices": [
+				"C",
+				"A",
+				"G",
+				"D"
+			],
+			"explain": "Ending on C, the home note, makes it sound finished."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"motif",
+				"pentatonic",
+				"leap",
+				"home note"
+			],
+			"matches": [
+				"a scale of five notes",
+				"a jump over letters",
+				"where a tune ends",
+				"a short idea you repeat"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Remember the lesson cards.",
+			"explain": "A motif repeats, pentatonic has five notes, a leap jumps, and the home note ends it."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.step_or_leap",
+			"level": 1
+		},
+		{
+			"gen": "g4a.step_or_leap",
+			"level": 2
+		},
+		{
+			"gen": "g4a.step_or_leap",
+			"level": 3
+		}
+	]
+}

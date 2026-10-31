@@ -1,0 +1,330 @@
+{
+	"id": "g4.design_tech.balanced_meal",
+	"lesson": [
+		{
+			"text": "Quick memory: what are the four main food groups? (Fruit and vegetables, starchy foods, protein and dairy.) Today: planning a meal with every one of them."
+		},
+		{
+			"text": "A balanced meal has food from each group: fruit and vegetables for vitamins, starchy foods for energy, protein for growing and repair, and dairy for strong bones and teeth.",
+			"picture": {
+				"kind": "plate",
+				"water": false
+			}
+		},
+		{
+			"text": "Plan it like the plate: about a third fruit and vegetables, and about a third starchy foods. Then add some protein, some dairy and just a little oil. Add a drink of water or milk.",
+			"picture": {
+				"kind": "plate"
+			}
+		},
+		{
+			"text": "Meals around the world balance in their own ways: rice, dhal and vegetables with yoghurt; fish, potatoes and peas; noodles, tofu and vegetables; jollof rice with chicken and salad.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"meal",
+						"its starchy food"
+					],
+					[
+						"rice and dhal",
+						"rice"
+					],
+					[
+						"fish and peas",
+						"potatoes"
+					],
+					[
+						"noodles and tofu",
+						"noodles"
+					],
+					[
+						"jollof and chicken",
+						"rice"
+					]
+				]
+			}
+		},
+		{
+			"text": "Plan for the people eating: ask if anyone has an allergy, or does not eat some foods, like meat. Swap within the same group: beans or tofu instead of chicken, rice instead of pasta."
+		},
+		{
+			"text": "Keep food safe with the 4 Cs. Cleaning: hands and surfaces. Cooking: until steaming hot all the way through. Chilling: a fridge at 5 °C or below. Cross-contamination: keep raw meat apart."
+		},
+		{
+			"text": "A planned meal wastes less: write a shopping list, buy fruit and vegetables that are in season, and use leftovers the next day."
+		},
+		{
+			"text": "Try it in the world: build a restaurant with a menu board of balanced meals, each with food from every group. For real: plan a meal with a grown-up, and help to make it."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which food group is hidden on this plate?",
+			"answer": 0,
+			"hint": "Read the key: which group's name is missing?",
+			"choices": [
+				"protein",
+				"dairy",
+				"starchy foods",
+				"fruit and vegetables"
+			],
+			"explain": "Protein is hidden: beans, fish, eggs and meat.",
+			"picture": {
+				"kind": "plate",
+				"hide": "protein"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A balanced meal has food from each of the food groups.",
+			"answer": true,
+			"hint": "What does balanced mean?",
+			"explain": "True: a balanced meal has something from every group."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which food group gives us most of our energy?",
+			"answer": 0,
+			"hint": "Think of bread, rice and pasta.",
+			"choices": [
+				"starchy foods",
+				"dairy",
+				"oils",
+				"drinks"
+			],
+			"explain": "Starchy foods, like bread, rice, potatoes and pasta, give us energy."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which drink goes best with a balanced meal?",
+			"answer": 0,
+			"hint": "What did the lesson add to the plate?",
+			"choices": [
+				"water or milk",
+				"a can of fizzy drink",
+				"a milkshake with syrup",
+				"a slushy"
+			],
+			"explain": "Water or milk: no added sugar, and milk is dairy too."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Tilly's lunch: rice, chicken and a glass of milk. Which food group is missing?",
+			"answer": 0,
+			"hint": "Put each food in its group, then find the empty group.",
+			"choices": [
+				"fruit and vegetables",
+				"starchy foods",
+				"protein",
+				"dairy"
+			],
+			"explain": "Rice is starchy, chicken is protein and milk is dairy: fruit and vegetables are missing."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Which food group?",
+			"groups": [
+				"starchy foods",
+				"protein",
+				"dairy"
+			],
+			"items": [
+				"noodles",
+				"tofu",
+				"yoghurt",
+				"a baked potato",
+				"eggs",
+				"cheese"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "A potato is a starchy food, not a vegetable, on the plate.",
+			"explain": "Starchy: noodles, a baked potato. Protein: tofu, eggs. Dairy: yoghurt, cheese."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each food group to its job.",
+			"items": [
+				"fruit and vegetables",
+				"starchy foods",
+				"protein",
+				"dairy"
+			],
+			"matches": [
+				"energy",
+				"growing and repair",
+				"strong bones and teeth",
+				"vitamins"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Look back at the second card.",
+			"explain": "Fruit and vegetables: vitamins. Starchy foods: energy. Protein: growing and repair. Dairy: bones and teeth."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A fridge should be at 5 °C or below.",
+			"answer": true,
+			"hint": "Which C is about the fridge?",
+			"explain": "True: chilling food at 5 °C or below slows germs down."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bram does not eat meat. What could he have instead of chicken?",
+			"answer": 0,
+			"hint": "Swap within the same food group.",
+			"choices": [
+				"beans or tofu",
+				"more rice",
+				"a biscuit",
+				"nothing"
+			],
+			"explain": "Beans or tofu: they are protein, like chicken."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What are the 4 Cs of food safety?",
+			"answer": 0,
+			"hint": "They are all about keeping germs away.",
+			"choices": [
+				"cleaning, cooking, chilling, cross-contamination",
+				"cutting, cooking, cooling, carrying",
+				"cups, cans, cartons, cling film",
+				"carrots, cabbage, cress, corn"
+			],
+			"explain": "Cleaning, cooking, chilling and cross-contamination."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why keep raw meat away from salad?",
+			"answer": 0,
+			"hint": "Which C is this?",
+			"choices": [
+				"its germs could spread to food eaten raw",
+				"the salad would get cold",
+				"meat would taste of salad",
+				"there is no reason"
+			],
+			"explain": "Cross-contamination: germs from raw meat could spread to salad, which is not cooked to kill them."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Balanced, or missing a group?",
+			"groups": [
+				"balanced",
+				"missing a group"
+			],
+			"items": [
+				"fish, potatoes, peas and milk",
+				"rice and chicken",
+				"noodles, tofu, vegetables, yoghurt",
+				"toast and jam",
+				"jollof rice, chicken, salad and milk",
+				"an apple and a banana"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Check each meal for all four groups.",
+			"explain": "Balanced: fish, potatoes, peas and milk; noodles, tofu, vegetables and yoghurt; jollof rice, chicken, salad and milk."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A recipe for 4 people uses 300 g of rice. How many grams of rice for 8 people?",
+			"answer": "600",
+			"hint": "8 people is twice as many as 4.",
+			"explain": "300 × 2 = 600 g of rice."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Cooked food should be steaming hot all the way through.",
+			"answer": true,
+			"hint": "Which C is this?",
+			"explain": "True: cooking until steaming hot all the way through kills germs."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Fish and chips has protein and a starchy food. What would add fruit or vegetables?",
+			"answer": 0,
+			"hint": "Which choice is from the missing group?",
+			"choices": [
+				"peas or a salad",
+				"more chips",
+				"a fizzy drink",
+				"a bread roll"
+			],
+			"explain": "Peas or a salad: vegetables make the meal more balanced. A glass of milk would add dairy too."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Swap within the same group: match each swap to its food group.",
+			"items": [
+				"beans instead of chicken",
+				"rice instead of pasta",
+				"yoghurt instead of cheese",
+				"carrots instead of peas"
+			],
+			"matches": [
+				"dairy",
+				"fruit and vegetables",
+				"protein",
+				"starchy foods"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "A good swap keeps the meal balanced: the new food is from the same group.",
+			"explain": "Beans and chicken are protein, rice and pasta starchy foods, yoghurt and cheese dairy, and carrots and peas vegetables."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.meal_missing",
+			"level": 1
+		},
+		{
+			"gen": "g4w.meal_missing",
+			"level": 2
+		},
+		{
+			"gen": "g4w.meal_missing",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,386 @@
+{
+	"id": "g4.design_tech.electric_products",
+	"lesson": [
+		{
+			"text": "Quick memory: what are the five steps of the design cycle? (Idea, plan, make, test, improve.) Today: designing products that use electricity, like a torch or an alarm."
+		},
+		{
+			"text": "Electricity flows round a complete loop called a circuit: from the battery, along the wires, through the bulb and back to the battery. Make a gap anywhere in the loop, and it stops.",
+			"picture": {
+				"kind": "circuit",
+				"parts": [
+					"cell",
+					"bulb"
+				],
+				"lit": true
+			}
+		},
+		{
+			"text": "A switch is a gap you can open and close. Closed, the loop is complete and the bulb lights. Open, the loop is broken and the bulb goes out.",
+			"picture": {
+				"kind": "circuit",
+				"parts": [
+					"cell",
+					"switch",
+					"bulb"
+				],
+				"switch": "open",
+				"names": true
+			}
+		},
+		{
+			"text": "Many products are a circuit inside a case. A torch: a battery, a switch and a bulb. A fan: a battery, a switch and a motor. An alarm: a battery, a switch and a buzzer.",
+			"picture": {
+				"kind": "circuit",
+				"parts": [
+					"cell",
+					"switch",
+					"buzzer"
+				],
+				"lit": true,
+				"names": true
+			}
+		},
+		{
+			"text": "Switches come in many kinds: push switches, slide switches and pressure pads. A pressure pad is like two pieces of foil with sponge between them: it closes when someone steps on it. That makes a great burglar alarm!"
+		},
+		{
+			"text": "Conductors let electricity through: metals like copper, steel and aluminium foil. Insulators do not: plastic, rubber, wood and paper. Wires are copper inside a coat of plastic."
+		},
+		{
+			"text": "Stay safe: use only small batteries. Never touch plugs or sockets: mains electricity is very dangerous. Never join a battery's two ends with just a wire: it gets hot. If anyone swallows a button battery, tell a grown-up at once."
+		},
+		{
+			"text": "Try it in the world: put a light switch next to a lamp and tap it: a switch powers the lamp it touches. For real: design a torch for someone, with a sketch of its circuit and its case."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The bulb will light.",
+			"answer": true,
+			"hint": "Follow the wire round with your finger. Is the loop complete, with a battery?",
+			"explain": "True: the battery and the bulb are in a complete loop, so electricity flows round.",
+			"picture": {
+				"kind": "circuit",
+				"parts": [
+					"cell",
+					"bulb"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a circuit?",
+			"answer": 0,
+			"hint": "Think of the path the electricity takes.",
+			"choices": [
+				"a complete loop for electricity",
+				"a kind of battery",
+				"a round light bulb",
+				"a type of plug"
+			],
+			"explain": "A circuit is a complete loop that electricity flows round, from the battery and back."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these lets electricity flow through it?",
+			"answer": 0,
+			"hint": "Conductors are usually metals.",
+			"choices": [
+				"a steel paper clip",
+				"a rubber band",
+				"a plastic ruler",
+				"a wooden spoon"
+			],
+			"explain": "The steel paper clip: it is metal, a conductor."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is safe to play with plugs and sockets if you are careful.",
+			"answer": false,
+			"hint": "What does the lesson say about sockets?",
+			"explain": "False: never touch plugs or sockets. Mains electricity is very dangerous."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each product to the part that makes it work.",
+			"items": [
+				"a torch",
+				"a fan",
+				"an alarm"
+			],
+			"matches": [
+				"a motor",
+				"a buzzer",
+				"a bulb or an LED"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "What does each product do: shine, spin or make a noise?",
+			"explain": "A torch shines with a bulb or an LED, a fan spins with a motor, and an alarm sounds with a buzzer."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The bulb will light.",
+			"answer": false,
+			"hint": "Look at the switch: is it open or closed?",
+			"explain": "False: the switch is open, so the loop is broken.",
+			"picture": {
+				"kind": "circuit",
+				"parts": [
+					"cell",
+					"switch",
+					"bulb"
+				],
+				"switch": "open"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does a switch do in a circuit?",
+			"answer": 0,
+			"hint": "What happens to the loop when you switch off?",
+			"choices": [
+				"opens and closes a gap in the loop",
+				"makes the battery bigger",
+				"changes the bulb's colour",
+				"stores electricity"
+			],
+			"explain": "A switch opens and closes a gap in the loop, so it turns the circuit off and on."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Conductor or insulator?",
+			"groups": [
+				"conductor",
+				"insulator"
+			],
+			"items": [
+				"copper wire",
+				"a plastic straw",
+				"aluminium foil",
+				"a rubber glove",
+				"a steel key",
+				"a wooden lolly stick"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Metals are conductors.",
+			"explain": "Conductors: copper, aluminium foil, steel. Insulators: plastic, rubber, wood."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put designing a torch in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start with the design brief, and finish with the design cycle's last step.",
+			"items": [
+				"draw its circuit and case",
+				"put it in its case",
+				"write who it is for and what it must do",
+				"build and test the circuit",
+				"test it and improve it"
+			],
+			"explain": "Brief, drawing, circuit, case, then test and improve: the design cycle."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which of these, put across the gap, would light the bulb?",
+			"answer": 0,
+			"hint": "Which one is made of metal?",
+			"choices": [
+				"a coin",
+				"a rubber band",
+				"paper"
+			],
+			"explain": "A coin: it is metal, a conductor, so it closes the loop.",
+			"picture": {
+				"kind": "circuit",
+				"parts": [
+					"cell",
+					"gap",
+					"bulb"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A pressure pad has two pieces of foil with sponge between them. What happens when someone steps on it?",
+			"answer": 0,
+			"hint": "Foil is a metal. What happens when the two pieces meet?",
+			"choices": [
+				"the foils touch and the loop is complete",
+				"the sponge conducts electricity",
+				"the battery runs out",
+				"the foils melt"
+			],
+			"explain": "The foils are pressed together, so the gap closes, the loop is complete and the alarm sounds."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Both bulbs will light.",
+			"answer": true,
+			"hint": "Is the switch closed, and is there one complete loop?",
+			"explain": "True: the switch is closed, so the loop is complete and both bulbs light, a little more dimly than one.",
+			"picture": {
+				"kind": "circuit",
+				"parts": [
+					"cell",
+					"switch",
+					"bulb",
+					"bulb"
+				],
+				"switch": "closed"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your torch does not light. What should you check first?",
+			"answer": 0,
+			"hint": "What does a bulb need to light?",
+			"choices": [
+				"that the loop has no gaps and the battery works",
+				"the colour of its case",
+				"the size of its box",
+				"how heavy it is"
+			],
+			"explain": "Check the loop for gaps or loose wires, then the battery: a bulb needs a complete loop and a working battery."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are wires coated in plastic?",
+			"answer": 0,
+			"hint": "Does electricity pass through plastic?",
+			"choices": [
+				"plastic is an insulator: safe to hold",
+				"to make them heavier",
+				"plastic conducts electricity better",
+				"to make them shiny"
+			],
+			"explain": "Plastic is an insulator, so the electricity stays in the copper and you can hold the wire safely."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Joining the two ends of a battery with just a wire is safe.",
+			"answer": false,
+			"hint": "What does the lesson say happens?",
+			"explain": "False: with nothing else in the loop, the wire gets hot. Always put a bulb, buzzer or motor in the loop."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the products by the part that makes them work.",
+			"groups": [
+				"a bulb or LED",
+				"a motor",
+				"a buzzer"
+			],
+			"items": [
+				"a torch",
+				"a fan",
+				"a doorbell",
+				"a toy car",
+				"a night light",
+				"a burglar alarm"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				1,
+				0,
+				2
+			],
+			"hint": "Does it shine, spin or make a sound?",
+			"explain": "Shining: a torch and a night light use a bulb or an LED. Spinning: a fan and a toy car use a motor. Sounding: a doorbell and an alarm use a buzzer."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order how a pressure-pad alarm works.",
+			"items": [
+				"The buzzer sounds.",
+				"Someone steps on the pad.",
+				"The loop is complete.",
+				"The two foils touch."
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Follow it from the foot to the sound.",
+			"explain": "Someone steps on the pad, the two foils are pressed together, so the loop is complete, and electricity flows to the buzzer, which sounds."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "A torch won't light. Match each fault to its fix.",
+			"items": [
+				"a wire has come loose",
+				"the battery is flat",
+				"the switch is open",
+				"the bulb is broken"
+			],
+			"matches": [
+				"close the switch",
+				"put in a new bulb",
+				"join the wire again",
+				"put in a new battery"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Each fault breaks the loop or stops the battery's push. What puts each right?",
+			"explain": "A loose wire: join it again to close the loop. A flat battery: put in a new one. An open switch: close it. A broken bulb: put in a new bulb."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.circuit_lights",
+			"level": 1
+		},
+		{
+			"gen": "g4w.circuit_lights",
+			"level": 2
+		},
+		{
+			"gen": "g4w.circuit_lights",
+			"level": 3
+		}
+	]
+}

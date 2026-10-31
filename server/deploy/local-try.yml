@@ -1,0 +1,22 @@
+# Trying the hosting kit on a development PC (compose override; not for the real server).
+# It changes only what would collide with other things on a shared PC: Caddy on 127.0.0.1:8480 and
+# :8443 instead of 80/443, no console port (the development server already uses 7351), and an image
+# name of its own. With EASYCRAFT_DOMAIN=localhost, Caddy makes a local certificate instead of
+# asking Let's Encrypt, and ./kit.sh check trusts it.
+#
+#   export KIT_PROJECT=easycraft_d KIT_OVERRIDE=local-try.yml KIT_ENV_FILE=/tmp/easycraft-try.env
+#   server/deploy/kit.sh keys localhost
+#   echo BACKUP_DIR=/tmp/easycraft-try-backups >> "$KIT_ENV_FILE"
+#   server/deploy/kit.sh up && server/deploy/kit.sh check https://localhost:8443
+#   docker compose -p easycraft_d down -v     # remove the try: containers, database, certificates
+#
+# Never the project name "easycraft" (the development server, server/dev.sh), and never
+# ./kit.sh update here (it pulls image tags that other projects on the PC may share).
+services:
+  nakama:
+    image: easycraft/nakama:local-try
+    ports: !reset []
+  caddy:
+    ports: !override
+      - "127.0.0.1:8480:80"
+      - "127.0.0.1:8443:443"

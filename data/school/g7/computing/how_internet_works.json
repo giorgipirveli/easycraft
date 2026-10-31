@@ -1,0 +1,301 @@
+{
+	"id": "g7.computing.how_internet_works",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, what were packets? (Small numbered pieces a message is split into to travel.) Today: how the internet gets a page to you."
+		},
+		{
+			"text": "The internet is a network of networks: millions of computers joined by cables, radio and fibre-optic cables under the sea. It grew from ARPANET, whose first message in 1969 was LO: the computer crashed before LOGIN was typed."
+		},
+		{
+			"text": "Every device on the internet has an IP address: four numbers from 0 to 255 with dots between, such as 192.168.1.20. Like a home address, it says where to deliver."
+		},
+		{
+			"text": "People remember names; computers use numbers. The DNS (Domain Name System) works like a contacts list: you ask for castle.example, it answers 198.51.100.23, and your computer asks that address for the page.",
+			"picture": {
+				"kind": "internet_trip",
+				"view": "dns",
+				"domain": "castle.example",
+				"ip": "198.51.100.23"
+			}
+		},
+		{
+			"text": "A page is split into packets, each with the address it is from, the address it goes to, and its number. Routers pass packets on towards their address, and packets may take different routes.",
+			"picture": {
+				"kind": "internet_trip",
+				"view": "routes",
+				"routes": [
+					"ABC",
+					"DEF",
+					"ABEF"
+				]
+			}
+		},
+		{
+			"text": "At the other end the packets are put back in order by their numbers. A lost packet is asked for again, so the message arrives whole. If a router breaks, packets find another way.",
+			"picture": {
+				"kind": "internet_trip",
+				"view": "routes",
+				"routes": [
+					"ABC",
+					"DEF",
+					"ABEF"
+				],
+				"lost": 2
+			}
+		},
+		{
+			"text": "A protocol is a set of rules both sides agree. TCP/IP splits, addresses and checks packets; HTTP asks for web pages; HTTPS does it with the data scrambled. The web, its pages and links, is one of many things that use the internet."
+		},
+		{
+			"text": "Try it in the world: write a message on a strip of paper, and cut it into numbered pieces. Mix them up, and give them to a friend to put back in order. Next: secret codes."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Can 192.168.1.300 be an IP address?",
+			"answer": false,
+			"hint": "Each of the four numbers must be from 0 to 255.",
+			"explain": "False: 300 is more than 255."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does the DNS do?",
+			"answer": 0,
+			"hint": "Think of a contacts list: a name gives you a number.",
+			"choices": [
+				"turns names into IP addresses",
+				"splits messages into packets",
+				"draws web pages",
+				"charges the router"
+			],
+			"explain": "The DNS turns a name like castle.example into the IP address to send to."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its job.",
+			"items": [
+				"IP address",
+				"router",
+				"DNS",
+				"packet",
+				"protocol"
+			],
+			"matches": [
+				"passes packets on",
+				"turns names into numbers",
+				"a small numbered piece",
+				"rules both sides agree",
+				"where to deliver"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				2,
+				3
+			],
+			"hint": "Think of posting a letter across the world.",
+			"explain": "IP address: where; router: passes on; DNS: names to numbers; packet: a piece; protocol: the rules."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Every device on the internet has an IP address.",
+			"answer": true,
+			"hint": "How would packets know where to go?",
+			"explain": "True: packets are delivered to IP addresses."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many routers does packet 1 pass through on its way to the server?",
+			"answer": "4",
+			"hint": "Follow the line and count the lettered boxes.",
+			"explain": "Packet 1 goes through A, B, E and F: 4 routers.",
+			"picture": {
+				"kind": "internet_trip",
+				"view": "routes",
+				"routes": [
+					"ABEF"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A message of 30 letters is split into packets of at most 8 letters. How many packets does it make?",
+			"answer": "4",
+			"hint": "How many full packets fit? One more carries what is left.",
+			"explain": "3 full packets hold 24 letters; the last 6 letters need one more: 4 packets."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which packet passes through the fewest routers?",
+			"answer": 0,
+			"hint": "Count the routers on each route.",
+			"choices": [
+				"packet 2",
+				"packet 1",
+				"packet 3"
+			],
+			"explain": "Packet 1 passes 4, packet 2 passes 3 and packet 3 passes 5: packet 2.",
+			"picture": {
+				"kind": "internet_trip",
+				"view": "routes",
+				"routes": [
+					"ABEF",
+					"DEF",
+					"ADEBC"
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of opening a web page in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Names must become numbers before anything can be sent.",
+			"items": [
+				"the page comes back in packets",
+				"your computer asks that address for it",
+				"the DNS finds its IP address",
+				"you ask for a name like castle.example"
+			],
+			"explain": "Name, then the DNS gives the address, then the request, then the page in packets."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Packets arrive in the order 3, 1, 4, 2. What happens?",
+			"answer": 0,
+			"hint": "Why does each packet carry a number?",
+			"choices": [
+				"they are put back in order by number",
+				"the message is lost",
+				"they are read as 3, 1, 4, 2",
+				"they are all sent again"
+			],
+			"explain": "Their numbers let the computer put them back in order: 1, 2, 3, 4."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Every packet of a message must take the same route.",
+			"answer": false,
+			"hint": "What happens when one route is busy?",
+			"explain": "False: packets can take different routes and are put back in order at the end."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which could be an IP address?",
+			"answer": 0,
+			"hint": "Four parts, each a number from 0 to 255.",
+			"choices": [
+				"203.0.113.8",
+				"203.0.113",
+				"203.0.113.8.4",
+				"203.0.two.8"
+			],
+			"explain": "203.0.113.8 has four numbers, each 0 to 255."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The internet and the web are the same thing.",
+			"answer": false,
+			"hint": "The web is pages and links. What else travels on the internet?",
+			"explain": "False: the internet is the network; the web is one thing that uses it, as messages, games and video calls do."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Router B breaks. Which packet's route still reaches the server?",
+			"answer": 0,
+			"hint": "Find the route that never goes through B.",
+			"choices": [
+				"packet 2",
+				"packet 1",
+				"packet 3"
+			],
+			"explain": "Packet 2 goes D, E, F and never uses B; packets 1 and 3 pass through B.",
+			"picture": {
+				"kind": "internet_trip",
+				"view": "routes",
+				"routes": [
+					"ABC",
+					"DEF",
+					"ABEF"
+				],
+				"mark": "B"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does the S in HTTPS add?",
+			"answer": 0,
+			"hint": "S stands for secure.",
+			"choices": [
+				"the data is scrambled so others can't read it",
+				"the page is sent faster",
+				"the page is saved",
+				"the packets are bigger"
+			],
+			"explain": "HTTPS scrambles (encrypts) the data, so anyone who catches a packet on the way cannot read it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Each of the 4 numbers of an IP address is one byte, 8 bits. How many bits make the whole address?",
+			"answer": "32",
+			"hint": "4 bytes of 8 bits.",
+			"explain": "4 × 8 = 32 bits."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A photo of 2,000 bytes is sent in packets of at most 500 bytes. One packet is lost and sent again. How many packets are sent in all?",
+			"answer": "5",
+			"hint": "How many packets does the photo need? Add the one sent again.",
+			"explain": "2,000 ÷ 500 = 4 packets, and 1 is sent again: 4 + 1 = 5."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.ip_address",
+			"level": 1
+		},
+		{
+			"gen": "g7c.ip_address",
+			"level": 2
+		},
+		{
+			"gen": "g7c.ip_address",
+			"level": 3
+		},
+		{
+			"gen": "g7c.route_hops",
+			"level": 1
+		},
+		{
+			"gen": "g7c.route_hops",
+			"level": 2
+		},
+		{
+			"gen": "g7c.route_hops",
+			"level": 3
+		}
+	]
+}

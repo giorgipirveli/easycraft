@@ -1,0 +1,202 @@
+{
+	"id": "g6.maths.variables",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, equations. Solve x + 7 = 12. Take 7 from both sides: x = 5."
+		},
+		{
+			"text": "Some amounts change together: the more hours a buddy works, the more blocks it lays. Hours is the independent variable; blocks is the dependent one."
+		},
+		{
+			"text": "An equation shows the rule: blocks = 5 × hours, or b = 5h.",
+			"picture": {
+				"kind": "op_chain",
+				"start": "3",
+				"ops": [
+					"× 5"
+				],
+				"end": "15"
+			}
+		},
+		{
+			"text": "A table shows pairs: h = 1, 2, 3 gives b = 5, 10, 15. On a graph, these pairs make a straight line.",
+			"picture": {
+				"kind": "grid",
+				"x_max": 4,
+				"y_max": 20,
+				"y_step": 5,
+				"points": [
+					{
+						"x": 1,
+						"y": 5
+					},
+					{
+						"x": 2,
+						"y": 10
+					},
+					{
+						"x": 3,
+						"y": 15
+					}
+				],
+				"join": true,
+				"x_name": "hours",
+				"y_name": "blocks"
+			}
+		},
+		{
+			"text": "Find the rule from a table: how much does y go up each time x goes up by 1? Then check the start: y = 3x + 1 gives (1, 4), (2, 7), (3, 10)."
+		},
+		{
+			"text": "Try it in the world: count how many blocks you lay each minute for 4 minutes and make a table. Is there a rule, like b = 6m? Next: area of triangles and polygons."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "b = 5h. When h = 6, what is b?",
+			"answer": "30",
+			"hint": "Put 6 in place of h: 5 × 6.",
+			"explain": "b = 30."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Pay depends on hours worked. Which is the independent variable?",
+			"answer": 0,
+			"hint": "Which one do you choose?",
+			"choices": [
+				"hours worked",
+				"pay",
+				"neither"
+			],
+			"explain": "Hours worked is chosen; pay depends on it."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In y = 2x, when x = 4, y = 8.",
+			"answer": true,
+			"hint": "Put 4 in place of x: 2 × 4.",
+			"explain": "Yes: 2 × 4 = 8."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The pairs (1, 6), (2, 12), (3, 18) follow one rule. What is y when x = 10?",
+			"answer": "60",
+			"hint": "y is 6 times x.",
+			"explain": "6 × 10 = 60."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which equation fits (1, 3), (2, 5), (3, 7)?",
+			"answer": 0,
+			"hint": "Check x = 1 and x = 2.",
+			"choices": [
+				"y = 2x + 1",
+				"y = 3x",
+				"y = x + 2"
+			],
+			"explain": "2 × 1 + 1 = 3, 2 × 2 + 1 = 5, 2 × 3 + 1 = 7."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A taxi charges 3 coins plus 2 coins a km: c = 2k + 3. What does 8 km cost?",
+			"answer": "19",
+			"hint": "2 × 8 + 3.",
+			"explain": "16 + 3 = 19 coins."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "On a graph of y = 4x, which point is on the line?",
+			"answer": 0,
+			"hint": "y should be 4 times x.",
+			"choices": [
+				"(3, 12)",
+				"(4, 3)",
+				"(12, 3)"
+			],
+			"explain": "A point (x, y) is on the line when y = 4x. Try each: 4 × 3 = 12, so (3, 12) is on it. 4 × 4 = 16, not 3, and 4 × 12 = 48, not 3."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A plant is 5 cm tall and grows 2 cm a week: h = 2w + 5. After how many weeks is it 21 cm?",
+			"answer": "8",
+			"hint": "Solve 2w + 5 = 21.",
+			"explain": "21 = 2w + 5. Take 5 from both sides: 2w = 16. Divide by 2: w = 8 weeks. Check: 2 × 8 + 5 = 21."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each table to its rule.",
+			"items": [
+				"(1, 3), (2, 6), (3, 9)",
+				"(1, 5), (2, 6), (3, 7)",
+				"(1, 3), (2, 5), (3, 7)"
+			],
+			"matches": [
+				"y = 2x + 1",
+				"y = 3x",
+				"y = x + 4"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "How much does y go up each time x goes up by 1? Then check the start.",
+			"explain": "(1, 3), (2, 6), (3, 9): y = 3x. (1, 5), (2, 6), (3, 7): y = x + 4. (1, 3), (2, 5), (3, 7): y = 2x + 1."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort each pair: which is the independent variable (the one you choose)?",
+			"items": [
+				"hours worked",
+				"pay earned",
+				"cups of flour",
+				"number of cakes"
+			],
+			"groups": [
+				"independent",
+				"dependent"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Which one do you change, and which one changes because of it?",
+			"explain": "You choose the hours worked and the number of cakes. The pay and the cups of flour depend on them."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A table goes (1, 7), (2, 11), (3, 15). Find the rule. What is y when x = 20?",
+			"answer": "83",
+			"hint": "How much does y go up each time x goes up by 1? Then check the start.",
+			"explain": "y goes up 4 each time, so the rule is 4x plus something. 4 × 1 = 4 and 7 − 4 = 3, so y = 4x + 3. When x = 20: 80 + 3 = 83."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6a.table_rule",
+			"level": 1
+		},
+		{
+			"gen": "g6a.table_rule",
+			"level": 2
+		},
+		{
+			"gen": "g6a.table_rule",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "life.online.scams_and_news",
+	"lesson": [
+		{"text": "Quick memory: what three questions check a news story? (Who made it, when, and does anyone else say so?) Today: scams, fake news, privacy and passwords."},
+		{"text": "Scams offer free things if you give a password or pay first. Phishing messages look real and rush you to a link. Never log in from a link in a message: close it, tell, report."},
+		{"text": "Your school, your address, photos of you and your password stay private. What you post can be copied and stay for a long time: think before you post."},
+		{"text": "A picture can be changed in seconds. Before you share a story or a photo: who made it, when, and do trusted sources agree?"},
+		{"text": "Passwords: long, never your name, never shared, not even with a friend. This game makes a guesser wait after 5 wrong tries in 15 minutes."},
+		{"text": "In a group chat that is unkind to someone: don't join in, stand by them, report it and tell a trusted adult."},
+		{"text": "Try it in the world: open Online City on the play tablet, on the Big track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "Free gold if you send your password. It's...", "answer": 0, "choices": ["a scam", "a real prize", "a friend"], "hint": "Real games never ask for your password.", "explain": "A scam."},
+		{"type": "truefalse", "level": 1, "prompt": "A picture online can be changed.", "answer": true, "hint": "Think of photo apps.", "explain": "True."},
+		{"type": "choice", "level": 1, "prompt": "Which stays private?", "answer": 0, "choices": ["the name of your school", "a picture name like FOX", "your favourite food"], "hint": "Which helps someone find you?", "explain": "Your school's name."},
+		{"type": "choice", "level": 2, "prompt": "\"Your account closes today! Log in at this link.\" You...", "answer": 0, "choices": ["don't click: open the game yourself", "click it quickly", "send it to friends"], "hint": "Messages that rush you are often tricks.", "explain": "Don't click: that's phishing."},
+		{"type": "truefalse", "level": 2, "prompt": "Once you post a photo, it is always gone the next day.", "answer": false, "hint": "Posts can be copied.", "explain": "False: think before you post."},
+		{"type": "order", "level": 2, "prompt": "Before sharing a story: put the checks in order.", "answer": [1, 2, 0], "items": ["does anyone else say so?", "who made it?", "when was it made?"], "hint": "Start with who.", "explain": "Who, when, then others."},
+		{"type": "choice", "level": 2, "prompt": "A request: \"I'm 12 too, add me!\" You've never met. You...", "answer": 0, "choices": ["don't accept: check with a grown-up", "accept at once", "send your address"], "hint": "Anyone can say they're 12.", "explain": "Don't accept."},
+		{"type": "sort", "level": 3, "prompt": "Scam, or safe?", "groups": ["a scam", "safe"], "items": ["pay first and win a phone", "a game's settings page you opened yourself", "free gold for a password", "asking a grown-up first"], "answer": [0, 1, 0, 1], "hint": "Scams want something first.", "explain": "Paying first and giving passwords are scams."},
+		{"type": "choice", "level": 3, "prompt": "A group chat laughs at a friend's video. You...", "answer": 0, "choices": ["don't join in, support them, report, tell", "add a joke", "share it more"], "hint": "Stand by your friend.", "explain": "Don't join in: support, report, tell."},
+		{"type": "truefalse", "level": 3, "prompt": "This game's password can be your name with numbers.", "answer": false, "hint": "Never your name.", "explain": "False: never your name, even with numbers."},
+		{"type": "choice", "level": 3, "prompt": "An hour before bed, it's best to...", "answer": 0, "choices": ["put screens away and wind down", "play until you fall asleep", "watch videos in bed"], "hint": "Screens make sleep harder.", "explain": "Screens away."}
+	]
+}

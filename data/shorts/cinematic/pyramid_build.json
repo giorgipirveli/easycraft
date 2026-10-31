@@ -1,0 +1,416 @@
+{
+	"id": "pyramid_build",
+	"title": "How the pyramids were built",
+	"topic": "history",
+	"link": {"unit": "g4.history.ancient_egypt"},
+	"still": 36,
+	"stage": {
+		"sky": [
+			{"at": 0, "sky": {"top": "#3a7be8", "horizon": "#f6e7c4", "bottom": "#e2c58f"}},
+			{"at": 40, "dur": 7, "sky": "dusk"}
+		],
+		"light": [{"at": 0, "light": "day"}, {"at": 40, "dur": 7, "light": "dusk"}],
+		"sun": [{"at": 0, "sun": [0.5, 0.75, 0.6]}, {"at": 40, "dur": 7, "sun": [-0.75, 0.25, 0.6]}],
+		"models": [
+			{"id": "ground", "model": "ground", "at": [0, 0, 0], "look": "sand", "size": 150},
+			{
+				"id": "nile",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [
+					{"box": [-40, 0, -30, 40, 0, -27], "block": "WATER"},
+					{"box": [-40, 0, -32, 40, 0, -31], "block": "GRASS"},
+					{"box": [-40, 0, -26, 40, 0, -24], "block": "GRASS"},
+					{"cylinder": [-36, 1, -24, 0.3, 3], "block": "PALM_LOG"},
+					{"disc": [-36, 4, -24, 1.6], "block": "PALM_LEAVES"},
+					{"cylinder": [-29, 1, -25, 0.3, 3], "block": "PALM_LOG"},
+					{"disc": [-29, 4, -25, 1.6], "block": "PALM_LEAVES"},
+					{"cylinder": [-22, 1, -24, 0.3, 3], "block": "PALM_LOG"},
+					{"disc": [-22, 4, -24, 1.6], "block": "PALM_LEAVES"},
+					{"cylinder": [-15, 1, -25, 0.3, 3], "block": "PALM_LOG"},
+					{"disc": [-15, 4, -25, 1.6], "block": "PALM_LEAVES"},
+					{"cylinder": [-8, 1, -24, 0.3, 3], "block": "PALM_LOG"},
+					{"disc": [-8, 4, -24, 1.6], "block": "PALM_LEAVES"},
+					{"cylinder": [-1, 1, -25, 0.3, 3], "block": "PALM_LOG"},
+					{"disc": [-1, 4, -25, 1.6], "block": "PALM_LEAVES"},
+					{"cylinder": [6, 1, -24, 0.3, 3], "block": "PALM_LOG"},
+					{"disc": [6, 4, -24, 1.6], "block": "PALM_LEAVES"},
+					{"cylinder": [13, 1, -25, 0.3, 3], "block": "PALM_LOG"},
+					{"disc": [13, 4, -25, 1.6], "block": "PALM_LEAVES"},
+					{"cylinder": [20, 1, -24, 0.3, 3], "block": "PALM_LOG"},
+					{"disc": [20, 4, -24, 1.6], "block": "PALM_LEAVES"},
+					{"cylinder": [27, 1, -25, 0.3, 3], "block": "PALM_LOG"},
+					{"disc": [27, 4, -25, 1.6], "block": "PALM_LEAVES"},
+					{"cylinder": [34, 1, -24, 0.3, 3], "block": "PALM_LOG"},
+					{"disc": [34, 4, -24, 1.6], "block": "PALM_LEAVES"}
+				]
+			},
+			{
+				"id": "base",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [
+					{"box": [-9, 0, -9, 9, 0, 9], "block": "LIMESTONE"},
+					{"box": [-8, 1, -8, 8, 1, 8], "block": "LIMESTONE"}
+				]
+			},
+			{
+				"id": "course2",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [{"box": [-7, 2, -7, 7, 2, 7], "block": "LIMESTONE"}],
+				"moves": [{"do": "drop", "at": 20.6, "height": 6}]
+			},
+			{
+				"id": "course3",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [{"box": [-6, 3, -6, 6, 3, 6], "block": "LIMESTONE"}],
+				"moves": [{"do": "drop", "at": 21.65, "height": 6}]
+			},
+			{
+				"id": "course4",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [{"box": [-5, 4, -5, 5, 4, 5], "block": "LIMESTONE"}],
+				"moves": [{"do": "drop", "at": 22.7, "height": 6}]
+			},
+			{
+				"id": "course5",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [{"box": [-4, 5, -4, 4, 5, 4], "block": "LIMESTONE"}],
+				"moves": [{"do": "drop", "at": 23.75, "height": 6}]
+			},
+			{
+				"id": "course6",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [{"box": [-3, 6, -3, 3, 6, 3], "block": "LIMESTONE"}],
+				"moves": [{"do": "drop", "at": 24.8, "height": 6}]
+			},
+			{
+				"id": "course7",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [{"box": [-2, 7, -2, 2, 7, 2], "block": "LIMESTONE"}],
+				"moves": [{"do": "drop", "at": 25.85, "height": 6}]
+			},
+			{
+				"id": "course8",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [{"box": [-1, 8, -1, 1, 8, 1], "block": "LIMESTONE"}],
+				"moves": [{"do": "drop", "at": 26.9, "height": 6}]
+			},
+			{
+				"id": "course9",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [{"box": [0, 9, 0, 0, 9, 0], "block": "LIMESTONE"}],
+				"moves": [{"do": "drop", "at": 27.95, "height": 6}]
+			},
+			{
+				"id": "ramp",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [
+					{"box": [-1, 0, 10, 1, 0, 28], "block": "SANDSTONE"},
+					{"box": [-1, 1, 9, 1, 1, 26], "block": "SANDSTONE"},
+					{"box": [-1, 2, 8, 1, 2, 24], "block": "SANDSTONE"},
+					{"box": [-1, 3, 7, 1, 3, 22], "block": "SANDSTONE"},
+					{"box": [-1, 4, 6, 1, 4, 20], "block": "SANDSTONE"},
+					{"box": [-1, 5, 5, 1, 5, 18], "block": "SANDSTONE"},
+					{"box": [-1, 6, 4, 1, 6, 16], "block": "SANDSTONE"},
+					{"box": [-1, 7, 3, 1, 7, 14], "block": "SANDSTONE"},
+					{"box": [-1, 8, 2, 1, 8, 12], "block": "SANDSTONE"},
+					{"box": [-1, 9, 1, 1, 9, 10], "block": "SANDSTONE"}
+				],
+				"stretch": [1, 0.2, 1],
+				"moves": [
+					{"do": "grow", "at": 20.4, "dur": 8.4, "to": 1, "axis": "y", "ease": "smooth"},
+					{"do": "move", "at": 30.3, "dur": 1.6, "to": [0, -11, 0], "ease": "in"},
+					{"do": "out", "at": 31.9}
+				]
+			},
+			{
+				"id": "casing",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [
+					{"box": [-20, 0, -20, 20, 0, 20], "block": "CASING_STONE"},
+					{"box": [-18, 0, -18, 18, 0, 18], "block": "AIR"},
+					{"box": [-19, 1, -19, 19, 1, 19], "block": "CASING_STONE"},
+					{"box": [-17, 1, -17, 17, 1, 17], "block": "AIR"},
+					{"box": [-18, 2, -18, 18, 2, 18], "block": "CASING_STONE"},
+					{"box": [-16, 2, -16, 16, 2, 16], "block": "AIR"},
+					{"box": [-17, 3, -17, 17, 3, 17], "block": "CASING_STONE"},
+					{"box": [-15, 3, -15, 15, 3, 15], "block": "AIR"},
+					{"box": [-16, 4, -16, 16, 4, 16], "block": "CASING_STONE"},
+					{"box": [-14, 4, -14, 14, 4, 14], "block": "AIR"},
+					{"box": [-15, 5, -15, 15, 5, 15], "block": "CASING_STONE"},
+					{"box": [-13, 5, -13, 13, 5, 13], "block": "AIR"},
+					{"box": [-14, 6, -14, 14, 6, 14], "block": "CASING_STONE"},
+					{"box": [-12, 6, -12, 12, 6, 12], "block": "AIR"},
+					{"box": [-13, 7, -13, 13, 7, 13], "block": "CASING_STONE"},
+					{"box": [-11, 7, -11, 11, 7, 11], "block": "AIR"},
+					{"box": [-12, 8, -12, 12, 8, 12], "block": "CASING_STONE"},
+					{"box": [-10, 8, -10, 10, 8, 10], "block": "AIR"},
+					{"box": [-11, 9, -11, 11, 9, 11], "block": "CASING_STONE"},
+					{"box": [-9, 9, -9, 9, 9, 9], "block": "AIR"},
+					{"box": [-10, 10, -10, 10, 10, 10], "block": "CASING_STONE"},
+					{"box": [-8, 10, -8, 8, 10, 8], "block": "AIR"},
+					{"box": [-9, 11, -9, 9, 11, 9], "block": "CASING_STONE"},
+					{"box": [-7, 11, -7, 7, 11, 7], "block": "AIR"},
+					{"box": [-8, 12, -8, 8, 12, 8], "block": "CASING_STONE"},
+					{"box": [-6, 12, -6, 6, 12, 6], "block": "AIR"},
+					{"box": [-7, 13, -7, 7, 13, 7], "block": "CASING_STONE"},
+					{"box": [-5, 13, -5, 5, 13, 5], "block": "AIR"},
+					{"box": [-6, 14, -6, 6, 14, 6], "block": "CASING_STONE"},
+					{"box": [-4, 14, -4, 4, 14, 4], "block": "AIR"},
+					{"box": [-5, 15, -5, 5, 15, 5], "block": "CASING_STONE"},
+					{"box": [-3, 15, -3, 3, 15, 3], "block": "AIR"},
+					{"box": [-4, 16, -4, 4, 16, 4], "block": "CASING_STONE"},
+					{"box": [-2, 16, -2, 2, 16, 2], "block": "AIR"},
+					{"box": [-3, 17, -3, 3, 17, 3], "block": "CASING_STONE"},
+					{"box": [-1, 17, -1, 1, 17, 1], "block": "AIR"},
+					{"box": [-2, 18, -2, 2, 18, 2], "block": "CASING_STONE"},
+					{"box": [-1, 19, -1, 1, 19, 1], "block": "CASING_STONE"},
+					{"box": [0, 20, 0, 0, 20, 0], "block": "CASING_STONE"}
+				],
+				"size": 0.5,
+				"moves": [
+					{"do": "grow", "at": 0, "dur": 0.4, "to": 0.9, "ease": "out"},
+					{"do": "appear", "at": 31},
+					{"do": "grow", "at": 31, "dur": 2.6, "to": 1, "ease": "out"}
+				]
+			},
+			{
+				"id": "sledge",
+				"model": "blocks",
+				"at": [15, 0, 30],
+				"cells": [[-1, 0, 0, "PLANKS"], [0, 0, 0, "PLANKS"]],
+				"stretch": [1, 0.35, 1],
+				"moves": [{"do": "move", "at": 10.6, "dur": 8.6, "to": [4.5, 0, 30], "ease": "smooth"}]
+			},
+			{
+				"id": "stone",
+				"model": "blocks",
+				"at": [-0.5, 0.35, 0],
+				"on": "sledge",
+				"cells": [[0, 0, 0, "LIMESTONE"]],
+				"size": 0.95
+			},
+			{
+				"id": "hauler1",
+				"model": "avatar",
+				"at": [11, 0, 29.5],
+				"look": "default",
+				"turn": [0, -90, 0],
+				"moves": [
+					{"do": "move", "at": 10.6, "dur": 8.6, "to": [0.5, 0, 29.5], "ease": "smooth"},
+					{"do": "legs", "at": 10.6, "dur": 8.6, "arms": "pull", "lean": 16, "steps": 1.6}
+				]
+			},
+			{
+				"id": "hauler2",
+				"model": "avatar",
+				"at": [9, 0, 30.5],
+				"look": "explorer",
+				"turn": [0, -90, 0],
+				"moves": [
+					{"do": "move", "at": 10.6, "dur": 8.6, "to": [-1.5, 0, 30.5], "ease": "smooth"},
+					{"do": "legs", "at": 10.6, "dur": 8.6, "arms": "pull", "lean": 16, "steps": 1.6}
+				]
+			},
+			{
+				"id": "waterer",
+				"model": "avatar",
+				"at": [13, 0, 31.6],
+				"look": "explorer",
+				"turn": [0, -90, 0],
+				"moves": [
+					{"do": "move", "at": 10.6, "dur": 8.6, "to": [2.5, 0, 31.6], "ease": "smooth"},
+					{"do": "legs", "at": 10.6, "dur": 8.6, "arms": "push", "steps": 1.6}
+				]
+			},
+			{"id": "hands1", "model": "mark", "at": [0, 1.15, -0.5], "on": "hauler1"},
+			{"id": "hands2", "model": "mark", "at": [0, 1.15, -0.5], "on": "hauler2"},
+			{"id": "front", "model": "mark", "at": [-1.6, 0.2, 0], "on": "sledge"},
+			{
+				"id": "rope1",
+				"model": "rope",
+				"at": [0, 0, 0],
+				"from": "front",
+				"to": "hands1",
+				"width": 0.07,
+				"block": "HAY"
+			},
+			{
+				"id": "rope2",
+				"model": "rope",
+				"at": [0, 0, 0],
+				"from": "hands1",
+				"to": "hands2",
+				"width": 0.07,
+				"block": "HAY"
+			},
+			{
+				"id": "me",
+				"model": "avatar",
+				"at": [3, 1, 9.6],
+				"look": "explorer",
+				"turn": [0, 10, 0],
+				"moves": [{"do": "emote", "at": 41, "emote": "wave"}, {"do": "emote", "at": 45.2, "emote": "cheer"}]
+			}
+		],
+		"effects": [
+			{
+				"kind": "billow",
+				"on": "front",
+				"at": [-0.3, -0.15, 0.4],
+				"from": 11,
+				"to": 19.2,
+				"size": 0.12,
+				"speed": 0.5,
+				"amount": 40,
+				"color": "#7cc8ff"
+			},
+			{
+				"kind": "dust",
+				"at": [0, 1.5, 0],
+				"from": 20.6,
+				"to": 29,
+				"size": 0.35,
+				"amount": 40,
+				"color": "#e8d4a8"
+			},
+			{"kind": "sparkles", "at": [0, 5, 6], "from": 31, "to": 35, "size": 2.6, "amount": 60}
+		],
+		"camera": [
+			{"at": 0, "pos": [26, 18, 44], "look": [0, 1.5, 0], "fov": 45},
+			{"at": 9.95, "pos": [20, 14, 38], "look": [0, 2, 0], "fov": 45},
+			{"at": 10, "pos": [3, 3.2, 9], "look": [-1.5, 1, 0], "fov": 50, "cut": true, "follow": "sledge"},
+			{"at": 19.95, "pos": [2, 3.4, 10], "look": [-1.5, 1, 0], "fov": 50, "follow": "sledge"},
+			{"at": 20, "pos": [32, 15, 44], "look": [0, 5, 3], "fov": 45, "cut": true},
+			{"at": 29.95, "pos": [14, 15, 50], "look": [0, 5.5, 3], "fov": 45, "path": "orbit"},
+			{"at": 30, "pos": [-24, 9, 32], "look": [0, 5.5, 0], "fov": 45, "cut": true},
+			{"at": 39.95, "pos": [-14, 8, 38], "look": [0, 5.5, 0], "fov": 45, "path": "orbit"},
+			{"at": 40, "pos": [8, 4.5, 44], "look": [0, 4.5, 0], "fov": 45, "cut": true},
+			{"at": 50, "pos": [11, 4, 42], "look": [0, 4.5, 0], "fov": 45}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "About 4,500 years ago, Egyptians built the Great Pyramid for their king.",
+			"say": "About 4,500 years ago, the people of Egypt began the Great Pyramid, a tomb for their king, Khufu.",
+			"sounds": [{"at": 1.4, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "4,500 YEARS AGO",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "brown",
+					"moves": [{"do": "pop", "at": 1.4}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Teams dragged each stone on a wooden sledge. Wet sand helped it slide!",
+			"say": "Teams of workers dragged each heavy stone on a wooden sledge. Pouring water on the sand in front made it slide much more easily.",
+			"sounds": [{"at": 1, "effect": "thud"}, {"at": 5.4, "effect": "splash"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "WET SAND: EASIER!",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 5.6}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Layer by layer it rose: about 2.3 million blocks, dragged up ramps.",
+			"say": "Layer by layer, the pyramid rose. About 2.3 million stone blocks were dragged up ramps and set in place.",
+			"sounds": [
+				{"at": 0.6, "effect": "thud"},
+				{"at": 2.7, "effect": "thud"},
+				{"at": 4.8, "effect": "thud"},
+				{"at": 6.9, "effect": "thud"}
+			],
+			"actors": [
+				{
+					"kind": "count",
+					"from": 0,
+					"to": 2300000,
+					"at": [180, 84],
+					"size": 28,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 1}, {"do": "value", "at": 1.3, "dur": 7, "to": 2300000}],
+					"suffix": " BLOCKS"
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Smooth white stone covered the steps, so it shone in the sunshine.",
+			"say": "At the end, smooth white stone covered the steps, so the pyramid shone in the sunshine. It was about 146 metres tall!",
+			"sounds": [{"at": 1.2, "effect": "sparkle"}, {"at": 6.6, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "146 m TALL",
+					"at": [180, 84],
+					"size": 34,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 6.6}]
+				},
+				{
+					"kind": "words",
+					"text": "(the model is smaller)",
+					"at": [180, 132],
+					"size": 20,
+					"color": "ink",
+					"box": "white",
+					"moves": [{"do": "pop", "at": 7.4}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "For 3,800 years nothing people built was taller! What would you build?",
+			"say": "For about 3,800 years, nothing people built was taller. It still stands today! What would you build to last that long?",
+			"sounds": [{"at": 1, "effect": "pop"}, {"at": 5, "effect": "fanfare"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "TALLEST FOR 3,800 YEARS",
+					"at": [180, 84],
+					"size": 24,
+					"color": "white",
+					"box": "brown",
+					"moves": [{"do": "pop", "at": 1}]
+				}
+			]
+		}
+	]
+}

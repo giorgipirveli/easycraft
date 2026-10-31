@@ -1,0 +1,227 @@
+{
+	"id": "g6.maths.coordinate_plane",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met the coordinate grid. In (3, 5), which number do you go along first? 3, along the x-axis; then 5 up."
+		},
+		{
+			"text": "The coordinate plane has four quadrants. Numbers to the left of 0 on the x-axis and below 0 on the y-axis are negative. (−4, 3) is 4 left and 3 up.",
+			"picture": {
+				"kind": "coordinate_plane",
+				"range": 5,
+				"points": [
+					{
+						"x": -4,
+						"y": 3,
+						"label": "A"
+					},
+					{
+						"x": 2,
+						"y": -1,
+						"label": "B"
+					}
+				]
+			}
+		},
+		{
+			"text": "First quadrant: (+, +), top right. Second: (−, +), top left. Third: (−, −), bottom left. Fourth: (+, −), bottom right."
+		},
+		{
+			"text": "Reflecting across the x-axis changes the sign of y: (3, 2) becomes (3, −2). Across the y-axis, x changes sign: (−3, 2).",
+			"picture": {
+				"kind": "coordinate_plane",
+				"range": 4,
+				"points": [
+					{
+						"x": 3,
+						"y": 2,
+						"label": "P"
+					},
+					{
+						"x": 3,
+						"y": -2,
+						"label": "Q"
+					},
+					{
+						"x": -3,
+						"y": 2,
+						"label": "R"
+					}
+				]
+			}
+		},
+		{
+			"text": "Points with the same x (or the same y) are in a straight line. Their distance is the difference of the other numbers: (2, 5) to (2, −3) is 5 − (−3) = 8."
+		},
+		{
+			"text": "Try it in the world: stand a pole at the centre of your farm as the origin. Plant a tree 3 blocks east and 2 north (3, 2), and its mirror twin at (−3, 2). Next: exponents and expressions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In which quadrant is (−4, 3)?",
+			"answer": 0,
+			"hint": "x negative, y positive.",
+			"choices": [
+				"the second (top left)",
+				"the first (top right)",
+				"the third (bottom left)"
+			],
+			"explain": "Left and up: the second quadrant."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The point (0, 0) is called the origin.",
+			"answer": true,
+			"hint": "Where the axes meet.",
+			"explain": "Yes: (0, 0), where the two axes cross, is called the origin."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which point is in the fourth quadrant?",
+			"answer": 0,
+			"hint": "x positive, y negative.",
+			"choices": [
+				"(5, −2)",
+				"(−5, 2)",
+				"(−5, −2)"
+			],
+			"explain": "(5, −2) is right and down."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Reflect (4, 6) across the y-axis. Where does it land?",
+			"answer": 0,
+			"hint": "Across the y-axis, x changes sign.",
+			"choices": [
+				"(−4, 6)",
+				"(4, −6)",
+				"(−4, −6)"
+			],
+			"explain": "(−4, 6): across the y-axis, x changes sign and y stays."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How far apart are (−3, 2) and (5, 2)?",
+			"answer": "8",
+			"hint": "Same y: count along x.",
+			"explain": "From −3 to 5 is 8."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which point is on the y-axis?",
+			"answer": 0,
+			"hint": "x is 0 on the y-axis.",
+			"choices": [
+				"(0, −7)",
+				"(−7, 0)",
+				"(7, 7)"
+			],
+			"explain": "(0, −7) has x = 0."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A rectangle has corners (−2, 3), (4, 3), (4, −1) and (−2, −1). What is its perimeter?",
+			"answer": "20",
+			"hint": "Find the length and the width.",
+			"explain": "6 across and 4 down: 6 + 4 + 6 + 4 = 20."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "(−3, −5) is reflected across the x-axis. Which quadrant does it land in?",
+			"answer": 0,
+			"hint": "y changes sign.",
+			"choices": [
+				"the second",
+				"the fourth",
+				"the third"
+			],
+			"explain": "(−3, 5) is in the second quadrant."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the points by quadrant.",
+			"items": [
+				"(2, 5)",
+				"(−3, 4)",
+				"(−1, −6)",
+				"(7, 1)",
+				"(−5, 2)",
+				"(−2, −2)"
+			],
+			"groups": [
+				"first (+, +)",
+				"second (−, +)",
+				"third (−, −)"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Look at the signs of x and y.",
+			"explain": "(2, 5) and (7, 1) are in the first quadrant; (−3, 4) and (−5, 2) in the second; (−1, −6) and (−2, −2) in the third."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each point to its reflection across the x-axis.",
+			"items": [
+				"(3, 2)",
+				"(−4, 1)",
+				"(5, −3)"
+			],
+			"matches": [
+				"(5, 3)",
+				"(3, −2)",
+				"(−4, −1)"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Across the x-axis, x stays and y changes sign.",
+			"explain": "(3, 2) becomes (3, −2); (−4, 1) becomes (−4, −1); (5, −3) becomes (5, 3)."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6a.quadrant",
+			"level": 1
+		},
+		{
+			"gen": "g6a.quadrant",
+			"level": 2
+		},
+		{
+			"gen": "g6a.quadrant",
+			"level": 3
+		},
+		{
+			"gen": "g6a.axis_distance",
+			"level": 1
+		},
+		{
+			"gen": "g6a.axis_distance",
+			"level": 2
+		},
+		{
+			"gen": "g6a.axis_distance",
+			"level": 3
+		}
+	]
+}

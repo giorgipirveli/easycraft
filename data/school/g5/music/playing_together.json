@@ -1,0 +1,295 @@
+{
+	"id": "g5.music.playing_together",
+	"lesson": [
+		{
+			"text": "Quick memory: how many beats are in a bar of 3/4? (3.) Today: making music together as a group, an ensemble."
+		},
+		{
+			"text": "To keep together, everyone feels the same steady pulse. Listen to each other as much as to yourself, and watch the leader.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "A conductor leads with a baton. She sets the speed (the tempo) and shows every beat with a pattern. She brings players in at the right moment, and shows loud and quiet."
+		},
+		{
+			"text": "Beat 1 is always down, and the last beat of the bar always goes up, ready for the next bar. In 4/4 the hand goes down, left, right, up.",
+			"picture": {
+				"kind": "beat_pattern",
+				"beats": 4
+			}
+		},
+		{
+			"text": "In 3/4 the hand goes down, right, up; in 2/4, down, up. Watching the pattern, every player knows which beat they are on.",
+			"picture": {
+				"kind": "beat_pattern",
+				"beats": 3
+			}
+		},
+		{
+			"text": "Worked example: a waltz in 3/4 has 16 bars. The conductor beats down, right, up 16 times: 16 × 3 = 48 beats. Big movements ask for loud music; small ones ask for quiet."
+		},
+		{
+			"text": "Tempo words are Italian: adagio is slow, andante is at a walking pace, and allegro is quick and lively. A group agrees on the tempo before it starts.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Word",
+						"Speed"
+					],
+					[
+						"adagio",
+						"slow"
+					],
+					[
+						"andante",
+						"walking pace"
+					],
+					[
+						"allegro",
+						"quick, lively"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: clap or play together with friends and take turns to conduct in 4/4: down, left, right, up. Can the leader speed everyone up and slow them down? Next: music technology."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In 4/4, which way does the conductor's hand go on beat 1?",
+			"answer": 0,
+			"hint": "Beat 1 is the strongest beat.",
+			"choices": [
+				"down",
+				"up",
+				"left",
+				"right"
+			],
+			"explain": "Beat 1 is always down: the downbeat.",
+			"picture": {
+				"kind": "beat_pattern",
+				"beats": 4
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Players in a group should listen to each other, not only to themselves.",
+			"answer": true,
+			"hint": "How do you know if you are together?",
+			"explain": "True: listening to each other keeps everyone together."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this tempo quick (allegro) or slow (adagio)?",
+			"answer": 0,
+			"hint": "Would you walk, run or crawl to it?",
+			"choices": [
+				"quick: allegro",
+				"slow: adagio"
+			],
+			"explain": "The claps come fast: allegro.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 160
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each tempo word to its meaning.",
+			"items": [
+				"adagio",
+				"andante",
+				"allegro",
+				"tempo"
+			],
+			"matches": [
+				"quick and lively",
+				"the speed of the music",
+				"slow",
+				"at a walking pace"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Andante sounds like walking.",
+			"explain": "Adagio is slow, andante walking pace, allegro quick, and the tempo is the music's speed."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Is this tempo quick (allegro) or slow (adagio)?",
+			"answer": 0,
+			"hint": "Count the gaps between the claps.",
+			"choices": [
+				"slow: adagio",
+				"quick: allegro"
+			],
+			"explain": "The claps come slowly: adagio.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 56
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A waltz in 3/4 has 16 bars. How many beats does the conductor beat?",
+			"answer": "48",
+			"hint": "How many beats in each bar? Then multiply by the bars.",
+			"explain": "3 beats in each bar: 16 × 3 = 48 beats.",
+			"picture": {
+				"kind": "beat_pattern",
+				"beats": 3
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does a conductor ask for with big movements?",
+			"answer": 0,
+			"hint": "Big movements, big sound?",
+			"choices": [
+				"loud music",
+				"quiet music",
+				"the end",
+				"a mistake"
+			],
+			"explain": "Big movements ask for loud music; small ones for quiet."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the conductor's hand movements for 4/4 in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Beat 1 is down and the last beat is up.",
+			"items": [
+				"up",
+				"right",
+				"left",
+				"down"
+			],
+			"explain": "In 4/4 the hand goes down, left, right, up."
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Listen to the drummer's steady pulse, then mark the boxes where it plays.",
+			"hint": "Is there a gap between each clap?",
+			"explain": "The claps are in boxes 1, 3, 5 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 75
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In 4/4, on which beat does the conductor's hand go right?",
+			"answer": "3",
+			"hint": "Down, left, right, up: count along.",
+			"explain": "Down is 1, left is 2, right is 3 and up is 4: beat 3."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Everyone is playing too fast, and the conductor wants it slower. What does she do?",
+			"answer": 0,
+			"hint": "The players follow her beat.",
+			"choices": [
+				"beats the pattern more slowly",
+				"beats it faster",
+				"stops conducting",
+				"turns round"
+			],
+			"explain": "She beats more slowly, and everyone follows her new tempo."
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Listen to the leader's call, then mark the boxes to answer with the same pattern.",
+			"hint": "Say it back first, then find each clap's box.",
+			"explain": "The claps are in boxes 1, 2, 4, 5 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xx-xx-x-",
+				"tempo": 80
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen to the rhythm. How many claps are in it?",
+			"answer": "5",
+			"hint": "Count each clap on your fingers.",
+			"explain": "5 claps: count each one once, and the gaps not at all.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen. These claps keep a steady pulse.",
+			"answer": true,
+			"hint": "Are the gaps between the claps all the same?",
+			"explain": "True: the claps are evenly spaced: a steady pulse.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the first beat of a bar called, when the conductor's hand goes down?",
+			"answer": 0,
+			"hint": "Which way does the hand go?",
+			"choices": [
+				"the downbeat",
+				"the upbeat",
+				"the offbeat",
+				"the drumbeat"
+			],
+			"explain": "The first beat is the downbeat; the last, going up, is the upbeat."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.conduct",
+			"level": 1
+		},
+		{
+			"gen": "g5a.conduct",
+			"level": 2
+		},
+		{
+			"gen": "g5a.conduct",
+			"level": 3
+		}
+	]
+}

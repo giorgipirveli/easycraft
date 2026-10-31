@@ -1,0 +1,300 @@
+{
+	"id": "connections",
+	"title": "The Connections Book",
+	"area": "connections",
+	"room": "village",
+	"vary": "success",
+	"devices": {
+		"phone": {
+			"controls": ["the keys", "the speaker"],
+			"shows": ["who is calling", "the message"],
+			"order": ["only people your grown-up knows", "say hello and why you're calling", "say thank you", "say goodbye"],
+			"safety": ["never share your address, your school or a password", "a message from a stranger: don't reply, tell a grown-up"]
+		}
+	},
+	"tracks": {
+		"little": {
+			"skill": "Friends and helping first",
+			"twist": "Two people need help, and you choose who first.",
+			"can_now": "say hello and remember names, help first, include someone new and keep a promise",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "square",
+					"say": "Welcome to the village! People here have names, jobs and things they need. Let's meet them."},
+				{"id": "meet_amara", "kind": "touch", "target": "amara", "view": "bakery", "after": "amara_wave", "book": {"meet": ["amara"]},
+					"say": "Say hello to the baker: touch her.", "done": "\"Hello! I'm Amara. I bake the bread.\""},
+				{"id": "meet_tomas", "kind": "touch", "target": "tomas", "view": "mill", "after": "tomas_wave", "book": {"meet": ["tomas"]},
+					"say": "Now say hello to the miller: touch him.", "done": "\"Hello there! I'm Tomas. I grind wheat into flour.\""},
+				{"id": "names", "kind": "choose", "view": "square",
+					"say": "Who is the baker?",
+					"choices": [
+						{"text": "Amara", "icon": "person_amara"},
+						{"text": "Tomas", "icon": "person_tomas", "why": "That's Tomas the miller. Amara is the baker: look for her white hat."},
+						{"text": "Bobo", "icon": "buddy", "why": "Bobo is your buddy! The baker is Amara, in the white hat."}],
+					"answer": 0, "done": "Amara! Remembering names makes people feel special."},
+				{"id": "need", "kind": "info", "view": "bakery", "react": "amara_worried",
+					"say": "Amara looks worried: \"I have no flour for tomorrow's bread!\" Tomas has flour at the mill."},
+				{"id": "flour", "kind": "touch", "target": "flour", "view": "mill", "after": "carry_flour",
+					"say": "Help first: pick up a bag of flour at the mill. Touch it.", "done": "A big bag of flour!"},
+				{"id": "give", "kind": "touch", "target": "amara", "view": "bakery", "after": "flour_given", "book": {"help": "amara"},
+					"say": "Now bring it to Amara: touch her.", "done": "\"Thank you! Now I can bake.\""},
+				{"id": "welcome", "kind": "choose", "view": "bakery",
+					"say": "Amara says thank you. What do you say?",
+					"choices": [
+						{"text": "\"You're welcome!\"", "icon": "thank_you"},
+						{"text": "\"Pay me!\"", "icon": "coins", "why": "Helping first, without asking for something back, is how friendships start."},
+						{"text": "Say nothing", "icon": "quiet", "why": "A smile and 'you're welcome' make people glad they asked."}],
+					"answer": 0, "done": "Amara smiles: she'll remember your kindness."},
+				{"id": "two_need", "kind": "choose", "view": "square", "mode": "expert", "react": "ana_calls",
+					"say": "Ana's apples have spilt, and Tomas is carrying a heavy sack. Who do you help first?",
+					"choices": [
+						{"text": "Help one, then the other", "icon": "helping_hands"},
+						{"text": "Nobody: it's too much", "icon": "cross", "why": "You can't help everyone at once, but you can help one, then the next."},
+						{"text": "Wait for a grown-up", "icon": "clock", "why": "Picking up apples is something you can help with: start with one person."}],
+					"answer": 0, "done": "One at a time: both of them are glad."},
+				{"id": "apples", "kind": "touch", "target": "ana", "view": "farm", "mode": "expert", "after": "ana_wave",
+					"book": [{"meet": ["ana"]}, {"help": "ana"}], "say": "Help Ana first: touch her to pick up the apples.",
+					"done": "\"Thank you! I'm Ana, the farmer.\""},
+				{"id": "lina", "kind": "info", "view": "bench", "react": "lina_alone",
+					"say": "Look: Lina is new here. She sits alone on the bench by the fountain."},
+				{"id": "include", "kind": "choose", "view": "bench",
+					"say": "What can you do?",
+					"choices": [
+						{"text": "Say hello, and ask her to play", "icon": "join"},
+						{"text": "Walk past", "icon": "door", "why": "Being new is hard. A hello can make a friend."},
+						{"text": "Stare at her", "icon": "cross", "why": "Staring can feel unkind. A smile and a hello are better."}],
+					"answer": 0, "done": "A kind hello: the best start."},
+				{"id": "hello_lina", "kind": "touch", "target": "lina", "view": "bench", "after": "lina_happy", "book": {"meet": ["lina"]},
+					"say": "Go and say hello: touch Lina.", "done": "\"Hello! I'm Lina. Do you like drawing?\""},
+				{"id": "promise", "kind": "info", "view": "bench",
+					"say": "You say: \"I'll bring my {gift} tomorrow, and we can draw together!\" That's a promise."},
+				{"id": "night", "kind": "timelapse", "seconds": 4, "label": "the next morning", "view": "square", "react": "night",
+					"say": "Night falls on the village... and here comes the morning."},
+				{"id": "gift", "kind": "touch", "target": "gift", "view": "bench", "react": "morning", "after": "carry_gift",
+					"say": "It's the next morning. Keep your promise: pick up your {gift}.", "done": "Got them!"},
+				{"id": "give_lina", "kind": "touch", "target": "lina", "view": "bench", "after": "gift_given", "book": {"promise": "lina"},
+					"say": "Give them to Lina: touch her.", "done": "Promise kept! Lina has a new friend: you."},
+				{"id": "end", "kind": "info", "view": "square",
+					"say": "You met people, remembered a name, helped first and kept a promise. They're in your Connections Book now!"}
+			],
+			"check": [
+				{"say": "Someone new is all alone. You...", "answer": 0, "choices": [
+					{"text": "say hello and ask them to play", "icon": "join"}, {"text": "walk past", "icon": "door"},
+					{"text": "stare", "icon": "cross"}]},
+				{"say": "Helping first means...", "answer": 0, "choices": [
+					{"text": "helping without asking for something back", "icon": "helping_hands"},
+					{"text": "only helping if you get paid", "icon": "coins"}, {"text": "waiting to be helped", "icon": "clock"}]},
+				{"say": "You promised to bring crayons tomorrow. Tomorrow you...", "answer": 0, "choices": [
+					{"text": "bring them", "icon": "promise"}, {"text": "forget", "icon": "cross"},
+					{"text": "say you never promised", "icon": "cross_arms"}]}
+			],
+			"name_it": {"title": "Making friends", "lines": ["Say hello, and remember names.", "Help first.",
+				"Include someone new.", "Keep your promises."],
+				"source": "CASEL's relationship skills (making friends, cooperating, offering help)"},
+			"try_real": "With a grown-up: help someone at home first, without being asked, and keep one small promise this week.",
+			"sources": [
+				{"fact": "Relationship skills: making and keeping healthy relationships, cooperating, and asking for or offering help.", "source": "CASEL, the CASEL framework", "url": "https://casel.org/fundamentals-of-sel/what-is-the-casel-framework/"},
+				{"fact": "Social skills at five predict how children do as young adults.", "source": "Jones, Greenberg and Crowley (2015)", "url": "https://ideas.repec.org/a/aph/ajpbhl/10.2105-ajph.2015.302630_9.html"}
+			]
+		},
+		"middle": {
+			"skill": "Trust, introductions, mentors",
+			"twist": "One more introduction: find who can help whom, by yourself.",
+			"can_now": "find out what people need, introduce people who can help each other, promise only what they can do and ask a mentor politely",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "square",
+					"say": "In the village, everyone needs something. Help, and keep your word, and people trust you."},
+				{"id": "meet", "kind": "find", "targets": ["amara", "tomas", "ana", "ivan"], "view": "square",
+					"book": {"meet": ["amara", "tomas", "ana", "ivan"]},
+					"lines": {"amara": "Amara: \"I bake bread. I need flour every morning.\"",
+						"tomas": "Tomas: \"I grind flour. I need someone to buy it!\"",
+						"ana": "Ana: \"I grow apples. My old spade broke.\"", "ivan": "Ivan: \"I make tools. I need customers.\""},
+					"say": "Meet four people: touch each one and listen to what they need.", "done": "Four new names in your book."},
+				{"id": "needs", "kind": "choose", "view": "square",
+					"say": "What does Ana the farmer need?",
+					"choices": [
+						{"text": "A new spade", "icon": "spade"},
+						{"text": "A cake", "icon": "bread", "why": "Listen again: her old spade broke."},
+						{"text": "A crown", "icon": "star", "why": "Listen again: her old spade broke, and she needs a new one."}],
+					"answer": 0, "done": "A spade. Knowing what people need is how you can help."},
+				{"id": "intro_tools", "kind": "sequence", "targets": ["ana", "ivan"], "motion": "press", "view": "square",
+					"after": "ana_ivan", "book": {"intro": ["ana", "ivan"]},
+					"say": "Ivan makes tools and needs customers. Introduce them: touch Ana, then Ivan.",
+					"done": "\"Ana, meet Ivan: he makes spades!\" Now they can help each other."},
+				{"id": "intro_flour", "kind": "sequence", "targets": ["amara", "tomas"], "motion": "press", "view": "square",
+					"after": "amara_tomas", "book": {"intro": ["amara", "tomas"]},
+					"say": "Who can help Amara? Introduce her to the person who has flour: touch Amara, then them.",
+					"done": "Amara gets flour, and Tomas gets a buyer. Both win!"},
+				{"id": "intro_shelves", "kind": "sequence", "targets": ["okafor", "sam"], "motion": "press", "view": "square",
+					"mode": "expert", "after": "okafor_sam", "book": [{"meet": ["okafor", "sam"]}, {"intro": ["okafor", "sam"]}],
+					"say": "Mr Okafor needs new shelves for his books. Who can build them? Introduce them: touch Mr Okafor first.",
+					"done": "Sam the carpenter will build the shelves. You worked it out!"},
+				{"id": "promise", "kind": "choose", "view": "bakery",
+					"say": "Amara asks: \"Can you bring me a bag of flour by tomorrow morning?\" Your morning is busy. What do you say?",
+					"choices": [
+						{"text": "\"I can bring it by lunchtime. Is that OK?\"", "icon": "promise"},
+						{"text": "\"Yes!\" and hope", "icon": "shrug", "why": "A promise you can't keep hurts trust. Promise what you can really do."},
+						{"text": "\"Maybe.\"", "icon": "question", "why": "'Maybe' is hard to count on. Say what you can do."}],
+					"answer": 0, "done": "Amara: \"Lunchtime is perfect.\""},
+				{"id": "noon", "kind": "timelapse", "seconds": 4, "label": "the next day, at lunchtime", "view": "square", "react": "noon",
+					"say": "The morning goes by... it's the next day, at lunchtime."},
+				{"id": "flour", "kind": "touch", "target": "flour", "view": "mill", "after": "carry_flour",
+					"say": "It's lunchtime. Pick up the flour at the mill.", "done": "Flour in your arms."},
+				{"id": "deliver", "kind": "touch", "target": "amara", "view": "bakery", "after": "flour_given",
+					"book": [{"promise": "amara"}, {"help": "amara"}],
+					"say": "Keep your word: bring Amara the flour.", "done": "Right on time. Amara knows she can count on you."},
+				{"id": "mentor", "kind": "choose", "view": "clocks", "react": "omar_works", "after": "omar_nods",
+					"say": "Omar mends clocks. You'd love to learn how. How do you ask?",
+					"choices": [
+						{"text": "\"Could you show me how you mend a clock, please? I could come on Saturday.\"", "icon": "please"},
+						{"text": "\"Teach me now!\"", "icon": "bossy", "why": "Mentors are busy people. Ask politely, and say when you can come."},
+						{"text": "Say nothing", "icon": "quiet", "why": "People like being asked to share what they know. Ask politely!"}],
+					"answer": 0, "done": "Omar smiles: \"Of course!\""},
+				{"id": "tip", "kind": "info", "view": "clocks", "book": [{"meet": ["omar"]}, {"mentor": "omar"}],
+					"say": "Omar says: \"My first rule: check twice, fix once.\" His tip is in your Connections Book."},
+				{"id": "signs", "kind": "choose", "view": "workshop", "react": "sam_waves", "book": {"meet": ["sam"]},
+					"say": "Sam the carpenter is deaf: he talks in sign language. How can you talk with him?",
+					"choices": [
+						{"text": "Face him, smile, point and show", "icon": "signs"},
+						{"text": "Shout", "icon": "talk_over", "why": "Shouting doesn't help. Face him, smile, point and show."},
+						{"text": "Don't talk to him", "icon": "cross", "why": "Everyone can be a friend. There are lots of ways to talk."}],
+					"answer": 0, "done": "Sam signs \"thank you\": in many sign languages, a flat hand from the chin, forward. Now you know a sign too!"},
+				{"id": "thank", "kind": "choose", "view": "clocks",
+					"say": "A week later, your clock works! How do you thank Omar?",
+					"choices": [
+						{"text": "\"Thank you for teaching me: my clock works!\"", "icon": "thank_you"},
+						{"text": "Forget about it", "icon": "quiet", "why": "A thank you makes people glad they helped, and keeps the friendship warm."},
+						{"text": "Ask for more lessons straight away", "icon": "bossy", "why": "Say thank you first. People like helping those who are grateful."}],
+					"answer": 0, "done": "Omar beams. Mentors love hearing it worked."},
+				{"id": "end", "kind": "info", "view": "square",
+					"say": "You found what people need, introduced them, kept your word and asked a mentor. That's how trust grows!"}
+			],
+			"check": [
+				{"say": "Ivan makes tools. Ana needs a spade. You can...", "answer": 0, "choices": [
+					{"text": "introduce them", "icon": "handshake"}, {"text": "keep it a secret", "icon": "lock"},
+					{"text": "laugh", "icon": "cross"}]},
+				{"say": "Someone asks for something by tomorrow, and you can't. You say...", "answer": 0, "choices": [
+					{"text": "\"I can by lunchtime. Is that OK?\"", "icon": "promise"}, {"text": "\"Yes!\" and hope", "icon": "shrug"},
+					{"text": "\"Maybe.\"", "icon": "question"}]},
+				{"say": "How do you ask a mentor to teach you?", "answer": 0, "choices": [
+					{"text": "politely, and say when you could come", "icon": "please"}, {"text": "\"Teach me now!\"", "icon": "bossy"},
+					{"text": "you don't ask", "icon": "quiet"}]},
+				{"say": "Sam is deaf. You talk with him by...", "answer": 0, "choices": [
+					{"text": "facing him, smiling, pointing and showing", "icon": "signs"}, {"text": "shouting", "icon": "talk_over"},
+					{"text": "not talking to him", "icon": "cross"}]}
+			],
+			"name_it": {"title": "People who count on you", "lines": ["Find out what people need.",
+				"Introduce people who can help each other.", "Promise only what you can do, then do it.",
+				"Ask a mentor politely.", "Many ways to talk: face, smile, point, show."],
+				"source": "CASEL's relationship skills and Chetty et al. (2022), Social Capital, Nature"},
+			"try_real": "With a grown-up: think of two people you know who could help each other, and ask your grown-up how to introduce them.",
+			"sources": [
+				{"fact": "Friendships across different groups (economic connectedness) are among the strongest predictors of getting ahead in life.", "source": "Chetty et al. (2022), Social Capital I, Nature 608", "url": "https://opportunityinsights.org/paper/social-capital-i-measurement-and-associations-with-economic-mobility/"},
+				{"fact": "Relationship skills include cooperating, communicating clearly and seeking or offering help.", "source": "CASEL, the CASEL framework", "url": "https://casel.org/fundamentals-of-sel/what-is-the-casel-framework/"},
+				{"fact": "Mobilising others and working with others are entrepreneurship competences.", "source": "EntreComp (2016)", "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC101581"}
+			]
+		},
+		"big": {
+			"skill": "Networks, trust, online safety",
+			"twist": "A tricky message pretends to be from a friend.",
+			"can_now": "build a network of all kinds of people, connect people who can help each other, protect their good name and stay safe online",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "square",
+					"say": "A network is the people you know, and who know you. The strongest ones have all kinds of people in them."},
+				{"id": "meet", "kind": "find", "targets": ["mei", "kenji", "rosa", "gemma"], "view": "far",
+					"book": {"meet": ["mei", "kenji", "rosa", "gemma"]},
+					"lines": {"mei": "Mei: \"I built a water pump. I need a buyer!\"",
+						"kenji": "Grandpa Kenji: \"I've kept bees for 60 years. I need jars for my honey.\"",
+						"rosa": "Rosa: \"I make jars, but I've run out of clay.\"",
+						"gemma": "Gemma: \"I study rocks. I know where the clay is!\""},
+					"say": "Meet four people: touch each one and listen to what they need and what they know.",
+					"done": "Four very different people. Each knows something you don't."},
+				{"id": "who", "kind": "choose", "view": "square",
+					"say": "Mei built a water pump and needs a buyer. Who could use it?",
+					"choices": [
+						{"text": "Ana, for her dry fields", "icon": "person_ana"},
+						{"text": "Amara, for her oven", "icon": "person_amara", "why": "An oven doesn't need a water pump. Who needs water?"},
+						{"text": "Nobody", "icon": "cross", "why": "Think of who needs water: Ana's fields are dry."}],
+					"answer": 0, "done": "Ana! Her fields are dry."},
+				{"id": "intro_pump", "kind": "sequence", "targets": ["mei", "ana"], "motion": "press", "view": "square",
+					"after": "mei_ana", "book": [{"meet": ["ana"]}, {"intro": ["mei", "ana"]}],
+					"say": "Introduce them: touch Mei, then Ana.", "done": "Mei sells her pump, and Ana's fields get water. Win-win!"},
+				{"id": "chain", "kind": "sequence", "targets": ["rosa", "gemma", "kenji"], "motion": "press", "view": "far",
+					"after": "rosa_chain", "book": [{"intro": ["rosa", "gemma"]}, {"intro": ["rosa", "kenji"]}],
+					"say": "Rosa needs clay; Gemma knows where it is; Kenji needs Rosa's jars. Touch Rosa, then Gemma, then Kenji.",
+					"done": "Clay for Rosa, jars for Kenji. One introduction can help three people."},
+				{"id": "different", "kind": "choose", "view": "far",
+					"say": "Grandpa Kenji is 80 and has kept bees for 60 years. Why is he a great person to know?",
+					"choices": [
+						{"text": "He knows things nobody else knows", "icon": "person_kenji"},
+						{"text": "He's too old to help", "icon": "cross", "why": "Older people know a lot. People different from you open new chances."},
+						{"text": "Only friends my age matter", "icon": "lock", "why": "Friends of all ages and backgrounds help you see more."}],
+					"answer": 0, "done": "People different from you know different things: that's what makes a strong network."},
+				{"id": "reputation", "kind": "choose", "view": "far",
+					"say": "You promised Rosa clay by Friday, but the clay pit is closed. What protects your good name?",
+					"choices": [
+						{"text": "Tell Rosa early, say sorry and offer a new day", "icon": "promise"},
+						{"text": "Say nothing and hope she forgets", "icon": "quiet", "why": "People trust those who tell the truth early."},
+						{"text": "Blame Gemma", "icon": "cross_arms", "why": "Blaming others hurts your good name. Own it and fix it."}],
+					"answer": 0, "done": "Rosa: \"Thank you for telling me. Monday is fine.\""},
+				{"id": "keep_in_touch", "kind": "choose", "view": "square",
+					"say": "A month later, Mei's pump waters Ana's fields. How do you keep in touch?",
+					"choices": [
+						{"text": "Send Mei a thank-you postcard: \"Ana's fields are green!\"", "icon": "postcard"},
+						{"text": "Only talk to her when you need something", "icon": "coins", "why": "Keep in touch when you don't need anything too: that's a real connection."},
+						{"text": "Forget about her", "icon": "quiet", "why": "Connections fade without a hello. A thank-you keeps them warm."}],
+					"answer": 0, "done": "Mei pins your postcard on her wall."},
+				{"id": "online", "kind": "choose", "view": "square", "device": "phone",
+					"say": "Someone you don't know messages you: \"Be my friend! Send me your address and I'll send you a present.\"",
+					"choices": [
+						{"text": "Don't reply, and tell a grown-up", "icon": "grown_up"},
+						{"text": "Send it: presents are nice", "icon": "message", "why": "Never send your address to someone you don't know. Tell a grown-up."},
+						{"text": "Send a photo instead", "icon": "cross", "why": "Never send photos or details to strangers. Tell a grown-up."}],
+					"answer": 0, "done": "Right. Online, only friends a grown-up has approved."},
+				{"id": "fake_friend", "kind": "choose", "view": "square", "mode": "expert", "device": "phone",
+					"say": "A message says it's from Mei: \"Quick! Send me your password, I need it for the pump!\"",
+					"choices": [
+						{"text": "Never share a password: check with Mei face to face, and tell a grown-up", "icon": "lock"},
+						{"text": "Send it: it's from a friend", "icon": "message", "why": "Anyone can pretend to be a friend. Nobody needs your password: tell a grown-up."},
+						{"text": "Send half of it", "icon": "cross", "why": "Never share any of a password. Check face to face, and tell a grown-up."}],
+					"answer": 0, "done": "Good: real friends never need your password."},
+				{"id": "mentor", "kind": "choose", "view": "far",
+					"say": "You'd like to start a honey stall. Who do you ask for advice, and how?",
+					"choices": [
+						{"text": "Ask Kenji politely for ten minutes, with my questions ready", "icon": "please"},
+						{"text": "Ask nobody: I'll guess", "icon": "shrug", "why": "A mentor saves you mistakes: ask the person who knows."},
+						{"text": "Ask Kenji to do it all for me", "icon": "bossy", "why": "Ask for advice, then do the work yourself."}],
+					"answer": 0, "done": "Kenji: \"Ten minutes? Let's make it twenty!\""},
+				{"id": "tip", "kind": "info", "view": "far", "book": {"mentor": "kenji"},
+					"say": "Kenji says: \"Good things take time: bees make honey drop by drop.\" His tip is in your Connections Book."},
+				{"id": "chance", "kind": "info", "view": "square", "react": "chance",
+					"say": "When people trust you, they tell you about new chances: Amara says the builders at the Launch Site would love fresh bread!"},
+				{"id": "end", "kind": "info", "view": "square",
+					"say": "A network of all kinds of people, connections that help, a good name and staying safe online. Well done!"}
+			],
+			"check": [
+				{"say": "A strong network has...", "answer": 0, "choices": [
+					{"text": "all kinds of people in it", "icon": "people"}, {"text": "only people just like me", "icon": "lock"},
+					{"text": "only famous people", "icon": "star"}]},
+				{"say": "You can't keep a promise. To protect your good name, you...", "answer": 0, "choices": [
+					{"text": "tell them early and offer a new time", "icon": "promise"}, {"text": "hope they forget", "icon": "quiet"},
+					{"text": "blame someone", "icon": "cross_arms"}]},
+				{"say": "A stranger online asks for your address. You...", "answer": 0, "choices": [
+					{"text": "don't reply, and tell a grown-up", "icon": "grown_up"}, {"text": "send it", "icon": "message"},
+					{"text": "send a photo", "icon": "cross"}]},
+				{"say": "Keeping in touch means...", "answer": 0, "choices": [
+					{"text": "a thank-you or a hello, even when you need nothing", "icon": "postcard"},
+					{"text": "only calling when you need something", "icon": "coins"}, {"text": "never talking again", "icon": "quiet"}]}
+			],
+			"name_it": {"title": "A network you can trust", "lines": ["Know all kinds of people.",
+				"Connect people who can help each other.", "Tell the truth early: your good name matters.",
+				"Keep in touch, and say thank you.", "Online: only friends a grown-up approved."],
+				"source": "Chetty et al. (2022), Social Capital, Nature; CASEL's relationship skills"},
+			"try_real": "With a grown-up: draw your network: family, friends, teachers, neighbours. Who could you thank this week?",
+			"sources": [
+				{"fact": "Economic connectedness, friendships between people from different backgrounds, is among the strongest predictors of upward mobility.", "source": "Chetty et al. (2022), Social Capital I, Nature 608", "url": "https://opportunityinsights.org/paper/social-capital-i-measurement-and-associations-with-economic-mobility/"},
+				{"fact": "Never share personal details or passwords with people you only know online; tell a trusted adult.", "source": "CEOP Education, Thinkuknow", "url": "https://www.thinkuknow.co.uk/"},
+				{"fact": "Leadership and social influence are among the skills employers rank highest.", "source": "World Economic Forum, The Future of Jobs Report 2025", "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/3-skills-outlook/"}
+			]
+		}
+	}
+}

@@ -1,0 +1,365 @@
+{
+	"id": "g3.citizenship.needs_wants",
+	"lesson": [
+		{
+			"text": "Quick memory: who grows the wheat for our bread? (A farmer.) We need bread, but do we need a new kite? Today: needs and wants."
+		},
+		{
+			"text": "Needs are things we must have to live and be healthy: food, water, a home, clothes, care when we are ill, and people who look after us.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"needs",
+						"wants"
+					],
+					[
+						"food",
+						"sweets"
+					],
+					[
+						"water",
+						"toys"
+					],
+					[
+						"a home",
+						"a new kite"
+					],
+					[
+						"clothes",
+						"a fancy hat"
+					]
+				]
+			}
+		},
+		{
+			"text": "Wants are things that are nice to have, but we could live without them: toys, sweets, a new kite, a fancy hat."
+		},
+		{
+			"text": "Some things are a bit of both. Shoes are a need; shoes with flashing lights are a want! Ask yourself: could I live well without it?"
+		},
+		{
+			"text": "Gold is limited, so we choose, and needs come first. Mimi has 10 gold. Bread costs 4 gold and a kite costs 8 gold. She cannot buy both, so she buys the bread.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"thing",
+						"gold"
+					],
+					[
+						"bread",
+						"4"
+					],
+					[
+						"kite",
+						"8"
+					]
+				]
+			}
+		},
+		{
+			"text": "Choosing one thing means giving up another. What you give up is called the opportunity cost. When Mimi chose the bread, the kite was her opportunity cost."
+		},
+		{
+			"text": "Time works the same way: if you spend an hour building, you cannot spend that hour reading. Good choosers think about what they give up."
+		},
+		{
+			"text": "Try it in the world: before you spend gold at Tilly's stall, sort what you want into needs and wants. Buy the needs first. What did you give up?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a need?",
+			"answer": 0,
+			"hint": "Which one could you not live without?",
+			"choices": [
+				"water",
+				"a toy car",
+				"sweets",
+				"a kite"
+			],
+			"explain": "Water is a need: we cannot live without it. The others are wants."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a want?",
+			"answer": 0,
+			"hint": "Which one would be nice, but you could live without?",
+			"choices": [
+				"a toy robot",
+				"food",
+				"a home",
+				"warm clothes"
+			],
+			"explain": "A toy robot is a want. Food, a home and warm clothes are needs."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "We could live without sweets, so they are a want.",
+			"answer": true,
+			"hint": "Ask: could I live well without it?",
+			"explain": "True: sweets are nice to have, but we do not need them to live."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A home to live in is a want.",
+			"answer": false,
+			"hint": "Could people live well without shelter?",
+			"explain": "False: a home is a need. It keeps us safe, warm and dry."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Mimi has 10 gold. Bread costs 4 gold and a kite costs 8. What should she buy?",
+			"answer": 0,
+			"hint": "Can she afford both? If not, which comes first?",
+			"choices": [
+				"the bread, a need",
+				"the kite, a want",
+				"both",
+				"neither"
+			],
+			"explain": "4 + 8 = 12 is more than 10, so she cannot buy both. Needs come first: the bread.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"thing",
+						"gold"
+					],
+					[
+						"bread",
+						"4"
+					],
+					[
+						"kite",
+						"8"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is an opportunity cost?",
+			"answer": 0,
+			"hint": "Think of the kite Mimi did not buy.",
+			"choices": [
+				"what you give up when you choose",
+				"the price of a kite",
+				"a lucky coin",
+				"a free gift"
+			],
+			"explain": "The opportunity cost is the thing you give up when you choose something else."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Everyone has enough gold to buy everything they want.",
+			"answer": false,
+			"hint": "Why do we have to choose?",
+			"explain": "False: gold is limited, so we have to choose what to buy."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Shoes are a need. What makes shoes with flashing lights a want?",
+			"answer": 0,
+			"hint": "Could you walk and keep your feet safe without the lights?",
+			"choices": [
+				"the lights are nice but not needed",
+				"shoes are never needed",
+				"lights keep feet warm",
+				"they cost nothing"
+			],
+			"explain": "Shoes are a need, but the flashing lights are extra, so those shoes are a want."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram has one free hour. He builds instead of reading. What is his opportunity cost?",
+			"answer": 0,
+			"hint": "What did he not do because of his choice?",
+			"choices": [
+				"the hour of reading he gave up",
+				"the blocks he used",
+				"nothing",
+				"the building itself"
+			],
+			"explain": "His opportunity cost is the reading he gave up to build."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which choice puts needs first?",
+			"answer": 0,
+			"hint": "Needs come first, then wants with what is left.",
+			"choices": [
+				"buy food, then a toy if gold is left",
+				"buy a toy, then see about food",
+				"buy only sweets",
+				"spend it all on hats"
+			],
+			"explain": "Buying food first, then a toy only if there is gold left, puts needs first."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Clothes are a need, but you may not need the most expensive ones.",
+			"answer": true,
+			"hint": "Think of the shoes with flashing lights.",
+			"explain": "True: we need clothes, but the extras on fancy ones are wants."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly has 12 gold. A lantern costs 7 and a kite costs 6. If she buys the lantern, what is her opportunity cost?",
+			"answer": 0,
+			"hint": "Work out how much gold is left after the lantern.",
+			"choices": [
+				"the kite",
+				"the lantern",
+				"12 gold",
+				"nothing"
+			],
+			"explain": "12 − 7 = 5 gold left, not enough for the 6-gold kite. So the kite is what she gives up."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Choosing to spend your gold on one thing means you cannot spend that gold on something else.",
+			"answer": true,
+			"hint": "Can the same coin be spent twice?",
+			"explain": "True: once gold is spent, it is gone, so every choice gives something else up."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: needs or wants?",
+			"groups": [
+				"needs",
+				"wants"
+			],
+			"items": [
+				"water",
+				"a toy robot",
+				"a warm coat",
+				"sweets",
+				"a home",
+				"a new kite"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Ask of each one: could I live well without it?",
+			"explain": "Needs: water, a warm coat, a home. Wants: a toy robot, sweets, a new kite."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"a need",
+				"a want",
+				"an opportunity cost"
+			],
+			"matches": [
+				"what you give up when you choose",
+				"nice to have",
+				"something you must have"
+			],
+			"answer": [
+				2,
+				1,
+				0
+			],
+			"hint": "Could you live well without it?",
+			"explain": "A need is something you must have, a want is nice to have, and an opportunity cost is what you give up."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Mimi has 10 gold. She buys bread for 4 gold. How much gold is left?",
+			"answer": "6",
+			"hint": "Take the price away from 10.",
+			"explain": "10 − 4 = 6 gold left."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put Mimi's choice in order.",
+			"items": [
+				"She buys the bread.",
+				"She sees she cannot buy both.",
+				"She counts her 10 gold."
+			],
+			"answer": [
+				2,
+				1,
+				0
+			],
+			"hint": "What does she check first?",
+			"explain": "She counts her gold, sees she cannot buy both, and buys the bread, the need."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: a need, or a want? Watch out for the extras.",
+			"groups": [
+				"need",
+				"want"
+			],
+			"items": [
+				"shoes",
+				"shoes with flashing lights",
+				"a warm coat",
+				"a coat with a fancy badge",
+				"a drink of water",
+				"a fizzy drink"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Ask: could I live well without it?",
+			"explain": "Needs: shoes, a warm coat and water. Wants: the flashing lights, the fancy badge and the fizzy drink are extras we could live without."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram has 15 gold. He needs bread for 4 gold and milk for 3 gold. How much gold is left for wants?",
+			"answer": "8",
+			"hint": "Buy the needs first: add them up, then take that away.",
+			"explain": "The needs cost 4 + 3 = 7 gold. 15 − 7 = 8 gold left for wants."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3h.coins_spend",
+			"level": 1
+		},
+		{
+			"gen": "g3h.coins_spend",
+			"level": 2
+		},
+		{
+			"gen": "g3h.coins_spend",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,361 @@
+{
+	"id": "g3.design_tech.sewing_weaving",
+	"lesson": [
+		{
+			"text": "Quick memory: which is stiffer, flat card or card folded into a zigzag? (The zigzag.) Fabric is soft, but we can join it strongly with stitches."
+		},
+		{
+			"text": "To sew, push the thread through the eye of the needle and tie a knot at the long end. The knot stops the thread pulling right through the fabric."
+		},
+		{
+			"text": "A running stitch goes up and down through the fabric in a line, like a dashed line. Keep the stitches the same length and the gaps the same size.",
+			"picture": {
+				"kind": "stitch",
+				"what": "running"
+			}
+		},
+		{
+			"text": "Start from the back, so the knot is hidden, and finish with two small stitches on top of each other. Needles are sharp: keep them in a needle case, count them back in, and sew with a grown-up."
+		},
+		{
+			"text": "Backstitch leaves no gaps, so it is stronger; overstitch goes over the edge to join two pieces.",
+			"picture": {
+				"kind": "stitch",
+				"what": "back"
+			}
+		},
+		{
+			"text": "Weaving makes fabric. The warp threads are stretched tight on a loom; the weft thread goes across them, over one and under one.",
+			"picture": {
+				"kind": "weave",
+				"rows": [
+					"ouououou"
+				]
+			}
+		},
+		{
+			"text": "On the next row, start the other way: under one, over one. That locks the threads together. Two colours of weft make stripes.",
+			"picture": {
+				"kind": "weave",
+				"rows": [
+					"ououou",
+					"uououo",
+					"ououou",
+					"uououo"
+				],
+				"weft": [
+					"red",
+					"red",
+					"yellow",
+					"yellow"
+				],
+				"numbers": true
+			}
+		},
+		{
+			"text": "Try it in the world: weave a giant rug on your floor with two colours of wool blocks: over one, under one, then swap for the next row!"
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A knot at the end of the thread stops it pulling through the fabric.",
+			"answer": true,
+			"hint": "What happens to thread with no knot?",
+			"explain": "True: the knot is too big to go through the hole."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which stitch looks like a dashed line going up and down?",
+			"answer": 0,
+			"hint": "Look at the stitch with even gaps.",
+			"choices": [
+				"running stitch",
+				"backstitch",
+				"overstitch",
+				"a knot"
+			],
+			"explain": "A running stitch goes up and down, leaving even gaps like a dashed line.",
+			"picture": {
+				"kind": "stitch",
+				"what": "running"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where should you keep needles when you are not using them?",
+			"answer": 0,
+			"hint": "Needles are sharp and tiny.",
+			"choices": [
+				"in a needle case",
+				"in your pocket",
+				"on the floor",
+				"in your mouth"
+			],
+			"explain": "In a needle case or a pin cushion, so they cannot get lost or hurt anyone."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In weaving, what are the threads stretched tight on the loom called?",
+			"answer": 0,
+			"hint": "The weft goes across them.",
+			"choices": [
+				"the warp",
+				"the weft",
+				"the knot",
+				"the needle"
+			],
+			"explain": "The warp threads are stretched tight; the weft goes across them."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the running stitch in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "The knot comes before the first stitch.",
+			"items": [
+				"tie a knot at the end",
+				"go down and up in a line",
+				"thread the needle",
+				"push up from the back",
+				"finish with two small stitches"
+			],
+			"explain": "Thread the needle, knot it, push up from the back, stitch down and up in a line, and finish off."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In plain weaving, the weft thread goes…",
+			"answer": 0,
+			"hint": "Look at the weave on the lesson card.",
+			"choices": [
+				"over one, under one",
+				"over everything",
+				"under everything",
+				"round and round one thread"
+			],
+			"explain": "Over one, under one, all the way across."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Each new row of weaving starts the same way as the row before.",
+			"answer": false,
+			"hint": "What locks the threads together?",
+			"explain": "False: each new row starts the other way (under one, over one)."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"warp",
+				"weft",
+				"running stitch",
+				"loom"
+			],
+			"matches": [
+				"the thread that goes across",
+				"up and down in a line",
+				"the frame you weave on",
+				"threads held tight on a loom"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the weaving and sewing cards.",
+			"explain": "Warp: held tight on the loom. Weft: goes across. Running stitch: up and down in a line. Loom: the frame."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Look at the weaving. Which row is not right?",
+			"answer": 0,
+			"hint": "Each row must start the opposite way to the row above it.",
+			"choices": [
+				"row 4",
+				"row 1",
+				"row 2",
+				"row 3"
+			],
+			"explain": "Rows 3 and 4 both start over, so row 4 does not lock. It should start under: under one, over one.",
+			"picture": {
+				"kind": "weave",
+				"rows": [
+					"ououou",
+					"uououo",
+					"ououou",
+					"ououou"
+				],
+				"numbers": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why start sewing from the back of the fabric?",
+			"answer": 0,
+			"hint": "Where do you want the knot to end up?",
+			"choices": [
+				"so the knot is hidden",
+				"so it goes faster",
+				"so the needle is safer",
+				"so it uses less thread"
+			],
+			"explain": "Starting from the back hides the knot, so the front looks neat."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why should running stitches be even?",
+			"answer": 0,
+			"hint": "What happens where a stitch is too long?",
+			"choices": [
+				"to join strongly and look neat",
+				"to use more thread",
+				"to make holes",
+				"to be quick"
+			],
+			"explain": "Even stitches join the fabric strongly all the way along and look neat."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Is it about sewing or weaving?",
+			"groups": [
+				"sewing",
+				"weaving"
+			],
+			"items": [
+				"a needle",
+				"a loom",
+				"a knot",
+				"warp threads",
+				"running stitch",
+				"the weft"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Weaving makes fabric; sewing joins it.",
+			"explain": "Sewing: a needle, a knot, running stitch. Weaving: a loom, warp threads, the weft."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly wants a red stripe across her weaving. What should she do?",
+			"answer": 0,
+			"hint": "Stripes go across, like the weft.",
+			"choices": [
+				"weave a few rows with red weft",
+				"use red warp only",
+				"sew a red knot",
+				"cut the weaving"
+			],
+			"explain": "Weaving a few rows with red weft makes a red stripe across."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Backstitch leaves no gaps, so it is stronger than running stitch.",
+			"answer": true,
+			"hint": "Look at the backstitch picture.",
+			"explain": "True: each backstitch meets the one before, so there are no gaps.",
+			"picture": {
+				"kind": "stitch",
+				"what": "back"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What should you do with the needles when you finish sewing?",
+			"answer": 0,
+			"hint": "How do you know none are lost?",
+			"choices": [
+				"count them back into the case",
+				"leave them in the chair",
+				"put them in the bin",
+				"hide them in the fabric"
+			],
+			"explain": "Count them back into the needle case, so none is left where it could hurt someone."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the habits: safe with needles, or not?",
+			"groups": [
+				"safe",
+				"not safe"
+			],
+			"items": [
+				"keep needles in a case",
+				"leave a needle on a chair",
+				"count needles back in",
+				"hold a needle in your mouth",
+				"sew with a grown-up"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Needles are sharp: which habits stop them hurting someone or getting lost?",
+			"explain": "Safe: a needle case, counting needles back in, sewing with a grown-up. Not safe: a needle left on a chair, or held in your mouth."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A line of running stitch has 6 stitches, each 1 cm long, and 5 gaps of 1 cm between them. How long is the line, in cm?",
+			"answer": "11",
+			"hint": "Count the stitches and the gaps, then add their lengths.",
+			"explain": "6 stitches of 1 cm make 6 cm, and 5 gaps of 1 cm make 5 cm. 6 + 5 = 11 cm of stitching."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each job to the best stitch or method.",
+			"items": [
+				"a strong seam with no gaps",
+				"joining two edges",
+				"a quick line of stitches",
+				"a striped mat"
+			],
+			"matches": [
+				"running stitch",
+				"weaving two colours",
+				"backstitch",
+				"overstitch"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think about what each one does: no gaps, over the edge, up and down, or over and under.",
+			"explain": "Backstitch leaves no gaps, so it makes a strong seam. Overstitch goes over the edge to join two pieces. Running stitch makes a quick line. Weaving with two colours of weft makes a striped mat."
+		}
+	],
+	"generators": []
+}

@@ -1,0 +1,469 @@
+{
+	"id": "g3.science.classification_keys",
+	"lesson": [
+		{
+			"text": "Remember? Living things can be sorted into groups: plants, animals, fungi and bacteria. Today: how scientists name a living thing they have never seen before, with a key."
+		},
+		{
+			"text": "Sorting means putting things with the same feature together. We can sort animals by what covers their bodies: feathers, fur, scales or a shell.",
+			"picture": {
+				"kind": "icon",
+				"animal": "parrot"
+			}
+		},
+		{
+			"text": "A key asks yes or no questions, one at a time. Each answer sends you on, until you reach a name. This key names four animals.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Question",
+						"Yes",
+						"No"
+					],
+					[
+						"1 Feathers?",
+						"parrot",
+						"go to 2"
+					],
+					[
+						"2 Fur?",
+						"rabbit",
+						"go to 3"
+					],
+					[
+						"3 Fins?",
+						"fish",
+						"frog"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it: an animal has no feathers and no fur, but it has fins. Question 1: no. Question 2: no. Question 3: yes. It is the fish!",
+			"picture": {
+				"kind": "icon",
+				"animal": "fish"
+			}
+		},
+		{
+			"text": "Good key questions have a clear yes or no answer that everyone agrees on. \"Does it have six legs?\" is a good question. \"Is it pretty?\" is not, because people think differently."
+		},
+		{
+			"text": "To make a key, find a feature that some things have and others do not, and ask about it. Keep asking about new features until every living thing is on its own."
+		},
+		{
+			"text": "Keys work for plants too. \"Does it have flowers?\" splits flowering plants, like roses and grasses, from plants that never flower, like ferns and mosses."
+		},
+		{
+			"text": "Try it in the world: make a key for five animals in your world (a sheep, a fish, a parrot, a frog, a fox) with yes-or-no questions. Next: life cycles."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a key ask?",
+			"answer": 0,
+			"hint": "How do you answer each question in a key?",
+			"choices": [
+				"yes or no questions, one at a time",
+				"for a secret number",
+				"what time it is"
+			],
+			"explain": "A key asks yes or no questions, one at a time, until it reaches a name."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Use the key. An animal has feathers. What is it?",
+			"answer": 0,
+			"hint": "Start at question 1: does it have feathers?",
+			"choices": [
+				"parrot",
+				"rabbit",
+				"fish",
+				"frog"
+			],
+			"explain": "Question 1: feathers? Yes, so it is the parrot.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Question",
+						"Yes",
+						"No"
+					],
+					[
+						"1 Feathers?",
+						"parrot",
+						"go to 2"
+					],
+					[
+						"2 Fur?",
+						"rabbit",
+						"go to 3"
+					],
+					[
+						"3 Fins?",
+						"fish",
+						"frog"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Use the key. An animal has no feathers, but it has fur. What is it?",
+			"answer": 0,
+			"hint": "Question 1 says no, so go to question 2.",
+			"choices": [
+				"rabbit",
+				"parrot",
+				"fish",
+				"frog"
+			],
+			"explain": "Question 1: no. Question 2: fur? Yes, so it is the rabbit.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Question",
+						"Yes",
+						"No"
+					],
+					[
+						"1 Feathers?",
+						"parrot",
+						"go to 2"
+					],
+					[
+						"2 Fur?",
+						"rabbit",
+						"go to 3"
+					],
+					[
+						"3 Fins?",
+						"fish",
+						"frog"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Sorting means putting things with the same feature together.",
+			"answer": true,
+			"hint": "Think of sorting socks by colour.",
+			"explain": "True: when we sort, we group things that share a feature."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Use the key. An animal has no feathers, no fur and no fins. What is it?",
+			"answer": 0,
+			"hint": "Answer no three times and see where you end.",
+			"choices": [
+				"frog",
+				"fish",
+				"rabbit",
+				"parrot"
+			],
+			"explain": "No, no, no: question 3's no answer is the frog.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Question",
+						"Yes",
+						"No"
+					],
+					[
+						"1 Feathers?",
+						"parrot",
+						"go to 2"
+					],
+					[
+						"2 Fur?",
+						"rabbit",
+						"go to 3"
+					],
+					[
+						"3 Fins?",
+						"fish",
+						"frog"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is a good question for a key?",
+			"answer": 0,
+			"hint": "Would everyone give the same answer?",
+			"choices": [
+				"Does it have six legs?",
+				"Is it cute?",
+				"Is it the best animal?"
+			],
+			"explain": "\"Does it have six legs?\" has one clear answer. Cute and best depend on who you ask."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which question splits a dog from a goldfish?",
+			"answer": 0,
+			"hint": "Find a feature one has and the other does not.",
+			"choices": [
+				"Does it have fur?",
+				"Is it an animal?",
+				"Is it alive?"
+			],
+			"explain": "A dog has fur and a goldfish does not. Both are animals and both are alive."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In a key, every question can be answered with yes or no.",
+			"answer": true,
+			"hint": "Look at the key's two answer columns.",
+			"explain": "True: each question in a key has just two answers, yes or no."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Use the key. How many questions do you answer to name the fish?",
+			"answer": "3",
+			"hint": "Walk through the key with the fish: feathers? fur? fins?",
+			"explain": "Question 1: no, question 2: no, question 3: yes. That is 3 questions.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Question",
+						"Yes",
+						"No"
+					],
+					[
+						"1 Feathers?",
+						"parrot",
+						"go to 2"
+					],
+					[
+						"2 Fur?",
+						"rabbit",
+						"go to 3"
+					],
+					[
+						"3 Fins?",
+						"fish",
+						"frog"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara sorts a fern, a rose, some moss and a daisy. Which question splits them into two groups of two?",
+			"answer": 0,
+			"hint": "Which feature do only two of them have?",
+			"choices": [
+				"Does it have flowers?",
+				"Is it a plant?",
+				"Is it living?"
+			],
+			"explain": "The rose and the daisy have flowers; the fern and the moss never flower."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A snake goes through this key. It has no feathers, fur or fins. What does the key say?",
+			"answer": 0,
+			"hint": "Follow the key exactly: it only knows four animals.",
+			"choices": [
+				"frog",
+				"fish",
+				"snake"
+			],
+			"explain": "No, no, no gives frog! A key only works for the living things it was made for.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Question",
+						"Yes",
+						"No"
+					],
+					[
+						"1 Feathers?",
+						"parrot",
+						"go to 2"
+					],
+					[
+						"2 Fur?",
+						"rabbit",
+						"go to 3"
+					],
+					[
+						"3 Fins?",
+						"fish",
+						"frog"
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of making a key in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What do you do before you can ask a question?",
+			"items": [
+				"Repeat until each one is alone",
+				"Ask a yes or no question about it",
+				"Find a feature only some have",
+				"Look at the living things"
+			],
+			"explain": "Look, find a feature, ask about it, and keep going until every living thing is on its own."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bug key: 8 legs? yes: spider. Wings? yes: bee, no: ant. A bug has 6 legs and no wings. What is it?",
+			"answer": 0,
+			"hint": "Answer the first question, then the second.",
+			"choices": [
+				"ant",
+				"bee",
+				"spider"
+			],
+			"explain": "8 legs? No. Wings? No. So it is the ant."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "\"Is it big?\" is a good question for a key.",
+			"answer": false,
+			"hint": "Is a cat big? Ask a mouse and an elephant!",
+			"explain": "False: big means different things to different people. Good key questions have one clear answer."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the animals: feathers or no feathers?",
+			"hint": "Picture each animal's body covering.",
+			"groups": [
+				"feathers",
+				"no feathers"
+			],
+			"items": [
+				"a parrot",
+				"a fish",
+				"a duck",
+				"a rabbit"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"explain": "A parrot and a duck have feathers; a fish has scales and a rabbit has fur."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the animals by what covers their bodies.",
+			"groups": [
+				"feathers",
+				"fur",
+				"scales"
+			],
+			"items": [
+				"a duck",
+				"a fox",
+				"a fish",
+				"a parrot",
+				"a rabbit",
+				"a snake"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Picture touching each animal: soft fur, smooth feathers, or hard little scales?",
+			"explain": "Feathers: a duck and a parrot. Fur: a fox and a rabbit. Scales: a fish and a snake."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Use the key to name a frog: put the questions you answer in order.",
+			"items": [
+				"Fur? No.",
+				"Fins? No.",
+				"Feathers? No."
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "The key asks about feathers first, then fur, then fins.",
+			"explain": "Question 1: feathers? No. Question 2: fur? No. Question 3: fins? No. Three noes lead to the frog."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the questions: good for a key, or not?",
+			"groups": [
+				"good question",
+				"not a good question"
+			],
+			"items": [
+				"Does it have six legs?",
+				"Is it pretty?",
+				"Does it have wings?",
+				"Is it the best?",
+				"Does it have fur?",
+				"Is it big?"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "A good key question has one clear yes or no that everyone agrees on.",
+			"explain": "Good: six legs, wings and fur can be checked, so everyone gets the same answer. Not good: pretty, best and big depend on who you ask."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3s.key_walk",
+			"level": 1
+		},
+		{
+			"gen": "g3s.key_walk",
+			"level": 2
+		},
+		{
+			"gen": "g3s.key_walk",
+			"level": 3
+		}
+	]
+}

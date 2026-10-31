@@ -1,0 +1,322 @@
+{
+	"id": "g7.art.designing_buildings",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, which buildings used pointed arches? (Gothic cathedrals.) Today: drawing buildings as architects do, with plans and elevations."
+		},
+		{
+			"text": "Architects design with drawings. A plan is the view from above, as if the roof were lifted off: rooms, walls, doors and windows. An elevation shows one side of the building straight on.",
+			"picture": {
+				"kind": "house_drawing",
+				"view": "plan",
+				"labels": true
+			}
+		},
+		{
+			"text": "Plans are scale drawings: every length is shrunk by the same amount. At 1:100, 1 cm on the plan stands for 100 cm, which is 1 m. At 1:100, 10 cm on the plan is 10 m."
+		},
+		{
+			"text": "Plan symbols: thick lines for walls, and a gap with a quarter circle for a door (it shows the door's swing). Thin double lines show a window. Sizes are written on dimension lines.",
+			"picture": {
+				"kind": "house_drawing",
+				"view": "plan",
+				"dims": true,
+				"scale": "1:100"
+			}
+		},
+		{
+			"text": "Elevations show each side straight on: the front with its door and windows, the side with the triangle of its roof (the gable). Heights come from elevations, widths and depths from plans.",
+			"picture": {
+				"kind": "house_drawing",
+				"view": "front",
+				"dims": true
+			}
+		},
+		{
+			"text": "Worked example: this house is 10 m wide. At 1:50, 1 cm on the drawing stands for 50 cm, so 10 m (1,000 cm) is drawn 20 cm wide. At 1:50, 20 cm on the drawing is 10 m.",
+			"picture": {
+				"kind": "house_drawing",
+				"view": "side",
+				"dims": true,
+				"scale": "1:50"
+			}
+		},
+		{
+			"text": "From plans and elevations, a model can be built. Cut card walls to scale, add the roof, and check it from above and each side. Christopher Wren (1632-1723) had a model of St Paul's Cathedral made at 1:25, big enough to walk inside."
+		},
+		{
+			"text": "Try it in the world: measure your room with a tape measure and draw its plan at 1:50, with the door's swing and the window. Next: composition."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a plan show?",
+			"answer": 0,
+			"hint": "Imagine lifting the roof off and looking down.",
+			"choices": [
+				"the building from above",
+				"the front straight on",
+				"the building in 3D",
+				"the view from inside"
+			],
+			"explain": "A plan is the view from above: rooms, walls, doors and windows.",
+			"picture": {
+				"kind": "house_drawing",
+				"view": "plan"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does the ringed symbol show?",
+			"answer": 0,
+			"hint": "Look for the gap and the quarter circle.",
+			"choices": [
+				"a door and its swing",
+				"a window",
+				"stairs",
+				"a wall"
+			],
+			"explain": "A gap in the wall with a quarter circle is a door: the curve shows how it swings.",
+			"picture": {
+				"kind": "house_drawing",
+				"view": "plan",
+				"mark": "front door"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "An elevation shows one side of a building, seen straight on.",
+			"answer": true,
+			"hint": "Front elevation, side elevation.",
+			"explain": "True: each side, flat on, with no perspective."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A plan is drawn at 1:100. A wall is 6 cm long on the plan. How many metres long is the real wall?",
+			"answer": "6",
+			"hint": "At 1:100, how many centimetres does 1 cm stand for?",
+			"explain": "At 1:100, 6 cm on the plan is 6 m: each centimetre stands for 100 cm, 1 m."
+		},
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label this plan.",
+			"picture": {
+				"kind": "house_drawing",
+				"view": "plan"
+			},
+			"labels": [
+				"bedroom",
+				"kitchen",
+				"living room",
+				"front door"
+			],
+			"spots": [
+				[
+					0.115,
+					0.6,
+					0.342,
+					0.6376
+				],
+				[
+					0.885,
+					0.4,
+					0.658,
+					0.4734
+				],
+				[
+					0.635,
+					0.94,
+					0.5,
+					0.8019
+				],
+				[
+					0.115,
+					0.24,
+					0.342,
+					0.3091
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "The front is at the bottom; the big room on the right has two windows' worth of wall.",
+			"explain": "Bedroom top left, kitchen bottom left, the living room along the right, and the front door in the middle of the front wall."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "At 1:50, a room is 8 cm wide on the plan. How many metres wide is the real room?",
+			"answer": "4",
+			"hint": "At 1:50, 1 cm on the plan is 50 cm.",
+			"explain": "At 1:50, 8 cm on the plan is 4 m: 8 × 50 = 400 cm."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which drawing shows the triangle of the roof's end, the gable?",
+			"answer": 0,
+			"hint": "The roof slopes up from the front and back walls, so which side shows its triangle?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "house_drawing",
+						"view": "side"
+					}
+				},
+				{
+					"picture": {
+						"kind": "house_drawing",
+						"view": "front"
+					}
+				},
+				{
+					"picture": {
+						"kind": "house_drawing",
+						"view": "plan"
+					}
+				}
+			],
+			"explain": "The side elevation shows the gable's triangle."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which drawing do you measure a building's height from?",
+			"answer": 0,
+			"hint": "A plan looks down from above: can it show height?",
+			"choices": [
+				"an elevation",
+				"a plan",
+				"a map",
+				"a list of rooms"
+			],
+			"explain": "An elevation shows the side straight on, with its heights."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The house is 10 m wide and 6 m deep. What is its floor area in square metres?",
+			"answer": "60",
+			"hint": "Area of a rectangle: width × depth.",
+			"explain": "10 × 6 = 60 m².",
+			"picture": {
+				"kind": "house_drawing",
+				"view": "plan",
+				"dims": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "At 1:100, the drawing is 100 times bigger than the real building.",
+			"answer": false,
+			"hint": "Which is bigger, a plan or a house?",
+			"explain": "False: the real building is 100 times bigger than the drawing."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each drawing to what it shows.",
+			"items": [
+				"plan",
+				"front elevation",
+				"side elevation",
+				"model"
+			],
+			"matches": [
+				"the front, straight on",
+				"a side, straight on",
+				"the building in 3D, small",
+				"the view from above"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Plan: down; elevation: across.",
+			"explain": "Plan: above; front elevation: the front; side elevation: a side; model: small and 3D."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "You draw a 6 m long wall at 1:50. How many centimetres long is it on the drawing?",
+			"answer": "12",
+			"hint": "Turn metres into centimetres, then divide by 50.",
+			"explain": "6 m is 600 cm; 600 ÷ 50 = 12 cm. At 1:50, 12 cm on the drawing is 6 m."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A model is built at 1:20. The real door is 2 m tall. How many centimetres tall is the model's door?",
+			"answer": "10",
+			"hint": "Turn metres into centimetres, then divide by 20.",
+			"explain": "2 m is 200 cm; 200 ÷ 20 = 10 cm. At 1:20, 10 cm on the model is 2 m."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "On this front elevation, the walls are 3 m tall and the top of the roof is 5.5 m up. How tall is the roof itself?",
+			"answer": "2.5",
+			"hint": "Take the wall's height from the whole height.",
+			"explain": "5.5 − 3 = 2.5 m.",
+			"picture": {
+				"kind": "house_drawing",
+				"view": "front",
+				"dims": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "On a plan, a scale bar shows 5 m as 5 cm. What is the scale?",
+			"answer": 0,
+			"hint": "What does 1 cm stand for?",
+			"choices": [
+				"1:100",
+				"1:50",
+				"1:10",
+				"1:500"
+			],
+			"explain": "5 cm for 5 m means 1 cm stands for 1 m, 100 cm: 1:100."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why build a model before the real building?",
+			"answer": 0,
+			"hint": "What is easier to change: card or bricks?",
+			"choices": [
+				"to check how it looks and fits, cheaply",
+				"because it is required",
+				"to live in it",
+				"to sell it as a toy"
+			],
+			"explain": "A model shows how the building looks and fits from every side, and changing card is cheap."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.scale_drawing",
+			"level": 1
+		},
+		{
+			"gen": "g7c.scale_drawing",
+			"level": 2
+		},
+		{
+			"gen": "g7c.scale_drawing",
+			"level": 3
+		}
+	]
+}

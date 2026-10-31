@@ -1,0 +1,446 @@
+{
+	"id": "g3.music.compose_loops",
+	"lesson": [
+		{
+			"text": "Quick memory: in computing, what does a loop do? (It repeats steps.) Music can loop too!"
+		},
+		{
+			"text": "A music loop is a short pattern that repeats again and again. Musicians call a repeating pattern an ostinato.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx-x-x-xxx-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "Start with a rhythm loop of 4 beats, like ta, ti-ti, ta, rest. Repeat it, and it becomes a groove.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"quavers",
+					"crotchet",
+					"rest"
+				],
+				"words": true
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx---x-xxx---",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "Add a melody loop: choose a few notes, like C, E and G, and put them in a pattern. Repeat it.",
+			"picture": {
+				"kind": "melody",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C4",
+					"E4",
+					"G4",
+					"E4"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C4",
+					"E4",
+					"G4",
+					"E4"
+				]
+			}
+		},
+		{
+			"text": "Composers make choices: which notes, how long, in what order, fast or slow, loud or quiet. Change one thing and listen to how it sounds."
+		},
+		{
+			"text": "Layers: one friend claps the rhythm loop while another sings or plays the melody loop on top. Together they make a piece.",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"clap",
+						"x-x-xx--"
+					],
+					[
+						"tune",
+						"xxx-xxx-"
+					]
+				]
+			}
+		},
+		{
+			"text": "Write your loop down so you can play it again: ta, ti-ti and rest for the rhythm, and note names for the tune."
+		},
+		{
+			"text": "Try it in the world: build a loop in your world with blocks, one colour for each note. Walk along it singing each note, and when you reach the end, go back to the start!"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a music loop?",
+			"answer": 0,
+			"hint": "Loops go round and round.",
+			"choices": [
+				"a short pattern that repeats",
+				"a very long song",
+				"a loud noise",
+				"a broken note"
+			],
+			"explain": "A music loop is a short pattern that repeats again and again."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Listen. Does this rhythm repeat?",
+			"answer": true,
+			"hint": "Listen for the same pattern coming again.",
+			"explain": "True: the same 4 beats come twice.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx---x-xxx---",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. How many times does the pattern play?",
+			"answer": 0,
+			"hint": "Count each time the lowest note starts the pattern again.",
+			"choices": [
+				"3 times",
+				"2 times",
+				"1 time",
+				"5 times"
+			],
+			"explain": "The three notes go round 3 times.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"C4",
+					"E4",
+					"G4",
+					"C4",
+					"E4",
+					"G4"
+				]
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 1,
+			"prompt": "Listen to the loop, then copy one time round it in the boxes.",
+			"hint": "Each beat has two boxes. ta: a clap in the first box. ti-ti: claps in both. A rest: no clap at all.",
+			"explain": "One time round is ta, ti-ti: claps in boxes 1, 3 and 4.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xx",
+				"tempo": 70
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Listen to this loop, then copy one time round in the boxes.",
+			"hint": "Each beat has two boxes. ta: a clap in the first box. ti-ti: claps in both. A rest: no clap at all.",
+			"explain": "One time round is ti-ti, ta: claps in boxes 1, 2 and 3.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxx-",
+				"tempo": 75
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Listen to the loop, then copy one time round: four beats, two boxes each.",
+			"hint": "Each beat has two boxes. ta: a clap in the first box. ti-ti: claps in both. A rest: no clap at all.",
+			"explain": "One time round is ta, ti-ti, ta, rest: claps in boxes 1, 3, 4 and 5.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx---",
+				"tempo": 80
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an ostinato?",
+			"answer": 0,
+			"hint": "Remember the lesson card.",
+			"choices": [
+				"a pattern that repeats again and again",
+				"a very fast song",
+				"a kind of drum",
+				"the last note of a song"
+			],
+			"explain": "An ostinato is a musical pattern that repeats again and again, like a loop."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Listen. How many times does “ti-ti, ta” come?",
+			"answer": "3",
+			"hint": "Count each ti-ti, ta as you listen.",
+			"explain": "ti-ti, ta comes 3 times: the loop repeats 3 times.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxx-xxx-xxx-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which is the loop?",
+			"answer": 0,
+			"hint": "Listen to the first two notes: which is higher?",
+			"choices": [
+				"G then E",
+				"E then G",
+				"G, G, E",
+				"E, E, G"
+			],
+			"explain": "G then E: a higher note, then a lower one, again and again.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"E4",
+					"G4",
+					"E4",
+					"G4",
+					"E4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Zara's loop is ta, ta, ti-ti. How many claps does it have each time round?",
+			"answer": 0,
+			"hint": "ta is one clap, ti-ti is two.",
+			"choices": [
+				"4",
+				"3",
+				"2",
+				"6"
+			],
+			"explain": "1 + 1 + 2 = 4 claps each time round."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A loop of 4 beats plays 5 times. How many beats is that altogether?",
+			"answer": "20",
+			"hint": "Each time round is 4 beats. How many beats in 5 times round?",
+			"explain": "5 × 4 = 20 beats."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Listen. Is this tune a loop that repeats?",
+			"answer": false,
+			"hint": "Does any part come round again?",
+			"explain": "False: every note is new, going up and up. A loop repeats its pattern.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"A4",
+					"B4",
+					"C5"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which rhythm is the loop?",
+			"answer": 0,
+			"hint": "Listen as often as you like. Tap along, or say the rhythm quietly as you listen.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"crotchet",
+							"crotchet",
+							"quavers",
+							"rest"
+						],
+						"words": true
+					}
+				},
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"crotchet",
+							"quavers",
+							"crotchet",
+							"rest"
+						],
+						"words": true
+					}
+				},
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"quavers",
+							"crotchet",
+							"crotchet",
+							"rest"
+						],
+						"words": true
+					}
+				}
+			],
+			"explain": "The loop is ta, ta, ti-ti, rest, played twice.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-xx--x-x-xx--",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You want your loop to sound calmer. What could you change?",
+			"answer": 0,
+			"hint": "What makes music feel calm?",
+			"choices": [
+				"make it slower and quieter",
+				"make it faster and louder",
+				"add lots of crashes",
+				"stop it halfway"
+			],
+			"explain": "Slower and quieter makes a loop feel calmer."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of composing in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You can't choose before you try.",
+			"items": [
+				"Perform it for a friend",
+				"Practise it until it's steady",
+				"Choose your favourite idea",
+				"Try out some ideas"
+			],
+			"explain": "Try ideas, choose your favourite, practise it, then perform it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which picture shows one time round the loop?",
+			"answer": 0,
+			"hint": "Draw the tune in the air with your finger as you listen: up for higher notes, down for lower ones.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"C4",
+							"E4",
+							"G4:2"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"G4",
+							"E4",
+							"C4:2"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"C4",
+							"G4",
+							"E4:2"
+						]
+					}
+				}
+			],
+			"explain": "Each time round goes up: C, E, G.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4:2",
+					"C4",
+					"E4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A rhythm loop and a melody loop played together are called layers.",
+			"answer": true,
+			"hint": "Remember the lesson card about friends playing together.",
+			"explain": "True: one on top of another, like layers of a cake."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen. The loop is ta, ti-ti. How many claps are there altogether?",
+			"answer": "9",
+			"hint": "Count the claps in one loop, then how many times it plays.",
+			"explain": "ta, ti-ti is 1 + 2 = 3 claps, and it plays 3 times: 3 × 3 = 9 claps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx-xxx-xx",
+				"tempo": 90
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3a.copy_rhythm",
+			"level": 1
+		},
+		{
+			"gen": "g3a.copy_rhythm",
+			"level": 2
+		},
+		{
+			"gen": "g3a.copy_rhythm",
+			"level": 3
+		}
+	]
+}

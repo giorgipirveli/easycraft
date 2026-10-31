@@ -1,0 +1,364 @@
+{
+	"id": "g6.health_pe.outdoor_challenge",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you went orienteering. How many whistle blasts call for help? (Six.) Today: plan a route, and stay safe outdoors as a team."
+		},
+		{
+			"text": "Plan a route on a map: mark the start, the finish and places to check on the way. Contour lines show the hills: lines close together mean a steep slope. Measure each leg with the scale.",
+			"picture": {
+				"kind": "os_map",
+				"e0": 32,
+				"n0": 60,
+				"cols": 5,
+				"rows": 4,
+				"km": true,
+				"hills": [
+					{
+						"e": 344,
+						"n": 622,
+						"heights": [
+							50,
+							100,
+							150,
+							200
+						],
+						"top": 212,
+						"size": 14,
+						"steep": "e"
+					}
+				],
+				"points": [
+					{
+						"e": 324,
+						"n": 606,
+						"label": "S"
+					},
+					{
+						"e": 344,
+						"n": 630,
+						"label": "C"
+					},
+					{
+						"e": 366,
+						"n": 634,
+						"label": "F"
+					}
+				]
+			}
+		},
+		{
+			"text": "Estimate the time with Naismith's rule: 12 minutes for each km (walking at 5 km an hour), plus 1 minute for every 10 m you climb. Young walkers are often slower, so allow more."
+		},
+		{
+			"text": "Write a route card: each leg's direction, distance, climb and time, and an escape route: a shorter, safe way back if the weather turns bad. Leave a copy with someone at home.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Leg",
+						"Distance",
+						"Climb",
+						"Time"
+					],
+					[
+						"1",
+						"2 km",
+						"100 m",
+						"34 min"
+					],
+					[
+						"2",
+						"3 km",
+						"0 m",
+						"36 min"
+					]
+				]
+			}
+		},
+		{
+			"text": "Check the weather forecast. Pack a waterproof, warm layers, a hat, food and water. Take a map and compass, a whistle, a torch, a first aid kit and a charged phone."
+		},
+		{
+			"text": "As a team: walk at the pace of the slowest walker, and share the jobs: a navigator, a timekeeper, a first aider. Check how everyone feels. Tell someone your route and when you will be back."
+		},
+		{
+			"text": "If something goes wrong: stop, stay together and keep warm. Call 999 and ask for the police, then mountain rescue. Six whistle blasts call for help. Follow the Countryside Code: respect, protect, enjoy."
+		},
+		{
+			"text": "Try it in the world: plan a route across your world to a hilltop, write a route card with times, and walk it with friends. For real: plan a family walk with Naismith's rule. Next: in grade 7, more adventures outdoors."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "On a map, contour lines close together show…",
+			"answer": 0,
+			"hint": "Contours join places at the same height.",
+			"choices": [
+				"a steep slope",
+				"a flat field",
+				"a river",
+				"a road"
+			],
+			"explain": "A steep slope: the height changes quickly."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Before a walk, you should tell someone your route and when you will be back.",
+			"answer": true,
+			"hint": "Who would know if you did not come back?",
+			"explain": "True: then help knows where to look."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which should you check before a walk in the hills?",
+			"answer": 0,
+			"hint": "What can change quickly on a hill?",
+			"choices": [
+				"the weather forecast",
+				"a film",
+				"your shoe shop",
+				"a quiz"
+			],
+			"explain": "The weather forecast: weather changes fast on hills."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "By Naismith's rule, how many minutes does 1 km of flat walking take?",
+			"answer": "12",
+			"hint": "5 km in an hour: share 60 minutes between 5 km.",
+			"explain": "60 ÷ 5 = 12 minutes for each km."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "By Naismith's rule, how many minutes for 5 km with 200 m of climbing?",
+			"answer": "80",
+			"hint": "Walking time, plus 1 minute for every 10 m climbed.",
+			"explain": "5 × 12 = 60 minutes, and 200 ÷ 10 = 20 more: 80 minutes."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Pack it, or leave it at home?",
+			"groups": [
+				"pack it",
+				"leave it at home"
+			],
+			"items": [
+				"a waterproof jacket",
+				"a torch",
+				"a games console",
+				"a whistle",
+				"flip-flops"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "What keeps you dry, safe and found?",
+			"explain": "Pack the waterproof, the torch and the whistle; leave the console and flip-flops."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The slowest walker in your group is getting tired. What should the group do?",
+			"answer": 0,
+			"hint": "A team stays together.",
+			"choices": [
+				"walk at their pace and take a rest",
+				"leave them behind",
+				"run ahead to finish",
+				"split up"
+			],
+			"explain": "Walk at their pace and rest: the group stays together."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each job to what it does.",
+			"items": [
+				"navigator",
+				"timekeeper",
+				"first aider"
+			],
+			"matches": [
+				"checks times and pace",
+				"carries the first aid kit",
+				"reads the map"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Map, clock, care.",
+			"explain": "Navigator: the map. Timekeeper: times and pace. First aider: the first aid kit."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which point is on the steeper slope?",
+			"answer": 0,
+			"hint": "Where are the contour lines closest together?",
+			"choices": [
+				"A",
+				"B"
+			],
+			"explain": "A: the contour lines are bunched on that side, so it is steeper.",
+			"picture": {
+				"kind": "os_map",
+				"e0": 32,
+				"n0": 60,
+				"cols": 5,
+				"rows": 4,
+				"hills": [
+					{
+						"e": 344,
+						"n": 622,
+						"heights": [
+							50,
+							100,
+							150,
+							200
+						],
+						"top": 212,
+						"size": 14,
+						"steep": "e"
+					}
+				],
+				"points": [
+					{
+						"e": 353,
+						"n": 616,
+						"label": "A"
+					},
+					{
+						"e": 331,
+						"n": 616,
+						"label": "B"
+					}
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "An escape route is a shorter, safe way back if the weather turns bad.",
+			"answer": true,
+			"hint": "Why would you need a way out?",
+			"explain": "True: it gets the group down safely and quickly."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A route has two legs: 3 km with 100 m of climbing, then 2 km with no climbing. By Naismith's rule, how many minutes in all?",
+			"answer": "70",
+			"hint": "Work out each leg, then add them.",
+			"explain": "3 × 12 + 10 = 46 minutes, then 2 × 12 = 24 minutes: 70 minutes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Someone in your group is hurt and cannot walk, high on a hill. What should you do?",
+			"answer": 0,
+			"hint": "Who sends mountain rescue?",
+			"choices": [
+				"keep them warm, call 999 and ask for the police",
+				"leave them and walk home",
+				"carry them down a cliff",
+				"wait until dark"
+			],
+			"explain": "Keep them warm and call 999 for the police, who send mountain rescue."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put planning a walk in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You need a route before you can time it.",
+			"items": [
+				"tell someone the plan",
+				"check the weather and pack",
+				"work out the times",
+				"choose the route on a map"
+			],
+			"explain": "Choose the route, time it, check the weather and pack, then tell someone."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do groups of young walkers allow more time than Naismith's rule gives?",
+			"answer": 0,
+			"hint": "The rule is for fit adults.",
+			"choices": [
+				"they often walk more slowly and need rests",
+				"the rule is for cars",
+				"maps are wrong",
+				"hills are shorter"
+			],
+			"explain": "Young walkers are often slower, and rests take time."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The Countryside Code says to leave gates as you find them and take your litter home.",
+			"answer": true,
+			"hint": "Respect, protect, enjoy.",
+			"explain": "True: it protects farm animals, wildlife and the land."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "It starts to snow and the path is hard to see. What is the best plan?",
+			"answer": 0,
+			"hint": "What did you plan for bad weather?",
+			"choices": [
+				"take the escape route back",
+				"carry on to the top",
+				"split up to look for the path",
+				"wait on the summit"
+			],
+			"explain": "Take the escape route: turning back is a smart decision."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.naismith",
+			"level": 1
+		},
+		{
+			"gen": "g6w.naismith",
+			"level": 2
+		},
+		{
+			"gen": "g6w.naismith",
+			"level": 3
+		},
+		{
+			"gen": "g6w.kit_check",
+			"level": 1
+		},
+		{
+			"gen": "g6w.kit_check",
+			"level": 2
+		},
+		{
+			"gen": "g6w.kit_check",
+			"level": 3
+		}
+	]
+}

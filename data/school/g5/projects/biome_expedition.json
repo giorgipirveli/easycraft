@@ -1,0 +1,572 @@
+{
+	"id": "g5.projects.biome_expedition",
+	"lesson": [
+		{
+			"text": "Quick memory: in a food web, which way do the arrows point? (From the food to the animal that eats it: the way the energy goes.) In this project you lead an expedition to three biomes."
+		},
+		{
+			"text": "A biome is a large area with its own climate, plants and animals: hot desert, rainforest, Arctic tundra, woodland, grassland or ocean. Climate means the usual weather over many years."
+		},
+		{
+			"text": "Step 1, plan: a map, the right clothes and kit for each biome, water, a first aid kit and a notebook. Hot deserts get less than 250 mm of rain a year; rainforests get more than 2,000 mm."
+		},
+		{
+			"text": "Step 2, record the weather at the same times each day: the temperature in °C, the rain in mm, the wind and the clouds. A table keeps the results clear.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"day",
+						"noon °C",
+						"night °C",
+						"rain"
+					],
+					[
+						"Monday",
+						"34",
+						"9",
+						"0 mm"
+					],
+					[
+						"Tuesday",
+						"36",
+						"11",
+						"0 mm"
+					],
+					[
+						"Wednesday",
+						"33",
+						"8",
+						"2 mm"
+					]
+				]
+			}
+		},
+		{
+			"text": "Step 3, record a food web. Plants are the producers: they make their own food from sunlight. Animals are consumers. Each arrow points from the food to the eater.",
+			"picture": {
+				"kind": "food_web",
+				"nodes": [
+					[
+						"oak tree",
+						0,
+						3
+					],
+					[
+						"grass",
+						3,
+						3
+					],
+					[
+						"caterpillar",
+						0,
+						2
+					],
+					[
+						"mouse",
+						1,
+						2
+					],
+					[
+						"rabbit",
+						3,
+						2
+					],
+					[
+						"blue tit",
+						0,
+						1
+					],
+					[
+						"fox",
+						2,
+						1
+					],
+					[
+						"sparrowhawk",
+						0,
+						0
+					]
+				],
+				"links": [
+					[
+						0,
+						2
+					],
+					[
+						0,
+						3
+					],
+					[
+						1,
+						4
+					],
+					[
+						2,
+						5
+					],
+					[
+						5,
+						7
+					],
+					[
+						3,
+						6
+					],
+					[
+						4,
+						6
+					]
+				]
+			}
+		},
+		{
+			"text": "Living things are adapted to their biome. Camels store fat in their humps and can go days without drinking; arctic foxes grow thick white fur in winter; rainforest leaves have drip tips to shed heavy rain."
+		},
+		{
+			"text": "Step 4, write the report: a title, an introduction, a section for each biome with headings, your tables and food webs, and a conclusion: how are the biomes alike, and how are they different? Write facts, and explain why."
+		},
+		{
+			"text": "Try it in the world: explore the Sandstorm Desert, Frostpeak and the forests of the Green Meadows. Record each one's weather, plants and animals, then write your expedition report."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a biome?",
+			"answer": 0,
+			"hint": "Deserts and rainforests are both examples.",
+			"choices": [
+				"a big area with its own climate and wildlife",
+				"a type of rock",
+				"a weather forecast",
+				"a small pond"
+			],
+			"explain": "A biome is a large area with its own climate, plants and animals, like a desert or a rainforest."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a food web, the arrows point from the food to the animal that eats it.",
+			"answer": true,
+			"hint": "Which way does the energy go when a rabbit eats grass?",
+			"explain": "True: the arrows show the energy passing from the food to the eater."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these biomes gets the least rain?",
+			"answer": 0,
+			"hint": "Which one is known for being very dry?",
+			"choices": [
+				"hot desert",
+				"rainforest",
+				"woodland",
+				"ocean"
+			],
+			"explain": "The hot desert: less than 250 mm of rain a year."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each animal to its biome.",
+			"items": [
+				"camel",
+				"arctic fox",
+				"jaguar",
+				"hedgehog"
+			],
+			"matches": [
+				"Arctic tundra",
+				"rainforest",
+				"woodland",
+				"hot desert"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of where each animal lives in the wild.",
+			"explain": "Camels live in hot deserts, arctic foxes on the tundra, jaguars in rainforests and hedgehogs in woodland."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In this food web, what does the snowy owl eat?",
+			"answer": 0,
+			"hint": "Find the arrow that points into the snowy owl.",
+			"choices": [
+				"lemmings",
+				"lichen",
+				"wolves",
+				"caribou"
+			],
+			"explain": "Lemmings: the arrow goes from the lemming to the snowy owl.",
+			"picture": {
+				"kind": "food_web",
+				"nodes": [
+					[
+						"lichen",
+						0,
+						3
+					],
+					[
+						"grass",
+						2,
+						3
+					],
+					[
+						"caribou",
+						0,
+						2
+					],
+					[
+						"lemming",
+						2,
+						2
+					],
+					[
+						"arctic hare",
+						3,
+						2
+					],
+					[
+						"snowy owl",
+						1,
+						1
+					],
+					[
+						"arctic fox",
+						3,
+						1
+					],
+					[
+						"wolf",
+						1,
+						0
+					]
+				],
+				"links": [
+					[
+						0,
+						2
+					],
+					[
+						1,
+						3
+					],
+					[
+						1,
+						4
+					],
+					[
+						3,
+						5
+					],
+					[
+						3,
+						6
+					],
+					[
+						4,
+						6
+					],
+					[
+						4,
+						7
+					],
+					[
+						2,
+						7
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the expedition report in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The reader needs to know what it is about first.",
+			"items": [
+				"the conclusion",
+				"a section for each biome",
+				"an introduction",
+				"the title"
+			],
+			"explain": "Title, introduction, a section for each biome, then the conclusion."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Producer or consumer?",
+			"groups": [
+				"producer",
+				"consumer"
+			],
+			"items": [
+				"oak tree",
+				"fox",
+				"grass",
+				"lemming",
+				"lichen",
+				"hawk"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it make its own food from sunlight, or eat other living things?",
+			"explain": "Producers: the oak tree, grass and lichen. Consumers: the fox, the lemming and the hawk."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The table shows the desert's weather. How many degrees colder was Monday night than Monday noon?",
+			"answer": "25",
+			"hint": "Take Monday's night temperature from its noon temperature.",
+			"explain": "34 − 9 = 25 degrees colder.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"day",
+						"noon °C",
+						"night °C",
+						"rain"
+					],
+					[
+						"Monday",
+						"34",
+						"9",
+						"0 mm"
+					],
+					[
+						"Tuesday",
+						"36",
+						"11",
+						"0 mm"
+					],
+					[
+						"Wednesday",
+						"33",
+						"8",
+						"2 mm"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Camels store fat in their humps.",
+			"answer": true,
+			"hint": "What do camels live on when food is scarce?",
+			"explain": "True: a camel's hump is fat, which gives it energy when food is scarce."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "On 3 of the expedition's 10 days it rained. This wall has 10 spaces, one for each day. Fill 3/10 of it.",
+			"board": {
+				"cols": 10,
+				"rows": 1,
+				"block": 15,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "fraction",
+				"num": 3,
+				"den": 10
+			},
+			"hint": "Each space is one day, a tenth of the whole.",
+			"explain": "3 of the 10 spaces, one for each rainy day: 3/10."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "On the tundra it was −12 °C at night and 3 °C by day. How many degrees warmer was the day?",
+			"answer": "15",
+			"hint": "Count up from −12 to 0, then on to 3.",
+			"explain": "From −12 °C up to 0 is 12 degrees, then 3 more: 12 + 3 = 15 degrees."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "If all the grasshoppers disappeared, which animal would lose some of its food?",
+			"answer": 0,
+			"hint": "Follow the arrows out of the grasshopper.",
+			"choices": [
+				"lizard",
+				"kangaroo rat",
+				"grass",
+				"mesquite"
+			],
+			"explain": "The lizard: an arrow goes from the grasshopper to the lizard, so it eats grasshoppers.",
+			"picture": {
+				"kind": "food_web",
+				"nodes": [
+					[
+						"grass",
+						0,
+						3
+					],
+					[
+						"mesquite",
+						2,
+						3
+					],
+					[
+						"grasshopper",
+						0,
+						2
+					],
+					[
+						"kangaroo rat",
+						2,
+						2
+					],
+					[
+						"lizard",
+						1,
+						1
+					],
+					[
+						"rattlesnake",
+						3,
+						1
+					],
+					[
+						"hawk",
+						2,
+						0
+					]
+				],
+				"links": [
+					[
+						0,
+						2
+					],
+					[
+						1,
+						3
+					],
+					[
+						2,
+						4
+					],
+					[
+						4,
+						6
+					],
+					[
+						3,
+						5
+					],
+					[
+						5,
+						6
+					],
+					[
+						4,
+						5
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is an adaptation to a very dry biome?",
+			"answer": 0,
+			"hint": "What would help an animal where there is little water?",
+			"choices": [
+				"going days without drinking",
+				"thick white fur",
+				"drip tips on leaves",
+				"webbed feet"
+			],
+			"explain": "Going days without drinking, like a camel, helps in a very dry biome."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What should the report's conclusion do?",
+			"answer": 0,
+			"hint": "A conclusion comes at the end.",
+			"choices": [
+				"sum up how the biomes are alike and differ",
+				"list the kit again",
+				"tell a joke",
+				"start a new story"
+			],
+			"explain": "It sums up what you found: how the biomes are alike and how they are different."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Rainforests get more than 2,000 mm of rain a year.",
+			"answer": true,
+			"hint": "Did the lesson say rainforests are wet or dry?",
+			"explain": "True: rainforests are wet all year, often with more than 2,000 mm of rain."
+		},
+		{
+			"type": "build",
+			"level": 3,
+			"prompt": "Build the expedition's camp: a rectangle with an area of 12 squares and a fence (perimeter) of 14.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 12,
+				"perimeter": 14
+			},
+			"hint": "Which two numbers multiply to 12 and add up to 7?",
+			"explain": "3 by 4: 3 × 4 = 12 squares, and 3 + 4 + 3 + 4 = 14."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.expedition_web",
+			"level": 1
+		},
+		{
+			"gen": "g5w.expedition_web",
+			"level": 2
+		},
+		{
+			"gen": "g5w.expedition_web",
+			"level": 3
+		},
+		{
+			"gen": "g5w.biome_weather",
+			"level": 1
+		},
+		{
+			"gen": "g5w.biome_weather",
+			"level": 2
+		},
+		{
+			"gen": "g5w.biome_weather",
+			"level": 3
+		}
+	]
+}

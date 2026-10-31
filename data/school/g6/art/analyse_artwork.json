@@ -1,0 +1,378 @@
+{
+	"id": "g6.art.analyse_artwork",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3, what were the three steps of looking at art? (Describe, feel, why.) Today: four steps to analyse an artwork like an art critic."
+		},
+		{
+			"text": "Step 1, describe: say only what you can see: the subject, colours, shapes and lines. 'There is a huge wave and three long boats.'",
+			"picture": {
+				"kind": "masterwork",
+				"what": "great_wave"
+			}
+		},
+		{
+			"text": "Step 2, analyse: how is it made? Which elements and principles did the artist use? 'The wave's curve leads my eye to the tiny mountain: movement, and a contrast of sizes.'",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"describe",
+					"analyse",
+					"interpret",
+					"judge"
+				],
+				"title": "Four steps",
+				"mark": 1
+			}
+		},
+		{
+			"text": "Step 3, interpret: what does it mean, or make you feel, and why? 'People seem small and brave beside the power of nature.' Use clues from the picture."
+		},
+		{
+			"text": "Step 4, judge: what do you think of it, and why? 'It works well, because my eye never stops moving.' People can judge differently; give reasons, not just like or dislike."
+		},
+		{
+			"text": "Context helps: who made it, when and why? Katsushika Hokusai (1760-1849) made The Great Wave around 1831, a woodblock print in a series of views of Mount Fuji."
+		},
+		{
+			"text": "Worked example: The Starry Night, painted by Vincent van Gogh in 1889. Describe: a swirling sky over a quiet village. Analyse: swirling lines, bright yellow on deep blue. Interpret: the night feels alive and restless.",
+			"picture": {
+				"kind": "masterwork",
+				"what": "starry_night"
+			}
+		},
+		{
+			"text": "Try it in the world: choose one artwork in a gallery, a book or this game, and write one sentence for each step. Next: in grade 7, Renaissance art."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the four steps in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with what you see; finish with what you think.",
+			"items": [
+				"judge",
+				"interpret",
+				"analyse",
+				"describe"
+			],
+			"explain": "Describe, analyse, interpret, judge."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "'There are three boats under the wave.' Which step is this?",
+			"answer": 0,
+			"hint": "Is it only what you can see?",
+			"choices": [
+				"describe",
+				"analyse",
+				"interpret",
+				"judge"
+			],
+			"explain": "It only says what is there: describe."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "'I think it works, because my eye keeps moving.' Which step is this?",
+			"answer": 0,
+			"hint": "Is it an opinion with a reason?",
+			"choices": [
+				"judge",
+				"describe",
+				"analyse",
+				"interpret"
+			],
+			"explain": "It is an opinion with a reason: judge."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When you describe, you say only what you can see.",
+			"answer": true,
+			"hint": "Save your ideas for later steps.",
+			"explain": "True: describing is just what is there, not what it means."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Looking at The Great Wave: sort each sentence into its step.",
+			"groups": [
+				"describe",
+				"analyse",
+				"interpret"
+			],
+			"items": [
+				"There is a huge blue wave.",
+				"The curve leads your eye to the mountain.",
+				"It shows how small people are next to nature.",
+				"Three boats are under the wave.",
+				"Blue and white give strong contrast."
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1
+			],
+			"hint": "What you see, how it is made, or what it means?",
+			"explain": "Describe: the wave, the boats. Analyse: the curve, the contrast. Interpret: small people beside nature."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which sentence analyses this painting?",
+			"answer": 0,
+			"hint": "Analysing says how it is made: line, colour, shape.",
+			"choices": [
+				"Swirling lines give the sky movement.",
+				"I love it.",
+				"There is a village.",
+				"It hangs in a museum."
+			],
+			"explain": "Swirling lines giving movement is about how it is made: analyse.",
+			"picture": {
+				"kind": "masterwork",
+				"what": "starry_night"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which sentence describes this painting?",
+			"answer": 0,
+			"hint": "Only what you can see.",
+			"choices": [
+				"Hunters and dogs walk through the snow.",
+				"The artist wants us to feel the cold.",
+				"I think it is the best winter scene.",
+				"The dark trees give strong contrast."
+			],
+			"explain": "Hunters and dogs in the snow is simply what is there.",
+			"picture": {
+				"kind": "masterwork",
+				"what": "hunters_snow"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In the judge step, 'I like it' is enough.",
+			"answer": false,
+			"hint": "What must come with an opinion?",
+			"explain": "False: give a reason, like 'I like it because…'."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which question belongs to the interpret step?",
+			"answer": 0,
+			"hint": "Interpret is about meaning and feeling.",
+			"choices": [
+				"What does it mean, and why do I think so?",
+				"What colours can I see?",
+				"How big is it?",
+				"Who bought it?"
+			],
+			"explain": "What it means, and why, is interpreting."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each step to its question.",
+			"items": [
+				"describe",
+				"analyse",
+				"interpret",
+				"judge"
+			],
+			"matches": [
+				"What do I think, and why?",
+				"What can I see?",
+				"How is it made?",
+				"What does it mean?"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "See, made, mean, think.",
+			"explain": "Describe: see. Analyse: made. Interpret: mean. Judge: think, with a reason."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort each sentence into its step.",
+			"groups": [
+				"analyse",
+				"interpret",
+				"judge"
+			],
+			"items": [
+				"The big wave makes the mountain look tiny.",
+				"The wave is about to crash; it feels tense.",
+				"In my view the contrast makes it powerful.",
+				"The foam's claws repeat, giving rhythm.",
+				"The boatmen seem brave as they hold on.",
+				"I think it works: my eye keeps moving."
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "How it is made, what it means, or your opinion with a reason?",
+			"explain": "Analyse: size contrast, rhythm. Interpret: tense, brave boatmen. Judge: the two opinions with reasons."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which sentence uses a clue in the picture to interpret it?",
+			"answer": 0,
+			"hint": "Interpreting needs a meaning and a clue.",
+			"choices": [
+				"The tiny mountain makes the wave seem huge.",
+				"It is blue.",
+				"I like waves.",
+				"It was made in Japan."
+			],
+			"explain": "It uses the tiny mountain as evidence that the wave is huge and dangerous.",
+			"picture": {
+				"kind": "masterwork",
+				"what": "great_wave"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Pieter Bruegel painted Hunters in the Snow in 1565. Which sentence is context?",
+			"answer": 0,
+			"hint": "Context is about when, who and why, not what you see.",
+			"choices": [
+				"It was one of six paintings of the seasons.",
+				"Hunters walk down a snowy hill.",
+				"The trees are dark lines.",
+				"Skaters glide on the ice."
+			],
+			"explain": "Being one of a set of six seasons, painted in 1565, is context.",
+			"picture": {
+				"kind": "masterwork",
+				"what": "hunters_snow"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Two people can judge the same artwork differently, and both can be right if they give good reasons.",
+			"answer": true,
+			"hint": "Is there one right opinion?",
+			"explain": "True: judgements differ, and a good one gives reasons from the artwork."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why describe before you judge?",
+			"answer": 0,
+			"hint": "What should an opinion be based on?",
+			"choices": [
+				"so your opinion rests on what is really there",
+				"judging is not allowed",
+				"describing is quicker",
+				"to fill the time"
+			],
+			"explain": "Looking closely first means your judgement is based on the artwork itself."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What contrast does van Gogh use in this painting?",
+			"answer": 0,
+			"hint": "Look at the stars and the sky.",
+			"choices": [
+				"bright yellow stars on deep blue",
+				"black on black",
+				"no colour at all",
+				"only greens"
+			],
+			"explain": "Bright yellow against deep blue: a strong contrast of colour and tone.",
+			"picture": {
+				"kind": "masterwork",
+				"what": "starry_night"
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the four steps on The Starry Night in order.",
+			"items": [
+				"Interpret: the night feels alive.",
+				"Describe: a swirling sky over a village.",
+				"Judge: it works, because my eye keeps moving.",
+				"Analyse: swirling lines, yellow on blue."
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Describe, analyse, interpret, judge.",
+			"explain": "Describe what is there (a swirling sky), analyse how it is made (lines, yellow on blue), interpret what it means (alive, restless), then judge it with a reason."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "The Great Wave: sort each sentence. About the artwork itself, or its context?",
+			"groups": [
+				"the artwork",
+				"context"
+			],
+			"items": [
+				"Hokusai made it around 1831.",
+				"The wave curls like a claw.",
+				"It was one of many views of Mount Fuji.",
+				"Three boats ride under the wave.",
+				"Hokusai lived from 1760 to 1849.",
+				"Blue and white give strong contrast."
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Context is who made it, when and why. Can you see it in the picture?",
+			"explain": "The artwork: the claw-like wave, the boats and the blue and white contrast are all in the picture. Context: the date, Hokusai's life and the series of Mount Fuji views come from outside it."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.critique_step",
+			"level": 1
+		},
+		{
+			"gen": "g6c.critique_step",
+			"level": 2
+		},
+		{
+			"gen": "g6c.critique_step",
+			"level": 3
+		}
+	]
+}

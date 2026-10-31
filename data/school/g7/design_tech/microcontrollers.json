@@ -1,0 +1,419 @@
+{
+	"id": "g7.design_tech.microcontrollers",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you controlled a model with a program. What are the three parts of a control system? (Input, process and output.) Today: program a small computer to control lights and sounds."
+		},
+		{
+			"text": "A microcontroller is a whole small computer on one chip. It runs one program for ever: it reads inputs (buttons, light, temperature, tilt), decides, and controls outputs (LEDs, a speaker, a motor). They are in toys, washing machines and traffic lights."
+		},
+		{
+			"text": "A classroom board has a 5 × 5 grid of LEDs and buttons A and B. It also has a speaker, light and temperature sensors, and pins for wires. Write the program on a computer, test it, then copy it to the board.",
+			"picture": {
+				"kind": "micro_board",
+				"labels": true
+			}
+		},
+		{
+			"text": "Text code, as in grade 7 computing: show(HEART) lights a picture, pause(1000) waits 1,000 milliseconds (1 second), and clear() turns the LEDs off. while True: is a forever loop that repeats them.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"while True:",
+					"    show(HEART)",
+					"    pause(1000)",
+					"    clear()",
+					"    pause(1000)"
+				]
+			}
+		},
+		{
+			"text": "Events: code can wait for an input. When button A is pressed, add 1 to a count; when button B is pressed, show the count. A variable like count remembers a number while the program runs.",
+			"picture": {
+				"kind": "micro_board",
+				"leds": [
+					"11100",
+					"00010",
+					"01100",
+					"00010",
+					"11100"
+				],
+				"pressed": "B"
+			}
+		},
+		{
+			"text": "Each LED has a place: x counts across from 0 to 4, and y counts down from 0 to 4. plot(2, 0) lights the middle LED of the top row, and plot(0, 4) the bottom-left one.",
+			"picture": {
+				"kind": "micro_board",
+				"grid": true,
+				"leds": [
+					"00100",
+					"00000",
+					"00000",
+					"00000",
+					"10000"
+				]
+			}
+		},
+		{
+			"text": "Worked example: a night light. Forever: if the light level is below 50, turn the LED on; else, off. The light level is the input, the if decides, the LED is the output. Test it: cover the sensor, then uncover it.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"while True:",
+					"    if light_level() < 50:",
+					"        led_on()",
+					"    else:",
+					"        led_off()"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a crossing with lights in your world and plan its program. In LIFE, Safe Streets' button crossing works this way: the button is the input, a controller waits, then the green man shows. Next: technical textiles."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a night light, which part is the input?",
+			"choices": [
+				"the light sensor",
+				"the LED",
+				"the forever loop",
+				"the battery box"
+			],
+			"answer": 0,
+			"hint": "Which part notices the world outside?",
+			"explain": "The light sensor is the input; the program decides; the LED is the output."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many seconds is pause(3000)?",
+			"answer": "3",
+			"hint": "There are 1,000 milliseconds in a second.",
+			"explain": "3000 ÷ 1000 = 3 seconds.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"show(HEART)",
+					"pause(3000)",
+					"clear()"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A microcontroller is a small computer on one chip.",
+			"answer": true,
+			"hint": "Think of 'micro', small, and 'controller'.",
+			"explain": "True: a whole small computer on one chip, running one program."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each line of code to what it does.",
+			"items": [
+				"show(HEART)",
+				"pause(500)",
+				"clear()",
+				"while True:"
+			],
+			"matches": [
+				"turns the LEDs off",
+				"waits half a second",
+				"lights a heart picture",
+				"repeats for ever"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "Read each word: show, pause, clear, while.",
+			"explain": "show: lights a picture. pause(500): half a second. clear: LEDs off. while True: repeats for ever."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the board's parts: input or output?",
+			"groups": [
+				"input",
+				"output"
+			],
+			"items": [
+				"motor",
+				"temperature sensor",
+				"speaker",
+				"button A",
+				"light sensor",
+				"LED grid"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Does it notice something, or do something?",
+			"explain": "Inputs: button A, the light and temperature sensors. Outputs: the speaker, the LEDs, the motor."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the board: tap a word, then its number.",
+			"spots": [
+				[
+					0.5,
+					0.09,
+					0.5,
+					0.429
+				],
+				[
+					0.2242,
+					0.09,
+					0.2242,
+					0.4467
+				],
+				[
+					0.8805,
+					0.09,
+					0.7758,
+					0.4467
+				],
+				[
+					0.5,
+					0.91,
+					0.5,
+					0.8552
+				],
+				[
+					0.7613,
+					0.09,
+					0.7613,
+					0.1803
+				]
+			],
+			"labels": [
+				"pins",
+				"speaker",
+				"button B",
+				"LED grid",
+				"button A"
+			],
+			"answer": [
+				3,
+				4,
+				2,
+				0,
+				1
+			],
+			"hint": "The lights are in the middle; the buttons are on each side; wires join at the bottom edge.",
+			"explain": "The LED grid is in the middle, with button A on the left and button B on the right. The speaker is at the top, and the pins along the bottom.",
+			"picture": {
+				"kind": "micro_board"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which LED is lit? x counts across from 0, y counts down from 0.",
+			"choices": [
+				"x = 3, y = 1",
+				"x = 1, y = 3",
+				"x = 3, y = 3",
+				"x = 4, y = 1"
+			],
+			"answer": 0,
+			"hint": "Count the columns from the left, then the rows from the top.",
+			"explain": "Column 3 from the left (counting from 0) and row 1 from the top: x = 3, y = 1.",
+			"picture": {
+				"kind": "micro_board",
+				"grid": true,
+				"leds": [
+					"00000",
+					"00010",
+					"00000",
+					"00000",
+					"00000"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many seconds does this program take to run?",
+			"answer": "3",
+			"hint": "Add the pauses inside the loop, then multiply by the times it repeats.",
+			"explain": "500 + 500 = 1,000 ms each time; × 3 = 3,000 ms = 3 seconds.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"for i in range(3):",
+					"    show(HEART)",
+					"    pause(500)",
+					"    clear()",
+					"    pause(500)"
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put programming the board in order.",
+			"items": [
+				"plan the inputs and outputs",
+				"test it for real and fix bugs",
+				"copy it to the board",
+				"test it in the simulator",
+				"write the code"
+			],
+			"answer": [
+				0,
+				4,
+				3,
+				2,
+				1
+			],
+			"hint": "Plan, write, test safely on screen, then on the real board.",
+			"explain": "Plan, write, test in the simulator, copy it over, then test for real and fix bugs."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The temperature reads 22 °C. The fan comes on.",
+			"answer": false,
+			"hint": "The fan turns on only when the temperature is above the number.",
+			"explain": "False: 22 is not above 25, so the fan stays off.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"while True:",
+					"    if temperature() > 25:",
+					"        fan_on()",
+					"    else:",
+					"        fan_off()"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Button A adds 1 to count; button B sets it to 0. Mimi presses A, A, A, B, A, A. What is count now?",
+			"answer": "2",
+			"hint": "Follow the presses one by one, writing count down each time.",
+			"explain": "1, 2, 3, then B makes 0, then 1, 2: count is 2."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many LEDs does this program light?",
+			"answer": "9",
+			"hint": "Picture the row and the column: is any LED lit twice?",
+			"explain": "Row 2 has 5 LEDs and column 2 has 5, but they share the middle LED at x = 2, y = 2: 5 + 5 − 1 = 9.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"for x in range(5):",
+					"    plot(x, 2)",
+					"for y in range(5):",
+					"    plot(2, y)"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which code shows the count when button B is pressed?",
+			"choices": [
+				"on B: show(count)",
+				"on B: count = 0",
+				"on A: show(count)",
+				"show(HEART) for ever"
+			],
+			"answer": 0,
+			"hint": "It must wait for B, and show the number.",
+			"explain": "'on B: show(count)' waits for button B, then shows the number in count; 'count = 0' would reset it instead."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "It is dark, but nobody is moving. The porch light comes on.",
+			"answer": false,
+			"hint": "'and' needs both parts to be true.",
+			"explain": "False: is_dark() is true, but moving() is false, and 'and' needs both to be true, so the light stays off.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"if is_dark() and moving():",
+					"    light_on()"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A board should water a plant when the soil is dry. Which line fits?",
+			"choices": [
+				"if moisture() < 30: pump_on()",
+				"if moisture() > 30: pump_on()",
+				"pump_on() for ever",
+				"if light_level() < 30: pump_on()"
+			],
+			"answer": 0,
+			"hint": "Dry soil has little moisture: is its number low or high?",
+			"explain": "Dry soil gives a low moisture number, so the pump must go on when moisture() is below 30, not above it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A traffic-light program: red 20 s, red and amber 2 s, green 15 s, amber 3 s, then again. How many seconds is one full cycle?",
+			"answer": "40",
+			"hint": "Add every part of the sequence once.",
+			"explain": "Add each part of the cycle once: 20 + 2 + 15 + 3 = 40 seconds, then it starts again with red."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.led_xy",
+			"level": 1
+		},
+		{
+			"gen": "g7w.led_xy",
+			"level": 2
+		},
+		{
+			"gen": "g7w.led_xy",
+			"level": 3
+		},
+		{
+			"gen": "g7w.pause_time",
+			"level": 1
+		},
+		{
+			"gen": "g7w.pause_time",
+			"level": 2
+		},
+		{
+			"gen": "g7w.pause_time",
+			"level": 3
+		},
+		{
+			"gen": "g7w.micro_if",
+			"level": 1
+		},
+		{
+			"gen": "g7w.micro_if",
+			"level": 2
+		},
+		{
+			"gen": "g7w.micro_if",
+			"level": 3
+		}
+	]
+}

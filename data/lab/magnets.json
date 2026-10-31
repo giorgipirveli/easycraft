@@ -1,0 +1,33 @@
+{
+	"id": "magnets",
+	"title": "Magnetic or not?",
+	"card": "Hold a magnet to things.",
+	"units": ["g3.science.magnets", "g5.science.properties", "g8.science.electric_magnetic"],
+	"supplies": {"iron": 1, "planks": 1},
+	"predict": {
+		"type": "sort",
+		"prompt": "Which things will stick to the magnet? Tap each one to sort your guesses.",
+		"groups": ["Sticks", "Does not stick"],
+		"by": "magnetic"
+	},
+	"scene": {
+		"kind": "magnet",
+		"things": [
+			{"thing": "wood", "name": "Wooden block", "magnetic": false},
+			{"thing": "iron", "name": "Iron nail", "magnetic": true},
+			{"thing": "glass", "name": "Glass marble", "magnetic": false},
+			{"thing": "clip", "name": "Paper clip", "magnetic": true},
+			{"thing": "gold", "name": "Gold ring", "magnetic": false},
+			{"thing": "copper", "name": "Copper wire", "magnetic": false},
+			{"thing": "tin", "name": "Food tin", "magnetic": true},
+			{"thing": "stone", "name": "Pebble", "magnetic": false}
+		]
+	},
+	"try": "Tap each thing to hold the magnet to it. Does it jump and stick?",
+	"result": "The iron nail, the steel paper clip and the steel food tin stuck to the magnet. The wood, the glass, the gold, the copper and the pebble did not.",
+	"why": [
+		"A magnet pulls on only a few materials. Iron is one. Most steel sticks too, because steel is mostly iron, but some stainless steel, like many spoons, does not.",
+		"Most metals are not magnetic: gold, silver, copper and aluminium do not stick. A food tin is steel with a thin coat of tin, so it sticks. Recycling centres use big magnets to sort steel tins from aluminium cans.",
+		"A magnet can pull through paper, water and even your hand! Most stones do not stick, but lodestone, a stone full of the mineral magnetite, is a natural magnet."
+	]
+}

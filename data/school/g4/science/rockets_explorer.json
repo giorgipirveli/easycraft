@@ -1,0 +1,299 @@
+{
+	"id": "g4.science.rockets_explorer",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a force? A push or a pull. Now blow up a balloon and let it go: the air rushes out one way, and the balloon zooms off the other way. A rocket works the same way!"
+		},
+		{
+			"text": "A rocket burns fuel to make hot gas. The gas rushes down out of the engine, and that push sends the rocket up. The engine's push is called thrust.",
+			"picture": {
+				"kind": "force_arrows",
+				"thing": "block",
+				"arrows": [
+					[
+						"up",
+						3,
+						"thrust"
+					],
+					[
+						"down",
+						2,
+						"weight"
+					]
+				]
+			}
+		},
+		{
+			"text": "Every push has an equal push back. The gas pushes on the rocket just as the rocket pushes on the gas. Isaac Newton wrote this rule down more than 300 years ago."
+		},
+		{
+			"text": "Fire needs oxygen, a gas in the air. Up in space there is no air, so a rocket carries its own oxygen in a tank beside its fuel."
+		},
+		{
+			"text": "Gravity pulls the rocket back down. To lift off, its thrust must be bigger than its weight. To stay in orbit around the Earth it must go very fast: about 8 kilometres every second! The Moon stays in orbit the same way.",
+			"picture": {
+				"kind": "orbit",
+				"centre": "earth",
+				"moon": true,
+				"arrows": true,
+				"labels": true
+			}
+		},
+		{
+			"text": "Big rockets are built in stages, one on top of another. When a stage's fuel is used up, it drops away, so the rocket is lighter and goes faster.",
+			"picture": {
+				"kind": "rocket_stages",
+				"stages": 3,
+				"labels": true
+			}
+		},
+		{
+			"text": "The Moon is about 384,400 kilometres away. The astronauts who first flew there took about 3 days. Try it in the world: build a rocket at the Launch Site and count its stages! Next, in grade 5: gravity."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A rocket goes up because hot gas rushes down out of its engine.",
+			"hint": "Think of the balloon: the air goes one way, the balloon the other.",
+			"explain": "The hot gas is pushed down, and it pushes the rocket up.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A balloon's air rushes out backwards. Which way does the balloon zoom?",
+			"hint": "Every push has a push back.",
+			"explain": "The air is pushed backwards, so the balloon is pushed forwards, the other way.",
+			"choices": [
+				"forwards, the other way",
+				"backwards, with the air",
+				"it stays still",
+				"straight down"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the push of a rocket's engine called?",
+			"hint": "It is a word that starts with th.",
+			"explain": "The engine's push is called thrust.",
+			"choices": [
+				"thrust",
+				"gravity",
+				"orbit",
+				"a stage"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "There is plenty of air in space for a rocket's fire.",
+			"hint": "What is space like between the planets?",
+			"explain": "Space has no air, so a rocket brings its own oxygen.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What pulls a rocket back towards the Earth?",
+			"hint": "It is the same pull that makes a ball fall.",
+			"explain": "Gravity pulls everything towards the Earth, rockets too.",
+			"choices": [
+				"gravity",
+				"thrust",
+				"oxygen",
+				"a stage"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does a rocket carry its own oxygen?",
+			"hint": "What does fire need, and what is missing in space?",
+			"explain": "Fire needs oxygen, and space has no air, so the rocket carries oxygen in a tank.",
+			"choices": [
+				"Fire needs oxygen and space has no air",
+				"Oxygen makes the rocket lighter",
+				"Oxygen paints the rocket",
+				"Oxygen slows the rocket down"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What happens when a stage's fuel is used up?",
+			"hint": "A rocket does not carry empty tanks all the way.",
+			"explain": "The empty stage drops away, and the rocket gets lighter.",
+			"choices": [
+				"It drops away and the rocket gets lighter",
+				"The whole rocket stops",
+				"It fills up again by itself",
+				"The rocket gets heavier"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Every push has an equal push back.",
+			"hint": "Remember Isaac Newton's rule.",
+			"explain": "The gas pushes on the rocket just as the rocket pushes on the gas.",
+			"answer": true
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A rocket has 3 stages. 2 of them have dropped away. How many stages are still on the rocket?",
+			"hint": "Take the stages that dropped away from all the stages.",
+			"explain": "3 - 2 = 1 stage is still on the rocket.",
+			"answer": "1"
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a rocket's trip in order, first to last.",
+			"hint": "Nothing moves before the engines fire.",
+			"explain": "The engines fire, the rocket lifts off, the first stage drops away, then it reaches space.",
+			"items": [
+				"The first stage drops away",
+				"The engines fire",
+				"The rocket reaches space",
+				"The rocket lifts off"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "To lift off the ground, a rocket's thrust must be...",
+			"hint": "Gravity pulls it down with its weight. Which push wins?",
+			"explain": "The thrust must be bigger than the weight, or the rocket stays on the pad.",
+			"choices": [
+				"bigger than its weight",
+				"smaller than its weight",
+				"the same as its speed",
+				"nothing at all"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The first astronauts took about 3 days to reach the Moon. A day has 24 hours. How many hours is 3 days?",
+			"hint": "Add 24 three times, or multiply 3 by 24.",
+			"explain": "3 x 24 = 72 hours.",
+			"answer": "72"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "About how fast must a rocket go to stay in orbit around the Earth?",
+			"hint": "It is very, very fast: much faster than any car or plane.",
+			"explain": "About 8 kilometres every second: fast enough to fall around the Earth instead of back down.",
+			"choices": [
+				"about 8 km every second",
+				"about 8 km every hour",
+				"about 8 m every day",
+				"as fast as a bicycle"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Dropping empty stages makes a rocket lighter, so the same thrust makes it go faster.",
+			"hint": "Is a light cart or a heavy cart easier to push?",
+			"explain": "A lighter rocket speeds up more with the same push.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Watch the rocket climb. Which stage burns first?",
+			"picture": {
+				"kind": "rocket_stages",
+				"stages": 3,
+				"labels": true,
+				"animate": true
+			},
+			"choices": [
+				"the bottom stage",
+				"the top stage",
+				"all of them at once"
+			],
+			"answer": 0,
+			"hint": "Watch which part falls away first, and where it was.",
+			"explain": "The bottom stage burns first. When its fuel is used up it drops away, and the next stage fires."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each rocket word to its meaning.",
+			"items": [
+				"thrust",
+				"gravity",
+				"orbit",
+				"stage"
+			],
+			"matches": [
+				"a part that drops away",
+				"the pull towards Earth",
+				"the engine's push",
+				"a path round a planet"
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "Two are forces, one is a path, and one is a part of the rocket.",
+			"explain": "Thrust is the engine's push, gravity the pull towards Earth, an orbit a path round a planet, and a stage a part that drops away when its fuel is used up."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Moon is about 384,000 km away, and a spacecraft takes about 3 days to get there. About how many km does it travel each day?",
+			"answer": "128000",
+			"hint": "Share the distance equally between the 3 days.",
+			"explain": "384,000 ÷ 3 = 128,000 km a day, and the Moon is our nearest neighbour in space."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort them: does it help a rocket reach space, or hold it back?",
+			"groups": [
+				"helps",
+				"holds it back"
+			],
+			"items": [
+				"more thrust",
+				"gravity",
+				"dropping empty stages",
+				"a heavy load",
+				"carrying its own oxygen"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it a push upwards or making the rocket lighter, or a pull down or extra weight?",
+			"explain": "Helps: more thrust, dropping empty stages (lighter) and its own oxygen for the fire. Holds it back: gravity's pull and a heavy load to lift."
+		}
+	],
+	"generators": []
+}

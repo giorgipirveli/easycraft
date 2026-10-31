@@ -1,0 +1,372 @@
+{
+	"id": "g5.science.particles",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met solids, liquids and gases. Which one takes the shape of its container and has a flat top? A liquid."
+		},
+		{
+			"text": "Everything around you is matter: anything that takes up space and has mass. Water, air, rock and even you are made of matter."
+		},
+		{
+			"text": "All matter is made of particles far too small to see, even with a magnifying glass."
+		},
+		{
+			"text": "Air is matter too. You can't see air, but you can feel it push when the wind blows. And you can watch a balloon grow as air fills it.",
+			"picture": {
+				"kind": "force_arrows",
+				"thing": "boat",
+				"arrows": [
+					[
+						"right",
+						2,
+						"wind"
+					]
+				],
+				"moving": "right"
+			}
+		},
+		{
+			"text": "When sugar dissolves in water, it seems to vanish. But the tiny sugar particles are still there, spread through the water.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"sugar in water",
+						"what happens"
+					],
+					[
+						"you see",
+						"it vanishes"
+					],
+					[
+						"really",
+						"its bits spread out"
+					]
+				]
+			}
+		},
+		{
+			"text": "In a solid the particles are packed tightly and stay in place. In a liquid they slide past each other. In a gas they spread far apart and zoom around.",
+			"picture": {
+				"kind": "states",
+				"show": [
+					"solid",
+					"liquid",
+					"gas"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Try it in the world: at a Science Lab bench, do \"Melting and freezing\": the same particles go from solid to liquid and back. Next: mass is kept when things change."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is all matter made of?",
+			"answer": 0,
+			"hint": "Think smaller than a grain of sand.",
+			"choices": [
+				"tiny particles too small to see",
+				"nothing at all",
+				"only water",
+				"light"
+			],
+			"explain": "All matter is made of particles far too small to see."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Air is matter.",
+			"answer": true,
+			"hint": "Does air take up space?",
+			"explain": "Yes: air takes up space and has mass, so it is matter."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In which state are the particles packed tightly together?",
+			"answer": 0,
+			"hint": "Think of an ice cube.",
+			"choices": [
+				"solid",
+				"liquid",
+				"gas"
+			],
+			"explain": "In a solid, the particles are packed tightly and stay in place."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which one is matter?",
+			"answer": 0,
+			"hint": "Which one takes up space?",
+			"choices": [
+				"the air in a balloon",
+				"a shadow",
+				"a rainbow"
+			],
+			"explain": "The air in a balloon takes up space and has mass. Shadows and rainbows are light, not matter."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "You can see a single particle of sugar with your eyes.",
+			"answer": false,
+			"hint": "How small are particles?",
+			"explain": "No: particles are far too small to see. A sugar grain has billions of them."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Sugar is stirred into water and disappears. What happened to it?",
+			"answer": 0,
+			"hint": "Can you still taste it?",
+			"choices": [
+				"Its particles spread through the water.",
+				"It stopped existing.",
+				"It turned into air."
+			],
+			"explain": "The sugar particles are still there, spread out too thinly to see."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How can you show that air takes up space?",
+			"answer": 0,
+			"hint": "What fills a balloon?",
+			"choices": [
+				"Blow up a balloon and watch it grow.",
+				"Look at the sky.",
+				"Switch on a lamp."
+			],
+			"explain": "The balloon grows because air takes up space inside it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which state of matter spreads out to fill any container?",
+			"answer": 0,
+			"hint": "Think of a smell filling a room.",
+			"choices": [
+				"gas",
+				"solid",
+				"liquid"
+			],
+			"explain": "A gas's particles spread out to fill the whole container."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "You can smell soup from across the room because tiny particles travel through the air.",
+			"answer": true,
+			"hint": "How does a smell reach you?",
+			"explain": "Yes: tiny particles from the soup spread through the air to your nose."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order from particles packed most tightly to most spread out.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Solid, liquid, gas.",
+			"items": [
+				"water",
+				"ice",
+				"steam"
+			],
+			"explain": "Ice (solid), water (liquid), steam (gas)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Salty water is left in the sun. The water dries up and salt crystals appear. What does this show?",
+			"answer": 0,
+			"hint": "Where could the salt come from?",
+			"choices": [
+				"The salt was in the water all along.",
+				"The sun made new salt.",
+				"The dish made salt."
+			],
+			"explain": "The salt particles were spread through the water the whole time."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A pump pushes more air into a bike tyre, and the tyre gets harder. Why?",
+			"answer": 0,
+			"hint": "What did the pump add?",
+			"choices": [
+				"More air particles are packed inside.",
+				"The air turns solid.",
+				"The tyre grows new rubber."
+			],
+			"explain": "More particles of air are squeezed inside, pushing on the tyre."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why can you walk through air but not through a wall?",
+			"answer": 0,
+			"hint": "Compare a gas with a solid.",
+			"choices": [
+				"Air's particles are far apart; a wall's aren't.",
+				"Air is not matter.",
+				"Walls are made of light."
+			],
+			"explain": "A gas's particles are far apart and move; a solid's are packed tightly."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "When a puddle dries up, its water particles are destroyed.",
+			"answer": false,
+			"hint": "Where does the water go?",
+			"explain": "No: the water particles go into the air as water vapour."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which model best shows a gas?",
+			"answer": 0,
+			"hint": "Gas particles spread out.",
+			"choices": [
+				"a few dots far apart, moving fast",
+				"dots packed in neat rows",
+				"dots touching but sliding"
+			],
+			"explain": "A gas's particles are far apart and move quickly."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the things: matter or not matter?",
+			"items": [
+				"air in a balloon",
+				"a shadow",
+				"water",
+				"a rainbow",
+				"a rock",
+				"steam"
+			],
+			"groups": [
+				"matter",
+				"not matter"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Does it take up space and have mass?",
+			"explain": "Air, water, rock and steam take up space and have mass: matter. A shadow and a rainbow are light, not matter."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each state to how its particles behave.",
+			"items": [
+				"solid",
+				"liquid",
+				"gas"
+			],
+			"matches": [
+				"spread far apart, zooming",
+				"packed tightly, in place",
+				"close, sliding past"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Think of an ice cube, a glass of water and steam.",
+			"explain": "Solid: packed tightly, in place. Liquid: close, sliding past each other. Gas: spread far apart, zooming around."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Solid, liquid or gas?",
+			"items": [
+				"ice",
+				"water",
+				"steam",
+				"a rock"
+			],
+			"groups": [
+				"solid",
+				"liquid",
+				"gas"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0
+			],
+			"hint": "Does it keep its shape, pour, or spread out to fill the air?",
+			"explain": "Ice and a rock are solids, water is a liquid, and steam is a gas."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the descriptions by state of matter.",
+			"groups": [
+				"solid",
+				"liquid",
+				"gas"
+			],
+			"items": [
+				"packed tightly, in place",
+				"particles slide past each other",
+				"far apart, zooming",
+				"keeps its own shape",
+				"takes its container's shape",
+				"fills the whole container"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of ice, water and steam.",
+			"explain": "Solid: packed tightly in place, so it keeps its shape. Liquid: the particles slide past each other, so it takes its container's shape. Gas: far apart and zooming, so it fills the whole container."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each everyday clue to what it shows about particles.",
+			"items": [
+				"you smell soup across a room",
+				"a balloon grows as you blow",
+				"sugar vanishes in tea",
+				"a pumped tyre gets harder"
+			],
+			"matches": [
+				"more air packed inside",
+				"particles spread out unseen",
+				"air takes up space",
+				"particles travel through air"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Each clue shows particles doing something too small to see.",
+			"explain": "Smelling soup: its particles travel through the air. A growing balloon: air takes up space. Vanishing sugar: its particles spread out, too small to see. A harder tyre: more air particles packed inside."
+		}
+	]
+}

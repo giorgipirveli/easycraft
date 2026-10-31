@@ -1,0 +1,370 @@
+{
+	"id": "g4.projects.light_and_sound_show",
+	"lesson": [
+		{
+			"text": "Quick memory: what does a switch do in a circuit? (It opens and closes a gap in the loop.) In this project you wire the lights for a show, and compose a tune to play in it."
+		},
+		{
+			"text": "Step 1, the lights: each light needs a complete loop, from the battery through the bulb and back. A switch in the loop turns it on and off.",
+			"picture": {
+				"kind": "circuit",
+				"parts": [
+					"cell",
+					"switch",
+					"bulb"
+				],
+				"lit": true,
+				"names": true
+			}
+		},
+		{
+			"text": "Two bulbs in one loop share the battery's push, so each glows more dimly than one alone. One switch in the loop turns both on and off together.",
+			"picture": {
+				"kind": "circuit",
+				"parts": [
+					"cell",
+					"switch",
+					"bulb",
+					"bulb"
+				],
+				"lit": true
+			}
+		},
+		{
+			"text": "Step 2, the sound: every sound is a vibration. A drum skin shakes, a string wobbles, and the air carries the vibration to your ears. Bigger vibrations sound louder."
+		},
+		{
+			"text": "Pitch is how high or low a note is. Short, tight strings and small bars make high notes; long, loose strings and big bars make low ones. Listen: a low note, then a high one.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"text": "Step 3, compose a tune with five notes, C, D, E, G and A: the pentatonic scale, the notes the game's blocks sing. Steps move to the next note; leaps skip notes. Listen to this tune.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"E4",
+					"D4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"text": "Step 4, plan the show: a running order says what happens when. Lights up, the tune plays, the lights flash on the beat, then lights down. Rehearse it, then perform it for an audience."
+		},
+		{
+			"text": "Try it in the world: build a stage with lamps and a light switch beside them, and place blocks in a row to play your tune: each block sings a note. Then perform your show for a friend!"
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The bulb will light.",
+			"answer": true,
+			"hint": "Is the switch closed, and is the loop complete?",
+			"explain": "True: the switch is closed, so the loop is complete and the bulb lights.",
+			"picture": {
+				"kind": "circuit",
+				"parts": [
+					"cell",
+					"switch",
+					"bulb"
+				],
+				"switch": "closed"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is sound?",
+			"answer": 0,
+			"hint": "Put your fingers on your throat and hum.",
+			"choices": [
+				"a vibration that travels to your ears",
+				"a kind of light",
+				"a colour",
+				"a type of electricity"
+			],
+			"explain": "Sound is a vibration, carried through the air to your ears."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Tap LISTEN. Does this tune go up or down?",
+			"answer": 0,
+			"hint": "Listen to the first note and the last one. Which is higher?",
+			"choices": [
+				"up",
+				"down"
+			],
+			"explain": "It goes up: each note is higher than the one before.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"C5"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which notes make the pentatonic scale in this project?",
+			"answer": 0,
+			"hint": "Penta means five.",
+			"choices": [
+				"C, D, E, G and A",
+				"A, B, C, D and E",
+				"only C",
+				"every note there is"
+			],
+			"explain": "C, D, E, G and A: five notes that always sound good together."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Both bulbs will light.",
+			"answer": false,
+			"hint": "Look at the switch.",
+			"explain": "False: the switch is open, so the loop is broken and neither bulb lights.",
+			"picture": {
+				"kind": "circuit",
+				"parts": [
+					"cell",
+					"switch",
+					"bulb",
+					"bulb"
+				],
+				"switch": "open"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which makes a higher note?",
+			"answer": 0,
+			"hint": "Smaller and tighter things vibrate faster.",
+			"choices": [
+				"a short, tight string",
+				"a long, loose string",
+				"a big drum",
+				"a long bar"
+			],
+			"explain": "A short, tight string: it vibrates faster, so its pitch is higher."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tap LISTEN. How many notes do you hear?",
+			"answer": "5",
+			"hint": "Put up one finger for each note, even when a note repeats.",
+			"explain": "The tune is G, G, A, G, E: that is 5 notes.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"G4",
+					"A4",
+					"G4",
+					"E4:2"
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the show's running order in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Look at step 4 of the project.",
+			"items": [
+				"lights down",
+				"the lights flash on the beat",
+				"the tune plays",
+				"lights up"
+			],
+			"explain": "Lights up, the tune plays, the lights flash on the beat, then lights down."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part to its job in the show.",
+			"items": [
+				"battery",
+				"switch",
+				"bulb",
+				"tune"
+			],
+			"matches": [
+				"turns the lights on and off",
+				"gives out light",
+				"sets the mood",
+				"pushes the electricity"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the circuit, then the music.",
+			"explain": "The battery pushes the electricity, the switch turns lights on and off, the bulb shines, and the tune sets the mood."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tap LISTEN. Which note is the highest?",
+			"answer": 0,
+			"hint": "Listen for the note that sounds thinnest and brightest.",
+			"choices": [
+				"the fourth note",
+				"the first note",
+				"the second note",
+				"the third note"
+			],
+			"explain": "The notes are C, E, G and A: the fourth, A, is the highest.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"A4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two bulbs share one loop. How do they glow, compared with one bulb alone?",
+			"answer": 0,
+			"hint": "They share the battery's push.",
+			"choices": [
+				"more dimly",
+				"more brightly",
+				"just the same",
+				"they do not glow at all"
+			],
+			"explain": "More dimly: the two bulbs share the battery's push."
+		},
+		{
+			"type": "build",
+			"level": 3,
+			"prompt": "Build the stage: a rectangle with an area of 18 squares and a perimeter of 18.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 18,
+				"perimeter": 18
+			},
+			"hint": "Rectangles with 18 squares: 1 by 18, 2 by 9, 3 by 6. Add up each one's sides.",
+			"explain": "3 by 6: 3 × 6 = 18 squares, and 3 + 6 + 3 + 6 = 18 all the way round."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A louder drum beat makes bigger vibrations.",
+			"answer": true,
+			"hint": "What happens to the drum skin when you hit it harder?",
+			"explain": "True: hitting harder makes bigger vibrations, which sound louder."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In the game, what lights a lamp?",
+			"answer": 0,
+			"hint": "Look at the last card of the project.",
+			"choices": [
+				"a light switch touching it, switched on",
+				"a bed next to it",
+				"a bookshelf",
+				"a pumpkin"
+			],
+			"explain": "A light switch, switched on, powers the lamps it touches."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The bulb will light.",
+			"answer": true,
+			"hint": "Is a nail a conductor or an insulator?",
+			"explain": "True: a nail is metal, a conductor, so it closes the loop.",
+			"picture": {
+				"kind": "circuit",
+				"parts": [
+					"cell",
+					"gap",
+					"bulb"
+				],
+				"gap": "a nail"
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: does it make a higher note, or a lower one?",
+			"groups": [
+				"higher note",
+				"lower note"
+			],
+			"items": [
+				"a short, tight string",
+				"a big bar",
+				"a small bar",
+				"a long, loose string",
+				"a small drum",
+				"a big drum"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Small, short and tight things vibrate faster.",
+			"explain": "Higher: a short, tight string, a small bar and a small drum vibrate fast. Lower: a big bar, a long, loose string and a big drum vibrate more slowly."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.tune_shape",
+			"level": 1
+		},
+		{
+			"gen": "g4w.tune_shape",
+			"level": 2
+		},
+		{
+			"gen": "g4w.tune_shape",
+			"level": 3
+		},
+		{
+			"gen": "g4w.circuit_lights",
+			"level": 2
+		}
+	]
+}

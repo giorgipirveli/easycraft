@@ -1,0 +1,403 @@
+{
+	"id": "g4.science.states_of_matter",
+	"lesson": [
+		{
+			"text": "Quick memory: in 'Heat and temperature', at what temperature does ice melt? (0 °C.) Everything around you is matter: it has mass and takes up space. Matter comes in three states: solid, liquid and gas.",
+			"picture": {
+				"kind": "states",
+				"show": [
+					"solid",
+					"liquid",
+					"gas"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Solids keep their own shape and size: a stone, a spoon, a block of ice. You can hold them. Some can be squashed or bent, but they do not flow. Sand pours, but each grain is a tiny solid.",
+			"picture": {
+				"kind": "states",
+				"show": [
+					"solid"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Liquids flow and take the shape of their container, but the amount (the volume) stays the same: pour 1 litre of juice into any jug and it is still 1 litre. The top of a liquid stays flat and level.",
+			"picture": {
+				"kind": "states",
+				"show": [
+					"liquid"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Gases spread out to fill all the space they are in, and they can be squashed into a smaller space. Air is a mix of gases. Water as a gas is called water vapour: you cannot see it.",
+			"picture": {
+				"kind": "states",
+				"show": [
+					"gas"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Heating and cooling can change a state. Melting: a solid turns into a liquid. Freezing: a liquid turns into a solid. Ice melts and water freezes at the same temperature, 0 °C. Iron melts only at 1,538 °C.",
+			"picture": {
+				"kind": "thermometer",
+				"from": -20,
+				"to": 110,
+				"step": 10,
+				"value": 0
+			}
+		},
+		{
+			"text": "Water boils at 100 °C: bubbles of water vapour form all through it. It also evaporates from its surface far below boiling: puddles dry up and washing dries, faster when it is warm, windy and spread out."
+		},
+		{
+			"text": "Condensing: when water vapour cools, it turns back into drops of liquid. That is why a cold can gets wet on the outside and a bathroom mirror mists up. Evaporation and condensation move water round the world.",
+			"picture": {
+				"kind": "water_cycle"
+			}
+		},
+		{
+			"text": "Try it in the world: tap TRY IT IN THE LAB on this unit's page to melt ice, boil water and freeze it again. Then time an ice cube melting in a warm room. Next, in grade 5: matter is made of particles."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a liquid?",
+			"hint": "Which one can you pour, and takes the shape of its cup?",
+			"explain": "Milk flows and takes the shape of its container: a liquid.",
+			"choices": [
+				"milk",
+				"a stone",
+				"air",
+				"a spoon"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a gas?",
+			"hint": "A gas spreads out to fill its space.",
+			"explain": "Air is a mix of gases, and it fills the balloon.",
+			"choices": [
+				"the air in a balloon",
+				"orange juice",
+				"a brick",
+				"an ice cube"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A solid keeps its own shape.",
+			"hint": "Think of a stone in a cup.",
+			"explain": "True: a solid keeps its shape; it does not flow to fill its container.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is it called when ice turns into water?",
+			"hint": "A solid is turning into a liquid.",
+			"explain": "Melting: a solid (ice) turns into a liquid (water).",
+			"choices": [
+				"melting",
+				"freezing",
+				"condensing",
+				"boiling"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "At what temperature does water freeze?",
+			"hint": "It is the same temperature that ice melts at.",
+			"explain": "Water freezes at 0 °C, the same temperature that ice melts at.",
+			"choices": [
+				"0 °C",
+				"10 °C",
+				"37 °C",
+				"100 °C"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What state of matter is in the jar outlined in orange?",
+			"hint": "Does it keep its shape, lie flat at the bottom, or fill the whole jar?",
+			"explain": "It spreads out to fill the whole closed jar: a gas.",
+			"picture": {
+				"kind": "states",
+				"show": [
+					"liquid",
+					"gas",
+					"solid"
+				],
+				"mark": "gas"
+			},
+			"choices": [
+				"a gas",
+				"a solid",
+				"a liquid"
+			],
+			"answer": 0
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: solid, liquid or gas?",
+			"hint": "Does it keep its shape, flow, or spread out to fill a space?",
+			"explain": "Solids: the stone and ice. Liquids: honey and orange juice. Gases: water vapour and air.",
+			"groups": [
+				"solid",
+				"liquid",
+				"gas"
+			],
+			"items": [
+				"honey",
+				"a stone",
+				"water vapour",
+				"ice",
+				"air",
+				"orange juice"
+			],
+			"answer": [
+				1,
+				0,
+				2,
+				0,
+				2,
+				1
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does a puddle disappear on a sunny day?",
+			"hint": "Where does the water go when it warms up?",
+			"explain": "The Sun warms the water and it evaporates: it turns into water vapour in the air.",
+			"choices": [
+				"The water evaporates into the air.",
+				"The water freezes.",
+				"The water condenses.",
+				"The ground melts it."
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Drops form on the outside of a cold can of juice. Where does the water come from?",
+			"hint": "What is in the air that could turn into drops when it cools?",
+			"explain": "The air has water vapour in it. On the cold can it cools and condenses into drops.",
+			"choices": [
+				"water vapour in the air, condensing",
+				"juice leaking through the metal",
+				"the can melting",
+				"the can making water"
+			],
+			"answer": 0
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each change to what happens.",
+			"hint": "Melting is what ice does in the sun.",
+			"explain": "Melting: solid to liquid. Freezing: liquid to solid. Evaporating: liquid to gas. Condensing: gas to liquid.",
+			"items": [
+				"melting",
+				"freezing",
+				"evaporating",
+				"condensing"
+			],
+			"matches": [
+				"liquid to gas",
+				"gas to liquid",
+				"solid to liquid",
+				"liquid to solid"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			]
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Washing dries faster on a warm, windy day.",
+			"hint": "What helps water evaporate?",
+			"explain": "True: warmth and wind make water evaporate faster.",
+			"answer": true
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tilly pours 1 litre of water from a tall jug into a wide bowl. How many litres are in the bowl?",
+			"hint": "Does the amount of a liquid change when its shape does?",
+			"explain": "Still 1 litre: a liquid takes the shape of its container, but its volume stays the same.",
+			"answer": "1"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Water is boiling in a pan. What does the thermometer show, in °C?",
+			"hint": "Read the number at the top of the red liquid.",
+			"explain": "The thermometer shows 100 °C: water boils at 100 °C.",
+			"picture": {
+				"kind": "thermometer",
+				"from": -20,
+				"to": 110,
+				"step": 10,
+				"value": 100
+			},
+			"answer": "100"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Sand can be poured. Is it a solid or a liquid?",
+			"hint": "Look at one grain of sand. Does it keep its own shape?",
+			"explain": "Sand is a solid: each grain keeps its own shape. It only pours because the grains are tiny.",
+			"choices": [
+				"a solid: each grain keeps its shape",
+				"a liquid, because it pours",
+				"a gas, because it spreads out"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Iron melts at 1,538 °C. What state is iron in at 1,000 °C?",
+			"hint": "Is 1,000 °C above or below iron's melting point?",
+			"explain": "1,000 °C is below 1,538 °C, so the iron is still a solid.",
+			"choices": [
+				"solid",
+				"liquid",
+				"gas"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Water only evaporates when it boils at 100 °C.",
+			"hint": "Think of a puddle on a warm day.",
+			"explain": "False: water evaporates from its surface far below boiling. That is how puddles dry up.",
+			"answer": false
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the water cycle in order, starting at the sea.",
+			"hint": "Start with the Sun warming the sea, and end with the water back in the sea.",
+			"explain": "Evaporation, rising and cooling, condensing into clouds, then rain back to the sea: the water cycle.",
+			"items": [
+				"Rain falls and flows back to the sea.",
+				"The water vapour rises and cools.",
+				"The Sun warms the sea and water evaporates.",
+				"It condenses into drops that make clouds."
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A bathroom mirror mists up after a hot bath. Which change of state is this?",
+			"hint": "Warm water vapour meets the cold mirror.",
+			"explain": "Water vapour from the bath cools on the mirror and condenses into tiny drops.",
+			"choices": [
+				"condensing",
+				"evaporating",
+				"melting",
+				"freezing"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Chocolate melts in a warm hand, but a spoon does not. Why?",
+			"hint": "Does everything melt at 0 °C?",
+			"explain": "Every material has its own melting point. Chocolate melts a little below body temperature; steel only at well over 1,000 °C.",
+			"choices": [
+				"Materials melt at different temperatures.",
+				"Spoons are liquids.",
+				"Hands are colder than spoons.",
+				"Chocolate is a gas."
+			],
+			"answer": 0
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the changes: does water need heating, or cooling?",
+			"groups": [
+				"heating",
+				"cooling"
+			],
+			"items": [
+				"ice melting",
+				"a puddle evaporating",
+				"a mirror misting up",
+				"water freezing",
+				"a kettle boiling",
+				"rain forming in a cloud"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Solid to liquid to gas needs heat. Going back the other way needs cooling.",
+			"explain": "Heating: melting, evaporating and boiling go from solid to liquid, or liquid to gas. Cooling: a misty mirror, freezing and raindrops in a cloud go from gas to liquid, or liquid to solid."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4c.state_at",
+			"level": 1
+		},
+		{
+			"gen": "g4c.state_at",
+			"level": 2
+		},
+		{
+			"gen": "g4c.state_at",
+			"level": 3
+		},
+		{
+			"gen": "g4c.state_change",
+			"level": 1
+		},
+		{
+			"gen": "g4c.state_change",
+			"level": 2
+		},
+		{
+			"gen": "g4c.state_change",
+			"level": 3
+		}
+	]
+}

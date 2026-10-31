@@ -1,0 +1,527 @@
+{
+	"id": "lever_lift",
+	"title": "A lever lifts",
+	"topic": "science",
+	"link": {
+		"unit": "g3.design_tech.levers_linkages"
+	},
+	"scenes": [
+		{
+			"seconds": 7.5,
+			"background": "grass",
+			"caption": "A lever is a strong bar that turns on a pivot.",
+			"say": "A lever is a strong bar that turns on a pivot, like a seesaw.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "picture",
+					"picture": {
+						"kind": "lever",
+						"pivot": 5,
+						"load": 1,
+						"effort": 9
+					},
+					"at": [
+						180,
+						220
+					],
+					"w": 340,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "grow",
+							"at": 1.0,
+							"dur": 6.4,
+							"to": 1.05,
+							"ease": "linear"
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "PIVOT",
+					"at": [
+						180,
+						90
+					],
+					"size": 28,
+					"color": "white",
+					"box": "orange",
+					"moves": [
+						{
+							"do": "drop",
+							"at": 2.0,
+							"height": 200
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						180,
+						115
+					],
+					"to": [
+						180,
+						250
+					],
+					"color": "orange",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.8,
+							"dur": 0.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9.5,
+			"background": "grass",
+			"caption": "Load near the pivot, push far from it: a small push lifts a big load!",
+			"say": "Put the heavy load near the pivot and push far from it. Then a small push lifts a big load!",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "thud"
+				},
+				{
+					"at": 1.2,
+					"effect": "boing"
+				},
+				{
+					"at": 2.5,
+					"effect": "whoosh"
+				},
+				{
+					"at": 4.0,
+					"effect": "jingle_goal"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "pyramid",
+					"at": [
+						100,
+						326
+					],
+					"size": 56,
+					"moves": []
+				},
+				{
+					"kind": "line",
+					"from": [
+						30,
+						300
+					],
+					"to": [
+						330,
+						300
+					],
+					"at": [
+						100,
+						300
+					],
+					"color": "brown",
+					"width": 12,
+					"moves": [
+						{
+							"do": "spin",
+							"at": 2.5,
+							"dur": 1.5,
+							"turns": 0.0417
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 56,
+					"h": 50,
+					"at": [
+						40,
+						270
+					],
+					"color": "brown",
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.2,
+							"height": 300
+						},
+						{
+							"do": "move",
+							"at": 2.5,
+							"dur": 1.5,
+							"to": [
+								50,
+								255
+							]
+						},
+						{
+							"do": "spin",
+							"at": 2.5,
+							"dur": 1.5,
+							"turns": 0.0417
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "60 kg",
+					"at": [
+						62,
+						210
+					],
+					"size": 22,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.9
+						},
+						{
+							"do": "move",
+							"at": 2.5,
+							"dur": 1.5,
+							"to": [
+								72,
+								195
+							]
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "pip",
+					"at": [
+						280,
+						262
+					],
+					"size": 80,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 1.0,
+							"height": 300
+						},
+						{
+							"do": "move",
+							"at": 2.5,
+							"dur": 1.5,
+							"to": [
+								284,
+								310
+							]
+						},
+						{
+							"do": "spin",
+							"at": 2.5,
+							"dur": 1.5,
+							"turns": 0.0417
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						320,
+						150
+					],
+					"to": [
+						320,
+						250
+					],
+					"color": "green",
+					"width": 10,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.0,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "push",
+					"at": [
+						300,
+						120
+					],
+					"size": 22,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "UP IT GOES!",
+					"at": [
+						150,
+						120
+					],
+					"size": 30,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.0
+						},
+						{
+							"do": "bounce",
+							"at": 4.8
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "paper",
+			"caption": "It balances when 60 kg × 1 m = 20 kg × 3 m.",
+			"say": "It balances when the load times its distance equals the push times its distance: 60 times 1 is 20 times 3.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 6.0,
+					"effect": "ding"
+				}
+			],
+			"actors": [
+				{
+					"kind": "picture",
+					"picture": {
+						"kind": "lever_class",
+						"pivot": 3,
+						"load": 2,
+						"effort": 6,
+						"values": {
+							"load": "60 kg",
+							"effort": "20 kg"
+						},
+						"scale": true
+					},
+					"at": [
+						180,
+						170
+					],
+					"w": 340,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "60 × 1 = 60",
+					"at": [
+						180,
+						320
+					],
+					"size": 34,
+					"color": "white",
+					"box": "brown",
+					"moves": [
+						{
+							"do": "slide",
+							"at": 2.4,
+							"from": [
+								-160,
+								320
+							]
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "20 × 3 = 60",
+					"at": [
+						180,
+						390
+					],
+					"size": 34,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "slide",
+							"at": 4.0,
+							"from": [
+								520,
+								390
+							]
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "spark",
+					"at": [
+						300,
+						355
+					],
+					"size": 100,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "draw",
+							"at": 6.0,
+							"dur": 0.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8,
+			"background": "grass",
+			"caption": "Levers are all around you: seesaws, scissors, wheelbarrows.",
+			"say": "Levers are all around you: a seesaw, scissors, a bottle opener and a wheelbarrow.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "picture",
+					"picture": {
+						"kind": "lever_class",
+						"pivot": 1,
+						"load": 4,
+						"effort": 9,
+						"tags": {
+							"pivot": "wheel",
+							"load": "soil",
+							"effort": "handles"
+						},
+						"names": true
+					},
+					"at": [
+						180,
+						190
+					],
+					"w": 340,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "a wheelbarrow is a lever",
+					"at": [
+						180,
+						360
+					],
+					"size": 22,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 6.5,
+			"background": "grass",
+			"caption": "Where would you push to lift a heavy rock with a long stick?",
+			"say": "Where would you push to lift a heavy rock with a long stick?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "block",
+					"block": "STONE",
+					"at": [
+						80,
+						330
+					],
+					"size": 90,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.2,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "line",
+					"from": [
+						60,
+						290
+					],
+					"to": [
+						340,
+						190
+					],
+					"color": "brown",
+					"width": 10,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 0.8,
+							"dur": 0.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "?",
+					"at": [
+						300,
+						120
+					],
+					"size": 70,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						},
+						{
+							"do": "bounce",
+							"at": 2.2
+						}
+					]
+				}
+			]
+		}
+	]
+}

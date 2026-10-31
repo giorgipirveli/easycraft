@@ -1,0 +1,246 @@
+{
+	"id": "g7.maths.proportional",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met unit rates. 12 blocks in 4 minutes is how many a minute? 3 blocks a minute."
+		},
+		{
+			"text": "Two amounts are proportional when one is always the same number times the other: y = kx. The number k is the constant of proportionality."
+		},
+		{
+			"text": "In a table, divide each y by its x: if the answer is always the same, the amounts are proportional. (2, 6), (3, 9), (5, 15): always 3.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"x",
+						"y",
+						"y ÷ x"
+					],
+					[
+						"2",
+						"6",
+						"3"
+					],
+					[
+						"3",
+						"9",
+						"3"
+					],
+					[
+						"5",
+						"15",
+						"3"
+					]
+				]
+			}
+		},
+		{
+			"text": "On a graph, a proportional relationship is a straight line through (0, 0).",
+			"picture": {
+				"kind": "grid",
+				"x_max": 5,
+				"y_max": 15,
+				"y_step": 3,
+				"points": [
+					{
+						"x": 0,
+						"y": 0
+					},
+					{
+						"x": 2,
+						"y": 6
+					},
+					{
+						"x": 5,
+						"y": 15
+					}
+				],
+				"join": true
+			}
+		},
+		{
+			"text": "Unit rates can use fractions: 1/2 km in 1/4 hour is 1/2 ÷ 1/4 = 2 km an hour."
+		},
+		{
+			"text": "Try it in the world: a buddy lays 4 blocks a minute. Make a table of minutes and blocks. Is it proportional? b = 4m, through (0, 0). Next: percent problems."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In y = 5x, y is proportional to x.",
+			"answer": true,
+			"hint": "Is it k times x?",
+			"explain": "Yes: k = 5."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The pairs (2, 8), (3, 12), (5, 20) are proportional. What is the constant of proportionality?",
+			"answer": "4",
+			"hint": "Divide y by x.",
+			"explain": "8 ÷ 2 = 4."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which graph shows a proportional relationship?",
+			"answer": 0,
+			"hint": "Through the origin.",
+			"choices": [
+				"a straight line through (0, 0)",
+				"a curve",
+				"a straight line not through (0, 0)"
+			],
+			"explain": "A straight line through the origin."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A cyclist rides 3/4 km in 1/6 of an hour. How many km is that in an hour?",
+			"answer": "9/2",
+			"hint": "3/4 ÷ 1/6.",
+			"explain": "3/4 × 6 = 18/4 = 9/2 = 4.5 km.",
+			"accept": [
+				"4.5"
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which table is proportional?",
+			"answer": 0,
+			"hint": "y ÷ x the same each time.",
+			"choices": [
+				"(1, 4), (2, 8), (3, 12)",
+				"(1, 4), (2, 6), (3, 8)",
+				"(1, 5), (2, 7), (3, 9)"
+			],
+			"explain": "4 ÷ 1 = 8 ÷ 2 = 12 ÷ 3 = 4."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "y = 2x + 3 is proportional.",
+			"answer": false,
+			"hint": "Try x = 0.",
+			"explain": "No: when x = 0, y = 3, not 0."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Paint costs 12 coins for 3/4 of a litre. How much for 1 litre?",
+			"answer": "16",
+			"hint": "12 ÷ 3/4.",
+			"explain": "3/4 of a litre costs 12 coins, so 1/4 of a litre costs 12 ÷ 3 = 4 coins. A whole litre is 4 quarters: 4 × 4 = 16 coins."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "On a proportional graph, the point (1, k) shows what?",
+			"answer": 0,
+			"hint": "Put x = 1 into y = kx. What is y?",
+			"choices": [
+				"the unit rate",
+				"the start",
+				"nothing"
+			],
+			"explain": "At x = 1, y = k × 1, which is k: the amount for one unit, the unit rate. It is also the constant of proportionality."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the equations: proportional or not?",
+			"items": [
+				"y = 5x",
+				"y = 2x + 3",
+				"y = x",
+				"y = 4x − 1",
+				"y = 0.5x"
+			],
+			"groups": [
+				"proportional",
+				"not proportional"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Proportional means y = kx: nothing added or taken away, so the line goes through (0, 0).",
+			"explain": "y = 5x, y = x and y = 0.5x are k times x. y = 2x + 3 and y = 4x − 1 add or take away, so they miss (0, 0)."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each table to its constant of proportionality.",
+			"items": [
+				"(2, 8), (3, 12)",
+				"(4, 2), (6, 3)",
+				"(1, 7), (2, 14)"
+			],
+			"matches": [
+				"7",
+				"4",
+				"1/2"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Divide each y by its x.",
+			"explain": "8 ÷ 2 = 4; 2 ÷ 4 = 1/2; 7 ÷ 1 = 7."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A recipe uses 2/3 of a cup of flour for every 1/2 cup of milk. How many cups of flour go with 3 cups of milk?",
+			"answer": "4",
+			"hint": "Find the flour for 1 cup of milk first: the unit rate.",
+			"explain": "Flour for each cup of milk: 2/3 ÷ 1/2 = 4/3 cups. For 3 cups of milk: 4/3 × 3 = 4 cups of flour."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7n.unit_rate_fraction",
+			"level": 1
+		},
+		{
+			"gen": "g7n.unit_rate_fraction",
+			"level": 2
+		},
+		{
+			"gen": "g7n.unit_rate_fraction",
+			"level": 3
+		},
+		{
+			"gen": "g7n.is_proportional",
+			"level": 1
+		},
+		{
+			"gen": "g7n.is_proportional",
+			"level": 2
+		},
+		{
+			"gen": "g7n.is_proportional",
+			"level": 3
+		},
+		{
+			"gen": "g7n.constant_k",
+			"level": 1
+		},
+		{
+			"gen": "g7n.constant_k",
+			"level": 2
+		},
+		{
+			"gen": "g7n.constant_k",
+			"level": 3
+		}
+	]
+}

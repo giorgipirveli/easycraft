@@ -1,0 +1,395 @@
+{
+	"id": "g7.geography.middle_east",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met Mesopotamia. Which two rivers was it between? (The Tigris and the Euphrates.) Today: the Middle East, its deserts, rivers and cities, and why water matters there."
+		},
+		{
+			"text": "The Middle East is where south-west Asia meets north-east Africa and Europe. It lies between the Mediterranean, the Red Sea, the Gulf and the Caspian Sea. It has mountains in the north, such as the Zagros, and huge deserts to the south.",
+			"picture": {
+				"kind": "voyage_map",
+				"window": {
+					"lat": [
+						10,
+						45
+					],
+					"long": [
+						25,
+						65
+					]
+				},
+				"lat_step": 10,
+				"long_step": 15,
+				"places": [
+					{
+						"lat": 30,
+						"long": 31,
+						"label": "Cairo"
+					},
+					{
+						"lat": 40,
+						"long": 33,
+						"label": "Ankara"
+					},
+					{
+						"lat": 33,
+						"long": 44,
+						"label": "Baghdad"
+					},
+					{
+						"lat": 36,
+						"long": 51,
+						"label": "Tehran"
+					},
+					{
+						"lat": 25,
+						"long": 47,
+						"label": "Riyadh"
+					},
+					{
+						"lat": 24,
+						"long": 58,
+						"label": "Muscat"
+					},
+					{
+						"lat": 21,
+						"long": 40,
+						"label": "Mecca"
+					}
+				]
+			}
+		},
+		{
+			"text": "Much of it is hot desert, with under 100 mm of rain a year and summer days over 40 °C. The Arabian Peninsula holds the Rub' al Khali, the Empty Quarter: about 650,000 km² of sand dunes, the largest sand desert on Earth.",
+			"picture": {
+				"kind": "climograph",
+				"name": "Riyadh",
+				"temp": [
+					15,
+					17,
+					22,
+					27,
+					32,
+					35,
+					36,
+					36,
+					33,
+					28,
+					21,
+					16
+				],
+				"rain": [
+					13,
+					7,
+					23,
+					25,
+					5,
+					0,
+					0,
+					0,
+					0,
+					1,
+					7,
+					13
+				],
+				"t_top": 40,
+				"t_step": 10,
+				"r_top": 100,
+				"r_step": 25
+			}
+		},
+		{
+			"text": "Rivers made life possible: the Nile in Egypt, and the Tigris and Euphrates, where some of the first cities grew. They still water farms, and dams store their water. Countries upstream and downstream must agree how to share it fairly."
+		},
+		{
+			"text": "People found clever ways to get water. In Persia, qanats, tunnels sloping gently down from the hills, carried groundwater to towns; some are over 2,500 years old. Today the Gulf countries make much of their drinking water by desalination.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"water in the hills",
+					"a sloping tunnel",
+					"wells along the way",
+					"water for the town"
+				],
+				"title": "A qanat"
+			}
+		},
+		{
+			"text": "Its cities include very old ones, such as Cairo, Baghdad and Istanbul. Others grew fast after oil was found, such as Dubai and Doha. The region holds about half of the world's known oil. Arabic, Persian and Turkish are among its languages."
+		},
+		{
+			"text": "The Middle East is where three faiths began: Judaism, Christianity and Islam. Each year millions of Muslims travel to Mecca for the Hajj pilgrimage. Places holy to believers of each faith are found across the region."
+		},
+		{
+			"text": "Try it in the world: build a desert town with a qanat: a tunnel sloping gently down from the hills, with wells along it, bringing water to a garden oasis. Next: Russia."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which two rivers flow through Iraq?",
+			"answer": 0,
+			"hint": "They gave Mesopotamia its name: the land between the rivers.",
+			"choices": [
+				"the Tigris and the Euphrates",
+				"the Nile and the Amazon",
+				"the Thames and the Seine",
+				"the Ganges and the Indus"
+			],
+			"explain": "The Tigris and the Euphrates."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the Rub' al Khali?",
+			"answer": 0,
+			"hint": "Its name means the Empty Quarter.",
+			"choices": [
+				"the largest sand desert on Earth",
+				"a river",
+				"a mountain range",
+				"a city"
+			],
+			"explain": "The largest sand desert on Earth, on the Arabian Peninsula."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Much of the Middle East gets under 100 mm of rain a year.",
+			"answer": true,
+			"hint": "Think of its deserts.",
+			"explain": "True: much of it is hot desert."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a qanat?",
+			"answer": 0,
+			"hint": "It slopes gently down from the hills.",
+			"choices": [
+				"a tunnel that carries groundwater",
+				"a kind of boat",
+				"a desert wind",
+				"a market"
+			],
+			"explain": "A gently sloping tunnel that brings groundwater from the hills to towns."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which three faiths began in the Middle East?",
+			"answer": 0,
+			"hint": "Their holy places are in the region.",
+			"choices": [
+				"Judaism, Christianity and Islam",
+				"Hinduism, Buddhism and Jainism",
+				"Shinto, Daoism and Confucianism"
+			],
+			"explain": "Judaism, Christianity and Islam."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which of these cities is furthest west?",
+			"answer": 0,
+			"hint": "Compare the longitudes along the bottom: the smaller the °E, the further west.",
+			"choices": [
+				"Cairo",
+				"Tehran",
+				"Riyadh",
+				"Ankara"
+			],
+			"explain": "Cairo is at 31° E, Ankara 33° E, Riyadh 47° E, Tehran 51° E: Cairo is furthest west.",
+			"picture": {
+				"kind": "voyage_map",
+				"window": {
+					"lat": [
+						10,
+						45
+					],
+					"long": [
+						25,
+						65
+					]
+				},
+				"lat_step": 10,
+				"long_step": 15,
+				"places": [
+					{
+						"lat": 30,
+						"long": 31,
+						"label": "Cairo"
+					},
+					{
+						"lat": 36,
+						"long": 51,
+						"label": "Tehran"
+					},
+					{
+						"lat": 25,
+						"long": 47,
+						"label": "Riyadh"
+					},
+					{
+						"lat": 40,
+						"long": 33,
+						"label": "Ankara"
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The Rub' al Khali covers about 650,000 km², and the UK about 243,000 km². How many km² bigger is the desert?",
+			"answer": "407000",
+			"hint": "Take the smaller area from the bigger one.",
+			"explain": "650,000 − 243,000 = 407,000 km²."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Cairo is at 30° N and Ankara at 40° N. How many degrees of latitude apart are they?",
+			"answer": "10",
+			"hint": "Both are north: take the smaller from the bigger.",
+			"explain": "40 − 30 = 10°."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each city to a fact.",
+			"items": [
+				"Cairo",
+				"Baghdad",
+				"Istanbul",
+				"Dubai"
+			],
+			"matches": [
+				"grew fast after oil was found",
+				"on the river Nile",
+				"on the river Tigris",
+				"where Europe meets Asia"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Two stand on great rivers.",
+			"explain": "Cairo: the Nile. Baghdad: the Tigris. Istanbul: Europe and Asia. Dubai: oil."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do the Gulf countries use desalination?",
+			"answer": 0,
+			"hint": "Look at how dry they are, and what surrounds them.",
+			"choices": [
+				"they have little fresh water but lots of sea",
+				"it rains every day",
+				"their rivers are too big",
+				"they have no sea"
+			],
+			"explain": "They have very little rain or river water, but plenty of sea water to take the salt out of."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A country has 6,000 million m³ of fresh water a year for 10 million people. How many m³ is that for each person?",
+			"answer": "600",
+			"hint": "Divide the water by the people.",
+			"explain": "6,000 million ÷ 10 million = 600 m³ each."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "With 600 m³ of fresh water a person each year, what do geographers call it?",
+			"answer": 0,
+			"hint": "Under 1,700 is stress, under 1,000 scarcity, under 500 absolute scarcity.",
+			"choices": [
+				"water scarcity",
+				"water stress",
+				"no water stress",
+				"absolute scarcity"
+			],
+			"explain": "600 is under 1,000 but not under 500: water scarcity."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why must countries along one river agree how to share it?",
+			"answer": 0,
+			"hint": "Where does the water go if a country upstream stores it?",
+			"choices": [
+				"a dam upstream leaves less water downstream",
+				"rivers never run dry",
+				"only one country uses a river",
+				"farms need no water"
+			],
+			"explain": "Water stored or used upstream does not reach people downstream, so fair agreements matter."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Qanats need pumps to move their water.",
+			"answer": false,
+			"hint": "They slope gently downhill.",
+			"explain": "False: gravity carries the water down the gently sloping tunnel."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: natural, or made by people?",
+			"groups": [
+				"natural",
+				"made by people"
+			],
+			"items": [
+				"the Rub' al Khali",
+				"a qanat",
+				"the Euphrates",
+				"a desalination plant",
+				"the Zagros Mountains",
+				"a dam"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Was it there before people, or did people build it?",
+			"explain": "Natural: the desert, the Euphrates, the Zagros. Made by people: a qanat, a desalination plant, a dam."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.mideast_places",
+			"level": 1
+		},
+		{
+			"gen": "g7h.mideast_places",
+			"level": 2
+		},
+		{
+			"gen": "g7h.mideast_places",
+			"level": 3
+		},
+		{
+			"gen": "g7h.water_per_person",
+			"level": 1
+		},
+		{
+			"gen": "g7h.water_per_person",
+			"level": 2
+		},
+		{
+			"gen": "g7h.water_per_person",
+			"level": 3
+		}
+	]
+}

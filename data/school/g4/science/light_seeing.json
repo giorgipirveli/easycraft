@@ -1,0 +1,413 @@
+{
+	"id": "g4.science.light_seeing",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, waves. What is the top of a wave called? The crest; the bottom is the trough."
+		},
+		{
+			"text": "We see things because light bounces off them and goes into our eyes. Light comes from a source: something that makes its own light, like the Sun, a lamp, a lantern or a fire.",
+			"picture": {
+				"kind": "rays",
+				"source": "sun",
+				"object": 272
+			}
+		},
+		{
+			"text": "Light travels in straight lines. When it hits something, some of it bounces off: we say it reflects. When reflected light goes into your eyes, you see the thing it bounced off.",
+			"picture": {
+				"kind": "rays",
+				"source": "lamp",
+				"object": 218
+			}
+		},
+		{
+			"text": "Your eyes do not send out any light: they only take it in. In a cave with no light at all, you could not see a thing, not even your own hand.",
+			"picture": {
+				"kind": "rays",
+				"source": "none",
+				"object": 272
+			}
+		},
+		{
+			"text": "Light a lantern in that cave, and you can see again: light from the lantern bounces off the walls and everything around you, and into your eyes.",
+			"picture": {
+				"kind": "icon",
+				"block": 28
+			}
+		},
+		{
+			"text": "A mirror is very smooth, so light bounces off it neatly. You see things in a mirror because their light bounces off the mirror and into your eyes.",
+			"picture": {
+				"kind": "rays",
+				"source": "lamp",
+				"object": 272,
+				"mirror": true
+			}
+		},
+		{
+			"text": "The Moon makes no light of its own. We see it because sunlight bounces off it and reaches our eyes, even at night. Only its sunlit half shines: as it goes round Earth, we see more or less of that half.",
+			"picture": {
+				"kind": "moon_phases"
+			}
+		},
+		{
+			"text": "Some things let light through. Glass is see-through, frosted glass lets some light through, and stone blocks it, so a shadow forms behind it. Next: sending messages with patterns.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"glass",
+						"frosted glass",
+						"stone"
+					],
+					[
+						"all light",
+						"some light",
+						"no light"
+					]
+				]
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "We see an apple because light bounces off it and goes into our eyes.",
+			"hint": "How does light get from the apple to you?",
+			"explain": "Light bounces off the apple into our eyes, and so we see it.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a source of light?",
+			"hint": "A source of light makes its own light.",
+			"explain": "A lantern makes its own light. A mirror, the Moon and a book only bounce light.",
+			"choices": [
+				"a lantern",
+				"a mirror",
+				"the Moon",
+				"a book"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Our eyes send out light so that we can see.",
+			"hint": "Can you see in a room with no light at all?",
+			"explain": "Eyes only take light in. They do not send any out.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Can you see your hand in a cave with no light at all?",
+			"hint": "Seeing needs light to bounce off things and into your eyes.",
+			"explain": "With no light, nothing bounces off your hand into your eyes, so you cannot see it.",
+			"choices": [
+				"No, no light bounces off it",
+				"Yes, eyes make their own light",
+				"Yes, if you stare for a while"
+			],
+			"answer": 0
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Mimi reads by the light of a lamp. Put the path of the light in order.",
+			"hint": "Light starts at its source.",
+			"explain": "The lamp makes the light, it bounces off the book, and it goes into Mimi's eyes.",
+			"picture": {
+				"kind": "rays",
+				"source": "lamp",
+				"object": 218
+			},
+			"items": [
+				"the lamp",
+				"Mimi's eyes",
+				"the book"
+			],
+			"answer": [
+				0,
+				2,
+				1
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why can we see the Moon at night?",
+			"hint": "Does the Moon make light, or bounce it?",
+			"explain": "The Moon makes no light. Sunlight bounces off it and reaches our eyes.",
+			"choices": [
+				"Sunlight bounces off it into our eyes",
+				"It makes its own light",
+				"It is on fire",
+				"Street lamps light it up"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Light travels in straight lines.",
+			"hint": "Can you see round a corner?",
+			"explain": "Light goes straight until it hits something. That is why you cannot see round a corner.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does a mirror do to light?",
+			"hint": "What do you see when you look in a mirror?",
+			"explain": "A mirror is smooth and shiny: it bounces light back neatly.",
+			"choices": [
+				"It bounces it back",
+				"It soaks it all up",
+				"It makes new light",
+				"It turns it into sound"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Nell is in a room with no windows and no lamp. She cannot see her book. What will help her see it?",
+			"hint": "What is missing in the room?",
+			"explain": "A lamp gives light, which bounces off the book and into her eyes.",
+			"choices": [
+				"switching on a lamp",
+				"opening her eyes wider",
+				"holding the book closer",
+				"closing one eye"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly sees a pumpkin in a mirror, lit by a lamp. Which path does the light take?",
+			"hint": "Light starts at its source, and it ends in the eyes.",
+			"explain": "The lamp makes the light, it bounces off the pumpkin, then off the mirror, and into Tilly's eyes.",
+			"picture": {
+				"kind": "rays",
+				"source": "lamp",
+				"object": 272,
+				"mirror": true
+			},
+			"choices": [
+				"lamp, pumpkin, mirror, Tilly's eyes",
+				"Tilly's eyes, mirror, pumpkin, lamp",
+				"lamp, Tilly's eyes, mirror, pumpkin"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A cat can see in a room that is completely dark.",
+			"hint": "What does every eye need in order to see?",
+			"explain": "Cats see well in dim light, but with no light at all, even a cat sees nothing.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a shadow form behind a stone block?",
+			"hint": "Light travels in straight lines. Can it pass through stone?",
+			"explain": "Light cannot pass through stone, so the space behind it gets no light: a shadow.",
+			"choices": [
+				"The stone stops the light",
+				"The stone makes darkness",
+				"The light bends round the stone",
+				"The stone soaks up the air"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which lets the most light through?",
+			"hint": "Which one can you see through clearly?",
+			"explain": "Glass lets almost all light through, frosted glass some of it, and stone none.",
+			"choices": [
+				"glass",
+				"frosted glass",
+				"stone"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does a cat need to see a mouse at night?",
+			"hint": "Eyes only take light in.",
+			"explain": "A cat's eyes take light in. Even a little light bouncing off the mouse is enough for a cat to see it.",
+			"choices": [
+				"a little light bouncing off the mouse",
+				"no light at all",
+				"light shining out of its eyes",
+				"a mirror"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram shines a torch at a mirror. What happens to the light?",
+			"hint": "What does a mirror do to light?",
+			"explain": "A mirror reflects the light: it bounces off in a new direction.",
+			"choices": [
+				"It bounces off the mirror",
+				"It stops inside the mirror",
+				"It goes straight through the mirror",
+				"It turns into sound"
+			],
+			"answer": 0
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort them: makes its own light, or only reflects it?",
+			"groups": [
+				"a light source",
+				"reflects light"
+			],
+			"items": [
+				"the Sun",
+				"the Moon",
+				"a lantern",
+				"a mirror",
+				"a fire",
+				"a book"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Would it still shine in a dark cave with nothing else lit?",
+			"explain": "Sources make their own light: the Sun, a lantern and a fire. The Moon, a mirror and a book only bounce light that comes from a source."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Pip sees the Moon at night. Put the light's path in order.",
+			"items": [
+				"the Moon",
+				"Pip's eyes",
+				"the Sun"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Which one makes the light? Start there.",
+			"explain": "The Sun makes the light, it bounces off the Moon, and it reaches Pip's eyes. The Moon makes no light of its own."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the materials: how much light passes through?",
+			"groups": [
+				"all of it",
+				"some of it",
+				"none of it"
+			],
+			"items": [
+				"clear glass",
+				"frosted glass",
+				"stone",
+				"clean water",
+				"tissue paper",
+				"wood"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Hold each one up to a lamp in your mind: do you see clearly through it, a blur, or nothing?",
+			"explain": "Clear glass and clean water let the light through; frosted glass and tissue paper let some through; stone and wood block it, so they make shadows."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "A torch shines on a mirror, the light lands on a cat, and Bram sees the cat. Put the light's path in order.",
+			"items": [
+				"the cat",
+				"Bram's eyes",
+				"the torch",
+				"the mirror"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Follow the light from where it is made, one bounce at a time.",
+			"explain": "The torch makes the light. It bounces off the mirror onto the cat, then off the cat into Bram's eyes: two bounces, and then he sees it."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each puzzle to its reason.",
+			"items": [
+				"We see the Moon at night",
+				"No shadow forms behind glass",
+				"We cannot see in a dark cave",
+				"We see ourselves in a mirror"
+			],
+			"matches": [
+				"no light reaches our eyes",
+				"light passes through it",
+				"sunlight bounces off it",
+				"it is smooth and shiny"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "For each one, ask where the light comes from and where it goes.",
+			"explain": "The Moon: sunlight bounces off it. Glass: light passes through, so no shadow. A dark cave: no light reaches our eyes. A mirror is smooth and shiny, so our light bounces back neatly."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4p.light_path",
+			"level": 1
+		},
+		{
+			"gen": "g4p.light_path",
+			"level": 2
+		},
+		{
+			"gen": "g4p.light_path",
+			"level": 3
+		},
+		{
+			"gen": "g4p.light_source",
+			"level": 1
+		},
+		{
+			"gen": "g4p.light_source",
+			"level": 2
+		},
+		{
+			"gen": "g4p.light_source",
+			"level": 3
+		}
+	]
+}

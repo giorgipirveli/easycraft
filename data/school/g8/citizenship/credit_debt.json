@@ -1,0 +1,322 @@
+{
+	"id": "g8.citizenship.credit_debt",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met credit cards. What does the APR show? (The yearly cost of borrowing.) Today: loans, interest, credit scores, and how to stay out of debt problems."
+		},
+		{
+			"text": "Credit means borrowing money now and paying it back later, usually with interest: the price of borrowing. Kinds of credit include loans, credit cards, overdrafts, mortgages for homes, and 'buy now, pay later'."
+		},
+		{
+			"text": "With simple interest, the interest is the amount × the rate × the years. Borrow 2,000 gold at 10% a year for 2 years: 10% of 2,000 is 200 a year, so 400 gold of interest. You pay back 2,400 in all."
+		},
+		{
+			"text": "Most debts grow by compound interest: interest on interest, so unpaid debts snowball. Paying only the smallest amount each month can make a debt last years, and cost far more than the thing you bought.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"start",
+						1000
+					],
+					[
+						"year 1",
+						1200
+					],
+					[
+						"year 2",
+						1440
+					],
+					[
+						"year 3",
+						1728
+					],
+					[
+						"year 4",
+						2074
+					]
+				],
+				"step": 250,
+				"top": 2250,
+				"name": "1,000 gold owed at 20%, unpaid"
+			}
+		},
+		{
+			"text": "Some borrowing can help: a mortgage for a home, or a loan for training that raises your pay, if you can afford the payments. Borrowing for things that lose value fast, or to pay everyday bills, can trap people in debt."
+		},
+		{
+			"text": "Lenders check your credit history and give a credit score: a guide to how reliably you repay. Paying on time, using little of your limit and not applying for lots of credit help. Missing payments harms it for years.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"helps your score",
+						"harms your score"
+					],
+					[
+						"paying on time",
+						"missing payments"
+					],
+					[
+						"low use of your limit",
+						"going over the limit"
+					],
+					[
+						"one card for years",
+						"many loans at once"
+					]
+				]
+			}
+		},
+		{
+			"text": "Warning signs: borrowing to pay other debts, missing bills, hiding letters. Steps: list every debt, pay the costliest first, talk to lenders early, and get free debt advice. Never borrow from unlicensed lenders, 'loan sharks'."
+		},
+		{
+			"text": "Try it in the world: open the bank in My Money Stall, in Life, and watch interest grow. Then lend a friend 100 gold in your village at 10% a year, and write both totals on a sign. Next: investing and risk."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is interest on a loan?",
+			"choices": [
+				"the price of borrowing",
+				"a free gift",
+				"a savings account",
+				"a kind of tax"
+			],
+			"answer": 0,
+			"hint": "Think of what the lender gets for lending.",
+			"explain": "Interest is the extra you pay for borrowing money."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Borrow 1,000 gold at 10% a year, simple interest. How much interest is that in one year?",
+			"answer": "100",
+			"hint": "Find 10% of the amount borrowed.",
+			"explain": "10% of 1,000 = 100 gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Missing payments can harm your credit score for years.",
+			"answer": true,
+			"hint": "Look at the credit score table.",
+			"explain": "True: lenders see missed payments in your credit history for years."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a kind of credit?",
+			"choices": [
+				"a pay rise",
+				"a birthday present",
+				"a credit card",
+				"a savings jar"
+			],
+			"answer": 2,
+			"hint": "Credit means borrowing now and paying later.",
+			"explain": "A credit card: you borrow now and pay the bill later."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Borrow 2,000 gold at 5% a year, simple interest, for 3 years. How much interest is that in all?",
+			"answer": "300",
+			"hint": "Find one year's interest, then multiply by the years.",
+			"explain": "5% of 2,000 = 100 a year; 100 × 3 = 300 gold."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: does it help a credit score, or harm it?",
+			"groups": [
+				"helps",
+				"harms"
+			],
+			"items": [
+				"going over your limit",
+				"missing a loan payment",
+				"paying a card off in full",
+				"paying the phone bill on time",
+				"using a little of your limit",
+				"applying for five cards in a week"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				0,
+				1
+			],
+			"hint": "Would a lender trust you more, or less?",
+			"explain": "Helps: paying on time, using a little of the limit, paying in full. Harms: missing payments, going over, many applications."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each kind of credit to what it is.",
+			"items": [
+				"mortgage",
+				"overdraft",
+				"credit card",
+				"buy now, pay later"
+			],
+			"matches": [
+				"pay later, a monthly bill",
+				"borrowing on your account",
+				"a loan to buy a home",
+				"a price split into parts"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "A home, an account, a card and a split price.",
+			"explain": "Mortgage: a home loan. Overdraft: borrowing on an account. Credit card: a monthly bill. Buy now, pay later: split payments."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "1,000 gold is owed at 20% a year, and nothing is paid. Put what is owed in order, from the start to year 3.",
+			"items": [
+				"1,728",
+				"1,200",
+				"1,440",
+				"1,000"
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "Each year the debt grows by a fifth of itself.",
+			"explain": "1,000, then 1,200, 1,440 and 1,728: each year 20% more."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why can paying only the smallest amount each month be costly?",
+			"choices": [
+				"interest keeps adding for years",
+				"it is against the law",
+				"it has no interest",
+				"it pays the debt off too fast"
+			],
+			"answer": 0,
+			"hint": "Think about how long the debt lasts, and what is added each month.",
+			"explain": "The debt lasts for years, and interest keeps being added the whole time."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A loan shark is a safe place to borrow.",
+			"answer": false,
+			"hint": "Think of 'unlicensed'.",
+			"explain": "False: unlicensed lenders charge huge interest and can threaten people; never borrow from them."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which debt is usually the most sensible?",
+			"choices": [
+				"a mortgage you can afford",
+				"a loan for a holiday you can't afford",
+				"a loan shark's loan",
+				"borrowing to pay other debts"
+			],
+			"answer": 0,
+			"hint": "Think of good debt and bad debt.",
+			"explain": "An affordable mortgage buys a home that keeps its value; the others can trap people."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A debt of 1,000 gold grows at 20% a year, with nothing paid. How much is owed after 2 years?",
+			"answer": "1440",
+			"hint": "Add 20% for the first year, then 20% of the new amount.",
+			"explain": "1,000 + 200 = 1,200; 1,200 + 240 = 1,440 gold."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Someone is borrowing to pay other debts. What is the best first step?",
+			"choices": [
+				"borrow more",
+				"list every debt and get free advice",
+				"ignore it",
+				"hide the letters"
+			],
+			"answer": 1,
+			"hint": "Look at the steps on the lesson's warning card.",
+			"explain": "List every debt and get free debt advice, then talk to lenders early."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: a warning sign of debt problems, or a healthy habit?",
+			"groups": [
+				"warning sign",
+				"healthy habit"
+			],
+			"items": [
+				"borrowing to pay other debts",
+				"missing rent",
+				"knowing what you owe",
+				"hiding unopened letters",
+				"keeping an emergency fund",
+				"paying bills on time"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Does it show money is out of control, or under control?",
+			"explain": "Warning signs: borrowing to pay debts, hiding letters, missing rent. Healthy: paying on time, an emergency fund, knowing what you owe."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "On 3,000 gold, simple interest: Loan A charges 6% a year for 2 years; Loan B 5% a year for 3 years. How much interest does the cheaper loan cost?",
+			"answer": "360",
+			"hint": "Work out each loan's total interest, then choose the smaller.",
+			"explain": "A: 6% × 2 = 12% = 360 gold. B: 5% × 3 = 15% = 450 gold. The cheaper costs 360 gold."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.loan_cost",
+			"level": 1
+		},
+		{
+			"gen": "g8h.loan_cost",
+			"level": 2
+		},
+		{
+			"gen": "g8h.loan_cost",
+			"level": 3
+		},
+		{
+			"gen": "g8h.credit_score_sort",
+			"level": 1
+		},
+		{
+			"gen": "g8h.credit_score_sort",
+			"level": 2
+		},
+		{
+			"gen": "g8h.credit_score_sort",
+			"level": 3
+		}
+	]
+}

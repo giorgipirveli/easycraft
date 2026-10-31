@@ -1,0 +1,308 @@
+{
+	"id": "g8.citizenship.global_goals_action",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met the UN's 17 Global Goals. By which year should they be met? (2030.) Today: choose one goal, plan an action with your class, and review what it achieved."
+		},
+		{
+			"text": "The 17 Sustainable Development Goals, agreed by all UN members in 2015, have 169 targets, from ending hunger to protecting the oceans. Governments, businesses and ordinary people, young people included, all have a part."
+		},
+		{
+			"text": "Choose a goal you care about and can help locally: Goal 2 with a food bank collection, Goal 4 with a reading club, Goal 12 with less waste. Or Goal 13 by saving energy, 14 with a beach clean, 15 by planting trees."
+		},
+		{
+			"text": "Set a SMART target: Specific, Measurable, Achievable, Relevant and Time-bound. Not 'help the planet', but 'collect 200 tins for the food bank in 4 weeks'."
+		},
+		{
+			"text": "Plan it: the steps, who does what, what you need, how you will stay safe, and how you will measure progress. Use if-then plans: 'If it rains on litter-pick day, then we sort the recycling instead.'",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"choose a goal",
+					"set a SMART target",
+					"plan the steps",
+					"act",
+					"measure",
+					"review"
+				],
+				"loop": true,
+				"title": "Plan, act, review"
+			}
+		},
+		{
+			"text": "Measure as you go, with a tally or a chart. Progress is what is done ÷ the target × 100%. Collecting 150 tins of a 200-tin target means 75% is done.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"week 1",
+						40
+					],
+					[
+						"week 2",
+						50
+					],
+					[
+						"week 3",
+						60
+					]
+				],
+				"step": 10,
+				"top": 60,
+				"name": "Tins collected each week"
+			}
+		},
+		{
+			"text": "Review honestly: did you reach the target? What worked, what didn't, and why? Who did it help? Share the results, thank everyone, and decide the next step. Small actions, repeated by many people, add up."
+		},
+		{
+			"text": "Try it in the world: put your plan on the Goal Board in Life: the goal, its steps and an if-then plan. Then run it in your village and chart your progress each week. Next: big questions about technology."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many Sustainable Development Goals are there?",
+			"answer": "17",
+			"hint": "Look back at the lesson's second card.",
+			"explain": "There are 17 goals, with 169 targets."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which goal does a beach clean-up help most?",
+			"choices": [
+				"Zero hunger",
+				"Gender equality",
+				"Quality education",
+				"Life below water"
+			],
+			"answer": 3,
+			"hint": "Where does beach litter end up?",
+			"explain": "Goal 14, Life below water: litter on beaches washes into the sea."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Global Goals were agreed by all UN members in 2015.",
+			"answer": true,
+			"hint": "Think of the year in the lesson.",
+			"explain": "True: all UN members agreed them in 2015, to reach by 2030."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does the M in SMART stand for?",
+			"choices": [
+				"Monthly",
+				"Massive",
+				"Magic",
+				"Measurable"
+			],
+			"answer": 3,
+			"hint": "You need to know when the target is reached.",
+			"explain": "Measurable: you can count or check it."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of an action plan in order.",
+			"items": [
+				"act and measure",
+				"review",
+				"plan the steps",
+				"set a SMART target",
+				"choose a goal"
+			],
+			"answer": [
+				4,
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "Decide, plan, do, then look back.",
+			"explain": "Choose a goal, set a SMART target, plan, act and measure, then review."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The target is 200 tins, and 150 are collected. What percentage is done?",
+			"answer": "75",
+			"hint": "Divide what is done by the target, then multiply by 100.",
+			"explain": "150 ÷ 200 × 100 = 75%."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these targets: SMART or not?",
+			"groups": [
+				"SMART",
+				"not SMART"
+			],
+			"items": [
+				"collect 200 tins in 4 weeks",
+				"stop all pollution",
+				"be nicer",
+				"help the planet",
+				"plant 30 trees by June",
+				"read to younger pupils 20 times this term"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Can you measure it, and does it have a date?",
+			"explain": "SMART: 200 tins in 4 weeks, 30 trees by June, 20 reading visits this term. Not SMART: help the planet, be nicer, stop all pollution."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each action to its goal.",
+			"items": [
+				"a food bank collection",
+				"planting trees",
+				"a reading club",
+				"saving energy at school"
+			],
+			"matches": [
+				"Life on land",
+				"Climate action",
+				"Zero hunger",
+				"Quality education"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1
+			],
+			"hint": "Food, land, learning and the climate.",
+			"explain": "Food bank: Zero hunger. Trees: Life on land. Reading club: Quality education. Saving energy: Climate action."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is an if-then plan?",
+			"choices": [
+				"a map",
+				"a plan for what to do if something goes wrong",
+				"a list of goals",
+				"a kind of test"
+			],
+			"answer": 1,
+			"hint": "Think of the rainy litter-pick day.",
+			"explain": "It decides in advance: if this happens, then we will do that."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A review should only report what went well.",
+			"answer": false,
+			"hint": "Think of the questions on the review card.",
+			"explain": "False: an honest review looks at what did not work too, so the next plan is better."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The target is 120 trees in 6 weeks. After 2 weeks, 40 are planted. How many a week are needed in the weeks left?",
+			"answer": "20",
+			"hint": "Find the trees still needed and the weeks left.",
+			"explain": "120 − 40 = 80 trees; 6 − 2 = 4 weeks; 80 ÷ 4 = 20 a week."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is 'help the planet' a weak target?",
+			"choices": [
+				"you can't measure when it is done",
+				"it is too local",
+				"it has a date",
+				"it is too small"
+			],
+			"answer": 0,
+			"hint": "Check it against the letters of SMART.",
+			"explain": "It is not specific or measurable, and has no date, so you can never tell if it is reached."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do small actions by many people matter?",
+			"choices": [
+				"only governments matter",
+				"they add up to big change",
+				"one person can do it all",
+				"they never help"
+			],
+			"answer": 1,
+			"hint": "Think of 30 classes each collecting 200 tins.",
+			"explain": "Many small actions add up: 30 classes × 200 tins is 6,000 tins."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these review questions: about the results, or about how you worked?",
+			"groups": [
+				"results",
+				"how we worked"
+			],
+			"items": [
+				"what slowed us down?",
+				"how did we share the jobs?",
+				"what would we change next time?",
+				"who did it help?",
+				"how many tins were given?",
+				"did we reach the target?"
+			],
+			"answer": [
+				1,
+				1,
+				1,
+				0,
+				0,
+				0
+			],
+			"hint": "Is it about what was achieved, or about the way you did it?",
+			"explain": "Results: the target, who it helped, how many tins. How we worked: what slowed us, sharing jobs, changes next time."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Measuring progress as you go helps you change the plan in time.",
+			"answer": true,
+			"hint": "Think of seeing week 2's chart and needing more tins.",
+			"explain": "True: early measuring shows when to try harder or change the plan."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.goal_for_action",
+			"level": 1
+		},
+		{
+			"gen": "g8h.goal_for_action",
+			"level": 2
+		},
+		{
+			"gen": "g8h.goal_for_action",
+			"level": 3
+		},
+		{
+			"gen": "g8h.target_progress",
+			"level": 1
+		},
+		{
+			"gen": "g8h.target_progress",
+			"level": 2
+		},
+		{
+			"gen": "g8h.target_progress",
+			"level": 3
+		}
+	]
+}

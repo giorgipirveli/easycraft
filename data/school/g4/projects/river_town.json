@@ -1,0 +1,311 @@
+{
+	"id": "g4.projects.river_town",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the perimeter of a field? (The distance all the way round its edge.) In this project you plan and build a town by a river."
+		},
+		{
+			"text": "Step 1, research: a river flows from its source, high in hills, to its mouth at the sea. Smaller rivers that join it are tributaries. Lower down, it often winds in big bends called meanders."
+		},
+		{
+			"text": "Why build by a river? Water to drink and for crops, fish to eat, boats for trade, and flat, rich soil on the flood plain. But rivers flood, so build the houses on higher ground."
+		},
+		{
+			"text": "Step 2, plan it on squared paper, each square 1 m: the river, a bridge, fields of wheat, houses on higher ground and a mill by the water.",
+			"picture": {
+				"kind": "site_plan",
+				"rows": [
+					"^^.TT..",
+					"..HH.#.",
+					"~~~=~~~",
+					"#.M..#.",
+					"##..H##"
+				],
+				"grid": true,
+				"key": true
+			}
+		},
+		{
+			"text": "A watermill: the flowing river turns a big wheel, and the wheel turns heavy millstones that grind wheat into flour, for the town's bread."
+		},
+		{
+			"text": "Bridges: a beam bridge is a flat deck on supports; an arch bridge pushes its load down and out into the banks; a suspension bridge hangs from cables. Triangles make a beam bridge stiffer.",
+			"picture": {
+				"kind": "bridge",
+				"type": "arch"
+			}
+		},
+		{
+			"text": "Step 3, work out the fields. A field 8 m long and 5 m wide has an area of 8 × 5 = 40 square metres. It needs 8 + 5 + 8 + 5 = 26 m of fence."
+		},
+		{
+			"text": "Try it in the world: build your river town, with a bridge, a mill, fenced wheat fields and houses on higher ground. Then walk a friend round it and tell them why each thing is where it is."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does a river start?",
+			"answer": 0,
+			"hint": "Rivers flow downhill to the sea.",
+			"choices": [
+				"at its source, in the hills",
+				"at its mouth",
+				"in the sea",
+				"at a bridge"
+			],
+			"explain": "At its source, high in the hills. It ends at its mouth, at the sea."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Houses should be built on higher ground, away from floods.",
+			"answer": true,
+			"hint": "Where does flood water spread?",
+			"explain": "True: flood water spreads over the low, flat flood plain, so homes are safer higher up."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A field is 6 m long and 4 m wide. What is its area in square metres?",
+			"answer": "24",
+			"hint": "Count the squares in one row, then multiply by the number of rows.",
+			"explain": "4 rows of 6: 4 × 6 = 24 square metres.",
+			"picture": {
+				"kind": "rect",
+				"w": 6,
+				"h": 4,
+				"unit": "m"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Look at the plan. What crosses the river?",
+			"answer": 0,
+			"hint": "Use the key to read the symbol on the river.",
+			"choices": [
+				"a bridge",
+				"a field",
+				"a house",
+				"a mill"
+			],
+			"explain": "A bridge crosses the river, in square D3.",
+			"picture": {
+				"kind": "site_plan",
+				"rows": [
+					"^^.TT..",
+					"..HH.#.",
+					"~~~=~~~",
+					"#.M..#.",
+					"##..H##"
+				],
+				"grid": true,
+				"key": true
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a river in order, from start to end.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Follow the water downhill.",
+			"items": [
+				"the mouth",
+				"meanders",
+				"tributaries join",
+				"the source"
+			],
+			"explain": "Source, tributaries join it, it winds in meanders lower down, then the mouth."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A field is 7 m long and 3 m wide. How many metres of fence go all the way round it?",
+			"answer": "20",
+			"hint": "Add all four sides.",
+			"explain": "7 + 3 + 7 + 3 = 20 m of fence."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each bridge to how it works.",
+			"items": [
+				"beam bridge",
+				"arch bridge",
+				"suspension bridge"
+			],
+			"matches": [
+				"pushes its load into the banks",
+				"hangs from cables",
+				"a flat deck on supports"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Think of the shape of each one.",
+			"explain": "A beam bridge is a deck on supports, an arch bridge pushes into its banks, and a suspension bridge hangs from cables."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What turns a watermill's wheel?",
+			"answer": 0,
+			"hint": "It is called a watermill.",
+			"choices": [
+				"the flowing river",
+				"the wind",
+				"a horse",
+				"a battery"
+			],
+			"explain": "The flowing river pushes the wheel round, and the wheel turns the millstones."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Build a wheat field with an area of 20 square metres and a fence of 18 m all the way round.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 20,
+				"perimeter": 18
+			},
+			"hint": "List rectangles with an area of 20, then add up each one's four sides.",
+			"explain": "4 by 5: 4 × 5 = 20 square metres, and 4 + 5 + 4 + 5 = 18 m of fence."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An L-shaped field is made of a 6 m by 4 m part and a 3 m by 2 m part. What is its whole area, in square metres?",
+			"answer": "30",
+			"hint": "Find the area of each part, then add them.",
+			"explain": "6 × 4 = 24 and 3 × 2 = 6. 24 + 6 = 30 square metres."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Look at the plan. Which square is the mill in?",
+			"answer": 0,
+			"hint": "Read the letter along the bottom first, then the number up the side.",
+			"choices": [
+				"C2",
+				"B3",
+				"2C",
+				"D3"
+			],
+			"explain": "The mill is in column C, row 2: C2.",
+			"picture": {
+				"kind": "site_plan",
+				"rows": [
+					"^^.TT..",
+					"..HH.#.",
+					"~~~=~~~",
+					"#.M..#.",
+					"##..H##"
+				],
+				"grid": true,
+				"key": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Two fields with the same area always need the same length of fence.",
+			"answer": false,
+			"hint": "Compare a field 4 by 5 with a field 2 by 10.",
+			"explain": "False: both have an area of 20, but 4 by 5 needs 18 m of fence and 2 by 10 needs 24 m."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do towns often grow where a river can be crossed?",
+			"answer": 0,
+			"hint": "Who passes through a crossing place?",
+			"choices": [
+				"roads and people meet there to trade",
+				"the water is warmest there",
+				"floods never happen there",
+				"boats cannot go there"
+			],
+			"explain": "Roads meet at the crossing, so people come there to cross, trade and stay."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A gift of the river, or a danger?",
+			"groups": [
+				"gift",
+				"danger"
+			],
+			"items": [
+				"fresh water",
+				"floods",
+				"fish",
+				"fast, deep water",
+				"rich soil",
+				"slippery banks"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it help the town, or could it hurt someone?",
+			"explain": "Gifts: fresh water, fish, rich soil. Dangers: floods, fast deep water, slippery banks."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A bridge's deck is 12 m long. It rests on a support every 3 m, with one at each end. How many supports?",
+			"answer": "5",
+			"hint": "Draw it: count the supports, not the gaps.",
+			"explain": "12 ÷ 3 = 4 gaps between supports, so 4 + 1 = 5 supports."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.river_fields",
+			"level": 1
+		},
+		{
+			"gen": "g4w.river_fields",
+			"level": 2
+		},
+		{
+			"gen": "g4w.river_fields",
+			"level": 3
+		}
+	],
+	"play": {
+		"hook": "A new town is to be built by the river. Plan its fields, its mill and its bridge!",
+		"game": "generic",
+		"params": {
+			"maker": "base_ten",
+			"costume": "path"
+		},
+		"coach": [
+			"Build houses on higher ground: rivers flood.",
+			"A watermill grinds wheat into flour.",
+			"Triangles make a beam bridge stiffer.",
+			"A field's area is its length times its width."
+		],
+		"world_task": "Build your river town, with a bridge, a mill, fenced wheat fields and houses on higher ground."
+	}
+}

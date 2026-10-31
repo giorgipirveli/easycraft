@@ -1,0 +1,24 @@
+{
+	"id": "life.online.ask_private_tell",
+	"lesson": [
+		{"text": "Quick memory: who do you tell if something worries you? (A grown-up you trust.) Today: staying safe and kind online."},
+		{"text": "Before a new game or app, ask a grown-up. They help you choose good ones."},
+		{"text": "Your name, your school, where you live and photos of you stay private. Never share them online."},
+		{"text": "Someone you don't know sends a message? Don't answer: tell a grown-up."},
+		{"text": "Be kind online, just like in real life, and take breaks: stretch, have a drink, look out of the window."},
+		{"text": "Try it in the world: open Online City on the play tablet. Next: strangers, mean posts and passwords, on the Middle track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "Before a new game, you...", "answer": 0, "choices": ["ask a grown-up", "just tap it", "ask a stranger"], "hint": "Who helps you choose?", "explain": "Ask a grown-up first."},
+		{"type": "truefalse", "level": 1, "prompt": "You can tell someone online where you live.", "answer": false, "hint": "Where you live is private.", "explain": "False: it stays private."},
+		{"type": "choice", "level": 1, "prompt": "Something online makes you sad. You...", "answer": 0, "choices": ["tell a grown-up", "keep it a secret", "keep looking"], "hint": "Grown-ups help.", "explain": "Tell a grown-up."},
+		{"type": "choice", "level": 2, "prompt": "Which stays private?", "answer": 0, "choices": ["your school's name", "your favourite colour", "a picture name like FOX"], "hint": "Which tells people where to find you?", "explain": "Your school's name stays private."},
+		{"type": "truefalse", "level": 2, "prompt": "Kind words matter online too.", "answer": true, "hint": "Words can hurt, even on a screen.", "explain": "True: be kind online."},
+		{"type": "choice", "level": 2, "prompt": "A box pops up with a flashing button. You...", "answer": 0, "choices": ["close it and ask a grown-up", "tap the button", "tap it twice"], "hint": "Don't tap what you don't know.", "explain": "Close it and ask."},
+		{"type": "sort", "level": 2, "prompt": "Private, or fine to share?", "groups": ["private", "fine to share"], "items": ["where you live", "a picture name like STAR", "a photo of you", "your favourite colour"], "answer": [0, 1, 0, 1], "hint": "Could it help someone find you?", "explain": "Where you live and photos of you stay private."},
+		{"type": "choice", "level": 3, "prompt": "After playing for a long time, it's good to...", "answer": 0, "choices": ["take a break", "play all night", "skip dinner"], "hint": "Eyes and bodies need rest.", "explain": "Take a break."},
+		{"type": "truefalse", "level": 3, "prompt": "Telling a grown-up about a worrying message is the right thing to do.", "answer": true, "hint": "Who can help?", "explain": "True: always."},
+		{"type": "choice", "level": 3, "prompt": "Someone you don't know asks for a photo of you. You...", "answer": 0, "choices": ["don't send it and tell a grown-up", "send one", "send a friend's"], "hint": "Photos of you are private.", "explain": "Don't send it: tell a grown-up."},
+		{"type": "order", "level": 3, "prompt": "A message worries you: put it in order.", "answer": [1, 0], "items": ["tell a grown-up", "don't answer it"], "hint": "First don't answer.", "explain": "Don't answer, then tell a grown-up."}
+	]
+}

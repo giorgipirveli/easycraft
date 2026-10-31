@@ -1,0 +1,366 @@
+{
+	"id": "g3.maths.divide_meaning",
+	"lesson": [
+		{
+			"text": "Quick memory: 4 groups of 5 is 4 × 5 = 20. Dividing goes the other way: start with 20 and find the groups.",
+			"picture": {
+				"kind": "groups",
+				"groups": 4,
+				"each": 5
+			}
+		},
+		{
+			"text": "Sharing: 12 cookies are shared equally between 3 friends. Give one each, again and again, until none are left. Each friend gets 4. We write 12 ÷ 3 = 4.",
+			"picture": {
+				"kind": "groups",
+				"groups": 3,
+				"each": 4
+			}
+		},
+		{
+			"text": "Grouping: 12 cookies go in bags of 3. How many bags? Count out groups of 3: 4 bags. That is 12 ÷ 3 = 4 too! Sharing and grouping are both dividing.",
+			"picture": {
+				"kind": "groups",
+				"groups": 4,
+				"each": 3
+			}
+		},
+		{
+			"text": "An array shows both at once: 15 blocks in 3 equal rows have 5 in each row. So 15 ÷ 3 = 5 and 15 ÷ 5 = 3.",
+			"picture": {
+				"kind": "array",
+				"rows": 3,
+				"cols": 5
+			}
+		},
+		{
+			"text": "Use a times fact to divide. 56 ÷ 8 asks: 8 times what makes 56? 8 × 7 = 56, so 56 ÷ 8 = 7.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "?",
+								"size": 1
+							},
+							{
+								"text": "?",
+								"size": 1
+							},
+							{
+								"text": "?",
+								"size": 1
+							},
+							{
+								"text": "?",
+								"size": 1
+							},
+							{
+								"text": "?",
+								"size": 1
+							},
+							{
+								"text": "?",
+								"size": 1
+							},
+							{
+								"text": "?",
+								"size": 1
+							},
+							{
+								"text": "?",
+								"size": 1
+							}
+						],
+						"total": "56"
+					}
+				]
+			}
+		},
+		{
+			"text": "A fact family: 6 × 7 = 42, 7 × 6 = 42, 42 ÷ 6 = 7 and 42 ÷ 7 = 6. To find 8 × ? = 48, think: 8 × 6 = 48, so ? = 6. Next: the times tables up to 12 × 12."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Share 10 blocks equally into 2 boxes. How many blocks go in each box?",
+			"answer": "5",
+			"hint": "Give one to each box in turn until none are left.",
+			"explain": "10 ÷ 2 = 5, because 2 × 5 = 10.",
+			"picture": {
+				"kind": "groups",
+				"groups": 2,
+				"each": 0
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "15 ÷ 3 = ?",
+			"answer": "5",
+			"hint": "Which number times 3 makes 15?",
+			"explain": "3 × 5 = 15, so 15 ÷ 3 = 5."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many groups of 4 can you make from 12?",
+			"answer": "3",
+			"hint": "Count in 4s up to 12.",
+			"explain": "4, 8, 12: 3 groups. 12 ÷ 4 = 3."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which division matches: 20 apples put in bags of 5?",
+			"choices": [
+				"20 ÷ 5",
+				"20 − 5",
+				"20 × 5",
+				"5 ÷ 20"
+			],
+			"answer": 0,
+			"hint": "Start with all the apples and make groups of 5.",
+			"explain": "20 ÷ 5 = 4 bags."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "2 × ? = 16",
+			"answer": "8",
+			"hint": "Count in 2s up to 16, or halve 16.",
+			"explain": "2 × 8 = 16."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "18 ÷ 3 = 6, because 3 × 6 = 18.",
+			"answer": true,
+			"hint": "Does the times fact match?",
+			"explain": "Yes: 3 × 6 = 18, so 18 ÷ 3 = 6."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Share 32 gems equally among 4 friends. How many gems does each friend get?",
+			"answer": "8",
+			"hint": "Which number times 4 makes 32? Count up in 4s.",
+			"explain": "32 ÷ 4 = 8, because 4 × 8 = 32."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Share 15 blocks into 3 equal rows. Build them.",
+			"board": {
+				"cols": 10,
+				"rows": 6,
+				"block": 6,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "array",
+				"rows": 3,
+				"cols": 5
+			},
+			"hint": "Put one block in each row, again and again, until you have used 15.",
+			"explain": "15 ÷ 3 = 5: 3 rows of 5 blocks."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "? × 7 = 42",
+			"answer": "6",
+			"hint": "Count in 7s up to 42.",
+			"explain": "6 × 7 = 42."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which division goes with 9 × 4 = 36?",
+			"choices": [
+				"36 ÷ 4 = 9",
+				"9 ÷ 36 = 4",
+				"36 − 4 = 9",
+				"4 ÷ 9 = 36"
+			],
+			"answer": 0,
+			"hint": "Start with the biggest number, 36.",
+			"explain": "36 shared into groups of 4 makes 9 groups: 36 ÷ 4 = 9."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "45 buddies ride in boats. Each boat holds 5. How many boats are filled?",
+			"answer": "9",
+			"hint": "How many groups of 5 make 45?",
+			"explain": "45 ÷ 5 = 9 boats."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "24 ÷ 6 = 3",
+			"answer": false,
+			"hint": "Check with a times fact: 6 × 3 = ?",
+			"explain": "6 × 3 = 18, not 24. 24 ÷ 6 = 4."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "56 ÷ 8 = ?",
+			"answer": "7",
+			"hint": "Which number times 8 makes 56? Count up in 8s.",
+			"explain": "Use the 8 times table: 8 × 7 = 56. So 56 shared into 8 groups gives 7 in each: 56 ÷ 8 = 7."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "? ÷ 6 = 9",
+			"answer": "54",
+			"hint": "Undo the division with a times: 9 × 6.",
+			"explain": "The missing number shared by 6 gives 9, so it is 9 groups of 6: 9 × 6 = 54. Check: 54 ÷ 6 = 9."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "72 ÷ ? = 8",
+			"answer": "9",
+			"hint": "Which number times 8 makes 72? Count up in 8s.",
+			"explain": "8 × 9 = 72, so 72 ÷ 9 = 8."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi shares 30 cookies equally. Each friend gets 6. How many friends are there?",
+			"answer": "5",
+			"hint": "How many 6s make 30? Count up in 6s.",
+			"explain": "30 ÷ 6 = 5 friends."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the answers in order, smallest first.",
+			"items": [
+				"36 ÷ 4",
+				"48 ÷ 6",
+				"63 ÷ 9",
+				"20 ÷ 4"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Work out each one with a times fact.",
+			"explain": "5, then 7, then 8, then 9."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Sharing 40 into 8 equal groups gives the same answer as making groups of 8 from 40.",
+			"answer": true,
+			"hint": "Work out both: 40 ÷ 8.",
+			"explain": "Both are 40 ÷ 8 = 5: 5 in each of 8 groups, or 5 groups of 8."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram shares 28 lanterns into 4 equal rows. What does he get?",
+			"choices": [
+				"4 rows of 7",
+				"7 rows of 4",
+				"4 rows of 6",
+				"4 rows of 8"
+			],
+			"answer": 0,
+			"hint": "The number of rows is 4. How many in each row?",
+			"explain": "28 ÷ 4 = 7: 4 rows of 7 lanterns."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "28 children go on a trip. Each car holds 4 children. 3 cars are already full. How many more cars are needed?",
+			"answer": "4",
+			"hint": "Find how many cars all the children need, then take away the full ones.",
+			"explain": "All the children need 28 ÷ 4 = 7 cars. 3 are already full, so 7 − 3 = 4 more cars."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3m.share",
+			"level": 1
+		},
+		{
+			"gen": "g3m.share",
+			"level": 2
+		},
+		{
+			"gen": "g3m.share",
+			"level": 3
+		},
+		{
+			"gen": "g3m.grouping",
+			"level": 1
+		},
+		{
+			"gen": "g3m.grouping",
+			"level": 2
+		},
+		{
+			"gen": "g3m.grouping",
+			"level": 3
+		},
+		{
+			"gen": "g3m.divide_build",
+			"level": 1
+		},
+		{
+			"gen": "g3m.divide_build",
+			"level": 2
+		},
+		{
+			"gen": "g3m.divide_build",
+			"level": 3
+		},
+		{
+			"gen": "g3m.unknown_factor",
+			"level": 1
+		},
+		{
+			"gen": "g3m.unknown_factor",
+			"level": 2
+		},
+		{
+			"gen": "g3m.unknown_factor",
+			"level": 3
+		},
+		{
+			"gen": "g3m.fact_family",
+			"level": 1
+		},
+		{
+			"gen": "g3m.fact_family",
+			"level": 2
+		},
+		{
+			"gen": "g3m.fact_family",
+			"level": 3
+		},
+		{
+			"gen": "g3m.divide_story",
+			"level": 1
+		},
+		{
+			"gen": "g3m.divide_story",
+			"level": 2
+		},
+		{
+			"gen": "g3m.divide_story",
+			"level": 3
+		}
+	]
+}

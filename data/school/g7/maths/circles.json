@@ -1,0 +1,181 @@
+{
+	"id": "g7.maths.circles",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you found the area of a rectangle. What is the area of a 10 cm by 10 cm square? 100 cm²."
+		},
+		{
+			"text": "The radius goes from the centre to the edge; the diameter goes right across: diameter = 2 × radius. A circle of radius 5 cm is 10 cm across.",
+			"picture": {
+				"kind": "shape",
+				"what": "circle"
+			}
+		},
+		{
+			"text": "The circumference (the distance round) is π × diameter, or 2 × π × radius. π is about 3.14. A wheel 10 cm across rolls about 31.4 cm in one turn.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "40",
+				"step": "5",
+				"dot": "31.4",
+				"labels": "all"
+			}
+		},
+		{
+			"text": "The area is π × radius × radius. A circle of radius 10 cm has an area of about 3.14 × 100 = 314 cm²."
+		},
+		{
+			"text": "π is the same for every circle: the circumference divided by the diameter."
+		},
+		{
+			"text": "Try it in the world: build a round tower in your world 10 blocks across. About how many blocks go round its edge? π × 10 is about 31. Next: area, surface area and volume."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A circle has a radius of 6 cm. What is its diameter?",
+			"answer": "12",
+			"hint": "The diameter goes right across: two radii.",
+			"explain": "2 × 6 = 12 cm."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A circle has a diameter of 10 cm. What is its circumference? Use 3.14.",
+			"answer": "31.4",
+			"hint": "Multiply the diameter by π, about 3.14.",
+			"explain": "3.14 × 10 = 31.4 cm."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The diameter is twice the radius.",
+			"answer": true,
+			"hint": "Picture a line across the circle through the centre. How many radii fit on it?",
+			"explain": "Yes: the diameter is 2 radii end to end."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A circle has a radius of 3 cm. What is its area? Use 3.14.",
+			"answer": "28.26",
+			"hint": "Area is π × radius × radius. Work out 3 × 3 first.",
+			"explain": "3.14 × 9 = 28.26 cm²."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is π roughly?",
+			"answer": 0,
+			"hint": "Measure any circle: its circumference is a little more than 3 diameters.",
+			"choices": [
+				"3.14",
+				"2",
+				"22"
+			],
+			"explain": "About 3.14: every circle's circumference ÷ its diameter."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A wheel has a radius of 20 cm. How far does it roll in one turn? Use 3.14.",
+			"answer": "125.6",
+			"hint": "One turn rolls the circumference: 2 × π × radius.",
+			"explain": "2 × 3.14 × 20 = 125.6 cm in one turn."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A circle's circumference is 62.8 cm. What is its radius? Use 3.14.",
+			"answer": "10",
+			"hint": "62.8 ÷ 3.14 = diameter.",
+			"explain": "Circumference = π × diameter, so the diameter is 62.8 ÷ 3.14 = 20 cm. The radius is half of that: 20 ÷ 2 = 10 cm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A pizza's radius doubles. What happens to its area?",
+			"answer": 0,
+			"hint": "The area uses radius × radius. What happens if both radii double?",
+			"choices": [
+				"it becomes 4 times as big",
+				"it doubles",
+				"it stays the same"
+			],
+			"explain": "Area = π × r × r. Doubling r doubles both r's, so the area grows 2 × 2 = 4 times. A radius of 10 cm gives 314 cm²; a radius of 20 cm gives 1,256 cm²."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"radius",
+				"diameter",
+				"circumference",
+				"π"
+			],
+			"matches": [
+				"the distance round",
+				"about 3.14",
+				"centre to edge",
+				"right across"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of a wheel: a spoke, a line straight across, the tyre.",
+			"explain": "Radius: centre to edge. Diameter: right across. Circumference: the distance round. π: about 3.14."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the formulas: circumference or area?",
+			"items": [
+				"π × diameter",
+				"π × radius × radius",
+				"2 × π × radius",
+				"measured in cm²"
+			],
+			"groups": [
+				"circumference",
+				"area"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The distance round is a length; area is the space inside, in square units.",
+			"explain": "π × diameter and 2 × π × radius give the circumference. π × radius × radius gives the area, in cm²."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A round pond is 8 m across. A path 1 m wide goes all round it. What is the area of the path, in m²? Use 3.14.",
+			"answer": "28.26",
+			"hint": "Find the area of the big circle (pond and path), then take away the pond.",
+			"explain": "The pond's radius is 8 ÷ 2 = 4 m, and with the path it is 5 m. Big circle: 3.14 × 25 = 78.5 m². Pond: 3.14 × 16 = 50.24 m². Path: 78.5 − 50.24 = 28.26 m²."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7g.circle",
+			"level": 1
+		},
+		{
+			"gen": "g7g.circle",
+			"level": 2
+		},
+		{
+			"gen": "g7g.circle",
+			"level": 3
+		}
+	]
+}

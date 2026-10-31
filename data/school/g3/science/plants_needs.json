@@ -1,0 +1,395 @@
+{
+	"id": "g3.science.plants_needs",
+	"lesson": [
+		{
+			"text": "Remember? A plant is living: it feeds, grows and makes seeds. But it has no mouth and no legs! Each of its parts has a job.",
+			"picture": {
+				"kind": "icon",
+				"block": 260
+			}
+		},
+		{
+			"text": "The roots hold the plant in the soil and take in water and minerals. The stem holds the plant up and carries the water up to the leaves through thin tubes, like drinking straws."
+		},
+		{
+			"text": "The leaves use sunlight, air and water to make food for the plant. The flowers make seeds, and their bright petals bring insects, which carry pollen from flower to flower.",
+			"picture": {
+				"kind": "flower_parts",
+				"bee": true
+			}
+		},
+		{
+			"text": "To grow well, plants need light, water, air, warmth and room to grow, and minerals from the soil. Different plants need different amounts: a cactus needs little water, and a water lily lives in a pond.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"plant",
+						"needs"
+					],
+					[
+						"cactus",
+						"little water"
+					],
+					[
+						"water lily",
+						"a pond"
+					],
+					[
+						"bean",
+						"light and water"
+					]
+				]
+			}
+		},
+		{
+			"text": "A fair test: grow three bean plants the same way, but change one thing. One grows in the dark, one gets no water, one gets light and water. Only the third stays green and strong.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Bean",
+						"Light",
+						"Water"
+					],
+					[
+						"A",
+						"no",
+						"yes"
+					],
+					[
+						"B",
+						"yes",
+						"no"
+					],
+					[
+						"C",
+						"yes",
+						"yes"
+					]
+				]
+			}
+		},
+		{
+			"text": "Watch water move: stand a celery stick in water with blue food colouring. A day later, its leaves have blue lines. The water travelled up the tubes in the stem."
+		},
+		{
+			"text": "Try it in the world: at a Science Lab bench, do \"What do plants need?\": three seeds, three pots, one change each. Come back after two game days. Next: living in groups."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part takes in water from the soil?",
+			"answer": 0,
+			"hint": "Which part is under the ground?",
+			"choices": [
+				"the roots",
+				"the petals",
+				"the leaves",
+				"the flowers"
+			],
+			"explain": "The roots take in water and minerals from the soil."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part makes seeds?",
+			"answer": 0,
+			"hint": "Where do fruits and seeds form?",
+			"choices": [
+				"the flower",
+				"the root",
+				"the stem"
+			],
+			"explain": "The flower makes seeds, often inside a fruit."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Plants need light to grow well.",
+			"answer": true,
+			"hint": "What do leaves use to make food?",
+			"explain": "True: leaves need light to make the plant's food."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do leaves make for the plant?",
+			"answer": 0,
+			"hint": "What do leaves do with sunlight?",
+			"choices": [
+				"food",
+				"seeds",
+				"soil",
+				"roots"
+			],
+			"explain": "Leaves use sunlight, air and water to make the plant's food."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does the stem do?",
+			"answer": 0,
+			"hint": "It is like the plant's backbone and its straws.",
+			"choices": [
+				"holds the plant up and carries water",
+				"makes seeds",
+				"makes pollen"
+			],
+			"explain": "The stem holds the plant up and carries water from the roots to the leaves."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A plant kept in the dark for weeks grows green and strong.",
+			"answer": false,
+			"hint": "What does a plant need to make its food?",
+			"explain": "False: without light a plant cannot make food. It turns pale and weak."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A celery stick stands in blue water. A day later its leaves have blue lines. What does this show?",
+			"answer": 0,
+			"hint": "How did the blue get to the top?",
+			"choices": [
+				"Water moves up the stem",
+				"Celery likes blue",
+				"Leaves make water"
+			],
+			"explain": "The blue water travelled up the tubes in the stem to the leaves."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the path of water through a plant in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Where does the water start?",
+			"items": [
+				"leaves",
+				"stem",
+				"roots",
+				"soil"
+			],
+			"explain": "Water goes from the soil into the roots, up the stem and into the leaves."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do many flowers have bright petals and a sweet smell?",
+			"answer": 0,
+			"hint": "Who visits flowers?",
+			"choices": [
+				"to bring insects that carry pollen",
+				"to keep the plant warm",
+				"to take in water"
+			],
+			"explain": "Bright petals and sweet smells bring insects, which carry pollen so the flowers can make seeds."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram tests if beans need water. What must stay the same for each bean?",
+			"answer": 0,
+			"hint": "In a fair test, you change only one thing.",
+			"choices": [
+				"the light, the soil and the pot",
+				"nothing at all",
+				"the amount of water"
+			],
+			"explain": "He changes only the water. The light, the soil and the pot stay the same, so the test is fair."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "After two weeks, the watered bean is 12 cm tall and the dry bean is 3 cm. How many centimetres taller is the watered bean?",
+			"answer": "9",
+			"hint": "Take the smaller height from the bigger one.",
+			"explain": "12 − 3 = 9 cm taller.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Bean",
+						"Height"
+					],
+					[
+						"watered",
+						"12 cm"
+					],
+					[
+						"dry",
+						"3 cm"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Every plant needs the same amount of water.",
+			"answer": false,
+			"hint": "Think of a cactus and a water lily.",
+			"explain": "False: a cactus needs very little water, and a water lily lives in water."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "If you cut a plant's stem through, what happens to the leaves?",
+			"answer": 0,
+			"hint": "What carries the water to the leaves?",
+			"choices": [
+				"They wilt: no water reaches them",
+				"They grow faster",
+				"Nothing changes"
+			],
+			"explain": "The stem carries water to the leaves. Without it, the leaves dry out and wilt."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which bean in the test gets everything it needs?",
+			"answer": 0,
+			"hint": "Find the bean with light and water.",
+			"choices": [
+				"C",
+				"A",
+				"B"
+			],
+			"explain": "Bean C has light and water; A has no light and B has no water.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Bean",
+						"Light",
+						"Water"
+					],
+					[
+						"A",
+						"no",
+						"yes"
+					],
+					[
+						"B",
+						"yes",
+						"no"
+					],
+					[
+						"C",
+						"yes",
+						"yes"
+					]
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part of a plant to its job.",
+			"hint": "Picture the plant from the ground up.",
+			"items": [
+				"roots",
+				"leaves",
+				"flower",
+				"stem"
+			],
+			"matches": [
+				"make food",
+				"makes seeds",
+				"holds the plant up",
+				"take in water"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"explain": "Roots take in water, leaves make food, the flower makes seeds and the stem holds the plant up."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort what a plant takes in: through its roots or its leaves?",
+			"groups": [
+				"roots",
+				"leaves"
+			],
+			"items": [
+				"water from the soil",
+				"sunlight",
+				"minerals",
+				"air"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which part is under the ground, and which is up in the light and air?",
+			"explain": "Roots take in water and minerals from the soil. Leaves catch sunlight and take in air to make the plant's food."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the celery test, from setting it up to the result.",
+			"items": [
+				"The leaves show blue lines.",
+				"Blue water goes up the stem's tubes.",
+				"Stand the celery in blue water."
+			],
+			"answer": [
+				2,
+				1,
+				0
+			],
+			"hint": "Start with setting up the test, then follow the water upwards.",
+			"explain": "Stand the celery in blue water; the water travels up the thin tubes in the stem; a day later the leaves show blue lines."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each bean in the test to how it grew.",
+			"items": [
+				"bean A: no light",
+				"bean B: no water",
+				"bean C: light and water"
+			],
+			"matches": [
+				"green and strong",
+				"dry and wilted",
+				"pale and weak"
+			],
+			"answer": [
+				2,
+				1,
+				0
+			],
+			"hint": "Think what each bean is missing, and what that does to a plant.",
+			"explain": "Bean A had no light, so it could not make food: pale and weak. Bean B had no water, so it dried and wilted. Bean C had both: green and strong."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3s.plant_part",
+			"level": 1
+		},
+		{
+			"gen": "g3s.plant_part",
+			"level": 2
+		},
+		{
+			"gen": "g3s.plant_part",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,377 @@
+{
+	"id": "g4.design_tech.design_for_someone",
+	"lesson": [
+		{
+			"text": "Quick memory: what does a design brief say? (Who the product is for and what it must do.) Today: finding out what a user needs, and writing design criteria."
+		},
+		{
+			"text": "The user is the person a product is for. Good designers find out what the user really needs before they draw anything: they ask, they watch, and they look at products that already exist."
+		},
+		{
+			"text": "Ask: talk to the user, or give a survey to many people. Watch: see how people use things now, and what is hard for them. Look: take an old product apart, and find what is good and what could be better."
+		},
+		{
+			"text": "Needs and wants: a need is something the product must do, like a lunchbox keeping food clean. A want is nice to have, like a favourite colour. Meet the needs first.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Needs",
+						"Wants"
+					],
+					[
+						"keeps food clean",
+						"a favourite colour"
+					],
+					[
+						"easy to open",
+						"stickers"
+					]
+				]
+			}
+		},
+		{
+			"text": "Design criteria are the checklist a product must meet, written so they can be tested: It must hold 6 pencils. It must be less than 25 cm long. It must open with one hand.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"it must",
+						"test it"
+					],
+					[
+						"hold 6 pencils",
+						"put 6 in"
+					],
+					[
+						"be under 25 cm long",
+						"measure it"
+					],
+					[
+						"open with one hand",
+						"try it"
+					]
+				]
+			}
+		},
+		{
+			"text": "Design for everyone: big buttons and grips help people whose hands are weaker; ramps help wheelchair users, and parents with buggies too. Many medicine boxes have their names in braille."
+		},
+		{
+			"text": "Test against your criteria: tick each one, ask the user what they think, and improve the design. A survey's answers can go in a table or a bar chart, to see what most people want.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"answer",
+						"people"
+					],
+					[
+						"short handles",
+						"7"
+					],
+					[
+						"a long strap",
+						"12"
+					],
+					[
+						"a drawstring",
+						"5"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a playground for a friend: ask them what they like first, then build it and ask what they think. For real: design a pencil case for someone in your family, with 3 design criteria."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who is the user?",
+			"answer": 0,
+			"hint": "Who will use the product?",
+			"choices": [
+				"the person a product is for",
+				"the designer",
+				"the shop that sells it",
+				"the factory"
+			],
+			"explain": "The user is the person the product is designed for."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Good designers find out what the user needs before they start drawing.",
+			"answer": true,
+			"hint": "What comes first?",
+			"explain": "True: find out what the user needs, then design for them."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a way to find out what users want?",
+			"answer": 0,
+			"hint": "The best way to know is to find out from them.",
+			"choices": [
+				"ask them in a survey",
+				"guess",
+				"copy your first idea",
+				"never ask anyone"
+			],
+			"explain": "Ask them: in an interview or a survey."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Look at the survey. Which bag handle did the most children choose?",
+			"answer": 0,
+			"hint": "Find the biggest number in the people column.",
+			"choices": [
+				"a long strap",
+				"short handles",
+				"a drawstring"
+			],
+			"explain": "A long strap: 12 children, the most.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"answer",
+						"people"
+					],
+					[
+						"short handles",
+						"7"
+					],
+					[
+						"a long strap",
+						"12"
+					],
+					[
+						"a drawstring",
+						"5"
+					]
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Need or want, for a lunchbox?",
+			"groups": [
+				"need",
+				"want"
+			],
+			"items": [
+				"keeps food clean",
+				"a favourite colour",
+				"easy to open",
+				"stickers on the lid",
+				"fits in a school bag",
+				"a sparkly handle"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Would the lunchbox fail its job without it?",
+			"explain": "Needs: keeps food clean, easy to open, fits in a bag. Wants: a colour, stickers, a sparkly handle."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which design criterion can be tested?",
+			"answer": 0,
+			"hint": "Can you check it with a yes or a no?",
+			"choices": [
+				"It must hold 6 pencils.",
+				"It must be nice.",
+				"It must be the best.",
+				"People must like it a lot."
+			],
+			"explain": "It must hold 6 pencils: you can test it by putting 6 pencils in."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Look at the survey. How many children answered it?",
+			"answer": "24",
+			"hint": "Add up the people column.",
+			"explain": "7 + 12 + 5 = 24 children.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"answer",
+						"people"
+					],
+					[
+						"short handles",
+						"7"
+					],
+					[
+						"a long strap",
+						"12"
+					],
+					[
+						"a drawstring",
+						"5"
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put designing for someone in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Research first, testing last.",
+			"items": [
+				"write the design criteria",
+				"make a prototype",
+				"find out what the user needs",
+				"sketch ideas",
+				"test it with the user"
+			],
+			"explain": "Find out the needs, write criteria, sketch, make a prototype, then test it with the user."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A ramp at a doorway helps only people in wheelchairs.",
+			"answer": false,
+			"hint": "Who else has wheels to push?",
+			"explain": "False: ramps help wheelchair users, and people with buggies, suitcases and trolleys too."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Grandad finds small buttons hard to press. Which design criterion fits him best?",
+			"answer": 0,
+			"hint": "What is his need?",
+			"choices": [
+				"The buttons must be big and easy to press.",
+				"It must be red.",
+				"It must be very small.",
+				"It must play music."
+			],
+			"explain": "Big, easy buttons meet his need."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why take an old product apart before designing a new one?",
+			"answer": 0,
+			"hint": "What can you learn from it?",
+			"choices": [
+				"to see how it works and what could be better",
+				"to break it",
+				"because it is old",
+				"to sell its parts"
+			],
+			"explain": "Taking it apart shows how it works, what is good, and what a new design could do better."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each way of finding out to what you do.",
+			"items": [
+				"interview",
+				"survey",
+				"observe",
+				"product analysis"
+			],
+			"matches": [
+				"ask many people the same",
+				"watch how people use it",
+				"look closely at a product",
+				"ask one person questions"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of ask, watch and look.",
+			"explain": "Interview: ask one person. Survey: ask many people. Observe: watch. Product analysis: look closely at a product."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Look at the survey. How many more children chose a long strap than a drawstring?",
+			"answer": "7",
+			"hint": "Find both numbers, then take the smaller from the bigger.",
+			"explain": "12 − 5 = 7 more.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"answer",
+						"people"
+					],
+					[
+						"short handles",
+						"7"
+					],
+					[
+						"a long strap",
+						"12"
+					],
+					[
+						"a drawstring",
+						"5"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Braille on medicine boxes helps blind people read the name.",
+			"answer": true,
+			"hint": "Braille is read with the fingers.",
+			"explain": "True: braille dots let blind people and people with poor sight read the medicine's name."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your pencil case fails the criterion: It must fit in a school bag. What next?",
+			"answer": 0,
+			"hint": "Think of the design cycle's last step.",
+			"choices": [
+				"change the design and test it again",
+				"give up",
+				"ignore that criterion",
+				"make it even bigger"
+			],
+			"explain": "Improve it: change the design so it fits, then test it again."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.user_survey",
+			"level": 1
+		},
+		{
+			"gen": "g4w.user_survey",
+			"level": 2
+		},
+		{
+			"gen": "g4w.user_survey",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,388 @@
+{
+	"id": "g3.art.pattern_print",
+	"lesson": [
+		{
+			"text": "Quick memory: in observational drawing, do you look more at the object or at your paper? (The object.) Today: patterns and printing."
+		},
+		{
+			"text": "A pattern is something that repeats. The part that repeats is called the motif (or unit). Here the motif is a red circle and a blue square.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"red circle",
+					"blue square",
+					"red circle",
+					"blue square",
+					"red circle",
+					"blue square"
+				],
+				"names": false
+			}
+		},
+		{
+			"text": "Patterns can repeat colours, shapes or both. Find the motif, then say it out loud to see what comes next.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"yellow triangle",
+					"yellow triangle",
+					"green circle",
+					"yellow triangle",
+					"yellow triangle",
+					"green circle",
+					"?"
+				],
+				"names": false
+			}
+		},
+		{
+			"text": "Printing makes the same mark again and again. Put paint or ink on a stamp, press it onto paper and lift it: you have a print."
+		},
+		{
+			"text": "You can make stamps from potatoes (with a grown-up's help), sponges, corks, leaves or string glued onto card."
+		},
+		{
+			"text": "A print comes out back to front, like a mirror. Letters on a stamp must be carved backwards to print the right way round!",
+			"picture": {
+				"kind": "print",
+				"items": [
+					{
+						"text": "R",
+						"on": "block",
+						"flip": "mirror"
+					},
+					{
+						"text": "R",
+						"on": "paper"
+					}
+				],
+				"arrows": true
+			}
+		},
+		{
+			"text": "People have printed patterns onto cloth with carved wooden blocks for well over a thousand years. It is still done by hand in many places today."
+		},
+		{
+			"text": "Try it in the world: make a floor or a wall with a repeating pattern of blocks in your world. Can a friend guess your motif?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What comes next in the pattern?",
+			"answer": 0,
+			"hint": "Find the part that repeats. Say the pattern out loud as you point, and keep going past the end.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "swatches",
+						"items": [
+							"red circle"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "swatches",
+						"items": [
+							"blue square"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "swatches",
+						"items": [
+							"yellow triangle"
+						]
+					}
+				}
+			],
+			"explain": "The motif is red circle, blue square. After the blue square comes a red circle again.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"red circle",
+					"blue square",
+					"red circle",
+					"blue square",
+					"?"
+				],
+				"names": false
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A pattern has a part that repeats.",
+			"answer": true,
+			"hint": "Think of stripes on a scarf.",
+			"explain": "True: a pattern repeats. The part that repeats is its motif."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the part of a pattern that repeats called?",
+			"answer": 0,
+			"hint": "Remember the lesson card.",
+			"choices": [
+				"the motif",
+				"the frame",
+				"the edge",
+				"the print"
+			],
+			"explain": "The part that repeats is the motif (you may also hear it called the unit)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How do you make a print with a stamp?",
+			"answer": 0,
+			"hint": "Paint, press, lift.",
+			"choices": [
+				"put paint on it, press it down, lift it up",
+				"draw round it with a pencil",
+				"cut it in half",
+				"leave it in water"
+			],
+			"explain": "Put paint on the stamp, press it onto the paper, then lift it to see the print."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What comes next in the pattern?",
+			"answer": 0,
+			"hint": "Find the part that repeats. Say the pattern out loud as you point, and keep going past the end.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "swatches",
+						"items": [
+							"yellow triangle"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "swatches",
+						"items": [
+							"green circle"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "swatches",
+						"items": [
+							"blue square"
+						]
+					}
+				}
+			],
+			"explain": "The motif is yellow triangle, yellow triangle, green circle. It starts again with a yellow triangle.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"yellow triangle",
+					"yellow triangle",
+					"green circle",
+					"yellow triangle",
+					"yellow triangle",
+					"green circle",
+					"?"
+				],
+				"names": false
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the motif of: star, moon, moon, star, moon, moon?",
+			"answer": 0,
+			"hint": "Where does the pattern start again?",
+			"choices": [
+				"star, moon, moon",
+				"star, moon",
+				"moon, moon",
+				"star"
+			],
+			"explain": "“star, moon, moon” comes twice: that is the motif."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A print comes out back to front, like a mirror image.",
+			"answer": true,
+			"hint": "Think of pressing a stamp with a letter on it.",
+			"explain": "True: a print is a mirror image of the stamp."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Which of these could you use to make a stamp?",
+			"groups": [
+				"good for a stamp",
+				"not good"
+			],
+			"items": [
+				"a potato",
+				"a glass of water",
+				"a sponge",
+				"a cork",
+				"a soap bubble",
+				"a leaf"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Can it hold paint and press a shape?",
+			"explain": "Good: potato, sponge, cork and leaf. Water and soap bubbles can't hold a shape."
+		},
+		{
+			"type": "mix",
+			"level": 1,
+			"prompt": "Mix the paint for your stamp: make purple in the bowl.",
+			"hint": "Which two primary colours sit either side of purple on the colour wheel?",
+			"explain": "Purple: red and blue, the same number of drops of each.",
+			"target": "purple"
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of printing in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Paint first, then stamp, then paper.",
+			"items": [
+				"Lift it off carefully",
+				"Press the stamp onto the paper",
+				"Press the stamp into the paint",
+				"Spread paint on a flat tray"
+			],
+			"explain": "Spread the paint, dip the stamp, press it onto the paper, then lift it off carefully."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram carves the letter B on a potato stamp. How must he carve it so the print reads B?",
+			"answer": 0,
+			"hint": "A print is a mirror image of the stamp.",
+			"choices": [
+				"backwards, like in a mirror",
+				"the normal way",
+				"upside down",
+				"twice as big"
+			],
+			"explain": "He must carve it backwards: the print flips it the right way round."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What comes next in the pattern?",
+			"answer": 0,
+			"hint": "Find the part that repeats. Say the pattern out loud as you point, and keep going past the end.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "swatches",
+						"items": [
+							"yellow triangle"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "swatches",
+						"items": [
+							"red circle"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "swatches",
+						"items": [
+							"blue square"
+						]
+					}
+				}
+			],
+			"explain": "The motif is red circle, blue square, yellow triangle, blue square. After the sixth comes a yellow triangle.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"red circle",
+					"blue square",
+					"yellow triangle",
+					"blue square",
+					"red circle",
+					"blue square",
+					"?"
+				],
+				"names": false
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A pattern's motif is 3 blocks: stone, wood, wood. How many wood blocks are in 5 motifs?",
+			"answer": "10",
+			"hint": "Count the wood in one motif, then do it 5 times.",
+			"explain": "Each motif has 2 wood blocks, and 5 × 2 = 10."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which of these is a repeating pattern?",
+			"answer": 0,
+			"hint": "Look for a part that comes again and again.",
+			"choices": [
+				"red, blue, red, blue, red, blue",
+				"red, blue, green, yellow, pink",
+				"blue, blue, red, green, red",
+				"red, green, green, blue, red"
+			],
+			"explain": "Only “red, blue” repeats again and again."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "People have printed patterns on cloth with carved wooden blocks for well over a thousand years.",
+			"answer": true,
+			"hint": "Remember the lesson card about printing on cloth.",
+			"explain": "True: block printing on cloth is very old, and it is still done by hand in many places."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A border has the motif fish, shell. It is 12 prints long. How many fish are there?",
+			"answer": "6",
+			"hint": "How many prints make one motif? How many motifs fit in 12?",
+			"explain": "Each motif is 2 prints with 1 fish. 12 ÷ 2 = 6 motifs, so there are 6 fish."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3a.next_in_pattern",
+			"level": 1
+		},
+		{
+			"gen": "g3a.next_in_pattern",
+			"level": 2
+		},
+		{
+			"gen": "g3a.next_in_pattern",
+			"level": 3
+		}
+	]
+}

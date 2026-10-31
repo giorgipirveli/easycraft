@@ -1,0 +1,386 @@
+{
+	"id": "g3.english.spelling_patterns",
+	"lesson": [
+		{
+			"text": "Remember? Words are built from roots, prefixes and suffixes. Spelling rules tell us what happens when we add endings, and word families help us spell whole groups of words."
+		},
+		{
+			"text": "Word families share a spelling pattern: night, light, right, bright (-ight). Station, action, fraction (-tion, said \"shun\").",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"family",
+						"words"
+					],
+					[
+						"-ight",
+						"night, light, right"
+					],
+					[
+						"-tion",
+						"station, action"
+					]
+				]
+			}
+		},
+		{
+			"text": "Adding -ing or -ed to a short word that ends in one vowel and one consonant? Double the last letter: hop, hopping; run, running; stop, stopped.",
+			"picture": {
+				"kind": "word_blocks",
+				"parts": [
+					{
+						"text": "hop",
+						"role": "root"
+					},
+					{
+						"text": "p",
+						"role": "root",
+						"means": "doubled"
+					},
+					{
+						"text": "ing",
+						"role": "suffix"
+					}
+				],
+				"means": "hopping"
+			}
+		},
+		{
+			"text": "A word ending in e? Drop the e: make, making; smile, smiled. A consonant and then y? Change the y to i before -ed or -es: cry, cried, cries. Keep the y before -ing: crying."
+		},
+		{
+			"text": "Some tricky words must be learned by heart: because, friend, said, people, answer, believe, different, important. Look, say, cover, write, check!"
+		},
+		{
+			"text": "To check a spelling, use a dictionary. Its words are in alphabetical order: look at the first letter, then the second. Bat comes before bee, because a comes before e."
+		},
+		{
+			"text": "Try it in the world: write a sign in your world with three -ight words: \"A bright light at night!\" Then check each spelling. Next: nouns and pronouns."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word has the same spelling pattern as \"night\"?",
+			"answer": 0,
+			"hint": "Look for the letters -ight.",
+			"choices": [
+				"light",
+				"kite",
+				"bite"
+			],
+			"explain": "Night and light both end in -ight. Kite and bite rhyme but are spelled differently."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Add -ing to \"run\".",
+			"answer": 0,
+			"hint": "Short word, one vowel, one consonant: double it.",
+			"choices": [
+				"running",
+				"runing",
+				"runeing"
+			],
+			"explain": "run ends in one vowel and one consonant, so double the n: running."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "\"Because\" is spelled b-e-c-a-u-s-e.",
+			"answer": true,
+			"hint": "Say each letter slowly.",
+			"explain": "True: because is b-e-c-a-u-s-e."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word comes first in a dictionary?",
+			"answer": 0,
+			"hint": "Look at the first letters.",
+			"choices": [
+				"apple",
+				"banana",
+				"cherry"
+			],
+			"explain": "a comes before b and c, so apple comes first."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Add -ing to \"make\".",
+			"answer": 0,
+			"hint": "It ends in e.",
+			"choices": [
+				"making",
+				"makeing",
+				"makking"
+			],
+			"explain": "Drop the e, then add -ing: making."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Add -ed to \"cry\".",
+			"answer": 0,
+			"hint": "A consonant and then y: change the y.",
+			"choices": [
+				"cried",
+				"cryed",
+				"cryd"
+			],
+			"explain": "Change y to i and add -ed: cried."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Zara writes a note to her best ___. Which spelling is correct?",
+			"answer": 0,
+			"hint": "It has the word end at the end.",
+			"choices": [
+				"friend",
+				"freind",
+				"frend"
+			],
+			"explain": "fr-i-end: friend. It has end at the end."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these b words in alphabetical order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "They all start with b, so look at the second letter.",
+			"items": [
+				"bus",
+				"bird",
+				"bee",
+				"bat"
+			],
+			"explain": "a, e, i, u: bat, bee, bird, bus."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which word has the -tion pattern?",
+			"answer": 0,
+			"hint": "-tion is said shun.",
+			"choices": [
+				"station",
+				"stashun",
+				"stayshon"
+			],
+			"explain": "Station is spelled with -tion."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Add -ed to \"stop\".",
+			"answer": 0,
+			"hint": "One vowel, one consonant at the end.",
+			"choices": [
+				"stopped",
+				"stoped",
+				"stopt"
+			],
+			"explain": "Double the p, then add -ed: stopped."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "\"My twin and I have ___ hobbies.\" Which spelling is correct?",
+			"answer": 0,
+			"hint": "Say every syllable: dif-fer-ent.",
+			"choices": [
+				"different",
+				"diffrent",
+				"differant"
+			],
+			"explain": "Say every syllable, dif-fer-ent: different."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these c words in alphabetical order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Same first letter? Look at the second.",
+			"items": [
+				"crab",
+				"cloud",
+				"chair",
+				"cat"
+			],
+			"explain": "a, h, l, r: cat, chair, cloud, crab."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is there a double p in \"hopping\"?",
+			"answer": 0,
+			"hint": "Think of the doubling rule.",
+			"choices": [
+				"Hop has one short vowel and one last consonant",
+				"Every word doubles",
+				"To make the word longer"
+			],
+			"explain": "Hop ends in one vowel and one consonant, so the p doubles before -ing."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Add -ing to \"cry\".",
+			"answer": 0,
+			"hint": "Keep the y before -ing.",
+			"choices": [
+				"crying",
+				"criing",
+				"cring"
+			],
+			"explain": "Before -ing the y stays: crying."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "\"Believe\" is spelled b-e-l-e-i-v-e.",
+			"answer": false,
+			"hint": "Think: never believe a lie. There is a lie in believe.",
+			"explain": "False: it is b-e-l-i-e-v-e. There is a lie in believe!"
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the words by their spelling pattern.",
+			"hint": "Look at the ends of the words.",
+			"groups": [
+				"-ight",
+				"-tion"
+			],
+			"items": [
+				"night",
+				"station",
+				"bright",
+				"action"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"explain": "Night and bright end in -ight; station and action end in -tion."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Double the last letter before -ing?",
+			"items": [
+				"hop",
+				"jump",
+				"run",
+				"play"
+			],
+			"groups": [
+				"double it",
+				"just add -ing"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "One vowel and then one consonant at the end? Double it.",
+			"explain": "Hopping and running double the letter. Jumping and playing just add -ing."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Add -ing: sort the words by what happens first.",
+			"groups": [
+				"double the last letter",
+				"drop the e",
+				"just add -ing"
+			],
+			"items": [
+				"swim",
+				"smile",
+				"jump",
+				"stop",
+				"bake",
+				"play"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "One vowel and one consonant at the end? A word ending in e? Neither?",
+			"explain": "Double it: swimming, stopping (one vowel, one consonant). Drop the e: smiling, baking. Just add -ing: jumping, playing."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Add -ed to each word. Match it to its spelling.",
+			"items": [
+				"cry",
+				"hop",
+				"smile",
+				"play"
+			],
+			"matches": [
+				"smiled",
+				"played",
+				"cried",
+				"hopped"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Check each word's ending: a consonant and y, one vowel and one consonant, an e, or a vowel and y?",
+			"explain": "Cry ends in a consonant and y, so the y turns to i: cried. Hop doubles its p: hopped. Smile ends in e, so just add d: smiled. Play has a vowel before the y, so it keeps it: played."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3e.add_suffix",
+			"level": 1
+		},
+		{
+			"gen": "g3e.add_suffix",
+			"level": 2
+		},
+		{
+			"gen": "g3e.add_suffix",
+			"level": 3
+		},
+		{
+			"gen": "g3e.alpha_order",
+			"level": 1
+		},
+		{
+			"gen": "g3e.alpha_order",
+			"level": 2
+		},
+		{
+			"gen": "g3e.alpha_order",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,226 @@
+{
+	"id": "g7.maths.constructions",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met the area of a triangle. What is the area of a triangle with base 6 cm and height 4 cm? Half of 6 × 4: 12 cm²."
+		},
+		{
+			"text": "Three lengths make a triangle only if the two shorter sides add up to more than the longest: 3, 4 and 5 work; 2, 3 and 8 don't.",
+			"picture": {
+				"kind": "side_lengths",
+				"points": [
+					[
+						0,
+						0
+					],
+					[
+						8,
+						0
+					],
+					[
+						8,
+						6
+					]
+				],
+				"labels": [
+					"4 cm",
+					"3 cm",
+					"5 cm"
+				]
+			}
+		},
+		{
+			"text": "A triangle's angles add up to 180°. Given two angles, the third is fixed: 90° and 35° leave 55°.",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "triangle",
+				"angles": [
+					55,
+					35,
+					90
+				],
+				"labels": [
+					"?",
+					"35°",
+					"90°"
+				]
+			}
+		},
+		{
+			"text": "Given three sides, only one triangle can be drawn; given three angles, many triangles (of different sizes) can."
+		},
+		{
+			"text": "Slicing a solid makes a flat cross-section: a cube sliced parallel to a face gives a square; a cylinder sliced across gives a circle."
+		},
+		{
+			"text": "Try it in the world: build a triangle of blocks with sides 3, 4 and 5 blocks. Then try 2, 3 and 8: can the ends meet? Next: angle facts."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Sides of 3 cm, 4 cm and 5 cm can make a triangle.",
+			"answer": true,
+			"hint": "3 + 4 > 5?",
+			"explain": "Yes: 3 + 4 = 7, which is more than 5."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A triangle has angles of 90° and 35°. What is the third angle, in degrees?",
+			"answer": "55",
+			"hint": "180 − 90 − 35.",
+			"explain": "180 − 90 − 35 = 55°."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A cylinder is sliced parallel to its base. What shape is the cut?",
+			"answer": 0,
+			"hint": "Like cutting a log.",
+			"choices": [
+				"a circle",
+				"a square",
+				"a triangle"
+			],
+			"explain": "A circle, like cutting a log straight across."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Sides of 2 cm, 3 cm and 8 cm can make a triangle.",
+			"answer": false,
+			"hint": "2 + 3 > 8?",
+			"explain": "No: 5 is not more than 8."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How many different triangles can you draw with sides 5, 6 and 7 cm?",
+			"answer": 0,
+			"hint": "Three sides fix it.",
+			"choices": [
+				"just one",
+				"many",
+				"none"
+			],
+			"explain": "Just one: three sides fix the triangle's shape and size."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How many triangles have angles 50°, 60° and 70°?",
+			"answer": 0,
+			"hint": "Angles don't fix the size.",
+			"choices": [
+				"many, of different sizes",
+				"just one",
+				"none"
+			],
+			"explain": "Many: the angles fix the shape but not the size."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A square-based pyramid is sliced parallel to its base. What is the cut?",
+			"answer": 0,
+			"hint": "Like the base, but smaller.",
+			"choices": [
+				"a square",
+				"a triangle",
+				"a circle"
+			],
+			"explain": "A square: every slice parallel to the base has the base's shape, and the slices shrink as they rise to the point, so it is a smaller square."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An isosceles triangle has a top angle of 40°. What is each base angle, in degrees?",
+			"answer": "70",
+			"hint": "180 − 40 = 140, shared by two.",
+			"explain": "The angles add up to 180°, so the two base angles share 180 − 40 = 140°. They are equal, so each is 140 ÷ 2 = 70°. Check: 40 + 70 + 70 = 180."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the side lengths: can they make a triangle?",
+			"items": [
+				"3, 4 and 5",
+				"2, 3 and 8",
+				"5, 5 and 5",
+				"1, 2 and 4",
+				"6, 8 and 10"
+			],
+			"groups": [
+				"yes",
+				"no"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Add the two shorter sides. Is the sum more than the longest?",
+			"explain": "3 + 4 > 5, 5 + 5 > 5 and 6 + 8 > 10: triangles. 2 + 3 < 8 and 1 + 2 < 4: the ends can't meet."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each solid and slice to the cross-section.",
+			"items": [
+				"cube, parallel to a face",
+				"cylinder, across",
+				"square pyramid, across"
+			],
+			"matches": [
+				"a circle",
+				"a smaller square",
+				"a square"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Picture the flat face the cut makes.",
+			"explain": "A cube cut parallel to a face gives a square; a cylinder cut across gives a circle; a square pyramid cut across gives a smaller square."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Two sides of a triangle are 7 cm and 10 cm. What is the longest whole number of centimetres the third side can be?",
+			"answer": "16",
+			"hint": "The two shorter sides must add up to more than the longest. What if the third side is the longest?",
+			"explain": "If the third side is the longest, the other two must add up to more than it: 7 + 10 = 17, so it must be less than 17 cm. The longest whole number is 16 cm. Check: 17 is more than 16, so the ends meet."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7g.triangle_possible",
+			"level": 1
+		},
+		{
+			"gen": "g7g.triangle_possible",
+			"level": 2
+		},
+		{
+			"gen": "g7g.triangle_possible",
+			"level": 3
+		},
+		{
+			"gen": "g7g.third_angle",
+			"level": 1
+		},
+		{
+			"gen": "g7g.third_angle",
+			"level": 2
+		},
+		{
+			"gen": "g7g.third_angle",
+			"level": 3
+		}
+	]
+}

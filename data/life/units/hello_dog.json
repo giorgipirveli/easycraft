@@ -1,0 +1,24 @@
+{
+	"id": "life.world.hello_dog",
+	"lesson": [
+		{"text": "Quick memory: who do you ask before you stroke a dog? (Its owner.) Today: saying hello to a dog, being a tree, bees and the farm."},
+		{"text": "Animals have feelings. Ask the owner first, then let the dog sniff the back of your hand, held low and still. Then stroke its side gently."},
+		{"text": "Leave dogs alone when they are eating or sleeping."},
+		{"text": "If a dog runs at you: be a tree. Stand still, fold your arms in, and look at your feet. Never run: running makes a dog chase."},
+		{"text": "A bee or a wasp buzzing near you? Walk away slowly, no swatting. A sting: tell a grown-up. On a farm, never walk behind a horse."},
+		{"text": "Try it in the world: open the practice park and the farm. Next: how a dog says 'leave me alone', on the Middle track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "You want to stroke a dog you don't know. First you...", "answer": 0, "choices": ["ask the owner", "hug it", "pull its tail"], "hint": "Who knows the dog best?", "explain": "Ask the owner."},
+		{"type": "choice", "level": 1, "prompt": "A dog runs at you. You...", "answer": 0, "choices": ["be a tree", "run away", "shout and wave"], "hint": "Still, arms in, eyes down.", "explain": "Be a tree."},
+		{"type": "truefalse", "level": 1, "prompt": "It's fine to wake a sleeping dog to play.", "answer": false, "hint": "Dogs need rest too.", "explain": "False: let sleeping dogs sleep."},
+		{"type": "choice", "level": 2, "prompt": "A dog sniffs...", "answer": 0, "choices": ["the back of your hand, held low", "your face", "your shoes only"], "hint": "Low and still.", "explain": "The back of your hand."},
+		{"type": "choice", "level": 2, "prompt": "Where do most dogs like a gentle stroke?", "answer": 0, "choices": ["on the side or the back", "on top of the head", "on the tail"], "hint": "Not the head.", "explain": "The side or the back."},
+		{"type": "truefalse", "level": 2, "prompt": "Swatting a bee can make it sting.", "answer": true, "hint": "Bees defend themselves.", "explain": "True: walk away slowly."},
+		{"type": "order", "level": 2, "prompt": "Saying hello to a dog: put it in order.", "answer": [1, 2, 0], "items": ["stroke its side gently", "ask the owner", "let it sniff the back of your hand"], "hint": "The owner first.", "explain": "Ask, sniff, stroke."},
+		{"type": "choice", "level": 3, "prompt": "A bee stung your friend. You...", "answer": 0, "choices": ["tell a grown-up", "keep it a secret", "squeeze the sting"], "hint": "Grown-ups know how to help.", "explain": "Tell a grown-up."},
+		{"type": "truefalse", "level": 3, "prompt": "You should walk behind a horse so it can't see you.", "answer": false, "hint": "Horses kick when surprised.", "explain": "False: walk at its side, where it can see you."},
+		{"type": "sort", "level": 3, "prompt": "Kind and safe, or not?", "groups": ["kind and safe", "not safe"], "items": ["asking the owner", "hugging a dog you don't know", "walking away from a bee", "running from a dog"], "answer": [0, 1, 0, 1], "hint": "Think of the dog's feelings.", "explain": "Asking and walking away are safe."},
+		{"type": "choice", "level": 3, "prompt": "Being a tree means...", "answer": 0, "choices": ["still, arms folded in, looking at your feet", "running and waving", "climbing a tree"], "hint": "Like a tree in the park.", "explain": "Still, arms in, eyes down."}
+	]
+}

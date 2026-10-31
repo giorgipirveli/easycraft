@@ -1,0 +1,332 @@
+{
+	"id": "g4.design_tech.shelters_frames",
+	"lesson": [
+		{
+			"text": "Quick memory: which shape makes a frame strongest? (A triangle.) Today: shelters that stand up to the wind and keep out the rain."
+		},
+		{
+			"text": "A shelter keeps people dry, warm and safe. It needs a strong frame, a waterproof cover, and a shape and a base that stand up to the wind."
+		},
+		{
+			"text": "Triangles keep frames firm. Push a square frame and it squashes out of shape; a diagonal brace turns it into two triangles, and it stays firm. Tents, roofs and bridges are full of triangles.",
+			"picture": {
+				"kind": "frame",
+				"frames": [
+					"square",
+					"pushed",
+					"braced"
+				],
+				"labels": [
+					"square",
+					"pushed",
+					"braced"
+				]
+			}
+		},
+		{
+			"text": "Wind pushes hardest on big, flat sides. Low, rounded shapes, like domes, let the wind flow round. Guy ropes and pegs hold a tent down: push the pegs in at an angle, leaning away from the tent."
+		},
+		{
+			"text": "Rain must run off: a sloping roof, like an A-frame tent, sheds water. The cover must be waterproof, like coated nylon or a plastic sheet, and overlap at the joins."
+		},
+		{
+			"text": "Shelters around the world: in Mongolia, a ger (a yurt) has a round wall of wooden lattice under felt. On the Great Plains, a tipi was a cone of poles under bison hides. In the Arctic, Inuit built igloos of snow blocks.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Shelter",
+						"Where",
+						"Made of"
+					],
+					[
+						"ger",
+						"Mongolia",
+						"lattice, felt"
+					],
+					[
+						"tipi",
+						"Great Plains",
+						"poles, hides"
+					],
+					[
+						"igloo",
+						"the Arctic",
+						"snow blocks"
+					]
+				]
+			}
+		},
+		{
+			"text": "A frame of triangles in a row shares a strut between each triangle and the next. The first triangle needs 3 struts, and each new one needs 2 more. 4 triangles need 3 + 3 × 2 = 9 struts.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"triangles",
+						"struts"
+					],
+					[
+						"1",
+						"3"
+					],
+					[
+						"2",
+						"5"
+					],
+					[
+						"3",
+						"7"
+					],
+					[
+						"4",
+						"9"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a shelter on a windy hill, with a braced frame and a sloping roof. For real: make a model tent from straws and fabric, then test it with a fan and a sprinkle of water."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which frame stays firm when pushed?",
+			"answer": 0,
+			"hint": "Look for the frame made of triangles.",
+			"choices": [
+				"B, braced with a diagonal",
+				"A, the plain square",
+				"both the same"
+			],
+			"explain": "B: the diagonal brace makes two triangles, which cannot squash.",
+			"picture": {
+				"kind": "frame",
+				"frames": [
+					"square",
+					"braced"
+				],
+				"labels": [
+					"A",
+					"B"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A sloping roof lets rain run off.",
+			"answer": true,
+			"hint": "Where does rain go on a slope?",
+			"explain": "True: rain runs down a slope instead of sitting on top."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do guy ropes do?",
+			"answer": 0,
+			"hint": "What pulls a tent towards the ground?",
+			"choices": [
+				"hold the tent down in the wind",
+				"keep the rain out",
+				"light the tent",
+				"carry the tent"
+			],
+			"explain": "Guy ropes, pegged into the ground, hold the tent down."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which shape of shelter lets the wind flow round it best?",
+			"answer": 0,
+			"hint": "Wind pushes hardest on big, flat sides.",
+			"choices": [
+				"a low dome",
+				"a tall box with flat sides",
+				"a flat wall",
+				"a tall, thin tower"
+			],
+			"explain": "A low dome: the wind flows round its rounded sides."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each shelter to where it comes from.",
+			"items": [
+				"ger (yurt)",
+				"tipi",
+				"igloo"
+			],
+			"matches": [
+				"the Great Plains",
+				"the Arctic",
+				"Mongolia"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Think of the grassland, the plains and the snow.",
+			"explain": "A ger comes from Mongolia, a tipi from the Great Plains, and an igloo from the Arctic."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A frame is 3 triangles in a row, each sharing a strut with the next. How many struts?",
+			"answer": "7",
+			"hint": "3 struts for the first triangle, then 2 more for each new one.",
+			"explain": "3 + 2 + 2 = 7 struts."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Tent pegs should lean towards the tent.",
+			"answer": false,
+			"hint": "Which way does the guy rope pull?",
+			"explain": "False: pegs go in at an angle, leaning away from the tent, so the rope cannot pull them out."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Does it help against wind or rain?",
+			"groups": [
+				"wind",
+				"rain"
+			],
+			"items": [
+				"guy ropes and pegs",
+				"a sloping roof",
+				"a low, rounded shape",
+				"a waterproof cover",
+				"a braced frame",
+				"overlapping joins"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it keep the shelter standing, or keep water out?",
+			"explain": "Wind: guy ropes, a low rounded shape, a braced frame. Rain: a sloping roof, a waterproof cover, overlapping joins."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What happened to this square frame?",
+			"answer": 0,
+			"hint": "Look at the arrow and the corners.",
+			"choices": [
+				"it was pushed out of shape",
+				"it was braced",
+				"it became a triangle",
+				"it grew bigger"
+			],
+			"explain": "It was pushed out of shape: a square frame with no brace squashes into a slanted shape.",
+			"picture": {
+				"kind": "frame",
+				"frames": [
+					"pushed"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a ger suit Mongolia's cold, windy grasslands?",
+			"answer": 0,
+			"hint": "Think of its cover and its round shape.",
+			"choices": [
+				"felt keeps warmth in, and wind flows round it",
+				"felt lets the wind through",
+				"it is made of snow",
+				"it is tall with flat sides"
+			],
+			"explain": "Thick felt keeps the warmth in, and the round shape lets the strong wind flow round it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A row of triangles, each sharing a strut with the next, used 11 struts. How many triangles?",
+			"answer": "5",
+			"hint": "The first triangle took 3 struts and each one after it took 2.",
+			"explain": "11 − 3 = 8, and 8 ÷ 2 = 4 more. 1 + 4 = 5 triangles."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the shelter test in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need a model before you can test it.",
+			"items": [
+				"blow a fan at it",
+				"add a brace or guy ropes",
+				"build the model",
+				"sprinkle water on it",
+				"test it again"
+			],
+			"explain": "Build it, test it with wind and water, improve it, then test it again."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "To test fairly, keep the fan the same distance away each time.",
+			"answer": true,
+			"hint": "What makes a test fair?",
+			"explain": "True: keep everything the same except the one thing you change."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your model tent blew over in the fan test. What is the best improvement?",
+			"answer": 0,
+			"hint": "What holds a tent down?",
+			"choices": [
+				"add guy ropes and pegs",
+				"make it taller",
+				"use a thinner cover",
+				"take away the braces"
+			],
+			"explain": "Add guy ropes and pegs to hold it down; a lower shape would help too."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is a triangle frame stronger than a square one?",
+			"answer": 0,
+			"hint": "Try squashing a triangle of straws without bending one.",
+			"choices": [
+				"its shape cannot change unless a side does",
+				"it uses more struts",
+				"it is heavier",
+				"it is a nicer shape"
+			],
+			"explain": "A triangle's three sides fix its shape: it cannot squash unless a strut bends or breaks. A square can."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.frame_struts",
+			"level": 1
+		},
+		{
+			"gen": "g4w.frame_struts",
+			"level": 2
+		},
+		{
+			"gen": "g4w.frame_struts",
+			"level": 3
+		}
+	]
+}

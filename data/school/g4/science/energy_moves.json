@@ -1,0 +1,389 @@
+{
+	"id": "g4.science.energy_moves",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, energy and speed. Which has more energy: a fast ball or the same ball rolling slowly? The fast one."
+		},
+		{
+			"text": "Energy can travel from place to place. It moves by sound, by light, by heat and by electric currents.",
+			"picture": {
+				"kind": "icon",
+				"block": 28
+			}
+		},
+		{
+			"text": "Sound: a drum's skin shakes, and the sound carries that energy through the air to your ears. Light: sunlight travels all the way from the Sun and warms the ground. It takes about 8 minutes to get here!"
+		},
+		{
+			"text": "Heat: a hot mug warms your cold hands, because heat moves from hotter things to colder ones. Electric currents: wires carry energy from a battery to a lamp, a bell or a motor."
+		},
+		{
+			"text": "Many devices change energy from one form into another. A lamp changes electricity into light. A doorbell changes it into sound. A fan's motor changes it into motion.",
+			"picture": {
+				"kind": "energy_chain",
+				"steps": [
+					"electrical",
+					"light"
+				],
+				"things": [
+					"battery",
+					"lamp"
+				]
+			}
+		},
+		{
+			"text": "Some devices go the other way. A solar panel changes light into electricity, and a wind turbine changes the wind's motion into electricity. A campfire changes the energy stored in wood into heat and light.",
+			"picture": {
+				"kind": "energy_chain",
+				"steps": [
+					"light",
+					"electrical"
+				],
+				"things": [
+					"sunlight",
+					"solar panel"
+				]
+			}
+		},
+		{
+			"text": "Engineers design devices, test them and make them better. Try it in the world: tap a lever and a lamp lights up, like a current running from a switch to a bulb. Next: electric circuits."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How does the energy of a drum's beat get to your ears?",
+			"hint": "What do your ears take in?",
+			"explain": "The drum's skin shakes the air, and sound carries the energy to your ears.",
+			"choices": [
+				"by sound",
+				"along a wire",
+				"by heat",
+				"It stays in the drum"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a lamp built to change electricity into?",
+			"hint": "What do you see when a lamp is on?",
+			"explain": "A lamp changes electricity into light.",
+			"choices": [
+				"light",
+				"sound",
+				"wind",
+				"water"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Light from the Sun carries energy all the way to Earth.",
+			"hint": "What does sunlight do to the ground?",
+			"explain": "Sunlight brings energy that warms the land and the sea and helps plants grow.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these carries energy with an electric current?",
+			"hint": "Electric currents flow along wires.",
+			"explain": "An electric current flows along the wire from the battery to the bulb.",
+			"choices": [
+				"a wire from a battery to a bulb",
+				"a sunbeam",
+				"a shout",
+				"a warm blanket"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does a solar panel change light into?",
+			"hint": "Solar panels on roofs help to power homes.",
+			"explain": "A solar panel changes light into electricity.",
+			"choices": [
+				"electricity",
+				"sound",
+				"wind",
+				"water"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bram warms his cold hands on a mug of hot cocoa. Which way does the heat go?",
+			"hint": "Heat moves from a hotter thing to a colder one.",
+			"explain": "The mug is hotter than his hands, so heat moves from the mug into his hands.",
+			"choices": [
+				"from the mug into his hands",
+				"from his hands into the mug",
+				"It does not move at all"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Heat moves from a cold thing to a hotter thing.",
+			"hint": "Think of a hot mug in cold hands.",
+			"explain": "Heat always moves from the hotter thing to the colder one, like from a hot mug into cold hands.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which device is built to change electricity into sound?",
+			"hint": "Which one do you hear?",
+			"explain": "A doorbell changes electricity into sound: ding dong!",
+			"choices": [
+				"a doorbell",
+				"a light bulb",
+				"a heater",
+				"a fan"
+			],
+			"answer": 0
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Tilly taps a lever. Put what happens in order.",
+			"hint": "What has to happen before the lamp can light up?",
+			"explain": "Tilly taps the lever, power travels to the lamp, and the lamp lights up.",
+			"items": [
+				"The lamp lights up.",
+				"Power travels to the lamp.",
+				"Tilly taps the lever."
+			],
+			"answer": [
+				2,
+				1,
+				0
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does a wind turbine change into electricity?",
+			"hint": "What turns a wind turbine's blades?",
+			"explain": "The wind turns the blades, and the turbine changes that motion into electricity.",
+			"choices": [
+				"the motion of the wind",
+				"the light of the Sun",
+				"the sound of birds",
+				"the heat of the ground"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara builds a sun oven from a box, foil and black paper. What does it change light into?",
+			"hint": "What does an oven need to cook?",
+			"explain": "The sun oven catches sunlight and changes it into heat for cooking.",
+			"choices": [
+				"heat",
+				"sound",
+				"electricity",
+				"motion"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Nell's bell circuit does not ring. What should she check first?",
+			"hint": "An electric current needs a complete path, all the way round.",
+			"explain": "An electric current needs a complete loop. One loose wire stops the energy from reaching the bell.",
+			"choices": [
+				"that every wire is connected",
+				"that the bell is a nice colour",
+				"that the table is clean",
+				"that the room is quiet"
+			],
+			"answer": 0
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put an engineer's steps in order.",
+			"hint": "You cannot test something before it is built.",
+			"explain": "Build, test, improve one thing, and test again: that is how engineers make things work better.",
+			"items": [
+				"Change one thing to make it better.",
+				"Test it again.",
+				"Test it.",
+				"Build a first try."
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				1
+			]
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A campfire changes the energy stored in wood into heat and light.",
+			"hint": "What do you feel and see near a campfire?",
+			"explain": "Burning wood gives out heat and light.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In a torch, which way does the energy go?",
+			"hint": "Where is the energy stored before you switch the torch on?",
+			"explain": "The energy is stored in the battery. It travels along the wires to the bulb, which changes it into light.",
+			"choices": [
+				"battery, then wires, then bulb",
+				"bulb, then wires, then battery",
+				"eyes, then bulb, then battery"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which of these changes electricity into motion?",
+			"hint": "Which one makes something spin?",
+			"explain": "A motor changes electricity into motion: it spins the fan's blades.",
+			"choices": [
+				"a fan's motor",
+				"a solar panel",
+				"a loudspeaker",
+				"a lamp"
+			],
+			"answer": 0
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the devices by what they change electricity into.",
+			"items": [
+				"a lamp",
+				"a doorbell",
+				"a fan",
+				"a torch",
+				"a loudspeaker",
+				"a motor"
+			],
+			"groups": [
+				"light",
+				"sound",
+				"motion"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Do you see it, hear it, or watch it move?",
+			"explain": "A lamp and a torch make light. A doorbell and a loudspeaker make sound. A fan and a motor make motion."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each device to its energy change.",
+			"items": [
+				"solar panel",
+				"wind turbine",
+				"campfire"
+			],
+			"matches": [
+				"stored energy to heat and light",
+				"light to electricity",
+				"wind's motion to electricity"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Think what goes in and what comes out.",
+			"explain": "A solar panel changes light into electricity; a wind turbine changes the wind's motion into electricity; a campfire changes stored energy into heat and light."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort how the energy travels.",
+			"groups": [
+				"by sound",
+				"by light",
+				"by an electric current"
+			],
+			"items": [
+				"a drum's beat to your ears",
+				"the Sun to the ground",
+				"a battery to a lamp",
+				"thunder to a house",
+				"a torch beam to a wall",
+				"a wire to a doorbell"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Do you hear it, see it, or does it go along a wire?",
+			"explain": "By sound: a drum's beat and thunder. By light: sunlight and a torch beam. By an electric current: from a battery to a lamp, and along a wire to a doorbell."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the energy's journey in a solar garden light.",
+			"items": [
+				"A lamp glows at night.",
+				"Sunlight shines on the panel.",
+				"A battery stores it.",
+				"The panel makes electricity."
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Start with the Sun, then follow the energy as it changes.",
+			"explain": "Sunlight shines on the panel, the panel changes light into electricity, a battery stores it, and at night the lamp changes it back into light."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4p.energy_travels",
+			"level": 1
+		},
+		{
+			"gen": "g4p.energy_travels",
+			"level": 2
+		},
+		{
+			"gen": "g4p.energy_travels",
+			"level": 3
+		},
+		{
+			"gen": "g4p.energy_changes",
+			"level": 1
+		},
+		{
+			"gen": "g4p.energy_changes",
+			"level": 2
+		},
+		{
+			"gen": "g4p.energy_changes",
+			"level": 3
+		}
+	]
+}

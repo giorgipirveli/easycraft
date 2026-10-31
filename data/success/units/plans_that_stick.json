@@ -1,0 +1,163 @@
+{
+	"id": "life.goals.plans_that_stick",
+	"lesson": [
+		{
+			"text": "Quick memory: what does an if-then plan start with? (A moment: 'When ...'.) Today: WOOP, obstacles, big things first and bouncing back."
+		},
+		{
+			"text": "WOOP: your Wish, the best Outcome, the Obstacle inside you, then your Plan. Thinking of the obstacle makes plans stronger."
+		},
+		{
+			"text": "A clear goal names one thing, a number and a date: '3 By myself stamps by the end of the month.'"
+		},
+		{
+			"text": "Big things first: like big rocks in a jar, put the important things in your week first, then fit the small ones round them."
+		},
+		{
+			"text": "Missed it? Look at what went wrong, change the plan and try again. Skills grow with practice."
+		},
+		{
+			"text": "Honest progress ('2 of 3') helps you plan better than pretending."
+		},
+		{
+			"text": "Try it in the practice room: build a plan from parts on your Goal Board."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does the second O in WOOP stand for?",
+			"answer": 0,
+			"choices": [
+				"Obstacle",
+				"Outcome",
+				"Order"
+			],
+			"hint": "Wish, Outcome, ...",
+			"explain": "Wish, Outcome, Obstacle, Plan."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Planning for your obstacle makes a plan stronger.",
+			"answer": true,
+			"hint": "The second O.",
+			"explain": "True: an if-then plan for the obstacle is the strongest part."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which goal is clear, measurable and dated?",
+			"answer": 0,
+			"choices": [
+				"3 By myself stamps by the end of the month",
+				"Be good at everything",
+				"Do loads soon"
+			],
+			"hint": "One thing, a number, a date.",
+			"explain": "3 stamps by the end of the month."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put WOOP in order.",
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"items": [
+				"Plan",
+				"Wish",
+				"Obstacle",
+				"Outcome"
+			],
+			"hint": "W first.",
+			"explain": "Wish, Outcome, Obstacle, Plan."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "You're tired at your plan's time. Best if-then?",
+			"answer": 0,
+			"choices": [
+				"If I'm tired, I do just 5 minutes",
+				"If I'm tired, I skip the week",
+				"Pretend I'm not tired"
+			],
+			"hint": "Keep it going, a little.",
+			"explain": "A tiny part keeps the plan alive."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Small and often sticks better than big and rare.",
+			"answer": true,
+			"hint": "Think of habits.",
+			"explain": "True: small daily steps stick."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Fill the jar of your week: put it in order.",
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"items": [
+				"sand (small things)",
+				"big rocks (important things)",
+				"pebbles"
+			],
+			"hint": "The biggest first.",
+			"explain": "Big rocks, then pebbles, then sand: everything fits."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Your goal is 3 stamps. You earned 2. How many more?",
+			"answer": "1",
+			"hint": "3 - 2.",
+			"explain": "One more stamp."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Helps you bounce back, or not?",
+			"groups": [
+				"helps",
+				"doesn't help"
+			],
+			"items": [
+				"change the plan",
+				"blame someone",
+				"try again",
+				"decide you're bad at it"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "What can you change?",
+			"explain": "Changing the plan and trying again help; blaming and giving up don't."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You got 2 of 3. What goes on your board?",
+			"answer": 0,
+			"choices": [
+				"'2 of 3: close! New plan.'",
+				"'3' anyway",
+				"Nothing"
+			],
+			"hint": "Honest numbers.",
+			"explain": "Honest progress helps you plan the next step."
+		}
+	]
+}

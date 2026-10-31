@@ -1,0 +1,336 @@
+{
+	"id": "g6.health_pe.analyse_improve",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you set SMART goals. What does the M stand for? (Measurable.) Today: how to watch a performance, and help it improve."
+		},
+		{
+			"text": "Every skill has three phases. Preparation: getting ready (feet, eyes, arm back). Execution: doing it (the throw, the kick). Recovery: the follow-through, then getting ready again.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"preparation",
+					"execution",
+					"recovery"
+				],
+				"title": "Three phases",
+				"loop": true
+			}
+		},
+		{
+			"text": "Watch with a checklist of teaching points. For an overarm throw: stand side on, arm back, step with the opposite foot, throw high, and follow through. Tick each point you see."
+		},
+		{
+			"text": "Use numbers too: count how many tries work. 6 successes out of 10 is 60%. A table shows which skill needs the most work: here, shooting.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"skill",
+						"successes",
+						"tries"
+					],
+					[
+						"passing",
+						"8",
+						"10"
+					],
+					[
+						"shooting",
+						"6",
+						"10"
+					],
+					[
+						"catching",
+						"9",
+						"10"
+					]
+				]
+			}
+		},
+		{
+			"text": "Slow motion helps you see quick movements: film with a grown-up's permission, or watch a friend closely. Compare with a model: a good example of the skill."
+		},
+		{
+			"text": "Give feedback kindly and clearly: What went well (a strength to keep), and Even better if (one thing to improve). Be specific: not just 'good', but 'good: your arm followed through'."
+		},
+		{
+			"text": "Then improve: choose one point, practise it in a drill, and test again. Compare your results with your own last try, not with anyone else."
+		},
+		{
+			"text": "Try it in the world: watch a friend's jump in the game, and give one What went well and one Even better if. For real: record 10 tries at a skill, practise, and record 10 more. Next: food as fuel."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the phases of a skill in order.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Get ready, do it, then finish.",
+			"items": [
+				"execution",
+				"preparation",
+				"recovery"
+			],
+			"explain": "Preparation, execution, then recovery."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a 'What went well'?",
+			"answer": 0,
+			"hint": "It is the kind half of feedback.",
+			"choices": [
+				"a strength to keep doing",
+				"a mistake",
+				"a final score",
+				"a rule"
+			],
+			"explain": "What went well: a strength the player should keep doing."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Feedback is most useful when it is specific.",
+			"answer": true,
+			"hint": "Compare 'good' with 'your arm followed through'.",
+			"explain": "True: specific feedback tells the player exactly what to keep or change."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Bram's serve went in 7 times out of 10. What percentage is that?",
+			"answer": "70",
+			"hint": "Per cent means out of 100: 10 goes into 100 ten times.",
+			"explain": "7 × 10 = 70%."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each phase to a moment of an overarm throw.",
+			"items": [
+				"preparation",
+				"execution",
+				"recovery"
+			],
+			"matches": [
+				"step and throw",
+				"follow through",
+				"arm back, side on"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Before, during, after.",
+			"explain": "Preparation: arm back, side on. Execution: step and throw. Recovery: follow through."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which feedback helps most?",
+			"answer": 0,
+			"hint": "Which one says exactly what to change?",
+			"choices": [
+				"Even better if you step with your other foot.",
+				"That was bad.",
+				"Just try harder.",
+				"You're a natural!"
+			],
+			"explain": "The specific one: step with the other foot."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which skill should Zara practise most?",
+			"answer": 0,
+			"hint": "Which has the lowest number of successes out of the same tries?",
+			"choices": [
+				"shooting",
+				"passing",
+				"dribbling"
+			],
+			"explain": "Shooting: 4 out of 10 is 40%, lower than passing (70%) and dribbling (80%).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"skill",
+						"successes",
+						"tries"
+					],
+					[
+						"passing",
+						"7",
+						"10"
+					],
+					[
+						"shooting",
+						"4",
+						"10"
+					],
+					[
+						"dribbling",
+						"8",
+						"10"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Slow motion can show quick movements you would miss.",
+			"answer": true,
+			"hint": "What is hard to see at full speed?",
+			"explain": "True: slow motion shows each phase clearly."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Mimi made 12 of 20 catches. What percentage is that?",
+			"answer": "60",
+			"hint": "20 goes into 100 five times.",
+			"explain": "12 × 5 = 60%."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Preparation, execution or recovery?",
+			"groups": [
+				"preparation",
+				"execution",
+				"recovery"
+			],
+			"items": [
+				"eyes on the target",
+				"swing the arm through",
+				"follow through",
+				"feet shoulder-width apart",
+				"let go of the ball",
+				"get ready for the next ball"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Before, during or after the main action?",
+			"explain": "Preparation: eyes on the target, feet apart. Execution: swing, let go. Recovery: follow through, get ready again."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly scored 5 of 10 shots before practice and 8 of 10 after. By how many percentage points did she improve?",
+			"answer": "30",
+			"hint": "Turn each into a percentage first.",
+			"explain": "50% before, 80% after: 80 − 50 = 30 percentage points."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the improvement cycle in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You need to know where you start before you improve.",
+			"items": [
+				"test again and compare",
+				"practise it in a drill",
+				"find one thing to improve",
+				"watch and record"
+			],
+			"explain": "Watch and record, find one thing, practise it, then test again and compare."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A friend's standing jump lands short because the arms stay down. What is the best 'Even better if'?",
+			"answer": 0,
+			"hint": "Which one names one clear change?",
+			"choices": [
+				"Swing your arms forwards and up as you jump.",
+				"Jump better.",
+				"Be more like the champion.",
+				"Stop jumping."
+			],
+			"explain": "Swinging the arms forwards and up adds power and distance."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why compare a result with your own last try?",
+			"answer": 0,
+			"hint": "Everyone starts in a different place.",
+			"choices": [
+				"it shows your own progress",
+				"to beat your friends",
+				"because other people do not matter",
+				"because it is quicker"
+			],
+			"explain": "It shows your own progress, which is what practice changes."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "It is kind and helpful to give lots of things to improve at once.",
+			"answer": false,
+			"hint": "How many things can you practise at the same time?",
+			"explain": "False: one or two clear points at a time are easier to practise."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In the table, what is Bram's success rate for serving, as a percentage?",
+			"answer": "45",
+			"hint": "Turn successes out of tries into out of 100.",
+			"explain": "9 out of 20: 20 goes into 100 five times, 9 × 5 = 45%.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"skill",
+						"successes",
+						"tries"
+					],
+					[
+						"serving",
+						"9",
+						"20"
+					],
+					[
+						"volleying",
+						"14",
+						"20"
+					]
+				]
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.success_rate",
+			"level": 1
+		},
+		{
+			"gen": "g6w.success_rate",
+			"level": 2
+		},
+		{
+			"gen": "g6w.success_rate",
+			"level": 3
+		}
+	]
+}

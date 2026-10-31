@@ -1,0 +1,378 @@
+{
+	"id": "g3.computing.private_info",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the internet? (A huge network joining computers all over the world.) Today: staying safe on it."
+		},
+		{
+			"text": "Personal information tells people who you are or where to find you. It is your full name, your home address and your school. It is your phone number, your birthday, your passwords and photos of you.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Private",
+						"Not private"
+					],
+					[
+						"full name",
+						"a made-up name"
+					],
+					[
+						"home address",
+						"your favourite animal"
+					],
+					[
+						"phone number",
+						"a game you like"
+					]
+				]
+			}
+		},
+		{
+			"text": "Keep it private online. People you meet online may not be who they say they are. Share personal information only with a grown-up you trust."
+		},
+		{
+			"text": "Choose a player name that is not your real name, like a fun made-up one. This game's chat won't even let anyone send a phone number, an address, an email or a link."
+		},
+		{
+			"text": "A password is the secret key to your account. A strong password is long and hard to guess: three random words and a number. Make up your own, and never use your name or your birthday.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"weak",
+						"strong"
+					],
+					[
+						"pip2016",
+						"owl lamp moon 7"
+					],
+					[
+						"123456",
+						"red jam kite 42"
+					]
+				]
+			}
+		},
+		{
+			"text": "Keep passwords secret, even from friends. The only people to share them with are the grown-ups who look after you."
+		},
+		{
+			"text": "If anyone online asks for your personal information or a photo, don't answer. Tell a grown-up you trust. In this game, tap their name and choose REPORT, then ASKED SECRETS.",
+			"picture": {
+				"kind": "chat",
+				"messages": [
+					[
+						"them",
+						"What's your address?"
+					],
+					[
+						"me",
+						"I don't share that."
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: make up a fun player name for yourself. It should say nothing about who you really are. Build a sign with it in your world."
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: keep private, or fine to share in a game?",
+			"groups": [
+				"keep private",
+				"fine to share"
+			],
+			"items": [
+				"your home address",
+				"your favourite colour",
+				"your password",
+				"your favourite animal",
+				"your phone number",
+				"a game you like"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Could it help a stranger find you or get into your account?",
+			"explain": "Keep private: your address, password and phone number. Fine to share: favourite colour, animal and game."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is safe to tell a new online friend where you live.",
+			"answer": false,
+			"hint": "Do you really know who someone online is?",
+			"explain": "False: where you live is personal information. Keep it private and tell a grown-up if anyone asks."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is personal information?",
+			"answer": 0,
+			"hint": "Which one could help someone find you?",
+			"choices": [
+				"the name of your school",
+				"your favourite food",
+				"the colour of the sky",
+				"the name of a planet"
+			],
+			"explain": "The name of your school tells people where to find you."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who can you share your password with?",
+			"answer": 0,
+			"hint": "Passwords are secret. Who keeps you safe?",
+			"choices": [
+				"the grown-ups who look after you",
+				"your best friend",
+				"anyone who asks nicely",
+				"a player you met online"
+			],
+			"explain": "Only the grown-ups who look after you. Not even friends."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the strongest password?",
+			"answer": 0,
+			"hint": "Long and hard to guess wins.",
+			"choices": [
+				"cloud-pickle-lantern-58",
+				"password",
+				"123456",
+				"mimi2016"
+			],
+			"explain": "cloud-pickle-lantern-58: three random words and a number are long and hard to guess."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which player name is safest?",
+			"answer": 0,
+			"hint": "Does the name tell anyone who you are, where you live or how old you are?",
+			"choices": [
+				"StarryPenguin",
+				"TillyJones2017",
+				"Bram_LondonRoad",
+				"ZaraAge9"
+			],
+			"explain": "StarryPenguin says nothing about you. The others give away a name, a street, an age or a year."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A strong password is short and easy to guess.",
+			"answer": false,
+			"hint": "Would you want a thief to guess it?",
+			"explain": "False: a strong password is long and hard to guess."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A player you don't know asks, “What school do you go to?” What should you do?",
+			"answer": 0,
+			"hint": "Is your school personal information?",
+			"choices": [
+				"don't answer, and tell a grown-up you trust",
+				"tell them, as they seem nice",
+				"tell them your street instead",
+				"send a photo of your school"
+			],
+			"explain": "Don't answer: your school is personal information. Tell a grown-up you trust."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each thing that happens to what to do.",
+			"items": [
+				"a friend asks your password",
+				"a stranger asks where you live",
+				"choosing a player name",
+				"you forget your password"
+			],
+			"matches": [
+				"ask your grown-up to help",
+				"say no: passwords stay secret",
+				"don't answer; tell a grown-up",
+				"pick a made-up name"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Keep private things private, and ask a grown-up for help.",
+			"explain": "Passwords stay secret, don't answer strangers, pick a made-up name, and ask your grown-up for help."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why shouldn't your password be your pet's name?",
+			"answer": 0,
+			"hint": "Who knows your pet's name?",
+			"choices": [
+				"people who know you could guess it",
+				"pets don't like it",
+				"it is too long",
+				"computers can't read pet names"
+			],
+			"explain": "Friends and neighbours may know your pet's name, so it is easy to guess."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "With a grown-up's OK, which picture is fine to share with friends in a game?",
+			"answer": 0,
+			"hint": "Which one tells nobody who you are or where you live?",
+			"choices": [
+				"a picture of a castle you built",
+				"a photo of you in your school uniform",
+				"a photo of your front door",
+				"a photo showing your street's name"
+			],
+			"explain": "A picture of your build is fine. A uniform, a front door or a street name tells people where to find you."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If someone online says they are 9 years old, they must be 9.",
+			"answer": false,
+			"hint": "Can you see who is really typing?",
+			"explain": "False: people online are not always who they say they are. That is why we keep personal information private."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A player keeps asking for your phone number. What is the best thing to do?",
+			"answer": 0,
+			"hint": "You don't have to answer. Who can help?",
+			"choices": [
+				"don't answer, tell a grown-up and REPORT them",
+				"give a made-up number",
+				"give your number so they stop",
+				"keep chatting to be polite"
+			],
+			"explain": "Don't answer, tell a grown-up you trust, and tap their name to REPORT them (ASKED SECRETS)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What makes sun-river-pocket-49 a strong password?",
+			"answer": 0,
+			"hint": "What makes a password hard to guess?",
+			"choices": [
+				"it is long, with random words and a number",
+				"it has the word sun in it",
+				"it is easy for anyone to guess",
+				"it is short"
+			],
+			"explain": "It is long and made of random words and a number: hard to guess."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these player names: safe, or gives something away?",
+			"groups": [
+				"safe",
+				"gives something away"
+			],
+			"items": [
+				"BlueDragon",
+				"Zara_Oakfield_School",
+				"CosmicCarrot",
+				"Leo_Age_8",
+				"MightyMoss",
+				"Ella_Born_2017"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Look for a real name, a school, an age or a birth year.",
+			"explain": "Safe: BlueDragon, CosmicCarrot, MightyMoss. Give things away: a school, an age, a birth year."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each password to what is wrong or right with it.",
+			"items": [
+				"mimi2016",
+				"password",
+				"cloud-pickle-lantern-58"
+			],
+			"matches": [
+				"strong: random words, a number",
+				"a name and a year: easy",
+				"one of the most guessed"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Ask: could someone who knows you guess it? Is it long and random?",
+			"explain": "mimi2016 uses a name and a year, so it is easy to guess. password is one of the most guessed passwords of all. cloud-pickle-lantern-58 is long, with random words and a number: strong."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "A player in a game asks where you live. Order what to do.",
+			"items": [
+				"Tap their name and REPORT them.",
+				"Don't answer.",
+				"Tell a grown-up you trust."
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "First keep your secret, then get help, then report.",
+			"explain": "Don't answer, tell a grown-up you trust, then tap their name and choose REPORT, then ASKED SECRETS. Your address stays private."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the pictures: fine to share with a grown-up's OK, or keep private?",
+			"groups": [
+				"fine to share",
+				"keep private"
+			],
+			"items": [
+				"your castle build",
+				"you outside your house",
+				"a drawing of a dragon",
+				"your school badge",
+				"a sunset in your world",
+				"your street sign"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does the picture show where you live or go to school?",
+			"explain": "Fine with a grown-up's OK: your build, a dragon drawing, a sunset in your world. Keep private: a photo outside your house, your school badge and your street sign tell people where to find you."
+		}
+	],
+	"generators": []
+}

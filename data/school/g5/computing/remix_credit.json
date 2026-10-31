@@ -1,0 +1,297 @@
+{
+	"id": "g5.computing.remix_credit",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a procedure? (A group of steps with a name.) Today: building on someone else's program or picture, the fair way."
+		},
+		{
+			"text": "A remix takes someone's work, a program, a song or a picture, and changes it into something new: new rules, new pictures, a new ending.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"Juno makes Balloon Pop",
+					"you remix it",
+					"you credit Juno"
+				],
+				"title": "Remix and credit"
+			}
+		},
+		{
+			"text": "People own what they make. Before you remix, check that the creator allows it. Many creators share their work on purpose, with a licence that says what others may do with it.",
+			"picture": {
+				"kind": "licence_tags",
+				"tags": [
+					"copyright",
+					"CC0",
+					"BY"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Give credit: say who made the original and where it came from. 'Based on Balloon Pop by Juno' tells everyone whose idea it was, and it thanks her."
+		},
+		{
+			"text": "Worked example: Zara remixes Bram's maze game. She adds a key and a locked door, and writes: 'Remix of Bram's Maze. I added the key and the door.' Now everyone knows which parts are hers.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"WHEN the key is picked up",
+					"  SET has_key TO 1",
+					"IF has_key = 1",
+					"  OPEN the door"
+				]
+			}
+		},
+		{
+			"text": "Taking someone's work and saying you made it all is not fair, even if you change a little. It hides their work and takes the thanks that belong to them."
+		},
+		{
+			"text": "This game does it too. Its sounds and pictures come from creators who gave them away freely (CC0). Its list of credits names them, to say thank you."
+		},
+		{
+			"text": "Try it in the world: with a friend's permission, remix one of their builds: change three things, then put up a sign that credits them and says what you changed. Next: how messages travel."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A remix changes someone's work into something new.",
+			"answer": true,
+			"hint": "Think of Zara's maze with a key and a door.",
+			"explain": "True: a remix starts from someone's work and changes it into something new."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should you do when you share a remix?",
+			"answer": 0,
+			"hint": "Whose idea was the first version?",
+			"choices": [
+				"Say who made the original",
+				"Say you made all of it",
+				"Hide where it came from",
+				"Delete the original"
+			],
+			"explain": "Credit the creator: say who made the original and where it came from."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: fair, or not fair?",
+			"groups": [
+				"fair",
+				"not fair"
+			],
+			"items": [
+				"crediting the creator",
+				"asking before you remix",
+				"saying what you changed",
+				"calling a copied game yours",
+				"cutting off the creator's name"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Would the creator feel thanked, or would their work be hidden?",
+			"explain": "Credit, asking first and saying what you changed are fair. Claiming it all and cutting off their name are not."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"remix",
+				"credit",
+				"licence",
+				"original"
+			],
+			"matches": [
+				"what others may do",
+				"the work you started from",
+				"change a work into a new one",
+				"saying who made it"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of Zara's maze remix.",
+			"explain": "A remix changes a work, credit says who made it, a licence says what others may do, the original is the start."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which credit line is best?",
+			"answer": 0,
+			"hint": "A good credit names the creator and says what you changed.",
+			"choices": [
+				"Remix of Mimi's Space Race; I added a moon",
+				"My game.",
+				"Space Race (I found it)",
+				"Thanks everyone"
+			],
+			"explain": "It names Mimi, names her game, and says what the remix added."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of a fair remix in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Check before you change anything, and credit before you share.",
+			"items": [
+				"Check what the creator allows",
+				"Credit them and say what you changed",
+				"Find a work you may remix",
+				"Make your changes",
+				"Share it"
+			],
+			"explain": "Find a work, check what is allowed, make your changes, credit the creator and your changes, then share."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If you change a few things in someone's program, it becomes all your own work.",
+			"answer": false,
+			"hint": "Who wrote the parts you did not change?",
+			"explain": "False: most of it is still their work, so you credit them and say what you changed."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bram's game adds 1 point for each gem. What did Zara change in her remix?",
+			"answer": 0,
+			"hint": "Compare her line with Bram's: CHANGE score BY 1.",
+			"choices": [
+				"Each gem is now worth 5 points",
+				"The game now has 5 lives",
+				"The score starts at 5",
+				"Nothing"
+			],
+			"explain": "Her remix says CHANGE score BY 5, so each gem is worth 5 points instead of 1.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"WHEN a gem is picked up",
+					"  CHANGE score BY 5"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Tilly finds a song online with no creator's name and no licence. What should she do before using it in her game?",
+			"answer": 0,
+			"hint": "Not knowing who made it doesn't mean nobody did.",
+			"choices": [
+				"Find out who made it and if she may use it",
+				"Use it and say she wrote it",
+				"Change one note and call it hers",
+				"Nothing: songs online are free"
+			],
+			"explain": "Someone made it, so Tilly finds out who and whether she may use it, or chooses music shared for everyone."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Pip says Juno may use his drawing if she credits him. What should Juno do?",
+			"answer": 0,
+			"hint": "What did Pip ask for?",
+			"choices": [
+				"Use it and credit Pip",
+				"Use it without credit",
+				"Say Juno drew it",
+				"Sell it as her own"
+			],
+			"explain": "Pip allows it with credit, so Juno uses it and names Pip."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: does it help the original creator, or hurt them?",
+			"groups": [
+				"helps them",
+				"hurts them"
+			],
+			"items": [
+				"a credit with their name",
+				"a link to their original",
+				"saying thank you",
+				"passing it off as yours",
+				"cutting their name off it",
+				"selling it without asking"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Imagine it was your work.",
+			"explain": "Credits, links and thanks help creators. Passing it off, cutting their name and selling without asking hurt them."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "CC0 means the creator gave the work to everyone, to use even without credit, but a credit is still kind.",
+			"answer": true,
+			"hint": "Think of the sounds and pictures in this game.",
+			"explain": "True: CC0 gives the work away for any use; this game still names its creators to thank them."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do programmers say what they changed in a remix?",
+			"answer": 0,
+			"hint": "Think of Zara's note about the key and the door.",
+			"choices": [
+				"So everyone knows which parts are theirs",
+				"To make the program faster",
+				"Because the computer needs it",
+				"To hide the original"
+			],
+			"explain": "Saying what changed shows which parts are yours and which are the original creator's."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each problem to the fair fix.",
+			"items": [
+				"no credit given",
+				"not sure you may use it",
+				"people think it's all yours",
+				"the original has a bug"
+			],
+			"matches": [
+				"tell the creator kindly",
+				"add the creator's name",
+				"ask the creator",
+				"say what you changed"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "What would make each one fair?",
+			"explain": "No credit: add their name. Not sure: ask. People think it's all yours: say what you changed. A bug: tell them kindly."
+		}
+	],
+	"generators": []
+}

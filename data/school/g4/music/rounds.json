@@ -1,0 +1,624 @@
+{
+	"id": "g4.music.rounds",
+	"lesson": [
+		{
+			"text": "Quick memory: who keeps an orchestra together? (The conductor.) Today: rounds, songs for groups that start at different times."
+		},
+		{
+			"text": "In a round, everyone sings the same tune, but the groups start one after another. The lines are written so that they sound good on top of each other.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"1st",
+						"2nd",
+						"3rd",
+						"4th",
+						"5th"
+					],
+					[
+						"Group 1",
+						"line 1",
+						"line 2",
+						"line 3",
+						"line 4",
+						"done"
+					],
+					[
+						"Group 2",
+						"wait",
+						"line 1",
+						"line 2",
+						"line 3",
+						"line 4"
+					]
+				]
+			}
+		},
+		{
+			"text": "Frère Jacques is a French round, over 200 years old. In English, line 1 is: Are you sleeping, are you sleeping. Listen.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"D4:2",
+					"E4:2",
+					"C4:2",
+					"C4:2",
+					"D4:2",
+					"E4:2",
+					"C4:2"
+				],
+				"beat": 0.25
+			},
+			"picture": {
+				"kind": "melody",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"C4",
+					"C4",
+					"D4",
+					"E4",
+					"C4"
+				]
+			}
+		},
+		{
+			"text": "Line 2: Brother John, Brother John. Line 3: Morning bells are ringing, morning bells are ringing. Line 4: Ding, dang, dong, ding, dang, dong.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"G4",
+					"F4",
+					"E4:2",
+					"C4:2",
+					"G4",
+					"A4",
+					"G4",
+					"F4",
+					"E4:2",
+					"C4:2"
+				],
+				"beat": 0.25
+			}
+		},
+		{
+			"text": "Group 2 starts line 1 when group 1 reaches line 2. With 4 lines, up to 4 groups can join, each one line later. Singing different notes at the same time makes harmony.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"1st",
+						"2nd",
+						"3rd",
+						"4th",
+						"5th"
+					],
+					[
+						"Group 1",
+						"line 1",
+						"line 2",
+						"line 3",
+						"line 4",
+						"done"
+					],
+					[
+						"Group 2",
+						"wait",
+						"line 1",
+						"line 2",
+						"line 3",
+						"line 4"
+					],
+					[
+						"Group 3",
+						"wait",
+						"wait",
+						"line 1",
+						"line 2",
+						"line 3"
+					]
+				]
+			}
+		},
+		{
+			"text": "Tips: know the tune really well first; listen to the others, but hold on to your own line; keep the same steady beat; and stand with your group."
+		},
+		{
+			"text": "Sumer Is Icumen In is one of the oldest rounds known. It was written in England more than 700 years ago."
+		},
+		{
+			"text": "Try it in the world: sing Frère Jacques as a round with friends or family in your world's village square: one group starts, and the next joins in at line 2. Next: music long ago."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a round, what do the groups sing?",
+			"answer": 0,
+			"hint": "Remember Frère Jacques.",
+			"choices": [
+				"the same tune, starting at different times",
+				"different songs",
+				"only one note each",
+				"nothing at all"
+			],
+			"explain": "Every group sings the same tune, starting one after another."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Which words fit this line of Frère Jacques?",
+			"answer": 0,
+			"hint": "Count the notes: how many syllables fit? Are they quick or long?",
+			"choices": [
+				"Are you sleeping, are you sleeping",
+				"Brother John, Brother John",
+				"Morning bells are ringing",
+				"Ding, dang, dong"
+			],
+			"explain": "8 steady notes: Are you sleeping, are you sleeping. It is line 1.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"D4:2",
+					"E4:2",
+					"C4:2",
+					"C4:2",
+					"D4:2",
+					"E4:2",
+					"C4:2"
+				],
+				"beat": 0.25
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen to line 1 of Frère Jacques. How does it go?",
+			"answer": 0,
+			"hint": "Draw the tune in the air with your finger as you listen.",
+			"choices": [
+				"up by steps, then back down",
+				"down by steps",
+				"one note all the time",
+				"a big jump down"
+			],
+			"explain": "C, D, E climb by steps, then it drops back to C, and the same again.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"D4:2",
+					"E4:2",
+					"C4:2",
+					"C4:2",
+					"D4:2",
+					"E4:2",
+					"C4:2"
+				],
+				"beat": 0.25
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a round, group 2 starts after group 1 has begun.",
+			"answer": true,
+			"hint": "Look at the table.",
+			"explain": "True: group 2 waits, then starts line 1 when group 1 reaches line 2.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"1st",
+						"2nd",
+						"3rd",
+						"4th",
+						"5th"
+					],
+					[
+						"Group 1",
+						"line 1",
+						"line 2",
+						"line 3",
+						"line 4",
+						"done"
+					],
+					[
+						"Group 2",
+						"wait",
+						"line 1",
+						"line 2",
+						"line 3",
+						"line 4"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "When group 1 sings line 3, which line does group 2 sing?",
+			"answer": "2",
+			"hint": "Find line 3 in group 1's row, then look straight down.",
+			"explain": "Group 2 is one line behind: 3 − 1 = 2, line 2.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"1st",
+						"2nd",
+						"3rd",
+						"4th",
+						"5th"
+					],
+					[
+						"Group 1",
+						"line 1",
+						"line 2",
+						"line 3",
+						"line 4",
+						"done"
+					],
+					[
+						"Group 2",
+						"wait",
+						"line 1",
+						"line 2",
+						"line 3",
+						"line 4"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which line of Frère Jacques is this?",
+			"answer": 0,
+			"hint": "Listen for the low bell notes.",
+			"choices": [
+				"Ding, dang, dong",
+				"Are you sleeping, are you sleeping",
+				"Morning bells are ringing",
+				"Brother John, Brother John"
+			],
+			"explain": "The low bell sounds are line 4: Ding, dang, dong.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"G3:2",
+					"C4:4",
+					"C4:2",
+					"G3:2",
+					"C4:4"
+				],
+				"beat": 0.25
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which line of Frère Jacques is this?",
+			"answer": 0,
+			"hint": "Listen for quick notes.",
+			"choices": [
+				"Morning bells are ringing",
+				"Ding, dang, dong",
+				"Brother John, Brother John",
+				"Are you sleeping, are you sleeping"
+			],
+			"explain": "The quick notes are line 3: Morning bells are ringing.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"G4",
+					"F4",
+					"E4:2",
+					"C4:2",
+					"G4",
+					"A4",
+					"G4",
+					"F4",
+					"E4:2",
+					"C4:2"
+				],
+				"beat": 0.25
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the lines of Frère Jacques in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Sing it in your head from the start.",
+			"items": [
+				"Ding, dang, dong",
+				"Morning bells are ringing",
+				"Brother John, Brother John",
+				"Are you sleeping, are you sleeping"
+			],
+			"explain": "Are you sleeping, Brother John, Morning bells are ringing, Ding, dang, dong."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these tips for singing a round: do they help or not?",
+			"groups": [
+				"helps",
+				"doesn't help"
+			],
+			"items": [
+				"know the tune well first",
+				"keep a steady beat",
+				"listen, but hold your own line",
+				"sing louder than everyone",
+				"join the other group's line",
+				"speed up"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "What keeps the parts together and fitting?",
+			"explain": "Knowing the tune, a steady beat and holding your line help. Shouting, joining the other line and speeding up don't."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A round has 4 lines. How many groups can sing it, each starting one line later?",
+			"answer": "4",
+			"hint": "Each group starts one line after the one before.",
+			"explain": "One group for each line: 4 groups."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Two different notes sung at the same time make harmony.",
+			"answer": true,
+			"hint": "What does a round give you?",
+			"explain": "True: that is harmony, and a round makes it from just one tune."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which picture shows the tune of this line?",
+			"answer": 0,
+			"hint": "Does the tune climb or fall? Where does it start again?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"E4",
+							"F4",
+							"G4",
+							"E4",
+							"F4",
+							"G4"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"C4",
+							"D4",
+							"E4",
+							"C4",
+							"C4",
+							"D4"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"G4",
+							"F4",
+							"E4",
+							"G4",
+							"F4",
+							"E4"
+						]
+					}
+				}
+			],
+			"explain": "It climbs E, F, G, then climbs again E, F, G: Brother John, Brother John.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4:2",
+					"F4:2",
+					"G4:4",
+					"E4:2",
+					"F4:2",
+					"G4:4"
+				],
+				"beat": 0.25
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Frère Jacques has 4 lines. 3 groups sing it once each, starting a line apart. How many lines long is the whole song?",
+			"answer": "6",
+			"hint": "When does the last group start? It still sings all 4 lines.",
+			"explain": "The third group starts 2 lines after the first and sings 4: 2 + 4 = 6 lines."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How old is Sumer Is Icumen In, one of the oldest rounds known?",
+			"answer": 0,
+			"hint": "Remember the lesson card.",
+			"choices": [
+				"more than 700 years old",
+				"about 50 years old",
+				"about 10 years old",
+				"made this year"
+			],
+			"explain": "It was written in England more than 700 years ago."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which line of Frère Jacques has these long notes?",
+			"answer": 0,
+			"hint": "Which words would you hold on the long notes?",
+			"choices": [
+				"Brother John, Brother John",
+				"Are you sleeping, are you sleeping",
+				"Morning bells are ringing",
+				"Ding, dang, dong"
+			],
+			"explain": "The long notes are line 2: Brother John, Brother John.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4:2",
+					"F4:2",
+					"G4:4",
+					"E4:2",
+					"F4:2",
+					"G4:4"
+				],
+				"beat": 0.25
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "At the 4th time step, what does group 3 sing?",
+			"answer": 0,
+			"hint": "Find group 3's row, then the 4th column.",
+			"choices": [
+				"line 2",
+				"line 1",
+				"line 3",
+				"line 4"
+			],
+			"explain": "Group 3 starts at the 3rd step with line 1, so at the 4th it sings line 2.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"1st",
+						"2nd",
+						"3rd",
+						"4th",
+						"5th"
+					],
+					[
+						"Group 1",
+						"line 1",
+						"line 2",
+						"line 3",
+						"line 4",
+						"done"
+					],
+					[
+						"Group 2",
+						"wait",
+						"line 1",
+						"line 2",
+						"line 3",
+						"line 4"
+					],
+					[
+						"Group 3",
+						"wait",
+						"wait",
+						"line 1",
+						"line 2",
+						"line 3"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do the lines of a round sound good together?",
+			"answer": 0,
+			"hint": "Think about how a composer writes a round.",
+			"choices": [
+				"they were written to fit on top of each other",
+				"everyone sings the same note",
+				"rounds have no tune",
+				"they are very quiet"
+			],
+			"explain": "The lines were written to fit together when sung at the same time."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In a round, every group finishes at the same time.",
+			"answer": false,
+			"hint": "When did each group start?",
+			"explain": "False: they started one after another, so they finish one after another."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Three groups sing Frère Jacques as a round, each starting one line later. At time step 3, which line is each group singing?",
+			"groups": [
+				"line 1",
+				"line 2",
+				"line 3"
+			],
+			"items": [
+				"group 1",
+				"group 2",
+				"group 3"
+			],
+			"answer": [
+				2,
+				1,
+				0
+			],
+			"hint": "Group 1 starts at step 1, group 2 at step 2, group 3 at step 3.",
+			"explain": "Group 1 started at step 1, so at step 3 it sings line 3. Group 2 started a step later: line 2. Group 3 has just started: line 1. Three lines at once make harmony."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.round_parts",
+			"level": 1
+		},
+		{
+			"gen": "g4a.round_parts",
+			"level": 2
+		},
+		{
+			"gen": "g4a.round_parts",
+			"level": 3
+		}
+	]
+}

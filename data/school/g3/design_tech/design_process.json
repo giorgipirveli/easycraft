@@ -1,0 +1,336 @@
+{
+	"id": "g3.design_tech.design_process",
+	"lesson": [
+		{
+			"text": "Quick memory: in a fair test, how many things do you change? (Just one, and keep everything else the same.) Designers test their ideas fairly too."
+		},
+		{
+			"text": "Designers make things for people. A design brief says who it is for and what it must do: 'Make a bag that can carry a lunchbox for a child of 8.'"
+		},
+		{
+			"text": "The design cycle has five steps: idea, plan, make, test, improve. Then round again, until the design works well.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"1",
+						"2",
+						"3",
+						"4",
+						"5"
+					],
+					[
+						"idea",
+						"plan",
+						"make",
+						"test",
+						"improve"
+					]
+				]
+			}
+		},
+		{
+			"text": "Idea and plan: think of many ideas, choose the best one, then draw it. Label the parts, the sizes, the materials and the tools you will need."
+		},
+		{
+			"text": "Make: measure twice and cut once. Mark your lines, cut carefully, and join the parts with glue, tape, string or stitches.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"measure twice",
+					"mark the line",
+					"cut once",
+					"join the parts"
+				],
+				"title": "Making"
+			}
+		},
+		{
+			"text": "Test: does it do what the brief asked? Check each point: does it hold the lunchbox, is it easy to carry? A first model to test is called a prototype."
+		},
+		{
+			"text": "Improve: find what did not work, change it, and test again. Every designer's first try has problems: that is how designs get better.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Idea"
+					},
+					{
+						"shape": "step",
+						"text": "Plan: draw, label"
+					},
+					{
+						"shape": "step",
+						"text": "Make"
+					},
+					{
+						"shape": "decision",
+						"text": "Test: does it work?",
+						"back": 1
+					},
+					{
+						"shape": "end",
+						"text": "Use it!"
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: design a bridge across a river. Plan it on paper, build it, test it by walking across with a friend, then improve it and test it again."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the design cycle in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You cannot test something before you make it.",
+			"items": [
+				"plan",
+				"test",
+				"idea",
+				"make",
+				"improve"
+			],
+			"explain": "Idea, plan, make, test, improve: then round again."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a design brief?",
+			"answer": 0,
+			"hint": "It comes at the very start.",
+			"choices": [
+				"what it must do, and who it is for",
+				"a very short film",
+				"a list of tools",
+				"the finished product"
+			],
+			"explain": "A design brief says who the product is for and what it must do."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Designers often need to improve their first model.",
+			"answer": true,
+			"hint": "Does every first try work perfectly?",
+			"explain": "True: testing shows problems, and improving them makes the design better."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a prototype?",
+			"answer": 0,
+			"hint": "It is made before the final version.",
+			"choices": [
+				"a first model to test",
+				"the last step",
+				"a type of glue",
+				"a design brief"
+			],
+			"explain": "A prototype is a first model, made so it can be tested and improved."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which step comes straight after testing?",
+			"answer": 0,
+			"hint": "What do you do when a test shows a problem?",
+			"choices": [
+				"improve",
+				"idea",
+				"plan",
+				"make"
+			],
+			"explain": "After testing comes improving: fix what did not work."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is a good rule for a lunch bag's design?",
+			"answer": 0,
+			"hint": "What must the bag do for the person using it?",
+			"choices": [
+				"it must hold a lunchbox",
+				"it must be very heavy",
+				"it must be impossible to open",
+				"it must leak"
+			],
+			"explain": "A lunch bag must hold a lunchbox; the other rules would make it worse to use."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Is it part of planning or making?",
+			"groups": [
+				"plan",
+				"make"
+			],
+			"items": [
+				"draw a labelled sketch",
+				"cut out the parts",
+				"list the materials",
+				"glue the parts together",
+				"choose the tools",
+				"measure and mark the card"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Planning happens on paper; making uses the materials.",
+			"explain": "Plan: sketch, list materials, choose tools. Make: measure and mark, cut, glue."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each step to what you do.",
+			"items": [
+				"idea",
+				"plan",
+				"make",
+				"test"
+			],
+			"matches": [
+				"draw and label it",
+				"cut and join",
+				"check that it works",
+				"think of many ways"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Follow the design cycle round.",
+			"explain": "Idea: think of many ways. Plan: draw and label. Make: cut and join. Test: check that it works."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If a design fails its test, you should give up.",
+			"answer": false,
+			"hint": "What is the next step of the cycle?",
+			"explain": "False: a failed test shows what to improve. Change it and test again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi's paper bridge sags when a toy car crosses it. What should she do next?",
+			"answer": 0,
+			"hint": "Change one thing, so you can tell what helped.",
+			"choices": [
+				"fold the paper to stiffen it, then test again",
+				"give up",
+				"use more toy cars",
+				"paint it a new colour"
+			],
+			"explain": "Change one thing (fold the paper to make it stiffer), then test again, so she knows what helped."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram made a pencil pot. How should he test it?",
+			"answer": 0,
+			"hint": "What did the brief ask for?",
+			"choices": [
+				"check it holds 10 pencils, as the brief asks",
+				"ask if it is pretty",
+				"throw it away",
+				"make another one without testing"
+			],
+			"explain": "A test checks the design against the brief, like holding 10 pencils without tipping over."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do designers sketch before they make?",
+			"answer": 0,
+			"hint": "It is cheaper to fix a drawing than a model.",
+			"choices": [
+				"to plan sizes and spot problems early",
+				"because they cannot make things",
+				"to use up paper",
+				"to skip the making"
+			],
+			"explain": "A sketch plans sizes, materials and tools, and shows problems before anything is cut."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put Zara's bird feeder project in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Follow idea, plan, make, test, improve.",
+			"items": [
+				"draw a labelled plan",
+				"hang it up and watch",
+				"find out what birds need",
+				"cut and join the parts",
+				"add a roof to keep the seeds dry"
+			],
+			"explain": "Research, plan, make, test by watching, then improve (a roof keeps the seeds dry)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does 'measure twice, cut once' mean?",
+			"answer": 0,
+			"hint": "Why check before cutting?",
+			"choices": [
+				"check a measurement before you cut",
+				"cut everything twice",
+				"never measure",
+				"cut first, then measure"
+			],
+			"explain": "Check your measurement again before cutting, because a cut cannot be undone."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "The brief: a bag to carry a lunchbox for a child of 8. Sort the test results: meets the brief, or not?",
+			"groups": [
+				"meets the brief",
+				"does not"
+			],
+			"items": [
+				"it holds a lunchbox",
+				"it is too heavy to lift",
+				"its handle fits a child's hand",
+				"the lunchbox does not fit",
+				"it is easy to open",
+				"the strap breaks"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Check each result against what the brief asks for.",
+			"explain": "Meets it: it holds a lunchbox, a child can hold it and open it. Does not: too heavy, too small, and a strap that breaks. Those three show what to improve next."
+		}
+	],
+	"generators": []
+}

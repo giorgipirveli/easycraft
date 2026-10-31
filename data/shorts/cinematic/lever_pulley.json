@@ -1,0 +1,419 @@
+{
+	"id": "lever_pulley",
+	"title": "Levers and pulleys lift",
+	"topic": "science",
+	"link": {"unit": "g5.design_tech.gears_pulleys"},
+	"still": 26,
+	"stage": {
+		"sky": {"top": "#3a7be8", "horizon": "#cdeeff", "bottom": "#8fb86a"},
+		"light": "day",
+		"sun": [0.4, 0.8, 0.55],
+		"models": [
+			{
+				"id": "yard",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [
+					{"box": [-9, -3, -10, 16, -2, 4], "block": "DIRT"},
+					{"box": [-9, -1, -10, 16, -1, 4], "block": "GRASS"},
+					{"box": [-4, 0, -1, -4, 0, 1], "block": "STONE"},
+					{"box": [3, 0, -1, 3, 6, -1], "block": "LOG"},
+					{"box": [3, 6, -1, 7, 6, -1], "block": "LOG"},
+					{"box": [3, 6, 0, 7, 6, 0], "block": "LOG"}
+				]
+			},
+			{
+				"id": "plank",
+				"model": "blocks",
+				"at": [-4, 1, 0],
+				"fill": [{"box": [-4, 0, 0, 4, 0, 0], "block": "PLANKS"}],
+				"stretch": [1, 0.3, 1.3],
+				"turn": [0, 0, 12.84],
+				"moves": [{"do": "turn", "at": 4.4, "dur": 2.2, "to": [0, 0, -12.84]}]
+			},
+			{
+				"id": "barrel",
+				"model": "blocks",
+				"at": [-1, 0.3, 0],
+				"on": "plank",
+				"cells": [[0, 0, 0, "BARREL"]],
+				"size": 0.9
+			},
+			{
+				"id": "pusher",
+				"model": "avatar",
+				"at": [3, 0.3, 0],
+				"look": "explorer",
+				"on": "plank",
+				"turn": [0, 180, 12.84],
+				"moves": [
+					{"do": "drop", "at": 3.1, "dur": 0.9, "height": 3},
+					{"do": "turn", "at": 4.4, "dur": 2.2, "to": [0, 180, -12.84]},
+					{"do": "emote", "at": 7, "emote": "cheer"}
+				]
+			},
+			{"id": "axle", "model": "mark", "at": [6, 5.4, 0], "turn": [90, 0, 0]},
+			{
+				"id": "wheel",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"on": "axle",
+				"fill": [{"cylinder": [0, 0, 0, 2.2, 1], "block": "PLANKS"}],
+				"size": 0.25,
+				"moves": [
+					{"do": "spin", "at": 13.6, "dur": 4.6, "turns": -0.663, "ease": "smooth"},
+					{"do": "spin", "at": 24.2, "dur": 4, "turns": -0.531, "ease": "smooth"},
+					{"do": "spin", "at": 32.6, "dur": 4.4, "turns": -0.531, "ease": "smooth"}
+				]
+			},
+			{
+				"id": "load_a",
+				"model": "blocks",
+				"at": [5.4, 0, 0],
+				"cells": [[0, 0, 0, "BARREL"]],
+				"moves": [
+					{"do": "move", "at": 13.6, "dur": 4.6, "to": [5.4, 2.5, 0], "ease": "smooth"},
+					{"do": "out", "at": 19.8}
+				]
+			},
+			{
+				"id": "puller_a",
+				"model": "avatar",
+				"at": [7.4, 0, -1.6],
+				"look": "default",
+				"turn": [0, 180, 0],
+				"moves": [
+					{"do": "move", "at": 13.6, "dur": 4.6, "to": [7.4, 0, -5.956], "ease": "smooth"},
+					{"do": "legs", "at": 13.6, "dur": 4.6, "arms": "pull", "lean": 14, "steps": 1.4},
+					{"do": "out", "at": 19.8}
+				]
+			},
+			{
+				"id": "rope_a1",
+				"model": "rope",
+				"at": [0, 0, 0],
+				"from": "axle",
+				"to": "load_a",
+				"from_at": [-0.6, 0, 0],
+				"to_at": [0, 1, 0],
+				"width": 0.06,
+				"block": "HAY"
+			},
+			{
+				"id": "rope_a2",
+				"model": "rope",
+				"at": [0, 0, 0],
+				"from": "axle",
+				"to": "puller_a",
+				"from_at": [0.6, 0, 0],
+				"to_at": [0, 1.15, -0.5],
+				"width": 0.06,
+				"block": "HAY"
+			},
+			{
+				"id": "load_b",
+				"model": "blocks",
+				"at": [4.8, 0, 0],
+				"cells": [[0, 0, 0, "BARREL"]],
+				"moves": [
+					{"do": "appear", "at": 20},
+					{"do": "move", "at": 24.2, "dur": 4, "to": [4.8, 1, 0], "ease": "smooth"},
+					{"do": "move", "at": 32.6, "dur": 4.4, "to": [4.8, 2, 0], "ease": "smooth"},
+					{"do": "out", "at": 39.8}
+				]
+			},
+			{"id": "axle_m", "model": "mark", "at": [0, 1.9, 0], "on": "load_b", "turn": [90, 0, 0]},
+			{
+				"id": "wheel_m",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"on": "axle_m",
+				"fill": [{"cylinder": [0, 0, 0, 2.2, 1], "block": "PLANKS"}],
+				"size": 0.25,
+				"moves": [
+					{"do": "spin", "at": 24.2, "dur": 4, "turns": 0.265, "ease": "smooth"},
+					{"do": "spin", "at": 32.6, "dur": 4.4, "turns": 0.265, "ease": "smooth"}
+				]
+			},
+			{
+				"id": "puller_b",
+				"model": "avatar",
+				"at": [7.4, 0, -1.6],
+				"look": "default",
+				"turn": [0, 180, 0],
+				"moves": [
+					{"do": "appear", "at": 20},
+					{"do": "move", "at": 24.2, "dur": 4, "to": [7.4, 0, -5.302], "ease": "smooth"},
+					{"do": "legs", "at": 24.2, "dur": 4, "arms": "pull", "lean": 8, "steps": 1.4},
+					{"do": "move", "at": 32.6, "dur": 4.4, "to": [7.4, 0, -7.774], "ease": "smooth"},
+					{"do": "legs", "at": 32.6, "dur": 4.4, "arms": "pull", "lean": 8, "steps": 1.4},
+					{"do": "out", "at": 39.8}
+				]
+			},
+			{
+				"id": "rope_b0",
+				"model": "rope",
+				"at": [0, 0, 0],
+				"from": "axle_m",
+				"to": "load_b",
+				"from_at": [0, 0, 0.6],
+				"to_at": [0, 1, 0],
+				"width": 0.06,
+				"block": "HAY"
+			},
+			{
+				"id": "rope_b1",
+				"model": "rope",
+				"at": [0, 0, 0],
+				"from": "yard",
+				"to": "axle_m",
+				"from_at": [4.2, 6, 0],
+				"to_at": [-0.6, 0, 0],
+				"width": 0.06,
+				"block": "HAY"
+			},
+			{
+				"id": "rope_b2",
+				"model": "rope",
+				"at": [0, 0, 0],
+				"from": "axle_m",
+				"to": "axle",
+				"from_at": [0.6, 0, 0],
+				"to_at": [-0.6, 0, 0],
+				"width": 0.06,
+				"block": "HAY"
+			},
+			{
+				"id": "rope_b3",
+				"model": "rope",
+				"at": [0, 0, 0],
+				"from": "axle",
+				"to": "puller_b",
+				"from_at": [0.6, 0, 0],
+				"to_at": [0, 1.15, -0.5],
+				"width": 0.06,
+				"block": "HAY"
+			},
+			{
+				"id": "crane",
+				"model": "blocks",
+				"at": [40, 0, 0],
+				"fill": [
+					{"box": [-8, -1, -5, 14, -1, 5], "block": "PAD_CONCRETE"},
+					{"box": [0, 0, 0, 1, 12, 1], "block": "PAINTED_YELLOW"},
+					{"box": [-4, 13, 0, 12, 13, 1], "block": "PAINTED_YELLOW"},
+					{"box": [-4, 12, 0, -2, 12, 1], "block": "STONE"},
+					{"box": [0, 14, 0, 1, 15, 1], "block": "PAINTED_YELLOW"},
+					{"box": [2, 12, -1, 2, 12, -1], "block": "GLASS"},
+					{"box": [4, 0, -3, 8, 2, -3], "block": "BRICK"},
+					{"box": [4, 0, -3, 4, 2, 1], "block": "BRICK"},
+					{"box": [8, 0, -3, 8, 1, 1], "block": "BRICK"}
+				]
+			},
+			{
+				"id": "pallet",
+				"model": "blocks",
+				"at": [49, 0, 0.5],
+				"fill": [{"box": [-1, 0, -1, 0, 0, 0], "block": "PLANKS"}, {"box": [-1, 1, -1, 0, 2, 0], "block": "BRICK"}],
+				"moves": [{"do": "move", "at": 42, "dur": 6.5, "to": [49, 8, 0.5], "ease": "smooth"}]
+			},
+			{
+				"id": "rope_c",
+				"model": "rope",
+				"at": [0, 0, 0],
+				"from": "crane",
+				"to": "pallet",
+				"from_at": [9, 13, 0.5],
+				"to_at": [-0.5, 3, -0.5],
+				"width": 0.08,
+				"block": "PAINTED_BLACK"
+			}
+		],
+		"camera": [
+			{"at": 0, "pos": [-2.6, 3.2, 17.5], "look": [-3.6, 1.7, 0], "fov": 50},
+			{"at": 9.95, "pos": [-2.2, 3, 16.6], "look": [-3.6, 1.7, 0], "fov": 50},
+			{"at": 10, "pos": [6.6, 3.2, 17], "look": [6.6, 2.7, 0], "fov": 50, "cut": true},
+			{"at": 19.95, "pos": [7, 3.2, 17], "look": [7, 2.7, 0], "fov": 50},
+			{"at": 20, "pos": [6.6, 3.2, 17], "look": [6.6, 2.7, 0], "fov": 50, "cut": true},
+			{"at": 29.95, "pos": [6.9, 3.2, 17.2], "look": [6.9, 2.7, 0], "fov": 50},
+			{"at": 32, "pos": [7, 3.2, 17.4], "look": [7, 2.7, 0], "fov": 50},
+			{"at": 39.95, "pos": [7.3, 3.2, 17.6], "look": [7.3, 2.7, 0], "fov": 50},
+			{"at": 40, "pos": [58, 5, 26], "look": [44, 7.5, 0], "fov": 50, "cut": true},
+			{"at": 50, "pos": [54, 4, 30], "look": [44, 8, 0], "fov": 50, "path": "orbit"}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "A lever turns on a pivot. A small push far away lifts a big load!",
+			"say": "A lever is a bar that turns on a pivot. Load near the pivot, push far away: a small push lifts a big load.",
+			"sounds": [{"at": 4.6, "effect": "whoosh"}, {"at": 6.6, "effect": "ding"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "LOAD 60 kg",
+					"at": [125.8, 253.6],
+					"size": 24,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "pop", "at": 1}]
+				},
+				{
+					"kind": "arrow",
+					"from": [126, 272],
+					"to": [126, 316],
+					"color": "white",
+					"width": 5,
+					"moves": [{"do": "draw", "at": 1.3}]
+				},
+				{
+					"kind": "words",
+					"text": "PUSH 20 kg",
+					"at": [254, 206.5],
+					"size": 24,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 2.4}]
+				},
+				{
+					"kind": "words",
+					"text": "PIVOT",
+					"at": [162.9, 415.3],
+					"size": 20,
+					"color": "white",
+					"box": "ink",
+					"moves": [{"do": "pop", "at": 3.4}]
+				},
+				{
+					"kind": "words",
+					"text": "60 × 1 = 20 × 3",
+					"at": [180, 84],
+					"size": 28,
+					"color": "ink",
+					"box": "white",
+					"moves": [{"do": "pop", "at": 7}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "A pulley is a wheel with a rope. Pull down, and the load goes up!",
+			"say": "A pulley is a wheel with a rope over it. Pull down on one end, and the load on the other end goes up.",
+			"sounds": [{"at": 1, "effect": "pop"}, {"at": 4, "effect": "whoosh"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "LOAD GOES UP",
+					"at": [120.4, 84],
+					"size": 24,
+					"color": "white",
+					"box": "green",
+					"moves": [{"do": "pop", "at": 4.4}]
+				},
+				{
+					"kind": "words",
+					"text": "PULL DOWN",
+					"at": [261.2, 136],
+					"size": 24,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 3.8}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Add a pulley that moves with the load: two ropes share it. Half the pull!",
+			"say": "Now add a pulley that moves up with the load. Two ropes hold it and share the weight: you pull with half the force.",
+			"sounds": [{"at": 1, "effect": "pop"}, {"at": 5, "effect": "whoosh"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "2 ROPES HOLD IT",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "teal",
+					"moves": [{"do": "pop", "at": 2.4}]
+				},
+				{
+					"kind": "words",
+					"text": "LOAD 60 kg",
+					"at": [96, 136],
+					"size": 20,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "pop", "at": 4}]
+				},
+				{
+					"kind": "words",
+					"text": "PULL 30 kg",
+					"at": [270, 184],
+					"size": 20,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 6.2}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "But you pull twice as much rope: 2 m of rope lifts it 1 m.",
+			"say": "But there is a catch: you must pull twice as much rope. Pull 2 metres of rope, and the load rises 1 metre.",
+			"sounds": [{"at": 2.6, "effect": "whoosh"}, {"at": 7.2, "effect": "ding"}],
+			"actors": [
+				{
+					"kind": "count",
+					"from": 0,
+					"to": 2,
+					"at": [110, 100],
+					"size": 28,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 2.4}, {"do": "value", "at": 2.7, "dur": 4.4, "to": 2}],
+					"suffix": " m PULLED",
+					"decimals": 1
+				},
+				{
+					"kind": "count",
+					"from": 0,
+					"to": 1,
+					"at": [250, 150],
+					"size": 28,
+					"color": "white",
+					"box": "green",
+					"moves": [{"do": "pop", "at": 2.4}, {"do": "value", "at": 2.7, "dur": 4.4, "to": 1}],
+					"suffix": " m UP",
+					"decimals": 1
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Cranes use many pulleys to lift huge loads. Where have you seen a pulley?",
+			"say": "Building-site cranes use lots of pulleys, so their motors can lift huge loads. Where have you seen a pulley?",
+			"sounds": [{"at": 1.2, "effect": "pop"}, {"at": 3, "effect": "whoosh"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "CRANE: MANY PULLEYS",
+					"at": [180, 84],
+					"size": 24,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 1.2}]
+				}
+			]
+		}
+	]
+}

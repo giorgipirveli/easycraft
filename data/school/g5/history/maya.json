@@ -1,0 +1,259 @@
+{
+	"id": "g5.history.maya",
+	"lesson": [
+		{
+			"text": "Quick memory: which Indian mathematician wrote rules for zero in AD 628? (Brahmagupta.) Far away in the Americas, with no contact with India, the Maya had a zero of their own. Today: Maya cities, writing, calendars and numbers."
+		},
+		{
+			"text": "The Maya lived in the rainforests and hills of what are now southern Mexico, Guatemala, Belize and Honduras. From about AD 250 to 900 they built great stone cities, such as Tikal, Palenque and Copan. Each had its own king."
+		},
+		{
+			"text": "At a city's heart stood stone pyramid temples, palaces, plazas and a ball court. Players there kept a heavy rubber ball moving with their hips. Farmers grew maize, beans and squash. Cacao beans were so valued they were used as money."
+		},
+		{
+			"text": "Maya scribes wrote with about 800 picture signs, called glyphs, on stone and in folding books of bark paper. Only four books survive; they hold tables that track the planet Venus and predict eclipses. Today experts can read most Maya writing."
+		},
+		{
+			"text": "Maya numbers used three signs: a dot for 1, a bar for 5 and a shell for 0. So 13 is two bars and three dots: 5 + 5 + 3 = 13. Up to 19, you only need dots and bars.",
+			"picture": {
+				"kind": "numerals",
+				"system": "maya",
+				"value": 13
+			}
+		},
+		{
+			"text": "They counted in twenties, stacking places from the bottom up: ones, then twenties, then 400s. A dot above a shell is 1 twenty and 0 ones: 20. The shell held the empty place, just like our 0. The Maya used zero by about AD 350.",
+			"picture": {
+				"kind": "numerals",
+				"system": "maya",
+				"value": 20,
+				"labels": true
+			}
+		},
+		{
+			"text": "One Maya calendar had 13 × 20 = 260 days; another had 365. Around AD 900, many southern cities were left, perhaps after long droughts and wars. But the Maya never vanished: millions of Maya people live there today."
+		},
+		{
+			"text": "Try it in the world: build a stepped pyramid temple and a ball court. Then write your age and your house number in Maya dots, bars and shells on a sign. Next: what the ancient world gave us."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In Maya numbers, what did a bar stand for?",
+			"answer": 0,
+			"hint": "A dot is 1. Three dots and a bar make 8.",
+			"choices": [
+				"5",
+				"1",
+				"10",
+				"20"
+			],
+			"explain": "A bar was 5."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Zara carved this Maya number on a stone. What is it?",
+			"answer": "12",
+			"hint": "A bar is 5 and a dot is 1.",
+			"explain": "2 bars (10) and 2 dots (2): 10 + 2 = 12.",
+			"picture": {
+				"kind": "numerals",
+				"system": "maya",
+				"value": 12
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Maya had a sign for zero.",
+			"answer": true,
+			"hint": "What was the shell for?",
+			"explain": "True: a shell stood for 0."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where did the Maya live?",
+			"answer": 0,
+			"hint": "Their cities stood in rainforests near the Caribbean Sea.",
+			"choices": [
+				"southern Mexico and Central America",
+				"Egypt",
+				"India",
+				"the Andes of Peru"
+			],
+			"explain": "In what are now southern Mexico, Guatemala, Belize and Honduras."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which crop was the Maya's most important food?",
+			"answer": 0,
+			"hint": "It is also called corn.",
+			"choices": [
+				"maize",
+				"rice",
+				"wheat",
+				"potatoes"
+			],
+			"explain": "Maize, grown with beans and squash."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What number is this? The top place counts twenties.",
+			"answer": "45",
+			"hint": "Work out each place: times the top by 20, then add the ones.",
+			"explain": "Top: 2 dots = 2 × 20 = 40. Bottom: 1 bar = 5. 40 + 5 = 45.",
+			"picture": {
+				"kind": "numerals",
+				"system": "maya",
+				"value": 45,
+				"labels": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What number is this Maya number, with a shell at the bottom?",
+			"answer": "100",
+			"hint": "The shell means no ones. What is the top place worth?",
+			"explain": "Top: 1 bar = 5 twenties = 5 × 20 = 100. Bottom: a shell = 0. 100 + 0 = 100.",
+			"picture": {
+				"kind": "numerals",
+				"system": "maya",
+				"value": 100,
+				"labels": true
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each Maya sign to its worth.",
+			"items": [
+				"a dot",
+				"a bar",
+				"a shell",
+				"three bars"
+			],
+			"matches": [
+				"15",
+				"1",
+				"5",
+				"0"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "A bar is 5, so three bars is 3 × 5.",
+			"explain": "A dot is 1, a bar 5, a shell 0, and three bars 15."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What was a Maya ball court for?",
+			"answer": 0,
+			"hint": "Players used their hips.",
+			"choices": [
+				"a game with a heavy rubber ball",
+				"a market for cacao",
+				"counting the stars",
+				"planting maize"
+			],
+			"explain": "A ball game: players kept a heavy rubber ball moving with their hips."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The Maya disappeared after AD 900.",
+			"answer": false,
+			"hint": "Who lives in those lands today?",
+			"explain": "False: many cities were left, but millions of Maya people live there today."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Maya stacked places of 400s, 20s and ones. What number is this?",
+			"answer": "425",
+			"hint": "Top place 400s, middle 20s, bottom ones. Work out each, then add.",
+			"explain": "Top: 1 dot = 400. Middle: 1 dot = 20. Bottom: 1 bar = 5. 400 + 20 + 5 = 425.",
+			"picture": {
+				"kind": "numerals",
+				"system": "maya",
+				"value": 425
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why was the Maya shell for zero so useful?",
+			"answer": 0,
+			"hint": "Without it, how would 1 twenty look different from 1 one?",
+			"choices": [
+				"it held an empty place, so 20 was not 1",
+				"it looked pretty",
+				"it counted days only",
+				"it meant 'many'"
+			],
+			"explain": "The shell held the empty ones place, so a dot over a shell (20) could not be mistaken for a dot (1)."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "One Maya calendar had 18 months of 20 days, plus some extra days, making 365. How many extra days?",
+			"answer": "5",
+			"hint": "Work out 18 × 20 first.",
+			"explain": "18 × 20 = 360 days. 365 − 360 = 5 extra days."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How do we know so much about Maya kings?",
+			"answer": 0,
+			"hint": "Where did Maya scribes write?",
+			"choices": [
+				"their deeds were carved in glyphs on stone",
+				"they wrote in English",
+				"Romans wrote about them",
+				"from oracle bones"
+			],
+			"explain": "Glyphs carved on stone monuments record kings' names, dates and deeds."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The Maya learned about zero from India.",
+			"answer": false,
+			"hint": "Did the Maya and India meet?",
+			"explain": "False: with no contact at all, the Maya and the Indians each came up with zero."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "One Maya calendar had 13 numbers and 20 day names, going round together. How many days until it began again?",
+			"answer": "260",
+			"hint": "Every number meets every day name once.",
+			"explain": "13 × 20 = 260 days."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5h.maya_number",
+			"level": 1
+		},
+		{
+			"gen": "g5h.maya_number",
+			"level": 2
+		},
+		{
+			"gen": "g5h.maya_number",
+			"level": 3
+		}
+	]
+}

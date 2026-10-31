@@ -1,0 +1,354 @@
+{
+	"id": "g4.health_pe.gymnastics_sequence",
+	"lesson": [
+		{
+			"text": "Quick memory: what are points and patches? (Small and big parts of your body that you balance on.) Today: joining balances, rolls and jumps into a smooth sequence."
+		},
+		{
+			"text": "A sequence is moves joined together: a still start shape, then balances, travels, rolls and jumps, and a still finish shape. Gymnasts plan it, practise it, then perform it."
+		},
+		{
+			"text": "Five basic jumps: straight, tuck, star, pike and straddle. Take off from two feet, show the shape in the air, then land softly: toes first, then heels, knees bent, arms out in front.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"crouch",
+					"jump",
+					"land"
+				],
+				"labels": [
+					"bend",
+					"jump",
+					"land"
+				]
+			}
+		},
+		{
+			"text": "Link the moves smoothly. The link between two moves is a transition: a turn, a step, a roll or a change of level. It should flow, with no stopping to think."
+		},
+		{
+			"text": "A forward roll starts in a crouch with your hands flat on the mat. Tuck your chin to your chest and push with your legs, rolling on your rounded back, never on your head."
+		},
+		{
+			"text": "Add contrasts: high and low levels, fast and slow moves, and changes of direction. Hold each balance still for 3 seconds, with pointed toes and stretched fingers.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"stretch",
+					"stork",
+					"tuck",
+					"star"
+				]
+			}
+		},
+		{
+			"text": "With a partner: in unison you move at the same time; in canon, one after the other. Mirroring copies like a reflection. In a counter balance you lean on each other; in counter tension you pull away, holding hands."
+		},
+		{
+			"text": "Try it in the world: build a gym with a low beam, a box to jump from and a big soft landing. For real: make up a 6-move sequence on a mat, with a grown-up watching, and show it to someone."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How does every sequence begin and end?",
+			"answer": 0,
+			"hint": "Think of how you show where a sequence starts and stops.",
+			"choices": [
+				"with a still shape",
+				"with a roll",
+				"with a run",
+				"with a cartwheel"
+			],
+			"explain": "With a still shape, held so everyone can see where the sequence begins and ends."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When you land from a jump, keep your legs straight and stiff.",
+			"answer": false,
+			"hint": "How does a spring land?",
+			"explain": "False: land softly, toes then heels, with bent knees, like a spring squashing."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which shape is this?",
+			"answer": 0,
+			"hint": "Look at the arms and legs: are they wide or together?",
+			"choices": [
+				"a star",
+				"a tuck",
+				"a pike",
+				"a straight shape"
+			],
+			"explain": "A star: arms and legs stretched out wide.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"star"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a forward roll, which part of you should never touch the mat first?",
+			"answer": 0,
+			"hint": "What do you tuck in before you roll?",
+			"choices": [
+				"the top of your head",
+				"your hands",
+				"your rounded back",
+				"your feet"
+			],
+			"explain": "Never your head: tuck your chin to your chest and roll on your rounded back."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a forward roll in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You must be ready and tucked before you push.",
+			"items": [
+				"tuck your chin to your chest",
+				"roll on your rounded back",
+				"crouch with hands flat on the mat",
+				"push with your legs",
+				"come up onto your feet"
+			],
+			"explain": "Crouch with hands flat, tuck your chin, push with your legs, roll on your rounded back, and come up onto your feet."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each partner word to its meaning.",
+			"items": [
+				"unison",
+				"canon",
+				"mirroring",
+				"counter tension"
+			],
+			"matches": [
+				"one after the other",
+				"copying like a reflection",
+				"pulling away, holding on",
+				"at the same time"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of dancers and gymnasts moving together.",
+			"explain": "Unison: at the same time. Canon: one after the other. Mirroring: like a reflection. Counter tension: pulling away."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A transition is the link between two moves.",
+			"answer": true,
+			"hint": "What joins one move to the next?",
+			"explain": "True: a transition, like a turn, a step or a roll, links one move to the next."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Balance or travel?",
+			"groups": [
+				"balance",
+				"travel"
+			],
+			"items": [
+				"a shoulder stand",
+				"a log roll",
+				"a stork stand",
+				"a cartwheel",
+				"a V-sit",
+				"skipping steps"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does the gymnast stay still in one place, or move to a new place?",
+			"explain": "Balances stay still: shoulder stand, stork stand, V-sit. Travels move: log roll, cartwheel, skipping steps."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the gymnast doing in picture 3?",
+			"answer": 0,
+			"hint": "Look at the knees and the feet in each picture.",
+			"choices": [
+				"landing softly with bent knees",
+				"taking off",
+				"rolling",
+				"balancing on one leg"
+			],
+			"explain": "In picture 3 the gymnast lands softly, knees bent and arms forward.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"crouch",
+					"jump",
+					"land"
+				],
+				"labels": [
+					"1",
+					"2",
+					"3"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which pair of moves shows the best contrast of levels?",
+			"answer": 0,
+			"hint": "Contrast means a big change: from high to low.",
+			"choices": [
+				"a high star jump, then a low log roll",
+				"three standing balances in a row",
+				"two log rolls, one after another",
+				"a walk, then another walk"
+			],
+			"explain": "A high star jump followed by a low log roll changes level from high to low: a strong contrast."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Holding each balance still for about 3 seconds makes a sequence look controlled.",
+			"answer": true,
+			"hint": "Think of what the judges want to see.",
+			"explain": "True: a balance held still shows control."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your sequence stops while you think what comes next. How can you improve it?",
+			"answer": 0,
+			"hint": "What is a transition for?",
+			"choices": [
+				"plan and practise the links until they flow",
+				"add more moves",
+				"go faster",
+				"leave out the finish shape"
+			],
+			"explain": "Practise the transitions until each move flows into the next without stopping."
+		},
+		{
+			"type": "build",
+			"level": 3,
+			"prompt": "Your partner makes this shape. Build your half of the balance, as their mirror image.",
+			"board": {
+				"cols": 8,
+				"rows": 6,
+				"block": 1,
+				"view": "wall",
+				"given": [
+					[
+						3,
+						0
+					],
+					[
+						3,
+						1
+					],
+					[
+						3,
+						2
+					],
+					[
+						3,
+						3
+					],
+					[
+						3,
+						4
+					],
+					[
+						3,
+						5
+					],
+					[
+						2,
+						3
+					],
+					[
+						1,
+						4
+					],
+					[
+						2,
+						1
+					],
+					[
+						1,
+						0
+					]
+				]
+			},
+			"goal": {
+				"kind": "mirror",
+				"sum": 7
+			},
+			"hint": "The line between the two middle columns is the mirror: copy each block across it.",
+			"explain": "Each block gets a twin the same distance on the other side of the line, so the two halves match like a reflection."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Does it make a sequence better, or not?",
+			"groups": [
+				"better",
+				"not better"
+			],
+			"items": [
+				"smooth links",
+				"pointed toes",
+				"stopping to think",
+				"wobbly balances",
+				"changes of level",
+				"a messy finish"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Think of control, flow and contrast.",
+			"explain": "Better: smooth links, pointed toes, changes of level. Not better: stopping to think, wobbly balances, a messy finish."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In a counter balance, what do partners do?",
+			"answer": 0,
+			"hint": "Counter balance and counter tension are opposites.",
+			"choices": [
+				"lean or push against each other",
+				"pull away, holding hands",
+				"copy each other like a mirror",
+				"move one after the other"
+			],
+			"explain": "In a counter balance, partners lean or push against each other. In counter tension they pull away."
+		}
+	],
+	"generators": []
+}

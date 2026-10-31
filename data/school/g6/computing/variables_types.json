@@ -1,0 +1,374 @@
+{
+	"id": "g6.computing.variables_types",
+	"lesson": [
+		{
+			"text": "Quick memory: what does SET do to a variable? (It puts a value in it, replacing what was there before.) Today: the types of data a variable can hold."
+		},
+		{
+			"text": "A variable is a named box for a value. Its data type says what kind of value it holds, so the computer knows what it can do with it.",
+			"picture": {
+				"kind": "var_boxes",
+				"boxes": [
+					[
+						"lives",
+						"3"
+					],
+					[
+						"speed",
+						"2.5"
+					],
+					[
+						"name",
+						"\"Pip\""
+					],
+					[
+						"has_key",
+						"TRUE"
+					]
+				]
+			}
+		},
+		{
+			"text": "An integer is a whole number, like 3, 0 or −12. Integers are good for counting: lives, gems, a level."
+		},
+		{
+			"text": "A real number (a decimal) has a decimal point, like 2.5 or 9.81. Reals are good for measuring: speed, height, time."
+		},
+		{
+			"text": "A string is text inside quotes, like \"Pip\" or \"Game over\": good for names and messages. A Boolean is just TRUE or FALSE: good for yes-or-no things like has_key.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Type",
+						"Example",
+						"Good for"
+					],
+					[
+						"integer",
+						"−12",
+						"counting"
+					],
+					[
+						"real",
+						"9.81",
+						"measuring"
+					],
+					[
+						"string",
+						"\"Pip\"",
+						"names"
+					],
+					[
+						"Boolean",
+						"TRUE",
+						"yes or no"
+					]
+				]
+			}
+		},
+		{
+			"text": "The type matters. 5 + 5 adds two numbers and makes 10, but \"5\" + \"5\" joins two strings side by side and makes \"55\"."
+		},
+		{
+			"text": "Worked example: SET gems TO 7, then CHANGE gems BY 3, and gems holds 10. Then SET gems TO 2 replaces it: gems holds 2, not 12.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET gems TO 7",
+					"CHANGE gems BY 3",
+					"SET gems TO 2"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: list the variables a game like this one needs, from your gold to whether it is night, and give each its type. Next: complex decisions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What type of data is 42?",
+			"answer": 0,
+			"hint": "Does it have a decimal point or quotes?",
+			"choices": [
+				"whole number (integer)",
+				"decimal (real)",
+				"text (string)",
+				"true or false (Boolean)"
+			],
+			"explain": "42 is a whole number with no decimal point or quotes: an integer."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What type of data is \"Tilly\"?",
+			"answer": 0,
+			"hint": "Look at the quotes.",
+			"choices": [
+				"text (string)",
+				"whole number (integer)",
+				"decimal (real)",
+				"true or false (Boolean)"
+			],
+			"explain": "Letters in quotes are a string: text."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What type of data is TRUE?",
+			"answer": 0,
+			"hint": "Which type has only two values?",
+			"choices": [
+				"true or false (Boolean)",
+				"whole number (integer)",
+				"decimal (real)",
+				"text (string)"
+			],
+			"explain": "TRUE is a Boolean: it can only be TRUE or FALSE."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "3.5 is a real number (a decimal).",
+			"answer": true,
+			"hint": "Look for a decimal point.",
+			"explain": "True: it has a decimal point."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is lives when the program ends?",
+			"answer": "2",
+			"hint": "CHANGE BY −1 takes one away.",
+			"explain": "lives starts at 3, then 3 − 1 = 2.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET lives TO 3",
+					"CHANGE lives BY -1"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these values into their types.",
+			"groups": [
+				"number",
+				"text",
+				"true or false"
+			],
+			"items": [
+				"42",
+				"\"hello\"",
+				"FALSE",
+				"2.5",
+				"\"7\"",
+				"TRUE"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Quotes make text, even round digits. TRUE and FALSE alone are true or false.",
+			"explain": "Numbers: 42 and 2.5. Text: \"hello\" and \"7\" (in quotes). True or false: TRUE and FALSE."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does OUTPUT \"12\" + \"3\" show?",
+			"answer": 0,
+			"hint": "Are they numbers or strings? + joins strings.",
+			"choices": [
+				"123",
+				"15",
+				"12 + 3",
+				"36"
+			],
+			"explain": "They are strings, so + joins them side by side: 123."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each variable to the best type for it.",
+			"items": [
+				"lives",
+				"player_name",
+				"speed",
+				"has_key"
+			],
+			"matches": [
+				"Boolean",
+				"integer",
+				"string",
+				"real"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Counting, text, measuring or yes-and-no?",
+			"explain": "lives counts (integer), a name is text (string), speed is measured (real) and has_key is yes or no (Boolean)."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is score when the program ends?",
+			"answer": "15",
+			"hint": "Work out score + bonus with the values in the boxes.",
+			"explain": "score + bonus is 10 + 5 = 15, and SET puts 15 in score.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET score TO 10",
+					"SET bonus TO 5",
+					"SET score TO score + bonus"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "\"7\" in quotes is a number that the computer can add up.",
+			"answer": false,
+			"hint": "What do quotes make?",
+			"explain": "False: in quotes it is a string of text. Take the quotes away to make it a number."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the best type for a player's height in metres?",
+			"answer": 0,
+			"hint": "Heights are measured and can have parts of a metre.",
+			"choices": [
+				"decimal (real)",
+				"whole number (integer)",
+				"text (string)",
+				"true or false (Boolean)"
+			],
+			"explain": "A height like 1.45 m has a decimal point: a real number."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does this program output?",
+			"answer": 0,
+			"hint": "Are a and b numbers or strings? Look for quotes.",
+			"choices": [
+				"34",
+				"7",
+				"12",
+				"a + b"
+			],
+			"explain": "a and b hold the strings \"3\" and \"4\", so + joins them: 34.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET a TO \"3\"",
+					"SET b TO \"4\"",
+					"OUTPUT a + b"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is y when the program ends?",
+			"answer": "5",
+			"hint": "SET y TO x copies the value x has at that moment.",
+			"explain": "y gets a copy of 5. Changing x to 9 later does not change y: y is 5.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET x TO 5",
+					"SET y TO x",
+					"SET x TO 9"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A Boolean can hold three values: TRUE, FALSE and MAYBE.",
+			"answer": false,
+			"hint": "How many values has a switch?",
+			"explain": "False: a Boolean is only ever TRUE or FALSE."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does this program output?",
+			"answer": 0,
+			"hint": "Test each side of OR with the values, then join them.",
+			"choices": [
+				"Gate opens",
+				"Locked"
+			],
+			"explain": "has_key = TRUE is false, but gems > 3 is true (4), and OR needs one: Gate opens.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET has_key TO FALSE",
+					"SET gems TO 4",
+					"IF has_key = TRUE OR gems > 3",
+					"  OUTPUT \"Gate opens\"",
+					"ELSE",
+					"  OUTPUT \"Locked\""
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is count when the program ends?",
+			"answer": "60",
+			"hint": "Trace it: the loop first, then the last line.",
+			"explain": "The loop adds 2, 3 times: 3 × 2 = 6. Then count * 10 is 60.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"SET count TO 0",
+					"REPEAT 3 TIMES",
+					"  CHANGE count BY 2",
+					"SET count TO count * 10"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a program need data types?",
+			"answer": 0,
+			"hint": "Think of \"5\" + \"5\" and 5 + 5.",
+			"choices": [
+				"so it knows what it can do with each value",
+				"to make it slower",
+				"so every value is text",
+				"types are only for pictures"
+			],
+			"explain": "The type tells the computer whether to add, join or test a value."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.data_type",
+			"level": 1
+		},
+		{
+			"gen": "g6c.data_type",
+			"level": 2
+		},
+		{
+			"gen": "g6c.data_type",
+			"level": 3
+		}
+	]
+}

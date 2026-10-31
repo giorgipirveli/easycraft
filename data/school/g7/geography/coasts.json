@@ -1,0 +1,308 @@
+{
+	"id": "g7.geography.coasts",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met a river's four kinds of erosion. Can you name one? (Hydraulic action, abrasion, attrition or solution.) The sea erodes in the same four ways. Today: coasts."
+		},
+		{
+			"text": "Waves are made by wind blowing over the sea. The longer the stretch of open water the wind blows over, the fetch, the bigger the waves. Destructive waves are tall and steep and drag material away; constructive waves are low and gentle and build beaches."
+		},
+		{
+			"text": "Where hard and soft rock meet the coast, the sea wears the soft rock back into bays, often with beaches. The hard rock is left sticking out as headlands, as at Swanage in Dorset.",
+			"picture": {
+				"kind": "coast_view",
+				"view": "bays",
+				"labels": true
+			}
+		},
+		{
+			"text": "Waves attack cracks in a headland. A crack is worn into a cave; waves cut through the headland to make an arch, like Durdle Door in Dorset. The arch's roof falls, leaving a stack, like Old Harry; the stack wears down to a stump.",
+			"picture": {
+				"kind": "coast_view",
+				"view": "headland",
+				"labels": true
+			}
+		},
+		{
+			"text": "Waves cut a notch at the foot of a cliff; the cliff above falls, so the cliff retreats and leaves a flat wave-cut platform. The Holderness coast in Yorkshire is one of Europe's fastest-eroding coasts, losing about 2 m a year."
+		},
+		{
+			"text": "Waves often reach a beach at an angle, blown by the prevailing wind. The swash carries sand up the beach at that angle; the backwash pulls it straight down, so it zigzags along: longshore drift. It builds spits, like Spurn Head in Yorkshire.",
+			"picture": {
+				"kind": "coast_view",
+				"view": "drift",
+				"labels": true
+			}
+		},
+		{
+			"text": "Coasts are protected by hard engineering, such as sea walls, rock armour and groynes that trap drifting sand, or soft engineering: adding sand to beaches, planting dunes, or letting some land flood (managed retreat). Each helps some places more than others."
+		},
+		{
+			"text": "Try it in the world: build a headland of hard and soft blocks, and carve a cave, an arch and a stack. Protect a beach village with a sea wall or groynes. Which would you choose, and why? Next: ecosystems of the world."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do we call headland rock that has been cut off from the land?",
+			"answer": 0,
+			"hint": "It stands alone in the sea after an arch falls.",
+			"choices": [
+				"a stack",
+				"a spit",
+				"a bay",
+				"a beach"
+			],
+			"explain": "A stack: the rock left standing alone in the sea when an arch's roof falls."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the fetch?",
+			"answer": 0,
+			"hint": "It decides how big waves grow.",
+			"choices": [
+				"the open sea the wind blows over",
+				"a kind of wave",
+				"a sea wall",
+				"a sandbank"
+			],
+			"explain": "The distance of open water the wind blows over: the longer, the bigger the waves."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Soft rock is worn back into bays.",
+			"answer": true,
+			"hint": "Which rock wears away faster?",
+			"explain": "True: soft rock erodes faster into bays; hard rock is left as headlands."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a groyne?",
+			"answer": 0,
+			"hint": "Look at the wooden walls in a drift picture.",
+			"choices": [
+				"a low wall across a beach that traps sand",
+				"a type of cliff",
+				"a sea cave",
+				"a fishing boat"
+			],
+			"explain": "A low wall built out across a beach to trap sand moved by longshore drift."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "As a headland is worn away, which forms first?",
+			"answer": 0,
+			"hint": "Waves first widen a crack at the foot of the cliff.",
+			"choices": [
+				"a cave",
+				"an arch",
+				"a stack",
+				"a stump"
+			],
+			"explain": "A cave, then an arch, then a stack, then a stump."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in the order they form as a headland wears away.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Waves widen a crack first; the last is a low stump.",
+			"items": [
+				"cave",
+				"stack",
+				"crack",
+				"arch",
+				"stump"
+			],
+			"explain": "Crack, cave, arch, stack, stump."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these coastal landforms: erosion or deposition?",
+			"groups": [
+				"erosion",
+				"deposition"
+			],
+			"items": [
+				"cave",
+				"spit",
+				"stack",
+				"beach",
+				"arch",
+				"sand dunes"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Worn away from the land, or built from sand and pebbles?",
+			"explain": "Erosion: cave, stack, arch. Deposition: spit, beach, sand dunes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which movement is marked '?'?",
+			"answer": 0,
+			"hint": "It runs straight back down the beach.",
+			"choices": [
+				"backwash",
+				"swash",
+				"prevailing wind",
+				"groyne"
+			],
+			"explain": "The backwash, pulled straight down the beach by gravity.",
+			"picture": {
+				"kind": "coast_view",
+				"view": "drift",
+				"labels": true,
+				"hide": "backwash"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The Holderness coast loses about 2 m a year. How many metres in 50 years?",
+			"answer": "100",
+			"hint": "Multiply the metres a year by the years.",
+			"explain": "2 × 50 = 100 m."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each way to protect a coast.",
+			"items": [
+				"sea wall",
+				"beach nourishment",
+				"managed retreat",
+				"rock armour"
+			],
+			"matches": [
+				"big boulders at a cliff foot",
+				"hard engineering",
+				"adding sand to a beach",
+				"letting some land flood"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "One is a kind of engineering; three are ways of doing it.",
+			"explain": "Sea wall: hard engineering. Nourishment: adding sand. Managed retreat: letting land flood. Rock armour: boulders."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does sand pile up on one side of a groyne?",
+			"answer": 0,
+			"hint": "Which way does drift move sand along the beach?",
+			"choices": [
+				"longshore drift carries sand against it",
+				"the sea is calm there",
+				"people pile it there",
+				"the wind blows it up"
+			],
+			"explain": "Longshore drift carries sand along the beach until the groyne stops it, so it piles up on that side."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these ways to protect a coast: hard or soft engineering?",
+			"groups": [
+				"hard engineering",
+				"soft engineering"
+			],
+			"items": [
+				"sea wall",
+				"dune planting",
+				"rock armour",
+				"beach nourishment",
+				"groynes",
+				"managed retreat"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Hard: strong structures against the sea. Soft: working with nature.",
+			"explain": "Hard: sea wall, rock armour, groynes. Soft: dune planting, beach nourishment, managed retreat."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Groynes protect every part of the coast.",
+			"answer": false,
+			"hint": "Where does the sand go that a groyne traps?",
+			"explain": "False: groynes trap sand on one beach, so beaches further along get less and may erode faster."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do destructive waves wear beaches away?",
+			"answer": 0,
+			"hint": "Compare their swash and backwash.",
+			"choices": [
+				"their strong backwash drags material away",
+				"they are small and gentle",
+				"they only come in summer",
+				"they carry sand up the beach"
+			],
+			"explain": "They are tall and steep, and their strong backwash drags sand and pebbles back out to sea."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A sea wall costs 5,000 gold a metre. How much does 120 m cost?",
+			"answer": "600000",
+			"hint": "Multiply the cost of a metre by the metres.",
+			"explain": "5,000 × 120 = 600,000 gold."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.coast_sort",
+			"level": 1
+		},
+		{
+			"gen": "g7h.coast_sort",
+			"level": 2
+		},
+		{
+			"gen": "g7h.coast_sort",
+			"level": 3
+		},
+		{
+			"gen": "g7h.defence_cost",
+			"level": 1
+		},
+		{
+			"gen": "g7h.defence_cost",
+			"level": 2
+		},
+		{
+			"gen": "g7h.defence_cost",
+			"level": 3
+		}
+	]
+}

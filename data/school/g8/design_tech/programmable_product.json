@@ -1,0 +1,425 @@
+{
+	"id": "g8.design_tech.programmable_product",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you programmed a classroom board. How many milliseconds are in a pause of 1 second? (1,000.) Today: a whole product with a sensor, an output and a program."
+		},
+		{
+			"text": "A programmable product senses, decides and acts. It is a system. The input is a sensor, and the process is a program on a microcontroller. The output is a lamp, a pump or a buzzer.",
+			"picture": {
+				"kind": "sensor_system",
+				"input": "moisture",
+				"process": "if dry: water",
+				"output": "pump",
+				"headings": true
+			}
+		},
+		{
+			"text": "A sensor gives readings, and the program compares each one with a threshold. The plant waterer runs its pump when the soil's moisture reading drops below 30: here, on Thursday and Friday.",
+			"picture": {
+				"kind": "threshold_graph",
+				"readings": [
+					60,
+					45,
+					38,
+					25,
+					20,
+					55
+				],
+				"labels": [
+					"Mon",
+					"Tue",
+					"Wed",
+					"Thu",
+					"Fri",
+					"Sat"
+				],
+				"threshold": 30,
+				"below": true,
+				"name": "soil moisture",
+				"show_on": true
+			}
+		},
+		{
+			"text": "Plan the program as a flowchart first: start, read the sensor, a decision, an output, and back round the loop. A decision box asks a yes-or-no question.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "start"
+					},
+					{
+						"shape": "step",
+						"text": "read moisture"
+					},
+					{
+						"shape": "decision",
+						"text": "moisture < 30?",
+						"back": 1
+					},
+					{
+						"shape": "step",
+						"text": "pump on for 2 seconds"
+					},
+					{
+						"shape": "end",
+						"text": "wait, then repeat"
+					}
+				]
+			}
+		},
+		{
+			"text": "Then write the code. This program checks the soil once a minute, every 60,000 milliseconds. Whenever the reading is below 30, it runs the pump for 2 seconds.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"while True:",
+					"    m = moisture()",
+					"    if m < 30:",
+					"        pump_on()",
+					"        pause(2000)",
+					"        pump_off()",
+					"    pause(60000)"
+				]
+			}
+		},
+		{
+			"text": "An open loop system runs without checking its result, like a toaster on a timer. A closed loop system measures its result and adjusts, like a heater with a thermostat. That feedback closes the loop."
+		},
+		{
+			"text": "Make it a product: a case, a switch, safe low-voltage wiring, labels and a battery. Battery life in hours = capacity in mAh ÷ current in mA: 2,000 ÷ 50 = 40 hours. Test each part, then the whole, then with a user."
+		},
+		{
+			"text": "Try it in the world: list the sensors and outputs in three products at home. In LIFE, the Poisons Cupboard tests a carbon monoxide alarm. The Tool Book shows the carbon monoxide alarm too: a sensor, a program and an alarm. Next: mechanical advantage."
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "An input or an output?",
+			"groups": [
+				"input",
+				"output"
+			],
+			"items": [
+				"a pump",
+				"a push switch",
+				"a buzzer",
+				"a moisture sensor",
+				"a light sensor"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Does it notice something, or do something?",
+			"explain": "Inputs notice: light sensor, moisture sensor, push switch. Outputs act: buzzer, pump."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a night light, which part is the input?",
+			"choices": [
+				"the light sensor",
+				"the lamp",
+				"the battery",
+				"the case"
+			],
+			"answer": 0,
+			"hint": "Which part notices that it is getting dark?",
+			"explain": "The light sensor notices the darkness; the lamp is the output."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A toaster on a timer is an open loop system.",
+			"answer": true,
+			"hint": "Does the toaster check how brown the bread is?",
+			"explain": "True: it runs for a set time without measuring its result, so it is open loop."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A 1,200 mAh battery powers a product that draws 40 mA. About how many hours will it run?",
+			"answer": "30",
+			"hint": "Hours = capacity in mAh ÷ current in mA.",
+			"explain": "1,200 ÷ 40 = 30 hours."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In this flowchart, what happens when the answer to 'moisture < 30?' is no?",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "start"
+					},
+					{
+						"shape": "step",
+						"text": "read moisture"
+					},
+					{
+						"shape": "decision",
+						"text": "moisture < 30?",
+						"back": 1
+					},
+					{
+						"shape": "step",
+						"text": "pump on for 2 seconds"
+					},
+					{
+						"shape": "end",
+						"text": "wait, then repeat"
+					}
+				]
+			},
+			"choices": [
+				"it goes back to read the moisture again",
+				"the pump runs",
+				"the program ends",
+				"it waits for ever"
+			],
+			"answer": 0,
+			"hint": "Follow the arrow that leaves the decision on the side.",
+			"explain": "A 'no' goes back to 'read moisture', so it keeps checking until the soil is dry."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The pump runs when moisture is below 30 (the dashed line). On how many days does it run?",
+			"picture": {
+				"kind": "threshold_graph",
+				"readings": [
+					60,
+					45,
+					38,
+					25,
+					20,
+					55
+				],
+				"labels": [
+					"Mon",
+					"Tue",
+					"Wed",
+					"Thu",
+					"Fri",
+					"Sat"
+				],
+				"threshold": 30,
+				"below": true,
+				"name": "soil moisture",
+				"show_on": true
+			},
+			"answer": "2",
+			"hint": "Count the points under the dashed line.",
+			"explain": "Only Thursday (25) and Friday (20) are below 30: 2 days."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In this code, how long does the pump run each time?",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"while True:",
+					"    m = moisture()",
+					"    if m < 30:",
+					"        pump_on()",
+					"        pause(2000)",
+					"        pump_off()",
+					"    pause(60000)"
+				]
+			},
+			"choices": [
+				"2 seconds",
+				"60 seconds",
+				"30 seconds",
+				"2,000 seconds"
+			],
+			"answer": 0,
+			"hint": "pause() counts in milliseconds: 1,000 make a second.",
+			"explain": "pause(2000) is 2,000 milliseconds, which is 2 seconds."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A heater with a thermostat is a closed loop system.",
+			"answer": true,
+			"hint": "Does it measure the room and adjust itself?",
+			"explain": "True: the thermostat measures the temperature and switches the heater, feeding the result back."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the tests in order.",
+			"items": [
+				"test each part on its own",
+				"test right at the threshold",
+				"test with a real user",
+				"test the parts together"
+			],
+			"answer": [
+				0,
+				3,
+				1,
+				2
+			],
+			"hint": "Small to big, then the tricky case, then the person.",
+			"explain": "Parts alone, then together, then the edge case at the threshold, then a real user."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Open loop or closed loop?",
+			"groups": [
+				"open loop",
+				"closed loop"
+			],
+			"items": [
+				"a fridge that keeps itself at 4 °C",
+				"a hand dryer that runs 30 seconds",
+				"an oven held at 180 °C",
+				"a microwave set for 2 minutes",
+				"a greenhouse fan with a sensor"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it measure its own result and adjust?",
+			"explain": "Closed: the fridge, the oven and the fan measure and adjust. Open: the microwave and dryer just run."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many seconds does pause(60000) wait?",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"while True:",
+					"    m = moisture()",
+					"    if m < 30:",
+					"        pump_on()",
+					"        pause(2000)",
+					"        pump_off()",
+					"    pause(60000)"
+				]
+			},
+			"answer": "60",
+			"hint": "Divide milliseconds by 1,000.",
+			"explain": "60,000 ÷ 1,000 = 60 seconds: one check a minute."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 2,400 mAh battery and a 60 mA product, used 4 hours a day: how many days will it last?",
+			"answer": "10",
+			"hint": "Find the hours it lasts, then share them by the hours used each day.",
+			"explain": "2,400 ÷ 60 = 40 hours; 40 ÷ 4 = 10 days."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is a fridge a closed loop system?",
+			"choices": [
+				"it measures its temperature and adjusts",
+				"it runs on a timer",
+				"it has a door",
+				"it uses electricity"
+			],
+			"answer": 0,
+			"hint": "What does the fridge keep checking?",
+			"explain": "It keeps measuring the temperature inside and switches the cooling on and off: feedback closes the loop."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The pump never stops. Which line is missing after pause(2000)?",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"while True:",
+					"    m = moisture()",
+					"    if m < 30:",
+					"        pump_on()",
+					"        pause(2000)",
+					"    pause(60000)"
+				],
+				"error": 4
+			},
+			"choices": [
+				"pump_off()",
+				"pump_on()",
+				"pause(60000)",
+				"m = moisture()"
+			],
+			"answer": 0,
+			"hint": "Look at the marked line: what should happen after the 2 seconds?",
+			"explain": "Without pump_off() the pump is switched on and never switched off."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A bike light draws 25 mA and must run for 48 hours. What battery capacity is needed, in mAh?",
+			"answer": "1200",
+			"hint": "Capacity = current × hours.",
+			"explain": "25 × 48 = 1,200 mAh."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "With 'if m < 30', a reading of exactly 30 turns the pump on.",
+			"answer": false,
+			"hint": "'<' means strictly less than.",
+			"explain": "False: 30 is not less than 30, so the pump stays off; testing right at the threshold finds this."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.threshold_output",
+			"level": 1
+		},
+		{
+			"gen": "g8l.threshold_output",
+			"level": 2
+		},
+		{
+			"gen": "g8l.threshold_output",
+			"level": 3
+		},
+		{
+			"gen": "g8l.battery_life",
+			"level": 1
+		},
+		{
+			"gen": "g8l.battery_life",
+			"level": 2
+		},
+		{
+			"gen": "g8l.battery_life",
+			"level": 3
+		},
+		{
+			"gen": "g8l.control_loop",
+			"level": 1
+		},
+		{
+			"gen": "g8l.control_loop",
+			"level": 2
+		},
+		{
+			"gen": "g8l.control_loop",
+			"level": 3
+		}
+	]
+}

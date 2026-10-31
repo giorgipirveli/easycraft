@@ -1,0 +1,358 @@
+{
+	"id": "g3.maths.multiply_divide_written",
+	"lesson": [
+		{
+			"text": "Quick memory: 4 × 3 = 12. So 4 × 3 tens is 12 tens: 4 × 30 = 120. And 4 × 3 hundreds is 1,200.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"fact",
+						"answer"
+					],
+					[
+						"4 × 3",
+						"12"
+					],
+					[
+						"4 × 30",
+						"120"
+					],
+					[
+						"4 × 300",
+						"1,200"
+					]
+				]
+			}
+		},
+		{
+			"text": "Multiply by tens: work out the small fact, then make it tens. 6 × 40: 6 × 4 = 24, so 6 × 40 = 24 tens = 240."
+		},
+		{
+			"text": "Short multiplication: 47 × 6. Ones: 7 × 6 = 42, write 2 and carry 4. Tens: 4 × 6 = 24, add the 4 you carried: 28. So 47 × 6 = 282.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"47",
+					"× 6",
+					"282"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"text": "Splitting works for bigger numbers too: 245 × 4 = 200 × 4 + 40 × 4 + 5 × 4 = 800 + 160 + 20 = 980.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"200",
+					"40",
+					"5"
+				],
+				"rows": [
+					"4"
+				],
+				"cells": [
+					[
+						"800",
+						"160",
+						"20"
+					]
+				]
+			}
+		},
+		{
+			"text": "Short division: 84 ÷ 4. Share the tens: 8 tens ÷ 4 = 2 tens. Share the ones: 4 ÷ 4 = 1. So 84 ÷ 4 = 21.",
+			"picture": {
+				"kind": "blocks",
+				"thousands": 0,
+				"hundreds": 0,
+				"tens": 8,
+				"ones": 4
+			}
+		},
+		{
+			"text": "Exchange what cannot be shared: 72 ÷ 3. 7 tens ÷ 3 = 2 tens, with 1 ten left over. That ten is 10 ones, so 12 ones ÷ 3 = 4. So 72 ÷ 3 = 24.",
+			"picture": {
+				"kind": "blocks",
+				"thousands": 0,
+				"hundreds": 0,
+				"tens": 7,
+				"ones": 2
+			}
+		},
+		{
+			"text": "Remainders: 29 ÷ 4 = 7 remainder 1. 7 groups of 4 is 28, and 1 is left over. In a story, think: does the left-over part need one more group? Next, in grade 4: dividing bigger numbers.",
+			"picture": {
+				"kind": "groups",
+				"groups": 4,
+				"each": 7,
+				"left": 1
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "3 × 20 = ?",
+			"answer": "60",
+			"hint": "3 × 2 = 6, then make it tens.",
+			"explain": "3 × 2 tens = 6 tens = 60."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "5 × 40 = ?",
+			"answer": "200",
+			"hint": "5 × 4 = 20, then make it tens.",
+			"explain": "5 × 4 tens = 20 tens = 200."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "23 × 3 = ?",
+			"answer": "69",
+			"hint": "Multiply the ones, then the tens.",
+			"explain": "Ones: 3 × 3 = 9. Tens: 2 × 3 = 6. So 69.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"23",
+					"× 3"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "68 ÷ 2 = ?",
+			"answer": "34",
+			"hint": "Halve the tens, then halve the ones.",
+			"explain": "6 tens ÷ 2 = 3 tens, 8 ÷ 2 = 4: 34."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "4 × 30 is 12 tens.",
+			"answer": true,
+			"hint": "4 × 3 = 12, so 4 × 3 tens = ?",
+			"explain": "Yes: 4 × 30 = 120 = 12 tens."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "17 ÷ 5 = 3 remainder ?",
+			"answer": "2",
+			"hint": "3 groups of 5 is 15. How many are left from 17?",
+			"explain": "17 − 15 = 2 left over."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "7 × 60 = ?",
+			"answer": "420",
+			"hint": "7 × 6 = 42, then make it tens.",
+			"explain": "7 × 6 tens = 42 tens = 420."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "38 × 4 = ?",
+			"answer": "152",
+			"hint": "Ones: 8 × 4 = 32, write 2, carry 3.",
+			"explain": "Tens: 3 × 4 + 3 = 15. So 152.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"38",
+					"× 4"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "56 × 7 = ?",
+			"answer": "392",
+			"hint": "Ones first: 6 × 7 = 42, write 2, carry 4.",
+			"explain": "Tens: 5 × 7 + 4 = 39. So 392.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"56",
+					"× 7"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "96 ÷ 4 = ?",
+			"answer": "24",
+			"hint": "9 tens ÷ 4 = 2 tens with 1 ten left: exchange it for 10 ones.",
+			"explain": "2 tens, then 16 ones ÷ 4 = 4: 24. Check: 24 × 4 = 96."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "47 ÷ 6 = 7 remainder ?",
+			"answer": "5",
+			"hint": "7 groups of 6 is 42. How many are left from 47?",
+			"explain": "47 − 42 = 5 left over."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the same as 8 × 50?",
+			"choices": [
+				"400",
+				"40",
+				"4,000",
+				"85"
+			],
+			"answer": 0,
+			"hint": "8 × 5 = 40, then make it tens.",
+			"explain": "8 × 5 tens = 40 tens = 400."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "236 × 3 = ?",
+			"answer": "708",
+			"hint": "Multiply the ones, then the tens, then the hundreds, carrying as you go.",
+			"explain": "Ones: 6 × 3 = 18, write 8, carry 1. Tens: 3 × 3 + 1 = 10, write 0, carry 1. Hundreds: 2 × 3 + 1 = 7. So 708.",
+			"picture": {
+				"kind": "column",
+				"rows": [
+					"236",
+					"× 3"
+				],
+				"lines": [
+					1
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "4 × 175 = ?",
+			"answer": "700",
+			"hint": "Split 175 into 100 + 70 + 5.",
+			"explain": "400 + 280 + 20 = 700."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "456 ÷ 3 = ?",
+			"answer": "152",
+			"hint": "Share the hundreds, then the tens, then the ones. Exchange what is left over.",
+			"explain": "4 hundreds ÷ 3 = 1 hundred, 1 left. 15 tens ÷ 3 = 5 tens. 6 ÷ 3 = 2. So 152."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "34 buddies ride in boats. Each boat holds 4. Every buddy needs a seat. How many boats are needed?",
+			"answer": "9",
+			"hint": "34 ÷ 4 = 8 remainder 2. The 2 left over still need a boat.",
+			"explain": "8 boats carry 32 buddies; the last 2 need one more boat: 9 boats."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Nell packs 50 eggs into boxes of 6. How many boxes can Nell fill?",
+			"answer": "8",
+			"hint": "50 ÷ 6 = 8 remainder 2. Can the 2 left over fill a box?",
+			"explain": "8 boxes of 6 use 48 eggs. The 2 left cannot fill a box: 8 boxes."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "125 ÷ 5 = 25",
+			"answer": true,
+			"hint": "Check with a times: 25 × 5.",
+			"explain": "25 × 5 = 125, so yes."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "? × 70 = 560",
+			"answer": "8",
+			"hint": "Which number times 7 makes 56? Then think about the 0 in 70.",
+			"explain": "8 × 7 = 56, so 8 × 70 = 560."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3m.times_tens",
+			"level": 1
+		},
+		{
+			"gen": "g3m.times_tens",
+			"level": 2
+		},
+		{
+			"gen": "g3m.times_tens",
+			"level": 3
+		},
+		{
+			"gen": "g3m.short_multiply",
+			"level": 1
+		},
+		{
+			"gen": "g3m.short_multiply",
+			"level": 2
+		},
+		{
+			"gen": "g3m.short_multiply",
+			"level": 3
+		},
+		{
+			"gen": "g3m.short_divide",
+			"level": 1
+		},
+		{
+			"gen": "g3m.short_divide",
+			"level": 2
+		},
+		{
+			"gen": "g3m.short_divide",
+			"level": 3
+		},
+		{
+			"gen": "g3m.remainder",
+			"level": 1
+		},
+		{
+			"gen": "g3m.remainder",
+			"level": 2
+		},
+		{
+			"gen": "g3m.remainder",
+			"level": 3
+		},
+		{
+			"gen": "g3m.remainder_story",
+			"level": 1
+		},
+		{
+			"gen": "g3m.remainder_story",
+			"level": 2
+		},
+		{
+			"gen": "g3m.remainder_story",
+			"level": 3
+		}
+	]
+}

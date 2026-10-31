@@ -1,0 +1,850 @@
+{
+	"id": "g4.maths.tables_line_graphs",
+	"lesson": [
+		{
+			"text": "Quick memory: a bar graph's scale goes up in 2s, and a bar stops halfway between the lines for 10 and 12. What does it show? (11.) Today: tables, line graphs and pie charts.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"Red",
+						14
+					],
+					[
+						"Blue",
+						8
+					],
+					[
+						"Green",
+						11
+					],
+					[
+						"Gold",
+						5
+					]
+				],
+				"step": 2,
+				"top": 16,
+				"name": "Blocks built"
+			}
+		},
+		{
+			"text": "A table sorts data into rows and columns. To read it, go along a row and down a column: where they meet is the answer. On Tuesday, Zara picked 14 apples.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Day",
+						"Apples",
+						"Pears"
+					],
+					[
+						"Mon",
+						"12",
+						"5"
+					],
+					[
+						"Tue",
+						"14",
+						"8"
+					],
+					[
+						"Wed",
+						"9",
+						"11"
+					]
+				]
+			}
+		},
+		{
+			"text": "Some tables have a Total column: each row's numbers added up. Monday: 12 + 5 = 17. When a number is missing, take the others away from the total: 22 − 14 = 8 pears on Tuesday.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Day",
+						"Apples",
+						"Pears",
+						"Total"
+					],
+					[
+						"Mon",
+						"12",
+						"5",
+						"17"
+					],
+					[
+						"Tue",
+						"14",
+						"?",
+						"22"
+					],
+					[
+						"Wed",
+						"9",
+						"11",
+						"20"
+					]
+				]
+			}
+		},
+		{
+			"text": "A line graph shows how something changes over time. Time goes along the bottom and the scale goes up the side. Each point is one reading, and a line joins the points in order.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"8:00",
+						12
+					],
+					[
+						"10:00",
+						16
+					],
+					[
+						"12:00",
+						20
+					],
+					[
+						"14:00",
+						22
+					],
+					[
+						"16:00",
+						18
+					]
+				],
+				"step": 4,
+				"top": 24,
+				"name": "Temperature (°C)"
+			}
+		},
+		{
+			"text": "Read a point: go up from its time, then across to the scale. At 12:00 it was 20 °C. At 16:00 it is halfway between 16 and 20: 18 °C. From 8:00 to 12:00 it warmed by 20 − 12 = 8 degrees.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"8:00",
+						12
+					],
+					[
+						"10:00",
+						16
+					],
+					[
+						"12:00",
+						20
+					],
+					[
+						"14:00",
+						22
+					],
+					[
+						"16:00",
+						18
+					]
+				],
+				"step": 4,
+				"top": 24,
+				"name": "Temperature (°C)"
+			}
+		},
+		{
+			"text": "Where the line climbs, the value rises; where it slopes down, it falls; flat means no change. The steeper the line, the bigger the change: the sunflower grew most, 20 cm, from week 3 to week 4.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"Week 1",
+						10
+					],
+					[
+						"Week 2",
+						25
+					],
+					[
+						"Week 3",
+						40
+					],
+					[
+						"Week 4",
+						60
+					],
+					[
+						"Week 5",
+						70
+					]
+				],
+				"step": 10,
+				"top": 80,
+				"name": "Height of a sunflower (cm)"
+			}
+		},
+		{
+			"text": "A pie chart is a circle cut into slices. The whole circle is all the data. Mimi played for 60 minutes: building is half the circle, so 60 ÷ 2 = 30 minutes, and fishing is a quarter: 60 ÷ 4 = 15 minutes.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"Building",
+						2
+					],
+					[
+						"Fishing",
+						1
+					],
+					[
+						"Farming",
+						1
+					]
+				],
+				"lines": true
+			}
+		},
+		{
+			"text": "Try it in the world: read a thermometer at 8:00, 12:00 and 16:00 and draw a line graph; ask 12 friends to choose a fruit and draw a pie chart. Next, in grade 5: points on a grid, and percentages."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The table shows the fruit Zara picked. How many pears did she pick on Wednesday?",
+			"hint": "Find the row for Wed, then go across to the Pears column.",
+			"explain": "The Wed row meets the Pears column at 11.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Day",
+						"Apples",
+						"Pears"
+					],
+					[
+						"Mon",
+						"12",
+						"5"
+					],
+					[
+						"Tue",
+						"14",
+						"8"
+					],
+					[
+						"Wed",
+						"9",
+						"11"
+					]
+				]
+			},
+			"answer": "11"
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The table shows the fruit Zara picked. On which day did she pick the most apples?",
+			"hint": "Look down the Apples column for the biggest number.",
+			"explain": "Tue has 14 apples; Mon has 12 and Wed has 9.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Day",
+						"Apples",
+						"Pears"
+					],
+					[
+						"Mon",
+						"12",
+						"5"
+					],
+					[
+						"Tue",
+						"14",
+						"8"
+					],
+					[
+						"Wed",
+						"9",
+						"11"
+					]
+				]
+			},
+			"choices": [
+				"Tue",
+				"Mon",
+				"Wed"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The line graph shows a sunflower growing. How tall was it in week 3, in cm?",
+			"hint": "Go up from Week 3 to the point, then across to the scale.",
+			"explain": "The point for Week 3 is on the line for 40: 40 cm.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"Week 1",
+						10
+					],
+					[
+						"Week 2",
+						25
+					],
+					[
+						"Week 3",
+						40
+					],
+					[
+						"Week 4",
+						60
+					],
+					[
+						"Week 5",
+						70
+					]
+				],
+				"step": 10,
+				"top": 80,
+				"name": "Height of a sunflower (cm)"
+			},
+			"answer": "40"
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A line graph is a good way to show how something changes over time.",
+			"hint": "Think of the temperature through a day.",
+			"explain": "True: time goes along the bottom, and the line shows the ups and downs.",
+			"answer": true
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The pie chart shows how Mimi spent 60 minutes of play. How many minutes did she spend building?",
+			"hint": "Building is half of the circle. What is half of 60?",
+			"explain": "Half of 60: 60 ÷ 2 = 30 minutes.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"Building",
+						2
+					],
+					[
+						"Fishing",
+						1
+					],
+					[
+						"Farming",
+						1
+					]
+				],
+				"lines": true
+			},
+			"answer": "30"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "One number is missing from the table. What is it?",
+			"hint": "Each row adds up to its total. Take the numbers you know away from the total.",
+			"explain": "On Tuesday: 22 − 14 = 8 pears.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Day",
+						"Apples",
+						"Pears",
+						"Total"
+					],
+					[
+						"Mon",
+						"12",
+						"5",
+						"17"
+					],
+					[
+						"Tue",
+						"14",
+						"?",
+						"22"
+					],
+					[
+						"Wed",
+						"9",
+						"11",
+						"20"
+					]
+				]
+			},
+			"answer": "8"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The line graph shows the temperature. How many degrees warmer was it at 14:00 than at 8:00?",
+			"hint": "Read both points on the scale, then take the smaller from the bigger.",
+			"explain": "14:00: 22 °C, halfway between 20 and 24. 8:00: 12 °C. 22 − 12 = 10 degrees.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"8:00",
+						12
+					],
+					[
+						"10:00",
+						16
+					],
+					[
+						"12:00",
+						20
+					],
+					[
+						"14:00",
+						22
+					],
+					[
+						"16:00",
+						18
+					]
+				],
+				"step": 4,
+				"top": 24,
+				"name": "Temperature (°C)"
+			},
+			"answer": "10"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The line graph shows a sunflower growing. Between which two weeks did it grow the most?",
+			"hint": "Find the steepest part of the line.",
+			"explain": "It grew 15, 15, 20 and 10 cm: the most, 20 cm, from week 3 (40 cm) to week 4 (60 cm).",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"Week 1",
+						10
+					],
+					[
+						"Week 2",
+						25
+					],
+					[
+						"Week 3",
+						40
+					],
+					[
+						"Week 4",
+						60
+					],
+					[
+						"Week 5",
+						70
+					]
+				],
+				"step": 10,
+				"top": 80,
+				"name": "Height of a sunflower (cm)"
+			},
+			"choices": [
+				"Week 3 to Week 4",
+				"Week 1 to Week 2",
+				"Week 2 to Week 3",
+				"Week 4 to Week 5"
+			],
+			"answer": 0
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each chart to what it shows best.",
+			"hint": "Which chart has time along the bottom? Which one is a circle cut into slices?",
+			"explain": "A table holds exact numbers, a line graph shows change over time, a pie chart shows the parts of one whole, and a bar graph compares groups.",
+			"items": [
+				"a table",
+				"a line graph",
+				"a pie chart",
+				"a bar graph"
+			],
+			"matches": [
+				"change over time",
+				"the parts of one whole",
+				"comparing groups",
+				"exact numbers to look up"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The pie chart shows the pets 36 children chose. How many chose dogs?",
+			"hint": "Dogs are a quarter of the circle. Share 36 into 4 equal parts.",
+			"explain": "A quarter of 36: 36 ÷ 4 = 9 children.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"Cats",
+						2
+					],
+					[
+						"Dogs",
+						1
+					],
+					[
+						"Fish",
+						1
+					]
+				],
+				"lines": true
+			},
+			"answer": "9"
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The slices of a pie chart together make the whole circle: all of the data.",
+			"hint": "What does the whole circle stand for?",
+			"explain": "True: add up every slice and you get the whole.",
+			"answer": true
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "The table shows the fruit Zara picked. Put the days in order, from the most apples to the fewest.",
+			"hint": "Read down the Apples column and compare the numbers.",
+			"explain": "Tue 14, Mon 12, Wed 9.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Day",
+						"Apples",
+						"Pears"
+					],
+					[
+						"Mon",
+						"12",
+						"5"
+					],
+					[
+						"Tue",
+						"14",
+						"8"
+					],
+					[
+						"Wed",
+						"9",
+						"11"
+					]
+				]
+			},
+			"items": [
+				"Mon",
+				"Wed",
+				"Tue"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			]
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Which chart would you draw to answer each question?",
+			"hint": "Is the question about change over time, or about the parts of one whole?",
+			"explain": "Change over time (the puppy, the temperature): a line graph. Parts of a whole (the class, the garden): a pie chart.",
+			"groups": [
+				"line graph",
+				"pie chart"
+			],
+			"items": [
+				"How did a puppy grow each month?",
+				"What fraction of the class walks to school?",
+				"How did the temperature change today?",
+				"What part of the garden is grass?"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			]
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The pie chart shows the snacks 40 buddies picked. How many more picked berries than carrots?",
+			"hint": "Find what one of the 8 equal parts stands for first.",
+			"explain": "One part is 40 ÷ 8 = 5. Berries: 4 parts, 4 × 5 = 20. Carrots: 1 part, 5. 20 − 5 = 15.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"Berries",
+						4
+					],
+					[
+						"Carrots",
+						1
+					],
+					[
+						"Seeds",
+						3
+					]
+				],
+				"lines": true
+			},
+			"answer": "15"
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The table shows the blocks Tilly and Bram mined. How many blocks did they mine altogether?",
+			"hint": "Add each row, then add the two totals.",
+			"explain": "Tilly: 35 + 12 + 8 = 55. Bram: 28 + 15 + 6 = 49. 55 + 49 = 104.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Player",
+						"Stone",
+						"Coal",
+						"Iron"
+					],
+					[
+						"Tilly",
+						"35",
+						"12",
+						"8"
+					],
+					[
+						"Bram",
+						"28",
+						"15",
+						"6"
+					]
+				]
+			},
+			"answer": "104"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which sentence does the line graph show?",
+			"hint": "Find the highest point on the line.",
+			"explain": "The highest point is 22 °C at 14:00; after that it cooled to 18 °C.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"8:00",
+						12
+					],
+					[
+						"10:00",
+						16
+					],
+					[
+						"12:00",
+						20
+					],
+					[
+						"14:00",
+						22
+					],
+					[
+						"16:00",
+						18
+					]
+				],
+				"step": 4,
+				"top": 24,
+				"name": "Temperature (°C)"
+			},
+			"choices": [
+				"It was warmest at 14:00.",
+				"It got colder all day.",
+				"It was warmest at 8:00.",
+				"It was the same all day."
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The line graph shows the water in a rain barrel. How many litres were in it on Wednesday?",
+			"hint": "The scale goes up in 10s. A point halfway between two lines is 5 more than the lower line.",
+			"explain": "The point for Wed is halfway between 50 and 60: 55 litres.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"Mon",
+						30
+					],
+					[
+						"Tue",
+						45
+					],
+					[
+						"Wed",
+						55
+					],
+					[
+						"Thu",
+						50
+					],
+					[
+						"Fri",
+						35
+					]
+				],
+				"step": 10,
+				"top": 60,
+				"name": "Water in the rain barrel (L)"
+			},
+			"answer": "55"
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The line graph shows the water in a rain barrel. By how many litres did it fall from Wednesday to Friday?",
+			"hint": "Read both points, then take the smaller from the bigger.",
+			"explain": "Wed 55 L, Fri 35 L: 55 − 35 = 20 litres.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"Mon",
+						30
+					],
+					[
+						"Tue",
+						45
+					],
+					[
+						"Wed",
+						55
+					],
+					[
+						"Thu",
+						50
+					],
+					[
+						"Fri",
+						35
+					]
+				],
+				"step": 10,
+				"top": 60,
+				"name": "Water in the rain barrel (L)"
+			},
+			"answer": "20"
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The pie chart shows how 30 children voted for a class pet. How many voted for cats?",
+			"hint": "Count the equal parts: how many are there, and how many are cats?",
+			"explain": "The circle has 6 equal parts and cats have 3 of them: half. Half of 30: 30 ÷ 2 = 15.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"Owls",
+						2
+					],
+					[
+						"Cats",
+						3
+					],
+					[
+						"Dogs",
+						1
+					]
+				],
+				"lines": true
+			},
+			"answer": "15"
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4d.table_read",
+			"level": 1
+		},
+		{
+			"gen": "g4d.table_read",
+			"level": 2
+		},
+		{
+			"gen": "g4d.table_read",
+			"level": 3
+		},
+		{
+			"gen": "g4d.table_missing",
+			"level": 1
+		},
+		{
+			"gen": "g4d.table_missing",
+			"level": 2
+		},
+		{
+			"gen": "g4d.table_missing",
+			"level": 3
+		},
+		{
+			"gen": "g4d.line_read",
+			"level": 1
+		},
+		{
+			"gen": "g4d.line_read",
+			"level": 2
+		},
+		{
+			"gen": "g4d.line_read",
+			"level": 3
+		},
+		{
+			"gen": "g4d.line_change",
+			"level": 1
+		},
+		{
+			"gen": "g4d.line_change",
+			"level": 2
+		},
+		{
+			"gen": "g4d.line_change",
+			"level": 3
+		},
+		{
+			"gen": "g4d.pie_read",
+			"level": 1
+		},
+		{
+			"gen": "g4d.pie_read",
+			"level": 2
+		},
+		{
+			"gen": "g4d.pie_read",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,431 @@
+{
+	"id": "g6.english.write_narrative",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, how do short sentences change a story? (They speed it up and build excitement.) Today: write a narrative that hooks the reader, builds tension and ends well."
+		},
+		{
+			"text": "Hook the reader in the first line with action, dialogue, a question or a surprise. \"Nobody had opened the lighthouse door for fifty years, until tonight.\" makes the reader want to know why."
+		},
+		{
+			"text": "Plan with a story arc: the exposition (who, where and the problem) and the rising action (events that build). Then the climax (the turning point, where tension is highest), the falling action and the resolution (how it ends).",
+			"picture": {
+				"kind": "story_arc"
+			}
+		},
+		{
+			"text": "Build tension: give your character something to want and something in the way. Raise the stakes step by step, keep the reader waiting, and let things go wrong before they go right.",
+			"picture": {
+				"kind": "story_arc",
+				"mark": "climax"
+			}
+		},
+		{
+			"text": "Pacing is how fast the story moves. Speed it up with short sentences and quick action: \"The ice cracked. Tam froze.\" Slow it down for important moments with longer sentences and detail."
+		},
+		{
+			"text": "Use dialogue to show what characters are like and to move the story on: a new line for each speaker, speech marks round the words, and verbs that show how they are said: \"Wait,\" Zara whispered."
+		},
+		{
+			"text": "Choose exact, vivid words: not \"the dog went\" but \"the dog bolted\"; not \"a nice day\" but \"a crisp, bright morning\". Use the senses, and show feelings through actions: her hands shook."
+		},
+		{
+			"text": "Try it in the world: write a short adventure set in one of your worlds. Give it a hook, a story arc, a moment of fast pacing and two lines of dialogue. Read it aloud: where does the tension peak? Next: research and sources."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which first line makes you want to read on?",
+			"choices": [
+				"The door creaked open by itself.",
+				"This is a story about a door.",
+				"There was a door in a house.",
+				"I am going to tell you a story."
+			],
+			"answer": 0,
+			"hint": "A hook makes the reader ask a question.",
+			"explain": "A door opening by itself is a mystery: the reader wants to know why."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part of the story arc is marked?",
+			"choices": [
+				"the climax",
+				"the exposition",
+				"the resolution",
+				"the rising action"
+			],
+			"answer": 0,
+			"hint": "It is the highest point: the most tension.",
+			"explain": "The climax is the turning point, where the tension is highest.",
+			"picture": {
+				"kind": "story_arc",
+				"names": false,
+				"mark": "climax"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Short sentences can make a scene feel faster and tenser.",
+			"answer": true,
+			"hint": "Read \"The ice cracked. Tam froze.\" aloud.",
+			"explain": "True: short sentences speed the reader up and build tension."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word is the most vivid? The dog ___ across the field.",
+			"choices": [
+				"bolted",
+				"went",
+				"moved",
+				"was"
+			],
+			"answer": 0,
+			"hint": "Which word shows exactly how it moved?",
+			"explain": "\"Bolted\" shows that the dog ran off suddenly and fast."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the parts of a story arc in order.",
+			"items": [
+				"rising action",
+				"falling action",
+				"exposition",
+				"climax",
+				"resolution"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start with who and where; end with how it all works out.",
+			"explain": "Exposition, rising action, climax, falling action, resolution."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does the exposition do?",
+			"choices": [
+				"introduces the characters, place and problem",
+				"ends the story",
+				"gives the most exciting moment",
+				"lists the sources"
+			],
+			"answer": 0,
+			"hint": "It comes first.",
+			"explain": "The exposition tells us who, where and what the problem is."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the story arc: tap a word, then its number.",
+			"picture": {
+				"kind": "story_arc",
+				"names": false
+			},
+			"spots": [
+				[
+					0.141,
+					0.93,
+					0.141,
+					0.6559
+				],
+				[
+					0.327,
+					0.93,
+					0.3274,
+					0.4328
+				],
+				[
+					0.514,
+					0.93,
+					0.5138,
+					0.1744
+				],
+				[
+					0.7,
+					0.93,
+					0.7003,
+					0.4093
+				],
+				[
+					0.887,
+					0.93,
+					0.8867,
+					0.5855
+				]
+			],
+			"labels": [
+				"rising action",
+				"climax",
+				"falling action",
+				"resolution",
+				"exposition"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				4,
+				0
+			],
+			"hint": "The climax is the highest point; the story starts low and ends low.",
+			"explain": "From left to right: exposition, rising action, the climax at the top, falling action, resolution."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which version would make a reader hold their breath?",
+			"choices": [
+				"Silence. Then a knock. Then another.",
+				"Someone knocked on the door twice.",
+				"There were two knocks at the door."
+			],
+			"answer": 0,
+			"hint": "Short sentences and waiting build tension.",
+			"explain": "The short sentences and the pause make the reader wait for what comes next."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which line of dialogue is punctuated correctly?",
+			"choices": [
+				"\"Wait for me,\" called Juno.",
+				"\"Wait for me\" called Juno.",
+				"\"Wait for me,\" Called Juno.",
+				"Wait for me, \"called Juno.\""
+			],
+			"answer": 0,
+			"hint": "A comma goes before the closing speech mark, and the speech verb starts with a small letter.",
+			"explain": "The spoken words and their comma go inside the speech marks, then \"called Juno\" in small letters."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the sentences: do they speed the story up or slow it down?",
+			"groups": [
+				"speeds up",
+				"slows down"
+			],
+			"items": [
+				"Run!",
+				"The sun sank slowly over the silver sea.",
+				"Crack. Splash.",
+				"Soft snow drifted down on the sleeping town."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Short and sharp, or long and detailed?",
+			"explain": "Speeds up: Run! Crack. Splash. Slows down: the two long, detailed sentences about the sun and the snow."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which sentence shows a feeling instead of telling it?",
+			"choices": [
+				"Mimi's knees shook as she stood up.",
+				"Mimi was scared.",
+				"Mimi felt very scared.",
+				"Mimi was a scared girl."
+			],
+			"answer": 0,
+			"hint": "Show it through what the body does.",
+			"explain": "Shaking knees show the reader she is scared without saying it."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The resolution is where the problem is sorted out and the story ends.",
+			"answer": true,
+			"hint": "Where does the arc come back down?",
+			"explain": "True: after the falling action, the resolution ties up the story."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How can a writer raise the tension before the climax?",
+			"choices": [
+				"put more and more in the character's way",
+				"explain the ending first",
+				"make everything go well",
+				"add a list of facts"
+			],
+			"answer": 0,
+			"hint": "Tension grows when things get harder.",
+			"explain": "Obstacles that grow keep the reader worried about what will happen."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the most vivid way to describe the morning?",
+			"choices": [
+				"a crisp, bright morning that stung my cheeks",
+				"a nice day",
+				"a good morning",
+				"a day in the morning"
+			],
+			"answer": 0,
+			"hint": "Which one uses the senses?",
+			"explain": "\"Crisp\", \"bright\" and \"stung my cheeks\" use touch and sight, so the reader can feel it."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the story's events in order, from the exposition to the resolution.",
+			"items": [
+				"He finds an old boat and mends it.",
+				"He steers home by the lighthouse.",
+				"Kit lives by the sea and longs to sail.",
+				"A storm catches him far from shore.",
+				"The town cheers as he lands."
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "The climax is the most dangerous moment.",
+			"explain": "Exposition (Kit longs to sail), rising action (the boat), climax (the storm), falling action (steering home), resolution (the town cheers)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why use dialogue in a story?",
+			"choices": [
+				"to show characters and move the plot on",
+				"to make the story longer",
+				"to list facts",
+				"to replace all description"
+			],
+			"answer": 0,
+			"hint": "What do the words characters say tell us?",
+			"explain": "Dialogue shows what characters are like and pushes the events forward."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Kit is lost in the storm. Which ending best resolves the story?",
+			"choices": [
+				"Kit saw the lighthouse and steered home.",
+				"Then Kit woke up. It was a dream.",
+				"And that is it.",
+				"Kit had a sandwich."
+			],
+			"answer": 0,
+			"hint": "A good resolution follows from the story's own events.",
+			"explain": "It solves the problem with the story's own details; \"it was a dream\" undoes everything."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Every story needs a climax: a turning point where the tension is highest.",
+			"answer": true,
+			"hint": "Think of the top of the arc.",
+			"explain": "True: the climax is where the problem comes to a head and the story turns."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each kind of hook to its opening line.",
+			"items": [
+				"action",
+				"dialogue",
+				"a question",
+				"a surprise"
+			],
+			"matches": [
+				"Have you ever heard a tree sing?",
+				"The cake began to talk.",
+				"Kit dived into the icy lake.",
+				"\"Run!\" shouted Kit."
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Look for movement, speech marks, a question mark, and something that should be impossible.",
+			"explain": "Action: Kit dived into the icy lake. Dialogue: \"Run!\" shouted Kit. A question: Have you ever heard a tree sing? A surprise: the cake began to talk."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Kit's storm story: sort each moment into its part of the story arc.",
+			"groups": [
+				"rising action",
+				"climax",
+				"falling action"
+			],
+			"items": [
+				"The clouds turn black.",
+				"The sail rips.",
+				"A giant wave flips the boat.",
+				"Kit climbs back aboard.",
+				"The wind dies down."
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				2,
+				2
+			],
+			"hint": "Find the moment where the tension is highest first. What comes before it builds; what comes after calms.",
+			"explain": "The climax is the giant wave: the tension peaks there. Before it, black clouds and a ripped sail build the tension: rising action. After it, Kit climbing aboard and the calm wind are the falling action."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6k.hook_pick",
+			"level": 1
+		},
+		{
+			"gen": "g6k.hook_pick",
+			"level": 2
+		},
+		{
+			"gen": "g6k.hook_pick",
+			"level": 3
+		},
+		{
+			"gen": "g6k.pace_pick",
+			"level": 1
+		},
+		{
+			"gen": "g6k.pace_pick",
+			"level": 2
+		},
+		{
+			"gen": "g6k.pace_pick",
+			"level": 3
+		},
+		{
+			"gen": "g6k.vivid_verb",
+			"level": 1
+		},
+		{
+			"gen": "g6k.vivid_verb",
+			"level": 2
+		},
+		{
+			"gen": "g6k.vivid_verb",
+			"level": 3
+		}
+	]
+}

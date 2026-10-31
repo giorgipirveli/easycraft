@@ -1,0 +1,305 @@
+{
+	"id": "g6.art.geometric_patterns",
+	"lesson": [
+		{
+			"text": "Quick memory: how many degrees make a full turn? (360°.) Today: patterns that fit together with no gaps, and patterns that turn."
+		},
+		{
+			"text": "A tessellation is a pattern of shapes that fit together with no gaps and no overlaps, like floor tiles or a honeycomb.",
+			"picture": {
+				"kind": "tessellation",
+				"shape": "hexagon",
+				"colours": [
+					"yellow",
+					"orange",
+					"green"
+				]
+			}
+		},
+		{
+			"text": "Only three regular shapes tessellate on their own, because round every point the angles must make 360°: 6 equilateral triangles fit round a point, and so do 4 squares and 3 regular hexagons."
+		},
+		{
+			"text": "A regular pentagon's angles are 108°. Three make 324°, leaving a gap, and four would overlap, so pentagons alone leave gaps.",
+			"picture": {
+				"kind": "tessellation",
+				"shape": "pentagon"
+			}
+		},
+		{
+			"text": "Mix shapes to make semi-regular tessellations: two regular octagons (135° each) and a square (90°) fill a point, because 135 + 135 + 90 = 360.",
+			"picture": {
+				"kind": "tessellation",
+				"shape": "octagon",
+				"colours": [
+					"blue",
+					"white"
+				]
+			}
+		},
+		{
+			"text": "A pattern has rotational symmetry if it fits onto itself as it turns. Its order is how many times it fits in one full turn, and each turn is 360° ÷ the order.",
+			"picture": {
+				"kind": "rotation_motif",
+				"order": 6,
+				"motif": "petal",
+				"mark": true
+			}
+		},
+		{
+			"text": "Worked example: an eight-pointed star fits onto itself 8 times in a turn. So its order is 8, and each turn is 360 ÷ 8 = 45°. M. C. Escher (1898-1972) turned tessellations into birds and fish.",
+			"picture": {
+				"kind": "star_pattern",
+				"points": 8
+			}
+		},
+		{
+			"text": "Try it in the world: tile a floor in your world with a tessellation, or design a pattern that turns 4 times round a centre. Next: two-point perspective."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these tessellates on its own?",
+			"answer": 0,
+			"hint": "Its angles must fit exactly round a point.",
+			"choices": [
+				"a regular hexagon",
+				"a regular pentagon",
+				"a circle",
+				"a regular octagon"
+			],
+			"explain": "3 regular hexagons fit round a point: 3 × 120 = 360."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many squares meet at each corner point in this tiling?",
+			"answer": "4",
+			"hint": "Count the squares round one corner.",
+			"explain": "4 squares meet: 4 × 90 = 360.",
+			"picture": {
+				"kind": "tessellation",
+				"shape": "square",
+				"colours": [
+					"red",
+					"white"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A tessellation has no gaps and no overlaps.",
+			"answer": true,
+			"hint": "Think of a tiled floor.",
+			"explain": "True: the shapes fit together exactly."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is the order of rotational symmetry of this pattern?",
+			"answer": "4",
+			"hint": "Count the copies of the hook.",
+			"explain": "The hook appears 4 times, so it fits onto itself 4 times in a turn: order 4.",
+			"picture": {
+				"kind": "rotation_motif",
+				"order": 4,
+				"motif": "hook"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Do circles tessellate?",
+			"answer": 0,
+			"hint": "Look at the white between them.",
+			"choices": [
+				"no: they leave gaps",
+				"yes: no gaps at all",
+				"yes, but only in rows",
+				"only if they are red"
+			],
+			"explain": "No: round shapes always leave gaps between them.",
+			"picture": {
+				"kind": "tessellation",
+				"shape": "circle"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Each angle of an equilateral triangle is 60°. How many fit round a point?",
+			"answer": "6",
+			"hint": "Round a point is 360°.",
+			"explain": "360 ÷ 60 = 6 triangles."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What angle does this pattern turn through to fit onto itself (the smallest turn)?",
+			"answer": "60",
+			"hint": "Count the petals, then share 360°.",
+			"explain": "6 petals: 360 ÷ 6 = 60°.",
+			"picture": {
+				"kind": "rotation_motif",
+				"order": 6,
+				"motif": "petal",
+				"mark": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Regular pentagons tessellate on their own.",
+			"answer": false,
+			"hint": "Can 108° go into 360 exactly?",
+			"explain": "False: 3 make 324 and 4 make 432, so they leave gaps or overlap."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do regular hexagons tessellate?",
+			"answer": 0,
+			"hint": "What must the angles round a point add up to?",
+			"choices": [
+				"3 of their 120° angles make 360°",
+				"they have 6 sides",
+				"bees chose them",
+				"they are the biggest shape"
+			],
+			"explain": "3 × 120 = 360, so three fill a point with no gap."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A regular octagon's angles are 135°. Two octagons meet at a point. How many degrees are left?",
+			"answer": "90",
+			"hint": "Round a point is 360°.",
+			"explain": "135 + 135 = 270, and 360 − 270 = 90: a square fits."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each regular shape to its angle.",
+			"items": [
+				"equilateral triangle",
+				"square",
+				"regular hexagon",
+				"regular octagon"
+			],
+			"matches": [
+				"135°",
+				"60°",
+				"90°",
+				"120°"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "More sides, bigger angles.",
+			"explain": "Triangle 60°, square 90°, hexagon 120° and octagon 135°."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What angle does this pattern turn through to fit onto itself?",
+			"answer": "45",
+			"hint": "Count the leaves, then share 360°.",
+			"explain": "8 leaves: 360 ÷ 8 = 45°.",
+			"picture": {
+				"kind": "rotation_motif",
+				"order": 8,
+				"motif": "leaf",
+				"mark": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A pattern fits onto itself every 40°. What is its order of rotational symmetry?",
+			"answer": "9",
+			"hint": "How many turns of 40° make 360°?",
+			"explain": "360 ÷ 40 = 9, so it has order 9."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A square has rotational symmetry of order 4.",
+			"answer": true,
+			"hint": "Turn a square a quarter turn at a time.",
+			"explain": "True: it fits onto itself after 90°, 180°, 270° and 360°: 4 times."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which set of shapes fills a point exactly?",
+			"answer": 0,
+			"hint": "Add up the angles: 360° fills a point.",
+			"choices": [
+				"2 octagons and 1 square",
+				"3 regular pentagons",
+				"2 hexagons and 1 triangle",
+				"5 equilateral triangles"
+			],
+			"explain": "135 + 135 + 90 = 360. The others make 324, 300 and 300."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is each angle of a regular 12-sided shape?",
+			"answer": "150",
+			"hint": "A shape with n sides has angles adding to (n − 2) × 180°.",
+			"explain": "(12 − 2) × 180 = 1800°, and 1800 ÷ 12 = 150°."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This pattern has rotational symmetry of order 3. Does it have a mirror line?",
+			"answer": 0,
+			"hint": "Would a mirror flip the flags to point the other way?",
+			"choices": [
+				"no: the flags all turn one way",
+				"yes, three mirror lines",
+				"yes, one mirror line",
+				"yes, six mirror lines"
+			],
+			"explain": "No: every flag points the same way round, so a mirror would not match it.",
+			"picture": {
+				"kind": "rotation_motif",
+				"order": 3,
+				"motif": "flag"
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.tile_angles",
+			"level": 1
+		},
+		{
+			"gen": "g6c.tile_angles",
+			"level": 2
+		},
+		{
+			"gen": "g6c.tile_angles",
+			"level": 3
+		},
+		{
+			"gen": "g6c.turn_angle",
+			"level": 1
+		},
+		{
+			"gen": "g6c.turn_angle",
+			"level": 2
+		},
+		{
+			"gen": "g6c.turn_angle",
+			"level": 3
+		}
+	]
+}

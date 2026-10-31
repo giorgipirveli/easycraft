@@ -1,0 +1,325 @@
+{
+	"id": "g4.art.light_and_shade",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a shade? (A colour mixed with black, so it is darker.) Today: light and shade, to make drawings look solid."
+		},
+		{
+			"text": "Tone means how light or dark something is. A tone scale goes step by step from white, through lighter and darker greys, to black.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"white",
+					"light grey",
+					"grey",
+					"dark grey",
+					"black"
+				]
+			}
+		},
+		{
+			"text": "Light comes from one side. The side of an object facing the light is lightest; the side facing away is in shadow. Shade a flat circle like this, and it becomes a ball, a sphere.",
+			"picture": {
+				"kind": "shading",
+				"shape": "sphere",
+				"light": "left"
+			}
+		},
+		{
+			"text": "The brightest spot, nearest the light, is the highlight. The object also blocks the light, so a cast shadow falls on the ground, on the side away from the light.",
+			"picture": {
+				"kind": "shading",
+				"shape": "sphere",
+				"light": "right",
+				"labels": true
+			}
+		},
+		{
+			"text": "Pencils make tones too. H pencils are hard and make light lines; B pencils are soft and make dark lines (2B, 4B and 6B get darker). HB is in the middle. Press lightly for light tones."
+		},
+		{
+			"text": "Shade with the marks from grade 3: hatching, cross-hatching and stippling (more marks, closer together, look darker), or blend smoothly with a finger or a tissue.",
+			"picture": {
+				"kind": "marks",
+				"what": [
+					"hatching",
+					"cross-hatching",
+					"stippling"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Strong light and shade is called chiaroscuro, Italian for light-dark. Rembrandt painted faces glowing out of the dark, nearly 400 years ago. Leonardo da Vinci blended his tones so softly you can't see the edges."
+		},
+		{
+			"text": "Try it in the world: look at a hill or a tower in your world at sunset. Where is the highlight? Where are the shadow and the cast shadow? Then draw a ball or a block with 5 tones."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does tone mean?",
+			"answer": 0,
+			"hint": "Think of the steps from white to black.",
+			"choices": [
+				"how light or dark something is",
+				"how loud a sound is",
+				"the name of a colour",
+				"the size of a shape"
+			],
+			"explain": "Tone is how light or dark something is."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The side of an object facing the light is the lightest.",
+			"answer": true,
+			"hint": "Where does the light land?",
+			"explain": "True: the side facing the light is lightest; the side facing away is in shadow."
+		},
+		{
+			"type": "mix",
+			"level": 1,
+			"prompt": "Mix grey for the middle of a tone scale.",
+			"hint": "Which two paints are at the two ends of a tone scale?",
+			"explain": "Grey is 1 white and 1 black.",
+			"target": "grey"
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where is the light coming from?",
+			"answer": 0,
+			"hint": "The lightest side faces the light, and the shadows fall away from it.",
+			"choices": [
+				"the left",
+				"the right",
+				"below",
+				"behind you"
+			],
+			"explain": "The ball is lightest on the left and its cast shadow falls to the right: the light comes from the left.",
+			"picture": {
+				"kind": "shading",
+				"shape": "sphere",
+				"light": "left",
+				"lamp": false
+			}
+		},
+		{
+			"type": "mix",
+			"level": 2,
+			"prompt": "Mix light grey: twice as much white as black.",
+			"hint": "Light grey has more white in it than grey does.",
+			"explain": "Light grey is 2 white and 1 black.",
+			"target": "light grey"
+		},
+		{
+			"type": "mix",
+			"level": 2,
+			"prompt": "Mix dark grey: twice as much black as white.",
+			"hint": "Dark grey has more black in it than grey does.",
+			"explain": "Dark grey is 1 white and 2 black.",
+			"target": "dark grey"
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these pencils in order, from the lightest lines to the darkest.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "H pencils are hard and light, B pencils soft and dark. The bigger the number, the more so.",
+			"items": [
+				"H",
+				"2B",
+				"2H",
+				"HB",
+				"6B"
+			],
+			"explain": "2H, H, HB, 2B, 6B: from hard and light to soft and dark."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where is the light coming from?",
+			"answer": 0,
+			"hint": "Which side is darkest? Which way does the cast shadow fall?",
+			"choices": [
+				"the right",
+				"the left",
+				"below",
+				"behind the cube"
+			],
+			"explain": "The dark side and the cast shadow are on the left, away from the light: the light comes from the right.",
+			"picture": {
+				"kind": "shading",
+				"shape": "cube",
+				"light": "right",
+				"lamp": false
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"highlight",
+				"shadow",
+				"cast shadow",
+				"tone"
+			],
+			"matches": [
+				"the side facing away",
+				"a dark shape on the ground",
+				"how light or dark",
+				"the brightest spot"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Remember the labelled ball.",
+			"explain": "The highlight is brightest, the shadow faces away, the cast shadow is on the ground, and tone is how light or dark."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these marks: do they make a lighter or a darker tone?",
+			"groups": [
+				"lighter",
+				"darker"
+			],
+			"items": [
+				"hatching far apart",
+				"one layer of lines",
+				"an H pencil",
+				"a 6B pencil pressed hard",
+				"cross-hatching close together",
+				"dots packed close"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "More marks, closer together and softer pencils look darker.",
+			"explain": "Lighter: lines far apart, one layer, an H pencil. Darker: 6B, cross-hatching close together, packed dots."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The sun is on the left of a tree. Where does the tree's cast shadow fall?",
+			"answer": 0,
+			"hint": "The tree blocks the light. Which side does the light not reach?",
+			"choices": [
+				"on the right",
+				"on the left",
+				"under the sun",
+				"nowhere"
+			],
+			"explain": "The tree blocks the light coming from the left, so the dark shape it makes on the ground falls on the other side: the right. Shadows point away from the light."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does chiaroscuro mean?",
+			"answer": 0,
+			"hint": "It is an Italian word made of two words.",
+			"choices": [
+				"light-dark",
+				"many colours",
+				"a quick sketch",
+				"a big painting"
+			],
+			"explain": "Chiaroscuro is Italian for light-dark: strong light and shade."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A tone scale jumps straight from white to black.",
+			"answer": false,
+			"hint": "What comes between white and black?",
+			"explain": "False: it goes step by step through the greys."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A tone scale has white, black and 3 greys between them. How many tones is that?",
+			"answer": "5",
+			"hint": "Count the ends too.",
+			"explain": "1 white + 3 greys + 1 black = 5 tones."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do artists shade a circle from light to dark?",
+			"answer": 0,
+			"hint": "Compare a flat circle with a shaded one.",
+			"choices": [
+				"to make it look like a solid ball",
+				"to make it flat",
+				"to change its colour",
+				"to hide it"
+			],
+			"explain": "Shading shows where the light falls, so the circle looks solid: a ball."
+		},
+		{
+			"type": "mix",
+			"level": 3,
+			"prompt": "A blue ball is lit from the left. Mix a shade of blue for its dark side.",
+			"hint": "A shade is a colour mixed with black.",
+			"explain": "Dark blue is 1 blue and 1 black.",
+			"target": "dark blue"
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "You shade a ball lit from the right. Sort the marks: for its lit side, or its shadow side?",
+			"groups": [
+				"the lit side",
+				"the shadow side"
+			],
+			"items": [
+				"the highlight",
+				"cross-hatching close together",
+				"a few light lines",
+				"dots packed close",
+				"untouched white paper"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Light tones go near the light; dark marks go on the side facing away.",
+			"explain": "The lit side, on the right: the highlight, untouched white paper and a few light lines. The shadow side, on the left: close cross-hatching and packed dots, the darkest tones."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.tone_scale",
+			"level": 1
+		},
+		{
+			"gen": "g4a.tone_scale",
+			"level": 2
+		},
+		{
+			"gen": "g4a.tone_scale",
+			"level": 3
+		}
+	]
+}

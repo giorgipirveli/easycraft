@@ -1,0 +1,535 @@
+{
+	"id": "moon_phases",
+	"title": "The Moon's changing shape",
+	"topic": "space",
+	"link": {
+		"star_map": true
+	},
+	"scenes": [
+		{
+			"seconds": 8,
+			"background": "night",
+			"caption": "The Moon makes no light: it shines with sunlight.",
+			"say": "The Moon makes no light of its own. It shines because sunlight falls on it.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				},
+				{
+					"at": 2.0,
+					"effect": "wisp_chime"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "sun",
+					"at": [
+						40,
+						130
+					],
+					"size": 90,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.2,
+							"from": [
+								-80,
+								130
+							]
+						}
+					],
+					"bleed": true
+				},
+				{
+					"kind": "planet",
+					"body": "moon",
+					"at": [
+						270,
+						280
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.8
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						90,
+						150
+					],
+					"to": [
+						212,
+						240
+					],
+					"color": "yellow",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.6,
+							"dur": 0.7
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						96,
+						190
+					],
+					"to": [
+						212,
+						282
+					],
+					"color": "yellow",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.9,
+							"dur": 0.7
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						80,
+						230
+					],
+					"to": [
+						212,
+						324
+					],
+					"color": "yellow",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.2,
+							"dur": 0.7
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "sunlight",
+					"at": [
+						120,
+						300
+					],
+					"size": 22,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9.5,
+			"background": "space",
+			"caption": "Half of the Moon is always lit. We see different amounts of that half.",
+			"say": "Half of the Moon is always in sunlight. As it goes round Earth, we see different amounts of that half.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						190,
+						250
+					],
+					"size": 240,
+					"color": "white",
+					"alpha": 0.4,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 0.4,
+							"dur": 1.0
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "earth",
+					"at": [
+						190,
+						250
+					],
+					"size": 70,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "moon_phase",
+					"at": [
+						310,
+						250
+					],
+					"size": 46,
+					"value": 0.25,
+					"rot": 180,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.2
+						},
+						{
+							"do": "orbit",
+							"at": 1.6,
+							"dur": 7.9,
+							"around": [
+								190,
+								250
+							],
+							"period": 7.9,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						4,
+						150
+					],
+					"to": [
+						54,
+						150
+					],
+					"color": "yellow",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 0.6,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						4,
+						250
+					],
+					"to": [
+						54,
+						250
+					],
+					"color": "yellow",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 0.8,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						4,
+						350
+					],
+					"to": [
+						54,
+						350
+					],
+					"color": "yellow",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.0,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "from the Sun",
+					"at": [
+						92,
+						80
+					],
+					"size": 20,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 12,
+			"background": "night",
+			"caption": "From new moon to full moon and back takes about 29 and a half days.",
+			"say": "From new moon to full moon and back again takes about 29 and a half days.",
+			"sounds": [
+				{
+					"at": 0.5,
+					"tune": {
+						"kind": "notes",
+						"notes": [
+							"C5",
+							"D5",
+							"E5",
+							"G5",
+							"E5",
+							"D5",
+							"C5:2"
+						],
+						"beat": 0.5,
+						"tone": "pure"
+					}
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "moon_phase",
+					"at": [
+						180,
+						230
+					],
+					"size": 200,
+					"value": 0,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						},
+						{
+							"do": "value",
+							"at": 0.5,
+							"dur": 10.5,
+							"to": 1,
+							"ease": "linear"
+						}
+					]
+				},
+				{
+					"kind": "count",
+					"from": 0,
+					"to": 29.5,
+					"decimals": 1,
+					"suffix": " days",
+					"at": [
+						180,
+						70
+					],
+					"size": 36,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "value",
+							"at": 0.5,
+							"dur": 10.5,
+							"to": 29.5,
+							"ease": "linear"
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "new moon",
+					"at": [
+						180,
+						380
+					],
+					"size": 28,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.3
+						},
+						{
+							"do": "out",
+							"at": 2.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "first quarter",
+					"at": [
+						180,
+						380
+					],
+					"size": 28,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.9
+						},
+						{
+							"do": "out",
+							"at": 4.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "full moon",
+					"at": [
+						180,
+						380
+					],
+					"size": 30,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 5.5
+						},
+						{
+							"do": "pulse",
+							"at": 6.1
+						},
+						{
+							"do": "out",
+							"at": 7.4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "last quarter",
+					"at": [
+						180,
+						380
+					],
+					"size": 28,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 8.1
+						},
+						{
+							"do": "out",
+							"at": 10.2
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 7,
+			"background": "night",
+			"caption": "Look up tonight: what shape is the Moon?",
+			"say": "Look up tonight: what shape is the Moon?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "moon_phase",
+					"at": [
+						240,
+						140
+					],
+					"size": 110,
+					"value": 0.12,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "bounce",
+							"at": 1.2
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "owl",
+					"at": [
+						100,
+						330
+					],
+					"size": 140,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.4,
+							"from": [
+								-100,
+								330
+							]
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "star",
+					"at": [
+						60,
+						90
+					],
+					"size": 26,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "star",
+					"at": [
+						320,
+						280
+					],
+					"size": 20,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.3
+						}
+					]
+				}
+			]
+		}
+	]
+}

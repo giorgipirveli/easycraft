@@ -1,0 +1,384 @@
+{
+	"id": "g6.projects.design_for_a_need",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you tested a product against its criteria. What makes a test fair? (Changing only one thing, and measuring the same way each time.) In this project you design a product for a real need, and test it."
+		},
+		{
+			"text": "Step 1, interview: meet a character with a need, like Mimi's grandad, whose hands are stiff, so opening jars is hard. Ask open questions: 'What do you find hard?' 'When does it happen?'"
+		},
+		{
+			"text": "Step 2, define: write a design brief ('Design a jar opener for someone with stiff hands') and a specification with ACCESS FM: it must open a 7 cm lid, need little grip, and cost under 5 gold."
+		},
+		{
+			"text": "Step 3, ideas: sketch several ideas, then score each against the specification in a decision matrix, from 1 to 5. The idea with the highest total goes forward: here, idea B.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"idea",
+						"cost",
+						"safety",
+						"use"
+					],
+					[
+						"idea A",
+						"3",
+						"4",
+						"2"
+					],
+					[
+						"idea B",
+						"4",
+						"5",
+						"4"
+					],
+					[
+						"idea C",
+						"2",
+						"3",
+						"5"
+					]
+				]
+			}
+		},
+		{
+			"text": "Step 4, make a prototype: a first working model, from card, wood or blocks, to test the idea quickly. Use what you know: a longer handle is a lever, so a small effort can turn a stiff lid.",
+			"picture": {
+				"kind": "lever",
+				"pivot": 1,
+				"load": 2,
+				"effort": 9,
+				"tags": {
+					"pivot": "pivot",
+					"load": "stiff lid",
+					"effort": "your hand"
+				}
+			}
+		},
+		{
+			"text": "Step 5, test: let the user try it, and measure against the specification: can they open the jar, how long does it take, and does it feel safe? Test 3 times and take the mean."
+		},
+		{
+			"text": "Step 6, improve and present: change one thing at a time, and test again. Then present: the user's need, your idea, how you tested it, what you changed, and what you would do next."
+		},
+		{
+			"text": "Try it in the world: build something that helps a character in your world, like a ramp up to a shop. For real: interview someone at home about a problem, and sketch three ideas. Next: in grade 7, more projects."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the design project in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Find out the need first.",
+			"items": [
+				"make, test and present",
+				"sketch and choose ideas",
+				"write the brief and specification",
+				"interview the user"
+			],
+			"explain": "Interview, write the brief and specification, choose an idea, then make, test and present."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a prototype?",
+			"answer": 0,
+			"hint": "Proto means first.",
+			"choices": [
+				"a first working model to test an idea",
+				"the finished product in a shop",
+				"a drawing of a user",
+				"a kind of lever"
+			],
+			"explain": "A first working model, made quickly to test an idea."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A good interview uses open questions.",
+			"answer": true,
+			"hint": "Which questions get long answers?",
+			"explain": "True: open questions let the user explain their needs."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "In the decision matrix, what is idea B's total score?",
+			"answer": "13",
+			"hint": "Add idea B's scores along its row.",
+			"explain": "4 + 5 + 4 = 13.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"idea",
+						"cost",
+						"safety",
+						"use"
+					],
+					[
+						"idea A",
+						"3",
+						"4",
+						"2"
+					],
+					[
+						"idea B",
+						"4",
+						"5",
+						"4"
+					],
+					[
+						"idea C",
+						"2",
+						"3",
+						"5"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which idea wins the decision matrix?",
+			"answer": 0,
+			"hint": "Add each row, and compare the totals.",
+			"choices": [
+				"idea B",
+				"idea A",
+				"idea C"
+			],
+			"explain": "Idea A: 9. Idea B: 13. Idea C: 10. Idea B wins.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"idea",
+						"cost",
+						"safety",
+						"use"
+					],
+					[
+						"idea A",
+						"3",
+						"4",
+						"2"
+					],
+					[
+						"idea B",
+						"4",
+						"5",
+						"4"
+					],
+					[
+						"idea C",
+						"2",
+						"3",
+						"5"
+					]
+				]
+			}
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Grandad uses a wheelchair. Build a raised garden bed for him: a rectangle with an area of 12 squares and a perimeter of 14, narrow enough to reach the middle.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 12,
+				"perimeter": 14
+			},
+			"hint": "Which two numbers multiply to 12 and add up to 7?",
+			"explain": "3 by 4: 3 × 4 = 12 squares, and 3 + 4 + 3 + 4 = 14."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Three tests of the jar opener took 12 s, 9 s and 15 s. What is the mean time, in seconds?",
+			"answer": "12",
+			"hint": "Add the three times, then share by 3.",
+			"explain": "12 + 9 + 15 = 36, and 36 ÷ 3 = 12 seconds."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Grandad says the handle hurts his hand. What is the best change?",
+			"answer": 0,
+			"hint": "Listen to the user, and change the part that hurts.",
+			"choices": [
+				"make the grip wider and softer",
+				"make it smaller",
+				"paint it red",
+				"stop testing"
+			],
+			"explain": "A wider, softer grip spreads the push over his hand."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When you improve a prototype, change one thing at a time.",
+			"answer": true,
+			"hint": "How would you know what made it better?",
+			"explain": "True: then each test shows what that one change did."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each step to what you do.",
+			"items": [
+				"interview",
+				"specification",
+				"prototype",
+				"evaluation"
+			],
+			"matches": [
+				"list what it must do",
+				"make a first model",
+				"judge it against the spec",
+				"find out the user's needs"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Ask, list, make, judge.",
+			"explain": "Interview: find the needs. Specification: list what it must do. Prototype: a first model. Evaluation: judge it against the specification."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a longer handle help turn a stiff lid?",
+			"answer": 0,
+			"hint": "Think of moments: effort × distance.",
+			"choices": [
+				"a longer lever needs less effort to turn it",
+				"it looks better",
+				"it is lighter",
+				"it spins faster"
+			],
+			"explain": "The effort is farther from the pivot, so a smaller push makes the same turning force."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The opener must cost under 5 gold. Wood costs 1.80 gold, rubber 0.90 gold and a screw 0.30 gold. How much under 5 gold is it?",
+			"answer": "2",
+			"hint": "Add the costs, then take them from 5.",
+			"explain": "1.80 + 0.90 + 0.30 = 3 gold, and 5 − 3 = 2 gold under."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "If 'use' counts double, which idea wins?",
+			"answer": 0,
+			"hint": "Double each 'use' score before you add the row.",
+			"choices": [
+				"idea B",
+				"idea A",
+				"idea C"
+			],
+			"explain": "Idea A: 5 + 4 + 4 = 13. Idea B: 3 + 3 + 8 = 14. Idea C: 2 + 4 + 6 = 12. Idea B wins, though A won before.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"idea",
+						"cost",
+						"safety",
+						"use"
+					],
+					[
+						"idea A",
+						"5",
+						"4",
+						"2"
+					],
+					[
+						"idea B",
+						"3",
+						"3",
+						"4"
+					],
+					[
+						"idea C",
+						"2",
+						"4",
+						"3"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Testing with the real user is better than guessing what they need.",
+			"answer": true,
+			"hint": "Who knows the need best?",
+			"explain": "True: the user shows you what works and what does not."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put a presentation in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with the problem.",
+			"items": [
+				"what you would do next",
+				"how you tested it",
+				"your idea, and why",
+				"the user's need"
+			],
+			"explain": "The need, the idea, the testing, then what next."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The prototype opens the jar in 20 seconds, but the specification says under 10. What next?",
+			"answer": 0,
+			"hint": "A failed test is information.",
+			"choices": [
+				"find out why, improve it and test again",
+				"say it passed",
+				"change the specification to 20",
+				"give up"
+			],
+			"explain": "Find out why, improve it and test again: that is how designs get better."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.decision_matrix",
+			"level": 1
+		},
+		{
+			"gen": "g6w.decision_matrix",
+			"level": 2
+		},
+		{
+			"gen": "g6w.decision_matrix",
+			"level": 3
+		}
+	]
+}

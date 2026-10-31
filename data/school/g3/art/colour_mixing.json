@@ -1,0 +1,472 @@
+{
+	"id": "g3.art.colour_mixing",
+	"lesson": [
+		{
+			"text": "Quick memory: what kind of line looks like calm water? (A wavy line.) Today: mixing colours with paint."
+		},
+		{
+			"text": "In painting, the three primary colours are red, yellow and blue. They are the starting colours: mix them in pairs and you get many more.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"red",
+					"yellow",
+					"blue"
+				]
+			}
+		},
+		{
+			"text": "Mix two primary colours to make a secondary colour. Red and yellow make orange.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"red",
+					"+",
+					"yellow",
+					"=",
+					"orange"
+				]
+			}
+		},
+		{
+			"text": "Yellow and blue make green, and blue and red make purple. Orange, green and purple are the secondary colours.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"yellow",
+					"+",
+					"blue",
+					"=",
+					"green"
+				]
+			}
+		},
+		{
+			"text": "A tint is a colour mixed with white: it becomes lighter. Red and white make pink. Add the white a little at a time.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"red",
+					"+",
+					"white",
+					"=",
+					"pink"
+				]
+			}
+		},
+		{
+			"text": "A shade is a colour mixed with black: it becomes darker. Blue and black make dark blue. Black is strong, so add only a tiny bit.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"blue",
+					"+",
+					"black",
+					"=",
+					"dark blue"
+				]
+			}
+		},
+		{
+			"text": "Mix all three primary colours together and you get a muddy brown. Wash your brush in water between colours to keep them bright."
+		},
+		{
+			"text": "Try it in the world: look at the flowers and blocks in your world. Which are primary colours, and which are secondary? Can you find a light tint and a dark shade?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which are the three primary colours in paint?",
+			"answer": 0,
+			"hint": "They are the three starting colours on the colour wheel.",
+			"choices": [
+				"red, yellow and blue",
+				"red, green and purple",
+				"orange, green and purple",
+				"black, white and grey"
+			],
+			"explain": "Red, yellow and blue are the primary colours in paint."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What colour do red and yellow make?",
+			"answer": 0,
+			"hint": "Picture the two paints swirling together. Which colour sits between them on the colour wheel?",
+			"choices": [
+				"orange",
+				"green",
+				"purple",
+				"brown"
+			],
+			"explain": "Red and yellow make orange.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"red",
+					"+",
+					"yellow",
+					"=",
+					"?"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What colour do yellow and blue make?",
+			"answer": 0,
+			"hint": "Picture the two paints swirling together. Which colour sits between them on the colour wheel?",
+			"choices": [
+				"green",
+				"orange",
+				"purple",
+				"pink"
+			],
+			"explain": "Yellow and blue make green.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"yellow",
+					"+",
+					"blue",
+					"=",
+					"?"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What colour do blue and red make?",
+			"answer": 0,
+			"hint": "Picture the two paints swirling together. Which colour sits between them on the colour wheel?",
+			"choices": [
+				"purple",
+				"green",
+				"orange",
+				"grey"
+			],
+			"explain": "Blue and red make purple.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"blue",
+					"+",
+					"red",
+					"=",
+					"?"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Orange, green and purple are secondary colours.",
+			"answer": true,
+			"hint": "Is each one made by mixing two primaries?",
+			"explain": "True: each is two primary colours mixed together."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each pair of paints to the colour it makes.",
+			"items": [
+				"red and yellow",
+				"yellow and blue",
+				"blue and red"
+			],
+			"matches": [
+				"purple",
+				"orange",
+				"green"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Picture each pair swirling together.",
+			"explain": "Red and yellow make orange, yellow and blue make green, blue and red make purple."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which two primary colours make green?",
+			"answer": 0,
+			"hint": "On a colour wheel, green sits between the two that make it.",
+			"choices": [
+				"yellow and blue",
+				"red and yellow",
+				"red and blue"
+			],
+			"explain": "Yellow and blue make green.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"?",
+					"+",
+					"?",
+					"=",
+					"green"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a tint?",
+			"answer": 0,
+			"hint": "A tint is lighter than the colour you started with.",
+			"choices": [
+				"a colour mixed with white",
+				"a colour mixed with black",
+				"two primaries mixed together",
+				"a colour mixed with water only"
+			],
+			"explain": "A tint is a colour mixed with white, so it is lighter."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What do you make when you mix red and white?",
+			"answer": 0,
+			"hint": "White makes a colour lighter.",
+			"choices": [
+				"pink",
+				"dark red",
+				"orange",
+				"purple"
+			],
+			"explain": "Red and white make pink, a tint of red.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"red",
+					"+",
+					"white",
+					"=",
+					"?"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Adding black to a colour makes a shade.",
+			"answer": true,
+			"hint": "Does black make a colour lighter or darker?",
+			"explain": "True: a colour mixed with black is a shade, and it is darker."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these colours: primary or secondary?",
+			"groups": [
+				"primary",
+				"secondary"
+			],
+			"items": [
+				"red",
+				"orange",
+				"blue",
+				"green",
+				"yellow",
+				"purple"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it one of the three starting colours, or mixed from two of them?",
+			"explain": "Primary: red, blue, yellow. Secondary (mixed from two primaries): orange, green, purple."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara mixed blue with black, and now it is far too dark. What should she have done?",
+			"answer": 0,
+			"hint": "Black is very strong.",
+			"choices": [
+				"added only a tiny bit of black",
+				"added more black",
+				"used red instead",
+				"not washed her brush"
+			],
+			"explain": "Black is strong: add only a tiny bit at a time, and check as you go."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What do you add to purple to make lilac, a light purple?",
+			"answer": 0,
+			"hint": "Is lilac lighter or darker than purple?",
+			"choices": [
+				"white",
+				"black",
+				"yellow",
+				"green"
+			],
+			"explain": "Lilac is lighter than purple, so you add white: it is a tint of purple.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"purple",
+					"+",
+					"?",
+					"=",
+					"lilac"
+				]
+			}
+		},
+		{
+			"type": "mix",
+			"level": 1,
+			"prompt": "Mix orange in the bowl: tap the paint pots to add drops.",
+			"hint": "Picture the two paints swirling together. Which colour sits between them on the colour wheel?",
+			"explain": "Orange: red and yellow, the same number of drops of each.",
+			"target": "orange"
+		},
+		{
+			"type": "mix",
+			"level": 1,
+			"prompt": "Mix green in the bowl.",
+			"hint": "Picture the two paints swirling together. Which colour sits between them on the colour wheel?",
+			"explain": "Green: yellow and blue, the same number of drops of each.",
+			"target": "green"
+		},
+		{
+			"type": "mix",
+			"level": 2,
+			"prompt": "Mix purple in the bowl.",
+			"hint": "Picture the two paints swirling together. Which colour sits between them on the colour wheel?",
+			"explain": "Purple: red and blue, the same number of drops of each.",
+			"target": "purple"
+		},
+		{
+			"type": "mix",
+			"level": 2,
+			"prompt": "Make pink, a tint of red, in the bowl.",
+			"hint": "A tint is a colour with white mixed in.",
+			"explain": "Pink: red and white, the same number of drops of each.",
+			"target": "pink"
+		},
+		{
+			"type": "mix",
+			"level": 2,
+			"prompt": "Make dark blue, a shade of blue, in the bowl.",
+			"hint": "A shade is a colour with black mixed in.",
+			"explain": "Dark blue: blue and black, the same number of drops of each.",
+			"target": "dark blue"
+		},
+		{
+			"type": "mix",
+			"level": 3,
+			"prompt": "Make brown in the bowl.",
+			"hint": "Which colour do you get when you mix every primary colour?",
+			"explain": "Brown: red, yellow and blue, all three primary colours together.",
+			"target": "brown"
+		},
+		{
+			"type": "mix",
+			"level": 3,
+			"prompt": "Make light green, a tint of green, in the bowl.",
+			"hint": "First: which two primaries make green? Then: what makes a colour lighter?",
+			"explain": "Light green: yellow and blue make green, and white makes it lighter.",
+			"target": "light green"
+		},
+		{
+			"type": "mix",
+			"level": 3,
+			"prompt": "Make lilac, a light purple, in the bowl.",
+			"hint": "First: which two primaries make purple? Then: what makes a colour lighter?",
+			"explain": "Lilac: red and blue make purple, and white makes it lighter.",
+			"target": "lilac"
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these reds in order, from the lightest to the darkest.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "A tint has white in it; a shade has black in it.",
+			"items": [
+				"red",
+				"pink",
+				"dark red"
+			],
+			"explain": "Pink (red with white, a tint), then red, then dark red (red with black, a shade)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What do you get if you mix all three primary colours together?",
+			"answer": 0,
+			"hint": "Each colour you add makes the paint darker and muddier.",
+			"choices": [
+				"a muddy brown",
+				"a bright white",
+				"a clear yellow",
+				"sky blue"
+			],
+			"explain": "All three primary colours make a muddy brown."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram's green looks too blue. What should he add?",
+			"answer": 0,
+			"hint": "Green is made from two colours. Which one does it need more of?",
+			"choices": [
+				"more yellow",
+				"more blue",
+				"black",
+				"red"
+			],
+			"explain": "Green is yellow and blue. Adding more yellow makes it less blue and more yellowy."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A shade is lighter than the colour you started with.",
+			"answer": false,
+			"hint": "What does black do to a colour?",
+			"explain": "False: a shade has black in it, so it is darker. A tint, with white, is lighter."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3a.mix_colour",
+			"level": 1
+		},
+		{
+			"gen": "g3a.mix_colour",
+			"level": 2
+		},
+		{
+			"gen": "g3a.mix_colour",
+			"level": 3
+		},
+		{
+			"gen": "g3a.mix_paint",
+			"level": 1
+		},
+		{
+			"gen": "g3a.mix_paint",
+			"level": 2
+		},
+		{
+			"gen": "g3a.mix_paint",
+			"level": 3
+		}
+	]
+}

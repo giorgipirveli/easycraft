@@ -1,0 +1,538 @@
+{
+	"id": "bulb_circuit",
+	"title": "How a circuit lights a bulb",
+	"topic": "science",
+	"link": {
+		"unit": "g4.science.circuits"
+	},
+	"scenes": [
+		{
+			"seconds": 8,
+			"background": "lab",
+			"caption": "A bulb lights when electricity can go all the way round a loop.",
+			"say": "A bulb lights up when electricity can flow all the way round a loop, called a circuit.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 0.6,
+					"effect": "pop"
+				},
+				{
+					"at": 4.8,
+					"effect": "ding"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "battery",
+					"at": [
+						110,
+						330
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "bulb",
+					"at": [
+						250,
+						150
+					],
+					"size": 120,
+					"value": 0,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.5
+						},
+						{
+							"do": "value",
+							"at": 4.6,
+							"dur": 0.4,
+							"to": 1
+						}
+					]
+				},
+				{
+					"kind": "line",
+					"from": [
+						60,
+						330
+					],
+					"to": [
+						240,
+						200
+					],
+					"color": "ink",
+					"width": 7,
+					"bend": 70,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.4,
+							"dur": 1.2
+						}
+					]
+				},
+				{
+					"kind": "line",
+					"from": [
+						165,
+						330
+					],
+					"to": [
+						262,
+						200
+					],
+					"color": "ink",
+					"width": 7,
+					"bend": -40,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.8,
+							"dur": 1.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "LIGHT!",
+					"at": [
+						280,
+						60
+					],
+					"size": 34,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 5.0
+						},
+						{
+							"do": "pulse",
+							"at": 5.8
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "lab",
+			"caption": "Electricity flows from the cell, through the bulb, and back.",
+			"say": "The cell pushes electricity out of one end, through the wires and the bulb, and back into its other end.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "picture",
+					"picture": {
+						"kind": "circuit",
+						"parts": [
+							"cell",
+							"bulb"
+						],
+						"lit": true,
+						"names": true
+					},
+					"at": [
+						180,
+						230
+					],
+					"w": 300,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						110,
+						124
+					],
+					"to": [
+						250,
+						124
+					],
+					"color": "orange",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.4,
+							"dur": 0.6
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						346,
+						170
+					],
+					"to": [
+						346,
+						290
+					],
+					"color": "orange",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.2,
+							"dur": 0.6
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						250,
+						336
+					],
+					"to": [
+						110,
+						336
+					],
+					"color": "orange",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 3.0,
+							"dur": 0.6
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						14,
+						290
+					],
+					"to": [
+						14,
+						170
+					],
+					"color": "orange",
+					"width": 7,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 3.8,
+							"dur": 0.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "round and round",
+					"at": [
+						180,
+						400
+					],
+					"size": 24,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.8
+						},
+						{
+							"do": "pulse",
+							"at": 5.8
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "lab",
+			"caption": "A switch makes a gap: open, the bulb goes out; closed, it lights.",
+			"say": "A switch makes a gap in the loop. Open it and the bulb goes out; close it and the bulb lights again.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "ui_tick"
+				},
+				{
+					"at": 4.4,
+					"effect": "ui_tick"
+				},
+				{
+					"at": 4.6,
+					"effect": "ding"
+				}
+			],
+			"actors": [
+				{
+					"kind": "picture",
+					"picture": {
+						"kind": "circuit",
+						"parts": [
+							"cell",
+							"bulb",
+							"switch"
+						],
+						"switch": "open"
+					},
+					"at": [
+						180,
+						230
+					],
+					"w": 340,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "fade",
+							"at": 4.2,
+							"dur": 0.3,
+							"to": 0
+						}
+					]
+				},
+				{
+					"kind": "picture",
+					"picture": {
+						"kind": "circuit",
+						"parts": [
+							"cell",
+							"bulb",
+							"switch"
+						],
+						"switch": "closed",
+						"lit": true
+					},
+					"at": [
+						180,
+						230
+					],
+					"w": 340,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 4.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "OPEN: off",
+					"at": [
+						180,
+						380
+					],
+					"size": 28,
+					"color": "white",
+					"box": "red",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						},
+						{
+							"do": "out",
+							"at": 4.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "CLOSED: on!",
+					"at": [
+						180,
+						380
+					],
+					"size": 28,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.4
+						},
+						{
+							"do": "pulse",
+							"at": 5.2
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8,
+			"background": "lab",
+			"caption": "Metals let electricity through; plastic and wood do not.",
+			"say": "Metals like copper let electricity through. Plastic, wood and rubber do not, and that keeps us safe.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 3.6,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "picture",
+					"picture": {
+						"kind": "circuit",
+						"parts": [
+							"cell",
+							"bulb",
+							"gap"
+						],
+						"gap": "metal spoon",
+						"lit": true
+					},
+					"at": [
+						180,
+						130
+					],
+					"w": 250,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "picture",
+					"picture": {
+						"kind": "circuit",
+						"parts": [
+							"cell",
+							"bulb",
+							"gap"
+						],
+						"gap": "plastic spoon"
+					},
+					"at": [
+						180,
+						320
+					],
+					"w": 250,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "star",
+					"at": [
+						330,
+						110
+					],
+					"size": 40,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "no light",
+					"at": [
+						292,
+						400
+					],
+					"size": 18,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 6,
+			"background": "lab",
+			"caption": "Can you spot things at home that have a circuit inside?",
+			"say": "Can you spot things at home that have a circuit inside?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "bulb",
+					"at": [
+						180,
+						200
+					],
+					"size": 180,
+					"value": 1,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "pulse",
+							"at": 1.2,
+							"times": 2
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "robot",
+					"at": [
+						300,
+						350
+					],
+					"size": 100,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.6,
+							"from": [
+								460,
+								350
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

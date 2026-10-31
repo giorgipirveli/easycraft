@@ -1,0 +1,24 @@
+{
+	"id": "life.world.hills_and_guard_dogs",
+	"lesson": [
+		{"text": "Quick memory: how does a dog say 'leave me alone'? (A stiff body, a hard stare, lips back, a high tail.) Today: the hills, wild animals and guard dogs."},
+		{"text": "In the hills, stay with your group on the path, and make some noise as you walk: animals usually move away from people they can hear."},
+		{"text": "Never feed, follow or go closer to a wild animal. Seen one far away? Stop, stay together, and go back slowly the way you came."},
+		{"text": "Big shepherd dogs guard flocks of sheep. Go far round the flock, slowly. A guard dog runs at you: be a tree, then back away slowly."},
+		{"text": "After a sting, a swelling face or noisy breathing is an allergy emergency: call {number}. Someone with their own pen: a grown-up, or they, use it."},
+		{"text": "Try it in the world: open the practice hills. Then plan a real walk with your grown-ups."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "Walking in the hills, you...", "answer": 0, "choices": ["stay with your group on the path", "wander off alone", "run ahead out of sight"], "hint": "Together is safer.", "explain": "Stay with your group."},
+		{"type": "choice", "level": 1, "prompt": "A fox comes to your picnic. You...", "answer": 0, "choices": ["pack the food away and never feed it", "give it a sandwich", "try to stroke it"], "hint": "Fed animals come back.", "explain": "Never feed wild animals."},
+		{"type": "truefalse", "level": 1, "prompt": "Making some noise on the path helps animals hear you coming.", "answer": true, "hint": "Surprises are the problem.", "explain": "True: they usually move away."},
+		{"type": "choice", "level": 2, "prompt": "Far away you see a bear. You...", "answer": 0, "choices": ["stop and go back slowly with your group", "run away fast", "go closer for a photo"], "hint": "Never run, never closer.", "explain": "Back slowly, together."},
+		{"type": "choice", "level": 2, "prompt": "Passing a flock with guard dogs, you...", "answer": 0, "choices": ["go far round it, slowly", "walk through the middle", "stare at the dogs"], "hint": "The dogs guard the sheep.", "explain": "Far round, slowly."},
+		{"type": "order", "level": 2, "prompt": "A guard dog runs at you: put it in order.", "answer": [1, 0], "items": ["back away slowly, far from the flock", "be a tree"], "hint": "Still first.", "explain": "Be a tree, then back away slowly."},
+		{"type": "truefalse", "level": 2, "prompt": "Guard dogs want to keep you away from their sheep.", "answer": true, "hint": "It's their job.", "explain": "True: go round, far away."},
+		{"type": "sort", "level": 3, "prompt": "Safe in the hills, or not?", "groups": ["safe", "not safe"], "items": ["clapping as you walk", "feeding a wild animal", "staying with the grown-ups", "following a wild animal"], "answer": [0, 1, 0, 1], "hint": "Noise and company help.", "explain": "Noise and staying together are safe."},
+		{"type": "choice", "level": 3, "prompt": "Someone is bitten by a snake. You...", "answer": 0, "choices": ["keep them still and calm and call {number}", "chase the snake", "let them run home"], "hint": "Keep them still.", "explain": "Still, calm, and call."},
+		{"type": "choice", "level": 3, "prompt": "A friend's face swells after a wasp sting. First...", "answer": 0, "choices": ["call {number}: it's an emergency", "wait an hour", "give them crisps"], "hint": "Anaphylaxis is fast.", "explain": "Call {number} straight away."},
+		{"type": "truefalse", "level": 3, "prompt": "Only the person's own auto-injector pen is used for them.", "answer": true, "hint": "It's prescribed for them.", "explain": "True: their own pen."}
+	]
+}

@@ -1,0 +1,371 @@
+{
+	"id": "g7.projects.mini_business",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you priced goods at a market by ratio. If 3 loaves cost 6 gold, what does one cost? (2 gold.) In this project you design a product, price it, make a logo and track your profit and loss."
+		},
+		{
+			"text": "Step 1, the idea: spot a need. Do market research: ask possible customers what they want and what they would pay, and look at what others sell. Find what makes your product different."
+		},
+		{
+			"text": "Step 2, design and prototype it: say, a phone stand cut from plywood on a laser cutter. Make one, test it with customers, and improve it, as in D&T's prototype and improve."
+		},
+		{
+			"text": "Step 3, costs. Fixed costs stay the same however many you make, like the stall or the machine's time. Variable costs grow with each item, like the plywood. Total costs = fixed costs + the cost of one item × the number made."
+		},
+		{
+			"text": "Step 4, the price. Add a markup to the cost of one item: a stand that costs 4 gold to make, with a 50% markup, sells for 4 + 2 = 6 gold. Check what others charge, and what customers will pay."
+		},
+		{
+			"text": "Break-even: each stand sold brings in 6 − 4 = 2 gold towards the fixed costs. If the stall costs 30 gold, then 30 ÷ 2 = 15 stands must be sold to break even. Sell more for a profit; fewer means a loss.",
+			"picture": {
+				"kind": "break_even",
+				"fixed": 30,
+				"cost": 4,
+				"price": 6,
+				"max": 40,
+				"point": true
+			}
+		},
+		{
+			"text": "Step 5, the brand: a name and a simple logo that works small and in one colour (grade 7 art). Add an honest poster with no tricks. Step 6, sell and record: a spreadsheet of sales, takings, costs and profit.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"price",
+						"6"
+					],
+					[
+						"sold",
+						"25"
+					],
+					[
+						"takings",
+						"=B1*B2"
+					],
+					[
+						"costs",
+						"130"
+					],
+					[
+						"profit",
+						"=B3-B4"
+					]
+				],
+				"mark": "B5"
+			}
+		},
+		{
+			"text": "Try it in the world: open your stall in your village: build it, set the price, record every sale and work out your profit. In LIFE, My Money Stall lets you sell, give change and count your takings. Next: in grade 8, an invention expo."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is market research?",
+			"choices": [
+				"finding out what customers want",
+				"buying a market stall",
+				"counting the money",
+				"drawing the logo"
+			],
+			"answer": 0,
+			"hint": "It happens before you make anything.",
+			"explain": "Market research: asking and watching to find out what customers want and would pay."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the costs: fixed or variable?",
+			"groups": [
+				"fixed costs",
+				"variable costs"
+			],
+			"items": [
+				"renting the stall",
+				"paint for each stand",
+				"plywood for each stand",
+				"a gift bag for each sale",
+				"hiring the laser cutter"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1,
+				0
+			],
+			"hint": "Does it grow with every item, or stay the same?",
+			"explain": "Fixed: the stall, the laser cutter's hire. Variable: plywood, paint and a gift bag for each one."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A stand costs 8 gold to make. With a 50% markup, what is its price?",
+			"answer": "12",
+			"hint": "Find 50% of the cost, then add it on.",
+			"explain": "50% of 8 is 4, and 8 + 4 = 12 gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A good logo still works when it is very small and in one colour.",
+			"answer": true,
+			"hint": "Think of a logo on a tiny key ring, printed in black.",
+			"explain": "True: a simple logo stays clear small and in one colour."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"takings",
+				"profit",
+				"loss",
+				"break-even"
+			],
+			"matches": [
+				"takings equal costs",
+				"costs bigger than takings",
+				"takings minus costs",
+				"price × number sold"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Which is money in, and which compare money in with money out?",
+			"explain": "Takings: price × number sold. Profit: takings − costs. Loss: costs bigger. Break-even: they are equal."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "You sell 30 key rings at 3 gold each, and your costs are 50 gold. What is the profit?",
+			"answer": "40",
+			"hint": "Find the takings first, then take away the costs.",
+			"explain": "30 × 3 = 90 gold, and 90 − 50 = 40 gold profit."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The stall costs 40 gold. Each bookmark costs 1 gold to make and sells for 3. How many must be sold to break even?",
+			"answer": "20",
+			"hint": "Each sale pays price − cost towards the stall.",
+			"explain": "3 − 1 = 2 gold each, and 40 ÷ 2 = 20 bookmarks.",
+			"picture": {
+				"kind": "break_even",
+				"fixed": 40,
+				"cost": 1,
+				"price": 3,
+				"max": 50,
+				"point": true,
+				"hide": true
+			}
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Here is half of your logo. Build the other half, so both sides match.",
+			"board": {
+				"cols": 7,
+				"rows": 4,
+				"block": 1,
+				"given": [
+					[
+						1,
+						2
+					],
+					[
+						1,
+						3
+					],
+					[
+						2,
+						1
+					],
+					[
+						2,
+						2
+					],
+					[
+						2,
+						3
+					],
+					[
+						3,
+						0
+					],
+					[
+						3,
+						1
+					],
+					[
+						3,
+						2
+					]
+				],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "mirror",
+				"sum": 6
+			},
+			"hint": "Each block on the left has a twin the same distance to the right of the middle column.",
+			"explain": "Mirror each block across the middle column: column 2 matches column 4, and column 1 matches column 5."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which logo works best on a small key ring?",
+			"choices": [
+				"a simple shape in one bold colour",
+				"a photo with tiny words",
+				"ten colours and fine lines",
+				"a long sentence"
+			],
+			"answer": 0,
+			"hint": "Will it still be clear when it is the size of a coin?",
+			"explain": "A simple, bold shape stays clear when it is tiny."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the business steps in order.",
+			"items": [
+				"sell, record and review",
+				"work out costs and a price",
+				"spot a need and research it",
+				"design and prototype the product",
+				"make the logo and poster"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				4,
+				0
+			],
+			"hint": "Customers first, then the product, the numbers, the brand and the selling.",
+			"explain": "Research the need, design and prototype, cost and price it, brand it, then sell, record and review."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If you sell fewer than the break-even number, you make a loss.",
+			"answer": true,
+			"hint": "What have the sales not yet covered?",
+			"explain": "True: below break-even, the takings do not cover all the costs."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A key ring costs 2 gold to make and sells for 5. The stall costs 45 gold. How many must you sell to break even?",
+			"answer": "15",
+			"hint": "Each sale pays price − cost towards the stall.",
+			"explain": "5 − 2 = 3 gold each, and 45 ÷ 3 = 15 key rings."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You sold 30 stands at 6 gold. Costs: a 30 gold stall and 4 gold for each stand. What is the result?",
+			"choices": [
+				"a profit of 30 gold",
+				"a loss of 30 gold",
+				"a profit of 150 gold",
+				"no profit and no loss"
+			],
+			"answer": 0,
+			"hint": "Takings minus all the costs: the stall and every stand.",
+			"explain": "Takings 30 × 6 = 180; costs 30 + 30 × 4 = 150; 180 − 150 = 30 gold profit."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Your profit was 30 gold on takings of 150 gold. What percentage of the takings is profit?",
+			"answer": "20",
+			"hint": "Profit ÷ takings, then × 100.",
+			"explain": "30 ÷ 150 = 0.2, so 20%."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A stand's price is 8 gold, with 25% off at the end of the day. What is the new price?",
+			"answer": "6",
+			"hint": "Find 25% (a quarter), then take it away.",
+			"explain": "25% of 8 is 2, and 8 − 2 = 6 gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A social enterprise uses its profits to help a good cause.",
+			"answer": true,
+			"hint": "Think of a business set up to do good.",
+			"explain": "True: a social enterprise puts its profits into a good cause."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Work out the value of cell B5.",
+			"answer": "20",
+			"hint": "Work out B3 first, then use it in B5.",
+			"explain": "B3 = 6 × 25 = 150, and B5 = 150 − 130 = 20.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"price",
+						"6"
+					],
+					[
+						"sold",
+						"25"
+					],
+					[
+						"takings",
+						"=B1*B2"
+					],
+					[
+						"costs",
+						"130"
+					],
+					[
+						"profit",
+						"=B3-B4"
+					]
+				],
+				"mark": "B5",
+				"show": "formulas"
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.markup_price",
+			"level": 1
+		},
+		{
+			"gen": "g7w.markup_price",
+			"level": 2
+		},
+		{
+			"gen": "g7w.markup_price",
+			"level": 3
+		},
+		{
+			"gen": "g7w.profit_loss",
+			"level": 1
+		},
+		{
+			"gen": "g7w.profit_loss",
+			"level": 2
+		},
+		{
+			"gen": "g7w.profit_loss",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,385 @@
+{
+	"id": "g4.english.write_report",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3, what did you group under each heading of a fact text? (Facts that belong together.) Today: research a topic yourself and write a report."
+		},
+		{
+			"text": "Research starts with questions: \"What do bats eat? Where do they sleep?\" Then look in a few sources: books, a trusted website, an expert. Use more than one, and check that they agree."
+		},
+		{
+			"text": "Take notes: write only the key words, in your own words, not whole sentences. Then sort your notes into groups: each group becomes a section of your report.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Food",
+						"Homes"
+					],
+					[
+						"moths",
+						"caves"
+					],
+					[
+						"midges",
+						"old barns"
+					],
+					[
+						"beetles",
+						"hollow trees"
+					]
+				]
+			}
+		},
+		{
+			"text": "Use your own words. Copying a writer's sentences and calling them yours is not fair. To use someone's exact words, put them in speech marks and say who said them."
+		},
+		{
+			"text": "A report has a title and an opening that says what it is about. It has sections with headings, facts, examples and new words explained. It has pictures with captions, and a conclusion.",
+			"picture": {
+				"kind": "info_page",
+				"title": "Bats",
+				"heading": "What bats eat",
+				"caption": "A bat hunts moths.",
+				"glossary": [
+					"nocturnal"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Be exact. Not \"bats eat bugs\" but \"bats eat moths, midges and beetles\". Explain special words: \"Bats are nocturnal: they are active at night.\""
+		},
+		{
+			"text": "End with a conclusion that sums up. Then list your sources, the books and websites you used, so that readers can check your facts."
+		},
+		{
+			"text": "Try it in the world: choose an animal from your world, and find three facts about the real one in a book. Build an information board with headings in your village. Next: write a narrative."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should you do before you start your research?",
+			"hint": "What do you want to find out?",
+			"explain": "Questions tell you what to look for: \"What do bats eat? Where do they sleep?\"",
+			"choices": [
+				"write the questions you want to answer",
+				"write the conclusion",
+				"copy a whole book",
+				"draw the cover"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the best way to take notes?",
+			"hint": "Notes are short.",
+			"explain": "Good notes are key words in your own words: quick to write and easy to sort.",
+			"choices": [
+				"key words, in your own words",
+				"copy whole sentences",
+				"write nothing down",
+				"copy the whole page"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A report should have headings that tell what each section is about.",
+			"hint": "How do readers find what they need?",
+			"explain": "True: headings help readers find each part.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a heading for a report about bats?",
+			"hint": "A heading names what a section is about.",
+			"explain": "\"What Bats Eat\" tells readers what that section is about.",
+			"choices": [
+				"What Bats Eat",
+				"Once Upon a Time",
+				"The End",
+				"Dear Grandma"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where do you list the books and websites you used?",
+			"hint": "Readers may want to check your facts.",
+			"explain": "A list of sources at the end shows where your facts came from.",
+			"choices": [
+				"in a list of sources at the end",
+				"in the title",
+				"in the first sentence",
+				"nowhere"
+			],
+			"answer": 0
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort Zara's notes about bats into two sections.",
+			"hint": "Is it something bats eat, or somewhere they live?",
+			"explain": "Food: moths, midges and beetles. Homes: caves, old barns and hollow trees.",
+			"groups": [
+				"Food",
+				"Homes"
+			],
+			"items": [
+				"caves",
+				"moths",
+				"hollow trees",
+				"midges",
+				"old barns",
+				"beetles"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				1,
+				0
+			]
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the parts of a report in order.",
+			"hint": "What does the reader see first, and what comes at the very end?",
+			"explain": "The title, the opening, sections with headings, the conclusion, then the list of sources.",
+			"items": [
+				"sections with headings",
+				"the opening",
+				"the title",
+				"the list of sources",
+				"the conclusion"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				4,
+				3
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which sentence explains a special word?",
+			"hint": "Look for a word and what it means.",
+			"explain": "It explains nocturnal: active at night.",
+			"choices": [
+				"Bats are nocturnal: they are active at night.",
+				"Bats are amazing.",
+				"Bats live in many places.",
+				"I like bats."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "It is fine to copy whole paragraphs from a book and call them your own.",
+			"hint": "Whose words are they?",
+			"explain": "False: use your own words. To use a writer's exact words, put them in speech marks and name the writer.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why use more than one source?",
+			"hint": "What if one book has a mistake?",
+			"explain": "Two or three sources that agree make you surer that the facts are right.",
+			"choices": [
+				"to check that the facts agree",
+				"to make the report longer",
+				"because one is always wrong",
+				"to copy more"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the most exact sentence?",
+			"hint": "Which one names exactly what bats eat?",
+			"explain": "It names the exact food: much more useful than \"stuff\".",
+			"choices": [
+				"Bats eat moths, midges and beetles.",
+				"Bats eat stuff.",
+				"Bats eat some things.",
+				"Bats like food."
+			],
+			"answer": 0
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part of a report to what it is.",
+			"hint": "Where does each one appear in a report?",
+			"explain": "A caption goes under a picture, a heading names a section, a glossary explains special words, and a source is where a fact came from.",
+			"items": [
+				"caption",
+				"heading",
+				"glossary",
+				"source"
+			],
+			"matches": [
+				"names a section",
+				"explains special words",
+				"where a fact came from",
+				"words under a picture"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara uses the exact words of a bat expert. What must she do?",
+			"hint": "How will readers know whose words they are?",
+			"explain": "Speech marks show that they are someone else's exact words, and naming the expert gives the credit.",
+			"choices": [
+				"put them in speech marks and name the expert",
+				"say they are her own words",
+				"change one word and keep them",
+				"write them in capital letters"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two books disagree about how long a bat lives. What should Bram do?",
+			"hint": "How can you find out which book is right?",
+			"explain": "A third trusted source can show which fact is right.",
+			"choices": [
+				"check a third source he can trust",
+				"pick the bigger number",
+				"make up a number",
+				"leave out every fact"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the best conclusion for a report about bats?",
+			"hint": "A conclusion sums up the report's main idea.",
+			"explain": "It sums up what the report showed about bats.",
+			"choices": [
+				"Bats are clever night hunters, worth protecting.",
+				"Once upon a time, there was a bat.",
+				"What Bats Eat",
+				"I had toast for breakfast."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Every website is a trusted source.",
+			"hint": "Who wrote it, and why?",
+			"explain": "False: check who wrote a website and why. Museums, zoos and science groups are more trusted than a random page.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The source says: \"Bats rest by day in dark roosts, such as caves and roof spaces.\" Which is the best note?",
+			"hint": "A note is short, with only the key words.",
+			"explain": "\"rest by day: caves, roofs\" keeps the key facts in a few words of your own.",
+			"choices": [
+				"rest by day: caves, roofs",
+				"Bats rest by day in dark roosts, such as caves.",
+				"bats",
+				"the source is long"
+			],
+			"answer": 0
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of a research project in order.",
+			"hint": "You cannot sort your notes before you take them.",
+			"explain": "Questions, sources, notes, sorting, then writing.",
+			"items": [
+				"sort the notes into groups",
+				"find two or three sources",
+				"take notes in key words",
+				"ask your questions",
+				"write the report"
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0,
+				4
+			]
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each note about bats to its section heading.",
+			"items": [
+				"moths and beetles",
+				"caves and barns",
+				"active at night",
+				"flies using echoes"
+			],
+			"matches": [
+				"How Bats Find Food",
+				"What Bats Eat",
+				"When Bats Are Busy",
+				"Where Bats Live"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Ask which question each note answers: what, where, when or how?",
+			"explain": "Moths and beetles: What Bats Eat. Caves and barns: Where Bats Live. Active at night: When Bats Are Busy. Using echoes: How Bats Find Food."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort them: a trusted source for bat facts, or not?",
+			"groups": [
+				"trusted source",
+				"not trusted"
+			],
+			"items": [
+				"a book by a bat scientist",
+				"a zoo's website",
+				"a joke page",
+				"an advert for a bat toy",
+				"a bat expert you ask"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Who made it, and do they know about bats, or do they want to sell you something?",
+			"explain": "Trusted: a bat scientist's book, a zoo's website and a bat expert. Not trusted: a joke page and an advert, which are made to amuse or to sell."
+		}
+	],
+	"generators": []
+}

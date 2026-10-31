@@ -1,0 +1,274 @@
+{
+	"id": "g4.citizenship.ways_to_pay",
+	"lesson": [
+		{
+			"text": "Quick memory: where were the first coins made? (In Lydia, about 2,600 years ago.) Paper money was first used in China over 1,000 years ago. Today we can also pay with cards and phones."
+		},
+		{
+			"text": "Cash is coins and notes. You can see it and count it, and you know when it is gone. But it can be lost, and you need the right amount, or change.",
+			"picture": {
+				"kind": "icon",
+				"picture": "coin"
+			}
+		},
+		{
+			"text": "Money in a bank is kept safe and written as a number in your account. That number is your balance. It is real money, even though you can't hold it."
+		},
+		{
+			"text": "A debit card takes money straight from your bank account when you pay, often with a tap. A credit card borrows money from the bank, which must be paid back, sometimes with extra called interest."
+		},
+		{
+			"text": "A phone or a watch can hold a copy of a card, so you pay by holding it near the reader. Online, people pay with card numbers or apps. All of these move real money from one account to another."
+		},
+		{
+			"text": "Worked example: Zara has 20 gold in her account. She taps her card to pay 6.50 gold, then 3.75 gold. 20 − 6.50 = 13.50, then 13.50 − 3.75 = 9.75 gold left, though no coins moved.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "6.50",
+								"size": 650
+							},
+							{
+								"text": "3.75",
+								"size": 375
+							},
+							{
+								"text": "left 9.75",
+								"size": 975
+							}
+						],
+						"total": "20 gold"
+					}
+				]
+			}
+		},
+		{
+			"text": "Keep payments safe: never tell anyone your PIN or passwords. Only buy online with a grown-up's permission, and check your balance so you know what you have spent. In games, ask a grown-up first."
+		},
+		{
+			"text": "Try it in the world: keep a spending record on a sign beside your chest: write the gold you start with, each thing you buy, and what is left. Next: helping your community."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is cash?",
+			"answer": 0,
+			"hint": "It is money you can hold.",
+			"choices": [
+				"coins and notes",
+				"a bank card",
+				"a phone app",
+				"a shopping list"
+			],
+			"explain": "Cash is coins and notes: money you can see and hold."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Paying by card uses real money.",
+			"answer": true,
+			"hint": "Where does the money come from when you tap a card?",
+			"explain": "True: a card moves real money out of a bank account, even though no coins change hands."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who should you tell your PIN to?",
+			"answer": 0,
+			"hint": "A PIN is a secret number.",
+			"choices": [
+				"nobody",
+				"your best friend",
+				"anyone who asks",
+				"people online"
+			],
+			"explain": "Nobody: a PIN is secret. With it, someone else could spend your money."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is your bank balance?",
+			"answer": 0,
+			"hint": "It is a number the bank keeps for you.",
+			"choices": [
+				"how much money is in your account",
+				"a kind of card",
+				"a scale for weighing coins",
+				"a bank's building"
+			],
+			"explain": "Your balance is the amount of money in your account."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: true of cash, or true of a card?",
+			"groups": [
+				"cash",
+				"card"
+			],
+			"items": [
+				"you can see the coins go",
+				"tap to pay",
+				"you may need change",
+				"needs a secret PIN",
+				"can fall out of a pocket",
+				"takes money from an account"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which do you hold in your hand, and which is linked to a bank?",
+			"explain": "Cash: you see it go, you may need change, and it can be lost. Card: tap to pay, a PIN, money from an account."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these ways of paying in the order they began.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Think from the first farmers to today.",
+			"items": [
+				"coins",
+				"bank cards",
+				"swapping goods (barter)",
+				"paper money",
+				"phone payments"
+			],
+			"explain": "Barter first, then coins (Lydia), paper money (China), bank cards, and phone payments most recently."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each way to pay to how it works.",
+			"items": [
+				"cash",
+				"debit card",
+				"credit card",
+				"phone"
+			],
+			"matches": [
+				"money from your account",
+				"borrowed from the bank",
+				"a copy of a card",
+				"coins and notes"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Which one borrows?",
+			"explain": "Cash is coins and notes; a debit card takes from your account; a credit card borrows; a phone holds a copy of a card."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Mimi has 15 gold in her account and pays 4.50 gold by card. How much is left, in gold?",
+			"answer": "10.50",
+			"hint": "Take the payment away from the balance.",
+			"explain": "15 − 4.50 = 10.50 gold left."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why can it be easy to spend too much with a card?",
+			"answer": 0,
+			"hint": "Think of watching coins leave your hand.",
+			"choices": [
+				"you don't see the money go",
+				"cards are free money",
+				"cards cost nothing",
+				"shops give cards away"
+			],
+			"explain": "With a card you don't see coins leave, so it is easy to lose track. Checking your balance helps."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What must happen after you pay with a credit card?",
+			"answer": 0,
+			"hint": "A credit card borrows money.",
+			"choices": [
+				"the borrowed money must be paid back",
+				"nothing ever",
+				"the shop pays you",
+				"the card is thrown away"
+			],
+			"explain": "The bank lent the money, so it must be paid back, sometimes with extra called interest."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara has 30 gold in her account. She pays 12.40 gold by card and 7.60 gold by phone. How much is left?",
+			"answer": "10",
+			"hint": "Take away one payment at a time, or add the payments first.",
+			"explain": "12.40 + 7.60 = 20, and 30 − 20 = 10 gold left."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A game asks you to pay for extra gems. What should you do?",
+			"answer": 0,
+			"hint": "Remember the safety rule for buying online.",
+			"choices": [
+				"ask a grown-up first",
+				"type in a card number you found",
+				"pay quickly",
+				"ask a stranger to pay"
+			],
+			"explain": "Always ask a grown-up first. Never pay online, or share card details, without permission."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Money in a bank account is not real, because you can't hold it.",
+			"answer": false,
+			"hint": "Can you spend it?",
+			"explain": "False: it is real money, kept safe by the bank and moved by cards and phones."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where was paper money first used?",
+			"answer": 0,
+			"hint": "Over 1,000 years ago, in the land where the Shang once ruled.",
+			"choices": [
+				"in China",
+				"in Lydia",
+				"in Kush",
+				"in the Indus Valley"
+			],
+			"explain": "Paper money was first used in China, over 1,000 years ago."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4h.change_due",
+			"level": 1
+		},
+		{
+			"gen": "g4h.change_due",
+			"level": 2
+		},
+		{
+			"gen": "g4h.change_due",
+			"level": 3
+		}
+	]
+}

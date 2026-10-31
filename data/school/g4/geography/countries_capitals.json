@@ -1,0 +1,369 @@
+{
+	"id": "g4.geography.countries_capitals",
+	"lesson": [
+		{
+			"text": "Quick memory: how many continents are there, and which is the biggest? (7, and Asia.) Each continent except Antarctica is split into countries. Today: countries and their capital cities."
+		},
+		{
+			"text": "A country is a land with its own government, laws and borders. There are about 195 countries in the world. The biggest is Russia, in Europe and Asia. The smallest is Vatican City, inside the city of Rome."
+		},
+		{
+			"text": "Every country has a capital city, where its government meets and its leaders work. On many maps a capital has its own symbol, such as a star or a dot in a square."
+		},
+		{
+			"text": "Here is one country and its capital from six continents. Antarctica has no countries of its own: scientists from many countries work there.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"continent",
+						"country",
+						"capital"
+					],
+					[
+						"Africa",
+						"Egypt",
+						"Cairo"
+					],
+					[
+						"Asia",
+						"Japan",
+						"Tokyo"
+					],
+					[
+						"Europe",
+						"France",
+						"Paris"
+					],
+					[
+						"North America",
+						"Canada",
+						"Ottawa"
+					],
+					[
+						"South America",
+						"Brazil",
+						"Brasilia"
+					],
+					[
+						"Australia",
+						"Australia",
+						"Canberra"
+					]
+				]
+			}
+		},
+		{
+			"text": "A capital is not always the biggest city. Australia's biggest city is Sydney, but its capital is Canberra. Canada's is Ottawa, not Toronto, and Brazil built a brand-new capital, Brasilia, in the 1950s.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60,
+				"points": [
+					{
+						"lat": -35,
+						"long": 149,
+						"label": "Canberra"
+					},
+					{
+						"lat": 45,
+						"long": -76,
+						"label": "Ottawa"
+					},
+					{
+						"lat": -16,
+						"long": -48,
+						"label": "Brasilia"
+					}
+				]
+			}
+		},
+		{
+			"text": "Africa has 54 countries, more than any other continent. Asia has the most people: China and India each have about 1,400 million people."
+		},
+		{
+			"text": "Finding a country: Kenya is in east Africa, on the Equator, beside the Indian Ocean. Its capital is Nairobi. Knowing the continent, an ocean and a line like the Equator helps you find a country fast.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 30,
+				"lines": [
+					"tropics"
+				],
+				"points": [
+					{
+						"lat": -1,
+						"long": 37,
+						"label": "Nairobi"
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: choose a capital for your own world, build a meeting hall there, and mark it with a star on a signpost. Next: a closer look at Europe."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a capital city?",
+			"answer": 0,
+			"hint": "Think of where a country's leaders work.",
+			"choices": [
+				"the city where a country's government meets",
+				"the biggest city in every country",
+				"a city built on a hill",
+				"any city with a river"
+			],
+			"explain": "A capital is where a country's government meets. It is not always the biggest city."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the biggest country in the world?",
+			"answer": 0,
+			"hint": "It reaches across two continents.",
+			"choices": [
+				"Russia",
+				"Vatican City",
+				"France",
+				"Kenya"
+			],
+			"explain": "Russia is the biggest country; it stretches across Europe and Asia."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Paris is the capital of France.",
+			"answer": true,
+			"hint": "Look at the table.",
+			"explain": "True: Paris is the capital of France."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which continent has no countries of its own?",
+			"answer": 0,
+			"hint": "It is covered in ice, and scientists stay there for a while.",
+			"choices": [
+				"Antarctica",
+				"Africa",
+				"Asia",
+				"Europe"
+			],
+			"explain": "Antarctica has no countries of its own; scientists from many countries work there."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each country to its capital.",
+			"items": [
+				"Japan",
+				"Egypt",
+				"Canada",
+				"Kenya"
+			],
+			"matches": [
+				"Cairo",
+				"Ottawa",
+				"Nairobi",
+				"Tokyo"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Use the table and the worked example.",
+			"explain": "Japan: Tokyo. Egypt: Cairo. Canada: Ottawa. Kenya: Nairobi."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these countries by continent.",
+			"groups": [
+				"Africa",
+				"Asia",
+				"South America"
+			],
+			"items": [
+				"Egypt",
+				"Japan",
+				"Brazil",
+				"Kenya",
+				"India",
+				"Peru"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Egypt and Kenya are on the same continent, crossed by the Equator.",
+			"explain": "Africa: Egypt and Kenya. Asia: Japan and India. South America: Brazil and Peru."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The capital of Australia is Sydney.",
+			"answer": false,
+			"hint": "Is the biggest city always the capital?",
+			"explain": "False: Sydney is the biggest city, but the capital is Canberra."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which continent has the most countries?",
+			"answer": 0,
+			"hint": "It is a huge continent crossed by the Equator.",
+			"choices": [
+				"Africa, with 54",
+				"Europe",
+				"South America",
+				"Australia"
+			],
+			"explain": "Africa has 54 countries, more than any other continent."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "About how many countries are there in the world?",
+			"answer": 0,
+			"hint": "It is more than a hundred but fewer than a thousand.",
+			"choices": [
+				"about 195",
+				"about 20",
+				"about 1,000",
+				"exactly 7"
+			],
+			"explain": "There are about 195 countries."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did Brazil build Brasilia in the 1950s?",
+			"answer": 0,
+			"hint": "Most of Brazil's big cities were along the coast.",
+			"choices": [
+				"to have a new capital in the middle of Brazil",
+				"because Rio de Janeiro sank",
+				"to hold a big sports event",
+				"because Brazil had no cities"
+			],
+			"explain": "Brazil moved its capital inland, to Brasilia, to help the middle of the country grow. Before, the capital was Rio de Janeiro, on the coast."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which country's capital is Ottawa?",
+			"answer": 0,
+			"hint": "It is the second-biggest country in the world, north of the United States.",
+			"choices": [
+				"Canada",
+				"the United States",
+				"Mexico",
+				"Brazil"
+			],
+			"explain": "Ottawa is the capital of Canada. Canada's biggest city is Toronto."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the smallest country in the world?",
+			"answer": 0,
+			"hint": "It is a tiny country inside a capital city.",
+			"choices": [
+				"Vatican City",
+				"Russia",
+				"Iceland",
+				"Japan"
+			],
+			"explain": "Vatican City, inside Rome, is the smallest country in the world."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "There are about 195 countries, and 54 of them are in Africa. About how many countries are not in Africa?",
+			"answer": "141",
+			"hint": "Take Africa's countries away from the total.",
+			"explain": "195 − 54 = 141 countries outside Africa."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Knowing a country's continent and a nearby ocean helps you find it on a map.",
+			"answer": true,
+			"hint": "Remember how we found Kenya.",
+			"explain": "True: Kenya is in Africa, on the Equator, by the Indian Ocean. Clues like these narrow the search."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the capital cities by continent.",
+			"groups": [
+				"Europe",
+				"Asia",
+				"Africa"
+			],
+			"items": [
+				"Paris",
+				"Tokyo",
+				"Cairo",
+				"Rome",
+				"New Delhi",
+				"Nairobi"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the country each capital belongs to, then its continent.",
+			"explain": "Europe: Paris (France) and Rome (Italy). Asia: Tokyo (Japan) and New Delhi (India). Africa: Cairo (Egypt) and Nairobi (Kenya)."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Each of these countries' capitals is not its biggest city. Match each country to its capital.",
+			"items": [
+				"Australia",
+				"Canada",
+				"Brazil"
+			],
+			"matches": [
+				"Ottawa",
+				"Brasilia",
+				"Canberra"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Card 4 names three capitals that are not the biggest city.",
+			"explain": "Australia's capital is Canberra (not Sydney), Canada's is Ottawa (not Toronto), and Brazil's is Brasilia, built in the 1950s (not Rio de Janeiro)."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4h.world_capital",
+			"level": 1
+		},
+		{
+			"gen": "g4h.world_capital",
+			"level": 2
+		},
+		{
+			"gen": "g4h.world_capital",
+			"level": 3
+		}
+	]
+}

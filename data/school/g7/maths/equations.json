@@ -1,0 +1,181 @@
+{
+	"id": "g7.maths.equations",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, expressions. Expand 3(x + 2). Multiply both terms: 3x + 6."
+		},
+		{
+			"text": "A two-step equation needs two moves: 3x + 5 = 20. First take 5 from both sides: 3x = 15. Then divide by 3: x = 5.",
+			"picture": {
+				"kind": "op_chain",
+				"start": "?",
+				"ops": [
+					"× 3",
+					"+ 5"
+				],
+				"end": "20",
+				"back": true
+			}
+		},
+		{
+			"text": "Undo in reverse order: undo adding and taking away first, then multiplying and dividing."
+		},
+		{
+			"text": "Check by putting the answer back in: 3 × 5 + 5 = 20. Correct!"
+		},
+		{
+			"text": "Word problems: \"A taxi charges 4 coins plus 2 coins a km; the ride cost 20 coins\" gives 2k + 4 = 20, so k = 8 km.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "2k",
+								"size": 16
+							},
+							{
+								"text": "4",
+								"size": 4
+							}
+						],
+						"total": "20 coins"
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: you have 5 gold and earn 3 gold a quest. How many quests until you have 20 gold? 3q + 5 = 20, so q = 5. Next: inequalities."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Solve: 2x + 3 = 11. What is x?",
+			"answer": "4",
+			"hint": "Take 3, then divide by 2.",
+			"explain": "2x = 8, x = 4."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Solve: 5x − 4 = 21. What is x?",
+			"answer": "5",
+			"hint": "Add 4, then divide by 5.",
+			"explain": "5x = 25, x = 5."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "x = 3 solves 4x + 1 = 13.",
+			"answer": true,
+			"hint": "Put 3 in.",
+			"explain": "4 × 3 + 1 = 13."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Solve: x ÷ 3 + 2 = 7. What is x?",
+			"answer": "15",
+			"hint": "Take 2, then multiply by 3.",
+			"explain": "x ÷ 3 = 5, x = 15."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A taxi charges 4 coins plus 2 coins a km. A ride cost 20 coins. How many km?",
+			"answer": "8",
+			"hint": "2k + 4 = 20.",
+			"explain": "2k = 16, k = 8."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Solve: 3(x + 2) = 21. What is x?",
+			"answer": "5",
+			"hint": "Divide by 3 first.",
+			"explain": "x + 2 = 7, x = 5."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Solve: −3x + 4 = 19. What is x?",
+			"answer": "-5",
+			"hint": "Take 4, then divide by −3.",
+			"explain": "Take 4 from both sides: −3x = 15. Divide both sides by −3: x = −5. Check: −3 × −5 + 4 = 19."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Solve: 0.5x − 2 = 6. What is x?",
+			"answer": "16",
+			"hint": "Add 2, then divide by 0.5.",
+			"explain": "Add 2 to both sides: 0.5x = 8. Half of x is 8, so x = 8 ÷ 0.5 = 16. Check: 0.5 × 16 − 2 = 6."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each equation to its answer.",
+			"items": [
+				"2x + 3 = 11",
+				"5x − 4 = 21",
+				"x ÷ 3 + 2 = 7",
+				"3x + 5 = 20"
+			],
+			"matches": [
+				"x = 15",
+				"x = 5, again",
+				"x = 4",
+				"x = 5"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Undo the adding or taking away first, then the multiplying or dividing.",
+			"explain": "2x + 3 = 11 gives x = 4; 5x − 4 = 21 gives x = 5; x ÷ 3 + 2 = 7 gives x = 15; 3x + 5 = 20 gives x = 5 again."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps to solve 4x − 7 = 13.",
+			"items": [
+				"Divide both sides by 4: x = 5.",
+				"Add 7 to both sides: 4x = 20.",
+				"Check: 4 × 5 − 7 = 13."
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Undo the taking away first, then the multiplying, then check.",
+			"explain": "Add 7 (4x = 20), divide by 4 (x = 5), then check: 20 − 7 = 13."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "3 friends each buy a ticket and a 2-coin snack. Together they pay 27 coins. Write an equation and solve it: what does one ticket cost?",
+			"answer": "7",
+			"hint": "Each friend pays (t + 2). Three of them pay 27.",
+			"explain": "3(t + 2) = 27. Divide both sides by 3: t + 2 = 9. Take 2 from both sides: t = 7 coins. Check: 3 × 9 = 27."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7n.two_step",
+			"level": 1
+		},
+		{
+			"gen": "g7n.two_step",
+			"level": 2
+		},
+		{
+			"gen": "g7n.two_step",
+			"level": 3
+		}
+	]
+}

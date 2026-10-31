@@ -1,0 +1,370 @@
+{
+	"id": "g6.design_tech.food_science",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you cooked a seasonal dish. What do you do with your hands before cooking? (Wash them with soap and water.) Today: food science: why food goes off, and how cooking changes food."
+		},
+		{
+			"text": "Food goes off when bacteria, moulds and yeasts grow on it. They need food, water, warmth and time. Some bacteria cause food poisoning, even when the food looks and smells fine."
+		},
+		{
+			"text": "In warm food, some bacteria can split in two every 20 minutes: 1 becomes 2, then 4, then 8. After just 2 hours, 1 bacterium could become 64.",
+			"picture": {
+				"kind": "microbe_split",
+				"steps": 3
+			}
+		},
+		{
+			"text": "The danger zone is above 5 °C and below 63 °C: bacteria grow fastest there, best of all near 37 °C. A fridge keeps food at 0 to 5 °C; a freezer, at −18 °C or colder, stops them growing but does not kill them.",
+			"picture": {
+				"kind": "food_thermo"
+			}
+		},
+		{
+			"text": "Cook food until it is steaming hot all through: a food probe in the middle (the core) should read at least 75 °C. Keep hot food above 63 °C, and cool leftovers and put them in the fridge within 2 hours."
+		},
+		{
+			"text": "Store food safely: raw meat on the bottom shelf of the fridge, so it cannot drip onto other food. 'Use by' dates are about safety: never eat food after them. 'Best before' dates are about quality.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Fridge shelf",
+						"Food"
+					],
+					[
+						"top",
+						"ready-to-eat food"
+					],
+					[
+						"middle",
+						"dairy"
+					],
+					[
+						"bottom",
+						"raw meat"
+					]
+				]
+			}
+		},
+		{
+			"text": "Cooking changes food. Heat sets proteins: a runny egg turns solid. Starch soaks up water and swells, so sauces thicken and rice softens. Browning adds flavour, as bread toasts and sugar caramelises."
+		},
+		{
+			"text": "Try it in the world: build a kitchen with a fridge, a freezer and a sign of the food zones. For real: with a grown-up, check the fridge's temperature and which shelf each food is on. Next: cook a balanced meal on a budget."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do bacteria need to grow?",
+			"answer": 0,
+			"hint": "Think of why the fridge slows them down.",
+			"choices": [
+				"food, water, warmth and time",
+				"cold and dryness",
+				"only light",
+				"salt and ice"
+			],
+			"explain": "Food, water, warmth and time."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The thermometer reads 4 °C. Which zone is that?",
+			"answer": 0,
+			"hint": "Find the pointer and the zone above it.",
+			"choices": [
+				"fridge",
+				"danger zone",
+				"freezer",
+				"hot"
+			],
+			"explain": "4 °C is in the fridge zone: 0 to 5 °C.",
+			"picture": {
+				"kind": "food_thermo",
+				"value": 4
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Freezing kills all the bacteria in food.",
+			"answer": false,
+			"hint": "Do bacteria grow again when food thaws?",
+			"explain": "False: freezing stops them growing, but many survive and grow again when the food warms."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where should raw meat go in the fridge?",
+			"answer": 0,
+			"hint": "What could drip down onto other food?",
+			"choices": [
+				"on the bottom shelf",
+				"on the top shelf",
+				"in the door",
+				"next to the salad"
+			],
+			"explain": "The bottom shelf, so its juices cannot drip onto other food."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "One bacterium splits in two every 20 minutes. How many are there after 80 minutes?",
+			"answer": "16",
+			"hint": "Count the lots of 20 minutes, and double that many times.",
+			"explain": "80 minutes is 4 lots of 20: 1, 2, 4, 8, 16.",
+			"picture": {
+				"kind": "microbe_split",
+				"steps": 4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Cooked rice has cooled to 30 °C on the worktop. Which zone is it in?",
+			"answer": 0,
+			"hint": "Is it above 5 °C and below 63 °C?",
+			"choices": [
+				"danger zone",
+				"fridge",
+				"freezer",
+				"hot"
+			],
+			"explain": "30 °C is in the danger zone: cool it quickly and put it in the fridge.",
+			"picture": {
+				"kind": "food_thermo",
+				"value": 30
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each one to what it means.",
+			"items": [
+				"use by",
+				"best before",
+				"freezer",
+				"fridge"
+			],
+			"matches": [
+				"quality: best before then",
+				"−18 °C or colder",
+				"0 to 5 °C",
+				"safety: never eat after it"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Two labels, two places to store food.",
+			"explain": "Use by: safety. Best before: quality. Freezer: −18 °C or colder. Fridge: 0 to 5 °C."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Food can look and smell fine and still have harmful bacteria.",
+			"answer": true,
+			"hint": "Can you see bacteria?",
+			"explain": "True: that is why we follow dates, temperatures and hygiene, not just our noses."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does a sauce made with flour thicken as it heats?",
+			"answer": 0,
+			"hint": "Flour is mostly starch.",
+			"choices": [
+				"the starch soaks up water and swells",
+				"the water turns to ice",
+				"the flour melts like chocolate",
+				"air gets in"
+			],
+			"explain": "The starch grains soak up the liquid and swell, so the sauce thickens."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these from coldest to hottest.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Numbers below 0 are the coldest.",
+			"items": [
+				"cooked food: 75 °C",
+				"body temperature: 37 °C",
+				"fridge: 4 °C",
+				"freezer: −18 °C"
+			],
+			"explain": "−18, then 4, then 37, then 75 °C."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "One bacterium splits in two every 20 minutes. How many could there be after 2 hours?",
+			"answer": "64",
+			"hint": "2 hours is 120 minutes: how many lots of 20?",
+			"explain": "120 minutes is 6 lots of 20: 2, 4, 8, 16, 32, 64."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A probe in soup kept hot on a stove reads 70 °C. Which zone is it in?",
+			"answer": 0,
+			"hint": "Is it 63 °C or more?",
+			"choices": [
+				"hot",
+				"danger zone",
+				"fridge",
+				"freezer"
+			],
+			"explain": "70 °C is hot: above 63 °C, so bacteria cannot grow.",
+			"picture": {
+				"kind": "food_thermo",
+				"value": 70
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A probe in the middle of a chicken reads 68 °C, so it is cooked safely.",
+			"answer": false,
+			"hint": "What should the core reach?",
+			"explain": "False: the middle must reach at least 75 °C."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why should leftovers go into the fridge within 2 hours?",
+			"answer": 0,
+			"hint": "Think of the doubling bacteria.",
+			"choices": [
+				"so bacteria have little time in the danger zone",
+				"so they taste warmer",
+				"so the fridge fills up",
+				"so they freeze"
+			],
+			"explain": "The less time food spends in the danger zone, the fewer bacteria can grow."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Today is 10 March. Which one must go in the bin?",
+			"answer": 0,
+			"hint": "Only 'use by' is about safety. Is its date already past?",
+			"choices": [
+				"yoghurt: use by 8 March",
+				"biscuits: best before 5 March",
+				"milk: use by 12 March",
+				"pasta: best before 1 April"
+			],
+			"explain": "The yoghurt: its 'use by' date has passed. The biscuits are past 'best before', which is about quality only."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does an egg go from runny to solid when it is cooked?",
+			"answer": 0,
+			"hint": "Eggs are full of protein.",
+			"choices": [
+				"heat sets the proteins",
+				"the water freezes",
+				"the shell melts",
+				"the sugar caramelises"
+			],
+			"explain": "Heat changes the proteins so they set, and they cannot go back."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the food temperatures by zone.",
+			"groups": [
+				"fridge",
+				"danger zone",
+				"hot and safe"
+			],
+			"items": [
+				"3 °C",
+				"20 °C",
+				"70 °C",
+				"5 °C",
+				"37 °C",
+				"80 °C"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Fridge: 0 to 5 °C. Danger zone: above 5 and below 63 °C. Hot: above 63 °C.",
+			"explain": "Fridge: 3 °C and 5 °C. Danger zone: 20 °C and 37 °C, where bacteria grow fastest. Hot and safe: 70 °C and 80 °C, above 63 °C."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put a safe chicken dinner in order.",
+			"items": [
+				"Wash your hands with soap.",
+				"Cook until the core reads 75 °C.",
+				"Cool leftovers and chill within 2 hours.",
+				"Keep raw chicken on the bottom shelf."
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think about storing, preparing, cooking and then the leftovers.",
+			"explain": "Store raw chicken on the bottom shelf so it cannot drip. Wash your hands before cooking. Cook until the core reads at least 75 °C. Then cool the leftovers and chill them within 2 hours."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.food_zone",
+			"level": 1
+		},
+		{
+			"gen": "g6w.food_zone",
+			"level": 2
+		},
+		{
+			"gen": "g6w.food_zone",
+			"level": 3
+		},
+		{
+			"gen": "g6w.microbe_double",
+			"level": 1
+		},
+		{
+			"gen": "g6w.microbe_double",
+			"level": 2
+		},
+		{
+			"gen": "g6w.microbe_double",
+			"level": 3
+		},
+		{
+			"gen": "g6w.date_check",
+			"level": 1
+		},
+		{
+			"gen": "g6w.date_check",
+			"level": 2
+		},
+		{
+			"gen": "g6w.date_check",
+			"level": 3
+		}
+	]
+}

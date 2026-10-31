@@ -1,0 +1,328 @@
+{
+	"id": "g8.english.strongest_evidence",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you read closely. What is an inference? (A conclusion you reach from clues in the text and what you already know.) Today: choose the evidence that proves your point best."
+		},
+		{
+			"text": "When you make a claim about a text, back it with evidence: a short quote, or a close paraphrase. But not all evidence is equal. Some proves your claim, some only hints at it, and some proves nothing.",
+			"picture": {
+				"kind": "balance_scale",
+				"left": [
+					"exact words",
+					"about the claim"
+				],
+				"right": [
+					"a vague summary",
+					"off the point"
+				],
+				"left_name": "strong",
+				"right_name": "weak",
+				"tilt": "left",
+				"title": "weighing evidence"
+			}
+		},
+		{
+			"text": "The strongest evidence is relevant, about your claim; specific, the exact words, not a vague summary; and hard to read any other way. Weak evidence could prove something else too."
+		},
+		{
+			"text": "Read: “Kofi checked the knot three times before he let the boat drift out.” Claim: Kofi is careful. The words “checked the knot three times” prove it best. “He let the boat drift out” says nothing about care."
+		},
+		{
+			"text": "Some claims are explicit: the text says them in so many words. Others are inferences, read between the lines. For an inference, pick the detail that points to it most clearly. What a character does can outweigh what they say."
+		},
+		{
+			"text": "Read: “Sam shrugged and said the test didn't matter. Then he read his notes on the bus, at lunch and in the queue.” Claim: Sam wants to do well. His words say no, but his actions say yes: they are the stronger evidence."
+		},
+		{
+			"text": "Several pieces of evidence can build a case, but one precise quote beats three loose ones. Keep quotes short, then explain the link: point, evidence, explain. Evidence never speaks for itself.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"make your point",
+					"give the evidence",
+					"explain how it proves it"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: when a friend says a story's hero is brave, ask which exact words prove it best. Then try it on a book you are reading. Next: dialogue and incidents."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Read: “Lena's voice shook as she read out her poem, and she gripped the paper with both hands.” Claim: Lena is nervous. Which words prove it best?",
+			"choices": [
+				"“Lena's voice shook”",
+				"“she read out her poem”",
+				"“the paper”"
+			],
+			"answer": 0,
+			"hint": "Which words show a feeling, rather than just what happened?",
+			"explain": "“Lena's voice shook” shows her nerves directly; reading a poem out or holding paper could happen with any feeling."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A vague summary is stronger evidence than a text's exact words.",
+			"answer": false,
+			"hint": "Which is easier to check against the text?",
+			"explain": "False: exact words are specific and can be checked; a vague summary may hide what the text really says."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Claim: the storm was frightening. Sort the evidence.",
+			"groups": [
+				"supports the claim",
+				"does not"
+			],
+			"items": [
+				"“the house was painted blue”",
+				"“the shutters banged all night”",
+				"“even the dog hid under the bed”",
+				"“it was a Tuesday”"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Does each quote show fear or danger?",
+			"explain": "Banging shutters and a hiding dog show how frightening the storm was; the paint and the day of the week say nothing about it."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Read: “Mo yawned, rubbed his eyes and sat down heavily.” Which of these is an inference, not explicit?",
+			"choices": [
+				"Mo is tired.",
+				"Mo yawned.",
+				"Mo sat down."
+			],
+			"answer": 0,
+			"hint": "Which one did you have to work out from clues?",
+			"explain": "“Mo yawned” and “Mo sat down” are in the text; that he is tired is worked out from those clues."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"claim",
+				"evidence",
+				"inference",
+				"explicit"
+			],
+			"matches": [
+				"words that back it up",
+				"what you argue is true",
+				"said in so many words",
+				"worked out from clues"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Two words are about arguing, and two are about how a text says things.",
+			"explain": "A claim is what you argue; evidence backs it up; an inference is worked out from clues; explicit means said in so many words."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Read: “It was a warm spring. By June the wells ran dry and the cattle had to be moved away.” Claim: the drought was severe. Which words prove it best?",
+			"choices": [
+				"“the wells ran dry”",
+				"“It was a warm spring”",
+				"“By June”"
+			],
+			"answer": 0,
+			"hint": "Which words show how bad things became?",
+			"explain": "Dry wells show the drought was severe; a warm spring and a month name prove nothing about how bad it was."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Claim: Jo loves music. Order the evidence from the weakest to the strongest.",
+			"items": [
+				"“Jo hums sometimes”",
+				"“Jo practises piano every morning before school”",
+				"“Jo has a radio”"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Which shows the most time, effort and feeling for music?",
+			"explain": "Owning a radio proves little; humming shows some interest; practising every morning before school shows real love for music."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Claim: Tom is generous. Which evidence is strongest?",
+			"choices": [
+				"“Tom gave his last sandwich to a friend”",
+				"“Tom said he likes sharing”",
+				"“Tom has lots of sandwiches”"
+			],
+			"answer": 0,
+			"hint": "Do actions or words prove more? And which one costs Tom something?",
+			"explain": "Giving away his last sandwich costs him something, so it proves generosity best; saying he likes sharing is weaker."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Read: “At noon the baker hung up a sign saying closed, then wiped her eyes.” Sort the statements.",
+			"groups": [
+				"said (explicit)",
+				"inferred"
+			],
+			"items": [
+				"Something sad has happened.",
+				"She is upset.",
+				"She closed at noon.",
+				"She hung up a sign."
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Find each one in the text's own words; if you had to work it out, it is inferred.",
+			"explain": "The sign and the time are in the text. That she is upset, and that something sad has happened, come from the clue of her wiping her eyes."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "One precise quote can be stronger than three loose ones.",
+			"answer": true,
+			"hint": "Is evidence about how much you give, or how well it proves the point?",
+			"explain": "True: one exact, relevant quote proves a point better than several that only hint at it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Claim: Nia is kind. Evidence: “she gives up her seat on the bus”. Which sentence explains it best?",
+			"choices": [
+				"It shows kindness: she puts others first.",
+				"This quote is from page 4.",
+				"This is a good quote.",
+				"The bus was busy."
+			],
+			"answer": 0,
+			"hint": "Explaining says how the evidence proves the point.",
+			"explain": "“It shows kindness: she puts others first” links the action to the claim; the others do not explain anything."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Read: “Grandma never said she missed Grandpa. But every evening she set out two cups.” Claim: Grandma misses Grandpa. Which words prove it best?",
+			"choices": [
+				"“every evening she set out two cups”",
+				"“Grandma never said she missed Grandpa”",
+				"“every evening”"
+			],
+			"answer": 0,
+			"hint": "What she does may say more than what she says.",
+			"explain": "Setting out two cups every evening shows she still thinks of him; what she says points the other way, so her actions are the stronger evidence."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the paragraph in order: point, evidence, explain.",
+			"items": [
+				"He “checked the knot three times”.",
+				"Checking three times shows he takes no risks.",
+				"Kofi is careful with the boat."
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Start with what you claim, then prove it, then explain how.",
+			"explain": "First the point: Kofi is careful. Then the evidence: he “checked the knot three times”. Then the explanation: checking three times shows he takes no risks, so the quote proves the point."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Claim: the town was proud of its new bridge. Sort the evidence.",
+			"groups": [
+				"strong evidence",
+				"weak evidence"
+			],
+			"items": [
+				"“it rained that day”",
+				"“the river is wide”",
+				"“crowds cheered as it opened”",
+				"“people called it the town's jewel”",
+				"“its picture went on the town's flag”",
+				"“the bridge was made of steel”"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				0,
+				1
+			],
+			"hint": "Which quotes show a feeling about the bridge, and which only describe things?",
+			"explain": "Cheering crowds, the flag and “the town's jewel” show pride. Steel, rain and a wide river are facts that prove nothing about pride."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "To prove an inference about a character, what they do can be stronger evidence than what they say.",
+			"answer": true,
+			"hint": "People sometimes say one thing and do another.",
+			"explain": "True: actions often show true feelings. When words and actions disagree, as when Ana says she does not care but polishes her trainers, the actions usually prove more."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Claim: the narrator feels left out. Which quote is strongest?",
+			"choices": [
+				"“nobody saved me a seat”",
+				"“the hall was noisy”",
+				"“I sat down”"
+			],
+			"answer": 0,
+			"hint": "Which quote is directly about being left out?",
+			"explain": "“Nobody saved me a seat” shows the narrator was not included. A noisy hall could go with any feeling, and sitting down shows no feeling at all, so both are weak."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8k.evidence_pick",
+			"level": 1
+		},
+		{
+			"gen": "g8k.evidence_pick",
+			"level": 2
+		},
+		{
+			"gen": "g8k.evidence_pick",
+			"level": 3
+		},
+		{
+			"gen": "g8k.evidence_kind",
+			"level": 1
+		},
+		{
+			"gen": "g8k.evidence_kind",
+			"level": 2
+		},
+		{
+			"gen": "g8k.evidence_kind",
+			"level": 3
+		}
+	]
+}

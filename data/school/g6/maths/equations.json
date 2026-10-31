@@ -1,0 +1,203 @@
+{
+	"id": "g6.maths.equations",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, equivalent expressions. Is 3(x + 4) the same as 3x + 12? Yes, for every x."
+		},
+		{
+			"text": "An equation says two things are equal: x + 7 = 12. Solving it means finding the x that makes it true: x = 5."
+		},
+		{
+			"text": "Keep it balanced: do the same to both sides. Undo + with −, − with +, × with ÷ and ÷ with ×. 3x = 21, so x = 21 ÷ 3 = 7.",
+			"picture": {
+				"kind": "op_chain",
+				"start": "?",
+				"ops": [
+					"× 3"
+				],
+				"end": "21",
+				"back": true
+			}
+		},
+		{
+			"text": "An inequality shows a range: x > 5 means any number greater than 5. ≥ means \"greater than or equal to\"; ≤ means \"less than or equal to\".",
+			"picture": {
+				"kind": "inequality_line",
+				"from": 0,
+				"to": 10,
+				"step": 1,
+				"at": 5,
+				"sign": ">"
+			}
+		},
+		{
+			"text": "\"At least 8 players\" is p ≥ 8. \"Fewer than 20 seats\" is s < 20."
+		},
+		{
+			"text": "Try it in the world: a boat holds at most 6 players. Write it: p ≤ 6. Then load a boat in your world and check. Next: variables that change together."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Solve: x + 9 = 15. What is x?",
+			"answer": "6",
+			"hint": "Take 9 from both sides.",
+			"explain": "15 − 9 = 6."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Solve: 4x = 28. What is x?",
+			"answer": "7",
+			"hint": "Divide both sides by 4.",
+			"explain": "28 ÷ 4 = 7."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "x = 3 makes x + 4 = 7 true.",
+			"answer": true,
+			"hint": "Put 3 in place of x.",
+			"explain": "Yes: 3 + 4 = 7."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Solve: x − 12 = 30. What is x?",
+			"answer": "42",
+			"hint": "Add 12 to both sides.",
+			"explain": "30 + 12 = 42."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Solve: x ÷ 5 = 9. What is x?",
+			"answer": "45",
+			"hint": "Multiply both sides by 5.",
+			"explain": "9 × 5 = 45."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which value makes x < 4 true?",
+			"answer": 0,
+			"hint": "Less than 4, not equal.",
+			"choices": [
+				"3",
+				"4",
+				"6"
+			],
+			"explain": "3 is less than 4."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A lift can carry at most 8 people. Which inequality fits?",
+			"answer": 0,
+			"hint": "At most includes 8.",
+			"choices": [
+				"p ≤ 8",
+				"p < 8",
+				"p ≥ 8"
+			],
+			"explain": "At most 8 means 8 is allowed, but not 9: p ≤ 8. p < 8 would leave out the 8th person, and p ≥ 8 would mean 8 or more."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Solve: 6x = 21. What is x?",
+			"answer": "3.5",
+			"hint": "Divide 21 by 6.",
+			"explain": "Undo × 6 with ÷ 6: x = 21 ÷ 6. 6 goes into 21 three times with 3 left, and 3 ÷ 6 = 0.5, so x = 3.5. Check: 6 × 3.5 = 21.",
+			"accept": [
+				"7/2"
+			]
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each phrase to its inequality.",
+			"items": [
+				"at least 8 players",
+				"fewer than 20 seats",
+				"at most 6 people",
+				"more than 5"
+			],
+			"matches": [
+				"p ≤ 6",
+				"x > 5",
+				"p ≥ 8",
+				"s < 20"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "At least means ≥; fewer than means <; at most means ≤; more than means >.",
+			"explain": "At least 8: p ≥ 8. Fewer than 20: s < 20. At most 6: p ≤ 6. More than 5: x > 5."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Which values make x ≥ 4 true?",
+			"items": [
+				"3",
+				"4",
+				"7",
+				"0",
+				"4.5"
+			],
+			"groups": [
+				"true",
+				"not true"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Greater than or equal to 4: 4 itself counts.",
+			"explain": "4, 7 and 4.5 are 4 or more. 3 and 0 are less than 4."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A rope is cut into 6 equal pieces, each 2.5 m long. Write an equation and solve it: how long was the rope, in metres?",
+			"answer": "15",
+			"hint": "Call the rope r. Cutting into 6 pieces is dividing by 6.",
+			"explain": "r ÷ 6 = 2.5. Undo dividing by 6 by multiplying by 6: r = 2.5 × 6 = 15 m. Check: 15 ÷ 6 = 2.5."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6a.solve_one_step",
+			"level": 1
+		},
+		{
+			"gen": "g6a.solve_one_step",
+			"level": 2
+		},
+		{
+			"gen": "g6a.solve_one_step",
+			"level": 3
+		},
+		{
+			"gen": "g6a.inequality",
+			"level": 1
+		},
+		{
+			"gen": "g6a.inequality",
+			"level": 2
+		},
+		{
+			"gen": "g6a.inequality",
+			"level": 3
+		}
+	]
+}

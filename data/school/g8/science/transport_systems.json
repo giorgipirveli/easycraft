@@ -1,0 +1,435 @@
+{
+	"id": "g8.science.transport_systems",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you followed blood round a double loop. Where does the blood go to pick up oxygen? (To the lungs.) Today: how materials travel through plants and through your body."
+		},
+		{
+			"text": "Small living things get what they need by diffusion: substances spread from where there is a lot to where there is little. Big plants and animals are too large for diffusion alone, so they carry materials in tubes."
+		},
+		{
+			"text": "In plants, xylem tubes carry water and minerals up from the roots to the leaves. Water gets in through root hair cells. Phloem tubes carry the sugars made in the leaves to every part, up and down.",
+			"picture": {
+				"kind": "plant_transport",
+				"labels": true
+			}
+		},
+		{
+			"text": "Water evaporates from the leaves through tiny pores called stomata. This is transpiration, and it pulls a stream of water up the xylem, like a drink through a straw. It is fastest on hot, dry, windy days.",
+			"picture": {
+				"kind": "plant_transport",
+				"show": "xylem"
+			}
+		},
+		{
+			"text": "The heart is two pumps side by side, with four chambers. The atria at the top collect blood; the ventricles below pump it out. The right side pumps blood to the lungs, the left side to the body. Valves stop blood flowing backwards.",
+			"picture": {
+				"kind": "heart_chambers",
+				"labels": true,
+				"parts": [
+					"right atrium",
+					"left atrium",
+					"right ventricle",
+					"left ventricle",
+					"aorta"
+				],
+				"flow": true
+			}
+		},
+		{
+			"text": "Arteries carry blood away from the heart at high pressure, so their walls are thick. Veins bring it back, with valves inside. Capillaries are one cell thick, so substances pass in and out. Red blood cells carry oxygen; plasma carries dissolved food.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"vessel",
+						"feature",
+						"why"
+					],
+					[
+						"artery",
+						"thick walls",
+						"high pressure"
+					],
+					[
+						"vein",
+						"valves",
+						"no flowing back"
+					],
+					[
+						"capillary",
+						"one cell thick",
+						"easy to pass"
+					]
+				]
+			}
+		},
+		{
+			"text": "In the lungs, air reaches millions of tiny air sacs, the alveoli, wrapped in capillaries. Oxygen diffuses into the blood; carbon dioxide diffuses out. Breathed-out air has less oxygen (about 16%, not 21%) and more carbon dioxide (about 4%).",
+			"picture": {
+				"kind": "air_sac"
+			}
+		},
+		{
+			"text": "Try it in the world: in Little Lifesaver in the LIFE tab, CPR pushes on the chest so the heart moves blood to the brain. In Medical Emergencies, an inhaler opens narrowed airways, so air reaches the air sacs. Next: genes and heredity."
+		}
+	],
+	"exercises": [
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label the plant's transport parts.",
+			"picture": {
+				"kind": "plant_transport",
+				"pins": true
+			},
+			"labels": [
+				"xylem",
+				"phloem",
+				"root hairs",
+				"stomata"
+			],
+			"hint": "Water goes up from the roots in one tube; sugars go both ways in the other.",
+			"explain": "Root hairs take in water; the xylem carries it up; stomata let water vapour out of the leaf; the phloem carries sugars up and down.",
+			"spots": [
+				[
+					0.6347,
+					0.91,
+					0.5256,
+					0.6199
+				],
+				[
+					0.4039,
+					0.91,
+					0.4039,
+					0.7664
+				],
+				[
+					0.6409,
+					0.09,
+					0.6409,
+					0.4267
+				],
+				[
+					0.5193,
+					0.91,
+					0.4744,
+					0.5
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do xylem tubes carry?",
+			"choices": [
+				"water and minerals, up from the roots",
+				"sugars, up and down",
+				"oxygen down to the roots",
+				"blood"
+			],
+			"answer": 0,
+			"hint": "Think about what the roots take in from the soil.",
+			"explain": "Xylem carries water and minerals from the roots up to the leaves."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Phloem carries sugars both up and down a plant.",
+			"answer": true,
+			"hint": "Where are sugars made, and where are they needed?",
+			"explain": "True: sugars made in the leaves go up to buds and fruits, and down to roots and stores."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each part of the blood to its job.",
+			"items": [
+				"red blood cells",
+				"white blood cells",
+				"platelets",
+				"plasma"
+			],
+			"matches": [
+				"fight germs",
+				"carry oxygen",
+				"carries dissolved food",
+				"help blood to clot"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Two are cells with different jobs, one helps at a cut, and one is the liquid.",
+			"explain": "Red blood cells carry oxygen; white blood cells fight germs; platelets help blood to clot at a cut; plasma is the liquid that carries dissolved food."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The left side of the heart pumps blood to the lungs.",
+			"answer": false,
+			"hint": "Which side has to send blood all round the body?",
+			"explain": "False: the right side pumps blood to the lungs; the left side pumps it to the whole body."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the heart's four chambers. Remember: the person's right is on the picture's left.",
+			"picture": {
+				"kind": "heart_chambers",
+				"pins": true,
+				"flow": false,
+				"parts": [
+					"right atrium",
+					"left atrium",
+					"right ventricle",
+					"left ventricle"
+				]
+			},
+			"labels": [
+				"right atrium",
+				"left atrium",
+				"right ventricle",
+				"left ventricle"
+			],
+			"hint": "The atria are the top chambers; the person's right side is on your left as you face them.",
+			"explain": "Top left on the picture is the right atrium and top right the left atrium; below them are the right and left ventricles.",
+			"spots": [
+				[
+					0.5577,
+					0.09,
+					0.5576,
+					0.4201
+				],
+				[
+					0.4552,
+					0.91,
+					0.4552,
+					0.6066
+				],
+				[
+					0.5706,
+					0.91,
+					0.5448,
+					0.6199
+				],
+				[
+					0.4424,
+					0.09,
+					0.4424,
+					0.4201
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the blood's route in order, starting from the body.",
+			"items": [
+				"the pulmonary artery",
+				"the vena cava",
+				"the right atrium",
+				"the lungs",
+				"the right ventricle"
+			],
+			"answer": [
+				1,
+				2,
+				4,
+				0,
+				3
+			],
+			"hint": "Blood from the body comes into the right side, at the top.",
+			"explain": "The vena cava, the right atrium, the right ventricle, the pulmonary artery, then the lungs to pick up oxygen."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: a job of the xylem, or of the phloem?",
+			"groups": [
+				"xylem",
+				"phloem"
+			],
+			"items": [
+				"feeds growing buds",
+				"carries sugars to the roots",
+				"carries water up",
+				"carries minerals from the soil",
+				"carries sugars to fruits",
+				"is pulled up by transpiration"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Water and minerals travel one way; sugars go where they are needed.",
+			"explain": "The xylem carries water and minerals up, pulled by transpiration. The phloem carries sugars to roots, fruits and buds."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Breathed-in air is about 21% oxygen and breathed-out air about 16%. How many percentage points of the air does the body take in as oxygen?",
+			"answer": "5",
+			"hint": "Take the breathed-out share away from the breathed-in share.",
+			"explain": "21 − 16 = 5 percentage points of the air's oxygen go into the blood."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are capillary walls only one cell thick?",
+			"choices": [
+				"so substances pass in and out easily",
+				"so blood moves faster",
+				"to hold high pressure",
+				"to stop blood flowing back"
+			],
+			"answer": 0,
+			"hint": "Think about what happens between the blood and the cells around it.",
+			"explain": "A thin wall means a short distance to diffuse, so oxygen and food pass out and wastes pass in easily."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "On a hot, windy day, what happens to transpiration?",
+			"choices": [
+				"it speeds up",
+				"it stops",
+				"it slows down"
+			],
+			"answer": 0,
+			"hint": "Think about washing drying on a line on a day like that.",
+			"explain": "Water evaporates faster from the leaves when it is hot, dry and windy, so transpiration speeds up and more water is pulled up."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "You take 15 breaths a minute of 500 mL each, and your body keeps about 5% of each breath as oxygen. How many mL of oxygen does it take in a minute?",
+			"answer": "375",
+			"hint": "Find the oxygen from one breath first, then multiply by the breaths.",
+			"explain": "5% of 500 mL = 25 mL a breath; 25 × 15 = 375 mL of oxygen a minute."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does the left ventricle have the thickest wall in the heart?",
+			"choices": [
+				"it pumps blood all round the body",
+				"it holds the most blood",
+				"it pumps blood to the lungs",
+				"it has no valves"
+			],
+			"answer": 0,
+			"hint": "Which chamber has to push blood the furthest?",
+			"explain": "The left ventricle must push blood to every part of the body, far away, so it has the most muscle."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each vessel to its feature.",
+			"items": [
+				"arteries",
+				"veins",
+				"capillaries"
+			],
+			"matches": [
+				"one cell thick",
+				"thick walls, high pressure",
+				"valves, back to the heart"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Think about the pressure each one carries and where it goes.",
+			"explain": "Arteries have thick walls for the high pressure from the heart; veins have valves and bring blood back; capillaries are one cell thick, so substances pass through."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The alveoli give the lungs a huge surface for gas exchange.",
+			"answer": true,
+			"hint": "Why have millions of tiny sacs instead of one big bag?",
+			"explain": "True: millions of tiny sacs give a surface of about 70 m², so lots of oxygen can diffuse into the blood at once."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order oxygen's journey from the air to a body cell.",
+			"items": [
+				"an alveolus",
+				"a bronchus",
+				"a capillary",
+				"the nose or mouth",
+				"the windpipe",
+				"a body cell"
+			],
+			"answer": [
+				3,
+				4,
+				1,
+				0,
+				2,
+				5
+			],
+			"hint": "Follow the air down the airways, then into the blood, then out to a cell.",
+			"explain": "Air goes in by the nose or mouth, down the windpipe and a bronchus to an alveolus; oxygen diffuses into a capillary, and the blood carries it to a body cell."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8k.transport_route",
+			"level": 1
+		},
+		{
+			"gen": "g8k.transport_route",
+			"level": 2
+		},
+		{
+			"gen": "g8k.transport_route",
+			"level": 3
+		},
+		{
+			"gen": "g8k.transport_job",
+			"level": 1
+		},
+		{
+			"gen": "g8k.transport_job",
+			"level": 2
+		},
+		{
+			"gen": "g8k.transport_job",
+			"level": 3
+		},
+		{
+			"gen": "g8k.air_in_out",
+			"level": 1
+		},
+		{
+			"gen": "g8k.air_in_out",
+			"level": 2
+		},
+		{
+			"gen": "g8k.air_in_out",
+			"level": 3
+		}
+	]
+}

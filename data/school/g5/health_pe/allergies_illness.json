@@ -1,0 +1,374 @@
+{
+	"id": "g5.health_pe.allergies_illness",
+	"lesson": [
+		{
+			"text": "Quick memory: how long should you wash your hands with soap? (About 20 seconds.) Washing stops germs spreading. Today: allergies, and how to stay well."
+		},
+		{
+			"text": "An allergy is when the body's defences react to something harmless as if it were a danger. That something is called an allergen. Common allergens: pollen, dust mites, pet hair, insect stings and some foods."
+		},
+		{
+			"text": "Foods that often cause allergies include peanuts, tree nuts, milk, eggs, fish, shellfish, wheat, sesame and soya. In the UK, 14 allergens must be shown on food labels, often in bold.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"allergen",
+						"found in"
+					],
+					[
+						"peanuts",
+						"peanut butter"
+					],
+					[
+						"milk",
+						"cheese, yoghurt"
+					],
+					[
+						"pollen",
+						"grass, trees"
+					]
+				]
+			}
+		},
+		{
+			"text": "A mild reaction can be sneezing, itchy eyes, a runny nose or an itchy rash. Hay fever is an allergy to pollen. Tell an adult: medicines called antihistamines can help."
+		},
+		{
+			"text": "A severe reaction, anaphylaxis, is an emergency: swelling of the face or throat, trouble breathing, or feeling faint. Call 999 at once. If the person has an adrenaline auto-injector, it must be used straight away.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Mild reaction",
+						"Severe reaction"
+					],
+					[
+						"sneezing",
+						"a swollen throat"
+					],
+					[
+						"itchy eyes",
+						"trouble breathing"
+					],
+					[
+						"a rash",
+						"feeling faint"
+					]
+				]
+			}
+		},
+		{
+			"text": "Asthma makes the airways narrow, so breathing is hard. Triggers include dust, pollen, cold air and smoke. In an attack, help the person sit up, use their reliever inhaler (usually blue), and get an adult; call 999 if it does not help."
+		},
+		{
+			"text": "Stay well: wash your hands, catch coughs and sneezes in a tissue, and sleep, eat and move well. Vaccines protect against some diseases. Antibiotics kill bacteria, but not the viruses that cause colds."
+		},
+		{
+			"text": "Try it in the world: build a school kitchen with a board that shows the allergens in each meal. For real: when you feel ill, tell an adult. A high temperature in a child is 38 °C or more."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an allergen?",
+			"answer": 0,
+			"hint": "The word is in the lesson's second card.",
+			"choices": [
+				"something that causes an allergic reaction",
+				"a kind of medicine",
+				"a germ that causes colds",
+				"a doctor for allergies"
+			],
+			"explain": "An allergen is something, like pollen or peanuts, that causes an allergic reaction."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Hay fever is an allergy to pollen.",
+			"answer": true,
+			"hint": "When is hay fever worst, and what is in the air then?",
+			"explain": "True: pollen from grasses, trees and flowers causes hay fever."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each allergen to where it comes from.",
+			"items": [
+				"pollen",
+				"a sting",
+				"pet hair",
+				"dust mites"
+			],
+			"matches": [
+				"a bee or a wasp",
+				"cats and dogs",
+				"dust in the home",
+				"plants and trees"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of where you would find each one.",
+			"explain": "Pollen comes from plants, stings from bees and wasps, pet hair from cats and dogs, dust mites from dust."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a sign of a mild allergic reaction?",
+			"answer": 0,
+			"hint": "Think of hay fever.",
+			"choices": [
+				"sneezing and itchy eyes",
+				"a broken bone",
+				"a sore knee after a fall",
+				"hiccups"
+			],
+			"explain": "Sneezing and itchy eyes are signs of a mild reaction, like hay fever."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is a sign of anaphylaxis, a severe allergic reaction?",
+			"answer": 0,
+			"hint": "Which sign means the body is in danger?",
+			"choices": [
+				"a swollen throat and trouble breathing",
+				"one small sneeze",
+				"a sunburn",
+				"hiccups"
+			],
+			"explain": "Swelling of the face or throat and trouble breathing: call 999 at once."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Someone has signs of anaphylaxis. Put what happens in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Help must come fast: who do you get first?",
+			"items": [
+				"stay with them until help comes",
+				"call 999",
+				"use their auto-injector straight away",
+				"get an adult at once"
+			],
+			"explain": "Get an adult, use their adrenaline auto-injector straight away, call 999, and stay with them."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Antibiotics cure colds.",
+			"answer": false,
+			"hint": "Are colds caused by bacteria or viruses?",
+			"explain": "False: colds are caused by viruses, and antibiotics only kill bacteria."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What colour is a reliever inhaler, used in an asthma attack, usually?",
+			"answer": 0,
+			"hint": "It is the one people carry with them for an attack.",
+			"choices": [
+				"blue",
+				"brown",
+				"red",
+				"green"
+			],
+			"explain": "Blue, usually. A brown one is often a preventer, taken every day."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Helps you stay well, or spreads germs?",
+			"groups": [
+				"helps you stay well",
+				"spreads germs"
+			],
+			"items": [
+				"washing hands before eating",
+				"sneezing into your hand",
+				"coughing into a tissue",
+				"sharing a drink bottle",
+				"getting enough sleep",
+				"not washing hands after the toilet"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which ones stop germs getting from one person to another?",
+			"explain": "Stay well: washing hands, tissues, sleep. Spreads germs: sneezing into hands, sharing bottles, unwashed hands."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are some ingredients written in bold on a food label?",
+			"answer": 0,
+			"hint": "Who needs to spot them quickly?",
+			"choices": [
+				"they are allergens",
+				"they are the tastiest",
+				"they are the cheapest",
+				"they are the biggest"
+			],
+			"explain": "Allergens are shown in bold, so people with allergies can spot them."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "During an asthma attack, what should the person do?",
+			"answer": 0,
+			"hint": "What opens the airways again?",
+			"choices": [
+				"sit up and use their reliever inhaler",
+				"lie flat",
+				"run outside",
+				"drink a fizzy drink"
+			],
+			"explain": "Sit up straight and take their reliever inhaler, and get an adult. Call 999 if it does not help."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In the UK, 14 allergens must be shown on food labels.",
+			"answer": true,
+			"hint": "How many allergens does the lesson say?",
+			"explain": "True: 14 allergens, like milk, eggs, peanuts and sesame, must be shown on labels."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your friend has a nut allergy, and you are sharing snacks. What should you do?",
+			"answer": 0,
+			"hint": "Could even a tiny bit of nut be dangerous?",
+			"choices": [
+				"check the label and ask before sharing",
+				"share anything: a little won't hurt",
+				"pick the nuts out",
+				"keep it a secret"
+			],
+			"explain": "Check the label and ask first: even a tiny amount can cause a reaction."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Normal body temperature is about 37 °C. Bram's temperature is 38.4 °C. How many degrees above 37 °C is that?",
+			"answer": "1.4",
+			"hint": "Take 37 away from 38.4.",
+			"explain": "38.4 − 37 = 1.4 degrees above normal: a high temperature, so tell an adult."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What do vaccines do?",
+			"answer": 0,
+			"hint": "Think about your body's defences.",
+			"choices": [
+				"train your body to fight a disease",
+				"mend a broken arm",
+				"stop you needing sleep",
+				"kill every germ forever"
+			],
+			"explain": "Vaccines train your body's defences to fight a disease, so you do not get very ill from it."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If someone having anaphylaxis has an adrenaline auto-injector, it should be used straight away.",
+			"answer": true,
+			"hint": "Is anaphylaxis a moment to wait and see?",
+			"explain": "True: use it straight away and call 999. It can save a life."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the signs: a mild reaction, or an emergency?",
+			"groups": [
+				"mild",
+				"emergency: call 999"
+			],
+			"items": [
+				"sneezing",
+				"a swollen throat",
+				"itchy eyes",
+				"trouble breathing",
+				"a runny nose",
+				"feeling faint"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Anaphylaxis affects the throat, the breathing, or makes someone feel faint.",
+			"explain": "Mild: sneezing, itchy eyes and a runny nose; tell an adult. Emergency: a swollen throat, trouble breathing or feeling faint are signs of anaphylaxis: call 999 at once."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each problem to the right help.",
+			"items": [
+				"hay fever",
+				"an asthma attack",
+				"anaphylaxis",
+				"a cold"
+			],
+			"matches": [
+				"rest, drinks and tissues",
+				"antihistamines from an adult",
+				"auto-injector and 999",
+				"sit up, blue inhaler"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Think about how serious each one is, and what causes it.",
+			"explain": "Hay fever: an adult may give antihistamines. Asthma: sit up and use the blue reliever. Anaphylaxis: the auto-injector straight away, and 999. A cold is a virus, so antibiotics will not help: rest, drink and use tissues."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.allergen_find",
+			"level": 1
+		},
+		{
+			"gen": "g5w.allergen_find",
+			"level": 2
+		},
+		{
+			"gen": "g5w.allergen_find",
+			"level": 3
+		},
+		{
+			"gen": "g5w.fever_check",
+			"level": 1
+		},
+		{
+			"gen": "g5w.fever_check",
+			"level": 2
+		},
+		{
+			"gen": "g5w.fever_check",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,393 @@
+{
+	"id": "g4.science.sending_messages",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, light and seeing. Why can we see things? Light bounces off them and into our eyes."
+		},
+		{
+			"text": "People have always sent messages far away with patterns: drum beats, puffs of smoke, flashes of light and sounds. Both sides must know the code, so they know what each pattern means.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Signal",
+						"How it travels"
+					],
+					[
+						"drum beats",
+						"sound"
+					],
+					[
+						"puffs of smoke",
+						"sight"
+					],
+					[
+						"lamp flashes",
+						"light"
+					]
+				]
+			}
+		},
+		{
+			"text": "Morse code turns every letter into short and long signals. In the table, • is short and — is long. SOS, the famous call for help, is S, O, S: short-short-short, long-long-long, short-short-short.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"S",
+						"O",
+						"E",
+						"T"
+					],
+					[
+						"• • •",
+						"— — —",
+						"•",
+						"—"
+					]
+				]
+			}
+		},
+		{
+			"text": "Morse code can be sent with a flashing lamp, with beeps of sound or with pulses of electricity along a wire. The pattern is what carries the message."
+		},
+		{
+			"text": "A picture can be sent as numbers too. Split it into a grid of squares. Write 1 for a dark square and 0 for a light one, row by row. The other side paints the squares back.",
+			"picture": {
+				"kind": "pixels",
+				"rows": [
+					"01010",
+					"00000",
+					"10001",
+					"01110"
+				],
+				"digits": true
+			}
+		},
+		{
+			"text": "Phones and computers send everything as long patterns of 1s and 0s: words, pictures, songs and videos. They travel as electric signals, as flashes of light in cables, or as radio waves."
+		},
+		{
+			"text": "Engineers compare codes. A good code is quick to send, hard to muddle and easy to read at the other end. Leaving a gap between letters helps!"
+		},
+		{
+			"text": "In your worlds, a lever can switch a far-away lamp on and off. You and a friend could make a code: one flash for 'all is well', two for 'come and help'. Next: plant and animal parts.",
+			"picture": {
+				"kind": "icon",
+				"block": 28,
+				"count": 2
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "For a code to work, the sender and the receiver must both know it.",
+			"hint": "Could you read a message in a code nobody taught you?",
+			"explain": "Both sides must know what each pattern means, or the message cannot be read.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In Morse code, which is the letter S?",
+			"hint": "S is in SOS, the call for help.",
+			"explain": "S is three short signals: • • •. O is three long ones: — — —.",
+			"choices": [
+				"• • •",
+				"— — —",
+				"• —",
+				"— •"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In this picture code, 1 means a dark square. What does 0 mean?",
+			"hint": "Look at the picture and its numbers.",
+			"explain": "0 means a light square.",
+			"picture": {
+				"kind": "pixels",
+				"rows": [
+					"0110",
+					"1001"
+				],
+				"digits": true
+			},
+			"choices": [
+				"a light square",
+				"a dark square",
+				"the end of the picture",
+				"a red square"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "This picture was sent as 1s and 0s. How many 1s were sent?",
+			"hint": "Each dark square is a 1.",
+			"explain": "There are 5 dark squares, so 5 of the numbers were 1s.",
+			"picture": {
+				"kind": "pixels",
+				"rows": [
+					"010",
+					"111",
+					"010"
+				]
+			},
+			"answer": "5"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does SOS mean in Morse code?",
+			"hint": "Ships in danger send it.",
+			"explain": "SOS is a call for help. Sailors have used it for over a hundred years.",
+			"choices": [
+				"Please help!",
+				"Hello there!",
+				"Goodbye!",
+				"Well done!"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A picture can be sent as a list of 1s and 0s.",
+			"hint": "Think of the grid of squares.",
+			"explain": "Each square becomes a 1 or a 0, and the other side paints the squares back.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do ships flash lights at night instead of shouting?",
+			"hint": "How far does a shout carry? How far can a bright light be seen?",
+			"explain": "A flashing light can be seen far across the dark sea, much further than a shout can be heard.",
+			"choices": [
+				"Light can be seen much further away",
+				"Shouting is not allowed at sea",
+				"Lights are louder than voices",
+				"Fish do not like noise"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Zara and Bram use a lamp code: one flash means 'yes', two flashes mean 'no'. Bram sees two flashes. What is Zara saying?",
+			"hint": "Look up two flashes in their code.",
+			"explain": "Two flashes mean 'no'.",
+			"choices": [
+				"no",
+				"yes",
+				"help",
+				"hello"
+			],
+			"answer": 0
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of sending a picture in order.",
+			"hint": "You need the squares before you can write their numbers.",
+			"explain": "Make the grid, write the numbers, send them, and the other side paints the picture back.",
+			"items": [
+				"Send the numbers.",
+				"Write 1 for dark squares and 0 for light ones.",
+				"Split the picture into a grid of squares.",
+				"Paint the squares back at the other end."
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is a problem with a smoke-signal code?",
+			"hint": "Think about the weather.",
+			"explain": "Wind can scatter the puffs and muddle the message.",
+			"choices": [
+				"Wind can blow the smoke apart",
+				"Smoke is far too loud",
+				"It only works under water",
+				"It needs electric wires"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A drum code uses 1 beat for A, 2 beats for B and 3 beats for C. Which word is 3 beats, 1 beat, 2 beats?",
+			"hint": "Turn each number of beats back into its letter.",
+			"explain": "3 is C, 1 is A and 2 is B: CAB.",
+			"choices": [
+				"CAB",
+				"BAC",
+				"ABC",
+				"CBA"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Morse code can be sent with light, with sound or with electricity.",
+			"hint": "Think of flashes, beeps and wires.",
+			"explain": "Flashing lamps, beeps and electric pulses in wires can all carry it.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why leave a gap between letters in a flash code?",
+			"hint": "Without gaps, where would one letter stop and the next begin?",
+			"explain": "The gaps show where each letter ends, so the message is not muddled.",
+			"choices": [
+				"So the reader knows where each letter ends",
+				"So the lamp can cool down",
+				"So the code looks prettier",
+				"So nobody can read it"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A picture is 8 squares wide and 6 squares tall. How many 1s and 0s does it take to send it?",
+			"hint": "Each square is sent as one number.",
+			"explain": "6 rows of 8 squares: 6 × 8 = 48 numbers.",
+			"answer": "48"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is best for sending a message to a friend on a far hill on a dark night?",
+			"hint": "What can be seen from far away in the dark?",
+			"explain": "A lantern's flashes can be seen from far away in the dark. A drawing, a whisper or a wave would not reach.",
+			"choices": [
+				"flashes of a lantern",
+				"a drawing on paper",
+				"a whisper",
+				"waving your hands"
+			],
+			"answer": 0
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the messages by how they travel.",
+			"groups": [
+				"by light",
+				"by sound",
+				"by electricity"
+			],
+			"items": [
+				"a flashing lamp",
+				"drum beats",
+				"pulses along a wire",
+				"a lighthouse",
+				"a whistle",
+				"a telegraph cable"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Do you see it, hear it, or does it travel along a wire?",
+			"explain": "By light: a flashing lamp and a lighthouse. By sound: drum beats and a whistle. By electricity: pulses along a wire, like a telegraph cable."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In Morse code, S is 3 short signals and O is 3 long ones. How many signals are in SOS?",
+			"answer": "9",
+			"hint": "Count the signals in each letter, then add them.",
+			"explain": "S has 3, O has 3 and S has 3 again: 3 + 3 + 3 = 9 signals, with a gap between the letters."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Bram's lamp code: 1 flash means yes, 2 mean no, 3 mean come and help. Match each pattern to its message.",
+			"items": [
+				"• (1 flash)",
+				"• • (2 flashes)",
+				"• • • (3 flashes)"
+			],
+			"matches": [
+				"come and help",
+				"yes",
+				"no"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Count the flashes, then read the code.",
+			"explain": "1 flash means yes, 2 flashes mean no, and 3 flashes mean come and help. A code only works when both friends know it."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4p.pixel_count",
+			"level": 1
+		},
+		{
+			"gen": "g4p.pixel_count",
+			"level": 2
+		},
+		{
+			"gen": "g4p.pixel_row",
+			"level": 1
+		},
+		{
+			"gen": "g4p.pixel_row",
+			"level": 2
+		},
+		{
+			"gen": "g4p.pixel_row",
+			"level": 3
+		},
+		{
+			"gen": "g4p.pixel_size",
+			"level": 2
+		},
+		{
+			"gen": "g4p.pixel_size",
+			"level": 3
+		},
+		{
+			"gen": "g4p.beat_code",
+			"level": 2
+		},
+		{
+			"gen": "g4p.beat_code",
+			"level": 3
+		},
+		{
+			"gen": "g4p.morse_word",
+			"level": 1
+		},
+		{
+			"gen": "g4p.morse_word",
+			"level": 2
+		},
+		{
+			"gen": "g4p.morse_word",
+			"level": 3
+		}
+	]
+}

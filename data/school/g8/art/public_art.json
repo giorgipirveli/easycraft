@@ -1,0 +1,352 @@
+{
+	"id": "g8.art.public_art",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, what is a mosaic? (A picture made of many small tiles set in grout.) Today: public art, made for everyone to see in shared places."
+		},
+		{
+			"text": "Public art stands where people live: murals on walls, statues in squares, mosaics in stations and memorials in parks. It belongs to a community, so it should speak to the people around it.",
+			"picture": {
+				"kind": "pixel_art",
+				"rows": [
+					"SSSSSYYS",
+					"SSWSSYYS",
+					"SSSSSSSS",
+					"SGGSSSGG",
+					"GGGGSGGG",
+					"LLGGGGLL"
+				],
+				"key": {
+					"S": "light blue",
+					"Y": "yellow",
+					"W": "white",
+					"G": "green",
+					"L": "light green"
+				}
+			}
+		},
+		{
+			"text": "Diego Rivera (1886-1957) painted huge murals of Mexico's history and workers, so that everyone could see art, not only gallery visitors. In 1932-1933 he painted the car workers of Detroit."
+		},
+		{
+			"text": "Monuments mark people and moments. The Statue of Liberty, 46 m tall, was France's gift to the USA in 1886. Christ the Redeemer has looked over Rio de Janeiro since 1931."
+		},
+		{
+			"text": "Designing a mural: talk to the community, agree a message, sketch a small design, and get permission from the wall's owner. Painting someone's wall without permission is against the law.",
+			"picture": {
+				"kind": "grid_enlarge",
+				"rows": [
+					"SSSSYS",
+					"SGSSSS",
+					"GGGGGG"
+				],
+				"key": {
+					"S": "light blue",
+					"Y": "yellow",
+					"G": "green"
+				},
+				"done": 0,
+				"sizes": [
+					"design",
+					"wall"
+				]
+			}
+		},
+		{
+			"text": "Worked example: the grid method. Draw 5 cm squares over a small design and 1 m squares on the wall. Copy one square at a time: 1 m is 100 cm, and 100 ÷ 5 = 20, so each square is 20 times bigger.",
+			"picture": {
+				"kind": "grid_enlarge",
+				"rows": [
+					"SSSSYS",
+					"SGSSSS",
+					"GGGGGG"
+				],
+				"key": {
+					"S": "light blue",
+					"Y": "yellow",
+					"G": "green"
+				},
+				"done": 8,
+				"sizes": [
+					"5 cm",
+					"1 m"
+				]
+			}
+		},
+		{
+			"text": "Paint is planned too. This wall is 6 m by 3 m, so its area is 6 × 3 = 18 m². If a tin covers 10 m², one coat needs 2 tins, rounding up.",
+			"picture": {
+				"kind": "grid_enlarge",
+				"rows": [
+					"SSSSYS",
+					"SGSSSS",
+					"GGGGGG"
+				],
+				"key": {
+					"S": "light blue",
+					"Y": "yellow",
+					"G": "green"
+				},
+				"sizes": [
+					"design",
+					"6 m × 3 m"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: in the game, paint a mural on a wall of blocks with the paint bucket's 16 colours. Copy a small sketch square by square. Next: designing objects."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What makes art public art?",
+			"choices": [
+				"it is in a shared place for everyone",
+				"it is very expensive",
+				"it is painted in oils",
+				"it is kept in a private house"
+			],
+			"answer": 0,
+			"hint": "Who gets to see it, and where?",
+			"explain": "Public art is made for shared places, so everyone can see it."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is fine to paint a mural on any wall without asking.",
+			"answer": false,
+			"hint": "Whose wall is it?",
+			"explain": "False: the owner must give permission; painting without it is against the law."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A design has 5 cm squares; the wall's grid has 1 m squares. How many times bigger is each square?",
+			"answer": "20",
+			"hint": "Turn 1 m into centimetres first.",
+			"explain": "1 m = 100 cm, and 100 ÷ 5 = 20 times bigger."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each kind of public art to what it is.",
+			"items": [
+				"mural",
+				"mosaic",
+				"statue",
+				"memorial"
+			],
+			"matches": [
+				"a picture of small tiles",
+				"a carved or cast figure",
+				"helps people remember",
+				"a painting on a wall"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of where you have seen each one.",
+			"explain": "A mural is painted on a wall, a mosaic is made of tiles, a statue is a figure and a memorial helps people remember."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The painter has copied some squares onto the wall. How many squares are left to paint?",
+			"answer": "5",
+			"picture": {
+				"kind": "grid_enlarge",
+				"rows": [
+					"SYS",
+					"SGS",
+					"GGG"
+				],
+				"key": {
+					"S": "light blue",
+					"Y": "yellow",
+					"G": "green"
+				},
+				"done": 4
+			},
+			"hint": "Count all the squares, then the painted ones.",
+			"explain": "There are 3 × 3 = 9 squares; 4 are painted, so 9 − 4 = 5 are left."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A wall is 6 m by 3 m. What is its area in m²?",
+			"answer": "18",
+			"hint": "Area is length × width.",
+			"explain": "6 × 3 = 18 m²."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A wall of 18 m² needs one coat. A tin covers 10 m². How many tins must you buy?",
+			"answer": "2",
+			"hint": "Divide, then think: can you buy part of a tin?",
+			"explain": "18 ÷ 10 = 1.8, so 1 tin is not enough: buy 2."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps of making a community mural.",
+			"items": [
+				"get the wall owner's permission",
+				"agree the message",
+				"copy it onto the wall with a grid",
+				"sketch a small design",
+				"talk to the community"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "People and ideas first, paint last.",
+			"explain": "Talk, agree the message, sketch, get permission, then copy the design up square by square."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Diego Rivera painted murals so that everyone, not only gallery visitors, could see art.",
+			"answer": true,
+			"hint": "Where did he paint, and who could see it?",
+			"explain": "True: he painted on public walls for everyone."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Does it help a community mural?",
+			"groups": [
+				"helps",
+				"does not help"
+			],
+			"items": [
+				"ideas from local people",
+				"the wall owner's permission",
+				"a design no one has seen",
+				"paint that lasts outdoors",
+				"painting at night without asking"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it bring people in and make it last?",
+			"explain": "Local ideas, permission and lasting paint help; a secret design and painting without asking do not."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A design 30 cm wide is copied with a grid 20 times bigger. How wide is the mural?",
+			"choices": [
+				"6 m",
+				"60 cm",
+				"30 m",
+				"600 m"
+			],
+			"answer": 0,
+			"hint": "Multiply, then change centimetres into metres.",
+			"explain": "30 × 20 = 600 cm, and 600 cm = 6 m."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A design 40 cm by 20 cm is enlarged onto a wall 8 m wide. How tall will the mural be, in metres?",
+			"answer": "4",
+			"hint": "Find how many times bigger first, from the widths.",
+			"explain": "8 m = 800 cm, and 800 ÷ 40 = 20 times. 20 × 20 = 400 cm = 4 m."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A wall 12 m by 4 m needs two coats. A tin covers 10 m². How many tins must you buy?",
+			"answer": "10",
+			"hint": "Find the area for both coats, then divide and round up.",
+			"explain": "12 × 4 = 48 m²; two coats: 96 m²; 96 ÷ 10 = 9.6, so buy 10 tins."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do muralists use a grid?",
+			"choices": [
+				"to copy each part in the right place and size",
+				"to make the paint dry faster",
+				"so the wall looks like a chessboard",
+				"to save paint"
+			],
+			"answer": 0,
+			"hint": "Think of copying a big picture by eye, without help.",
+			"explain": "Each small square is easy to copy right, so the whole design lands in the right place and size."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A 46 m monument made as a 1:100 model would be 46 cm tall.",
+			"answer": true,
+			"hint": "At 1:100 every metre becomes 1 cm.",
+			"explain": "True: 46 m ÷ 100 = 0.46 m, which is 46 cm."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Made to last, or made for a short time?",
+			"groups": [
+				"lasting",
+				"for a short time"
+			],
+			"items": [
+				"a bronze statue",
+				"a chalk drawing on a pavement",
+				"a mosaic in a station",
+				"a sand sculpture on a beach",
+				"a snow sculpture"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "What will rain, sun and time do to it?",
+			"explain": "Bronze and mosaic last; chalk, sand and snow soon wash, blow or melt away."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.grid_scale",
+			"level": 1
+		},
+		{
+			"gen": "g8c.grid_scale",
+			"level": 2
+		},
+		{
+			"gen": "g8c.grid_scale",
+			"level": 3
+		},
+		{
+			"gen": "g8c.paint_tins",
+			"level": 1
+		},
+		{
+			"gen": "g8c.paint_tins",
+			"level": 2
+		},
+		{
+			"gen": "g8c.paint_tins",
+			"level": 3
+		}
+	]
+}

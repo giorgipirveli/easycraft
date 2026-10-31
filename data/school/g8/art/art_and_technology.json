@@ -1,0 +1,364 @@
+{
+	"id": "g8.art.art_and_technology",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4, what is a pixel? (One small square of colour in a picture made on a grid.) Today: how new technology, from the camera to the computer, changed art."
+		},
+		{
+			"text": "A camera obscura is a dark room or box with a small hole. Light from outside passes through and makes an upside-down picture inside. Ibn al-Haytham (about 965-1040) explained how it works.",
+			"picture": {
+				"kind": "camera_obscura",
+				"labels": true
+			}
+		},
+		{
+			"text": "In about 1826 Nicéphore Niépce made the oldest photograph that still exists; it needed hours of light. In 1839 Louis Daguerre showed a faster way, and photography spread round the world.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1820,
+				"to": 2000,
+				"step": 20,
+				"events": [
+					[
+						1826,
+						"first photograph"
+					],
+					[
+						1839,
+						"daguerreotype"
+					],
+					[
+						1878,
+						"Muybridge's horse"
+					],
+					[
+						1895,
+						"first film show"
+					],
+					[
+						1975,
+						"digital camera"
+					]
+				]
+			}
+		},
+		{
+			"text": "Painters no longer had to copy exactly: a camera could. Many tried new things instead. In 1878 Eadweard Muybridge's photos showed a galloping horse with all four hooves off the ground."
+		},
+		{
+			"text": "Film, from 1895, made pictures move. Digital art stores pictures as numbers: raster images as pixels, and vector images as points joined by curves.",
+			"picture": {
+				"kind": "raster_vector",
+				"view": "raster",
+				"zoom": true
+			}
+		},
+		{
+			"text": "Worked example: zoom into a raster circle and it turns into blocky squares. A vector circle is drawn again at every size from its points, so it stays smooth: good for logos.",
+			"picture": {
+				"kind": "raster_vector",
+				"view": "vector",
+				"zoom": true
+			}
+		},
+		{
+			"text": "Digital tools add layers, undo and copying. AI tools now make pictures from patterns learned from millions of images. That raises questions: who made it, and whose work did it learn from?"
+		},
+		{
+			"text": "Try it in the world: with a grown-up, make a pinhole viewer from a box, foil and paper, and see the upside-down picture. Next: art about identity."
+		}
+	],
+	"exercises": [
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label the camera obscura.",
+			"picture": {
+				"kind": "camera_obscura"
+			},
+			"spots": [
+				[
+					0.1337,
+					0.09,
+					0.1337,
+					0.3934
+				],
+				[
+					0.6315,
+					0.09,
+					0.6315,
+					0.2158
+				],
+				[
+					0.5,
+					0.91,
+					0.5,
+					0.5178
+				],
+				[
+					0.7348,
+					0.91,
+					0.7348,
+					0.6066
+				]
+			],
+			"labels": [
+				"pinhole",
+				"dark box",
+				"object",
+				"upside-down image"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "Follow the light from the tree, through the hole, to the back of the box.",
+			"explain": "The tree is the object; light goes through the pinhole into the dark box and makes the upside-down image at the back."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why is the picture in a camera obscura upside down?",
+			"choices": [
+				"light rays cross at the pinhole",
+				"the box is upside down",
+				"the hole is a mirror",
+				"the object hangs down"
+			],
+			"answer": 0,
+			"hint": "Follow a ray from the top of the tree through the hole.",
+			"explain": "Light from the top of the tree goes down through the hole and lands low; light from the bottom lands high."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The first photographs needed only a split second of light.",
+			"answer": false,
+			"hint": "Remember Niépce's photograph.",
+			"explain": "False: the first photograph needed hours of light; faster ways came later."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which kind of image turns blocky when you zoom in?",
+			"choices": [
+				"raster (pixels)",
+				"vector (points and curves)"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "raster_vector",
+				"view": "raster",
+				"zoom": true
+			},
+			"hint": "Think of what the picture is stored as.",
+			"explain": "A raster image is a grid of pixels, so zooming in shows the squares."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A picture is 40 pixels wide and 30 high. How many pixels is it?",
+			"answer": "1200",
+			"hint": "Multiply the width by the height.",
+			"explain": "40 × 30 = 1,200 pixels."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in time order.",
+			"items": [
+				"the first film show",
+				"the daguerreotype",
+				"the first digital camera",
+				"Muybridge's galloping horse",
+				"the oldest photograph"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Use the timeline's years.",
+			"explain": "1826, 1839, 1878, 1895 and 1975."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"camera obscura",
+				"photograph",
+				"raster image",
+				"vector image"
+			],
+			"matches": [
+				"light fixed on a surface",
+				"a grid of pixels",
+				"points joined by curves",
+				"a dark box with a hole"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of how each one makes or stores a picture.",
+			"explain": "A camera obscura is a dark box with a hole; a photograph fixes light; raster is pixels; vector is points and curves."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Muybridge's photos showed that a galloping horse lifts all four hooves off the ground.",
+			"answer": true,
+			"hint": "What did the photos of 1878 freeze?",
+			"explain": "True: his fast photos froze the moment no hoof touched the ground."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Raster or vector?",
+			"groups": [
+				"raster",
+				"vector"
+			],
+			"items": [
+				"a digital photo",
+				"a logo that must work at any size",
+				"pixel art",
+				"a font's letters",
+				"a scanned drawing"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it a grid of coloured squares, or shapes worked out from points?",
+			"explain": "Photos, pixel art and scans are grids of pixels; logos and fonts are vectors so they stay sharp at any size."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A photo is 4,000 pixels wide and 3,000 high. How many million pixels (megapixels) is it?",
+			"answer": "12",
+			"hint": "Multiply, then count the millions.",
+			"explain": "4,000 × 3,000 = 12,000,000 pixels: 12 megapixels."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How did photography change painting?",
+			"choices": [
+				"cameras could copy, so painters tried new things",
+				"cameras were cheaper than paint",
+				"photos were always in colour",
+				"painting stopped"
+			],
+			"answer": 0,
+			"hint": "Think about what painters no longer had to do.",
+			"explain": "A camera could record exactly, so many painters chose light, feeling and new ideas instead."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A raster picture 600 pixels wide is printed at 100 pixels a centimetre. How wide is the print in cm?",
+			"answer": "6",
+			"hint": "How many hundreds of pixels are there?",
+			"explain": "600 ÷ 100 = 6 cm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An AI tool makes a picture in a living artist's style. What is a fair question to ask?",
+			"choices": [
+				"whose work did it learn from?",
+				"is it painted in oils?",
+				"how heavy is it?",
+				"who framed it?"
+			],
+			"answer": 0,
+			"hint": "Think of where the AI's patterns came from.",
+			"explain": "AI learns from millions of images, often people's art, so who made those and whether they agreed matters."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A vector logo stays smooth when it is made as big as a building.",
+			"answer": true,
+			"hint": "How is a vector image drawn again at a new size?",
+			"explain": "True: it is worked out again from its points and curves at every size, so it never turns blocky."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Before 1900 or after 1950?",
+			"groups": [
+				"before 1900",
+				"after 1950"
+			],
+			"items": [
+				"the daguerreotype",
+				"Muybridge's galloping horse",
+				"the first digital camera",
+				"AI picture tools",
+				"the first film show"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Use the timeline, and what you know of computers.",
+			"explain": "The daguerreotype (1839), Muybridge (1878) and the first film show (1895) came before 1900; digital cameras (1975) and AI tools came after 1950."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Niépce's photograph needed hours of light. What did that mean?",
+			"choices": [
+				"nothing moving could be caught sharply",
+				"it was in full colour",
+				"it showed only people",
+				"it was a film"
+			],
+			"answer": 0,
+			"hint": "What happens to a moving thing during hours?",
+			"explain": "In hours of light anything that moved was blurred or vanished, so early photographs showed still scenes."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.pixel_count",
+			"level": 1
+		},
+		{
+			"gen": "g8c.pixel_count",
+			"level": 2
+		},
+		{
+			"gen": "g8c.pixel_count",
+			"level": 3
+		},
+		{
+			"gen": "g8c.tech_order",
+			"level": 1
+		},
+		{
+			"gen": "g8c.tech_order",
+			"level": 2
+		},
+		{
+			"gen": "g8c.tech_order",
+			"level": 3
+		}
+	]
+}

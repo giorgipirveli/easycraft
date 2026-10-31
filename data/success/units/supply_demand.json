@@ -1,0 +1,23 @@
+{
+	"id": "life.money.supply_demand",
+	"lesson": [
+		{"text": "Quick memory: what is a fair swap? (Good for both.) Today: why market prices move."},
+		{"text": "The Price Board shows today's prices, and why they moved. Prices move for reasons you can see."},
+		{"text": "Less to sell, the same buyers: the price goes up. A dry summer means less wheat, so wheat costs more."},
+		{"text": "More buyers: the price goes up. At the festival everyone wants cakes. More sellers or more to sell: it goes down."},
+		{"text": "Doing what you do best and trading makes both sides richer. Haggle politely: \"Could you do 10 for all 4?\""},
+		{"text": "Try it in the practice room: read the Price Board, buy, sell and trade."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "A dry summer: less wheat grows. The price of wheat...", "answer": 0, "choices": ["goes up", "goes down", "stays the same"], "hint": "Less to sell.", "explain": "It goes up."},
+		{"type": "choice", "level": 1, "prompt": "Many sellers bring apples. The price of apples...", "answer": 0, "choices": ["goes down", "goes up"], "hint": "Lots to choose from.", "explain": "It goes down."},
+		{"type": "truefalse", "level": 1, "prompt": "At a festival, when everyone wants cakes, cakes can cost more.", "answer": true, "hint": "More buyers.", "explain": "True."},
+		{"type": "choice", "level": 2, "prompt": "A polite way to ask for a better price:", "answer": 0, "choices": ["Could you do 10 for all 4?", "That's a rip-off!", "Give them to me free"], "hint": "Kind and fair.", "explain": "Ask politely, with a fair offer."},
+		{"type": "number", "level": 2, "prompt": "Apples are 3 coins a bag. How much for 4 bags?", "answer": "12", "hint": "4 × 3.", "explain": "4 × 3 = 12."},
+		{"type": "number", "level": 2, "prompt": "A cake is 6 coins at the festival. You pay with 10. The change?", "answer": "4", "hint": "10 take away 6.", "explain": "10 - 6 = 4."},
+		{"type": "sort", "level": 2, "prompt": "Does the price go up or down?", "groups": ["up", "down"], "items": ["a dry summer for wheat", "a big apple harvest", "a festival for cakes", "many honey sellers"], "answer": [0, 1, 0, 1], "hint": "Less to sell, or more?", "explain": "Less supply or more demand: up. More supply: down."},
+		{"type": "choice", "level": 3, "prompt": "You bake well; Ana grows apples well. The best plan?", "answer": 0, "choices": ["You bake, she grows, then you trade", "You both do a little of each", "Neither trades"], "hint": "Do your best thing.", "explain": "Specialise and trade: both richer."},
+		{"type": "truefalse", "level": 3, "prompt": "When you each do what you do best and then trade, you both end up with more.", "answer": true, "hint": "10 loaves and 10 bags.", "explain": "True."},
+		{"type": "choice", "level": 3, "prompt": "More buyers AND more sellers on the same day. The price...", "answer": 0, "choices": ["changes less: they pull opposite ways", "goes up a lot", "goes down a lot"], "hint": "Two pulls.", "explain": "They pull opposite ways, so it changes less."}
+	]
+}

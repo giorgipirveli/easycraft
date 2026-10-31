@@ -1,0 +1,298 @@
+{
+	"id": "g6.citizenship.income_tax",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you made a budget. What comes first: needs, saving or wants? (Needs, then saving, then wants.) Today: pay, and the taxes that pay for shared services."
+		},
+		{
+			"text": "People earn income from work: a wage, often paid by the hour or the week, or a salary, a set amount a year paid monthly. Some also earn from a business or from savings."
+		},
+		{
+			"text": "Gross pay is what you earn before anything is taken off. Take-home pay, or net pay, is what is left after deductions such as income tax. A payslip shows both."
+		},
+		{
+			"text": "Worked example, in gold: Tilly earns 600 gold a month. No tax is paid on the first 200 gold; above that the tax is 20%. 600 − 200 = 400 gold is taxed; 20% of 400 is 80. Take-home: 600 − 80 = 520 gold.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"name": "pay",
+						"parts": [
+							{
+								"text": "tax-free 200",
+								"size": 200
+							},
+							{
+								"text": "taxed 400",
+								"size": 400
+							}
+						],
+						"total": "600 gold"
+					},
+					{
+						"name": "after",
+						"parts": [
+							{
+								"text": "take home 520",
+								"size": 520
+							},
+							{
+								"text": "tax 80",
+								"size": 80
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"text": "Many countries tax the higher part of bigger incomes at a higher rate, so people who earn more pay more. There are other taxes too: on things we buy, on houses and on businesses."
+		},
+		{
+			"text": "Taxes pay for public services we share: schools, hospitals, roads, police, fire services, parks and libraries, and help for people who are ill, old or out of work.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Taxes pay for",
+						"For example"
+					],
+					[
+						"health",
+						"hospitals"
+					],
+					[
+						"learning",
+						"schools"
+					],
+					[
+						"safety",
+						"police, fire"
+					],
+					[
+						"getting about",
+						"roads"
+					]
+				]
+			}
+		},
+		{
+			"text": "Countries argue about how much tax there should be and what it should pay for. Parliament decides, and voters can choose people with different ideas. Paying the tax you owe is the law."
+		},
+		{
+			"text": "Try it in the world: set up a village tax chest: everyone puts in 1 gold for every 10 they earn. The village votes on what to build with it, such as a bridge or a library. Next: saving and compound interest."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is gross pay?",
+			"answer": 0,
+			"hint": "Gross comes before deductions.",
+			"choices": [
+				"pay before anything is taken off",
+				"pay after tax",
+				"a kind of tax",
+				"money you owe"
+			],
+			"explain": "Pay before tax and other deductions."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do taxes pay for?",
+			"answer": 0,
+			"hint": "Think of services everyone shares.",
+			"choices": [
+				"schools, hospitals and roads",
+				"only a king's crown",
+				"private games",
+				"nothing"
+			],
+			"explain": "Public services such as schools, hospitals and roads."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Take-home pay is usually less than gross pay.",
+			"answer": true,
+			"hint": "What is taken off in between?",
+			"explain": "True: tax and other deductions are taken off gross pay."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Bram earns 500 gold. 60 gold is taken off for tax. What is his take-home pay?",
+			"answer": "440",
+			"hint": "Take-home pay is gross pay take away what is taken off.",
+			"explain": "500 − 60 = 440 gold."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a public service paid for by taxes?",
+			"answer": 0,
+			"hint": "Which one is shared by everyone?",
+			"choices": [
+				"the fire service",
+				"a private party",
+				"your own bike",
+				"a friend's cake"
+			],
+			"explain": "The fire service: everyone shares it, and taxes pay for it."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "No tax is paid on the first 100 gold; above that, the tax is 10%. Zara earns 700 gold. How much tax does she pay?",
+			"answer": "60",
+			"hint": "Find the part above 100 gold first, then 10% of it.",
+			"explain": "700 − 100 = 600 gold is taxed. 10% of 600 = 60 gold."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a payslip?",
+			"answer": 0,
+			"hint": "You get one with your pay.",
+			"choices": [
+				"a note showing pay and deductions",
+				"a slippery floor",
+				"a tax office",
+				"a bank card"
+			],
+			"explain": "A note showing gross pay, deductions and take-home pay."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: usually paid for by taxes, or by each person?",
+			"groups": [
+				"taxes",
+				"each person"
+			],
+			"items": [
+				"state schools",
+				"a new phone",
+				"street lights",
+				"a cinema ticket",
+				"the fire service"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it shared by everyone, or bought for yourself?",
+			"explain": "Taxes: state schools, street lights, the fire service. Each person: a new phone, a cinema ticket."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"gross pay",
+				"net pay",
+				"income tax",
+				"deduction"
+			],
+			"matches": [
+				"money taken off pay",
+				"pay before deductions",
+				"take-home pay",
+				"tax on what you earn"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Gross comes before, net after.",
+			"explain": "Gross: before deductions. Net: take-home. Income tax: on earnings. Deduction: money taken off."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Everyone pays exactly the same amount of income tax.",
+			"answer": false,
+			"hint": "Does the tax depend on what you earn?",
+			"explain": "False: it depends on income; those who earn more usually pay more."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "No tax on the first 200 gold a month; 20% on pay from 200 to 800 gold; 40% on pay above 800. Mimi earns 1,000 gold. What is her take-home pay?",
+			"answer": "800",
+			"hint": "Split the pay into its parts, find each part's tax, add them, then take the tax off.",
+			"explain": "20% of 600 = 120. 40% of 200 = 80. Tax: 120 + 80 = 200. 1,000 − 200 = 800 gold."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do many countries tax the higher part of big incomes at a higher rate?",
+			"answer": 0,
+			"hint": "Who pays more under this rule?",
+			"choices": [
+				"so people who earn more pay more",
+				"so poor people pay most",
+				"to stop people working",
+				"because gold is heavy"
+			],
+			"explain": "So people who earn more pay more, and those who earn little pay little."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Who decides a country's taxes in a democracy?",
+			"answer": 0,
+			"hint": "Think of how laws are made.",
+			"choices": [
+				"parliament, chosen by voters",
+				"each shop",
+				"the police",
+				"the banks"
+			],
+			"explain": "Parliament, whose members are chosen by voters."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A town collects 12,000 gold in taxes. It spends a quarter of it on schools. How much is that?",
+			"answer": "3000",
+			"hint": "A quarter means divide by 4.",
+			"explain": "12,000 ÷ 4 = 3,000 gold."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is it important to pay the tax you owe?",
+			"answer": 0,
+			"hint": "Where does tax money go?",
+			"choices": [
+				"it pays for services everyone shares",
+				"it makes you rich",
+				"it is a game",
+				"it is not important"
+			],
+			"explain": "Taxes pay for schools, hospitals and roads that everyone uses; paying is also the law."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.take_home_pay",
+			"level": 1
+		},
+		{
+			"gen": "g6h.take_home_pay",
+			"level": 2
+		},
+		{
+			"gen": "g6h.take_home_pay",
+			"level": 3
+		}
+	]
+}

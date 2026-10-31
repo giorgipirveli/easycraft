@@ -1,0 +1,355 @@
+{
+	"id": "g8.health_pe.health_campaign",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you studied adverts. Can you name two tricks they use? (A famous person, the bandwagon, a free gift, a health claim, small print.) Today: using honest persuasion to help people's health."
+		},
+		{
+			"text": "A health campaign helps people make a healthy choice: drink more water, sleep more, walk to school, be kind online. Speaking up for other people's health is called advocacy."
+		},
+		{
+			"text": "Plan it in steps. Survey to find the problem, and set a SMART aim. Choose your audience and one clear message. Run the campaign, then survey again and compare.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"survey",
+					"SMART aim",
+					"audience and message",
+					"run it",
+					"survey again"
+				]
+			}
+		},
+		{
+			"text": "Start with evidence. In a survey, 45 of 150 pupils drank water at lunch: 45 ÷ 150 = 0.3, so 30%. A SMART aim: '50% of pupils drinking water at lunch by July.'",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"water",
+						45
+					],
+					[
+						"juice",
+						30
+					],
+					[
+						"fizzy",
+						60
+					],
+					[
+						"milk",
+						15
+					]
+				],
+				"step": 10,
+				"top": 70,
+				"name": "drinks at lunch (of 150)"
+			}
+		},
+		{
+			"text": "A good message is short, positive, true and says what to do. 'Refill at the fountain: water helps you focus.' Use facts with sources. Never shame anyone, or scare them with things that aren't true."
+		},
+		{
+			"text": "Know your audience. Younger pupils like games and pictures; older pupils like facts and choices; parents like clear reasons. Choose posters, an assembly, a short video or a stall."
+		},
+		{
+			"text": "Measure the change: ask the same question to the same group, before and after. Before 30%, after 50%: a rise of 50 − 30 = 20 percentage points. Then say what worked and what to change.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"before",
+						30
+					],
+					[
+						"after",
+						50
+					]
+				],
+				"step": 10,
+				"top": 60,
+				"name": "% drinking water at lunch"
+			}
+		},
+		{
+			"text": "Try it in the world: run a mini campaign in your village or class, with a survey before and after. In LIFE, Talk & Deal practises pitching an idea clearly. Next: digital balance."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Advocacy means speaking up for other people's health.",
+			"answer": true,
+			"hint": "Think of the lesson's word for speaking up.",
+			"explain": "True: a health campaign is advocacy, speaking up to help others choose healthily."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "45 of 150 pupils drank water at lunch. What percentage is that?",
+			"answer": "30",
+			"hint": "Divide the part by the whole, then times 100.",
+			"explain": "45 ÷ 150 = 0.3; 0.3 × 100 = 30%."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which aim is SMART?",
+			"choices": [
+				"50% of pupils drink water at lunch by July",
+				"Make everyone healthier",
+				"Drink more water",
+				"Try to help a bit"
+			],
+			"answer": 0,
+			"hint": "Look for a number and a date.",
+			"explain": "It says what, how much and by when, so you can check whether it worked."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the campaign's steps in order.",
+			"items": [
+				"choose your audience and message",
+				"survey again and compare",
+				"run the campaign",
+				"set a SMART aim",
+				"survey to find the problem"
+			],
+			"answer": [
+				4,
+				3,
+				0,
+				2,
+				1
+			],
+			"hint": "Evidence first, then an aim, then the message.",
+			"explain": "Survey, aim, audience and message, run it, then survey again to see the change."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In the survey chart, which drink was most popular at lunch?",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"water",
+						45
+					],
+					[
+						"juice",
+						30
+					],
+					[
+						"fizzy",
+						60
+					],
+					[
+						"milk",
+						15
+					]
+				],
+				"step": 10,
+				"top": 70,
+				"name": "drinks at lunch (of 150)"
+			},
+			"choices": [
+				"fizzy drinks",
+				"water",
+				"juice",
+				"milk"
+			],
+			"answer": 0,
+			"hint": "Find the tallest bar.",
+			"explain": "The fizzy bar is tallest, at 60 of 150 pupils: the campaign's starting point."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the best campaign message?",
+			"choices": [
+				"Refill at the fountain: water helps you focus",
+				"Fizzy drinks will ruin your life",
+				"Water exists",
+				"Water: drink it or else!"
+			],
+			"answer": 0,
+			"hint": "A good message is positive, true and says what to do.",
+			"explain": "It is short, true, kind and gives a clear action, with no shaming or scaring."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Before the campaign, 30% drank water at lunch; after it, 50%. By how many percentage points did it rise?",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"before",
+						30
+					],
+					[
+						"after",
+						50
+					]
+				],
+				"step": 10,
+				"top": 60,
+				"name": "% drinking water at lunch"
+			},
+			"answer": "20",
+			"hint": "Subtract the before from the after.",
+			"explain": "50 − 30 = 20 percentage points."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each audience to a good way to reach it.",
+			"items": [
+				"younger pupils",
+				"older pupils",
+				"parents",
+				"the whole school"
+			],
+			"matches": [
+				"a short letter with reasons",
+				"an assembly",
+				"facts and choices",
+				"a game with pictures"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "Think about what each group pays attention to.",
+			"explain": "Young pupils: a game. Older pupils: facts. Parents: clear reasons. Everyone: an assembly."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Scaring people with things that aren't true is a good way to run a health campaign.",
+			"answer": false,
+			"hint": "Would you trust a campaign that lied to you?",
+			"explain": "False: honest facts and positive messages work and keep trust; scare stories and shaming do not."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Honest persuasion, or a trick?",
+			"groups": [
+				"honest",
+				"a trick"
+			],
+			"items": [
+				"a clear thing to do",
+				"a real survey's results",
+				"a fact with its source",
+				"a made-up health claim",
+				"shaming people"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Would it still be fair if everyone knew how it worked?",
+			"explain": "Honest: sourced facts, a clear action, real results. Tricks: made-up claims and shaming."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A survey asked 200 pupils; 50 walked to school. What percentage walked?",
+			"answer": "25",
+			"hint": "Divide, then multiply by 100.",
+			"explain": "50 ÷ 200 = 0.25, which is 25%."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Before the campaign, 20% of 150 pupils had breakfast; after it, 60%. How many more pupils is that?",
+			"answer": "60",
+			"hint": "Find the rise in percentage points, then take that percentage of 150.",
+			"explain": "60 − 20 = 40 points; 40% of 150 = 0.4 × 150 = 60 more pupils."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why must the 'after' survey ask the same question to the same group?",
+			"choices": [
+				"so the change is fair to compare",
+				"so it takes less time",
+				"so the numbers look bigger",
+				"because surveys must be short"
+			],
+			"answer": 0,
+			"hint": "Think about a fair test.",
+			"explain": "Keeping the question and group the same means any change is down to the campaign."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the evaluation in order.",
+			"items": [
+				"plan what to change next time",
+				"compare before and after",
+				"say what worked",
+				"survey again the same way"
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "Measure, compare, reflect, improve.",
+			"explain": "Survey the same way, compare, say what worked, and plan the next improvement."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The 'after' survey shows no change. What is the best next step?",
+			"choices": [
+				"find out why and change the message",
+				"say it worked anyway",
+				"stop campaigning for ever",
+				"change the numbers"
+			],
+			"answer": 0,
+			"hint": "An honest result is still useful information.",
+			"explain": "Asking people why, then changing the message or the way it is shared, is how campaigns improve."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.survey_share",
+			"level": 1
+		},
+		{
+			"gen": "g8l.survey_share",
+			"level": 2
+		},
+		{
+			"gen": "g8l.survey_share",
+			"level": 3
+		},
+		{
+			"gen": "g8l.campaign_plan",
+			"level": 1
+		},
+		{
+			"gen": "g8l.campaign_plan",
+			"level": 2
+		},
+		{
+			"gen": "g8l.campaign_plan",
+			"level": 3
+		}
+	]
+}

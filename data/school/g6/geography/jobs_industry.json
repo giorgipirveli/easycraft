@@ -1,0 +1,322 @@
+{
+	"id": "g6.geography.jobs_industry",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you sorted natural resources. Is coal renewable? (No: it will run out one day.) Many jobs begin with resources. Today: the four sectors of work."
+		},
+		{
+			"text": "Primary jobs take resources from nature: farming, fishing, forestry, mining and quarrying. A farmer growing wheat and a miner digging copper work in the primary sector."
+		},
+		{
+			"text": "Secondary jobs make things from those resources: manufacturing and building. A worker in a car factory, a baker in a bread factory and a builder work in the secondary sector.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"wheat is farmed",
+					"flour is milled",
+					"bread is baked",
+					"a shop sells it"
+				],
+				"title": "From primary to tertiary"
+			}
+		},
+		{
+			"text": "Tertiary jobs provide services: teaching, health care, shops, transport, banks and tourism. A teacher, a nurse, a bus driver and a hairdresser work in the tertiary sector."
+		},
+		{
+			"text": "Quaternary jobs are about knowledge: research, inventing and working with information. A scientist developing a new medicine and a data scientist work in the quaternary sector."
+		},
+		{
+			"text": "Worked example, a loaf's journey: a farmer grows the wheat (primary); a bakery makes bread (secondary); a driver delivers it and a shop sells it (tertiary); scientists breed better wheat (quaternary).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"job",
+						"sector"
+					],
+					[
+						"farmer",
+						"primary"
+					],
+					[
+						"baker",
+						"secondary"
+					],
+					[
+						"shop worker",
+						"tertiary"
+					],
+					[
+						"wheat scientist",
+						"quaternary"
+					]
+				]
+			}
+		},
+		{
+			"text": "Economies change. Long ago most people farmed; then factories grew; later, services. In the UK today about 4 in every 5 jobs are services. Where many people still farm, the primary sector is bigger.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"services",
+						4
+					],
+					[
+						"other jobs",
+						1
+					]
+				],
+				"whole": 5,
+				"lines": true,
+				"key": true
+			}
+		},
+		{
+			"text": "Try it in the world: build a chain of buildings: a farm, a mill, a bakery, a shop and a research lab, with a sign naming each one's sector. Next: reading detailed maps."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which job is in the primary sector?",
+			"answer": 0,
+			"hint": "Primary jobs take things from nature.",
+			"choices": [
+				"farmer",
+				"teacher",
+				"car factory worker",
+				"scientist"
+			],
+			"explain": "A farmer grows crops from the land: primary."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sector makes things in factories?",
+			"answer": 0,
+			"hint": "It comes second in a product's journey.",
+			"choices": [
+				"secondary",
+				"primary",
+				"tertiary",
+				"quaternary"
+			],
+			"explain": "The secondary sector: manufacturing and building."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A nurse works in the tertiary sector.",
+			"answer": true,
+			"hint": "Does a nurse take from nature, make things, or provide a service?",
+			"explain": "True: a nurse provides a service, health care."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do quaternary jobs deal with?",
+			"answer": 0,
+			"hint": "Think of scientists and inventors.",
+			"choices": [
+				"knowledge, research and information",
+				"fishing",
+				"building houses",
+				"selling food"
+			],
+			"explain": "Knowledge: research, inventing and working with information."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these jobs: primary, secondary or tertiary?",
+			"groups": [
+				"primary",
+				"secondary",
+				"tertiary"
+			],
+			"items": [
+				"fisher",
+				"shipbuilder",
+				"shop assistant",
+				"miner"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0
+			],
+			"hint": "Nature, making, or service?",
+			"explain": "Primary: fisher, miner. Secondary: shipbuilder. Tertiary: shop assistant."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a loaf's journey in order, from the field.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with nature, then making, then getting it to you.",
+			"items": [
+				"a shop sells it",
+				"a driver delivers it",
+				"a bakery makes bread",
+				"a farmer grows wheat"
+			],
+			"explain": "Farmer (primary), bakery (secondary), driver, then shop (tertiary)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In the UK today, which sector has the most jobs?",
+			"answer": 0,
+			"hint": "Think of shops, schools, hospitals and offices.",
+			"choices": [
+				"tertiary (services)",
+				"primary",
+				"secondary",
+				"quaternary"
+			],
+			"explain": "The tertiary sector: about 4 in every 5 jobs are services."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A town has 2,000 workers, and 1,600 of them work in services. What percentage is that?",
+			"answer": "80",
+			"hint": "Find how many workers make 1%, then how many lots of that are in services.",
+			"explain": "1% of 2,000 is 20. 1,600 ÷ 20 = 80, so 80%."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each sector to what it does.",
+			"items": [
+				"primary",
+				"secondary",
+				"tertiary",
+				"quaternary"
+			],
+			"matches": [
+				"knowledge and research",
+				"taking from nature",
+				"making things",
+				"providing services"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "First, second, third, fourth in a product's journey.",
+			"explain": "Primary: nature. Secondary: making. Tertiary: services. Quaternary: knowledge."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A builder works in the primary sector.",
+			"answer": false,
+			"hint": "Does a builder take from nature or make something?",
+			"explain": "False: a builder makes things, so works in the secondary sector."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "As a country grows richer, what usually happens to farming jobs?",
+			"answer": 0,
+			"hint": "Think of the UK's change over time.",
+			"choices": [
+				"they become a smaller share of jobs",
+				"they grow and grow",
+				"they stay the same",
+				"they turn into mining"
+			],
+			"explain": "Machines do more farm work and more people work in factories and services, so farming's share falls."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these jobs: secondary, tertiary or quaternary?",
+			"groups": [
+				"secondary",
+				"tertiary",
+				"quaternary"
+			],
+			"items": [
+				"steelworker",
+				"medical researcher",
+				"firefighter",
+				"furniture maker",
+				"robot designer",
+				"bus driver"
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				0,
+				2,
+				1
+			],
+			"hint": "Making, serving, or finding out and inventing?",
+			"explain": "Secondary: steelworker, furniture maker. Tertiary: firefighter, bus driver. Quaternary: medical researcher, robot designer."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A company's scientists invent a new kind of battery. Which sector is this?",
+			"answer": 0,
+			"hint": "Inventing is about knowledge.",
+			"choices": [
+				"quaternary",
+				"primary",
+				"secondary",
+				"tertiary"
+			],
+			"explain": "Inventing is quaternary; making the batteries in a factory would be secondary."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In a country in 1900, 60 of every 100 workers farmed. By 2000 it was 5 of every 100. By how many out of every 100 did farming jobs fall?",
+			"answer": "55",
+			"hint": "Take the smaller number from the bigger.",
+			"explain": "60 − 5 = 55 fewer out of every 100."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why might a country with rich mines have a big primary sector?",
+			"answer": 0,
+			"hint": "What do miners take from the land?",
+			"choices": [
+				"its land holds resources to dig and sell",
+				"mines are services",
+				"mining is research",
+				"mines make cars"
+			],
+			"explain": "Metals and fuels in its land give many people primary jobs digging and selling them."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.sector_sort",
+			"level": 1
+		},
+		{
+			"gen": "g6h.sector_sort",
+			"level": 2
+		},
+		{
+			"gen": "g6h.sector_sort",
+			"level": 3
+		}
+	]
+}

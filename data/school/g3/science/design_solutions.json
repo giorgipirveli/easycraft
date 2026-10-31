@@ -1,0 +1,433 @@
+{
+	"id": "g3.science.design_solutions",
+	"lesson": [
+		{
+			"text": "Remember? Engineers design flood walls and wildlife tunnels. Today you design and test like an engineer."
+		},
+		{
+			"text": "Start with the problem and what the design must do: its criteria (\"keep my buddy dry in the rain\"). Then its limits, the constraints (\"use at most 10 blocks, spend at most 6 gold\")."
+		},
+		{
+			"text": "Imagine many ideas, then choose the best ones to try. Draw a plan and label it."
+		},
+		{
+			"text": "Build two or more designs and test them the same way. Here, three paper bridges held coins over the same gap.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Bridge",
+						"Coins held",
+						"Cost"
+					],
+					[
+						"A",
+						"12",
+						"5 gold"
+					],
+					[
+						"B",
+						"20",
+						"9 gold"
+					],
+					[
+						"C",
+						"6",
+						"3 gold"
+					]
+				]
+			}
+		},
+		{
+			"text": "Compare the results with the criteria and constraints. If a bridge must hold at least 10 coins and cost at most 6 gold, only bridge A does both.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"A",
+						12
+					],
+					[
+						"B",
+						20
+					],
+					[
+						"C",
+						6
+					]
+				],
+				"step": 2,
+				"top": 20,
+				"name": "Coins held"
+			}
+		},
+		{
+			"text": "Find the weak spots: where did it bend or break? Make that part stronger and test again. Engineers improve a design many times."
+		},
+		{
+			"text": "The steps go round and round: ask, imagine, plan, build, test and improve. Every test teaches you something.",
+			"picture": {
+				"kind": "life_cycle",
+				"stages": [
+					"ask",
+					"imagine",
+					"plan",
+					"build",
+					"test",
+					"improve"
+				],
+				"title": "design cycle"
+			}
+		},
+		{
+			"text": "Try it in the world: design a shelter for your buddy that keeps the rain off, with at most 10 blocks. Test it, find the weak spot and improve it. Next, in grade 4: energy and speed."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does an engineer do?",
+			"answer": 0,
+			"hint": "Think of bridges and tunnels.",
+			"choices": [
+				"designs things that solve problems",
+				"only draws pictures",
+				"forecasts the weather"
+			],
+			"explain": "Engineers design and test things that solve problems."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Engineers test a design and then improve it.",
+			"answer": true,
+			"hint": "Is the first design always the best?",
+			"explain": "True: engineers test, find weak spots and improve their designs."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which bridge held the most coins?",
+			"answer": 0,
+			"hint": "Find the biggest number of coins.",
+			"choices": [
+				"B",
+				"A",
+				"C"
+			],
+			"explain": "Bridge B held 20 coins, the most.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Bridge",
+						"Coins held",
+						"Cost"
+					],
+					[
+						"A",
+						"12",
+						"5 gold"
+					],
+					[
+						"B",
+						"20",
+						"9 gold"
+					],
+					[
+						"C",
+						"6",
+						"3 gold"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the first step when designing?",
+			"answer": 0,
+			"hint": "You need to know what to solve.",
+			"choices": [
+				"ask what the problem is",
+				"build it",
+				"test it"
+			],
+			"explain": "First ask: what is the problem, and what must the design do?"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "\"The shelter must keep my buddy dry.\" What is this?",
+			"answer": 0,
+			"hint": "Is it a job or a limit?",
+			"choices": [
+				"a criterion: what it must do",
+				"a constraint: a limit",
+				"a test result"
+			],
+			"explain": "It says what the design must do, so it is a criterion."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "\"Use at most 10 blocks.\" What is this?",
+			"answer": 0,
+			"hint": "Is it a job or a limit?",
+			"choices": [
+				"a constraint: a limit",
+				"a criterion: what it must do",
+				"a prediction"
+			],
+			"explain": "It limits what you can use, so it is a constraint."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the design steps in order.",
+			"answer": [
+				5,
+				4,
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Think before you build.",
+			"items": [
+				"Improve",
+				"Test",
+				"Build",
+				"Plan",
+				"Imagine",
+				"Ask"
+			],
+			"explain": "Ask, imagine, plan, build, test, then improve, and go round again."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How much more did bridge B cost than bridge A? (gold)",
+			"answer": "4",
+			"hint": "Take A's cost from B's.",
+			"explain": "9 − 5 = 4 gold more.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Bridge",
+						"Coins held",
+						"Cost"
+					],
+					[
+						"A",
+						"12",
+						"5 gold"
+					],
+					[
+						"B",
+						"20",
+						"9 gold"
+					],
+					[
+						"C",
+						"6",
+						"3 gold"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why test two designs the same way?",
+			"answer": 0,
+			"hint": "Think of a fair test.",
+			"choices": [
+				"so the test is fair",
+				"to use more paper",
+				"so both break"
+			],
+			"explain": "Testing both the same way is fair, so you can compare them."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A bridge must hold at least 10 coins and cost at most 6 gold. Which bridge does both?",
+			"answer": 0,
+			"hint": "Check both rules for every bridge.",
+			"choices": [
+				"A",
+				"B",
+				"C"
+			],
+			"explain": "A holds 12 (at least 10) and costs 5 gold (at most 6). B costs too much, and C holds too few.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Bridge",
+						"Coins held",
+						"Cost"
+					],
+					[
+						"A",
+						"12",
+						"5 gold"
+					],
+					[
+						"B",
+						"20",
+						"9 gold"
+					],
+					[
+						"C",
+						"6",
+						"3 gold"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bridge C sagged in the middle. What should the engineers do next?",
+			"answer": 0,
+			"hint": "Where did it sag? Make that part stronger, then what must you do?",
+			"choices": [
+				"make the middle stronger and test again",
+				"give up on bridges",
+				"paint it"
+			],
+			"explain": "They make the weak spot stronger and test again: that is how designs improve."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is a constraint for a school garden design?",
+			"answer": 0,
+			"hint": "A constraint is a limit.",
+			"choices": [
+				"It must cost less than 50 gold",
+				"It must grow vegetables",
+				"It must be fun to visit"
+			],
+			"explain": "The money limit is a constraint. Growing vegetables and being fun are criteria."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The design that holds the most is always the best choice.",
+			"answer": false,
+			"hint": "Look at bridge B's cost.",
+			"explain": "False: the best design meets the criteria within the constraints. B holds most but costs too much."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two roof designs kept a buddy dry. Roof 1 used 8 blocks, roof 2 used 14. The limit is 10. Which is better?",
+			"answer": 0,
+			"hint": "Check the limit.",
+			"choices": [
+				"roof 1",
+				"roof 2",
+				"neither"
+			],
+			"explain": "Both keep the buddy dry, but only roof 1 stays within the 10-block limit."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: criterion or constraint?",
+			"hint": "Is it a job the design must do, or a limit on it?",
+			"groups": [
+				"criterion: must do",
+				"constraint: a limit"
+			],
+			"items": [
+				"keep the buddy dry",
+				"use at most 10 blocks",
+				"hold 10 coins",
+				"cost at most 6 gold"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"explain": "Criteria: keep the buddy dry, hold 10 coins. Constraints: at most 10 blocks, at most 6 gold."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the notes about the bridge test: fair, or not fair?",
+			"groups": [
+				"fair",
+				"not fair"
+			],
+			"items": [
+				"the same gap for every bridge",
+				"heavier coins on bridge C",
+				"the same coins for every bridge",
+				"bridge A tested in the wind only"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "In a fair test, only the bridge design changes.",
+			"explain": "Fair: the same gap and the same coins for every bridge. Not fair: heavier coins on one bridge, or one bridge tested in the wind, because then the design is not the only thing that changed."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bridge A held 12 coins. The engineers made its weak spot stronger, and now it holds 18. How many more coins does it hold?",
+			"answer": "6",
+			"hint": "Take the old result away from the new one.",
+			"explain": "18 − 12 = 6 more coins. Testing, finding the weak spot and improving it made the bridge stronger."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each step of the design cycle to what Zara does.",
+			"items": [
+				"ask",
+				"imagine",
+				"test",
+				"improve"
+			],
+			"matches": [
+				"thinks of five shelter ideas",
+				"pours water on her shelter",
+				"adds a longer roof",
+				"what must the shelter do?"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Follow the cycle: ask, imagine, plan, build, test, improve.",
+			"explain": "Ask: what must the shelter do? Imagine: think of five ideas. Test: pour water on it. Improve: add a longer roof where the rain got in."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3s.design_pick",
+			"level": 1
+		},
+		{
+			"gen": "g3s.design_pick",
+			"level": 2
+		},
+		{
+			"gen": "g3s.design_pick",
+			"level": 3
+		}
+	]
+}

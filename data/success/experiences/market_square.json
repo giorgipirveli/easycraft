@@ -1,0 +1,139 @@
+{
+	"id": "market_square",
+	"title": "The Market Square",
+	"area": "money",
+	"room": "market_square",
+	"vary": "success",
+	"owner": "#115 (S3)",
+	"devices": {
+		"price_board": {"controls": ["the goods' rows"], "shows": ["each good's price today", "an arrow up or down", "why it moved"], "order": ["find the good", "read its price", "read its arrow", "read why it moved"], "safety": ["prices change with the seasons: read today's", "a fair price is honest for both sides"]}
+	},
+	"tracks": {
+		"little": {
+			"skill": "The swap stall: swapping fairly",
+			"twist": "Lina asks for more after you shook hands, and nothing glows to help.",
+			"can_now": "say why people swap, make a fair swap that is good for both, say no kindly to an unfair one and keep a swap they agreed",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "swap", "say": "The Market Square! Today you swap things at the swap stall. A fair swap makes both people happy."},
+				{"id": "why", "kind": "choose", "view": "swap", "say": "You have lots of apples. Lina has lots of pears. Why swap?",
+					"choices": [{"text": "So you both have apples and pears", "icon": "swap"}, {"text": "To take all of Lina's pears", "icon": "fair_not", "why": "A swap gives as well as takes."}, {"text": "Swapping is never fair", "icon": "cross", "why": "A fair swap is good for both!"}], "answer": 0, "done": "People swap and trade so everyone gets what they need.", "book": {"meet": ["lina"]}},
+				{"id": "offer", "kind": "taps", "motion": "press", "view": "swap", "target": "apples", "count": "{swap_n}", "say": "Lina offers {swap_n} pears for {swap_n} apples. Put {swap_n} apples on the swap table.", "done": "{swap_n} apples for {swap_n} pears."},
+				{"id": "fair", "kind": "choose", "view": "swap", "say": "Is {swap_n} apples for {swap_n} pears a fair swap?",
+					"choices": [{"text": "Yes: the same for both of us", "icon": "handshake"}, {"text": "No", "icon": "cross", "why": "You both give the same and you are both happy: that's fair!"}], "answer": 0, "done": "Fair for both."},
+				{"id": "shake", "kind": "hold", "motion": "squeeze", "reach": "hand", "view": "swap", "target": "lina_hand", "seconds": 1.0, "say": "Shake hands on it!", "done": "A swap agreed is a promise."},
+				{"id": "more", "kind": "choose", "view": "swap", "mode": "expert", "say": "After you shook hands, Lina asks for 2 more apples. What do you say?",
+					"choices": [{"text": "We agreed {swap_n} for {swap_n}: that's our swap", "icon": "promise"}, {"text": "Give them, and feel sad", "icon": "face_sad", "why": "A swap is a promise for both. Say kindly what you agreed."}, {"text": "Grab your apples back", "icon": "cross", "why": "Talk kindly: grabbing is never the way."}], "answer": 0, "done": "Lina smiles: \"You're right. A deal is a deal!\""},
+				{"id": "pears", "kind": "touch", "motion": "press", "view": "swap", "target": "pears", "say": "Take your pears.", "done": "Now you both have apples and pears.", "mode": "normal"},
+				{"id": "pears", "kind": "touch", "motion": "press", "view": "swap", "target": "pears", "glow": false, "say": "Take your pears.", "done": "Now you both have apples and pears.", "mode": "expert"},
+				{"id": "unfair", "kind": "choose", "view": "swap", "react": "mo_offer", "say": "Mo offers 1 sticker for ALL your apples. What do you say?",
+					"choices": [{"text": "No, thank you. 1 apple for 1 sticker?", "icon": "please"}, {"text": "Yes, take them all!", "icon": "fair_not", "why": "Then you'd have no apples left, for one sticker. Ask for a fair swap."}], "answer": 0, "done": "\"OK, 1 for 1!\" Mo grins. Fair is better.", "book": {"meet": ["mo"]}},
+				{"id": "jar", "kind": "choose", "view": "swap", "react": "rosa", "say": "Rosa has a little jar you like. She would love one of your drawings. You are both happy to swap. Is it fair?",
+					"choices": [{"text": "Yes: we both get something we want", "icon": "swap"}, {"text": "No: things must be the same", "icon": "cross", "why": "A swap is fair when both people are happy with it."}], "answer": 0, "done": "A drawing for a jar: both happy!", "book": {"meet": ["rosa"]}},
+				{"id": "thanks", "kind": "touch", "motion": "press", "view": "swap", "target": "lina", "say": "Say thank you to Lina for a fair swap.", "done": "Lina wants to swap with you again!"},
+				{"id": "end", "kind": "info", "view": "swap", "say": "Well done! You swapped fairly, said no kindly to an unfair swap, and kept your word."}
+			],
+			"check": [
+				{"say": "A fair swap is...", "answer": 0, "choices": [{"text": "good for both people", "icon": "swap"}, {"text": "good for one person", "icon": "fair_not"}]},
+				{"say": "Why do people swap and trade?", "answer": 0, "choices": [{"text": "To get things they need", "icon": "handshake"}, {"text": "To take things", "icon": "fair_not"}]},
+				{"say": "1 sticker for ALL your apples. Fair?", "answer": 0, "choices": [{"text": "No", "icon": "cross"}, {"text": "Yes", "icon": "tick"}]}
+			],
+			"name_it": {"title": "Swapping fairly", "lines": ["A fair swap is good for both.", "Say kindly what you would like.", "No, thank you, to an unfair swap.", "A swap agreed is a promise."], "source": "The Council for Economic Education's standards (2010) and the OECD/INFE money skills (2015)"},
+			"try_real": "Swap a toy or a book with a friend, fairly, with a grown-up's OK.",
+			"sources": [
+				{"fact": "Voluntary exchange happens only when both sides expect to gain.", "source": "Council for Economic Education, Voluntary National Content Standards in Economics (2010), standard 5", "url": "https://www.councilforeconed.org/wp-content/uploads/2012/03/voluntary-national-content-standards-2010.pdf"},
+				{"fact": "Fairness, sharing and keeping your word with others.", "source": "CASEL, the CASEL framework (relationship skills)", "url": "https://casel.org/fundamentals-of-sel/what-is-the-casel-framework/"},
+				{"fact": "Money and trade: why people exchange goods.", "source": "OECD/INFE Core Competencies Framework on Financial Literacy for Youth (2015)", "url": "https://microfinancegateway.org/paper/2015/09/core-competencies-framework-financial-literacy-youth"}
+			]
+		},
+		"middle": {
+			"skill": "Supply and demand: why prices move",
+			"twist": "The festival and many cake sellers on the same day, and nothing glows to help.",
+			"can_now": "read a price board, say why prices go up or down (supply and demand), buy and sell with change, haggle politely and explain why specialising and trading makes both richer",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "stall", "say": "The Market Square! Buddy merchants sell here, and the Price Board shows today's prices. Prices move for reasons you can see."},
+				{"id": "read", "kind": "point", "motion": "aim", "device": "price_board", "view": "board", "target": "price_board", "say": "Read the Price Board.", "done": "Wheat {wheat_base}, flour {flour_price}, apples {apple_base}, honey {honey_base}, cakes {cake_base}: the usual prices."},
+				{"id": "dry", "kind": "timelapse", "seconds": 4.0, "label": "A dry summer", "view": "board", "react": "dry", "say": "Watch a dry summer go by: hardly any rain falls on the wheat fields.", "done": "The wheat grew short and thin."},
+				{"id": "wheat_up", "kind": "choose", "view": "board", "after": "board_wheat", "say": "Less wheat grew, but people still want bread. What happens to the price of wheat?",
+					"choices": [{"text": "It goes up", "icon": "price_up"}, {"text": "It goes down", "icon": "price_down", "why": "Less to sell and the same people buying: the price goes up."}, {"text": "It stays the same", "icon": "price_same", "why": "When there is less to sell, buyers offer more for it."}], "answer": 0, "done": "Wheat is {wheat_dry} now. Less supply: a higher price."},
+				{"id": "festival", "kind": "choose", "view": "board", "react": "festival", "after": "board_cakes", "mode": "normal", "say": "It's the festival! Everyone wants cakes today. What happens to the price of cakes?",
+					"choices": [{"text": "It goes up", "icon": "price_up"}, {"text": "It goes down", "icon": "price_down", "why": "More people want cakes than usual: the price goes up."}, {"text": "It stays the same", "icon": "price_same", "why": "More buyers for the same cakes: the price goes up."}], "answer": 0, "done": "Cakes are {cake_festival} today. More demand: a higher price."},
+				{"id": "festival", "kind": "choose", "view": "board", "react": "festival_both", "after": "board_cakes_same", "mode": "expert", "say": "The festival, and many more cake sellers came too! What happens to the price of cakes?",
+					"choices": [{"text": "It changes less: the two pull opposite ways", "icon": "price_same"}, {"text": "It goes up a lot", "icon": "price_up", "why": "More sellers pull the price down while more buyers pull it up."}, {"text": "There are no cakes", "icon": "cross", "why": "There are more cakes than ever: lots of sellers!"}], "answer": 0, "done": "More buyers and more sellers: the price stays about {cake_base}."},
+				{"id": "many", "kind": "choose", "view": "board", "react": "many_apples", "after": "board_apples", "say": "Four more farmers bring apples to sell today. What happens to the price of apples?",
+					"choices": [{"text": "It goes down", "icon": "price_down"}, {"text": "It goes up", "icon": "price_up", "why": "Lots of apples and sellers wanting buyers: sellers lower their prices."}, {"text": "It stays the same", "icon": "price_same", "why": "With so many apples to choose from, prices fall."}], "answer": 0, "done": "Apples are {apple_many} today. More supply: a lower price."},
+				{"id": "find_row", "kind": "point", "motion": "aim", "device": "price_board", "view": "board", "target": "row_apples", "say": "Find apples on the Price Board, and read why the price moved.", "done": "The board says why: many sellers came."},
+				{"id": "to_tomas", "kind": "go", "view": "square", "target": "spot_tomas", "say": "Let's buy flour from Tomas the miller.", "done": "Here's Tomas's stall."},
+				{"id": "buy_flour", "kind": "coins", "motion": "press", "tool": "coins", "view": "tomas", "target": "tomas", "sum": "{flour_total}", "coins": [1, 2, 5], "say": "Flour is {flour_price} coins a sack. Pay Tomas {flour_total} coins for {flour_words}.", "done": "\"Thank you!\" Tomas gives you the flour.", "book": {"meet": ["tomas"]}},
+				{"id": "haggle", "kind": "choose", "view": "ana", "react": "ana", "say": "Ana's apples are {apple_base} coins a bag. You want {haggle_bags} bags: {haggle_full} coins. How do you ask for a better price?",
+					"choices": [{"text": "\"Could you do {haggle_ask} for all {haggle_bags}?\"", "icon": "please"}, {"text": "\"That's a rip-off!\"", "icon": "bossy", "why": "Rude words make people stop wanting to trade with you."}, {"text": "\"Give them to me for nothing\"", "icon": "fair_not", "why": "That's not a deal: both sides should win."}], "answer": 0, "done": "Ana smiles: \"{haggle_ask}, as you're buying {haggle_bags}. Deal!\"", "book": {"meet": ["ana"]}},
+				{"id": "shake", "kind": "hold", "motion": "squeeze", "reach": "hand", "view": "ana", "target": "ana_hand", "seconds": 1.0, "say": "Shake hands on the deal.", "done": "A fair deal, politely made."},
+				{"id": "specialise", "kind": "choose", "view": "stall", "say": "In a day you bake {sp_you_loaves} loaves OR pick {sp_you_bags} bags of apples. Ana picks {sp_ana_bags} bags OR bakes {sp_ana_loaves} loaves. If you only bake, and she only picks?",
+					"choices": [{"text": "{sp_together_loaves} loaves and {sp_together_bags} bags together", "icon": "swap"}, {"text": "{sp_mixed_loaves} loaves and {sp_mixed_bags} bags", "icon": "price_same", "why": "That's what you make doing half of each. Doing what you each do best makes more!"}, {"text": "Less than before", "icon": "price_down", "why": "Each doing their best thing makes more of both."}], "answer": 0, "done": "More of both! Swap {sp_trade} loaves for {sp_trade} bags, and you each have more than before."},
+				{"id": "sell", "kind": "coins", "motion": "press", "tool": "coins", "view": "stall", "target": "hand", "react": "cake_customer", "sum": "{cake_change}", "coins": [1, 2], "say": "At the festival a customer buys a cake at {cake_festival} and pays with a 10 coin. Give {cake_change} coins change.", "done": "{cake_festival} and {cake_change} make 10."},
+				{"id": "autumn", "kind": "timelapse", "seconds": 4.0, "label": "Autumn's harvest", "view": "board", "react": "autumn", "say": "The seasons pass, and autumn brings the harvest.", "done": "The fields are full of wheat."},
+				{"id": "wheat_down", "kind": "choose", "view": "board", "after": "board_wheat_down", "say": "A big wheat harvest: lots of wheat to sell. What happens to the price of wheat?",
+					"choices": [{"text": "It goes down", "icon": "price_down"}, {"text": "It goes up", "icon": "price_up", "why": "Lots of wheat for the same buyers: the price falls."}, {"text": "It stays at {wheat_dry}", "icon": "price_same", "why": "The dry summer is over: now there is plenty."}], "answer": 0, "done": "Wheat is {wheat_autumn} now: supply and demand, with causes you can see."},
+				{"id": "end", "kind": "info", "view": "stall", "say": "You read the Price Board, saw why prices move, bought, haggled politely, specialised and traded. Both sides richer!"}
+			],
+			"check": [
+				{"say": "Less wheat grows this year. Its price...", "answer": 0, "choices": [{"text": "goes up", "icon": "price_up"}, {"text": "goes down", "icon": "price_down"}]},
+				{"say": "Many sellers bring apples. The price of apples...", "answer": 0, "choices": [{"text": "goes down", "icon": "price_down"}, {"text": "goes up", "icon": "price_up"}]},
+				{"say": "A polite way to ask for a better price:", "answer": 0, "choices": [{"text": "Could you do 4 if I buy 3?", "icon": "please"}, {"text": "That's a rip-off!", "icon": "bossy"}]},
+				{"say": "Each doing what they do best, then trading...", "answer": 0, "choices": [{"text": "makes both richer", "icon": "swap"}, {"text": "makes both poorer", "icon": "price_down"}]}
+			],
+			"name_it": {"title": "Supply and demand", "lines": ["Less to sell, the same buyers: the price goes up.", "More to sell, or many sellers: the price goes down.", "More buyers: the price goes up.", "Doing what you do best and trading makes both richer.", "Haggle politely: both sides should win."], "source": "The Council for Economic Education's standards (2010) and the Bank of England's economics teaching"},
+			"try_real": "With a grown-up at a market or a shop, find a price that changed this season, and guess why.",
+			"sources": [
+				{"fact": "Prices send signals: when supply or demand changes, market prices adjust.", "source": "Council for Economic Education, Voluntary National Content Standards in Economics (2010), standards 7 and 8", "url": "https://www.councilforeconed.org/wp-content/uploads/2012/03/voluntary-national-content-standards-2010.pdf"},
+				{"fact": "Specialising in what you make at the lowest cost and trading increases production and consumption.", "source": "Council for Economic Education, Voluntary National Content Standards in Economics (2010), standard 6", "url": "https://www.councilforeconed.org/wp-content/uploads/2012/03/voluntary-national-content-standards-2010.pdf"},
+				{"fact": "Markets, prices, supply and demand for school students.", "source": "Bank of England, Economics in practice (teaching resource)", "url": "https://www.bankofengland.co.uk/-/media/boe/files/education/economics-in-practice.pdf"},
+				{"fact": "A fair deal good for both, asked for politely (interests, not positions).", "source": "Program on Negotiation, Harvard Law School", "url": "https://www.pon.harvard.edu/tag/batna/"}
+			]
+		},
+		"big": {
+			"skill": "Trading honestly, and why gambling loses",
+			"twist": "A new dice game pays 5 for a 6: work out what it still takes. And nothing glows to help.",
+			"can_now": "buy when there is plenty and sell when it is scarce honestly, keep only the stock they can store and sell, spread across goods, and explain with averages why games of chance lose over time",
+			"steps": [
+				{"id": "hello", "kind": "info", "view": "stall", "say": "Trading for the long run: buy and sell honestly, keep a stock, spread out, and see why gambling loses. Pretend coins and pretend counters only."},
+				{"id": "read", "kind": "point", "motion": "aim", "device": "price_board", "view": "board", "target": "row_apples", "react": "autumn", "say": "It's autumn's harvest. Read the apples on the Price Board.", "done": "Apples are {apple_autumn} a bag now. In winter they are usually about {apple_winter}."},
+				{"id": "plan", "kind": "choose", "view": "board", "say": "What is an honest way to trade apples?",
+					"choices": [{"text": "Buy some now, store them well, sell in winter at a fair price", "icon": "shed"}, {"text": "Sell old apples as fresh ones", "icon": "fib", "why": "That's a lie: customers find out, and never trust you again."}, {"text": "Buy every apple so nobody else can", "icon": "fair_not", "why": "That's unfair to everyone, and your shed would overflow."}], "answer": 0, "done": "Buying when there's plenty and selling when it's scarce is honest, and it helps: there are apples in winter."},
+				{"id": "stock", "kind": "count", "view": "shed", "say": "Your shed holds {shed} bags. Apples keep about 3 months, and you can sell about {per_month} bags a month. How many bags do you buy?",
+					"choices": [{"text": "{stock}", "icon": "shed"}, {"text": "{stock_wrong}: fill the shed", "icon": "shed", "why": "Apples you can't sell before they go soft are money wasted."}, {"text": "1", "icon": "apple", "why": "Too few: your customers will want more."}], "answer": 0, "done": "{stock} bags: what you can store and sell before they go soft."},
+				{"id": "store", "kind": "taps", "motion": "press", "view": "shed", "target": "shed", "count": 3, "say": "Carry the bags into your shed.", "done": "Stocked up!"},
+				{"id": "winter", "kind": "timelapse", "seconds": 4.0, "label": "Winter", "view": "board", "react": "winter", "say": "Autumn turns to winter. Few apples are left in the market.", "done": "Winter."},
+				{"id": "sell", "kind": "coins", "motion": "press", "tool": "coins", "view": "stall", "target": "hand", "react": "apple_customer", "sum": "{sale_change}", "coins": [1, 2, 5, 10], "say": "Apples are {apple_winter} a bag now. A customer buys {sale_bags} bags and pays with a 20 note. Give {sale_change} coins change.", "done": "{sale_total} and {sale_change} make 20. A fair price, honestly earned."},
+				{"id": "spread", "kind": "find", "motion": "press", "view": "baskets", "targets": ["basket_wheat", "basket_apples", "basket_honey"], "lines": {"basket_wheat": "Some wheat.", "basket_apples": "Some apples.", "basket_honey": "Some honey."}, "say": "Spread your trading: put some stock in each basket, wheat, apples and honey.", "done": "Three baskets, not one."},
+				{"id": "storm", "kind": "choose", "view": "baskets", "react": "storm", "say": "A storm flattens the wheat fields: no wheat to sell for a while. How is your business?",
+					"choices": [{"text": "All right: apples and honey still sell", "icon": "baskets"}, {"text": "Ruined: wheat was everything", "icon": "storm", "why": "That happens with only one basket. You have three!"}, {"text": "Richer: storms are good", "icon": "cross", "why": "A storm hurts the wheat traders. Spreading out keeps you steady."}], "answer": 0, "done": "Spreading out keeps you steady when one thing goes wrong."},
+				{"id": "dice_intro", "kind": "info", "view": "dice", "react": "dice_game", "say": "At the fair, Pip-pop has a pretend game: \"Pay 1 counter. Throw a 6 and get {dice_pays} back!\" Let's find out what happens, with pretend counters. Nobody bets anything."},
+				{"id": "throws", "kind": "taps", "motion": "press", "view": "dice", "target": "dice", "count": 6, "say": "Throw the dice 6 times, and count the sixes.", "done": "{dice_sixes} sixes in 6 throws."},
+				{"id": "how_often", "kind": "choose", "view": "dice", "say": "On a fair dice, how often does a 6 come up, over many throws?",
+					"choices": [{"text": "About once in every 6 throws", "icon": "dice"}, {"text": "Every other throw", "icon": "price_up", "why": "A dice has 6 faces, and each comes up as often as the others."}, {"text": "When you really need one", "icon": "question", "why": "The dice can't know what you need: every throw is new."}], "answer": 0, "done": "About 1 in 6."},
+				{"id": "chart", "kind": "timelapse", "seconds": 5.0, "label": "600 throws", "view": "dice", "react": "chart", "say": "Now watch 600 throws, drawn as a chart: 600 counters paid, and {dice_pays} back for each 6.", "done": "The line went down and down."},
+				{"id": "why_down", "kind": "choose", "view": "dice", "say": "The line ends {chart_lost} counters down. Why?",
+					"choices": [{"text": "A 6 pays {dice_pays}, but it takes about 6 throws to get one", "icon": "chart_down"}, {"text": "Bad luck: it will turn soon", "icon": "try_again", "why": "Every throw is new: the dice don't remember. The line keeps going down."}, {"text": "Throwing faster wins", "icon": "clock", "why": "How you throw doesn't change a fair dice."}], "answer": 0, "done": "Games like this are made to keep more than they give. Over time, the player always ends up with less."},
+				{"id": "pays_5", "kind": "count", "view": "dice", "mode": "expert", "say": "A new game pays {expert_pays} for a 6. In {expert_throws} throws you pay {expert_throws} counters and get about {expert_back} back. About how many are lost?",
+					"choices": [{"text": "{expert_lost}", "icon": "chart_down"}, {"text": "0", "icon": "cross", "why": "{expert_back} back for {expert_throws} paid: still a loss."}, {"text": "{expert_back}", "icon": "dice", "why": "That's what comes back. Take it away from {expert_throws}."}], "answer": 0, "done": "Still a loss: the game always keeps a little more than it gives."},
+				{"id": "not_gambling", "kind": "choose", "view": "dice", "say": "Which one is gambling?",
+					"choices": [{"text": "Paying for a chance to win a prize", "icon": "dice"}, {"text": "Selling apples you bought honestly", "icon": "apple", "why": "That's trading: you give people something they want."}, {"text": "Saving in the bank", "icon": "bank", "why": "Saving keeps your money, and it grows a little."}], "answer": 0, "done": "Gambling is paying for a chance to win. Trading and saving are not gambling."},
+				{"id": "end", "kind": "info", "view": "stall", "say": "You traded honestly, kept a stock, spread out, and saw why gambling loses over time. For real money, talk to a grown-up you trust."}
+			],
+			"check": [
+				{"say": "Over many throws, a game that pays back less than it takes...", "answer": 0, "choices": [{"text": "always takes more than it gives", "icon": "chart_down"}, {"text": "always pays out more", "icon": "price_up"}]},
+				{"say": "Spreading your trading across goods...", "answer": 0, "choices": [{"text": "keeps you steady if one goes wrong", "icon": "baskets"}, {"text": "is always riskier", "icon": "storm"}]},
+				{"say": "Buying apples in autumn and selling them honestly in winter is...", "answer": 0, "choices": [{"text": "trading", "icon": "shed"}, {"text": "gambling", "icon": "dice"}]},
+				{"say": "A fair dice shows a 6 about...", "answer": 0, "choices": [{"text": "once in 6 throws", "icon": "dice"}, {"text": "every other throw", "icon": "price_up"}]}
+			],
+			"name_it": {"title": "Trading honestly, and why gambling loses", "lines": ["Buy when there's plenty, sell when it's scarce: honestly.", "Keep only the stock you can store and sell.", "Spread across goods: a storm hits one.", "A game that pays back less than it takes loses over time.", "For real money, talk to a grown-up you trust."], "source": "The EU and OECD financial competence framework (2023), the Council for Economic Education (2010) and GamCare"},
+			"try_real": "Talk with a grown-up you trust about why games of chance are made to win, and the player is not.",
+			"sources": [
+				{"fact": "Risk and reward; spreading risk; telling saving and investing apart from gambling.", "source": "European Union and OECD, Financial competence framework for children and youth (2023)", "url": "https://search.oecd.org/daf/fin/financial-education/Financial-competence-framework-youth-EU.pdf"},
+				{"fact": "A fair dice: each of the six faces is equally likely; many throws show it.", "source": "NRICH (University of Cambridge), What Do You Know About Probability? (2)", "url": "https://nrich.maths.org/12151"},
+				{"fact": "Giving young people the facts about gambling, and the critical thinking to choose.", "source": "GamCare, Giving young people the facts about gambling", "url": "https://gamcare.org.uk/news-and-blog/blog/giving-young-people-the-facts-about-gambling"},
+				{"fact": "Loot box spending is linked to problem gambling, more so in older teenagers.", "source": "Zendle and Cairns (2018), PLOS ONE", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6599795"}
+			]
+		}
+	}
+}

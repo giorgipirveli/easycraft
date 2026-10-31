@@ -1,0 +1,397 @@
+{
+	"id": "g3.english.adjectives_adverbs",
+	"lesson": [
+		{
+			"text": "Remember? A noun names a thing and a verb is a doing word. Describing words make them come alive."
+		},
+		{
+			"text": "Adjectives describe nouns: a tall tree, a fluffy cat, three green frogs. They tell what kind, what colour, what size or how many."
+		},
+		{
+			"text": "Adverbs describe verbs: they tell how, when or where. The snail moved slowly. We played outside. Many adverbs end in -ly: quickly, softly, happily."
+		},
+		{
+			"text": "Compare two things with -er: Zara's tower is taller than Bram's. Compare three or more with -est: Mimi's tower is the tallest of all.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					4,
+					6,
+					9
+				]
+			}
+		},
+		{
+			"text": "Watch the spelling: big, bigger, biggest (double the g). Happy, happier, happiest (y becomes i). Nice, nicer, nicest (just add r or st).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"word",
+						"-er",
+						"-est"
+					],
+					[
+						"big",
+						"bigger",
+						"biggest"
+					],
+					[
+						"happy",
+						"happier",
+						"happiest"
+					],
+					[
+						"nice",
+						"nicer",
+						"nicest"
+					]
+				]
+			}
+		},
+		{
+			"text": "Long adjectives use more and most: more beautiful, the most beautiful. Some are irregular: good, better, best; bad, worse, worst."
+		},
+		{
+			"text": "Try it in the world: build three towers and describe them: tall, taller, the tallest. Then say how your buddy moved, with an adverb: slowly, quickly, happily. Next: joining sentences."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word is an adjective in \"a fluffy cat\"?",
+			"answer": 0,
+			"hint": "Which word describes the cat?",
+			"choices": [
+				"fluffy",
+				"cat",
+				"a"
+			],
+			"explain": "Fluffy describes the cat, so it is an adjective."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word is an adverb in \"The snail moved slowly\"?",
+			"answer": 0,
+			"hint": "Which word tells how it moved?",
+			"choices": [
+				"slowly",
+				"snail",
+				"moved"
+			],
+			"explain": "Slowly tells how the snail moved: it is an adverb."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Zara's tower is ___ than Bram's.",
+			"answer": 0,
+			"hint": "Comparing two things: add -er.",
+			"choices": [
+				"taller",
+				"tallest",
+				"tall"
+			],
+			"explain": "Comparing two towers: taller.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					6,
+					4
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "An adjective describes a noun.",
+			"answer": true,
+			"hint": "Think of a tall tree.",
+			"explain": "True: tall describes the tree."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the biggest? The mouse is small, the cat is big, the horse is the ___.",
+			"answer": 0,
+			"hint": "Short word, one vowel, one consonant: double it.",
+			"choices": [
+				"biggest",
+				"bigest",
+				"most big"
+			],
+			"explain": "Double the g and add -est: biggest."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which word describes how Pip sang? \"Pip sang happily.\"",
+			"answer": 0,
+			"hint": "How did he sing?",
+			"choices": [
+				"happily",
+				"Pip",
+				"sang"
+			],
+			"explain": "Happily tells how Pip sang: it is an adverb."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "This is the ___ day of my life!",
+			"answer": 0,
+			"hint": "happy: change y to i.",
+			"choices": [
+				"happiest",
+				"happyest",
+				"most happy"
+			],
+			"explain": "Change y to i and add -est: happiest."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which one is an adverb that tells where?",
+			"answer": 0,
+			"hint": "Where did we play?",
+			"choices": [
+				"outside",
+				"quickly",
+				"yesterday"
+			],
+			"explain": "Outside tells where; quickly tells how and yesterday tells when."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "\"Gooder\" is the right way to compare two things with \"good\".",
+			"answer": false,
+			"hint": "good is irregular.",
+			"explain": "False: good, better, best."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The rainbow was the ___ thing I had ever seen.",
+			"answer": 0,
+			"hint": "Long adjectives use more or most.",
+			"choices": [
+				"most beautiful",
+				"beautifullest",
+				"more beautiful"
+			],
+			"explain": "Beautiful is long, so we say the most beautiful."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "My cold is ___ today than yesterday.",
+			"answer": 0,
+			"hint": "Is your cold getting better or getting more unwell? Which comparing word fits bad?",
+			"choices": [
+				"worse",
+				"badder",
+				"worst"
+			],
+			"explain": "Comparing two days: worse."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the words in order, from the least to the most.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Which one compares the most?",
+			"items": [
+				"better",
+				"good",
+				"best"
+			],
+			"explain": "Good, better, best: each is more than the one before."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which sentence uses an adjective AND an adverb?",
+			"answer": 0,
+			"hint": "Find a word for the mouse and a word for how it ran.",
+			"choices": [
+				"The tiny mouse ran quickly.",
+				"The mouse ran.",
+				"A mouse is a mouse."
+			],
+			"explain": "Tiny describes the mouse (adjective); quickly describes how it ran (adverb)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Of the three towers, Mimi's is the ___.",
+			"answer": 0,
+			"hint": "Three or more things: add -est.",
+			"choices": [
+				"tallest",
+				"taller",
+				"most tall"
+			],
+			"explain": "Comparing three towers: tallest.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					4,
+					6,
+					9
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "\"More faster\" is correct.",
+			"answer": false,
+			"hint": "Use -er or more, never both.",
+			"explain": "False: say faster, not more faster."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the words: adjective or adverb?",
+			"hint": "Does it describe a thing or how something is done?",
+			"groups": [
+				"adjective",
+				"adverb"
+			],
+			"items": [
+				"fluffy",
+				"slowly",
+				"tall",
+				"quietly"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"explain": "Adjectives: fluffy, tall. Adverbs: slowly, quietly."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each adjective to its -est word.",
+			"items": [
+				"good",
+				"bad",
+				"beautiful"
+			],
+			"matches": [
+				"worst",
+				"the most beautiful",
+				"best"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Two of them are irregular, and the long one uses most.",
+			"explain": "Good, best; bad, worst; beautiful, the most beautiful."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the adverbs: do they tell how, when or where?",
+			"groups": [
+				"how",
+				"when",
+				"where"
+			],
+			"items": [
+				"slowly",
+				"yesterday",
+				"outside",
+				"happily",
+				"soon",
+				"upstairs"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Ask: does it tell how something is done, when it happens, or where?",
+			"explain": "How: slowly, happily. When: yesterday, soon. Where: outside, upstairs."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each word to its -er word for comparing two things.",
+			"items": [
+				"big",
+				"happy",
+				"nice",
+				"bad"
+			],
+			"matches": [
+				"nicer",
+				"worse",
+				"bigger",
+				"happier"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Remember the spelling rules: double the last letter, y to i, just add r, or a new word.",
+			"explain": "Big, bigger (double the g). Happy, happier (y becomes i). Nice, nicer (just add r). Bad, worse (a new word)."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the sentences: is the comparing word right?",
+			"groups": [
+				"right",
+				"not right"
+			],
+			"items": [
+				"Mimi's tower is the tallest of all.",
+				"My kite is more faster than yours.",
+				"This is the happiest day ever.",
+				"Zara's cake is bigger than Bram's.",
+				"That was the baddest storm."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Two things take -er; three or more take -est. Watch for words that change.",
+			"explain": "Right: the tallest of all, the happiest day, bigger than Bram's. Not right: say faster, not more faster; and say the worst storm, not the baddest."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3e.compare",
+			"level": 1
+		},
+		{
+			"gen": "g3e.compare",
+			"level": 2
+		},
+		{
+			"gen": "g3e.compare",
+			"level": 3
+		}
+	]
+}

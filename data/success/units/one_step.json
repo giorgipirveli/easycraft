@@ -1,0 +1,169 @@
+{
+	"id": "life.goals.one_step",
+	"lesson": [
+		{
+			"text": "Quick memory: what do you keep saved coins in? (A saving jar.) Today: goals, steps, trying again and small habits."
+		},
+		{
+			"text": "A dream is something big you wish for. A goal is one thing you can do and see, like a tower 3 blocks high."
+		},
+		{
+			"text": "Big jobs go one step at a time: the big block first, then the next one, then the next."
+		},
+		{
+			"text": "If it falls down, that's OK. Take a breath, look at what happened and try again."
+		},
+		{
+			"text": "Saving means waiting now for something better later: coins in the jar today, a kite next week."
+		},
+		{
+			"text": "A habit is a small good thing you do every day. If you forget one day, just carry on the next day."
+		},
+		{
+			"text": "Try it in the practice room: help Bobo build his tower and plan his goal."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which one is a goal you can do today?",
+			"answer": 0,
+			"choices": [
+				"Build a tower 3 blocks high",
+				"Be the best builder ever",
+				"Build something, sometime"
+			],
+			"hint": "Something you can do and see.",
+			"explain": "3 blocks high is a goal you can do and see today."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Big jobs go one step at a time.",
+			"answer": true,
+			"hint": "Think of Bobo's tower.",
+			"explain": "True: one step, then the next."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Your tower falls down. What do you do?",
+			"answer": 0,
+			"choices": [
+				"Try again, a bit more carefully",
+				"Give up",
+				"Kick the blocks"
+			],
+			"hint": "Builders don't stop.",
+			"explain": "Try again: falls help us learn."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "If you forget your habit one day, you must stop for ever.",
+			"answer": false,
+			"hint": "Is one day a big deal?",
+			"explain": "False: just carry on the next day."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Build a tower: put it in order.",
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"items": [
+				"the small block on top",
+				"the big block at the bottom",
+				"the middle block"
+			],
+			"hint": "The biggest goes at the bottom.",
+			"explain": "Big at the bottom, then the middle, then the small one."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bobo is saving for a kite. What helps?",
+			"answer": 0,
+			"choices": [
+				"Keep his coins in the jar",
+				"Buy sweets with them",
+				"Leave them on the floor"
+			],
+			"hint": "Where are coins safe?",
+			"explain": "Coins in the jar bring the kite closer."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "A goal for today, or a big dream?",
+			"groups": [
+				"a goal for today",
+				"a big dream"
+			],
+			"items": [
+				"build 3 blocks high",
+				"fly to the Moon",
+				"tidy my toys",
+				"be a famous builder"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Can you do it today?",
+			"explain": "Building 3 high and tidying are goals for today; the Moon and fame are big dreams."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bobo has 2 coins. He saves 1 more each day for 3 days. How many coins now?",
+			"answer": "5",
+			"hint": "2 + 1 + 1 + 1.",
+			"explain": "2 + 3 = 5 coins."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is a small good habit?",
+			"answer": 0,
+			"choices": [
+				"Drink a glass of water every day",
+				"Eat ten sweets every day",
+				"Stay up very late"
+			],
+			"hint": "Small and good for you.",
+			"explain": "Water every day is a small good habit."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Waiting for something better later can be a superpower.",
+			"answer": true,
+			"hint": "Think of the kite.",
+			"explain": "True: waiting a little often gets you something better."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Make a plan: put it in order.",
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"items": [
+				"try it",
+				"pick a goal",
+				"think of the steps"
+			],
+			"hint": "What comes first?",
+			"explain": "Pick a goal, think of the steps, then try it."
+		}
+	]
+}

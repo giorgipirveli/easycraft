@@ -1,0 +1,24 @@
+{
+	"id": "life.safe.nosebleeds_asthma",
+	"lesson": [
+		{"text": "Quick memory: where do you help someone who is too hot? (Into the shade.) Today: nosebleeds, bumps, asthma and too much heat."},
+		{"text": "A nosebleed: sit, lean forward, and pinch the soft part of the nose for 10 minutes, breathing through the mouth. Tipping the head back makes it run down the throat."},
+		{"text": "A bump on the head: always tell a grown-up, who watches for a headache, sleepiness or being sick."},
+		{"text": "Asthma: help them sit up and stay calm. Their own reliever inhaler with a spacer: shake it, into the spacer, breathe out, press once, then breathe slowly through it."},
+		{"text": "Too hot: shade, cool, sips of water. Still hot and muddled, not getting better? It can be heatstroke: call {number}."},
+		{"text": "Try it in the world: open the practice room and the playground. Next: allergy pens and seizures, on the Big track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "A nosebleed: you lean...", "answer": 0, "choices": ["forward", "back", "sideways"], "hint": "Not down the throat.", "explain": "Forward."},
+		{"type": "choice", "level": 1, "prompt": "Where do you pinch for a nosebleed?", "answer": 0, "choices": ["the soft part of the nose", "the bony top", "the ears"], "hint": "Below the bony bit.", "explain": "The soft part."},
+		{"type": "truefalse", "level": 1, "prompt": "A bump on the head should be kept secret.", "answer": false, "hint": "Grown-ups watch for signs.", "explain": "False: always tell a grown-up."},
+		{"type": "choice", "level": 2, "prompt": "How long do you pinch a nosebleed?", "answer": 0, "choices": ["10 minutes", "10 seconds", "1 hour"], "hint": "Use a clock.", "explain": "10 minutes."},
+		{"type": "order", "level": 2, "prompt": "Using an inhaler with a spacer: put it in order.", "answer": [1, 3, 0, 2], "items": ["press once", "shake it", "breathe slowly through the spacer", "put it into the spacer"], "hint": "Shake first.", "explain": "Shake, into the spacer, press, breathe slowly."},
+		{"type": "truefalse", "level": 2, "prompt": "Someone having an asthma attack should sit up straight.", "answer": true, "hint": "It helps breathing.", "explain": "True."},
+		{"type": "choice", "level": 2, "prompt": "Whose inhaler does someone use?", "answer": 0, "choices": ["their own", "anyone's", "a friend's"], "hint": "Medicine is personal.", "explain": "Their own, as their asthma plan says."},
+		{"type": "choice", "level": 3, "prompt": "Someone is hot, dizzy and muddled, and not getting better. You...", "answer": 0, "choices": ["call {number}", "tell them to run", "give them a hot drink"], "hint": "It can be heatstroke.", "explain": "Call {number} and keep cooling them."},
+		{"type": "sort", "level": 3, "prompt": "Do it, or never do it?", "groups": ["do it", "never do it"], "items": ["lean forward for a nosebleed", "tip the head back", "shake the inhaler", "lie in the hot sun"], "answer": [0, 1, 0, 1], "hint": "Think of each step.", "explain": "Lean forward and shake: do it."},
+		{"type": "truefalse", "level": 3, "prompt": "A nosebleed that lasts more than 10 to 15 minutes needs a doctor's help.", "answer": true, "hint": "Tell a grown-up.", "explain": "True."},
+		{"type": "choice", "level": 3, "prompt": "A spacer helps the medicine...", "answer": 0, "choices": ["reach the lungs", "taste nicer", "last longer"], "hint": "It's a tube to breathe through.", "explain": "Reach the lungs."}
+	]
+}

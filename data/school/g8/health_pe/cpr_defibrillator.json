@@ -1,0 +1,409 @@
+{
+	"id": "g8.health_pe.cpr_defibrillator",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you learnt the recovery position. When is it used? (When someone is not responding but is breathing normally.) Today: what to do when someone is not breathing normally."
+		},
+		{
+			"text": "In a cardiac arrest the heart stops pumping properly. The person collapses, doesn't respond and is not breathing normally. Without help, the brain starts to be harmed within minutes. CPR keeps blood moving."
+		},
+		{
+			"text": "The steps: check for danger, check for a response, shout for help, and open the airway. Check breathing for up to 10 seconds. Not breathing normally? Call 999 or 112 on speaker, and send someone for a defibrillator.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"danger?",
+					"response?",
+					"shout for help",
+					"airway and breathing",
+					"call 999, get an AED",
+					"CPR"
+				]
+			}
+		},
+		{
+			"text": "CPR: kneel beside them. Put the heel of one hand on the centre of the chest, the other hand on top. Keep your arms straight. Push down 5 to 6 cm, then let the chest come back up.",
+			"picture": {
+				"kind": "cpr_aed",
+				"view": "hands",
+				"labels": true
+			}
+		},
+		{
+			"text": "Push hard and fast, 100 to 120 times a minute: listen to the beat. If you are not trained in rescue breaths, keep pushing without stopping. Trained rescuers give 30 pushes, then 2 breaths.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 110
+			}
+		},
+		{
+			"text": "A defibrillator, an AED, gives an electric shock that can restart a normal heartbeat. Anyone can use one: switch it on and follow its voice. Its two pads go below the right collarbone and on the left side, below the armpit.",
+			"picture": {
+				"kind": "cpr_aed",
+				"view": "pads",
+				"labels": true
+			}
+		},
+		{
+			"text": "An AED only shocks if the heart needs it, and tells everyone to stand clear. Public ones hang in green boxes; the 999 call handler can tell you where. In 1965, Frank Pantridge in Belfast made the first portable defibrillator.",
+			"picture": {
+				"kind": "cpr_aed",
+				"view": "machine",
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: learn CPR hands-on with a trained adult, on a training dummy. Spot the defibrillators near you. In LIFE, Little Lifesaver practises hands-only CPR at 100 to 120 a minute. Next: speak up for health."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Someone collapses and is not breathing normally. What is happening?",
+			"choices": [
+				"a cardiac arrest",
+				"a sprained ankle",
+				"a nosebleed",
+				"a mild headache"
+			],
+			"answer": 0,
+			"hint": "Which one means the heart has stopped pumping properly?",
+			"explain": "No response and no normal breathing are the signs of a cardiac arrest: call 999 and start CPR."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Anyone can use a defibrillator: it talks you through each step.",
+			"answer": true,
+			"hint": "Think about the voice the machine uses.",
+			"explain": "True: switch it on and follow its spoken instructions."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many pushes do trained rescuers give before 2 rescue breaths?",
+			"answer": "30",
+			"hint": "The lesson gave the pushes and breaths in each cycle.",
+			"explain": "30 pushes, then 2 breaths, again and again."
+		},
+		{
+			"type": "rhythm",
+			"level": 1,
+			"prompt": "Listen to the CPR beat, then copy it in the boxes.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 110
+			},
+			"hint": "Each box is half a beat. Tap a box for every push.",
+			"explain": "A push on every beat: x-x-x-x-, steady, about 110 a minute."
+		},
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label the CPR picture: tap a word, then its number.",
+			"picture": {
+				"kind": "cpr_aed",
+				"view": "hands",
+				"pins": true
+			},
+			"labels": [
+				"hands",
+				"straight arms",
+				"chest",
+				"5 to 6 cm"
+			],
+			"hint": "Start with what touches the person, then follow upwards.",
+			"explain": "The hands push on the centre of the chest, with straight arms, 5 to 6 cm down.",
+			"spots": [
+				[
+					0.3824,
+					0.09,
+					0.3824,
+					0.4467
+				],
+				[
+					0.5441,
+					0.91,
+					0.4789,
+					0.6998
+				],
+				[
+					0.3133,
+					0.91,
+					0.3133,
+					0.6998
+				],
+				[
+					0.4287,
+					0.91,
+					0.3802,
+					0.6365
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the first steps in order.",
+			"items": [
+				"check for a response",
+				"shout for help",
+				"check breathing for 10 seconds",
+				"check for danger",
+				"open the airway"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				4,
+				2
+			],
+			"hint": "Keep yourself safe first, then the person, then get help, then breathing.",
+			"explain": "Danger, response, shout for help, open the airway, then check breathing for up to 10 seconds."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "At 120 pushes a minute, how many pushes are given in 30 seconds?",
+			"answer": "60",
+			"hint": "30 seconds is half a minute.",
+			"explain": "120 ÷ 2 = 60 pushes in 30 seconds."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label where the pads go: tap a word, then its number.",
+			"picture": {
+				"kind": "cpr_aed",
+				"view": "pads",
+				"pins": true
+			},
+			"labels": [
+				"upper pad",
+				"side pad",
+				"collarbone",
+				"AED"
+			],
+			"hint": "One pad near the collarbone, one low on the side, both wired to the machine.",
+			"explain": "The upper pad goes below the right collarbone, the side pad below the left armpit, both wired to the AED.",
+			"spots": [
+				[
+					0.94,
+					0.6154,
+					0.5961,
+					0.6154
+				],
+				[
+					0.06,
+					0.2647,
+					0.436,
+					0.2647
+				],
+				[
+					0.94,
+					0.8554,
+					0.7562,
+					0.7664
+				],
+				[
+					0.06,
+					0.5047,
+					0.4296,
+					0.3846
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How deep should each push be for an adult?",
+			"choices": [
+				"5 to 6 cm",
+				"1 to 2 cm",
+				"10 to 12 cm",
+				"as deep as you can"
+			],
+			"answer": 0,
+			"hint": "Deep enough to squeeze the heart, but not more: the lesson gave a range.",
+			"explain": "Push 5 to 6 cm, and let the chest come back up each time."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If someone is not responding but is breathing normally, you start CPR.",
+			"answer": false,
+			"hint": "What does normal breathing tell you about the heart?",
+			"explain": "False: they need the recovery position and a 999 call. CPR is for someone not breathing normally."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "CPR, or the recovery position?",
+			"groups": [
+				"CPR",
+				"recovery position"
+			],
+			"items": [
+				"not responding, not breathing normally",
+				"asleep-looking, breathing steadily",
+				"collapsed, gasping now and then",
+				"not responding, breathing normally"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is the person breathing normally?",
+			"explain": "Not breathing normally (gasps don't count): CPR. Breathing normally: the recovery position."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "At 100 pushes a minute, how many seconds do 30 pushes take?",
+			"answer": "18",
+			"hint": "Find the seconds for one push (60 ÷ the rate), then multiply by 30.",
+			"explain": "60 ÷ 100 = 0.6 seconds a push; 0.6 × 30 = 18 seconds."
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label the defibrillator: tap a word, then its number.",
+			"picture": {
+				"kind": "cpr_aed",
+				"view": "machine",
+				"pins": true
+			},
+			"labels": [
+				"on button",
+				"shock button",
+				"speaker",
+				"pads"
+			],
+			"hint": "Find what you press first, what you press only if told, where the voice comes from, and what goes on the chest.",
+			"explain": "Press the green on button, listen to the speaker, put on the pads, and press the shock button only if told.",
+			"spots": [
+				[
+					0.06,
+					0.7236,
+					0.4575,
+					0.6799
+				],
+				[
+					0.94,
+					0.3364,
+					0.6698,
+					0.3364
+				],
+				[
+					0.94,
+					0.6636,
+					0.6769,
+					0.6636
+				],
+				[
+					0.06,
+					0.4836,
+					0.3302,
+					0.4836
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The defibrillator says 'Shock advised'. What must you do?",
+			"choices": [
+				"make sure nobody is touching them",
+				"hold their hand",
+				"keep pushing during the shock",
+				"switch it off"
+			],
+			"answer": 0,
+			"hint": "Electricity goes through anyone touching the person.",
+			"explain": "Everyone stands clear so the shock goes only to the person's heart; then CPR starts again at once."
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Copy the beat at the fast end of CPR, 120 pushes a minute.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 120
+			},
+			"hint": "Each box is half a beat: a push every other box, a little quicker, never stopping.",
+			"explain": "A push on every beat, x-x-x-x-, at 120 a minute. Real CPR keeps going until help takes over."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "A defibrillator arrives during CPR. Put the steps in order.",
+			"items": [
+				"carry on CPR when told",
+				"follow its voice",
+				"switch it on",
+				"stick on the pads",
+				"stand clear if it says shock"
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				4,
+				0
+			],
+			"hint": "On, listen, pads, clear, then back to pushing.",
+			"explain": "Switch on, follow the voice, put on the pads, stand clear for a shock, then carry on CPR."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.cpr_count",
+			"level": 1
+		},
+		{
+			"gen": "g8l.cpr_count",
+			"level": 2
+		},
+		{
+			"gen": "g8l.cpr_count",
+			"level": 3
+		},
+		{
+			"gen": "g8l.cpr_step",
+			"level": 1
+		},
+		{
+			"gen": "g8l.cpr_step",
+			"level": 2
+		},
+		{
+			"gen": "g8l.cpr_step",
+			"level": 3
+		}
+	]
+}

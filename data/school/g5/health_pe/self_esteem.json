@@ -1,0 +1,352 @@
+{
+	"id": "g5.health_pe.self_esteem",
+	"lesson": [
+		{
+			"text": "Quick memory: what is box breathing? (In for 4, hold for 4, out for 4, hold for 4.) It calms big feelings. Today: how you think and feel about yourself."
+		},
+		{
+			"text": "Self-esteem is how you think and feel about yourself: how much you value yourself. With healthy self-esteem, you know you matter, even when things go wrong."
+		},
+		{
+			"text": "Everyone has strengths and things they are still learning. You might be kind, funny, brave, creative or a good listener. Qualities like these matter more than what you look like."
+		},
+		{
+			"text": "Self-talk is the voice in your head. Unkind self-talk says, 'I'm no good at this.' Kind self-talk says, 'I can't do it yet, but I'm learning.' Talk to yourself as you would talk to a good friend.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"unkind self-talk",
+						"kind self-talk"
+					],
+					[
+						"I'm no good at this.",
+						"I'm still learning."
+					],
+					[
+						"I always get it wrong.",
+						"Mistakes teach me."
+					],
+					[
+						"I give up.",
+						"I'll try another way."
+					]
+				]
+			}
+		},
+		{
+			"text": "Mistakes help your brain learn. The word 'yet' is powerful: 'I can't do a cartwheel yet.' Practice, a new strategy and help from others all move you forward.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"try",
+					"make a mistake",
+					"learn from it",
+					"try a new way"
+				],
+				"title": "How learning works",
+				"loop": true
+			}
+		},
+		{
+			"text": "Every body is different. Bodies come in all shapes, sizes, colours and abilities, and they change as we grow. What your body lets you do, like run, dance, hug and think, matters more than how it looks. Every body deserves respect."
+		},
+		{
+			"text": "Pictures online are often edited or filtered, and people mostly share their best moments. Comparing yourself with them is not fair on you. If you often feel bad about yourself, talk to a trusted adult."
+		},
+		{
+			"text": "Try it in the world: build a gallery of strengths, with a sign for something each friend is good at. For real: write down three things you like about yourself, and one kind thing to say to yourself when things are hard."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is self-esteem?",
+			"answer": 0,
+			"hint": "The word 'self' is a clue.",
+			"choices": [
+				"how you think and feel about yourself",
+				"how tall you are",
+				"how many friends you have",
+				"how fast you can run"
+			],
+			"explain": "Self-esteem is how you think and feel about yourself, and how much you value yourself."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Everyone has strengths and things they are still learning.",
+			"answer": true,
+			"hint": "Does anyone find everything easy?",
+			"explain": "True: everyone is good at some things and still learning others."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Kind self-talk or unkind self-talk?",
+			"groups": [
+				"kind",
+				"unkind"
+			],
+			"items": [
+				"I'm still learning this.",
+				"I'm no good at anything.",
+				"I can ask for help.",
+				"I always get it wrong.",
+				"I'll try another way.",
+				"Everyone is better than me."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Would you say it to a good friend?",
+			"explain": "Kind: still learning, asking for help, trying another way. Unkind: no good, always wrong, everyone is better."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a quality, not a look?",
+			"answer": 0,
+			"hint": "A quality is about what you are like inside.",
+			"choices": [
+				"being kind",
+				"having curly hair",
+				"being tall",
+				"wearing blue"
+			],
+			"explain": "Being kind is a quality: it is about how you treat people, not how you look."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "You get a maths question wrong. What is the kindest thing to say to yourself?",
+			"answer": 0,
+			"hint": "Which one uses the word 'yet'?",
+			"choices": [
+				"I haven't got it yet. I'll try another way.",
+				"I'm hopeless.",
+				"I'll never be good at maths.",
+				"Everyone else is cleverer."
+			],
+			"explain": "'I haven't got it yet. I'll try another way.' Mistakes are how your brain learns."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Turn each unkind thought into a kind one.",
+			"items": [
+				"I can't do it.",
+				"I always mess up.",
+				"I'm not good enough.",
+				"Nobody likes me."
+			],
+			"matches": [
+				"Mistakes help me learn.",
+				"I'm doing my best.",
+				"My friends care about me.",
+				"I can't do it yet."
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Find the kind thought that answers each unkind one.",
+			"explain": "Can't do it: yet. Always mess up: mistakes help me learn. Not good enough: I'm doing my best. Nobody likes me: my friends care about me."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Pictures you see online are always real and unedited.",
+			"answer": false,
+			"hint": "Can photos be changed with filters and apps?",
+			"explain": "False: many are edited or filtered, and people mostly share their best moments."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Every body is different, and every body deserves respect.",
+			"answer": true,
+			"hint": "Are any two people exactly alike?",
+			"explain": "True: bodies come in all shapes, sizes, colours and abilities, and all deserve respect."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is comparing yourself with online pictures unfair on you?",
+			"answer": 0,
+			"hint": "What might have been done to the picture before it was shared?",
+			"choices": [
+				"they are often edited and show best moments",
+				"they are always true",
+				"everyone online is perfect",
+				"it helps you feel great"
+			],
+			"explain": "Online pictures are often edited and show only the best moments, so it is not a fair comparison."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order to handle a mistake kindly.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "First you have to spot the thought.",
+			"items": [
+				"try a new strategy",
+				"say something kind to yourself",
+				"stop and take a breath",
+				"notice the unkind thought"
+			],
+			"explain": "Notice the unkind thought, stop and breathe, say something kind, then try a new strategy."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram says, 'I'm the worst in the team.' What could a good friend say?",
+			"answer": 0,
+			"hint": "Which answer is true and kind?",
+			"choices": [
+				"You're getting better, and we all make mistakes.",
+				"Yes, you are.",
+				"Just stop playing.",
+				"Don't talk to me."
+			],
+			"explain": "'You're getting better, and we all make mistakes.' It is kind and honest, and helps him keep going."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which compliment is about a quality, not looks?",
+			"answer": 0,
+			"hint": "Which one is about what the person is like inside?",
+			"choices": [
+				"You're a really good listener.",
+				"Your shoes are cool.",
+				"Your hair looks nice.",
+				"You look tall."
+			],
+			"explain": "'You're a really good listener': it praises a quality, which matters more than looks."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Healthy self-esteem means thinking you are better than everyone else.",
+			"answer": false,
+			"hint": "Is valuing yourself the same as looking down on others?",
+			"explain": "False: healthy self-esteem means valuing yourself, and others too. Nobody needs to be better than anyone."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Builds self-esteem up, or knocks it down?",
+			"groups": [
+				"builds it up",
+				"knocks it down"
+			],
+			"items": [
+				"learning a new skill",
+				"helping someone",
+				"comparing yourself with edited pictures",
+				"time with people who care about you",
+				"unkind self-talk",
+				"doing something you enjoy"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "How would each one make you feel about yourself?",
+			"explain": "Builds it up: learning, helping, people who care, doing what you enjoy. Knocks it down: comparing and unkind self-talk."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "If you often feel bad about yourself, what should you do?",
+			"answer": 0,
+			"hint": "Who can help you with big worries?",
+			"choices": [
+				"talk to a trusted adult",
+				"keep it a secret",
+				"ignore it forever",
+				"post about it online"
+			],
+			"explain": "Talk to a trusted adult: feelings like this can get better with help."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does your body let you do that matters more than how it looks?",
+			"answer": 0,
+			"hint": "Think of what your body does, not how it looks.",
+			"choices": [
+				"run, dance, hug and think",
+				"wear the newest clothes",
+				"get compliments",
+				"take photos"
+			],
+			"explain": "Running, dancing, hugging and thinking: what your body lets you do matters more than its looks."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the compliments: about a quality, or about looks?",
+			"groups": [
+				"a quality",
+				"looks"
+			],
+			"items": [
+				"You're a great listener.",
+				"Nice trainers!",
+				"You never give up.",
+				"Your hair looks cool.",
+				"You're kind to new pupils.",
+				"Your coat is a lovely colour."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "A quality is about how someone is or what they do.",
+			"explain": "Qualities: listening, never giving up and being kind are about who someone is. Looks: trainers, hair and a coat. Praising qualities matters more."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Mimi can't do a cartwheel. Put her steps to learning it in order.",
+			"items": [
+				"Notice how much better she is.",
+				"Ask a friend for a tip.",
+				"Say: I can't do it yet.",
+				"Practise a little every day."
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "Start with kind self-talk, then a new strategy, then practice.",
+			"explain": "First kind self-talk: 'I can't do it yet.' Then help from a friend gives her a new strategy, she practises every day, and she notices how far she has come."
+		}
+	],
+	"generators": []
+}

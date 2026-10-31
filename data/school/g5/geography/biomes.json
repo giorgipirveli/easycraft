@@ -1,0 +1,364 @@
+{
+	"id": "g5.geography.biomes",
+	"lesson": [
+		{
+			"text": "Quick memory: which climate zone lies near the poles? (Polar.) Climate decides which plants can grow, and plants decide which animals can live. A large area with its own kind of climate, plants and animals is a biome."
+		},
+		{
+			"text": "Tropical rainforests grow near the Equator, where it is hot and wet all year. They cover a small part of the land. But they hold more than half of all kinds of land plants and animals, such as jaguars, toucans and orangutans.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60,
+				"lines": [
+					"tropics",
+					"polar"
+				],
+				"bands": true
+			}
+		},
+		{
+			"text": "In deserts, plants such as cacti store water in thick stems and have long or wide roots to catch every drop. Many animals hide from the heat by day and come out at night. A camel's hump holds fat, not water."
+		},
+		{
+			"text": "Grasslands are too dry for many trees but wet enough for grass. Hot savannas in Africa have a wet and a dry season and herds of zebras, wildebeest and elephants. Cooler grasslands are the prairies of North America and the steppes of Asia."
+		},
+		{
+			"text": "Temperate forests, like those in Britain, have trees such as oak and beech that drop their leaves in autumn. Further north, the huge boreal forest, or taiga, is full of evergreen conifers whose needles survive long, snowy winters."
+		},
+		{
+			"text": "North of the taiga lies the tundra, too cold for trees. Deep down, the ground stays frozen all year. In the short summer, mosses, lichens and small flowers grow fast, and caribou, Arctic foxes and snowy owls feed.",
+			"picture": {
+				"kind": "thermometer",
+				"from": -40,
+				"to": 20,
+				"step": 10,
+				"values": [
+					-30,
+					10
+				],
+				"names": [
+					"winter",
+					"summer"
+				]
+			}
+		},
+		{
+			"text": "Every biome's plants and animals are adapted: their bodies and habits suit its climate. The same kind of biome can be found on different continents, like hot deserts in Africa, Asia and Australia.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"biome",
+						"climate",
+						"an animal"
+					],
+					[
+						"rainforest",
+						"hot and wet",
+						"jaguar"
+					],
+					[
+						"desert",
+						"very dry",
+						"camel"
+					],
+					[
+						"savanna",
+						"hot, wet and dry",
+						"zebra"
+					],
+					[
+						"taiga",
+						"cold winters",
+						"moose"
+					],
+					[
+						"tundra",
+						"very cold",
+						"Arctic fox"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a biome dome for one biome, with the right plants, and a sign naming an animal that lives there. Next: a closer look at rainforests."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a biome?",
+			"answer": 0,
+			"hint": "Think of the rainforest, the desert and the tundra.",
+			"choices": [
+				"an area with its own climate, plants and animals",
+				"a kind of rock",
+				"a country",
+				"a type of weather map"
+			],
+			"explain": "A biome is a large area with its own kind of climate, plants and animals."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which biome is hot and wet all year?",
+			"answer": 0,
+			"hint": "It grows near the Equator.",
+			"choices": [
+				"tropical rainforest",
+				"tundra",
+				"desert",
+				"taiga"
+			],
+			"explain": "The tropical rainforest: near the Equator it is hot and wet all year."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A camel's hump is full of water.",
+			"answer": false,
+			"hint": "What does the hump store for long journeys?",
+			"explain": "False: it holds fat, which the camel can use for energy."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which biome has no trees and frozen ground deep down?",
+			"answer": 0,
+			"hint": "It lies north of the taiga.",
+			"choices": [
+				"tundra",
+				"rainforest",
+				"savanna",
+				"temperate forest"
+			],
+			"explain": "The tundra: too cold for trees, with ground frozen all year deep down."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Oak and beech trees drop their leaves in autumn.",
+			"answer": true,
+			"hint": "Think of temperate forests like those in Britain.",
+			"explain": "True: they are trees of the temperate forest."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each animal to its biome.",
+			"items": [
+				"jaguar",
+				"moose",
+				"zebra",
+				"Arctic fox",
+				"camel"
+			],
+			"matches": [
+				"desert",
+				"rainforest",
+				"taiga",
+				"savanna",
+				"tundra"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				4,
+				0
+			],
+			"hint": "Use the table: which climate suits each animal?",
+			"explain": "Jaguar: rainforest. Moose: taiga. Zebra: savanna. Arctic fox: tundra. Camel: desert."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these adaptations: for the desert or for the tundra?",
+			"groups": [
+				"desert",
+				"tundra"
+			],
+			"items": [
+				"stores water in a thick stem",
+				"thick white winter fur",
+				"comes out at night to avoid heat",
+				"grows fast in a short summer",
+				"long roots to find water"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is the problem heat and dryness, or cold and a short summer?",
+			"explain": "Desert: storing water, night-time activity, long roots. Tundra: thick winter fur, fast growth in the short summer."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do taiga conifers keep their needles all winter?",
+			"answer": 0,
+			"hint": "What are the winters like in the taiga?",
+			"choices": [
+				"their tough needles survive cold and snow",
+				"they never get cold",
+				"they have no leaves",
+				"animals glue them on"
+			],
+			"explain": "Their thin, tough, waxy needles survive the cold, so the trees are ready to grow as soon as it warms."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where are savannas with zebras and elephants?",
+			"answer": 0,
+			"hint": "Hot grasslands with a wet and a dry season.",
+			"choices": [
+				"Africa",
+				"Antarctica",
+				"Greenland",
+				"Iceland"
+			],
+			"explain": "In Africa: its hot savannas have a wet and a dry season."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Rainforests cover most of the land on Earth.",
+			"answer": false,
+			"hint": "Do they cover a big or a small part of the land?",
+			"explain": "False: they cover a small part of the land, but hold more than half of all kinds of land plants and animals."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are there no trees in the tundra?",
+			"answer": 0,
+			"hint": "Can tree roots grow into frozen ground?",
+			"choices": [
+				"it is too cold and the ground is frozen",
+				"animals eat them all",
+				"it is too wet",
+				"people cut them down"
+			],
+			"explain": "It is too cold, the summer too short, and deep roots cannot grow into frozen ground."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do rainforests hold so many kinds of living things?",
+			"answer": 0,
+			"hint": "What do plants need to grow, and does a rainforest ever run short?",
+			"choices": [
+				"warm and wet all year, so plants always grow",
+				"they are the biggest biome",
+				"they have cold winters",
+				"they are near the poles"
+			],
+			"explain": "Warmth and rain all year let plants grow all the time, feeding a huge variety of animals."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these biomes in order from the Equator to the North Pole in Africa and Europe.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start where it is hot and wet, and end where it is too cold for trees.",
+			"items": [
+				"hot desert",
+				"taiga",
+				"tropical rainforest",
+				"temperate forest",
+				"tundra"
+			],
+			"explain": "Rainforest, then hot desert (like the Sahara), temperate forest, taiga and tundra."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In the savanna's dry season, what do many herds do?",
+			"answer": 0,
+			"hint": "The grass dries up and water holes shrink.",
+			"choices": [
+				"travel to find water and grass",
+				"sleep all through it",
+				"swim to the sea",
+				"climb trees"
+			],
+			"explain": "Herds such as wildebeest travel long distances to find water and fresh grass."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The same kind of biome can be found on different continents.",
+			"answer": true,
+			"hint": "Think of hot deserts.",
+			"explain": "True: hot deserts are found in Africa, Asia, Australia and the Americas."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the plants by their biome.",
+			"groups": [
+				"desert",
+				"taiga",
+				"tundra"
+			],
+			"items": [
+				"a cactus",
+				"a pine tree",
+				"moss and lichen",
+				"a spruce tree",
+				"small low flowers"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				1,
+				2
+			],
+			"hint": "Hot and dry, cold with snowy forests, or too cold for trees?",
+			"explain": "Desert: a cactus that stores water. Taiga: evergreen pines and spruces. Tundra: moss, lichen and small low flowers, because it is too cold for trees."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The tundra is about 10 °C in summer and about −30 °C in winter. What is its temperature range, in °C?",
+			"answer": "40",
+			"hint": "Count from −30 up to 0, then from 0 up to 10.",
+			"explain": "From −30 °C up to 0 °C is 30 degrees, then up to 10 °C is 10 more: 30 + 10 = 40 °C."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each adaptation to the danger it beats.",
+			"items": [
+				"a cactus's thick stem",
+				"a desert animal out at night",
+				"an Arctic fox's thick fur"
+			],
+			"matches": [
+				"the heat of the day",
+				"freezing cold",
+				"little rain"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "For each one, ask which danger of its biome it beats.",
+			"explain": "A cactus's thick stem stores water for when little rain falls. Coming out at night avoids the heat of the day. An Arctic fox's thick fur keeps out the freezing cold."
+		}
+	]
+}

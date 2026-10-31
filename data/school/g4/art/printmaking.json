@@ -1,0 +1,374 @@
+{
+	"id": "g4.art.printmaking",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a hieroglyph? (A picture sign in Egyptian writing.) In grade 3 you printed with stamps. Today: relief prints."
+		},
+		{
+			"text": "In a relief print, you carve away the parts you don't want to print. The raised parts that are left take the ink and print. (Relief means standing up.)",
+			"picture": {
+				"kind": "carved_block",
+				"rows": [
+					"..#..",
+					".###.",
+					"#####",
+					"..#..",
+					"..#.."
+				],
+				"view": "block"
+			}
+		},
+		{
+			"text": "Blocks can be lino, wood, a potato, or soft foam pressed with a pencil. A roller spreads the ink thinly, and you press the paper on. Rub it with the back of a spoon, and peel it off."
+		},
+		{
+			"text": "A print is the mirror image of its block, so letters must be carved backwards to print the right way round.",
+			"picture": {
+				"kind": "print",
+				"items": [
+					{
+						"text": "R",
+						"on": "block",
+						"flip": "mirror"
+					},
+					{
+						"text": "R",
+						"on": "paper",
+						"flip": "none"
+					}
+				],
+				"arrows": true
+			}
+		},
+		{
+			"text": "One block can print again and again. Turn it, flip it or step it along to make repeating patterns. Printers of wallpaper and cloth have done this for hundreds of years."
+		},
+		{
+			"text": "Katsushika Hokusai's Great Wave is a woodblock print, made with a different block for each colour. Albrecht Dürer carved a famous rhinoceros into wood in 1515, without ever seeing one."
+		},
+		{
+			"text": "Worked example: a leaf motif (a small design) printed 4 times across and 3 times down makes 4 × 3 = 12 leaves. Flip every other one, and the pattern changes.",
+			"picture": {
+				"kind": "carved_block",
+				"rows": [
+					"..#..",
+					".###.",
+					"#####",
+					"..#..",
+					"..#.."
+				],
+				"view": "print"
+			}
+		},
+		{
+			"text": "Try it in the world: build a raised design on a wall in your world, like a block ready to print. Which way round would it print? Build the print next to it."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a relief print, which parts take the ink?",
+			"answer": 0,
+			"hint": "Relief means standing up.",
+			"choices": [
+				"the raised parts",
+				"the carved-away parts",
+				"the back of the block",
+				"only the edges"
+			],
+			"explain": "The raised parts that are left take the ink and print."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A print is a mirror image of its block.",
+			"answer": true,
+			"hint": "Look at the R on the block and on the print.",
+			"explain": "True: the block's backwards R prints the right way round."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "This block is inked and pressed onto paper. Which print does it make?",
+			"answer": 0,
+			"hint": "A print is the block's mirror image. Picture the block turned over, face down, like a page.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "print",
+						"items": [
+							{
+								"text": "F",
+								"on": "paper",
+								"flip": "none"
+							}
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "print",
+						"items": [
+							{
+								"text": "F",
+								"on": "paper",
+								"flip": "mirror"
+							}
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "print",
+						"items": [
+							{
+								"text": "F",
+								"on": "paper",
+								"flip": "upside down"
+							}
+						]
+					}
+				}
+			],
+			"explain": "The F is carved backwards on the block, so it prints the right way round.",
+			"picture": {
+				"kind": "print",
+				"items": [
+					{
+						"text": "F",
+						"on": "block",
+						"flip": "mirror"
+					}
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the steps of a relief print in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You can't ink a block before it is carved.",
+			"items": [
+				"Carve away what won't print",
+				"Press the paper on and rub",
+				"Draw your design",
+				"Roll ink on the block",
+				"Peel the paper off"
+			],
+			"explain": "Draw, carve, ink, press and rub, then peel."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A leaf motif is printed 5 times across and 4 times down. How many leaves?",
+			"answer": "20",
+			"hint": "Rows and columns: multiply.",
+			"explain": "5 × 4 = 20 leaves."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why must letters be carved backwards?",
+			"answer": 0,
+			"hint": "What happens to a design when it is printed?",
+			"choices": [
+				"the print flips them the right way round",
+				"to make them harder to read",
+				"carving goes right to left",
+				"ink runs backwards"
+			],
+			"explain": "A print is a mirror image, so a backwards letter prints the right way round."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each thing to its job.",
+			"items": [
+				"roller",
+				"block",
+				"spoon",
+				"motif"
+			],
+			"matches": [
+				"rubs the paper down",
+				"a small design to repeat",
+				"spreads the ink thinly",
+				"holds the carved design"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think through making a print.",
+			"explain": "The roller inks, the block holds the design, the spoon rubs, the motif repeats."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Who carved a famous rhinoceros into wood in 1515?",
+			"answer": 0,
+			"hint": "He never saw a real rhinoceros.",
+			"choices": [
+				"Albrecht Dürer",
+				"Katsushika Hokusai",
+				"Vincent van Gogh",
+				"Leonardo da Vinci"
+			],
+			"explain": "Albrecht Dürer carved his rhinoceros from a description, without seeing one."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "One carved block can only make one print.",
+			"answer": false,
+			"hint": "Can you ink it again?",
+			"explain": "False: ink it again and it prints again, so one block makes many prints."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This block is inked and pressed onto paper. Which print does it make?",
+			"answer": 0,
+			"hint": "A print is the block's mirror image. Picture the block turned over, face down, like a page.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "print",
+						"items": [
+							{
+								"text": "2",
+								"on": "paper",
+								"flip": "none"
+							}
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "print",
+						"items": [
+							{
+								"text": "2",
+								"on": "paper",
+								"flip": "mirror"
+							}
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "print",
+						"items": [
+							{
+								"text": "2",
+								"on": "paper",
+								"flip": "upside down"
+							}
+						]
+					}
+				}
+			],
+			"explain": "The 2 is carved backwards on the block, so it prints the right way round.",
+			"picture": {
+				"kind": "print",
+				"items": [
+					{
+						"text": "2",
+						"on": "block",
+						"flip": "mirror"
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Hokusai used a different block for each colour. Why?",
+			"answer": 0,
+			"hint": "How do you print a picture with many colours?",
+			"choices": [
+				"each block printed one colour in its place",
+				"the blocks were too small",
+				"he had lots of wood",
+				"ink only comes in one colour"
+			],
+			"explain": "Each block printed one colour; printed one after another, they made the whole picture."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A wallpaper printer steps a block along 6 times on each of 5 rows. How many prints?",
+			"answer": "30",
+			"hint": "Prints in a row times the number of rows.",
+			"explain": "6 × 5 = 30 prints."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You carve ZARA the right way round on a block. What does the print show?",
+			"answer": 0,
+			"hint": "What does printing do to what is on the block?",
+			"choices": [
+				"ZARA back to front, like a mirror",
+				"ZARA the right way round",
+				"nothing at all",
+				"ZARA upside down"
+			],
+			"explain": "The print is a mirror image, so ZARA comes out back to front. Carve it backwards instead."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Hokusai's Great Wave is a woodblock print.",
+			"answer": true,
+			"hint": "How was it made?",
+			"explain": "True: it was printed from carved wooden blocks, one for each colour."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "You want a black circle on white paper. Sort the parts of the block.",
+			"groups": [
+				"carve away",
+				"leave raised"
+			],
+			"items": [
+				"the space around the circle",
+				"the circle",
+				"the corners of the block",
+				"the edge of the circle"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Raised parts print black; carved-away parts stay white.",
+			"explain": "Leave the circle raised so it prints black. Carve away everything else so it stays white."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.which_print",
+			"level": 1
+		},
+		{
+			"gen": "g4a.which_print",
+			"level": 2
+		},
+		{
+			"gen": "g4a.which_print",
+			"level": 3
+		}
+	]
+}

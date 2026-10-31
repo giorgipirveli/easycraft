@@ -1,0 +1,356 @@
+{
+	"id": "g5.music.write_a_song",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a chorus? (The part of a song with the same words and tune every time.) Today: writing a song of your own."
+		},
+		{
+			"text": "A song's words are its lyrics. Each syllable usually gets its own note: but-ter-fly has 3 syllables, so it needs 3 notes.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"E4",
+					"G4",
+					"C5"
+				],
+				"words": [
+					"but",
+					"ter",
+					"fly"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4",
+					"G4",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"text": "Put strong syllables on strong beats. Say ba-NA-na: the middle syllable is strong. Sing it so NA lands on a strong beat, and the word sounds natural."
+		},
+		{
+			"text": "Rhymes make lines fit together and easy to remember: night and light, day and play. They usually come at the ends of lines."
+		},
+		{
+			"text": "The chorus is the heart of a song: short, catchy and repeated. Many songwriters write it first. Its hook is the catchiest bit, a few words and notes that stick in your head.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"verse",
+					"chorus",
+					"verse",
+					"chorus"
+				],
+				"mark": 1
+			}
+		},
+		{
+			"text": "Worked example: 'Sun is shin-ing, time to play' has 7 syllables, so it needs 7 notes. Ending on the home note, C, makes it sound finished.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"E4",
+					"G4",
+					"G4",
+					"A4",
+					"G4",
+					"E4",
+					"C4"
+				],
+				"values": [
+					"crotchet",
+					"crotchet",
+					"crotchet",
+					"crotchet",
+					"crotchet",
+					"crotchet",
+					"minim"
+				],
+				"words": [
+					"Sun",
+					"is",
+					"shin",
+					"ing",
+					"time",
+					"to",
+					"play"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4",
+					"G4",
+					"G4",
+					"A4",
+					"G4",
+					"E4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"text": "Repeat and change: sing a line, repeat it, then change its end. Steps make a tune easy to sing; a leap on an important word makes it stand out."
+		},
+		{
+			"text": "Try it in the world: write a 4-line chorus about your favourite place in your world. Rhyme the ends of lines 2 and 4. Clap its syllables, then sing it. Next: great composers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many syllables does the word dinosaur have?",
+			"answer": "3",
+			"hint": "Clap the word as you say it slowly.",
+			"explain": "di-no-saur: 3 syllables, so it needs 3 notes."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In most songs, each syllable gets its own note.",
+			"answer": true,
+			"hint": "Think of but-ter-fly.",
+			"explain": "True: one note for each syllable is the usual way to fit words to a tune."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word rhymes with play?",
+			"answer": 0,
+			"hint": "Say each word after play. Which ends with the same sound?",
+			"choices": [
+				"day",
+				"plan",
+				"pig",
+				"moon"
+			],
+			"explain": "Play and day end with the same sound: they rhyme."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Listen. How many notes did you hear?",
+			"answer": "4",
+			"hint": "Count each new sound, on your fingers.",
+			"explain": "C, D, E and C: 4 notes.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A song line goes: We sail across the sea. One note for each syllable: how many notes does it need?",
+			"answer": "6",
+			"hint": "Clap it slowly. Long words have more than one clap.",
+			"explain": "we sail a-cross the sea: 1 + 1 + 2 + 1 + 1 = 6 notes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In ba-NA-na, which syllable should land on a strong beat?",
+			"answer": 0,
+			"hint": "Say the word. Which syllable do you say most strongly?",
+			"choices": [
+				"NA, the middle one",
+				"ba, the first one",
+				"na, the last one",
+				"all three"
+			],
+			"explain": "We say ba-NA-na with the middle syllable strong, so NA goes on the strong beat."
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Listen to the claps for butter-fly, butter-fly, then mark the boxes.",
+			"hint": "Butter is two quick claps; fly is one longer one.",
+			"explain": "You heard ti-ti, ta, ti-ti, ta: claps in boxes 1, 2, 3, 5, 6 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxx-xxx-",
+				"tempo": 75
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which note is best to end a song in C major on, so it sounds finished?",
+			"answer": 0,
+			"hint": "Which note feels like home in C major?",
+			"choices": [
+				"C",
+				"D",
+				"B",
+				"F"
+			],
+			"explain": "C is the home note of C major, so ending on it sounds finished."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of writing a song in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Many songwriters start with the chorus.",
+			"items": [
+				"Write the chorus first",
+				"Fit the words to a tune",
+				"Choose what the song is about",
+				"Write the verses",
+				"Sing it, and change what doesn't fit"
+			],
+			"explain": "Choose a topic, write the chorus, then the verses, fit them to a tune, and sing it to improve it."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"lyrics",
+				"hook",
+				"syllable",
+				"rhyme"
+			],
+			"matches": [
+				"one beat of a word",
+				"words that end the same",
+				"the words of a song",
+				"the catchiest bit"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the lesson's cards.",
+			"explain": "Lyrics are the words, the hook the catchiest bit, a syllable one beat of a word, and a rhyme ends the same."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which line fits this tune, one note for each syllable?",
+			"answer": 0,
+			"hint": "Count the notes, then count each line's syllables.",
+			"choices": [
+				"Sun is shining, time to play",
+				"Sun is out",
+				"The sun is shining brightly in the sky",
+				"Play"
+			],
+			"explain": "The tune has 7 notes, and Sun is shin-ing, time to play has 7 syllables.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4",
+					"G4",
+					"G4",
+					"A4",
+					"G4",
+					"E4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Listen to the claps for wa-ter-mel-on, then mark the boxes.",
+			"hint": "Four quick claps, one for each syllable.",
+			"explain": "The claps are in boxes 1, 2, 3 and 4.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxxx",
+				"tempo": 75
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen to the claps of a song line. How many syllables does it have, one clap each?",
+			"answer": "5",
+			"hint": "Count the claps.",
+			"explain": "5 claps, so the line has 5 syllables.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx-x-",
+				"tempo": 80
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which pair of lines rhymes?",
+			"answer": 0,
+			"hint": "Look at the last word of each line.",
+			"choices": [
+				"The stars are bright / They shine all night",
+				"The stars are bright / They shine all day",
+				"I like the sea / I like the sky",
+				"We run and play / We sing a song"
+			],
+			"explain": "Bright and night end with the same sound, so those lines rhyme."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A hook is a short, catchy part of a song that sticks in your head.",
+			"answer": true,
+			"hint": "Think of the chorus's catchiest bit.",
+			"explain": "True: the hook is the part you can't stop humming."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which words fit this tune, one note for each syllable?",
+			"answer": 0,
+			"hint": "Count the notes first.",
+			"choices": [
+				"Hello, my good friend",
+				"Hi there",
+				"Good morning to everyone here",
+				"Yes"
+			],
+			"explain": "The tune has 5 notes, and Hel-lo, my good friend has 5 syllables.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"E4",
+					"G4",
+					"E4",
+					"C4:2"
+				]
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.syllable_beats",
+			"level": 1
+		},
+		{
+			"gen": "g5a.syllable_beats",
+			"level": 2
+		},
+		{
+			"gen": "g5a.syllable_beats",
+			"level": 3
+		}
+	]
+}

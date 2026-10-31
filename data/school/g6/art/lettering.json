@@ -1,0 +1,357 @@
+{
+	"id": "g6.art.lettering",
+	"lesson": [
+		{
+			"text": "Quick memory: what did monks draw at the start of a page in an illuminated book? (A big decorated capital letter.) Today: designing letters."
+		},
+		{
+			"text": "Letters sit on guide lines. They stand on the baseline, and small letters like a and o reach the x-height. Ascenders (as in d and l) rise higher, and descenders (as in g and y) hang below.",
+			"picture": {
+				"kind": "letter_guides",
+				"word": "gold",
+				"labels": true
+			}
+		},
+		{
+			"text": "Serifs are the little feet at the ends of strokes. Roman stone carvers cut them, as on Trajan's Column in Rome (AD 113). Letters without them are sans serif: sans is French for without.",
+			"picture": {
+				"kind": "stroke_letters",
+				"text": "HIT",
+				"serif": true,
+				"guides": true
+			}
+		},
+		{
+			"text": "Calligraphy means beautiful writing. A broad-edged pen held at one steady angle makes thick strokes one way and thin strokes the other, with no extra pressing.",
+			"picture": {
+				"kind": "stroke_letters",
+				"text": "NAME",
+				"contrast": true
+			}
+		},
+		{
+			"text": "In China and Japan, calligraphy is painted with a brush and ink. Each character's strokes go in a set order, and every stroke shows its speed and pressure."
+		},
+		{
+			"text": "A monogram joins two or more initials into one design, often overlapping or sharing a stroke. Kings, artists and printers have used them as signatures.",
+			"picture": {
+				"kind": "stroke_letters",
+				"text": "ZT",
+				"monogram": true
+			}
+		},
+		{
+			"text": "Worked example: Zara Tate's monogram. Draw a tall T, then set a Z across it so the Z's top stroke lies along the T's bar. They share one stroke and make a single design.",
+			"picture": {
+				"kind": "stroke_letters",
+				"text": "ZT",
+				"monogram": true
+			}
+		},
+		{
+			"text": "Try it in the world: design your own monogram on squared paper, then build it big in blocks in your world. Next: art from nature."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What are serifs?",
+			"answer": 0,
+			"hint": "Look at the ends of the H and the I.",
+			"choices": [
+				"small feet at the ends of strokes",
+				"the tails of g and y",
+				"ink blots",
+				"the gaps between words"
+			],
+			"explain": "Serifs are the small feet at the ends of strokes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Does this lettering have serifs?",
+			"answer": 0,
+			"hint": "Look at the ends of every stroke.",
+			"choices": [
+				"yes",
+				"no"
+			],
+			"explain": "Yes: every stroke ends in a small foot.",
+			"picture": {
+				"kind": "stroke_letters",
+				"text": "HIT",
+				"serif": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Sans serif means letters without serifs.",
+			"answer": true,
+			"hint": "Sans is French.",
+			"explain": "True: sans means without."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Letters stand on the orange line. What is it called?",
+			"answer": 0,
+			"hint": "It is the base of every letter.",
+			"choices": [
+				"the baseline",
+				"the x-height",
+				"the ascender line",
+				"the descender line"
+			],
+			"explain": "Letters stand on the baseline.",
+			"picture": {
+				"kind": "letter_guides",
+				"word": "hat",
+				"mark": "baseline"
+			}
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the guide lines: tap a word, then its number.",
+			"hint": "The l and d reach the top line; the o reaches the x-height; the g's tail reaches the bottom line.",
+			"explain": "From the top: the ascender line, the x-height, the baseline the word stands on, and the descender line.",
+			"picture": {
+				"kind": "letter_guides",
+				"word": "gold"
+			},
+			"spots": [
+				[
+					0.0577,
+					0.168,
+					0.1215,
+					0.2702
+				],
+				[
+					0.0577,
+					0.408,
+					0.1215,
+					0.4023
+				],
+				[
+					0.0577,
+					0.648,
+					0.1215,
+					0.6776
+				],
+				[
+					0.0577,
+					0.888,
+					0.1215,
+					0.7987
+				]
+			],
+			"labels": [
+				"x-height",
+				"baseline",
+				"descender line",
+				"ascender line"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			]
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these small letters.",
+			"groups": [
+				"ascender (goes up)",
+				"descender (hangs)",
+				"x-height only"
+			],
+			"items": [
+				"b",
+				"g",
+				"o",
+				"l",
+				"y",
+				"a"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Does the letter rise above an o, drop below the line, or neither?",
+			"explain": "b and l rise, g and y hang down, o and a stay at the x-height."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What makes these thick and thin strokes?",
+			"answer": 0,
+			"hint": "The pen's edge is wide one way and thin the other.",
+			"choices": [
+				"a broad pen held at one angle",
+				"pressing harder each time",
+				"two different pens",
+				"rubbing out"
+			],
+			"explain": "A broad-edged pen at a steady angle makes thick and thin strokes by itself.",
+			"picture": {
+				"kind": "stroke_letters",
+				"text": "NAME",
+				"contrast": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Roman stone carvers cut serifs into letters on monuments like Trajan's Column.",
+			"answer": true,
+			"hint": "Think of carved capitals.",
+			"explain": "True: Roman capitals, as on Trajan's Column (AD 113), have serifs."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a monogram?",
+			"answer": 0,
+			"hint": "Mono means one.",
+			"choices": [
+				"two or more initials joined in one design",
+				"a one-colour painting",
+				"a very long word",
+				"a kind of pen"
+			],
+			"explain": "A monogram joins initials into one design."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"baseline",
+				"x-height",
+				"ascender",
+				"descender"
+			],
+			"matches": [
+				"a part rising, as in d",
+				"a tail hanging, as in g",
+				"what letters stand on",
+				"top of small letters"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Stand, small, up, down.",
+			"explain": "Letters stand on the baseline, small letters reach the x-height, ascenders rise and descenders hang."
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label the guide lines of this word.",
+			"hint": "The a reaches one line, the word stands on another, and the p and y tails reach the lowest.",
+			"explain": "The a's top is the x-height, the word stands on the baseline, and the tails of p, p and y reach the descender line.",
+			"picture": {
+				"kind": "letter_guides",
+				"word": "happy"
+			},
+			"spots": [
+				[
+					0.0577,
+					0.3727,
+					0.1215,
+					0.4023
+				],
+				[
+					0.0577,
+					0.648,
+					0.1215,
+					0.6776
+				],
+				[
+					0.0577,
+					0.888,
+					0.1215,
+					0.7987
+				]
+			],
+			"labels": [
+				"baseline",
+				"descender line",
+				"x-height"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			]
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many letters in happy have descenders?",
+			"answer": "3",
+			"hint": "Find the letters with tails below the baseline.",
+			"explain": "p, p and y hang down: 3 letters."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many letters in blocky have ascenders?",
+			"answer": "3",
+			"hint": "Find the letters that rise above an o.",
+			"explain": "b, l and k rise: 3 letters. The y is a descender."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In Chinese and Japanese calligraphy, a character's strokes can be painted in any order.",
+			"answer": false,
+			"hint": "What did the lesson say about order?",
+			"explain": "False: each character's strokes follow a set order."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which letters make this monogram?",
+			"answer": 0,
+			"hint": "Find each letter's strokes.",
+			"choices": [
+				"Z and T",
+				"N and T",
+				"Z and L",
+				"X and T"
+			],
+			"explain": "A Z (top bar, slant, bottom bar) shares its top with a T.",
+			"picture": {
+				"kind": "stroke_letters",
+				"text": "ZT",
+				"monogram": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which lettering is easiest to read on a small phone screen?",
+			"answer": 0,
+			"hint": "Which has the simplest, clearest shapes at a small size?",
+			"choices": [
+				"a clear sans serif",
+				"a fancy thin script",
+				"tiny capitals",
+				"letters with long swirls"
+			],
+			"explain": "A clear sans serif keeps its shapes plain at a small size."
+		}
+	],
+	"generators": []
+}

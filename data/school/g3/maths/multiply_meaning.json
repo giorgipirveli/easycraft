@@ -1,0 +1,397 @@
+{
+	"id": "g3.maths.multiply_meaning",
+	"lesson": [
+		{
+			"text": "Quick memory: count in 5s: 5, 10, 15, 20. Four jumps of 5 make 20. Counting in equal jumps is where multiplying begins!",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "20",
+				"step": "5",
+				"labels": "all"
+			}
+		},
+		{
+			"text": "Equal groups have the same number in each. 3 boxes with 4 blocks in each is 3 groups of 4. We write 3 × 4 = 12 and say three times four is twelve.",
+			"picture": {
+				"kind": "groups",
+				"groups": 3,
+				"each": 4
+			}
+		},
+		{
+			"text": "5 × 7 means 5 groups of 7: 7 + 7 + 7 + 7 + 7 = 35. Multiplying is a quick way to add the same number again and again.",
+			"picture": {
+				"kind": "groups",
+				"groups": 5,
+				"each": 7
+			}
+		},
+		{
+			"text": "An array puts equal groups in rows. 3 rows of 6 blocks is 3 × 6 = 18. You can build one on the block board: every row must have the same number of blocks.",
+			"picture": {
+				"kind": "array",
+				"rows": 3,
+				"cols": 6
+			}
+		},
+		{
+			"text": "A bar model shows equal groups too: 4 equal parts of 8 make 4 × 8 = 32.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							}
+						],
+						"total": "32"
+					}
+				]
+			}
+		},
+		{
+			"text": "Stories: Tilly has 6 bags with 5 apples in each. How many apples? Find the number of groups (6) and the number in each group (5): 6 × 5 = 30. Next: sharing, the other way round."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "There are 4 boxes with 3 blocks in each. How many blocks are there?",
+			"answer": "12",
+			"hint": "Count in 3s, four times.",
+			"explain": "4 groups of 3: 4 × 3 = 12.",
+			"picture": {
+				"kind": "groups",
+				"groups": 4,
+				"each": 3
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which multiplication matches the picture?",
+			"choices": [
+				"2 × 5",
+				"2 + 5",
+				"2 × 6",
+				"3 × 5"
+			],
+			"answer": 0,
+			"hint": "How many groups? How many in each group?",
+			"explain": "2 groups of 5: 2 × 5 = 10.",
+			"picture": {
+				"kind": "groups",
+				"groups": 2,
+				"each": 5
+			}
+		},
+		{
+			"type": "build",
+			"level": 1,
+			"prompt": "Build an array of 2 rows with 5 blocks in each row.",
+			"board": {
+				"cols": 10,
+				"rows": 6,
+				"block": 9,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "array",
+				"rows": 2,
+				"cols": 5
+			},
+			"hint": "Make one row of 5, then another row of 5 on top.",
+			"explain": "2 rows of 5: 2 × 5 = 10 blocks."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "5 + 5 + 5 = 3 × ?",
+			"answer": "5",
+			"hint": "Which number is added 3 times?",
+			"explain": "5 is added 3 times: 3 × 5 = 15."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "3 × 4 means 3 groups of 4.",
+			"answer": true,
+			"hint": "The first number counts the groups.",
+			"explain": "Yes: 3 groups of 4 is 12."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many blocks are in the array?",
+			"answer": "15",
+			"hint": "Count the rows and the blocks in each row. Multiply.",
+			"explain": "3 rows of 5: 3 × 5 = 15.",
+			"picture": {
+				"kind": "array",
+				"rows": 3,
+				"cols": 5
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Zara has 6 bags with 4 gems in each. How many gems does Zara have?",
+			"answer": "24",
+			"hint": "6 groups of 4.",
+			"explain": "6 × 4 = 24 gems."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the same as 7 + 7 + 7 + 7?",
+			"choices": [
+				"4 × 7",
+				"7 × 7",
+				"4 + 7",
+				"7 × 3"
+			],
+			"answer": 0,
+			"hint": "Count how many 7s are added.",
+			"explain": "Four 7s: 4 × 7 = 28."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Build 4 × 3 as an array: 4 rows of 3.",
+			"board": {
+				"cols": 10,
+				"rows": 6,
+				"block": 9,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "array",
+				"rows": 4,
+				"cols": 3
+			},
+			"hint": "Make 4 rows, one on top of another, with 3 blocks in each.",
+			"explain": "4 rows of 3: 4 × 3 = 12 blocks."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "5 groups of 6 is the same number as 6 + 6 + 6 + 6 + 6.",
+			"answer": true,
+			"hint": "Count the 6s being added.",
+			"explain": "Five 6s: 5 × 6 = 30 both ways."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A farm has 7 rows of carrots with 8 in each row. How many carrots are there?",
+			"answer": "56",
+			"hint": "7 rows of 8.",
+			"explain": "7 × 8 = 56 carrots."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which story matches 3 × 8?",
+			"choices": [
+				"3 plates with 8 cakes on each",
+				"3 plates and 8 cakes",
+				"8 plates with 8 cakes on each",
+				"3 cakes shared by 8 friends"
+			],
+			"answer": 0,
+			"hint": "3 × 8 is 3 equal groups of 8.",
+			"explain": "3 plates with 8 cakes on each is 3 groups of 8."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "9 buddies each have 4 legs. How many legs is that in all?",
+			"answer": "36",
+			"hint": "9 groups of 4.",
+			"explain": "9 buddies with 4 legs each is 9 groups of 4: 9 × 4 = 36 legs. Check by counting in 4s nine times: 4, 8, 12, 16, 20, 24, 28, 32, 36."
+		},
+		{
+			"type": "build",
+			"level": 3,
+			"prompt": "Build 18 blocks in 3 equal rows, as an array.",
+			"board": {
+				"cols": 10,
+				"rows": 6,
+				"block": 9,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "array",
+				"rows": 3,
+				"cols": 6
+			},
+			"hint": "Which number times 3 makes 18? That many blocks go in each row.",
+			"explain": "3 × 6 = 18: 3 rows of 6 blocks."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Nell puts 6 stamps on each page. She fills 8 pages. How many stamps is that?",
+			"answer": "48",
+			"hint": "8 pages of 6.",
+			"explain": "8 × 6 = 48 stamps."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "An array of 4 rows of 9 has more blocks than an array of 6 rows of 6.",
+			"answer": false,
+			"hint": "Work out both: 4 × 9 and 6 × 6.",
+			"explain": "4 × 9 = 36 and 6 × 6 = 36: they have the same."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Pip has 5 boxes of 12 crayons. Which works out how many crayons?",
+			"choices": [
+				"5 × 12",
+				"5 + 12",
+				"12 − 5",
+				"12 × 12"
+			],
+			"answer": 0,
+			"hint": "5 equal groups of 12.",
+			"explain": "5 × 12 = 60 crayons."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A bar model has 7 equal parts of 6. What is the whole?",
+			"answer": "42",
+			"hint": "7 groups of 6.",
+			"explain": "7 equal parts of 6 is 7 groups of 6: 7 × 6 = 42. Check by counting in 6s: 6, 12, 18, 24, 30, 36, 42.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "6",
+								"size": 1
+							},
+							{
+								"text": "6",
+								"size": 1
+							},
+							{
+								"text": "6",
+								"size": 1
+							},
+							{
+								"text": "6",
+								"size": 1
+							},
+							{
+								"text": "6",
+								"size": 1
+							},
+							{
+								"text": "6",
+								"size": 1
+							},
+							{
+								"text": "6",
+								"size": 1
+							}
+						],
+						"total": "?"
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly has 3 bags with 5 apples in each, and 2 bags with 4 pears in each. How many pieces of fruit is that in all?",
+			"answer": "23",
+			"hint": "Work out the apples and the pears, then add them.",
+			"explain": "Apples: 3 × 5 = 15. Pears: 2 × 4 = 8. In all: 15 + 8 = 23 pieces of fruit."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3m.groups_total",
+			"level": 1
+		},
+		{
+			"gen": "g3m.groups_total",
+			"level": 2
+		},
+		{
+			"gen": "g3m.groups_total",
+			"level": 3
+		},
+		{
+			"gen": "g3m.groups_sentence",
+			"level": 1
+		},
+		{
+			"gen": "g3m.groups_sentence",
+			"level": 2
+		},
+		{
+			"gen": "g3m.groups_sentence",
+			"level": 3
+		},
+		{
+			"gen": "g3m.array_build",
+			"level": 1
+		},
+		{
+			"gen": "g3m.array_build",
+			"level": 2
+		},
+		{
+			"gen": "g3m.array_build",
+			"level": 3
+		},
+		{
+			"gen": "g3m.repeated_add",
+			"level": 1
+		},
+		{
+			"gen": "g3m.repeated_add",
+			"level": 2
+		},
+		{
+			"gen": "g3m.repeated_add",
+			"level": 3
+		},
+		{
+			"gen": "g3m.groups_story",
+			"level": 1
+		},
+		{
+			"gen": "g3m.groups_story",
+			"level": 2
+		},
+		{
+			"gen": "g3m.groups_story",
+			"level": 3
+		}
+	]
+}

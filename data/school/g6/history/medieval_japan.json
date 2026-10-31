@@ -1,0 +1,368 @@
+{
+	"id": "g6.history.medieval_japan",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4, what did Shang China write on bones and shells? (Early Chinese characters.) Japan later borrowed China's characters to write its own language. Today: medieval Japan."
+		},
+		{
+			"text": "Japan is a chain of islands with steep mountains, so people grew rice in the narrow valleys and plains. From 794 its emperors lived in a new capital, Heian-kyo, now called Kyoto."
+		},
+		{
+			"text": "At the emperor's court, nobles wrote poems and diaries. About 1010 a court lady, Murasaki Shikibu, finished The Tale of Genji, one of the world's first novels. Writers mixed Chinese characters with Japanese sound signs called kana."
+		},
+		{
+			"text": "Far from the court, lords kept warriors called samurai. They fought on horseback, were expected to be loyal to their lord and brave, and often learned poetry and calligraphy too."
+		},
+		{
+			"text": "In 1192 the emperor gave the warrior leader Minamoto Yoritomo the title shogun. From then on, shoguns ran the country for hundreds of years, while the emperor stayed on the throne as its highest figure.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 750,
+				"to": 1300,
+				"step": 50,
+				"events": [
+					[
+						794,
+						"capital at Heian-kyo"
+					],
+					[
+						1010,
+						"The Tale of Genji"
+					],
+					[
+						1192,
+						"Yoritomo made shogun"
+					],
+					[
+						1274,
+						"a Mongol fleet"
+					],
+					[
+						1281,
+						"a second fleet"
+					]
+				]
+			}
+		},
+		{
+			"text": "In 1274 and 1281 Kublai Khan, the Mongol ruler of China, sent great fleets to invade. Both times samurai defended the coast and storms wrecked the ships. The Japanese called the storms the divine wind.",
+			"picture": {
+				"kind": "voyage_map",
+				"window": {
+					"lat": [
+						25,
+						40
+					],
+					"long": [
+						115,
+						140
+					]
+				},
+				"lat_step": 10,
+				"long_step": 15,
+				"routes": [
+					{
+						"name": "1274 fleet",
+						"points": [
+							[
+								35,
+								128
+							],
+							[
+								34,
+								130
+							]
+						]
+					},
+					{
+						"name": "1281 fleet",
+						"points": [
+							[
+								30,
+								122
+							],
+							[
+								32,
+								126
+							],
+							[
+								34,
+								130
+							]
+						]
+					}
+				],
+				"places": [
+					{
+						"lat": 35,
+						"long": 128,
+						"label": "Korea"
+					},
+					{
+						"lat": 30,
+						"long": 122,
+						"label": "Ningbo, China"
+					},
+					{
+						"lat": 34,
+						"long": 130,
+						"label": "Hakata Bay"
+					},
+					{
+						"lat": 35,
+						"long": 136,
+						"label": "Kyoto"
+					}
+				]
+			}
+		},
+		{
+			"text": "Calligraphy is writing with a brush and ink, each stroke in the right order. Zen Buddhist temples made rock gardens of raked gravel and stones, such as the one at Ryoan-ji in Kyoto, for calm thinking."
+		},
+		{
+			"text": "Try it in the world: build a quiet garden of raked sand with a few big stones and a small bridge. Add a wooden house with sliding doors. Next: the Aztecs and the Incas."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What were samurai?",
+			"answer": 0,
+			"hint": "They fought on horseback.",
+			"choices": [
+				"warriors who served a lord",
+				"rice farmers",
+				"emperors",
+				"sea traders"
+			],
+			"explain": "Samurai were warriors who served a lord."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who wrote The Tale of Genji?",
+			"answer": 0,
+			"hint": "She was a lady at the emperor's court.",
+			"choices": [
+				"Murasaki Shikibu",
+				"Minamoto Yoritomo",
+				"Kublai Khan",
+				"Shen Kuo"
+			],
+			"explain": "Murasaki Shikibu, about 1010."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Japan is a chain of islands.",
+			"answer": true,
+			"hint": "Look at a map east of China.",
+			"explain": "True: Japan is a chain of islands with steep mountains."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is calligraphy?",
+			"answer": 0,
+			"hint": "Think of brush strokes.",
+			"choices": [
+				"beautiful writing with a brush and ink",
+				"a kind of sword",
+				"a rock garden",
+				"a rice dish"
+			],
+			"explain": "Beautiful writing with a brush and ink."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which city became Japan's capital in 794?",
+			"answer": 0,
+			"hint": "Its name today is Kyoto.",
+			"choices": [
+				"Heian-kyo, now Kyoto",
+				"Tokyo",
+				"Beijing",
+				"Chang'an"
+			],
+			"explain": "Heian-kyo, now called Kyoto."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The Tale of Genji was finished about 1010. Yoritomo became shogun in 1192. About how many years later was that?",
+			"answer": "182",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1192 − 1010 = 182 years."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"shogun",
+				"samurai",
+				"kana",
+				"emperor"
+			],
+			"matches": [
+				"highest figure on the throne",
+				"the top warrior ruler",
+				"a warrior serving a lord",
+				"Japanese sound signs"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Two are warriors; one is about writing.",
+			"explain": "Shogun: the top warrior ruler. Samurai: a warrior. Kana: sound signs. Emperor: the highest figure on the throne."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What stopped the Mongol fleets in 1274 and 1281?",
+			"answer": 0,
+			"hint": "The Japanese gave the storms a special name.",
+			"choices": [
+				"storms, and samurai on the coast",
+				"a wall across the sea",
+				"the emperor's army of elephants",
+				"the fleets got lost in fog"
+			],
+			"explain": "Samurai defended the coast, and storms wrecked the fleets both times."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "After 1192, the emperor ran the army and the government.",
+			"answer": false,
+			"hint": "What title did Yoritomo get?",
+			"explain": "False: the shogun ran the country; the emperor stayed on the throne as its highest figure."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What were Zen rock gardens made for?",
+			"answer": 0,
+			"hint": "They are quiet places of gravel and stones.",
+			"choices": [
+				"calm thinking",
+				"growing rice",
+				"training horses",
+				"storing tea"
+			],
+			"explain": "For calm thinking, in Zen Buddhist temples."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did Japan borrow Chinese characters?",
+			"answer": 0,
+			"hint": "Think of how writing reached Japan.",
+			"choices": [
+				"Japan had no writing of its own before",
+				"they were cheaper",
+				"China made it a law",
+				"for fireworks"
+			],
+			"explain": "Japan had no writing system of its own, so it borrowed China's characters and later added kana."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these in order, earliest first.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Look at the years: the smaller the year, the earlier.",
+			"items": [
+				"The Tale of Genji (about 1010)",
+				"The first Mongol fleet (1274)",
+				"Heian-kyo becomes the capital (794)",
+				"Yoritomo becomes shogun (1192)",
+				"The second Mongol fleet (1281)"
+			],
+			"explain": "794, about 1010, 1192, 1274, 1281."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did most people in medieval Japan live in valleys and plains?",
+			"answer": 0,
+			"hint": "Rice needs flat, wet fields.",
+			"choices": [
+				"the mountains were too steep to farm",
+				"the valleys had gold",
+				"the law said so",
+				"the mountains were too hot"
+			],
+			"explain": "Most of Japan is steep mountains, so people farmed rice on the flat land in valleys and plains."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: part of court life, or of the samurai's world?",
+			"groups": [
+				"court life",
+				"samurai life"
+			],
+			"items": [
+				"poems and diaries",
+				"loyalty to a lord",
+				"The Tale of Genji",
+				"fighting on horseback",
+				"serving a shogun"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "The court was the emperor's; samurai served lords and shoguns.",
+			"explain": "Court life: poems, diaries and The Tale of Genji. Samurai: loyalty to a lord, fighting on horseback, serving a shogun."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Samurai were expected to learn poetry and calligraphy as well as fighting.",
+			"answer": true,
+			"hint": "Look back at the samurai card.",
+			"explain": "True: many samurai learned poetry and calligraphy too."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each name to what it is known for.",
+			"items": [
+				"Murasaki Shikibu",
+				"Minamoto Yoritomo",
+				"Kublai Khan",
+				"Ryoan-ji"
+			],
+			"matches": [
+				"sent fleets to invade",
+				"a Zen rock garden",
+				"wrote The Tale of Genji",
+				"became shogun in 1192"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "A writer, a warrior leader, a Mongol ruler and a temple.",
+			"explain": "Murasaki Shikibu wrote The Tale of Genji. Minamoto Yoritomo became shogun in 1192. Kublai Khan sent fleets to invade in 1274 and 1281. Ryoan-ji in Kyoto has a famous Zen rock garden."
+		}
+	]
+}

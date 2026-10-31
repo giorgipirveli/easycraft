@@ -1,0 +1,219 @@
+{
+	"id": "g4.maths.measure",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, tenths and hundredths. Which is bigger, 0.5 or 0.45? 0.5: 5 tenths beat 4 tenths."
+		},
+		{
+			"text": "Length: 1 km = 1,000 m, 1 m = 100 cm and 1 cm = 10 mm. A door is about 2 m tall; a pencil is about 15 cm long.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"bigger",
+						"smaller"
+					],
+					[
+						"1 km",
+						"1,000 m"
+					],
+					[
+						"1 m",
+						"100 cm"
+					],
+					[
+						"1 cm",
+						"10 mm"
+					]
+				]
+			}
+		},
+		{
+			"text": "Mass is how heavy something is: 1 kg = 1,000 g. A dog weighs about 20 kg; a strawberry about 15 g. Capacity is how much something holds: 1 L = 1,000 mL."
+		},
+		{
+			"text": "Time: 1 day = 24 hours, 1 hour = 60 minutes and 1 minute = 60 seconds.",
+			"picture": {
+				"kind": "clock",
+				"h": 3,
+				"m": 0
+			}
+		},
+		{
+			"text": "To change a bigger unit into a smaller one, multiply: 3 km = 3 × 1,000 m = 3,000 m, and 2 hours = 2 × 60 = 120 minutes.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"hours",
+						"minutes"
+					],
+					[
+						"1",
+						"60"
+					],
+					[
+						"2",
+						"120"
+					],
+					[
+						"3",
+						"180"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: each block in your world is 1 m. How many centimetres tall is a tower of 3 blocks? 300 cm. How many metres is a 2 km walk? 2,000 m. Next: area and perimeter."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "4 m = ? cm",
+			"answer": "400",
+			"hint": "1 m = 100 cm.",
+			"explain": "4 × 100 = 400 cm"
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "5 kg = ? g",
+			"answer": "5,000",
+			"hint": "1 kg = 1,000 g.",
+			"explain": "5 × 1,000 = 5,000 g"
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the longest?",
+			"choices": [
+				"1 km",
+				"900 m",
+				"950 cm",
+				"1,000 mm"
+			],
+			"answer": 0,
+			"hint": "Change them all into metres.",
+			"explain": "1 km = 1,000 m. 950 cm is 9 m 50 cm, and 1,000 mm is 1 m."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "3 hours = ? minutes",
+			"answer": "180",
+			"hint": "1 hour = 60 minutes.",
+			"explain": "3 × 60 = 180 minutes"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "2 km 50 m = ? m",
+			"answer": "2,050",
+			"hint": "Change the km into m, then add the 50 m.",
+			"explain": "2,000 + 50 = 2,050 m"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A film starts at 4:30 and lasts 1 hour 45 minutes. When does it end?",
+			"choices": [
+				"6:15",
+				"5:45",
+				"6:45",
+				"5:15"
+			],
+			"answer": 0,
+			"hint": "Add the hour first, then the 45 minutes.",
+			"explain": "4:30 + 1 hour = 5:30, and 45 more minutes make 6:15.",
+			"picture": {
+				"kind": "clock",
+				"h": 4,
+				"m": 30
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A potion bottle holds 2 L. Mimi fills it with a 250 mL cup. How many cups does she need?",
+			"answer": "8",
+			"hint": "2 L = 2,000 mL. How many 250s make 2,000?",
+			"explain": "2 L is 2,000 mL. Four 250 mL cups make 1,000 mL, so 2,000 mL takes 2 × 4 = 8 cups."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "90 seconds is more than 1 minute.",
+			"answer": true,
+			"hint": "1 minute = 60 seconds.",
+			"explain": "90 seconds is 1 minute and 30 seconds."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram's backpack weighs 3 kg 400 g. How many grams is that?",
+			"answer": "3,400",
+			"hint": "3 kg = 3,000 g.",
+			"explain": "3 kg is 3 × 1,000 = 3,000 g, and 400 g more makes 3,000 + 400 = 3,400 g."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A ribbon is 2 m long. Mimi cuts off 3 pieces, each 45 cm long. How many centimetres of ribbon are left?",
+			"answer": "65",
+			"hint": "Change the metres into centimetres first. Then find how much she cut off.",
+			"explain": "2 m is 200 cm. The pieces are 3 × 45 = 135 cm. 200 − 135 = 65 cm left."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4g.convert_units",
+			"level": 1
+		},
+		{
+			"gen": "g4g.convert_units",
+			"level": 2
+		},
+		{
+			"gen": "g4g.convert_units",
+			"level": 3
+		},
+		{
+			"gen": "g4g.which_unit",
+			"level": 1
+		},
+		{
+			"gen": "g4g.measure_story",
+			"level": 1
+		},
+		{
+			"gen": "g4g.measure_story",
+			"level": 2
+		},
+		{
+			"gen": "g4g.measure_story",
+			"level": 3
+		},
+		{
+			"gen": "g4g.time_story",
+			"level": 1
+		},
+		{
+			"gen": "g4g.time_story",
+			"level": 2
+		},
+		{
+			"gen": "g4g.time_story",
+			"level": 3
+		},
+		{
+			"gen": "g4g.conversion_table",
+			"level": 1
+		},
+		{
+			"gen": "g4g.conversion_table",
+			"level": 2
+		}
+	]
+}

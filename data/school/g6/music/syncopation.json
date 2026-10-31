@@ -1,0 +1,351 @@
+{
+	"id": "g6.music.syncopation",
+	"lesson": [
+		{
+			"text": "Quick memory: in 4/4 time, how many beats are in a bar? (4.) Today: syncopation, putting the stress between the beats."
+		},
+		{
+			"text": "Count 1 & 2 & 3 & 4 &. The numbers are the beats; the &s fall halfway between them, off the beat.",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"beat",
+						"x-x-x-x-"
+					]
+				],
+				"count": true
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "Syncopation puts claps or stresses where you do not expect them: on the &s, or held across a beat. The music bounces and pushes forward.",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"beat",
+						"x-x-x-x-"
+					],
+					[
+						"claps",
+						"x-xx-x-x"
+					]
+				],
+				"count": true
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xx-x-x",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "The 3 + 3 + 2 pattern x--x--x- from grade 5 is syncopated: its second clap lands on the & after 2, between the beats.",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"claps",
+						"x--x--x-"
+					]
+				],
+				"count": true
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x--x--x-",
+				"tempo": 80
+			}
+		},
+		{
+			"text": "Syncopation came into ragtime and jazz from African American music, which grew from West African rhythms. Scott Joplin (1868-1917) wrote syncopated ragtime such as The Entertainer (1902)."
+		},
+		{
+			"text": "Reggae, from Jamaica in the 1960s, puts its guitar chords on the off-beats. Latin American music, samba and many pop songs are full of syncopation too."
+		},
+		{
+			"text": "Worked example: x-xx-x-x. Count it: claps on 1, on 2, on the & after 2, on the & after 3 and on the & after 4. Three claps are off the beat, so it feels syncopated.",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"claps",
+						"x-xx-x-x"
+					]
+				],
+				"count": true
+			}
+		},
+		{
+			"text": "Try it in the world: stamp 1, 2, 3, 4 with your feet and clap only on the &s. Then clap x--x--x- over your stamps. Next: theme and variations."
+		}
+	],
+	"exercises": [
+		{
+			"type": "rhythm",
+			"level": 1,
+			"prompt": "Listen, then copy: mark every box with a clap. These claps are on the beats.",
+			"hint": "Count 1 & 2 & 3 & 4 & and clap on the numbers.",
+			"explain": "The claps are in boxes 1, 3, 5 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 80
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 1,
+			"prompt": "Listen, then copy this syncopated pattern: mark every box with a clap.",
+			"hint": "Count 1 & 2 & 3 & 4 &. One clap lands on an &.",
+			"explain": "The claps are in boxes 1, 4 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x--x--x-",
+				"tempo": 75
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is syncopation?",
+			"answer": 0,
+			"hint": "Where do the claps land?",
+			"choices": [
+				"stressing notes between or across the beats",
+				"playing very fast",
+				"playing with no rhythm",
+				"one long note"
+			],
+			"explain": "Syncopation puts the stress off the beat, between or across the beats."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When you count 1 & 2 & 3 & 4 &, the &s are off the beat.",
+			"answer": true,
+			"hint": "Where do your feet stamp?",
+			"explain": "True: the beats are the numbers; the &s are halfway between."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many claps in this pattern are off the beat, on an &?",
+			"answer": "0",
+			"hint": "The beats are boxes 1, 3, 5 and 7; the &s are 2, 4, 6 and 8.",
+			"explain": "The claps are in boxes 1, 3, 5 and 7, all on the beat: 0.",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"claps",
+						"x-x-x-x-"
+					]
+				],
+				"count": true
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Listen, then copy: mark every box with a clap.",
+			"hint": "Count 1 & 2 & 3 & 4 & as you listen. Where are the gaps?",
+			"explain": "The claps are in boxes 1, 4 and 6.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x--x-x--",
+				"tempo": 80
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Listen, then copy: mark every box with a clap.",
+			"hint": "Count 1 & 2 & 3 & 4 &. Three claps are on &s.",
+			"explain": "The claps are in boxes 1, 3, 4, 6 and 8.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xx-x-x",
+				"tempo": 80
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many claps in this pattern are off the beat, on an &?",
+			"answer": "1",
+			"hint": "The &s are boxes 2, 4, 6 and 8.",
+			"explain": "The claps are in boxes 1, 4 and 7; only box 4 is an &: 1.",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"claps",
+						"x--x--x-"
+					]
+				],
+				"count": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which music is famous for syncopation?",
+			"answer": 0,
+			"hint": "Think of Scott Joplin.",
+			"choices": [
+				"ragtime and jazz",
+				"medieval plainchant",
+				"a slow lullaby",
+				"a march right on the beat"
+			],
+			"explain": "Ragtime and jazz are full of syncopation."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Scott Joplin wrote syncopated ragtime piano music.",
+			"answer": true,
+			"hint": "Think of The Entertainer.",
+			"explain": "True: The Entertainer (1902) is syncopated ragtime."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which pattern is syncopated?",
+			"answer": 0,
+			"hint": "Look for a clap on an even box, an &.",
+			"choices": [
+				"x--x--x-",
+				"x-x-x-x-",
+				"x---x---",
+				"x-------"
+			],
+			"explain": "x--x--x- claps on box 4, an &; the others clap only on beats."
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Listen, then copy: mark every box with a clap.",
+			"hint": "Count 1 & 2 & 3 & 4 &. It starts with two claps together.",
+			"explain": "The claps are in boxes 1, 2, 4, 6 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xx-x-xx-",
+				"tempo": 85
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Listen, then copy: mark every box with a clap.",
+			"hint": "Count 1 & 2 & 3 & 4 &. The end is busy.",
+			"explain": "The claps are in boxes 1, 4, 7 and 8.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x--x--xx",
+				"tempo": 85
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many claps in this pattern are off the beat, on an &?",
+			"answer": "3",
+			"hint": "The &s are boxes 2, 4, 6 and 8.",
+			"explain": "The claps are in boxes 1, 2, 4, 6 and 7; boxes 2, 4 and 6 are &s: 3.",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"claps",
+						"xx-x-xx-"
+					]
+				],
+				"count": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where does reggae usually put its guitar chords?",
+			"answer": 0,
+			"hint": "Reggae has a bouncy, lifted feel.",
+			"choices": [
+				"on the off-beats",
+				"only on beat 1",
+				"nowhere",
+				"on every beat, loudly"
+			],
+			"explain": "On the off-beats, which gives reggae its bounce."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Syncopation came into jazz from African American music, which grew from West African rhythms.",
+			"answer": true,
+			"hint": "Think of the lesson's history.",
+			"explain": "True: its roots go back to West African rhythms."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A drummer stresses beats 2 and 4 instead of 1 and 3. What is this called?",
+			"answer": 0,
+			"hint": "It is on the back half of each pair of beats.",
+			"choices": [
+				"a backbeat",
+				"a downbeat",
+				"a rest",
+				"a scale"
+			],
+			"explain": "Stressing 2 and 4 is a backbeat, heard in much pop and rock."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Count 1 & 2 & 3 & 4 & across 8 boxes. Sort these boxes: on the beat, or off the beat?",
+			"groups": [
+				"on the beat",
+				"off the beat"
+			],
+			"items": [
+				"box 1",
+				"box 2",
+				"box 3",
+				"box 6",
+				"box 7",
+				"box 8"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The numbers fall in the odd boxes; the &s fall in the even boxes.",
+			"explain": "Counting 1 & 2 & 3 & 4 &, the beats land in boxes 1, 3, 5 and 7, and the &s in boxes 2, 4, 6 and 8. So boxes 1, 3 and 7 are on the beat, and 2, 6 and 8 are off it."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.offbeat_rhythm",
+			"level": 1
+		},
+		{
+			"gen": "g6c.offbeat_rhythm",
+			"level": 2
+		},
+		{
+			"gen": "g6c.offbeat_rhythm",
+			"level": 3
+		}
+	]
+}

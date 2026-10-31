@@ -1,0 +1,10 @@
+# Owner feedback #43 — a distinct visual identity (so nothing looks copied from Minecraft or Roblox)
+(Use `owner-common.md` as the house rules header. Part of M5 Task 2 "Art and audio polish"; can run earlier.)
+Read row #43 of `docs/playtests/owner-feedback.md`, spec §3a, §5.15, §13.6, §15.2, `docs/store/listing.md`, the avatar system (M3 Task 9), the block atlas tools (`tools/make_atlas.gd`, the realistic twin, the block pages), the monsters and bosses' models, the menu logo and icon.
+Build:
+1. **A new default avatar** in both styles that is clearly EasyCraft's own (today's yellow head and arms, blue shirt and dark legs look like Roblox's classic default): our own proportions (slightly rounder head, a signature feature such as a wand holster or a buddy badge), our own default colours; existing players keep their chosen look.
+2. **An identity audit** (`docs/design/identity-audit.md`): list every element that could look copied from Minecraft or Roblox (textures such as grass/dirt/stone/ore/crafting table/furnace, the portal look, monsters' silhouettes, the Dragon Realm's palette, UI, fonts, logo, sounds, names) with a verdict and a fix; fix the risky ones (e.g. portals in gold/rainbow tones rather than purple swirls in dark frames; the Dragon Realm in sunrise/cloud colours rather than black and purple; crafting table and furnace with our own motifs).
+3. **The toon style**: evaluate it against the performance bar (spec §5.15, M5) and, if it holds, offer it as a third look.
+4. **Store art direction** in `docs/store/listing.md`: the icon and screenshots lead with the living buddies, Size Magic and the universes, never a plain grass-block landscape; no "Minecraft" anywhere in the listing or keywords (a test scans `docs/store/` and player-facing strings for it).
+5. A note for the owner: a trademark search for "EasyCraft" before the first upload.
+Tests: the default avatar (both styles, old profiles keep theirs), the banned-words scan (Minecraft, Creeper, Enderman, Nether, Steve…), the audit's fixes where they change code. Notes: `docs/devlog/parts/owner-43-identity.md`.

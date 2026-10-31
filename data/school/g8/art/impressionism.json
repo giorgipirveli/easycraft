@@ -1,0 +1,337 @@
+{
+	"id": "g8.art.impressionism",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7, what is chiaroscuro? (Strong contrast of light and dark, as Renaissance painters used it.) Today: the Impressionists, who painted light itself and passing moments."
+		},
+		{
+			"text": "In the 1870s a group of painters in France worked outdoors, fast, before the light changed. In 1874 they showed their work together in Paris, apart from the official shows.",
+			"picture": {
+				"kind": "light_series",
+				"times": [
+					"morning"
+				]
+			}
+		},
+		{
+			"text": "Claude Monet (1840-1926) showed Impression, Sunrise (1872) there. A critic made fun of its title and called the whole group Impressionists. The name stuck.",
+			"picture": {
+				"kind": "wall_label",
+				"title": "Impression, Sunrise",
+				"artist": "Claude Monet (1840-1926)",
+				"date": "1872",
+				"medium": "Oil on canvas",
+				"lines": [
+					"The port of Le Havre at dawn.",
+					"It gave the movement its name."
+				]
+			}
+		},
+		{
+			"text": "Light changes everything. Monet painted the same haystacks again and again, at different times of day and year: about 25 paintings in 1890-1891. Each one shows the light, not just the stacks.",
+			"picture": {
+				"kind": "light_series",
+				"times": [
+					"morning",
+					"noon",
+					"evening",
+					"winter"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Shadows have colour: the Impressionists painted them blue or purple, never plain black. Sunlit sides glow yellow and orange. Blue and orange are complementary, so side by side each looks brighter.",
+			"picture": {
+				"kind": "colour_scheme",
+				"scheme": "complementary",
+				"base": "blue",
+				"view": "swatches"
+			}
+		},
+		{
+			"text": "They painted in quick, broken strokes of pure colour side by side, and let the eye mix them. Paint in tubes, invented in 1841, made painting outdoors easy.",
+			"picture": {
+				"kind": "brushwork",
+				"style": "broken"
+			}
+		},
+		{
+			"text": "Berthe Morisot (1841-1895) painted family life in soft, feathery strokes. Camille Pissarro (1830-1903) showed at all eight Impressionist shows. Georges Seurat (1859-1891) then painted in tiny dots.",
+			"picture": {
+				"kind": "brushwork",
+				"style": "dots"
+			}
+		},
+		{
+			"text": "Try it in the world: in the game's photo mode (MORE, then PHOTO), photograph one place in the morning, at noon and in the evening. How do the colours change? Next: modern art movements."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why did the Impressionists paint outdoors?",
+			"choices": [
+				"to catch the light as it really looked",
+				"because studios were closed",
+				"to paint faster than cameras",
+				"to hide from critics"
+			],
+			"answer": 0,
+			"hint": "Think about what they wanted to paint.",
+			"explain": "They wanted to paint light and passing moments, so they painted outdoors, fast, before the light changed."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Impressionists painted shadows in plain black.",
+			"answer": false,
+			"hint": "Look at the shadows in Monet's haystacks.",
+			"explain": "False: they painted shadows in colours such as blue and purple."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each artist to what they are known for.",
+			"items": [
+				"Claude Monet",
+				"Berthe Morisot",
+				"Georges Seurat",
+				"Camille Pissarro"
+			],
+			"matches": [
+				"family life, feathery strokes",
+				"tiny dots of colour",
+				"all eight Impressionist shows",
+				"series of haystacks"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think back to the lesson's cards, one artist at a time.",
+			"explain": "Monet painted series such as the haystacks, Morisot family life, Seurat painted in dots and Pissarro showed at all eight shows."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which time of day did the painter show?",
+			"choices": [
+				"evening",
+				"noon",
+				"morning"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "light_series",
+				"times": [
+					"evening"
+				]
+			},
+			"hint": "Look at the light's colour: pale and cool, white and high, or warm and low?",
+			"explain": "The sun is low and the light is warm orange, with long purple shadows: evening."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many years passed between Impression, Sunrise (1872) and Monet's haystacks (1890)?",
+			"answer": "18",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1890 − 1872 = 18 years."
+		},
+		{
+			"type": "mix",
+			"level": 2,
+			"prompt": "Monet painted shadows in cool colours. Mix purple.",
+			"target": "purple",
+			"hint": "Which two primary colours make purple?",
+			"explain": "Red and blue make purple, a cool shadow colour the Impressionists loved."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Warm sunlight colour or cool shadow colour?",
+			"groups": [
+				"warm sunlight",
+				"cool shadow"
+			],
+			"items": [
+				"orange",
+				"yellow",
+				"blue",
+				"purple",
+				"red-orange"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Think of a sunny afternoon: what colour is the light, and the shade?",
+			"explain": "Yellow, orange and red-orange are warm, like sunlight; blue and purple are cool, like shade."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How was this sunset painted?",
+			"choices": [
+				"short strokes of colour side by side",
+				"smooth, blended paint",
+				"tiny round dots",
+				"one flat colour"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "brushwork",
+				"style": "broken"
+			},
+			"hint": "Look closely at the edges of the colours.",
+			"explain": "You can see each separate stroke of pure colour: the Impressionists' broken brushwork."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in time order.",
+			"items": [
+				"Seurat's dot painting begins",
+				"Impression, Sunrise",
+				"Monet's haystacks",
+				"the first Impressionist show",
+				"paint in tubes"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Use the years: 1841, 1872, 1874, 1884, 1890.",
+			"explain": "Paint tubes (1841), Impression, Sunrise (1872), the first show (1874), Seurat's dots (1884), the haystacks (1890)."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Paint in tubes made it easier to paint outdoors.",
+			"answer": true,
+			"hint": "What did painters do before tubes?",
+			"explain": "True: before tubes painters ground and mixed their paint in the studio; tubes could be carried anywhere."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In which painting is the cast shadow shortest?",
+			"choices": [
+				"noon",
+				"morning",
+				"evening",
+				"winter"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "light_series",
+				"times": [
+					"morning",
+					"noon",
+					"evening",
+					"winter"
+				],
+				"names": true
+			},
+			"hint": "When is the sun highest in the sky?",
+			"explain": "At noon the sun is high, so the shadow is short; low sun makes long shadows."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do orange sunlight and blue shadow look so bright side by side?",
+			"choices": [
+				"they are complementary colours",
+				"they are both warm",
+				"they are analogous",
+				"they are tints"
+			],
+			"answer": 0,
+			"hint": "Where do they sit on the colour wheel?",
+			"explain": "Blue and orange sit opposite each other on the colour wheel, so they are complementary. Side by side, each makes the other look stronger, as in Monet's sunlit stacks and their blue shadows."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Berthe Morisot lived from 1841 to 1895. How many years is that?",
+			"answer": "54",
+			"hint": "Take the year she was born from the year she died.",
+			"explain": "She was born in 1841 and died in 1895, so she lived 1895 − 1841 = 54 years."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "The Impressionist way, or not?",
+			"groups": [
+				"Impressionist",
+				"not Impressionist"
+			],
+			"items": [
+				"painting outdoors quickly",
+				"broken strokes of pure colour",
+				"coloured shadows",
+				"smooth strokes you cannot see",
+				"plain black shadows"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Remember how they caught light fast.",
+			"explain": "Painting outdoors fast, in broken strokes, with coloured shadows is Impressionist; hidden strokes and black shadows are not."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Seurat painted in dots of pure colour. Where do the colours mix?",
+			"choices": [
+				"in the viewer's eye",
+				"on the palette",
+				"in the paint tube",
+				"on the brush"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "brushwork",
+				"style": "dots"
+			},
+			"hint": "Stand back from the dots: what happens?",
+			"explain": "Seurat did not mix the colours on his palette. Dots of pure colour sit side by side, and from a distance the viewer's eye blends them into new colours."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The name Impressionists began as a critic's joke.",
+			"answer": true,
+			"hint": "Remember what happened at the 1874 show.",
+			"explain": "True: in 1874 a critic made fun of Monet's Impression, Sunrise and called the painters Impressionists. They kept the name with pride."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.artist_movement",
+			"level": 1
+		},
+		{
+			"gen": "g8c.artist_movement",
+			"level": 2
+		},
+		{
+			"gen": "g8c.art_order",
+			"level": 1
+		}
+	]
+}

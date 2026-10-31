@@ -1,0 +1,672 @@
+{
+	"id": "g3.music.high_low",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the pulse? (The steady beat under the music.) Today: high and low notes."
+		},
+		{
+			"text": "Pitch is how high or low a sound is. A bird's tweet is high; a big drum's boom is low. Listen: a high note, then a low note.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C6:2",
+					"-",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"text": "This tune goes up, step by step, like climbing stairs.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4:2"
+				]
+			},
+			"picture": {
+				"kind": "melody",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"text": "This one goes down the stairs.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"F4",
+					"E4",
+					"D4",
+					"C4:2"
+				]
+			},
+			"picture": {
+				"kind": "melody",
+				"notes": [
+					"G4",
+					"F4",
+					"E4",
+					"D4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"text": "A melody (a tune) is notes one after another. Its shape can go up, go down, or go up and then down, like a hill.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C4:2"
+				]
+			},
+			"picture": {
+				"kind": "melody",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"text": "Notes can move by a small step or by a big jump (a leap). Listen: two small steps, then a big leap up.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"-",
+					"C4",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"text": "Big instruments usually play lower notes: a double bass sounds lower than a violin, and a tuba lower than a trumpet."
+		},
+		{
+			"text": "Try it in the world: build a staircase of blocks in your world. Sing a little higher on each step as you climb, and lower as you come down."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen to two notes. Is the second note higher or lower?",
+			"answer": 0,
+			"hint": "Hum the notes as you listen. Does your voice go up, go down or stay where it is?",
+			"choices": [
+				"higher",
+				"lower"
+			],
+			"explain": "The second note was higher: a big jump up.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"-",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen to two notes. Is the second one higher or lower than the first?",
+			"answer": 0,
+			"hint": "Hum the notes as you listen. Does your voice go up, go down or stay where it is?",
+			"choices": [
+				"lower",
+				"higher"
+			],
+			"explain": "The second note was lower: a big jump down.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G5:2",
+					"-",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these makes a higher sound?",
+			"answer": 0,
+			"hint": "Small things often make high sounds.",
+			"choices": [
+				"a bird's tweet",
+				"a big drum",
+				"thunder",
+				"a lion's roar"
+			],
+			"explain": "A bird's tweet is high. Drums, thunder and roars are low."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Does the tune go up or down?",
+			"answer": 0,
+			"hint": "Draw the tune in the air with your finger as you listen: up for higher notes, down for lower ones.",
+			"choices": [
+				"up",
+				"down"
+			],
+			"explain": "Each note is higher than the one before: the tune goes up.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which picture shows the tune?",
+			"answer": 0,
+			"hint": "Draw the tune in the air with your finger as you listen: up for higher notes, down for lower ones.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"A4",
+							"G4",
+							"F4",
+							"E4",
+							"D4:2"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"D4",
+							"E4",
+							"F4",
+							"G4",
+							"A4:2"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"D4",
+							"F4",
+							"A4",
+							"F4",
+							"D4:2"
+						]
+					}
+				}
+			],
+			"explain": "The tune goes down, step by step, like the first picture's dots.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A4",
+					"G4",
+					"F4",
+					"E4",
+					"D4:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Listen. The two notes are the same.",
+			"answer": true,
+			"hint": "Hum the notes as you listen. Does your voice go up, go down or stay where it is?",
+			"explain": "True: both notes are the same pitch.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4:2",
+					"-",
+					"E4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which instrument usually plays lower notes?",
+			"answer": 0,
+			"hint": "Big instruments usually sound lower.",
+			"choices": [
+				"a double bass",
+				"a violin",
+				"a flute",
+				"a whistle"
+			],
+			"explain": "The double bass is big, and it plays low notes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. What shape does the tune make?",
+			"answer": 0,
+			"hint": "Draw the tune in the air with your finger as you listen: up for higher notes, down for lower ones.",
+			"choices": [
+				"up, then down",
+				"down, then up",
+				"only up",
+				"only down"
+			],
+			"explain": "It goes up to a high note and back down, like a hill.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Pitch is how loud or quiet a sound is.",
+			"answer": false,
+			"hint": "High and low, or loud and quiet?",
+			"explain": "False: pitch is how high or low a sound is. How loud or quiet it is is called dynamics."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen carefully. Is the second note higher, lower or the same?",
+			"answer": 0,
+			"hint": "Hum the notes as you listen. Does your voice go up, go down or stay where it is?",
+			"choices": [
+				"higher",
+				"lower",
+				"the same"
+			],
+			"explain": "Higher, but only a tiny step: the smallest step there is between notes on a piano.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"-",
+					"C#4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which picture shows this tune?",
+			"answer": 0,
+			"hint": "Draw the tune in the air with your finger as you listen: up for higher notes, down for lower ones.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"G4",
+							"E4",
+							"-",
+							"G4",
+							"E4:2"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"E4",
+							"G4",
+							"-",
+							"E4",
+							"G4:2"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "melody",
+						"notes": [
+							"G4",
+							"G4",
+							"-",
+							"E4",
+							"E4:2"
+						]
+					}
+				}
+			],
+			"explain": "High, low, then high, low again: two notes going down, twice.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"E4",
+					"-",
+					"G4",
+					"E4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. The first two notes move by a small step. How do the last two move?",
+			"answer": 0,
+			"hint": "Hum the notes as you listen. Does your voice go up, go down or stay where it is?",
+			"choices": [
+				"a big jump up",
+				"a small step up",
+				"a big jump down",
+				"they stay the same"
+			],
+			"explain": "The last two notes leap a long way up: a big jump.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"-",
+					"C4",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A tuba and a trumpet play together. Which usually sounds lower?",
+			"answer": 0,
+			"hint": "Which one is bigger?",
+			"choices": [
+				"the tuba",
+				"the trumpet",
+				"they sound the same",
+				"neither makes a sound"
+			],
+			"explain": "The tuba: it is much bigger, and it plays lower notes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. How does this tune begin?",
+			"answer": 0,
+			"hint": "Draw the tune in the air with your finger as you listen: up for higher notes, down for lower ones.",
+			"choices": [
+				"it goes down, then back up",
+				"it goes up, then down",
+				"it only goes up",
+				"it jumps very high"
+			],
+			"explain": "It steps down two notes, then comes back up to where it started.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4",
+					"D4",
+					"C4",
+					"D4",
+					"E4",
+					"E4",
+					"E4:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen. This tune goes all the way down, step by step.",
+			"answer": true,
+			"hint": "Draw the tune in the air with your finger as you listen: up for higher notes, down for lower ones.",
+			"explain": "True: every note is one step lower than the one before.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"B4",
+					"A4",
+					"G4",
+					"F4",
+					"E4",
+					"D4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the sounds: high or low?",
+			"items": [
+				"a bird's tweet",
+				"a big drum's boom",
+				"a mouse's squeak",
+				"a tuba",
+				"a whistle",
+				"a double bass"
+			],
+			"groups": [
+				"high",
+				"low"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it a small, light sound or a big, deep one?",
+			"explain": "Tweets, squeaks and whistles are high. A big drum, a tuba and a double bass are low."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order these from the lowest notes to the highest.",
+			"items": [
+				"a violin",
+				"a double bass",
+				"a piccolo"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Big instruments usually play lower notes.",
+			"explain": "The big double bass plays lowest, then the violin; the tiny piccolo plays highest."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Listen to three notes. Put them in order from the lowest to the highest.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4:2",
+					"-",
+					"C4:2",
+					"-",
+					"G4:2"
+				]
+			},
+			"items": [
+				"the first note",
+				"the second note",
+				"the third note"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Hum each note after you hear it. Which one felt lowest?",
+			"explain": "The second note (C) is lowest, then the first (E), and the third (G) is highest."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Listen to three pairs of notes. Does each pair move by a small step or a big leap?",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"-",
+					"C4",
+					"G4",
+					"-",
+					"E4",
+					"F4"
+				]
+			},
+			"groups": [
+				"a small step",
+				"a big leap"
+			],
+			"items": [
+				"the first two notes",
+				"the middle two notes",
+				"the last two notes"
+			],
+			"answer": [
+				0,
+				1,
+				0
+			],
+			"hint": "Listen to each pair. Do the two notes sit close together, or far apart?",
+			"explain": "C to D is a small step, C up to G is a big leap, and E to F is the smallest step of all."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Listen to four notes. Order them from the highest to the lowest.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4:2",
+					"-",
+					"C5:2",
+					"-",
+					"C4:2",
+					"-",
+					"E4:2"
+				]
+			},
+			"items": [
+				"the first note",
+				"the second note",
+				"the third note",
+				"the fourth note"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Find the highest one first, then the lowest, then sort the two in the middle.",
+			"explain": "The second note (a high C) is highest, then the first (G), then the fourth (E). The third (a low C) is lowest."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen. How many times does the tune go down?",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"D4",
+					"G4",
+					"F4",
+					"E4:2"
+				]
+			},
+			"answer": "3",
+			"hint": "Listen again and say 'up' or 'down' at each new note, then count the downs.",
+			"explain": "C up to E, down to D, up to G, down to F, then down to E: the tune goes down 3 times."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each tune shape to how it moves.",
+			"items": [
+				"like a hill",
+				"like a valley",
+				"like stairs going up",
+				"like stairs going down"
+			],
+			"matches": [
+				"only down",
+				"up, then down",
+				"down, then up",
+				"only up"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Draw each shape in the air with your finger as you say it.",
+			"explain": "A hill goes up, then down. A valley goes down, then up. Stairs going up only go up, and stairs going down only go down."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3a.higher_lower",
+			"level": 1
+		},
+		{
+			"gen": "g3a.higher_lower",
+			"level": 2
+		},
+		{
+			"gen": "g3a.higher_lower",
+			"level": 3
+		},
+		{
+			"gen": "g3a.tune_direction",
+			"level": 1
+		},
+		{
+			"gen": "g3a.tune_direction",
+			"level": 2
+		},
+		{
+			"gen": "g3a.tune_direction",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,439 @@
+{
+	"id": "g8.music.jazz_improvise",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, which three chords make the 12-bar blues? (I, IV and V: in C, the chords C, F and G.) Today: jazz, swing and improvising."
+		},
+		{
+			"text": "A jazz band has a front line that plays the tunes, such as trumpet, saxophone and trombone. The rhythm section keeps the beat and the chords: piano, double bass and drums.",
+			"picture": {
+				"kind": "jazz_band",
+				"labels": true
+			}
+		},
+		{
+			"text": "Swing makes jazz dance. Pairs of quavers are played long-short, not even: the first takes about two thirds of the beat, the second one third. Listen to swung quavers.",
+			"picture": {
+				"kind": "swing_beats",
+				"rows": [
+					"straight",
+					"swing"
+				],
+				"beats": 4
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4:2",
+					"G4",
+					"A4:2",
+					"A4",
+					"B4:2",
+					"B4",
+					"C5:3"
+				],
+				"beat": 0.18
+			}
+		},
+		{
+			"text": "Improvising means making music up as you play, within rules: the song's chords and a scale that fits them. The C blues scale is C, E flat, F, F sharp, G and B flat.",
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"C4",
+					"Eb4",
+					"F4",
+					"F#4",
+					"G4",
+					"Bb4",
+					"C5"
+				],
+				"title": "the C blues scale"
+			}
+		},
+		{
+			"text": "Call and response: one player plays a short phrase, the call, and another answers it. It came into jazz from African and African American music: work songs, spirituals and the blues."
+		},
+		{
+			"text": "Worked example: over a 12-bar blues in C, play a 2-bar call on C, E flat and G. Then answer with 2 bars that come home to C. Keep the beat, and leave gaps to breathe.",
+			"picture": {
+				"kind": "twelve_bar",
+				"key": "C",
+				"numerals": true
+			}
+		},
+		{
+			"text": "A jazz piece often plays the head (the tune), then solos over the same chords, then the head again. Trading fours means players take turns of 4 bars. Ella Fitzgerald (1917-1996) improvised with her voice.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"head",
+					"solo",
+					"solo",
+					"head"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: in the game, start the Xylophone's LOOP with a steady pattern, then improvise over it on C, D, E, G and A. Answer your own calls. Next: produce a track."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Are these quavers straight or swung?",
+			"choices": [
+				"swung: long-short",
+				"straight: even"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4:2",
+					"G4",
+					"A4:2",
+					"A4",
+					"B4:2",
+					"B4",
+					"C5:3"
+				],
+				"beat": 0.18
+			},
+			"hint": "Are the two notes of each pair the same length?",
+			"explain": "Each pair goes long-short, long-short: that is swing."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Are these quavers straight or swung?",
+			"choices": [
+				"straight: even",
+				"swung: long-short"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"G4",
+					"A4",
+					"A4",
+					"B4",
+					"B4",
+					"C5:2"
+				],
+				"beat": 0.27
+			},
+			"hint": "Are the two notes of each pair the same length?",
+			"explain": "Each pair is even, the same length: straight quavers."
+		},
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label the jazz band.",
+			"picture": {
+				"kind": "jazz_band"
+			},
+			"spots": [
+				[
+					0.1901,
+					0.09,
+					0.1901,
+					0.4112
+				],
+				[
+					0.8099,
+					0.09,
+					0.8099,
+					0.429
+				],
+				[
+					0.3028,
+					0.91,
+					0.3028,
+					0.7309
+				],
+				[
+					0.5,
+					0.91,
+					0.5,
+					0.7309
+				]
+			],
+			"labels": [
+				"drums",
+				"trumpet",
+				"piano",
+				"saxophone"
+			],
+			"answer": [
+				1,
+				2,
+				0,
+				3
+			],
+			"hint": "Find the front line at the front, then the rhythm section behind.",
+			"explain": "The trumpet and the curved saxophone stand at the front; the piano and the drums play at the back."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In call and response, one player answers another player's phrase.",
+			"answer": true,
+			"hint": "Think of a question and an answer.",
+			"explain": "True: the call is answered by a response, like a musical conversation."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each jazz word to its meaning.",
+			"items": [
+				"front line",
+				"rhythm section",
+				"head",
+				"solo"
+			],
+			"matches": [
+				"keeps the beat and chords",
+				"the tune, at start and end",
+				"one player improvises",
+				"plays the tunes"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the band and of how a piece goes.",
+			"explain": "The front line plays the tunes, the rhythm section the beat and chords, the head is the tune and a solo is improvised."
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Copy the call: clap it back.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx-x-",
+				"tempo": 100
+			},
+			"hint": "Listen for the two quick claps in the middle.",
+			"explain": "Claps in boxes 1, 3, 4, 5 and 7."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which note is in the C blues scale?",
+			"choices": [
+				"E flat",
+				"E",
+				"A",
+				"D"
+			],
+			"answer": 0,
+			"hint": "Remember the six notes on the keyboard.",
+			"explain": "The C blues scale is C, E flat, F, F sharp, G and B flat: E flat is in it."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 12-bar blues is played as 3 choruses. How many bars is that?",
+			"answer": "36",
+			"hint": "Each chorus is 12 bars.",
+			"explain": "12 × 3 = 36 bars."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen to the call and its answer. Does the answer end on the home note, C?",
+			"choices": [
+				"yes: it ends on C",
+				"no: it ends on G"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"Eb4",
+					"G4:2",
+					"-:2",
+					"F4",
+					"Eb4",
+					"C4:2"
+				],
+				"beat": 0.35
+			},
+			"hint": "Listen to the very last note.",
+			"explain": "The call rises to G; the answer comes back down to C, home."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a jazz performance in order.",
+			"items": [
+				"trading fours",
+				"a trumpet solo",
+				"the head again",
+				"a saxophone solo",
+				"the head (the tune)"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "It starts and ends with the tune.",
+			"explain": "Head, solos, trading fours, then the head again to finish."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Listen: this bass line walks, one note on every beat.",
+			"answer": true,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"E3",
+					"G3",
+					"A3",
+					"F3",
+					"A3",
+					"C4",
+					"A3"
+				],
+				"beat": 0.4
+			},
+			"hint": "Tap along: does a note fall on each tap?",
+			"explain": "True: a note on every beat, stepping through the chord: a walking bass."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Players trade fours over a 12-bar chorus. How many turns of 4 bars fit in one chorus?",
+			"answer": "3",
+			"hint": "How many fours make 12?",
+			"explain": "12 ÷ 4 = 3 turns."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 12-bar chorus at 4 beats a bar and 120 beats a minute: how many seconds does it last?",
+			"answer": "24",
+			"hint": "Count the beats, then the seconds.",
+			"explain": "12 × 4 = 48 beats; at 120 a minute each beat is 0.5 seconds; 48 × 0.5 = 24 seconds."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which scale does this solo use?",
+			"choices": [
+				"the C blues scale",
+				"the C major scale",
+				"the whole-tone scale"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"Eb4",
+					"F4",
+					"F#4",
+					"G4",
+					"Bb4",
+					"G4",
+					"C5:2"
+				],
+				"beat": 0.35
+			},
+			"hint": "Listen for E flat and the note between F and G.",
+			"explain": "It uses C, E flat, F, F sharp, G and B flat: the C blues scale."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "In the C blues scale or not?",
+			"groups": [
+				"in the C blues scale",
+				"not in it"
+			],
+			"items": [
+				"E flat",
+				"F sharp",
+				"B flat",
+				"E",
+				"B"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "List the six notes: C, E flat, F, F sharp, G, B flat.",
+			"explain": "E flat, F sharp and B flat are in it; E and B are not."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen: the call is answered by the same phrase, an octave lower.",
+			"answer": true,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"C5:2",
+					"-",
+					"G3",
+					"A3",
+					"C4:2"
+				],
+				"beat": 0.4
+			},
+			"hint": "Compare the two phrases' heights.",
+			"explain": "True: the answer plays G, A, C again, an octave lower."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.swing_hear",
+			"level": 1
+		},
+		{
+			"gen": "g8c.swing_hear",
+			"level": 2
+		},
+		{
+			"gen": "g8c.swing_hear",
+			"level": 3
+		},
+		{
+			"gen": "g8c.blues_scale",
+			"level": 1
+		},
+		{
+			"gen": "g8c.blues_scale",
+			"level": 2
+		},
+		{
+			"gen": "g8c.blues_scale",
+			"level": 3
+		},
+		{
+			"gen": "g8c.chorus_count",
+			"level": 2
+		},
+		{
+			"gen": "g8c.chorus_count",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,225 @@
+{
+	"id": "g4.maths.compare_round",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, big numbers. What is the 7 worth in 47,203? 7 thousands: 7,000."
+		},
+		{
+			"text": "To compare two numbers, line up their places and start from the left. The first place where the digits differ decides: 45,302 > 45,230 because 3 hundreds are more than 2 hundreds.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"10,000s",
+						"1,000s",
+						"100s",
+						"10s",
+						"1s"
+					],
+					[
+						"4",
+						"5",
+						"3",
+						"0",
+						"2"
+					],
+					[
+						"4",
+						"5",
+						"2",
+						"3",
+						"0"
+					]
+				]
+			}
+		},
+		{
+			"text": "The signs open towards the bigger number: 5 < 8 means 5 is less than 8, and 8 > 5 means 8 is greater than 5."
+		},
+		{
+			"text": "Rounding finds the nearest easy number. 46,732 is between 46,000 and 47,000. It is nearer to 47,000, so to the nearest thousand it rounds to 47,000.",
+			"picture": {
+				"kind": "number_line",
+				"from": "46000",
+				"to": "47000",
+				"step": "100",
+				"dot": "46732",
+				"labels": "ends"
+			}
+		},
+		{
+			"text": "Look at the digit just after the place you round to. 5 or more: round up. 4 or less: round down. 1,250 to the nearest hundred is 1,300; 1,249 is 1,200."
+		},
+		{
+			"text": "Try it in the world: count the blocks in two big builds and compare them with > or <. Then round each count to the nearest hundred for a quick guess. Next: adding and subtracting big numbers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "8,506 > 8,560",
+			"answer": false,
+			"hint": "The thousands and hundreds are the same. Compare the tens.",
+			"explain": "8,506 < 8,560 because 0 tens are less than 6 tens."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which number is the greatest?",
+			"choices": [
+				"9,990",
+				"9,099",
+				"9,909",
+				"9,009"
+			],
+			"answer": 0,
+			"hint": "All start with 9 thousands. Compare the hundreds, then the tens.",
+			"explain": "9,990 has 9 hundreds and 9 tens: the most."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Round 67 to the nearest ten.",
+			"answer": "70",
+			"hint": "The ones digit is 7: 5 or more rounds up.",
+			"explain": "67 is nearer to 70 than to 60."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Round 3,450 to the nearest hundred.",
+			"answer": "3,500",
+			"hint": "Look at the tens digit.",
+			"explain": "The tens digit is 5, so 3,450 rounds up to 3,500."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which number rounds to 5,000 when rounded to the nearest thousand?",
+			"choices": [
+				"4,612",
+				"5,612",
+				"4,299",
+				"5,501"
+			],
+			"answer": 0,
+			"hint": "Round each one: look at the hundreds digit.",
+			"explain": "4,612 rounds up to 5,000. 5,612 and 5,501 round to 6,000, and 4,299 to 4,000."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "To the nearest ten thousand, 84,999 rounds to 80,000.",
+			"answer": true,
+			"hint": "Look at the thousands digit: 4.",
+			"explain": "The thousands digit is 4, so 84,999 rounds down to 80,000."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these mountain heights in order, lowest first (in metres).",
+			"items": [
+				"4,810",
+				"4,478",
+				"4,807",
+				"4,634"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "They all have 4 thousands. Compare the hundreds, then the tens.",
+			"explain": "4,478, 4,634, 4,807, 4,810"
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A town has 245,680 people. Round this to the nearest thousand.",
+			"answer": "246,000",
+			"hint": "Look at the hundreds digit: 6.",
+			"explain": "To the nearest thousand, look at the hundreds digit: 6. 6 is 5 or more, so round up: 245,680 lies between 245,000 and 246,000, nearer to 246,000."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each number to 46,732 rounded that way.",
+			"items": [
+				"to the nearest ten",
+				"to the nearest hundred",
+				"to the nearest thousand"
+			],
+			"matches": [
+				"47,000",
+				"46,730",
+				"46,700"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Look at the digit just after the place you round to.",
+			"explain": "To the nearest ten: 46,730. Hundred: 46,700. Thousand: 47,000."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A number's tens and ones digits are both 0. It rounds to 5,800 to the nearest hundred, and to 6,000 to the nearest thousand. What is the number?",
+			"answer": "5,800",
+			"accept": [
+				"5800"
+			],
+			"hint": "If the tens and ones are 0, what happens when you round it to the nearest hundred?",
+			"explain": "With 0 tens and 0 ones, the number is a whole number of hundreds, so rounding to the nearest hundred leaves it the same: 5,800. Check: 8 hundreds is 5 or more, so 5,800 rounds up to 6,000."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4m.compare",
+			"level": 1
+		},
+		{
+			"gen": "g4m.compare",
+			"level": 2
+		},
+		{
+			"gen": "g4m.compare",
+			"level": 3
+		},
+		{
+			"gen": "g4m.order_numbers",
+			"level": 1
+		},
+		{
+			"gen": "g4m.order_numbers",
+			"level": 2
+		},
+		{
+			"gen": "g4m.order_numbers",
+			"level": 3
+		},
+		{
+			"gen": "g4m.round_to",
+			"level": 1
+		},
+		{
+			"gen": "g4m.round_to",
+			"level": 2
+		},
+		{
+			"gen": "g4m.round_to",
+			"level": 3
+		},
+		{
+			"gen": "g4m.round_true_false",
+			"level": 2
+		},
+		{
+			"gen": "g4m.round_true_false",
+			"level": 3
+		}
+	]
+}

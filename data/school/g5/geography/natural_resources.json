@@ -1,0 +1,337 @@
+{
+	"id": "g5.geography.natural_resources",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4, where does the fresh water we use come from? (Rivers, lakes, reservoirs and underground.) Water is a natural resource: something from nature that people use. Today: where resources come from, and which ones run out."
+		},
+		{
+			"text": "Natural resources include water, air, soil, wood, rocks, metals, fuels, sunlight and wind. Some are everywhere, like air. Others are found only in some places, so countries trade them."
+		},
+		{
+			"text": "Fresh water comes from rivers, lakes and rocks underground called aquifers. Less than 1 drop in every 100 on Earth is fresh water we can easily reach. Wood comes from forests; if new trees are planted, forests grow back."
+		},
+		{
+			"text": "Metals come from ores: rocks with metal in them, dug from mines. Australia digs the most iron ore, and Chile the most copper. Ores do not grow back, but metals can be recycled again and again.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60,
+				"points": [
+					{
+						"lat": -22,
+						"long": 118,
+						"label": "iron ore"
+					},
+					{
+						"lat": -24,
+						"long": -69,
+						"label": "copper"
+					}
+				]
+			}
+		},
+		{
+			"text": "Coal, oil and natural gas are fossil fuels, made over millions of years from buried plants and sea creatures. Burning them gives energy but adds carbon dioxide to the air, which warms the planet. They will run out one day."
+		},
+		{
+			"text": "Renewable resources are ones nature keeps making: sunlight, wind, flowing water, waves, tides and heat from deep underground. In Iceland, hot water from underground heats most homes.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Renewable",
+						"Non-renewable"
+					],
+					[
+						"sunlight",
+						"coal"
+					],
+					[
+						"wind",
+						"oil"
+					],
+					[
+						"flowing water",
+						"natural gas"
+					]
+				]
+			}
+		},
+		{
+			"text": "So resources are renewable (nature makes more within a lifetime) or non-renewable (they run out). Some, like wood, fish and soil, are renewable only if we use them carefully and give them time to recover.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"renewable",
+						"non-renewable"
+					],
+					[
+						"sunlight",
+						"coal"
+					],
+					[
+						"wind",
+						"oil"
+					],
+					[
+						"flowing water",
+						"natural gas"
+					],
+					[
+						"replanted wood",
+						"metal ores"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: map your world's resources: where you find wood, stone, iron and water. Which could run out, and how could you replace them? Next: trade around the world."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a natural resource?",
+			"answer": 0,
+			"hint": "Water, wood and wind are examples.",
+			"choices": [
+				"something from nature that people use",
+				"anything made in a factory",
+				"a kind of machine",
+				"a type of money"
+			],
+			"explain": "A natural resource is something from nature that people use."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Coal will run out one day.",
+			"answer": true,
+			"hint": "How long does coal take to form?",
+			"explain": "True: it took millions of years to form, so it is non-renewable."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a renewable resource?",
+			"answer": 0,
+			"hint": "Which one will nature keep making?",
+			"choices": [
+				"wind",
+				"coal",
+				"oil",
+				"natural gas"
+			],
+			"explain": "Wind keeps blowing; the other three are fossil fuels that run out."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where do metals come from?",
+			"answer": 0,
+			"hint": "They are rocks with metal in them.",
+			"choices": [
+				"ores dug from mines",
+				"trees",
+				"the wind",
+				"clouds"
+			],
+			"explain": "Metals come from ores dug from mines."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Sunlight is a renewable resource.",
+			"answer": true,
+			"hint": "Will the Sun stop shining tomorrow?",
+			"explain": "True: the Sun shines every day."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each resource to where it comes from.",
+			"items": [
+				"fresh water",
+				"wood",
+				"copper",
+				"oil"
+			],
+			"matches": [
+				"deep under land or sea",
+				"rivers, lakes and aquifers",
+				"forests",
+				"ore dug from mines"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "One grows, one flows, one is dug, one is drilled.",
+			"explain": "Water: rivers, lakes, aquifers. Wood: forests. Copper: ore from mines. Oil: deep underground."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How were fossil fuels made?",
+			"answer": 0,
+			"hint": "Fossils are remains of very old living things.",
+			"choices": [
+				"from living things buried millions of years ago",
+				"in factories",
+				"from melted metal",
+				"from last year's sunlight"
+			],
+			"explain": "From plants and sea creatures buried and squeezed for millions of years."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "When can wood be a renewable resource?",
+			"answer": 0,
+			"hint": "Can a forest grow back?",
+			"choices": [
+				"when new trees are planted",
+				"never",
+				"only when it is painted",
+				"when forests burn"
+			],
+			"explain": "When new trees are planted to replace the ones cut down."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A wind farm has 12 turbines. Each makes enough electricity for 250 homes. How many homes is that?",
+			"answer": "3000",
+			"hint": "Multiply the turbines by the homes for each one.",
+			"explain": "12 × 250 = 3,000 homes."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Countries trade resources because many are found only in some places.",
+			"answer": true,
+			"hint": "Does every country have copper and oil?",
+			"explain": "True: resources are spread unevenly, so countries trade for what they lack."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is burning fossil fuels a problem for the planet?",
+			"answer": 0,
+			"hint": "What gas goes into the air when they burn?",
+			"choices": [
+				"it adds carbon dioxide, which warms Earth",
+				"it makes the Sun hotter",
+				"it uses up the wind",
+				"it makes rivers salty"
+			],
+			"explain": "Burning them adds carbon dioxide to the air, which traps heat and warms the planet."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Iceland heats most homes with a renewable resource. Which one?",
+			"answer": 0,
+			"hint": "Iceland has many volcanoes and hot springs.",
+			"choices": [
+				"hot water from underground",
+				"coal",
+				"oil",
+				"natural gas"
+			],
+			"explain": "Hot water from deep underground, heated by the Earth."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is recycling metal a good idea?",
+			"answer": 0,
+			"hint": "Ores are non-renewable.",
+			"choices": [
+				"ores run out, but metal can be used again",
+				"metal grows back",
+				"it makes metal heavier",
+				"mines are always full"
+			],
+			"explain": "Ores will run out, but metal can be melted and used again and again."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "If 1 drop in every 100 is fresh water we can easily reach, how many is that out of 3,000 drops?",
+			"answer": "30",
+			"hint": "How many hundreds are in 3,000? One drop for each.",
+			"explain": "3,000 ÷ 100 = 30 drops."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: renewable only if used carefully, or renewable anyway?",
+			"groups": [
+				"only if used carefully",
+				"renewable anyway"
+			],
+			"items": [
+				"fish",
+				"wood",
+				"soil",
+				"sunlight",
+				"wind"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Could people use it up faster than nature makes more?",
+			"explain": "Fish, wood and soil can be used up if we take too much. Sunlight and wind cannot."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the resources: renewable, or non-renewable?",
+			"groups": [
+				"renewable",
+				"non-renewable"
+			],
+			"items": [
+				"sunlight",
+				"coal",
+				"wind",
+				"oil",
+				"tides",
+				"iron ore"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does nature keep making it, or will it run out?",
+			"explain": "Renewable: sunlight, wind and tides keep coming. Non-renewable: coal, oil and iron ore took millions of years to form and will run out."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5h.resource_sort",
+			"level": 1
+		},
+		{
+			"gen": "g5h.resource_sort",
+			"level": 2
+		},
+		{
+			"gen": "g5h.resource_sort",
+			"level": 3
+		}
+	]
+}

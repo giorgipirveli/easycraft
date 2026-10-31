@@ -1,0 +1,24 @@
+{
+	"id": "life.around.metro_and_compass",
+	"lesson": [
+		{"text": "Quick memory: lost? What do you do first? (Stay where you are.) Today: never going off with anyone, a fire drill, the metro and a compass."},
+		{"text": "Someone says \"come with me, I'll help\": stay where you are and say no. Ask a shop worker with a name badge, a parent with children or a police officer."},
+		{"text": "A fire drill: leave your things, line up, follow your teacher calmly to the meeting point, answer your name and stay with your class."},
+		{"text": "A metro map: each line has its own colour. You change trains where two lines meet. Tap your ticket on the gate's reader and wait behind the yellow line."},
+		{"text": "A compass: hold it flat and still; the red needle points north. Clockwise: north, east, south, west, with north-east and the others between."},
+		{"text": "Try it in the world: open the practice market, school, metro and park. Next: bearings and map grids, on the Big track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "On the platform you wait...", "answer": 0, "choices": ["behind the yellow line", "at the very edge", "on the tracks"], "hint": "Trains come in close to the edge.", "explain": "Behind the yellow line."},
+		{"type": "truefalse", "level": 1, "prompt": "A compass's red needle points north.", "answer": true, "hint": "N is for north.", "explain": "True."},
+		{"type": "choice", "level": 1, "prompt": "Someone you don't know says \"come with me\". You...", "answer": 0, "choices": ["stay and ask a safe grown-up", "go with them", "follow them a little way"], "hint": "Never go off with anyone.", "explain": "Stay and ask a safe grown-up."},
+		{"type": "choice", "level": 2, "prompt": "On a metro map you change trains...", "answer": 0, "choices": ["where two lines meet", "at any station", "at the last station"], "hint": "Look where the colours cross.", "explain": "Where two lines meet."},
+		{"type": "order", "level": 2, "prompt": "Going round a compass from north, clockwise.", "answer": [2, 0, 3, 1], "items": ["east", "west", "north", "south"], "hint": "Never Eat Soggy Waffles.", "explain": "North, east, south, west."},
+		{"type": "truefalse", "level": 2, "prompt": "When the doors open, you let people off first.", "answer": true, "hint": "Off first, then on.", "explain": "True."},
+		{"type": "choice", "level": 2, "prompt": "Halfway between north and east is...", "answer": 0, "choices": ["north-east", "south-west", "north-west"], "hint": "Put the two names together.", "explain": "North-east."},
+		{"type": "sort", "level": 3, "prompt": "In a fire drill: do it, or don't?", "groups": ["do it", "don't"], "items": ["leave your bag", "follow your teacher", "go back for a pencil", "run ahead alone"], "answer": [0, 0, 1, 1], "hint": "Calm, together, never back in.", "explain": "Leave things and follow; never go back or run off."},
+		{"type": "choice", "level": 3, "prompt": "A good landmark to remember the way back is...", "answer": 0, "choices": ["a fountain", "a parked car", "a dog"], "hint": "It must stay where it is.", "explain": "A fountain stays put."},
+		{"type": "truefalse", "level": 3, "prompt": "A shop worker who is helping you may ask for your grown-up's phone number.", "answer": true, "hint": "Say it aloud to a safe grown-up who is helping.", "explain": "True: aloud, to them, never online."},
+		{"type": "choice", "level": 3, "prompt": "The gate shows a red cross. You...", "answer": 0, "choices": ["ask the staff for help", "climb over", "squeeze through behind someone"], "hint": "Staff help.", "explain": "Ask the staff."}
+	]
+}

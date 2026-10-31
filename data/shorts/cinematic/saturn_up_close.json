@@ -1,0 +1,145 @@
+{
+	"id": "saturn_up_close",
+	"title": "Saturn's rings up close",
+	"topic": "space",
+	"link": {"star_map": true},
+	"video": "saturn_up_close",
+	"still": 12.0,
+	"stage": {
+		"sky": "space",
+		"light": "space",
+		"sun": [0.8, 0.3, 0.45],
+		"models": [
+			{
+				"id": "saturn",
+				"model": "planet",
+				"body": "saturn",
+				"at": [0, 0, 0],
+				"size": 60,
+				"turn": [0, 30, 0],
+				"moves": [{"do": "spin", "at": 0, "rate": 0.01}]
+			},
+			{"id": "rings", "model": "rings", "at": [0, 0, 0], "size": 60, "color": "#d9c7a0"},
+			{
+				"id": "bits",
+				"model": "ring_bits",
+				"at": [0, 0, 0],
+				"size": 60,
+				"inner": 1.9,
+				"outer": 2.3,
+				"count": 3000,
+				"arc": [-140, -60],
+				"thick": 0.02,
+				"period": 600,
+				"moves": [{"do": "appear", "at": 20}]
+			},
+			{"id": "titan", "model": "planet", "body": "titan", "at": [-900, 70, -1500], "size": 14}
+		],
+		"camera": [
+			{"at": 0, "pos": [430, 120, 560], "look": [0, 0, 0], "fov": 38},
+			{"at": 9.9, "pos": [320, 100, 430], "look": [0, 0, 0], "fov": 38},
+			{"at": 10, "cut": true, "pos": [250, 230, 250], "look": [0, -10, 0], "fov": 42},
+			{"at": 19.9, "pos": [60, 210, 330], "look": [0, -10, 20], "fov": 42, "path": "orbit"},
+			{"at": 20, "cut": true, "pos": [70, 60, 250], "look": [0, 0, 120], "fov": 50},
+			{"at": 29.9, "pos": [6, 5, 132], "look": [-15, 0, 116], "fov": 56},
+			{"at": 30, "cut": true, "pos": [3, 2, 126], "look": [-45, -0.3, 96], "fov": 58},
+			{"at": 39.9, "pos": [-8, 2.6, 124], "look": [-65, 0, 66], "fov": 58},
+			{"at": 40, "cut": true, "pos": [30, 12, 170], "look": [0, 5, 0], "fov": 48},
+			{"at": 49.9, "pos": [260, 170, 360], "look": [0, 0, 0], "fov": 44}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "From far away, Saturn's rings look like one flat hoop.",
+			"say": "Here is Saturn. From far away, its rings look like one flat, shiny hoop.",
+			"sounds": [{"at": 1.0, "effect": "wisp_chime"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "SATURN",
+					"at": [180, 74],
+					"size": 34,
+					"color": "ink",
+					"box": "gold",
+					"moves": [{"do": "pop", "at": 1.0}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "But they are billions of pieces of ice and rock.",
+			"say": "But the rings are not solid. They are billions of pieces of ice and rock, all going round Saturn.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "ICE AND ROCK",
+					"at": [180, 74],
+					"size": 28,
+					"color": "white",
+					"box": "sea",
+					"moves": [{"do": "pop", "at": 1.8}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Some are as small as dust, some as big as a house!",
+			"say": "Let's fly in close. Some pieces are as small as dust, and some are as big as a house!",
+			"sounds": [{"at": 1.0, "effect": "whoosh"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "DUST TO HOUSES",
+					"at": [180, 74],
+					"size": 28,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "pop", "at": 6.0}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "The rings reach 282,000 km, yet are about 10 m thick!",
+			"say": "The rings stretch 282,000 kilometres from Saturn, but most of them are only about ten metres thick.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "282,000 km WIDE",
+					"at": [180, 74],
+					"size": 24,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 1.0}]
+				},
+				{
+					"kind": "words",
+					"text": "10 m THICK",
+					"at": [180, 118],
+					"size": 24,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 5.0}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Ice shines in sunlight, so the rings glow. What else is made of ice?",
+			"say": "Ice shines in sunlight, so the rings glow bright. What else do you know that is made of ice?",
+			"sounds": [{"at": 6.0, "effect": "sparkle"}],
+			"actors": []
+		}
+	]
+}

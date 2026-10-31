@@ -1,0 +1,347 @@
+{
+	"id": "g3.maths.time",
+	"lesson": [
+		{
+			"text": "Quick memory: 1 hour is 60 minutes. The long hand goes all the way round in one hour, and each number on the clock is 5 minutes more: 5, 10, 15 … 60.",
+			"picture": {
+				"kind": "clock",
+				"h": 3,
+				"m": 0
+			}
+		},
+		{
+			"text": "The long hand shows the minutes and the short hand shows the hour. Here the short hand has passed 4 and the long hand points at 7: 7 × 5 = 35 minutes. The time is 4:35.",
+			"picture": {
+				"kind": "clock",
+				"h": 4,
+				"m": 35
+			}
+		},
+		{
+			"text": "To the minute: count in 5s up to the number just before the long hand, then in 1s along the small marks. This clock shows 2:38: 35 minutes and 3 more.",
+			"picture": {
+				"kind": "clock",
+				"h": 2,
+				"m": 38
+			}
+		},
+		{
+			"text": "Past and to: after half past, we can say how many minutes to the next hour. 4:35 is 25 minutes to 5, and 7:50 is 10 minutes to 8.",
+			"picture": {
+				"kind": "clock",
+				"h": 7,
+				"m": 50
+			}
+		},
+		{
+			"text": "A 24-hour clock counts all the hours of the day, from 0 to 23. After 12 noon, add 12: 3:45 in the afternoon is 15:45. In the morning, 9:05 is written 09:05.",
+			"picture": {
+				"kind": "digital_clock",
+				"h": 15,
+				"m": 45
+			}
+		},
+		{
+			"text": "How long? Count on. From 2:45 to 3:20 is 15 minutes to 3:00, then 20 more: 15 + 20 = 35 minutes.",
+			"picture": {
+				"kind": "clock",
+				"h": 2,
+				"m": 45
+			}
+		},
+		{
+			"text": "When does it end? A film starts at 5:40 and lasts 50 minutes: 20 minutes to 6:00, then 30 more, so it ends at 6:30. Next, in grade 4: hours, minutes and seconds in bigger stories.",
+			"picture": {
+				"kind": "clock",
+				"h": 5,
+				"m": 40
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What time does the clock show?",
+			"choices": [
+				"3:15",
+				"3:03",
+				"4:15",
+				"3:20"
+			],
+			"answer": 0,
+			"hint": "The short hand shows the hour it has passed. Count the long hand's minutes in 5s.",
+			"explain": "The short hand has just passed 3 and the long hand is on 3: 15 minutes. 3:15.",
+			"picture": {
+				"kind": "clock",
+				"h": 3,
+				"m": 15
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What time does the clock show?",
+			"choices": [
+				"8:40",
+				"9:40",
+				"8:08",
+				"8:35"
+			],
+			"answer": 0,
+			"hint": "The short hand is between 8 and 9, so the hour is still 8.",
+			"explain": "8 and 40 minutes: 8:40.",
+			"picture": {
+				"kind": "clock",
+				"h": 8,
+				"m": 40
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many minutes are there in 2 hours?",
+			"answer": "120",
+			"hint": "1 hour = 60 minutes.",
+			"explain": "2 × 60 = 120 minutes."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A game starts at 4:10 and ends at 4:35. How many minutes does it last?",
+			"answer": "25",
+			"hint": "Count on from 10 minutes past to 35 minutes past.",
+			"explain": "35 − 10 = 25 minutes."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "At 6:30 the long hand points at 6.",
+			"answer": true,
+			"hint": "30 minutes is halfway round the clock.",
+			"explain": "Yes: 30 minutes is 6 × 5, so the long hand points at 6."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is 15:00 on a 12-hour clock?",
+			"choices": [
+				"3:00 in the afternoon",
+				"5:00 in the afternoon",
+				"3:00 in the morning",
+				"1:00 in the afternoon"
+			],
+			"answer": 0,
+			"hint": "After 12 noon, take away 12.",
+			"explain": "15 − 12 = 3: 3:00 in the afternoon."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many days are in 3 weeks?",
+			"answer": "21",
+			"hint": "1 week = 7 days.",
+			"explain": "3 × 7 = 21 days."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What time does the clock show?",
+			"choices": [
+				"11:52",
+				"12:52",
+				"10:52",
+				"11:47"
+			],
+			"answer": 0,
+			"hint": "The short hand has not reached 12 yet. Count the minutes: 50, then 2 more.",
+			"explain": "11 and 52 minutes: 11:52.",
+			"picture": {
+				"kind": "clock",
+				"h": 11,
+				"m": 52
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The show starts at 7:25 in the evening. How is that written on a 24-hour clock?",
+			"choices": [
+				"19:25",
+				"17:25",
+				"07:25",
+				"21:25"
+			],
+			"answer": 0,
+			"hint": "After 12 noon, add 12 to the hour.",
+			"explain": "7 + 12 = 19: 19:25."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A swim starts at 9:45 and ends at 10:20. How many minutes is that?",
+			"answer": "35",
+			"hint": "Count on to 10:00 first, then on to 10:20.",
+			"explain": "9:45 to 10:00 is 15 minutes, then 20 more: 15 + 20 = 35."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Zara starts building at 2:50 and builds for 25 minutes. When does Zara stop?",
+			"choices": [
+				"3:15",
+				"3:25",
+				"2:75",
+				"3:05"
+			],
+			"answer": 0,
+			"hint": "Count on 10 minutes to 3:00, then the rest.",
+			"explain": "2:50 + 10 minutes = 3:00, then 15 more minutes: 3:15."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "3 minutes = ? seconds",
+			"answer": "180",
+			"hint": "1 minute = 60 seconds.",
+			"explain": "3 × 60 = 180 seconds."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "4:45 is 15 minutes to 5.",
+			"answer": true,
+			"hint": "How many minutes from 4:45 to 5:00?",
+			"explain": "45 + 15 = 60, so yes."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A boat ride starts at 13:40 and ends at 15:05. How many minutes is it?",
+			"answer": "85",
+			"hint": "Count on to 14:00, then to 15:00, then to 15:05.",
+			"explain": "20 minutes to 14:00, 60 to 15:00 and 5 more: 20 + 60 + 5 = 85."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A cake goes in the oven at 16:35 and bakes for 55 minutes. When does it come out?",
+			"choices": [
+				"17:30",
+				"17:20",
+				"16:90",
+				"18:30"
+			],
+			"answer": 0,
+			"hint": "Count on 25 minutes to 17:00, then the rest.",
+			"explain": "25 minutes to 17:00, then 30 more minutes: 17:30."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "2 hours 15 minutes = ? minutes",
+			"answer": "135",
+			"hint": "Change the hours into minutes, then add the 15.",
+			"explain": "2 × 60 = 120, and 120 + 15 = 135 minutes."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly's party is from 2:30 to 5:00. How many minutes long is it?",
+			"answer": "150",
+			"hint": "Count on: to 3:00, then whole hours to 5:00.",
+			"explain": "30 minutes to 3:00, then 2 hours = 120 minutes: 30 + 120 = 150."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these times of day in order, earliest first.",
+			"items": [
+				"11:50",
+				"18:40",
+				"07:15",
+				"13:05",
+				"22:10"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "On a 24-hour clock, a smaller hour is earlier in the day.",
+			"explain": "07:15, 11:50, 13:05, 18:40, 22:10."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "20:30 is half past 8 in the evening.",
+			"answer": true,
+			"hint": "Take away 12 from the hour.",
+			"explain": "20 − 12 = 8: half past 8 in the evening."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3g.read_clock",
+			"level": 1
+		},
+		{
+			"gen": "g3g.read_clock",
+			"level": 2
+		},
+		{
+			"gen": "g3g.read_clock",
+			"level": 3
+		},
+		{
+			"gen": "g3g.to_24h",
+			"level": 1
+		},
+		{
+			"gen": "g3g.to_24h",
+			"level": 2
+		},
+		{
+			"gen": "g3g.to_24h",
+			"level": 3
+		},
+		{
+			"gen": "g3g.duration",
+			"level": 1
+		},
+		{
+			"gen": "g3g.duration",
+			"level": 2
+		},
+		{
+			"gen": "g3g.duration",
+			"level": 3
+		},
+		{
+			"gen": "g3g.end_time",
+			"level": 1
+		},
+		{
+			"gen": "g3g.end_time",
+			"level": 2
+		},
+		{
+			"gen": "g3g.end_time",
+			"level": 3
+		},
+		{
+			"gen": "g3g.time_units",
+			"level": 1
+		},
+		{
+			"gen": "g3g.time_units",
+			"level": 2
+		},
+		{
+			"gen": "g3g.time_units",
+			"level": 3
+		}
+	]
+}

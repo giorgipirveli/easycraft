@@ -1,0 +1,46 @@
+# Nakama configuration for local development (docker-compose.yml mounts it read-only).
+# Reference: https://heroiclabs.com/docs/nakama/getting-started/configuration/
+# The database address is passed on the command line (docker-compose.yml), not here.
+
+name: easycraft-dev
+
+logger:
+  level: "INFO"
+
+session:
+  token_expiry_sec: 7200          # 2 h; the game re-authenticates by device id
+  refresh_token_expiry_sec: 2592000
+
+socket:
+  # The server key ships inside the game, so it is not a secret; it only stops stray clients.
+  server_key: "defaultkey"
+  # Nakama closes a session that sends a message bigger than this (default 4096 bytes: "websocket:
+  # read limit exceeded"). The game sends Godot packets over 32 KiB in pieces (RelayBridge), which
+  # are about 44 KB as base64 in JSON; the host's voxel sync sent 537 KB at once when a guest joined
+  # (docs/devlog/parts/m4-online-spike.md).
+  max_message_size_bytes: 65536
+  # One HTTP request's size (default 256 KiB): the profile backup of a child who practised the whole School
+  # is up to ~1 MB, sent as an escaped JSON string (owner #70/#71; tests/unit/test_hosting_kit.gd).
+  max_request_size_bytes: 4194304
+  # Messages waiting for one session; a full queue closes that session (default 64). A guest
+  # joining pulls hundreds of voxel chunks at once.
+  outgoing_queue_size: 1024
+
+runtime:
+  js_entrypoint: "build/index.js"
+  # The module's switches (server/README.md). DEVELOPMENT ONLY: a production server (server/deploy/)
+  # must set none of these, or set them to "false".
+  env:
+    # Parental consent by the fake provider: "a parent" says yes 2 s after consent_start
+    # (spec §17.2; the real provider needs the owner's registration).
+    - "EASYCRAFT_CONSENT_PROVIDER=fake"
+    - "EASYCRAFT_FAKE_CONSENT_DELAY_MS=2000"
+    # Developer accounts that never claimed a username (the spike's --online-host/--online-join,
+    # tools/net_test.sh, the GUT relay tests) may join a match by its id. Everyone who claimed a
+    # username needs an invite, as on a production server; always at most 4 players.
+    - "EASYCRAFT_DEV_OPEN_MATCHES=true"
+
+console:
+  # The developer console (http://127.0.0.1:7351). Bound to this PC only (docker-compose.yml).
+  username: "admin"
+  password: "easycraft-dev"

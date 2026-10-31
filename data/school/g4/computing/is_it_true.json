@@ -1,0 +1,298 @@
+{
+	"id": "g4.computing.is_it_true",
+	"lesson": [
+		{
+			"text": "Quick memory: why is the first search result not always the best? (Results are ranked by guesses, and some are adverts.) Today: checking what you find."
+		},
+		{
+			"text": "Anyone can put things online. Some of it is true, some is a mistake, some is made up, and some is trying to sell you something. Good readers check."
+		},
+		{
+			"text": "Ask three questions. Who wrote it: an expert, a museum, or someone you can't find out about? When: is it new, or old and out of date? Why: to inform, to sell, to persuade or to trick?",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"ask",
+						"look for"
+					],
+					[
+						"Who wrote it?",
+						"an expert"
+					],
+					[
+						"When?",
+						"new, not old"
+					],
+					[
+						"Why?",
+						"to inform"
+					]
+				]
+			}
+		},
+		{
+			"text": "Check with other good sources. If two or three trusted sites say the same, it is more likely to be true. If only one strange site says it, be careful.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"read it",
+					"who made it?",
+					"find other sources",
+					"do they agree?"
+				],
+				"title": "Check it"
+			}
+		},
+		{
+			"text": "Facts can be checked; opinions can't (grade 3 English). Sharks have lived on Earth for over 400 million years is a fact you can check. Sharks are the best animals is an opinion."
+		},
+		{
+			"text": "Watch out for tricks: headlines that shout You won't believe this! Offers that are too good to be true, like a free tablet for everyone. And photos that have been changed."
+		},
+		{
+			"text": "Worked example: a page says octopuses have three hearts. Who wrote it? Scientists at an aquarium. Do other good sites agree? Yes: a museum's page says so too. So it is very likely true.",
+			"picture": {
+				"kind": "search_page",
+				"query": "octopus hearts",
+				"results": [
+					{
+						"title": "You won't BELIEVE this octopus!",
+						"ad": true
+					},
+					{
+						"title": "Aquarium: an octopus has 3 hearts",
+						"note": "written by scientists"
+					},
+					{
+						"title": "Museum: octopus hearts and blood",
+						"note": "agrees: a good sign"
+					}
+				],
+				"mark": 1
+			}
+		},
+		{
+			"text": "Try it in the world: find one surprising fact about our world, like how deep the sea is, and check it on two good sites. Did they agree? Next: data in tables."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Everything on the internet is true.",
+			"answer": false,
+			"hint": "Who can put things online?",
+			"explain": "False: anyone can, so some things are mistakes, made up or adverts. Check."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: a fact, or an opinion?",
+			"groups": [
+				"fact",
+				"opinion"
+			],
+			"items": [
+				"Octopuses have three hearts.",
+				"Octopuses are the cutest.",
+				"Water freezes at 0 °C.",
+				"Winter is the best season.",
+				"The Moon goes round the Earth.",
+				"Blue is the nicest colour."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Could you check it, or is it what someone thinks?",
+			"explain": "Facts can be checked: three hearts, 0 °C, the Moon. Cutest, best and nicest are opinions."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the best place to check a fact about sharks?",
+			"answer": 0,
+			"hint": "Who knows most about sharks, and wants to tell the truth?",
+			"choices": [
+				"a museum's or an aquarium's website",
+				"a comment by someone unknown",
+				"an advert for shark toys",
+				"a joke page"
+			],
+			"explain": "Museums and aquariums have experts, and they want to inform, not sell or joke."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why was this written? Buy Speedy Stripe shoes: they make you run twice as fast!",
+			"answer": 0,
+			"hint": "What does it want you to do?",
+			"choices": [
+				"to sell something",
+				"to share a science fact",
+				"to tell a bedtime story",
+				"to warn about danger"
+			],
+			"explain": "It wants you to buy shoes: it was written to sell."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of checking a page in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Read first; check with another site last.",
+			"items": [
+				"Ask who wrote it",
+				"Ask why it was written",
+				"Read it carefully",
+				"Ask when it was written",
+				"Check it on another good site"
+			],
+			"explain": "Read it, ask who, when and why, then check another good site."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A pop-up says you have won a free tablet and asks where you live. What is it?",
+			"answer": 0,
+			"hint": "Is it too good to be true? Does it ask for personal information?",
+			"choices": [
+				"a trick: close it and tell a grown-up",
+				"a real prize",
+				"a science fact",
+				"a school page"
+			],
+			"explain": "It is too good to be true and it asks where you live: a trick. Close it and tell a grown-up."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "An old page can be out of date, even if it was true when it was written.",
+			"answer": true,
+			"hint": "Can things we know change?",
+			"explain": "True: new discoveries change what we know, so check when a page was written."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each question to what it checks.",
+			"items": [
+				"Who wrote it?",
+				"When was it written?",
+				"Why was it written?",
+				"Do others agree?"
+			],
+			"matches": [
+				"check another good site",
+				"an expert, or unknown?",
+				"new, or out of date?",
+				"to inform, sell or trick?"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Each question checks one thing about the page.",
+			"explain": "Who: an expert? When: out of date? Why: inform, sell or trick? Others: do good sites agree?"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A headline shouts: Scientists find a cat that can fly to the Moon! What should you think?",
+			"answer": 0,
+			"hint": "Is it too amazing? Do trusted sites say it?",
+			"choices": [
+				"it is almost certainly made up",
+				"it must be true: it's on a website",
+				"cats can fly",
+				"the Moon is very near"
+			],
+			"explain": "It is too amazing to be true, and no trusted site would say it: almost certainly made up."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two museums say an ostrich's eye is bigger than its brain. A stranger's comment says it isn't. Which do you trust more?",
+			"answer": 0,
+			"hint": "Who are the experts? How many good sources agree?",
+			"choices": [
+				"the two museums",
+				"the stranger's comment",
+				"neither, ever",
+				"whichever you read last"
+			],
+			"explain": "Two museums agree, and they have experts: trust them more. (It's true: an ostrich's eye is bigger than its brain.)"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why might someone put a made-up story online?",
+			"answer": 0,
+			"hint": "Think about the why question.",
+			"choices": [
+				"to get clicks, sell things or trick people",
+				"because it is always true",
+				"to help with homework",
+				"because computers make them"
+			],
+			"explain": "Made-up stories get clicks, sell things or trick people."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A photo online can be changed to show something that never happened.",
+			"answer": true,
+			"hint": "Can pictures be edited on a computer?",
+			"explain": "True: photos can be edited, so a photo alone doesn't prove something."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: more trustworthy, or be careful?",
+			"groups": [
+				"more trustworthy",
+				"be careful"
+			],
+			"items": [
+				"a museum's website",
+				"a science magazine for children",
+				"an encyclopedia by experts",
+				"a page with no author and no date",
+				"a headline shouting WOW",
+				"a pop-up saying you won"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Who wrote it, and why?",
+			"explain": "Museums, science magazines and expert encyclopedias are more trustworthy. Pages with no author, shouting headlines and prize pop-ups need care."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A page from 1998 says there are 9 planets. In 2006, scientists decided that Pluto is a dwarf planet. How many planets are there now?",
+			"answer": "8",
+			"hint": "Which planet was taken off the list?",
+			"explain": "Pluto became a dwarf planet in 2006: 9 − 1 = 8 planets. The 1998 page is out of date."
+		}
+	],
+	"generators": []
+}

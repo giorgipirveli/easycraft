@@ -1,0 +1,333 @@
+{
+	"id": "g5.science.shadows_seasons",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met light and shadows. How is a shadow made? Something blocks the light."
+		},
+		{
+			"text": "Earth spins once a day. The side facing the Sun has day; the side facing away has night.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 30,
+				"night": 180,
+				"hours": true
+			}
+		},
+		{
+			"text": "As Earth spins, the Sun seems to move across the sky: rising in the east and setting in the west. Shadows move and change length."
+		},
+		{
+			"text": "Shadows are long in the morning and evening, when the Sun is low, and shortest around midday, when it is highest.",
+			"picture": {
+				"kind": "shadow_photo",
+				"things": [
+					"tree",
+					"person",
+					"post"
+				],
+				"sun": "left"
+			}
+		},
+		{
+			"text": "Earth also travels round the Sun once a year. As it does, we see different stars at night in different seasons.",
+			"picture": {
+				"kind": "orbit",
+				"planets": [
+					"Earth"
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: stand a post in your world and mark the end of its shadow in the morning, at midday and in the evening. When is it shortest? Next, in grade 8: the Moon's phases, eclipses and seasons."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What causes day and night?",
+			"answer": 0,
+			"hint": "Earth turns once a day.",
+			"choices": [
+				"Earth spinning",
+				"the Sun switching off",
+				"the Moon covering the Sun"
+			],
+			"explain": "Earth spins, so each side faces the Sun, then faces away."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does the Sun rise?",
+			"answer": 0,
+			"hint": "It sets in the west.",
+			"choices": [
+				"in the east",
+				"in the west",
+				"in the north"
+			],
+			"explain": "The Sun rises in the east."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Shadows are shortest around midday.",
+			"answer": true,
+			"hint": "When is the Sun highest?",
+			"explain": "Yes: the Sun is highest around midday."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How long does Earth take to spin once?",
+			"answer": 0,
+			"hint": "Think of the Sun rising, setting and rising again. How long does that take?",
+			"choices": [
+				"one day",
+				"one week",
+				"one year"
+			],
+			"explain": "One spin takes one day."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Sun really moves across the sky while Earth stays still.",
+			"answer": false,
+			"hint": "What is really moving?",
+			"explain": "No: Earth spins, so the Sun only seems to move."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "When are shadows longest?",
+			"answer": 0,
+			"hint": "When is the Sun low?",
+			"choices": [
+				"early morning and evening",
+				"midday",
+				"they never change"
+			],
+			"explain": "When the Sun is low, shadows are long."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How long does Earth take to travel round the Sun?",
+			"answer": 0,
+			"hint": "It makes the seasons.",
+			"choices": [
+				"one year",
+				"one day",
+				"one month"
+			],
+			"explain": "One trip round the Sun takes a year."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order a tree's shadow through the day, from 8 am.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "The Sun rises in the east.",
+			"items": [
+				"short, at midday",
+				"long, pointing west",
+				"long, pointing east"
+			],
+			"explain": "Morning: long and west; midday: short; evening: long and east."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "We see different stars at night in winter and in summer.",
+			"answer": true,
+			"hint": "Earth moves round the Sun.",
+			"explain": "Yes: as Earth travels round the Sun, the night side faces different stars."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "It is day in London. Where is it night?",
+			"answer": 0,
+			"hint": "Half of Earth faces away from the Sun.",
+			"choices": [
+				"on the other side of Earth",
+				"everywhere",
+				"nowhere"
+			],
+			"explain": "The side facing away from the Sun has night."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A shadow points west. Where is the Sun?",
+			"answer": 0,
+			"hint": "Shadows point away from the light.",
+			"choices": [
+				"in the east",
+				"in the west",
+				"straight above"
+			],
+			"explain": "Shadows point away from the Sun, so it is in the east: morning."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do we see some star groups only in winter?",
+			"answer": 0,
+			"hint": "Earth travels round the Sun.",
+			"choices": [
+				"Earth's night side faces them only then.",
+				"They sleep in summer.",
+				"Clouds hide them all summer."
+			],
+			"explain": "Through the year, our night side faces different parts of space."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "At midday your shadow is at its longest.",
+			"answer": false,
+			"hint": "Where is the Sun at midday?",
+			"explain": "No: at midday the Sun is highest, so shadows are shortest."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A sundial uses a shadow to tell the time. Why does it work?",
+			"answer": 0,
+			"hint": "Shadows move as Earth spins.",
+			"choices": [
+				"The shadow moves in a pattern each day.",
+				"The shadow never moves.",
+				"It needs rain."
+			],
+			"explain": "The shadow moves the same way every day, so it shows the time."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A graph shows a pole's shadow: long at 9, short at 12, long at 3. What pattern is this?",
+			"answer": 0,
+			"hint": "Compare 12 with 9 and 3.",
+			"choices": [
+				"shortest when the Sun is highest",
+				"longest at midday",
+				"the same all day"
+			],
+			"explain": "The shadow is shortest at midday, when the Sun is highest."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each time to the pole's shadow.",
+			"items": [
+				"early morning",
+				"midday",
+				"evening"
+			],
+			"matches": [
+				"long, pointing east",
+				"long, pointing west",
+				"short"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The Sun rises in the east, is highest at midday, and sets in the west. Shadows point away from it.",
+			"explain": "Early morning: the Sun is in the east, so a long shadow points west. Midday: short. Evening: the Sun is in the west, so a long shadow points east."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort each one: caused by Earth spinning, or by Earth going round the Sun?",
+			"items": [
+				"day and night",
+				"the seasons' different stars",
+				"the Sun rising in the east",
+				"shadows moving",
+				"a whole year passing"
+			],
+			"groups": [
+				"spinning (a day)",
+				"going round (a year)"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "One spin takes a day; one trip round the Sun takes a year.",
+			"explain": "Day and night, sunrise and moving shadows come from Earth spinning. The different stars of each season and a year passing come from Earth going round the Sun."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the times: is the Sun low (long shadows) or high (short shadows)?",
+			"groups": [
+				"Sun low: long",
+				"Sun high: short"
+			],
+			"items": [
+				"8 am",
+				"midday",
+				"7 pm",
+				"1 pm",
+				"6 am"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "The Sun is highest around midday and lowest near sunrise and sunset.",
+			"explain": "Early in the morning (6 am, 8 am) and in the evening (7 pm) the Sun is low, so shadows are long. Around midday and 1 pm it is high, so shadows are short."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the Sun's path across the sky in one day.",
+			"items": [
+				"highest at midday",
+				"rising in the east",
+				"setting in the west"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Where does the Sun rise, and where does it set?",
+			"explain": "The Sun rises in the east, is highest around midday, and sets in the west. It only seems to move: Earth spins towards the east."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order a pole's shadow from the shortest to the longest.",
+			"items": [
+				"at 6 pm",
+				"at midday",
+				"at 2 pm"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The further from midday, the lower the Sun and the longer the shadow.",
+			"explain": "At midday the Sun is highest: the shortest shadow. By 2 pm it is a little lower, and by 6 pm it is low in the west: the longest shadow, pointing east."
+		}
+	]
+}

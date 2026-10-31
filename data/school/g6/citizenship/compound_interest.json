@@ -1,0 +1,231 @@
+{
+	"id": "g6.citizenship.compound_interest",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, how much simple interest does 300 gold earn in a year at 5%? (15 gold.) Today: compound interest, where interest earns interest too."
+		},
+		{
+			"text": "With simple interest, you earn interest only on the money you first saved. With compound interest, each year's interest is added to your savings, and the next year you earn interest on that too."
+		},
+		{
+			"text": "Worked example: 1,000 gold at 10% a year. Year 1: 10% of 1,000 is 100, so 1,100. Year 2: 10% of 1,100 is 110, so 1,210. Year 3: 10% of 1,210 is 121, so 1,331. Gold in each bar is the interest.",
+			"picture": {
+				"kind": "savings_growth",
+				"start": 1000,
+				"rate": 10,
+				"years": 3,
+				"values": true
+			}
+		},
+		{
+			"text": "Compare: with simple interest, 500 gold at 5% grows by 25 gold every year. With compound interest it grows a little more each year. The longer you wait, the bigger the difference.",
+			"picture": {
+				"kind": "savings_growth",
+				"start": 500,
+				"rate": 5,
+				"years": 6,
+				"simple": true,
+				"values": true
+			}
+		},
+		{
+			"text": "The rule of 72: divide 72 by the interest rate to find about how many years your money takes to double. At 6% a year: 72 ÷ 6 = 12 years. At 8%: 72 ÷ 8 = 9 years."
+		},
+		{
+			"text": "So starting early matters: savings left alone for a long time grow much more. Borrowing works the other way: if a loan is not paid back, its interest can compound too, and the debt grows."
+		},
+		{
+			"text": "Set goals. A short-term goal is soon, such as a book next month. A long-term goal is years away, such as a bike or a course when you are older. Write each goal, its cost and how much to save each week."
+		},
+		{
+			"text": "Try it in the world: open a village bank chest. Each week, add 1 gold for every 10 gold inside, and watch it grow faster week by week. Next: risk and protection."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is compound interest?",
+			"answer": 0,
+			"hint": "Compound means built up.",
+			"choices": [
+				"interest on savings and on past interest",
+				"interest on the first savings only",
+				"a bank's building",
+				"a kind of loan"
+			],
+			"explain": "Interest earned on your savings and on the interest already added."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Tilly saves 200 gold at 10% a year. How much interest is added after the first year?",
+			"answer": "20",
+			"hint": "10% means 10 gold for every 100 gold.",
+			"explain": "200 gold is 2 hundreds: 2 × 10 = 20 gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "With compound interest, your interest also earns interest.",
+			"answer": true,
+			"hint": "Look at the growing gold parts of the bars.",
+			"explain": "True: each year's interest is added and earns interest too."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which grows faster over many years?",
+			"answer": 0,
+			"hint": "Which one pays interest on interest?",
+			"choices": [
+				"compound interest",
+				"simple interest"
+			],
+			"explain": "Compound interest, because the interest also earns interest."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a long-term goal?",
+			"answer": 0,
+			"hint": "Long-term means a long time away.",
+			"choices": [
+				"something to save for over years",
+				"something for tomorrow",
+				"a goal in football",
+				"a kind of bank"
+			],
+			"explain": "A goal years away, such as a bike."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bram saves 100 gold at 10% compound interest. How much is in the account after 2 years?",
+			"answer": "121",
+			"hint": "Find each year's interest on everything in the account, then add it.",
+			"explain": "Year 1: 100 + 10 = 110. Year 2: 110 + 11 = 121 gold."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Using the rule of 72, about how many years does money take to double at 9% a year?",
+			"answer": "8",
+			"hint": "Divide 72 by the rate.",
+			"explain": "72 ÷ 9 = 8 years."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Look at the gold part of the bars. Why does it grow faster each year?",
+			"answer": 0,
+			"hint": "Compare the interest in year 1 and year 3.",
+			"choices": [
+				"each year's interest is added and earns interest",
+				"the bank adds a gift",
+				"the rate goes up",
+				"it is a mistake"
+			],
+			"explain": "Each year's interest is added to the savings, so the next year's interest is bigger.",
+			"picture": {
+				"kind": "savings_growth",
+				"start": 1000,
+				"rate": 10,
+				"years": 3,
+				"values": true
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each to its meaning.",
+			"items": [
+				"simple interest",
+				"compound interest",
+				"short-term goal",
+				"long-term goal"
+			],
+			"matches": [
+				"years away",
+				"on the first savings only",
+				"on savings and past interest",
+				"soon, such as next month"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Two are kinds of interest; two are kinds of goal.",
+			"explain": "Simple: first savings only. Compound: savings and past interest. Short-term: soon. Long-term: years away."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If a loan is not paid back, its interest can compound and the debt grows.",
+			"answer": true,
+			"hint": "Compounding works for debts as well as savings.",
+			"explain": "True: unpaid interest is added to the debt and earns interest too."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi saves 1,000 gold at 10% compound interest. How much is in the account after 3 years?",
+			"answer": "1331",
+			"hint": "Work one year at a time: 10% of everything in the account, then add it.",
+			"explain": "1,000, then 1,100, then 1,210, then 1,331 gold."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "400 gold is saved at 5% compound interest. How much is in the account after 2 years?",
+			"answer": "441",
+			"hint": "Year 1: 5% of 400. Year 2: 5% of the new total.",
+			"explain": "Year 1: 400 + 20 = 420. Year 2: 5% of 420 is 21, so 441 gold."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara starts saving at 10, Bram at 20. They save the same each year at the same interest. Who has more at 60?",
+			"answer": 0,
+			"hint": "Who has the longest time for interest to compound?",
+			"choices": [
+				"Zara",
+				"Bram",
+				"the same"
+			],
+			"explain": "Zara: her savings have 10 more years to grow, and compounding grows fastest over long times."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How much more does 500 gold earn in 2 years at 10% compound interest than at 10% simple interest?",
+			"answer": "5",
+			"hint": "Work out both totals, then find the difference.",
+			"explain": "Simple: 500 + 50 + 50 = 600. Compound: 550, then 605. 605 − 600 = 5 gold."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly wants a book that costs 60 gold in 6 weeks. How much must she save each week?",
+			"answer": "10",
+			"hint": "Share the cost equally between the weeks.",
+			"explain": "60 ÷ 6 = 10 gold a week."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.compound_growth",
+			"level": 1
+		},
+		{
+			"gen": "g6h.compound_growth",
+			"level": 2
+		},
+		{
+			"gen": "g6h.compound_growth",
+			"level": 3
+		}
+	]
+}

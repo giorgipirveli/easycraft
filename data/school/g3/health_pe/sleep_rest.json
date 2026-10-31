@@ -1,0 +1,251 @@
+{
+	"id": "g3.health_pe.sleep_rest",
+	"lesson": [
+		{
+			"text": "Quick memory: how long should children be active each day? (At least 60 minutes.) Being active in the day also helps you sleep well at night."
+		},
+		{
+			"text": "Children your age need about 9 to 12 hours of sleep every night. Sleep is not wasted time: your body grows and mends itself while you sleep."
+		},
+		{
+			"text": "Sleep helps your brain too. It sorts out what you learned today and stores it as memories. After a good sleep, it is easier to think, learn and feel calm."
+		},
+		{
+			"text": "Too little sleep can make you grumpy, clumsy and slow to learn. It makes it harder to get along with other people."
+		},
+		{
+			"text": "Work out your sleep: from 8 pm to midnight is 4 hours, then from midnight to 7 am is 7 more. 4 + 7 = 11 hours of sleep.",
+			"picture": {
+				"kind": "clock",
+				"h": 8,
+				"m": 0
+			}
+		},
+		{
+			"text": "A good bedtime routine: the same bedtime every night, and screens off an hour before bed. Have a bath or a wash, brush your teeth, then read a calm story in bed.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Screens off"
+					},
+					{
+						"shape": "step",
+						"text": "Bath or wash"
+					},
+					{
+						"shape": "step",
+						"text": "Brush your teeth"
+					},
+					{
+						"shape": "end",
+						"text": "A calm story"
+					}
+				]
+			}
+		},
+		{
+			"text": "Make your bedroom a sleep place: dark, quiet and not too warm. Fizzy or sugary drinks and big meals late in the evening make it harder to fall asleep."
+		},
+		{
+			"text": "Try it in the world: build a cosy bedroom with a bed, a lamp and dark curtains of wool. Then plan your real bedtime routine with a grown-up: what will you do at each step?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "About how many hours of sleep do children your age need each night?",
+			"answer": 0,
+			"hint": "It is most of the night, but not most of the whole day.",
+			"choices": [
+				"9 to 12 hours",
+				"2 or 3 hours",
+				"20 hours",
+				"5 hours"
+			],
+			"explain": "Children of 8 or 9 need about 9 to 12 hours of sleep each night."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Your body grows and mends itself while you sleep.",
+			"answer": true,
+			"hint": "Is sleep wasted time?",
+			"explain": "True: while you sleep, your body grows and repairs itself."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What helps you fall asleep?",
+			"answer": 0,
+			"hint": "Which one is calm?",
+			"choices": [
+				"a calm routine and a dark, quiet room",
+				"a loud film in bed",
+				"a fizzy drink at bedtime",
+				"a fast game just before bed"
+			],
+			"explain": "A calm routine, and a dark, quiet room, help your body get ready for sleep."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is best to switch screens off about an hour before bed.",
+			"answer": true,
+			"hint": "Do bright screens make you sleepy?",
+			"explain": "True: bright screens keep your brain awake, so switch them off an hour before bed."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tilly goes to bed at 8 pm and wakes up at 7 am. How many hours does she sleep?",
+			"answer": "11",
+			"hint": "Count the hours to midnight, then the hours after midnight.",
+			"explain": "8 pm to midnight is 4 hours, midnight to 7 am is 7 hours: 4 + 7 = 11 hours."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bram sleeps from 9 pm to 7 am. How many hours is that?",
+			"answer": "10",
+			"hint": "Count the hours to midnight first.",
+			"explain": "9 pm to midnight is 3 hours, midnight to 7 am is 7 hours: 3 + 7 = 10 hours."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a bedtime routine in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Screens go off an hour before bed; lights go out last.",
+			"items": [
+				"have a bath or a wash",
+				"read a calm story",
+				"switch off screens",
+				"brush your teeth",
+				"lights out"
+			],
+			"explain": "Screens off, a bath or wash, brush your teeth, a calm story, then lights out."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is a sign of not getting enough sleep?",
+			"answer": 0,
+			"hint": "How do you feel when you are very tired?",
+			"choices": [
+				"finding it hard to concentrate",
+				"feeling full of energy all day",
+				"remembering everything easily",
+				"feeling calm and cheerful"
+			],
+			"explain": "Too little sleep makes it hard to concentrate, and you may feel grumpy or clumsy."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does your brain do while you sleep?",
+			"answer": 0,
+			"hint": "Why is it easier to remember things after sleep?",
+			"choices": [
+				"sorts and stores what you learned",
+				"switches off completely",
+				"forgets everything",
+				"grows new hair"
+			],
+			"explain": "Your brain sorts out the day and stores what you learned as memories."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara must wake up at 7 am and needs 10 hours of sleep. When should she be asleep?",
+			"answer": 0,
+			"hint": "Count back from 7 am: first to midnight, then the rest.",
+			"choices": [
+				"9 pm",
+				"10 pm",
+				"7 pm",
+				"midnight"
+			],
+			"explain": "7 am back to midnight is 7 hours; 3 more hours back is 9 pm. 7 + 3 = 10 hours."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi keeps waking up tired. Her tablet is on in bed until late. What should she try first?",
+			"answer": 0,
+			"hint": "What keeps the brain awake at night?",
+			"choices": [
+				"switching screens off an hour before bed",
+				"a fizzy drink before bed",
+				"a later bedtime",
+				"a brighter bedroom"
+			],
+			"explain": "Switching screens off an hour before bed helps her brain get ready for sleep."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Does it help sleep, or make it harder?",
+			"groups": [
+				"helps sleep",
+				"makes it harder"
+			],
+			"items": [
+				"a dark room",
+				"a loud television",
+				"a warm bath",
+				"a fizzy drink at night",
+				"reading a book",
+				"a bright screen in bed"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which ones are calm, dark and quiet?",
+			"explain": "Helps: a dark room, a warm bath, reading. Makes it harder: a loud television, a fizzy drink, a bright screen."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Being active during the day can help you sleep better at night.",
+			"answer": true,
+			"hint": "How do you feel after a busy day?",
+			"explain": "True: being active in the day helps you fall asleep and sleep well."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram went to bed at 7:30 pm and woke at 6:30 am. How many hours did he sleep?",
+			"answer": "11",
+			"hint": "Count the whole hours from 7:30 pm to 12:30 am, then on to 6:30 am.",
+			"explain": "7:30 pm to 12:30 am is 5 hours, then to 6:30 am is 6 more: 5 + 6 = 11 hours."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3p.sleep_hours",
+			"level": 1
+		},
+		{
+			"gen": "g3p.sleep_hours",
+			"level": 2
+		},
+		{
+			"gen": "g3p.sleep_hours",
+			"level": 3
+		}
+	]
+}

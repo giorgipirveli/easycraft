@@ -1,0 +1,24 @@
+{
+	"id": "life.around.stay_and_ask",
+	"lesson": [
+		{"text": "Quick memory: what do you say aloud to your grown-up at home? (Your address and their phone number.) Today: if you get lost."},
+		{"text": "Lost? Stop, and stay where you are. Your grown-up will come back to look for you there."},
+		{"text": "Ask a safe grown-up: someone who works there with a name badge, a mum or dad with children, or a police officer."},
+		{"text": "Never go anywhere with anyone, even if they say they'll help. A safe grown-up helps you right where you are."},
+		{"text": "A fire drill at school: leave your things, follow your teacher calmly to the meeting point and stay with your class."},
+		{"text": "Try it in the world: open the practice market and school. Next: the metro and the compass, on the Middle track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "You're lost. First you...", "answer": 0, "choices": ["stay where you are", "run to look", "walk off to find them"], "hint": "Your grown-up comes back to look.", "explain": "Stay where you are."},
+		{"type": "truefalse", "level": 1, "prompt": "A shop worker with a name badge is a safe grown-up to ask.", "answer": true, "hint": "They work there.", "explain": "True."},
+		{"type": "choice", "level": 1, "prompt": "Someone says \"come with me\". You...", "answer": 0, "choices": ["stay and say no", "go with them", "go with them for a bit"], "hint": "A safe grown-up helps you right here.", "explain": "Stay and say no."},
+		{"type": "choice", "level": 2, "prompt": "Which is a safe grown-up to ask?", "answer": 0, "choices": ["a police officer", "someone in a car", "someone who calls you over"], "hint": "Think of uniforms and name badges.", "explain": "A police officer."},
+		{"type": "sort", "level": 2, "prompt": "Safe to ask, or not?", "groups": ["safe to ask", "not"], "items": ["a mum with her children", "a shop worker with a badge", "someone calling you to their car", "a police officer"], "answer": [0, 0, 1, 0], "hint": "Never go to a car.", "explain": "Never go to someone's car."},
+		{"type": "truefalse", "level": 2, "prompt": "In a fire drill you pack your bag first.", "answer": false, "hint": "Leave everything.", "explain": "False: leave your things."},
+		{"type": "choice", "level": 2, "prompt": "In a fire drill you...", "answer": 0, "choices": ["follow your teacher calmly", "run outside alone", "stay at your desk"], "hint": "Who knows the way?", "explain": "Follow your teacher."},
+		{"type": "choice", "level": 3, "prompt": "Your pencil is still inside after the drill. You...", "answer": 0, "choices": ["stay with your class", "run back in", "ask a friend to get it"], "hint": "Never go back in.", "explain": "Stay with your class."},
+		{"type": "choice", "level": 3, "prompt": "A good landmark to remember the way is...", "answer": 0, "choices": ["a big red bridge", "a cloud", "a parked car"], "hint": "Pick something that stays.", "explain": "The bridge stays where it is."},
+		{"type": "truefalse", "level": 3, "prompt": "Putting your address into a game is a good way to remember it.", "answer": false, "hint": "You say it aloud to your grown-up.", "explain": "False: never into a game."},
+		{"type": "order", "level": 3, "prompt": "Lost at the market: put it in order.", "answer": [1, 0], "items": ["ask a safe grown-up", "stay where you are"], "hint": "First stay put.", "explain": "Stay, then ask a safe grown-up."}
+	]
+}

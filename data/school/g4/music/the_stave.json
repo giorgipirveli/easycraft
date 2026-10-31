@@ -1,0 +1,671 @@
+{
+	"id": "g4.music.the_stave",
+	"lesson": [
+		{
+			"text": "Quick memory: what does the top number of a time signature tell you? (How many beats are in each bar.) Today: reading notes on the stave."
+		},
+		{
+			"text": "Notes are written on a stave: 5 lines and the 4 spaces between them. The higher a note sits on the stave, the higher it sounds.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"A4",
+					"B4",
+					"C5"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"A4",
+					"B4",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"text": "The treble clef at the start curls round the second line from the bottom. That line is G, so the treble clef is also called the G clef.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"G4"
+				],
+				"mark": 0
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4:2"
+				]
+			}
+		},
+		{
+			"text": "The notes on the lines, from the bottom, are E, G, B, D, F: Every Good Boy Deserves Football.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"E4",
+					"G4",
+					"B4",
+					"D5",
+					"F5"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "The notes in the spaces, from the bottom, spell FACE: F, A, C, E.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"F4",
+					"A4",
+					"C5",
+					"E5"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Middle C sits on its own short line below the stave, called a ledger line. D sits just under the bottom line.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"D4"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"D4:2"
+				]
+			}
+		},
+		{
+			"text": "From middle C up to the next C: C, D, E, F, G, A, B, C, 8 notes, an octave. Note names use only the letters A to G, then start again.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"A4",
+					"B4",
+					"C5"
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"A4",
+					"B4",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a giant stave on the ground in your world: 5 rows of blocks with gaps between. Stand on a line or in a space, and ask a friend to name your note."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which note is this?",
+			"answer": 0,
+			"hint": "Is it on a line or in a space? Lines from the bottom: E, G, B, D, F. Spaces: F, A, C, E.",
+			"choices": [
+				"G",
+				"B",
+				"E",
+				"F"
+			],
+			"explain": "It is on line 2 from the bottom: G.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"G4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which note is this?",
+			"answer": 0,
+			"hint": "Is it on a line or in a space? Lines from the bottom: E, G, B, D, F. Spaces: F, A, C, E.",
+			"choices": [
+				"E",
+				"F",
+				"G",
+				"C"
+			],
+			"explain": "It is on the bottom line: E.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"E4"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many lines does a stave have?",
+			"answer": "5",
+			"hint": "Count the long lines in any stave picture.",
+			"explain": "A stave has 5 lines (and 4 spaces between them)."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The spaces of the treble stave spell FACE, from the bottom up.",
+			"answer": true,
+			"hint": "Name the spaces from the bottom.",
+			"explain": "True: F, A, C, E."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Which stave shows the tune you hear?",
+			"answer": 0,
+			"hint": "Does each note go up or down? By a step or a jump?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "stave",
+						"notes": [
+							"C4",
+							"D4",
+							"E4",
+							"F4"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "stave",
+						"notes": [
+							"F4",
+							"E4",
+							"D4",
+							"C4"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "stave",
+						"notes": [
+							"C4",
+							"E4",
+							"G4",
+							"B4"
+						]
+					}
+				}
+			],
+			"explain": "The tune climbs step by step: C, D, E, F.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which note is this?",
+			"answer": 0,
+			"hint": "Look below the stave: is it on its own short line?",
+			"choices": [
+				"C",
+				"D",
+				"E",
+				"A"
+			],
+			"explain": "It sits on the short ledger line below the stave: middle C.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which note is this?",
+			"answer": 0,
+			"hint": "Is it on a line or in a space? Lines from the bottom: E, G, B, D, F. Spaces: F, A, C, E.",
+			"choices": [
+				"B",
+				"D",
+				"G",
+				"A"
+			],
+			"explain": "It is on the middle line, line 3: B.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"B4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Name each note. Which word do they spell?",
+			"answer": 0,
+			"hint": "Name the notes one at a time, left to right.",
+			"choices": [
+				"BAG",
+				"CAB",
+				"EGG",
+				"BED"
+			],
+			"explain": "B (the middle line), A (space 2), G (line 2): BAG.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"B4",
+					"A4",
+					"G4"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each one to its place on the stave.",
+			"items": [
+				"E G B D F",
+				"F A C E",
+				"middle C",
+				"the treble clef"
+			],
+			"matches": [
+				"curls round the G line",
+				"the lines",
+				"the spaces",
+				"a ledger line below"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Remember Every Good Boy Deserves Football, and FACE.",
+			"explain": "Lines: E G B D F. Spaces: F A C E. Middle C: a ledger line. The treble clef curls round G."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which stave shows the tune you hear?",
+			"answer": 0,
+			"hint": "Does each note go up or down? By a step or a jump?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "stave",
+						"notes": [
+							"G4",
+							"F4",
+							"E4",
+							"D4"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "stave",
+						"notes": [
+							"D4",
+							"E4",
+							"F4",
+							"G4"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "stave",
+						"notes": [
+							"G4",
+							"D4",
+							"G4",
+							"D4"
+						]
+					}
+				}
+			],
+			"explain": "The tune walks down step by step: G, F, E, D.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"F4",
+					"E4",
+					"D4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: middle C, then the C above it. Which stave shows them?",
+			"answer": 0,
+			"hint": "Is the second note higher or lower? How far?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "stave",
+						"notes": [
+							"C4",
+							"C5"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "stave",
+						"notes": [
+							"C4",
+							"G4"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "stave",
+						"notes": [
+							"C5",
+							"C4"
+						]
+					}
+				}
+			],
+			"explain": "Middle C sits below the stave; the C above it is in the third space: 8 notes higher.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"-",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. The tune goes C, D, E. Which note comes next?",
+			"answer": 0,
+			"hint": "Each note is one step up from the one before. Which letter comes after E?",
+			"choices": [
+				"F",
+				"G",
+				"D",
+				"C"
+			],
+			"explain": "It climbs step by step: C, D, E, F.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Name each note. Which word do they spell?",
+			"answer": 0,
+			"hint": "Name the notes one at a time, left to right.",
+			"choices": [
+				"CAGE",
+				"FACE",
+				"FEED",
+				"BEAD"
+			],
+			"explain": "C (space 3), A (space 2), G (line 2), E (the bottom line): CAGE.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C5",
+					"A4",
+					"G4",
+					"E4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Name each note. Which word do they spell?",
+			"answer": 0,
+			"hint": "Name the notes one at a time, left to right.",
+			"choices": [
+				"FACE",
+				"CAFE",
+				"FADE",
+				"BEAD"
+			],
+			"explain": "F, A, C, E: every space from the bottom. It spells FACE.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"F4",
+					"A4",
+					"C5",
+					"E5"
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these notes in order, lowest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Lower on the stave is lower in sound.",
+			"items": [
+				"F (the top line)",
+				"A (the second space)",
+				"E (the bottom line)",
+				"middle C (below the stave)"
+			],
+			"explain": "Middle C is below the stave, then E on the bottom line, A in the second space, and F on the top line."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen: a tune climbs from middle C, step by step. Which is its third note?",
+			"answer": 0,
+			"hint": "Count up the letters from C: first, second, third.",
+			"choices": [
+				"E",
+				"D",
+				"F",
+				"G"
+			],
+			"explain": "C, D, E: the third note is E.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which stave shows the tune you hear?",
+			"answer": 0,
+			"hint": "Does the tune go up or down?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "stave",
+						"notes": [
+							"G4",
+							"A4",
+							"B4",
+							"C5"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "stave",
+						"notes": [
+							"C5",
+							"B4",
+							"A4",
+							"G4"
+						]
+					}
+				},
+				{
+					"picture": {
+						"kind": "stave",
+						"notes": [
+							"G4",
+							"F4",
+							"E4",
+							"D4"
+						]
+					}
+				}
+			],
+			"explain": "It climbs from G, step by step: G, A, B, C.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"B4",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A note on a line sounds higher than a note in the space just above it.",
+			"answer": false,
+			"hint": "Higher on the stave means higher in sound.",
+			"explain": "False: the space above is higher on the stave, so it sounds higher."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "From middle C up to the next C, how many notes are there, counting both Cs?",
+			"answer": "8",
+			"hint": "Say the letter names from middle C up to the next C, and count them.",
+			"explain": "C, D, E, F, G, A, B, C: 8 notes, an octave."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the notes on the stave's lines in order, from the bottom line up.",
+			"items": [
+				"B",
+				"F",
+				"E",
+				"D",
+				"G"
+			],
+			"answer": [
+				2,
+				4,
+				0,
+				3,
+				1
+			],
+			"hint": "Every Good Boy Deserves Football.",
+			"explain": "From the bottom line up: E, G, B, D, F. Every Good Boy Deserves Football."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A tune starts on middle C and climbs step by step for 5 notes. How many of the 5 notes sit on the stave's 5 lines?",
+			"answer": "2",
+			"hint": "Name the 5 notes, then check each one: a stave line, a space, or below the stave?",
+			"explain": "C, D, E, F, G. Middle C is on a ledger line and D sits just below the stave. E and G are on lines and F is in a space: 2 notes on the stave's lines."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each place on the treble stave, from the bottom, to its note.",
+			"items": [
+				"the bottom line",
+				"the first space",
+				"the second line",
+				"the second space"
+			],
+			"matches": [
+				"A",
+				"G",
+				"F",
+				"E"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Lines E G B D F and spaces F A C E, both from the bottom: they take turns going up.",
+			"explain": "Going up the stave, lines and spaces take turns: E (the bottom line), F (the first space), G (the second line), A (the second space). The letters climb in order."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.name_the_note",
+			"level": 1
+		},
+		{
+			"gen": "g4a.name_the_note",
+			"level": 2
+		},
+		{
+			"gen": "g4a.name_the_note",
+			"level": 3
+		}
+	]
+}

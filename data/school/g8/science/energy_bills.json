@@ -1,0 +1,333 @@
+{
+	"id": "g8.science.energy_bills",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you drew Sankey diagrams. A lamp turns 100 J of electricity into 20 J of light. What happens to the other 80 J? (It is wasted, mostly as heat.) Today: power, and paying for energy."
+		},
+		{
+			"text": "Power is how fast energy is transferred. 1 watt (W) is 1 joule (J) each second; 1 kilowatt (kW) is 1,000 W. Energy = power × time, so a 60 W lamp transfers 60 J every second."
+		},
+		{
+			"text": "Every appliance has a rating plate that shows its power. Heating jobs use the most: a kettle about 3,000 W and an electric shower about 9,000 W. An LED bulb uses about 10 W.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"appliance",
+						"power"
+					],
+					[
+						"LED bulb",
+						"10 W"
+					],
+					[
+						"TV",
+						"100 W"
+					],
+					[
+						"microwave",
+						"800 W"
+					],
+					[
+						"kettle",
+						"3,000 W"
+					],
+					[
+						"electric shower",
+						"9,000 W"
+					]
+				]
+			}
+		},
+		{
+			"text": "Bills count energy in kilowatt-hours (kWh), called units. 1 kWh is the energy of 1 kW used for 1 hour. kWh = kW × hours: a 2 kW heater on for 3 hours uses 2 × 3 = 6 kWh."
+		},
+		{
+			"text": "A home's electricity counter adds up the units used. Take one reading from the next: 12,846 − 12,790 = 56 kWh used this week.",
+			"picture": {
+				"kind": "energy_meter",
+				"readings": [
+					[
+						"Monday",
+						"12790"
+					],
+					[
+						"next Monday",
+						"12846"
+					]
+				]
+			}
+		},
+		{
+			"text": "Cost = units × the price of one unit. At 0.25 gold a unit, 56 kWh costs 56 × 0.25 = 14 gold. Most bills add a standing charge too: a fixed amount for each day, however little you use."
+		},
+		{
+			"text": "Save energy: switch off at the wall, because standby still uses power. An LED bulb uses about 8 W for the light of an old 60 W filament bulb. Boil only the water you need, take shorter showers and wash at 30 °C.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"old bulb",
+						60
+					],
+					[
+						"LED bulb",
+						8
+					]
+				],
+				"to": 60,
+				"step": 10,
+				"title": "watts for the same light"
+			}
+		},
+		{
+			"text": "Try it in the world: in Electricity Safety in the LIFE tab, find the adaptor crammed with plugs. A 3 kW kettle alone takes about 13 amps, all a socket can safely give, so too many plugs can overheat. Next: hot and cold reactions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A 60 W lamp is on for 10 seconds. How many joules of energy does it transfer?",
+			"answer": "600",
+			"hint": "A watt is a joule each second: multiply the watts by the seconds.",
+			"explain": "60 × 10 = 600 J."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these uses energy fastest?",
+			"choices": [
+				"an electric shower",
+				"a TV",
+				"an LED bulb",
+				"a laptop"
+			],
+			"answer": 0,
+			"hint": "Heating water takes a lot of power: look for the heating job.",
+			"explain": "An electric shower uses about 9,000 W; a TV about 100 W, a laptop about 50 W and an LED bulb about 10 W."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A 2 kW heater is on for 4 hours. How many kWh does it use?",
+			"answer": "8",
+			"hint": "kWh = kW × hours.",
+			"explain": "2 × 4 = 8 kWh, or 8 units on the bill."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A 1,000 W heater on for 1 hour uses 1 kWh.",
+			"answer": true,
+			"hint": "How many kilowatts is 1,000 W?",
+			"explain": "True: 1,000 W = 1 kW, and 1 kW for 1 hour is 1 kWh."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"watt",
+				"joule",
+				"kilowatt-hour",
+				"standing charge"
+			],
+			"matches": [
+				"a unit of energy",
+				"a joule each second",
+				"a fixed cost each day",
+				"1 kW for 1 hour"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Two are about energy, one is about power, and one is about the bill.",
+			"explain": "A watt is a joule each second; a joule is a unit of energy; a kilowatt-hour is 1 kW used for 1 hour; a standing charge is a fixed cost for each day."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 1,500 W hair dryer is used for 2 hours in a week. How many kWh is that?",
+			"answer": "3",
+			"hint": "Change the watts to kilowatts first.",
+			"explain": "1,500 W = 1.5 kW; 1.5 × 2 = 3 kWh."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 3 kW kettle boils for 10 minutes in a day. How many kWh does it use?",
+			"answer": "0.5",
+			"hint": "Change the minutes to hours: 60 minutes make 1 hour.",
+			"explain": "10 minutes is a sixth of an hour; 3 kW for a sixth of an hour is 3 ÷ 6 = 0.5 kWh."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Here are an electricity counter's readings a month apart. How many kWh were used in the month?",
+			"picture": {
+				"kind": "energy_meter",
+				"readings": [
+					[
+						"1 March",
+						"35618"
+					],
+					[
+						"1 April",
+						"35990"
+					]
+				]
+			},
+			"answer": "372",
+			"hint": "Take the first reading away from the second.",
+			"explain": "35,990 − 35,618 = 372 kWh."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A home used 120 kWh, and a unit costs 0.3 gold. What do they cost, in gold?",
+			"answer": "36",
+			"hint": "Multiply the units by the price of one unit.",
+			"explain": "120 × 0.3 = 36 gold."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these habits: do they save energy, or waste it?",
+			"groups": [
+				"saves energy",
+				"wastes energy"
+			],
+			"items": [
+				"leaving the TV on standby",
+				"a long hot shower every day",
+				"washing clothes at 30 °C",
+				"switching off at the wall",
+				"boiling a full kettle for one cup",
+				"using LED bulbs"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Does each one cut the power or the time, or add to them?",
+			"explain": "Switching off at the wall, LED bulbs and washing at 30 °C save energy. Standby, boiling too much water and long hot showers waste it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why switch a TV off at the wall rather than leave it on standby?",
+			"choices": [
+				"standby still uses power all day",
+				"standby uses no power at all",
+				"it makes the TV brighter",
+				"the counter stops at night"
+			],
+			"answer": 0,
+			"hint": "Is a standby light on? Then something is still using power.",
+			"explain": "On standby it still uses a few watts, every hour of the day: over a year that adds up to many kWh."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order these by the energy they use in a day, least first.",
+			"items": [
+				"shower: 9,000 W for 10 minutes",
+				"TV: 100 W for 4 hours",
+				"kettle: 3,000 W for 10 minutes",
+				"LED bulb: 10 W for 5 hours"
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "Work out the kWh for each: kW × hours. A big power for a short time can use less.",
+			"explain": "LED 0.01 × 5 = 0.05 kWh; TV 0.1 × 4 = 0.4 kWh; kettle 3 kW for a sixth of an hour = 0.5 kWh; shower 9 kW for a sixth of an hour = 1.5 kWh."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 2,000 W heater runs for 3 hours a day for 30 days. A unit costs 0.25 gold. What does that cost, in gold?",
+			"answer": "45",
+			"hint": "Find the kWh for one day, then for the month, then multiply by the price.",
+			"explain": "2 kW × 3 h = 6 kWh a day; 6 × 30 = 180 kWh; 180 × 0.25 = 45 gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A high-power appliance always uses more energy than a low-power one.",
+			"answer": false,
+			"hint": "Energy depends on the power and on something else.",
+			"explain": "False: energy = power × time. A 3,000 W kettle on for 5 minutes uses 0.25 kWh, less than a 100 W TV on for 4 hours, which uses 0.4 kWh."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "You swap a 60 W bulb for an 8 W LED and use it 5 hours a day for 100 days. How many kWh do you save?",
+			"answer": "26",
+			"hint": "Find the watts saved, multiply by all the hours, then change watt-hours to kWh.",
+			"explain": "60 − 8 = 52 W saved; 5 × 100 = 500 hours; 52 × 500 = 26,000 Wh, which is 26 kWh."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A home heats its water with electricity. Which change would save the most energy?",
+			"choices": [
+				"shorter showers",
+				"unplugging a phone charger",
+				"a laptop instead of a TV",
+				"turning off a radio"
+			],
+			"answer": 0,
+			"hint": "Look for the job that uses the most power for the longest time.",
+			"explain": "An electric shower uses about 9,000 W, far more than the others, so cutting its time saves the most energy."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8k.energy_joules",
+			"level": 1
+		},
+		{
+			"gen": "g8k.energy_joules",
+			"level": 2
+		},
+		{
+			"gen": "g8k.energy_joules",
+			"level": 3
+		},
+		{
+			"gen": "g8k.energy_kwh",
+			"level": 1
+		},
+		{
+			"gen": "g8k.energy_kwh",
+			"level": 2
+		},
+		{
+			"gen": "g8k.energy_kwh",
+			"level": 3
+		},
+		{
+			"gen": "g8k.energy_cost",
+			"level": 1
+		},
+		{
+			"gen": "g8k.energy_cost",
+			"level": 2
+		},
+		{
+			"gen": "g8k.energy_cost",
+			"level": 3
+		}
+	]
+}

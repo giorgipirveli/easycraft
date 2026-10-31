@@ -1,0 +1,336 @@
+{
+	"id": "g3.maths.times_tables",
+	"lesson": [
+		{
+			"text": "Quick memory: 4 × 5 = 20 is 4 rows of 5. Turn the array round: 5 × 4 = 20 too. Every fact you know is two facts!",
+			"picture": {
+				"kind": "array",
+				"rows": 4,
+				"cols": 5
+			}
+		},
+		{
+			"text": "The times grid holds every fact up to 12 × 12. Find 7 × 8: go along row 7 to column 8. It is 56. There are 144 squares, but many are friends you already know.",
+			"picture": {
+				"kind": "times_grid",
+				"rows": 12,
+				"cols": 12,
+				"r0": 1,
+				"c0": 1,
+				"op": "×",
+				"shade_row": 7,
+				"shade_col": 8
+			}
+		},
+		{
+			"text": "Patterns help. The 2s, 4s, 6s, 8s and 10s are all even. The 5s end in 5 or 0. In the 9s, the digits add up to 9: 18, 27, 36.",
+			"picture": {
+				"kind": "times_grid",
+				"rows": 1,
+				"cols": 10,
+				"r0": 9,
+				"c0": 1,
+				"op": "×"
+			}
+		},
+		{
+			"text": "Tricks for tricky tables: × 4 is double, then double again. × 8 is double three times. × 9 is × 10, then take away the number once: 9 × 7 = 70 − 7 = 63."
+		},
+		{
+			"text": "The 11s and 12s: 11 × 6 = 60 + 6 = 66. For 12 × 6, split 12 into 10 and 2: 10 × 6 = 60 and 2 × 6 = 12. 60 + 12 = 72.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"10",
+					"2"
+				],
+				"rows": [
+					"6"
+				],
+				"cells": [
+					[
+						"60",
+						"12"
+					]
+				]
+			}
+		},
+		{
+			"text": "Every times fact gives division facts too: 7 × 8 = 56, so 56 ÷ 8 = 7 and 56 ÷ 7 = 8. Next: tricks that make multiplying even easier.",
+			"picture": {
+				"kind": "times_grid",
+				"rows": 3,
+				"cols": 4,
+				"r0": 6,
+				"c0": 6,
+				"op": "×",
+				"shade_row": 7
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "6 × 5 = ?",
+			"answer": "30",
+			"hint": "Times 5 is half of times 10.",
+			"explain": "6 × 10 = 60, and half of 60 is 30."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "4 × 7 = ?",
+			"answer": "28",
+			"hint": "Times 4 is double, then double again.",
+			"explain": "7 doubled is 14, doubled again is 28."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "10 × 12 = ?",
+			"answer": "120",
+			"hint": "Times 10: the digits move one place to the left.",
+			"explain": "12 tens is 120."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "24 ÷ 3 = ?",
+			"answer": "8",
+			"hint": "Which number times 3 makes 24?",
+			"explain": "3 × 8 = 24, so 24 ÷ 3 = 8."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which number is in the 5 times table?",
+			"choices": [
+				"35",
+				"52",
+				"43",
+				"28"
+			],
+			"answer": 0,
+			"hint": "Numbers in the 5 times table end in 5 or 0.",
+			"explain": "35 = 7 × 5. The others do not end in 5 or 0."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Every number in the 10 times table ends in 0.",
+			"answer": true,
+			"hint": "Count in 10s from 10, and look at the last digit each time.",
+			"explain": "Yes: 10, 20, 30, 40 … all end in 0."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "7 × 8 = ?",
+			"answer": "56",
+			"hint": "8 is 2 × 2 × 2, so double 7, then double again, then once more.",
+			"explain": "7 × 8 = 56."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "9 × 6 = ?",
+			"answer": "54",
+			"hint": "Times 9 is times 10, then take away the number once.",
+			"explain": "10 × 6 = 60 and 60 − 6 = 54."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "63 ÷ 7 = ?",
+			"answer": "9",
+			"hint": "Which number times 7 makes 63? Count up in 7s.",
+			"explain": "7 × 9 = 63, so 63 ÷ 7 = 9."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Which number is hidden in the times grid?",
+			"answer": "63",
+			"hint": "Find its row and its column, then multiply.",
+			"explain": "It is in row 7 and column 9: 7 × 9 = 63.",
+			"picture": {
+				"kind": "times_grid",
+				"rows": 3,
+				"cols": 4,
+				"r0": 6,
+				"c0": 6,
+				"op": "×",
+				"hide": [
+					[
+						7,
+						9
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "8 × 7 is an odd number.",
+			"answer": false,
+			"hint": "Is 8 even or odd? A number times an even number is always even.",
+			"explain": "8 × 7 = 56, which is even."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, smallest first.",
+			"items": [
+				"7 × 7",
+				"8 × 6",
+				"5 × 9",
+				"6 × 7"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Work out each fact first.",
+			"explain": "42, then 45, then 48, then 49."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "12 × 12 = ?",
+			"answer": "144",
+			"hint": "Split one 12 into 10 and 2: 10 × 12 and 2 × 12.",
+			"explain": "120 + 24 = 144."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "11 × 8 = ?",
+			"answer": "88",
+			"hint": "Times 11 is times 10, then add the number once more.",
+			"explain": "80 + 8 = 88."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "132 ÷ 11 = ?",
+			"answer": "12",
+			"hint": "Which number times 11 makes 132? Count on in 11s from 110.",
+			"explain": "11 × 12 = 132, so 132 ÷ 11 = 12."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "? × 12 = 108",
+			"answer": "9",
+			"hint": "Count in 12s, or try 9: 9 × 12 = 9 × 10 + 9 × 2.",
+			"explain": "9 × 12 = 90 + 18 = 108."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which number is NOT in the 4 times table?",
+			"choices": [
+				"30",
+				"28",
+				"36",
+				"44"
+			],
+			"answer": 0,
+			"hint": "Halve it, then halve again. Is it still a whole number?",
+			"explain": "28 = 7 × 4, 36 = 9 × 4 and 44 = 11 × 4, but 30 is not 4 × anything."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In the 9 times table up to 9 × 10, the digits of every answer add up to 9.",
+			"answer": true,
+			"hint": "Add the two digits of 18, then of 27, then of 36.",
+			"explain": "1 + 8, 2 + 7, 3 + 6, 4 + 5, 5 + 4, 6 + 3, 7 + 2, 8 + 1 and 9 + 0 all make 9."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What comes next?  12, 24, 36, 48, ?",
+			"answer": "60",
+			"hint": "The rule is add 12 each time.",
+			"explain": "48 + 12 = 60."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3m.times_fact",
+			"level": 1
+		},
+		{
+			"gen": "g3m.times_fact",
+			"level": 2
+		},
+		{
+			"gen": "g3m.times_fact",
+			"level": 3
+		},
+		{
+			"gen": "g3m.divide_fact",
+			"level": 1
+		},
+		{
+			"gen": "g3m.divide_fact",
+			"level": 2
+		},
+		{
+			"gen": "g3m.divide_fact",
+			"level": 3
+		},
+		{
+			"gen": "g3m.grid_hidden",
+			"level": 1
+		},
+		{
+			"gen": "g3m.grid_hidden",
+			"level": 2
+		},
+		{
+			"gen": "g3m.grid_hidden",
+			"level": 3
+		},
+		{
+			"gen": "g3m.even_odd",
+			"level": 1
+		},
+		{
+			"gen": "g3m.even_odd",
+			"level": 2
+		},
+		{
+			"gen": "g3m.even_odd",
+			"level": 3
+		},
+		{
+			"gen": "g3m.in_table",
+			"level": 1
+		},
+		{
+			"gen": "g3m.in_table",
+			"level": 2
+		},
+		{
+			"gen": "g3m.in_table",
+			"level": 3
+		},
+		{
+			"gen": "g3m.skip_count",
+			"level": 1
+		},
+		{
+			"gen": "g3m.skip_count",
+			"level": 2
+		},
+		{
+			"gen": "g3m.skip_count",
+			"level": 3
+		}
+	]
+}

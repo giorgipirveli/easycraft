@@ -1,0 +1,366 @@
+{
+	"id": "g7.health_pe.fitness_plan",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you planned training with FITT. What does the I stand for? (Intensity: how hard.) Today: plan a week of activity, and use your heart rate to check how hard you work."
+		},
+		{
+			"text": "Fitness has parts. For health: stamina (heart and lungs), strength, muscular endurance (keeping going) and flexibility. For skill: speed, agility, balance, coordination, power and reaction time. A good plan works on several."
+		},
+		{
+			"text": "Young people should be active for at least 60 minutes a day, on average across the week. On at least 3 days a week, include hard activity. Add things that make muscles and bones strong, like jumping, climbing or games."
+		},
+		{
+			"text": "Your maximum heart rate is about 220 − your age: for a 12-year-old, about 208 beats a minute. It is only an estimate, and people differ. The talk test from grade 6 is still a good check.",
+			"picture": {
+				"kind": "hr_zones",
+				"max": 208
+			}
+		},
+		{
+			"text": "Heart-rate zones are shares of that maximum. Warm-up: 50-60%. The aerobic zone, 60-80%: steady work you can keep up, which builds stamina. The anaerobic zone, 80-90%: hard bursts you can only keep up briefly."
+		},
+		{
+			"text": "Worked example: Tilly is 12, so her maximum is about 208. 60% of 208 is about 125, and 80% is about 166. On a steady run her pulse is 150, so she is in her aerobic zone.",
+			"picture": {
+				"kind": "hr_zones",
+				"max": 208,
+				"trace": [
+					[
+						"rest",
+						75
+					],
+					[
+						"warm",
+						115
+					],
+					[
+						"run",
+						150
+					],
+					[
+						"cool",
+						100
+					]
+				],
+				"point": 2
+			}
+		},
+		{
+			"text": "A week plan mixes activities and has a rest day. Warm up first and cool down after. Use progression: add a little each week, about 10%. Set a SMART goal, and keep a log of what you did and how it felt.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"day",
+						"activity",
+						"minutes"
+					],
+					[
+						"Mon",
+						"cycling",
+						"40"
+					],
+					[
+						"Tue",
+						"football",
+						"60"
+					],
+					[
+						"Wed",
+						"rest day",
+						"0"
+					],
+					[
+						"Thu",
+						"swimming",
+						"45"
+					],
+					[
+						"Fri",
+						"dance",
+						"50"
+					],
+					[
+						"Sat, Sun",
+						"walk, games",
+						"90 each"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a training circuit with a warm-up track, stations and a cool-down path. For real: plan next week with a rest day, count your pulse in each part, and log it. Next: dance styles."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part of fitness is your heart and lungs keeping you going for a long time?",
+			"choices": [
+				"stamina",
+				"flexibility",
+				"reaction time",
+				"balance"
+			],
+			"answer": 0,
+			"hint": "Think of a long run, a long swim or a long ride.",
+			"explain": "Stamina: the heart and lungs keep you going for a long time."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Estimate the maximum heart rate of a 13-year-old: 220 − age.",
+			"answer": "207",
+			"hint": "Take the age away from 220.",
+			"explain": "220 − 13 = 207 beats a minute, an estimate."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The aerobic zone is about 60% to 80% of your maximum heart rate.",
+			"answer": true,
+			"hint": "Steady work that you can keep up sits in the middle of the zones.",
+			"explain": "True: 60-80% is the aerobic zone, which builds stamina."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the parts of fitness: for health or for skill?",
+			"groups": [
+				"health",
+				"skill"
+			],
+			"items": [
+				"strength",
+				"agility",
+				"stamina",
+				"reaction time",
+				"flexibility",
+				"balance"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Health parts keep the body well; skill parts help you play a sport well.",
+			"explain": "Health: stamina, flexibility, strength. Skill: agility, reaction time, balance."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "On how many days a week should young people include hard activity and muscle and bone strengthening?",
+			"choices": [
+				"at least 3",
+				"just 1",
+				"none",
+				"only at weekends"
+			],
+			"answer": 0,
+			"hint": "Remember the advice that goes with 60 minutes a day.",
+			"explain": "At least 3 days a week, as part of 60 minutes a day on average."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A coach is 20, so her maximum heart rate is about 200. What is the top of her aerobic zone, 80% of 200?",
+			"answer": "160",
+			"hint": "Find 10% first, then 8 lots of it.",
+			"explain": "10% of 200 is 20; 8 × 20 = 160 beats a minute."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bram's pulse in a PE lesson. Which zone is the big orange point in?",
+			"choices": [
+				"anaerobic zone (80-90%)",
+				"aerobic zone (60-80%)",
+				"warm-up zone (50-60%)",
+				"maximum zone (90-100%)"
+			],
+			"answer": 0,
+			"hint": "Follow the orange point across to the coloured bands.",
+			"explain": "172 is about 83% of 207: the anaerobic zone, a hard burst.",
+			"picture": {
+				"kind": "hr_zones",
+				"max": 207,
+				"trace": [
+					[
+						"rest",
+						72
+					],
+					[
+						"warm",
+						110
+					],
+					[
+						"game",
+						172
+					],
+					[
+						"cool",
+						95
+					]
+				],
+				"point": 2
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a training session in order.",
+			"items": [
+				"gentle stretches",
+				"the main activity",
+				"pulse raiser",
+				"moving stretches",
+				"cool-down jog"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				4,
+				0
+			],
+			"hint": "Get the body ready, work, then let it settle.",
+			"explain": "A pulse raiser, moving stretches, the main activity, a cool-down jog, then gentle stretches."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Mimi's week: 45, 60, 0, 50, 70, 60 and 65 minutes. What is her average a day?",
+			"answer": "50",
+			"hint": "Add them up, then share by the 7 days.",
+			"explain": "45 + 60 + 0 + 50 + 70 + 60 + 65 = 350, and 350 ÷ 7 = 50 minutes a day: a little more each day reaches 60."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each zone to an activity.",
+			"items": [
+				"warm-up zone",
+				"aerobic zone",
+				"anaerobic zone",
+				"resting"
+			],
+			"matches": [
+				"sitting and reading",
+				"a 30-second sprint",
+				"a steady 30-minute ride",
+				"an easy jog to start"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "How hard is it, and how long can you keep it up?",
+			"explain": "Warm-up: an easy jog. Aerobic: a steady ride. Anaerobic: a short sprint. Resting: sitting and reading."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A rest day in a training week is wasted time.",
+			"answer": false,
+			"hint": "When does the body repair and get stronger?",
+			"explain": "False: rest days let muscles recover and grow stronger."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly runs 100 minutes a week and adds 10% each week. How many minutes will she run in two weeks' time?",
+			"answer": "121",
+			"hint": "Add 10% for next week, then 10% of that new amount.",
+			"explain": "100 + 10 = 110; 110 + 11 = 121 minutes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram's pulse stays near 95% of his maximum for 20 minutes in every session. What should he change?",
+			"choices": [
+				"spend most sessions in the aerobic zone",
+				"push even harder every time",
+				"skip the warm-up",
+				"never take a rest day"
+			],
+			"answer": 0,
+			"hint": "Which zone can you keep up safely, and build stamina in?",
+			"explain": "Near the maximum only lasts a short time; most training should be aerobic, with short hard bursts."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A PE teacher is 40. What is the low end of her aerobic zone, 60% of her maximum?",
+			"answer": "108",
+			"hint": "Find the maximum first (220 − age), then 60% of it.",
+			"explain": "220 − 40 = 180; 10% is 18, so 60% is 6 × 18 = 108."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which week follows the advice best?",
+			"choices": [
+				"about 60 a day, 3 hard days and a rest day",
+				"2 hours on Saturday, then nothing",
+				"sprints every day and no rest",
+				"10 minutes of walking a day"
+			],
+			"answer": 0,
+			"hint": "Check each plan against the 60 minutes, the hard days and rest.",
+			"explain": "About 60 minutes a day with 3 hard days and a rest day: enough, varied and safe."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "220 − age gives everyone's exact maximum heart rate.",
+			"answer": false,
+			"hint": "Is it a measurement or an estimate?",
+			"explain": "False: it is a rough estimate; real maximums vary from person to person."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.max_hr",
+			"level": 1
+		},
+		{
+			"gen": "g7w.max_hr",
+			"level": 2
+		},
+		{
+			"gen": "g7w.max_hr",
+			"level": 3
+		},
+		{
+			"gen": "g7w.hr_zone",
+			"level": 1
+		},
+		{
+			"gen": "g7w.hr_zone",
+			"level": 2
+		},
+		{
+			"gen": "g7w.hr_zone",
+			"level": 3
+		},
+		{
+			"gen": "g7w.week_minutes",
+			"level": 1
+		},
+		{
+			"gen": "g7w.week_minutes",
+			"level": 2
+		},
+		{
+			"gen": "g7w.week_minutes",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,346 @@
+{
+	"id": "g7.science.energy_flow",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit you met ecosystems. What is predation? One living thing eating another, like a fox eating a rabbit."
+		},
+		{
+			"text": "Energy flows through an ecosystem in one direction: from the Sun, to producers (plants), to consumers (animals). It never comes back to the Sun."
+		},
+		{
+			"text": "At each step, most of the energy is used for living (moving, keeping warm) or lost as heat. Only about a tenth passes on to the next level.",
+			"picture": {
+				"kind": "sankey",
+				"total": 1000,
+				"useful": [
+					[
+						"to foxes",
+						100
+					]
+				],
+				"wasted": [
+					[
+						"living, heat",
+						900
+					]
+				],
+				"name": "rabbits' energy",
+				"unit": "J"
+			}
+		},
+		{
+			"text": "That is why there are fewer top predators than plants. Grass holds 10,000 units, rabbits about 1,000 and foxes about 100: a pyramid, wide at the bottom and narrow at the top.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"level",
+						"energy"
+					],
+					[
+						"foxes",
+						"100"
+					],
+					[
+						"rabbits",
+						"1,000"
+					],
+					[
+						"grass",
+						"10,000"
+					]
+				]
+			}
+		},
+		{
+			"text": "Matter cycles round and round. Decomposers (worms, fungi, bacteria) break down dead things. They return carbon, nitrogen and other matter to the soil and air for plants to use again.",
+			"picture": {
+				"kind": "life_cycle",
+				"stages": [
+					"plants",
+					"animals",
+					"dead matter",
+					"decomposers",
+					"soil and air"
+				],
+				"title": "matter cycle"
+			}
+		},
+		{
+			"text": "Try it in the world: in a meadow in your world, count the grass, the rabbits and the foxes you can see. Why are there so many more plants than hunters? Next: how ecosystems change."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does the energy in an ecosystem come from?",
+			"answer": 0,
+			"hint": "Plants need it.",
+			"choices": [
+				"the Sun",
+				"the soil",
+				"the rain"
+			],
+			"explain": "It comes from the Sun."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is at the bottom of a food pyramid?",
+			"answer": 0,
+			"hint": "Which living things make food from sunlight? They are the widest level.",
+			"choices": [
+				"plants",
+				"hawks",
+				"foxes"
+			],
+			"explain": "Plants are at the bottom."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Matter is recycled in an ecosystem.",
+			"answer": true,
+			"hint": "What do worms and fungi do with dead leaves?",
+			"explain": "Yes: matter cycles round and round."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who returns matter from dead things to the soil?",
+			"answer": 0,
+			"hint": "Think of the worms and fungi on a rotting log.",
+			"choices": [
+				"decomposers",
+				"predators",
+				"producers"
+			],
+			"explain": "Decomposers, like worms, fungi and bacteria, return matter to the soil."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Energy flows in a circle, back to the Sun.",
+			"answer": false,
+			"hint": "Energy flows one way.",
+			"explain": "No: energy flows one way and is lost as heat."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "About how much energy passes from one level to the next?",
+			"answer": 0,
+			"hint": "Most is used or lost.",
+			"choices": [
+				"about a tenth",
+				"all of it",
+				"about half"
+			],
+			"explain": "About a tenth: most is used for living or lost as heat."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are there fewer hawks than mice?",
+			"answer": 0,
+			"hint": "How much energy is left by the time it reaches the top level?",
+			"choices": [
+				"Less energy reaches the top.",
+				"Hawks are shy.",
+				"Mice are faster."
+			],
+			"explain": "Only a little energy reaches the top."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where does most of the energy go at each level?",
+			"answer": 0,
+			"hint": "Animals move and keep warm.",
+			"choices": [
+				"used for living and lost as heat",
+				"into the soil",
+				"back to the Sun"
+			],
+			"explain": "It is used for living and lost as heat."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The grass in a meadow holds more energy in total than the foxes do.",
+			"answer": true,
+			"hint": "Which level of the pyramid is the widest?",
+			"explain": "Yes: the base holds the most."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What happens to the carbon in a fallen leaf?",
+			"answer": 0,
+			"hint": "Is matter lost, or used again? Who breaks the leaf down?",
+			"choices": [
+				"Decomposers return it to the soil and air.",
+				"It vanishes.",
+				"It turns to gold."
+			],
+			"explain": "Decomposers return it for plants to use again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Grass holds 10,000 units of energy. About how much reaches the rabbits that eat it?",
+			"answer": 0,
+			"hint": "About a tenth.",
+			"choices": [
+				"1,000",
+				"10,000",
+				"5,000"
+			],
+			"explain": "A tenth of 10,000 is 1,000."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Rabbits hold 1,000 units of energy. About how much reaches the foxes that eat them?",
+			"answer": 0,
+			"hint": "About a tenth.",
+			"choices": [
+				"100",
+				"1,000",
+				"500"
+			],
+			"explain": "A tenth of 1,000 is 100."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does matter cycle but energy flow?",
+			"answer": 0,
+			"hint": "What happens to each?",
+			"choices": [
+				"Matter is reused; energy is lost as heat.",
+				"Energy is reused; matter is lost.",
+				"Neither moves."
+			],
+			"explain": "Atoms are reused; energy leaves as heat."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Without decomposers, dead matter would pile up and plants would run short of nutrients.",
+			"answer": true,
+			"hint": "What do decomposers put back into the soil?",
+			"explain": "Yes: decomposers return nutrients to the soil."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the energy flow.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with the Sun.",
+			"items": [
+				"a frog",
+				"a grasshopper",
+				"grass",
+				"the Sun"
+			],
+			"explain": "Sun, grass, grasshopper, frog."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort each sentence: about energy or about matter?",
+			"items": [
+				"It flows one way, from the Sun.",
+				"It cycles round and round.",
+				"It is lost as heat at each level.",
+				"Decomposers return it to the soil.",
+				"Plants catch it from sunlight.",
+				"Plants take it in as carbon dioxide."
+			],
+			"groups": [
+				"energy",
+				"matter"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Energy flows and is lost as heat; matter (atoms like carbon) is used again and again.",
+			"explain": "Energy flows one way, is caught from sunlight and is lost as heat. Matter cycles: decomposers return it, and plants take it in again as carbon dioxide."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Grass holds 20,000 units of energy. About how many units reach the rabbits that eat it?",
+			"answer": "2000",
+			"hint": "About a tenth passes on. Divide by 10.",
+			"explain": "20,000 ÷ 10 = 2,000 units reach the rabbits; the rest is used by the grass or lost as heat."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the living things by their role.",
+			"groups": [
+				"producer",
+				"consumer",
+				"decomposer"
+			],
+			"items": [
+				"grass",
+				"rabbit",
+				"fungi",
+				"oak tree",
+				"fox",
+				"earthworm"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Does it make food from light, eat other living things, or break down dead things?",
+			"explain": "Producers make food from light: grass and oak trees. Consumers eat others: rabbits and foxes. Decomposers break down dead things: fungi and earthworms."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Grass holds 50,000 units of energy. About how many units reach the foxes that eat the rabbits that eat the grass?",
+			"answer": "500",
+			"hint": "Take a tenth for each step: grass to rabbits, then rabbits to foxes.",
+			"explain": "Grass to rabbits: 50,000 ÷ 10 = 5,000. Rabbits to foxes: 5,000 ÷ 10 = 500 units. At each step most of the energy is used for living or lost as heat."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order how the carbon in a fallen leaf ends up in a new leaf.",
+			"items": [
+				"A tree takes in carbon dioxide.",
+				"Decomposers break down the leaf.",
+				"The carbon builds a new leaf.",
+				"Carbon dioxide goes into the air."
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Matter cycles: start with the decomposers, then follow the carbon through the air.",
+			"explain": "Decomposers break down the leaf and release its carbon as carbon dioxide into the air. A tree takes in that carbon dioxide and uses the carbon to build a new leaf."
+		}
+	]
+}

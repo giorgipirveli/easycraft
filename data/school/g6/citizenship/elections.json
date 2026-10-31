@@ -1,0 +1,289 @@
+{
+	"id": "g6.citizenship.elections",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, which country first let women vote in national elections, in 1893? (New Zealand.) Today: how elections work, and why people vote."
+		},
+		{
+			"text": "In an election, voters choose who will represent them. Candidates explain their ideas; on election day voters go to a polling station, mark a ballot paper and put it in a sealed ballot box.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"candidates explain ideas",
+					"go to a polling station",
+					"mark a ballot paper",
+					"post it in the box",
+					"the votes are counted"
+				],
+				"title": "Election day"
+			}
+		},
+		{
+			"text": "The vote is secret: nobody may see or ask how you voted, so nobody can pressure or punish you for your choice. In 1856 Victoria, in Australia, was the first place to make voting secret; Britain did so in 1872."
+		},
+		{
+			"text": "In many countries everyone aged 18 or over can vote, and a few let 16-year-olds vote in some elections. In some countries, such as Australia, voting is a duty every adult must do."
+		},
+		{
+			"text": "One way to count: the country is split into areas. The candidate with the most votes in each area wins its seat, even with less than half of the votes. This is called first past the post."
+		},
+		{
+			"text": "Another way, proportional representation, shares out seats by the share of votes: a group with 30 of every 100 votes gets about 30 of every 100 seats. Each way has good points, and people argue about which is fairer.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"group A",
+						3
+					],
+					[
+						"group B",
+						5
+					],
+					[
+						"group C",
+						2
+					]
+				],
+				"whole": 10,
+				"key": true
+			}
+		},
+		{
+			"text": "Why vote? Leaders decide about schools, hospitals, roads and the planet. Turnout is the share of voters who vote. When few people vote, a small group decides for everyone."
+		},
+		{
+			"text": "Try it in the world: hold a secret vote with friends for your next server project: a ballot box chest, marked papers and a fair count with two counters. Next: police and courts."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where do people usually go to vote?",
+			"answer": 0,
+			"hint": "It is a special place set up on election day.",
+			"choices": [
+				"a polling station",
+				"a castle",
+				"a bank",
+				"a harbour"
+			],
+			"explain": "A polling station: a school or hall where voters mark their ballot papers in secret."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a secret ballot, nobody may see how you voted.",
+			"answer": true,
+			"hint": "Why is it called secret?",
+			"explain": "True: your vote is private."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a candidate?",
+			"answer": 0,
+			"hint": "Voters choose between them.",
+			"choices": [
+				"someone standing for election",
+				"a voter",
+				"a ballot box",
+				"a judge"
+			],
+			"explain": "Someone standing for election, asking for votes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In many countries, from what age can people vote?",
+			"answer": 0,
+			"hint": "It is when many people become adults in law.",
+			"choices": [
+				"18",
+				"8",
+				"12",
+				"30"
+			],
+			"explain": "At 18 in many countries; a few allow 16 in some elections."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is turnout?",
+			"answer": 0,
+			"hint": "It is about how many turn out to vote.",
+			"choices": [
+				"the share of voters who vote",
+				"the winner's name",
+				"the number of candidates",
+				"a kind of ballot"
+			],
+			"explain": "The share of people allowed to vote who actually vote."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Who wins this area's seat under first past the post?",
+			"answer": 0,
+			"hint": "The most votes wins, even if it is less than half.",
+			"choices": [
+				"the Oak Party",
+				"the River Party",
+				"the Sun Party"
+			],
+			"explain": "Oak has the most votes, 3,200, so Oak wins the seat.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Party",
+						"Votes"
+					],
+					[
+						"Oak",
+						"3,200"
+					],
+					[
+						"River",
+						"2,900"
+					],
+					[
+						"Sun",
+						"2,400"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A group wins 30 of every 100 votes. Under proportional representation, about how many of 200 seats should it get?",
+			"answer": "60",
+			"hint": "30 of every 100 is the same share as how many of 200?",
+			"explain": "200 is 2 lots of 100: 30 × 2 = 60 seats."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is the vote kept secret?",
+			"answer": 0,
+			"hint": "What might happen if a bully could see your vote?",
+			"choices": [
+				"so nobody can pressure or punish voters",
+				"to save paper",
+				"so counting is quicker",
+				"because votes are unimportant"
+			],
+			"explain": "So people can vote freely, without anyone pressuring or punishing them."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Under first past the post, a winner always has more than half of the votes.",
+			"answer": false,
+			"hint": "Look at the Oak, River and Sun votes.",
+			"explain": "False: the most votes wins, even with less than half, when there are three or more candidates."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In a town of 8,000 voters, 6,000 voted. What was the turnout, as a percentage?",
+			"answer": "75",
+			"hint": "Find how many voters make 1%, then how many lots of that voted.",
+			"explain": "1% of 8,000 is 80. 6,000 ÷ 80 = 75, so 75%."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A parliament has 650 seats. What is the fewest seats one group needs for a majority, more than half?",
+			"answer": "326",
+			"hint": "Find half, then one more.",
+			"explain": "Half of 650 is 325; one more is 326."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Oak won 40 of every 100 votes but 60 of every 100 seats. Which way of counting was most likely used?",
+			"answer": 0,
+			"hint": "Which way gives seats in the same share as votes?",
+			"choices": [
+				"first past the post",
+				"proportional representation"
+			],
+			"explain": "Proportional representation would give about 40 seats in 100; first past the post can give more seats than the vote share."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"ballot",
+				"polling station",
+				"constituency",
+				"majority"
+			],
+			"matches": [
+				"more than half",
+				"a paper to mark your choice",
+				"where people go to vote",
+				"an area that elects a member"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "One is a place, one a paper, one an area, one an amount.",
+			"explain": "Ballot: the paper. Polling station: the place. Constituency: the area. Majority: more than half."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do many people say everyone should vote?",
+			"answer": 0,
+			"hint": "Who lives with the results of an election?",
+			"choices": [
+				"leaders' choices affect everyone",
+				"voting is a game",
+				"it is always sunny",
+				"only winners matter"
+			],
+			"explain": "Leaders decide things that affect everyone, so everyone's view should count."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put an election in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You cannot count votes before people vote.",
+			"items": [
+				"the winners are announced",
+				"the ballot boxes are sealed and counted",
+				"voters mark ballot papers in secret",
+				"candidates explain their ideas"
+			],
+			"explain": "Ideas, secret voting, counting, then the results."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.seat_count",
+			"level": 1
+		},
+		{
+			"gen": "g6h.seat_count",
+			"level": 2
+		},
+		{
+			"gen": "g6h.seat_count",
+			"level": 3
+		}
+	]
+}

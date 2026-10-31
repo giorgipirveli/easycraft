@@ -1,0 +1,390 @@
+{
+	"id": "plants_food",
+	"title": "How plants make food",
+	"topic": "nature",
+	"link": {"unit": "g5.science.plants_air_water"},
+	"still": 35,
+	"stage": {
+		"sky": {"top": "#3a7be8", "horizon": "#cdeeff", "bottom": "#8fb86a"},
+		"light": "day",
+		"sun": [0.45, 0.8, 0.4],
+		"models": [
+			{
+				"id": "garden",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [
+					{"box": [-8, -6, -6, 8, -2, 0], "block": "DIRT"},
+					{"box": [-8, -1, -6, 8, -1, 0], "block": "GRASS"},
+					{"box": [-8, -6, -6, 8, -6, 0], "block": "STONE"},
+					{"box": [0, -1, -1, 0, -1, 0], "block": "LOG"},
+					{"box": [0, -2, -1, 0, -2, 0], "block": "LOG"},
+					{"box": [0, -3, -1, 0, -3, 0], "block": "LOG"},
+					{"box": [-1, -2, -1, -1, -2, 0], "block": "LOG"},
+					{"box": [-2, -3, -1, -2, -3, 0], "block": "LOG"},
+					{"box": [-3, -3, -1, -3, -3, 0], "block": "LOG"},
+					{"box": [-4, -4, -1, -4, -4, 0], "block": "LOG"},
+					{"box": [1, -2, -1, 1, -2, 0], "block": "LOG"},
+					{"box": [2, -3, -1, 2, -3, 0], "block": "LOG"},
+					{"box": [3, -3, -1, 3, -3, 0], "block": "LOG"},
+					{"box": [4, -4, -1, 4, -4, 0], "block": "LOG"},
+					{"box": [-1, -4, -1, -1, -4, 0], "block": "LOG"},
+					{"box": [1, -4, -1, 1, -4, 0], "block": "LOG"},
+					{"box": [0, 0, 0, 0, 4, 0], "block": "LOG"},
+					{"ball": [0, 7, -1, 2.6], "block": "LEAVES"},
+					{"ball": [-2, 6.4, -1, 1.7], "block": "LEAVES"},
+					{"ball": [2, 6.5, -1.3, 1.8], "block": "LEAVES"},
+					{"ball": [0, 8.6, -1.3, 1.6], "block": "LEAVES"},
+					{"box": [-6, 0, -4, -6, 0, -4], "block": "FLOWERS"},
+					{"box": [6, 0, -3, 6, 0, -3], "block": "FLOWERS"},
+					{"box": [-4, 0, -1, -4, 0, -1], "block": "FLOWERS"}
+				]
+			},
+			{"id": "sun", "model": "sun", "at": [14, 20, -22], "size": 2.4},
+			{
+				"id": "water0",
+				"model": "blocks",
+				"at": [-3.4, -3.9, 0.7],
+				"cells": [[0, 0, 0, "WATER_TANK"]],
+				"size": 0.5,
+				"moves": [
+					{"do": "pop", "at": 10.2},
+					{"do": "move", "at": 10.5, "dur": 1.4, "to": [-1.5, -2.2, 0.75], "ease": "smooth"},
+					{"do": "move", "at": 11.9, "dur": 1.4, "to": [0, -0.8, 0.8], "ease": "smooth"},
+					{"do": "move", "at": 13.3, "dur": 1.4, "to": [0, 3.4, 0.8], "ease": "smooth"},
+					{"do": "move", "at": 14.7, "dur": 1.4, "to": [-1, 6, 0.8], "ease": "smooth"},
+					{"do": "out", "at": 30}
+				]
+			},
+			{
+				"id": "water1",
+				"model": "blocks",
+				"at": [3.4, -3.9, 0.7],
+				"cells": [[0, 0, 0, "WATER_TANK"]],
+				"size": 0.5,
+				"moves": [
+					{"do": "pop", "at": 11.2},
+					{"do": "move", "at": 11.5, "dur": 1.4, "to": [1.5, -2.2, 0.75], "ease": "smooth"},
+					{"do": "move", "at": 12.9, "dur": 1.4, "to": [0, -0.8, 0.8], "ease": "smooth"},
+					{"do": "move", "at": 14.3, "dur": 1.4, "to": [0, 3.4, 0.8], "ease": "smooth"},
+					{"do": "move", "at": 15.7, "dur": 1.4, "to": [1, 6, 0.8], "ease": "smooth"},
+					{"do": "out", "at": 30}
+				]
+			},
+			{
+				"id": "water2",
+				"model": "blocks",
+				"at": [-2.2, -3.9, 0.7],
+				"cells": [[0, 0, 0, "WATER_TANK"]],
+				"size": 0.5,
+				"moves": [
+					{"do": "pop", "at": 12.2},
+					{"do": "move", "at": 12.5, "dur": 1.4, "to": [-1.5, -2.2, 0.75], "ease": "smooth"},
+					{"do": "move", "at": 13.9, "dur": 1.4, "to": [0, -0.8, 0.8], "ease": "smooth"},
+					{"do": "move", "at": 15.3, "dur": 1.4, "to": [0, 3.4, 0.8], "ease": "smooth"},
+					{"do": "move", "at": 16.7, "dur": 1.4, "to": [-1, 6, 0.8], "ease": "smooth"},
+					{"do": "out", "at": 30}
+				]
+			},
+			{
+				"id": "water3",
+				"model": "blocks",
+				"at": [2.2, -3.9, 0.7],
+				"cells": [[0, 0, 0, "WATER_TANK"]],
+				"size": 0.5,
+				"moves": [
+					{"do": "pop", "at": 13.2},
+					{"do": "move", "at": 13.5, "dur": 1.4, "to": [1.5, -2.2, 0.75], "ease": "smooth"},
+					{"do": "move", "at": 14.9, "dur": 1.4, "to": [0, -0.8, 0.8], "ease": "smooth"},
+					{"do": "move", "at": 16.3, "dur": 1.4, "to": [0, 3.4, 0.8], "ease": "smooth"},
+					{"do": "move", "at": 17.7, "dur": 1.4, "to": [1, 6, 0.8], "ease": "smooth"},
+					{"do": "out", "at": 30}
+				]
+			},
+			{
+				"id": "co2_0",
+				"model": "blocks",
+				"at": [-8.5, 8, 0.4],
+				"cells": [[0, 0, 0, "PAINTED_GREY"]],
+				"size": 0.5,
+				"moves": [
+					{"do": "pop", "at": 20.6},
+					{"do": "move", "at": 20.9, "dur": 2.6, "to": [-2.6, 7.6, 0.2], "ease": "smooth"},
+					{"do": "out", "at": 32}
+				]
+			},
+			{
+				"id": "co2_1",
+				"model": "blocks",
+				"at": [-7.5, 6, 1.2],
+				"cells": [[0, 0, 0, "PAINTED_GREY"]],
+				"size": 0.5,
+				"moves": [
+					{"do": "pop", "at": 21.7},
+					{"do": "move", "at": 22, "dur": 2.6, "to": [-2.6, 5.6, 0.6], "ease": "smooth"},
+					{"do": "out", "at": 32}
+				]
+			},
+			{
+				"id": "co2_2",
+				"model": "blocks",
+				"at": [-8, 9.6, -0.6],
+				"cells": [[0, 0, 0, "PAINTED_GREY"]],
+				"size": 0.5,
+				"moves": [
+					{"do": "pop", "at": 22.8},
+					{"do": "move", "at": 23.1, "dur": 2.6, "to": [-2.6, 9.2, -0.3], "ease": "smooth"},
+					{"do": "out", "at": 32}
+				]
+			},
+			{
+				"id": "sugar0",
+				"model": "blocks",
+				"at": [0, 5.2, 0.8],
+				"cells": [[0, 0, 0, "GOLD_LAMP"]],
+				"size": 0.45,
+				"moves": [
+					{"do": "pop", "at": 34.4},
+					{"do": "move", "at": 34.7, "dur": 2, "to": [0, 0.2, 0.8], "ease": "smooth"},
+					{"do": "move", "at": 36.7, "dur": 2, "to": [-1.5, -2.4, 0.75], "ease": "smooth"}
+				]
+			},
+			{
+				"id": "sugar1",
+				"model": "blocks",
+				"at": [0, 5.2, 0.8],
+				"cells": [[0, 0, 0, "GOLD_LAMP"]],
+				"size": 0.45,
+				"moves": [
+					{"do": "pop", "at": 35.7},
+					{"do": "move", "at": 36, "dur": 2, "to": [0, 0.2, 0.8], "ease": "smooth"},
+					{"do": "move", "at": 38, "dur": 2, "to": [1.5, -2.4, 0.75], "ease": "smooth"}
+				]
+			},
+			{
+				"id": "oxygen0",
+				"model": "blocks",
+				"at": [1.5, 7.5, 0.3],
+				"cells": [[0, 0, 0, "PAINTED_SKY"]],
+				"size": 0.45,
+				"moves": [
+					{"do": "pop", "at": 40.6},
+					{"do": "move", "at": 40.9, "dur": 2, "to": [3.1, 6.5, 0], "ease": "smooth"},
+					{"do": "move", "at": 42.9, "dur": 2, "to": [4.3, 2, -1.2], "ease": "smooth"},
+					{"do": "out", "at": 49.5}
+				]
+			},
+			{
+				"id": "oxygen1",
+				"model": "blocks",
+				"at": [2.4, 8.6, 0.3],
+				"cells": [[0, 0, 0, "PAINTED_SKY"]],
+				"size": 0.45,
+				"moves": [
+					{"do": "pop", "at": 41.4},
+					{"do": "move", "at": 41.7, "dur": 2, "to": [4, 7.6, 0], "ease": "smooth"},
+					{"do": "move", "at": 43.7, "dur": 2, "to": [4.3, 2, -1.2], "ease": "smooth"},
+					{"do": "out", "at": 49.5}
+				]
+			},
+			{
+				"id": "oxygen2",
+				"model": "blocks",
+				"at": [2, 6.2, 0.3],
+				"cells": [[0, 0, 0, "PAINTED_SKY"]],
+				"size": 0.45,
+				"moves": [
+					{"do": "pop", "at": 42.2},
+					{"do": "move", "at": 42.5, "dur": 2, "to": [3.6, 5.2, 0], "ease": "smooth"},
+					{"do": "move", "at": 44.5, "dur": 2, "to": [4.3, 2, -1.2], "ease": "smooth"},
+					{"do": "out", "at": 49.5}
+				]
+			},
+			{
+				"id": "me",
+				"model": "avatar",
+				"at": [4.5, 0, -1.4],
+				"look": "explorer",
+				"turn": [0, 60, 0],
+				"moves": [{"do": "emote", "at": 45, "emote": "stretch"}, {"do": "emote", "at": 47.6, "emote": "wave"}]
+			}
+		],
+		"effects": [
+			{
+				"kind": "sparkles",
+				"at": [0, 8.4, 0],
+				"from": 29.6,
+				"to": 40,
+				"size": 1,
+				"area": [6, 3],
+				"amount": 80,
+				"color": "#fff4a0"
+			}
+		],
+		"camera": [
+			{"at": 0, "pos": [6, 4, 28], "look": [0, 0.4, -1], "fov": 50},
+			{"at": 8.95, "pos": [4.5, 2.5, 22], "look": [0, -0.2, -1], "fov": 50},
+			{"at": 9, "pos": [1.5, -1.2, 14.5], "look": [0, -3, -0.5], "fov": 50, "cut": true},
+			{"at": 15, "pos": [1.5, 2.2, 15.5], "look": [0, 1.6, -0.5], "fov": 50},
+			{"at": 18.95, "pos": [1.6, 2.4, 15.6], "look": [0, 1.7, -0.5], "fov": 50},
+			{"at": 19, "pos": [-9, 7, 14], "look": [-3, 7, -1], "fov": 50, "cut": true},
+			{"at": 28.95, "pos": [-8, 7.2, 13.5], "look": [-2.6, 7, -1], "fov": 50},
+			{"at": 29, "pos": [4, 6, 17.5], "look": [0, 5.4, -0.5], "fov": 50, "cut": true},
+			{"at": 34, "pos": [3.5, 3.5, 17.5], "look": [0, 2.2, -0.5], "fov": 50},
+			{"at": 39.95, "pos": [3, 1.5, 16.5], "look": [0, 0.2, -0.5], "fov": 50},
+			{"at": 40, "pos": [9.5, 5.5, 13.5], "look": [2.8, 3.6, -1], "fov": 50, "cut": true},
+			{"at": 50, "pos": [10.5, 4.5, 11.5], "look": [3.4, 2.8, -1], "fov": 50, "path": "orbit"}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 9,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Plants don't eat food like we do. They make their own!",
+			"say": "Plants don't eat food the way we do. A plant makes its own food, using sunlight. Let's look inside!",
+			"sounds": [{"at": 1, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "HOW PLANTS MAKE FOOD",
+					"at": [180, 84],
+					"size": 24,
+					"color": "white",
+					"box": "leaf",
+					"moves": [{"do": "pop", "at": 1}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Roots drink water from the soil. Tiny tubes carry it up to the leaves.",
+			"say": "Roots drink water from the soil. Tiny tubes inside the stem carry it all the way up to the leaves.",
+			"sounds": [{"at": 0.8, "effect": "bubbles"}, {"at": 5, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "ROOTS",
+					"at": [80, 160],
+					"size": 28,
+					"color": "white",
+					"box": "brown",
+					"moves": [{"do": "pop", "at": 1}, {"do": "out", "at": 4.6}]
+				},
+				{
+					"kind": "arrow",
+					"from": [70, 182],
+					"to": [80, 295],
+					"color": "white",
+					"width": 6,
+					"moves": [{"do": "draw", "at": 1.3}, {"do": "out", "at": 4.6}],
+					"bend": 0.25
+				},
+				{
+					"kind": "words",
+					"text": "WATER GOES UP",
+					"at": [232.4, 110],
+					"size": 24,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 6}]
+				},
+				{
+					"kind": "arrow",
+					"from": [236, 130],
+					"to": [213, 349],
+					"color": "white",
+					"width": 6,
+					"moves": [{"do": "draw", "at": 6.3}],
+					"bend": -0.2
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Leaves take in carbon dioxide from the air, through tiny holes.",
+			"say": "The leaves take in a gas from the air, called carbon dioxide, through tiny holes underneath them.",
+			"sounds": [{"at": 1.2, "effect": "pop"}, {"at": 4, "effect": "whoosh"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "CARBON DIOXIDE",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "grey",
+					"moves": [{"do": "pop", "at": 1.2}]
+				},
+				{
+					"kind": "words",
+					"text": "in through tiny holes",
+					"at": [180, 136],
+					"size": 20,
+					"color": "ink",
+					"box": "white",
+					"moves": [{"do": "pop", "at": 4}]
+				}
+			]
+		},
+		{
+			"seconds": 11,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Green chlorophyll catches sunlight and makes sugar: the plant's food!",
+			"say": "Green chlorophyll in the leaves catches the sunlight. Its energy turns the water and carbon dioxide into sugar: food for the plant.",
+			"sounds": [{"at": 0.8, "effect": "sparkle"}, {"at": 5.6, "effect": "ding"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "SUNLIGHT",
+					"at": [250, 84],
+					"size": 28,
+					"color": "ink",
+					"box": "gold",
+					"moves": [{"do": "pop", "at": 0.8}]
+				},
+				{
+					"kind": "words",
+					"text": "SUGAR = FOOD",
+					"at": [138.8, 140],
+					"size": 28,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 5.6}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Oxygen comes out of the leaves for us to breathe. What will you grow?",
+			"say": "Oxygen comes out of the leaves for us to breathe. A big oak drinks over 100,000 litres of water a year! What will you grow?",
+			"sounds": [{"at": 0.8, "effect": "pop"}, {"at": 4.6, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "OXYGEN",
+					"at": [180, 84],
+					"size": 34,
+					"color": "ink",
+					"box": "sky",
+					"moves": [{"do": "pop", "at": 0.8}]
+				},
+				{
+					"kind": "words",
+					"text": "A BIG OAK: OVER 100,000 LITRES A YEAR",
+					"at": [180, 136],
+					"size": 16,
+					"color": "ink",
+					"box": "white",
+					"moves": [{"do": "pop", "at": 4.6}]
+				}
+			]
+		}
+	]
+}

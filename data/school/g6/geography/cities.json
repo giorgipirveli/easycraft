@@ -1,0 +1,335 @@
+{
+	"id": "g6.geography.cities",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met villages, towns and cities. Which of them is biggest, with the most people and services? (A city.) Today: how cities grow, and how their land is used."
+		},
+		{
+			"text": "Urbanisation means a growing share of people living in towns and cities. Since about 2007, more than half of the world's people have lived in urban areas, and cities keep growing.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"1950",
+						30
+					],
+					[
+						"1980",
+						39
+					],
+					[
+						"2007",
+						50
+					],
+					[
+						"2020",
+						56
+					]
+				],
+				"step": 10,
+				"top": 60,
+				"name": "People in cities (%)"
+			}
+		},
+		{
+			"text": "Cities grow as people move in from the countryside for jobs, schools and hospitals, and as families there have children. A city of over 10 million people is a megacity, such as Tokyo, Delhi, Shanghai, Dhaka or Jakarta."
+		},
+		{
+			"text": "Many cities have rings of zones, a pattern first drawn about 100 years ago. The city centre (CBD, the central business district) has shops and offices. Then the inner city of older houses and factories, the suburbs, and the rural-urban fringe.",
+			"picture": {
+				"kind": "city_zones"
+			}
+		},
+		{
+			"text": "Land use means what land is used for: housing, shops and offices, industry, transport, and open space such as parks. Land in the centre costs most, so buildings there are tall; houses with gardens are further out.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"land use",
+						"for example"
+					],
+					[
+						"housing",
+						"homes and flats"
+					],
+					[
+						"shops and offices",
+						"the city centre"
+					],
+					[
+						"industry",
+						"factories"
+					],
+					[
+						"transport",
+						"roads, railways"
+					],
+					[
+						"open space",
+						"parks"
+					]
+				]
+			}
+		},
+		{
+			"text": "Cities change. Old factories close and are rebuilt as homes, offices or parks: regeneration. New houses spread into the countryside: urban sprawl. Some cities protect a green belt of fields around them."
+		},
+		{
+			"text": "Big cities bring jobs, culture and services, but also traffic, dirty air and costly homes. Good planning helps: buses and trains, cycle lanes, parks and trees, and homes near work and schools."
+		},
+		{
+			"text": "Try it in the world: build a small city in rings: tall towers in the centre, older rows of houses, suburbs with gardens, then farms at the edge. Put a sign on each zone. Next: jobs and industry."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the CBD?",
+			"answer": 0,
+			"hint": "CBD stands for central business district.",
+			"choices": [
+				"the city centre of shops and offices",
+				"the edge of the city",
+				"a kind of bus",
+				"a park"
+			],
+			"explain": "The central business district: the city centre of shops and offices."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "More than half the world's people now live in towns and cities.",
+			"answer": true,
+			"hint": "Think of urbanisation since about 2007.",
+			"explain": "True: since about 2007, more than half of the world's people have lived in urban areas."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where are houses with gardens most often found?",
+			"answer": 0,
+			"hint": "Land away from the centre costs less.",
+			"choices": [
+				"in the suburbs",
+				"in the CBD",
+				"in the middle of a lake",
+				"on a motorway"
+			],
+			"explain": "In the suburbs, where land costs less than in the centre."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a megacity?",
+			"answer": 0,
+			"hint": "Mega means very big.",
+			"choices": [
+				"a city of over 10 million people",
+				"a very tall building",
+				"a city in space",
+				"a village with a market"
+			],
+			"explain": "A city with more than 10 million people."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which zone is shown with a question mark?",
+			"answer": 0,
+			"hint": "It is in the middle, with the tallest buildings.",
+			"choices": [
+				"the city centre (CBD)",
+				"the suburbs",
+				"the inner city",
+				"the rural-urban fringe"
+			],
+			"explain": "The centre ring is the CBD, the central business district.",
+			"picture": {
+				"kind": "city_zones",
+				"hide": "cbd"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In 1950 a city had 200,000 people. By 2020 it had 1,000,000. How many times bigger did it grow?",
+			"answer": "5",
+			"hint": "Divide the new number by the old one.",
+			"explain": "1,000,000 ÷ 200,000 = 5 times."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: where in a city are they usually found?",
+			"groups": [
+				"CBD",
+				"suburbs",
+				"rural-urban fringe"
+			],
+			"items": [
+				"tall office towers",
+				"quiet streets of family homes",
+				"golf courses and garden centres",
+				"big shops and banks",
+				"new estates on old farmland",
+				"semi-detached houses with gardens"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				2,
+				1
+			],
+			"hint": "Move out from the centre: offices, then homes, then the edge of the countryside.",
+			"explain": "CBD: office towers, big shops and banks. Suburbs: family homes with gardens. Fringe: golf courses, garden centres, new estates on farmland."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are buildings in the CBD often tall?",
+			"answer": 0,
+			"hint": "Many people and businesses want the same small space.",
+			"choices": [
+				"land there costs the most",
+				"tall buildings are cheaper",
+				"the ground is soft",
+				"it is the law everywhere"
+			],
+			"explain": "Land in the centre costs most, so builders go up, not out."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Regeneration means rebuilding old, run-down areas.",
+			"answer": true,
+			"hint": "Think of old factories turned into homes or parks.",
+			"explain": "True: regeneration gives run-down areas new homes, offices, parks and jobs."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do many people move from the countryside to cities?",
+			"answer": 0,
+			"hint": "Think of pull factors.",
+			"choices": [
+				"for jobs, schools and hospitals",
+				"for quiet",
+				"for more space",
+				"to farm"
+			],
+			"explain": "Cities pull people in with jobs, schools, hospitals and other services."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A country has 20,000,000 people, and 15,000,000 of them live in towns and cities. What percentage is that?",
+			"answer": "75",
+			"hint": "Find how many people make 1%, then how many of those live in towns.",
+			"explain": "1% is 200,000. 15,000,000 ÷ 200,000 = 75, so 75%."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is urban sprawl?",
+			"answer": 0,
+			"hint": "Sprawl means spreading out untidily.",
+			"choices": [
+				"a city spreading out into the countryside",
+				"a crowded bus",
+				"a tall tower",
+				"a park in the centre"
+			],
+			"explain": "New houses and roads spreading out over fields round a city."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do some cities keep a green belt?",
+			"answer": 0,
+			"hint": "What happens if a city can build anywhere?",
+			"choices": [
+				"to stop sprawl and keep fields near the city",
+				"to grow money",
+				"to hide the city",
+				"to make roads wider"
+			],
+			"explain": "A green belt protects the fields and woods round a city from being built on."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"urbanisation",
+				"regeneration",
+				"green belt",
+				"land use"
+			],
+			"matches": [
+				"what land is used for",
+				"more people living in cities",
+				"rebuilding run-down areas",
+				"fields kept round a city"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Which one is about fields, which about rebuilding?",
+			"explain": "Urbanisation: more people in cities. Regeneration: rebuilding. Green belt: fields kept round a city. Land use: what land is used for."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which would do most to cut traffic in a busy city centre?",
+			"answer": 0,
+			"hint": "Which gives people a way to travel without a car?",
+			"choices": [
+				"more buses, trains and cycle lanes",
+				"more car parks in the centre",
+				"fewer trains",
+				"longer traffic lights"
+			],
+			"explain": "Good buses, trains and cycle lanes let people travel without cars, so fewer cars fill the streets."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order a city's zones from the centre outwards.",
+			"items": [
+				"the suburbs",
+				"the CBD",
+				"the rural-urban fringe",
+				"the inner city"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Shops and offices are in the middle; fields are at the edge.",
+			"explain": "The CBD of shops and offices is in the centre, then the inner city of older houses and factories, then the suburbs, and the rural-urban fringe at the edge."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.city_growth",
+			"level": 1
+		},
+		{
+			"gen": "g6h.city_growth",
+			"level": 2
+		},
+		{
+			"gen": "g6h.city_growth",
+			"level": 3
+		}
+	]
+}

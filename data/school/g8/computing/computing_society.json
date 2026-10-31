@@ -1,0 +1,334 @@
+{
+	"id": "g8.computing.computing_society",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7, how long does copyright last in the UK? (70 years after the creator dies, to the end of that year.) Today: how computing changes jobs, the planet and the law."
+		},
+		{
+			"text": "Computing has changed the world fast. Ada Lovelace wrote about a program in 1843. Electronic computers came in the 1940s, the first internet link in 1969 and the web from 1989.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1840,
+				"to": 2020,
+				"step": 20,
+				"events": [
+					[
+						1843,
+						"Lovelace's program"
+					],
+					[
+						1946,
+						"electronic computer"
+					],
+					[
+						1969,
+						"first internet link"
+					],
+					[
+						1989,
+						"the web"
+					],
+					[
+						2007,
+						"touch-screen phones"
+					]
+				]
+			}
+		},
+		{
+			"text": "Jobs: computers take over some tasks, such as counting stock or sorting post. They make new jobs too, such as app designer or data scientist. Most jobs change rather than vanish: people work with machines."
+		},
+		{
+			"text": "Katherine Johnson (1918-2020) did space flights' sums by hand. In 1962, when electronic computers had worked out John Glenn's orbit, he asked her to check their numbers. People and computers check each other."
+		},
+		{
+			"text": "The planet: devices are made from mined metals, and data centres use a lot of electricity. In 2022 the world threw away 62 million tonnes of electronic waste, and under a quarter of it was recycled.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"recycled",
+						2
+					],
+					[
+						"not recycled",
+						7
+					]
+				],
+				"whole": 9
+			}
+		},
+		{
+			"text": "A device's energy in kilowatt-hours (kWh) is its power in watts × the hours it is on ÷ 1,000. A 100-watt computer on for 10 hours uses 100 × 10 ÷ 1,000 = 1 kWh.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"phone",
+						5
+					],
+					[
+						"laptop",
+						50
+					],
+					[
+						"TV",
+						100
+					],
+					[
+						"console",
+						200
+					]
+				],
+				"to": 200,
+				"step": 50,
+				"title": "about how many watts"
+			}
+		},
+		{
+			"text": "The law: data protection laws say what may be done with people's personal data and let them see what is kept about them. Getting into someone else's account or computer without permission is a crime."
+		},
+		{
+			"text": "Try it in the world: list 3 jobs in your town that computers have changed. In LIFE, Success Stories tells how Katherine Johnson checked the computer's numbers. Next: grade 8's projects."
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "A job computers changed, or a new job computers made?",
+			"groups": [
+				"changed by computers",
+				"made by computers"
+			],
+			"items": [
+				"app designer",
+				"bank clerk",
+				"data scientist",
+				"post sorter",
+				"robot engineer",
+				"shop assistant"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Did the job exist before computers?",
+			"explain": "Bank clerks, post sorters and shop assistants existed before and changed; app designers, data scientists and robot engineers are new."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Old electronics can be recycled to get their metals back.",
+			"answer": true,
+			"hint": "What are devices made from?",
+			"explain": "True: recycling gets back metals such as copper and gold, so less has to be mined."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the digital divide?",
+			"choices": [
+				"a gap between those with and without devices",
+				"a broken screen",
+				"two computers on a network",
+				"a file split in half"
+			],
+			"answer": 0,
+			"hint": "Think of who can and cannot get online.",
+			"explain": "The digital divide is the gap between people who have devices and fast internet and people who do not."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A 100-watt computer is on for 5 hours. How many watt-hours does it use?",
+			"answer": "500",
+			"hint": "Multiply the power by the hours.",
+			"explain": "100 × 5 = 500 watt-hours."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "May you log in to a friend's account without their permission?",
+			"choices": [
+				"no: it is against the law",
+				"yes, if you only look",
+				"yes, if they are your friend"
+			],
+			"answer": 0,
+			"hint": "Think of the law on getting into accounts.",
+			"explain": "Getting into anyone's account without permission is a crime, even just to look."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 200-watt games console is on for 3 hours. How many kWh does it use?",
+			"answer": "0.6",
+			"hint": "Use watts × hours ÷ 1,000.",
+			"explain": "200 × 3 = 600 watt-hours, and 600 ÷ 1,000 = 0.6 kWh."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why did John Glenn ask Katherine Johnson to check the computer?",
+			"choices": [
+				"new machines can go wrong, so people checked",
+				"the computer was switched off",
+				"she was quicker than any machine",
+				"the computer had no numbers"
+			],
+			"answer": 0,
+			"hint": "Was the new computer trusted yet?",
+			"explain": "Electronic computers were new; checking their sums by hand made the flight safer."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Data protection laws let people ask what data is kept about them.",
+			"answer": true,
+			"hint": "Who does the data belong to?",
+			"explain": "True: people can ask organisations what personal data they keep."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in time order.",
+			"items": [
+				"the web",
+				"the first electronic computers",
+				"touch-screen phones",
+				"the first internet link",
+				"Ada Lovelace's notes on a program"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Use the timeline's years.",
+			"explain": "1843, the 1940s, 1969, 1989 and the 2000s."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Does it help the planet or harm it?",
+			"groups": [
+				"helps",
+				"harms"
+			],
+			"items": [
+				"repairing a phone",
+				"a laptop in the bin",
+				"a new phone every year",
+				"recycling old cables",
+				"giving away a working tablet"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Does it mean more mining and waste, or less?",
+			"explain": "Repairing, recycling and passing devices on mean less waste; binning and replacing every year mean more."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each idea to what it is about.",
+			"items": [
+				"data protection",
+				"copyright",
+				"computer misuse",
+				"digital divide"
+			],
+			"matches": [
+				"who owns creative work",
+				"no entry without permission",
+				"unequal access to technology",
+				"what is done with personal data"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Read each name slowly.",
+			"explain": "Data protection is about personal data, copyright about ownership, computer misuse about breaking in and the divide about access."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 50-watt laptop is used 4 hours a day for 365 days. How many kWh does it use in a year?",
+			"answer": "73",
+			"hint": "Find the watt-hours for a year, then divide by 1,000.",
+			"explain": "50 × 4 = 200 watt-hours a day; 200 × 365 = 73,000; 73,000 ÷ 1,000 = 73 kWh."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "62 million tonnes of e-waste: about 22% was recycled. To the nearest whole number, how many million tonnes is that?",
+			"answer": "14",
+			"hint": "Find 22% of 62.",
+			"explain": "22% of 62 is 0.22 × 62 = 13.64, about 14 million tonnes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A company wants to use its customers' photos in adverts. What must it do first?",
+			"choices": [
+				"ask the customers' permission",
+				"just use them",
+				"make them smaller",
+				"use them only online"
+			],
+			"answer": 0,
+			"hint": "Whose personal data is a photo?",
+			"explain": "A photo of a person is personal data, so the company needs their permission."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Most jobs that computers change disappear completely.",
+			"answer": false,
+			"hint": "Think of the bank clerk.",
+			"explain": "False: most jobs change, as people work with the machines, and new jobs appear too."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A school gives every pupil homework on tablets. What should it think about for fairness?",
+			"choices": [
+				"pupils with no internet at home",
+				"the colour of the tablets",
+				"how fast they charge",
+				"the size of the box"
+			],
+			"answer": 0,
+			"hint": "Who might be left out?",
+			"explain": "Pupils without internet at home could not do the homework: the digital divide."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.device_energy",
+			"level": 1
+		},
+		{
+			"gen": "g8c.device_energy",
+			"level": 2
+		},
+		{
+			"gen": "g8c.device_energy",
+			"level": 3
+		}
+	]
+}

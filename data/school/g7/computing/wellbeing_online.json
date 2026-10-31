@@ -1,0 +1,313 @@
+{
+	"id": "g7.computing.wellbeing_online",
+	"lesson": [
+		{
+			"text": "Quick memory: what makes a strong password? (A long one, like three random words, used for one account only.) Today: looking after yourself online."
+		},
+		{
+			"text": "Many apps are designed to keep you scrolling, because the longer you stay, the more adverts they can show. Knowing the tricks puts you back in charge.",
+			"picture": {
+				"kind": "phone_feed",
+				"labels": true
+			}
+		},
+		{
+			"text": "The tricks: endless scroll (no bottom, so no natural place to stop) and autoplay (the next video starts by itself). Notifications: a red number pulling you back. Likes: small rewards that make you check again."
+		},
+		{
+			"text": "Rewards that come now and then, not every time, are the hardest to stop checking: you never know when the next one will come. That is why a feed can feel hard to put down. It is the design, not you."
+		},
+		{
+			"text": "Comparison: people post their best moments, often chosen from many and edited. Comparing your ordinary day with someone else's highlights can make anyone feel worse. Real lives have ordinary days too."
+		},
+		{
+			"text": "Healthy habits you choose: set a time limit before you start, and turn off notifications you do not need. Charge the phone outside your bedroom. Every 20 minutes, look at something about 6 metres away for 20 seconds.",
+			"picture": {
+				"kind": "privacy_panel",
+				"title": "My settings",
+				"rows": [
+					[
+						"notifications",
+						"off"
+					],
+					[
+						"autoplay",
+						"off"
+					],
+					[
+						"daily time limit",
+						"on"
+					]
+				]
+			}
+		},
+		{
+			"text": "If something online upsets you, stop and talk to a grown-up you trust. You can mute, block and report, and it is never your fault when someone else is unkind. This School has no timers, and the game has no random prize boxes, on purpose.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Something upsets you"
+					},
+					{
+						"shape": "step",
+						"text": "Stop, and step away"
+					},
+					{
+						"shape": "step",
+						"text": "Talk to a grown-up"
+					},
+					{
+						"shape": "end",
+						"text": "Mute, block or report"
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: for a week, note how long you spend on screens each day and how you feel after. Choose one habit to try. Next: copyright and sharing."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The next video starts by itself before you choose it. Which trick is this?",
+			"answer": 0,
+			"hint": "Auto means by itself.",
+			"choices": [
+				"autoplay",
+				"endless scroll",
+				"notifications",
+				"likes"
+			],
+			"explain": "Autoplay: the next video plays by itself, so there is never a moment to decide to stop.",
+			"picture": {
+				"kind": "phone_feed",
+				"mark": "autoplay"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a healthy habit?",
+			"answer": 0,
+			"hint": "Which one puts you in charge, and protects sleep?",
+			"choices": [
+				"Charge your phone outside your bedroom",
+				"Scroll until the feed runs out",
+				"Check your likes every few minutes",
+				"Keep the sound on at night"
+			],
+			"explain": "Charging it outside the bedroom keeps sleep safe from late scrolling and night-time buzzes."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "People often post only their best moments online.",
+			"answer": true,
+			"hint": "Would you post a photo of a boring moment?",
+			"explain": "True: posts are chosen, and often edited, so they are not the whole of anyone's life."
+		},
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label the tricks on this phone.",
+			"picture": {
+				"kind": "phone_feed"
+			},
+			"labels": [
+				"notification",
+				"likes",
+				"autoplay",
+				"endless scroll"
+			],
+			"spots": [
+				[
+					0.635,
+					0.392,
+					0.4338,
+					0.4112
+				],
+				[
+					0.635,
+					0.656,
+					0.3581,
+					0.7131
+				],
+				[
+					0.635,
+					0.912,
+					0.3581,
+					0.8907
+				],
+				[
+					0.635,
+					0.128,
+					0.4669,
+					0.1093
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "The red number, the heart, the next video's bar, and the post peeking in at the bottom.",
+			"explain": "The red badge is a notification; the heart and number are likes; the bar is autoplay; the next post below is endless scroll."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why do many apps want you to keep scrolling?",
+			"answer": 0,
+			"hint": "How do free apps earn money?",
+			"choices": [
+				"the longer you stay, the more adverts they show",
+				"they are broken",
+				"scrolling charges the phone",
+				"it is the law"
+			],
+			"explain": "Many free apps earn from adverts, and a longer visit means more adverts."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Short videos last 15 seconds each. How many can play in 10 minutes?",
+			"answer": "40",
+			"hint": "Turn minutes into seconds, then share them out.",
+			"explain": "10 minutes is 600 seconds; 600 ÷ 15 = 40 videos."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The 20-20-20 rule: every 20 minutes on a screen, take a 20-second break looking about 6 metres away. How many breaks is that in 2 hours?",
+			"answer": "6",
+			"hint": "How many 20-minute parts are in an hour?",
+			"explain": "An hour has 3 parts of 20 minutes, so 2 hours have 6: 6 breaks."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A friend's photo looks perfect. What is most likely true?",
+			"answer": 0,
+			"hint": "How many photos might they have taken first?",
+			"choices": [
+				"it was chosen, maybe edited, from many",
+				"their life is always perfect",
+				"yours should look the same",
+				"photos cannot be changed"
+			],
+			"explain": "Most posts are the best of many tries, and often edited: not the whole story."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort into design tricks and healthy habits.",
+			"groups": [
+				"design trick",
+				"healthy habit"
+			],
+			"items": [
+				"autoplay",
+				"a time limit you set",
+				"endless scroll",
+				"notifications off at night",
+				"a red number on the app",
+				"a break every 20 minutes"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Who is in charge: the app, or you?",
+			"explain": "Autoplay, endless scroll and red numbers are the app's tricks; limits, quiet nights and breaks are yours."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When a feed feels hard to stop, it is partly because it was designed that way.",
+			"answer": true,
+			"hint": "Think of endless scroll and autoplay.",
+			"explain": "True: it is built to be hard to put down, which is why a plan of your own helps."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Someone posts an unkind comment about you. What is the best first step?",
+			"answer": 0,
+			"hint": "What helps, and what makes it bigger?",
+			"choices": [
+				"stop and tell a grown-up you trust",
+				"post something unkind back",
+				"keep reading it",
+				"delete your account at once"
+			],
+			"explain": "Stop and tell a grown-up you trust; together you can save it, block and report it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "You spend 45 minutes a day on a feed. How many hours is that in a week?",
+			"answer": "5.25",
+			"hint": "Work out the minutes in a week, then divide by 60.",
+			"explain": "45 × 7 = 315 minutes; 315 ÷ 60 = 5.25 hours, which is 5 hours and 15 minutes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are rewards that come only now and then the hardest to stop checking?",
+			"answer": 0,
+			"hint": "Would you keep checking if you knew nothing new was there?",
+			"choices": [
+				"you never know when the next one comes",
+				"they are bigger",
+				"they come every time",
+				"they are free"
+			],
+			"explain": "Not knowing when the next like or prize comes keeps you checking, just in case."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which setting puts you in charge?",
+			"answer": 0,
+			"hint": "Which one is your own decision, made before you start?",
+			"choices": [
+				"a daily time limit you choose",
+				"autoplay on",
+				"every notification on",
+				"sound on at night"
+			],
+			"explain": "A time limit you choose yourself: you decide when to stop, not the feed."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A feed shows a new post every 5 seconds. How many posts go past in 20 minutes?",
+			"answer": "240",
+			"hint": "Seconds in 20 minutes, then divide by 5.",
+			"explain": "20 minutes is 1,200 seconds; 1,200 ÷ 5 = 240 posts."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.habit_check",
+			"level": 1
+		},
+		{
+			"gen": "g7c.habit_check",
+			"level": 2
+		},
+		{
+			"gen": "g7c.habit_check",
+			"level": 3
+		}
+	]
+}

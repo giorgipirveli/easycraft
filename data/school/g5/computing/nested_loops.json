@@ -1,0 +1,514 @@
+{
+	"id": "g5.computing.nested_loops",
+	"lesson": [
+		{
+			"text": "Quick memory: what does REPEAT 4 TIMES do? (It runs the lines inside it 4 times.) In grade 3 loops made programs shorter. Today: a loop inside another loop."
+		},
+		{
+			"text": "A loop inside a loop is called a nested loop. Each time the outer loop runs once, the inner loop runs all the way through.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"REPEAT 3 TIMES",
+					"  REPEAT 4 TIMES",
+					"    PLACE a block",
+					"  MOVE up a row"
+				]
+			}
+		},
+		{
+			"text": "Worked example: the outer loop runs 3 times and the inner loop 4 times, so PLACE a block runs 3 × 4 = 12 times: 3 rows of 4 blocks make a wall.",
+			"picture": {
+				"kind": "array",
+				"rows": 3,
+				"cols": 4
+			}
+		},
+		{
+			"text": "The indent shows which loop a line is in. MOVE up a row sits in the outer loop, so it runs only 3 times, once after each row, not 12 times.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"REPEAT 3 TIMES",
+					"  REPEAT 4 TIMES",
+					"    PLACE a block",
+					"  MOVE up a row"
+				],
+				"mark": 3
+			}
+		},
+		{
+			"text": "A pen draws with loops too. REPEAT 4 TIMES: FORWARD 1, TURN LEFT draws a square. Put it inside REPEAT 3 TIMES with a gap after each, and the pen draws a row of 3 squares.",
+			"picture": {
+				"kind": "pen",
+				"lines": [
+					"REPEAT 3 TIMES",
+					"  REPEAT 4 TIMES",
+					"    FORWARD 1",
+					"    TURN LEFT",
+					"  PEN UP",
+					"  FORWARD 2",
+					"  PEN DOWN"
+				],
+				"cols": 9,
+				"rows": 4,
+				"code": true
+			}
+		},
+		{
+			"text": "A clock works like a nested loop: the minute hand goes round 60 minutes for every one hour. The inner loop (minutes) runs all the way round each time the outer loop (hours) moves on one."
+		},
+		{
+			"text": "Nested loops make patterns everywhere: rows of tiles repeated up a wall, stitches along a row, row after row, and pixels across a screen, line after line."
+		},
+		{
+			"text": "Try it in the world: build a wall 5 blocks long and 3 blocks high. Say it as a nested loop: REPEAT 3 TIMES for the rows, REPEAT 5 TIMES for the blocks. Next: procedures, steps with a name."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many times does the marked line run?",
+			"answer": "6",
+			"hint": "The inner loop runs the line 3 times. How many times does the outer loop run the inner loop?",
+			"explain": "3 claps each time round the outer loop, and it runs 2 times: 2 × 3 = 6.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"REPEAT 2 TIMES",
+					"  REPEAT 3 TIMES",
+					"    CLAP"
+				],
+				"mark": 2
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a nested loop, the inner loop runs all the way through each time the outer loop runs once.",
+			"answer": true,
+			"hint": "Think of the wall: one row at a time.",
+			"explain": "True: the outer loop starts a row, and the inner loop places every block of that row before the outer loop goes round again."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which wall does REPEAT 2 TIMES, REPEAT 5 TIMES, PLACE a block build (the outer loop makes the rows)?",
+			"answer": 0,
+			"hint": "The outer loop makes the rows, the inner loop the blocks in each row.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "array",
+						"rows": 2,
+						"cols": 5
+					}
+				},
+				{
+					"picture": {
+						"kind": "array",
+						"rows": 2,
+						"cols": 2
+					}
+				},
+				{
+					"picture": {
+						"kind": "array",
+						"rows": 1,
+						"cols": 7
+					}
+				}
+			],
+			"explain": "2 rows of 5 blocks: 2 × 5 = 10 blocks."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a loop inside another loop called?",
+			"answer": 0,
+			"hint": "Think of boxes that fit one inside another.",
+			"choices": [
+				"a nested loop",
+				"a broken loop",
+				"a forever loop",
+				"a variable"
+			],
+			"explain": "A loop inside a loop is a nested loop, like nesting boxes."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many times does the marked line run?",
+			"answer": "4",
+			"hint": "Look at the indent: which loop is the marked line in?",
+			"explain": "WATER the row is in the outer loop only, so it runs 4 times, once after each row of 5 seeds.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"REPEAT 4 TIMES",
+					"  REPEAT 5 TIMES",
+					"    PLANT a seed",
+					"  WATER the row"
+				],
+				"mark": 3
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many times does the marked line run?",
+			"answer": "20",
+			"hint": "The inner loop plants a whole row. How many rows?",
+			"explain": "5 seeds in each row, and 4 rows: 4 × 5 = 20.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"REPEAT 4 TIMES",
+					"  REPEAT 5 TIMES",
+					"    PLANT a seed",
+					"  WATER the row"
+				],
+				"mark": 2
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which drawing does this program make? The pen starts at the green dot, facing right.",
+			"answer": 0,
+			"hint": "Work out one time round the outer loop: what does the inner loop draw? Then do it again.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "pen",
+						"lines": [
+							"REPEAT 3 TIMES",
+							"  REPEAT 4 TIMES",
+							"    FORWARD 1",
+							"    TURN LEFT",
+							"  PEN UP",
+							"  FORWARD 2",
+							"  PEN DOWN"
+						],
+						"cols": 8,
+						"rows": 5
+					}
+				},
+				{
+					"picture": {
+						"kind": "pen",
+						"lines": [
+							"REPEAT 2 TIMES",
+							"  REPEAT 4 TIMES",
+							"    FORWARD 1",
+							"    TURN LEFT",
+							"  PEN UP",
+							"  FORWARD 2",
+							"  PEN DOWN"
+						],
+						"cols": 8,
+						"rows": 5
+					}
+				},
+				{
+					"picture": {
+						"kind": "pen",
+						"lines": [
+							"REPEAT 3 TIMES",
+							"  REPEAT 4 TIMES",
+							"    FORWARD 1",
+							"    TURN LEFT",
+							"  FORWARD 1"
+						],
+						"cols": 8,
+						"rows": 5
+					}
+				},
+				{
+					"picture": {
+						"kind": "pen",
+						"lines": [
+							"REPEAT 4 TIMES",
+							"  REPEAT 4 TIMES",
+							"    FORWARD 1",
+							"    TURN LEFT",
+							"  PEN UP",
+							"  FORWARD 2",
+							"  PEN DOWN"
+						],
+						"cols": 8,
+						"rows": 5
+					}
+				}
+			],
+			"explain": "The inner loop draws a square of side 1; the pen lifts and moves 2 on; the outer loop does it 3 times: 3 squares with gaps.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"REPEAT 3 TIMES",
+					"  REPEAT 4 TIMES",
+					"    FORWARD 1",
+					"    TURN LEFT",
+					"  PEN UP",
+					"  FORWARD 2",
+					"  PEN DOWN"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each nested loop to how many times its inside line runs.",
+			"items": [
+				"REPEAT 2 in REPEAT 6",
+				"REPEAT 3 in REPEAT 3",
+				"REPEAT 4 in REPEAT 5",
+				"REPEAT 1 in REPEAT 7"
+			],
+			"matches": [
+				"7",
+				"12",
+				"9",
+				"20"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Multiply the two loops' numbers.",
+			"explain": "2 × 6 = 12, 3 × 3 = 9, 4 × 5 = 20 and 1 × 7 = 7."
+		},
+		{
+			"type": "robot",
+			"level": 2,
+			"prompt": "Code the robot up the stairs to the flag, in at most 16 commands.",
+			"board": {
+				"cols": 5,
+				"rows": 5,
+				"start": [
+					0,
+					4
+				],
+				"facing": "E",
+				"goal": [
+					4,
+					0
+				],
+				"walls": [
+					[
+						0,
+						0
+					],
+					[
+						1,
+						0
+					],
+					[
+						2,
+						0
+					],
+					[
+						3,
+						0
+					],
+					[
+						0,
+						1
+					],
+					[
+						1,
+						1
+					],
+					[
+						2,
+						1
+					],
+					[
+						0,
+						2
+					],
+					[
+						1,
+						2
+					],
+					[
+						4,
+						2
+					],
+					[
+						0,
+						3
+					],
+					[
+						3,
+						3
+					],
+					[
+						4,
+						3
+					],
+					[
+						2,
+						4
+					],
+					[
+						3,
+						4
+					],
+					[
+						4,
+						4
+					]
+				]
+			},
+			"hint": "Each step is the same: FORWARD, TURN LEFT, FORWARD, TURN RIGHT. How many steps up to the flag?",
+			"explain": "One program that works: FORWARD, TURN LEFT, FORWARD, TURN RIGHT, FORWARD, TURN LEFT, FORWARD, TURN RIGHT, FORWARD, TURN LEFT, FORWARD, TURN RIGHT, FORWARD, TURN LEFT, FORWARD.",
+			"max": 16
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many times does the marked line run?",
+			"answer": "24",
+			"hint": "Start with the innermost loop, then multiply by each loop around it.",
+			"explain": "4 stars in the inner loop, 3 times in the middle loop, 2 times in the outer loop: 2 × 3 × 4 = 24.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"REPEAT 2 TIMES",
+					"  REPEAT 3 TIMES",
+					"    REPEAT 4 TIMES",
+					"      STAMP a star"
+				],
+				"mark": 3
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi wants 8 rows of 7 stitches. Her outer loop repeats 8 times, once for each row. How many times must her inner loop repeat?",
+			"answer": "7",
+			"hint": "Which loop makes one row, and how long is a row?",
+			"explain": "The inner loop makes one row, so it repeats 7 times. The outer loop does that 8 times: 8 × 7 = 56 stitches."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Juno wanted 3 rows of 4 blocks, but her blocks climb up in a tall stack. What is the bug?",
+			"answer": 0,
+			"hint": "Look at the indents. How many times does MOVE up a row run?",
+			"choices": [
+				"MOVE up a row should be in the outer loop",
+				"The outer loop should repeat 4 times",
+				"PLACE a block should be in the outer loop",
+				"There should be only one REPEAT"
+			],
+			"explain": "MOVE up a row is inside the inner loop, so it runs after every block. Moved into the outer loop, it runs once after each row.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"REPEAT 3 TIMES",
+					"  REPEAT 4 TIMES",
+					"    PLACE a block",
+					"    MOVE up a row"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The pen draws what this program says. How long is the line it draws, in squares?",
+			"answer": "16",
+			"hint": "One square first: how many sides, how long each? Then how many squares? PEN UP moves draw nothing.",
+			"explain": "Each square has 4 sides of 2: 4 × 2 = 8. The outer loop draws 2 squares: 2 × 8 = 16. The pen is up for the gaps.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"REPEAT 2 TIMES",
+					"  REPEAT 4 TIMES",
+					"    FORWARD 2",
+					"    TURN LEFT",
+					"  PEN UP",
+					"  FORWARD 3",
+					"  PEN DOWN"
+				]
+			}
+		},
+		{
+			"type": "robot",
+			"level": 3,
+			"prompt": "Code the robot along the zigzag to the flag, in at most 14 commands.",
+			"board": {
+				"cols": 5,
+				"rows": 3,
+				"start": [
+					0,
+					2
+				],
+				"facing": "N",
+				"goal": [
+					4,
+					0
+				],
+				"walls": [
+					[
+						1,
+						1
+					],
+					[
+						1,
+						2
+					],
+					[
+						3,
+						0
+					],
+					[
+						3,
+						1
+					]
+				]
+			},
+			"hint": "Up, across, down, across, up: the same moves come again. Say one part of the zigzag, then repeat it.",
+			"explain": "One program that works: FORWARD 2, TURN RIGHT, FORWARD 2, TURN RIGHT, FORWARD 2, TURN LEFT, FORWARD 2, TURN LEFT, FORWARD 2.",
+			"max": 14
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "REPEAT 10 TIMES inside REPEAT 10 TIMES runs its inside line 20 times.",
+			"answer": false,
+			"hint": "Is it 10 + 10, or 10 lots of 10?",
+			"explain": "False: the inner loop runs 10 times for each of the outer loop's 10 times: 10 × 10 = 100."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.nested_count",
+			"level": 1
+		},
+		{
+			"gen": "g5a.nested_count",
+			"level": 2
+		},
+		{
+			"gen": "g5a.nested_count",
+			"level": 3
+		},
+		{
+			"gen": "g5a.pen_loop",
+			"level": 1
+		},
+		{
+			"gen": "g5a.pen_loop",
+			"level": 2
+		},
+		{
+			"gen": "g5a.pen_loop",
+			"level": 3
+		}
+	]
+}

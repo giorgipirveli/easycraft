@@ -1,0 +1,334 @@
+{
+	"id": "g7.geography.water_supply",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you learned how much of Earth's water is fresh. About how much? (About 3 in every 100 litres.) Today: where the water in our taps comes from, and who uses water."
+		},
+		{
+			"text": "Of Earth's fresh water, about two-thirds is frozen in ice, and most of the rest is underground. We take water from rivers and lakes, and from reservoirs behind dams. We also pump groundwater up from rocks called aquifers, through wells and boreholes."
+		},
+		{
+			"text": "Tap water's journey: rain fills a reservoir; at a treatment works the water is screened, settled, filtered through sand and cleaned with chlorine or UV light; pipes carry it to homes; used water goes to a sewage works and returns, clean, to a river.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"rain",
+					"reservoir",
+					"treatment works",
+					"pipes",
+					"homes",
+					"sewage works",
+					"river"
+				]
+			}
+		},
+		{
+			"text": "Around the world, farming uses about 70 in every 100 litres of fresh water that people take, mostly to water crops. Industry uses about a fifth, and homes about a tenth.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"farming",
+						7
+					],
+					[
+						"industry",
+						2
+					],
+					[
+						"homes",
+						1
+					]
+				],
+				"whole": 10,
+				"lines": true,
+				"key": true
+			}
+		},
+		{
+			"text": "At home, a person in the UK uses about 140 litres a day, for toilets, showers, washing and cooking. A 5-minute shower might use 40 litres, and a bath 80. Hidden water counts too: one T-shirt's cotton takes about 2,700 litres to grow.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"shower",
+						40
+					],
+					[
+						"bath",
+						80
+					],
+					[
+						"one day",
+						140
+					]
+				],
+				"step": 20,
+				"top": 140,
+				"name": "Litres of water"
+			}
+		},
+		{
+			"text": "Not everyone has enough. About 2 billion people have no safe drinking water at home. Where there is under 1,700 m³ of fresh water a year for each person, geographers call it water stress; under 1,000 m³, water scarcity."
+		},
+		{
+			"text": "More water can come from storing rain, reusing cleaned water, and desalination: taking the salt out of sea water, which needs a lot of energy. Saving water helps too: shorter showers, fixing leaks, and watering crops drop by drop."
+		},
+		{
+			"text": "Try it in the world: build a water supply for your village: a reservoir, a treatment works with a sand filter and pipes to the houses. Then a sewage works returns clean water to the river. Next: the Middle East."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an aquifer?",
+			"answer": 0,
+			"hint": "Wells and boreholes reach into it.",
+			"choices": [
+				"rock that holds water underground",
+				"a kind of pipe",
+				"a sea wall",
+				"a rain gauge"
+			],
+			"explain": "Rock that stores groundwater, like a sponge."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What uses the most fresh water around the world?",
+			"answer": 0,
+			"hint": "Think of watering fields of crops.",
+			"choices": [
+				"farming",
+				"homes",
+				"schools",
+				"swimming pools"
+			],
+			"explain": "Farming: about 70 in every 100 litres taken."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Tap water is cleaned at a treatment works before it reaches homes.",
+			"answer": true,
+			"hint": "Look at the steps of its journey.",
+			"explain": "True: it is screened, settled, filtered and disinfected first.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"rain",
+					"reservoir",
+					"treatment works",
+					"pipes",
+					"homes",
+					"sewage works",
+					"river"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "About how much water does a person in the UK use at home each day?",
+			"answer": 0,
+			"hint": "Think of toilets, showers and washing, all day.",
+			"choices": [
+				"about 140 litres",
+				"about 1 litre",
+				"about 5,000 litres",
+				"about 10 litres"
+			],
+			"explain": "About 140 litres a day."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is desalination?",
+			"answer": 0,
+			"hint": "De- means taking away; saline means salty.",
+			"choices": [
+				"taking the salt out of sea water",
+				"adding salt to water",
+				"freezing water",
+				"pumping oil"
+			],
+			"explain": "Taking the salt out of sea water to make fresh water."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put tap water's journey in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Water must be cleaned before it reaches homes, and after it is used.",
+			"items": [
+				"water is filtered and cleaned",
+				"used water goes to a sewage works",
+				"rain fills a reservoir",
+				"pipes carry it to homes",
+				"clean water returns to a river"
+			],
+			"explain": "Reservoir, treatment works, pipes to homes, sewage works, back to the river."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 5-minute shower uses 40 litres and a bath 80. How many litres are saved in a week of 7 showers instead of 7 baths?",
+			"answer": "280",
+			"hint": "Find the saving each time first.",
+			"explain": "80 − 40 = 40 litres; 40 × 7 = 280 litres."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Four people each use 140 litres a day. How many litres do they use in a day?",
+			"answer": "560",
+			"hint": "Multiply the litres by the people.",
+			"explain": "140 × 4 = 560 litres."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which step is marked '?'?",
+			"answer": 0,
+			"hint": "What happens to water between the reservoir and the pipes?",
+			"choices": [
+				"treatment works",
+				"sewage works",
+				"reservoir",
+				"river"
+			],
+			"explain": "The treatment works, where water is cleaned before it goes to homes.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"rain",
+					"reservoir",
+					"treatment works",
+					"pipes",
+					"homes",
+					"sewage works",
+					"river"
+				],
+				"hide": 2
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: surface water or groundwater?",
+			"groups": [
+				"surface water",
+				"groundwater"
+			],
+			"items": [
+				"a river",
+				"a borehole",
+				"a reservoir",
+				"a well",
+				"a lake",
+				"an aquifer"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Can you see it on the land, or is it under the ground?",
+			"explain": "Surface: river, reservoir, lake. Groundwater: borehole, well, aquifer."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A country has 30,000 million m³ of fresh water a year for 20 million people. How many m³ is that for each person?",
+			"answer": "1500",
+			"hint": "Divide the water by the people.",
+			"explain": "30,000 million ÷ 20 million = 1,500 m³ each."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A country has 1,500 m³ of fresh water a year for each person. What is it in?",
+			"answer": 0,
+			"hint": "Compare it with 1,700 and 1,000.",
+			"choices": [
+				"water stress",
+				"no water stress",
+				"water scarcity",
+				"absolute scarcity"
+			],
+			"explain": "1,500 is under 1,700 but not under 1,000: water stress."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does desalination cost so much?",
+			"answer": 0,
+			"hint": "What does it take to pull salt out of water?",
+			"choices": [
+				"it needs a lot of energy",
+				"sea water is rare",
+				"it uses gold",
+				"it only works in winter"
+			],
+			"explain": "Taking the salt out needs a great deal of energy, which costs money."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Around the world, homes use more fresh water than farming.",
+			"answer": false,
+			"hint": "Compare 70 in 100 with 10 in 100.",
+			"explain": "False: farming uses about 70 in every 100 litres taken; homes about 10."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a cotton T-shirt use about 2,700 litres of water?",
+			"answer": 0,
+			"hint": "Think about where cotton comes from.",
+			"choices": [
+				"the cotton plants needed watering to grow",
+				"T-shirts are washed each day",
+				"cotton is made of water",
+				"factories fill pools"
+			],
+			"explain": "It is hidden water: the cotton plants were watered as they grew in the fields."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.water_use",
+			"level": 1
+		},
+		{
+			"gen": "g7h.water_use",
+			"level": 2
+		},
+		{
+			"gen": "g7h.water_use",
+			"level": 3
+		},
+		{
+			"gen": "g7h.water_per_person",
+			"level": 1
+		},
+		{
+			"gen": "g7h.water_per_person",
+			"level": 2
+		},
+		{
+			"gen": "g7h.water_per_person",
+			"level": 3
+		}
+	]
+}

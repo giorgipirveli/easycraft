@@ -1,0 +1,343 @@
+{
+	"id": "g3.health_pe.dance_moves",
+	"lesson": [
+		{
+			"text": "Quick memory: why do gymnasts hold their start and finish shapes still? (To show where the sequence begins and ends.) Dances have a clear start and finish too."
+		},
+		{
+			"text": "Music has a beat: a steady pulse, like a heartbeat. Tap LISTEN and clap along. Dancers count the beats in eights: 1, 2, 3, 4, 5, 6, 7, 8.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 100
+			}
+		},
+		{
+			"text": "Tempo is how fast the beat goes. A fast beat suits quick, bouncy steps; a slow beat suits smooth, stretching moves. Listen: this beat is fast.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 160
+			}
+		},
+		{
+			"text": "We can write a rhythm with x for a clap and a dash for a rest. Listen to x-x-xx--: clap, clap, clap-clap, rest. Can you clap it back?",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-xx--x-x-xx--",
+				"tempo": 100
+			},
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"clap",
+						"x-x-xx--"
+					]
+				],
+				"count": true
+			}
+		},
+		{
+			"text": "Dancers change how they move: levels (high, middle, low), pathways (straight, curved or zigzag across the floor) and dynamics (strong or light, sharp or smooth).",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"stretch",
+					"clap",
+					"tuck"
+				],
+				"labels": [
+					"high",
+					"middle",
+					"low"
+				]
+			}
+		},
+		{
+			"text": "A motif is a short move you repeat and change: make it bigger, faster, lower, or turn it around. Joined together, motifs make a dance."
+		},
+		{
+			"text": "In unison, everyone moves at the same time. In canon, dancers do the same move one after another, like a wave. Mirroring is copying a partner as if you were their reflection."
+		},
+		{
+			"text": "Try it in the world: build a dance floor of coloured blocks with a friend. Make up an 8-count dance and step onto a new colour on every beat, in unison, then in canon!"
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Tap LISTEN. How many claps do you hear?",
+			"answer": "4",
+			"hint": "Put up one finger for each clap.",
+			"explain": "The rhythm is x-x-x-x-: four claps with a rest after each one.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Dancers usually count the beats in groups of…",
+			"answer": 0,
+			"hint": "Think of '5, 6, 7, 8!'",
+			"choices": [
+				"eight",
+				"three",
+				"one hundred",
+				"one"
+			],
+			"explain": "Dancers count in eights: 1, 2, 3, 4, 5, 6, 7, 8."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The beat of music is a steady pulse, like a heartbeat.",
+			"answer": true,
+			"hint": "Clap along to the lesson's beat.",
+			"explain": "True: a beat keeps going, steady and even, like a heartbeat."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Tap LISTEN. Is this beat fast or slow?",
+			"answer": 0,
+			"hint": "Would you walk or run to it?",
+			"choices": [
+				"slow",
+				"fast"
+			],
+			"explain": "It is slow: about one clap a second. It suits smooth, stretching moves.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 60
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Tap LISTEN. Would this beat suit quick, bouncy steps or slow, smooth moves?",
+			"answer": 0,
+			"hint": "Is the beat fast or slow?",
+			"choices": [
+				"quick, bouncy steps",
+				"slow, smooth moves"
+			],
+			"explain": "The beat is fast, so quick, bouncy steps fit it.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 170
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each dance word to its meaning.",
+			"items": [
+				"levels",
+				"pathway",
+				"unison",
+				"canon"
+			],
+			"matches": [
+				"the route you travel",
+				"all moving together",
+				"one after another",
+				"high, middle and low"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the lesson cards about how dancers move.",
+			"explain": "Levels: high, middle, low. Pathway: the route you travel. Unison: all together. Canon: one after another."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which word means dancers do the same move one after another, like a wave?",
+			"answer": 0,
+			"hint": "It is not 'all together'.",
+			"choices": [
+				"canon",
+				"unison",
+				"tempo",
+				"level"
+			],
+			"explain": "Canon: the same move, one dancer after another, like a wave."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tap LISTEN. How many claps are in this rhythm?",
+			"answer": "5",
+			"hint": "Two quick claps still count as two.",
+			"explain": "The rhythm is xx-xx-x-: 2 + 2 + 1 = 5 claps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xx-xx-x-",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Tap LISTEN. Which rhythm is it?",
+			"answer": 0,
+			"hint": "Listen for where the two quick claps come.",
+			"choices": [
+				"x-x-xx--",
+				"xx--x-x-",
+				"x---x---",
+				"xxxx----"
+			],
+			"explain": "Clap, clap, clap-clap, rest: x-x-xx--. The quick pair comes after two single claps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-xx--",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the moves by their level.",
+			"groups": [
+				"high",
+				"middle",
+				"low"
+			],
+			"items": [
+				"leap into the air",
+				"roll along the floor",
+				"walk and wave",
+				"stretch up on tiptoes",
+				"crawl like a cat",
+				"turn on the spot"
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				0,
+				2,
+				1
+			],
+			"hint": "Is your body up high, near the floor, or in between?",
+			"explain": "High: leap, stretch up on tiptoes. Middle: walk and wave, turn on the spot. Low: roll, crawl."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In unison, every dancer moves at the same time.",
+			"answer": true,
+			"hint": "Uni- means one: moving as one.",
+			"explain": "True: in unison, everyone does the same move at the same moment."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A motif is a short move. Which is a way to change it?",
+			"answer": 0,
+			"hint": "A changed motif is still the same move, done a new way.",
+			"choices": [
+				"do it bigger, lower or faster",
+				"stop dancing",
+				"forget it",
+				"do a different dance"
+			],
+			"explain": "You can change a motif by making it bigger, lower, faster, slower, or turning it around."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of making a dance in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need the beat before you can move to it.",
+			"items": [
+				"make up a motif",
+				"practise it",
+				"listen to the music and find the beat",
+				"repeat and change the motif",
+				"perform it"
+			],
+			"explain": "Find the beat, make up a motif, repeat and change it, practise, then perform."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tap LISTEN. Each clap is one step of a dance. How many steps are there?",
+			"answer": "10",
+			"hint": "Count in groups: the pattern repeats.",
+			"explain": "The rhythm is x-x-xxx-x-x-xxx-: 5 claps, then the same 5 again. 5 + 5 = 10 steps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-xxx-x-x-xxx-",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does mirroring a partner mean?",
+			"answer": 0,
+			"hint": "Think of looking in a mirror.",
+			"choices": [
+				"copying them as if you were their reflection",
+				"doing the opposite move",
+				"dancing alone",
+				"standing still"
+			],
+			"explain": "Mirroring: your partner lifts their right arm and you lift your left, like a reflection."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The music slows down. How should the dancers move?",
+			"answer": 0,
+			"hint": "Dancers move to the tempo of the music.",
+			"choices": [
+				"slower and smoother",
+				"faster and jumpier",
+				"stop dancing",
+				"exactly the same as before"
+			],
+			"explain": "Slower music suits slower, smoother moves, so the dance matches the music."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In a canon, all the dancers start at exactly the same moment.",
+			"answer": false,
+			"hint": "Think of a wave moving along a line.",
+			"explain": "False: in a canon, dancers start one after another. Starting together is unison."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3p.count_claps",
+			"level": 1
+		},
+		{
+			"gen": "g3p.count_claps",
+			"level": 2
+		},
+		{
+			"gen": "g3p.count_claps",
+			"level": 3
+		}
+	]
+}

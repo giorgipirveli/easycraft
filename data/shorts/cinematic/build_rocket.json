@@ -1,0 +1,233 @@
+{
+	"id": "build_rocket",
+	"title": "Build it part by part",
+	"topic": "rockets",
+	"link": {"board": true},
+	"still": 44.0,
+	"stage": {
+		"sky": "day",
+		"light": "day",
+		"sun": [0.5, 0.7, 0.55],
+		"models": [
+			{"id": "ground", "model": "ground", "look": "grass", "at": [0, -0.02, 0], "size": 900},
+			{"id": "site", "model": "blocks", "build": "launch_tower", "at": [0, 0, 0]},
+			{
+				"id": "rocket",
+				"model": "rocket",
+				"rocket": "moon",
+				"at": [0, 0, 0],
+				"build": [
+					{"blocks": ["ROCKET_ENGINE"], "stage": 0, "at": 2.0},
+					{"blocks": ["FUEL_TANK"], "stage": 0, "at": 10.0},
+					{"blocks": ["ROCKET_FINS"], "stage": 0, "at": 13.6},
+					{"blocks": ["STAGE_SEPARATOR"], "stage": 0, "at": 18.6},
+					{"blocks": ["SPACE_ENGINE"], "stage": 1, "at": 20.6},
+					{"blocks": ["FUEL_TANK"], "stage": 1, "at": 22.4},
+					{"blocks": ["STAGE_SEPARATOR"], "stage": 1, "at": 24.2},
+					{"blocks": ["SPACE_ENGINE", "LANDING_LEGS"], "stage": 2, "at": 27.6},
+					{"blocks": ["FUEL_TANK"], "stage": 2, "at": 29.2},
+					{"blocks": ["SERVICE_MODULE", "SOLAR_ARRAY"], "stage": 2, "at": 30.8},
+					{"blocks": ["CREW_CAPSULE"], "stage": 2, "at": 32.6},
+					{"blocks": ["NOSE_CONE"], "stage": 2, "at": 38.0}
+				]
+			}
+		],
+		"effects": [{"kind": "sparkles", "at": [0, 6, 0], "from": 38.8, "to": 44, "size": 2.4, "amount": 60}],
+		"camera": [
+			{"at": 0, "pos": [12, 3.4, 13], "look": [0, 1.0, 0], "fov": 46},
+			{"at": 9, "pos": [4.5, 4, 15.5], "look": [0, 1.6, 0], "fov": 46, "path": "orbit"},
+			{"at": 18, "pos": [-6.5, 5.5, 15], "look": [0, 2.8, 0], "fov": 48, "path": "orbit"},
+			{"at": 27, "pos": [-4, 7, 19], "look": [0, 3.4, 0], "fov": 50, "path": "orbit"},
+			{"at": 37, "pos": [6, 8, 20], "look": [0, 4.0, 0], "fov": 52, "path": "orbit"},
+			{"at": 47, "pos": [9, 6, 22], "look": [0, 4.2, 0], "fov": 52, "path": "orbit"}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 9,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Rockets are built from the bottom up. First: the engines!",
+			"say": "Every rocket is built from the bottom up, right here on the launch pad. First come the engines.",
+			"sounds": [{"at": 2.6, "effect": "thud"}],
+			"actors": [
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [70, 84],
+					"size": 56,
+					"moves": [{"do": "pop", "at": 2.4}]
+				},
+				{
+					"kind": "words",
+					"text": "ENGINES",
+					"at": [196, 84],
+					"size": 28,
+					"color": "white",
+					"box": "orange",
+					"moves": [{"do": "slide", "at": 2.6, "from": [460, 84]}]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Fuel tanks hold fuel and oxygen. Fins keep it flying straight.",
+			"say": "Fuel tanks hold fuel, and oxygen to burn it, because space has no air. Fins keep it flying straight.",
+			"sounds": [{"at": 1.6, "effect": "thud"}, {"at": 5.2, "effect": "thud"}],
+			"actors": [
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [70, 84],
+					"size": 56,
+					"moves": [{"do": "pop", "at": 1.2}]
+				},
+				{
+					"kind": "words",
+					"text": "FUEL TANKS",
+					"at": [206, 84],
+					"size": 28,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "slide", "at": 1.4, "from": [480, 84]}]
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_FINS",
+					"at": [70, 150],
+					"size": 56,
+					"moves": [{"do": "pop", "at": 4.8}]
+				},
+				{
+					"kind": "words",
+					"text": "FINS",
+					"at": [168, 150],
+					"size": 28,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "slide", "at": 5.0, "from": [440, 150]}]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "A separator, then stage 2: space engines and more tanks.",
+			"say": "A stage separator goes on top. Then stage two: space engines and more fuel tanks.",
+			"sounds": [
+				{"at": 0.8, "effect": "thud"},
+				{"at": 2.8, "effect": "thud"},
+				{"at": 4.6, "effect": "thud"},
+				{"at": 6.4, "effect": "thud"}
+			],
+			"actors": [
+				{
+					"kind": "part",
+					"part": "STAGE_SEPARATOR",
+					"at": [70, 84],
+					"size": 56,
+					"moves": [{"do": "pop", "at": 0.6}]
+				},
+				{
+					"kind": "words",
+					"text": "SEPARATOR",
+					"at": [206, 84],
+					"size": 28,
+					"color": "white",
+					"box": "ink",
+					"moves": [{"do": "slide", "at": 0.8, "from": [480, 84]}]
+				},
+				{
+					"kind": "part",
+					"part": "SPACE_ENGINE",
+					"at": [70, 150],
+					"size": 56,
+					"moves": [{"do": "pop", "at": 2.6}]
+				},
+				{
+					"kind": "words",
+					"text": "STAGE 2",
+					"at": [190, 150],
+					"size": 28,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "slide", "at": 2.8, "from": [460, 150]}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "On top, the lander: legs, a tank, air and food, the capsule.",
+			"say": "On top goes the lander: landing legs, a fuel tank, air and food for the crew, and the capsule with its seat.",
+			"sounds": [
+				{"at": 0.8, "effect": "thud"},
+				{"at": 2.4, "effect": "thud"},
+				{"at": 4.0, "effect": "thud"},
+				{"at": 5.8, "effect": "ding"}
+			],
+			"actors": [
+				{
+					"kind": "part",
+					"part": "LANDING_LEGS",
+					"at": [70, 84],
+					"size": 56,
+					"moves": [{"do": "pop", "at": 0.8}]
+				},
+				{
+					"kind": "part",
+					"part": "SERVICE_MODULE",
+					"at": [140, 84],
+					"size": 56,
+					"moves": [{"do": "pop", "at": 4.0}]
+				},
+				{
+					"kind": "part",
+					"part": "CREW_CAPSULE",
+					"at": [210, 84],
+					"size": 56,
+					"moves": [{"do": "pop", "at": 5.8}]
+				},
+				{
+					"kind": "words",
+					"text": "THE LANDER",
+					"at": [180, 150],
+					"size": 28,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 6.6}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Last, the pointed nose. Ready! What would you add to yours?",
+			"say": "Last comes the pointed nose, so air slides round it. The rocket is ready! What would you add to yours?",
+			"sounds": [{"at": 1.0, "effect": "thud"}, {"at": 1.8, "effect": "fanfare"}],
+			"actors": [
+				{
+					"kind": "part",
+					"part": "NOSE_CONE",
+					"at": [70, 84],
+					"size": 56,
+					"moves": [{"do": "pop", "at": 1.0}]
+				},
+				{
+					"kind": "words",
+					"text": "READY!",
+					"at": [196, 84],
+					"size": 34,
+					"color": "white",
+					"box": "green",
+					"moves": [{"do": "pop", "at": 1.8}, {"do": "pulse", "at": 2.8}]
+				}
+			]
+		}
+	]
+}

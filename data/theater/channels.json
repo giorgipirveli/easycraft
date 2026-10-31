@@ -1,0 +1,157 @@
+{
+	"version": 1,
+	"note": "EasyCraft TV's channels (owner #89; spec §5.12). The list the game plays when it has not read the server's yet (core/theater/theater_feed.gd) and the file tools/theater_list.py checks and sends to the server. Every video is on YouTube, embeddable and set 'made for kids' by its maker (checked on its page: docs/devlog/parts/tv-shows.md lists each one's source). Only official channels of museums, space agencies, public broadcasters and children's educational studios. 'enabled': false switches the Theater off.",
+	"enabled": true,
+	"source": "bundled",
+	"channels": [
+		{
+			"id": "easycraft_tv",
+			"title": "EasyCraft TV",
+			"platform": "youtube",
+			"color": "#3a7be8",
+			"icon": "tv",
+			"videos": [
+				{"id": "fYa-hmNzlAQ", "title": "Who is Paxi?", "made_for_kids": true, "from": "European Space Agency, ESA"},
+				{"id": "SOCixRhRGDw", "title": "A Tour of the Space Station", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "ZQ_MEFVx5jM", "title": "Making Crayons", "made_for_kids": true, "from": "Sesame Street"},
+				{"id": "7mbA0qyk4Pw", "title": "Mildred the Gallery Cat", "made_for_kids": true, "from": "Tate Kids"},
+				{"id": "9vQnKO_2kKk", "title": "The Giant Pacific Octopus", "made_for_kids": true, "from": "Nat Geo Kids"},
+				{"id": "IRixaQ4hpEI", "title": "Yo-Yo Ma: The Jam Session", "made_for_kids": true, "from": "Sesame Street"},
+				{"id": "CbTaDOuSePk", "title": "Apollo 11: The First Moon Walk", "made_for_kids": true, "from": "Nat Geo Kids"}
+			]
+		},
+		{
+			"id": "space",
+			"title": "Space",
+			"platform": "youtube",
+			"color": "#4b3fb0",
+			"icon": "planet",
+			"videos": [
+				{"id": "mibxJwpennU", "title": "Paxi: The Solar System", "made_for_kids": true, "from": "European Space Agency, ESA"},
+				{"id": "V4_c4DUseLU", "title": "Paxi: The Red Planet", "made_for_kids": true, "from": "European Space Agency, ESA"},
+				{"id": "o33NZIlfKys", "title": "Our Moon Isn't the Only Moon!", "made_for_kids": true, "from": "NASA Space Place"},
+				{"id": "hyf5JF_VxwM", "title": "What Is a Solar Eclipse?", "made_for_kids": true, "from": "NASA Space Place"},
+				{"id": "OfMExgr_vzY", "title": "What Is a Black Hole?", "made_for_kids": true, "from": "NASA Space Place"},
+				{"id": "yXe0yxzYkjo", "title": "Why Does the Moon Change?", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "jhD8GFwy734", "title": "What Do Astronauts Do?", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "joq-IUFNkrw", "title": "The Rocky Planets", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "0b3GcLE4Vlg", "title": "What Is the Sun?", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "ujh-dtEvyIw", "title": "Meet the Mars Rovers!", "made_for_kids": true, "from": "SciShow Kids"}
+			]
+		},
+		{
+			"id": "science",
+			"title": "Science",
+			"platform": "youtube",
+			"color": "#15928a",
+			"icon": "flask",
+			"videos": [
+				{"id": "Cm9ZkYTnCNE", "title": "How to Make a Rainbow", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "ehUIlhKhzDA", "title": "Why Is the Sky Blue?", "made_for_kids": true, "from": "NASA Space Place"},
+				{"id": "jH_q1DR5-gA", "title": "The Dry Sock Trick!", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "a-SPYPAedCA", "title": "Unpoppable Bubbles!", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "0Qmgdz9E47s", "title": "The Power of Sunlight!", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "dLQ0lHpyZd8", "title": "How Do We Know When It Will Rain?", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "owHF9iLyxic", "title": "What's an Engineer?", "made_for_kids": true, "from": "Crash Course Kids"},
+				{"id": "ljRlB6TuMOU", "title": "Defining Gravity", "made_for_kids": true, "from": "Crash Course Kids"},
+				{"id": "37pir0ej_SE", "title": "Chemical Changes", "made_for_kids": true, "from": "Crash Course Kids"},
+				{"id": "TQgRIJdp2c0", "title": "Eggs-periments!", "made_for_kids": true, "from": "Nat Geo Kids"}
+			]
+		},
+		{
+			"id": "nature",
+			"title": "Nature and Animals",
+			"platform": "youtube",
+			"color": "#2fae4e",
+			"icon": "paw",
+			"videos": [
+				{"id": "9_dTCWB0kNU", "title": "How Animals Find Their Way Home", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "3EK69vhhdqU", "title": "Why Do Animals Have Tails?", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "0N7FGPeykfE", "title": "Animals with Winter Coats", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "YOIRci0CKzg", "title": "Camouflage: Animal Hide and Seek", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "gwH8xGmqGmo", "title": "Amazing Animal Groups", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "m0XgSrdYQRY", "title": "All About Owls", "made_for_kids": true, "from": "Free School"},
+				{"id": "kWxnadQI5Qw", "title": "All About Zebras", "made_for_kids": true, "from": "Free School"},
+				{"id": "VNxx8jVEm3I", "title": "All About Pandas", "made_for_kids": true, "from": "Free School"},
+				{"id": "LpzwxDqVDtc", "title": "All About Elephants", "made_for_kids": true, "from": "Free School"},
+				{"id": "--xEE7K67Xo", "title": "All About Polar Bears", "made_for_kids": true, "from": "Free School"},
+				{"id": "i7zpS4RkK2o", "title": "Find Out About Insects!", "made_for_kids": true, "from": "Nat Geo Kids"}
+			]
+		},
+		{
+			"id": "how_made",
+			"title": "How Things Are Made",
+			"platform": "youtube",
+			"color": "#e07a12",
+			"icon": "gear",
+			"videos": [
+				{"id": "ILNdFbY0Eqk", "title": "How People Make Erasers", "made_for_kids": true, "from": "Mister Rogers’ Neighborhood"},
+				{"id": "iXAZZl9Pzvg", "title": "How People Make Books", "made_for_kids": true, "from": "Mister Rogers’ Neighborhood"},
+				{"id": "NUeMSO4kcoE", "title": "How People Make Stamps", "made_for_kids": true, "from": "Mister Rogers’ Neighborhood"},
+				{"id": "9bNaBpSh0vU", "title": "How Is Cotton Candy Made?", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "x0HeCL6nano", "title": "Wonderful Wool!", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "A4YIpGQiD3w", "title": "How Do Bees Make Honey?", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "p_Ob1q_a4xo", "title": "Where Does Maple Syrup Come From?", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "26IO95Xt5WU", "title": "How Compost Is Made", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "COxB_GvdzWI", "title": "The Invention of Paper", "made_for_kids": true, "from": "Peekaboo Kidz"},
+				{"id": "FXplXFR6gMY", "title": "How Fire Trucks Are Made", "made_for_kids": true, "from": "Nat Geo Kids"}
+			]
+		},
+		{
+			"id": "music",
+			"title": "Music",
+			"platform": "youtube",
+			"color": "#a043d6",
+			"icon": "note",
+			"videos": [
+				{"id": "M0Jc4sP0BEE", "title": "George Meets the Orchestra", "made_for_kids": true, "from": "Sydney Opera House"},
+				{"id": "3-xKZKxXuu0", "title": "What Is Sound?", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "iLisEwkO6C0", "title": "What Makes Music Sound So Good?", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "ibJ2xmSJuHQ", "title": "How Do We Sing?", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "3yqB2KFwJCo", "title": "The Science of the String Phone", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "UyB4-6g-Vbg", "title": "Mozart for Children", "made_for_kids": true, "from": "Free School"},
+				{"id": "ms9tyNKtjcs", "title": "Beethoven for Kids", "made_for_kids": true, "from": "Free School"},
+				{"id": "PZNcKLL1kmo", "title": "Für Elise by Beethoven", "made_for_kids": true, "from": "Free School"},
+				{"id": "FhgX_JekVyw", "title": "Vivaldi: The Four Seasons, Spring", "made_for_kids": true, "from": "Free School"},
+				{"id": "HblEhc0gses", "title": "Learn About Sound", "made_for_kids": true, "from": "Nat Geo Kids"}
+			]
+		},
+		{
+			"id": "art",
+			"title": "Art",
+			"platform": "youtube",
+			"color": "#d93f73",
+			"icon": "palette",
+			"videos": [
+				{"id": "ah5g2M14oUM", "title": "Claude Monet for Children", "made_for_kids": true, "from": "Free School"},
+				{"id": "Rm0qszPJnc8", "title": "Leonardo da Vinci for Children", "made_for_kids": true, "from": "Free School"},
+				{"id": "ZtF5QbTOiJY", "title": "Becoming an Artist: J.M.W. Turner", "made_for_kids": true, "from": "Tate Kids"},
+				{"id": "yvAgx3gP_m0", "title": "A Paper Pumpkin like Yayoi Kusama", "made_for_kids": true, "from": "Tate Kids"},
+				{"id": "9PV6htns_xA", "title": "How to Make Art that Moves", "made_for_kids": true, "from": "Tate Kids"},
+				{"id": "hOQMMyBhx4w", "title": "How to Make a Hanging Mobile", "made_for_kids": true, "from": "Tate Kids"},
+				{"id": "Xsg_54t7T-k", "title": "Can Geometry Be Art?", "made_for_kids": true, "from": "Tate Kids"},
+				{"id": "AWLIy-Um7_0", "title": "Weave on a Mini Loom", "made_for_kids": true, "from": "The Met"},
+				{"id": "sKnZaiJNbNI", "title": "Make Your Own Optical Illusion", "made_for_kids": true, "from": "The Met"},
+				{"id": "vIQltnfFfLg", "title": "Pointillism: Art That Tricks Our Eyes", "made_for_kids": true, "from": "The Met"},
+				{"id": "hyyIm5ENwSQ", "title": "What Does Sound Look Like?", "made_for_kids": true, "from": "The Met"}
+			]
+		},
+		{
+			"id": "history",
+			"title": "History",
+			"platform": "youtube",
+			"color": "#9a6a2a",
+			"icon": "pyramid",
+			"videos": [
+				{"id": "Xtc0LQuA3z4", "title": "The Pyramids of Egypt", "made_for_kids": true, "from": "Free School"},
+				{"id": "ExM6MiWDlnk", "title": "The Great Sphinx of Giza", "made_for_kids": true, "from": "Free School"},
+				{"id": "0N4YX3SsG3U", "title": "Explore Ancient Egypt", "made_for_kids": true, "from": "Nat Geo Kids"},
+				{"id": "qOlnIF6z2mA", "title": "How the Great Pyramid Was Built", "made_for_kids": true, "from": "Peekaboo Kidz"},
+				{"id": "Qt3pry6cWJM", "title": "The Wright Brothers", "made_for_kids": true, "from": "Free School"},
+				{"id": "koota_lwU_4", "title": "Mary Anning: Fossil Hunter", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "1FjyKmpmQzc", "title": "Dig In to Paleontology", "made_for_kids": true, "from": "SciShow Kids"},
+				{"id": "5l4w9HhRIrY", "title": "Get to Know a Dinosaur!", "made_for_kids": true, "from": "SciShow Kids"}
+			]
+		}
+	]
+}

@@ -1,0 +1,396 @@
+{
+	"id": "g3.science.light_shadows",
+	"lesson": [
+		{
+			"text": "Remember? Transparent materials let light through; opaque ones do not. That matters for light and shadows!",
+			"picture": {
+				"kind": "rays",
+				"source": "sun",
+				"object": 9
+			}
+		},
+		{
+			"text": "We need light to see. Light comes from a light source: the Sun, a lamp, a torch or a fire. Dark is when there is no light at all: in a dark cave, you see nothing.",
+			"picture": {
+				"kind": "rays",
+				"source": "none",
+				"object": 9
+			}
+		},
+		{
+			"text": "Most things give out no light. We see them because light bounces off them into our eyes: it reflects. The Moon is not a light source: it reflects the Sun's light.",
+			"picture": {
+				"kind": "rays",
+				"source": "lamp",
+				"object": 9
+			}
+		},
+		{
+			"text": "Smooth, shiny surfaces like mirrors reflect light very well. Dull, dark surfaces reflect less.",
+			"picture": {
+				"kind": "rays",
+				"source": "lamp",
+				"object": 9,
+				"mirror": true
+			}
+		},
+		{
+			"text": "A shadow forms when an opaque object blocks light. Light travels in straight lines, so it cannot bend around the object. Transparent objects make almost no shadow."
+		},
+		{
+			"text": "Move an object closer to the torch, and its shadow grows bigger. Move it away, and the shadow shrinks.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Toy from torch",
+						"Shadow"
+					],
+					[
+						"10 cm",
+						"big"
+					],
+					[
+						"30 cm",
+						"middle"
+					],
+					[
+						"60 cm",
+						"small"
+					]
+				]
+			}
+		},
+		{
+			"text": "Outdoors, shadows are long in the morning and evening, when the Sun is low, and short at midday, when it is high."
+		},
+		{
+			"text": "Sunlight can hurt your eyes and skin. Never look straight at the Sun, not even with sunglasses. Wear a hat and sunglasses, use sun cream, and find shade at midday. Next: weather and climate."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which one is a light source?",
+			"answer": 0,
+			"hint": "Which one gives out its own light?",
+			"choices": [
+				"a torch",
+				"a mirror",
+				"the Moon",
+				"a book"
+			],
+			"explain": "A torch makes its own light. Mirrors and the Moon only reflect light."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "We need light to see things.",
+			"answer": true,
+			"hint": "What can you see in a dark cave?",
+			"explain": "True: with no light, we cannot see anything."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What makes a shadow?",
+			"answer": 0,
+			"hint": "What does a shadow need to block the light?",
+			"choices": [
+				"an opaque object blocking light",
+				"a light shining brightly",
+				"a mirror"
+			],
+			"explain": "An opaque object blocks the light, leaving a dark shadow behind it."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is safe to look straight at the Sun if you wear sunglasses.",
+			"answer": false,
+			"hint": "What can strong sunlight do to eyes?",
+			"explain": "False: never look straight at the Sun. It can hurt your eyes, even with sunglasses."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What can you see in a cave with no light at all?",
+			"answer": 0,
+			"hint": "Light must reach your eyes.",
+			"choices": [
+				"nothing",
+				"everything",
+				"only red things"
+			],
+			"explain": "With no light, nothing can be seen.",
+			"picture": {
+				"kind": "rays",
+				"source": "none",
+				"object": 9
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How do we see a book on a table?",
+			"answer": 0,
+			"hint": "Is a book a light source?",
+			"choices": [
+				"Light reflects off it into our eyes",
+				"The book gives out light",
+				"Our eyes shine on it"
+			],
+			"explain": "Light from a lamp or the Sun bounces off the book into our eyes.",
+			"picture": {
+				"kind": "rays",
+				"source": "lamp",
+				"object": 9
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The Moon is a light source.",
+			"answer": false,
+			"hint": "Where does the Moon's light come from?",
+			"explain": "False: the Moon reflects light from the Sun."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which object makes the darkest shadow?",
+			"answer": 0,
+			"hint": "Which one lets no light through?",
+			"choices": [
+				"a wooden block",
+				"a clear glass",
+				"a sheet of clear plastic"
+			],
+			"explain": "Wood is opaque: it blocks all the light, so its shadow is darkest."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which surface reflects light best?",
+			"answer": 0,
+			"hint": "Which is smooth and shiny?",
+			"choices": [
+				"a mirror",
+				"a black jumper",
+				"a brown cardboard box"
+			],
+			"explain": "A smooth, shiny mirror reflects light very well."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "When is your shadow shortest on a sunny day?",
+			"answer": 0,
+			"hint": "When is the Sun highest?",
+			"choices": [
+				"at midday",
+				"early in the morning",
+				"late in the evening"
+			],
+			"explain": "At midday the Sun is high in the sky, so shadows are shortest."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara moves her toy closer to the torch. What happens to its shadow?",
+			"answer": 0,
+			"hint": "Look at the table: what happens to the shadow when the toy is near the torch?",
+			"choices": [
+				"It gets bigger",
+				"It gets smaller",
+				"It stays the same"
+			],
+			"explain": "Closer to the torch, the toy blocks more light, so its shadow grows.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Toy from torch",
+						"Shadow"
+					],
+					[
+						"10 cm",
+						"big"
+					],
+					[
+						"30 cm",
+						"middle"
+					],
+					[
+						"60 cm",
+						"small"
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the shadows in order, from the biggest to the smallest.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "The closer to the torch, the bigger the shadow.",
+			"items": [
+				"toy 30 cm from torch",
+				"toy 10 cm from torch",
+				"toy 50 cm from torch"
+			],
+			"explain": "10 cm gives the biggest shadow, then 30 cm, then 50 cm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does light not bend around an object to fill its shadow?",
+			"answer": 0,
+			"hint": "How does light travel?",
+			"choices": [
+				"Light travels in straight lines",
+				"Light is too heavy",
+				"Shadows push light away"
+			],
+			"explain": "Light travels in straight lines, so it cannot curve round behind the object."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the best way to stay safe in strong midday sun?",
+			"answer": 0,
+			"hint": "Protect your eyes and skin.",
+			"choices": [
+				"hat, sun cream and shade",
+				"look up at the Sun",
+				"stay out all day"
+			],
+			"explain": "A hat, sun cream and shade protect your eyes and skin."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A clear glass window makes almost no shadow.",
+			"answer": true,
+			"hint": "Is glass transparent or opaque?",
+			"explain": "True: transparent glass lets almost all the light through."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: light source or not?",
+			"hint": "Does it make its own light?",
+			"groups": [
+				"light source",
+				"not a source"
+			],
+			"items": [
+				"the Sun",
+				"the Moon",
+				"a torch",
+				"a mirror"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"explain": "The Sun and a torch make light. The Moon and a mirror only reflect it."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: transparent or opaque?",
+			"groups": [
+				"transparent",
+				"opaque"
+			],
+			"items": [
+				"a clear window",
+				"a wooden door",
+				"a glass of water",
+				"a metal tin",
+				"clear plastic wrap",
+				"a brick"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Could you read a book through it?",
+			"explain": "Transparent things let light through, so you can see through them: the window, the water and the plastic wrap. Opaque things block light and make shadows: the door, the tin and the brick."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order a tree's shadow on a sunny day, from the longest to the shortest.",
+			"items": [
+				"at midday",
+				"at 9 o'clock in the morning",
+				"at 7 o'clock in the morning"
+			],
+			"answer": [
+				2,
+				1,
+				0
+			],
+			"hint": "The lower the Sun, the longer the shadow. When is the Sun lowest?",
+			"explain": "Early in the morning the Sun is low, so the shadow is longest at 7 o'clock. By 9 the Sun is higher, and at midday it is highest, so the shadow is shortest."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A toy 10 cm from a torch makes a 60 cm shadow; 30 cm from it, a 30 cm shadow. Zara moves it from 10 cm to 30 cm. How many cm smaller is the shadow?",
+			"answer": "30",
+			"hint": "Find the shadow before and after the move, then take one from the other.",
+			"explain": "Moving the toy away from the torch shrinks its shadow, from 60 cm to 30 cm: 60 − 30 = 30 cm smaller."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the moves: will the toy's shadow get bigger or smaller?",
+			"groups": [
+				"bigger",
+				"smaller"
+			],
+			"items": [
+				"move the toy closer to the torch",
+				"move the torch further away",
+				"move the toy closer to the wall",
+				"move the torch closer to the toy"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "What matters is the gap between the toy and the torch: does it shrink or grow?",
+			"explain": "A smaller gap between the toy and the torch makes a bigger shadow: the toy or the torch moves closer. A bigger gap, with the torch further off or the toy nearer the wall, makes a smaller one."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3s.shadow_size",
+			"level": 1
+		},
+		{
+			"gen": "g3s.shadow_size",
+			"level": 2
+		},
+		{
+			"gen": "g3s.shadow_size",
+			"level": 3
+		}
+	]
+}

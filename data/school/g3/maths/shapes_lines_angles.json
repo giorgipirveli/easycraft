@@ -1,0 +1,419 @@
+{
+	"id": "g3.maths.shapes_lines_angles",
+	"lesson": [
+		{
+			"text": "Quick memory: a square has 4 equal sides and a triangle has 3 sides. Today we look closer: at corners, angles and lines.",
+			"picture": {
+				"kind": "shape",
+				"what": "square",
+				"marks": true
+			}
+		},
+		{
+			"text": "A right angle is a square corner, like the corner of a book. A square and a rectangle have 4 right angles. We mark a right angle with a little square.",
+			"picture": {
+				"kind": "angle",
+				"deg": 90
+			}
+		},
+		{
+			"text": "An angle smaller than a right angle is acute. One bigger than a right angle, but smaller than a straight line, is obtuse. Hold a book's corner against an angle to check.",
+			"picture": {
+				"kind": "angle",
+				"deg": 50
+			}
+		},
+		{
+			"text": "Parallel lines never meet, like the rails of a track. Perpendicular lines meet at a right angle. Other lines that cross are intersecting.",
+			"picture": {
+				"kind": "lines",
+				"what": "perpendicular"
+			}
+		},
+		{
+			"text": "A quadrilateral has 4 sides. A rectangle has 4 right angles. A square has 4 right angles and 4 equal sides. A rhombus has 4 equal sides, but its corners are not square.",
+			"picture": {
+				"kind": "shape",
+				"what": "rhombus"
+			}
+		},
+		{
+			"text": "Triangles by their sides: an equilateral triangle has 3 equal sides, an isosceles triangle 2 and a scalene triangle none. A right-angled triangle has one right angle.",
+			"picture": {
+				"kind": "side_lengths",
+				"labels": [
+					"5 cm",
+					"4 cm",
+					"5 cm"
+				],
+				"what": "triangle_acute"
+			}
+		},
+		{
+			"text": "Split a shape into equal parts: this hexagon is cut into 6 equal triangles, so each one is 1/6 of it. Next, in grade 4: angles in degrees and lines of symmetry.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "hexagon",
+				"parts": 6,
+				"shade": 1
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is this shape called?",
+			"choices": [
+				"rectangle",
+				"square",
+				"triangle",
+				"pentagon"
+			],
+			"answer": 0,
+			"hint": "Count the sides. Are they all the same length?",
+			"explain": "It has 4 right angles, and its long sides are longer than its short sides: a rectangle.",
+			"picture": {
+				"kind": "shape",
+				"what": "rectangle",
+				"marks": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many right angles does a square have?",
+			"answer": "4",
+			"hint": "Every corner of a square is a square corner.",
+			"explain": "A square has 4 right angles.",
+			"picture": {
+				"kind": "shape",
+				"what": "square"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What kind of lines are these?",
+			"choices": [
+				"parallel lines",
+				"perpendicular lines"
+			],
+			"answer": 0,
+			"hint": "Do the lines ever meet?",
+			"explain": "They never meet, however far they go: parallel lines.",
+			"picture": {
+				"kind": "lines",
+				"what": "parallel"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "This angle is a right angle.",
+			"answer": true,
+			"hint": "Is it a square corner?",
+			"explain": "Yes: it is a square corner, marked with a little square.",
+			"picture": {
+				"kind": "angle",
+				"deg": 90
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is true? This angle is …",
+			"choices": [
+				"smaller than a right angle",
+				"a right angle",
+				"bigger than a right angle"
+			],
+			"answer": 0,
+			"hint": "Hold the corner of a book against it.",
+			"explain": "It is narrower than a square corner: smaller than a right angle.",
+			"picture": {
+				"kind": "angle",
+				"deg": 45
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many sides does a hexagon have?",
+			"answer": "6",
+			"hint": "Hexa means six.",
+			"explain": "A hexagon has 6 sides."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is this shape called?",
+			"choices": [
+				"rhombus",
+				"square",
+				"rectangle",
+				"pentagon"
+			],
+			"answer": 0,
+			"hint": "4 equal sides, but are the corners square?",
+			"explain": "4 equal sides and no right angles: a rhombus.",
+			"picture": {
+				"kind": "shape",
+				"what": "rhombus",
+				"marks": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What kind of lines are these?",
+			"choices": [
+				"perpendicular lines",
+				"parallel lines"
+			],
+			"answer": 0,
+			"hint": "Do they meet at a square corner?",
+			"explain": "They meet at a right angle: perpendicular lines.",
+			"picture": {
+				"kind": "lines",
+				"what": "perpendicular"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The shape is cut into equal parts. What fraction of the whole shape is the shaded part?",
+			"answer": "1/4",
+			"hint": "Count the equal parts.",
+			"explain": "4 equal triangles, so each is 1/4.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "triangle",
+				"parts": 4,
+				"shade": 1
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A rectangle has 2 pairs of parallel sides.",
+			"answer": true,
+			"hint": "Look at the opposite sides.",
+			"explain": "Yes: the top and bottom are parallel, and so are the two sides."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Every rectangle is a square.",
+			"answer": false,
+			"hint": "Do a rectangle's sides all have to be the same length?",
+			"explain": "No: a rectangle's long sides can be longer than its short sides."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What kind of angle is this?",
+			"choices": [
+				"an obtuse angle",
+				"an acute angle",
+				"a right angle"
+			],
+			"answer": 0,
+			"hint": "Is it wider than a square corner?",
+			"explain": "It is wider than a right angle: an obtuse angle.",
+			"picture": {
+				"kind": "angle",
+				"deg": 130
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A triangle has sides of 6 cm, 6 cm and 6 cm. What is it called?",
+			"choices": [
+				"equilateral triangle",
+				"right-angled triangle",
+				"scalene triangle"
+			],
+			"answer": 0,
+			"hint": "How many sides are the same length?",
+			"explain": "All 3 sides are equal: an equilateral triangle."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which shape has 4 equal sides but no right angles?",
+			"choices": [
+				"rhombus",
+				"square",
+				"rectangle",
+				"kite"
+			],
+			"answer": 0,
+			"hint": "A square has right angles. Which shape does not?",
+			"explain": "A rhombus has 4 equal sides and no right angles."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many right angles does this shape have inside it?",
+			"answer": "1",
+			"hint": "Look for a square corner.",
+			"explain": "A right-angled triangle has 1 right angle.",
+			"picture": {
+				"kind": "shape",
+				"what": "triangle_right"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A square is a special rhombus.",
+			"answer": true,
+			"hint": "Does a square have 4 equal sides?",
+			"explain": "Yes: a square has 4 equal sides like a rhombus, and right angles too."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which shape is cut into equal parts?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "cut_shape",
+						"shape": "square",
+						"parts": 4,
+						"shade": 1,
+						"way": "diagonals"
+					}
+				},
+				{
+					"picture": {
+						"kind": "cut_shape",
+						"shape": "circle",
+						"parts": 4,
+						"shade": 1,
+						"unequal": true
+					}
+				},
+				{
+					"picture": {
+						"kind": "cut_shape",
+						"shape": "rectangle",
+						"parts": 3,
+						"shade": 1,
+						"unequal": true
+					}
+				}
+			],
+			"answer": 0,
+			"hint": "Equal parts are all the same size.",
+			"explain": "The square's 4 triangles are all the same size."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these in order, smallest first.",
+			"items": [
+				"a straight line",
+				"an obtuse angle",
+				"a right angle",
+				"an acute angle"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "A right angle is a square corner; a straight line is two right angles.",
+			"explain": "Acute is smaller than a right angle, obtuse is bigger, and a straight line is bigger still."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A rectangle is cut into 8 equal parts. What fraction of it is each part?",
+			"answer": "1/8",
+			"hint": "Count the equal parts.",
+			"explain": "8 equal parts: each is 1/8."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3g.name_shape",
+			"level": 1
+		},
+		{
+			"gen": "g3g.name_shape",
+			"level": 2
+		},
+		{
+			"gen": "g3g.name_shape",
+			"level": 3
+		},
+		{
+			"gen": "g3g.shape_true",
+			"level": 1
+		},
+		{
+			"gen": "g3g.shape_true",
+			"level": 2
+		},
+		{
+			"gen": "g3g.shape_true",
+			"level": 3
+		},
+		{
+			"gen": "g3g.right_angles",
+			"level": 1
+		},
+		{
+			"gen": "g3g.right_angles",
+			"level": 2
+		},
+		{
+			"gen": "g3g.right_angles",
+			"level": 3
+		},
+		{
+			"gen": "g3g.angle_size",
+			"level": 1
+		},
+		{
+			"gen": "g3g.angle_size",
+			"level": 2
+		},
+		{
+			"gen": "g3g.angle_size",
+			"level": 3
+		},
+		{
+			"gen": "g3g.lines_kind",
+			"level": 1
+		},
+		{
+			"gen": "g3g.lines_kind",
+			"level": 2
+		},
+		{
+			"gen": "g3g.lines_kind",
+			"level": 3
+		},
+		{
+			"gen": "g3g.cut_fraction",
+			"level": 1
+		},
+		{
+			"gen": "g3g.cut_fraction",
+			"level": 2
+		},
+		{
+			"gen": "g3g.cut_fraction",
+			"level": 3
+		},
+		{
+			"gen": "g3f.equal_parts",
+			"level": 2
+		}
+	]
+}

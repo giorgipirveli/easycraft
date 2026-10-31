@@ -1,0 +1,279 @@
+{
+	"id": "g5.maths.shape_families",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met lines and shapes. What are parallel lines? Lines that stay the same distance apart and never meet."
+		},
+		{
+			"text": "Shapes belong to families. Every quadrilateral has 4 straight sides. Some quadrilaterals have more special properties.",
+			"picture": {
+				"kind": "family"
+			}
+		},
+		{
+			"text": "A parallelogram has 2 pairs of parallel sides. A rectangle is a parallelogram with 4 right angles. A rhombus is a parallelogram with 4 equal sides.",
+			"picture": {
+				"kind": "family",
+				"mark": "parallelogram"
+			}
+		},
+		{
+			"text": "A square is both a rectangle and a rhombus: it has 4 right angles and 4 equal sides. So every square is a rectangle, but not every rectangle is a square.",
+			"picture": {
+				"kind": "family",
+				"mark": "square"
+			}
+		},
+		{
+			"text": "Triangles are sorted by their sides (equilateral: 3 equal; isosceles: 2 equal; scalene: none equal) and by their angles (right: one is 90°; obtuse: one is more than 90°; acute: all are less than 90°).",
+			"picture": {
+				"kind": "shape",
+				"what": "triangle_right",
+				"marks": true
+			}
+		},
+		{
+			"text": "Try it in the world: build a square, a rectangle and a rhombus from blocks in your world. Which one belongs to all three families at once? Next: angles in triangles and quadrilaterals."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Every square is a rectangle.",
+			"answer": true,
+			"hint": "Does a square have 4 right angles?",
+			"explain": "True: a square has 4 right angles, so it is a rectangle."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Every rectangle is a square.",
+			"answer": false,
+			"hint": "Do all rectangles have 4 equal sides?",
+			"explain": "False: a rectangle doesn't always have 4 equal sides."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many sides does every quadrilateral have?",
+			"answer": 0,
+			"hint": "quad means four.",
+			"choices": [
+				"4",
+				"3",
+				"5",
+				"6"
+			],
+			"explain": "Every quadrilateral has 4 sides."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which shape is both a rectangle and a rhombus?",
+			"answer": 0,
+			"hint": "4 right angles and 4 equal sides.",
+			"choices": [
+				"square",
+				"kite",
+				"trapezium"
+			],
+			"explain": "A square is both."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A triangle can have two right angles.",
+			"answer": false,
+			"hint": "A triangle's angles add up to 180°.",
+			"explain": "False: 90° + 90° = 180°, leaving nothing for the third angle."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A shape has 4 equal sides but no right angles. What is it?",
+			"answer": 0,
+			"hint": "Equal sides, no right angles.",
+			"choices": [
+				"rhombus",
+				"square",
+				"rectangle"
+			],
+			"explain": "A rhombus has 4 equal sides; with right angles it would be a square."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Can a triangle be both right and isosceles?",
+			"answer": 0,
+			"hint": "Try 90° and two equal angles.",
+			"choices": [
+				"Yes: angles 90°, 45° and 45°",
+				"No, never"
+			],
+			"explain": "Yes: 90° + 45° + 45° = 180°, with two equal sides."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which shapes always have 2 pairs of parallel sides?",
+			"answer": 0,
+			"hint": "Look at the family tree.",
+			"choices": [
+				"parallelograms",
+				"trapeziums",
+				"kites"
+			],
+			"explain": "Every parallelogram (and so every rectangle, rhombus and square) has 2 pairs."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Every rhombus is a parallelogram.",
+			"answer": true,
+			"hint": "Is the rhombus below the parallelogram in the tree?",
+			"explain": "True: a rhombus has 2 pairs of parallel sides."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the shapes: always a parallelogram, or not always?",
+			"items": [
+				"square",
+				"kite",
+				"rectangle",
+				"trapezium",
+				"rhombus"
+			],
+			"groups": [
+				"always",
+				"not always"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Does it always have 2 pairs of parallel sides?",
+			"explain": "Squares, rectangles and rhombuses always have 2 pairs of parallel sides: parallelograms. Kites and trapeziums don't."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each triangle to its description.",
+			"items": [
+				"equilateral",
+				"isosceles",
+				"scalene"
+			],
+			"matches": [
+				"no equal sides",
+				"3 equal sides",
+				"2 equal sides"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Count the equal sides.",
+			"explain": "Equilateral: 3 equal sides. Isosceles: 2 equal sides. Scalene: none equal."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the triangles by their sides.",
+			"groups": [
+				"equilateral",
+				"isosceles",
+				"scalene"
+			],
+			"items": [
+				"sides 5, 5, 5 cm",
+				"sides 4, 4, 6 cm",
+				"sides 3, 4, 5 cm",
+				"sides 7, 7, 2 cm",
+				"sides 6, 8, 9 cm",
+				"sides 9, 9, 9 cm"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				1,
+				2,
+				0
+			],
+			"hint": "Count how many sides have the same length: 3, 2 or none?",
+			"explain": "Equilateral, 3 equal sides: 5, 5, 5 and 9, 9, 9. Isosceles, 2 equal: 4, 4, 6 and 7, 7, 2. Scalene, none equal: 3, 4, 5 and 6, 8, 9."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the triangles by their angles.",
+			"groups": [
+				"right",
+				"obtuse",
+				"acute"
+			],
+			"items": [
+				"90°, 45°, 45°",
+				"120°, 30°, 30°",
+				"60°, 60°, 60°",
+				"90°, 60°, 30°",
+				"100°, 50°, 30°",
+				"70°, 60°, 50°"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Look for a 90° angle, then for one more than 90°; if there is neither, all are less than 90°.",
+			"explain": "Right, with a 90° angle: 90, 45, 45 and 90, 60, 30. Obtuse, with one over 90°: 120, 30, 30 and 100, 50, 30. Acute, all under 90°: 60, 60, 60 and 70, 60, 50. Each adds up to 180°."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5m.family_true",
+			"level": 1
+		},
+		{
+			"gen": "g5m.family_true",
+			"level": 2
+		},
+		{
+			"gen": "g5m.family_true",
+			"level": 3
+		},
+		{
+			"gen": "g5m.family_property",
+			"level": 1
+		},
+		{
+			"gen": "g5m.family_property",
+			"level": 2
+		},
+		{
+			"gen": "g5m.family_property",
+			"level": 3
+		},
+		{
+			"gen": "g5m.triangle_kind",
+			"level": 1
+		},
+		{
+			"gen": "g5m.triangle_kind",
+			"level": 2
+		},
+		{
+			"gen": "g5m.triangle_kind",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,478 @@
+{
+	"id": "g4.music.note_values",
+	"lesson": [
+		{
+			"text": "Quick memory: how many beats does a crotchet last? (1 beat: ta.) In grade 3 you read crotchets, quavers and rests. Today: longer notes, and how notes fill a bar.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet"
+				],
+				"words": true
+			}
+		},
+		{
+			"text": "A semibreve (a whole note) lasts 4 beats: an open note head with no stem. Say ta-a-a-a, and hold it.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"semibreve"
+				],
+				"words": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5:4"
+				]
+			}
+		},
+		{
+			"text": "A minim (a half note) lasts 2 beats: an open head with a stem. Say ta-a. Two minims last as long as one semibreve.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"minim",
+					"minim"
+				],
+				"words": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5:2",
+					"C5:2"
+				]
+			}
+		},
+		{
+			"text": "A crotchet (a quarter note) lasts 1 beat, and two quavers (eighth notes) share 1 beat. So 1 semibreve lasts as long as 2 minims, or 4 crotchets, or 8 quavers.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"crotchet",
+					"quavers",
+					"quavers"
+				],
+				"words": true
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-xxxx",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "The US names are fractions of a whole note: half, quarter, eighth. A minim is half as long as a semibreve, and a crotchet a quarter as long."
+		},
+		{
+			"text": "Bars group the beats. In 4/4 time, every bar holds 4 crotchet beats: one semibreve, or two minims, or a minim and two crotchets, or …",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"semibreve",
+					"minim",
+					"minim"
+				],
+				"bars": true,
+				"time": "4/4"
+			}
+		},
+		{
+			"text": "Worked example: a minim, a crotchet and two quavers: 2 + 1 + 1 = 4 beats, a full bar of 4/4.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"minim",
+					"crotchet",
+					"quavers"
+				],
+				"words": true,
+				"time": "4/4"
+			},
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x---x-xx",
+				"tempo": 80
+			}
+		},
+		{
+			"text": "Try it in the world: build a rhythm path in your world: a long block for each minim and a short block for each crotchet. Walk along it saying ta-a and ta. Next: beats in a bar."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is this note called?",
+			"answer": 0,
+			"hint": "An open head with no stem at all.",
+			"choices": [
+				"a semibreve",
+				"a minim",
+				"a crotchet",
+				"two quavers"
+			],
+			"explain": "A semibreve: 4 beats, ta-a-a-a.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"semibreve"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is this note called?",
+			"answer": 0,
+			"hint": "An open head with a stem.",
+			"choices": [
+				"a minim",
+				"a semibreve",
+				"a crotchet",
+				"a rest"
+			],
+			"explain": "A minim: 2 beats, ta-a.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"minim"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many beats does a minim last?",
+			"answer": "2",
+			"hint": "Say ta-a and count.",
+			"explain": "A minim lasts 2 beats: ta-a."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen: four short notes show the beat, then one long note. How long is the long note?",
+			"answer": 0,
+			"hint": "Tap the beat with the short notes, and keep tapping through the long one.",
+			"choices": [
+				"4 beats: a semibreve",
+				"1 beat: a crotchet",
+				"2 beats: a minim"
+			],
+			"explain": "The long note lasts as long as the four short ones: 4 beats, a semibreve.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"C4",
+					"C4",
+					"C4",
+					"G4:4"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many beats do these notes last altogether?",
+			"answer": "4",
+			"hint": "Say ta-a for each minim and count.",
+			"explain": "2 + 2 = 4 beats: as long as a semibreve.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"minim",
+					"minim"
+				],
+				"words": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Two minims last as long as one semibreve.",
+			"answer": true,
+			"hint": "How many beats is each?",
+			"explain": "True: 2 + 2 = 4 beats, the same as a semibreve."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many beats do these notes last altogether?",
+			"answer": "4",
+			"hint": "A minim is 2 beats and a crotchet 1.",
+			"explain": "2 + 1 + 1 = 4 beats.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"minim",
+					"crotchet",
+					"crotchet"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many beats do these notes last altogether?",
+			"answer": "6",
+			"hint": "A semibreve is 4 beats and a minim 2.",
+			"explain": "4 + 2 = 6 beats.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"semibreve",
+					"minim"
+				]
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Listen, then copy this rhythm: a minim, then two crotchets.",
+			"hint": "Each beat has two boxes. A crotchet claps in the first box; a minim claps once and waits 3 more boxes.",
+			"explain": "You heard ta-a, ta, ta: claps in boxes 1, 5 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x---x-x-",
+				"tempo": 75
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Listen, then copy this rhythm: a crotchet, a minim, a crotchet.",
+			"hint": "Each beat has two boxes. A crotchet claps in the first box; a minim claps once and waits 3 more boxes.",
+			"explain": "You heard ta, ta-a, ta: claps in boxes 1, 3 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x---x-",
+				"tempo": 75
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which note is longer, the first or the second?",
+			"answer": 0,
+			"hint": "Count the beats while each note sounds.",
+			"choices": [
+				"the second",
+				"the first",
+				"they are the same"
+			],
+			"explain": "The first note lasts 2 beats and the second 4: the second is longer.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4:2",
+					"-",
+					"G4:4"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each note to how long it lasts.",
+			"items": [
+				"semibreve",
+				"minim",
+				"crotchet",
+				"quaver"
+			],
+			"matches": [
+				"1 beat",
+				"half a beat",
+				"4 beats",
+				"2 beats"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Each note lasts twice as long as the next one down.",
+			"explain": "Semibreve 4, minim 2, crotchet 1, quaver half a beat."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these notes in order, shortest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Think of their US names: eighth, quarter, half, whole.",
+			"items": [
+				"semibreve",
+				"minim",
+				"crotchet",
+				"quaver"
+			],
+			"explain": "Quaver (half a beat), crotchet (1), minim (2), semibreve (4)."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many quavers last as long as one minim?",
+			"answer": "4",
+			"hint": "How many quavers fit in one beat? How many beats is a minim?",
+			"explain": "2 quavers make 1 beat, and a minim is 2 beats: 2 × 2 = 4 quavers."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many beats do these notes last altogether?",
+			"answer": "7",
+			"hint": "Dotted minim 3, crotchet 1, two quavers 1, minim 2.",
+			"explain": "3 + 1 + 1 + 2 = 7 beats.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"dotted minim",
+					"crotchet",
+					"quavers",
+					"minim"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This 4/4 bar needs one more note. Which one fits the gap?",
+			"answer": 0,
+			"hint": "Count the beats already in the bar. How many are missing?",
+			"choices": [
+				"a crotchet",
+				"a minim",
+				"a semibreve",
+				"two minims"
+			],
+			"explain": "A minim (2) and two quavers (1) make 3 beats, so 1 is missing: a crotchet.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"minim",
+					"quavers",
+					"?"
+				],
+				"time": "4/4"
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Listen, then copy this rhythm: a minim, two quavers, a crotchet.",
+			"hint": "Each beat has two boxes. A crotchet claps in the first box; a minim claps once and waits 3 more boxes.",
+			"explain": "You heard ta-a, ti-ti, ta: claps in boxes 1, 5, 6 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x---xxx-",
+				"tempo": 75
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which rhythm did you hear?",
+			"answer": 0,
+			"hint": "Clap along with the sound. Which picture matches where the long note comes?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"minim",
+							"crotchet",
+							"crotchet"
+						],
+						"words": true
+					}
+				},
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"crotchet",
+							"crotchet",
+							"minim"
+						],
+						"words": true
+					}
+				},
+				{
+					"picture": {
+						"kind": "notation",
+						"beats": [
+							"crotchet",
+							"crotchet",
+							"crotchet",
+							"crotchet"
+						],
+						"words": true
+					}
+				}
+			],
+			"explain": "You heard ta-a, ta, ta: a minim, then two crotchets.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x---x-x-",
+				"tempo": 80
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A crotchet is called a quarter note because it lasts a quarter as long as a semibreve.",
+			"answer": true,
+			"hint": "How many crotchets fit in a semibreve?",
+			"explain": "True: 4 crotchets fill a semibreve, so each is a quarter of it."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.note_beats",
+			"level": 1
+		},
+		{
+			"gen": "g4a.note_beats",
+			"level": 2
+		},
+		{
+			"gen": "g4a.note_beats",
+			"level": 3
+		},
+		{
+			"gen": "g4a.fill_the_bar",
+			"level": 1
+		},
+		{
+			"gen": "g4a.fill_the_bar",
+			"level": 2
+		},
+		{
+			"gen": "g4a.fill_the_bar",
+			"level": 3
+		}
+	],
+	"play": {
+		"hook": "The drums have lost their rhythm. Listen, then play it back beat by beat!",
+		"game": "generic",
+		"params": {
+			"costume": "give"
+		},
+		"coach": [
+			"A semibreve lasts 4 beats: hold it.",
+			"A minim lasts 2 beats: ta-a.",
+			"A crotchet lasts 1 beat; two quavers share one.",
+			"In 4/4 time, every bar holds 4 beats."
+		],
+		"world_task": "Build a rhythm path: a long block for each minim, a short block for each crotchet. Walk it saying ta-a and ta."
+	}
+}

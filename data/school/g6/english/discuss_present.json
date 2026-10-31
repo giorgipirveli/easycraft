@@ -1,0 +1,517 @@
+{
+	"id": "g6.english.discuss_present",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, what goes on a cue card? (Key words, not every sentence.) Today: take part in a discussion, build on others' ideas, and present a claim with evidence and a chart."
+		},
+		{
+			"text": "A good discussion needs preparation: read or research the topic first and bring notes with evidence. Agree the rules: one person speaks at a time, listen to understand, and every voice matters."
+		},
+		{
+			"text": "Build on others' ideas: \"Yes, and…\", \"That links to what Zara said…\", \"Could you explain why…?\" Disagree politely, with a reason: \"I see it differently, because…\" At the end, sum up what was agreed.",
+			"picture": {
+				"kind": "chat",
+				"name": "Zara",
+				"messages": [
+					[
+						"them",
+						"We should build a bridge."
+					],
+					[
+						"me",
+						"Yes, and it could have lanterns."
+					],
+					[
+						"them",
+						"Could you explain why lanterns?"
+					]
+				]
+			}
+		},
+		{
+			"text": "Present a claim clearly: open with a hook, state your claim, give two or three reasons with evidence, and end by saying your claim again. Use formal language for a class talk."
+		},
+		{
+			"text": "A chart makes evidence easy to see. Say what it shows and point to it: \"This chart shows how pupils come to school: most walk.\" A bar chart compares groups; a line graph shows change over time.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"walk",
+						12
+					],
+					[
+						"cycle",
+						6
+					],
+					[
+						"bus",
+						9
+					],
+					[
+						"car",
+						3
+					]
+				],
+				"to": 15,
+				"step": 3,
+				"title": "how pupils come to school"
+			}
+		},
+		{
+			"text": "Speak clearly, loudly enough for the back of the room, at a steady pace. Listen: these claps are a steady pace, with a pause after a main point.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x---x-x-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "Make eye contact round the room, stand still and tall, and pause after each main point so listeners can think. Practise out loud and time yourself."
+		},
+		{
+			"text": "Try it in the world: discuss one question with your family, such as what your world needs next. Let each person build on the last speaker's idea. Then give a one-minute talk with a chart. Next, in grade 7: speeches and media."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Listen: each clap is a word. Is this a steady pace?",
+			"answer": true,
+			"hint": "Are the gaps even, and not too fast?",
+			"explain": "True: even claps with gaps are a steady pace that listeners can follow.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 80
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Listen: each clap is a word. Is this speaker loud enough for the back of the room?",
+			"answer": false,
+			"hint": "Would someone far away hear it?",
+			"explain": "False: it is very quiet. Speak up so that everyone in the room can hear.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 80,
+				"volume": 0.2
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Tilly says: \"We could plant a tree.\" Which reply builds on her idea?",
+			"choices": [
+				"Yes, and we could choose one birds like.",
+				"No.",
+				"What about lunch?",
+				"I like pizza."
+			],
+			"answer": 0,
+			"hint": "Building on an idea means adding to it.",
+			"explain": "It adds to Tilly's idea instead of leaving it behind."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a good rule for a discussion?",
+			"choices": [
+				"one person speaks at a time",
+				"the loudest person wins",
+				"interrupt when you want",
+				"only the teacher talks"
+			],
+			"answer": 0,
+			"hint": "What helps everyone to be heard?",
+			"explain": "Taking turns means everyone can speak and be listened to."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The chart shows how pupils come to school. Which way is the most common?",
+			"choices": [
+				"walking",
+				"cycling",
+				"the bus",
+				"the car"
+			],
+			"answer": 0,
+			"hint": "Find the tallest bar.",
+			"explain": "The walk bar is the tallest: 12 pupils walk.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"walk",
+						12
+					],
+					[
+						"cycle",
+						6
+					],
+					[
+						"bus",
+						9
+					],
+					[
+						"car",
+						3
+					]
+				],
+				"to": 15,
+				"step": 3,
+				"title": "how pupils come to school"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which chart is best to show how a puppy's height changed each month?",
+			"choices": [
+				"a line graph",
+				"a pie chart",
+				"a bar chart"
+			],
+			"answer": 0,
+			"hint": "Is it change over time?",
+			"explain": "A line graph shows how something changes over time."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: each clap is a word. Where does the speaker pause?",
+			"choices": [
+				"after a group of words",
+				"never",
+				"after every word"
+			],
+			"answer": 0,
+			"hint": "Listen for the longer gap.",
+			"explain": "The long gap after four claps is a pause after a main point, giving listeners time to think.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-----x-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Zara says: \"We should have a quiet reading room.\" Which reply disagrees politely?",
+			"choices": [
+				"I see it differently, because rooms are busy.",
+				"Whatever you say.",
+				"No way!",
+				"Let's talk about sport."
+			],
+			"answer": 0,
+			"hint": "Polite disagreement gives a reason.",
+			"explain": "It shows respect and gives a reason, so the discussion can go on."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the parts of a short talk in order.",
+			"items": [
+				"your claim again",
+				"reasons with evidence",
+				"your claim",
+				"a hook"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Catch attention first; end by repeating your claim.",
+			"explain": "A hook, your claim, reasons with evidence, then your claim again."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: what helps listeners, and what gets in the way?",
+			"groups": [
+				"helps listeners",
+				"gets in the way"
+			],
+			"items": [
+				"eye contact round the room",
+				"reading every word from notes",
+				"a steady pace",
+				"mumbling",
+				"pausing after each point",
+				"turning your back"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "What would help you follow a talk?",
+			"explain": "Helps: eye contact, a steady pace, pausing after points. Gets in the way: reading every word, mumbling, turning your back."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In a discussion, listening carefully matters as much as speaking.",
+			"answer": true,
+			"hint": "How can you build on an idea you did not hear?",
+			"explain": "True: you can only build on or answer the ideas you have listened to."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which sentence explains a chart to listeners?",
+			"choices": [
+				"This chart shows that most of us walk.",
+				"Look.",
+				"Here is a picture.",
+				"Charts are colourful."
+			],
+			"answer": 0,
+			"hint": "Say what the chart shows.",
+			"explain": "It tells the audience what to notice in the chart."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen: each clap is a word. Is this a good pace for a talk?",
+			"answer": false,
+			"hint": "Could listeners keep up?",
+			"explain": "False: it is far too fast, with no pauses; slow down and pause after each point.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxxxxxxxxxxxxxxx",
+				"tempo": 170
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "At the end of a discussion, what should the group do?",
+			"choices": [
+				"sum up what was agreed",
+				"leave without a word",
+				"count who talked most",
+				"start a new topic"
+			],
+			"answer": 0,
+			"hint": "What helps everyone remember the outcome?",
+			"explain": "Summing up checks that everyone agrees on what was decided."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which evidence best supports: Our school needs more bike racks?",
+			"choices": [
+				"30 pupils cycle, but there are 10 racks.",
+				"Bikes are cool.",
+				"I have a bike.",
+				"Racks are made of metal."
+			],
+			"answer": 0,
+			"hint": "Which one gives numbers that show a problem?",
+			"explain": "The numbers show that there are not enough racks: strong evidence."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Oli has not spoken yet in the discussion. What could you say?",
+			"choices": [
+				"What do you think, Oli?",
+				"Let's finish now.",
+				"We know what Oli thinks.",
+				"Only the loud ones count."
+			],
+			"answer": 0,
+			"hint": "Every voice matters.",
+			"explain": "Inviting a quiet member in helps everyone take part."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Kit says the bus is the most popular way to school. Using the chart, how could you disagree politely?",
+			"choices": [
+				"I see it differently: 12 walk, 9 take the bus.",
+				"Buses are slow.",
+				"Whatever.",
+				"I don't mind."
+			],
+			"answer": 0,
+			"hint": "Use the chart's evidence, kindly.",
+			"explain": "The chart shows 12 walk and 9 take the bus, so a polite reply with the numbers is best.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"walk",
+						12
+					],
+					[
+						"cycle",
+						6
+					],
+					[
+						"bus",
+						9
+					],
+					[
+						"car",
+						3
+					]
+				],
+				"to": 15,
+				"step": 3,
+				"title": "how pupils come to school"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why pause after each main point?",
+			"choices": [
+				"to give listeners time to think",
+				"to finish sooner",
+				"to forget the next point",
+				"to make the talk longer"
+			],
+			"answer": 0,
+			"hint": "What does a pause do for the audience?",
+			"explain": "A short pause lets each point sink in before the next."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each phrase to what it does in a discussion.",
+			"items": [
+				"Yes, and...",
+				"I see it differently, because...",
+				"Could you explain why...?"
+			],
+			"matches": [
+				"asks for a reason",
+				"builds on an idea",
+				"disagrees politely"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Which one adds to what was said?",
+			"explain": "\"Yes, and\" builds on an idea, \"I see it differently\" disagrees politely, and \"Could you explain why\" asks for a reason."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Does it help a discussion?",
+			"items": [
+				"one person speaks at a time",
+				"talking over others",
+				"bringing notes with evidence",
+				"laughing at an idea"
+			],
+			"groups": [
+				"helps",
+				"does not help"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Would it help everyone to be heard?",
+			"explain": "Taking turns and bringing evidence help. Talking over people and laughing at ideas do not."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the sentences by their job in a discussion.",
+			"groups": [
+				"builds on an idea",
+				"disagrees politely",
+				"asks for a reason"
+			],
+			"items": [
+				"Yes, and we could add benches.",
+				"I see it differently, because…",
+				"Could you explain why?",
+				"That links to what Zara said.",
+				"I'm not sure: the field floods.",
+				"What makes you think so?"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Does it add to what was said, push back with a reason, or ask the speaker for more?",
+			"explain": "Builds on: 'Yes, and…', 'That links to…'. Disagrees politely: 'I see it differently…', 'I'm not sure: the field floods.' Asks for a reason: 'Could you explain why?', 'What makes you think so?'"
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Plan a one-minute talk with a chart: put its parts in order.",
+			"items": [
+				"Say your claim again.",
+				"Show the chart and say what it shows.",
+				"Open with a hook.",
+				"State your claim."
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "A hook to start, then the claim, the evidence, and the claim again to end.",
+			"explain": "Open with a hook, state your claim, show the chart and say what it shows (your evidence), then say your claim again so listeners remember it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Your talk has a 10-second hook, 3 reasons of 15 seconds each, and a 5-second ending. How many seconds long is it?",
+			"answer": "60",
+			"hint": "Work out the reasons' time first, then add the hook and the ending.",
+			"explain": "3 reasons × 15 s = 45 s. Then 45 + 10 + 5 = 60 seconds: a one-minute talk."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6k.build_on",
+			"level": 1
+		},
+		{
+			"gen": "g6k.build_on",
+			"level": 2
+		},
+		{
+			"gen": "g6k.build_on",
+			"level": 3
+		},
+		{
+			"gen": "g6k.chart_choice",
+			"level": 1
+		},
+		{
+			"gen": "g6k.chart_choice",
+			"level": 2
+		},
+		{
+			"gen": "g6k.chart_choice",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,459 @@
+{
+	"id": "g5.music.music_tech",
+	"lesson": [
+		{
+			"text": "Quick memory: what is an ostinato? (A pattern that repeats, like a loop.) Today: making music with technology: recording, loops, layers and editing."
+		},
+		{
+			"text": "A microphone turns sound into an electric signal, and a computer stores it as numbers. The recording's waveform shows it: tall where it is loud, flat where it is silent.",
+			"picture": {
+				"kind": "waveform",
+				"levels": [
+					0,
+					0,
+					1,
+					6,
+					9,
+					5,
+					7,
+					8,
+					4,
+					2,
+					1,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		{
+			"text": "A loop is a short piece of music that repeats smoothly, again and again. A 2-bar drum loop played 4 times makes 8 bars of music."
+		},
+		{
+			"text": "A step sequencer is a grid: each row is a sound, and each box is a step in time. Switch boxes on, and the computer plays them, round and round.",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"kick",
+						"x---x---x---x---"
+					],
+					[
+						"snare",
+						"----x-------x---"
+					],
+					[
+						"hat",
+						"x-x-x-x-x-x-x-x-"
+					]
+				]
+			}
+		},
+		{
+			"text": "Layers: music software stacks tracks, one for each part: drums, bass, tune and voice. Each track can start, stop, and be louder or quieter than the others.",
+			"picture": {
+				"kind": "tracks",
+				"tracks": [
+					[
+						"drums",
+						[
+							[
+								0,
+								4
+							]
+						]
+					],
+					[
+						"bass",
+						[
+							[
+								0,
+								2
+							],
+							[
+								2,
+								2
+							]
+						]
+					],
+					[
+						"voice",
+						[
+							[
+								2,
+								2
+							]
+						]
+					]
+				],
+				"bars": 4,
+				"loop": [
+					0,
+					2
+				]
+			}
+		},
+		{
+			"text": "Editing: trim off the silence at the start and end, and copy and paste a good part. Move a clip, or make a track fade out slowly at the end.",
+			"picture": {
+				"kind": "waveform",
+				"levels": [
+					0,
+					0,
+					1,
+					6,
+					9,
+					5,
+					7,
+					8,
+					4,
+					2,
+					1,
+					0,
+					0,
+					0
+				],
+				"keep": [
+					2,
+					11
+				]
+			}
+		},
+		{
+			"text": "Worked example: at 120 beats a minute, one beat lasts half a second. 8 bars of 4/4 is 8 × 4 = 32 beats, so they last 32 ÷ 2 = 16 seconds."
+		},
+		{
+			"text": "Try it in the world: clap a 1-bar pattern, then plan a song on squared paper: a loop for the drums, one for the bass and a tune on top. Keep headphones at a comfortable volume. Next, in grade 6: scales and keys."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where is this recording silent?",
+			"answer": 0,
+			"hint": "Tall means loud. What does no sound look like?",
+			"choices": [
+				"where the line is flat",
+				"where the bars are tallest",
+				"in the middle",
+				"nowhere"
+			],
+			"explain": "Silence is flat, at the very start and the end.",
+			"picture": {
+				"kind": "waveform",
+				"levels": [
+					0,
+					0,
+					1,
+					6,
+					9,
+					5,
+					7,
+					8,
+					4,
+					2,
+					1,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A loop is a short piece of music that repeats.",
+			"answer": true,
+			"hint": "Think of a drum pattern going round and round.",
+			"explain": "True: a loop repeats smoothly, again and again."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"record",
+				"loop",
+				"layer",
+				"trim"
+			],
+			"matches": [
+				"tracks stacked together",
+				"cut silence off the ends",
+				"save sounds to play back",
+				"a part that repeats"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the lesson's cards.",
+			"explain": "Record saves sounds, a loop repeats, layers stack tracks, and trimming cuts the silence off the ends."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Listen. The same 4-note loop plays again and again. How many times does it play?",
+			"answer": "3",
+			"hint": "Count the times you hear it start again on the low note.",
+			"explain": "C, E, G, E three times: 3 times.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C4",
+					"E4",
+					"G4",
+					"E4"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many times does the kick drum play in this step grid?",
+			"answer": "4",
+			"hint": "Count the coloured boxes in the kick's row.",
+			"explain": "The kick has 4 coloured boxes: one on every beat.",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"kick",
+						"x---x---x---x---"
+					],
+					[
+						"hat",
+						"x-x-x-x-x-x-x-x-"
+					]
+				],
+				"mark": 0
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Listen to the loop, then switch on the boxes where it plays.",
+			"hint": "Count 1 & 2 & 3 & 4 & along with it.",
+			"explain": "The claps are in boxes 1, 3, 4, 5 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx-x-",
+				"tempo": 75
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does trimming a recording do?",
+			"answer": 0,
+			"hint": "Look at the flat parts at the start and end.",
+			"choices": [
+				"cuts the silence off the ends",
+				"makes it louder",
+				"adds an echo",
+				"copies it"
+			],
+			"explain": "Trimming cuts off the silence at the start and the end.",
+			"picture": {
+				"kind": "waveform",
+				"levels": [
+					0,
+					0,
+					1,
+					6,
+					9,
+					5,
+					7,
+					8,
+					4,
+					2,
+					1,
+					0,
+					0,
+					0
+				],
+				"keep": [
+					2,
+					11
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of making a track in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need sounds before you can loop them.",
+			"items": [
+				"Make a loop",
+				"Edit: trim, copy, move",
+				"Record or choose the sounds",
+				"Layer tracks on top",
+				"Listen back and share"
+			],
+			"explain": "Record the sounds, make a loop, layer more tracks, edit them, then listen back and share."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 2-bar loop plays 4 times. How many bars is that?",
+			"answer": "8",
+			"hint": "Each time it plays, it adds 2 bars.",
+			"explain": "4 × 2 = 8 bars."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "At 60 beats a minute, how many seconds do 6 bars of 4/4 last?",
+			"answer": "24",
+			"hint": "Work out the beats first, then how long one beat lasts.",
+			"explain": "6 × 4 = 24 beats. At 60 beats a minute, a beat lasts 1 second, so 24 seconds."
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Listen to the drum loop, then mark the boxes where it plays.",
+			"hint": "Where do two hits come right next to each other?",
+			"explain": "The claps are in boxes 1, 2, 4, 6 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xx-x-xx-",
+				"tempo": 80
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Listen, then mark the boxes where the shaker plays.",
+			"hint": "Is the pattern steady all the way through?",
+			"explain": "The claps are in boxes 1, 3, 5, 7 and 8.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-xx",
+				"tempo": 80
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. This loop is 1 bar of 4/4, 4 claps, at 120 beats a minute. About how long is each beat?",
+			"answer": 0,
+			"hint": "120 beats in 60 seconds: how many beats in one second?",
+			"choices": [
+				"about half a second",
+				"about two seconds"
+			],
+			"explain": "120 beats a minute is 2 beats a second, so each beat lasts about half a second.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 120
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In how many bars are all three tracks playing at once?",
+			"answer": "2",
+			"hint": "Go bar by bar: is there a clip in every row?",
+			"explain": "Drums play all 8 bars, the bass bars 1-2 and 5-8, the tune bars 3-6: all three play in bars 5 and 6.",
+			"picture": {
+				"kind": "tracks",
+				"tracks": [
+					[
+						"drums",
+						[
+							[
+								0,
+								8
+							]
+						]
+					],
+					[
+						"bass",
+						[
+							[
+								0,
+								2
+							],
+							[
+								4,
+								4
+							]
+						]
+					],
+					[
+						"tune",
+						[
+							[
+								2,
+								4
+							]
+						]
+					]
+				],
+				"bars": 8
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Keeping headphones at a comfortable volume protects your hearing.",
+			"answer": true,
+			"hint": "Loud sounds for a long time can harm your ears.",
+			"explain": "True: loud music in headphones for a long time can damage hearing, so keep it comfortable."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen. How many notes are in the loop before it starts again?",
+			"answer": "3",
+			"hint": "Listen for when the pattern comes back to its start.",
+			"explain": "G, G, E, then a rest, and again: 3 notes.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"G4",
+					"E4",
+					"-",
+					"G4",
+					"G4",
+					"E4",
+					"-"
+				]
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.loop_time",
+			"level": 1
+		},
+		{
+			"gen": "g5a.loop_time",
+			"level": 2
+		},
+		{
+			"gen": "g5a.loop_time",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,541 @@
+{
+	"id": "g5.computing.spreadsheets_intro",
+	"lesson": [
+		{
+			"text": "Quick memory: which way do a table's rows and columns go? (Rows go across, columns go down.) Today: a table that does its own sums."
+		},
+		{
+			"text": "A spreadsheet is a grid of cells. The columns have letters (A, B, C) and the rows have numbers (1, 2, 3). A cell's name is its column, then its row: B3.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Buddy",
+						"Gems"
+					],
+					[
+						"Pip",
+						"12"
+					],
+					[
+						"Moss",
+						"8"
+					],
+					[
+						"Fizz",
+						"15"
+					]
+				],
+				"mark": "B3"
+			}
+		},
+		{
+			"text": "Enter data: type words or numbers into the cells. Put a heading at the top of each column, like Buddy and Gems, so everyone knows what the numbers mean."
+		},
+		{
+			"text": "A formula starts with =. =B2+B3 adds the numbers in B2 and B3. =SUM(B2:B4) adds every cell from B2 down to B4.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Buddy",
+						"Gems"
+					],
+					[
+						"Pip",
+						"12"
+					],
+					[
+						"Moss",
+						"8"
+					],
+					[
+						"Fizz",
+						"15"
+					],
+					[
+						"Total",
+						"=SUM(B2:B4)"
+					]
+				],
+				"mark": "B5",
+				"show": "formulas"
+			}
+		},
+		{
+			"text": "Worked example: Pip's 12, Moss's 8 and Fizz's 15 gems are in B2 to B4. In B5, =SUM(B2:B4) shows 12 + 8 + 15 = 35.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Buddy",
+						"Gems"
+					],
+					[
+						"Pip",
+						"12"
+					],
+					[
+						"Moss",
+						"8"
+					],
+					[
+						"Fizz",
+						"15"
+					],
+					[
+						"Total",
+						"=SUM(B2:B4)"
+					]
+				],
+				"mark": "B5"
+			}
+		},
+		{
+			"text": "Now the clever part: change a number, and every formula works itself out again. If Moss finds 2 more gems, B3 becomes 10 and B5 shows 12 + 10 + 15 = 37 by itself."
+		},
+		{
+			"text": "Make a chart: select the names and numbers, then choose a column chart. Give it a title, and check its axis starts at 0.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"Pip",
+						12
+					],
+					[
+						"Moss",
+						8
+					],
+					[
+						"Fizz",
+						15
+					]
+				],
+				"to": 16,
+				"step": 2,
+				"title": "Gems found"
+			}
+		},
+		{
+			"text": "Try it in the world: on squared paper, or in a real spreadsheet with a grown-up, list the blocks in your bag. Put a total at the bottom, then draw a chart. Next: people you meet online."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which cell is in column C and row 4?",
+			"answer": 0,
+			"hint": "A cell's name is its column letter, then its row number.",
+			"choices": [
+				"C4",
+				"4C",
+				"D3",
+				"C3"
+			],
+			"explain": "Column C, row 4: C4."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A formula in a spreadsheet starts with =.",
+			"answer": true,
+			"hint": "Look at the total cell's formula.",
+			"explain": "True: = tells the spreadsheet to work something out, like =SUM(B2:B4)."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What will B4 show?",
+			"answer": "15",
+			"hint": "=B2+B3 adds the numbers in B2 and B3.",
+			"explain": "B2 + B3 = 6 + 9 = 15.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Buddy",
+						"Gems"
+					],
+					[
+						"Pip",
+						"6"
+					],
+					[
+						"Moss",
+						"9"
+					],
+					[
+						"Total",
+						"=B2+B3"
+					]
+				],
+				"mark": "B4",
+				"show": "formulas"
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each formula to what it does.",
+			"items": [
+				"=SUM(B2:B5)",
+				"=B2+B3",
+				"=MAX(B2:B5)",
+				"=MIN(B2:B5)"
+			],
+			"matches": [
+				"finds the smallest",
+				"adds B2 to B5",
+				"adds two cells",
+				"finds the biggest"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "SUM adds, MAX is the most, MIN is the least.",
+			"explain": "=SUM(B2:B5) adds B2 to B5, =B2+B3 adds two cells, MAX finds the biggest and MIN the smallest."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What will B6 show?",
+			"answer": "43",
+			"hint": "SUM adds every cell from B2 down to B5.",
+			"explain": "7 + 14 + 9 + 13 = 43.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Buddy",
+						"Blocks"
+					],
+					[
+						"Tilly",
+						"7"
+					],
+					[
+						"Zara",
+						"14"
+					],
+					[
+						"Bram",
+						"9"
+					],
+					[
+						"Mimi",
+						"13"
+					],
+					[
+						"Total",
+						"=SUM(B2:B5)"
+					]
+				],
+				"mark": "B6",
+				"show": "formulas"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What will B6 show?",
+			"answer": "14",
+			"hint": "MAX finds the biggest number from B2 to B5.",
+			"explain": "The numbers are 7, 14, 9 and 13. The biggest is 14.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Buddy",
+						"Blocks"
+					],
+					[
+						"Tilly",
+						"7"
+					],
+					[
+						"Zara",
+						"14"
+					],
+					[
+						"Bram",
+						"9"
+					],
+					[
+						"Mimi",
+						"13"
+					],
+					[
+						"Most",
+						"=MAX(B2:B5)"
+					]
+				],
+				"mark": "B6",
+				"show": "formulas"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Moss finds 2 more gems. What must you change so the total is right?",
+			"answer": 0,
+			"hint": "What does the formula do when a number changes?",
+			"choices": [
+				"only the number in Moss's cell",
+				"the SUM formula",
+				"every cell",
+				"nothing can change it"
+			],
+			"explain": "Change only Moss's number: the SUM formula works the total out again by itself."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps for making a chart in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need data before you can select it.",
+			"items": [
+				"Select the names and numbers",
+				"Add a title",
+				"Type the headings and data",
+				"Choose a column chart",
+				"Check the axis starts at 0"
+			],
+			"explain": "Type the data, select it, choose the chart, give it a title, and check its axis starts at 0."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many blocks did Tilly place on Tuesday?",
+			"answer": "8",
+			"hint": "Find Tuesday's bar and go straight across from its top to the numbers.",
+			"explain": "The top of Tuesday's bar is level with 8.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"Mon",
+						4
+					],
+					[
+						"Tue",
+						8
+					],
+					[
+						"Wed",
+						2
+					],
+					[
+						"Thu",
+						6
+					]
+				],
+				"to": 10,
+				"step": 2,
+				"title": "Tilly's blocks"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What will D4 show?",
+			"answer": "22",
+			"hint": "Work out D2 and D3 first: cost × how many. Then D4 adds them.",
+			"explain": "D2 = 3 × 4 = 12, D3 = 5 × 2 = 10, and D4 = 12 + 10 = 22 gold.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Item",
+						"Cost",
+						"How many",
+						"Total"
+					],
+					[
+						"rope",
+						"3",
+						"4",
+						"=B2*C2"
+					],
+					[
+						"lamp",
+						"5",
+						"2",
+						"=B3*C3"
+					],
+					[
+						"All",
+						"",
+						"",
+						"=D2+D3"
+					]
+				],
+				"mark": "D4",
+				"show": "formulas"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "B2 to B4 hold 10, 7 and 13, and B5 holds =SUM(B2:B4). Zara changes B3 to 12. What does the total become?",
+			"answer": "35",
+			"hint": "The formula adds B2, B3 and B4 again, with B3's new number.",
+			"explain": "10 + 12 + 13 = 35. The formula worked it out again by itself.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Buddy",
+						"Gems"
+					],
+					[
+						"Pip",
+						"10"
+					],
+					[
+						"Moss",
+						"7"
+					],
+					[
+						"Fizz",
+						"13"
+					],
+					[
+						"Total",
+						"=SUM(B2:B4)"
+					]
+				],
+				"mark": "B5",
+				"show": "formulas"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which formula adds the numbers in B2, B3, B4, B5 and B6?",
+			"answer": 0,
+			"hint": "A range goes from the first cell to the last, and a formula starts with =.",
+			"choices": [
+				"=SUM(B2:B6)",
+				"=SUM(B2:B5)",
+				"=B2+B6",
+				"SUM B2 B6"
+			],
+			"explain": "=SUM(B2:B6) adds every cell from B2 to B6. =B2+B6 adds only two cells, and SUM B2 B6 has no =."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If you type a total yourself instead of using a formula, it changes by itself when a number changes.",
+			"answer": false,
+			"hint": "Who works out a typed number?",
+			"explain": "False: a typed total is just a number. Only a formula works itself out again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which chart shows Pip 4, Moss 8 and Fizz 6 fairly?",
+			"answer": 0,
+			"hint": "Check the numbers first, then check where the axis starts.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "column_chart",
+						"bars": [
+							[
+								"Pip",
+								4
+							],
+							[
+								"Moss",
+								8
+							],
+							[
+								"Fizz",
+								6
+							]
+						],
+						"to": 10,
+						"step": 2
+					}
+				},
+				{
+					"picture": {
+						"kind": "column_chart",
+						"bars": [
+							[
+								"Pip",
+								4
+							],
+							[
+								"Moss",
+								8
+							],
+							[
+								"Fizz",
+								6
+							]
+						],
+						"to": 8,
+						"step": 1,
+						"from": 3
+					}
+				},
+				{
+					"picture": {
+						"kind": "column_chart",
+						"bars": [
+							[
+								"Pip",
+								4
+							],
+							[
+								"Moss",
+								6
+							],
+							[
+								"Fizz",
+								8
+							]
+						],
+						"to": 10,
+						"step": 2
+					}
+				}
+			],
+			"explain": "The fair chart has the right numbers and an axis that starts at 0, so Moss's bar is twice as tall as Pip's."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.sheet_sum",
+			"level": 1
+		},
+		{
+			"gen": "g5a.sheet_sum",
+			"level": 2
+		},
+		{
+			"gen": "g5a.sheet_sum",
+			"level": 3
+		},
+		{
+			"gen": "g5a.chart_read",
+			"level": 1
+		},
+		{
+			"gen": "g5a.chart_read",
+			"level": 2
+		}
+	]
+}

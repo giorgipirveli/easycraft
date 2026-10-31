@@ -1,0 +1,405 @@
+{
+	"id": "g3.maths.numbers_to_10000",
+	"lesson": [
+		{
+			"text": "Quick memory: what number is 300 + 40 + 5? It is 345: 3 hundreds, 4 tens and 5 ones. Today the numbers grow one place bigger: thousands!",
+			"picture": {
+				"kind": "blocks",
+				"thousands": 0,
+				"hundreds": 3,
+				"tens": 4,
+				"ones": 5
+			}
+		},
+		{
+			"text": "Ten hundreds make one thousand: 1,000. Here are 2 thousands, 3 hundreds, 5 tens and 4 ones: the number 2,354. We write a comma after the thousands.",
+			"picture": {
+				"kind": "blocks",
+				"thousands": 2,
+				"hundreds": 3,
+				"tens": 5,
+				"ones": 4
+			}
+		},
+		{
+			"text": "Each place is worth ten times the place on its right. In 4,735 the 4 is worth 4,000 and the 7 is worth 700. The 3 is worth 30 and the 5 is worth 5: 4,000 + 700 + 30 + 5.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"thousands",
+						"hundreds",
+						"tens",
+						"ones"
+					],
+					[
+						"4",
+						"7",
+						"3",
+						"5"
+					]
+				]
+			}
+		},
+		{
+			"text": "To compare two numbers, line up the places and start on the left. In 3,482 and 3,428 the thousands and hundreds are the same, but 8 tens are more than 2 tens, so 3,482 > 3,428.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"thousands",
+						"hundreds",
+						"tens",
+						"ones"
+					],
+					[
+						"3",
+						"4",
+						"8",
+						"2"
+					],
+					[
+						"3",
+						"4",
+						"2",
+						"8"
+					]
+				]
+			}
+		},
+		{
+			"text": "Rounding finds the nearest easy number. 4,735 is between 4,700 and 4,800, and nearer to 4,700. So to the nearest hundred it rounds to 4,700. A 5 or more in the next place rounds up.",
+			"picture": {
+				"kind": "number_line",
+				"from": "4700",
+				"to": "4800",
+				"step": "10",
+				"labels": "ends",
+				"dot": "4735"
+			}
+		},
+		{
+			"text": "Roman numerals are letters for numbers: I = 1, V = 5, X = 10, L = 50, C = 100. Add them up: XVI = 10 + 5 + 1 = 16. A smaller one in front is taken away: IV = 4, IX = 9, XL = 40.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"I",
+						"V",
+						"X",
+						"L",
+						"C"
+					],
+					[
+						"1",
+						"5",
+						"10",
+						"50",
+						"100"
+					]
+				]
+			}
+		},
+		{
+			"text": "Hoot's tip: say a number in parts. 6,093 is six thousand and ninety-three: the 0 keeps the hundreds place empty. Next, in grade 4: numbers up to a million!",
+			"picture": {
+				"kind": "blocks",
+				"thousands": 6,
+				"hundreds": 0,
+				"tens": 9,
+				"ones": 3
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What number do the blocks show?",
+			"answer": "1206",
+			"hint": "A big cube is 1,000, a flat is 100, a rod is 10 and a small cube is 1.",
+			"explain": "1 thousand, 2 hundreds, 0 tens and 6 ones make 1,206.",
+			"picture": {
+				"kind": "blocks",
+				"thousands": 1,
+				"hundreds": 2,
+				"tens": 0,
+				"ones": 6
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the value of the 6 in 3,642?",
+			"choices": [
+				"600",
+				"6",
+				"60",
+				"6,000"
+			],
+			"answer": 0,
+			"hint": "Count the places from the right: ones, tens, hundreds.",
+			"explain": "The 6 is in the hundreds place, so it is worth 600."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "5,000 + 300 + 70 + 2 = ?",
+			"answer": "5372",
+			"hint": "Each part fills one place: thousands, hundreds, tens, ones.",
+			"explain": "5 thousands, 3 hundreds, 7 tens and 2 ones make 5,372."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "4,090 > 4,009",
+			"answer": true,
+			"hint": "The thousands and hundreds are the same. Compare the tens.",
+			"explain": "4,090 has 9 tens and 4,009 has 0 tens, so 4,090 is greater."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Round 68 to the nearest ten.",
+			"answer": "70",
+			"hint": "The ones digit is 8: 5 or more rounds up.",
+			"explain": "68 is between 60 and 70, nearer to 70."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The Roman numeral XII is which number?",
+			"answer": "12",
+			"hint": "X = 10 and I = 1. Add them up.",
+			"explain": "X + I + I = 10 + 1 + 1 = 12."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these numbers in order, smallest first.",
+			"items": [
+				"9,002",
+				"2,990",
+				"2,909",
+				"2,099"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Compare the thousands first, then the hundreds, then the tens.",
+			"explain": "2,099 has 0 hundreds; 2,909 and 2,990 have 9 hundreds, and 0 tens < 9 tens; 9,002 has 9 thousands."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Round 3,462 to the nearest hundred.",
+			"answer": "3500",
+			"hint": "Look at the tens digit: 6. 5 or more rounds up.",
+			"explain": "3,462 is between 3,400 and 3,500, nearer to 3,500.",
+			"picture": {
+				"kind": "number_line",
+				"from": "3400",
+				"to": "3500",
+				"step": "10",
+				"labels": "ends",
+				"dot": "3462"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which number is \"six thousand and forty\"?",
+			"choices": [
+				"6,040",
+				"6,400",
+				"6,004",
+				"640"
+			],
+			"answer": 0,
+			"hint": "Six thousands, no hundreds, forty: a 0 keeps the hundreds place.",
+			"explain": "6 thousands, 0 hundreds, 4 tens, 0 ones: 6,040."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is 1,000 more than 7,815?",
+			"answer": "8815",
+			"hint": "Only the thousands digit changes: one more thousand.",
+			"explain": "7,815 + 1,000 = 8,815."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is 49 in Roman numerals?",
+			"choices": [
+				"XLIX",
+				"IL",
+				"XXXXVIIII",
+				"LI"
+			],
+			"answer": 0,
+			"hint": "49 is 40 + 9. 40 is XL and 9 is IX.",
+			"explain": "XL + IX = 40 + 9 = 49: XLIX."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "To the nearest thousand, 6,500 rounds to 7,000.",
+			"answer": true,
+			"hint": "Look at the hundreds digit: 5.",
+			"explain": "The hundreds digit is 5, and 5 or more rounds up, so 6,500 rounds to 7,000."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Round 9,748 to the nearest thousand.",
+			"answer": "10000",
+			"hint": "The hundreds digit is 7. Which thousand comes after 9,000?",
+			"explain": "9,748 is between 9,000 and 10,000, nearer to 10,000."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A number rounds to 5,000 to the nearest thousand. Which could it be?",
+			"choices": [
+				"4,512",
+				"4,498",
+				"5,604",
+				"5,500"
+			],
+			"answer": 0,
+			"hint": "Round each one: look at its hundreds digit.",
+			"explain": "4,512 rounds up to 5,000. 4,498 rounds to 4,000; 5,604 and 5,500 round to 6,000."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Roman numeral LXXVI is which number?",
+			"answer": "76",
+			"hint": "L = 50, X = 10, V = 5, I = 1. Add them from the left.",
+			"explain": "L + X + X + V + I = 50 + 10 + 10 + 5 + 1 = 76."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In 8,888, the 8 in the thousands place is worth ten times the 8 in the hundreds place.",
+			"answer": true,
+			"hint": "Each place is worth ten times the place on its right.",
+			"explain": "8,000 is ten times 800."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the Roman numerals in order, smallest first.",
+			"items": [
+				"XI",
+				"XL",
+				"IX",
+				"XIX",
+				"LX"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Change each one into a number first.",
+			"explain": "IX = 9, XI = 11, XIX = 19, XL = 40, LX = 60."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara's number has 4 thousands, 0 hundreds, 7 tens and 2 ones. What is it?",
+			"answer": "4072",
+			"hint": "Write the digits in their places: thousands, hundreds, tens, ones.",
+			"explain": "4,000 + 70 + 2 = 4,072."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3m.place_value",
+			"level": 1
+		},
+		{
+			"gen": "g3m.place_value",
+			"level": 2
+		},
+		{
+			"gen": "g3m.place_value",
+			"level": 3
+		},
+		{
+			"gen": "g3m.blocks_number",
+			"level": 1
+		},
+		{
+			"gen": "g3m.blocks_number",
+			"level": 2
+		},
+		{
+			"gen": "g3m.blocks_number",
+			"level": 3
+		},
+		{
+			"gen": "g3m.expanded",
+			"level": 1
+		},
+		{
+			"gen": "g3m.expanded",
+			"level": 2
+		},
+		{
+			"gen": "g3m.expanded",
+			"level": 3
+		},
+		{
+			"gen": "g3m.compare",
+			"level": 1
+		},
+		{
+			"gen": "g3m.compare",
+			"level": 2
+		},
+		{
+			"gen": "g3m.compare",
+			"level": 3
+		},
+		{
+			"gen": "g3m.order_numbers",
+			"level": 2
+		},
+		{
+			"gen": "g3m.order_numbers",
+			"level": 3
+		},
+		{
+			"gen": "g3m.round_number",
+			"level": 1
+		},
+		{
+			"gen": "g3m.round_number",
+			"level": 2
+		},
+		{
+			"gen": "g3m.round_number",
+			"level": 3
+		},
+		{
+			"gen": "g3m.roman",
+			"level": 1
+		},
+		{
+			"gen": "g3m.roman",
+			"level": 2
+		},
+		{
+			"gen": "g3m.roman",
+			"level": 3
+		}
+	]
+}

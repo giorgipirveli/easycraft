@@ -1,0 +1,312 @@
+{
+	"id": "g8.citizenship.technology_ethics",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met three ways to judge what is right: fairness, consequences and kindness. Which one asks what will happen? (Consequences.) Today: big questions about AI, privacy and fairness, with reasons on both sides."
+		},
+		{
+			"text": "Technology raises questions with no simple answer. To think well, understand the question and list who is affected: the stakeholders. Give reasons on each side with evidence, weigh them, then decide and explain why. Polite disagreement is fine.",
+			"picture": {
+				"kind": "argument_map",
+				"claim": "Schools should use face-scanning cameras",
+				"reasons": [
+					"stops strangers getting in",
+					"no passes to lose"
+				],
+				"counter": "faces are private, and mistakes happen",
+				"titles": true
+			}
+		},
+		{
+			"text": "AI, artificial intelligence, learns patterns from huge amounts of data, then makes guesses: recognising faces, suggesting videos, writing text. It can be very useful, but it can be wrong, and it can copy unfair patterns hidden in its data."
+		},
+		{
+			"text": "If an AI learns mostly from photos of adults, it may do worse with children's faces: that is bias. Fairer AI needs varied data, testing on everyone, and people who can check and correct its decisions."
+		},
+		{
+			"text": "Personal data is anything that can identify you: your name, face, address, location, voice. Apps and websites collect it, sometimes to sell adverts. Laws such as the GDPR (2018) give you rights over it; in the UK you agree for yourself from 13."
+		},
+		{
+			"text": "Weigh the reasons. For face cameras at a school gate: no lost passes, strangers stopped. Against: faces are private data, mistakes happen, pupils may feel watched. Which reasons weigh more, and for whom?",
+			"picture": {
+				"kind": "balance_scale",
+				"left": [
+					"finds lost children fast",
+					"no passes to lose"
+				],
+				"right": [
+					"faces are private data",
+					"it can make mistakes",
+					"who keeps the pictures?"
+				],
+				"left_name": "for",
+				"right_name": "against",
+				"title": "Face cameras at school?"
+			}
+		},
+		{
+			"text": "Automation and AI change jobs: some disappear, new ones appear, and many change. Big questions remain: who benefits, who checks the machines, and how do we keep people in charge of important decisions? Citizens, not only engineers, should help decide."
+		},
+		{
+			"text": "Try it in the world: hold a debate in your village: should robots deliver parcels? Each side gives three reasons, then everyone votes. Can you explain the other side's best reason? Next: keep asking big questions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is personal data?",
+			"choices": [
+				"a game's score",
+				"anything that can identify you",
+				"the weather",
+				"only your password"
+			],
+			"answer": 1,
+			"hint": "Think of your name, face and address.",
+			"explain": "Personal data is anything that can identify you."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "AI can make mistakes.",
+			"answer": true,
+			"hint": "AI makes guesses from patterns.",
+			"explain": "True: it guesses from patterns, so it can be wrong, sometimes unfairly."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "In the UK, from what age can you agree yourself to an app using your personal data?",
+			"answer": "13",
+			"hint": "Look back at the card about personal data.",
+			"explain": "From 13, in the UK; younger children need a parent's agreement."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a stakeholder?",
+			"choices": [
+				"a kind of robot",
+				"a game's owner",
+				"a password",
+				"anyone affected by a decision"
+			],
+			"answer": 3,
+			"hint": "Think of everyone who has something at stake.",
+			"explain": "A stakeholder is anyone affected by a decision."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "The idea: a school app that tracks where pupils are. Sort the reasons: for or against?",
+			"groups": [
+				"for",
+				"against"
+			],
+			"items": [
+				"parents know pupils are safe",
+				"location is private data",
+				"the register is taken for you",
+				"the data could be hacked",
+				"finds a lost pupil quickly",
+				"pupils may feel watched"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does the reason make the idea better, or warn of a cost or a risk?",
+			"explain": "For: parents know pupils are safe, lost pupils found, the register done. Against: private data, feeling watched, hacking."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "An AI learned from 800 photos of adults and 200 of children. What percentage were of children?",
+			"answer": "20",
+			"hint": "Find the total first, then the children's share.",
+			"explain": "800 + 200 = 1,000; 200 ÷ 1,000 × 100 = 20%."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"AI",
+				"bias",
+				"privacy",
+				"automation"
+			],
+			"matches": [
+				"machines doing tasks",
+				"unfair leaning in results",
+				"machines that learn patterns",
+				"control over your information"
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "Learning, unfairness, control and machines at work.",
+			"explain": "AI: learning patterns. Bias: unfair results. Privacy: control over your information. Automation: machines doing tasks."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of thinking about a big question in order.",
+			"items": [
+				"list the stakeholders",
+				"give reasons on each side",
+				"weigh the reasons",
+				"decide and explain why",
+				"understand the question"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				2,
+				3
+			],
+			"hint": "Understand, then reason, then decide.",
+			"explain": "Understand the question, list stakeholders, give reasons, weigh them, decide and explain."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why might an AI do worse with children's faces?",
+			"choices": [
+				"it is too old",
+				"it learned mostly from adults' faces",
+				"faces are all the same",
+				"children have no faces"
+			],
+			"answer": 1,
+			"hint": "Think of what it learned from.",
+			"explain": "If its training data was mostly adults, it has learned less about children's faces: bias."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The GDPR gives people rights over their personal data.",
+			"answer": true,
+			"hint": "Look back at the card about personal data.",
+			"explain": "True: such as the right to see the data held about you and to have some of it deleted."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What helps make an AI fairer?",
+			"choices": [
+				"less data",
+				"no testing",
+				"varied data, testing on everyone, human checks",
+				"hiding how it works"
+			],
+			"answer": 2,
+			"hint": "Think about where bias comes from, and who can catch it.",
+			"explain": "Varied training data, testing on all kinds of people, and humans who check and correct it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An AI was tested on 500 faces and made 25 mistakes. What percentage did it get right?",
+			"answer": "95",
+			"hint": "Find the percentage wrong first, then take it from 100.",
+			"explain": "25 ÷ 500 × 100 = 5% wrong; 100 − 5 = 95% right."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In a debate, why try to state the other side's best reason?",
+			"choices": [
+				"to confuse people",
+				"it shows you understand and tests your view",
+				"it is not allowed",
+				"to lose on purpose"
+			],
+			"answer": 1,
+			"hint": "Think of a fair argument.",
+			"explain": "It shows respect and understanding, and checks whether your own view still stands."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: personal data or not?",
+			"groups": [
+				"personal data",
+				"not personal"
+			],
+			"items": [
+				"your voice recording",
+				"your location right now",
+				"a map of a city",
+				"your school photo",
+				"a recipe",
+				"today's weather"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Could it show who you are or where you are?",
+			"explain": "Personal: your voice, your photo, your location. Not personal: a city map, a recipe, the weather."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Only engineers should decide how AI is used.",
+			"answer": false,
+			"hint": "Think about who is affected by AI's decisions.",
+			"explain": "False: AI affects everyone, so citizens, not only engineers, should help decide the rules."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.for_or_against",
+			"level": 1
+		},
+		{
+			"gen": "g8h.for_or_against",
+			"level": 2
+		},
+		{
+			"gen": "g8h.for_or_against",
+			"level": 3
+		},
+		{
+			"gen": "g8h.personal_data",
+			"level": 1
+		},
+		{
+			"gen": "g8h.personal_data",
+			"level": 2
+		},
+		{
+			"gen": "g8h.personal_data",
+			"level": 3
+		},
+		{
+			"gen": "g8h.training_data",
+			"level": 1
+		},
+		{
+			"gen": "g8h.training_data",
+			"level": 2
+		},
+		{
+			"gen": "g8h.training_data",
+			"level": 3
+		}
+	]
+}

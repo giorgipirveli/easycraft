@@ -1,0 +1,224 @@
+{
+	"id": "g6.maths.convert_ratios",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, percent. What is 50% of 30? Half of 30: 15."
+		},
+		{
+			"text": "A conversion is a ratio: 1 hour to 60 minutes is 1 : 60. Use it like any equal ratios: 2 : 120, 3 : 180.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"hours",
+						"minutes"
+					],
+					[
+						"1",
+						"60"
+					],
+					[
+						"2",
+						"120"
+					],
+					[
+						"3",
+						"180"
+					],
+					[
+						"2.5",
+						"150"
+					]
+				]
+			}
+		},
+		{
+			"text": "To change a big unit to a small one, multiply: 3 hours = 3 × 60 = 180 minutes."
+		},
+		{
+			"text": "To change a small unit to a big one, divide: 150 minutes = 150 ÷ 60 = 2.5 hours."
+		},
+		{
+			"text": "Common ratios: 1 day = 24 hours, 1 week = 7 days, 1 year = 12 months, 1 m = 100 cm, 1 kg = 1,000 g.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "60",
+								"size": 60
+							},
+							{
+								"text": "60",
+								"size": 60
+							},
+							{
+								"text": "30",
+								"size": 30
+							}
+						],
+						"total": "150 minutes = 2.5 hours"
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: a game day is a set number of real minutes. Time one sunrise to the next, then work out how many game days fit in one real hour. Next: dividing fractions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "4 days = ? hours",
+			"answer": "96",
+			"hint": "1 day = 24 hours.",
+			"explain": "4 × 24 = 96 hours."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "3 weeks = ? days",
+			"answer": "21",
+			"hint": "1 week = 7 days.",
+			"explain": "3 × 7 = 21 days."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "2 hours is 120 minutes.",
+			"answer": true,
+			"hint": "1 hour = 60 minutes.",
+			"explain": "Yes: 2 × 60 = 120."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "90 minutes = ? hours",
+			"answer": "1.5",
+			"hint": "Divide by 60.",
+			"explain": "90 ÷ 60 = 1.5 hours.",
+			"accept": [
+				"3/2"
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is longest?",
+			"answer": 0,
+			"hint": "Change them all to hours.",
+			"choices": [
+				"2 days",
+				"40 hours",
+				"1 day and 12 hours"
+			],
+			"explain": "2 days = 48 hours; the others are 40 and 36."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "2.5 kg = ? g",
+			"answer": "2500",
+			"hint": "1 kg = 1,000 g.",
+			"explain": "2.5 × 1,000 = 2,500 g."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A film is 135 minutes long. How many hours is that?",
+			"answer": "2.25",
+			"hint": "Divide by 60.",
+			"explain": "Minutes to hours is small to big, so divide: 135 ÷ 60 = 2.25 hours. A quarter of an hour is 15 minutes, so it is 2 hours and 15 minutes.",
+			"accept": [
+				"9/4"
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A puppy is 30 months old. How old is it in years?",
+			"answer": 0,
+			"hint": "12 months = 1 year.",
+			"choices": [
+				"2.5 years",
+				"3 years",
+				"2 years"
+			],
+			"explain": "Months to years is small to big, so divide by 12: 30 ÷ 12 = 2.5 years, which is 2 years and 6 months."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each amount to the same amount in the other unit.",
+			"items": [
+				"2 hours",
+				"3 weeks",
+				"1.5 kg",
+				"48 hours"
+			],
+			"matches": [
+				"2 days",
+				"21 days",
+				"1,500 g",
+				"120 minutes"
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "Use the ratios: 1 : 60, 1 : 7, 1 : 1,000 and 24 : 1.",
+			"explain": "2 hours = 120 minutes; 3 weeks = 21 days; 1.5 kg = 1,500 g; 48 hours = 2 days."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the conversions: multiply or divide?",
+			"items": [
+				"hours to minutes",
+				"minutes to hours",
+				"kg to g",
+				"months to years",
+				"days to hours"
+			],
+			"groups": [
+				"multiply",
+				"divide"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Big unit to small: multiply. Small unit to big: divide.",
+			"explain": "Hours to minutes, kg to g and days to hours go big to small: multiply. Minutes to hours and months to years go small to big: divide."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A game day lasts 20 real minutes. How many game days pass in 5 real hours?",
+			"answer": "15",
+			"hint": "Change the hours into minutes first, then see how many 20s fit.",
+			"explain": "5 hours is 5 × 60 = 300 minutes. Each game day is 20 minutes: 300 ÷ 20 = 15 game days."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6n.convert_ratio",
+			"level": 1
+		},
+		{
+			"gen": "g6n.convert_ratio",
+			"level": 2
+		},
+		{
+			"gen": "g6n.convert_ratio",
+			"level": 3
+		}
+	]
+}

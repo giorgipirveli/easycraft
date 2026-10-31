@@ -1,0 +1,27 @@
+{
+	"id": "colours",
+	"title": "Mixing colours",
+	"card": "Mix paint, then mix light.",
+	"units": ["g3.art.colour_mixing", "g4.art.colour_wheel", "g7.science.light_colour"],
+	"supplies": {"leaves": 1, "dirt": 1},
+	"predict": {
+		"type": "choice",
+		"prompt": "Red and yellow paint mix to make orange. What colour will red light and green light make?",
+		"choices": ["Brown", "Yellow", "Dark green", "Black"],
+		"answer": 1
+	},
+	"scene": {
+		"kind": "colours",
+		"paints": ["red", "yellow", "blue"],
+		"lights": ["red", "green", "blue"],
+		"paint_goals": ["orange", "green", "brown"],
+		"light_goals": ["yellow", "white"]
+	},
+	"try": "PAINT: tap the pots to drop paint into the bowl. LIGHT: tap the torches to shine them on the wall.",
+	"result": "Paint: red and yellow made orange, blue and yellow made green, and all three made brown. Light: red and green light made yellow, and all three lights made white.",
+	"why": [
+		"Paint mixes by taking light away. Each paint soaks up some colours of light and bounces back the rest, so the more paints you mix, the darker it gets: all three make brown.",
+		"Light mixes by adding. Red and green light together look yellow to our eyes, and red, green and blue light together look white.",
+		"Look at a phone or TV screen with a magnifying glass: every picture is made of tiny red, green and blue lights!"
+	]
+}

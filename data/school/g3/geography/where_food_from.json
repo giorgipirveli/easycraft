@@ -1,0 +1,399 @@
+{
+	"id": "g3.geography.where_food_from",
+	"lesson": [
+		{
+			"text": "Quick memory: what is the climate like in a rainforest? (Hot and wet all year.) Many foods need a climate like that. Today: where our food comes from."
+		},
+		{
+			"text": "Almost all our food starts on a farm or in the sea. From farm to fork it is grown, harvested, sometimes made into something new (wheat into bread), carried to shops and sold.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"grown",
+					"harvested",
+					"made into food",
+					"carried to shops",
+					"sold"
+				],
+				"title": "From farm to fork"
+			}
+		},
+		{
+			"text": "Some foods need a hot, wet climate near the Equator: bananas, cocoa beans (for chocolate), coffee and pineapples. Most cocoa comes from West Africa, from countries like Ivory Coast and Ghana.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60,
+				"points": [
+					{
+						"lat": 8,
+						"long": -5,
+						"label": "cocoa"
+					},
+					{
+						"lat": -15,
+						"long": -48,
+						"label": "coffee"
+					},
+					{
+						"lat": -2,
+						"long": -79,
+						"label": "bananas"
+					}
+				]
+			}
+		},
+		{
+			"text": "Other foods grow in milder places: wheat for bread, apples, potatoes and carrots. Rice grows best in warm, flooded fields, and most of the world's rice is grown in Asia."
+		},
+		{
+			"text": "Many foods travelled the world long ago: potatoes and tomatoes first came from South America, and oranges from Asia. Now they are grown in many countries."
+		},
+		{
+			"text": "Plants grow in their own season. In Britain strawberries ripen in summer and apples in autumn. Out of season, food comes from warmer countries or greenhouses.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"season",
+						"ready to pick"
+					],
+					[
+						"spring",
+						"rhubarb"
+					],
+					[
+						"summer",
+						"strawberries"
+					],
+					[
+						"autumn",
+						"apples"
+					],
+					[
+						"winter",
+						"parsnips"
+					]
+				]
+			}
+		},
+		{
+			"text": "Food miles are how far food travels from the farm to you. Bananas cross oceans by ship; carrots from a nearby farm may travel only a few kilometres."
+		},
+		{
+			"text": "Try it in the world: plant a farm with a patch for each crop, like wheat and pumpkins. Then build a market stall and put a sign by each food saying where it grows best."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does almost all our food start?",
+			"answer": 0,
+			"hint": "Shops sell food, but where did the shop get it?",
+			"choices": [
+				"on a farm or in the sea",
+				"in a shop",
+				"in a lorry",
+				"in the fridge"
+			],
+			"explain": "Almost all food starts on a farm or in the sea, and then travels to shops."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is chocolate made from?",
+			"answer": 0,
+			"hint": "It grows in hot, wet places near the Equator.",
+			"choices": [
+				"cocoa beans",
+				"wheat",
+				"potatoes",
+				"apples"
+			],
+			"explain": "Chocolate is made from cocoa beans."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Bananas grow best in hot, wet places.",
+			"answer": true,
+			"hint": "Think about the climate near the Equator.",
+			"explain": "True: bananas need a hot, wet climate."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is bread made from?",
+			"answer": 0,
+			"hint": "Mimi the baker grinds a grain into flour.",
+			"choices": [
+				"wheat flour",
+				"rice",
+				"cocoa",
+				"bananas"
+			],
+			"explain": "Bread is made from flour, usually ground from wheat."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the journey of bread in order.",
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "It starts in a field and ends in an oven.",
+			"items": [
+				"the baker bakes bread",
+				"the farmer grows wheat",
+				"the grain is ground into flour",
+				"the wheat is harvested"
+			],
+			"explain": "Grow the wheat, harvest it, grind it into flour, then bake the bread."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where did potatoes first come from?",
+			"answer": 0,
+			"hint": "Remember the foods that travelled the world long ago.",
+			"choices": [
+				"South America",
+				"Europe",
+				"Antarctica",
+				"Australia"
+			],
+			"explain": "Potatoes first came from South America, like tomatoes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "When are strawberries ready to pick in Britain?",
+			"answer": 0,
+			"hint": "Find strawberries in the table, then read the season.",
+			"choices": [
+				"summer",
+				"winter",
+				"spring",
+				"autumn"
+			],
+			"explain": "Strawberries ripen in summer in Britain.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"season",
+						"ready to pick"
+					],
+					[
+						"spring",
+						"rhubarb"
+					],
+					[
+						"summer",
+						"strawberries"
+					],
+					[
+						"autumn",
+						"apples"
+					],
+					[
+						"winter",
+						"parsnips"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Most of the world's rice is grown in Asia.",
+			"answer": true,
+			"hint": "Rice needs warm, flooded fields.",
+			"explain": "True: most rice is grown in Asia, in countries like China and India."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What are food miles?",
+			"answer": 0,
+			"hint": "The word miles tells you it is about distance.",
+			"choices": [
+				"how far food travels from farm to plate",
+				"how fast a farmer can run",
+				"the weight of a meal",
+				"the price of food"
+			],
+			"explain": "Food miles are how far food travels from where it was grown to where it is eaten."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why can you buy strawberries in winter in Britain?",
+			"answer": 0,
+			"hint": "Is it their season in Britain in winter?",
+			"choices": [
+				"they come from warmer places or greenhouses",
+				"strawberries grow best in snow",
+				"winter is strawberry season",
+				"they are made in factories"
+			],
+			"explain": "They are grown in warmer countries or in greenhouses, then carried here."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Cocoa grows well in cold places like Antarctica.",
+			"answer": false,
+			"hint": "Where does most cocoa come from?",
+			"explain": "False: cocoa needs a hot, wet climate near the Equator."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which food usually travels the most food miles to reach Britain?",
+			"answer": 0,
+			"hint": "Which one cannot grow in Britain's climate?",
+			"choices": [
+				"bananas",
+				"carrots from a nearby farm",
+				"apples from a local orchard",
+				"eggs from a village farm"
+			],
+			"explain": "Bananas need a hot climate, so they cross oceans by ship to reach Britain."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "On which continent are Ivory Coast and Ghana, where most cocoa grows?",
+			"answer": 0,
+			"hint": "Find Ghana on a globe: it is just south of the Sahara desert.",
+			"choices": [
+				"Africa",
+				"Europe",
+				"Asia",
+				"South America"
+			],
+			"explain": "Ivory Coast and Ghana are in West Africa."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these foods: which grow best in hot, wet places?",
+			"groups": [
+				"hot, wet places",
+				"milder places"
+			],
+			"items": [
+				"bananas",
+				"wheat",
+				"cocoa",
+				"apples",
+				"pineapples",
+				"carrots"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Think of the climate near the Equator and the climate of Britain.",
+			"explain": "Hot, wet places: bananas, cocoa, pineapples. Milder places: wheat, apples, carrots."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each food to where it grows or first came from.",
+			"items": [
+				"cocoa",
+				"rice",
+				"potatoes"
+			],
+			"matches": [
+				"mostly Asia",
+				"first from South America",
+				"mostly West Africa"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Remember the lesson cards about foods around the world.",
+			"explain": "Most cocoa grows in West Africa, most rice in Asia, and potatoes first came from South America."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the foods: from a plant, or from an animal?",
+			"groups": [
+				"a plant",
+				"an animal"
+			],
+			"items": [
+				"rice",
+				"milk",
+				"chocolate",
+				"eggs",
+				"bread",
+				"cheese"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Did it grow in a field or on a tree, or did an animal give it?",
+			"explain": "From plants: rice, chocolate (cocoa beans) and bread (wheat). From animals: milk, eggs and cheese (made from milk)."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the foods from the most food miles to Britain to the fewest.",
+			"items": [
+				"apples from France",
+				"carrots from a farm nearby",
+				"bananas from across the ocean"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "The further the farm is from you, the more food miles.",
+			"explain": "Bananas cross an ocean by ship: the most miles. Apples from France travel a few hundred kilometres. Carrots from a nearby farm travel only a few kilometres."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each food to the climate it grows best in.",
+			"items": [
+				"bananas",
+				"wheat",
+				"rice"
+			],
+			"matches": [
+				"warm, flooded fields",
+				"hot and wet all year",
+				"milder places"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Cards 2 and 3: which foods need heat, which need flooded fields, and which grow in milder places?",
+			"explain": "Bananas need a climate that is hot and wet all year. Wheat grows in milder places, like Britain. Rice grows best in warm, flooded fields."
+		}
+	],
+	"generators": []
+}

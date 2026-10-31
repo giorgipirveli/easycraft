@@ -1,0 +1,415 @@
+{
+	"id": "g3.maths.equivalent_fractions",
+	"lesson": [
+		{
+			"text": "Quick memory: on a number line from 0 to 1, 1/2 is halfway. Where is 2/4? Also halfway!",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "1",
+				"step": "1/4",
+				"labels": "all",
+				"dot": "2/4"
+			}
+		},
+		{
+			"text": "A fraction wall shows it: 1/2 covers the same space as 2/4 and as 4/8. Fractions of the same size are equivalent: 1/2 = 2/4 = 4/8.",
+			"picture": {
+				"kind": "fraction_wall",
+				"rows": [
+					{
+						"den": 2,
+						"shade": 1
+					},
+					{
+						"den": 4,
+						"shade": 2
+					},
+					{
+						"den": 8,
+						"shade": 4
+					}
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "More equal fractions: 1/3 = 2/6, 2/3 = 4/6 and 3/4 = 6/8. Cut every part into 2: there are twice as many parts, and twice as many are shaded.",
+			"picture": {
+				"kind": "fraction_wall",
+				"rows": [
+					{
+						"den": 3,
+						"shade": 2
+					},
+					{
+						"den": 6,
+						"shade": 4
+					}
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "The same bottom number: the parts are the same size, so more parts is bigger. 5/8 > 3/8.",
+			"picture": {
+				"kind": "fraction_wall",
+				"rows": [
+					{
+						"den": 8,
+						"shade": 5
+					},
+					{
+						"den": 8,
+						"shade": 3
+					}
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "The same top number: the bigger the bottom number, the smaller each part. 1/3 > 1/6, and 2/3 > 2/8, because thirds are bigger than eighths.",
+			"picture": {
+				"kind": "fraction_wall",
+				"rows": [
+					{
+						"den": 3,
+						"shade": 1
+					},
+					{
+						"den": 6,
+						"shade": 1
+					}
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "Adding with the same bottom number: 2/5 + 1/5 = 3/5, three fifths. Add the top numbers and keep the bottom one. Taking away works the same way: 4/6 − 1/6 = 3/6.",
+			"picture": {
+				"kind": "fraction_wall",
+				"rows": [
+					{
+						"den": 5,
+						"shade": 3
+					}
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "Hoot's puzzle: Zara eats 3/8 of a pie and Bram eats 2/8. Together they eat 3/8 + 2/8 = 5/8, and 3/8 is left, because 8/8 is the whole pie. Next, in grade 4: fractions with different bottom numbers.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "circle",
+				"parts": 8,
+				"shade": 5
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "1/2 = ?/4",
+			"answer": "2",
+			"hint": "On the wall, find where 1/2 ends. How many quarters fit up to there?",
+			"explain": "2 quarters cover the same space as 1 half: 1/2 = 2/4.",
+			"picture": {
+				"kind": "fraction_wall",
+				"rows": [
+					{
+						"den": 2,
+						"shade": 1
+					},
+					{
+						"den": 4,
+						"shade": 2
+					}
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "1/3 = 2/6",
+			"answer": true,
+			"hint": "Do the two shaded parts end at the same place on the wall?",
+			"explain": "Yes: 2 sixths cover the same space as 1 third.",
+			"picture": {
+				"kind": "fraction_wall",
+				"rows": [
+					{
+						"den": 3,
+						"shade": 1
+					},
+					{
+						"den": 6,
+						"shade": 2
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sign makes this true?  3/5 ? 4/5",
+			"choices": [
+				"<",
+				">",
+				"="
+			],
+			"answer": 0,
+			"hint": "The parts are the same size. Compare how many.",
+			"explain": "3 fifths are fewer than 4 fifths: 3/5 < 4/5."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "1/4 + 2/4 = ?",
+			"answer": "3/4",
+			"hint": "Add the top numbers and keep the bottom number.",
+			"explain": "1 quarter + 2 quarters = 3 quarters: 3/4."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is bigger?",
+			"choices": [
+				"1/2",
+				"1/8"
+			],
+			"answer": 0,
+			"hint": "Would you rather have half a cake or an eighth of it?",
+			"explain": "Halves are bigger than eighths: 1/2 > 1/8."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "2/3 = ?/6",
+			"answer": "4",
+			"hint": "Each third is 2 sixths.",
+			"explain": "2 thirds are 2 × 2 = 4 sixths: 2/3 = 4/6.",
+			"picture": {
+				"kind": "fraction_wall",
+				"rows": [
+					{
+						"den": 3,
+						"shade": 2
+					},
+					{
+						"den": 6,
+						"shade": 4
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "3/4 = ?/8",
+			"answer": "6",
+			"hint": "Each quarter is 2 eighths.",
+			"explain": "3 quarters are 3 × 2 = 6 eighths: 3/4 = 6/8."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "2/3 = 3/6",
+			"answer": false,
+			"hint": "How many sixths make one third?",
+			"explain": "1/3 = 2/6, so 2/3 = 4/6, not 3/6."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which sign makes this true?  2/3 ? 2/8",
+			"choices": [
+				">",
+				"<",
+				"="
+			],
+			"answer": 0,
+			"hint": "The same number of parts. Which parts are bigger: thirds or eighths?",
+			"explain": "Thirds are bigger, so 2/3 > 2/8."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "5/6 − 2/6 = ?",
+			"answer": "3/6",
+			"hint": "Take away the top numbers and keep the bottom number.",
+			"explain": "5 sixths − 2 sixths = 3 sixths: 3/6, which is the same as 1/2."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these fractions in order, smallest first.",
+			"items": [
+				"1/2",
+				"1/4",
+				"1/6",
+				"1/8"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The bigger the bottom number, the smaller the part.",
+			"explain": "1/8 < 1/6 < 1/4 < 1/2."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which fraction is equal to 1/2?",
+			"choices": [
+				"3/6",
+				"2/6",
+				"1/3",
+				"2/3"
+			],
+			"answer": 0,
+			"hint": "Half of the parts must be shaded.",
+			"explain": "3 is half of 6, so 3/6 = 1/2."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "4/8 = ?/2",
+			"answer": "1",
+			"hint": "4 eighths is half of the whole.",
+			"explain": "4 is half of 8, so 4/8 is a half: 4/8 = 1/2. On the fraction wall, 4 eighths cover the same space as 1 half."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "3/8 + 5/8 = ?",
+			"answer": "1",
+			"hint": "Add the eighths. How many eighths make a whole?",
+			"explain": "3 eighths + 5 eighths = 8 eighths = 1 whole."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly ate 2/3 of a cake. Zara ate 2/5 of a cake of the same size. Who ate more?",
+			"choices": [
+				"Tilly",
+				"Zara",
+				"They ate the same"
+			],
+			"answer": 0,
+			"hint": "The same number of parts. Which parts are bigger?",
+			"explain": "Thirds are bigger than fifths, so 2/3 > 2/5: Tilly ate more."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "6/8 = 3/4",
+			"answer": true,
+			"hint": "Each quarter is 2 eighths.",
+			"explain": "3 quarters are 6 eighths: yes."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram paints 3/10 of a wall on Monday and 4/10 on Tuesday. What fraction of the wall is painted?",
+			"answer": "7/10",
+			"hint": "Add the tenths.",
+			"explain": "3/10 + 4/10 = 7/10."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these fractions in order, smallest first.",
+			"items": [
+				"3/4",
+				"3/6",
+				"3/8",
+				"3/12"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The top numbers are the same. The bigger the bottom number, the smaller each part.",
+			"explain": "Twelfths are the smallest parts and quarters the biggest: 3/12 < 3/8 < 3/6 < 3/4."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara eats 2/8 of a pizza and Bram eats 1/4 of it. What fraction of the pizza is left? Answer in eighths.",
+			"answer": "4/8",
+			"accept": [
+				"1/2"
+			],
+			"hint": "Change 1/4 into eighths first, so all the parts are the same size.",
+			"explain": "1/4 is the same as 2/8. Together they eat 2/8 + 2/8 = 4/8. The whole pizza is 8/8, so 8/8 − 4/8 = 4/8 is left: half the pizza."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3f.equivalent_missing",
+			"level": 1
+		},
+		{
+			"gen": "g3f.equivalent_missing",
+			"level": 2
+		},
+		{
+			"gen": "g3f.equivalent_missing",
+			"level": 3
+		},
+		{
+			"gen": "g3f.is_equivalent",
+			"level": 1
+		},
+		{
+			"gen": "g3f.is_equivalent",
+			"level": 2
+		},
+		{
+			"gen": "g3f.is_equivalent",
+			"level": 3
+		},
+		{
+			"gen": "g3f.compare_fractions",
+			"level": 1
+		},
+		{
+			"gen": "g3f.compare_fractions",
+			"level": 2
+		},
+		{
+			"gen": "g3f.compare_fractions",
+			"level": 3
+		},
+		{
+			"gen": "g3f.add_same",
+			"level": 1
+		},
+		{
+			"gen": "g3f.add_same",
+			"level": 2
+		},
+		{
+			"gen": "g3f.add_same",
+			"level": 3
+		},
+		{
+			"gen": "g3f.order_unit_fractions",
+			"level": 1
+		},
+		{
+			"gen": "g3f.order_unit_fractions",
+			"level": 2
+		},
+		{
+			"gen": "g3f.order_unit_fractions",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,272 @@
+{
+	"id": "g5.maths.scaling",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, multiplying fractions. What is 1/2 of 8? 4."
+		},
+		{
+			"text": "Multiplying can make a number bigger or smaller. It depends on the other number: is it more than 1, less than 1, or equal to 1?"
+		},
+		{
+			"text": "Times a number more than 1 makes it bigger: 5 × 3/2 is more than 5 (it is 7 1/2), because 3/2 is more than 1.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "10",
+				"step": "1",
+				"marks": [
+					"5",
+					"7.5"
+				],
+				"labels": "all"
+			}
+		},
+		{
+			"text": "Times a fraction less than 1 makes it smaller: 5 × 3/4 is less than 5 (it is 3 3/4), because 3/4 is less than 1.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "10",
+				"step": "1",
+				"marks": [
+					"3.75",
+					"5"
+				],
+				"labels": "all"
+			}
+		},
+		{
+			"text": "Times 1, or a fraction equal to 1 like 4/4, keeps it the same: 5 × 4/4 = 5. That is why 3/4 = 6/8: it is 3/4 × 2/2, and 2/2 is 1."
+		},
+		{
+			"text": "So you can compare without working it out: 348 × 7/8 is less than 348, and 348 × 9/8 is more than 348.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"The result"
+					],
+					[
+						"348 × 7/8",
+						"less than 348"
+					],
+					[
+						"348 × 8/8",
+						"348"
+					],
+					[
+						"348 × 9/8",
+						"more than 348"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: a map of your world is drawn at 3/4 of the real size. Is a 12-block path shorter or longer on the map? Shorter: 3/4 is less than 1. Next: dividing with unit fractions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Without working it out: is 12 × 2/3 more than, less than or equal to 12?",
+			"choices": [
+				"less than 12",
+				"more than 12",
+				"equal to 12"
+			],
+			"answer": 0,
+			"hint": "Is 2/3 more or less than 1?",
+			"explain": "2/3 is less than 1, so 12 × 2/3 is less than 12 (it is 8)."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "9 × 5/4 is more than 9.",
+			"answer": true,
+			"hint": "Is 5/4 more or less than 1?",
+			"explain": "5/4 is more than 1, so 9 × 5/4 is more than 9."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which number keeps 20 × ? equal to 20?",
+			"choices": [
+				"6/6",
+				"5/6",
+				"7/6",
+				"1/6"
+			],
+			"answer": 0,
+			"hint": "Which fraction is equal to 1?",
+			"explain": "6/6 = 1, and 20 × 1 = 20."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Without working them out, put these in order, smallest first.",
+			"items": [
+				"15 × 4/3",
+				"15 × 1/3",
+				"15 × 1",
+				"15 × 2/3"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Compare each number with 1.",
+			"explain": "1/3 < 2/3 < 1 < 4/3, so: 15 × 1/3, 15 × 2/3, 15 × 1, 15 × 4/3."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A buddy is 5/4 as tall as Bram. Who is taller?",
+			"choices": [
+				"The buddy",
+				"Bram",
+				"They are the same height"
+			],
+			"answer": 0,
+			"hint": "Is 5/4 more or less than 1?",
+			"explain": "5/4 is more than 1, so the buddy is taller than Bram."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "3/4 × 1,000 is less than 1,000.",
+			"answer": true,
+			"hint": "Is 3/4 more or less than 1?",
+			"explain": "3/4 is less than 1, so 3/4 × 1,000 is less than 1,000 (it is 750)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram says 3/5 = 6/10, because 3/5 × 2/2 = 6/10. Why does that not change the size?",
+			"choices": [
+				"2/2 is equal to 1",
+				"2/2 is more than 1",
+				"Bram added 2",
+				"It does change the size"
+			],
+			"answer": 0,
+			"hint": "What is 2/2?",
+			"explain": "2/2 = 1, and multiplying by 1 keeps a number the same, so 3/5 = 6/10."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly's rope is 20 m long. Zara's rope is 3/4 as long. How long is Zara's rope, in metres?",
+			"answer": "15",
+			"hint": "Find 3/4 of 20.",
+			"explain": "20 ÷ 4 = 5 and 3 × 5 = 15 m: shorter than 20 m, because 3/4 is less than 1."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the biggest?",
+			"choices": [
+				"48 × 9/8",
+				"48 × 7/8",
+				"48 × 1",
+				"48 × 1/2"
+			],
+			"answer": 0,
+			"hint": "Which of the numbers 48 is multiplied by is more than 1?",
+			"explain": "9/8 is the only one more than 1, so 48 × 9/8 is the biggest."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Without working them out, sort the products: less than 24, equal to 24, or more than 24?",
+			"groups": [
+				"less than 24",
+				"equal to 24",
+				"more than 24"
+			],
+			"items": [
+				"24 × 3/4",
+				"24 × 5/5",
+				"24 × 7/6",
+				"24 × 1/3",
+				"24 × 2/2",
+				"24 × 3/2"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Compare each fraction with 1: less than 1 makes 24 smaller, equal to 1 keeps it, more than 1 makes it bigger.",
+			"explain": "Less: 3/4 and 1/3 are less than 1. Equal: 5/5 and 2/2 are equal to 1. More: 7/6 and 3/2 are more than 1. No working out needed!"
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5f.scale_compare",
+			"level": 1
+		},
+		{
+			"gen": "g5f.scale_compare",
+			"level": 2
+		},
+		{
+			"gen": "g5f.scale_compare",
+			"level": 3
+		},
+		{
+			"gen": "g5f.scale_order",
+			"level": 1
+		},
+		{
+			"gen": "g5f.scale_order",
+			"level": 2
+		},
+		{
+			"gen": "g5f.scale_order",
+			"level": 3
+		},
+		{
+			"gen": "g5f.scale_truefalse",
+			"level": 1
+		},
+		{
+			"gen": "g5f.scale_truefalse",
+			"level": 2
+		},
+		{
+			"gen": "g5f.scale_truefalse",
+			"level": 3
+		},
+		{
+			"gen": "g5f.scale_story",
+			"level": 1
+		},
+		{
+			"gen": "g5f.scale_story",
+			"level": 2
+		},
+		{
+			"gen": "g5f.scale_story",
+			"level": 3
+		},
+		{
+			"gen": "g5f.scale_factor",
+			"level": 1
+		},
+		{
+			"gen": "g5f.scale_factor",
+			"level": 2
+		},
+		{
+			"gen": "g5f.scale_factor",
+			"level": 3
+		}
+	]
+}

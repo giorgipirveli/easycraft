@@ -1,0 +1,181 @@
+{
+	"id": "g7.maths.probability",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met ratios. A bag has 3 red and 5 blue counters. What is the ratio of red to blue? 3 : 5."
+		},
+		{
+			"text": "Probability measures how likely something is, from 0 (impossible) to 1 (certain). A fair coin lands heads with probability 1/2.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "1",
+				"step": "1/4",
+				"dot": "1/2",
+				"labels": "all"
+			}
+		},
+		{
+			"text": "Probability = the number of ways it can happen ÷ the number of equally likely outcomes. A 3 on a dice: 1 way out of 6, so 1/6.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "hexagon",
+				"parts": 6,
+				"shade": 1
+			}
+		},
+		{
+			"text": "For two independent events, multiply: heads and a 6 is 1/2 × 1/6 = 1/12."
+		},
+		{
+			"text": "Expected results: in 60 rolls of a dice, you expect about 60 × 1/6 = 10 sixes. Real experiments come close, not exact."
+		},
+		{
+			"text": "Try it in the world: toss a coin 20 times with a friend and count the heads. Do you get exactly 10? Close to it? Next, in grade 8: two-way tables."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is the probability of rolling a 4 on a dice?",
+			"answer": "1/6",
+			"hint": "One way out of six.",
+			"explain": "1 way (a 4) out of 6 equally likely ways: 1/6."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which probability means certain?",
+			"answer": 0,
+			"hint": "Which number means it will happen for sure?",
+			"choices": [
+				"1",
+				"0",
+				"1/2"
+			],
+			"explain": "1: a probability of 1 means certain."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A probability can be greater than 1.",
+			"answer": false,
+			"hint": "0 to 1.",
+			"explain": "No: probabilities go from 0 to 1."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A bag has 3 red and 5 blue counters. What is the probability of red?",
+			"answer": "3/8",
+			"hint": "Count the red counters and all the counters.",
+			"explain": "3 red out of 8 counters: 3/8."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is the probability of two heads in two coin tosses?",
+			"answer": "1/4",
+			"hint": "Each toss is 1/2. Multiply for two tosses.",
+			"explain": "1/2 × 1/2 = 1/4."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "You toss a coin 100 times. About how many heads?",
+			"answer": 0,
+			"hint": "Heads is half the chance. What is half of 100?",
+			"choices": [
+				"about 50",
+				"exactly 100",
+				"about 10"
+			],
+			"explain": "About 50: half of 100, though real tosses vary."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is the probability of a 6 and then another 6 on a dice?",
+			"answer": "1/36",
+			"hint": "Each 6 is 1/6. Multiply for two rolls.",
+			"explain": "Each roll is independent: a 6 is 1/6 each time. Multiply: 1/6 × 1/6 = 1/36. Only 1 of the 36 pairs of rolls is a 6 and then a 6."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A spinner lands on red 30 times in 50 spins. What is the experimental probability of red?",
+			"answer": 0,
+			"hint": "30 out of 50.",
+			"choices": [
+				"3/5",
+				"1/2",
+				"3/10"
+			],
+			"explain": "Experimental probability is the times it happened ÷ the times you tried: 30/50. Divide both by 10: 3/5."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Order from least likely to most likely.",
+			"items": [
+				"rolling a 7 on a dice",
+				"tossing heads",
+				"rolling less than 7",
+				"rolling a 6"
+			],
+			"answer": [
+				0,
+				3,
+				1,
+				2
+			],
+			"hint": "Give each a probability: 0, 1/6, 1/2 or 1.",
+			"explain": "A 7 is impossible (0), a 6 is 1/6, heads is 1/2, and less than 7 is certain (1)."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each event to its probability.",
+			"items": [
+				"heads on a coin",
+				"a 3 on a dice",
+				"red from 3 red, 1 blue"
+			],
+			"matches": [
+				"1/6",
+				"3/4",
+				"1/2"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Count the ways it can happen and all the equally likely outcomes.",
+			"explain": "Heads: 1 of 2, so 1/2. A 3: 1 of 6, so 1/6. Red: 3 of 4, so 3/4."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A bag has 2 red and 3 blue counters. You take one, put it back, then take another. What is the probability of red both times?",
+			"answer": "4/25",
+			"hint": "Putting it back keeps the second draw the same as the first. Then multiply.",
+			"explain": "Red is 2 of 5 counters: 2/5. It is put back, so the second draw is 2/5 too. The draws are independent, so multiply: 2/5 × 2/5 = 4/25."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7g.probability",
+			"level": 1
+		},
+		{
+			"gen": "g7g.probability",
+			"level": 2
+		},
+		{
+			"gen": "g7g.probability",
+			"level": 3
+		}
+	]
+}

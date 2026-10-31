@@ -1,0 +1,489 @@
+{
+	"id": "volcano_erupts",
+	"title": "How a volcano erupts",
+	"topic": "science",
+	"link": {"unit": "g4.geography.volcanoes_earthquakes"},
+	"still": 26.5,
+	"stage": {
+		"sky": [
+			{"at": 0, "sky": {"top": "#3a7be8", "horizon": "#cdeeff", "bottom": "#2f78b8"}},
+			{"at": 39, "sky": "space"}
+		],
+		"light": [{"at": 0, "light": "day"}, {"at": 39, "light": "space"}],
+		"sun": [{"at": 0, "sun": [0.45, 0.8, 0.5]}, {"at": 39, "sun": [-0.6, 0.35, 0.75]}],
+		"models": [
+			{
+				"id": "back",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [
+					{"box": [-15, -12, -15, 15, -9, 0], "block": "DEEPSTONE"},
+					{"box": [-15, -8, -15, 15, -4, 0], "block": "STONE"},
+					{"box": [-15, -3, -15, 15, -2, 0], "block": "DIRT"},
+					{"box": [-15, -1, -15, 15, -1, 0], "block": "GRASS"},
+					{"disc": [0, 0, 0, 13], "block": "GRASS"},
+					{"disc": [0, 0, 0, 11.7], "block": "BASALT"},
+					{"disc": [0, 1, 0, 11.734], "block": "GRASS"},
+					{"disc": [0, 1, 0, 10.434], "block": "STONE"},
+					{"disc": [0, 2, 0, 10.531], "block": "GRASS"},
+					{"disc": [0, 2, 0, 9.231], "block": "BASALT"},
+					{"disc": [0, 3, 0, 9.392], "block": "STONE"},
+					{"disc": [0, 3, 0, 8.092], "block": "STONE"},
+					{"disc": [0, 4, 0, 8.323], "block": "STONE"},
+					{"disc": [0, 4, 0, 7.023], "block": "BASALT"},
+					{"disc": [0, 5, 0, 7.327], "block": "STONE"},
+					{"disc": [0, 5, 0, 6.027], "block": "STONE"},
+					{"disc": [0, 6, 0, 6.411], "block": "STONE"},
+					{"disc": [0, 6, 0, 5.111], "block": "BASALT"},
+					{"disc": [0, 7, 0, 5.583], "block": "BASALT"},
+					{"disc": [0, 7, 0, 4.283], "block": "STONE"},
+					{"disc": [0, 8, 0, 4.853], "block": "BASALT"},
+					{"disc": [0, 8, 0, 3.553], "block": "BASALT"},
+					{"disc": [0, 9, 0, 4.237], "block": "BASALT"},
+					{"disc": [0, 9, 0, 2.937], "block": "STONE"},
+					{"disc": [0, 10, 0, 3.76], "block": "BASALT"},
+					{"disc": [0, 10, 0, 2.46], "block": "BASALT"},
+					{"disc": [0, 11, 0, 3.5], "block": "BASALT"},
+					{"disc": [0, 11, 0, 2.2], "block": "STONE"},
+					{"disc": [0, 11, 0, 2.3], "block": "AIR"},
+					{"disc": [0, 10, 0, 2], "block": "HOT_LAVA"},
+					{"box": [-16, -13, 1, 16, 12, 16], "block": "AIR"},
+					{"ball": [0, -8, 0, 3.4], "block": "AIR"},
+					{"box": [-1, -8, -1, 0, 9, 0], "block": "AIR"}
+				]
+			},
+			{
+				"id": "front",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [
+					{"box": [-15, -12, 1, 15, -9, 15], "block": "DEEPSTONE"},
+					{"box": [-15, -8, 1, 15, -4, 15], "block": "STONE"},
+					{"box": [-15, -3, 1, 15, -2, 15], "block": "DIRT"},
+					{"box": [-15, -1, 1, 15, -1, 15], "block": "GRASS"},
+					{"disc": [0, 0, 0, 13], "block": "GRASS"},
+					{"disc": [0, 0, 0, 11.7], "block": "BASALT"},
+					{"disc": [0, 1, 0, 11.734], "block": "GRASS"},
+					{"disc": [0, 1, 0, 10.434], "block": "STONE"},
+					{"disc": [0, 2, 0, 10.531], "block": "GRASS"},
+					{"disc": [0, 2, 0, 9.231], "block": "BASALT"},
+					{"disc": [0, 3, 0, 9.392], "block": "STONE"},
+					{"disc": [0, 3, 0, 8.092], "block": "STONE"},
+					{"disc": [0, 4, 0, 8.323], "block": "STONE"},
+					{"disc": [0, 4, 0, 7.023], "block": "BASALT"},
+					{"disc": [0, 5, 0, 7.327], "block": "STONE"},
+					{"disc": [0, 5, 0, 6.027], "block": "STONE"},
+					{"disc": [0, 6, 0, 6.411], "block": "STONE"},
+					{"disc": [0, 6, 0, 5.111], "block": "BASALT"},
+					{"disc": [0, 7, 0, 5.583], "block": "BASALT"},
+					{"disc": [0, 7, 0, 4.283], "block": "STONE"},
+					{"disc": [0, 8, 0, 4.853], "block": "BASALT"},
+					{"disc": [0, 8, 0, 3.553], "block": "BASALT"},
+					{"disc": [0, 9, 0, 4.237], "block": "BASALT"},
+					{"disc": [0, 9, 0, 2.937], "block": "STONE"},
+					{"disc": [0, 10, 0, 3.76], "block": "BASALT"},
+					{"disc": [0, 10, 0, 2.46], "block": "BASALT"},
+					{"disc": [0, 11, 0, 3.5], "block": "BASALT"},
+					{"disc": [0, 11, 0, 2.2], "block": "STONE"},
+					{"disc": [0, 11, 0, 2.3], "block": "AIR"},
+					{"disc": [0, 10, 0, 2], "block": "HOT_LAVA"},
+					{"box": [-16, -13, -16, 16, 12, 0], "block": "AIR"}
+				],
+				"moves": [{"do": "move", "at": 9.6, "dur": 2.6, "to": [0, -40, 0], "ease": "in"}, {"do": "out", "at": 12.2}]
+			},
+			{
+				"id": "chamber",
+				"model": "blocks",
+				"at": [0, -8, 0],
+				"fill": [{"ball": [0, 0, 0, 3], "block": "HOT_LAVA"}, {"box": [-5, -5, 1, 5, 5, 5], "block": "AIR"}],
+				"moves": [
+					{"do": "grow", "at": 19.5, "dur": 5.5, "to": 1.12, "ease": "in"},
+					{"do": "grow", "at": 25.5, "dur": 1.2, "to": 1, "ease": "out"}
+				]
+			},
+			{
+				"id": "magma",
+				"model": "blocks",
+				"at": [0, -6, 0],
+				"fill": [{"box": [-1, 0, -1, 0, 15, 0], "block": "HOT_LAVA"}],
+				"stretch": [1, 0.05, 1],
+				"moves": [{"do": "grow", "at": 19.8, "dur": 5.6, "to": 1, "axis": "y", "ease": "in"}]
+			},
+			{
+				"id": "flow_l",
+				"model": "blocks",
+				"at": [-4, 9, -3],
+				"cells": [
+					[0, 0, 0, "HOT_LAVA"],
+					[1, 1, 0, "HOT_LAVA"],
+					[0, -1, -1, "HOT_LAVA"],
+					[1, 0, -1, "HOT_LAVA"],
+					[0, -2, -2, "HOT_LAVA"],
+					[1, -1, -2, "HOT_LAVA"],
+					[0, -3, -3, "HOT_LAVA"],
+					[1, -2, -3, "HOT_LAVA"],
+					[0, -4, -4, "HOT_LAVA"],
+					[1, -3, -4, "HOT_LAVA"],
+					[0, -5, -5, "HOT_LAVA"],
+					[1, -4, -5, "HOT_LAVA"],
+					[0, -6, -6, "HOT_LAVA"],
+					[1, -5, -6, "HOT_LAVA"],
+					[0, -6, -7, "HOT_LAVA"],
+					[1, -6, -7, "HOT_LAVA"],
+					[0, -7, -8, "HOT_LAVA"],
+					[1, -7, -8, "HOT_LAVA"],
+					[0, -8, -9, "HOT_LAVA"],
+					[1, -8, -9, "HOT_LAVA"],
+					[0, -9, -10, "HOT_LAVA"],
+					[1, -8, -10, "HOT_LAVA"],
+					[0, -9, -11, "HOT_LAVA"],
+					[1, -9, -11, "HOT_LAVA"],
+					[0, -9, -12, "HOT_LAVA"],
+					[1, -9, -12, "HOT_LAVA"],
+					[0, -9, -13, "HOT_LAVA"],
+					[1, -9, -13, "HOT_LAVA"]
+				],
+				"moves": [
+					{"do": "grow", "at": 0, "dur": 0.4, "to": 0.02, "ease": "out"},
+					{"do": "appear", "at": 29.5},
+					{"do": "grow", "at": 29.5, "dur": 5, "to": 1, "ease": "out"},
+					{"do": "out", "at": 35.8, "dur": 0}
+				]
+			},
+			{
+				"id": "flow_r",
+				"model": "blocks",
+				"at": [2, 12, -3],
+				"cells": [
+					[0, 0, 0, "HOT_LAVA"],
+					[1, -2, 0, "HOT_LAVA"],
+					[0, -2, -1, "HOT_LAVA"],
+					[1, -3, -1, "HOT_LAVA"],
+					[0, -4, -2, "HOT_LAVA"],
+					[1, -4, -2, "HOT_LAVA"],
+					[0, -5, -3, "HOT_LAVA"],
+					[1, -5, -3, "HOT_LAVA"],
+					[0, -6, -4, "HOT_LAVA"],
+					[1, -6, -4, "HOT_LAVA"],
+					[0, -7, -5, "HOT_LAVA"],
+					[1, -7, -5, "HOT_LAVA"],
+					[0, -8, -6, "HOT_LAVA"],
+					[1, -8, -6, "HOT_LAVA"],
+					[0, -9, -7, "HOT_LAVA"],
+					[1, -9, -7, "HOT_LAVA"],
+					[0, -10, -8, "HOT_LAVA"],
+					[1, -10, -8, "HOT_LAVA"],
+					[0, -11, -9, "HOT_LAVA"],
+					[1, -11, -9, "HOT_LAVA"],
+					[0, -11, -10, "HOT_LAVA"],
+					[1, -11, -10, "HOT_LAVA"],
+					[0, -12, -11, "HOT_LAVA"],
+					[1, -12, -11, "HOT_LAVA"],
+					[0, -12, -12, "HOT_LAVA"],
+					[1, -12, -12, "HOT_LAVA"],
+					[0, -12, -13, "HOT_LAVA"],
+					[1, -12, -13, "HOT_LAVA"]
+				],
+				"moves": [
+					{"do": "grow", "at": 0, "dur": 0.4, "to": 0.02, "ease": "out"},
+					{"do": "appear", "at": 30.3},
+					{"do": "grow", "at": 30.3, "dur": 4.6, "to": 1, "ease": "out"},
+					{"do": "out", "at": 35.8, "dur": 0}
+				]
+			},
+			{
+				"id": "rock_l",
+				"model": "blocks",
+				"at": [-4, 9, -3],
+				"cells": [
+					[0, 0, 0, "BLACK_LAVA"],
+					[1, 1, 0, "BLACK_LAVA"],
+					[0, -1, -1, "BLACK_LAVA"],
+					[1, 0, -1, "BLACK_LAVA"],
+					[0, -2, -2, "BLACK_LAVA"],
+					[1, -1, -2, "BLACK_LAVA"],
+					[0, -3, -3, "BLACK_LAVA"],
+					[1, -2, -3, "BLACK_LAVA"],
+					[0, -4, -4, "BLACK_LAVA"],
+					[1, -3, -4, "BLACK_LAVA"],
+					[0, -5, -5, "BLACK_LAVA"],
+					[1, -4, -5, "BLACK_LAVA"],
+					[0, -6, -6, "BLACK_LAVA"],
+					[1, -5, -6, "BLACK_LAVA"],
+					[0, -6, -7, "BLACK_LAVA"],
+					[1, -6, -7, "BLACK_LAVA"],
+					[0, -7, -8, "BLACK_LAVA"],
+					[1, -7, -8, "BLACK_LAVA"],
+					[0, -8, -9, "BLACK_LAVA"],
+					[1, -8, -9, "BLACK_LAVA"],
+					[0, -9, -10, "BLACK_LAVA"],
+					[1, -8, -10, "BLACK_LAVA"],
+					[0, -9, -11, "BLACK_LAVA"],
+					[1, -9, -11, "BLACK_LAVA"],
+					[0, -9, -12, "BLACK_LAVA"],
+					[1, -9, -12, "BLACK_LAVA"],
+					[0, -9, -13, "BLACK_LAVA"],
+					[1, -9, -13, "BLACK_LAVA"]
+				],
+				"moves": [{"do": "appear", "at": 35.8}]
+			},
+			{
+				"id": "rock_r",
+				"model": "blocks",
+				"at": [2, 12, -3],
+				"cells": [
+					[0, 0, 0, "BLACK_LAVA"],
+					[1, -2, 0, "BLACK_LAVA"],
+					[0, -2, -1, "BLACK_LAVA"],
+					[1, -3, -1, "BLACK_LAVA"],
+					[0, -4, -2, "BLACK_LAVA"],
+					[1, -4, -2, "BLACK_LAVA"],
+					[0, -5, -3, "BLACK_LAVA"],
+					[1, -5, -3, "BLACK_LAVA"],
+					[0, -6, -4, "BLACK_LAVA"],
+					[1, -6, -4, "BLACK_LAVA"],
+					[0, -7, -5, "BLACK_LAVA"],
+					[1, -7, -5, "BLACK_LAVA"],
+					[0, -8, -6, "BLACK_LAVA"],
+					[1, -8, -6, "BLACK_LAVA"],
+					[0, -9, -7, "BLACK_LAVA"],
+					[1, -9, -7, "BLACK_LAVA"],
+					[0, -10, -8, "BLACK_LAVA"],
+					[1, -10, -8, "BLACK_LAVA"],
+					[0, -11, -9, "BLACK_LAVA"],
+					[1, -11, -9, "BLACK_LAVA"],
+					[0, -11, -10, "BLACK_LAVA"],
+					[1, -11, -10, "BLACK_LAVA"],
+					[0, -12, -11, "BLACK_LAVA"],
+					[1, -12, -11, "BLACK_LAVA"],
+					[0, -12, -12, "BLACK_LAVA"],
+					[1, -12, -12, "BLACK_LAVA"],
+					[0, -12, -13, "BLACK_LAVA"],
+					[1, -12, -13, "BLACK_LAVA"]
+				],
+				"moves": [{"do": "appear", "at": 35.8}]
+			},
+			{
+				"id": "jupiter",
+				"model": "planet",
+				"at": [6095, 34, -300],
+				"body": "jupiter",
+				"size": 100,
+				"turn": [6, 40, 0],
+				"moves": [{"do": "spin", "at": 0, "rate": 0.006}]
+			},
+			{
+				"id": "io",
+				"model": "planet",
+				"at": [6000, 0, 0],
+				"body": "io",
+				"size": 6,
+				"moves": [{"do": "spin", "at": 0, "rate": 0.012}]
+			}
+		],
+		"effects": [
+			{"kind": "steam", "at": [-0.5, 11.4, -0.5], "from": 0, "to": 11, "size": 0.5, "color": "#d6d6dc"},
+			{"kind": "sparkles", "at": [-0.5, -7.5, 0.7], "from": 19.6, "to": 25.9, "size": 0.9, "color": "#ffc070"},
+			{"kind": "lava", "at": [-0.5, 11, -0.5], "from": 25.5, "to": 38.8, "size": 1.3, "amount": 140},
+			{
+				"kind": "smoke",
+				"at": [-0.5, 12.5, -0.5],
+				"from": 25.7,
+				"to": 38.8,
+				"size": 0.55,
+				"color": "#55504e",
+				"dir": [0, 1, 0],
+				"amount": 70
+			},
+			{
+				"kind": "steam",
+				"at": [-0.5, 4, -10],
+				"from": 35.6,
+				"to": 38,
+				"size": 0.45,
+				"color": "#eeeef2",
+				"amount": 30
+			},
+			{
+				"kind": "lava",
+				"at": [6000, 5.95, 0],
+				"from": 39,
+				"to": 50,
+				"size": 0.45,
+				"speed": 0.45,
+				"gravity": -1.1,
+				"color": "#fff0a0",
+				"amount": 80
+			}
+		],
+		"camera": [
+			{"at": 0, "pos": [34, 24, 62], "look": [0, 2, 0], "fov": 40},
+			{"at": 8.95, "pos": [22, 13, 40], "look": [0, 3.5, 0], "fov": 42},
+			{"at": 9, "pos": [0, 4, 48], "look": [0, 2, 0], "fov": 50, "cut": true},
+			{"at": 12.6, "pos": [0, 0.5, 44], "look": [0, -4, 0], "fov": 50},
+			{"at": 18.95, "pos": [0, 0.5, 43], "look": [0, -4, 0], "fov": 50},
+			{"at": 24.6, "pos": [0, 0.5, 41], "look": [0, -2.5, 0], "fov": 50, "shake": 0.04},
+			{"at": 25.5, "pos": [0, 1.5, 42], "look": [0, -1, 0], "fov": 50, "shake": 0.3},
+			{"at": 28.95, "pos": [0, 9, 56], "look": [0, 7, 0], "fov": 50, "shake": 0.12},
+			{"at": 29, "pos": [-14, 10, -46], "look": [0, 7, -2], "fov": 50, "cut": true, "shake": 0},
+			{"at": 38.95, "pos": [12, 12, -45], "look": [0, 7, -2], "fov": 50, "path": "orbit"},
+			{"at": 39, "pos": [6005, 3, 40], "look": [6000, 3.5, 0], "fov": 45, "cut": true},
+			{"at": 50, "pos": [5993, 4, 39], "look": [6000, 3.5, 0], "fov": 45, "path": "orbit"}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 9,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "A volcano looks like a mountain, but deep below it the rock has melted!",
+			"say": "A volcano looks like a mountain. But deep under it, it is so hot that the rock has melted.",
+			"sounds": [{"at": 1.2, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "VOLCANO",
+					"at": [180, 84],
+					"size": 34,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "pop", "at": 1.2}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Melted rock under the ground is called magma. It gathers in a chamber.",
+			"say": "Let's look inside! Melted rock under the ground is called magma. It rises and gathers in a magma chamber.",
+			"sounds": [{"at": 0.6, "effect": "whoosh"}, {"at": 4.4, "effect": "pop"}, {"at": 6.6, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "MAGMA",
+					"at": [80, 100],
+					"size": 28,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "pop", "at": 4.4}]
+				},
+				{
+					"kind": "arrow",
+					"from": [64, 124],
+					"to": [152, 349],
+					"color": "white",
+					"width": 6,
+					"moves": [{"do": "draw", "at": 4.8}],
+					"bend": 0.3
+				},
+				{
+					"kind": "words",
+					"text": "PIPE",
+					"at": [297.2, 96],
+					"size": 24,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 6.6}]
+				},
+				{
+					"kind": "arrow",
+					"from": [300, 116],
+					"to": [190, 226],
+					"color": "white",
+					"width": 6,
+					"moves": [{"do": "draw", "at": 7}],
+					"bend": -0.25
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Gas bubbles in the magma push harder and harder... until it erupts!",
+			"say": "Gas bubbles in the magma push harder and harder, like a shaken fizzy drink, until the magma bursts out. The volcano erupts!",
+			"sounds": [
+				{"at": 1, "effect": "bubbles"},
+				{"at": 6.5, "effect": "rock_crash"},
+				{"at": 6.7, "effect": "rocket_whoosh"}
+			],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "ERUPTION!",
+					"at": [180, 84],
+					"size": 40,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 6.6}, {"do": "pulse", "at": 7.6}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sky",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Out in the air it is called lava. It is often over 1,000 °C!",
+			"say": "Out in the open, magma is called lava. It is often hotter than 1,000 degrees Celsius! As it cools, it hardens into new rock.",
+			"sounds": [{"at": 1.4, "effect": "pop"}, {"at": 6.9, "effect": "ice_crackle"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "LAVA",
+					"at": [180, 84],
+					"size": 34,
+					"color": "white",
+					"box": "orange",
+					"moves": [{"do": "pop", "at": 1.4}, {"do": "out", "at": 6.5}]
+				},
+				{
+					"kind": "words",
+					"text": "OFTEN OVER 1,000 °C",
+					"at": [180, 136],
+					"size": 24,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 2.2}, {"do": "out", "at": 6.5}]
+				},
+				{
+					"kind": "words",
+					"text": "NEW ROCK!",
+					"at": [180, 84],
+					"size": 34,
+					"color": "white",
+					"box": "ink",
+					"moves": [{"do": "pop", "at": 7}]
+				}
+			]
+		},
+		{
+			"seconds": 11,
+			"background": "space",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Jupiter's moon Io has about 400 erupting volcanoes! Which would you visit?",
+			"say": "Far away, Jupiter's moon Io has about 400 volcanoes that erupt. Jupiter's pull squeezes Io and keeps its inside hot. Which volcano would you visit?",
+			"sounds": [{"at": 0.3, "effect": "whoosh"}, {"at": 2, "effect": "sparkle"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "IO",
+					"at": [180, 84],
+					"size": 40,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 1}]
+				},
+				{
+					"kind": "words",
+					"text": "ABOUT 400 VOLCANOES",
+					"at": [180, 140],
+					"size": 24,
+					"color": "white",
+					"box": "orange",
+					"moves": [{"do": "pop", "at": 2}]
+				}
+			]
+		}
+	]
+}

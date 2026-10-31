@@ -1,0 +1,455 @@
+{
+	"id": "g6.music.sound_science",
+	"lesson": [
+		{
+			"text": "Quick memory: on a wave, what is the amplitude? (How far it rises from its middle line.) Today: the science of musical sound."
+		},
+		{
+			"text": "Every sound is a vibration. A plucked string or a hit drum shakes the air, and the shaking travels to your ear as a sound wave. With no air, as in space, there is no sound."
+		},
+		{
+			"text": "Frequency is how many vibrations happen each second, measured in hertz (Hz). More vibrations a second give a higher pitch. A4 is 440 Hz: the A above middle C.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 2,
+						"count": 2
+					},
+					{
+						"amp": 2,
+						"count": 6
+					}
+				],
+				"names": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A4:2",
+					"-",
+					"A4:2"
+				]
+			}
+		},
+		{
+			"text": "An octave higher vibrates twice as fast: A5 is 880 Hz, and A3 is 220 Hz. Wave B is an octave above wave A: twice as many waves. People hear from about 20 Hz to about 20,000 Hz; dogs and bats hear higher still.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A3:2",
+					"A4:2",
+					"A5:2"
+				]
+			},
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 2,
+						"count": 2
+					},
+					{
+						"amp": 2,
+						"count": 4
+					}
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Amplitude is the size of the vibration: a bigger amplitude sounds louder. Loudness is measured in decibels (dB). Hours of sound above about 85 dB can harm your hearing.",
+			"picture": {
+				"kind": "decibel_scale",
+				"safe": true
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A4:2",
+					"-",
+					"A4:2"
+				],
+				"volume": 0.3
+			}
+		},
+		{
+			"text": "Why does a flute sound different from a violin playing the same note? Instruments add fainter, higher frequencies called harmonics. The mix of harmonics is the sound's timbre, its colour.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A3:2",
+					"-",
+					"A3:2"
+				],
+				"tone": "bright"
+			}
+		},
+		{
+			"text": "Worked example: a string vibrates 880 times in 2 seconds, so 880 ÷ 2 = 440 Hz: the note A4. Sound goes about 1 km in 3 seconds, so thunder 6 seconds after lightning is about 2 km away."
+		},
+		{
+			"text": "Try it in the world: stretch a rubber band and pluck it tight, then loose: which is higher? In a storm, count from the flash to the thunder. Look after your ears. Next: in grade 7, chord progressions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen: two notes. Is the second one higher or lower?",
+			"answer": 0,
+			"hint": "Does your voice go up or down to copy it?",
+			"choices": [
+				"higher",
+				"lower"
+			],
+			"explain": "It went from A3 (220 Hz) up to A4 (440 Hz): higher.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A3:2",
+					"A4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which wave has the higher frequency?",
+			"answer": 0,
+			"hint": "More waves in the same time means more vibrations a second.",
+			"choices": [
+				"B",
+				"A"
+			],
+			"explain": "B fits more waves across, so it vibrates more often: higher frequency and pitch.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 2,
+						"count": 2
+					},
+					{
+						"amp": 2,
+						"count": 6
+					}
+				],
+				"names": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Sound can travel through empty space.",
+			"answer": false,
+			"hint": "What must a sound wave shake?",
+			"explain": "False: sound needs air (or water or solids) to travel through. Space is silent."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen: this note is quiet. Is its amplitude big or small?",
+			"answer": 0,
+			"hint": "Louder sounds have bigger vibrations.",
+			"choices": [
+				"small",
+				"big"
+			],
+			"explain": "A quiet sound is a small vibration: a small amplitude.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A4:3"
+				],
+				"volume": 0.2
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is frequency measured in?",
+			"answer": 0,
+			"hint": "Vibrations each second.",
+			"choices": [
+				"hertz (Hz)",
+				"decibels (dB)",
+				"metres",
+				"kilograms"
+			],
+			"explain": "Frequency is measured in hertz: vibrations each second."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A note is 220 Hz. How many hertz is the note an octave higher?",
+			"answer": "440",
+			"hint": "An octave higher vibrates twice as fast.",
+			"explain": "220 × 2 = 440 Hz."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: low then high. How far apart are the notes?",
+			"answer": 0,
+			"hint": "Does it sound like the same note, higher?",
+			"choices": [
+				"an octave",
+				"a step",
+				"a third",
+				"a fifth"
+			],
+			"explain": "A3 up to A4: the same note an octave higher, twice as fast.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A3:2",
+					"A4:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which wave is louder?",
+			"answer": 0,
+			"hint": "Loudness is amplitude: how tall the wave is.",
+			"choices": [
+				"B",
+				"A"
+			],
+			"explain": "B is taller, so it has the bigger amplitude and is louder.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 1,
+						"count": 4
+					},
+					{
+						"amp": 4,
+						"count": 4
+					}
+				],
+				"names": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which of these could harm your hearing if you listened for a long time?",
+			"answer": 0,
+			"hint": "Find the sounds above the 85 dB line.",
+			"choices": [
+				"a rock concert",
+				"a whisper",
+				"talking",
+				"rustling leaves"
+			],
+			"explain": "A rock concert is about 110 dB, well above 85 dB.",
+			"picture": {
+				"kind": "decibel_scale",
+				"safe": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Is this a pure tone (one frequency) or a rich tone with harmonics?",
+			"answer": 0,
+			"hint": "Is it smooth and plain, or buzzy and full?",
+			"choices": [
+				"a pure tone",
+				"a rich tone with harmonics"
+			],
+			"explain": "It is smooth and plain, like a tuning fork: one frequency, a pure tone.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A3:3"
+				],
+				"tone": "pure"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Is this a pure tone (one frequency) or a rich tone with harmonics?",
+			"answer": 0,
+			"hint": "Is it smooth and plain, or buzzy and full?",
+			"choices": [
+				"a rich tone with harmonics",
+				"a pure tone"
+			],
+			"explain": "It is bright and buzzy, like a bowed string: many harmonics.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A3:3"
+				],
+				"tone": "bright"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A higher frequency means a higher pitch.",
+			"answer": true,
+			"hint": "Think of A3 and A4.",
+			"explain": "True: A4 (440 Hz) is higher than A3 (220 Hz)."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A string vibrates 1,320 times in 3 seconds. What is its frequency in hertz?",
+			"answer": "440",
+			"hint": "Frequency is the vibrations in one second.",
+			"explain": "1,320 ÷ 3 = 440 Hz: the note A4."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "You count 12 seconds between the lightning and the thunder. Sound goes about 1 km in 3 seconds. How many km away is the storm?",
+			"answer": "4",
+			"hint": "How many 3-second kilometres fit in 12 seconds?",
+			"explain": "12 ÷ 3 = 4 km."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen: A3, then A5, two octaves higher. How many times as fast does A5 vibrate?",
+			"answer": "4",
+			"hint": "Each octave doubles it.",
+			"explain": "A3 is 220 Hz and A5 is 880 Hz: 2 × 2 = 4 times as fast.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A3:2",
+					"A5:2"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do a flute and a violin sound different playing the same note?",
+			"answer": 0,
+			"hint": "Same main frequency, different colour.",
+			"choices": [
+				"they mix different harmonics",
+				"one is always louder",
+				"they play different frequencies",
+				"violins have no pitch"
+			],
+			"explain": "They share the main frequency, but their harmonics differ: their timbre."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Is this tone hollow, like a clarinet, or pure, like a tuning fork?",
+			"answer": 0,
+			"hint": "Is there a reedy, woody colour?",
+			"choices": [
+				"hollow, like a clarinet",
+				"pure, like a tuning fork"
+			],
+			"explain": "It has only the odd harmonics, which sound hollow and woody, like a clarinet.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A3:3"
+				],
+				"tone": "hollow"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Doubling a note's frequency raises it by an octave.",
+			"answer": true,
+			"hint": "Think of 220 Hz and 440 Hz.",
+			"explain": "True: twice the frequency is an octave higher."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Talking is about 60 dB. Which sound is about 30 dB?",
+			"answer": 0,
+			"hint": "Find 30 on the scale.",
+			"choices": [
+				"a whisper",
+				"a jet engine",
+				"a lawnmower",
+				"a rock concert"
+			],
+			"explain": "A whisper is about 30 dB.",
+			"picture": {
+				"kind": "decibel_scale"
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the sounds: fine to hear for hours, or harmful over hours?",
+			"groups": [
+				"fine for hours",
+				"harmful over hours"
+			],
+			"items": [
+				"a whisper",
+				"talking",
+				"a rock concert",
+				"a lawnmower",
+				"rustling leaves"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Hours of sound above about 85 dB can harm your hearing. Which of these are that loud?",
+			"explain": "Fine: a whisper (about 30 dB), talking (about 60 dB) and rustling leaves. Harmful over hours: a lawnmower (about 90 dB) and a rock concert (about 110 dB), so wear ear protection."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the notes from the lowest frequency to the highest.",
+			"items": [
+				"A5",
+				"A3",
+				"A4"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The number after the letter tells the octave: a bigger number is higher.",
+			"explain": "A3 is 220 Hz, A4 is 440 Hz and A5 is 880 Hz: each octave up doubles the frequency."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A string vibrates 440 times a second. How many times does it vibrate in 5 seconds?",
+			"answer": "2200",
+			"hint": "Multiply the vibrations each second by the number of seconds.",
+			"explain": "440 × 5 = 2,200 vibrations in 5 seconds. Its frequency stays 440 Hz: that counts each second."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.sound_numbers",
+			"level": 1
+		},
+		{
+			"gen": "g6c.sound_numbers",
+			"level": 2
+		},
+		{
+			"gen": "g6c.sound_numbers",
+			"level": 3
+		}
+	]
+}

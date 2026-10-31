@@ -1,0 +1,24 @@
+{
+	"id": "life.safe.allergy_and_seizures",
+	"lesson": [
+		{"text": "Quick memory: how do you sit for a nosebleed? (Lean forward.) Today: allergy emergencies and the auto-injector, and how to help during a seizure."},
+		{"text": "Anaphylaxis is a serious allergy: swelling lips or face, a rash, noisy or hard breathing. Call {number} and say 'anaphylaxis'."},
+		{"text": "An auto-injector pen is only ever the person's own. Blue to the sky, orange to the thigh: push until it clicks and hold. Then lie them down, legs up."},
+		{"text": "A seizure: stay calm, time it, move hard things away, put something soft under the head. Never hold them down, and nothing in their mouth."},
+		{"text": "After the jerking stops: the recovery position, and stay with them. Call {number} if it lasts more than 5 minutes, it's their first, or they're hurt."},
+		{"text": "Try it in the world: open the picnic and the practice room, and practise with the trainer pen."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "Swollen lips and noisy breathing after nuts. You...", "answer": 0, "choices": ["call {number}", "wait and see", "give more nuts"], "hint": "It can be anaphylaxis.", "explain": "Call {number} straight away."},
+		{"type": "choice", "level": 1, "prompt": "During a seizure, under the head you put...", "answer": 0, "choices": ["something soft", "something hard", "nothing at all"], "hint": "Protect the head.", "explain": "Something soft."},
+		{"type": "truefalse", "level": 1, "prompt": "You should hold someone down during a seizure.", "answer": false, "hint": "It can hurt them.", "explain": "False: never hold them down."},
+		{"type": "choice", "level": 2, "prompt": "An auto-injector: blue to the sky, orange to...", "answer": 0, "choices": ["the outer thigh", "the hand", "the tummy"], "hint": "Remember the rhyme.", "explain": "The outer thigh."},
+		{"type": "truefalse", "level": 2, "prompt": "Anyone's auto-injector can be shared.", "answer": false, "hint": "It's prescribed for one person.", "explain": "False: only the person's own."},
+		{"type": "order", "level": 2, "prompt": "A seizure: put it in order.", "answer": [1, 2, 0], "items": ["the recovery position after", "time it", "move hard things away"], "hint": "Time first.", "explain": "Time it, clear the space, then the recovery position."},
+		{"type": "choice", "level": 2, "prompt": "After the pen, the person lies...", "answer": 0, "choices": ["down, with their legs raised", "standing and walking", "upside down"], "hint": "Rest helps.", "explain": "Down, legs raised: or sitting up if breathing is hard."},
+		{"type": "sort", "level": 3, "prompt": "Do it, or never do it, during a seizure?", "groups": ["do it", "never do it"], "items": ["time it", "put a spoon in the mouth", "something soft under the head", "hold them down"], "answer": [0, 1, 0, 1], "hint": "Keep them safe, let it happen.", "explain": "Time it and cushion the head: do it."},
+		{"type": "choice", "level": 3, "prompt": "You call {number} for a seizure if it lasts more than...", "answer": 0, "choices": ["5 minutes", "5 seconds", "5 hours"], "hint": "Use the stopwatch.", "explain": "5 minutes."},
+		{"type": "truefalse", "level": 3, "prompt": "Someone can swallow their tongue during a seizure.", "answer": false, "hint": "A myth.", "explain": "False: nothing goes in the mouth."},
+		{"type": "choice", "level": 3, "prompt": "A trainer pen has...", "answer": 0, "choices": ["no needle and no medicine", "a needle", "medicine"], "hint": "It's for practice.", "explain": "No needle, no medicine."}
+	]
+}

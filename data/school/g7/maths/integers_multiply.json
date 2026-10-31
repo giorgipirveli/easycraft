@@ -1,0 +1,185 @@
+{
+	"id": "g7.maths.integers_multiply",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, adding integers. What is −3 + 5? Start at −3 and move 5 to the right: 2."
+		},
+		{
+			"text": "A positive times a negative is negative: 3 × (−4) = −12. Think of 3 jumps of −4 on the number line: −4, −8, −12.",
+			"picture": {
+				"kind": "number_line",
+				"from": "-12",
+				"to": "0",
+				"step": "1",
+				"dot": "-12",
+				"labels": "all"
+			}
+		},
+		{
+			"text": "A negative times a negative is positive: (−3) × (−4) = 12. Taking away 3 debts of 4 gold leaves you 12 gold better off.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"×",
+						"positive",
+						"negative"
+					],
+					[
+						"positive",
+						"positive",
+						"negative"
+					],
+					[
+						"negative",
+						"negative",
+						"positive"
+					]
+				]
+			}
+		},
+		{
+			"text": "Division follows the same rules: −20 ÷ 4 = −5 and −20 ÷ (−4) = 5."
+		},
+		{
+			"text": "With several factors, count the negatives: an even number gives a positive answer; an odd number, a negative."
+		},
+		{
+			"text": "Try it in the world: dig down 3 blocks a minute for 5 minutes. Your height changes by 5 × (−3), which is −15 blocks. Climbing back is +15. Next: rational numbers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "3 × (−4) = ?",
+			"answer": "-12",
+			"hint": "Count the negative numbers: how many are there?",
+			"explain": "3 × (−4) = −12: one negative makes the answer negative."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "(−5) × (−2) = ?",
+			"answer": "10",
+			"hint": "Count the negatives: two negatives make a positive.",
+			"explain": "(−5) × (−2) = 10: two negatives make a positive."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A negative times a negative is positive.",
+			"answer": true,
+			"hint": "Look at the lesson.",
+			"explain": "Yes: (−3) × (−4) = 12, a positive."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "−36 ÷ 9 = ?",
+			"answer": "-4",
+			"hint": "Divide 36 by 9, then decide the sign: how many negatives?",
+			"explain": "36 ÷ 9 = 4, and one negative makes it −4."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "−48 ÷ (−6) = ?",
+			"answer": "8",
+			"hint": "Divide 48 by 6, then count the negatives.",
+			"explain": "48 ÷ 6 = 8, and two negatives make it positive: 8."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Is (−2) × (−3) × (−1) positive or negative?",
+			"answer": 0,
+			"hint": "Count the negatives.",
+			"choices": [
+				"negative",
+				"positive"
+			],
+			"explain": "Three negatives: negative (−6)."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "(−2) × 3 × (−5) = ?",
+			"answer": "30",
+			"hint": "Multiply the numbers, then count the negatives: two of them.",
+			"explain": "−6 × −5 = 30."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A diver goes down 4 m each minute for 6 minutes. What is the change in height, in metres?",
+			"answer": "-24",
+			"hint": "Going down is negative. Multiply 6 minutes by −4 metres.",
+			"explain": "6 × (−4) = −24: the diver's height changes by −24 m."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the answers: positive or negative?",
+			"items": [
+				"(−2) × (−5)",
+				"3 × (−7)",
+				"−12 ÷ (−3)",
+				"−20 ÷ 4",
+				"(−1) × (−1) × (−1)"
+			],
+			"groups": [
+				"positive",
+				"negative"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Count the negative signs: an even number gives positive, an odd number negative.",
+			"explain": "(−2) × (−5) = 10 and −12 ÷ (−3) = 4 are positive. 3 × (−7) = −21, −20 ÷ 4 = −5 and (−1) × (−1) × (−1) = −1 are negative."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each calculation to its answer.",
+			"items": [
+				"4 × (−5)",
+				"(−4) × (−5)",
+				"−20 ÷ 5",
+				"20 ÷ (−4)"
+			],
+			"matches": [
+				"−4",
+				"20",
+				"−5",
+				"−20"
+			],
+			"answer": [
+				3,
+				1,
+				0,
+				2
+			],
+			"hint": "Work out the size first, then the sign.",
+			"explain": "4 × (−5) = −20; (−4) × (−5) = 20; −20 ÷ 5 = −4; 20 ÷ (−4) = −5."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7n.multiply_integers",
+			"level": 1
+		},
+		{
+			"gen": "g7n.multiply_integers",
+			"level": 2
+		},
+		{
+			"gen": "g7n.multiply_integers",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,340 @@
+{
+	"id": "g3.science.food_skeletons",
+	"lesson": [
+		{
+			"text": "Remember? Plants make their own food using sunlight. Animals, and people too, cannot: we must eat other living things to get what our bodies need."
+		},
+		{
+			"text": "Foods do different jobs. Bread, rice, pasta and potatoes give energy. Fish, eggs, beans and meat help the body grow and repair itself. Fruit and vegetables give vitamins that keep us healthy."
+		},
+		{
+			"text": "Milk, cheese and yoghurt give calcium for strong bones and teeth. Fats and sugars give energy too, but only a little is healthy. A balanced diet has lots of fruit and vegetables, and plenty of water.",
+			"picture": {
+				"kind": "plate"
+			}
+		},
+		{
+			"text": "Your skeleton does three jobs. It holds you up (support), it keeps soft parts safe (protection: the skull guards your brain, the ribs your heart and lungs), and it lets you move. An adult has 206 bones."
+		},
+		{
+			"text": "Muscles are joined to bones. A muscle can only pull, never push, so muscles work in pairs: your biceps pulls to bend your arm, and your triceps pulls to straighten it.",
+			"picture": {
+				"kind": "muscle_pair",
+				"move": "bend",
+				"labels": true
+			}
+		},
+		{
+			"text": "Animals with a backbone, like fish, frogs, birds and dogs, have a skeleton inside. Insects and crabs wear their skeleton on the outside, like armour. Worms and jellyfish have no bones at all.",
+			"picture": {
+				"kind": "icon",
+				"animal": "dog"
+			}
+		},
+		{
+			"text": "Try it in the world: build a skeleton statue from white blocks in your world: a skull, a backbone and ribs. What does each part protect? Next: materials and their properties."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which food gives lots of energy?",
+			"answer": 0,
+			"hint": "Which one is a starchy food, like bread, rice or potatoes?",
+			"choices": [
+				"pasta",
+				"a glass of water",
+				"a lettuce leaf"
+			],
+			"explain": "Starchy foods like pasta give lots of energy."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which bones protect your brain?",
+			"answer": 0,
+			"hint": "Your brain is in your head.",
+			"choices": [
+				"the skull",
+				"the ribs",
+				"the finger bones"
+			],
+			"explain": "The skull is a hard case around your brain."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Animals can make their own food from sunlight.",
+			"answer": false,
+			"hint": "Who makes food from sunlight?",
+			"explain": "False: only plants make food from sunlight. Animals must eat."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do muscles do?",
+			"answer": 0,
+			"hint": "Bend your arm and feel the top of it.",
+			"choices": [
+				"pull on bones to move them",
+				"make blood",
+				"protect the brain"
+			],
+			"explain": "Muscles pull on bones to move them."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which foods help your body grow and repair?",
+			"answer": 0,
+			"hint": "Think of foods with lots of protein.",
+			"choices": [
+				"eggs and beans",
+				"sweets and crisps",
+				"water and juice"
+			],
+			"explain": "Eggs, beans, fish and meat have protein, which helps the body grow and repair."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which food has calcium for strong bones?",
+			"answer": 0,
+			"hint": "Think of dairy foods.",
+			"choices": [
+				"milk",
+				"an apple",
+				"crisps"
+			],
+			"explain": "Milk, cheese and yoghurt give calcium for strong bones and teeth."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What do your ribs protect?",
+			"answer": 0,
+			"hint": "Where are your ribs?",
+			"choices": [
+				"your heart and lungs",
+				"your brain",
+				"your toes"
+			],
+			"explain": "Your ribs make a cage around your heart and lungs."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Muscles can push bones as well as pull them.",
+			"answer": false,
+			"hint": "Why do muscles work in pairs?",
+			"explain": "False: muscles can only pull. That is why they work in pairs."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which animal has its skeleton on the outside?",
+			"answer": 0,
+			"hint": "Think of a hard, shiny insect.",
+			"choices": [
+				"a beetle",
+				"a dog",
+				"a fish",
+				"a person"
+			],
+			"explain": "A beetle's hard outer case is its skeleton."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these in order, from what a healthy plate has most of to least of.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Which foods should fill most of the plate?",
+			"items": [
+				"beans, fish and eggs",
+				"fruit and vegetables",
+				"sweets and fizzy drinks"
+			],
+			"explain": "Lots of fruit and vegetables, some protein like beans, fish and eggs, and only a little sweet food."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your biceps pulls to bend your arm. What straightens it again?",
+			"answer": 0,
+			"hint": "Muscles only pull. Which muscle is on the back of the arm?",
+			"choices": [
+				"the triceps pulling",
+				"the biceps pushing",
+				"the skull"
+			],
+			"explain": "The triceps on the back of your arm pulls to straighten it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An adult has 206 bones, and 27 of them are in each hand. How many bones are not in the hands?",
+			"answer": "152",
+			"hint": "Find the bones in both hands first.",
+			"explain": "Both hands: 27 + 27 = 54. Then 206 − 54 = 152."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A worm has no bones. How does it move?",
+			"answer": 0,
+			"hint": "It still has muscles.",
+			"choices": [
+				"its muscles squeeze its body",
+				"with a skeleton inside",
+				"on tiny wheels"
+			],
+			"explain": "A worm's muscles squeeze and stretch its body to move it along."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A balanced diet includes plenty of water.",
+			"answer": true,
+			"hint": "Your body is more than half water.",
+			"explain": "True: water is part of a healthy diet."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does the backbone do?",
+			"answer": 0,
+			"hint": "It is part of the skeleton's jobs.",
+			"choices": [
+				"holds you up and guards nerves inside",
+				"digests food",
+				"pumps blood"
+			],
+			"explain": "Your backbone supports your body and protects the spinal cord, the nerves inside it."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each food to what it does for you.",
+			"hint": "Think of the food groups.",
+			"items": [
+				"bread",
+				"eggs",
+				"milk",
+				"apples"
+			],
+			"matches": [
+				"strong bones and teeth",
+				"vitamins",
+				"gives energy",
+				"helps you grow"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"explain": "Bread gives energy, eggs help you grow and repair, milk gives calcium for strong bones and teeth, and apples give vitamins."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the foods by their main job.",
+			"groups": [
+				"energy",
+				"growth and repair",
+				"vitamins"
+			],
+			"items": [
+				"rice",
+				"fish",
+				"carrots",
+				"potatoes",
+				"beans",
+				"an orange"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Is it a starchy food, a protein food, or a fruit or vegetable?",
+			"explain": "Rice and potatoes give energy. Fish and beans help the body grow and repair. Carrots and oranges give vitamins."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the animals: a skeleton inside, a skeleton outside, or no bones?",
+			"groups": [
+				"inside",
+				"outside",
+				"no bones"
+			],
+			"items": [
+				"a frog",
+				"a crab",
+				"a worm",
+				"a bird",
+				"a beetle",
+				"a jellyfish"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Does it have a backbone, a hard outer case, or a soft body all through?",
+			"explain": "Inside: frogs and birds have backbones. Outside: crabs and beetles wear their skeleton like armour. No bones: worms and jellyfish."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each bone or set of bones to the job it does.",
+			"items": [
+				"the skull",
+				"the ribs",
+				"the backbone",
+				"the leg bones"
+			],
+			"matches": [
+				"guards the heart and lungs",
+				"holds you up, guards nerves",
+				"lets you walk and run",
+				"guards the brain"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the skeleton's three jobs: support, protection and movement.",
+			"explain": "The skull guards the brain. The ribs guard the heart and lungs. The backbone holds you up and guards the nerves inside it. The leg bones, pulled by muscles, let you walk and run."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3s.food_group",
+			"level": 1
+		},
+		{
+			"gen": "g3s.food_group",
+			"level": 2
+		},
+		{
+			"gen": "g3s.food_group",
+			"level": 3
+		}
+	]
+}

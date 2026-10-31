@@ -1,0 +1,300 @@
+{
+	"id": "g3.design_tech.healthy_snack",
+	"lesson": [
+		{
+			"text": "Quick memory: which food group should fill about a third of your plate? (Fruit and vegetables.) Today we make a snack full of them.",
+			"picture": {
+				"kind": "plate"
+			}
+		},
+		{
+			"text": "Get ready to cook: wash your hands, tie back long hair, put on an apron and wipe the table. Ask a grown-up to help with anything sharp or hot.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"wash your hands",
+					"tie back long hair",
+					"put on an apron",
+					"wipe the table"
+				],
+				"title": "Ready to cook"
+			}
+		},
+		{
+			"text": "A recipe has two parts: the ingredients (what you need, and how much) and the method (the steps, in order). Read it all before you start."
+		},
+		{
+			"text": "Rainbow fruit kebabs for 2 people: 6 strawberries, 1 banana, 12 grapes and 1 kiwi. Wash the fruit, peel the banana and the kiwi, cut them into chunks, and thread them onto 4 blunt skewers.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"fruit",
+						"for 2"
+					],
+					[
+						"strawberries",
+						"6"
+					],
+					[
+						"banana",
+						"1"
+					],
+					[
+						"grapes",
+						"12"
+					],
+					[
+						"kiwi",
+						"1"
+					]
+				]
+			}
+		},
+		{
+			"text": "Cut safely on a chopping board. The bridge hold: make a bridge over the food with your hand and cut under it. The claw grip: curl your fingertips in and slice in front of them."
+		},
+		{
+			"text": "Cooking for more people? Scale the recipe. For 4 people, double everything: 6 × 2 = 12 strawberries, and 12 × 2 = 24 grapes.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"fruit",
+						"for 2",
+						"for 4"
+					],
+					[
+						"strawberries",
+						"6",
+						"12"
+					],
+					[
+						"grapes",
+						"12",
+						"24"
+					]
+				]
+			}
+		},
+		{
+			"text": "Before you share food, ask if anyone has a food allergy. When you finish, wash up, wipe the table and put leftovers in the fridge."
+		},
+		{
+			"text": "Try it in the world: build a kitchen with a sink, a table with a chopping board and a fridge. Then write your own recipe card for a healthy snack, with ingredients and a method."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should you do first, before you cook?",
+			"answer": 0,
+			"hint": "Germs must not get into the food.",
+			"choices": [
+				"wash your hands",
+				"start cutting",
+				"eat the fruit",
+				"turn on the oven"
+			],
+			"explain": "Wash your hands first, so no germs get into the food."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A recipe lists the ingredients and the method.",
+			"answer": true,
+			"hint": "What are the two parts of a recipe?",
+			"explain": "True: the ingredients say what you need; the method says what to do, in order."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where should you cut food?",
+			"answer": 0,
+			"hint": "Where is it steady and safe?",
+			"choices": [
+				"on a chopping board",
+				"on your hand",
+				"on the floor",
+				"on a plate on your lap"
+			],
+			"explain": "On a chopping board, which keeps the food and the knife steady."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the method in a recipe?",
+			"answer": 0,
+			"hint": "It tells you what to do.",
+			"choices": [
+				"the steps, in order",
+				"the list of ingredients",
+				"the picture",
+				"the washing up"
+			],
+			"explain": "The method is the steps to follow, in order."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the fruit kebab method in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Clean it before you cut it.",
+			"items": [
+				"thread the chunks onto skewers",
+				"cut the fruit into chunks",
+				"peel the banana and kiwi",
+				"wash the fruit"
+			],
+			"explain": "Wash, peel, cut into chunks, then thread onto the skewers."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each kitchen word to its meaning.",
+			"items": [
+				"ingredients",
+				"method",
+				"allergy",
+				"hygiene"
+			],
+			"matches": [
+				"the steps in order",
+				"a food that makes someone ill",
+				"keeping clean to stop germs",
+				"what you need"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the recipe card and the safety card.",
+			"explain": "Ingredients: what you need. Method: the steps. Allergy: a food that makes someone ill. Hygiene: keeping clean."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The recipe for 2 people uses 12 grapes. How many grapes for 4 people?",
+			"answer": "24",
+			"hint": "Twice as many people: double it.",
+			"explain": "4 people is double 2 people: 12 × 2 = 24 grapes."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Is it clean and safe, or not?",
+			"groups": [
+				"clean and safe",
+				"not safe"
+			],
+			"items": [
+				"tie back long hair",
+				"lick the spoon and put it back",
+				"wipe up spills at once",
+				"cut food on your hand",
+				"wash the fruit",
+				"hide a knife in the washing-up"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Would it spread germs or cause a cut?",
+			"explain": "Clean and safe: tie hair back, wipe spills, wash fruit. Not safe: licking spoons, cutting on your hand, hiding knives in water."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why should you read the whole recipe before you start?",
+			"answer": 0,
+			"hint": "What if you ran out of something halfway?",
+			"choices": [
+				"to check you have everything and know the steps",
+				"because it is short",
+				"to make it take longer",
+				"so you can skip the washing"
+			],
+			"explain": "Reading it all first shows you have every ingredient and tool, and know what comes next."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A smoothie for 1 person needs 150 mL of milk. How many millilitres for 3 people?",
+			"answer": "450",
+			"hint": "Three people need three times as much.",
+			"explain": "150 × 3 = 450 mL of milk."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your friend has a nut allergy. What should you do?",
+			"answer": 0,
+			"hint": "Even a tiny bit can make someone with an allergy very ill.",
+			"choices": [
+				"make a snack with no nuts, and check labels",
+				"pick the nuts out",
+				"give them a smaller piece",
+				"not tell them"
+			],
+			"explain": "Make a snack with no nuts at all, and check the labels, because even a trace can harm them."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which grip keeps your fingertips safe while you slice?",
+			"answer": 0,
+			"hint": "Your fingertips curl in, like a claw.",
+			"choices": [
+				"the claw grip",
+				"the flat hand",
+				"the pinch grip on the blade",
+				"no grip"
+			],
+			"explain": "The claw grip: fingertips curled in, so the knife slices in front of them."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Leftovers should go in the fridge.",
+			"answer": true,
+			"hint": "Where do germs grow more slowly?",
+			"explain": "True: the fridge is cold, so germs grow slowly and food stays safe for longer."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram makes kebabs for 6 people. The recipe for 2 uses 1 banana. How many bananas does he need?",
+			"answer": 0,
+			"hint": "6 people is how many times 2 people?",
+			"choices": [
+				"3",
+				"2",
+				"6",
+				"12"
+			],
+			"explain": "6 people is 3 times 2 people: 1 × 3 = 3 bananas."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3p.recipe_scale",
+			"level": 2
+		},
+		{
+			"gen": "g3p.recipe_scale",
+			"level": 3
+		}
+	]
+}

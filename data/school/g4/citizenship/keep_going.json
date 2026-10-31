@@ -1,0 +1,288 @@
+{
+	"id": "g4.citizenship.keep_going",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a responsibility you could take on at home? (Feeding a pet, laying the table and more.) Some jobs are hard and take a long time. Today: how to keep going and learn from mistakes."
+		},
+		{
+			"text": "Everyone makes mistakes when they learn something new. A mistake shows you what to try next. When you think 'I can't do it', add one small word: 'I can't do it yet.'"
+		},
+		{
+			"text": "When you practise, your brain builds stronger connections, like a path through long grass that gets clearer every time you walk it. Practice, good strategies and help from others all make you better."
+		},
+		{
+			"text": "Stuck? Stop and take a breath. Then try a different way, or look at an example. Break the job into smaller parts, or ask someone for help. Or rest, and come back to it later."
+		},
+		{
+			"text": "Big goals can feel scary, so break them into steps. Goal: build a castle. Step 1: plan it. Step 2: collect 200 stone. Step 3: build the walls. Step 4: add the towers. One step at a time!",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Plan it"
+					},
+					{
+						"shape": "step",
+						"text": "Collect 200 stone"
+					},
+					{
+						"shape": "step",
+						"text": "Build the walls"
+					},
+					{
+						"shape": "end",
+						"text": "Add the towers"
+					}
+				]
+			}
+		},
+		{
+			"text": "Steps with numbers: Mimi wants to read a 120-page book in 6 days. 120 ÷ 6 = 20, so she reads 20 pages a day. Ticking off each day shows her progress and keeps her going.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "20",
+								"size": 1
+							},
+							{
+								"text": "20",
+								"size": 1
+							},
+							{
+								"text": "20",
+								"size": 1
+							},
+							{
+								"text": "20",
+								"size": 1
+							},
+							{
+								"text": "20",
+								"size": 1
+							},
+							{
+								"text": "20",
+								"size": 1
+							}
+						],
+						"total": "120 pages"
+					}
+				]
+			}
+		},
+		{
+			"text": "The Wright brothers built and tested gliders for years. Many crashed or would not fly well, so they changed their designs again and again. In 1903 they made the first powered, controlled flight in an aeroplane."
+		},
+		{
+			"text": "Try it in the world: pick a big build, write its steps on a sign, and do one step each time you play. When something falls down, ask: what can I learn? Next: in someone else's shoes."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What small word can you add to 'I can't do it'?",
+			"answer": 0,
+			"hint": "It means 'not now, but later'.",
+			"choices": [
+				"yet",
+				"never",
+				"ever",
+				"no"
+			],
+			"explain": "'I can't do it yet': with practice and help, you will get there."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Everyone makes mistakes when they learn something new.",
+			"answer": true,
+			"hint": "Even great inventors had many tries.",
+			"explain": "True: mistakes are part of learning; they show you what to try next."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Your tower keeps falling down. What is a helpful first step?",
+			"answer": 0,
+			"hint": "It is hard to think clearly while you are cross.",
+			"choices": [
+				"stop, breathe, then look at what went wrong",
+				"give up for ever",
+				"blame your friend",
+				"kick the blocks"
+			],
+			"explain": "Calm down first, then look at what went wrong and try a new way."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What helps your brain get better at something?",
+			"answer": 0,
+			"hint": "Remember the path through long grass.",
+			"choices": [
+				"practice",
+				"never trying",
+				"only watching others",
+				"giving up"
+			],
+			"explain": "Practice builds stronger connections in your brain, like a path that gets clearer each time."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps for building a castle in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You can't build walls before you have the stone.",
+			"items": [
+				"add the towers",
+				"build the walls",
+				"collect the stone",
+				"plan the castle"
+			],
+			"explain": "Plan, collect the stone, build the walls, then add the towers: one step at a time."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these thoughts: helpful or unhelpful?",
+			"groups": [
+				"helpful",
+				"unhelpful"
+			],
+			"items": [
+				"I can't do it yet",
+				"I'll never be good at this",
+				"Let me try another way",
+				"Mistakes mean I should stop",
+				"I can ask for help",
+				"Everyone else is better"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which thoughts help you keep going?",
+			"explain": "Helpful: 'yet', trying another way and asking for help. Unhelpful: 'never', stopping after mistakes and comparing yourself with others."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Mimi wants to read a book of 90 pages in 6 days. How many pages should she read each day?",
+			"answer": "15",
+			"hint": "Share the pages equally between the days.",
+			"explain": "90 ÷ 6 = 15 pages a day."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each problem to a helpful strategy.",
+			"items": [
+				"stuck on a hard sum",
+				"a job is too big",
+				"feeling cross",
+				"tried everything"
+			],
+			"matches": [
+				"break it into steps",
+				"take a breath first",
+				"ask someone for help",
+				"look at an example"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Each problem has a strategy that fits it best.",
+			"explain": "Stuck: look at an example. Too big: break it into steps. Cross: breathe first. Tried everything: ask for help."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does 'break a goal into steps' mean?",
+			"answer": 0,
+			"hint": "Think of the castle.",
+			"choices": [
+				"split a big job into small jobs",
+				"smash your goal",
+				"stop halfway",
+				"do everything at once"
+			],
+			"explain": "It means splitting a big job into small steps that you can do one at a time."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The Wright brothers' gliders often crashed. What did they do?",
+			"answer": 0,
+			"hint": "They made the first powered, controlled flight in 1903.",
+			"choices": [
+				"changed their designs and kept testing",
+				"gave up flying",
+				"blamed the wind for ever",
+				"built only boats"
+			],
+			"explain": "They learned from each crash, changed their designs and kept testing, until they flew in 1903."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram wants to save 60 gold for a saddle. He saves 8 gold each day. How many days until he has enough?",
+			"answer": "8",
+			"hint": "Count in 8s until you reach 60 or more. The day that gets there counts.",
+			"explain": "In 7 days he saves 56 gold: not enough yet. In 8 days he saves 64 gold: enough! So 8 days."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara got 3 out of 6 right in a round. What is the most helpful thought?",
+			"answer": 0,
+			"hint": "Which thought helps her get better?",
+			"choices": [
+				"which did I miss, and what can I learn?",
+				"I'm no good at this",
+				"I'll never play again",
+				"the game is unfair"
+			],
+			"explain": "Looking at what went wrong, and learning from it, helps her do better next time."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Noticing hard work and good strategies helps people keep going.",
+			"answer": true,
+			"hint": "Effort and strategies are things you can change.",
+			"explain": "True: effort and strategies are things you can change, so noticing them helps you keep going."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly practised a song every day for a week, and now she plays it well. What made the difference?",
+			"answer": 0,
+			"hint": "Remember the path through long grass.",
+			"choices": [
+				"practice, a little each day",
+				"luck",
+				"being born able to play",
+				"a new instrument"
+			],
+			"explain": "Practising a little each day built her skill, step by step."
+		}
+	],
+	"generators": []
+}

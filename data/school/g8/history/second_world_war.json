@@ -1,0 +1,358 @@
+{
+	"id": "g8.history.second_world_war",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met the United Nations, founded in 1945. How many countries joined at the start? (51.) Today: why a second world war began in 1939, life at home, how it ended, and why we remember."
+		},
+		{
+			"text": "After 1918 many Germans resented the Treaty of Versailles, which blamed Germany and made it pay. From 1929 a world slump left millions without work. Dictators rose: Mussolini in Italy, and Hitler, leader of the Nazis, in Germany from 1933."
+		},
+		{
+			"text": "Hitler built up Germany's army and took over Austria and Czechoslovakia; Britain and France first tried to keep the peace by giving way: appeasement. When Germany invaded Poland on 1 September 1939, they declared war two days later.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1930,
+				"to": 1950,
+				"step": 5,
+				"events": [
+					[
+						1933,
+						"Hitler in power"
+					],
+					[
+						1939,
+						"war begins"
+					],
+					[
+						1940,
+						"the Blitz"
+					],
+					[
+						1941,
+						"Pearl Harbor"
+					],
+					[
+						1944,
+						"D-Day"
+					],
+					[
+						1945,
+						"war ends"
+					]
+				]
+			}
+		},
+		{
+			"text": "Expecting bombs, Britain moved about 1.5 million people, mostly children, from cities to the countryside in the first days of September 1939: evacuation. From September 1940 to May 1941, German planes bombed British cities night after night: the Blitz."
+		},
+		{
+			"text": "Food was rationed from January 1940: each week an adult got small amounts of butter, sugar, bacon and cheese, using a ration book. People grew vegetables to 'Dig for Victory'. Women worked in factories, on farms and as code-breakers at Bletchley Park.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"butter",
+						50
+					],
+					[
+						"cheese",
+						50
+					],
+					[
+						"bacon",
+						100
+					],
+					[
+						"sugar",
+						225
+					]
+				],
+				"step": 50,
+				"top": 250,
+				"name": "An adult's week (grams, about)"
+			}
+		},
+		{
+			"text": "It was a world war. Japan attacked the US fleet at Pearl Harbor in December 1941, and the USA joined in. The Soviet Union fought Germany from 1941, at enormous cost. Soldiers came from every continent: about 2.5 million from India.",
+			"picture": {
+				"kind": "voyage_map",
+				"lat_step": 30,
+				"long_step": 60,
+				"places": [
+					{
+						"lat": 49,
+						"long": -1,
+						"label": "Normandy"
+					},
+					{
+						"lat": 49,
+						"long": 44,
+						"label": "Stalingrad"
+					},
+					{
+						"lat": 21,
+						"long": -158,
+						"label": "Pearl Harbor"
+					},
+					{
+						"lat": 34,
+						"long": 132,
+						"label": "Hiroshima"
+					},
+					{
+						"lat": 1,
+						"long": 104,
+						"label": "Singapore"
+					}
+				]
+			}
+		},
+		{
+			"text": "Allied troops landed in Normandy on D-Day, 6 June 1944. Germany surrendered on 8 May 1945: VE Day. In August the USA dropped atomic bombs on Hiroshima and Nagasaki, and Japan surrendered. About 70 million people had died, most of them civilians."
+		},
+		{
+			"text": "Try it in the world: read Alexander Fleming's story in Success Stories, on the Story Shelf: penicillin was made for everyone in this war. Then grow a 'Dig for Victory' vegetable plot in your world. Next: remembering the Holocaust."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "In which year did the Second World War begin?",
+			"answer": "1939",
+			"hint": "It began when Germany invaded Poland.",
+			"explain": "In 1939: Germany invaded Poland on 1 September, and Britain and France declared war on 3 September.",
+			"year": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What was evacuation?",
+			"choices": [
+				"moving children from cities to the countryside",
+				"rationing food",
+				"breaking codes",
+				"building air-raid shelters"
+			],
+			"answer": 0,
+			"hint": "Think about why big cities were dangerous places to be.",
+			"explain": "Moving people, mostly children, away from cities that might be bombed."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Food in Britain was rationed during the war.",
+			"answer": true,
+			"hint": "Think of the ration book.",
+			"explain": "True: from January 1940 each person got a fixed weekly amount of many foods."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which country did Germany invade on 1 September 1939?",
+			"choices": [
+				"Britain",
+				"Japan",
+				"Poland",
+				"France"
+			],
+			"answer": 2,
+			"hint": "It lay on Germany's eastern side.",
+			"explain": "Poland; two days later Britain and France declared war."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these into the two sides.",
+			"groups": [
+				"the Allies",
+				"the Axis"
+			],
+			"items": [
+				"Japan",
+				"Germany",
+				"Italy",
+				"Britain",
+				"the USA",
+				"the Soviet Union"
+			],
+			"answer": [
+				1,
+				1,
+				1,
+				0,
+				0,
+				0
+			],
+			"hint": "The Axis was Germany and its partners.",
+			"explain": "The Allies: Britain, the USA, the Soviet Union. The Axis: Germany, Japan, Italy."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, earliest first.",
+			"items": [
+				"Hitler comes to power (1933)",
+				"D-Day (1944)",
+				"the Blitz begins (1940)",
+				"the war begins (1939)",
+				"Pearl Harbor (1941)"
+			],
+			"answer": [
+				0,
+				3,
+				2,
+				4,
+				1
+			],
+			"hint": "Compare the years.",
+			"explain": "1933, 1939, 1940, 1941, 1944."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"the Blitz",
+				"D-Day",
+				"VE Day",
+				"appeasement"
+			],
+			"matches": [
+				"giving way to keep peace",
+				"landings in Normandy",
+				"victory in Europe",
+				"bombing of British cities"
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "Bombing, landings, victory and giving way.",
+			"explain": "The Blitz: bombing of cities. D-Day: the Normandy landings. VE Day: victory in Europe. Appeasement: giving way."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "An adult's weekly sugar ration was about 225 g. How many grams was that in 4 weeks?",
+			"answer": "900",
+			"hint": "Multiply the weekly ration by the weeks.",
+			"explain": "225 × 4 = 900 g."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The Blitz lasted from September 1940 to May 1941. Counting September and May, how many months is that?",
+			"answer": "9",
+			"hint": "Count the months one by one: September, October, and on to May.",
+			"explain": "September to May, counting both: 9 months."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why did the USA join the war in December 1941?",
+			"choices": [
+				"Japan attacked its fleet at Pearl Harbor",
+				"Britain asked it to",
+				"Germany invaded it",
+				"it wanted more land"
+			],
+			"answer": 0,
+			"hint": "Think of what happened in Hawaii that month.",
+			"explain": "Japan attacked the US fleet at Pearl Harbor, Hawaii, on 7 December 1941."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did many Germans support Hitler in the early 1930s?",
+			"choices": [
+				"anger at Versailles and hard times",
+				"he promised peace for ever",
+				"he was a famous scientist",
+				"everyone had to vote for him"
+			],
+			"answer": 0,
+			"hint": "Think of the treaty of 1919 and the slump of 1929.",
+			"explain": "Many were angry about the Treaty of Versailles and desperate after the slump, and his promises drew them."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Appeasement stopped the war from happening.",
+			"answer": false,
+			"hint": "Think what happened after Germany took Czechoslovakia.",
+			"explain": "False: giving way did not stop Hitler; Germany invaded Poland in 1939, and war began."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Food rationing in Britain began in 1940 and finally ended in 1954. How many years did it last?",
+			"answer": "14",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1954 − 1940 = 14 years."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do we call it a 'world' war?",
+			"choices": [
+				"only Europe fought",
+				"it was fought on many continents and oceans",
+				"only two countries fought",
+				"it lasted a short time"
+			],
+			"answer": 1,
+			"hint": "Look at the places on the lesson's map.",
+			"explain": "It was fought in Europe, Africa, Asia and the Pacific, with soldiers from every continent."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the end of the war in order.",
+			"items": [
+				"D-Day in Normandy",
+				"atomic bombs on Hiroshima and Nagasaki",
+				"the United Nations begins",
+				"Japan surrenders",
+				"VE Day: Germany surrenders"
+			],
+			"answer": [
+				0,
+				4,
+				1,
+				3,
+				2
+			],
+			"hint": "Europe's war ended first; then the war with Japan; then the work for peace.",
+			"explain": "6 June 1944, 8 May 1945, 6 and 9 August 1945, August 1945, then the UN on 24 October 1945."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.ww2_sides",
+			"level": 1
+		},
+		{
+			"gen": "g8h.ww2_sides",
+			"level": 2
+		},
+		{
+			"gen": "g8h.ww2_sides",
+			"level": 3
+		},
+		{
+			"gen": "g8h.ration_book",
+			"level": 1
+		},
+		{
+			"gen": "g8h.ration_book",
+			"level": 2
+		},
+		{
+			"gen": "g8h.ration_book",
+			"level": 3
+		}
+	]
+}

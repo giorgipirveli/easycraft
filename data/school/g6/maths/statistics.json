@@ -1,0 +1,202 @@
+{
+	"id": "g6.maths.statistics",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met line plots. On a line plot, what does each X stand for? One measurement or value."
+		},
+		{
+			"text": "A statistical question expects answers that vary: \"How tall are the pupils in my class?\" not \"How tall am I?\""
+		},
+		{
+			"text": "The centre of data: the mean (add them all, divide by how many) and the median (the middle when in order).",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					2,
+					4,
+					4,
+					5,
+					10
+				]
+			}
+		},
+		{
+			"text": "The spread: the range (biggest − smallest) and the interquartile range (upper quartile − lower quartile, the spread of the middle half)."
+		},
+		{
+			"text": "Data: 2, 4, 4, 5, 10. Mean = 25 ÷ 5 = 5. Median = 4. Range = 10 − 2 = 8.",
+			"picture": {
+				"kind": "fraction_plot",
+				"from": 2,
+				"to": 10,
+				"parts": 1,
+				"counts": {
+					"2": 1,
+					"4": 2,
+					"5": 1,
+					"10": 1
+				}
+			}
+		},
+		{
+			"text": "Try it in the world: count the blocks in 5 towers in your world, then find the mean, the median and the range. Which tower pulls the mean up? Next: dot plots, histograms and box plots."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Data: 3, 7, 5, 9, 1. What is the median?",
+			"answer": "5",
+			"hint": "Put them in order first.",
+			"explain": "1, 3, 5, 7, 9: the middle is 5."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Data: 12, 4, 9, 20. What is the range?",
+			"answer": "16",
+			"hint": "Find the biggest and the smallest, then take one from the other.",
+			"explain": "20 − 4 = 16."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a statistical question?",
+			"answer": 0,
+			"hint": "Many answers that vary.",
+			"choices": [
+				"How many siblings do my classmates have?",
+				"How many siblings do I have?",
+				"Is my sister tall?"
+			],
+			"explain": "It collects many answers that vary."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Data: 6, 8, 10, 12, 14. What is the mean?",
+			"answer": "10",
+			"hint": "Add and divide by 5.",
+			"explain": "50 ÷ 5 = 10."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Data: 2, 5, 7, 8. What is the median?",
+			"answer": "6",
+			"hint": "The middle two are 5 and 7.",
+			"explain": "(5 + 7) ÷ 2 = 6."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The mean and the median of a data set are always the same.",
+			"answer": false,
+			"hint": "Try 1, 2, 9.",
+			"explain": "No: the mean of 1, 2, 9 is 4 but the median is 2."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Data: 1, 3, 4, 6, 8, 9, 11, 12. The lower quartile is 3.5 and the upper is 10. What is the interquartile range?",
+			"answer": "6.5",
+			"hint": "The interquartile range is the upper quartile take away the lower quartile.",
+			"explain": "The interquartile range is the upper quartile take away the lower one: 10 − 3.5 = 6.5. It is the spread of the middle half of the data.",
+			"accept": [
+				"13/2"
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "One score of 100 is added to 5, 6, 7, 8. Which changes more?",
+			"answer": 0,
+			"hint": "Which one adds up every value, and which only looks at the middle?",
+			"choices": [
+				"the mean",
+				"the median"
+			],
+			"explain": "Before: the mean is 26 ÷ 4 = 6.5. With 100 added, the total is 126, and 126 ÷ 5 = 25.2. The median only moves from 6.5 to 7: one extreme score pulls the mean far more."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Data: 3, 5, 5, 7, 10. Match each measure to its value.",
+			"items": [
+				"mean",
+				"median",
+				"range"
+			],
+			"matches": [
+				"5, the middle one",
+				"7, from 3 to 10",
+				"6, the total 30 shared by 5"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Add them all for the mean; find the middle for the median; biggest minus smallest for the range.",
+			"explain": "Mean: 30 ÷ 5 = 6. Median: 5, the middle value. Range: 10 − 3 = 7."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the questions: statistical or not?",
+			"items": [
+				"How many pets do my classmates have?",
+				"How many pets do I have?",
+				"How tall are the trees in the park?",
+				"What time is it now?"
+			],
+			"groups": [
+				"statistical",
+				"not statistical"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it expect many answers that vary?",
+			"explain": "Pets across the class and the trees' heights expect answers that vary: statistical. My own pets and the time now have one answer."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The mean of 4 test scores is 7. Three of the scores are 5, 8 and 6. What is the fourth score?",
+			"answer": "9",
+			"hint": "The mean times how many scores gives the total.",
+			"explain": "The total is 4 × 7 = 28. The three known scores make 5 + 8 + 6 = 19. The fourth is 28 − 19 = 9."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6a.centre_spread",
+			"level": 1
+		},
+		{
+			"gen": "g6a.centre_spread",
+			"level": 2
+		},
+		{
+			"gen": "g6a.centre_spread",
+			"level": 3
+		},
+		{
+			"gen": "g6a.stat_question",
+			"level": 1
+		},
+		{
+			"gen": "g6a.stat_question",
+			"level": 2
+		},
+		{
+			"gen": "g6a.stat_question",
+			"level": 3
+		}
+	]
+}

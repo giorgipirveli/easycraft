@@ -1,0 +1,337 @@
+{
+	"id": "g3.art.observation_drawing",
+	"lesson": [
+		{
+			"text": "Quick memory: which two paints make purple? (Blue and red.) Today: drawing what you really see."
+		},
+		{
+			"text": "Observational drawing means drawing something while you look at it, not from memory. Look at the object more than at your paper.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"look at the object",
+					"draw a little",
+					"look again",
+					"draw a little more"
+				],
+				"title": "Look more than you draw",
+				"loop": true
+			}
+		},
+		{
+			"text": "Look for the big shapes first: is it round, tall, long? Draw those lightly, then add the smaller parts.",
+			"picture": {
+				"kind": "still_life",
+				"objects": [
+					"apple",
+					"jug"
+				],
+				"light": "left"
+			}
+		},
+		{
+			"text": "Look closely for details: the veins on a leaf, the pattern on a shell, the shine on an apple. A magnifying glass helps you see even more."
+		},
+		{
+			"text": "Light and dark help things look solid. Where the light shines, leave the paper pale; press harder where it is in shadow.",
+			"picture": {
+				"kind": "shading",
+				"shape": "sphere",
+				"light": "left",
+				"labels": true
+			}
+		},
+		{
+			"text": "A sketchbook is an artist's notebook: quick drawings, ideas, colours to try, things you noticed. Mistakes are welcome there; they help you learn."
+		},
+		{
+			"text": "Artists of the past filled many sketchbooks. Leonardo da Vinci drew plants, animals, machines and water again and again, to understand how they worked."
+		},
+		{
+			"text": "Try it in the world: find a flower, a tree or an animal in your world. Draw it while you look at it: big shapes first, then the details. Keep it in a sketchbook."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is observational drawing?",
+			"answer": 0,
+			"hint": "Observe means look closely.",
+			"choices": [
+				"drawing something while you look at it",
+				"drawing from memory only",
+				"tracing a photo",
+				"colouring in a picture"
+			],
+			"explain": "Observational drawing means drawing something while you look at it."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When you draw from observation, you should look at the object more than at your paper.",
+			"answer": true,
+			"hint": "Where do the details come from?",
+			"explain": "True: look at the object more than your paper, so you draw what you see."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a sketchbook for?",
+			"answer": 0,
+			"hint": "Think of an artist's notebook.",
+			"choices": [
+				"quick drawings and ideas",
+				"only finished paintings",
+				"maths homework",
+				"keeping stickers"
+			],
+			"explain": "A sketchbook is for quick drawings, ideas and things you notice."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should you draw first?",
+			"answer": 0,
+			"hint": "Start big, finish small.",
+			"choices": [
+				"the big shapes, lightly",
+				"the tiniest details",
+				"the shadows",
+				"the background colour"
+			],
+			"explain": "Draw the big shapes lightly first, then add the smaller parts."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of an observational drawing in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Look first; big before small; light and dark at the end.",
+			"items": [
+				"Add the light and dark",
+				"Add the smaller parts and details",
+				"Draw the big shapes lightly",
+				"Look closely at the object"
+			],
+			"explain": "Look closely, draw the big shapes lightly, add the details, then add light and dark."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which tool helps you see the tiny details on a leaf?",
+			"answer": 0,
+			"hint": "Which one makes things look bigger?",
+			"choices": [
+				"a magnifying glass",
+				"a ruler",
+				"a paintbrush",
+				"a rubber"
+			],
+			"explain": "A magnifying glass makes small details look bigger."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Mistakes in a sketchbook are a bad thing.",
+			"answer": false,
+			"hint": "What is a sketchbook for?",
+			"explain": "False: a sketchbook is for trying things out. Mistakes help you learn."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where on an apple should you leave the paper pale?",
+			"answer": 0,
+			"hint": "Pale shows light; dark shows shadow.",
+			"choices": [
+				"where the light shines on it",
+				"in its shadow",
+				"at the bottom",
+				"nowhere"
+			],
+			"explain": "Leave the paper pale where the light shines, to show the shine."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: observing closely, or not?",
+			"groups": [
+				"observing",
+				"not observing"
+			],
+			"items": [
+				"counting the petals on a real flower",
+				"drawing a flower from memory",
+				"looking at the lines on your hand",
+				"guessing what a beetle looks like",
+				"studying a shell with a magnifying glass"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Are you looking at the real thing?",
+			"explain": "Observing: counting real petals, looking at your hand, studying a shell. Not: memory or guessing."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly's drawing of a mug looks flat. What would help most?",
+			"answer": 0,
+			"hint": "What makes things look solid?",
+			"choices": [
+				"add shadow where the light doesn't reach",
+				"make every line thinner",
+				"draw it smaller",
+				"rub it all out"
+			],
+			"explain": "Adding shadow where the light doesn't reach makes the mug look round and solid."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Leonardo da Vinci filled notebooks with drawings of plants, animals and machines. Why did he draw them so often?",
+			"answer": 0,
+			"hint": "Drawing helps you notice.",
+			"choices": [
+				"to understand how they worked",
+				"because he had no paper",
+				"to sell the notebooks",
+				"because someone told him to"
+			],
+			"explain": "Drawing things again and again helped him understand how they worked."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Drawing the same thing again and again helps you notice more each time.",
+			"answer": true,
+			"hint": "Do you see more the longer you look?",
+			"explain": "True: each time you draw it, you notice new details."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the parts of drawing a tree in a sensible order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Big shapes first, then smaller parts, then texture.",
+			"items": [
+				"The texture of the bark",
+				"The smaller twigs",
+				"The main branches",
+				"The shape of the trunk"
+			],
+			"explain": "The trunk's shape, the main branches, the smaller twigs, then the bark's texture."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the best way to draw a cat that keeps moving?",
+			"answer": 0,
+			"hint": "It won't stay still for long.",
+			"choices": [
+				"make quick sketches of the big shapes",
+				"draw every hair slowly",
+				"draw it from memory",
+				"don't draw it at all"
+			],
+			"explain": "Quick sketches catch the big shapes before the cat moves again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do artists draw lightly at first?",
+			"answer": 0,
+			"hint": "What if a line is in the wrong place?",
+			"choices": [
+				"so the lines are easy to change",
+				"so the drawing is darker",
+				"to use more paper",
+				"so the pencil stays sharp forever"
+			],
+			"explain": "Light lines are easy to change or rub out while you work."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the habits: do they help observational drawing, or not?",
+			"groups": [
+				"helps",
+				"does not help"
+			],
+			"items": [
+				"look at the object more than the paper",
+				"press hard from the start",
+				"draw the big shapes first",
+				"draw from memory",
+				"leave pale paper where light shines"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Observational drawing means looking closely, starting lightly, and big shapes first.",
+			"explain": "Helps: looking at the object more than the paper, big shapes first, and leaving pale paper where the light shines. Doesn't help: pressing hard at the start (hard to change) or drawing from memory."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each problem in a drawing to its fix.",
+			"items": [
+				"the apple looks flat",
+				"the lines are hard to change",
+				"the cat moved away",
+				"the leaf has no detail"
+			],
+			"matches": [
+				"make quick sketches",
+				"use a magnifying glass",
+				"add shadow where it is dark",
+				"start by drawing lightly"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the tips: shading, light lines, quick sketches and looking closer.",
+			"explain": "A flat apple needs shadow where the light doesn't reach. Lines that are hard to change: draw lightly at first. A cat that moves: make quick sketches. A leaf with no detail: look closer with a magnifying glass."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Light shines on an apple from the left. Order the parts from the palest to the darkest.",
+			"items": [
+				"the apple's right side",
+				"the shadow on the table",
+				"the apple's left side"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Where the light hits, leave it pale; the less light a part gets, the darker it is.",
+			"explain": "The left side faces the light, so it is palest. The right side turns away from the light, so it is darker. The shadow on the table gets no light at all, so it is darkest."
+		}
+	],
+	"generators": []
+}

@@ -1,0 +1,417 @@
+{
+	"id": "g7.geography.world_ecosystems",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met biomes. Which biome holds more than half of all kinds of land plants and animals? (The tropical rainforest.) Today: how climate, soil and living things are linked."
+		},
+		{
+			"text": "An ecosystem is living things and their surroundings working together: plants, animals and tiny decomposers (the biotic parts), with the climate, soil, water and rocks (the abiotic parts). A biome is a very large ecosystem, such as the tundra."
+		},
+		{
+			"text": "Climate decides the biome. Near the Equator it is hot and wet all year, about 27 °C with rain on most days: tropical rainforest. Deserts get under 250 mm of rain a year; the tundra is cold, with frozen ground below.",
+			"picture": {
+				"kind": "climograph",
+				"name": "Tropical rainforest",
+				"temp": [
+					27,
+					27,
+					27,
+					27,
+					27,
+					26,
+					26,
+					26,
+					27,
+					27,
+					27,
+					27
+				],
+				"rain": [
+					260,
+					250,
+					300,
+					280,
+					220,
+					160,
+					140,
+					150,
+					180,
+					220,
+					240,
+					270
+				],
+				"t_top": 40,
+				"t_step": 10,
+				"r_top": 400,
+				"r_step": 100
+			}
+		},
+		{
+			"text": "Energy flows through an ecosystem. Plants, the producers, capture sunlight. Plant-eaters get only about a tenth of the plants' energy, and meat-eaters about a tenth of theirs; the rest is used up living. So there are far fewer foxes than rabbits.",
+			"picture": {
+				"kind": "food_web",
+				"nodes": [
+					[
+						"grass",
+						0,
+						2
+					],
+					[
+						"rabbit",
+						1,
+						1
+					],
+					[
+						"fox",
+						2,
+						0
+					]
+				],
+				"links": [
+					[
+						0,
+						1
+					],
+					[
+						1,
+						2
+					]
+				]
+			}
+		},
+		{
+			"text": "Nutrients cycle between three stores: living things (biomass), fallen leaves (litter) and the soil. In a rainforest, heat and rain rot leaves in weeks, and plants take the nutrients up fast. So most are in the plants, and the soil is thin.",
+			"picture": {
+				"kind": "nutrient_cycle",
+				"stores": [
+					5,
+					1,
+					1
+				],
+				"flows": [
+					5,
+					5,
+					5
+				],
+				"name": "Tropical rainforest",
+				"labels": true
+			}
+		},
+		{
+			"text": "In the cold taiga, fallen needles rot very slowly, so a thick layer of litter builds up. Much of the nutrients wait there. Each biome's plants and animals suit its climate and soil: change one part, and the others change too.",
+			"picture": {
+				"kind": "nutrient_cycle",
+				"stores": [
+					3,
+					5,
+					2
+				],
+				"flows": [
+					2,
+					1,
+					1
+				],
+				"name": "Taiga",
+				"labels": true
+			}
+		},
+		{
+			"text": "People change ecosystems: forests are cut for cattle, crops and wood, and thin rainforest soil soon washes away. Sustainable choices help: protected areas, replanting, and farming that keeps the trees, such as cacao and coffee grown in the forest's shade."
+		},
+		{
+			"text": "Try it in the world: build two small biomes side by side, a rainforest and a taiga, with the right plants. Put a sign in each showing where most of its nutrients are stored. Next: water supply."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What are plants called in an ecosystem, because they make food from sunlight?",
+			"answer": 0,
+			"hint": "They produce food for everything else.",
+			"choices": [
+				"producers",
+				"consumers",
+				"decomposers",
+				"predators"
+			],
+			"explain": "Producers: plants make their own food from sunlight, and every other living thing depends on it."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is an abiotic (non-living) part of an ecosystem?",
+			"answer": 0,
+			"hint": "Which one was never alive?",
+			"choices": [
+				"rainfall",
+				"a tree",
+				"a beetle",
+				"a mushroom"
+			],
+			"explain": "Rainfall; trees, beetles and mushrooms are living (biotic)."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Deserts get under 250 mm of rain a year.",
+			"answer": true,
+			"hint": "Deserts are the driest biome.",
+			"explain": "True: under 250 mm a year."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which ecosystem has this climate?",
+			"answer": 0,
+			"hint": "Look at the temperature line and the rain bars.",
+			"choices": [
+				"tropical rainforest",
+				"hot desert",
+				"tundra",
+				"taiga"
+			],
+			"explain": "Hot all year and wet every month: tropical rainforest.",
+			"picture": {
+				"kind": "climograph",
+				"name": "Tropical rainforest",
+				"temp": [
+					27,
+					27,
+					27,
+					27,
+					27,
+					26,
+					26,
+					26,
+					27,
+					27,
+					27,
+					27
+				],
+				"rain": [
+					260,
+					250,
+					300,
+					280,
+					220,
+					160,
+					140,
+					150,
+					180,
+					220,
+					240,
+					270
+				],
+				"t_top": 40,
+				"t_step": 10,
+				"r_top": 400,
+				"r_step": 100
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do decomposers do?",
+			"answer": 0,
+			"hint": "Think of worms, fungi and bacteria.",
+			"choices": [
+				"break down dead things and return nutrients",
+				"make food from sunlight",
+				"hunt other animals",
+				"carry pollen"
+			],
+			"explain": "They break down dead plants and animals and return nutrients to the soil."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Grass stores 20,000 units of energy, and about a tenth passes to the rabbits that eat it. How many units reach the rabbits?",
+			"answer": "2000",
+			"hint": "Find a tenth: divide by 10.",
+			"explain": "20,000 ÷ 10 = 2,000 units."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In which store are most of this rainforest's nutrients?",
+			"answer": 0,
+			"hint": "The biggest circle holds the most.",
+			"choices": [
+				"biomass (living things)",
+				"litter",
+				"soil"
+			],
+			"explain": "In the biomass: plants take nutrients up almost as soon as leaves rot.",
+			"picture": {
+				"kind": "nutrient_cycle",
+				"stores": [
+					5,
+					1,
+					1
+				],
+				"flows": [
+					5,
+					5,
+					5
+				],
+				"name": "Tropical rainforest"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is rainforest soil thin and poor?",
+			"answer": 0,
+			"hint": "What happens to fallen leaves in the heat and rain?",
+			"choices": [
+				"plants take the nutrients up fast",
+				"it is too cold",
+				"there are no plants",
+				"it never rains"
+			],
+			"explain": "Leaves rot fast and plants take the nutrients up at once, and heavy rain washes the rest away."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each biome to its feature.",
+			"items": [
+				"tundra",
+				"savanna",
+				"taiga",
+				"hot desert"
+			],
+			"matches": [
+				"under 250 mm of rain",
+				"frozen ground all year",
+				"grass and a dry season",
+				"conifers and long winters"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Two are cold, two are hot.",
+			"explain": "Tundra: permafrost. Savanna: grass, wet and dry seasons. Taiga: conifers. Hot desert: very little rain."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these parts of an ecosystem: living or non-living?",
+			"groups": [
+				"living (biotic)",
+				"non-living (abiotic)"
+			],
+			"items": [
+				"trees",
+				"sunlight",
+				"worms",
+				"rain",
+				"fungi",
+				"rocks"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it, or was it ever, alive?",
+			"explain": "Living: trees, worms, fungi. Non-living: sunlight, rain, rocks."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An owl gets 30 units of energy from mice, which ate plants. About how many units were in the plants?",
+			"answer": "3000",
+			"hint": "Two steps down: multiply by 10 twice.",
+			"explain": "30 × 10 × 10 = 3,000 units."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does litter pile up in the taiga?",
+			"answer": 0,
+			"hint": "Decomposers work faster when it is warm.",
+			"choices": [
+				"the cold makes fallen needles rot slowly",
+				"it never rains there",
+				"there are no trees",
+				"animals carry it there"
+			],
+			"explain": "Cold slows decomposers, so needles rot slowly and a thick litter layer builds up."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Changing one part of an ecosystem never affects the others.",
+			"answer": false,
+			"hint": "Think of cutting the rainforest's trees.",
+			"explain": "False: the parts are linked; cut the trees and the thin soil washes away."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is a sustainable way to farm in a rainforest?",
+			"answer": 0,
+			"hint": "Which one keeps the forest standing?",
+			"choices": [
+				"grow cacao in the shade of the trees",
+				"cut all the trees for cattle",
+				"burn the forest each year",
+				"plant one crop on bare soil"
+			],
+			"explain": "Growing cacao or coffee in the forest's shade keeps the trees, the soil and the wildlife."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put this food chain in order, from where its energy starts.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Energy starts with the Sun and passes to what eats what.",
+			"items": [
+				"fox",
+				"rabbit",
+				"grass",
+				"sunlight"
+			],
+			"explain": "Sunlight, grass (the producer), rabbit, fox."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.biome_climate",
+			"level": 1
+		},
+		{
+			"gen": "g7h.biome_climate",
+			"level": 2
+		},
+		{
+			"gen": "g7h.biome_climate",
+			"level": 3
+		},
+		{
+			"gen": "g7h.energy_pyramid",
+			"level": 1
+		},
+		{
+			"gen": "g7h.energy_pyramid",
+			"level": 2
+		},
+		{
+			"gen": "g7h.energy_pyramid",
+			"level": 3
+		}
+	]
+}

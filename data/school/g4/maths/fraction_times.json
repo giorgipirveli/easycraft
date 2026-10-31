@@ -1,0 +1,194 @@
+{
+	"id": "g4.maths.fraction_times",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, adding fractions. What is 1/4 + 2/4? 3/4: add the tops, keep the bottom."
+		},
+		{
+			"text": "3/4 is 3 quarters: 1/4 + 1/4 + 1/4. So 3/4 = 3 × 1/4.",
+			"picture": {
+				"kind": "bar",
+				"den": 4,
+				"num": 3
+			}
+		},
+		{
+			"text": "A whole number times a fraction adds the fraction again and again: 5 × 1/3 = 1/3 + 1/3 + 1/3 + 1/3 + 1/3 = 5/3."
+		},
+		{
+			"text": "3 × 2/5 is 3 lots of 2 fifths: 6 fifths, or 6/5. Multiply the top by the whole number; the bottom stays.",
+			"picture": {
+				"kind": "bar",
+				"bars": [
+					{
+						"den": 5,
+						"num": 2
+					},
+					{
+						"den": 5,
+						"num": 2
+					},
+					{
+						"den": 5,
+						"num": 2
+					}
+				]
+			}
+		},
+		{
+			"text": "A potion needs 3/4 of a cup of berries. For 4 potions: 4 × 3/4 = 12/4 = 3 cups."
+		},
+		{
+			"text": "Try it in the world: each chest needs 3/4 of a stack of planks. How many stacks for 4 chests? 4 × 3/4 = 3. Build them! Next: tenths and hundredths."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "4 × 1/5 = ?",
+			"answer": "4/5",
+			"hint": "4 lots of one fifth.",
+			"explain": "4 × 1/5 = 4/5"
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "5/8 = ? × 1/8",
+			"answer": "5",
+			"hint": "How many eighths make 5/8?",
+			"explain": "5/8 is 5 lots of 1/8."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "3 × 2/3 = ?",
+			"answer": "6/3",
+			"hint": "3 lots of 2 thirds.",
+			"explain": "3 × 2/3 = 6/3, which is 2 wholes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the same as 4 × 3/10?",
+			"choices": [
+				"12/10",
+				"12/40",
+				"7/10",
+				"3/40"
+			],
+			"answer": 0,
+			"hint": "Multiply the top by 4; the bottom stays.",
+			"explain": "4 × 3/10 = 12/10"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Zara runs 5 laps of 3/10 km each. How far does she run, in km?",
+			"answer": "15/10",
+			"hint": "5 laps: 5 × 3/10.",
+			"explain": "5 × 3/10 = 15/10 km"
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "6 × 1/4 is more than 1.",
+			"answer": true,
+			"hint": "6 × 1/4 = 6/4. How many quarters make 1?",
+			"explain": "6 × 1/4 is 6 quarters: 6/4. 4 quarters make 1 whole, so 6/4 is 1 whole and 2 quarters more: more than 1."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "8 × 3/8 is equal to…",
+			"choices": [
+				"3",
+				"8",
+				"11",
+				"24"
+			],
+			"answer": 0,
+			"hint": "8 lots of 3 eighths is 24 eighths.",
+			"explain": "8 × 3/8 = 24/8: 24 eighths. 8 eighths make 1 whole, so 24 eighths make 24 ÷ 8 = 3 wholes."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Each dragon egg needs 2/3 of a basket of warm sand. How many baskets are needed for 6 eggs?",
+			"answer": "12/3",
+			"hint": "6 eggs: 6 × 2/3.",
+			"explain": "6 eggs × 2/3 of a basket = 12/3 baskets. 3 thirds make 1 basket, so 12 thirds make 12 ÷ 3 = 4 baskets."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each product to its answer.",
+			"items": [
+				"2 × 1/3",
+				"4 × 2/5",
+				"3 × 3/4",
+				"5 × 1/6"
+			],
+			"matches": [
+				"9/4",
+				"5/6",
+				"2/3",
+				"8/5"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Multiply the top by the whole number; keep the bottom.",
+			"explain": "2 × 1/3 = 2/3; 4 × 2/5 = 8/5; 3 × 3/4 = 9/4; 5 × 1/6 = 5/6."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A potion needs 3/4 of a cup of berries and 2/4 of a cup of honey. How many cups of berries and honey in all for 4 potions?",
+			"answer": "5",
+			"hint": "Add for one potion first, then multiply by 4.",
+			"explain": "One potion: 3/4 + 2/4 = 5/4 cups. Four potions: 4 × 5/4 = 20/4 cups. 4 quarters make a whole, so 20/4 is 5 cups."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4f.unit_times",
+			"level": 1
+		},
+		{
+			"gen": "g4f.frac_times",
+			"level": 1
+		},
+		{
+			"gen": "g4f.frac_times",
+			"level": 2
+		},
+		{
+			"gen": "g4f.frac_times",
+			"level": 3
+		},
+		{
+			"gen": "g4f.as_unit_multiple",
+			"level": 1
+		},
+		{
+			"gen": "g4f.as_unit_multiple",
+			"level": 2
+		},
+		{
+			"gen": "g4f.times_story",
+			"level": 2
+		},
+		{
+			"gen": "g4f.times_story",
+			"level": 3
+		},
+		{
+			"gen": "g4f.times_between",
+			"level": 3
+		}
+	]
+}

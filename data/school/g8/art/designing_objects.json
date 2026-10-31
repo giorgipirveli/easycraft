@@ -1,0 +1,433 @@
+{
+	"id": "g8.art.designing_objects",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7, what does a front elevation show? (A building's front, drawn flat and to scale.) Today: designing everyday objects, where form and function meet."
+		},
+		{
+			"text": "Function is what an object does; form is its shape and look. In 1896 the architect Louis Sullivan (1856-1924) wrote that form ever follows function: the job should shape the design.",
+			"picture": {
+				"kind": "object_design",
+				"what": "chair",
+				"labels": true
+			}
+		},
+		{
+			"text": "Worked example: George Carwardine's balanced-arm lamp of 1932 uses springs, like muscles, to hold its arm still in any position. Its form, with joints and springs, comes from its function.",
+			"picture": {
+				"kind": "object_design",
+				"what": "lamp",
+				"labels": true
+			}
+		},
+		{
+			"text": "The Bauhaus, a school in Germany from 1919 to 1933, designed simple, useful objects for factories to make. Marcel Breuer (1902-1981) bent steel tubes into a chair in 1925, inspired by bicycle handlebars.",
+			"picture": {
+				"kind": "object_design",
+				"what": "chair",
+				"mark": "frame"
+			}
+		},
+		{
+			"text": "Ergonomics fits objects to people: a handle the right size for a hand, a seat at the right height, buttons a thumb can reach. Designers measure many people to get it right."
+		},
+		{
+			"text": "Phones changed form as their function changed: from a heavy desk telephone with a dial to a pocket touch screen. In 1954 Sori Yanagi (1915-2011) bent two pieces of plywood into his Butterfly Stool.",
+			"picture": {
+				"kind": "object_design",
+				"what": "dial_phone",
+				"labels": true
+			}
+		},
+		{
+			"text": "Good design today also asks: can it be repaired, made from fewer materials, and recycled? Can everyone use it, whatever their age or their hands?",
+			"picture": {
+				"kind": "object_design",
+				"what": "smartphone",
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: pick up 3 tools at home and ask how each handle fits a hand. In LIFE, open the Tool Book to see tools designed for their jobs. Next: animation."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an object's function?",
+			"choices": [
+				"the job it does",
+				"its colour",
+				"its price",
+				"its shape"
+			],
+			"answer": 0,
+			"hint": "Function and job mean nearly the same.",
+			"explain": "Function is what an object does; its shape and colour are its form."
+		},
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label the balanced-arm lamp.",
+			"picture": {
+				"kind": "object_design",
+				"what": "lamp"
+			},
+			"spots": [
+				[
+					0.5188,
+					0.09,
+					0.5188,
+					0.3535
+				],
+				[
+					0.6785,
+					0.09,
+					0.6785,
+					0.3757
+				],
+				[
+					0.4972,
+					0.91,
+					0.4972,
+					0.6376
+				],
+				[
+					0.6087,
+					0.91,
+					0.5,
+					0.8552
+				]
+			],
+			"labels": [
+				"shade",
+				"springs",
+				"base",
+				"arm"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Start at the bottom, where it stands, and go up to the light.",
+			"explain": "The heavy base stands on the desk; the arm reaches up, the springs hold it, and the shade points the light."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Form follows function means the job should shape the design.",
+			"answer": true,
+			"hint": "Which comes first: the job or the look?",
+			"explain": "True: work out the job first, then give it a form that does the job well."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each object to its function.",
+			"items": [
+				"lamp",
+				"chair",
+				"phone",
+				"stool"
+			],
+			"matches": [
+				"holds a sitting person",
+				"carries voices far away",
+				"a seat with no back",
+				"lights a desk"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Ask what job each one does.",
+			"explain": "A lamp lights, a chair holds someone sitting, a phone carries voices and a stool is a backless seat."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part do you turn with a finger to make a call?",
+			"choices": [
+				"the dial",
+				"the cord",
+				"the handset",
+				"the earpiece"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "object_design",
+				"what": "dial_phone"
+			},
+			"hint": "Look for the wheel with holes.",
+			"explain": "You put a finger in a hole of the dial and turn it to send each number."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "How it works, or how it looks?",
+			"groups": [
+				"function: how it works",
+				"form: how it looks"
+			],
+			"items": [
+				"springs hold the arm",
+				"a glossy red finish",
+				"joints let it bend",
+				"a heavy base stops it tipping",
+				"a pattern on the shade"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Would the lamp still work without it?",
+			"explain": "Springs, joints and a heavy base make it work; a glossy finish and a pattern are about its look."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these phones in time order.",
+			"items": [
+				"a touch-screen smartphone",
+				"a mobile phone the size of a brick",
+				"a push-button phone",
+				"a desk telephone with a dial"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Think of how phones got smaller and gained screens.",
+			"explain": "Dials came first, then push buttons (the 1960s), then brick-sized mobiles (the 1980s), then touch screens (from 2007)."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the stacking chair.",
+			"picture": {
+				"kind": "object_design",
+				"what": "chair"
+			},
+			"spots": [
+				[
+					0.5798,
+					0.09,
+					0.5798,
+					0.2869
+				],
+				[
+					0.4249,
+					0.91,
+					0.4249,
+					0.8019
+				],
+				[
+					0.5364,
+					0.91,
+					0.4906,
+					0.5
+				],
+				[
+					0.6479,
+					0.91,
+					0.5,
+					0.7131
+				]
+			],
+			"labels": [
+				"legs",
+				"frame",
+				"backrest",
+				"seat"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Sit on it in your mind: what holds you up, and what does your back rest on?",
+			"explain": "You rest your back on the backrest and sit on the seat; the legs stand on the floor and the frame joins them."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Marcel Breuer's steel chair of 1925 was inspired by a bicycle's handlebars.",
+			"answer": true,
+			"hint": "Think about bent steel tubes.",
+			"explain": "True: the bent steel tubes of handlebars gave him the idea."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A handle is too wide for a child's hand. Which design idea is this about?",
+			"choices": [
+				"ergonomics",
+				"symmetry",
+				"perspective",
+				"colour harmony"
+			],
+			"answer": 0,
+			"hint": "Which idea fits objects to people's bodies?",
+			"explain": "Ergonomics is fitting objects to the people who use them, such as the size of a hand."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A chair's seat is 45 cm high, and its back rises 40 cm above the seat. How high is the top of the back?",
+			"answer": "85",
+			"hint": "Add the two heights.",
+			"explain": "45 + 40 = 85 cm from the floor."
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label the smartphone.",
+			"picture": {
+				"kind": "object_design",
+				"what": "smartphone"
+			},
+			"spots": [
+				[
+					0.5,
+					0.09,
+					0.5,
+					0.1581
+				],
+				[
+					0.6115,
+					0.09,
+					0.5939,
+					0.3402
+				],
+				[
+					0.4577,
+					0.91,
+					0.4577,
+					0.8596
+				],
+				[
+					0.5693,
+					0.91,
+					0.5,
+					0.5
+				],
+				[
+					0.6808,
+					0.91,
+					0.5423,
+					0.8596
+				]
+			],
+			"labels": [
+				"camera",
+				"microphone",
+				"screen",
+				"speaker",
+				"button"
+			],
+			"answer": [
+				0,
+				4,
+				3,
+				2,
+				1
+			],
+			"hint": "Look at the top, the side and the bottom edge.",
+			"explain": "The screen fills the front; the camera is at the top; the button is on the side; the speaker and microphone are on the bottom edge."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did Bauhaus designers keep shapes simple?",
+			"choices": [
+				"so factories could make them for everyone",
+				"because decoration was too heavy",
+				"to use more gold",
+				"so they would break"
+			],
+			"answer": 0,
+			"hint": "Who made the objects, and for whom?",
+			"explain": "Simple shapes could be made well and cheaply in factories, so good design reached everyone."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Easy to repair, or hard to repair?",
+			"groups": [
+				"easy to repair",
+				"hard to repair"
+			],
+			"items": [
+				"parts held by screws",
+				"parts glued shut",
+				"spare parts on sale",
+				"a battery sealed inside",
+				"a guide showing the parts"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Could you open it and fix one part?",
+			"explain": "Screws, spare parts and a guide make repair easy; glue and a sealed battery make it hard."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Designing for everyone means thinking of people who are older, younger, or use one hand.",
+			"answer": true,
+			"hint": "Who might find an object hard to use?",
+			"explain": "True: good design works for as many people as possible."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The balanced-arm lamp's springs work most like which part of a body?",
+			"choices": [
+				"muscles",
+				"bones",
+				"skin",
+				"eyes"
+			],
+			"answer": 0,
+			"hint": "What in your arm holds it still in the air?",
+			"explain": "Muscles pull to hold an arm still; the springs pull to hold the lamp's arm still."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A stool is drawn at 1:5. The drawing's seat is 9 cm high. How high is the real seat, in cm?",
+			"answer": "45",
+			"hint": "At 1:5 everything real is 5 times the drawing.",
+			"explain": "9 × 5 = 45 cm."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.form_function",
+			"level": 1
+		},
+		{
+			"gen": "g8c.form_function",
+			"level": 2
+		},
+		{
+			"gen": "g8c.form_function",
+			"level": 3
+		}
+	]
+}

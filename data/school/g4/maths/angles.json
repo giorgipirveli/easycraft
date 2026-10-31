@@ -1,0 +1,203 @@
+{
+	"id": "g4.maths.angles",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met right angles. Where can you find one? The corner of a square or a book."
+		},
+		{
+			"text": "An angle is made by two rays that start at the same point. Its size is how far one ray turns away from the other.",
+			"picture": {
+				"kind": "angle",
+				"deg": 50,
+				"show": true
+			}
+		},
+		{
+			"text": "Angles are measured in degrees (°). A full turn is 360°. A right angle, a quarter turn, is 90°. A straight angle, a half turn, is 180°.",
+			"picture": {
+				"kind": "angle",
+				"deg": 90
+			}
+		},
+		{
+			"text": "A protractor measures angles. Put its centre on the corner and its 0 along one ray, then read where the other ray crosses the scale.",
+			"picture": {
+				"kind": "angle",
+				"deg": 60,
+				"protractor": true
+			}
+		},
+		{
+			"text": "Angles side by side add up: 35° + 55° = 90°. If you know the whole angle and one part, take away to find the other part.",
+			"picture": {
+				"kind": "angle",
+				"deg": 90,
+				"parts": [
+					35,
+					55
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: stand in your world and turn a quarter turn (90°), then a half turn (180°), then a full turn (360°). Next: lines, shapes and symmetry."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many degrees are in a right angle?",
+			"answer": "90",
+			"hint": "A right angle is a quarter of a full turn of 360°.",
+			"explain": "360 ÷ 4 = 90°"
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many degrees are in a full turn?",
+			"answer": "360",
+			"hint": "Think of the whole circle.",
+			"explain": "A full turn is 360°."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which angle is bigger than a right angle?",
+			"choices": [
+				"120°",
+				"60°",
+				"90°",
+				"45°"
+			],
+			"answer": 0,
+			"hint": "A right angle is 90°.",
+			"explain": "120° is more than 90°."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Two angles side by side make a straight angle (180°). One is 125°. What is the other?",
+			"answer": "55",
+			"hint": "Take 125 away from 180.",
+			"explain": "180 − 125 = 55°"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A clock's minute hand turns from 12 to 3. How many degrees does it turn?",
+			"answer": "90",
+			"hint": "From 12 to 3 is a quarter of the way round.",
+			"explain": "A quarter turn is 90°.",
+			"picture": {
+				"kind": "clock",
+				"h": 12,
+				"m": 15
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Half of a full turn is 180°.",
+			"answer": true,
+			"hint": "A full turn is 360°.",
+			"explain": "360 ÷ 2 = 180°"
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A buddy turns 45° three times. How many degrees has it turned?",
+			"answer": "135",
+			"hint": "Add 45 three times.",
+			"explain": "45 + 45 + 45 = 135°"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Pip turns 270°. Which is the same?",
+			"choices": [
+				"3/4 of a full turn",
+				"1/2 of a full turn",
+				"1/4 of a full turn",
+				"a full turn"
+			],
+			"answer": 0,
+			"hint": "A quarter turn is 90°. How many quarters make 270°?",
+			"explain": "270 = 3 × 90, so 3/4 of a full turn."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many degrees is this angle?",
+			"answer": "130",
+			"hint": "Start at 0 on the line the angle starts from, and read the scale.",
+			"explain": "From 0 to the second ray is 130°.",
+			"picture": {
+				"kind": "angle",
+				"deg": 130,
+				"protractor": true
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4g.turn_degrees",
+			"level": 1
+		},
+		{
+			"gen": "g4g.turn_degrees",
+			"level": 2
+		},
+		{
+			"gen": "g4g.turn_degrees",
+			"level": 3
+		},
+		{
+			"gen": "g4g.angle_add",
+			"level": 1
+		},
+		{
+			"gen": "g4g.angle_add",
+			"level": 2
+		},
+		{
+			"gen": "g4g.angle_add",
+			"level": 3
+		},
+		{
+			"gen": "g4g.angle_missing",
+			"level": 1
+		},
+		{
+			"gen": "g4g.angle_missing",
+			"level": 2
+		},
+		{
+			"gen": "g4g.angle_missing",
+			"level": 3
+		},
+		{
+			"gen": "g4g.angle_read",
+			"level": 1
+		},
+		{
+			"gen": "g4g.angle_read",
+			"level": 2
+		},
+		{
+			"gen": "g4g.angle_read",
+			"level": 3
+		},
+		{
+			"gen": "g4g.angle_estimate",
+			"level": 1
+		},
+		{
+			"gen": "g4g.one_degree",
+			"level": 1
+		},
+		{
+			"gen": "g4g.one_degree",
+			"level": 2
+		}
+	]
+}

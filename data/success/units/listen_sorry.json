@@ -1,0 +1,157 @@
+{
+	"id": "life.talk.listen_sorry",
+	"lesson": [
+		{
+			"text": "Quick memory: what do you say when someone gives you something? (Thank you!) Today: listening, saying sorry and clear words."
+		},
+		{
+			"text": "When someone is upset, look at them and listen first. Then they feel heard."
+		},
+		{
+			"text": "Say back what you heard: 'Your bread got squashed. Oh no!'"
+		},
+		{
+			"text": "A real sorry has no 'but': 'I'm sorry about that.' Then fix it if you can."
+		},
+		{
+			"text": "Clear words say what, which and where: 'Put the red box in the basket.' 'Put it there' could mean anything!"
+		},
+		{
+			"text": "Ask nicely: 'Can I have a turn, please?'"
+		},
+		{
+			"text": "Try it in the practice room: help Mo, then give Robo clear instructions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Someone is upset. What do you do first?",
+			"answer": 0,
+			"choices": [
+				"Look at them and listen",
+				"Talk over them",
+				"Walk away"
+			],
+			"hint": "Ears first.",
+			"explain": "Listen first: then they feel heard."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "'Sorry, but it's your fault' is a good sorry.",
+			"answer": false,
+			"hint": "Listen for the 'but'.",
+			"explain": "False: a 'but' takes the sorry away."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How do you ask for a turn?",
+			"answer": 0,
+			"choices": [
+				"'Can I have a turn, please?'",
+				"'Give it!'",
+				"Grab it"
+			],
+			"hint": "A question and a please.",
+			"explain": "'Can I have a turn, please?'"
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Saying thank you shows you're glad.",
+			"answer": true,
+			"hint": "Think of Mo.",
+			"explain": "True."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which words are clear for Robo?",
+			"answer": 0,
+			"choices": [
+				"'Put the red box in the basket.'",
+				"'Put it there.'",
+				"'Do the thing!'"
+			],
+			"hint": "What, which, where.",
+			"explain": "Which box and where: the red box in the basket."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Someone is cross with you: put it in order.",
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"items": [
+				"fix it",
+				"listen",
+				"say sorry"
+			],
+			"hint": "Ears first.",
+			"explain": "Listen, say sorry, fix it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Mo says his bread got squashed. Say it back:",
+			"answer": 0,
+			"choices": [
+				"'Your bread got squashed. Oh no!'",
+				"'Not my fault!'",
+				"'Bread is bread.'"
+			],
+			"hint": "Say what you heard.",
+			"explain": "Saying it back shows you listened."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Kind words or not kind?",
+			"groups": [
+				"kind",
+				"not kind"
+			],
+			"items": [
+				"thank you",
+				"go away",
+				"I'm sorry",
+				"whatever"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "How would you feel?",
+			"explain": "'Thank you' and 'I'm sorry' are kind."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The yellow box goes on the red one. Best words?",
+			"answer": 0,
+			"choices": [
+				"'Yellow box on top of the red box, please.'",
+				"'Stack them.'",
+				"'Yellow, red, go!'"
+			],
+			"hint": "Which box goes where?",
+			"explain": "Say which box goes where."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listening first helps someone who is upset to calm down.",
+			"answer": true,
+			"hint": "Think of Mo.",
+			"explain": "True."
+		}
+	]
+}

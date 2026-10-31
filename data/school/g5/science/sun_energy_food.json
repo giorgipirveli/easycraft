@@ -1,0 +1,358 @@
+{
+	"id": "g5.science.sun_energy_food",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met energy. Name one thing energy lets us do. Move, light up, warm up or make a sound."
+		},
+		{
+			"text": "Animals, including you, need energy to move, grow and keep warm. We get it from food."
+		},
+		{
+			"text": "Plants make their own food using energy from sunlight. This is called photosynthesis. The Sun's energy is stored in the food they make.",
+			"picture": {
+				"kind": "energy_chain",
+				"steps": [
+					"light",
+					"chemical",
+					"kinetic"
+				],
+				"things": [
+					"the Sun",
+					"grass",
+					"a rabbit"
+				]
+			}
+		},
+		{
+			"text": "When a rabbit eats grass, it takes in energy that was once sunlight. When a fox eats the rabbit, that energy passes on again.",
+			"picture": {
+				"kind": "food_web",
+				"nodes": [
+					[
+						"grass",
+						1,
+						2
+					],
+					[
+						"rabbit",
+						1,
+						1
+					],
+					[
+						"fox",
+						1,
+						0
+					]
+				],
+				"links": [
+					[
+						0,
+						1
+					],
+					[
+						1,
+						2
+					]
+				]
+			}
+		},
+		{
+			"text": "So the energy in every meal, whether bread, apples or cheese, started as energy from the Sun."
+		},
+		{
+			"text": "Try it in the world: in Survivor, pick an apple or bake bread and eat it. Where did that food's energy start? Follow it back to the Sun. Next: plants grow from air and water."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where do plants get the energy to make their food?",
+			"answer": 0,
+			"hint": "Plants need light.",
+			"choices": [
+				"sunlight",
+				"soil",
+				"rain",
+				"wind"
+			],
+			"explain": "Plants use energy from sunlight."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Animals get energy from food.",
+			"answer": true,
+			"hint": "Why do we eat?",
+			"explain": "Yes: food gives animals energy."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do we call a plant making food from sunlight?",
+			"answer": 0,
+			"hint": "photo means light.",
+			"choices": [
+				"photosynthesis",
+				"evaporation",
+				"erosion"
+			],
+			"explain": "Photosynthesis: making food with light."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where did the energy in an apple first come from?",
+			"answer": 0,
+			"hint": "What did the apple tree need to make its fruit?",
+			"choices": [
+				"the Sun",
+				"the tree's roots",
+				"the rain",
+				"the soil"
+			],
+			"explain": "The apple tree used sunlight to make it."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Plants eat soil for energy.",
+			"answer": false,
+			"hint": "Where do plants get energy?",
+			"explain": "No: plants get their energy from sunlight."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A cow eats grass and we drink its milk. Where did the energy in the milk start?",
+			"answer": 0,
+			"hint": "Where did the grass get its energy?",
+			"choices": [
+				"the Sun",
+				"the cow",
+				"the farmer",
+				"the bucket"
+			],
+			"explain": "The grass grew with sunlight; the cow ate the grass."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do animals need energy?",
+			"answer": 0,
+			"hint": "What does your body do all day?",
+			"choices": [
+				"to move, grow and keep warm",
+				"to change colour",
+				"to make sunlight"
+			],
+			"explain": "Energy lets animals move, grow and keep warm."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the energy's journey in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with where energy begins.",
+			"items": [
+				"a fox",
+				"a rabbit",
+				"grass",
+				"the Sun"
+			],
+			"explain": "The Sun, then grass, then the rabbit that eats it, then the fox."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Bread's energy came from the Sun, because wheat plants grew in sunlight.",
+			"answer": true,
+			"hint": "What is bread made from?",
+			"explain": "Yes: wheat stored the Sun's energy."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which living thing can make its own food?",
+			"answer": 0,
+			"hint": "Which one has green leaves?",
+			"choices": [
+				"an oak tree",
+				"a fox",
+				"a person",
+				"a mushroom"
+			],
+			"explain": "Trees make food from sunlight. Mushrooms can't."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A plant is kept in a dark cupboard for weeks. What happens?",
+			"answer": 0,
+			"hint": "What does it need to make food?",
+			"choices": [
+				"It can't make food and grows weak.",
+				"It grows faster.",
+				"It makes food from the dark."
+			],
+			"explain": "Without sunlight, it can't make food."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is a food chain in the right order?",
+			"answer": 0,
+			"hint": "Energy starts at the Sun.",
+			"choices": [
+				"Sun, seeds, mouse, owl",
+				"owl, mouse, seeds, Sun",
+				"mouse, Sun, owl, seeds"
+			],
+			"explain": "Sun to seeds, seeds to mouse, mouse to owl."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "When you run, you use energy that once came from the Sun.",
+			"answer": true,
+			"hint": "Where did your food's energy start?",
+			"explain": "Yes: your food's energy began as sunlight."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why can't a fox make food from sunlight?",
+			"answer": 0,
+			"hint": "What can plants do that animals can't?",
+			"choices": [
+				"Only plants can do that.",
+				"It sleeps too much.",
+				"It has fur."
+			],
+			"explain": "Only plants (and some tiny living things) make food from sunlight."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A caterpillar eats a leaf; a bird eats the caterpillar. Which gets the Sun's energy first?",
+			"answer": 0,
+			"hint": "Who catches the sunlight?",
+			"choices": [
+				"the leaf",
+				"the caterpillar",
+				"the bird"
+			],
+			"explain": "The leaf catches sunlight first."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the living things: makes its own food, or eats food?",
+			"items": [
+				"an oak tree",
+				"a fox",
+				"grass",
+				"a rabbit",
+				"pondweed",
+				"a person"
+			],
+			"groups": [
+				"makes its own food",
+				"eats food"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it have green parts that catch sunlight?",
+			"explain": "The oak tree, grass and pondweed make food from sunlight. The fox, the rabbit and people eat food."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each food to where its energy came from.",
+			"items": [
+				"bread",
+				"milk",
+				"an egg"
+			],
+			"matches": [
+				"a cow that ate grass",
+				"wheat that grew in sunlight",
+				"a hen that ate grain"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Follow each food back to a plant.",
+			"explain": "Bread: wheat that grew in sunlight. Milk: a cow that ate grass. An egg: a hen that ate grain. Every path starts with a plant and the Sun."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort each food: from a plant, or from an animal that ate plants?",
+			"groups": [
+				"a plant",
+				"an animal"
+			],
+			"items": [
+				"bread",
+				"milk",
+				"an apple",
+				"an egg",
+				"rice",
+				"cheese"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Did it grow in sunlight, or did an animal make it after eating plants?",
+			"explain": "Bread, apples and rice come from plants that grew in sunlight. Milk, eggs and cheese come from animals that ate plants. Either way, the energy began with the Sun."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the energy's path to a fish dinner.",
+			"items": [
+				"a small fish",
+				"you",
+				"tiny water plants",
+				"the Sun",
+				"a big fish"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				4,
+				1
+			],
+			"hint": "Start where all food energy begins, then follow who eats whom.",
+			"explain": "The Sun's energy is caught by tiny water plants, a small fish eats them, a big fish eats the small fish, and you eat the big fish: the energy began as sunlight."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Sun shines on grass, a rabbit eats the grass and a fox eats the rabbit. How many times is energy passed on by eating?",
+			"answer": "2",
+			"hint": "Count only the eating links: who eats whom?",
+			"explain": "The rabbit eats the grass (1) and the fox eats the rabbit (2): energy is passed on by eating 2 times. The grass got its energy from sunlight, not by eating."
+		}
+	]
+}

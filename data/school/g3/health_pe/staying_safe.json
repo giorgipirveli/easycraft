@@ -1,0 +1,366 @@
+{
+	"id": "g3.health_pe.staying_safe",
+	"lesson": [
+		{
+			"text": "Quick memory: what could butterflies in your tummy mean? (Feeling nervous or worried.) That feeling can warn you to stop and think. Today: keeping safe."
+		},
+		{
+			"text": "Crossing a road: find a safe place (a crossing if there is one). Stop at the kerb. Look and listen all around for traffic. When it is clear, walk straight across, still looking and listening.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Find a safe place"
+					},
+					{
+						"shape": "step",
+						"text": "Stop at the kerb"
+					},
+					{
+						"shape": "decision",
+						"text": "Look, listen: clear?",
+						"back": 1
+					},
+					{
+						"shape": "end",
+						"text": "Walk straight across"
+					}
+				]
+			}
+		},
+		{
+			"text": "Near water: swim only where a lifeguard is watching, between the red and yellow flags on a beach, and never on your own. If you fall in, float on your back like a star and shout for help.",
+			"picture": {
+				"kind": "beach_flags",
+				"flags": [
+					"red_yellow",
+					"red"
+				],
+				"labels": [
+					"swim between",
+					"never go in"
+				]
+			}
+		},
+		{
+			"text": "In strong sun: cover up with a T-shirt, and put on sun cream, a hat and sunglasses. Find shade in the middle of the day, and drink water."
+		},
+		{
+			"text": "Fire: never play with matches or lighters. If there is a fire, get out, stay out, and call the fire service. Crawl low under smoke, where the air is cleaner."
+		},
+		{
+			"text": "If you are lost or scared, ask a safe person: a police officer, a worker at a shop's till, or a parent with children. Never go anywhere with someone you do not know."
+		},
+		{
+			"text": "Online, keep your private things private: your full name, your address, your school and photos of you. If anything online worries you, tell a grown-up you trust."
+		},
+		{
+			"text": "Try it in the world: build a zebra crossing in your town with black and white blocks. Add a lifeguard tower on the beach, and an escape route out of your house. Show a friend the safe way."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where is the safest place to cross a road?",
+			"answer": 0,
+			"hint": "Where do drivers expect people to cross?",
+			"choices": [
+				"at a crossing",
+				"between parked cars",
+				"on a bend",
+				"wherever you are"
+			],
+			"explain": "At a crossing, where drivers can see you and expect people to cross."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is safe to swim on your own if you are a good swimmer.",
+			"answer": false,
+			"hint": "Who should always be near when you swim?",
+			"explain": "False: never swim alone. Swim where a lifeguard is watching."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should you wear on a very sunny day?",
+			"answer": 0,
+			"hint": "What stops the sun burning your skin?",
+			"choices": [
+				"a hat and sun cream",
+				"nothing on your head",
+				"a thick winter coat",
+				"just your swimming goggles"
+			],
+			"explain": "A hat, sun cream, a T-shirt and sunglasses protect you from the sun."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "If there is a fire, get out and stay out.",
+			"answer": true,
+			"hint": "Is anything in a burning house worth going back for?",
+			"explain": "True: get out, stay out and call the fire service."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "You are lost in a shop. Who is a safe person to ask for help?",
+			"answer": 0,
+			"hint": "Who works there and can call your grown-up?",
+			"choices": [
+				"a worker at the till",
+				"someone outside in a car",
+				"nobody: leave the shop",
+				"anyone who offers you sweets"
+			],
+			"explain": "A worker at the till can help you and call for your grown-up."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put crossing the road in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You must stop before you look.",
+			"items": [
+				"stop at the kerb",
+				"wait until it is clear",
+				"find a safe place to cross",
+				"look and listen all around",
+				"walk straight across"
+			],
+			"explain": "Find a safe place, stop at the kerb, look and listen, wait until it is clear, then walk straight across."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What should you do if you fall into deep water?",
+			"answer": 0,
+			"hint": "Floating saves your strength.",
+			"choices": [
+				"float like a star and shout for help",
+				"swim as hard as you can",
+				"hold your breath and sink",
+				"take off your shoes"
+			],
+			"explain": "Lie back, spread your arms and legs like a star to float, and shout for help."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Is it sun safety or fire safety?",
+			"groups": [
+				"sun safety",
+				"fire safety"
+			],
+			"items": [
+				"wear a hat",
+				"test the smoke alarm",
+				"find shade at midday",
+				"never touch matches",
+				"put on sun cream",
+				"crawl low under smoke"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which ones are about hot sunshine?",
+			"explain": "Sun: a hat, shade, sun cream. Fire: the smoke alarm, never touching matches, crawling under smoke."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "On a beach, where is it safest to swim?",
+			"answer": 0,
+			"hint": "Where do lifeguards watch?",
+			"choices": [
+				"between the red and yellow flags",
+				"far out past the waves",
+				"near the rocks",
+				"where nobody else is"
+			],
+			"explain": "Between the red and yellow flags, where the lifeguards are watching."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Wearing something bright or reflective helps drivers see you in the dark.",
+			"answer": true,
+			"hint": "What catches a car's lights?",
+			"explain": "True: bright and reflective clothes shine in car headlights, so drivers see you sooner."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why crawl low if a room fills with smoke?",
+			"answer": 0,
+			"hint": "Where does smoke go as it rises?",
+			"choices": [
+				"the air is cleaner near the floor",
+				"it is warmer down there",
+				"you can hide from the fire",
+				"you move faster"
+			],
+			"explain": "Smoke rises, so the cleanest air is near the floor."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Someone you do not know online asks for your address. What do you do?",
+			"answer": 0,
+			"hint": "Is your address private or public?",
+			"choices": [
+				"do not answer, and tell a grown-up",
+				"send it quickly",
+				"send a photo instead",
+				"ask for their address too"
+			],
+			"explain": "Your address is private: do not answer, and tell a grown-up you trust."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly sees a frozen pond. Should she walk on it?",
+			"answer": 0,
+			"hint": "Can you tell how thick ice is by looking?",
+			"choices": [
+				"no: the ice can break",
+				"yes, if she runs fast",
+				"yes, in the middle",
+				"yes, if she jumps"
+			],
+			"explain": "No: ice can break without warning, and the water under it is freezing."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each danger to its safety rule.",
+			"items": [
+				"roads",
+				"deep water",
+				"strong sun",
+				"fire"
+			],
+			"matches": [
+				"never swim alone",
+				"cover up and find shade",
+				"get out, stay out",
+				"stop, look and listen"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the lesson card for each.",
+			"explain": "Roads: stop, look and listen. Water: never swim alone. Sun: cover up and find shade. Fire: get out, stay out."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram's ball rolls into the road. What should he do?",
+			"answer": 0,
+			"hint": "A ball can be replaced; you cannot.",
+			"choices": [
+				"stop, and ask a grown-up to get it safely",
+				"run straight after it",
+				"close his eyes and dash",
+				"wait in the road"
+			],
+			"explain": "Stop at the kerb and ask a grown-up to fetch it safely when the road is clear."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the safety rules by the danger they are for.",
+			"groups": [
+				"roads",
+				"water",
+				"fire"
+			],
+			"items": [
+				"stop at the kerb",
+				"swim between the flags",
+				"crawl low under smoke",
+				"look and listen",
+				"float like a star",
+				"get out, stay out"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Picture where you would use each rule: by a road, in water, or in a fire.",
+			"explain": "Roads: stop at the kerb, look and listen. Water: swim between the flags, and float like a star if you fall in. Fire: crawl low under smoke, get out and stay out."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "You are lost in a town. Sort the people: safe to ask for help, or not?",
+			"groups": [
+				"safe to ask",
+				"not safe"
+			],
+			"items": [
+				"a police officer",
+				"a worker at a shop's till",
+				"a stranger in a car",
+				"a parent with children",
+				"someone who says 'follow me'"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Card 6 names safe people. Never go anywhere with someone you don't know.",
+			"explain": "Safe: a police officer, a worker at the till, a parent with children. Not safe: a stranger in a car, or anyone who wants you to go with them. Stay where people can see you."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each place to how to stay safe there.",
+			"items": [
+				"a frozen pond",
+				"a sunny beach at noon",
+				"a road with parked cars",
+				"a room filling with smoke"
+			],
+			"matches": [
+				"crawl low and get out",
+				"keep off: ice can break",
+				"cross at a crossing",
+				"cover up and find shade"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Think about the danger in each place first.",
+			"explain": "A frozen pond: keep off, the ice can break. Sun at noon: cover up and find shade. A road with parked cars: cross at a crossing where drivers can see you. Smoke: crawl low and get out."
+		}
+	],
+	"generators": []
+}

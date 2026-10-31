@@ -1,0 +1,396 @@
+{
+	"id": "g6.design_tech.cook_on_a_budget",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you planned a balanced meal. Which food group fills about a third of the plate, with the fruit and vegetables? (Starchy foods.) Today: plan, cost and cook a balanced meal on a budget."
+		},
+		{
+			"text": "A budget is the gold you can spend. Plan first: who you are cooking for, what they like, any allergies, and a balanced meal: a starchy food, vegetables, some protein and a little dairy or oil."
+		},
+		{
+			"text": "Cost it: list every ingredient and its price, then add them up. A vegetable pasta bake for 4: pasta 1.20, tinned tomatoes 1.50, cheese 2.30 and peppers 1 gold make 6 gold in all.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"ingredient",
+						"gold"
+					],
+					[
+						"pasta",
+						"1.20"
+					],
+					[
+						"tinned tomatoes",
+						"1.50"
+					],
+					[
+						"cheese",
+						"2.30"
+					],
+					[
+						"peppers",
+						"1"
+					],
+					[
+						"total",
+						"6"
+					]
+				]
+			}
+		},
+		{
+			"text": "Cost per portion: share the total between the people: 6 ÷ 4 = 1.5 gold per portion. Compare it with your budget to see whether the plan works.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "1.5",
+								"size": 1
+							},
+							{
+								"text": "1.5",
+								"size": 1
+							},
+							{
+								"text": "1.5",
+								"size": 1
+							},
+							{
+								"text": "1.5",
+								"size": 1
+							}
+						],
+						"total": "6 gold for 4 people"
+					}
+				]
+			}
+		},
+		{
+			"text": "Save gold: compare prices per 100 g, as bigger packs are often better value. Buy fruit and vegetables in season, and use beans and lentils as cheap protein. Frozen vegetables are just as good for you.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"pack",
+						"per 100 g"
+					],
+					[
+						"200 g, 0.80 gold",
+						"0.40 gold"
+					],
+					[
+						"500 g, 1.50 gold",
+						"0.30 gold"
+					]
+				]
+			}
+		},
+		{
+			"text": "Waste less: plan the meals, write a list and stick to it, store food properly, and use leftovers the next day. Cheap food that is thrown away is not a bargain."
+		},
+		{
+			"text": "Cook safely: wash your hands, tie hair back, and use the claw and the bridge to cut. Use oven gloves for hot dishes, and have a grown-up nearby. Cook food until it is steaming hot, and clean up as you go."
+		},
+		{
+			"text": "Try it in the world: open a market stall selling meal kits, with a price in gold for each portion. For real: plan a meal for your family on a budget with a grown-up, and cook it together. Next: material families."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a budget?",
+			"answer": 0,
+			"hint": "Think of planning how much to spend.",
+			"choices": [
+				"the amount of gold you can spend",
+				"a kind of pan",
+				"a recipe",
+				"a shopping bag"
+			],
+			"explain": "The amount of gold you can spend."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A soup for 4 people costs 6 gold. What is the cost per portion, in gold?",
+			"answer": "1.5",
+			"hint": "Share the cost equally between the portions.",
+			"explain": "6 ÷ 4 = 1.5 gold per portion."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Beans and lentils are cheap sources of protein.",
+			"answer": true,
+			"hint": "What do beans help your body do?",
+			"explain": "True: they are cheap, and give protein and fibre."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the best way to waste less food?",
+			"answer": 0,
+			"hint": "What stops you buying things you will not use?",
+			"choices": [
+				"plan meals and write a shopping list",
+				"buy lots of everything",
+				"throw leftovers away",
+				"shop when you are hungry"
+			],
+			"explain": "Plan meals and shop with a list."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Using the table, what do the ingredients cost in all, in gold?",
+			"answer": "2.8",
+			"hint": "Add the prices down the gold column.",
+			"explain": "0.80 + 0.60 + 1.10 + 0.30 = 2.80 gold.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"ingredient",
+						"gold"
+					],
+					[
+						"pasta",
+						"0.80"
+					],
+					[
+						"beans",
+						"0.60"
+					],
+					[
+						"tomatoes",
+						"1.10"
+					],
+					[
+						"onion",
+						"0.30"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which bag of rice is better value?",
+			"answer": 0,
+			"hint": "Work out the price for 100 g of each.",
+			"choices": [
+				"the big bag",
+				"the small bag"
+			],
+			"explain": "Small: 1.20 ÷ 5 = 0.24 gold for 100 g. Big: 2 ÷ 10 = 0.20 gold. The big bag.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"bag",
+						"mass",
+						"gold"
+					],
+					[
+						"small",
+						"500 g",
+						"1.20"
+					],
+					[
+						"big",
+						"1 kg",
+						"2"
+					]
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Which part of a balanced meal?",
+			"groups": [
+				"starchy food",
+				"vegetables",
+				"protein"
+			],
+			"items": [
+				"rice",
+				"carrots",
+				"chickpeas",
+				"pasta",
+				"spinach",
+				"eggs"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Energy, vitamins, or growing and repair?",
+			"explain": "Starchy food: rice, pasta. Vegetables: carrots, spinach. Protein: chickpeas, eggs."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put planning a meal on a budget in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You need to know who eats before you choose.",
+			"items": [
+				"shop with a list",
+				"cost the ingredients",
+				"choose a balanced recipe",
+				"decide who you are cooking for"
+			],
+			"explain": "Who it is for, a balanced recipe, the cost, then shopping."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Frozen vegetables are just as good for you as fresh ones.",
+			"answer": true,
+			"hint": "Freezing keeps food as it was picked.",
+			"explain": "True: frozen vegetables keep their goodness, and count towards 5 A DAY."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Zara has 12 gold to feed 5 people. The meal costs 2.20 gold a portion. How much gold is left?",
+			"answer": "1",
+			"hint": "Find the cost for everyone first.",
+			"explain": "5 × 2.20 = 11 gold, and 12 − 11 = 1 gold left."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A pasta bake for 6 costs 9.60 gold. What is the cost per portion, in gold?",
+			"answer": "1.6",
+			"hint": "Share 9.60 between 6.",
+			"explain": "9.60 ÷ 6 = 1.60 gold per portion."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which one is the best value for each 100 g?",
+			"answer": 0,
+			"hint": "Work out the price of 100 g from each bag.",
+			"choices": [
+				"a 1 kg bag for 3 gold",
+				"a 500 g bag for 2 gold",
+				"a 250 g bag for 1 gold"
+			],
+			"explain": "1 kg for 3 gold: 0.30 gold for 100 g. The others cost 0.40 gold for 100 g."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The meal is 2 gold over budget. Which change keeps it balanced?",
+			"answer": 0,
+			"hint": "Cut the cost, but keep every part of the plate.",
+			"choices": [
+				"swap some meat for cheaper beans",
+				"leave out all the vegetables",
+				"skip the meal",
+				"buy more expensive cheese"
+			],
+			"explain": "Swap some meat for beans: still protein, and cheaper."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The cheapest pack is always the best value.",
+			"answer": false,
+			"hint": "Compare the price for the same amount.",
+			"explain": "False: a bigger pack can cost more but be cheaper for each 100 g. Only buy what you will use."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The table shows a meal for 4. How much of a 10 gold budget is left, in gold?",
+			"answer": "1.3",
+			"hint": "Add up the meal, then take it from 10.",
+			"explain": "4.50 + 1.20 + 1 + 2 = 8.70 gold, and 10 − 8.70 = 1.30 gold left.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"ingredient",
+						"gold"
+					],
+					[
+						"chicken",
+						"4.50"
+					],
+					[
+						"rice",
+						"1.20"
+					],
+					[
+						"peas",
+						"1"
+					],
+					[
+						"yoghurt",
+						"2"
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put cooking safely in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Hygiene comes first.",
+			"items": [
+				"clean up",
+				"cook until steaming hot",
+				"prepare the ingredients",
+				"wash your hands and tie hair back"
+			],
+			"explain": "Wash and tie back, prepare, cook until steaming hot, then clean up."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.unit_price",
+			"level": 1
+		},
+		{
+			"gen": "g6w.unit_price",
+			"level": 2
+		},
+		{
+			"gen": "g6w.unit_price",
+			"level": 3
+		},
+		{
+			"gen": "g6w.portion_cost",
+			"level": 1
+		},
+		{
+			"gen": "g6w.portion_cost",
+			"level": 2
+		},
+		{
+			"gen": "g6w.portion_cost",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,292 @@
+{
+	"id": "volume_blocks",
+	"title": "Volume with blocks",
+	"topic": "maths",
+	"link": {"unit": "g5.maths.volume"},
+	"still": 27,
+	"stage": {
+		"sky": "studio",
+		"light": "studio",
+		"models": [
+			{
+				"id": "table",
+				"model": "blocks",
+				"at": [0, 0, 0],
+				"fill": [{"box": [-6, -1, -5, 6, -1, 5], "block": "PAINTED_WHITE"}]
+			},
+			{
+				"id": "c1",
+				"model": "blocks",
+				"at": [-1.5, 0, -1],
+				"cells": [[0, 0, 0, "PAINTED_RED"]],
+				"moves": [{"do": "drop", "at": 1, "height": 3}, {"do": "out", "at": 29.3}]
+			},
+			{
+				"id": "c2",
+				"model": "blocks",
+				"at": [-0.5, 0, -1],
+				"cells": [[0, 0, 0, "PAINTED_RED"]],
+				"moves": [{"do": "drop", "at": 9.3, "height": 3}, {"do": "out", "at": 29.3}]
+			},
+			{
+				"id": "c3",
+				"model": "blocks",
+				"at": [0.5, 0, -1],
+				"cells": [[0, 0, 0, "PAINTED_RED"]],
+				"moves": [{"do": "drop", "at": 10.1, "height": 3}, {"do": "out", "at": 29.3}]
+			},
+			{
+				"id": "c4",
+				"model": "blocks",
+				"at": [1.5, 0, -1],
+				"cells": [[0, 0, 0, "PAINTED_RED"]],
+				"moves": [{"do": "drop", "at": 10.9, "height": 3}, {"do": "out", "at": 29.3}]
+			},
+			{
+				"id": "row2",
+				"model": "blocks",
+				"at": [-1.5, 0, 0],
+				"fill": [{"box": [0, 0, 0, 3, 0, 0], "block": "PAINTED_ORANGE"}],
+				"moves": [{"do": "drop", "at": 13, "height": 3}, {"do": "out", "at": 29.3}]
+			},
+			{
+				"id": "row3",
+				"model": "blocks",
+				"at": [-1.5, 0, 1],
+				"fill": [{"box": [0, 0, 0, 3, 0, 0], "block": "PAINTED_YELLOW"}],
+				"moves": [{"do": "drop", "at": 14.6, "height": 3}, {"do": "out", "at": 29.3}]
+			},
+			{
+				"id": "layer2",
+				"model": "blocks",
+				"at": [-1.5, 1, -1],
+				"fill": [{"box": [0, 0, 0, 3, 0, 2], "block": "PAINTED_BLUE"}],
+				"moves": [{"do": "drop", "at": 19.9, "height": 3}, {"do": "out", "at": 29.3}]
+			},
+			{
+				"id": "big1",
+				"model": "blocks",
+				"at": [-1, 0, -1],
+				"fill": [{"box": [0, 0, 0, 2, 0, 2], "block": "PAINTED_GREEN"}],
+				"moves": [{"do": "drop", "at": 30.4, "height": 3}, {"do": "out", "at": 40.2}]
+			},
+			{
+				"id": "big2",
+				"model": "blocks",
+				"at": [-1, 1, -1],
+				"fill": [{"box": [0, 0, 0, 2, 0, 2], "block": "PAINTED_LIME"}],
+				"moves": [{"do": "drop", "at": 32.4, "height": 3}, {"do": "out", "at": 40.2}]
+			},
+			{
+				"id": "big3",
+				"model": "blocks",
+				"at": [-1, 2, -1],
+				"fill": [{"box": [0, 0, 0, 2, 0, 2], "block": "PAINTED_TEAL"}],
+				"moves": [{"do": "drop", "at": 34.4, "height": 3}, {"do": "out", "at": 40.2}]
+			},
+			{
+				"id": "small",
+				"model": "blocks",
+				"at": [-0.5, 0, -0.5],
+				"fill": [{"box": [0, 0, 0, 1, 1, 1], "block": "PAINTED_PURPLE"}],
+				"moves": [{"do": "drop", "at": 40.6, "height": 3}]
+			}
+		],
+		"camera": [
+			{"at": 0, "pos": [4.5, 3.2, 6], "look": [-1.5, 0.4, -1], "fov": 45},
+			{"at": 8.95, "pos": [4.2, 4, 6.5], "look": [-0.6, 0.4, -0.4], "fov": 45},
+			{"at": 11, "pos": [5.5, 5, 8], "look": [0, 0.4, 0], "fov": 45},
+			{"at": 18.95, "pos": [6, 5.4, 8.4], "look": [0, 0.6, 0], "fov": 45},
+			{"at": 20, "pos": [6.5, 5.5, 8.5], "look": [0, 0.6, 0], "fov": 45},
+			{"at": 28.95, "pos": [7, 5.5, 8], "look": [0, 0.6, 0], "fov": 45, "path": "orbit"},
+			{"at": 29, "pos": [6.5, 6, 8.5], "look": [0, 1.2, 0], "fov": 45, "cut": true},
+			{"at": 39.95, "pos": [-5.5, 6, 9], "look": [0, 1.4, 0], "fov": 45, "path": "orbit"},
+			{"at": 40, "pos": [4.5, 3.6, 6], "look": [0.5, 0.8, 0.5], "fov": 45, "cut": true},
+			{"at": 50, "pos": [-4.5, 4, 6.5], "look": [0.5, 0.9, 0.5], "fov": 45, "path": "orbit"}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 9,
+			"background": "lab",
+			"camera": {"zoom": [1, 1]},
+			"caption": "This cube is 1 long, 1 wide and 1 high. Its volume is 1 cube.",
+			"say": "Here is one cube. It is 1 unit long, 1 unit wide and 1 unit high. Its volume is 1 cubic unit.",
+			"sounds": [{"at": 1.3, "effect": "thud"}, {"at": 4.2, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "1 CUBIC UNIT",
+					"at": [180, 84],
+					"size": 28,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 4.2}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "lab",
+			"camera": {"zoom": [1, 1]},
+			"caption": "A row of 4, then 3 rows: 4 × 3 = 12 cubes make one layer.",
+			"say": "Put 4 cubes in a row. Make 3 rows. That is 4 times 3: 12 cubes in one layer.",
+			"sounds": [
+				{"at": 0.6, "effect": "thud"},
+				{"at": 1.4, "effect": "thud"},
+				{"at": 4, "effect": "thud"},
+				{"at": 5.6, "effect": "thud"}
+			],
+			"actors": [
+				{
+					"kind": "count",
+					"from": 1,
+					"to": 4,
+					"at": [180, 84],
+					"size": 28,
+					"color": "ink",
+					"box": "yellow",
+					"suffix": " IN A ROW",
+					"moves": [
+						{"do": "pop", "at": 0.3},
+						{"do": "value", "at": 1, "dur": 0.4, "to": 2},
+						{"do": "value", "at": 1.8, "dur": 0.4, "to": 3},
+						{"do": "value", "at": 2.6, "dur": 0.4, "to": 4}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "4 × 3 = 12",
+					"at": [180, 136],
+					"size": 34,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 7}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "lab",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Stack 2 layers: 12 × 2 = 24 cubes. Volume = length × width × height!",
+			"say": "Now stack a second layer on top: 12 times 2 is 24 cubes. Volume is length times width times height!",
+			"sounds": [{"at": 1.2, "effect": "thud"}, {"at": 2.6, "effect": "pop"}, {"at": 5.4, "effect": "ding"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "12 × 2 = 24",
+					"at": [180, 84],
+					"size": 34,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 2.6}]
+				},
+				{
+					"kind": "words",
+					"text": "VOLUME = L × W × H",
+					"at": [180, 136],
+					"size": 28,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 5.4}]
+				},
+				{
+					"kind": "words",
+					"text": "4 LONG",
+					"at": [86.1, 410],
+					"size": 20,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "pop", "at": 6.4}]
+				},
+				{
+					"kind": "words",
+					"text": "3 WIDE",
+					"at": [290, 410],
+					"size": 20,
+					"color": "white",
+					"box": "orange",
+					"moves": [{"do": "pop", "at": 6.8}]
+				},
+				{
+					"kind": "words",
+					"text": "2 HIGH",
+					"at": [280.3, 373.7],
+					"size": 20,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 7.2}]
+				}
+			]
+		},
+		{
+			"seconds": 11,
+			"background": "lab",
+			"camera": {"zoom": [1, 1]},
+			"caption": "A cube 3 long, 3 wide and 3 high holds 3 × 3 × 3 = 27 cubes.",
+			"say": "Try a big cube: 3 long, 3 wide and 3 high. Each layer has 9 cubes, and 3 layers make 27.",
+			"sounds": [
+				{"at": 1.6, "effect": "thud"},
+				{"at": 3.6, "effect": "thud"},
+				{"at": 5.6, "effect": "thud"},
+				{"at": 8, "effect": "ding"}
+			],
+			"actors": [
+				{
+					"kind": "count",
+					"from": 0,
+					"to": 27,
+					"at": [180, 84],
+					"size": 34,
+					"color": "ink",
+					"box": "yellow",
+					"prefix": "CUBES: ",
+					"moves": [
+						{"do": "pop", "at": 1.4},
+						{"do": "value", "at": 2.2, "dur": 0.6, "to": 9},
+						{"do": "value", "at": 4.2, "dur": 0.6, "to": 18},
+						{"do": "value", "at": 6.2, "dur": 0.6, "to": 27}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "3 × 3 × 3 = 27",
+					"at": [180, 146],
+					"size": 34,
+					"color": "white",
+					"box": "green",
+					"moves": [{"do": "pop", "at": 8}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "lab",
+			"camera": {"zoom": [1, 1]},
+			"caption": "A 2 × 2 × 2 cube holds 8. Double every side: how many cubes now?",
+			"say": "This small cube is 2 by 2 by 2, so it holds 8 cubes. If you double every side, how many cubes will it hold?",
+			"sounds": [{"at": 1, "effect": "thud"}, {"at": 1.4, "effect": "pop"}, {"at": 5.6, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "2 × 2 × 2 = 8",
+					"at": [180, 84],
+					"size": 34,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "pop", "at": 1.4}]
+				},
+				{
+					"kind": "words",
+					"text": "4 × 4 × 4 = ?",
+					"at": [180, 146],
+					"size": 34,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 5.6}]
+				}
+			]
+		}
+	]
+}

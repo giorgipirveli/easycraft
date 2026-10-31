@@ -1,0 +1,72 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="Script" path="res://entities/player/player.gd" id="1"]
+[ext_resource type="Script" path="res://entities/player/blocky_avatar.gd" id="2"]
+[ext_resource type="Script" path="res://entities/player/camera_rig.gd" id="3"]
+[ext_resource type="Script" path="res://entities/player/block_interactor.gd" id="4"]
+[ext_resource type="Script" path="res://entities/player/target_highlight.gd" id="5"]
+[ext_resource type="Script" path="res://entities/player/mirror_wall.gd" id="6"]
+
+[sub_resource type="CapsuleShape3D" id="capsule"]
+radius = 0.3
+height = 1.8
+
+[sub_resource type="SphereShape3D" id="arm_shape"]
+radius = 0.25
+
+[sub_resource type="SceneReplicationConfig" id="replication"]
+properties/0/path = NodePath(".:position")
+properties/0/spawn = true
+properties/0/replication_mode = 1
+properties/1/path = NodePath(".:velocity")
+properties/1/spawn = false
+properties/1/replication_mode = 1
+properties/2/path = NodePath("Avatar:rotation")
+properties/2/spawn = true
+properties/2/replication_mode = 1
+properties/3/path = NodePath(".:physics_mode")
+properties/3/spawn = true
+properties/3/replication_mode = 2
+properties/4/path = NodePath(".:size_mode")
+properties/4/spawn = true
+properties/4/replication_mode = 2
+
+[node name="Player" type="CharacterBody3D"]
+collision_layer = 2
+floor_snap_length = 0.2
+script = ExtResource("1")
+
+[node name="Collision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("capsule")
+
+[node name="Avatar" type="Node3D" parent="."]
+script = ExtResource("2")
+
+[node name="CameraRig" type="Node3D" parent="."]
+script = ExtResource("3")
+
+[node name="SpringArm3D" type="SpringArm3D" parent="CameraRig"]
+shape = SubResource("arm_shape")
+spring_length = 4.5
+margin = 0.2
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig/SpringArm3D"]
+fov = 70.0
+near = 0.1
+far = 300.0
+
+[node name="VoxelViewer" type="VoxelViewer" parent="."]
+view_distance = 128
+
+[node name="BlockInteractor" type="Node" parent="."]
+script = ExtResource("4")
+
+[node name="TargetHighlight" type="MeshInstance3D" parent="BlockInteractor"]
+script = ExtResource("5")
+
+[node name="Sync" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("replication")
+
+[node name="MirrorWall" type="MeshInstance3D" parent="BlockInteractor"]
+script = ExtResource("6")

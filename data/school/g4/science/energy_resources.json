@@ -1,0 +1,377 @@
+{
+	"id": "g4.science.energy_resources",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, mapping Earth's features. Where do many volcanoes happen? In long lines, like the Ring of Fire round the Pacific."
+		},
+		{
+			"text": "We use energy to light homes, cook, keep warm and travel. It comes from natural resources: things we find in nature, like sunlight, wind, water, coal, oil and gas."
+		},
+		{
+			"text": "Renewable resources do not run out: the Sun keeps shining, the wind keeps blowing and rivers keep flowing. Solar panels, wind turbines and dams turn them into electricity.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"resource",
+						"made into power by"
+					],
+					[
+						"sunlight",
+						"solar panels"
+					],
+					[
+						"wind",
+						"wind turbines"
+					],
+					[
+						"flowing water",
+						"dams"
+					]
+				]
+			}
+		},
+		{
+			"text": "Non-renewable resources run out, because they take millions of years to form. Coal, oil and natural gas are fossil fuels, made from plants and tiny sea creatures that lived long ago.",
+			"picture": {
+				"kind": "icon",
+				"block": 19
+			}
+		},
+		{
+			"text": "Using any resource changes the environment. Burning fossil fuels puts smoke and gases into the air. Mines dig up land where animals lived. A dam floods a valley and can block fish swimming upstream.",
+			"picture": {
+				"kind": "energy_chain",
+				"steps": [
+					"chemical",
+					"heat",
+					"kinetic",
+					"electrical"
+				],
+				"things": [
+					"coal",
+					"fire",
+					"turbine",
+					"wires"
+				]
+			}
+		},
+		{
+			"text": "Even renewable energy has costs: wind turbines and solar farms take up land. So people compare their choices, and try to use less energy and waste less."
+		},
+		{
+			"text": "In your worlds, you can mine coal and burn it in a furnace. In the real world, coal is burned in power stations to make electricity, and once it is burned, it is gone. Next: natural hazards.",
+			"picture": {
+				"kind": "icon",
+				"block": 221
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a fossil fuel?",
+			"hint": "Fossil fuels formed from living things long ago.",
+			"explain": "Coal is a fossil fuel, made from plants that lived long ago.",
+			"choices": [
+				"coal",
+				"wind",
+				"sunlight",
+				"flowing water"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The wind will not run out.",
+			"hint": "Will the wind stop blowing for ever?",
+			"explain": "The wind keeps blowing, so it is a renewable resource.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a solar panel use to make electricity?",
+			"hint": "Solar means \"of the Sun\".",
+			"explain": "A solar panel changes sunlight into electricity.",
+			"choices": [
+				"sunlight",
+				"coal",
+				"oil",
+				"natural gas"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these will run out one day?",
+			"hint": "Which one took millions of years to form?",
+			"explain": "Oil is non-renewable: once it is used up, it is gone.",
+			"choices": [
+				"oil",
+				"sunlight",
+				"wind",
+				"flowing river water"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Coal, oil and gas take millions of years to form.",
+			"hint": "What are they made from?",
+			"explain": "They formed from plants and tiny sea creatures, over millions of years.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are fossil fuels called non-renewable?",
+			"hint": "How long do they take to form?",
+			"explain": "They take millions of years to form, and we use them much faster than that.",
+			"choices": [
+				"We use them far faster than they form",
+				"They are made in factories",
+				"They never run out",
+				"They are only found on the Moon"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What problem can burning fossil fuels cause?",
+			"hint": "What comes out of a chimney?",
+			"explain": "Burning fossil fuels puts smoke and gases into the air.",
+			"choices": [
+				"smoke and gases that dirty the air",
+				"more sunshine",
+				"taller mountains",
+				"the wind stops blowing"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How can a dam harm the environment?",
+			"hint": "What happens behind a dam?",
+			"explain": "The water behind a dam floods the valley, where animals and plants lived.",
+			"choices": [
+				"It floods a valley where animals lived",
+				"It makes the air smoky",
+				"It uses up all the coal",
+				"It makes the Sun dimmer"
+			],
+			"answer": 0
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "How did coal form? Put it in order.",
+			"hint": "The plants had to grow first.",
+			"explain": "Swamp plants grew, died and were buried, slowly became coal, and today people dig it up and burn it.",
+			"items": [
+				"Over millions of years they became coal.",
+				"They died and were buried under mud.",
+				"People dig up the coal and burn it.",
+				"Plants grew in swamps long ago."
+			],
+			"answer": [
+				3,
+				1,
+				0,
+				2
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which town's electricity comes from a renewable resource?",
+			"hint": "Which of these resources will not run out?",
+			"explain": "Windyvale uses the wind, which is renewable.",
+			"choices": [
+				"Windyvale, with turbines on its hills",
+				"Coalbridge, with a coal power station",
+				"Oilport, with an oil power station",
+				"Gasford, with a gas power station"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is one way to use less energy at home?",
+			"hint": "Which one stops energy being wasted?",
+			"explain": "Switching off lights you are not using saves energy.",
+			"choices": [
+				"Switch off lights when you leave a room",
+				"Leave the fridge door open",
+				"Turn the heating up and open the windows",
+				"Leave the television on all night"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Renewable energy has no effect on the environment at all.",
+			"hint": "Where are turbines and solar farms built?",
+			"explain": "Turbines and solar farms take up land, and dams flood valleys. Every choice changes the environment a little.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are many solar farms built in sunny deserts?",
+			"hint": "What does a solar farm need most?",
+			"explain": "Solar panels need sunlight, and sunny deserts have plenty.",
+			"choices": [
+				"They get lots of sunlight there",
+				"Deserts are cold",
+				"Sand makes electricity",
+				"There is no wind there"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A wind turbine makes enough electricity for 400 homes. How many turbines are needed for 2,000 homes?",
+			"hint": "How many lots of 400 make 2,000?",
+			"explain": "2,000 ÷ 400 = 5 turbines.",
+			"answer": "5"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi's village sits by a fast river. Which resource could it use to make electricity without running out?",
+			"hint": "Which one is renewable?",
+			"explain": "The flowing river is renewable: a small dam or water wheel could make electricity.",
+			"choices": [
+				"the river's flowing water",
+				"coal from a mine",
+				"oil from the ground",
+				"natural gas"
+			],
+			"answer": 0
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these resources: renewable or non-renewable?",
+			"items": [
+				"sunlight",
+				"coal",
+				"wind",
+				"natural gas",
+				"flowing water",
+				"oil"
+			],
+			"groups": [
+				"renewable",
+				"non-renewable"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Will it run out, or will nature keep making it?",
+			"explain": "Sunlight, wind and flowing water keep coming. Coal, gas and oil took millions of years to form."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each resource to what turns it into electricity.",
+			"items": [
+				"sunlight",
+				"wind",
+				"flowing water",
+				"coal"
+			],
+			"matches": [
+				"a power station",
+				"a dam",
+				"a wind turbine",
+				"a solar panel"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Think of what catches each one: light, moving air, falling water, or burning.",
+			"explain": "Sunlight: a solar panel. Wind: a wind turbine. Flowing water: a dam. Coal: it is burned in a power station."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort each change to the environment by the energy choice it comes from.",
+			"groups": [
+				"burning fossil fuels",
+				"a dam",
+				"wind or solar farms"
+			],
+			"items": [
+				"smoke and gases in the air",
+				"a flooded valley",
+				"fields covered by panels",
+				"fish blocked upstream",
+				"mines digging up land",
+				"hills used for turbines"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				1,
+				0,
+				2
+			],
+			"hint": "Each choice changes the environment its own way: burning, flooding, or using land.",
+			"explain": "Fossil fuels: smoke and gases, and mines digging up land. A dam: a flooded valley and fish blocked upstream. Wind and solar farms: fields covered by panels and hills used for turbines."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A roof of solar panels powers 1 home. A wind turbine powers 400 homes. How many roofs of panels make as much as 3 turbines?",
+			"answer": "1200",
+			"hint": "Find how many homes 3 turbines power, then how many roofs that takes.",
+			"explain": "3 turbines power 3 × 400 = 1,200 homes. Each roof of panels powers 1 home, so it takes 1,200 roofs."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4t.renewable",
+			"level": 1
+		},
+		{
+			"gen": "g4t.renewable",
+			"level": 2
+		},
+		{
+			"gen": "g4t.renewable",
+			"level": 3
+		},
+		{
+			"gen": "g4t.power_homes",
+			"level": 1
+		},
+		{
+			"gen": "g4t.power_homes",
+			"level": 2
+		},
+		{
+			"gen": "g4t.power_homes",
+			"level": 3
+		}
+	]
+}

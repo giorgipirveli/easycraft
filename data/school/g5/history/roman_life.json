@@ -1,0 +1,307 @@
+{
+	"id": "g5.history.roman_life",
+	"lesson": [
+		{
+			"text": "Quick memory: who was the first Roman emperor? (Augustus, from 27 BC.) Under the emperors, millions of people lived Roman lives from Britain to Egypt. Today: towns, roads, baths, the army, and the words and numbers they left us."
+		},
+		{
+			"text": "Every Roman town had a forum: a square for markets, meetings and law courts, with temples around it. Many people lived in blocks of flats; the rich had big houses with gardens. Aqueducts carried fresh water from the hills."
+		},
+		{
+			"text": "Roman roads ran as straight as they could. Builders dug a trench and filled it in layers: big stones, then gravel, then tightly fitted paving stones, curved on top so rain ran off into ditches. Milestones marked every Roman mile."
+		},
+		{
+			"text": "Most towns had public baths, for washing and meeting friends. Bathers went from a warm room to a hot room, then into a cold pool. Fires under the floor heated the rooms. People rubbed on oil and scraped it off."
+		},
+		{
+			"text": "The army was made of legions of about 5,000 soldiers. A century was 10 tents of 8 soldiers: 10 × 8 = 80 men, led by a centurion. Soldiers served about 25 years, and built forts, roads and walls as well as fighting.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							},
+							{
+								"text": "8",
+								"size": 1
+							}
+						],
+						"total": "a century: 80 men"
+					}
+				]
+			}
+		},
+		{
+			"text": "Romans spoke Latin, and many English words grew from it: aqua (water) gives aquarium, centum (a hundred) gives century and per cent, and annus (a year) gives annual. July and August are named after Julius Caesar and Augustus."
+		},
+		{
+			"text": "Romans wrote numbers with letters: I 1, V 5, X 10, L 50, C 100, D 500 and M 1,000. A smaller letter before a bigger one is taken away: IV is 4. MMXXVI is 1,000 + 1,000 + 10 + 10 + 5 + 1 = 2026.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"I",
+						"V",
+						"X",
+						"L",
+						"C",
+						"M"
+					],
+					[
+						"1",
+						"5",
+						"10",
+						"50",
+						"100",
+						"1,000"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a Roman bath house with a hot room over a furnace. Then build a straight road with a milestone marked in Roman numerals. Next: the Romans in Britain."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What was the forum in a Roman town?",
+			"answer": 0,
+			"hint": "It was the busy heart of the town.",
+			"choices": [
+				"a square for markets and meetings",
+				"a bath house",
+				"a soldier's tent",
+				"a road"
+			],
+			"explain": "The forum was the square for markets, meetings and law courts."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What did aqueducts carry?",
+			"answer": 0,
+			"hint": "Aqua means water.",
+			"choices": [
+				"fresh water",
+				"soldiers",
+				"letters",
+				"grain"
+			],
+			"explain": "Aqueducts carried fresh water from the hills into towns."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Roman roads were built in layers.",
+			"answer": true,
+			"hint": "What did builders put in the trench?",
+			"explain": "True: big stones, then gravel, then paving stones."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is V in Roman numerals?",
+			"answer": 0,
+			"hint": "I is 1 and X is 10.",
+			"choices": [
+				"5",
+				"10",
+				"1",
+				"50"
+			],
+			"explain": "V stands for 5, halfway between I (1) and X (10)."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Romans washed with soap at the baths.",
+			"answer": false,
+			"hint": "What did they rub on their skin?",
+			"explain": "False: they rubbed on oil and scraped it off with a curved tool."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each Latin word to its meaning.",
+			"items": [
+				"aqua",
+				"centum",
+				"annus",
+				"manus"
+			],
+			"matches": [
+				"a hand",
+				"water",
+				"a hundred",
+				"a year"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Think of English words: aquarium, century, annual, manual.",
+			"explain": "Aqua: water. Centum: a hundred. Annus: a year. Manus: a hand (manual work is done by hand)."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the rooms of the baths in the order bathers used them.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Warm up slowly first; the cold plunge came last.",
+			"items": [
+				"cold pool",
+				"hot room",
+				"warm room",
+				"changing room"
+			],
+			"explain": "Changing room, warm room, hot room, then the cold pool."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A century had 10 tents of 8 soldiers. How many soldiers was that?",
+			"answer": "80",
+			"hint": "Multiply the tents by the soldiers in each.",
+			"explain": "10 × 8 = 80 soldiers."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which English word comes from the Latin 'aqua', water?",
+			"answer": 0,
+			"hint": "Which one is a tank of water for fish?",
+			"choices": [
+				"aquarium",
+				"century",
+				"annual",
+				"manual"
+			],
+			"explain": "Aquarium, from aqua, water."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why were Roman roads curved on top?",
+			"answer": 0,
+			"hint": "What does water do on a slope?",
+			"choices": [
+				"so rain ran off into the ditches",
+				"so carts went faster",
+				"to look pretty",
+				"so soldiers could hide"
+			],
+			"explain": "The curve made rain run off to the ditches, so the road stayed firm."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What year is MDCCCL?",
+			"year": true,
+			"answer": "1850",
+			"hint": "Split it: M, D, CCC, L. Then add the parts.",
+			"explain": "M (1,000) + D (500) + CCC (300) + L (50) = 1850."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which month is named after the first Roman emperor?",
+			"answer": 0,
+			"hint": "Which month's name sounds like the first emperor's name?",
+			"choices": [
+				"August",
+				"July",
+				"March",
+				"June"
+			],
+			"explain": "August, after Augustus. July is named after Julius Caesar."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did the army build roads as well as fight?",
+			"answer": 0,
+			"hint": "How would an army reach trouble far away?",
+			"choices": [
+				"so soldiers and supplies could move fast",
+				"because roads were fun",
+				"to keep soldiers away",
+				"to stop trade"
+			],
+			"explain": "Straight roads let soldiers, messages and supplies move fast across the empire."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A cohort was 6 centuries of 80 soldiers. How many soldiers was that?",
+			"answer": "480",
+			"hint": "Multiply the centuries by the soldiers in each.",
+			"explain": "6 × 80 = 480 soldiers."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In Roman numerals, XL is 60.",
+			"answer": false,
+			"hint": "A smaller letter before a bigger one is taken away.",
+			"explain": "False: XL is 50 − 10 = 40. LX would be 60."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5h.roman_numeral",
+			"level": 1
+		},
+		{
+			"gen": "g5h.roman_numeral",
+			"level": 2
+		},
+		{
+			"gen": "g5h.roman_numeral",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,855 @@
+{
+	"id": "planet_orbits",
+	"title": "Round and round the Sun",
+	"topic": "space",
+	"link": {
+		"star_map": true
+	},
+	"scenes": [
+		{
+			"seconds": 8,
+			"background": "space",
+			"caption": "The planets go round the Sun, each on its own path.",
+			"say": "The planets all go round the Sun, each on its own path, called an orbit.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				},
+				{
+					"at": 2.0,
+					"tune": {
+						"kind": "notes",
+						"notes": [
+							"C5",
+							"E5",
+							"G5",
+							"C6:2"
+						],
+						"beat": 0.25
+					}
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 292,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.9000000000000004,
+							"dur": 0.9
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 228,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.2,
+							"dur": 0.9
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 168,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.5,
+							"dur": 0.9
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 112,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 0.8,
+							"dur": 0.9
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "sun",
+					"at": [
+						180,
+						250
+					],
+					"size": 64,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "pulse",
+							"at": 1.2
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "mercury",
+					"at": [
+						228.5,
+						278.0
+					],
+					"size": 16,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						},
+						{
+							"do": "orbit",
+							"at": 2.0,
+							"dur": 6.0,
+							"around": [
+								180,
+								250
+							],
+							"period": 1.927,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "venus",
+					"at": [
+						107.3,
+						292.0
+					],
+					"size": 24,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.1
+						},
+						{
+							"do": "orbit",
+							"at": 2.7,
+							"dur": 5.3,
+							"around": [
+								180,
+								250
+							],
+							"period": 4.922,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "earth",
+					"at": [
+						141.0,
+						142.9
+					],
+					"size": 26,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.8000000000000003
+						},
+						{
+							"do": "orbit",
+							"at": 3.4000000000000004,
+							"dur": 4.6,
+							"around": [
+								180,
+								250
+							],
+							"period": 8.0,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "mars",
+					"at": [
+						306.4,
+						177.0
+					],
+					"size": 20,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.5000000000000004
+						},
+						{
+							"do": "orbit",
+							"at": 4.1000000000000005,
+							"dur": 3.8999999999999995,
+							"around": [
+								180,
+								250
+							],
+							"period": 15.047,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "orbit",
+					"at": [
+						300,
+						110
+					],
+					"size": 24,
+					"color": "white",
+					"box": "purple",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.2
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 12,
+			"background": "space",
+			"caption": "Near the Sun, a year is quick: Mercury's is only 88 days.",
+			"say": "Near the Sun, planets go round quickly. Mercury's year is only 88 days, and Earth's is 365.",
+			"sounds": [
+				{
+					"at": 0.5,
+					"effect": "whoosh"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 292,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": []
+				},
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 228,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": []
+				},
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 168,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": []
+				},
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 112,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": []
+				},
+				{
+					"kind": "planet",
+					"body": "sun",
+					"at": [
+						180,
+						250
+					],
+					"size": 64,
+					"moves": []
+				},
+				{
+					"kind": "planet",
+					"body": "mercury",
+					"at": [
+						228.5,
+						278.0
+					],
+					"size": 16,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						},
+						{
+							"do": "orbit",
+							"at": 0.0,
+							"dur": 12.0,
+							"around": [
+								180,
+								250
+							],
+							"period": 1.927,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "venus",
+					"at": [
+						107.3,
+						292.0
+					],
+					"size": 24,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						},
+						{
+							"do": "orbit",
+							"at": 0.0,
+							"dur": 12.0,
+							"around": [
+								180,
+								250
+							],
+							"period": 4.922,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "earth",
+					"at": [
+						141.0,
+						142.9
+					],
+					"size": 26,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						},
+						{
+							"do": "orbit",
+							"at": 0.0,
+							"dur": 12.0,
+							"around": [
+								180,
+								250
+							],
+							"period": 8.0,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "mars",
+					"at": [
+						306.4,
+						177.0
+					],
+					"size": 20,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						},
+						{
+							"do": "orbit",
+							"at": 0.0,
+							"dur": 12.0,
+							"around": [
+								180,
+								250
+							],
+							"period": 15.047,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "Mercury: 88 days",
+					"at": [
+						110,
+						80
+					],
+					"size": 22,
+					"color": "white",
+					"box": "grey",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.5
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "Earth: 365 days",
+					"at": [
+						250,
+						420
+					],
+					"size": 22,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.5
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 12,
+			"background": "space",
+			"caption": "Far away they are slow: Saturn takes about 29 years to go round.",
+			"say": "Far from the Sun, planets are slow. Jupiter takes almost 12 years to go round, and Saturn about 29.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "whoosh"
+				},
+				{
+					"at": 5.0,
+					"effect": "chime"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 288,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.8,
+							"dur": 0.9
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 200,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.3,
+							"dur": 0.9
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 112,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 0.8,
+							"dur": 0.9
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 80,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 0.3,
+							"dur": 0.9
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "sun",
+					"at": [
+						180,
+						250
+					],
+					"size": 34,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.1
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "earth",
+					"at": [
+						166.3,
+						212.4
+					],
+					"size": 14,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.7
+						},
+						{
+							"do": "orbit",
+							"at": 1.1,
+							"dur": 10.9,
+							"around": [
+								180,
+								250
+							],
+							"period": 8.0,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "mars",
+					"at": [
+						228.5,
+						222.0
+					],
+					"size": 11,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.2000000000000002
+						},
+						{
+							"do": "orbit",
+							"at": 1.6,
+							"dur": 10.4,
+							"around": [
+								180,
+								250
+							],
+							"period": 15.047,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "jupiter",
+					"at": [
+						230.0,
+						336.6
+					],
+					"size": 36,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.7000000000000002
+						},
+						{
+							"do": "orbit",
+							"at": 2.1,
+							"dur": 9.9,
+							"around": [
+								180,
+								250
+							],
+							"period": 94.894,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "saturn",
+					"at": [
+						44.7,
+						200.7
+					],
+					"size": 30,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.2
+						},
+						{
+							"do": "orbit",
+							"at": 2.6,
+							"dur": 9.4,
+							"around": [
+								180,
+								250
+							],
+							"period": 235.653,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "Jupiter: 12 years",
+					"at": [
+						110,
+						70
+					],
+					"size": 20,
+					"color": "white",
+					"box": "brown",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "Saturn: 29 years",
+					"at": [
+						250,
+						430
+					],
+					"size": 20,
+					"color": "white",
+					"box": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 6.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8,
+			"background": "space",
+			"caption": "One trip round the Sun is one year: about 365 days.",
+			"say": "One trip of Earth round the Sun is one year: about 365 and a quarter days.",
+			"sounds": [
+				{
+					"at": 7.6,
+					"effect": "ding"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "ring",
+					"at": [
+						180,
+						250
+					],
+					"size": 240,
+					"color": "white",
+					"alpha": 0.45,
+					"moves": []
+				},
+				{
+					"kind": "planet",
+					"body": "sun",
+					"at": [
+						180,
+						250
+					],
+					"size": 70,
+					"moves": []
+				},
+				{
+					"kind": "planet",
+					"body": "earth",
+					"at": [
+						300.0,
+						250.0
+					],
+					"size": 34,
+					"moves": [
+						{
+							"do": "orbit",
+							"at": 0,
+							"dur": 8,
+							"around": [
+								180,
+								250
+							],
+							"period": 8.0,
+							"dir": -1
+						}
+					]
+				},
+				{
+					"kind": "count",
+					"from": 0,
+					"to": 365,
+					"suffix": " days",
+					"at": [
+						180,
+						70
+					],
+					"size": 40,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "value",
+							"at": 0,
+							"dur": 8,
+							"to": 365,
+							"ease": "linear"
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 6.5,
+			"background": "space",
+			"caption": "How old would you be in Mercury years?",
+			"say": "Here is a thought: how old would you be in Mercury years?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "mercury",
+					"at": [
+						180,
+						220
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "spin",
+							"at": 1.0,
+							"dur": 5,
+							"turns": 0.3
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "hoot",
+					"at": [
+						90,
+						360
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.5,
+							"from": [
+								-100,
+								360
+							]
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "?",
+					"at": [
+						270,
+						330
+					],
+					"size": 80,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.2
+						},
+						{
+							"do": "bounce",
+							"at": 2.0
+						}
+					]
+				}
+			]
+		}
+	]
+}

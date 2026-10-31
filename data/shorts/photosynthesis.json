@@ -1,0 +1,69 @@
+{
+	"id": "photosynthesis",
+	"title": "How plants make food",
+	"topic": "nature",
+	"link": {"unit": "g5.science.plants_air_water"},
+	"scenes": [
+		{
+			"seconds": 7.5, "background": "grass",
+			"caption": "Plants make their own food, using sunlight.",
+			"say": "Animals must eat, but plants make their own food, using the energy in sunlight.",
+			"sounds": [{"at": 0.3, "effect": "pop"}, {"at": 1.4, "effect": "sparkle"}],
+			"actors": [
+				{"kind": "shape", "shape": "sun", "at": [290, 90], "size": 120, "moves": [{"do": "pop", "at": 0.2}]},
+				{"kind": "shape", "shape": "tree", "at": [140, 300], "size": 60, "moves": [{"do": "pop", "at": 0.8}, {"do": "grow", "at": 1.4, "dur": 2.4, "to": 3.2}]},
+				{"kind": "arrow", "from": [250, 130], "to": [190, 220], "color": "yellow", "width": 7, "moves": [{"do": "draw", "at": 3.4, "dur": 0.7}]}
+			]
+		},
+		{
+			"seconds": 9, "background": "grass",
+			"caption": "Roots take in water; leaves take in carbon dioxide from the air.",
+			"say": "Roots drink water from the soil. Leaves take in carbon dioxide from the air, through tiny holes.",
+			"sounds": [{"at": 1.0, "effect": "bubbles"}, {"at": 4.2, "effect": "pop"}],
+			"actors": [
+				{"kind": "shape", "shape": "tree", "at": [140, 300], "size": 192, "moves": [{"do": "appear", "at": 0}]},
+				{"kind": "shape", "shape": "drop", "at": [140, 420], "size": 30, "color": "sea", "moves": [{"do": "pop", "at": 0.8}, {"do": "move", "at": 1.0, "dur": 2.4, "to": [140, 250]}, {"do": "out", "at": 3.4}]},
+				{"kind": "shape", "shape": "drop", "at": [160, 430], "size": 24, "color": "sea", "moves": [{"do": "pop", "at": 1.4}, {"do": "move", "at": 1.6, "dur": 2.4, "to": [160, 260]}, {"do": "out", "at": 4.0}]},
+				{"kind": "words", "text": "water", "at": [60, 400], "size": 22, "color": "white", "box": "blue", "moves": [{"do": "pop", "at": 1.2}]},
+				{"kind": "shape", "shape": "gas", "at": [320, 190], "size": 80, "color": "grey", "moves": [{"do": "pop", "at": 3.6}, {"do": "move", "at": 4.0, "dur": 3.0, "to": [200, 200]}]},
+				{"kind": "words", "text": "carbon dioxide", "at": [270, 110], "size": 20, "color": "white", "box": "ink", "moves": [{"do": "pop", "at": 4.2}]}
+			]
+		},
+		{
+			"seconds": 10, "background": "paper",
+			"caption": "Green chlorophyll catches the light and makes sugar.",
+			"say": "Green chlorophyll in the leaves catches the light, and the plant turns water and carbon dioxide into sugar.",
+			"sounds": [{"at": 0.3, "effect": "pop"}, {"at": 5.0, "effect": "jingle_goal"}],
+			"actors": [
+				{"kind": "shape", "shape": "leaf", "at": [180, 140], "size": 220, "moves": [{"do": "pop", "at": 0.2}, {"do": "pulse", "at": 1.4, "amount": 0.08}]},
+				{"kind": "shape", "shape": "sun", "at": [60, 60], "size": 80, "moves": [{"do": "pop", "at": 0.6}]},
+				{"kind": "words", "text": "water + carbon dioxide", "at": [180, 270], "size": 22, "color": "white", "box": "teal", "moves": [{"do": "pop", "at": 2.2}]},
+				{"kind": "arrow", "from": [180, 292], "to": [180, 340], "color": "green", "width": 9, "moves": [{"do": "draw", "at": 3.4, "dur": 0.6}]},
+				{"kind": "words", "text": "sugar + oxygen", "at": [180, 370], "size": 26, "color": "ink", "box": "yellow", "moves": [{"do": "pop", "at": 4.4}, {"do": "pulse", "at": 5.2}]},
+				{"kind": "shape", "shape": "spark", "at": [180, 140], "size": 260, "color": "yellow", "moves": [{"do": "draw", "at": 4.8, "dur": 0.8}, {"do": "out", "at": 6.0}]}
+			]
+		},
+		{
+			"seconds": 8, "background": "grass",
+			"caption": "Leaves give out oxygen: the oxygen we breathe!",
+			"say": "Leaves give out oxygen, and that is the oxygen we breathe.",
+			"sounds": [{"at": 1.0, "effect": "bubbles"}, {"at": 3.6, "effect": "boing"}],
+			"actors": [
+				{"kind": "shape", "shape": "tree", "at": [120, 280], "size": 192, "moves": [{"do": "appear", "at": 0}]},
+				{"kind": "shape", "shape": "gas", "at": [140, 180], "size": 70, "color": "sky", "moves": [{"do": "pop", "at": 0.8}, {"do": "move", "at": 1.0, "dur": 3.0, "to": [270, 250]}]},
+				{"kind": "words", "text": "oxygen", "at": [270, 170], "size": 24, "color": "ink", "box": "sky", "moves": [{"do": "pop", "at": 2.0}]},
+				{"kind": "character", "who": "pip", "at": [290, 360], "size": 100, "moves": [{"do": "slide", "at": 2.6, "from": [460, 360]}, {"do": "bounce", "at": 3.6}]}
+			]
+		},
+		{
+			"seconds": 6, "background": "night",
+			"caption": "What would happen to a plant kept in the dark?",
+			"say": "What do you think would happen to a plant kept in the dark?",
+			"sounds": [{"at": 0.3, "effect": "sparkle"}],
+			"actors": [
+				{"kind": "shape", "shape": "tree", "at": [180, 280], "size": 150, "alpha": 0.7, "moves": [{"do": "pop", "at": 0.2}]},
+				{"kind": "words", "text": "?", "at": [290, 130], "size": 70, "color": "yellow", "moves": [{"do": "pop", "at": 1.0}, {"do": "bounce", "at": 1.8}]}
+			]
+		}
+	]
+}

@@ -1,0 +1,372 @@
+{
+	"id": "g8.health_pe.respect_online",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you learnt to ask first, before sharing a photo of someone. What is the respectful answer to 'no'? (Accept it.) Today: respectful relationships online, and getting help with pressure."
+		},
+		{
+			"text": "Respect online is the same as face to face: kind words, asking first, and accepting no. A screen can make people forget that a real person reads every message. Before you post, think: is it true, kind and needed?",
+			"picture": {
+				"kind": "chat",
+				"name": "Ana",
+				"messages": [
+					[
+						"them",
+						"Can I post the photo of us at the park?"
+					],
+					[
+						"me",
+						"Not that one, I had my eyes shut!"
+					],
+					[
+						"them",
+						"No problem, I'll use the other one."
+					]
+				]
+			}
+		},
+		{
+			"text": "Healthy friendships online have trust and kindness, and respect your time and privacy. Warning signs of control: checking where you are, and anger if you don't reply at once. Asking for passwords, or deciding who you can talk to, are warnings too."
+		},
+		{
+			"text": "Consent means a free yes. Ask before posting a photo of someone, and take it down if they ask. Never forward something private. A no can't be changed by pushing, and a yes can be taken back."
+		},
+		{
+			"text": "Never send nude or nearly nude pictures, and never ask anyone for one. In UK law it is a crime to make, keep or share such a picture of anyone under 18, even of yourself. The law is there to protect you.",
+			"picture": {
+				"kind": "chat",
+				"name": "unknown",
+				"messages": [
+					[
+						"them",
+						"You're so mature for your age."
+					],
+					[
+						"them",
+						"Keep our chats secret, OK?"
+					],
+					[
+						"them",
+						"Send me a photo of you."
+					]
+				],
+				"mark": 2
+			}
+		},
+		{
+			"text": "It is never your fault if someone pressures you or shares a picture. Don't reply, keep the evidence, block, report and tell a trusted adult. Childline's Report Remove helps take a picture down. CEOP is for adults who pressure young people.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"don't reply",
+					"keep the evidence",
+					"block",
+					"report",
+					"tell a trusted adult"
+				]
+			}
+		},
+		{
+			"text": "Your digital footprint is everything you post, like and share: it can last and be copied. Be an upstander, not a bystander: don't join in with unkindness, support the person, and report hateful posts."
+		},
+		{
+			"text": "Try it in the world: check your privacy settings with a grown-up. In LIFE, Calm Corner practises dealing with unkind messages, and the Connections Book shows how to protect your good name online. Next: chance and spending."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Respect online means the same kind words and asking first as face to face.",
+			"answer": true,
+			"hint": "Is a person behind a screen still a real person?",
+			"explain": "True: a real person reads every message, so the same respect applies online."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Before posting a group photo, what should you do?",
+			"choices": [
+				"ask everyone in it",
+				"post it quickly",
+				"ask only your best friend",
+				"tag strangers"
+			],
+			"answer": 0,
+			"hint": "Who has a say over a photo of them?",
+			"explain": "Everyone in a photo has a right to say yes or no before it is posted."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "A healthy friendship, or a warning sign?",
+			"groups": [
+				"healthy",
+				"warning sign"
+			],
+			"items": [
+				"gives you time to reply",
+				"asks for your passwords",
+				"gets angry if you see other friends",
+				"checks where you are all the time",
+				"accepts it when you say no"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1,
+				0
+			],
+			"hint": "Does it respect your choices, or try to control them?",
+			"explain": "Healthy: accepting no, giving time. Warning signs: asking for passwords, anger about friends, checking up."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In the chat, what did Ana do well?",
+			"picture": {
+				"kind": "chat",
+				"name": "Ana",
+				"messages": [
+					[
+						"them",
+						"Can I post the photo of us at the park?"
+					],
+					[
+						"me",
+						"Not that one, I had my eyes shut!"
+					],
+					[
+						"them",
+						"No problem, I'll use the other one."
+					]
+				]
+			},
+			"choices": [
+				"asked first and accepted the answer",
+				"posted it anyway",
+				"argued until she got her way",
+				"sent it to everyone"
+			],
+			"answer": 0,
+			"hint": "Read what happened after the 'no'.",
+			"explain": "Ana asked before posting and happily chose another photo when the answer was no."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Someone keeps sending you unkind messages. Put the steps in order.",
+			"items": [
+				"tell a trusted adult",
+				"report it",
+				"keep the evidence",
+				"block the person",
+				"don't reply"
+			],
+			"answer": [
+				4,
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Stop it growing, save the proof, stop them, report them, get help.",
+			"explain": "Don't reply, keep the evidence, block, report, and tell a trusted adult."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which message in this chat is the biggest warning sign?",
+			"picture": {
+				"kind": "chat",
+				"name": "unknown",
+				"messages": [
+					[
+						"them",
+						"You're so mature for your age."
+					],
+					[
+						"them",
+						"Keep our chats secret, OK?"
+					],
+					[
+						"them",
+						"Send me a photo of you."
+					]
+				],
+				"mark": 2
+			},
+			"choices": [
+				"the request for a photo",
+				"the first compliment",
+				"the name 'unknown'",
+				"nothing: it is friendly"
+			],
+			"answer": 0,
+			"hint": "Read the marked message, and the one about secrets.",
+			"explain": "Asking for photos and secrecy from a stranger are warning signs: stop, don't send anything, tell an adult."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If a private picture is shared, the person in it is to blame.",
+			"answer": false,
+			"hint": "Who chose to share it without permission?",
+			"explain": "False: it is never the fault of the person in the picture. The people who shared it did wrong."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"consent",
+				"digital footprint",
+				"upstander",
+				"bystander"
+			],
+			"matches": [
+				"all you post and share",
+				"a free yes, which can change",
+				"watches and does nothing",
+				"helps and reports"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Think of the lesson's words about choices, traces and what people do.",
+			"explain": "Consent: a free yes. Footprint: all you post. Upstander: helps. Bystander: only watches."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A classmate's private picture is going round a group chat. What should you do?",
+			"choices": [
+				"don't forward it, and tell a trusted adult",
+				"forward it to one friend",
+				"save a copy",
+				"add a comment"
+			],
+			"answer": 0,
+			"hint": "Which choice stops the harm spreading?",
+			"explain": "Never forward it; telling a trusted adult gets it stopped and the person supported."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "UK law protects everyone under what age from nude pictures being made, kept or shared?",
+			"answer": "18",
+			"hint": "It is the same age as being an adult in the UK.",
+			"explain": "Under 18: it is a crime to make, keep or share such a picture of anyone under 18."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Upstander or bystander?",
+			"groups": [
+				"upstander",
+				"bystander"
+			],
+			"items": [
+				"scrolls past unkindness",
+				"adds a laughing face",
+				"reports a hateful post",
+				"tells a trusted adult",
+				"messages the person to check they're OK"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				0
+			],
+			"hint": "Who helps, and who just watches or joins in?",
+			"explain": "Upstanders report, check in and tell; bystanders scroll past or join in."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Someone threatens to share a picture of you unless you send more. What do you do?",
+			"choices": [
+				"send nothing; tell an adult; report to CEOP",
+				"send more so they stop",
+				"pay them",
+				"deal with it alone"
+			],
+			"answer": 0,
+			"hint": "Giving in never stops this. Who can step in?",
+			"explain": "Send nothing more, keep the evidence, tell a trusted adult and report to CEOP: adults who pressure young people break the law."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A 'yes' to posting a photo can be taken back later.",
+			"answer": true,
+			"hint": "Is consent a free choice that can change?",
+			"explain": "True: consent can be taken back, so take the photo down if your friend asks."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the best check before posting something about someone else?",
+			"choices": [
+				"is it true, kind and needed?",
+				"will it get lots of likes?",
+				"is it funny to me?",
+				"will they ever see it?"
+			],
+			"answer": 0,
+			"hint": "Think about the person it is about.",
+			"explain": "Asking whether a post is true, kind and needed protects other people and your own digital footprint."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of helping get a picture taken down in order.",
+			"items": [
+				"use Childline's Report Remove",
+				"tell a trusted adult",
+				"stay calm: it's not your fault",
+				"block and report the account"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "Feelings first, then a grown-up, then the tools.",
+			"explain": "Remember it is not your fault, tell a trusted adult, use Report Remove, then block and report."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.online_sign",
+			"level": 1
+		},
+		{
+			"gen": "g8l.online_sign",
+			"level": 2
+		},
+		{
+			"gen": "g8l.online_sign",
+			"level": 3
+		},
+		{
+			"gen": "g8l.online_action",
+			"level": 1
+		},
+		{
+			"gen": "g8l.online_action",
+			"level": 2
+		},
+		{
+			"gen": "g8l.online_action",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,508 @@
+{
+	"id": "g3.geography.grid_references",
+	"lesson": [
+		{
+			"text": "Quick memory: which direction is opposite east? (West.) On a map, east is along to the right and north is up. Grid references use both."
+		},
+		{
+			"text": "Many maps are covered with a grid of squares. Each square has a name, so you can tell someone exactly where to look."
+		},
+		{
+			"text": "On simple maps, the columns have letters and the rows have numbers. Read along first, then up: the well is in column B and row 3, so its square is B3.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"A",
+						"B",
+						"C",
+						"D"
+					],
+					[
+						"4",
+						"",
+						"",
+						"",
+						""
+					],
+					[
+						"3",
+						"",
+						"well",
+						"",
+						""
+					],
+					[
+						"2",
+						"",
+						"",
+						"farm",
+						""
+					],
+					[
+						"1",
+						"pond",
+						"",
+						"",
+						""
+					]
+				]
+			}
+		},
+		{
+			"text": "A saying to remember the order: along the corridor, then up the stairs. Along the bottom first, then up the side.",
+			"picture": {
+				"kind": "site_plan",
+				"rows": [
+					"..T..",
+					".H.~.",
+					"..M~.",
+					"r..~."
+				],
+				"grid": true,
+				"key": true
+			}
+		},
+		{
+			"text": "Bigger maps use numbers both ways: a four-figure grid reference. The first two figures give the column, the last two the row. The mill is in column 14, row 36: square 1436.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"13",
+						"14",
+						"15"
+					],
+					[
+						"37",
+						"",
+						"",
+						"barn"
+					],
+					[
+						"36",
+						"",
+						"mill",
+						""
+					],
+					[
+						"35",
+						"hut",
+						"",
+						""
+					]
+				]
+			}
+		},
+		{
+			"text": "On a real map, the numbers are printed on the grid lines. A square takes the numbers of the lines at its bottom-left corner. The numbers get bigger going east and going north."
+		},
+		{
+			"text": "Try it in the world: lay out a grid of paths 5 squares by 5, with numbered signs along the bottom and up the side. Hide a treasure chest and give a friend its grid reference!"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which do you read first in a grid reference?",
+			"answer": 0,
+			"hint": "Along the corridor, then up the stairs.",
+			"choices": [
+				"along the bottom (the column)",
+				"up the side (the row)",
+				"whichever number is bigger",
+				"the key"
+			],
+			"explain": "Read along first (the column), then up (the row)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Look at the map. Which square is the farm in?",
+			"answer": 0,
+			"hint": "Find the farm. Go down to read its column letter, then across to read its row number.",
+			"choices": [
+				"C2",
+				"2C",
+				"B2",
+				"C3"
+			],
+			"explain": "The farm is in column C and row 2, so its square is C2.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"A",
+						"B",
+						"C",
+						"D"
+					],
+					[
+						"4",
+						"",
+						"",
+						"",
+						""
+					],
+					[
+						"3",
+						"",
+						"well",
+						"",
+						""
+					],
+					[
+						"2",
+						"",
+						"",
+						"farm",
+						""
+					],
+					[
+						"1",
+						"pond",
+						"",
+						"",
+						""
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In the square B3, B is the column and 3 is the row.",
+			"answer": true,
+			"hint": "Letters are along the bottom or top; numbers are up the side.",
+			"explain": "True: B is the column (along) and 3 is the row (up)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does 'along the corridor, then up the stairs' help you remember?",
+			"answer": 0,
+			"hint": "It is about the order of a grid reference.",
+			"choices": [
+				"read along first, then up",
+				"walk slowly on stairs",
+				"which way is north",
+				"how to draw a key"
+			],
+			"explain": "It reminds you to read along the bottom first, then up the side."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Look at the map. What is in square A1?",
+			"answer": 0,
+			"hint": "Find column A along the top, then row 1 up the side.",
+			"choices": [
+				"the pond",
+				"the well",
+				"the farm",
+				"nothing"
+			],
+			"explain": "Column A and row 1 meet at the pond.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"A",
+						"B",
+						"C",
+						"D"
+					],
+					[
+						"4",
+						"",
+						"",
+						"",
+						""
+					],
+					[
+						"3",
+						"",
+						"well",
+						"",
+						""
+					],
+					[
+						"2",
+						"",
+						"",
+						"farm",
+						""
+					],
+					[
+						"1",
+						"pond",
+						"",
+						"",
+						""
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In the grid reference 2547, which figures give the column?",
+			"answer": 0,
+			"hint": "The first two figures are along the corridor.",
+			"choices": [
+				"25",
+				"47",
+				"54",
+				"74"
+			],
+			"explain": "The first two figures, 25, give the column; the last two, 47, give the row."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The grid reference 1436 means column 14 and row 36.",
+			"answer": true,
+			"hint": "Split the four figures into two pairs.",
+			"explain": "True: 14 is the column (along) and 36 is the row (up)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Look at the map. What is in square 1537?",
+			"answer": 0,
+			"hint": "Find column 15 along the top, then row 37 up the side.",
+			"choices": [
+				"the barn",
+				"the mill",
+				"the hut",
+				"nothing"
+			],
+			"explain": "Column 15 and row 37 meet at the barn.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"13",
+						"14",
+						"15"
+					],
+					[
+						"37",
+						"",
+						"",
+						"barn"
+					],
+					[
+						"36",
+						"",
+						"mill",
+						""
+					],
+					[
+						"35",
+						"hut",
+						"",
+						""
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "4725 and 2547 name the same square.",
+			"answer": false,
+			"hint": "Which pair is the column in each one?",
+			"explain": "False: 4725 is column 47, row 25, but 2547 is column 25, row 47: different squares."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "On a real map, which corner of a square gives its grid reference?",
+			"answer": 0,
+			"hint": "The numbers are on the lines. Which lines are along the bottom and up the left?",
+			"choices": [
+				"the bottom-left corner",
+				"the top-right corner",
+				"the middle",
+				"the top-left corner"
+			],
+			"explain": "A square takes the numbers of the lines at its bottom-left corner."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The pond is in square 3162. Tilly walks one square east. Which square is she in now?",
+			"answer": 0,
+			"hint": "Going east changes the first two figures, the column. Do they go up or down?",
+			"choices": [
+				"3262",
+				"3163",
+				"3062",
+				"3161"
+			],
+			"explain": "Going east, the column goes up by one: 31 becomes 32, so she is in 3262."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram is in square 2044 and walks one square north. Which square is he in now?",
+			"answer": 0,
+			"hint": "Going north changes the last two figures, the row.",
+			"choices": [
+				"2045",
+				"2144",
+				"2043",
+				"1944"
+			],
+			"explain": "Going north, the row goes up by one: 44 becomes 45, so he is in 2045."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "On a map, the numbers along the bottom get bigger as you go east.",
+			"answer": true,
+			"hint": "East is to the right. Which way do the numbers count?",
+			"explain": "True: the numbers get bigger going east (along) and going north (up)."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps for finding square 2347 in order.",
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Along the corridor first, then up the stairs.",
+			"items": [
+				"move up that column",
+				"find 23 along the bottom",
+				"look in the square where they meet",
+				"find 47 up the side"
+			],
+			"explain": "Find 23 along the bottom, go up that column, find 47 up the side, and look where they meet."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Look at the map. Match each place to its square.",
+			"items": [
+				"the trees",
+				"the house",
+				"the mill",
+				"the rocks"
+			],
+			"matches": [
+				"B3",
+				"A1",
+				"C4",
+				"C2"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1
+			],
+			"hint": "Along the bottom first for the letter, then up the side for the number.",
+			"explain": "The trees are in C4, the house in B3, the mill in C2 and the rocks in A1.",
+			"picture": {
+				"kind": "site_plan",
+				"rows": [
+					"..T..",
+					".H.~.",
+					"..M~.",
+					"r..~."
+				],
+				"grid": true,
+				"key": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The grid reference is 3862. Which column is the square in?",
+			"answer": "38",
+			"hint": "The first two figures are along the bottom.",
+			"explain": "38 is the column; 62 is the row."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The grid reference is 3862. Which row is the square in?",
+			"answer": "62",
+			"hint": "The last two figures are up the side.",
+			"explain": "62 is the row; 38 is the column."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the grid references: is 31 the column or the row?",
+			"groups": [
+				"31 is the column",
+				"31 is the row"
+			],
+			"items": [
+				"3162",
+				"6231",
+				"3105",
+				"0531"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The first two figures give the column, the last two give the row.",
+			"explain": "Column 31: 3162 and 3105 start with 31. Row 31: 6231 and 0531 end with 31."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Bram starts in square 2044. Match each walk to the square he ends in.",
+			"items": [
+				"1 square east",
+				"1 square north",
+				"2 east, then 1 north",
+				"1 west, then 1 south"
+			],
+			"matches": [
+				"2245",
+				"1943",
+				"2144",
+				"2045"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "East and west change the column (the first two figures). North and south change the row.",
+			"explain": "East adds 1 to the column: 2144. North adds 1 to the row: 2045. 2 east and 1 north: 22 and 45, so 2245. 1 west and 1 south: 19 and 43, so 1943."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3h.grid_ref",
+			"level": 1
+		},
+		{
+			"gen": "g3h.grid_ref",
+			"level": 2
+		},
+		{
+			"gen": "g3h.grid_ref",
+			"level": 3
+		}
+	]
+}

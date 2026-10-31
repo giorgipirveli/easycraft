@@ -1,0 +1,413 @@
+{
+	"id": "g7.music.popular_music",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, which beats does the backbeat fall on? (Beats 2 and 4, often played on the snare drum.) Today: how pop, rock and hip-hop songs are built."
+		},
+		{
+			"text": "Most songs are built from sections: an intro and verses (new words each time). A chorus (the same words, the song's big moment), a bridge (something different), and an outro.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"intro",
+					"verse",
+					"chorus",
+					"verse",
+					"chorus",
+					"bridge",
+					"chorus",
+					"outro"
+				]
+			}
+		},
+		{
+			"text": "The hook is the catchiest part, the bit you cannot stop singing, usually in the chorus. A riff is a short pattern played again and again, often by the guitar, the bass or the keys.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E3",
+					"G3",
+					"A3",
+					"-",
+					"E3",
+					"G3",
+					"A3",
+					"-",
+					"E3",
+					"G3",
+					"A3",
+					"-",
+					"E3",
+					"G3",
+					"A3",
+					"-"
+				],
+				"beat": 0.35
+			}
+		},
+		{
+			"text": "The beat: the drum kit plays the kick drum on beats 1 and 3, and the snare on 2 and 4 (the backbeat). The hi-hat keeps time in quavers.",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"hi-hat",
+						"xxxxxxxx"
+					],
+					[
+						"snare",
+						"--x---x-"
+					],
+					[
+						"kick",
+						"x---x---"
+					]
+				],
+				"count": true
+			}
+		},
+		{
+			"text": "A band: vocals sing the tune; guitars and keys play chords and riffs; the bass guitar plays the low notes; the drums keep the beat. Rock grew from 1950s rock and roll, with loud electric guitars and big riffs.",
+			"picture": {
+				"kind": "drum_kit",
+				"labels": true
+			}
+		},
+		{
+			"text": "Hip-hop began at block parties in the Bronx, in New York, in the 1970s. DJs looped the drum breaks of records on two turntables, and MCs rapped: rhythmic words over the beat."
+		},
+		{
+			"text": "Tempo is counted in beats a minute (BPM). Many pop songs are about 100 to 130 beats a minute, hip-hop is often slower. Worked example: 32 bars of 4 beats at 120 beats a minute last 64 seconds."
+		},
+		{
+			"text": "Try it in the world: map a song you like: intro, verse, chorus, bridge. Where is the hook? Count its beats a minute against a clock. Next: riffs and hooks."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which section has the same words each time and is the song's big moment?",
+			"answer": 0,
+			"hint": "It comes back again and again.",
+			"choices": [
+				"the chorus",
+				"a verse",
+				"the intro",
+				"the bridge"
+			],
+			"explain": "The chorus: the same words every time, and usually the hook."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a hook?",
+			"answer": 0,
+			"hint": "Think of the bit you hum all day.",
+			"choices": [
+				"the catchiest part, easy to sing",
+				"the last chord",
+				"a kind of drum",
+				"only the title"
+			],
+			"explain": "The hook is the catchiest part of the song."
+		},
+		{
+			"type": "rhythm",
+			"level": 1,
+			"prompt": "Copy the kick drum's rhythm.",
+			"hint": "Listen for the claps on the strong beats.",
+			"explain": "Claps in boxes 1 and 5: beats 1 and 3, the kick drum.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x---x---",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label the drum kit.",
+			"picture": {
+				"kind": "drum_kit"
+			},
+			"labels": [
+				"hi-hat",
+				"snare drum",
+				"kick drum",
+				"crash cymbal"
+			],
+			"spots": [
+				[
+					0.212,
+					0.9,
+					0.3108,
+					0.571
+				],
+				[
+					0.731,
+					0.9,
+					0.5189,
+					0.6954
+				],
+				[
+					0.923,
+					0.44,
+					0.8217,
+					0.1714
+				],
+				[
+					0.077,
+					0.52,
+					0.1594,
+					0.3224
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "The kick drum is the big one on the floor; the hi-hat is two cymbals on a stand.",
+			"explain": "The hi-hat on the left, the snare drum in front, the big kick drum on the floor, and the crash cymbal high on the right."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a band, the bass guitar usually plays the low notes.",
+			"answer": true,
+			"hint": "Bass means low.",
+			"explain": "True: the bass guitar plays the lowest notes, under the chords."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which drum plays the backbeat, on beats 2 and 4?",
+			"answer": 0,
+			"hint": "Look at the beat grid's rows.",
+			"choices": [
+				"the snare drum",
+				"the kick drum",
+				"the crash cymbal",
+				"the tom-toms"
+			],
+			"explain": "The snare plays on 2 and 4: the backbeat.",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"hi-hat",
+						"xxxxxxxx"
+					],
+					[
+						"snare",
+						"--x---x-"
+					],
+					[
+						"kick",
+						"x---x---"
+					]
+				],
+				"count": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A song: intro 4 bars, verse 8, chorus 8, verse 8, chorus 8. How many bars in all?",
+			"answer": "36",
+			"hint": "Add the parts.",
+			"explain": "4 + 8 + 8 + 8 + 8 = 36 bars.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"intro",
+					"verse",
+					"chorus",
+					"verse",
+					"chorus"
+				]
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Copy this hip-hop drum pattern.",
+			"hint": "Count 8 boxes and mark each clap.",
+			"explain": "Claps in boxes 1, 4 and 6.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x--x-x--",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen to the claps, one on each beat. Is the tempo about 60 or about 120 beats a minute?",
+			"answer": 0,
+			"hint": "60 beats a minute is one clap a second. Is it faster than that?",
+			"choices": [
+				"about 120",
+				"about 60"
+			],
+			"explain": "Two claps every second: about 120 beats a minute.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 120
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "32 bars of 4 beats at 120 beats a minute. How many seconds do they last?",
+			"answer": "64",
+			"hint": "Find the beats first.",
+			"explain": "32 × 4 = 128 beats, and 128 × 60 ÷ 120 = 64: so 32 bars of 4 beats at 120 beats a minute last 64 seconds."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each band member to their job.",
+			"items": [
+				"vocals",
+				"guitar",
+				"bass guitar",
+				"drums"
+			],
+			"matches": [
+				"chords and riffs",
+				"the low notes",
+				"keep the beat",
+				"sing the tune"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Who plays low? Who keeps time?",
+			"explain": "Vocals: the tune; guitar: chords and riffs; bass: low notes; drums: the beat."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A song is 128 beats a minute. How many beats are in 30 seconds?",
+			"answer": "64",
+			"hint": "30 seconds is half a minute.",
+			"explain": "30 seconds is half a minute, so there are half the beats: 128 ÷ 2 = 64 beats."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where did hip-hop begin?",
+			"answer": 0,
+			"hint": "Think of DJs and MCs in the 1970s.",
+			"choices": [
+				"at block parties in the Bronx, New York",
+				"in Vienna's concert halls",
+				"in medieval churches",
+				"on sailing ships"
+			],
+			"explain": "At block parties in the Bronx, in New York, in the 1970s."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the bridge in a song?",
+			"answer": 0,
+			"hint": "It connects one part of the song to another.",
+			"choices": [
+				"a different section before the last chorus",
+				"the first chorus",
+				"a drum solo",
+				"the silence at the end"
+			],
+			"explain": "A section that sounds different, usually before the last chorus, so the chorus feels fresh again."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen: how many times does the riff play?",
+			"answer": "4",
+			"hint": "Count each time the low pattern starts again.",
+			"explain": "The three-note riff plays 4 times, with a gap after each.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E3",
+					"G3",
+					"A3",
+					"-",
+					"E3",
+					"G3",
+					"A3",
+					"-",
+					"E3",
+					"G3",
+					"A3",
+					"-",
+					"E3",
+					"G3",
+					"A3",
+					"-"
+				],
+				"beat": 0.35
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Copy the rhythm of this hook.",
+			"hint": "Listen for where the gaps fall.",
+			"explain": "Claps in boxes 1, 2, 4, 6 and 7; gaps in 3, 5 and 8.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xx-x-xx-",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen to the claps, one on each beat. Is the tempo about 60 or about 120 beats a minute?",
+			"answer": 0,
+			"hint": "Count the claps against a slow count of one, two, three, one a second.",
+			"choices": [
+				"about 60",
+				"about 120"
+			],
+			"explain": "One clap a second: about 60 beats a minute.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 60
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A song lasts 3 minutes at 120 beats a minute, in bars of 4 beats. How many bars long is it?",
+			"answer": "90",
+			"hint": "Find all the beats first, then share them into bars.",
+			"explain": "3 minutes × 120 beats = 360 beats. Each bar holds 4 beats: 360 ÷ 4 = 90 bars."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.song_length",
+			"level": 1
+		},
+		{
+			"gen": "g7c.song_length",
+			"level": 2
+		},
+		{
+			"gen": "g7c.song_length",
+			"level": 3
+		}
+	]
+}

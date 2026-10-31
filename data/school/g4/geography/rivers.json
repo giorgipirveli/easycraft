@@ -1,0 +1,296 @@
+{
+	"id": "g4.geography.rivers",
+	"lesson": [
+		{
+			"text": "Quick memory: which river carries the most water in the world? (The Amazon.) In grade 3 you met a river's source and mouth. Today: follow a river all the way, and see why rivers matter."
+		},
+		{
+			"text": "A river begins at its source, high in hills or mountains: a spring, a melting glacier, a lake or boggy ground where rain collects. Smaller streams called tributaries join it along the way, and it grows bigger.",
+			"picture": {
+				"kind": "map",
+				"rows": [
+					"^^^^.....~....",
+					"^^~~~....~....",
+					"^...~~...~....",
+					".....~~~~~.~~~",
+					"........~~~~~~",
+					"..........~~~~"
+				]
+			}
+		},
+		{
+			"text": "In its upper course the river is small and fast. It rushes down steep slopes, cutting a narrow V-shaped valley, and may tumble over waterfalls.",
+			"picture": {
+				"kind": "river_course",
+				"view": "long",
+				"labels": true
+			}
+		},
+		{
+			"text": "In its middle course the valley widens and the river swings in big bends called meanders. It carries sand and pebbles, wearing away the outside of each bend and dropping sand on the inside.",
+			"picture": {
+				"kind": "river_course",
+				"view": "meander",
+				"labels": true
+			}
+		},
+		{
+			"text": "In its lower course the land is flat. The river is wide, deep and slow. When it floods, it spreads mud over the flat land beside it, the floodplain, which makes rich farmland."
+		},
+		{
+			"text": "At its mouth the river meets the sea. Some rivers widen into an estuary, like the Thames; others drop so much mud that they build a delta, a fan of land and channels, like the Nile."
+		},
+		{
+			"text": "Rivers matter: they give drinking water, water for farms, fish, a way to travel and trade, and power from dams and watermills. Many towns grew where a river could be crossed. But rivers can flood, so people plan."
+		},
+		{
+			"text": "Try it in the world: build a river from a spring in the hills to the sea. Give it a waterfall, a meander, a bridge for a town and a delta at the end. Next: mountains, and how they form."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does a river begin?",
+			"answer": 0,
+			"hint": "Rivers flow downhill.",
+			"choices": [
+				"at its source, often high in the hills",
+				"at its mouth, by the sea",
+				"in the middle of the ocean",
+				"under a bridge"
+			],
+			"explain": "A river begins at its source, such as a spring or a melting glacier, often high in the hills."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a tributary?",
+			"answer": 0,
+			"hint": "It adds its water to the main river.",
+			"choices": [
+				"a smaller stream that joins a bigger river",
+				"a river's mouth",
+				"a waterfall",
+				"a boat"
+			],
+			"explain": "A tributary is a smaller river or stream that flows into a bigger one."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A river's mouth is where it meets the sea.",
+			"answer": true,
+			"hint": "Where does the water end its journey?",
+			"explain": "True: the mouth is where the river flows into the sea or a lake."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a meander?",
+			"answer": 0,
+			"hint": "Picture a river swinging from side to side.",
+			"choices": [
+				"a big bend in a river",
+				"a fast waterfall",
+				"a river's source",
+				"a dam"
+			],
+			"explain": "A meander is a big bend in a river's middle or lower course."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Follow a river from start to end.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start high in the hills and end at the sea.",
+			"items": [
+				"the upper course",
+				"the lower course",
+				"the source",
+				"the middle course",
+				"the mouth"
+			],
+			"explain": "The source, the upper course, the middle course, the lower course, and then the mouth."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: upper course or lower course?",
+			"groups": [
+				"upper course",
+				"lower course"
+			],
+			"items": [
+				"fast and steep",
+				"wide and slow",
+				"waterfalls",
+				"a floodplain",
+				"a narrow V-shaped valley",
+				"a delta near the sea"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "High in the hills the river is small and fast; near the sea it is big and slow.",
+			"explain": "Upper: fast, steep, waterfalls and V-shaped valleys. Lower: wide and slow, with floodplains and deltas."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each river word to its meaning.",
+			"items": [
+				"source",
+				"mouth",
+				"delta",
+				"floodplain"
+			],
+			"matches": [
+				"where it meets the sea",
+				"a fan of land at the mouth",
+				"flat land that floods",
+				"where a river begins"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Two are the ends of the river; two are land shaped by it.",
+			"explain": "Source: the start. Mouth: the end at the sea. Delta: a fan of land built of mud. Floodplain: flat land beside the river that floods."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is a floodplain good for farming?",
+			"answer": 0,
+			"hint": "Remember the Nile.",
+			"choices": [
+				"floods leave rich mud on it",
+				"it never gets wet",
+				"it is high on a mountain",
+				"nothing grows there"
+			],
+			"explain": "When the river floods, it spreads rich mud over the floodplain, so crops grow well."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Many towns grew where a river could be crossed.",
+			"answer": true,
+			"hint": "Remember the place names ending in -ford from grade 3.",
+			"explain": "True: towns grew at fords and bridges, where roads crossed rivers."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The Nile ends in a fan of land and channels. What is it called?",
+			"answer": 0,
+			"hint": "It is named after a Greek letter shaped like a triangle.",
+			"choices": [
+				"a delta",
+				"an estuary",
+				"a source",
+				"a tributary"
+			],
+			"explain": "A delta: the river drops so much mud that it builds new land in a fan, shaped like the Greek letter delta."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "On the outside of a meander, what does the river do?",
+			"answer": 0,
+			"hint": "The water flows fastest round the outside of a bend.",
+			"choices": [
+				"it wears away the bank",
+				"it drops sand",
+				"it freezes",
+				"it stops flowing"
+			],
+			"explain": "It wears away the outside bank, where it flows fastest, and drops sand on the inside, where it is slow."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Experts all agree that the Nile is longer than the Amazon.",
+			"answer": false,
+			"hint": "Remember grade 3: experts still argue.",
+			"explain": "False: the Nile and the Amazon are the two longest rivers, and experts still argue about which is longer."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The River Thames is about 350 km long. A boat has gone 120 km up it from the mouth. About how far is it to the source, in km?",
+			"answer": "230",
+			"hint": "Take the distance travelled away from the whole length.",
+			"explain": "350 − 120 = 230 km to go."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which of these uses a river to make electricity?",
+			"answer": 0,
+			"hint": "Falling water can turn machines called turbines.",
+			"choices": [
+				"a dam with a power station",
+				"a lighthouse",
+				"a sandcastle",
+				"a windmill"
+			],
+			"explain": "A dam holds back water; as it falls through the power station it spins turbines that make electricity."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part of a river's journey to what it looks like.",
+			"items": [
+				"the upper course",
+				"the middle course",
+				"the lower course",
+				"the mouth"
+			],
+			"matches": [
+				"wide, deep and slow on flat land",
+				"an estuary or a delta",
+				"small and fast, with waterfalls",
+				"big bends called meanders"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "The river starts steep and fast, and gets wider and slower on its way to the sea.",
+			"explain": "The upper course is small and fast, with waterfalls. The middle course swings in meanders. The lower course is wide, deep and slow. At the mouth it widens into an estuary or builds a delta."
+		}
+	],
+	"generators": [],
+	"play": {
+		"hook": "A raft waits at a spring high in the hills. Follow the river all the way to the sea!",
+		"game": "generic",
+		"params": {
+			"costume": "path"
+		},
+		"coach": [
+			"A river begins at its source, high in the hills.",
+			"Tributaries join the river and make it bigger.",
+			"In the middle, rivers swing in bends called meanders.",
+			"Floods spread mud that makes rich farmland.",
+			"Some rivers build a delta where they meet the sea."
+		],
+		"world_task": "Build a river from a spring to the sea, with a waterfall, a meander, a bridge and a delta."
+	}
+}

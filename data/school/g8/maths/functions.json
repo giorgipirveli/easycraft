@@ -1,0 +1,116 @@
+{
+	"id": "g8.maths.functions",
+	"lesson": [
+		{
+			"text": "A function gives exactly one output for each input. Inputs 1, 2, 3 with outputs 5, 7, 9 is a function."
+		},
+		{
+			"text": "If one input has two different outputs, like (2, 5) and (2, 8), it is not a function."
+		},
+		{
+			"text": "A linear function makes a straight-line graph: its output changes by the same amount each step, like y = 3x + 1."
+		},
+		{
+			"text": "Non-linear functions curve: y = x² goes 1, 4, 9, 16, rising by more each time."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "(1, 4), (2, 6), (3, 8) is a function.",
+			"answer": true,
+			"hint": "One output per input.",
+			"explain": "Yes."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "(1, 4), (1, 6), (2, 8) is a function.",
+			"answer": false,
+			"hint": "Look at the input 1.",
+			"explain": "No: 1 has two outputs."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a linear function?",
+			"answer": 0,
+			"hint": "A straight line.",
+			"choices": [
+				"y = 3x + 1",
+				"y = x²",
+				"y = x³"
+			],
+			"explain": "y = 3x + 1."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which table is linear?",
+			"answer": 0,
+			"hint": "The same change each step.",
+			"choices": [
+				"(1, 3), (2, 5), (3, 7)",
+				"(1, 1), (2, 4), (3, 9)",
+				"(1, 2), (2, 4), (3, 8)"
+			],
+			"explain": "It rises by 2 each time."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "f(x) = 2x + 5. What is f(4)?",
+			"answer": "13",
+			"hint": "Put 4 in place of x.",
+			"explain": "2 × 4 + 5 = 13."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Is y = x² linear?",
+			"answer": 0,
+			"hint": "1, 4, 9, 16…",
+			"choices": [
+				"no, it curves",
+				"yes, it goes up evenly"
+			],
+			"explain": "It rises by more each time."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Function A: y = 3x + 2. Function B has pairs (0, 1), (1, 5), (2, 9). Which has the bigger rate of change?",
+			"answer": 0,
+			"hint": "Compare the slopes.",
+			"choices": [
+				"B",
+				"A",
+				"they are equal"
+			],
+			"explain": "A's rate is 3; B's is 4."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A linear function has f(1) = 7 and f(3) = 13. What is f(5)?",
+			"answer": "19",
+			"hint": "It rises 3 each step.",
+			"explain": "13 + 6 = 19."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8n.is_function",
+			"level": 1
+		},
+		{
+			"gen": "g8n.is_function",
+			"level": 2
+		},
+		{
+			"gen": "g8n.is_function",
+			"level": 3
+		}
+	]
+}

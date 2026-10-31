@@ -1,0 +1,465 @@
+{
+	"id": "g6.geography.detailed_maps",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you found places on a grid. Which number comes first, the one along the bottom or up the side? (Along the bottom: along the corridor, then up the stairs.) Today: detailed maps."
+		},
+		{
+			"text": "Ordnance Survey maps of Britain have blue grid lines 1 km apart, each with a two-figure number. A four-figure reference names a square by the lines at its bottom-left corner, along first, then up. The farm is in square 3661.",
+			"picture": {
+				"kind": "os_map",
+				"e0": 32,
+				"n0": 60,
+				"cols": 5,
+				"rows": 4,
+				"km": true,
+				"symbols": [
+					{
+						"what": "worship",
+						"e": 336,
+						"n": 627
+					},
+					{
+						"what": "farm",
+						"e": 362,
+						"n": 614
+					},
+					{
+						"what": "school",
+						"e": 355,
+						"n": 632
+					},
+					{
+						"what": "car_park",
+						"e": 321,
+						"n": 603
+					}
+				],
+				"points": [
+					{
+						"e": 324,
+						"n": 617,
+						"label": "A"
+					}
+				]
+			}
+		},
+		{
+			"text": "For a six-figure reference, imagine each square cut into tenths. Point A is 4 tenths east of line 32 and 7 tenths north of line 61, so its reference is 324617: easting 324, northing 617."
+		},
+		{
+			"text": "Contour lines are brown lines joining places of the same height above sea level. Lines close together mean steep ground; far apart means gentle slopes. A spot height gives one point's height.",
+			"picture": {
+				"kind": "os_map",
+				"e0": 32,
+				"n0": 60,
+				"cols": 5,
+				"rows": 4,
+				"river": [
+					[
+						320,
+						604
+					],
+					[
+						330,
+						610
+					],
+					[
+						337,
+						603
+					],
+					[
+						352,
+						611
+					],
+					[
+						370,
+						606
+					]
+				],
+				"symbols": [
+					{
+						"what": "bridge",
+						"e": 337,
+						"n": 603
+					}
+				],
+				"hills": [
+					{
+						"e": 344,
+						"n": 624,
+						"heights": [
+							50,
+							100,
+							150,
+							200
+						],
+						"top": 212,
+						"size": 12,
+						"steep": "e"
+					}
+				]
+			}
+		},
+		{
+			"text": "On 1:25,000 maps the contour lines are usually 5 m apart, or 10 m in mountains. To find a height between them, count the lines up or down from one whose height you know."
+		},
+		{
+			"text": "Scale: on a 1:25,000 map, 1 cm stands for 25,000 cm, which is 250 m. So 4 cm is 1 km, and each grid square is 4 cm wide. On a 1:50,000 map, 2 cm is 1 km.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"scale",
+						"1 km is"
+					],
+					[
+						"1:25,000",
+						"4 cm"
+					],
+					[
+						"1:50,000",
+						"2 cm"
+					]
+				]
+			}
+		},
+		{
+			"text": "Symbols save space. Water is blue, Sch is a school and Fm is a farm. A blue P is a car park, and a tent is a campsite. The map's key explains every symbol."
+		},
+		{
+			"text": "Try it in the world: put a fence post every 10 blocks and number the lines. Draw a map of your land with contour lines round a hill. Give a friend a six-figure reference to find a chest. Next: weather and climate graphs."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which way do you read a grid reference first?",
+			"answer": 0,
+			"hint": "Along the corridor, then up the stairs.",
+			"choices": [
+				"along (the easting), then up",
+				"up first, then along",
+				"diagonally",
+				"from the top down"
+			],
+			"explain": "Along first (the easting), then up (the northing)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do contour lines join?",
+			"answer": 0,
+			"hint": "They are brown lines round hills.",
+			"choices": [
+				"places of the same height",
+				"places with the same name",
+				"roads",
+				"rivers"
+			],
+			"explain": "Places at the same height above sea level."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Contour lines close together mean steep ground.",
+			"answer": true,
+			"hint": "Think how fast the height changes when you walk across them.",
+			"explain": "True: close lines mean the height changes quickly, so the ground is steep."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which square is the farm (Fm) in?",
+			"answer": 0,
+			"hint": "Find the lines at the bottom-left of the farm's square: along first, then up.",
+			"choices": [
+				"3561",
+				"6135",
+				"3461",
+				"3562"
+			],
+			"explain": "The farm's square has line 35 on its left and line 61 below it: 3561.",
+			"picture": {
+				"kind": "os_map",
+				"e0": 32,
+				"n0": 61,
+				"cols": 4,
+				"rows": 2,
+				"symbols": [
+					{
+						"what": "worship",
+						"e": 336,
+						"n": 627
+					},
+					{
+						"what": "farm",
+						"e": 352,
+						"n": 614
+					},
+					{
+						"what": "school",
+						"e": 347,
+						"n": 622
+					},
+					{
+						"what": "car_park",
+						"e": 324,
+						"n": 613
+					}
+				],
+				"points": [
+					{
+						"e": 328,
+						"n": 624,
+						"label": "A"
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "On a 1:25,000 map, 4 cm is 1 km. How many km is 8 cm?",
+			"answer": "2",
+			"hint": "How many lots of 4 cm are there?",
+			"explain": "8 ÷ 4 = 2 km."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the six-figure grid reference of point A?",
+			"answer": 0,
+			"hint": "Along, then up: the square's numbers and the tenths across and up it.",
+			"choices": [
+				"328624",
+				"624328",
+				"330624",
+				"328622"
+			],
+			"explain": "A is 8 tenths east of line 32 and 4 tenths north of line 62: 328624.",
+			"picture": {
+				"kind": "os_map",
+				"e0": 32,
+				"n0": 61,
+				"cols": 4,
+				"rows": 2,
+				"symbols": [
+					{
+						"what": "worship",
+						"e": 336,
+						"n": 627
+					},
+					{
+						"what": "farm",
+						"e": 352,
+						"n": 614
+					},
+					{
+						"what": "school",
+						"e": 347,
+						"n": 622
+					},
+					{
+						"what": "car_park",
+						"e": 324,
+						"n": 613
+					}
+				],
+				"points": [
+					{
+						"e": 328,
+						"n": 624,
+						"label": "A"
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Contour lines are 10 m apart. The lowest is at 40 m. How high is the 4th line up from the bottom?",
+			"answer": "70",
+			"hint": "Count the steps up from the lowest line.",
+			"explain": "The 4th line is 3 steps up: 40 + 3 × 10 = 70 m."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is at grid reference 347622?",
+			"answer": 0,
+			"hint": "Find the square 3462 first, then 7 tenths along and 2 up.",
+			"choices": [
+				"a school",
+				"a farm",
+				"a place of worship",
+				"a car park"
+			],
+			"explain": "347622 is 7 tenths east of line 34 and 2 tenths north of line 62: the school (Sch).",
+			"picture": {
+				"kind": "os_map",
+				"e0": 32,
+				"n0": 61,
+				"cols": 4,
+				"rows": 2,
+				"symbols": [
+					{
+						"what": "worship",
+						"e": 336,
+						"n": 627
+					},
+					{
+						"what": "farm",
+						"e": 352,
+						"n": 614
+					},
+					{
+						"what": "school",
+						"e": 347,
+						"n": 622
+					},
+					{
+						"what": "car_park",
+						"e": 324,
+						"n": 613
+					}
+				],
+				"points": [
+					{
+						"e": 328,
+						"n": 624,
+						"label": "A"
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "On a 1:50,000 map, 2 cm is 1 km. How many km is 9 cm?",
+			"answer": "4.5",
+			"hint": "Each 2 cm is 1 km, so halve the centimetres.",
+			"explain": "9 ÷ 2 = 4.5 km."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "On a 1:25,000 map, each grid square is 1 km across.",
+			"answer": true,
+			"hint": "The grid lines are 1 km apart.",
+			"explain": "True: the lines are 1 km apart, which is 4 cm on this map."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "On which side is this hill steepest?",
+			"answer": 0,
+			"hint": "Look for where the contour lines crowd together.",
+			"choices": [
+				"the west side",
+				"the east side",
+				"the north side",
+				"the south side"
+			],
+			"explain": "The lines are closest on the west side, so it is steepest there.",
+			"picture": {
+				"kind": "os_map",
+				"e0": 51,
+				"n0": 22,
+				"cols": 4,
+				"rows": 3,
+				"hills": [
+					{
+						"e": 530,
+						"n": 235,
+						"heights": [
+							20,
+							40,
+							60,
+							80
+						],
+						"size": 13,
+						"steep": "w"
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Point A is on the 150 m contour. The spot height on the hilltop is 212 m. How many metres do you climb from A to the top?",
+			"answer": "62",
+			"hint": "Take the lower height from the higher one.",
+			"explain": "212 − 150 = 62 m."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many cm on a 1:25,000 map is a real walk of 3.5 km?",
+			"answer": "14",
+			"hint": "Every 1 km is 4 cm on this map.",
+			"explain": "3.5 × 4 = 14 cm."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A path is 12 cm long on a 1:25,000 map. Walking at 4 km an hour, how many minutes will it take?",
+			"answer": "45",
+			"hint": "Find the real distance first; 4 km an hour is 15 minutes for each km.",
+			"explain": "12 ÷ 4 = 3 km. 3 × 15 = 45 minutes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do walkers check the contour lines before a hike?",
+			"answer": 0,
+			"hint": "What do contours tell you about the ground?",
+			"choices": [
+				"to see how steep the climb will be",
+				"to find shops",
+				"to see the weather",
+				"to count people"
+			],
+			"explain": "Contours show the heights and the steep parts, so walkers can plan an easier or safer route."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.grid_ref",
+			"level": 1
+		},
+		{
+			"gen": "g6h.grid_ref",
+			"level": 2
+		},
+		{
+			"gen": "g6h.grid_ref",
+			"level": 3
+		},
+		{
+			"gen": "g6h.contours",
+			"level": 1
+		},
+		{
+			"gen": "g6h.contours",
+			"level": 2
+		},
+		{
+			"gen": "g6h.contours",
+			"level": 3
+		},
+		{
+			"gen": "g6h.map_scale",
+			"level": 1
+		},
+		{
+			"gen": "g6h.map_scale",
+			"level": 2
+		},
+		{
+			"gen": "g6h.map_scale",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,375 @@
+{
+	"id": "g5.science.breathing_heart",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you followed food through the body. Where does digested food go from the small intestine? (Into the blood.) Today: how blood carries that food, and oxygen from the air, all round you."
+		},
+		{
+			"text": "Every part of your body needs oxygen from the air. You breathe in through your nose or mouth; air goes down your windpipe, into a tube for each lung, and on into millions of tiny air sacs.",
+			"picture": {
+				"kind": "lungs",
+				"labels": true
+			}
+		},
+		{
+			"text": "Under your lungs is a sheet of muscle, the diaphragm. Breathing in, it tightens and moves down, your ribs move up and out, your chest gets bigger and air rushes in. Breathing out, it relaxes and domes up.",
+			"picture": {
+				"kind": "lungs",
+				"breath": "in"
+			}
+		},
+		{
+			"text": "In the air sacs, oxygen passes into your blood, and carbon dioxide, a waste gas, passes out to be breathed out. Air you breathe in is about 21% oxygen; air you breathe out is about 16% oxygen and 4% carbon dioxide.",
+			"picture": {
+				"kind": "lungs",
+				"breath": "out"
+			}
+		},
+		{
+			"text": "Your heart is a muscle about the size of your fist, between your lungs. It beats about 100,000 times a day. Arteries carry blood away from the heart; veins bring it back; tiny capillaries reach every cell.",
+			"picture": {
+				"kind": "blood_loop",
+				"labels": true
+			}
+		},
+		{
+			"text": "Blood goes round a double loop. The heart's right side pumps it to the lungs for oxygen; it comes back to the left side, which pumps it round the body. Ibn al-Nafis (1200s) and William Harvey (1628) worked this out.",
+			"picture": {
+				"kind": "blood_loop"
+			}
+		},
+		{
+			"text": "Your pulse is each heartbeat pushing blood through your arteries: feel it at your wrist or neck. At rest a child's heart beats about 70 to 110 times a minute. Exercise makes muscles need more oxygen, so your heart beats faster."
+		},
+		{
+			"text": "Try it in the world: find your pulse, count it for 15 seconds and times by 4. Jump on the spot for a minute and count again: how much faster is it? Next, in grade 6: the body's systems working together."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which gas does your body need from the air?",
+			"hint": "It is the gas the air sacs pass into your blood.",
+			"explain": "Oxygen: every cell needs it, and the lungs pass it into the blood.",
+			"choices": [
+				"oxygen",
+				"carbon dioxide",
+				"steam",
+				"helium"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When you breathe in, your diaphragm moves down and your chest gets bigger.",
+			"hint": "Look at the diaphragm under the lungs in the picture.",
+			"explain": "True: the diaphragm tightens and flattens, the ribs move out, the chest gets bigger and air rushes in.",
+			"answer": true,
+			"picture": {
+				"kind": "lungs",
+				"breath": "in",
+				"labels": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part is shown in orange?",
+			"hint": "It sits between the lungs and pumps blood.",
+			"explain": "The heart: a muscle about the size of your fist, between the lungs.",
+			"choices": [
+				"the heart",
+				"a lung",
+				"the diaphragm",
+				"the windpipe"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "lungs",
+				"mark": "heart"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does the heart do?",
+			"hint": "It is a muscle that squeezes again and again.",
+			"explain": "The heart pumps blood round the body, about 100,000 times a day.",
+			"choices": [
+				"It pumps blood round the body.",
+				"It takes in air.",
+				"It digests food.",
+				"It makes bones grow."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Veins carry blood away from the heart.",
+			"hint": "Arteries go away; which vessels come back?",
+			"explain": "False: arteries carry blood away from the heart, and veins carry it back.",
+			"answer": false
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the oxygen's journey in order.",
+			"hint": "Follow the oxygen from the air to your muscles.",
+			"explain": "Down the windpipe, into the air sacs, into the blood; then the heart pumps it round the body.",
+			"items": [
+				"Air reaches the tiny air sacs",
+				"Air goes down the windpipe",
+				"The heart pumps it round the body",
+				"Oxygen passes into the blood"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			]
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A heart beats about 70 times a minute. About how many times does it beat in an hour?",
+			"hint": "An hour is 60 minutes.",
+			"explain": "70 × 60 = 4,200 beats in an hour.",
+			"answer": "4200"
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to what it means.",
+			"hint": "Start with the word you are surest of.",
+			"explain": "Pulse: a heartbeat you can feel. Diaphragm: a muscle under the lungs. Air sacs: oxygen enters the blood. Capillaries: the tiniest vessels. Oxygen: the gas cells need.",
+			"items": [
+				"pulse",
+				"diaphragm",
+				"air sacs",
+				"capillaries",
+				"oxygen"
+			],
+			"matches": [
+				"the tiniest blood vessels",
+				"the gas every cell needs",
+				"a heartbeat felt at the wrist",
+				"muscle sheet under the lungs",
+				"where oxygen enters the blood"
+			],
+			"answer": [
+				2,
+				3,
+				4,
+				0,
+				1
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Blood comes back to the heart from the body in the vessels marked ?. What are they?",
+			"hint": "Arteries go away from the heart. Which vessels come back?",
+			"explain": "Veins carry blood back to the heart; arteries carry it away.",
+			"choices": [
+				"veins",
+				"arteries",
+				"air sacs",
+				"capillaries"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "blood_loop",
+				"labels": true,
+				"hide": "veins",
+				"mark": "veins"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Air you breathe out has more carbon dioxide than air you breathe in.",
+			"hint": "What waste gas does your body get rid of in the lungs?",
+			"explain": "True: breathed-out air is about 4% carbon dioxide; breathed-in air has only a tiny bit.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does your heart beat faster when you run?",
+			"hint": "What do working muscles need more of?",
+			"explain": "Working muscles need more oxygen and food, so the heart pumps faster to bring them more blood.",
+			"choices": [
+				"Your muscles need more oxygen and food.",
+				"Your heart gets smaller.",
+				"You breathe less.",
+				"Your blood gets colder."
+			],
+			"answer": 0
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: good or bad for your heart and lungs?",
+			"hint": "What makes your heart and lungs work well and keeps them clean?",
+			"explain": "Good: exercise such as running, games and swimming, and sleep. Bad: smoke, dirty air and sitting still all day.",
+			"groups": [
+				"good for them",
+				"bad for them"
+			],
+			"items": [
+				"running and playing games",
+				"breathing thick smoke",
+				"swimming",
+				"sitting still all day",
+				"sleeping well",
+				"dusty, dirty air"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			]
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does blood go to the lungs before it goes round the body?",
+			"hint": "What happens in the air sacs?",
+			"explain": "In the lungs the blood takes in oxygen and gives up carbon dioxide; then the heart pumps it round the body.",
+			"choices": [
+				"to pick up oxygen and drop carbon dioxide",
+				"to get warm",
+				"to pick up food",
+				"to slow down"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram's pulse is 80 beats a minute at rest and 140 after running. How many more beats a minute is that?",
+			"hint": "Take the smaller number from the bigger one.",
+			"explain": "140 − 80 = 60 more beats a minute.",
+			"answer": "60"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The blood in the red vessels is rich in oxygen. Where did it get the oxygen?",
+			"hint": "Follow the red vessel back to where it starts.",
+			"explain": "It picked up oxygen in the lungs, then went to the heart's left side to be pumped round the body.",
+			"choices": [
+				"in the lungs",
+				"in the heart",
+				"in the muscles",
+				"in the veins"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "blood_loop"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The right side of the heart pumps blood to the lungs.",
+			"hint": "Follow the blue blood from the body.",
+			"explain": "True: the right side sends blood low in oxygen to the lungs; the left side pumps it round the body.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In 1628 William Harvey showed something new about blood. What was it?",
+			"hint": "Think about the words circulation and circle.",
+			"explain": "Harvey showed that the heart pumps the same blood round and round the body: circulation.",
+			"choices": [
+				"The heart pumps it round in a loop.",
+				"It is made in the lungs.",
+				"It stays still in the body.",
+				"It is made in the stomach."
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Your blood is blue inside your veins.",
+			"hint": "Veins only look blue through your skin.",
+			"explain": "False: blood is always red. Blood low in oxygen is a darker red; veins just look blue through the skin.",
+			"answer": false
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: breathing in, or breathing out?",
+			"groups": [
+				"breathing in",
+				"breathing out"
+			],
+			"items": [
+				"the diaphragm moves down",
+				"the ribs move up and out",
+				"the diaphragm domes up",
+				"the chest gets smaller",
+				"air rushes in",
+				"carbon dioxide leaves"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Breathing in makes the chest bigger; breathing out makes it smaller.",
+			"explain": "In: the diaphragm moves down, the ribs move up and out, and air rushes into the bigger chest. Out: the diaphragm domes up, the chest gets smaller, and carbon dioxide leaves."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5c.pulse_rate",
+			"level": 1
+		},
+		{
+			"gen": "g5c.pulse_rate",
+			"level": 2
+		},
+		{
+			"gen": "g5c.pulse_rate",
+			"level": 3
+		},
+		{
+			"gen": "g5c.body_path",
+			"level": 1
+		},
+		{
+			"gen": "g5c.body_path",
+			"level": 2
+		},
+		{
+			"gen": "g5c.body_path",
+			"level": 3
+		},
+		{
+			"gen": "g5c.organ_match",
+			"level": 1
+		},
+		{
+			"gen": "g5c.organ_match",
+			"level": 2
+		},
+		{
+			"gen": "g5c.organ_match",
+			"level": 3
+		}
+	]
+}

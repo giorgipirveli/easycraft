@@ -1,0 +1,361 @@
+{
+	"id": "g3.design_tech.food_origins",
+	"lesson": [
+		{
+			"text": "Quick memory: which food group are bread and pasta in? (Starchy foods.) Today: where our food comes from, before it reaches the plate."
+		},
+		{
+			"text": "All food starts as a plant or an animal. Food is grown (plants), reared (farm animals) or caught (fish and other food from the wild).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"grown",
+						"reared",
+						"caught"
+					],
+					[
+						"apples",
+						"eggs",
+						"cod"
+					],
+					[
+						"potatoes",
+						"milk",
+						"crab"
+					],
+					[
+						"wheat",
+						"lamb",
+						"mackerel"
+					]
+				]
+			}
+		},
+		{
+			"text": "Grown: fruit and vegetables, and grains like wheat, rice and oats. Some grow on trees (apples), some on bushes (blueberries), and some under the ground (potatoes and carrots)."
+		},
+		{
+			"text": "Reared: farmers look after animals for food. Cows give milk and beef, hens give eggs, sheep give lamb, and pigs give pork."
+		},
+		{
+			"text": "Caught: fish and seafood are caught in seas, rivers and lakes, like cod, mackerel and crab. Some fish, like salmon, are also farmed in big pens."
+		},
+		{
+			"text": "Many foods are made from others. Flour is ground wheat, and bread is made from flour. Cheese, butter and yoghurt are made from milk; chips from potatoes; jam from fruit.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Wheat"
+					},
+					{
+						"shape": "step",
+						"text": "Grind into flour"
+					},
+					{
+						"shape": "end",
+						"text": "Bake into bread"
+					}
+				]
+			}
+		},
+		{
+			"text": "Foods ripen in their season. In the UK, asparagus is ready in spring, strawberries in summer, apples and pumpkins in autumn, and leeks and parsnips in winter. Food in season is fresh and has not travelled far.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Season",
+						"Ready to eat"
+					],
+					[
+						"spring",
+						"asparagus"
+					],
+					[
+						"summer",
+						"strawberries"
+					],
+					[
+						"autumn",
+						"apples, pumpkins"
+					],
+					[
+						"winter",
+						"leeks, parsnips"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a farm with a crop field, an animal pen and a fishing pond: one place for grown food, one for reared food, and one for caught food."
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Is it grown, reared or caught?",
+			"groups": [
+				"grown",
+				"reared",
+				"caught"
+			],
+			"items": [
+				"carrots",
+				"eggs",
+				"mackerel",
+				"wheat",
+				"milk",
+				"cod"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Plants are grown, farm animals are reared, and wild fish are caught.",
+			"explain": "Grown: carrots, wheat. Reared: eggs, milk. Caught: mackerel, cod."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where do eggs come from?",
+			"answer": 0,
+			"hint": "Which farm animal lays them?",
+			"choices": [
+				"hens",
+				"trees",
+				"the sea",
+				"wheat"
+			],
+			"explain": "Hens lay eggs, so eggs are reared food."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Potatoes grow under the ground.",
+			"answer": true,
+			"hint": "Think of digging them up.",
+			"explain": "True: potatoes grow under the ground, like carrots."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which food is caught?",
+			"answer": 0,
+			"hint": "Caught food comes from the wild.",
+			"choices": [
+				"fish from the sea",
+				"apples",
+				"milk",
+				"wheat"
+			],
+			"explain": "Fish from the sea are caught; apples and wheat are grown, and milk is from reared cows."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each food to what it is made from.",
+			"items": [
+				"bread",
+				"cheese",
+				"chips",
+				"jam"
+			],
+			"matches": [
+				"milk",
+				"potatoes",
+				"fruit",
+				"wheat flour"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of what each food was before it was made.",
+			"explain": "Bread: wheat flour. Cheese: milk. Chips: potatoes. Jam: fruit."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is flour made from?",
+			"answer": 0,
+			"hint": "It is a grain.",
+			"choices": [
+				"ground wheat",
+				"milk",
+				"fish",
+				"sugar"
+			],
+			"explain": "Flour is wheat grain, ground into a powder."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In the UK, strawberries are in season in summer.",
+			"answer": true,
+			"hint": "When do you see strawberries at summer fairs?",
+			"explain": "True: strawberries ripen in the UK in summer."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In the UK, which vegetable is ready in winter?",
+			"answer": 0,
+			"hint": "Which one can stand the cold?",
+			"choices": [
+				"leeks",
+				"strawberries",
+				"asparagus",
+				"cherries"
+			],
+			"explain": "Leeks (and parsnips) are ready in winter; asparagus is spring, the fruits summer."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is food in season a good choice?",
+			"answer": 0,
+			"hint": "In season means ripe near here now.",
+			"choices": [
+				"it is fresh and has not travelled far",
+				"it is always blue",
+				"it has no taste",
+				"it grows in a factory"
+			],
+			"explain": "Food in season is fresh and has not had to travel far to reach you."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put bread's journey in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "A plant has to grow before anything else.",
+			"items": [
+				"a baker mixes and bakes the dough",
+				"the grain is ground into flour",
+				"the wheat is harvested",
+				"farmers grow wheat"
+			],
+			"explain": "Wheat grows, it is harvested, the grain is ground into flour, then a baker makes bread."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "When is each food ready in the UK?",
+			"groups": [
+				"summer",
+				"autumn",
+				"winter"
+			],
+			"items": [
+				"strawberries",
+				"pumpkins",
+				"parsnips",
+				"cherries",
+				"apples",
+				"leeks"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Soft fruit in the warm months, harvest time in autumn, hardy vegetables in the cold.",
+			"explain": "Summer: strawberries, cherries. Autumn: pumpkins, apples. Winter: parsnips, leeks."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which animal does butter come from?",
+			"answer": 0,
+			"hint": "Butter is made from milk.",
+			"choices": [
+				"cows",
+				"hens",
+				"fish",
+				"sheep's wool"
+			],
+			"explain": "Butter is made from cows' milk, so it is reared food."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Chocolate is made from beans that grow on trees.",
+			"answer": true,
+			"hint": "Think of cocoa.",
+			"explain": "True: chocolate is made from cocoa beans, which grow in pods on cocoa trees in hot countries."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bananas grow in hot countries far from the UK. How do most of them get there?",
+			"answer": 0,
+			"hint": "They must cross an ocean.",
+			"choices": [
+				"by ship",
+				"by bicycle",
+				"they grow in the UK",
+				"by post"
+			],
+			"explain": "Bananas cross the ocean by ship."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Each food is made from another food. Was that first food grown or reared?",
+			"groups": [
+				"grown",
+				"reared"
+			],
+			"items": [
+				"chips",
+				"cheese",
+				"bread",
+				"yoghurt",
+				"jam",
+				"butter"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "First ask what each food is made from, then where that came from.",
+			"explain": "Chips come from potatoes, bread from wheat and jam from fruit: all grown. Cheese, yoghurt and butter come from milk, which comes from cows: reared."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3p.food_source",
+			"level": 1
+		},
+		{
+			"gen": "g3p.food_source",
+			"level": 2
+		},
+		{
+			"gen": "g3p.food_source",
+			"level": 3
+		}
+	]
+}

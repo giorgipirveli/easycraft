@@ -1,0 +1,437 @@
+{
+	"id": "g7.computing.collect_clean_data",
+	"lesson": [
+		{
+			"text": "Quick memory: what does =AVERAGE(B2:B5) find? (The mean of those four cells.) Today: collecting data well and cleaning it before you use it."
+		},
+		{
+			"text": "Data can be collected with digital tools: an online form, a survey, sensors that measure temperature or light by themselves, or a spreadsheet you type into. Plan first: what do you want to find out?"
+		},
+		{
+			"text": "Good questions get useful answers. A closed question gives choices to tick (Which pet: cat, dog or none?), which are easy to count. An open question (Why do you like it?) gives richer answers that are harder to count.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Closed question",
+						"Open question"
+					],
+					[
+						"Cat or dog?",
+						"Why do you like it?"
+					],
+					[
+						"easy to count",
+						"richer answers"
+					]
+				]
+			}
+		},
+		{
+			"text": "Validation checks data as it is typed. A presence check: not empty. A type check: a number, not a word. A range check: 5 to 18. A length check, and a format check: an email needs an @.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"check",
+						"for example"
+					],
+					[
+						"presence",
+						"not empty"
+					],
+					[
+						"type",
+						"a number"
+					],
+					[
+						"range",
+						"5 to 18"
+					],
+					[
+						"length",
+						"8 letters"
+					],
+					[
+						"format",
+						"an @ in an email"
+					]
+				]
+			}
+		},
+		{
+			"text": "Dirty data has mistakes: typing slips (12 typed as 120), the same row twice, gaps, and one thing written different ways (red, Red, rd). Cleaning finds and fixes them.",
+			"picture": {
+				"kind": "data_sheet",
+				"head": [
+					"Name",
+					"Age",
+					"Colour"
+				],
+				"rows": [
+					[
+						"Tilly",
+						"12",
+						"red"
+					],
+					[
+						"Bram",
+						"120",
+						"Red"
+					],
+					[
+						"Zara",
+						"11",
+						"blue"
+					],
+					[
+						"Zara",
+						"11",
+						"blue"
+					],
+					[
+						"Mimi",
+						"",
+						"rd"
+					]
+				],
+				"flag": [
+					[
+						1,
+						1
+					],
+					[
+						1,
+						2
+					],
+					[
+						4,
+						1
+					],
+					[
+						4,
+						2
+					]
+				],
+				"strike": [
+					3
+				]
+			}
+		},
+		{
+			"text": "Worked example: heights 142, 150, 15, 147 and 146 cm. 15 cm must be a slip, so check it or leave it out. The rest: 142 + 150 + 147 + 146 = 585, and 585 ÷ 4 = 146.25 cm."
+		},
+		{
+			"text": "Keep a note of every change, and never change data because you do not like it. A mistake left in can make a mean, a chart or a decision wrong."
+		},
+		{
+			"text": "Try it in the world: write 5 closed questions for your family, collect the answers in a table, and look for anything to clean. Next: wellbeing online."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a closed question?",
+			"answer": 0,
+			"hint": "A closed question gives choices to pick from.",
+			"choices": [
+				"Which pet: cat, dog or none?",
+				"Why do you like your pet?",
+				"Describe your best day.",
+				"What makes a good pet?"
+			],
+			"explain": "Which pet: cat, dog or none? gives three answers to tick, easy to count."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which check stops someone leaving the name box empty?",
+			"answer": 0,
+			"hint": "Which check asks: is anything there?",
+			"choices": [
+				"presence check",
+				"range check",
+				"format check",
+				"length check"
+			],
+			"explain": "A presence check makes sure something was typed."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A sensor can collect data by itself, such as the temperature every hour.",
+			"answer": true,
+			"hint": "Think of a weather station.",
+			"explain": "True: sensors measure and record without anyone typing."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which value must be a mistake in a class's ages?",
+			"answer": 0,
+			"hint": "Which could not be true for a child in the class?",
+			"choices": [
+				"121",
+				"12",
+				"11"
+			],
+			"explain": "No child is 121: it is probably 12 typed with an extra 1. Check it.",
+			"picture": {
+				"kind": "data_sheet",
+				"head": [
+					"Name",
+					"Age"
+				],
+				"rows": [
+					[
+						"Tilly",
+						"12"
+					],
+					[
+						"Bram",
+						"11"
+					],
+					[
+						"Zara",
+						"121"
+					],
+					[
+						"Mimi",
+						"12"
+					]
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these into closed and open questions.",
+			"groups": [
+				"closed",
+				"open"
+			],
+			"items": [
+				"Do you have a pet? yes or no",
+				"Pick a colour from the list",
+				"Why do you like reading?",
+				"Describe your best day",
+				"How many pets: 0, 1, 2 or more?"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Can the answers be ticked from a list?",
+			"explain": "Yes or no, a list and 0, 1, 2 or more are closed; why and describe are open."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "One row was typed twice and one value is impossible. How many rows are left when you remove both?",
+			"answer": "4",
+			"hint": "Find the copied row and the value that cannot be true.",
+			"explain": "There are 6 rows. Take away the copy of Kofi's row and Lena's 140: 4 rows are left.",
+			"picture": {
+				"kind": "data_sheet",
+				"head": [
+					"Name",
+					"Age"
+				],
+				"rows": [
+					[
+						"Sam",
+						"12"
+					],
+					[
+						"Kofi",
+						"11"
+					],
+					[
+						"Kofi",
+						"11"
+					],
+					[
+						"Lena",
+						"140"
+					],
+					[
+						"Priya",
+						"12"
+					],
+					[
+						"Juno",
+						"13"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which check catches an email written without an @?",
+			"answer": 0,
+			"hint": "Which check looks at the pattern of what is typed?",
+			"choices": [
+				"format check",
+				"presence check",
+				"range check",
+				"type check"
+			],
+			"explain": "A format check: an email address must follow a pattern with an @ in it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The answers say red, Red, RED and rd. What should cleaning do?",
+			"answer": 0,
+			"hint": "They all mean the same colour.",
+			"choices": [
+				"write them all the same way: red",
+				"delete them all",
+				"keep them as they are",
+				"count them as four colours"
+			],
+			"explain": "Make them the same, red, so they are counted together as 4 answers."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "You may change a value in your data because it does not fit what you hoped.",
+			"answer": false,
+			"hint": "Would the results still be true?",
+			"explain": "False: change only real mistakes, and note every change."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A survey's ages are 11, 12, 12 and 150. Why check the 150 before finding the mean?",
+			"answer": 0,
+			"hint": "Work out the mean with and without it.",
+			"choices": [
+				"a slip would pull the mean far up",
+				"150 is too long to type",
+				"means only use even numbers",
+				"the mean must be 12"
+			],
+			"explain": "With 150 the mean is 46.25; without it, 11.67. One slip pulls the mean far from the truth."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Remove the impossible value, then find the mean (the average) of the rest.",
+			"answer": "146",
+			"hint": "Cross out the height that cannot be true, add the others and divide.",
+			"explain": "Without 14: 140 + 152 + 148 + 144 = 584, and 584 ÷ 4 = 146.",
+			"picture": {
+				"kind": "data_sheet",
+				"head": [
+					"Name",
+					"Height cm"
+				],
+				"rows": [
+					[
+						"Ollie",
+						"140"
+					],
+					[
+						"Priya",
+						"152"
+					],
+					[
+						"Sam",
+						"14"
+					],
+					[
+						"Kofi",
+						"148"
+					],
+					[
+						"Lena",
+						"144"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Heights in cm: 142, 150, 15, 147 and 146. Leaving out the slip, what is the mean?",
+			"answer": "146.25",
+			"hint": "Leave out the impossible one, add the rest, divide by 4.",
+			"explain": "142 + 150 + 147 + 146 = 585, and 585 ÷ 4 = 146.25 cm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A classroom sensor records 21, 22, 22, 85 and 21 °C. What is the 85 most likely to be?",
+			"answer": 0,
+			"hint": "Could a classroom jump to 85 °C and back in an hour?",
+			"choices": [
+				"a fault: check the sensor",
+				"a very hot day",
+				"the mean",
+				"a normal reading"
+			],
+			"explain": "85 °C does not fit the readings around it: probably a fault. Check the sensor before using it."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of a data project in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You cannot clean what you have not collected.",
+			"items": [
+				"plan the questions",
+				"clean the data",
+				"decide what you want to find out",
+				"collect the data",
+				"work out the results"
+			],
+			"explain": "Decide, plan, collect, clean, then work out the results."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A row with a gap in its age can still be used to count the answers to the pet question.",
+			"answer": true,
+			"hint": "Which question did that row answer?",
+			"explain": "True: a gap in one column need not throw the row away; leave it out only where the missing value is needed."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.clean_data",
+			"level": 1
+		},
+		{
+			"gen": "g7c.clean_data",
+			"level": 2
+		},
+		{
+			"gen": "g7c.clean_data",
+			"level": 3
+		},
+		{
+			"gen": "g7c.validate_entry",
+			"level": 1
+		},
+		{
+			"gen": "g7c.validate_entry",
+			"level": 2
+		},
+		{
+			"gen": "g7c.validate_entry",
+			"level": 3
+		}
+	]
+}

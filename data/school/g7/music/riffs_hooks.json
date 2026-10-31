@@ -1,0 +1,463 @@
+{
+	"id": "g7.music.riffs_hooks",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a riff? (A short musical pattern played again and again.) Today: composing your own piece built on a riff."
+		},
+		{
+			"text": "A riff is short, 1 or 2 bars, and it repeats. Its rhythm matters as much as its notes: a riff you can clap is a riff people remember. Grade 4's ostinato was its cousin.",
+			"picture": {
+				"kind": "piano_roll",
+				"notes": [
+					"E4",
+					"G4",
+					"A4",
+					"-",
+					"E4",
+					"G4",
+					"B4",
+					"A4"
+				],
+				"repeat": 2
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4",
+					"G4",
+					"A4",
+					"-",
+					"E4",
+					"G4",
+					"B4",
+					"A4",
+					"E4",
+					"G4",
+					"A4",
+					"-",
+					"E4",
+					"G4",
+					"B4",
+					"A4"
+				],
+				"beat": 0.3
+			}
+		},
+		{
+			"text": "Start from a scale. The pentatonic scale, C, D, E, G and A, has no clashing notes, so any order sounds good. The blues scale gives a riff an edge.",
+			"picture": {
+				"kind": "piano_roll",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"A4",
+					"C5:2"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"A4",
+					"C5:2"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"text": "Build it: 3 to 5 notes, a strong rhythm, and a gap to breathe. Repeat it exactly, then change one thing: a note, the rhythm, or where it starts.",
+			"picture": {
+				"kind": "piano_roll",
+				"notes": [
+					"C4",
+					"C4",
+					"Eb4",
+					"F4:2",
+					"-",
+					"G4"
+				],
+				"repeat": 2
+			}
+		},
+		{
+			"text": "Move the riff with the chords: when the chords change from C to F, play the same riff starting on F. Every note moves up the same amount, so its shape stays: C, E, G becomes F, A, C.",
+			"picture": {
+				"kind": "piano_roll",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"-",
+					"F4",
+					"A4",
+					"C5",
+					"-"
+				],
+				"mark": [
+					4,
+					5,
+					6
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"-",
+					"F4",
+					"A4",
+					"C5",
+					"-"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"text": "A hook is short and catchy: easy to sing, repeated, with one surprise, a leap or an off-beat note. Put it where people wait for it, at the start of the chorus."
+		},
+		{
+			"text": "Worked example: a bass riff C, C, E flat, F under the drums; the verse plays it 4 times; the chorus moves it up to F; the hook sits on top. Build the layers one part at a time.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5:2",
+					"G4",
+					"Eb5:2",
+					"C5",
+					"F5:2"
+				],
+				"beat": 0.4,
+				"parts": [
+					{
+						"notes": [
+							"C3",
+							"C3",
+							"Eb3",
+							"F3:2",
+							"C3",
+							"C3",
+							"Eb3"
+						],
+						"volume": 0.6
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: make up a 1-bar riff by singing or on a keyboard, and repeat it 4 times. Then move it up to start on another note. Next: film music."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A riff is 2 bars long and repeats all through a 16-bar verse. How many times does it play?",
+			"answer": "8",
+			"hint": "How many 2s make 16?",
+			"explain": "16 ÷ 2 = 8 times."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A riff is a short pattern that repeats.",
+			"answer": true,
+			"hint": "Think of an ostinato.",
+			"explain": "True: short and repeated."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which scale has 5 notes that never clash: C, D, E, G and A?",
+			"answer": 0,
+			"hint": "Penta means five.",
+			"choices": [
+				"the pentatonic scale",
+				"the chromatic scale",
+				"the blues scale",
+				"the major scale"
+			],
+			"explain": "The pentatonic scale: five notes, no clashes."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Listen: how many times does the riff play?",
+			"answer": "3",
+			"hint": "Count each time the pattern starts again.",
+			"explain": "C, E, G and a gap, 3 times.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"-",
+					"C4",
+					"E4",
+					"G4",
+					"-",
+					"C4",
+					"E4",
+					"G4",
+					"-"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where is a song's hook usually heard?",
+			"answer": 0,
+			"hint": "Where does everyone join in?",
+			"choices": [
+				"at the start of the chorus",
+				"only in the intro",
+				"only at the very end",
+				"in a silence"
+			],
+			"explain": "At the start of the chorus, where people wait for it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The riff C, E, G moves up so it starts on F. What are its notes now?",
+			"answer": 0,
+			"hint": "Every note moves up by the same number of letters as the first.",
+			"choices": [
+				"F, A, C",
+				"F, G, A",
+				"G, B, D",
+				"E, G, B"
+			],
+			"explain": "C to F is 3 letters up, so E becomes A and G becomes C: F, A, C."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: is the second riff the same as the first?",
+			"answer": 0,
+			"hint": "Compare the last note of each.",
+			"choices": [
+				"changed: one note is different",
+				"the same"
+			],
+			"explain": "The first ends on G, the second on A: one note changed.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"-",
+					"C4",
+					"E4",
+					"A4",
+					"-"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: is the second riff the same shape, moved higher?",
+			"answer": 0,
+			"hint": "Do the notes rise and fall the same way?",
+			"choices": [
+				"yes, the same shape, higher",
+				"no, a different shape"
+			],
+			"explain": "C, E, G then F, A, C: the same shape, moved up.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"-",
+					"F4",
+					"A4",
+					"C5",
+					"-"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which riff is easiest to remember?",
+			"answer": 0,
+			"hint": "What makes something catchy?",
+			"choices": [
+				"3 notes with a strong rhythm, repeated",
+				"20 notes, never repeated",
+				"one long note",
+				"random notes each time"
+			],
+			"explain": "Short, rhythmic and repeated."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Changing one note of a riff when it repeats keeps it interesting and still recognisable.",
+			"answer": true,
+			"hint": "A small change, not a new riff.",
+			"explain": "True: the listener still knows it, but hears something new."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: is the repeating riff high or low?",
+			"answer": 0,
+			"hint": "Two parts play: which one repeats?",
+			"choices": [
+				"low",
+				"high"
+			],
+			"explain": "The low part repeats the riff; the high tune changes.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5:2",
+					"G5:2",
+					"A5:2",
+					"C6:2"
+				],
+				"beat": 0.45,
+				"parts": [
+					{
+						"notes": [
+							"C3",
+							"E3",
+							"G3",
+							"-",
+							"C3",
+							"E3",
+							"G3",
+							"-"
+						],
+						"volume": 0.7
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The riff G, A, C, D moves up so it starts on C. What are its notes now?",
+			"answer": 0,
+			"hint": "G to C is how many letters up? Move every note that far.",
+			"choices": [
+				"C, D, F, G",
+				"C, D, E, F",
+				"A, B, D, E",
+				"C, E, G, A"
+			],
+			"explain": "G to C is 3 letters up: A becomes D, C becomes F and D becomes G: C, D, F, G."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 1-bar riff plays 4 times in each verse and 8 times in each chorus. The song goes verse, chorus, verse, chorus. How many times does it play?",
+			"answer": "24",
+			"hint": "Add the verse and the chorus, then double.",
+			"explain": "4 + 8 = 12, and twice through: 12 × 2 = 24."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen: how many notes are in one riff?",
+			"answer": "4",
+			"hint": "Count the notes before the gap.",
+			"explain": "Each riff has 4 notes, then a gap.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A3",
+					"C4",
+					"D4",
+					"E4",
+					"-",
+					"A3",
+					"C4",
+					"D4",
+					"E4",
+					"-",
+					"A3",
+					"C4",
+					"D4",
+					"E4",
+					"-"
+				],
+				"beat": 0.35
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen: what changed the second time?",
+			"answer": 0,
+			"hint": "Are the notes the same? Are they as long?",
+			"choices": [
+				"the rhythm",
+				"the notes",
+				"nothing"
+			],
+			"explain": "The same notes, C, E and G, but the long note moved: the rhythm changed.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4:2",
+					"C4:2",
+					"E4",
+					"G4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of composing a riff-based piece in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start small, then build up the layers.",
+			"items": [
+				"add a hook on top",
+				"move it with the chords",
+				"repeat it over a beat",
+				"make up a short riff"
+			],
+			"explain": "Riff, repeat it over a beat, move it with the chords, then add a hook."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.riff_repeat",
+			"level": 1
+		},
+		{
+			"gen": "g7c.riff_repeat",
+			"level": 2
+		},
+		{
+			"gen": "g7c.riff_repeat",
+			"level": 3
+		}
+	]
+}

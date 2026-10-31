@@ -1,0 +1,432 @@
+{
+	"id": "g7.english.strong_evidence",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you read closely. What is an inference? Something you work out from clues in the text and from what you already know."
+		},
+		{
+			"text": "When you say something about a text, back it up. One quote might be chance; two or three pieces of evidence from different parts of the text make a strong case.",
+			"picture": {
+				"kind": "argument_map",
+				"claim": "Mira is brave.",
+				"reasons": [
+					"she crosses the bridge",
+					"she faces the guard",
+					"she goes back for Tom"
+				],
+				"evidence": [
+					"'knees shaking, she stepped'",
+					"'Let us pass,' she said",
+					"she turned back for Tom"
+				],
+				"titles": true
+			}
+		},
+		{
+			"text": "Evidence can be a quote, the author's exact words in quotation marks, or a paraphrase, the same idea in your own words. Quote only the key words: Mira 'gripped the rope' says more than a whole copied paragraph."
+		},
+		{
+			"text": "Choose the strongest evidence: it is relevant to your point and shows it clearly. 'She smiled' is weak proof that Mira is overjoyed; 'she laughed until tears came' is strong.",
+			"picture": {
+				"kind": "marked_text",
+				"lines": [
+					"Mira gripped the rope with both hands.",
+					"The bridge swayed over the deep gorge.",
+					"Knees shaking, she took one step, then another."
+				],
+				"marks": [
+					[
+						0,
+						"gripped the rope"
+					],
+					[
+						2,
+						"Knees shaking"
+					]
+				],
+				"tags": [
+					"evidence 1",
+					"evidence 2"
+				],
+				"title": "Claim: Mira is brave"
+			}
+		},
+		{
+			"text": "Then explain every piece: point, evidence, explain. Point: Mira is brave. Evidence: 'knees shaking, she took one step'. Explain: she is afraid, yet she keeps going.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"Point: Mira is brave",
+					"Evidence: a short quote",
+					"Explain: what it shows"
+				]
+			}
+		},
+		{
+			"text": "Information texts need evidence too: say where a fact comes from. 'The guide says the river is 340 km long' is stronger than 'the river is very long'."
+		},
+		{
+			"text": "Try it in the world: read a sign or a book in the game and make a claim about it. Back it with two pieces of evidence and explain them. Next: how a theme develops."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a quote?",
+			"choices": [
+				"She wrote, \"The night was still.\"",
+				"She says the night was quiet.",
+				"The night seemed calm to her."
+			],
+			"answer": 0,
+			"hint": "A quote copies the exact words inside quotation marks.",
+			"explain": "\"The night was still\" is in quotation marks: the writer's exact words."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "One quote is always enough to prove a big point about a text.",
+			"answer": false,
+			"hint": "Could one line be a one-off?",
+			"explain": "False: two or three pieces from different parts of the text make a stronger case."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Claim: the old man is kind. Which line proves it best?",
+			"choices": [
+				"He shared his bread with a stray dog.",
+				"He wore a grey hat.",
+				"He lived by the station."
+			],
+			"answer": 0,
+			"hint": "Which line shows how he treats others?",
+			"explain": "Sharing his bread shows kindness; his hat and his home say nothing about it."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort them: a quote or a paraphrase?",
+			"groups": [
+				"quote",
+				"paraphrase"
+			],
+			"items": [
+				"\"The wind howled,\" she wrote.",
+				"She says the wind was loud.",
+				"He calls the sea \"restless\".",
+				"He says the sea never rests."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Look for quotation marks round exact words.",
+			"explain": "Quotes keep the exact words in quotation marks; paraphrases put the idea in new words."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each part of a paragraph to its job.",
+			"items": [
+				"point",
+				"evidence",
+				"explain"
+			],
+			"matches": [
+				"what you claim",
+				"how the quote proves it",
+				"a quote that backs it up"
+			],
+			"answer": [
+				0,
+				2,
+				1
+			],
+			"hint": "First say it, then show it, then say how it shows it.",
+			"explain": "Point: what you claim. Evidence: a quote that backs it up. Explain: how the quote proves the point."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Claim: the forest is dangerous. Which evidence is relevant?",
+			"choices": [
+				"Wolves howled close to the path.",
+				"The trees were tall.",
+				"It was spring."
+			],
+			"answer": 0,
+			"hint": "Which line would make a reader feel unsafe?",
+			"explain": "Wolves close by show danger; tall trees and the season do not."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Build the paragraph in the right order.",
+			"items": [
+				"Leo is generous.",
+				"Giving all he has shows he puts others first.",
+				"He gives his last coin to a stranger."
+			],
+			"answer": [
+				0,
+				2,
+				1
+			],
+			"hint": "Point first, then the evidence, then the explanation.",
+			"explain": "The point (Leo is generous), the evidence (his last coin), then what the evidence shows."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Claim: Tom feels left out. Which evidence is strongest?",
+			"choices": [
+				"\"No one sat with Tom, again.\"",
+				"\"Tom liked apples.\"",
+				"\"Tom sat by the window.\""
+			],
+			"answer": 0,
+			"hint": "Which line shows how Tom gets on with others?",
+			"explain": "\"No one sat with Tom, again\" shows he is often left alone; the others say nothing about it."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Claim: Tom is kind. Sort the lines.",
+			"groups": [
+				"supports it",
+				"does not"
+			],
+			"items": [
+				"He shared his lunch.",
+				"He has red hair.",
+				"He lives by the sea.",
+				"He carried Gran's bags.",
+				"He cheered up a crying boy.",
+				"He likes maths."
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Does the line show Tom doing something kind?",
+			"explain": "Supports it: sharing his lunch, carrying the bags, cheering up the boy. The others say nothing about kindness."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A paraphrase needs quotation marks.",
+			"answer": false,
+			"hint": "Whose words are in a paraphrase?",
+			"explain": "False: a paraphrase is in your own words, so it has no quotation marks."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which quote is trimmed best to prove that Kit is clever?",
+			"choices": [
+				"Kit \"mended the radio with a hairpin\".",
+				"Kit \"was in the kitchen\".",
+				"\"Kit\"."
+			],
+			"answer": 0,
+			"hint": "Keep only the words that prove the point.",
+			"explain": "\"mended the radio with a hairpin\" is short and proves cleverness; the others prove nothing."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each claim to its evidence.",
+			"items": [
+				"Ana is brave",
+				"Ana is clever",
+				"Ana is kind"
+			],
+			"matches": [
+				"she solves the riddle",
+				"she shares her map",
+				"she climbs the cliff"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Which action shows each quality?",
+			"explain": "Climbing the cliff shows bravery; solving the riddle shows cleverness; sharing her map shows kindness."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What do the two marked pieces of evidence show together?",
+			"choices": [
+				"Jun grows braver.",
+				"Jun likes books.",
+				"Everyone is unkind."
+			],
+			"answer": 0,
+			"hint": "Compare Jun at the start with Jun at the end.",
+			"explain": "At first Jun hides; by the end he speaks up. Together they show him growing braver.",
+			"picture": {
+				"kind": "marked_text",
+				"lines": [
+					"Jun hid behind his books all term.",
+					"At the meeting he stood up and spoke.",
+					"Everyone turned to listen."
+				],
+				"marks": [
+					[
+						0,
+						"hid behind his books"
+					],
+					[
+						1,
+						"stood up and spoke"
+					]
+				],
+				"tags": [
+					"at first",
+					"by the end"
+				],
+				"title": "Claim: Jun changes"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two quotes seem to disagree: Mira 'trembled', yet she 'stepped forward'. What should you do?",
+			"choices": [
+				"Use both: she is afraid but brave.",
+				"Leave one out.",
+				"Change a quote."
+			],
+			"answer": 0,
+			"hint": "Can both be true at once?",
+			"explain": "Use both: being afraid yet going on anyway is exactly what bravery is."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the evidence from the weakest to the strongest for: Ana loves the sea.",
+			"items": [
+				"She swims there often.",
+				"She lives near the sea.",
+				"\"I'm happiest when the waves roar.\""
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "The strongest shows her feelings in her own words.",
+			"explain": "Living near it proves little; swimming often is better; her own words about being happiest are the strongest."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which line cites an information text best?",
+			"choices": [
+				"The guide says the bridge is 60 m long.",
+				"The bridge is long, I think.",
+				"Everyone knows the bridge is long."
+			],
+			"answer": 0,
+			"hint": "Good citing names the source and gives the exact fact.",
+			"explain": "It names the source, the guide, and gives an exact figure; the others give no source and no fact."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each weak spot to its fix.",
+			"items": [
+				"one quote only",
+				"a long copied paragraph",
+				"no explanation",
+				"off-topic evidence"
+			],
+			"matches": [
+				"say how it proves it",
+				"keep only the key words",
+				"pick a relevant line",
+				"add evidence from elsewhere"
+			],
+			"answer": [
+				3,
+				1,
+				0,
+				2
+			],
+			"hint": "For each problem, what would make the case stronger?",
+			"explain": "One quote: add more evidence. A long quote: trim it to the key words. No explanation: explain it. Off-topic: pick a relevant line."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Claim: the storm frightens the crew. Sort the lines.",
+			"groups": [
+				"says it outright",
+				"hints at it",
+				"is not evidence"
+			],
+			"items": [
+				"The captain went pale.",
+				"Storms come in autumn.",
+				"Nobody spoke; hands gripped ropes.",
+				"\"I've never been so scared,\" said Bo.",
+				"The ship had three masts.",
+				"\"We're afraid,\" the sailors said."
+			],
+			"answer": [
+				1,
+				2,
+				1,
+				0,
+				2,
+				0
+			],
+			"hint": "Does the line say the fear in words, show it in actions, or say nothing about it?",
+			"explain": "Outright: the two spoken lines. Hints: the silence and the pale captain. Not evidence: the masts and the season."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Evidence from the start and the end of a story can show how a character changes.",
+			"answer": true,
+			"hint": "Change means a difference between two points in time.",
+			"explain": "True: comparing early and late evidence shows the change."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7k.evidence_pick",
+			"level": 1
+		},
+		{
+			"gen": "g7k.evidence_pick",
+			"level": 2
+		},
+		{
+			"gen": "g7k.evidence_pick",
+			"level": 3
+		},
+		{
+			"gen": "g7k.quote_or_paraphrase",
+			"level": 1
+		},
+		{
+			"gen": "g7k.quote_or_paraphrase",
+			"level": 2
+		},
+		{
+			"gen": "g7k.quote_or_paraphrase",
+			"level": 3
+		}
+	]
+}

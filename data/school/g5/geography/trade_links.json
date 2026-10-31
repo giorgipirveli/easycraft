@@ -1,0 +1,322 @@
+{
+	"id": "g5.geography.trade_links",
+	"lesson": [
+		{
+			"text": "Quick memory: which country digs up more copper than any other? (Chile.) Chile sells its copper to other countries and buys things it lacks. That is trade. Today: why places trade and how goods travel."
+		},
+		{
+			"text": "No country has everything. Bananas need a hot, wet climate; Ecuador grows lots and sells them abroad. Countries also trade what they are good at making, from cars to clothes to computer programs."
+		},
+		{
+			"text": "Goods sold to other countries are exports; goods bought from other countries are imports. Brazil exports coffee; Britain, which cannot grow coffee, imports it. Most countries import and export thousands of goods.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"country",
+						"exports"
+					],
+					[
+						"Ecuador",
+						"bananas"
+					],
+					[
+						"Brazil",
+						"coffee"
+					],
+					[
+						"Chile",
+						"copper"
+					]
+				]
+			}
+		},
+		{
+			"text": "Most goods, more than 8 of every 10 tonnes, travel by sea. Since the 1950s they have gone in steel containers that fit ships, lorries and trains alike. The biggest ships carry over 20,000 containers.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"by sea",
+						8
+					],
+					[
+						"other ways",
+						2
+					]
+				],
+				"whole": 10,
+				"lines": true,
+				"key": true
+			}
+		},
+		{
+			"text": "Planes are fast but cost more, so they carry light, valuable or quickly spoiling goods, such as medicines and fresh flowers. Lorries and trains carry goods over land, and pipelines carry oil and gas."
+		},
+		{
+			"text": "Canals make trade faster. The Suez Canal, opened in 1869, joins the Mediterranean and Red Seas. So ships from Asia to Europe need not sail round Africa. The Panama Canal, opened in 1914, joins the Atlantic and the Pacific.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60,
+				"points": [
+					{
+						"lat": 30,
+						"long": 32,
+						"label": "Suez"
+					},
+					{
+						"lat": 9,
+						"long": -80,
+						"label": "Panama"
+					}
+				]
+			}
+		},
+		{
+			"text": "A phone may hold metals mined in Africa and South America, parts made in Asia and designs from many countries. Trade links places, so a storm in one country can change prices in another. Fair trade tries to give farmers a fair price."
+		},
+		{
+			"text": "Try it in the world: set up two trading posts in different lands of your world, and swap what each has plenty of for what it lacks. Next: atlases and digital maps."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an export?",
+			"answer": 0,
+			"hint": "Ex- means out: goods going out.",
+			"choices": [
+				"something sold to another country",
+				"something bought from another country",
+				"a kind of ship",
+				"a port"
+			],
+			"explain": "An export is sold to another country; an import is bought from one."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How do most goods travel between countries?",
+			"answer": 0,
+			"hint": "More than 8 of every 10 tonnes.",
+			"choices": [
+				"by sea",
+				"by plane",
+				"by bicycle",
+				"by pipeline"
+			],
+			"explain": "By sea, mostly in containers."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Britain grows most of its own coffee.",
+			"answer": false,
+			"hint": "What climate does coffee need?",
+			"explain": "False: Britain is too cool for coffee, so it imports it."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why does Ecuador grow and sell so many bananas?",
+			"answer": 0,
+			"hint": "Where is Ecuador? Think of its latitude.",
+			"choices": [
+				"its hot, wet climate suits them",
+				"bananas grow best in snow",
+				"it has no other plants",
+				"bananas need a desert"
+			],
+			"explain": "Ecuador is on the Equator: its hot, wet climate suits bananas."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The same container can go on a ship, a lorry and a train.",
+			"answer": true,
+			"hint": "Why are containers all the same shape?",
+			"explain": "True: containers fit ships, lorries and trains alike."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these goods: sent by plane or by ship?",
+			"groups": [
+				"plane",
+				"ship"
+			],
+			"items": [
+				"fresh flowers",
+				"iron ore",
+				"medicines needed fast",
+				"cars",
+				"coal",
+				"fresh fish for tomorrow"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Is it light and needed soon, or heavy and able to wait a few weeks?",
+			"explain": "Plane: flowers, urgent medicines, fresh fish. Ship: iron ore, cars, coal."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"Suez Canal",
+				"Panama Canal",
+				"container",
+				"pipeline"
+			],
+			"matches": [
+				"carries oil and gas",
+				"Mediterranean to Red Sea",
+				"Atlantic to Pacific",
+				"a steel box for goods"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Suez is near Egypt; Panama joins two oceans.",
+			"explain": "Suez: Mediterranean to Red Sea. Panama: Atlantic to Pacific. Container: a steel box. Pipeline: oil and gas."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A ship carries 12,000 containers. It unloads 3,500 at the first port. How many are left on board?",
+			"answer": "8500",
+			"hint": "Take away the containers unloaded.",
+			"explain": "12,000 − 3,500 = 8,500 containers."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do countries trade things they could make themselves?",
+			"answer": 0,
+			"hint": "Could every country be the best at everything?",
+			"choices": [
+				"each is better at making some things",
+				"trade is always required",
+				"ships need something to do",
+				"to use up their money"
+			],
+			"explain": "Each country is better or cheaper at making some things, so trading helps everyone."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The Suez Canal means ships from Asia to Europe need not sail round Africa.",
+			"answer": true,
+			"hint": "Which seas does it join?",
+			"explain": "True: it joins the Red Sea to the Mediterranean, a short cut past Africa."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is fair trade?",
+			"answer": 0,
+			"hint": "Who grows the coffee and the cacao?",
+			"choices": [
+				"paying farmers a fair price",
+				"trading only with neighbours",
+				"a free gift with every export",
+				"always selling at the lowest price"
+			],
+			"explain": "Fair trade tries to make sure the farmers who grow goods get a fair price."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why can a storm in one country change prices in another?",
+			"answer": 0,
+			"hint": "What happens to a crop in a storm?",
+			"choices": [
+				"fewer of its goods reach the shops",
+				"storms move prices by magic",
+				"prices are the same everywhere",
+				"storms close all shops"
+			],
+			"explain": "If a storm spoils a crop, fewer goods reach shops elsewhere, so prices go up."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A voyage from a port in Asia to Europe is 19,800 km. A ship sails 900 km a day. How many days does it take?",
+			"answer": "22",
+			"hint": "How many lots of 900 km make 19,800 km? Divide.",
+			"explain": "19,800 ÷ 900 = 22 days."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the best way to send fresh flowers from Kenya to Britain?",
+			"answer": 0,
+			"hint": "Flowers wilt in a few days.",
+			"choices": [
+				"by plane, so they arrive fresh",
+				"by ship, slowly",
+				"by pipeline",
+				"by camel"
+			],
+			"explain": "By plane: it is fast, so they arrive fresh, and they are light."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A phone can contain parts from many different countries.",
+			"answer": true,
+			"hint": "Think of its metals, parts and design.",
+			"explain": "True: its metals, parts and design often come from many countries."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: an export, or an import?",
+			"groups": [
+				"export",
+				"import"
+			],
+			"items": [
+				"Brazil sells coffee to Britain",
+				"Britain buys coffee from Brazil",
+				"Ecuador sells bananas abroad",
+				"Chile sells copper abroad",
+				"Britain buys bananas"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Selling to another country is exporting. Buying from one is importing.",
+			"explain": "Exports: Brazil's coffee, Ecuador's bananas and Chile's copper are sold abroad. Imports: Britain buys coffee and bananas, which it cannot grow."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5h.trade_count",
+			"level": 1
+		},
+		{
+			"gen": "g5h.trade_count",
+			"level": 2
+		},
+		{
+			"gen": "g5h.trade_count",
+			"level": 3
+		}
+	]
+}

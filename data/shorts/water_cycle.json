@@ -1,0 +1,838 @@
+{
+	"id": "water_cycle",
+	"title": "The water cycle",
+	"topic": "science",
+	"link": {
+		"unit": "g6.science.water_cycle"
+	},
+	"scenes": [
+		{
+			"seconds": 8,
+			"background": "sea",
+			"caption": "The Sun warms the sea: water evaporates into vapour.",
+			"say": "The Sun warms the sea. Some water evaporates: it turns into an invisible gas called water vapour.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 2.0,
+					"effect": "bubbles"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "sun",
+					"at": [
+						70,
+						90
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "gas",
+					"at": [
+						180,
+						420
+					],
+					"size": 90,
+					"color": "white",
+					"alpha": 0.8,
+					"moves": [
+						{
+							"do": "fade",
+							"at": 1.6,
+							"to": 0.8
+						},
+						{
+							"do": "move",
+							"at": 1.6,
+							"dur": 6.0,
+							"to": [
+								180,
+								200
+							],
+							"ease": "smooth"
+						}
+					],
+					"bleed": true
+				},
+				{
+					"kind": "shape",
+					"shape": "gas",
+					"at": [
+						290,
+						430
+					],
+					"size": 70,
+					"color": "white",
+					"alpha": 0.8,
+					"moves": [
+						{
+							"do": "move",
+							"at": 2.4,
+							"dur": 5.6,
+							"to": [
+								290,
+								240
+							],
+							"ease": "smooth"
+						}
+					],
+					"bleed": true
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						110,
+						400
+					],
+					"to": [
+						110,
+						250
+					],
+					"color": "white",
+					"width": 8,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.2,
+							"dur": 1.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "evaporation",
+					"at": [
+						230,
+						150
+					],
+					"size": 26,
+					"color": "white",
+					"box": "teal",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8.5,
+			"background": "sky",
+			"caption": "High up, the vapour cools into tiny droplets: clouds!",
+			"say": "High in the sky, the vapour cools and condenses into tiny droplets. Millions of them make a cloud.",
+			"sounds": [
+				{
+					"at": 1.2,
+					"effect": "pop"
+				},
+				{
+					"at": 2.0,
+					"effect": "pop"
+				},
+				{
+					"at": 2.8,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "gas",
+					"at": [
+						180,
+						330
+					],
+					"size": 90,
+					"color": "white",
+					"alpha": 0.8,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0.0,
+							"dur": 1.6,
+							"to": [
+								180,
+								180
+							]
+						},
+						{
+							"do": "out",
+							"at": 1.6
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "cloud",
+					"at": [
+						180,
+						170
+					],
+					"size": 190,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.2
+						},
+						{
+							"do": "grow",
+							"at": 3.0,
+							"dur": 3.0,
+							"to": 1.15
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "cloud",
+					"at": [
+						70,
+						110
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.0
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "cloud",
+					"at": [
+						290,
+						120
+					],
+					"size": 120,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "condensation",
+					"at": [
+						180,
+						330
+					],
+					"size": 26,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8.5,
+			"background": "grass",
+			"caption": "Droplets join and fall as rain, snow or hail.",
+			"say": "The droplets join into bigger drops. When they are heavy enough, they fall as rain, snow or hail.",
+			"sounds": [
+				{
+					"at": 1.4,
+					"effect": "splash"
+				},
+				{
+					"at": 3.4,
+					"effect": "splash"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "cloud",
+					"at": [
+						180,
+						132
+					],
+					"size": 230,
+					"color": "#c9d3e6",
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						},
+						{
+							"do": "shake",
+							"at": 0.6,
+							"amount": 3
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						90,
+						200
+					],
+					"size": 26,
+					"color": "sea",
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0.6
+						},
+						{
+							"do": "move",
+							"at": 0.6,
+							"dur": 1.1,
+							"to": [
+								90,
+								400
+							],
+							"ease": "in"
+						},
+						{
+							"do": "out",
+							"at": 1.7,
+							"dur": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						127,
+						200
+					],
+					"size": 26,
+					"color": "sea",
+					"moves": [
+						{
+							"do": "appear",
+							"at": 1.1
+						},
+						{
+							"do": "move",
+							"at": 1.1,
+							"dur": 1.1,
+							"to": [
+								127,
+								400
+							],
+							"ease": "in"
+						},
+						{
+							"do": "out",
+							"at": 2.2,
+							"dur": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						164,
+						200
+					],
+					"size": 26,
+					"color": "sea",
+					"moves": [
+						{
+							"do": "appear",
+							"at": 1.6
+						},
+						{
+							"do": "move",
+							"at": 1.6,
+							"dur": 1.1,
+							"to": [
+								164,
+								400
+							],
+							"ease": "in"
+						},
+						{
+							"do": "out",
+							"at": 2.7,
+							"dur": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						201,
+						200
+					],
+					"size": 26,
+					"color": "sea",
+					"moves": [
+						{
+							"do": "appear",
+							"at": 2.1
+						},
+						{
+							"do": "move",
+							"at": 2.1,
+							"dur": 1.1,
+							"to": [
+								201,
+								400
+							],
+							"ease": "in"
+						},
+						{
+							"do": "out",
+							"at": 3.2,
+							"dur": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						238,
+						200
+					],
+					"size": 26,
+					"color": "sea",
+					"moves": [
+						{
+							"do": "appear",
+							"at": 2.6
+						},
+						{
+							"do": "move",
+							"at": 2.6,
+							"dur": 1.1,
+							"to": [
+								238,
+								400
+							],
+							"ease": "in"
+						},
+						{
+							"do": "out",
+							"at": 3.7,
+							"dur": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						275,
+						200
+					],
+					"size": 26,
+					"color": "sea",
+					"moves": [
+						{
+							"do": "appear",
+							"at": 3.1
+						},
+						{
+							"do": "move",
+							"at": 3.1,
+							"dur": 1.1,
+							"to": [
+								275,
+								400
+							],
+							"ease": "in"
+						},
+						{
+							"do": "out",
+							"at": 4.2,
+							"dur": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						122,
+						200
+					],
+					"size": 26,
+					"color": "sea",
+					"moves": [
+						{
+							"do": "appear",
+							"at": 3.6
+						},
+						{
+							"do": "move",
+							"at": 3.6,
+							"dur": 1.1,
+							"to": [
+								122,
+								400
+							],
+							"ease": "in"
+						},
+						{
+							"do": "out",
+							"at": 4.7,
+							"dur": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						159,
+						200
+					],
+					"size": 26,
+					"color": "sea",
+					"moves": [
+						{
+							"do": "appear",
+							"at": 4.1
+						},
+						{
+							"do": "move",
+							"at": 4.1,
+							"dur": 1.1,
+							"to": [
+								159,
+								400
+							],
+							"ease": "in"
+						},
+						{
+							"do": "out",
+							"at": 5.2,
+							"dur": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						196,
+						200
+					],
+					"size": 26,
+					"color": "sea",
+					"moves": [
+						{
+							"do": "appear",
+							"at": 4.6
+						},
+						{
+							"do": "move",
+							"at": 4.6,
+							"dur": 1.1,
+							"to": [
+								196,
+								400
+							],
+							"ease": "in"
+						},
+						{
+							"do": "out",
+							"at": 5.7,
+							"dur": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						233,
+						200
+					],
+					"size": 26,
+					"color": "sea",
+					"moves": [
+						{
+							"do": "appear",
+							"at": 5.1
+						},
+						{
+							"do": "move",
+							"at": 5.1,
+							"dur": 1.1,
+							"to": [
+								233,
+								400
+							],
+							"ease": "in"
+						},
+						{
+							"do": "out",
+							"at": 6.2,
+							"dur": 0.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "precipitation",
+					"at": [
+						180,
+						300
+					],
+					"size": 26,
+					"color": "white",
+					"box": "purple",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.8
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "grass",
+			"caption": "Rivers carry it back to the sea. Then it all starts again!",
+			"say": "Rain runs into streams and rivers, and they carry it back to the sea. Then it all starts again!",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "splash"
+				},
+				{
+					"at": 4.0,
+					"effect": "chime"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "mountain",
+					"at": [
+						80,
+						300
+					],
+					"size": 140,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "wave",
+					"w": 260,
+					"h": 40,
+					"at": [
+						220,
+						390
+					],
+					"color": "sea",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.4
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						130,
+						380
+					],
+					"to": [
+						320,
+						380
+					],
+					"color": "sky",
+					"width": 8,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.0,
+							"dur": 1.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "collection",
+					"at": [
+						240,
+						330
+					],
+					"size": 24,
+					"color": "white",
+					"box": "sea",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.0
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "sun",
+					"at": [
+						300,
+						80
+					],
+					"size": 80,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.6
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						320,
+						260
+					],
+					"to": [
+						220,
+						90
+					],
+					"color": "white",
+					"width": 7,
+					"bend": 60,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 3.6,
+							"dur": 0.8
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						140,
+						80
+					],
+					"to": [
+						50,
+						220
+					],
+					"color": "white",
+					"width": 7,
+					"bend": 60,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 4.4,
+							"dur": 0.8
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "cloud",
+					"at": [
+						180,
+						70
+					],
+					"size": 100,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 6.5,
+			"background": "sky",
+			"caption": "Where was the water in your glass a year ago?",
+			"say": "Here is something to wonder about: where was the water in your glass a year ago?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						180,
+						230
+					],
+					"size": 160,
+					"color": "sea",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "bounce",
+							"at": 1.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "cloud",
+					"at": [
+						70,
+						90
+					],
+					"size": 100,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.6
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "cloud",
+					"at": [
+						290,
+						110
+					],
+					"size": 90,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.9
+						}
+					]
+				}
+			]
+		}
+	]
+}

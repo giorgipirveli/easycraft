@@ -1,0 +1,335 @@
+{
+	"id": "g3.computing.kind_online",
+	"lesson": [
+		{
+			"text": "Quick memory: what is one thing to keep private online? (Your address, your school, your password…) Today: being kind online."
+		},
+		{
+			"text": "Behind every name in a game is a real person with real feelings. Be as kind online as you would be face to face."
+		},
+		{
+			"text": "Before you send a message, stop and think: is it true? Is it kind? Would I say it to their face?",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Write a message"
+					},
+					{
+						"shape": "decision",
+						"text": "Is it true?",
+						"back": 0
+					},
+					{
+						"shape": "decision",
+						"text": "Is it kind?",
+						"back": 0
+					},
+					{
+						"shape": "decision",
+						"text": "Say it to their face?",
+						"back": 0
+					},
+					{
+						"shape": "end",
+						"text": "Send it"
+					}
+				]
+			}
+		},
+		{
+			"text": "Being mean to someone online, again and again on purpose, is called cyberbullying. It is never OK, and it is never the fault of the person it happens to."
+		},
+		{
+			"text": "If something online upsets or worries you: stop, don't reply, and tell a grown-up you trust. You won't be in trouble for telling.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"stop",
+					"don't reply",
+					"tell a grown-up"
+				],
+				"title": "If something upsets you"
+			}
+		},
+		{
+			"text": "In this game you can MUTE someone, BLOCK them, or REPORT them (MEAN WORDS, SCARY, ASKED SECRETS). A real person reads every report."
+		},
+		{
+			"text": "Be an upstander: if you see someone being unkind to another player, don't join in. Send a kind message to the one who was hurt, and tell a grown-up.",
+			"picture": {
+				"kind": "chat",
+				"name": "Zara",
+				"messages": [
+					[
+						"me",
+						"I liked your castle. Build together?"
+					],
+					[
+						"them",
+						"Yes please! Thank you."
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a kindness corner in your world with a bench and flowers. When a friend visits, say one kind thing about what they built."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The people you meet in online games have real feelings.",
+			"answer": true,
+			"hint": "Who is behind each player's name?",
+			"explain": "True: behind every name is a real person with real feelings."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these messages: kind or unkind?",
+			"groups": [
+				"kind",
+				"unkind"
+			],
+			"items": [
+				"Good job!",
+				"Your build is ugly",
+				"Thanks for helping!",
+				"Nobody wants you here",
+				"Let's build together!",
+				"Ha ha, you fell again"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "How would you feel if someone sent it to you?",
+			"explain": "Kind: Good job!, Thanks for helping!, Let's build together! The others would hurt someone's feelings."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Something online makes you feel upset. What should you do first?",
+			"answer": 0,
+			"hint": "Who can help you?",
+			"choices": [
+				"stop, and tell a grown-up you trust",
+				"keep it a secret",
+				"reply with something mean",
+				"keep playing and hope it stops"
+			],
+			"explain": "Stop, don't reply, and tell a grown-up you trust. You won't be in trouble."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a kind thing to say to a new player?",
+			"answer": 0,
+			"hint": "Which words would make you feel welcome?",
+			"choices": [
+				"Hi! Want to build with us?",
+				"Go away",
+				"You can't play",
+				"Ha ha, you fell"
+			],
+			"explain": "“Hi! Want to build with us?” makes a new player feel welcome."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is cyberbullying?",
+			"answer": 0,
+			"hint": "Cyber means online.",
+			"choices": [
+				"being mean online again and again, on purpose",
+				"playing a game online",
+				"sending a friendly message",
+				"a kind of computer"
+			],
+			"explain": "Cyberbullying is being mean to someone online, again and again, on purpose."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each button in the game to what it does.",
+			"items": [
+				"MUTE",
+				"BLOCK",
+				"REPORT"
+			],
+			"matches": [
+				"they are not friends anymore",
+				"a person checks what happened",
+				"no invites from them"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Remember the lesson card about the three buttons.",
+			"explain": "MUTE: no invites from them. BLOCK: they are not your friend anymore. REPORT: a person checks what happened."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If someone is mean to you online, it is your fault.",
+			"answer": false,
+			"hint": "Who chose to be mean?",
+			"explain": "False: it is never the fault of the person it happens to. Tell a grown-up you trust."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Before you send a message, what should you ask yourself?",
+			"answer": 0,
+			"hint": "Remember: true, kind, and would I say it to their face?",
+			"choices": [
+				"Is it true and kind?",
+				"Is it the longest message?",
+				"Will it make them cross?",
+				"Is it all in capitals?"
+			],
+			"explain": "Ask: is it true? Is it kind? Would I say it to their face?"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Zara's friend is being teased in the chat. What could Zara do?",
+			"answer": 0,
+			"hint": "Be an upstander, not a bystander.",
+			"choices": [
+				"send a kind message and tell a grown-up",
+				"join in the teasing",
+				"laugh and say nothing",
+				"tease the teaser back"
+			],
+			"explain": "Zara can send her friend a kind message and tell a grown-up. That is being an upstander."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Something scary pops up in a game. Put what to do in order.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "First keep yourself safe, then get help.",
+			"items": [
+				"Close it or leave the game",
+				"Stop: don't reply",
+				"Tell a grown-up you trust"
+			],
+			"explain": "Stop and don't reply, close it or leave the game, then tell a grown-up you trust."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is an upstander?",
+			"answer": 0,
+			"hint": "They stand up for someone else.",
+			"choices": [
+				"someone who helps when they see unkindness",
+				"someone who stands up in class",
+				"someone who never plays games",
+				"someone who joins in the teasing"
+			],
+			"explain": "An upstander helps when they see someone being unkind to another person."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "You will be in trouble if you tell a grown-up about something bad you saw online.",
+			"answer": false,
+			"hint": "What do grown-ups want to know?",
+			"explain": "False: telling a grown-up is always the right thing, and you won't be in trouble for it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram sent a message in a rush, and now he thinks it was unkind. What is the best thing to do?",
+			"answer": 0,
+			"hint": "What would you want if someone was unkind to you?",
+			"choices": [
+				"say sorry to the player",
+				"pretend it never happened",
+				"send another mean message",
+				"stop playing forever"
+			],
+			"explain": "Saying sorry helps put it right, and next time he can stop and think before he sends."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: kind to do online, or never do?",
+			"groups": [
+				"kind to do",
+				"never do"
+			],
+			"items": [
+				"say “good game” at the end",
+				"share someone's secret",
+				"help a new player",
+				"make fun of a mistake",
+				"leave a player out on purpose",
+				"say thanks"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Would it make the other player feel good or bad?",
+			"explain": "Kind: say good game, help a new player, say thanks. Never: share secrets, make fun, leave someone out."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which message would you be happy to say to someone's face?",
+			"answer": 0,
+			"hint": "Would it make them smile?",
+			"choices": [
+				"Nice castle! How did you make the tower?",
+				"Your castle is rubbish",
+				"Everyone laughs at your builds",
+				"Why are you even here?"
+			],
+			"explain": "“Nice castle! How did you make the tower?” is kind and friendly."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Cyberbullying is unkind again and again, on purpose. Sort them: cyberbullying, or a one-off mistake?",
+			"groups": [
+				"cyberbullying",
+				"a one-off mistake"
+			],
+			"items": [
+				"mean messages every day, on purpose",
+				"a rude word by mistake, then sorry",
+				"leaving one player out of every game",
+				"a friend forgot to invite you once"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Ask two questions: does it happen again and again? Is it on purpose?",
+			"explain": "Cyberbullying: daily mean messages and leaving someone out every time happen again and again, on purpose. A one-off mistake: the rude word was an accident and they said sorry; forgetting once was not on purpose."
+		}
+	],
+	"generators": []
+}

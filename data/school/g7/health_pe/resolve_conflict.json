@@ -1,0 +1,352 @@
+{
+	"id": "g7.health_pe.resolve_conflict",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you learnt about changing friendships. What is an 'I' message? (Saying how you feel, like 'I feel upset when I'm left out.') Today: how to calm down, listen and find a fair solution."
+		},
+		{
+			"text": "Conflict is a normal part of life: people want different things. It can grow (escalate) or calm down (de-escalate). Shouting, blaming, insults and bringing others in make it grow; a calm voice, listening and time calm it."
+		},
+		{
+			"text": "Step 1, stop and calm down. Breathe slowly, count to ten, or say 'Can we talk later?' Nobody listens or thinks well when they are angry. Choose a time and a quiet place to talk.",
+			"picture": {
+				"kind": "chat",
+				"messages": [
+					[
+						"them",
+						"That was your fault!"
+					],
+					[
+						"me",
+						"I'm upset. Can we talk later?"
+					],
+					[
+						"them",
+						"OK. Sorry I shouted."
+					]
+				]
+			}
+		},
+		{
+			"text": "Step 2, say what happened and how you feel, with an I-statement: 'I feel … when … because …'. It shares your side without blaming: 'I feel left out when you pick teams without me, because I want to play.'"
+		},
+		{
+			"text": "Step 3, listen to understand. Look at them, let them finish, then say back what you heard: 'So you felt rushed?' Being listened to calms people down, even before you agree."
+		},
+		{
+			"text": "Step 4, find solutions together and pick a win-win, where both get something: take turns, share, or a compromise where each gives a little. Step 5, agree, and check later that it worked.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"stop and calm down",
+					"say how you feel",
+					"listen",
+					"find solutions",
+					"agree and check"
+				]
+			}
+		},
+		{
+			"text": "Stuck? A mediator can help: a calm person, like a peer mediator or a trusted adult, who helps both sides talk without taking sides. Online, don't reply in anger: save it, block, report and tell an adult. Bullying or threats always need an adult."
+		},
+		{
+			"text": "Try it in the world: act out a quarrel over the last slice of cake with a friend, and solve it in five steps. In LIFE, Calm Corner's stories have a quarrel to solve fairly. Try an I-statement this week. Next: where to get help."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is an I-statement?",
+			"choices": [
+				"I feel cross when my bag is moved.",
+				"You always move my bag!",
+				"You're so annoying.",
+				"Leave my stuff alone, or else."
+			],
+			"answer": 0,
+			"hint": "Look for a sentence that starts with the speaker's feeling, and blames nobody.",
+			"explain": "'I feel cross when my bag is moved': it says the feeling without blaming."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A conflict means a friendship is over.",
+			"answer": false,
+			"hint": "Do good friends ever disagree?",
+			"explain": "False: conflict is normal, and sorting it out well can make a friendship stronger."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the moves in a quarrel.",
+			"groups": [
+				"calms it down",
+				"makes it worse"
+			],
+			"items": [
+				"bring up old quarrels",
+				"take a break and talk later",
+				"listen without interrupting",
+				"shout over them",
+				"call them names",
+				"take slow breaths"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Does it lower the heat, or add to it?",
+			"explain": "Calms it: slow breaths, listening, a break. Worse: names, old quarrels, shouting."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which helps a quarrel calm down?",
+			"choices": [
+				"speaking quietly and listening",
+				"shouting louder",
+				"telling everyone",
+				"bringing up old quarrels"
+			],
+			"answer": 0,
+			"hint": "Which one lowers the heat?",
+			"explain": "Speaking quietly and listening calm a quarrel; the others make it grow."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"escalate",
+				"de-escalate",
+				"compromise",
+				"mediator"
+			],
+			"matches": [
+				"helps both sides talk",
+				"each gives a little",
+				"calm it down",
+				"make it grow"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Think of an escalator going up, and what 'de-' does to a word.",
+			"explain": "Escalate: grow. De-escalate: calm down. Compromise: each gives a little. Mediator: helps both sides talk."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps for sorting out a conflict in order.",
+			"items": [
+				"think of solutions together",
+				"agree, and check later",
+				"say what happened and how you feel",
+				"stop and calm down",
+				"listen to each other"
+			],
+			"answer": [
+				3,
+				2,
+				4,
+				0,
+				1
+			],
+			"hint": "Calm, talk, listen, solve, check: in that order.",
+			"explain": "Calm down, say how you feel, listen, find solutions together, then agree and check later."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Tilly and Zara both want the swing. Which is a win-win?",
+			"choices": [
+				"take turns, 5 minutes each",
+				"the stronger one keeps it",
+				"nobody uses it",
+				"one tells a lie to get it"
+			],
+			"answer": 0,
+			"hint": "A win-win gives both people something they want.",
+			"explain": "Taking turns: both get time on the swing."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bram and Mimi share a 60-minute computer slot fairly. Bram has already had 20 minutes. How many of the 40 minutes left should Mimi get?",
+			"answer": "30",
+			"hint": "Fair means half of the whole slot each, in all.",
+			"explain": "60 ÷ 2 = 30 each. Bram has had 20, so he gets 10 more and Mimi gets 30."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A mediator decides who is right and who is wrong.",
+			"answer": false,
+			"hint": "Does a mediator take a side?",
+			"explain": "False: a mediator helps both sides talk and find their own solution."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bram says, 'I hate being rushed.' Which reply shows you listened?",
+			"choices": [
+				"'So you felt rushed when we hurried you?'",
+				"'You're too slow.'",
+				"'Whatever.'",
+				"'I'm never rushed.'"
+			],
+			"answer": 0,
+			"hint": "Listening means saying back what you heard.",
+			"explain": "Saying back what he felt shows you listened."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which step is missing?",
+			"choices": [
+				"listen",
+				"shout",
+				"give up",
+				"find someone to blame"
+			],
+			"answer": 0,
+			"hint": "What comes after saying how you feel?",
+			"explain": "Listen: let them finish, then say back what you heard.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"stop and calm down",
+					"say how you feel",
+					"listen",
+					"find solutions",
+					"agree and check"
+				],
+				"hide": 2
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Online, a classmate posts something mean about you. What is the best first move?",
+			"choices": [
+				"save it, block, report and tell an adult",
+				"post something meaner back",
+				"share it with everyone",
+				"reply angrily straight away"
+			],
+			"answer": 0,
+			"hint": "Which move keeps you safe and does not add to it?",
+			"explain": "Save the evidence, block and report them, and tell a trusted adult. A reply in anger only makes it grow."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Bullying should be sorted out by the two people alone, without adults.",
+			"answer": false,
+			"hint": "Is bullying an everyday disagreement?",
+			"explain": "False: bullying is not an everyday disagreement. It always needs a trusted adult, who can keep everyone safe and stop it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two players argue about a line call in a friendly game. What is a fair compromise?",
+			"choices": [
+				"replay the point",
+				"the louder player wins it",
+				"stop the game for good",
+				"the crowd votes on it"
+			],
+			"answer": 0,
+			"hint": "Which choice gives each side a fair chance?",
+			"explain": "Replaying the point is fair to both: each gives a little, and nobody has to be proved right."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort it out yourselves, or get an adult?",
+			"groups": [
+				"sort it out together",
+				"get an adult"
+			],
+			"items": [
+				"someone threatens to hurt you",
+				"which film to watch",
+				"a group is cruel to someone online",
+				"who goes first in a game",
+				"who sits where at lunch"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Is anyone in danger or being bullied, or is it an everyday disagreement?",
+			"explain": "Together: who goes first, which film, where to sit. An adult: threats and online cruelty."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In a class survey, 18 of 24 quarrels were sorted out by talking calmly. What percentage is that?",
+			"answer": "75",
+			"hint": "Make a fraction, simplify it, then turn it into hundredths.",
+			"explain": "18/24: divide both by 6 to get 3/4, which is 75/100, so 75% were sorted out by talking calmly."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put this I-statement together.",
+			"items": [
+				"I feel",
+				"upset",
+				"I lose my thoughts",
+				"because",
+				"when I'm interrupted"
+			],
+			"answer": [
+				0,
+				1,
+				4,
+				3,
+				2
+			],
+			"hint": "The feeling first, then when it happens, then why.",
+			"explain": "I feel upset when I'm interrupted because I lose my thoughts."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.i_statement",
+			"level": 1
+		},
+		{
+			"gen": "g7w.i_statement",
+			"level": 2
+		},
+		{
+			"gen": "g7w.i_statement",
+			"level": 3
+		},
+		{
+			"gen": "g7w.conflict_move",
+			"level": 1
+		},
+		{
+			"gen": "g7w.conflict_move",
+			"level": 2
+		},
+		{
+			"gen": "g7w.conflict_move",
+			"level": 3
+		}
+	]
+}

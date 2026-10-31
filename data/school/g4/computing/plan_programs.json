@@ -1,0 +1,679 @@
+{
+	"id": "g4.computing.plan_programs",
+	"lesson": [
+		{
+			"text": "Quick memory: what does CHANGE score BY 1 do? (It adds 1 to the score.) Today: planning a program before you write it."
+		},
+		{
+			"text": "Programmers plan first. What should the program do? What are its steps, in order? A plan can be a list of steps in plain words, or a drawing called a flowchart."
+		},
+		{
+			"text": "A flowchart shows a plan with shapes and arrows. A rounded box is for START and END, and a rectangle for a step. A diamond is a question with a yes or no answer.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "START"
+					},
+					{
+						"shape": "step",
+						"text": "Fill the cup"
+					},
+					{
+						"shape": "decision",
+						"text": "Is it full?",
+						"back": 1
+					},
+					{
+						"shape": "end",
+						"text": "END"
+					}
+				]
+			}
+		},
+		{
+			"text": "Arrows show the order. A diamond's arrows go two ways: yes one way, no the other. An arrow back up makes a loop: fill the cup, check it, and fill again until it is full.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "START"
+					},
+					{
+						"shape": "step",
+						"text": "Fill the cup"
+					},
+					{
+						"shape": "decision",
+						"text": "Is it full?",
+						"back": 1
+					},
+					{
+						"shape": "end",
+						"text": "END"
+					}
+				]
+			}
+		},
+		{
+			"text": "Decompose first (grade 3): split a big job into parts. The robot's job, pick up both gems and reach the flag, splits into: go to one gem, then the other, then the flag.",
+			"picture": {
+				"kind": "robot",
+				"cols": 5,
+				"rows": 4,
+				"start": [
+					0,
+					3
+				],
+				"facing": "N",
+				"goal": [
+					4,
+					0
+				],
+				"gems": [
+					[
+						2,
+						3
+					],
+					[
+						2,
+						0
+					]
+				]
+			}
+		},
+		{
+			"text": "Worked example: plan with your finger first: along the bottom to one gem, up to the other, then along the top to the flag. Now write it: TURN RIGHT, FORWARD 2, TURN LEFT, FORWARD 3, TURN RIGHT, FORWARD 2.",
+			"picture": {
+				"kind": "robot",
+				"cols": 5,
+				"rows": 4,
+				"start": [
+					0,
+					3
+				],
+				"facing": "N",
+				"goal": [
+					4,
+					0
+				],
+				"gems": [
+					[
+						2,
+						3
+					],
+					[
+						2,
+						0
+					]
+				],
+				"path": [
+					[
+						0,
+						3
+					],
+					[
+						1,
+						3
+					],
+					[
+						2,
+						3
+					],
+					[
+						2,
+						2
+					],
+					[
+						2,
+						1
+					],
+					[
+						2,
+						0
+					],
+					[
+						3,
+						0
+					],
+					[
+						4,
+						0
+					]
+				]
+			}
+		},
+		{
+			"text": "Test your plan with a dry run: follow it step by step with your finger or in your head. Fixing a plan is much quicker than fixing a finished program."
+		},
+		{
+			"text": "Try it in the world: draw a flowchart for building a small house in your world, with a question like Is the roof done?. Then build it by following your plan. Next: networks."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a flowchart, which shape asks a yes or no question?",
+			"answer": 0,
+			"hint": "Look at the shape the flowchart uses for Is it full?",
+			"choices": [
+				"a diamond",
+				"a rectangle",
+				"a rounded box",
+				"a circle"
+			],
+			"explain": "A diamond asks a question; its arrows say yes and no.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "START"
+					},
+					{
+						"shape": "step",
+						"text": "Fill the cup"
+					},
+					{
+						"shape": "decision",
+						"text": "Is it full?",
+						"back": 1
+					},
+					{
+						"shape": "end",
+						"text": "END"
+					}
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each flowchart shape to what it means.",
+			"items": [
+				"rounded box",
+				"rectangle",
+				"diamond",
+				"arrow"
+			],
+			"matches": [
+				"which way to go next",
+				"START or END",
+				"a step",
+				"a yes or no question"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Remember the cup flowchart.",
+			"explain": "Rounded boxes start and end it, rectangles are steps, diamonds ask questions, and arrows show the way."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Planning before you code can save time.",
+			"answer": true,
+			"hint": "Is it quicker to fix a plan or a finished program?",
+			"explain": "True: a mistake found in the plan is quick to fix."
+		},
+		{
+			"type": "robot",
+			"level": 1,
+			"prompt": "Plan the robot's path: first the gem, then the flag. Then write the program.",
+			"board": {
+				"cols": 4,
+				"rows": 4,
+				"start": [
+					0,
+					3
+				],
+				"facing": "E",
+				"goal": [
+					3,
+					0
+				],
+				"gems": [
+					[
+						3,
+						3
+					]
+				]
+			},
+			"hint": "Trace the path with your finger: to the gem first, then on to the flag. Then write the commands.",
+			"explain": "One program that works: FORWARD 3, TURN LEFT, FORWARD 3."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the flowchart for brushing your teeth in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "What must happen before you can brush?",
+			"items": [
+				"Put toothpaste on the brush",
+				"Rinse your mouth",
+				"START",
+				"Brush for two minutes",
+				"END"
+			],
+			"explain": "START, toothpaste, brush, rinse, END."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How does this flowchart make a loop?",
+			"answer": 0,
+			"hint": "Follow the arrow that leaves the diamond when the cup is not full.",
+			"choices": [
+				"the no arrow goes back to Fill the cup",
+				"START comes twice",
+				"it has no END",
+				"the yes arrow goes back up"
+			],
+			"explain": "While the cup is not full, the no arrow goes back to Fill the cup: a loop. Yes goes on to END.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "START"
+					},
+					{
+						"shape": "step",
+						"text": "Fill the cup"
+					},
+					{
+						"shape": "decision",
+						"text": "Is it full?",
+						"back": 1
+					},
+					{
+						"shape": "end",
+						"text": "END"
+					}
+				]
+			}
+		},
+		{
+			"type": "robot",
+			"level": 2,
+			"prompt": "Plan first: which gem will you pick up first? Pick up both gems, then go to the flag.",
+			"board": {
+				"cols": 5,
+				"rows": 4,
+				"start": [
+					0,
+					3
+				],
+				"facing": "E",
+				"goal": [
+					4,
+					0
+				],
+				"walls": [
+					[
+						3,
+						3
+					],
+					[
+						1,
+						1
+					]
+				],
+				"gems": [
+					[
+						2,
+						3
+					],
+					[
+						4,
+						2
+					]
+				]
+			},
+			"hint": "Trace a path with your finger through both gems to the flag, round the wall. Then write the commands.",
+			"explain": "One program that works: FORWARD 2, TURN LEFT, FORWARD, TURN RIGHT, FORWARD 2, TURN LEFT, FORWARD 2."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Dry run each program with your finger. Which one picks up the gem and reaches the flag?",
+			"answer": 0,
+			"hint": "Put your finger on the robot and follow each program, one command at a time. Does it pass the gem?",
+			"choices": [
+				"FORWARD 2, TURN LEFT, FORWARD 3",
+				"TURN LEFT, FORWARD 3, TURN RIGHT, FORWARD 2",
+				"FORWARD 2, TURN RIGHT, FORWARD 3",
+				"FORWARD 3, TURN LEFT, FORWARD 3"
+			],
+			"explain": "Forward 2 to the gem, turn left, forward 3 to the flag. The others miss the gem, fall off the board or stop beside the flag.",
+			"picture": {
+				"kind": "robot",
+				"cols": 4,
+				"rows": 4,
+				"start": [
+					0,
+					3
+				],
+				"facing": "E",
+				"goal": [
+					2,
+					0
+				],
+				"gems": [
+					[
+						2,
+						3
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A dry run means testing your plan by following it step by step.",
+			"answer": true,
+			"hint": "What do you do with your finger on a plan?",
+			"explain": "True: you follow the plan step by step before you write any code."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do we split a big job into smaller parts?",
+			"answer": 0,
+			"hint": "Is a small job easier or harder to get right?",
+			"choices": [
+				"each part is easier to plan and check",
+				"to make the job longer",
+				"so we can skip the hard parts",
+				"computers only read short words"
+			],
+			"explain": "Small parts are easier to plan, check and fix. Then they are put together (decomposition)."
+		},
+		{
+			"type": "robot",
+			"level": 3,
+			"prompt": "Plan the shortest way: pick up all 3 gems, then go to the flag, in at most 13 commands.",
+			"board": {
+				"cols": 6,
+				"rows": 5,
+				"start": [
+					0,
+					4
+				],
+				"facing": "N",
+				"goal": [
+					5,
+					0
+				],
+				"walls": [
+					[
+						4,
+						2
+					],
+					[
+						1,
+						3
+					],
+					[
+						2,
+						3
+					],
+					[
+						2,
+						0
+					]
+				],
+				"gems": [
+					[
+						0,
+						2
+					],
+					[
+						3,
+						2
+					],
+					[
+						5,
+						1
+					]
+				]
+			},
+			"hint": "Plan the order of the gems first. Trace it with your finger and count the commands before you write them.",
+			"explain": "One program that works: FORWARD 2, TURN RIGHT, FORWARD 3, TURN LEFT, FORWARD, TURN RIGHT, FORWARD 2, TURN LEFT, FORWARD.",
+			"max": 13
+		},
+		{
+			"type": "robot",
+			"level": 3,
+			"prompt": "The robot climbs the stairs to the flag. The same steps repeat! Use at most 15 commands.",
+			"board": {
+				"cols": 5,
+				"rows": 5,
+				"start": [
+					0,
+					4
+				],
+				"facing": "E",
+				"goal": [
+					4,
+					0
+				],
+				"walls": [
+					[
+						0,
+						0
+					],
+					[
+						1,
+						0
+					],
+					[
+						2,
+						0
+					],
+					[
+						3,
+						0
+					],
+					[
+						0,
+						1
+					],
+					[
+						1,
+						1
+					],
+					[
+						2,
+						1
+					],
+					[
+						0,
+						2
+					],
+					[
+						1,
+						2
+					],
+					[
+						0,
+						3
+					],
+					[
+						2,
+						4
+					],
+					[
+						3,
+						4
+					],
+					[
+						4,
+						4
+					],
+					[
+						3,
+						3
+					],
+					[
+						4,
+						3
+					],
+					[
+						4,
+						2
+					]
+				]
+			},
+			"hint": "Plan one stair: forward, a turn, forward, turn back. How many stairs are there?",
+			"explain": "One program that works: FORWARD, TURN LEFT, FORWARD, TURN RIGHT, FORWARD, TURN LEFT, FORWARD, TURN RIGHT, FORWARD, TURN LEFT, FORWARD, TURN RIGHT, FORWARD, TURN LEFT, FORWARD.",
+			"max": 15
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Dry run each program. Which one picks up the gem and reaches the flag, without bumping?",
+			"answer": 0,
+			"hint": "Follow each program with your finger. Watch for the walls, the edge of the board and the gem.",
+			"choices": [
+				"FORWARD 3, TURN RIGHT, FORWARD 3",
+				"TURN RIGHT, FORWARD 3, TURN LEFT, FORWARD 3",
+				"FORWARD 2, TURN RIGHT, FORWARD 3",
+				"FORWARD 3, TURN LEFT, FORWARD 3"
+			],
+			"explain": "Up 3 to the gem, turn right, then 3 along the top to the flag. The others miss the gem, bump into a wall or fall off the board.",
+			"picture": {
+				"kind": "robot",
+				"cols": 4,
+				"rows": 4,
+				"start": [
+					0,
+					3
+				],
+				"facing": "N",
+				"goal": [
+					3,
+					0
+				],
+				"walls": [
+					[
+						1,
+						1
+					],
+					[
+						1,
+						2
+					]
+				],
+				"gems": [
+					[
+						0,
+						0
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of making a program in order.",
+			"answer": [
+				5,
+				4,
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You can't plan a job you don't understand, and you can't test code you haven't written.",
+			"items": [
+				"Test it and fix bugs",
+				"Write the code",
+				"Dry run the plan",
+				"Plan each part",
+				"Split it into parts",
+				"Understand the job"
+			],
+			"explain": "Understand, split, plan, dry run, code, then test and fix."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: is it a plan, or code?",
+			"groups": [
+				"a plan",
+				"code"
+			],
+			"items": [
+				"a flowchart on paper",
+				"steps in plain words",
+				"a finger tracing a path",
+				"FORWARD 2, TURN LEFT",
+				"SET score TO 0"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Could a computer run it as it is?",
+			"explain": "Flowcharts, plain words and finger paths are plans. FORWARD 2, TURN LEFT and SET score TO 0 are code a computer runs."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara's plan says: forward to the flag. Her dry run shows the robot would miss the gem. What should she do?",
+			"answer": 0,
+			"hint": "When is a mistake quickest to fix?",
+			"choices": [
+				"fix the plan before writing code",
+				"write the code anyway",
+				"delete the gem",
+				"give up"
+			],
+			"explain": "Fix the plan now: it is quicker than fixing a finished program."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.plan_route",
+			"level": 1
+		},
+		{
+			"gen": "g4a.plan_route",
+			"level": 2
+		},
+		{
+			"gen": "g4a.plan_route",
+			"level": 3
+		}
+	],
+	"play": {
+		"hook": "The robot has to collect the gems and reach the flag. Plan its program first!",
+		"game": "generic",
+		"params": {
+			"costume": "path"
+		},
+		"coach": [
+			"Programmers plan first: what should the program do?",
+			"A diamond in a flowchart asks a yes or no question.",
+			"Split a big job into smaller parts.",
+			"Test your plan with a dry run, step by step."
+		],
+		"world_task": "Draw a flowchart for building a small house, with a question like Is the roof done? Then build it by your plan."
+	}
+}

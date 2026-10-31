@@ -1,0 +1,333 @@
+{
+	"id": "g5.design_tech.design_on_screen",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a net? (A flat shape that folds up into a 3D shape.) Designers draw flat plans of 3D things all the time. Today: designing on a computer."
+		},
+		{
+			"text": "CAD, computer-aided design, means drawing a design on a computer. It is quick to change, copy and measure exactly. You can turn it round in 3D, and the file can be shared with a whole team."
+		},
+		{
+			"text": "A blueprint shows a design from different views: the plan, from above; the front view; and the side view. Here is a model of blocks: its front is at the bottom left.",
+			"picture": {
+				"kind": "views",
+				"heights": [
+					"210",
+					"121",
+					"311"
+				],
+				"show": "model"
+			}
+		},
+		{
+			"text": "This is its plan, seen from above. Each number tells how many blocks are stacked on that square.",
+			"picture": {
+				"kind": "views",
+				"heights": [
+					"210",
+					"121",
+					"311"
+				],
+				"show": "plan",
+				"numbers": true,
+				"label": true
+			}
+		},
+		{
+			"text": "The front view shows the tallest stack in each column, as you see it from the front. The side view does the same from the side.",
+			"picture": {
+				"kind": "views",
+				"heights": [
+					"210",
+					"121",
+					"311"
+				],
+				"show": "front",
+				"label": true
+			}
+		},
+		{
+			"text": "Blueprints are drawn to scale, with every size marked. At a scale of 1:50, each 1 cm on the drawing is 50 cm for real. So a 4 cm wall is 4 × 50 = 200 cm, which is 2 m."
+		},
+		{
+			"text": "From screen to thing: a 3D printer builds a design layer by layer, and a laser cutter cuts shapes from flat sheets. That is CAM, computer-aided manufacture."
+		},
+		{
+			"text": "Try it in the world: draw a plan of a house on squared paper, with the number of blocks in each stack. Then build it and check each view. For real: try a free 3D design program with a grown-up."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does CAD stand for?",
+			"answer": 0,
+			"hint": "The lesson's second card says it.",
+			"choices": [
+				"computer-aided design",
+				"cut and draw",
+				"cars and drawings",
+				"colour and design"
+			],
+			"explain": "CAD is computer-aided design: drawing designs on a computer."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A plan shows a building from above.",
+			"answer": true,
+			"hint": "Where would a bird see a building from?",
+			"explain": "True: a plan is the view from above."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each view to where you look from.",
+			"items": [
+				"plan",
+				"front view",
+				"side view"
+			],
+			"matches": [
+				"from the front",
+				"from the side",
+				"from above"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "The names give it away.",
+			"explain": "Plan: above. Front view: front. Side view: side."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is an advantage of designing on a computer?",
+			"answer": 0,
+			"hint": "What is hard to do with paper and a rubber?",
+			"choices": [
+				"it is quick to change and to measure",
+				"it never needs checking",
+				"it is always free",
+				"you do not need ideas"
+			],
+			"explain": "A design on screen is quick to change, copy and measure exactly."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "This plan shows how many blocks are stacked on each square. How many blocks are in the model?",
+			"answer": "7",
+			"hint": "Add up the numbers on the plan.",
+			"explain": "2 + 1 + 1 + 3 = 7 blocks.",
+			"picture": {
+				"kind": "views",
+				"heights": [
+					"21",
+					"13"
+				],
+				"show": "plan",
+				"numbers": true,
+				"label": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does a 3D printer do?",
+			"answer": 0,
+			"hint": "It makes a solid thing, not a flat picture.",
+			"choices": [
+				"builds a design layer by layer",
+				"prints on paper only",
+				"cuts wood",
+				"paints walls"
+			],
+			"explain": "It builds a design up, one thin layer at a time."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "At a scale of 1:10, 1 cm on the drawing is 10 cm for real.",
+			"answer": true,
+			"hint": "What does the second number in a scale tell you?",
+			"explain": "True: 1:10 means every 1 cm on the drawing stands for 10 cm."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What kind of view is this?",
+			"answer": 0,
+			"hint": "Numbers on squares tell how many blocks are stacked there.",
+			"choices": [
+				"a plan, from above",
+				"a front view",
+				"a side view",
+				"a 3D drawing"
+			],
+			"explain": "A plan: the view from above, with each stack's number of blocks.",
+			"picture": {
+				"kind": "views",
+				"heights": [
+					"120",
+					"231"
+				],
+				"show": "plan",
+				"numbers": true
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put designing on screen in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need to know what it must do before you draw.",
+			"items": [
+				"draw the design in CAD",
+				"print or make a model",
+				"write the design criteria",
+				"check the views and sizes",
+				"test it against the criteria"
+			],
+			"explain": "Criteria first, then the CAD drawing, check it, make a model, and test it against the criteria."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "CAD (designing) or CAM (making)?",
+			"groups": [
+				"CAD: designing",
+				"CAM: making"
+			],
+			"items": [
+				"drawing on screen",
+				"3D printing",
+				"turning the model round",
+				"laser cutting",
+				"measuring sizes on screen",
+				"a machine cutting parts"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is a machine making something, or is someone drawing it?",
+			"explain": "CAD: drawing, turning, measuring on screen. CAM: 3D printing, laser cutting, machines cutting parts."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "At a scale of 1:20, a table is 6 cm long on the drawing. How long is the real table, in cm?",
+			"answer": "120",
+			"hint": "Each 1 cm on the drawing is 20 cm for real.",
+			"explain": "6 × 20 = 120 cm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A shed is 2 m long. How long is it drawn at a scale of 1:50?",
+			"answer": 0,
+			"hint": "Change 2 m into centimetres, then share by 50.",
+			"choices": [
+				"4 cm",
+				"40 cm",
+				"2 cm",
+				"100 cm"
+			],
+			"explain": "2 m is 200 cm, and 200 ÷ 50 = 4 cm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a blueprint show several views?",
+			"answer": 0,
+			"hint": "Can you see the back and the top of a house from the front?",
+			"choices": [
+				"one view cannot show every side and size",
+				"it looks nicer",
+				"the printer needs it",
+				"to use more paper"
+			],
+			"explain": "No single view shows every side and size, so a blueprint shows several."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A laser cutter builds things up layer by layer.",
+			"answer": false,
+			"hint": "Which machine cuts, and which one builds?",
+			"explain": "False: a laser cutter cuts shapes from flat sheets. A 3D printer builds layer by layer."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many blocks are in the model this plan shows?",
+			"answer": "9",
+			"hint": "Add up every number on the plan.",
+			"explain": "2 + 3 + 1 + 1 + 2 = 9 blocks.",
+			"picture": {
+				"kind": "views",
+				"heights": [
+					"23",
+					"11",
+					"02"
+				],
+				"show": "plan",
+				"numbers": true,
+				"label": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your CAD drawing shows the door is 1 cm too narrow for the criteria. What is the quickest fix?",
+			"answer": 0,
+			"hint": "What is CAD good at?",
+			"choices": [
+				"change the size on screen and check again",
+				"build it and see",
+				"start again on paper",
+				"ignore it"
+			],
+			"explain": "Change it on screen and check again: that is why designers use CAD."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.block_views",
+			"level": 1
+		},
+		{
+			"gen": "g5w.block_views",
+			"level": 2
+		},
+		{
+			"gen": "g5w.block_views",
+			"level": 3
+		},
+		{
+			"gen": "g5w.scale_drawing",
+			"level": 1
+		},
+		{
+			"gen": "g5w.scale_drawing",
+			"level": 2
+		},
+		{
+			"gen": "g5w.scale_drawing",
+			"level": 3
+		}
+	]
+}

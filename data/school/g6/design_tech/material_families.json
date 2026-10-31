@@ -1,0 +1,391 @@
+{
+	"id": "g6.design_tech.material_families",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you chose materials for a job. What is the difference between stiff and strong? (Stiff: it does not bend. Strong: it does not break.) Today: the families of materials."
+		},
+		{
+			"text": "Woods. Hardwoods, like oak and beech, come from broad-leaved trees and grow slowly. Softwoods, like pine, come from conifers and grow faster. Manufactured boards, like plywood and MDF, are made from wood.",
+			"picture": {
+				"kind": "material_swatch",
+				"samples": [
+					"oak",
+					"pine",
+					"plywood",
+					"mdf"
+				]
+			}
+		},
+		{
+			"text": "Metals. Ferrous metals contain iron: steel and cast iron are strong, magnetic and can rust. Non-ferrous metals have no iron: aluminium is light, and copper carries electricity well.",
+			"picture": {
+				"kind": "material_swatch",
+				"samples": [
+					"steel",
+					"aluminium",
+					"copper",
+					"brass"
+				]
+			}
+		},
+		{
+			"text": "An alloy is a metal mixed with other elements to make it better: steel is iron with a little carbon; brass is copper and zinc; bronze is copper and tin."
+		},
+		{
+			"text": "Plastics are mostly made from oil. Thermoplastics, like acrylic and polythene, soften when heated, so they can be reshaped and recycled. Thermosets, like melamine, set hard for good and heat will not soften them.",
+			"picture": {
+				"kind": "material_swatch",
+				"samples": [
+					"acrylic",
+					"polythene",
+					"melamine"
+				]
+			}
+		},
+		{
+			"text": "Composites join two or more materials to work better together: carbon fibre is fibres set in resin, light and very strong; concrete is cement, sand and stones; reinforced concrete adds steel bars.",
+			"picture": {
+				"kind": "material_swatch",
+				"samples": [
+					"carbon_fibre",
+					"concrete"
+				]
+			}
+		},
+		{
+			"text": "Choose by properties: strength, hardness, toughness (not snapping), flexibility, density, and how well heat or electricity passes through it. Think of the planet too: can it be reused or recycled?"
+		},
+		{
+			"text": "Try it in the world: build a workshop with a shelf for each family of materials, and a sample on each. For real: find a wood, a metal, a plastic and a composite at home, and test them with a magnet. Next: design movements."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which family is oak in?",
+			"answer": 0,
+			"hint": "Where does oak come from?",
+			"choices": [
+				"wood",
+				"metal",
+				"plastic",
+				"composite"
+			],
+			"explain": "Wood: oak is a hardwood from a broad-leaved tree.",
+			"picture": {
+				"kind": "material_swatch",
+				"samples": [
+					"oak"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Ferrous metals contain iron.",
+			"answer": true,
+			"hint": "The Latin word for iron is ferrum.",
+			"explain": "True: steel and cast iron are ferrous."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where do softwoods come from?",
+			"answer": 0,
+			"hint": "Think of pine trees.",
+			"choices": [
+				"conifers, with needles and cones",
+				"broad-leaved trees",
+				"oil",
+				"rocks"
+			],
+			"explain": "Conifers, like pine, spruce and larch."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Copper is used for electric wires. Why?",
+			"answer": 0,
+			"hint": "What must a wire let through?",
+			"choices": [
+				"it carries electricity well",
+				"it is magnetic",
+				"it rusts",
+				"it is a plastic"
+			],
+			"explain": "Copper is an excellent conductor of electricity.",
+			"picture": {
+				"kind": "material_swatch",
+				"samples": [
+					"copper"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Thermoplastic or thermoset?",
+			"groups": [
+				"thermoplastic",
+				"thermoset"
+			],
+			"items": [
+				"acrylic",
+				"melamine",
+				"polythene",
+				"epoxy resin",
+				"PVC"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Can heat soften it again?",
+			"explain": "Thermoplastics: acrylic, polythene, PVC. Thermosets: melamine, epoxy resin."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each alloy to what it is made from.",
+			"items": [
+				"steel",
+				"brass",
+				"bronze"
+			],
+			"matches": [
+				"copper and zinc",
+				"copper and tin",
+				"iron and carbon"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Two of them start with copper.",
+			"explain": "Steel: iron and carbon. Brass: copper and zinc. Bronze: copper and tin."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A magnet sticks to a metal. Which kind is it most likely to be?",
+			"answer": 0,
+			"hint": "Which metals contain iron?",
+			"choices": [
+				"ferrous",
+				"non-ferrous",
+				"a plastic",
+				"a composite"
+			],
+			"explain": "Ferrous: iron makes most of them magnetic."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which kind of wood is this?",
+			"answer": 0,
+			"hint": "Look at its edge: thin layers glued together.",
+			"choices": [
+				"a manufactured board",
+				"a hardwood",
+				"a softwood"
+			],
+			"explain": "Plywood: a manufactured board of thin layers glued with the grain crossing.",
+			"picture": {
+				"kind": "material_swatch",
+				"samples": [
+					"plywood"
+				],
+				"names": false
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Balsa is a hardwood, even though it is very soft and light.",
+			"answer": true,
+			"hint": "Hardwood and softwood are about the kind of tree, not how hard the wood is.",
+			"explain": "True: balsa comes from a broad-leaved tree, so it is a hardwood."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a composite?",
+			"answer": 0,
+			"hint": "Think of carbon fibre or concrete.",
+			"choices": [
+				"two or more materials joined to work better",
+				"a very hard metal",
+				"a type of plastic bag",
+				"a wood from conifers"
+			],
+			"explain": "Two or more materials joined together, like fibres in resin."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A block of pine is 10 cm × 5 cm × 4 cm and has a mass of 100 g. What is its density, in g/cm³?",
+			"answer": "0.5",
+			"hint": "Find the volume first, then density = mass ÷ volume.",
+			"explain": "10 × 5 × 4 = 200 cm³, and 100 ÷ 200 = 0.5 g/cm³: it floats."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A bike frame must be light and very strong. Which material fits best?",
+			"answer": 0,
+			"hint": "Which is light, strong and tough?",
+			"choices": [
+				"carbon fibre",
+				"cast iron",
+				"melamine",
+				"MDF"
+			],
+			"explain": "Carbon fibre: very strong for its mass."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is a kitchen worktop made from a thermoset?",
+			"answer": 0,
+			"hint": "What might you put down on a worktop?",
+			"choices": [
+				"heat will not soften it",
+				"it can be melted and reshaped",
+				"it is magnetic",
+				"it is a hardwood"
+			],
+			"explain": "Heat will not soften a thermoset, so a hot pan will not melt it."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Ferrous or non-ferrous?",
+			"groups": [
+				"ferrous",
+				"non-ferrous"
+			],
+			"items": [
+				"steel",
+				"aluminium",
+				"cast iron",
+				"copper",
+				"brass"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Does it contain iron?",
+			"explain": "Ferrous: steel, cast iron. Non-ferrous: aluminium, copper, brass."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Thermoplastics can be heated, reshaped and recycled.",
+			"answer": true,
+			"hint": "Thermo means heat; plastic means shapeable.",
+			"explain": "True: they soften when heated, so they can be moulded again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is aluminium used for drinks cans and aeroplanes?",
+			"answer": 0,
+			"hint": "What does a plane need to be?",
+			"choices": [
+				"it is light and does not rust",
+				"it is magnetic",
+				"it is the heaviest metal",
+				"it is a composite"
+			],
+			"explain": "Aluminium is light and does not rust."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the materials into their families.",
+			"groups": [
+				"wood",
+				"metal",
+				"plastic"
+			],
+			"items": [
+				"oak",
+				"aluminium",
+				"acrylic",
+				"plywood",
+				"brass",
+				"polythene"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Plywood is made from wood; brass is an alloy.",
+			"explain": "Wood: oak and plywood, a manufactured board. Metal: aluminium and brass, an alloy of copper and zinc. Plastic: acrylic and polythene."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each product to the best material for it.",
+			"items": [
+				"an electric wire",
+				"a drinks can",
+				"a worktop for hot pans",
+				"a racing bike frame"
+			],
+			"matches": [
+				"carbon fibre",
+				"copper",
+				"melamine",
+				"aluminium"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Which property matters most for each job?",
+			"explain": "Copper carries electricity well. Aluminium is light and does not rust, for cans. Melamine is a thermoset, so heat will not soften it. Carbon fibre is light and very strong, for a racing bike."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.material_family",
+			"level": 1
+		},
+		{
+			"gen": "g6w.material_family",
+			"level": 2
+		},
+		{
+			"gen": "g6w.material_family",
+			"level": 3
+		},
+		{
+			"gen": "g6w.density_float",
+			"level": 1
+		},
+		{
+			"gen": "g6w.density_float",
+			"level": 2
+		},
+		{
+			"gen": "g6w.density_float",
+			"level": 3
+		}
+	]
+}

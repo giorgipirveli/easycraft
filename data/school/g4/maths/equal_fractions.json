@@ -1,0 +1,223 @@
+{
+	"id": "g4.maths.equal_fractions",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met fractions of a set. What is 1/4 of 12? 3: 12 shared into 4 equal groups."
+		},
+		{
+			"text": "A fraction is part of a whole. 3/4 means the whole is cut into 4 equal parts and we take 3 of them.",
+			"picture": {
+				"kind": "bar",
+				"den": 4,
+				"num": 3
+			}
+		},
+		{
+			"text": "Different fractions can be the same amount. 1/2 of a wall is the same as 2/4 of it, and the same as 4/8.",
+			"picture": {
+				"kind": "bar",
+				"bars": [
+					{
+						"den": 2,
+						"num": 1
+					},
+					{
+						"den": 4,
+						"num": 2
+					},
+					{
+						"den": 8,
+						"num": 4
+					}
+				]
+			}
+		},
+		{
+			"text": "To make an equal fraction, multiply the top and the bottom by the same number: 2/3 = 8/12, because 2 × 4 = 8 and 3 × 4 = 12."
+		},
+		{
+			"text": "To compare fractions, make the bottoms the same, or compare them with 1/2. 3/8 is less than 1/2, which is 4/8. 5/6 is more than 1/2, which is 3/6."
+		},
+		{
+			"text": "Try it in the world: build a wall of 8 blocks and colour 4 of them. What fraction is coloured? 4/8, which is 1/2. Next: adding and subtracting fractions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "1/2 = ?/8",
+			"answer": "4",
+			"hint": "8 is 2 × 4: multiply the top by 4 too.",
+			"explain": "1/2 = 4/8"
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "2/3 is equal to 4/6.",
+			"answer": true,
+			"hint": "Multiply the top and the bottom of 2/3 by 2.",
+			"explain": "2/3 = 4/6",
+			"picture": {
+				"kind": "bar",
+				"bars": [
+					{
+						"den": 3,
+						"num": 2
+					},
+					{
+						"den": 6,
+						"num": 4
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is bigger: 3/8 or 5/8?",
+			"choices": [
+				"5/8",
+				"3/8",
+				"They are equal"
+			],
+			"answer": 0,
+			"hint": "The parts are the same size: more parts is bigger.",
+			"explain": "5 eighths are more than 3 eighths."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which fraction is equal to 3/4?",
+			"choices": [
+				"9/12",
+				"3/8",
+				"6/12",
+				"4/3"
+			],
+			"answer": 0,
+			"hint": "Multiply the top and the bottom of 3/4 by the same number.",
+			"explain": "3/4 = 9/12: both were multiplied by 3."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is bigger: 2/3 or 2/5?",
+			"choices": [
+				"2/3",
+				"2/5",
+				"They are equal"
+			],
+			"answer": 0,
+			"hint": "The same number of parts: thirds are bigger pieces than fifths.",
+			"explain": "Thirds are bigger than fifths, so 2 thirds are more than 2 fifths."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "5/10 = ?/100",
+			"answer": "50",
+			"hint": "10 × 10 = 100: multiply the top by 10 too.",
+			"explain": "5/10 = 50/100"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which fraction is less than 1/2?",
+			"choices": [
+				"5/12",
+				"4/8",
+				"5/6",
+				"3/5"
+			],
+			"answer": 0,
+			"hint": "Half of 12 is 6, half of 8 is 4, half of 6 is 3, half of 5 is 2 and a half.",
+			"explain": "5/12 is less than 6/12, which is 1/2."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "7/10 is bigger than 3/4.",
+			"answer": false,
+			"hint": "Make the bottoms the same: twentieths.",
+			"explain": "7/10 = 14/20 and 3/4 = 15/20, so 3/4 is bigger."
+		},
+		{
+			"type": "build",
+			"level": 1,
+			"prompt": "This wall has room for 8 blocks. Fill 1/2 of it.",
+			"board": {
+				"cols": 8,
+				"rows": 1,
+				"block": 9,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "fraction",
+				"num": 1,
+				"den": 2
+			},
+			"hint": "Half of the wall: split it into 2 equal parts.",
+			"explain": "1/2 of 8 blocks is 4 blocks."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4f.equivalent_missing",
+			"level": 1
+		},
+		{
+			"gen": "g4f.equivalent_missing",
+			"level": 2
+		},
+		{
+			"gen": "g4f.equivalent_missing",
+			"level": 3
+		},
+		{
+			"gen": "g4f.is_equivalent",
+			"level": 1
+		},
+		{
+			"gen": "g4f.is_equivalent",
+			"level": 2
+		},
+		{
+			"gen": "g4f.is_equivalent",
+			"level": 3
+		},
+		{
+			"gen": "g4f.compare_fractions",
+			"level": 1
+		},
+		{
+			"gen": "g4f.compare_fractions",
+			"level": 2
+		},
+		{
+			"gen": "g4f.compare_fractions",
+			"level": 3
+		},
+		{
+			"gen": "g4f.benchmark_half",
+			"level": 2
+		},
+		{
+			"gen": "g4f.benchmark_half",
+			"level": 3
+		},
+		{
+			"gen": "g4f.pick_picture",
+			"level": 1
+		},
+		{
+			"gen": "g4f.pick_picture",
+			"level": 2
+		},
+		{
+			"gen": "g4f.pick_picture",
+			"level": 3
+		}
+	]
+}

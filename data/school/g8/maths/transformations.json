@@ -1,0 +1,127 @@
+{
+	"id": "g8.maths.transformations",
+	"lesson": [
+		{
+			"text": "A translation slides a shape: (x, y) moved 3 right and 2 down becomes (x + 3, y − 2)."
+		},
+		{
+			"text": "A reflection flips it: across the x-axis (x, y) becomes (x, −y); across the y-axis it becomes (−x, y)."
+		},
+		{
+			"text": "A rotation turns it about a point: 180° about the origin, (x, y) becomes (−x, −y); 90° clockwise, it becomes (y, −x)."
+		},
+		{
+			"text": "A dilation enlarges or shrinks it from a centre: scale factor 2 from the origin, (x, y) becomes (2x, 2y). Translations, reflections and rotations keep size and shape; dilations keep only shape."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "(2, 3) is moved 4 right. Where does it land?",
+			"answer": 0,
+			"hint": "Right changes x.",
+			"choices": [
+				"(6, 3)",
+				"(2, 7)",
+				"(−2, 3)"
+			],
+			"explain": "(6, 3)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "(4, 5) is reflected across the x-axis. Where does it land?",
+			"answer": 0,
+			"hint": "y changes sign.",
+			"choices": [
+				"(4, −5)",
+				"(−4, 5)",
+				"(5, 4)"
+			],
+			"explain": "(4, −5)."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A translation keeps the size and shape.",
+			"answer": true,
+			"hint": "It only slides.",
+			"explain": "Yes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "(3, −2) is rotated 180° about the origin. Where does it land?",
+			"answer": 0,
+			"hint": "Both signs change.",
+			"choices": [
+				"(−3, 2)",
+				"(3, 2)",
+				"(−2, 3)"
+			],
+			"explain": "(−3, 2)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "(2, 5) is rotated 90° clockwise about the origin. Where does it land?",
+			"answer": 0,
+			"hint": "(x, y) becomes (y, −x).",
+			"choices": [
+				"(5, −2)",
+				"(−5, 2)",
+				"(−2, −5)"
+			],
+			"explain": "(5, −2)."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A dilation with scale factor 3 keeps the shape but changes the size.",
+			"answer": true,
+			"hint": "Enlargement…",
+			"explain": "Yes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "(1, 4) is dilated by a scale factor of 3 from the origin. Where does it land?",
+			"answer": 0,
+			"hint": "Multiply both.",
+			"choices": [
+				"(3, 12)",
+				"(4, 7)",
+				"(3, 4)"
+			],
+			"explain": "(3, 12)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which transformation does NOT keep the size?",
+			"answer": 0,
+			"hint": "Enlargement…",
+			"choices": [
+				"a dilation",
+				"a rotation",
+				"a reflection"
+			],
+			"explain": "A dilation changes size."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8g.transform",
+			"level": 1
+		},
+		{
+			"gen": "g8g.transform",
+			"level": 2
+		},
+		{
+			"gen": "g8g.transform",
+			"level": 3
+		}
+	]
+}

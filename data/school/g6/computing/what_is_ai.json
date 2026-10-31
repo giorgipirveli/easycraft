@@ -1,0 +1,516 @@
+{
+	"id": "g6.computing.what_is_ai",
+	"lesson": [
+		{
+			"text": "Quick memory: what does a computer follow? (A program: instructions written by people.) Today: computers that learn from examples."
+		},
+		{
+			"text": "Artificial intelligence (AI) is a computer doing things that seem clever. It might recognise a face, understand speech, translate words or play a game well."
+		},
+		{
+			"text": "Machine learning is one way. People do not write every rule. Instead they give the computer lots of examples with labels, like cat and not cat, and it finds the patterns itself.",
+			"picture": {
+				"kind": "ai_examples",
+				"examples": [
+					[
+						"circle",
+						"red",
+						"yes"
+					],
+					[
+						"circle",
+						"green",
+						"yes"
+					],
+					[
+						"square",
+						"blue",
+						"no"
+					],
+					[
+						"star",
+						"yellow",
+						"no"
+					]
+				],
+				"new": [
+					"circle",
+					"purple"
+				]
+			}
+		},
+		{
+			"text": "Then it guesses the label of something new. The more examples, and the more varied they are, the better its guesses, but it can still be wrong."
+		},
+		{
+			"text": "It only knows its examples. If it only ever saw orange cats, it might say a grey cat is not a cat. Narrow or unfair examples make unfair guesses; this is called bias."
+		},
+		{
+			"text": "AI is fast at some jobs: sorting photos, spotting patterns in weather, translating. It cannot feel or care, it does not truly understand, and it sometimes makes things up.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"AI can",
+						"AI cannot"
+					],
+					[
+						"sort photos fast",
+						"feel or care"
+					],
+					[
+						"spot patterns",
+						"truly understand"
+					],
+					[
+						"translate",
+						"always be right"
+					]
+				]
+			}
+		},
+		{
+			"text": "Worked example: every yes example is red, whatever its shape. So the computer learned that red means yes. It says yes to a red star, though it never saw a star in yes.",
+			"picture": {
+				"kind": "ai_examples",
+				"examples": [
+					[
+						"circle",
+						"red",
+						"yes"
+					],
+					[
+						"square",
+						"red",
+						"yes"
+					],
+					[
+						"triangle",
+						"red",
+						"yes"
+					],
+					[
+						"circle",
+						"blue",
+						"no"
+					],
+					[
+						"square",
+						"green",
+						"no"
+					],
+					[
+						"star",
+						"yellow",
+						"no"
+					]
+				],
+				"new": [
+					"star",
+					"red"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: when an app suggests a video or finishes your sentence, it learned from examples. Ask: could it be wrong? Check with a person. Next: in grade 7, from blocks to text."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How does machine learning learn?",
+			"answer": 0,
+			"hint": "Think of the cat and not-cat pictures.",
+			"choices": [
+				"from lots of labelled examples",
+				"by guessing with no examples",
+				"by feeling happy",
+				"from one rule someone typed"
+			],
+			"explain": "It finds patterns in lots of examples that have labels."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "An AI can never make a mistake.",
+			"answer": false,
+			"hint": "What if its examples were narrow?",
+			"explain": "False: it guesses from patterns, and guesses can be wrong."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What will the computer say about the new one?",
+			"answer": 0,
+			"hint": "What do all the yes examples share?",
+			"choices": [
+				"yes",
+				"no"
+			],
+			"explain": "Every yes example is a circle. The new one is a circle: yes.",
+			"picture": {
+				"kind": "ai_examples",
+				"examples": [
+					[
+						"circle",
+						"red",
+						"yes"
+					],
+					[
+						"circle",
+						"green",
+						"yes"
+					],
+					[
+						"circle",
+						"blue",
+						"yes"
+					],
+					[
+						"square",
+						"red",
+						"no"
+					],
+					[
+						"star",
+						"green",
+						"no"
+					],
+					[
+						"triangle",
+						"blue",
+						"no"
+					]
+				],
+				"new": [
+					"circle",
+					"yellow"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which job can AI help with?",
+			"answer": 0,
+			"hint": "AI is good at patterns in lots of data.",
+			"choices": [
+				"sorting thousands of photos",
+				"caring how you feel",
+				"being a real friend",
+				"knowing things it never learned"
+			],
+			"explain": "Sorting photos is pattern spotting; caring and friendship are not."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What will the computer say about the new one?",
+			"answer": 0,
+			"hint": "Find what every yes example has that no no example has.",
+			"choices": [
+				"no",
+				"yes"
+			],
+			"explain": "Every yes example is green. The new one is purple, so it says no.",
+			"picture": {
+				"kind": "ai_examples",
+				"examples": [
+					[
+						"circle",
+						"green",
+						"yes"
+					],
+					[
+						"star",
+						"green",
+						"yes"
+					],
+					[
+						"square",
+						"green",
+						"yes"
+					],
+					[
+						"circle",
+						"orange",
+						"no"
+					],
+					[
+						"star",
+						"blue",
+						"no"
+					],
+					[
+						"triangle",
+						"red",
+						"no"
+					]
+				],
+				"new": [
+					"star",
+					"purple"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The more varied the examples an AI learns from, the better its guesses usually are.",
+			"answer": true,
+			"hint": "Think of the orange cats.",
+			"explain": "True: varied examples teach it the real pattern, not an accident of the examples."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is bias in AI?",
+			"answer": 0,
+			"hint": "Think of the cats.",
+			"choices": [
+				"unfair guesses from narrow or unfair examples",
+				"a very fast computer",
+				"a kind of robot",
+				"a strong password"
+			],
+			"explain": "Bias is when narrow or unfair examples make the AI's guesses unfair."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: can AI do it, or not?",
+			"groups": [
+				"AI can",
+				"AI cannot"
+			],
+			"items": [
+				"spot patterns in lots of data",
+				"translate words",
+				"truly feel sad",
+				"care about you",
+				"recognise a face",
+				"know things it never learned"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Patterns yes; feelings and magic knowledge no.",
+			"explain": "AI can spot patterns, translate and recognise faces. It cannot feel, care, or know what it never learned."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put machine learning's steps in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "What must exist before it can learn?",
+			"items": [
+				"label them",
+				"it guesses labels for new things",
+				"collect lots of examples",
+				"the computer finds patterns",
+				"people check its guesses"
+			],
+			"explain": "Collect examples, label them, find patterns, guess, then check."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "An AI learned apples only from red apples. What might it wrongly say about a green apple?",
+			"answer": 0,
+			"hint": "What did every apple it saw have?",
+			"choices": [
+				"that it is not an apple",
+				"that it is a banana",
+				"nothing at all",
+				"that it is a red apple"
+			],
+			"explain": "It may have learned red means apple, so it could say a green apple is not an apple."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What will the computer say about the new one?",
+			"answer": 0,
+			"hint": "Is it the shape or the colour that every yes example shares?",
+			"choices": [
+				"yes",
+				"no"
+			],
+			"explain": "Every yes example is red, whatever its shape, so it learned red means yes: a red star gets yes.",
+			"picture": {
+				"kind": "ai_examples",
+				"examples": [
+					[
+						"circle",
+						"red",
+						"yes"
+					],
+					[
+						"square",
+						"red",
+						"yes"
+					],
+					[
+						"triangle",
+						"red",
+						"yes"
+					],
+					[
+						"circle",
+						"blue",
+						"no"
+					],
+					[
+						"square",
+						"green",
+						"no"
+					],
+					[
+						"star",
+						"yellow",
+						"no"
+					]
+				],
+				"new": [
+					"star",
+					"red"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If an AI writes something that sounds sure, it must be true.",
+			"answer": false,
+			"hint": "Can it make things up?",
+			"explain": "False: it can sound sure and still be wrong. Check it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How can people make an AI fairer?",
+			"answer": 0,
+			"hint": "Think about what caused the cat mistake.",
+			"choices": [
+				"give it varied examples of many kinds",
+				"give it fewer examples",
+				"never check its guesses",
+				"use examples of one kind only"
+			],
+			"explain": "Varied examples from many kinds of people and things, and checking."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An AI sorted 200 photos and got 180 right. What percentage did it get right?",
+			"answer": "90",
+			"hint": "Right out of 200: turn it into out of 100.",
+			"explain": "180 out of 200 is 90 out of 100: 90%."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is sensible with an AI chatbot?",
+			"answer": 0,
+			"hint": "It can be wrong, and it is not a person you know.",
+			"choices": [
+				"check what it says with a trusted source",
+				"tell it your address",
+				"believe it always",
+				"share your password so it can help"
+			],
+			"explain": "Check its answers, and never give it personal details."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A hidden pattern in the examples, like every yes photo being taken on a sunny day, can make an AI learn the wrong rule.",
+			"answer": true,
+			"hint": "It finds whatever the examples share.",
+			"explain": "True: it might learn sunny means yes instead of the real thing."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"artificial intelligence",
+				"machine learning",
+				"bias"
+			],
+			"matches": [
+				"unfair guesses, narrow examples",
+				"a computer doing clever things",
+				"patterns from labelled examples"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Bias is about what goes wrong when the examples are narrow.",
+			"explain": "AI is a computer doing things that seem clever; machine learning finds patterns in labelled examples; bias is unfair guessing from narrow examples."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: AI at work, or not?",
+			"groups": [
+				"AI",
+				"not AI"
+			],
+			"items": [
+				"an app that understands your voice",
+				"a light switch",
+				"a phone that sorts photos by face",
+				"a pencil",
+				"a translating app",
+				"a door key"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "AI does things that seem clever: recognising, understanding, translating.",
+			"explain": "AI: understanding a voice, recognising faces and translating, all learned from examples. Not AI: a switch, a pencil and a key just do one simple job."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An AI learned cats from 500 photos: 450 orange cats and 50 grey cats. What percentage of its cat photos were grey?",
+			"answer": "10",
+			"hint": "50 out of 500 is how many out of 100?",
+			"explain": "50 out of 500 is 10 out of 100: 10%. Only 1 photo in 10 showed a grey cat, so the AI may guess wrongly about grey cats. That is bias from narrow examples."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.ai_guess",
+			"level": 1
+		},
+		{
+			"gen": "g6c.ai_guess",
+			"level": 2
+		},
+		{
+			"gen": "g6c.ai_guess",
+			"level": 3
+		}
+	]
+}

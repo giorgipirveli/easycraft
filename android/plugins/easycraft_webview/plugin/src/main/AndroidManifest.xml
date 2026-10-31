@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- The Theater's player streams video. The game presets already ask for it. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <!-- A Godot v2 plugin: the "org.godotengine.plugin.v2." prefix plus the plugin's name,
+             pointing at its class. -->
+        <meta-data
+            android:name="org.godotengine.plugin.v2.${godotPluginName}"
+            android:value="${godotPluginPackageName}.EasyCraftWebView" />
+    </application>
+
+</manifest>

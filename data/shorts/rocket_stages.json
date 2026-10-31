@@ -1,0 +1,935 @@
+{
+	"id": "rocket_stages",
+	"title": "Why rockets have stages",
+	"topic": "rockets",
+	"link": {
+		"board": true
+	},
+	"scenes": [
+		{
+			"seconds": 8,
+			"background": "space",
+			"caption": "A trip to the Moon needs 15.3 km/s of speed, all added up.",
+			"say": "To fly to the Moon, a rocket must build up speed: 15.3 kilometres every second, all added up.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "sparkle"
+				},
+				{
+					"at": 1.4,
+					"effect": "ui_tick"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "earth",
+					"at": [
+						70,
+						380
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.1
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "moon",
+					"at": [
+						292,
+						110
+					],
+					"size": 60,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.4
+						},
+						{
+							"do": "pulse",
+							"at": 3.5
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						120,
+						320
+					],
+					"to": [
+						262,
+						140
+					],
+					"color": "yellow",
+					"width": 8,
+					"bend": 40,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 0.8,
+							"dur": 1.2
+						}
+					]
+				},
+				{
+					"kind": "count",
+					"from": 0,
+					"to": 15.3,
+					"decimals": 1,
+					"suffix": " km/s",
+					"at": [
+						200,
+						250
+					],
+					"size": 40,
+					"color": "lime",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						},
+						{
+							"do": "value",
+							"at": 1.4,
+							"dur": 2.0,
+							"to": 15.3
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9.5,
+			"background": "space",
+			"caption": "Fuel is heavy: a full tank is 100 t, an empty one only 6 t.",
+			"say": "Most of a rocket is fuel. A full tank weighs 100 tonnes; once the fuel has burnt, the empty tank weighs only 6.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 3.0,
+					"effect": "bubbles"
+				}
+			],
+			"actors": [
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						120,
+						240
+					],
+					"size": 120,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "thermometer",
+					"at": [
+						250,
+						250
+					],
+					"size": 170,
+					"value": 1,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.6
+						},
+						{
+							"do": "value",
+							"at": 3.0,
+							"dur": 3.0,
+							"to": 0.06,
+							"ease": "smooth"
+						}
+					]
+				},
+				{
+					"kind": "count",
+					"from": 100,
+					"to": 6,
+					"suffix": " t",
+					"at": [
+						120,
+						360
+					],
+					"size": 44,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						},
+						{
+							"do": "value",
+							"at": 3.0,
+							"dur": 3.0,
+							"to": 6,
+							"ease": "smooth"
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "FULL",
+					"at": [
+						120,
+						110
+					],
+					"size": 28,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						},
+						{
+							"do": "out",
+							"at": 5.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "EMPTY",
+					"at": [
+						120,
+						110
+					],
+					"size": 28,
+					"color": "white",
+					"box": "red",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 6.2
+						},
+						{
+							"do": "pulse",
+							"at": 7.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "sky",
+			"caption": "So rockets are built in stages, with a separator between them.",
+			"say": "So big rockets are built in stages, one on top of another, with a stage separator in between.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "thud"
+				},
+				{
+					"at": 2.4,
+					"effect": "thud"
+				},
+				{
+					"at": 4.4,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 200,
+					"h": 20,
+					"at": [
+						180,
+						428
+					],
+					"color": "grey",
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						180,
+						396
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.1,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						352
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.4,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						308
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.7,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "STAGE_SEPARATOR",
+					"at": [
+						180,
+						268
+					],
+					"size": 36,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.4
+						},
+						{
+							"do": "pulse",
+							"at": 5.2,
+							"times": 2
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "SPACE_ENGINE",
+					"at": [
+						180,
+						230
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 2.1,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						186
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 2.4,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "CREW_CAPSULE",
+					"at": [
+						180,
+						142
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 2.7,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "STAGE 1",
+					"at": [
+						286,
+						352
+					],
+					"size": 22,
+					"color": "white",
+					"box": "orange",
+					"moves": [
+						{
+							"do": "slide",
+							"at": 1.4,
+							"from": [
+								460,
+								352
+							]
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "STAGE 2",
+					"at": [
+						286,
+						186
+					],
+					"size": 22,
+					"color": "white",
+					"box": "purple",
+					"moves": [
+						{
+							"do": "slide",
+							"at": 3.4,
+							"from": [
+								460,
+								186
+							]
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "separator",
+					"at": [
+						72,
+						268
+					],
+					"size": 18,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"caption": "An empty stage drops away: the rest is lighter and goes faster.",
+			"say": "When stage one's tanks are empty, it drops away. What is left is much lighter, so it speeds up faster.",
+			"sounds": [
+				{
+					"at": 0.2,
+					"effect": "rocket_whoosh"
+				},
+				{
+					"at": 3.0,
+					"effect": "egg_crack"
+				},
+				{
+					"at": 3.4,
+					"effect": "whoosh"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						180,
+						428
+					],
+					"size": 44,
+					"rot": 180,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 2.6,
+							"to": [
+								180,
+								348
+							]
+						},
+						{
+							"do": "out",
+							"at": 2.8
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						180,
+						396
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 2.6,
+							"to": [
+								180,
+								316
+							]
+						},
+						{
+							"do": "move",
+							"at": 3.0,
+							"dur": 3.0,
+							"to": [
+								120,
+								700
+							],
+							"ease": "in"
+						},
+						{
+							"do": "spin",
+							"at": 3.0,
+							"dur": 3.0,
+							"turns": -0.4
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						352
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 2.6,
+							"to": [
+								180,
+								272
+							]
+						},
+						{
+							"do": "move",
+							"at": 3.0,
+							"dur": 3.0,
+							"to": [
+								120,
+								656
+							],
+							"ease": "in"
+						},
+						{
+							"do": "spin",
+							"at": 3.0,
+							"dur": 3.0,
+							"turns": -0.4
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						308
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 2.6,
+							"to": [
+								180,
+								228
+							]
+						},
+						{
+							"do": "move",
+							"at": 3.0,
+							"dur": 3.0,
+							"to": [
+								120,
+								612
+							],
+							"ease": "in"
+						},
+						{
+							"do": "spin",
+							"at": 3.0,
+							"dur": 3.0,
+							"turns": -0.4
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "STAGE_SEPARATOR",
+					"at": [
+						180,
+						268
+					],
+					"size": 36,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 2.6,
+							"to": [
+								180,
+								188
+							]
+						},
+						{
+							"do": "move",
+							"at": 3.0,
+							"dur": 3.0,
+							"to": [
+								130,
+								572
+							],
+							"ease": "in"
+						},
+						{
+							"do": "spin",
+							"at": 3.0,
+							"dur": 3.0,
+							"turns": 0.5
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						180,
+						182
+					],
+					"size": 44,
+					"rot": 180,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.2
+						},
+						{
+							"do": "move",
+							"at": 3.4,
+							"dur": 5.5,
+							"to": [
+								180,
+								152
+							],
+							"ease": "smooth"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "SPACE_ENGINE",
+					"at": [
+						180,
+						230
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 2.6,
+							"to": [
+								180,
+								150
+							]
+						},
+						{
+							"do": "move",
+							"at": 3.4,
+							"dur": 5.5,
+							"to": [
+								180,
+								120
+							],
+							"ease": "smooth"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						186
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 2.6,
+							"to": [
+								180,
+								106
+							]
+						},
+						{
+							"do": "move",
+							"at": 3.4,
+							"dur": 5.5,
+							"to": [
+								180,
+								76
+							],
+							"ease": "smooth"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "CREW_CAPSULE",
+					"at": [
+						180,
+						142
+					],
+					"size": 44,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 2.6,
+							"to": [
+								180,
+								62
+							]
+						},
+						{
+							"do": "move",
+							"at": 3.4,
+							"dur": 5.5,
+							"to": [
+								180,
+								32
+							],
+							"ease": "smooth"
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "LIGHTER!",
+					"at": [
+						262,
+						380
+					],
+					"size": 32,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.0
+						},
+						{
+							"do": "pulse",
+							"at": 5.0,
+							"times": 2
+						}
+					]
+				},
+				{
+					"kind": "line",
+					"from": [
+						140,
+						190
+					],
+					"to": [
+						140,
+						330
+					],
+					"color": "white",
+					"width": 4,
+					"alpha": 0.8,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 5.2,
+							"dur": 0.5
+						},
+						{
+							"do": "fade",
+							"at": 8.4,
+							"to": 0
+						}
+					]
+				},
+				{
+					"kind": "line",
+					"from": [
+						170,
+						190
+					],
+					"to": [
+						170,
+						330
+					],
+					"color": "white",
+					"width": 4,
+					"alpha": 0.8,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 5.45,
+							"dur": 0.5
+						},
+						{
+							"do": "fade",
+							"at": 8.4,
+							"to": 0
+						}
+					]
+				},
+				{
+					"kind": "line",
+					"from": [
+						200,
+						190
+					],
+					"to": [
+						200,
+						330
+					],
+					"color": "white",
+					"width": 4,
+					"alpha": 0.8,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 5.7,
+							"dur": 0.5
+						},
+						{
+							"do": "fade",
+							"at": 8.4,
+							"to": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 7,
+			"background": "sky",
+			"caption": "Real rockets have two or three stages. How many would yours have?",
+			"say": "Real rockets have two or three stages. How many would you give yours?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "chime"
+				}
+			],
+			"actors": [
+				{
+					"kind": "character",
+					"who": "hoot",
+					"at": [
+						110,
+						300
+					],
+					"size": 150,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.1,
+							"from": [
+								-120,
+								300
+							]
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "1?",
+					"at": [
+						250,
+						130
+					],
+					"size": 40,
+					"color": "white",
+					"box": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "2?",
+					"at": [
+						250,
+						210
+					],
+					"size": 40,
+					"color": "white",
+					"box": "purple",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "3?",
+					"at": [
+						250,
+						290
+					],
+					"size": 40,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.8
+						},
+						{
+							"do": "bounce",
+							"at": 3.0
+						}
+					]
+				}
+			]
+		}
+	]
+}

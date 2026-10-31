@@ -1,0 +1,351 @@
+{
+	"id": "g8.art.modern_movements",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, what did abstract artists such as Wassily Kandinsky paint? (Shapes and colours only, not things you can recognise.) Today: the big ideas of modern art movements."
+		},
+		{
+			"text": "From about 1900, artists asked: must a painting copy what the eye sees? Each new answer became a movement, a group sharing an idea. Fauvism, in 1905, used wild, bright colour, led by Henri Matisse (1869-1954).",
+			"picture": {
+				"kind": "movement_piece",
+				"style": "fauve"
+			}
+		},
+		{
+			"text": "Cubism, from about 1907, showed a thing from many sides at once, broken into flat facets. Pablo Picasso (1881-1973) and Georges Braque (1882-1963) began it.",
+			"picture": {
+				"kind": "movement_piece",
+				"style": "cubist"
+			}
+		},
+		{
+			"text": "Surrealism, from 1924, painted dreams: things that could never happen. Salvador Dali (1904-1989) painted melting clocks in 1931. René Magritte (1898-1967) painted puzzling everyday things.",
+			"picture": {
+				"kind": "movement_piece",
+				"style": "surreal"
+			}
+		},
+		{
+			"text": "Pop Art, in the 1950s and 1960s, took its pictures from adverts, comics and shop shelves. Andy Warhol (1928-1987) painted rows of soup cans. Roy Lichtenstein (1923-1997) painted comic dots.",
+			"picture": {
+				"kind": "movement_piece",
+				"style": "pop"
+			}
+		},
+		{
+			"text": "Modern art grew all over the world. In Brazil, Tarsila do Amaral (1886-1973) painted Abaporu in 1928. In India, Amrita Sher-Gil (1913-1941) joined Indian and European ways of painting.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1900,
+				"to": 1960,
+				"step": 10,
+				"events": [
+					[
+						1905,
+						"Fauvism"
+					],
+					[
+						1907,
+						"Cubism"
+					],
+					[
+						1924,
+						"Surrealism"
+					],
+					[
+						1928,
+						"Abaporu"
+					],
+					[
+						1956,
+						"Pop Art"
+					]
+				]
+			}
+		},
+		{
+			"text": "Worked example: to name a movement, ask what the artist changed: the colour (Fauvism), the view (Cubism), reality (Surrealism) or the subject (Pop Art). Then look for that change in the picture."
+		},
+		{
+			"text": "Try it in the world: draw one cup four ways: in wild colours, from several sides at once, in a dream, and repeated like an advert. Next: art and new technology."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which movement is this?",
+			"choices": [
+				"Cubism",
+				"Pop Art",
+				"Surrealism",
+				"Fauvism"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "movement_piece",
+				"style": "cubist"
+			},
+			"hint": "Look for one thing seen from many sides at once.",
+			"explain": "Flat, broken facets showing a guitar from several sides at once: Cubism."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which movement is this?",
+			"choices": [
+				"Pop Art",
+				"Cubism",
+				"Surrealism",
+				"Fauvism"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "movement_piece",
+				"style": "pop"
+			},
+			"hint": "Where might you have seen these tins before?",
+			"explain": "Bright flat colours, comic dots and a shop product repeated: Pop Art."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each movement to its big idea.",
+			"items": [
+				"Fauvism",
+				"Cubism",
+				"Surrealism",
+				"Pop Art"
+			],
+			"matches": [
+				"many sides at once",
+				"dreams and the impossible",
+				"adverts, comics, shops",
+				"wild, bright colour"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Ask what each movement changed.",
+			"explain": "Fauvism changed colour, Cubism the view, Surrealism reality and Pop Art the subject."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Surrealist artists painted dreams and things that could never happen.",
+			"answer": true,
+			"hint": "Remember the melting clocks.",
+			"explain": "True: Surrealism painted dreams, such as Dali's melting clocks."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Cubism began in about 1907 and Pop Art in about 1956. How many years apart is that?",
+			"answer": "49",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1956 − 1907 = 49 years."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which movement is this?",
+			"choices": [
+				"Fauvism",
+				"Cubism",
+				"Pop Art",
+				"Surrealism"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "movement_piece",
+				"style": "fauve"
+			},
+			"hint": "Are the trees and hills their real colours?",
+			"explain": "Purple hills, red trunks and a green sky: wild colour, Fauvism."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the movements in time order.",
+			"items": [
+				"Pop Art",
+				"Surrealism",
+				"Cubism",
+				"Fauvism"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Fauvism came first, in 1905.",
+			"explain": "Fauvism (1905), Cubism (about 1907), Surrealism (1924), Pop Art (the 1950s)."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each artist to a movement.",
+			"items": [
+				"Pablo Picasso",
+				"Salvador Dali",
+				"Andy Warhol",
+				"Henri Matisse"
+			],
+			"matches": [
+				"Surrealism",
+				"Pop Art",
+				"Fauvism",
+				"Cubism"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of each one's famous pictures.",
+			"explain": "Picasso began Cubism, Dali painted melting clocks, Warhol soup cans and Matisse wild colour."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What makes this picture Surrealist?",
+			"choices": [
+				"a clock melting, as in a dream",
+				"it shows many sides at once",
+				"it copies an advert",
+				"its colours are wild"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "movement_piece",
+				"style": "surreal"
+			},
+			"hint": "Could this happen in real life?",
+			"explain": "A clock cannot melt over a branch: it is a dream picture, Surrealism."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Cubism or Pop Art?",
+			"groups": [
+				"Cubism",
+				"Pop Art"
+			],
+			"items": [
+				"facets and many viewpoints",
+				"comic-book dots",
+				"shop products repeated",
+				"browns and greys in broken shapes",
+				"bright, flat colours"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it about how we see, or about everyday images?",
+			"explain": "Facets, viewpoints and browns are Cubist; comic dots, shop products and bright flat colour are Pop Art."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Pop Art took its pictures from adverts, comics and shop shelves.",
+			"answer": true,
+			"hint": "Think of the soup cans.",
+			"explain": "True: Pop Art used everyday images, such as products and comics."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An artist paints a guitar's front and side in one picture, in brown facets. Which movement?",
+			"choices": [
+				"Cubism",
+				"Fauvism",
+				"Pop Art",
+				"Impressionism"
+			],
+			"answer": 0,
+			"hint": "What has changed: the colour, the view or the subject?",
+			"explain": "Front and side at once, in facets, changes the view: Cubism."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Salvador Dali (1904-1989) painted melting clocks in 1931. How old was he at the end of that year?",
+			"answer": "27",
+			"hint": "Take the year he was born from 1931.",
+			"explain": "1931 − 1904 = 27 years old."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tarsila do Amaral painted Abaporu in 1928. Which country's modern art was she part of?",
+			"choices": [
+				"Brazil",
+				"India",
+				"France",
+				"Spain"
+			],
+			"answer": 0,
+			"hint": "Remember where modern art grew beyond Europe.",
+			"explain": "Tarsila do Amaral was a leader of Brazil's modern art; Amrita Sher-Gil worked in India."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "What did each change: the colour, the view or reality?",
+			"groups": [
+				"colour",
+				"the view",
+				"reality"
+			],
+			"items": [
+				"Fauvism",
+				"Cubism",
+				"Surrealism",
+				"red trees and a green sky",
+				"a face from the front and side",
+				"a rock floating in the sky"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Ask what is different from real life in each one.",
+			"explain": "Fauvism and red trees change colour; Cubism and two views of a face change the view; Surrealism and a floating rock change reality."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Impressionism came after Cubism.",
+			"answer": false,
+			"hint": "Compare the 1870s with 1907.",
+			"explain": "False: Impressionism began in the 1870s, Cubism in about 1907."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.artist_movement",
+			"level": 3
+		},
+		{
+			"gen": "g8c.art_order",
+			"level": 2
+		},
+		{
+			"gen": "g8c.art_order",
+			"level": 3
+		}
+	]
+}

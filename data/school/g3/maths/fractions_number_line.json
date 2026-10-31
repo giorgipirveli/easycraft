@@ -1,0 +1,358 @@
+{
+	"id": "g3.maths.fractions_number_line",
+	"lesson": [
+		{
+			"text": "Quick memory: 1/4 is one of 4 equal parts of a whole. How many quarters make the whole? 4 quarters: 4/4.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "rectangle",
+				"parts": 4,
+				"shade": 4
+			}
+		},
+		{
+			"text": "A number line can be cut into equal parts too. From 0 to 1, make 4 equal jumps. Each jump is 1/4. The marks are 1/4, 2/4 and 3/4, and 4/4 is at 1.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "1",
+				"step": "1/4",
+				"labels": "all"
+			}
+		},
+		{
+			"text": "To place 2/3, cut the line from 0 to 1 into 3 equal parts: the bottom number. Then count 2 jumps from 0: the top number.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "1",
+				"step": "1/3",
+				"labels": "all",
+				"dot": "2/3"
+			}
+		},
+		{
+			"text": "Past 1, keep counting: 5/4 is 5 jumps of 1/4. It is one whole and one more quarter.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "2",
+				"step": "1/4",
+				"labels": "all",
+				"dot": "5/4"
+			}
+		},
+		{
+			"text": "Whole numbers are fractions too. 4/4 = 1 and 8/4 = 2. A whole cut into just 1 part gives 3 = 3/1.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "2",
+				"step": "1/4",
+				"labels": "all"
+			}
+		},
+		{
+			"text": "With the same bottom number, more jumps go further along the line, so the fraction is bigger: 3/8 < 5/8. Next: fractions that are equal, like 1/2 = 2/4.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "1",
+				"step": "1/8",
+				"labels": "ends",
+				"marks": [
+					"3/8",
+					"5/8"
+				]
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What fraction is at the dot?",
+			"answer": "1/2",
+			"hint": "The line from 0 to 1 is cut into 2 equal parts.",
+			"explain": "The dot is 1 jump of 1/2 from 0: 1/2.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "1",
+				"step": "1/2",
+				"labels": "ends",
+				"dot": "1/2"
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What fraction is at the dot?",
+			"answer": "3/4",
+			"hint": "Count the jumps from 0 to the dot. Each jump is 1/4.",
+			"explain": "3 jumps of 1/4: 3/4.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "1",
+				"step": "1/4",
+				"labels": "ends",
+				"dot": "3/4"
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "4/4 = ?",
+			"answer": "1",
+			"hint": "4 quarters is all of the whole.",
+			"explain": "4/4 is the whole thing: 4/4 = 1."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The line from 0 to 1 is cut into 3 equal parts. How long is each part?",
+			"choices": [
+				"1/3",
+				"1/2",
+				"3",
+				"1/4"
+			],
+			"answer": 0,
+			"hint": "The number of equal parts is the bottom number.",
+			"explain": "3 equal parts: each is 1/3."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "On a line from 0 to 1 cut into 5 equal jumps, 5/5 is at 1.",
+			"answer": true,
+			"hint": "How many fifths make the whole?",
+			"explain": "Yes: 5 jumps of 1/5 reach 1."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Pip hops along the line from 0 in jumps of 1/3. Where is Pip after 2 jumps?",
+			"answer": "2/3",
+			"hint": "Each jump is 1/3. Count 2 of them.",
+			"explain": "2 jumps of 1/3 make 2/3.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "1",
+				"step": "1/3",
+				"labels": "ends"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What fraction is at the dot?",
+			"answer": "5/6",
+			"hint": "Count the jumps. Each jump is 1/6.",
+			"explain": "5 jumps of 1/6: 5/6.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "1",
+				"step": "1/6",
+				"labels": "ends",
+				"dot": "5/6"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "6/3 = ?",
+			"answer": "2",
+			"hint": "3 thirds make one whole. How many wholes do 6 thirds make?",
+			"explain": "3/3 = 1, so 6/3 = 2."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these fractions in order, smallest first.",
+			"items": [
+				"8/8",
+				"6/8",
+				"3/8",
+				"2/8"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "They are all eighths. The more eighths, the bigger.",
+			"explain": "2/8, 3/8, 6/8, then 8/8, which is 1."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which fraction is at 1 on the number line?",
+			"choices": [
+				"6/6",
+				"1/6",
+				"6/1",
+				"0/6"
+			],
+			"answer": 0,
+			"hint": "One whole is all of its parts.",
+			"explain": "6/6 is all 6 sixths: 1. 6/1 is 6 wholes."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "5/3 is between 1 and 2.",
+			"answer": true,
+			"hint": "3/3 is 1 and 6/3 is 2. Where is 5/3?",
+			"explain": "Yes: 3/3 < 5/3 < 6/3."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "5 = ?/1",
+			"answer": "5",
+			"hint": "Cut each whole into 1 part.",
+			"explain": "5 wholes are 5 parts of size 1: 5 = 5/1."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What fraction is at the dot?",
+			"answer": "7/4",
+			"hint": "Each whole is cut into 4. Count all the jumps from 0.",
+			"explain": "7 jumps of 1/4: 7/4, which is 1 whole and 3 quarters.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "2",
+				"step": "1/4",
+				"labels": "ends",
+				"dot": "7/4"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "3 = ?/4",
+			"answer": "12",
+			"hint": "Each whole is 4 quarters.",
+			"explain": "3 wholes are 3 × 4 = 12 quarters: 3 = 12/4."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many thirds are in 2 wholes?",
+			"answer": "6",
+			"hint": "One whole is 3 thirds.",
+			"explain": "2 × 3 = 6 thirds: 2 = 6/3."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Is 7/6 less than 1, equal to 1 or more than 1?",
+			"choices": [
+				"more than 1",
+				"less than 1",
+				"equal to 1"
+			],
+			"answer": 0,
+			"hint": "6/6 is one whole.",
+			"explain": "7/6 is one sixth more than 6/6, so it is more than 1."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these in order, smallest first.",
+			"items": [
+				"3/4",
+				"6/4",
+				"1/4",
+				"4/4",
+				"9/4"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "They are all quarters: count them.",
+			"explain": "1/4, 3/4, 4/4 (1), 6/4, 9/4."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "8/2 = 4",
+			"answer": true,
+			"hint": "2 halves make one whole.",
+			"explain": "8 halves make 4 wholes: 8/2 = 4."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3f.fraction_on_line",
+			"level": 1
+		},
+		{
+			"gen": "g3f.fraction_on_line",
+			"level": 2
+		},
+		{
+			"gen": "g3f.fraction_on_line",
+			"level": 3
+		},
+		{
+			"gen": "g3f.jumps",
+			"level": 1
+		},
+		{
+			"gen": "g3f.jumps",
+			"level": 2
+		},
+		{
+			"gen": "g3f.jumps",
+			"level": 3
+		},
+		{
+			"gen": "g3f.whole_as_fraction",
+			"level": 1
+		},
+		{
+			"gen": "g3f.whole_as_fraction",
+			"level": 2
+		},
+		{
+			"gen": "g3f.whole_as_fraction",
+			"level": 3
+		},
+		{
+			"gen": "g3f.order_on_line",
+			"level": 1
+		},
+		{
+			"gen": "g3f.order_on_line",
+			"level": 2
+		},
+		{
+			"gen": "g3f.order_on_line",
+			"level": 3
+		},
+		{
+			"gen": "g3f.compare_to_one",
+			"level": 1
+		},
+		{
+			"gen": "g3f.compare_to_one",
+			"level": 2
+		},
+		{
+			"gen": "g3f.compare_to_one",
+			"level": 3
+		}
+	]
+}

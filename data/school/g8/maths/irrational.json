@@ -1,0 +1,122 @@
+{
+	"id": "g8.maths.irrational",
+	"lesson": [
+		{
+			"text": "Rational numbers can be written as fractions: 3/4, −2, 0.5 and 0.333… (which is 1/3) are all rational. Their decimals end or repeat."
+		},
+		{
+			"text": "Irrational numbers can't be written as fractions. Their decimals go on forever without repeating: √2 = 1.41421…, π = 3.14159…"
+		},
+		{
+			"text": "The square root of a number that isn't a square number is irrational: √2, √3, √5, √10."
+		},
+		{
+			"text": "Estimate by squaring: 7² = 49 and 8² = 64, so √55 is between 7 and 8, a little closer to 7."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which number is irrational?",
+			"answer": 0,
+			"hint": "Its decimal never ends or repeats.",
+			"choices": [
+				"√3",
+				"1/2",
+				"0.25"
+			],
+			"explain": "√3 = 1.732… never repeats."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "0.333… is rational.",
+			"answer": true,
+			"hint": "It is 1/3.",
+			"explain": "Yes: 0.333… = 1/3."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which number is rational?",
+			"answer": 0,
+			"hint": "Is it a square number?",
+			"choices": [
+				"√25",
+				"√2",
+				"π"
+			],
+			"explain": "√25 = 5."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "√30 lies between which two whole numbers?",
+			"answer": 0,
+			"hint": "5² = 25, 6² = 36.",
+			"choices": [
+				"between 5 and 6",
+				"between 4 and 5",
+				"between 6 and 7"
+			],
+			"explain": "25 < 30 < 36."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "π can be written exactly as a fraction.",
+			"answer": false,
+			"hint": "3.14159…",
+			"explain": "No: 22/7 is only close; π is irrational."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the best estimate of √50?",
+			"answer": 0,
+			"hint": "7² = 49.",
+			"choices": [
+				"about 7.1",
+				"about 6.5",
+				"about 25"
+			],
+			"explain": "50 is just above 49, so a little over 7."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Put in order, smallest first: √10, 3, π",
+			"answer": 0,
+			"hint": "π is about 3.14; √10 is about 3.16.",
+			"choices": [
+				"3, π, √10",
+				"π, 3, √10",
+				"√10, π, 3"
+			],
+			"explain": "3 < 3.14… < 3.16…"
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Between which whole number and the next is √90? Give the smaller one.",
+			"answer": "9",
+			"hint": "9² = 81, 10² = 100.",
+			"explain": "81 < 90 < 100: between 9 and 10."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8n.irrational",
+			"level": 1
+		},
+		{
+			"gen": "g8n.irrational",
+			"level": 2
+		},
+		{
+			"gen": "g8n.irrational",
+			"level": 3
+		}
+	]
+}

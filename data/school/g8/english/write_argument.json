@@ -1,0 +1,388 @@
+{
+	"id": "g8.english.write_argument",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you planned an argument with a map. What sits at the top? (The claim: the point you want the reader to accept.) Today: argue like a pro, with counterclaims, sources and a strong ending."
+		},
+		{
+			"text": "A claim is the position you argue. A counterclaim is the strongest view against it. Name it fairly (“Some argue that…”), then answer it with a rebuttal (“However, …”). Answering the other side makes you more convincing.",
+			"picture": {
+				"kind": "argument_map",
+				"claim": "Our school should start a garden.",
+				"reasons": [
+					"Pupils learn about food."
+				],
+				"evidence": [
+					"80% of pupils would help."
+				],
+				"counter": "Some say it takes too much time.",
+				"rebuttal": "A rota needs only an hour a week.",
+				"titles": true
+			}
+		},
+		{
+			"text": "Signal words show whose view is whose. For the other side: “Some argue”, “Admittedly”, “It is true that”. For your answer: “However”, “Yet”, “Even so”. To add a reason: “Furthermore”.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"the other side",
+						"your answer"
+					],
+					[
+						"Some argue",
+						"However"
+					],
+					[
+						"Admittedly",
+						"Yet"
+					],
+					[
+						"It is true that",
+						"Even so"
+					]
+				]
+			}
+		},
+		{
+			"text": "Back your reasons with evidence from credible sources. Ask: who wrote it, and what do they know? Is it recent? Could they gain from what they say? Can another good source confirm it? Then name the source."
+		},
+		{
+			"text": "Logical reasoning links evidence to the claim. Avoid tricks: “everyone does it” is not a reason, and attacking a person instead of their point proves nothing."
+		},
+		{
+			"text": "Write in a formal style: no slang, precise words and a calm tone. “Loads of kids hate it” becomes “Many pupils are unhappy with it.”"
+		},
+		{
+			"text": "End with a strong conclusion. Say your claim again in new words and sum up your best reason. Show the counterclaim is answered. Finish with a call to action, or a thought that stays.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"your claim, new words",
+					"your best reason",
+					"the counter answered",
+					"a call to action"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: in Talk & Deal in the LIFE tab, pitch your bread cart to three investors. When one doubts you, answer the way a rebuttal answers a counterclaim: fairly, with evidence. Next: explain complex ideas."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a counterclaim?",
+			"choices": [
+				"the strongest view against your claim",
+				"your own main point",
+				"a fact that backs you up",
+				"your last sentence"
+			],
+			"answer": 0,
+			"hint": "Counter means against.",
+			"explain": "A counterclaim is the strongest view against yours; a strong argument names it fairly and answers it."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the signal words: bringing in the other side, or answering it?",
+			"groups": [
+				"the other side",
+				"your answer"
+			],
+			"items": [
+				"However",
+				"It is true that",
+				"Some argue",
+				"Yet",
+				"Even so",
+				"Admittedly"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Which words let the other view in, and which push back?",
+			"explain": "“Some argue”, “Admittedly” and “It is true that” bring in the other side; “However”, “Yet” and “Even so” answer it."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Answering a counterclaim makes an argument weaker.",
+			"answer": false,
+			"hint": "Does a reader trust someone who ignores the other side?",
+			"explain": "False: answering it shows you have thought the issue through, which makes you more convincing."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which source is most credible for how much rain fell last year?",
+			"choices": [
+				"the national weather service's records",
+				"a holiday advert",
+				"a comment under a video",
+				"a guess in class"
+			],
+			"answer": 0,
+			"hint": "Who measures rain carefully and gains nothing from the answer?",
+			"explain": "The national weather service measures rainfall carefully and has nothing to sell; the others may guess or gain."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part of an argument to its job.",
+			"items": [
+				"claim",
+				"counterclaim",
+				"rebuttal",
+				"conclusion"
+			],
+			"matches": [
+				"your answer to it",
+				"your strong ending",
+				"the view against yours",
+				"what you argue"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "Think about the order an argument goes in.",
+			"explain": "The claim is what you argue; the counterclaim is the view against it; the rebuttal answers it; the conclusion ends strongly."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Claim: our town needs more trees. Which is the best rebuttal to this counterclaim?",
+			"picture": {
+				"kind": "argument_map",
+				"claim": "Our town needs more trees.",
+				"reasons": [
+					"They cool hot streets."
+				],
+				"counter": "Trees cost money to plant.",
+				"rebuttal": "?",
+				"titles": true
+			},
+			"choices": [
+				"Yet trees cut cooling costs on hot days.",
+				"Trees are green.",
+				"Money is not important at all.",
+				"I just like trees."
+			],
+			"answer": 0,
+			"hint": "A rebuttal answers the doubt with a reason or evidence.",
+			"explain": "It answers the worry about money with a reason: trees save money by cooling streets. The others give no reason."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sentence is written in a formal style?",
+			"choices": [
+				"Many residents would welcome more trees.",
+				"Trees are well good, everyone loves them.",
+				"You'd be mad not to want trees!",
+				"Trees, like, make stuff nicer."
+			],
+			"answer": 0,
+			"hint": "Look for calm, precise words with no slang.",
+			"explain": "“Many residents would welcome more trees” is calm and exact; the others use slang or exaggerate."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the argument's paragraphs in a strong order.",
+			"items": [
+				"Give reasons with evidence",
+				"Introduce the claim",
+				"State the counterclaim",
+				"Conclude with a call to action",
+				"Rebut it"
+			],
+			"answer": [
+				1,
+				0,
+				2,
+				4,
+				3
+			],
+			"hint": "Set out your case before you bring in the other side.",
+			"explain": "The claim, then reasons and evidence, then the counterclaim, your rebuttal, and a conclusion with a call to action."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is a weak reason, not logical reasoning?",
+			"choices": [
+				"Everyone else is doing it.",
+				"A study found it saves water.",
+				"It costs less over ten years."
+			],
+			"answer": 0,
+			"hint": "Which one gives no evidence, only a crowd?",
+			"explain": "“Everyone else is doing it” gives no evidence about whether it is good: it is a crowd, not a reason."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Attacking the person who disagrees is a good way to answer a counterclaim.",
+			"answer": false,
+			"hint": "Does it say anything about their point?",
+			"explain": "False: attacking a person proves nothing about their point; a rebuttal answers the point with reasons."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the sentences: claim, counterclaim or rebuttal?",
+			"groups": [
+				"claim",
+				"counterclaim",
+				"rebuttal"
+			],
+			"items": [
+				"Our park needs a water fountain.",
+				"Even so, they would fit by the gate.",
+				"However, it would cut plastic bottle waste.",
+				"Bike racks would help our school.",
+				"Admittedly, racks take up room.",
+				"Some say fountains cost a lot to run."
+			],
+			"answer": [
+				0,
+				2,
+				2,
+				0,
+				1,
+				1
+			],
+			"hint": "Signal words help: “Some say” and “Admittedly” bring in the other side; “However” and “Even so” answer it.",
+			"explain": "The claims are the fountain and the bike racks. “Some say” and “Admittedly” start counterclaims; “However” and “Even so” start rebuttals."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the strongest conclusion for an argument that the library should open on Saturdays?",
+			"choices": [
+				"Open on Saturdays, and the whole town gains.",
+				"That is all I have to say.",
+				"Libraries have books.",
+				"Some people like Mondays."
+			],
+			"answer": 0,
+			"hint": "A strong ending says the claim again and calls for action.",
+			"explain": "It says the claim again in new words and calls for action; the others add nothing or wander off the point."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the sentences into a strong conclusion.",
+			"items": [
+				"Let us start digging this spring.",
+				"So a school garden is worth the effort.",
+				"A rota answers the worry about time.",
+				"Pupils would learn where food comes from."
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Say the claim again, then the best reason, then answer the doubt, then call for action.",
+			"explain": "First the claim in new words: a garden is worth it. Then the best reason: pupils learn about food. Then the counterclaim answered: a rota solves the time problem. Last, the call to action."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your source for a claim about gardening is a website that sells garden tools. What is the problem?",
+			"choices": [
+				"it may gain from what it claims",
+				"it has too many pictures",
+				"it is too recent",
+				"nothing at all"
+			],
+			"answer": 0,
+			"hint": "Ask: could the writer gain from what they say?",
+			"explain": "A seller may gain if you believe it. Check the claim in a source with nothing to sell, such as a university or a gardening society, before you use it as evidence."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A counterclaim should be stated fairly, in its strongest form.",
+			"answer": true,
+			"hint": "What happens if you answer only a weak version of the other side?",
+			"explain": "True: rebutting the strongest version convinces readers; answering a weak one looks like dodging the issue."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each signal word to its job.",
+			"items": [
+				"Admittedly,",
+				"However,",
+				"Furthermore,",
+				"Therefore,"
+			],
+			"matches": [
+				"draws a conclusion",
+				"brings in the other side",
+				"answers the other side",
+				"adds another reason"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Two are about the other side, one adds, and one ends.",
+			"explain": "“Admittedly” brings in the other side and “However” answers it; “Furthermore” adds a reason; “Therefore” draws a conclusion."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8k.argument_part",
+			"level": 1
+		},
+		{
+			"gen": "g8k.argument_part",
+			"level": 2
+		},
+		{
+			"gen": "g8k.argument_part",
+			"level": 3
+		},
+		{
+			"gen": "g8k.credible_source",
+			"level": 1
+		},
+		{
+			"gen": "g8k.credible_source",
+			"level": 2
+		},
+		{
+			"gen": "g8k.credible_source",
+			"level": 3
+		},
+		{
+			"gen": "g8k.formal_style",
+			"level": 1
+		},
+		{
+			"gen": "g8k.formal_style",
+			"level": 2
+		},
+		{
+			"gen": "g8k.formal_style",
+			"level": 3
+		}
+	]
+}

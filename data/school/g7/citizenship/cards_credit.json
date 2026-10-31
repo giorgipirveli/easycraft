@@ -1,0 +1,284 @@
+{
+	"id": "g7.citizenship.cards_credit",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met compound interest on savings. What happens to a debt that is left unpaid? (It grows with interest too.) Today: debit cards, credit cards, and the cost of borrowing."
+		},
+		{
+			"text": "A debit card spends money already in your bank account. The money leaves at once, so you can only spend what you have. An overdraft is the exception: a loan you agree with the bank. Many young people have a debit or prepaid card."
+		},
+		{
+			"text": "A credit card borrows money: the card company pays the shop, and you pay the company back later. Each month you get a statement. Pay the whole bill on time and it usually costs nothing extra; leave some unpaid, and interest is added.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"Debit card",
+						"Credit card"
+					],
+					[
+						"whose money",
+						"yours",
+						"borrowed"
+					],
+					[
+						"it leaves",
+						"at once",
+						"you pay later"
+					],
+					[
+						"interest",
+						"none",
+						"on unpaid bills"
+					]
+				]
+			}
+		},
+		{
+			"text": "Interest on credit cards is high, often 20% a year or more. Example: owe 500 gold at 24% a year and pay nothing. In a year the interest is 24% of 500, which is 120 gold, even before interest on the interest.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"owed now",
+						500
+					],
+					[
+						"a year on",
+						620
+					]
+				],
+				"step": 100,
+				"top": 700,
+				"name": "Gold owed at 24%"
+			}
+		},
+		{
+			"text": "The APR (annual percentage rate) shows the yearly cost of borrowing, so you can compare loans. Paying only the smallest amount allowed each month keeps the debt going for years, and costs far more in the end."
+		},
+		{
+			"text": "Lenders check your credit history: whether you paid back on time before. A good record makes borrowing easier and cheaper later. In the UK you must be 18 to have a credit card. 'Buy now, pay later' is borrowing too."
+		},
+		{
+			"text": "Keep cards safe: never share your PIN or card details, and cover the keypad. Check your statements and report a lost card at once. A real bank never asks for your PIN in a message. Only borrow what you are sure you can pay back."
+		},
+		{
+			"text": "Try it in the world: run a bank in your village. Lend a friend 100 gold at 10% a month. Track the debt on a sign each month it is not paid. When is it cheapest to pay back? Next: saving and investing."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a debit card spend?",
+			"answer": 0,
+			"hint": "Debit means taking from your own account.",
+			"choices": [
+				"money already in your account",
+				"borrowed money",
+				"the shop's money",
+				"gold from the bank's vault"
+			],
+			"explain": "Money already in your own bank account."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a credit card?",
+			"answer": 0,
+			"hint": "Who pays the shop first?",
+			"choices": [
+				"a way to borrow money to pay back later",
+				"a savings account",
+				"a coin",
+				"a gift card"
+			],
+			"explain": "A way to borrow: the card company pays, and you pay it back later."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A credit card bill paid in full and on time usually costs nothing extra.",
+			"answer": true,
+			"hint": "When is interest added?",
+			"explain": "True: interest is added only on money left unpaid."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who should know your PIN?",
+			"answer": 0,
+			"hint": "It is a secret number.",
+			"choices": [
+				"only you",
+				"your friends",
+				"the shop",
+				"anyone who asks"
+			],
+			"explain": "Only you: never share it, not even with a bank."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a card statement?",
+			"answer": 0,
+			"hint": "It comes every month.",
+			"choices": [
+				"a list of what you spent and owe",
+				"a law",
+				"a speech",
+				"a shop's receipt"
+			],
+			"explain": "A list of what you spent, what you paid and what you owe."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bram owes 300 gold on a card that charges 2% a month. How much interest is added this month if he pays nothing?",
+			"answer": "6",
+			"hint": "Find 1%, then double it.",
+			"explain": "1% of 300 is 3; 2% is 6 gold."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A card charges 20% a year. How much interest is that on 600 gold owed for a whole year?",
+			"answer": "120",
+			"hint": "Find 10%, then double it.",
+			"explain": "10% of 600 is 60; 20% is 120 gold."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: debit card or credit card?",
+			"groups": [
+				"debit card",
+				"credit card"
+			],
+			"items": [
+				"spends your own money",
+				"borrows money",
+				"can charge interest",
+				"takes money from your account at once",
+				"has a credit limit",
+				"you can only spend what you have"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Your own money, or borrowed money?",
+			"explain": "Debit: your own money, taken at once, only what you have. Credit: borrowing, interest, a limit."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"APR",
+				"PIN",
+				"overdraft",
+				"credit history"
+			],
+			"matches": [
+				"your record of paying back",
+				"the yearly cost of borrowing",
+				"your secret card number",
+				"a loan on your account"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "A cost, a secret, a loan and a record.",
+			"explain": "APR: yearly cost. PIN: secret number. Overdraft: a loan. Credit history: your record of paying back."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the APR for?",
+			"answer": 0,
+			"hint": "It is a percentage a year.",
+			"choices": [
+				"comparing what loans cost",
+				"measuring your height",
+				"counting coins",
+				"choosing a bank's colours"
+			],
+			"explain": "It shows the yearly cost of borrowing, so you can compare loans."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara owes 1,000 gold at 24% a year. After a year of paying nothing, how much does she owe, not counting interest on interest?",
+			"answer": "1240",
+			"hint": "Find the interest, then add it to what she owed.",
+			"explain": "24% of 1,000 is 240; 1,000 + 240 = 1,240 gold."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is paying only the smallest amount each month costly?",
+			"answer": 0,
+			"hint": "What happens to what is left unpaid?",
+			"choices": [
+				"the debt stays and keeps gathering interest",
+				"the bank pays it for you",
+				"it removes the interest",
+				"it is free"
+			],
+			"explain": "Most of the debt stays, and interest keeps being added on it, month after month."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "'Buy now, pay later' is not borrowing.",
+			"answer": false,
+			"hint": "Who pays the shop now, and who pays later?",
+			"explain": "False: it is borrowing, and missed payments can cost extra."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A message says your card is blocked and asks for your PIN. What do you do?",
+			"answer": 0,
+			"hint": "Does a real bank ever ask for your PIN in a message?",
+			"choices": [
+				"do not reply, and tell a grown-up",
+				"send your PIN quickly",
+				"click the link",
+				"share it with friends"
+			],
+			"explain": "Do not reply: a real bank never asks for your PIN. Tell a grown-up and call the bank on its real number."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi borrows 200 gold from her brother and pays back 20 gold a month, with no interest. How many months does it take?",
+			"answer": "10",
+			"hint": "Divide what she borrowed by what she pays each month.",
+			"explain": "200 ÷ 20 = 10 months."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.card_interest",
+			"level": 1
+		},
+		{
+			"gen": "g7h.card_interest",
+			"level": 2
+		},
+		{
+			"gen": "g7h.card_interest",
+			"level": 3
+		}
+	]
+}

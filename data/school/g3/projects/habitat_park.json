@@ -1,0 +1,275 @@
+{
+	"id": "g3.projects.habitat_park",
+	"lesson": [
+		{
+			"text": "Quick memory: what do all animals need to survive? (Food, water, shelter and space.) In this project you plan and build a park where three animals can live."
+		},
+		{
+			"text": "Step 1, research: choose three animals that can share one habitat, like rabbits, ducks and deer in a meadow with a pond. Find out what each one eats and where it shelters.",
+			"picture": {
+				"kind": "icon",
+				"animal": "rabbit",
+				"count": 1
+			}
+		},
+		{
+			"text": "Step 2, plan: draw the park on squared paper. Each square is 1 block, 1 m by 1 m. A park 6 m long and 4 m wide has an area of 6 × 4 = 24 squares.",
+			"picture": {
+				"kind": "rect",
+				"w": 6,
+				"h": 4,
+				"unit": "m"
+			}
+		},
+		{
+			"text": "The fence goes all the way round the edge: the perimeter. For a park 6 m by 4 m, it is 6 + 4 + 6 + 4 = 20 m of fence."
+		},
+		{
+			"text": "Step 3, build: a pond with reeds for the ducks, and long grass with a bank for the rabbits to dig burrows. Add trees for shade and shelter, and space to roam. No foxes: they hunt rabbits!"
+		},
+		{
+			"text": "Step 4, label: put up a sign for each animal, with its name, what it eats and one amazing fact. Write facts, which can be checked, not opinions."
+		},
+		{
+			"text": "Step 5, test and improve: walk round. Does every animal have food, water, shelter and space? Is the fence closed all the way round? Fix what is missing."
+		},
+		{
+			"text": "Try it in the world: build your habitat park. Fence blocks go round the outside, so a 6 by 4 park needs 20 + 4 = 24 blocks, one extra for each corner. Then give a friend a tour of your signs."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do all animals need to survive?",
+			"answer": 0,
+			"hint": "Think of what a rabbit needs every day.",
+			"choices": [
+				"food, water, shelter and space",
+				"toys and games",
+				"only food",
+				"a fence and a sign"
+			],
+			"explain": "Every animal needs food, water, shelter and space."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The perimeter is the distance all the way round the edge.",
+			"answer": true,
+			"hint": "Where does the fence go?",
+			"explain": "True: the perimeter is the length all the way round, where the fence goes."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A park is 5 m long and 3 m wide. What is its area in squares?",
+			"answer": "15",
+			"hint": "Count the squares in one row, then multiply by the number of rows.",
+			"explain": "3 rows of 5 squares: 3 × 5 = 15 squares.",
+			"picture": {
+				"kind": "rect",
+				"w": 5,
+				"h": 3,
+				"unit": "m"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sentence is a fact for a duck's sign?",
+			"answer": 0,
+			"hint": "A fact can be checked; an opinion is what someone thinks.",
+			"choices": [
+				"Ducks have waterproof feathers.",
+				"Ducks are the best animal.",
+				"Ducks are too noisy.",
+				"Everyone loves ducks."
+			],
+			"explain": "'Ducks have waterproof feathers' can be checked, so it is a fact. The others are opinions."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A park is 5 m long and 3 m wide. How many metres of fence go all the way round?",
+			"answer": "16",
+			"hint": "Add all four sides: long, short, long, short.",
+			"explain": "5 + 3 + 5 + 3 = 16 m of fence.",
+			"picture": {
+				"kind": "rect",
+				"w": 5,
+				"h": 3,
+				"unit": "m"
+			}
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Build a park with an area of 12 squares and a fence of 14 m all the way round.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 12,
+				"perimeter": 14
+			},
+			"hint": "List the rectangles with 12 squares: 1 by 12, 2 by 6, 3 by 4. Which has a fence of 14?",
+			"explain": "3 by 4: 3 × 4 = 12 squares, and 3 + 4 + 3 + 4 = 14 m of fence. (2 by 6 needs 16 m.)"
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Which animal needs each thing?",
+			"groups": [
+				"ducks",
+				"rabbits"
+			],
+			"items": [
+				"a pond to swim in",
+				"a bank to dig burrows",
+				"grass and clover to nibble",
+				"reeds to nest in",
+				"water plants to dabble for",
+				"a safe hole to hide in"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Ducks live on and by the water; rabbits live in burrows in the ground.",
+			"explain": "Ducks: a pond, reeds, water plants. Rabbits: a bank for burrows, grass and clover, a safe hole."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each animal to its shelter.",
+			"items": [
+				"rabbit",
+				"duck",
+				"fox",
+				"honeybee"
+			],
+			"matches": [
+				"a nest in the reeds",
+				"a den",
+				"a hive",
+				"a burrow"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Where does each one sleep and raise its young?",
+			"explain": "Rabbit: a burrow. Duck: a nest in the reeds. Fox: a den. Honeybee: a hive."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You have 20 m of fence. Which park uses exactly all of it?",
+			"answer": 0,
+			"hint": "Add up the four sides of each park.",
+			"choices": [
+				"6 m by 4 m",
+				"6 m by 5 m",
+				"7 m by 4 m",
+				"5 m by 4 m"
+			],
+			"explain": "6 by 4: 6 + 4 + 6 + 4 = 20 m. The others need 22 m, 22 m and 18 m."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A park is 7 m long and 3 m wide. How many metres of fence go round it?",
+			"answer": "20",
+			"hint": "Two long sides and two short sides.",
+			"explain": "7 + 3 + 7 + 3 = 20 m of fence."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why should the park not have foxes as well as rabbits?",
+			"answer": 0,
+			"hint": "Think of a food chain.",
+			"choices": [
+				"foxes hunt rabbits",
+				"foxes cannot swim",
+				"rabbits hunt foxes",
+				"foxes eat grass"
+			],
+			"explain": "Foxes hunt rabbits, so the rabbits would not be safe in the same park."
+		},
+		{
+			"type": "build",
+			"level": 3,
+			"prompt": "Build a park with an area of 18 squares and a fence of 18 m all the way round.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 18,
+				"perimeter": 18
+			},
+			"hint": "Rectangles with 18 squares: 1 by 18, 2 by 9, 3 by 6. Add up each one's sides.",
+			"explain": "3 by 6: 3 × 6 = 18 squares, and 3 + 6 + 3 + 6 = 18 m of fence."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the project's steps in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need to know what the animals need before you plan.",
+			"items": [
+				"plan it on squared paper",
+				"label it with signs",
+				"research the animals",
+				"build the park",
+				"test and improve it"
+			],
+			"explain": "Research, plan, build, label, then test and improve."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Two parks with the same area always need the same length of fence.",
+			"answer": false,
+			"hint": "Compare a park 3 by 4 with a park 2 by 6.",
+			"explain": "False: both have an area of 12, but 3 by 4 needs 14 m of fence and 2 by 6 needs 16 m."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3p.park_fence",
+			"level": 1
+		},
+		{
+			"gen": "g3p.park_fence",
+			"level": 2
+		},
+		{
+			"gen": "g3p.park_fence",
+			"level": 3
+		}
+	]
+}

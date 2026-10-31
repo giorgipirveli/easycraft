@@ -1,0 +1,393 @@
+{
+	"id": "g8.maths.expand_factorise",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you expanded 3(x + 4). What is it? (3x + 12: multiply each term inside the brackets by 3.) Today: multiply two brackets, and undo it by factorising."
+		},
+		{
+			"text": "Two brackets make a rectangle. (x + 3)(x + 2) is x + 3 long and x + 2 wide. Its four parts are x², 3x, 2x and 6. Add them: x² + 5x + 6.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"x",
+					"3"
+				],
+				"rows": [
+					"x",
+					"2"
+				],
+				"cells": [
+					[
+						"x²",
+						"3x"
+					],
+					[
+						"2x",
+						"6"
+					]
+				]
+			}
+		},
+		{
+			"text": "Every term in the first bracket multiplies every term in the second: four products. Watch the signs: (x + 4)(x − 1) = x² − x + 4x − 4, which is x² + 3x − 4.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"×",
+						"x",
+						"−1"
+					],
+					[
+						"x",
+						"x²",
+						"−x"
+					],
+					[
+						"4",
+						"4x",
+						"−4"
+					]
+				]
+			}
+		},
+		{
+			"text": "Two special products. (a + b)² = a² + 2ab + b², not just a² + b². So (x + 5)² = x² + 10x + 25. And (a + b)(a − b) = a² − b²: the middle terms cancel, so (x + 7)(x − 7) = x² − 49.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"x",
+					"5"
+				],
+				"rows": [
+					"x",
+					"5"
+				],
+				"cells": [
+					[
+						"x²",
+						"5x"
+					],
+					[
+						"5x",
+						"25"
+					]
+				]
+			}
+		},
+		{
+			"text": "Factorising is expanding backwards. Take out any common factor first: 4x² + 6x = 2x(2x + 3). For x² + 7x + 12, find two numbers that multiply to 12 and add to 7: 3 and 4. So it is (x + 3)(x + 4).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"pair for 12",
+						"1 and 12",
+						"2 and 6",
+						"3 and 4"
+					],
+					[
+						"their sum",
+						"13",
+						"8",
+						"7"
+					]
+				]
+			}
+		},
+		{
+			"text": "A difference of two squares factorises at once: x² − 81 = (x + 9)(x − 9). Always check by expanding again: (x + 9)(x − 9) gives x² − 9x + 9x − 81, which is x² − 81."
+		},
+		{
+			"text": "The graph of y = x² is a U-shaped curve called a parabola. It is symmetrical about the y-axis, and its lowest point, the vertex, is (0, 0). The graph of y = x² − 4 crosses the x-axis at −2 and 2.",
+			"picture": {
+				"kind": "parabola",
+				"c": -4,
+				"roots": true,
+				"vertex": true,
+				"axis": true
+			}
+		},
+		{
+			"text": "Try it in the world: build a square of 7 by 7 blocks, then take away a 3 by 3 corner. Count what is left: 49 − 9 = 40. Now check: (7 + 3)(7 − 3) is 10 × 4 = 40. Next: transformations."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Expand (x + 4)(x + 2). What is the number term (the term with no x)?",
+			"answer": "8",
+			"hint": "Multiply the two number terms in the brackets.",
+			"explain": "4 × 2 = 8, so (x + 4)(x + 2) = x² + 6x + 8."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "(x + 3)(x + 5) = x² + ?x + 15. What number goes in front of x?",
+			"answer": "8",
+			"hint": "The middle terms are x times 5 and 3 times x: add them.",
+			"explain": "x × 5 = 5x and 3 × x = 3x; 5x + 3x = 8x, so it is x² + 8x + 15."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is (x + 2)(x + 6) expanded?",
+			"choices": [
+				"x² + 8x + 12",
+				"x² + 12x + 8",
+				"x² + 8x + 8",
+				"x² + 12"
+			],
+			"answer": 0,
+			"hint": "Find all four products: x times x, x times 6, 2 times x and 2 times 6.",
+			"explain": "x² + 6x + 2x + 12 = x² + 8x + 12."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "(x + 3)² = x² + 9",
+			"answer": false,
+			"hint": "Write it as (x + 3)(x + 3) and find all four products.",
+			"explain": "False: (x + 3)(x + 3) = x² + 3x + 3x + 9, which is x² + 6x + 9. The middle term is easy to forget."
+		},
+		{
+			"type": "build",
+			"level": 1,
+			"prompt": "Let x = 3. Build a rectangle (x + 2) squares long and (x + 1) squares wide.",
+			"board": {
+				"cols": 12,
+				"rows": 10,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "array",
+				"rows": 4,
+				"cols": 5,
+				"any_turn": true
+			},
+			"hint": "Work out each side's length first, using x = 3.",
+			"explain": "x + 2 = 5 and x + 1 = 4: a 5 by 4 rectangle of 20 squares. Check with x² + 3x + 2: 9 + 9 + 2 = 20."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Expand (x + 6)(x − 2). What number goes in front of x?",
+			"answer": "4",
+			"hint": "Add the two middle products: 6 times x and x times −2.",
+			"explain": "x² − 2x + 6x − 12, which is x² + 4x − 12."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Expand (x − 3)(x − 5). What is the number term?",
+			"answer": "15",
+			"hint": "Two negative numbers multiplied make a positive number.",
+			"explain": "−3 × −5 = 15, so (x − 3)(x − 5) = x² − 8x + 15."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Factorise x² + 9x + 20.",
+			"choices": [
+				"(x + 4)(x + 5)",
+				"(x + 2)(x + 10)",
+				"(x + 9)(x + 20)",
+				"(x + 1)(x + 20)"
+			],
+			"answer": 0,
+			"hint": "Find two numbers that multiply to 20 and add to 9.",
+			"explain": "4 × 5 = 20 and 4 + 5 = 9, so x² + 9x + 20 = (x + 4)(x + 5)."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: a difference of two squares (with whole numbers), or not?",
+			"groups": [
+				"two squares' difference",
+				"not"
+			],
+			"items": [
+				"x² − 10",
+				"x² + 25",
+				"x² − 36",
+				"4x² − 9",
+				"x² − 1",
+				"x² − 6x"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				0,
+				1
+			],
+			"hint": "Is each part a perfect square, with a minus sign between them?",
+			"explain": "x² − 36 = (x + 6)(x − 6), x² − 1 = (x + 1)(x − 1) and 4x² − 9 = (2x + 3)(2x − 3). x² + 25 has a plus, 10 is not a square number, and x² − 6x has no square number."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps to factorise x² + 10x + 21.",
+			"items": [
+				"Pick the pair that adds to 10",
+				"List number pairs that multiply to 21",
+				"Expand it again to check",
+				"Write (x + 3)(x + 7)"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Start with the number term, and finish by checking.",
+			"explain": "The pairs for 21 are 1 and 21, and 3 and 7. 3 + 7 = 10, so (x + 3)(x + 7). Expanding gives x² + 10x + 21 again."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each expression to its expansion.",
+			"items": [
+				"2(x + 5)",
+				"x(x + 5)",
+				"(x + 5)²",
+				"(x + 5)(x − 5)"
+			],
+			"matches": [
+				"x² + 5x",
+				"2x + 10",
+				"x² − 25",
+				"x² + 10x + 25"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Multiply every term inside by every term outside; look for squares and middle terms.",
+			"explain": "2(x + 5) = 2x + 10; x(x + 5) = x² + 5x; (x + 5)² = x² + 10x + 25; (x + 5)(x − 5) = x² − 25."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Factorise 3x² + 12x completely: 3x(x + ?). What number goes in the gap?",
+			"answer": "4",
+			"hint": "Take out the highest common factor of both terms: a number and an x.",
+			"explain": "3x² = 3x × x and 12x = 3x × 4, so 3x² + 12x = 3x(x + 4). Check: 3x × x + 3x × 4 gives it back."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Use (a + b)(a − b) = a² − b² to work out 21 × 19 in your head.",
+			"answer": "399",
+			"hint": "Write 21 as 20 + 1 and 19 as 20 − 1.",
+			"explain": "21 × 19 = (20 + 1)(20 − 1), which is 20² − 1². 20² is 400, so it is 400 − 1 = 399."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each quadratic to its factors.",
+			"items": [
+				"x² + 5x + 6",
+				"x² − 5x + 6",
+				"x² + x − 6",
+				"x² − x − 6"
+			],
+			"matches": [
+				"(x + 3)(x − 2)",
+				"(x − 3)(x + 2)",
+				"(x + 2)(x + 3)",
+				"(x − 2)(x − 3)"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "The number term's sign: plus means the two numbers have the same sign; minus means different signs.",
+			"explain": "x² + 5x + 6 = (x + 2)(x + 3); x² − 5x + 6 = (x − 2)(x − 3); x² + x − 6 = (x + 3)(x − 2); x² − x − 6 = (x − 3)(x + 2)."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The graph of y = x² − 9 crosses the x-axis at two points. What is the positive x where it crosses?",
+			"picture": {
+				"kind": "parabola",
+				"c": -9
+			},
+			"answer": "3",
+			"hint": "On the x-axis y = 0: find the number whose square is the number term.",
+			"explain": "0 = x² − 9, so x² = 9. That gives x = 3 or x = −3, and the positive one is 3. In factors: (x + 3)(x − 3) = 0."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The lowest point of the graph of y = x² + 3 is (0, 3).",
+			"picture": {
+				"kind": "parabola",
+				"c": 3
+			},
+			"answer": true,
+			"hint": "x² is never below 0, so when is y smallest?",
+			"explain": "True: x² is smallest, 0, when x = 0, so y = 0 + 3 = 3. The vertex is (0, 3), and the curve is the U of y = x² moved up 3."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which expression gives the area of a square with sides (x + 4) long?",
+			"choices": [
+				"x² + 8x + 16",
+				"x² + 16",
+				"x² + 4x + 16",
+				"4x + 16"
+			],
+			"answer": 0,
+			"hint": "A square's area is its side times itself: write out both brackets.",
+			"explain": "(x + 4)(x + 4) = x² + 4x + 4x + 16, which is x² + 8x + 16. The two middle terms are the strips along two sides."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8k.expand_brackets",
+			"level": 1
+		},
+		{
+			"gen": "g8k.expand_brackets",
+			"level": 2
+		},
+		{
+			"gen": "g8k.expand_brackets",
+			"level": 3
+		},
+		{
+			"gen": "g8k.factorise_quadratic",
+			"level": 1
+		},
+		{
+			"gen": "g8k.factorise_quadratic",
+			"level": 2
+		},
+		{
+			"gen": "g8k.factorise_quadratic",
+			"level": 3
+		},
+		{
+			"gen": "g8k.parabola_point",
+			"level": 1
+		},
+		{
+			"gen": "g8k.parabola_point",
+			"level": 2
+		},
+		{
+			"gen": "g8k.parabola_point",
+			"level": 3
+		}
+	]
+}

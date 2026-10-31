@@ -1,0 +1,39 @@
+{
+	"id": "life.home.real_builder_little",
+	"lesson": [
+		{"text": "Quick memory: what do builders wear on a building site? (A hard hat and gloves.) Today: building a little wall."},
+		{"text": "Builders stick blocks together with mortar: cement, sand and water mixed into a soft paste. A trowel spreads it."},
+		{"text": "Every row must be level: flat, not sloping. A spirit level shows it: its bubble sits in the middle."},
+		{"text": "Builders stagger the joints: each block sits across two below, like a jigsaw. A wall with its joints in one straight line can split."},
+		{"text": "Real building sites can be dangerous: only go on one with permission and a grown-up. You can look at walls from the pavement."},
+		{"text": "Try it in the world: open Real Builder and build your little wall. Next: a garden shed, on the Middle track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "What do builders spread between blocks?", "answer": 0,
+			"choices": ["mortar", "glue", "jam"], "hint": "Cement, sand and water.", "explain": "Mortar holds the blocks together."},
+		{"type": "truefalse", "level": 1, "prompt": "A hard hat keeps your head safe on a building site.", "answer": true,
+			"hint": "What is it for?", "explain": "True: on a building site the hard hat stays on."},
+		{"type": "choice", "level": 1, "prompt": "Which tool spreads mortar?", "answer": 0,
+			"choices": ["a trowel", "a hammer", "a spoon"], "hint": "Its blade is flat.", "explain": "A trowel spreads the mortar and taps blocks down."},
+		{"type": "truefalse", "level": 1, "prompt": "A spirit level's bubble sits in the middle when a row is level.", "answer": true,
+			"hint": "Where does the bubble go?", "explain": "True: the bubble in the middle means level."},
+		{"type": "choice", "level": 2, "prompt": "How should the second row start?", "answer": 0,
+			"choices": ["with a half block", "with a whole block right over the joint", "with a gap"],
+			"hint": "Move the joints along.", "explain": "A half block moves the joints along, so each block sits across two below."},
+		{"type": "number", "level": 2, "prompt": "A wall has 3 rows of 3 blocks. How many blocks is that?", "answer": "9",
+			"hint": "3 and 3 and 3.", "explain": "3 + 3 + 3 = 9 blocks."},
+		{"type": "truefalse", "level": 2, "prompt": "A wall with all its joints in one straight line is strong.", "answer": false,
+			"hint": "Where could it split?", "explain": "False: it can split along the straight line. Stagger the joints."},
+		{"type": "sort", "level": 2, "prompt": "Safety things or building things?", "groups": ["safety", "building"],
+			"items": ["a hard hat", "a trowel", "gloves", "blocks"], "answer": [0, 1, 0, 1],
+			"hint": "Which ones do you wear?", "explain": "You wear the hard hat and the gloves; you build with the trowel and the blocks."},
+		{"type": "number", "level": 3, "prompt": "One big block is as long as 2 bricks. How many bricks long is a row of 3 blocks?",
+			"answer": "6", "hint": "2 for each block.", "explain": "3 x 2 = 6 bricks long."},
+		{"type": "choice", "level": 3, "prompt": "Why do builders check every row with a spirit level?", "answer": 0,
+			"choices": ["so the wall goes up straight and flat", "to make it pretty", "to count the blocks"],
+			"hint": "What happens to a sloping row?", "explain": "A level row keeps the wall straight as it goes up."},
+		{"type": "order", "level": 3, "prompt": "Building a row: put it in order.", "answer": [2, 1, 0],
+			"items": ["check it with the spirit level", "lay the blocks", "spread the mortar"],
+			"hint": "What goes under the blocks?", "explain": "Spread the mortar, lay the blocks, then check them with the spirit level."}
+	]
+}

@@ -1,0 +1,402 @@
+{
+	"id": "g8.design_tech.smart_materials",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met thermochromic dyes in smart textiles. What do they do? (They change colour with temperature.) Today: smart and modern materials, and how designers use them."
+		},
+		{
+			"text": "A smart material changes one of its properties by itself when its surroundings change. The trigger may be heat, light, a squeeze or water, and it changes back when the trigger goes.",
+			"picture": {
+				"kind": "smart_material",
+				"material": "thermochromic"
+			}
+		},
+		{
+			"text": "Shape-memory alloy, often nickel-titanium, can be bent when cool and springs back to its set shape when warmed. It is used in glasses frames, tiny medical tubes and switches.",
+			"picture": {
+				"kind": "smart_material",
+				"material": "shape_memory"
+			}
+		},
+		{
+			"text": "Thermochromic pigments change colour at a set temperature, like a baby's spoon that warns food is too hot. Photochromic lenses darken in the ultraviolet light of sunshine and clear again indoors.",
+			"picture": {
+				"kind": "smart_material",
+				"material": "photochromic"
+			}
+		},
+		{
+			"text": "Piezoelectric crystals make a small voltage when squeezed: the spark in a gas lighter. Hydrogels soak up water and release it slowly, like the crystals in a plant pot.",
+			"picture": {
+				"kind": "smart_material",
+				"material": "piezoelectric"
+			}
+		},
+		{
+			"text": "A composite joins materials so the mix beats each alone: strong fibres held in a matrix. Glass fibre in resin (GRP) makes boats; carbon fibre makes bikes and aircraft. Composites are hard to recycle.",
+			"picture": {
+				"kind": "smart_material",
+				"material": "composite",
+				"labels": true
+			}
+		},
+		{
+			"text": "Designers compare strength with density, the mass of each cm³. A 100 cm³ steel part: 7.8 × 100 = 780 g; in carbon fibre, 1.6 × 100 = 160 g. Graphene, carbon one atom thick, is very strong and light.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"material",
+						"density (g/cm³)"
+					],
+					[
+						"steel",
+						"7.8"
+					],
+					[
+						"titanium",
+						"4.5"
+					],
+					[
+						"aluminium",
+						"2.7"
+					],
+					[
+						"carbon fibre",
+						"1.6"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: look for smart and modern materials at home, such as photochromic glasses or a colour-changing mug. In LIFE, Real Builder puts a lintel over a door: often reinforced concrete, a composite. Next: a programmable product."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What makes a thermochromic pigment change?",
+			"choices": [
+				"a change in temperature",
+				"a squeeze",
+				"water",
+				"ultraviolet light"
+			],
+			"answer": 0,
+			"hint": "'Thermo' is about heat.",
+			"explain": "Thermochromic means colour that changes with heat."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A smart material changes back when its trigger goes.",
+			"answer": true,
+			"hint": "Think of photochromic lenses indoors.",
+			"explain": "True: when the heat, light, squeeze or water goes, the smart material returns to how it was."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each material to a use.",
+			"items": [
+				"shape-memory alloy",
+				"thermochromic pigment",
+				"photochromic lenses",
+				"piezoelectric crystal"
+			],
+			"matches": [
+				"glasses that darken in sun",
+				"a lighter's spark",
+				"glasses that spring back",
+				"a spoon that warns of heat"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "What does each material react to?",
+			"explain": "Shape-memory: springy frames. Thermochromic: a heat-warning spoon. Photochromic: darkening glasses. Piezoelectric: a spark."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In GRP, what is the matrix that holds the glass fibres?",
+			"choices": [
+				"resin",
+				"glass",
+				"steel bars",
+				"straw"
+			],
+			"answer": 0,
+			"hint": "The fibres give strength; something sticky sets around them.",
+			"explain": "GRP is glass fibres set in resin: the resin is the matrix."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Steel's density is 7.8 g/cm³. What is the mass of a 10 cm³ steel part, in grams?",
+			"answer": "78",
+			"hint": "Mass = density × volume.",
+			"explain": "7.8 × 10 = 78 g."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the composite: tap a word, then its number.",
+			"picture": {
+				"kind": "smart_material",
+				"material": "composite",
+				"pins": true
+			},
+			"labels": [
+				"fibres",
+				"matrix",
+				"layers"
+			],
+			"hint": "The strong parts, what holds them, and how they are stacked.",
+			"explain": "The fibres give strength, the matrix holds them, and the layers lie in different directions.",
+			"spots": [
+				[
+					0.5768,
+					0.91,
+					0.5768,
+					0.6465
+				],
+				[
+					0.7075,
+					0.09,
+					0.7075,
+					0.4667
+				],
+				[
+					0.4078,
+					0.09,
+					0.4078,
+					0.3868
+				]
+			],
+			"answer": [
+				2,
+				0,
+				1
+			]
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "A smart material, or not?",
+			"groups": [
+				"smart",
+				"not smart"
+			],
+			"items": [
+				"thermochromic pigment",
+				"ordinary window glass",
+				"photochromic lenses",
+				"shape-memory alloy",
+				"pine wood"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Does it change by itself when heat, light, a squeeze or water comes, and change back?",
+			"explain": "Smart: thermochromic, photochromic, shape-memory. Not smart: pine and ordinary glass."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Photochromic glasses go back indoors. What happens?",
+			"choices": [
+				"the lenses slowly clear",
+				"they stay dark",
+				"they turn pink",
+				"they get warm"
+			],
+			"answer": 0,
+			"hint": "What happens when the trigger, ultraviolet light, goes away?",
+			"explain": "Without ultraviolet light the lenses change back and slowly become clear."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Carbon fibre's density is 1.6 g/cm³. What is the mass of a 250 cm³ carbon fibre part, in grams?",
+			"answer": "400",
+			"hint": "Mass = density × volume.",
+			"explain": "1.6 × 250 = 400 g."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Most composites are easy to recycle because their materials come apart.",
+			"answer": false,
+			"hint": "Think about fibres set hard in resin.",
+			"explain": "False: their materials are bonded together, so most composites are hard to separate and recycle."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the shape-memory wire demonstration in order.",
+			"items": [
+				"put it in warm water",
+				"let it cool to use again",
+				"bend the cool wire",
+				"watch it spring back"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1
+			],
+			"hint": "Bend, warm, watch, cool.",
+			"explain": "Bend it cool, warm it, watch it return to its set shape, then let it cool to bend again."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 200 cm³ part in steel (7.8 g/cm³) or carbon fibre (1.6 g/cm³): how many grams lighter is the carbon fibre one?",
+			"answer": "1240",
+			"hint": "Work out both masses, then subtract.",
+			"explain": "7.8 × 200 = 1,560 g; 1.6 × 200 = 320 g; 1,560 − 320 = 1,240 g lighter."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which material suits a racing bike frame that must be light and very strong?",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"material",
+						"density (g/cm³)"
+					],
+					[
+						"steel",
+						"7.8"
+					],
+					[
+						"titanium",
+						"4.5"
+					],
+					[
+						"aluminium",
+						"2.7"
+					],
+					[
+						"carbon fibre",
+						"1.6"
+					]
+				]
+			},
+			"choices": [
+				"carbon fibre composite",
+				"steel",
+				"pine wood",
+				"thermochromic pigment"
+			],
+			"answer": 0,
+			"hint": "Look at the density table and think about strength.",
+			"explain": "Carbon fibre composite is very strong for its low density, so the frame is light and stiff."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Graphene is a layer of carbon one atom thick.",
+			"answer": true,
+			"hint": "Think of the thinnest material in the lesson.",
+			"explain": "True: graphene is a single layer of carbon atoms: very thin, very strong and light."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A titanium part has a mass of 900 g. Titanium's density is 4.5 g/cm³. What is its volume, in cm³?",
+			"answer": "200",
+			"hint": "Volume = mass ÷ density.",
+			"explain": "900 ÷ 4.5 = 200 cm³."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why might a designer choose aluminium rather than steel for a ladder?",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"material",
+						"density (g/cm³)"
+					],
+					[
+						"steel",
+						"7.8"
+					],
+					[
+						"titanium",
+						"4.5"
+					],
+					[
+						"aluminium",
+						"2.7"
+					],
+					[
+						"carbon fibre",
+						"1.6"
+					]
+				]
+			},
+			"choices": [
+				"it is lighter and does not rust",
+				"it is heavier",
+				"it is a smart material",
+				"it changes colour in the sun"
+			],
+			"answer": 0,
+			"hint": "Compare the densities in the table, and think about rain.",
+			"explain": "Aluminium has a much lower density (2.7 against 7.8 g/cm³) and does not rust, so the ladder is easy to carry and lasts outdoors."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.smart_use",
+			"level": 1
+		},
+		{
+			"gen": "g8l.smart_use",
+			"level": 2
+		},
+		{
+			"gen": "g8l.smart_use",
+			"level": 3
+		},
+		{
+			"gen": "g8l.material_mass",
+			"level": 1
+		},
+		{
+			"gen": "g8l.material_mass",
+			"level": 2
+		},
+		{
+			"gen": "g8l.material_mass",
+			"level": 3
+		},
+		{
+			"gen": "g8l.composite_part",
+			"level": 1
+		},
+		{
+			"gen": "g8l.composite_part",
+			"level": 2
+		},
+		{
+			"gen": "g8l.composite_part",
+			"level": 3
+		}
+	]
+}

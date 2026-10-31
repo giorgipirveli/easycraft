@@ -1,0 +1,400 @@
+{
+	"id": "g5.design_tech.fabrics_clothes",
+	"lesson": [
+		{
+			"text": "Quick memory: in weaving, which threads are stretched tight on the loom? (The warp.) Today: where fabrics come from, and how fibres become cloth."
+		},
+		{
+			"text": "Fabric starts as fibres: thin hairs. Natural fibres come from plants, like cotton from the cotton plant's seed pods and linen from the flax plant. Others come from animals, like wool from sheep and silk from silkworms.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Fibre",
+						"Comes from"
+					],
+					[
+						"cotton",
+						"seed pods"
+					],
+					[
+						"linen",
+						"the flax plant"
+					],
+					[
+						"wool",
+						"sheep"
+					],
+					[
+						"silk",
+						"silkworms"
+					]
+				]
+			}
+		},
+		{
+			"text": "Made fibres are made in factories. Polyester, nylon and acrylic are made from oil; viscose is made from wood pulp. They can be strong, stretchy, quick to dry and cheap.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"fibre",
+						"comes from"
+					],
+					[
+						"cotton",
+						"seed pods"
+					],
+					[
+						"linen",
+						"the flax plant"
+					],
+					[
+						"wool",
+						"sheep"
+					],
+					[
+						"polyester",
+						"oil"
+					],
+					[
+						"viscose",
+						"wood pulp"
+					]
+				]
+			}
+		},
+		{
+			"text": "Spinning twists short fibres together into a long, strong yarn. People spun by hand with a spindle, then on a spinning wheel. In the 1760s, James Hargreaves' spinning jenny spun many threads at once."
+		},
+		{
+			"text": "Weaving crosses two sets of yarn on a loom: the warp, held tight, and the weft, going over and under. Plain weave goes over one, under one. Twill goes over two, under two, stepping along to make diagonal lines, as in denim.",
+			"picture": {
+				"kind": "weave",
+				"rows": [
+					"oouuoouu",
+					"uoouuoou",
+					"uuoouuoo",
+					"ouuoouuo"
+				],
+				"numbers": true
+			}
+		},
+		{
+			"text": "Knitted fabric is loops of one long yarn, so it stretches, as in jumpers and socks. Felt is fibres pressed together, with no weaving at all."
+		},
+		{
+			"text": "In 1804, Joseph Marie Jacquard made a loom controlled by punched cards, so it could weave complicated patterns by itself. Those cards later inspired the first computers."
+		},
+		{
+			"text": "Try it in the world: weave a rug with two colours of wool blocks in a twill, stepping one along each row. For real: read the labels in your clothes: which fibres are natural, and which are made?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does wool come from?",
+			"answer": 0,
+			"hint": "It grows on an animal.",
+			"choices": [
+				"sheep",
+				"cotton plants",
+				"oil",
+				"wood"
+			],
+			"explain": "Wool is the fleece of sheep, sheared off like a haircut."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Cotton comes from a plant.",
+			"answer": true,
+			"hint": "Think of the soft, white balls on the cotton plant.",
+			"explain": "True: cotton fibres grow in the cotton plant's seed pods."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which fibre is made from oil?",
+			"answer": 0,
+			"hint": "Three of these grow naturally.",
+			"choices": [
+				"polyester",
+				"wool",
+				"silk",
+				"linen"
+			],
+			"explain": "Polyester is made from oil in a factory. Wool, silk and linen are natural."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each fibre to where it comes from.",
+			"items": [
+				"wool",
+				"silk",
+				"cotton",
+				"linen"
+			],
+			"matches": [
+				"silkworms",
+				"the cotton plant",
+				"the flax plant",
+				"sheep"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Two come from animals, two from plants.",
+			"explain": "Wool from sheep, silk from silkworms, cotton from the cotton plant, linen from flax."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does spinning do?",
+			"answer": 0,
+			"hint": "Short fibres cannot be woven on their own.",
+			"choices": [
+				"twists short fibres into a long yarn",
+				"cuts fabric",
+				"dyes cloth",
+				"sews seams"
+			],
+			"explain": "Spinning twists short fibres together into a long, strong yarn."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, from sheep to jumper.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The wool must come off the sheep first.",
+			"items": [
+				"knit the yarn into a jumper",
+				"spin them into yarn",
+				"clean and comb the fibres",
+				"shear the wool from the sheep"
+			],
+			"explain": "Shear, clean and comb, spin into yarn, then knit the jumper."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Knitted fabric stretches because it is made of loops.",
+			"answer": true,
+			"hint": "What can a loop do when you pull it?",
+			"explain": "True: the loops open and close, so knitting stretches."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which weave is this?",
+			"answer": 0,
+			"hint": "Look at each row: over one and under one, or over two and under two?",
+			"choices": [
+				"plain weave",
+				"twill",
+				"knitting",
+				"felt"
+			],
+			"explain": "Plain weave: over one, under one, and each row does the opposite of the one before.",
+			"picture": {
+				"kind": "weave",
+				"rows": [
+					"ouou",
+					"uouo",
+					"ouou"
+				],
+				"numbers": true
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Woven, knitted or felted?",
+			"groups": [
+				"woven",
+				"knitted",
+				"felted"
+			],
+			"items": [
+				"denim jeans",
+				"a jumper",
+				"a felt hat",
+				"a cotton shirt",
+				"socks"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1
+			],
+			"hint": "Loops, crossing threads, or pressed fibres?",
+			"explain": "Woven: jeans and a shirt. Knitted: a jumper and socks. Felted: a felt hat."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is polyester good for sports kit?",
+			"answer": 0,
+			"hint": "What do you want when you are hot and sweaty?",
+			"choices": [
+				"it dries quickly",
+				"it comes from sheep",
+				"it shrinks",
+				"it soaks up lots of water"
+			],
+			"explain": "It dries quickly and does not soak up much water, so it stays light and comfortable."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does twill show diagonal lines?",
+			"answer": 0,
+			"hint": "Look at where each row's 'over two' begins.",
+			"choices": [
+				"each row steps one thread along",
+				"the threads are thicker",
+				"it is painted on",
+				"the weft goes over one, under one"
+			],
+			"explain": "Each row starts one thread further along, so the over-two steps make diagonal lines.",
+			"picture": {
+				"kind": "weave",
+				"rows": [
+					"oouuoouu",
+					"uoouuoou",
+					"uuoouuoo",
+					"ouuoouuo"
+				],
+				"numbers": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What did Jacquard's loom use to control its patterns?",
+			"answer": 0,
+			"hint": "Which later inspired the first computers?",
+			"choices": [
+				"punched cards",
+				"a steam whistle",
+				"a computer screen",
+				"a paintbrush"
+			],
+			"explain": "Punched cards: holes in the cards decided which threads were lifted."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Viscose is made from wood pulp.",
+			"answer": true,
+			"hint": "Not every made fibre comes from oil.",
+			"explain": "True: viscose is made in factories from wood pulp."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which clothes would keep you warmest on a cold hike?",
+			"answer": 0,
+			"hint": "Which fibre is fluffy and traps air?",
+			"choices": [
+				"wool, because it traps warm air",
+				"a thin linen shirt",
+				"a cotton T-shirt",
+				"a nylon swimsuit"
+			],
+			"explain": "Wool: its crinkly fibres trap warm air, and it keeps some warmth even when damp."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The first spinning jenny spun 8 threads at once. How many threads would 5 of them spin at once?",
+			"answer": "40",
+			"hint": "Each machine spins 8.",
+			"explain": "Each jenny spins 8 threads at once, so 5 of them spin 5 × 8 = 40. Before the jenny, a spinner made 1 thread at a time."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the making of clothes in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Fibres come first.",
+			"items": [
+				"cut and sew the fabric into clothes",
+				"weave or knit the yarn into fabric",
+				"spin the fibres into yarn",
+				"grow or make the fibres"
+			],
+			"explain": "Fibres, then yarn, then fabric, then clothes."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the fibres: natural, or made in a factory? Careful: one factory fibre starts from wood.",
+			"groups": [
+				"natural",
+				"made in a factory"
+			],
+			"items": [
+				"wool",
+				"polyester",
+				"silk",
+				"viscose",
+				"linen",
+				"nylon"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Natural fibres grow on animals or plants. Factory fibres are made from oil, or changed from wood pulp.",
+			"explain": "Natural: wool from sheep, silk from silkworms and linen from flax. Made in a factory: polyester and nylon from oil, and viscose, made from wood pulp, which is natural to start with but changed in a factory."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.fibre_sort",
+			"level": 1
+		},
+		{
+			"gen": "g5w.fibre_sort",
+			"level": 2
+		},
+		{
+			"gen": "g5w.fibre_sort",
+			"level": 3
+		},
+		{
+			"gen": "g5w.weave_next",
+			"level": 1
+		},
+		{
+			"gen": "g5w.weave_next",
+			"level": 2
+		},
+		{
+			"gen": "g5w.weave_next",
+			"level": 3
+		}
+	]
+}

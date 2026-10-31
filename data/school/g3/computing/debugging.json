@@ -1,0 +1,372 @@
+{
+	"id": "g3.computing.debugging",
+	"lesson": [
+		{
+			"text": "Quick memory: what does a loop do? (It repeats steps.) Today: what to do when a program goes wrong."
+		},
+		{
+			"text": "A bug is a mistake in a program. A step might be missing, in the wrong order, or turn the wrong way.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"FORWARD 2",
+					"TURN LEFT",
+					"FORWARD 3"
+				],
+				"mark": 1
+			}
+		},
+		{
+			"text": "Debugging means finding and fixing bugs. Every programmer makes bugs; finding them is part of the job, and a good puzzle."
+		},
+		{
+			"text": "Be a detective: run the program one step at a time. Stop at the first step where the robot goes the wrong way. Here, the robot turned left instead of right.",
+			"picture": {
+				"kind": "robot",
+				"cols": 5,
+				"rows": 4,
+				"start": [
+					1,
+					3
+				],
+				"facing": "N",
+				"goal": [
+					4,
+					1
+				],
+				"path": [
+					[
+						1,
+						3
+					],
+					[
+						1,
+						2
+					],
+					[
+						1,
+						1
+					],
+					[
+						0,
+						1
+					]
+				]
+			}
+		},
+		{
+			"text": "Fix one thing at a time, then test again. If it still goes wrong, look for the next bug.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"test it",
+					"find the bug",
+					"fix one thing",
+					"test again"
+				],
+				"title": "Debugging",
+				"loop": true
+			}
+		},
+		{
+			"text": "In 1947, people working on an early computer found a real moth stuck inside it. They taped it into their notebook as the “first actual case of bug being found”."
+		},
+		{
+			"text": "Try it in the world: write a program to walk from your house to a tree. Walk it exactly. If you miss the tree, find the step with the bug and fix it."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A bug is a mistake in a program.",
+			"answer": true,
+			"hint": "What do programmers call a mistake?",
+			"explain": "True: a bug is a mistake in a program."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is debugging?",
+			"answer": 0,
+			"hint": "De-bugging: taking the bugs out.",
+			"choices": [
+				"finding and fixing mistakes in a program",
+				"adding more bugs",
+				"turning the computer off",
+				"writing a new game"
+			],
+			"explain": "Debugging means finding and fixing the mistakes (bugs) in a program."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Good programmers never make bugs.",
+			"answer": false,
+			"hint": "Does anyone get everything right the first time?",
+			"explain": "False: every programmer makes bugs. Good programmers are good at finding and fixing them."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The robot needed FORWARD 4 to reach the flag, but the program said FORWARD 3. What kind of bug is it?",
+			"answer": 0,
+			"hint": "Compare the number in the program with the squares to the flag.",
+			"choices": [
+				"a wrong number",
+				"a wrong turn",
+				"a missing turn",
+				"steps in the wrong order"
+			],
+			"explain": "A wrong number: the robot stopped one square short. FORWARD 4 fixes it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "This program should take the robot to the flag: FORWARD 2, TURN LEFT, FORWARD 3. The picture shows where it went. Which program fixes the bug?",
+			"answer": 0,
+			"hint": "Put your finger on the robot and follow each program one step at a time. A turn does not move it.",
+			"choices": [
+				"FORWARD 2, TURN RIGHT, FORWARD 3",
+				"FORWARD 3, TURN LEFT, FORWARD 3",
+				"FORWARD 2, TURN LEFT, FORWARD 2",
+				"TURN LEFT, FORWARD 2, FORWARD 3"
+			],
+			"explain": "It turned left instead of right. FORWARD 2, TURN RIGHT, FORWARD 3 reaches the flag.",
+			"picture": {
+				"kind": "robot",
+				"cols": 5,
+				"rows": 4,
+				"start": [
+					1,
+					3
+				],
+				"facing": "N",
+				"goal": [
+					4,
+					1
+				],
+				"path": [
+					[
+						1,
+						3
+					],
+					[
+						1,
+						2
+					],
+					[
+						1,
+						1
+					],
+					[
+						0,
+						1
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the debugging steps in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You can't fix a bug before you have found it.",
+			"items": [
+				"Test it again",
+				"Fix that one step",
+				"Spot where it goes wrong",
+				"Run the program"
+			],
+			"explain": "Run it, spot where it goes wrong, fix that step, then test again to check."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Tilly's steps to make toast: 1 put bread in the toaster, 2 eat the toast, 3 switch the toaster on. What is the bug?",
+			"answer": 0,
+			"hint": "Act it out. Can you eat the toast at step 2?",
+			"choices": [
+				"steps 2 and 3 are the wrong way round",
+				"step 1 is missing",
+				"there are too many steps",
+				"nothing is wrong"
+			],
+			"explain": "Steps 2 and 3 are swapped: switch the toaster on before you eat the toast."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A program should draw a square: repeat 4 times [FORWARD 3, TURN RIGHT]. It says repeat 3 times. What does it draw?",
+			"answer": 0,
+			"hint": "Each time round draws one side. Count the sides.",
+			"choices": [
+				"three sides of a square",
+				"a whole square",
+				"a triangle",
+				"nothing at all"
+			],
+			"explain": "Each time round draws one side, so 3 times draws only three sides. The fix: repeat 4 times."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When you find a bug, it is best to change lots of steps at once.",
+			"answer": false,
+			"hint": "If you change many things, how will you know which change fixed it?",
+			"explain": "False: change one thing at a time and test again, so you know which change fixed it."
+		},
+		{
+			"type": "robot",
+			"level": 2,
+			"prompt": "Mimi's program FORWARD 4, TURN LEFT, FORWARD 2 misses the gem. Write a program that picks it up and reaches the flag.",
+			"board": {
+				"cols": 5,
+				"rows": 4,
+				"start": [
+					0,
+					3
+				],
+				"facing": "E",
+				"goal": [
+					4,
+					1
+				],
+				"gems": [
+					[
+						2,
+						1
+					]
+				]
+			},
+			"hint": "Where is the gem? Go there first, then to the flag.",
+			"explain": "One program that works: FORWARD 2, TURN LEFT, FORWARD 2, TURN RIGHT, FORWARD 2."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The robot ran FORWARD 3, TURN RIGHT, FORWARD 2 and bumped into a wall on the last step. Where should you look for the bug first?",
+			"answer": 0,
+			"hint": "The robot was fine until near the bump.",
+			"choices": [
+				"at the steps just before the bump",
+				"at the very first step only",
+				"at a different program",
+				"nowhere: robots never bump"
+			],
+			"explain": "Start near the bump: the turn or the FORWARDs just before it. Something there took it the wrong way."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A program says repeat 3 times [FORWARD 2], but the flag is 8 squares ahead. How many times should it repeat?",
+			"answer": "4",
+			"hint": "Each time round moves 2. How many 2s make 8?",
+			"explain": "Each time round moves 2, and 4 × 2 = 8, so repeat 4 times."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: a bug, or not a bug?",
+			"groups": [
+				"a bug",
+				"not a bug"
+			],
+			"items": [
+				"a step in the wrong order",
+				"a program that reaches the flag",
+				"a turn the wrong way",
+				"a step that is clear and right",
+				"a missing step"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Would it make the program do the wrong thing?",
+			"explain": "Bugs: a step in the wrong order, a wrong turn, a missing step. Not bugs: a program that works, a clear right step."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A program with a bug always shows an error message.",
+			"answer": false,
+			"hint": "Think of a robot that stops one square short. Does it say anything?",
+			"explain": "False: a bug can make a program quietly do the wrong thing. That is why we test."
+		},
+		{
+			"type": "robot",
+			"level": 3,
+			"prompt": "Bram's program keeps bumping into the walls. Write a program that gets the robot to the flag.",
+			"board": {
+				"cols": 5,
+				"rows": 5,
+				"start": [
+					0,
+					0
+				],
+				"facing": "S",
+				"goal": [
+					4,
+					4
+				],
+				"walls": [
+					[
+						0,
+						3
+					],
+					[
+						1,
+						3
+					],
+					[
+						3,
+						1
+					],
+					[
+						3,
+						2
+					]
+				]
+			},
+			"hint": "First check which way the robot faces. Point that way, then plan one square at a time: a turn does not move it.",
+			"explain": "One program that works: TURN LEFT, FORWARD 4, TURN RIGHT, FORWARD 4."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In 1947, what did people find stuck inside an early computer?",
+			"answer": 0,
+			"hint": "Remember the story on the lesson card: it gave bugs their name.",
+			"choices": [
+				"a real moth",
+				"a lost key",
+				"a mouse",
+				"a sandwich"
+			],
+			"explain": "A real moth! They taped it into their notebook as the first actual case of a bug being found."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3a.fix_the_bug",
+			"level": 1
+		},
+		{
+			"gen": "g3a.fix_the_bug",
+			"level": 2
+		},
+		{
+			"gen": "g3a.fix_the_bug",
+			"level": 3
+		}
+	]
+}

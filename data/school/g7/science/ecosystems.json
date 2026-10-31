@@ -1,0 +1,393 @@
+{
+	"id": "g7.science.ecosystems",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met food webs. Which way do a food web's arrows point? From the food to the one that eats it: the way the energy goes."
+		},
+		{
+			"text": "An ecosystem is all the living things in an area and the non-living things around them: water, soil, light and air. A meadow, a pond and a forest are ecosystems."
+		},
+		{
+			"text": "Populations need resources: food, water, space and shelter. When resources are short, populations shrink; when they are plentiful, populations grow. In a meadow, rabbits and mice both eat grass.",
+			"picture": {
+				"kind": "food_web",
+				"nodes": [
+					[
+						"grass",
+						1,
+						3
+					],
+					[
+						"rabbit",
+						0,
+						2
+					],
+					[
+						"mouse",
+						2,
+						2
+					],
+					[
+						"fox",
+						0,
+						0
+					],
+					[
+						"owl",
+						2,
+						0
+					]
+				],
+				"links": [
+					[
+						0,
+						1
+					],
+					[
+						0,
+						2
+					],
+					[
+						1,
+						3
+					],
+					[
+						2,
+						3
+					],
+					[
+						2,
+						4
+					]
+				]
+			}
+		},
+		{
+			"text": "Interactions. Competition: two species need the same food, like rabbits and mice. Predation: one eats the other, like a fox and a rabbit. Mutualism: both gain, like bees and flowers.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"interaction",
+						"who gains?"
+					],
+					[
+						"competition",
+						"neither, fully"
+					],
+					[
+						"predation",
+						"the predator"
+					],
+					[
+						"mutualism",
+						"both"
+					],
+					[
+						"parasitism",
+						"the parasite"
+					]
+				]
+			}
+		},
+		{
+			"text": "Parasitism: one lives on or in another and harms it, like fleas on a dog. The flea gains and the dog, its host, is harmed."
+		},
+		{
+			"text": "Try it in the world: in a meadow in your world, look for rabbits, foxes, owls and deer. Who eats whom, and who needs the same grass? Next: how energy and matter flow through an ecosystem."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a population need to survive?",
+			"answer": 0,
+			"hint": "Think of any animal.",
+			"choices": [
+				"food, water, space and shelter",
+				"only sunlight",
+				"nothing"
+			],
+			"explain": "Food, water, space and shelter."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A fox eats a rabbit. What interaction is this?",
+			"answer": 0,
+			"hint": "Predator and prey.",
+			"choices": [
+				"predation",
+				"mutualism",
+				"competition"
+			],
+			"explain": "Predation: the fox is the predator and the rabbit its prey."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Bees and flowers help each other: that is mutualism.",
+			"answer": true,
+			"hint": "What does each one get from the other?",
+			"explain": "Yes: nectar for bees, pollination for flowers."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which one is a non-living part of an ecosystem?",
+			"answer": 0,
+			"hint": "Which one is not alive and never was?",
+			"choices": [
+				"water",
+				"a tree",
+				"a deer"
+			],
+			"explain": "Water is non-living; the tree and the deer are alive."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Two kinds of bird eat the same seeds. What interaction is this?",
+			"answer": 0,
+			"hint": "They want the same thing.",
+			"choices": [
+				"competition",
+				"mutualism",
+				"predation"
+			],
+			"explain": "Competition: both need the same seeds, so there is less for each."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A dry summer means less grass. What happens to the rabbit population?",
+			"answer": 0,
+			"hint": "Grass is the rabbits' food. What happens when there is less of it?",
+			"choices": [
+				"It gets smaller.",
+				"It grows.",
+				"Nothing."
+			],
+			"explain": "With less food, fewer rabbits survive."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Fleas live on a dog and bite it. What is this?",
+			"answer": 0,
+			"hint": "One gains, one is harmed.",
+			"choices": [
+				"parasitism",
+				"mutualism",
+				"predation"
+			],
+			"explain": "Parasitism: the flea gains and the dog is harmed."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What limits how many deer a forest can support?",
+			"answer": 0,
+			"hint": "Which of these do the deer need to live?",
+			"choices": [
+				"the food and space available",
+				"the colour of the leaves",
+				"the number of stars"
+			],
+			"explain": "Food and space limit the population."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When resources are plentiful, populations can grow.",
+			"answer": true,
+			"hint": "Think what more food does for a rabbit family.",
+			"explain": "Yes: plenty lets populations grow."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Clownfish shelter in sea anemones and clean them. What is this?",
+			"answer": 0,
+			"hint": "What does each one get from the other? Is either harmed?",
+			"choices": [
+				"mutualism",
+				"parasitism",
+				"competition"
+			],
+			"explain": "Mutualism: the fish gets shelter and the anemone gets cleaned."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Wolves return to a park and eat many deer. What might happen to the young trees the deer ate?",
+			"answer": 0,
+			"hint": "If fewer deer are left, who eats the young trees?",
+			"choices": [
+				"More of them grow.",
+				"They all die.",
+				"Nothing changes."
+			],
+			"explain": "Fewer deer means more young trees survive."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two species need the same food and space. What often happens?",
+			"answer": 0,
+			"hint": "There is not enough food and space for both. Which one might win?",
+			"choices": [
+				"One may push the other out.",
+				"Both always grow.",
+				"They swap foods."
+			],
+			"explain": "The stronger competitor may push the other out."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do predator numbers often rise after prey numbers rise?",
+			"answer": 0,
+			"hint": "Prey are the predators' food.",
+			"choices": [
+				"There is more food for them.",
+				"Predators like company.",
+				"The weather changes."
+			],
+			"explain": "More prey means more food for predators."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Competition can happen between members of the same species.",
+			"answer": true,
+			"hint": "Picture two robins and one worm.",
+			"explain": "Yes: they need the same things."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order what happens after a very wet year in a meadow.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Start with the plants.",
+			"items": [
+				"Mouse numbers rise.",
+				"More grass grows.",
+				"Owl numbers rise."
+			],
+			"explain": "More grass feeds more mice, which feed more owls."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each pair to its interaction.",
+			"items": [
+				"fox and rabbit",
+				"bee and flower",
+				"flea and dog",
+				"two birds, one seed"
+			],
+			"matches": [
+				"parasitism",
+				"competition",
+				"predation",
+				"mutualism"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Ask: does one eat the other, do both gain, is one harmed, or do they want the same thing?",
+			"explain": "Fox and rabbit: predation. Bee and flower: mutualism. Flea and dog: parasitism. Two birds after one seed: competition."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the parts of a pond ecosystem.",
+			"items": [
+				"frog",
+				"water",
+				"reeds",
+				"sunlight",
+				"duck",
+				"mud"
+			],
+			"groups": [
+				"living",
+				"non-living"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it grow, feed and reproduce?",
+			"explain": "The frog, the reeds and the duck are living. Water, sunlight and mud are the non-living parts they need."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the pairs by their interaction.",
+			"groups": [
+				"competition",
+				"predation",
+				"mutualism"
+			],
+			"items": [
+				"owl and mouse",
+				"two oaks sharing light",
+				"bee and clover",
+				"heron and frog",
+				"lions and hyenas, one prey",
+				"clownfish and anemone"
+			],
+			"answer": [
+				1,
+				0,
+				2,
+				1,
+				0,
+				2
+			],
+			"hint": "Does one eat the other, do both need the same thing, or do both gain?",
+			"explain": "Predation: the owl eats the mouse, the heron the frog. Competition: two oaks need the same light; lions and hyenas the same prey. Mutualism: bees and clover, clownfish and anemones both gain."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Wolves return to a park. Order the chain of changes that can follow.",
+			"items": [
+				"Young trees grow back by the rivers.",
+				"Deer numbers fall.",
+				"Wolves return.",
+				"Birds nest in the new trees."
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "Follow the food web down: who eats whom, and who then gets more food or shelter?",
+			"explain": "Wolves return and eat many deer, so deer numbers fall. With fewer deer eating them, young trees grow back, and birds then have new trees to nest in."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A meadow has enough grass for 200 rabbits. After a good spring there are 260. How many more rabbits are there than the grass can feed?",
+			"answer": "60",
+			"hint": "Compare how many there are with how many the food can support.",
+			"explain": "260 − 200 = 60 rabbits more than the grass can feed. With food short, fewer survive, and the population is likely to shrink back towards 200."
+		}
+	]
+}

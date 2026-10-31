@@ -1,0 +1,129 @@
+{
+	"dreams": [
+		{"id": "moon", "title": "Fly my rocket to the Moon", "icon": "rocket",
+			"goals": [
+				{"id": "moon_gold", "title": "Save the gold for the Moon rocket", "measure": "rocket_gold", "mission": "moon"},
+				{"id": "moon_fly", "title": "Build my rocket and fly to the Moon", "measure": "flown", "mission": "moon"}
+			],
+			"steps": [
+				{"id": "learn", "title": "Learn a lesson a day: it earns gold", "icon": "book"},
+				{"id": "save", "title": "Put gold aside after each lesson", "icon": "jar"},
+				{"id": "plan", "title": "Look at Mission Control's plan", "icon": "goal_plan"},
+				{"id": "buy", "title": "Buy the parts at the Launch Site", "icon": "coins"},
+				{"id": "build", "title": "Build the rocket on the pad", "icon": "build_blocks"},
+				{"id": "launch", "title": "Launch!", "icon": "rocket"}
+			]},
+		{"id": "mars", "title": "Fly my rocket to Mars", "icon": "planet",
+			"goals": [
+				{"id": "mars_gold", "title": "Save the gold for the Mars rocket", "measure": "rocket_gold", "mission": "mars"},
+				{"id": "mars_fly", "title": "Build my rocket and fly to Mars", "measure": "flown", "mission": "mars"}
+			],
+			"steps": [
+				{"id": "learn", "title": "Learn a lesson a day: it earns gold", "icon": "book"},
+				{"id": "save", "title": "Put gold aside after each lesson", "icon": "jar"},
+				{"id": "plan", "title": "Look at Mission Control's plan", "icon": "goal_plan"},
+				{"id": "buy", "title": "Buy the parts at the Launch Site", "icon": "coins"},
+				{"id": "build", "title": "Build the rocket on the pad", "icon": "build_blocks"},
+				{"id": "launch", "title": "Launch!", "icon": "rocket"}
+			]},
+		{"id": "universe", "title": "Reach a new universe", "icon": "portal",
+			"goals": [
+				{"id": "next_universe", "title": "Open the next universe", "measure": "universe"}
+			],
+			"steps": [
+				{"id": "collect", "title": "Collect blocks and gold", "icon": "build_blocks"},
+				{"id": "tools", "title": "Make good tools", "icon": "pickaxe"},
+				{"id": "shelter", "title": "Build a safe place for the night", "icon": "house"},
+				{"id": "golem", "title": "Find the Stone Golem", "icon": "golem"},
+				{"id": "beat", "title": "Beat the Golem: the way opens", "icon": "portal"}
+			]},
+		{"id": "build", "title": "Build something big", "icon": "castle",
+			"goals": [
+				{"id": "house", "title": "Build a house with a door, windows and a roof", "measure": ""},
+				{"id": "castle", "title": "Build a castle with four towers", "measure": ""}
+			],
+			"steps": [
+				{"id": "draw", "title": "Draw a plan", "icon": "goal_plan"},
+				{"id": "collect", "title": "Collect the blocks", "icon": "build_blocks"},
+				{"id": "walls", "title": "Build the walls", "icon": "wall"},
+				{"id": "doors", "title": "Add the door and the windows", "icon": "door"},
+				{"id": "roof", "title": "Put on the roof", "icon": "house"},
+				{"id": "show", "title": "Show it to a friend", "icon": "people"}
+			]},
+		{"id": "learn", "title": "Get better at school", "icon": "book",
+			"goals": [
+				{"id": "master_3", "title": "Master 3 lessons", "measure": "mastered", "need": 3}
+			],
+			"steps": [
+				{"id": "subject", "title": "Pick a subject", "icon": "book"},
+				{"id": "lesson", "title": "Read the lesson", "icon": "book"},
+				{"id": "practise", "title": "Practise a little every day", "icon": "goal_calendar"},
+				{"id": "review", "title": "Review when it says REVIEW", "icon": "try_again"},
+				{"id": "ask", "title": "Ask for help when I'm stuck", "icon": "talk"}
+			]},
+		{"id": "life", "title": "Learn real-life skills", "icon": "passport",
+			"goals": [
+				{"id": "self_2", "title": "Earn 2 By myself stamps", "measure": "self_stamps", "need": 2}
+			],
+			"steps": [
+				{"id": "skill", "title": "Pick a skill", "icon": "passport"},
+				{"id": "coach", "title": "Try it with the coach", "icon": "grown_up"},
+				{"id": "again", "title": "Practise it again another day", "icon": "try_again"},
+				{"id": "alone", "title": "Try it by myself", "icon": "stamp_self"}
+			]},
+		{"id": "own", "title": "My own dream", "icon": "star",
+			"goals": [
+				{"id": "own_step", "title": "Plan my dream's first step with a grown-up", "measure": ""}
+			],
+			"steps": [
+				{"id": "tell", "title": "Tell a grown-up my dream", "icon": "grown_up"},
+				{"id": "find_out", "title": "Find out what it needs", "icon": "question"},
+				{"id": "first", "title": "Plan the first small step", "icon": "goal_plan"},
+				{"id": "do_it", "title": "Do it this week", "icon": "tick"}
+			]}
+	],
+	"cues": [
+		{"id": "after_lesson", "title": "When I finish a lesson"},
+		{"id": "open_game", "title": "When I open the game"},
+		{"id": "after_dinner", "title": "After dinner"},
+		{"id": "after_teeth", "title": "After I brush my teeth"},
+		{"id": "get_gold", "title": "When I get gold"},
+		{"id": "saturday", "title": "On Saturday morning"}
+	],
+	"actions": [
+		{"id": "save_10", "title": "I put 10 gold aside for my goal"},
+		{"id": "one_round", "title": "I do one practice round"},
+		{"id": "one_step", "title": "I do one step of my plan"},
+		{"id": "build_10", "title": "I build for 10 minutes"},
+		{"id": "read_story", "title": "I read one Success Story"},
+		{"id": "look_board", "title": "I look at my Goal Board"}
+	],
+	"ready_plans": [
+		{"w": "after_lesson", "a": "save_10"},
+		{"w": "open_game", "a": "look_board"},
+		{"w": "after_dinner", "a": "one_step"}
+	],
+	"obstacles": [
+		{"id": "friends", "title": "If my friends ask me to play"},
+		{"id": "tired", "title": "If I feel tired"},
+		{"id": "hard", "title": "If a step is too hard"},
+		{"id": "spend", "title": "If I want to spend my gold now"}
+	],
+	"responses": [
+		{"id": "after_step", "title": "then I play after my step"},
+		{"id": "tiny", "title": "then I do just a tiny part"},
+		{"id": "ask_help", "title": "then I ask for help"},
+		{"id": "wait_day", "title": "then I wait a day and look at my goal"}
+	],
+	"habits": [
+		{"id": "water", "title": "Drink a glass of water", "icon": "water_glass"},
+		{"id": "teeth", "title": "Brush my teeth, morning and night", "icon": "toothbrush"},
+		{"id": "read", "title": "Read for 10 minutes", "icon": "book"},
+		{"id": "tidy", "title": "Tidy my things", "icon": "tidy"},
+		{"id": "help", "title": "Help at home", "icon": "house"},
+		{"id": "move", "title": "Play outside or move about", "icon": "run"},
+		{"id": "bed", "title": "Go to bed on time", "icon": "bed"},
+		{"id": "thanks", "title": "Say thank you to someone", "icon": "talk"},
+		{"id": "lesson", "title": "Do one lesson", "icon": "book"}
+	]
+}

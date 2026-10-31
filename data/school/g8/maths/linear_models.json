@@ -1,0 +1,112 @@
+{
+	"id": "g8.maths.linear_models",
+	"lesson": [
+		{
+			"text": "A linear model describes a steady change: a start value plus a rate times time. A plant 5 cm tall growing 2 cm a week: h = 2w + 5."
+		},
+		{
+			"text": "The rate of change is the slope; the start (initial value) is the y-intercept."
+		},
+		{
+			"text": "From two readings: (3 weeks, 11 cm) and (7 weeks, 19 cm) give the rate (19 − 11) ÷ (7 − 3) = 2 cm a week."
+		},
+		{
+			"text": "Graphs tell stories: a flat part means no change; steeper means faster."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A pool holds 100 L and fills at 20 L a minute. How much after 6 minutes, in litres?",
+			"answer": "220",
+			"hint": "100 + 20 × 6.",
+			"explain": "220 L."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In h = 2w + 5, what is the starting height?",
+			"answer": 0,
+			"hint": "The number added on.",
+			"choices": [
+				"5",
+				"2",
+				"7"
+			],
+			"explain": "5."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A flat part of a distance-time graph means the object stopped.",
+			"answer": true,
+			"hint": "No change in distance.",
+			"explain": "Yes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A gym charges 10 coins to join and 3 coins a visit. Which function gives the cost c for v visits?",
+			"answer": 0,
+			"hint": "Rate × visits + start.",
+			"choices": [
+				"c = 3v + 10",
+				"c = 10v + 3",
+				"c = 13v"
+			],
+			"explain": "c = 3v + 10."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A candle is 20 cm tall and burns 2 cm an hour. How tall after 7 hours, in cm?",
+			"answer": "6",
+			"hint": "20 − 2 × 7.",
+			"explain": "6 cm."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which part of a graph shows the fastest change?",
+			"answer": 0,
+			"hint": "Steep…",
+			"choices": [
+				"the steepest part",
+				"the flattest part",
+				"the lowest part"
+			],
+			"explain": "The steepest."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A tank holds 30 L after 2 minutes and 50 L after 6 minutes. How many litres a minute?",
+			"answer": "5",
+			"hint": "20 ÷ 4.",
+			"explain": "5 L a minute."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A tank holds 30 L after 2 minutes, filling at 5 L a minute. How much did it hold at the start, in litres?",
+			"answer": "20",
+			"hint": "30 − 2 × 5.",
+			"explain": "20 L."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8g.linear_model",
+			"level": 1
+		},
+		{
+			"gen": "g8g.linear_model",
+			"level": 2
+		},
+		{
+			"gen": "g8g.linear_model",
+			"level": 3
+		}
+	]
+}

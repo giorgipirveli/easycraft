@@ -1,0 +1,359 @@
+{
+	"id": "g5.design_tech.gears_pulleys",
+	"lesson": [
+		{
+			"text": "Quick memory: what is an axle? (A rod that a wheel turns on.) Gears and pulleys are wheels on axles too, and they pass turning from one axle to another."
+		},
+		{
+			"text": "A gear is a wheel with teeth. When two gears mesh, their teeth lock together, so turning one turns the other. The gear you turn is the driver; the gear it turns is the driven gear.",
+			"picture": {
+				"kind": "gears",
+				"gears": [
+					10,
+					20
+				],
+				"turn": "cw",
+				"labels": [
+					"driver",
+					"driven"
+				]
+			}
+		},
+		{
+			"text": "Meshing gears turn in opposite directions: if the driver turns clockwise, the driven gear turns anticlockwise. Put an idler gear between them, and the last gear turns the same way as the first.",
+			"picture": {
+				"kind": "gears",
+				"gears": [
+					16,
+					10,
+					16
+				],
+				"turn": "cw",
+				"arrows": "all",
+				"labels": [
+					"driver",
+					"idler",
+					"driven"
+				]
+			}
+		},
+		{
+			"text": "Gears change speed. A small driver with 10 teeth turning a big gear with 30 teeth must turn 3 times to turn it once: 30 ÷ 10 = 3. The big gear turns more slowly, but with more turning force.",
+			"picture": {
+				"kind": "gears",
+				"gears": [
+					10,
+					30
+				],
+				"turn": "cw",
+				"marks": true
+			}
+		},
+		{
+			"text": "A big driver turning a small gear makes it spin faster. A bicycle does this with a chain: each turn of the pedals' big front gear turns the small back gear, and the back wheel, several times."
+		},
+		{
+			"text": "A pulley is a wheel with a groove for a belt or a rope. On an open belt, both pulleys turn the same way; on a crossed belt, they turn opposite ways. A small pulley driving a big one turns it more slowly.",
+			"picture": {
+				"kind": "pulleys",
+				"sizes": [
+					2,
+					5
+				],
+				"turn": "cw",
+				"arrows": "all"
+			}
+		},
+		{
+			"text": "Pulleys lift loads. With one fixed pulley, you pull down to lift up. Add a second pulley that moves with the load, and the rope holds it twice. You need about half the effort, but pull twice as much rope.",
+			"picture": {
+				"kind": "pulleys",
+				"lift": 2,
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: build a crane with a pulley on its arm, and a lift in a tower. For real: join two cotton reels with an elastic band as a belt, and see which way, and how fast, each reel turns."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a gear?",
+			"answer": 0,
+			"hint": "Look at the edge of the wheels in the pictures.",
+			"choices": [
+				"a wheel with teeth",
+				"a wheel with a groove",
+				"a kind of lever",
+				"a spring"
+			],
+			"explain": "A gear is a wheel with teeth that lock into another gear's teeth."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Two meshing gears turn in opposite directions.",
+			"answer": true,
+			"hint": "Push two touching wheels round with your fingers.",
+			"explain": "True: as one gear turns clockwise, the teeth push the other one anticlockwise."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the gear that you turn called?",
+			"answer": 0,
+			"hint": "It is the gear that drives the others.",
+			"choices": [
+				"the driver",
+				"the driven gear",
+				"the idler",
+				"the axle"
+			],
+			"explain": "The driver: it drives the driven gear."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A pulley has a groove for a belt or a rope.",
+			"answer": true,
+			"hint": "What keeps a belt from slipping off a pulley?",
+			"explain": "True: the groove holds the belt or rope in place."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The first gear turns anticlockwise. Which way does the middle gear turn?",
+			"answer": 0,
+			"hint": "Meshing gears turn opposite ways.",
+			"choices": [
+				"clockwise",
+				"anticlockwise"
+			],
+			"explain": "Clockwise: it meshes with the first gear, so it turns the opposite way.",
+			"picture": {
+				"kind": "gears",
+				"gears": [
+					12,
+					12,
+					12
+				],
+				"turn": "acw"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A small driver gear with 8 teeth turns a big gear with 24 teeth. How many times must the small gear turn to turn the big gear once?",
+			"answer": "3",
+			"hint": "All 24 teeth must pass. How many lots of 8 is that?",
+			"explain": "24 ÷ 8 = 3 turns.",
+			"picture": {
+				"kind": "gears",
+				"gears": [
+					8,
+					24
+				],
+				"turn": "cw"
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Does the driven wheel turn faster or slower?",
+			"groups": [
+				"faster",
+				"slower"
+			],
+			"items": [
+				"a small gear drives a big gear",
+				"a big gear drives a small gear",
+				"a big pulley drives a small pulley",
+				"a small pulley drives a big pulley",
+				"a bike's big front gear, small back gear"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "A small wheel must turn many times to turn a big one once.",
+			"explain": "Big driving small: faster. Small driving big: slower. A bike's big front gear spins the small back one faster."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part to its job.",
+			"items": [
+				"idler gear",
+				"bevel gears",
+				"worm gear",
+				"pulley"
+			],
+			"matches": [
+				"turn the movement round a corner",
+				"a slow turn with lots of force",
+				"a wheel for a belt or rope",
+				"keeps the direction the same"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think about what each one changes.",
+			"explain": "An idler keeps the direction, bevel gears turn a corner, a worm gear gives a slow, strong turn, and a pulley carries a belt or rope."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Pulley A turns clockwise. The belt is crossed. Which way does pulley B turn?",
+			"answer": 0,
+			"hint": "Follow the belt: does it cross over?",
+			"choices": [
+				"anticlockwise",
+				"clockwise"
+			],
+			"explain": "Anticlockwise: a crossed belt turns the second pulley the opposite way.",
+			"picture": {
+				"kind": "pulleys",
+				"sizes": [
+					4,
+					4
+				],
+				"turn": "cw",
+				"crossed": true,
+				"labels": [
+					"A",
+					"B"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "With one fixed pulley, you can pull down to lift a load up.",
+			"answer": true,
+			"hint": "Which way does the rope go over the wheel?",
+			"explain": "True: a fixed pulley changes the direction of the pull, which makes lifting easier.",
+			"picture": {
+				"kind": "pulleys",
+				"lift": 1,
+				"labels": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A driver gear with 40 teeth turns a gear with 10 teeth. The driver turns twice. How many times does the small gear turn?",
+			"answer": "8",
+			"hint": "Find how many teeth pass, then how many turns of the small gear that is.",
+			"explain": "2 × 40 = 80 teeth pass, and 80 ÷ 10 = 8 turns."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a bike's chain join a big front gear to a small back gear?",
+			"answer": 0,
+			"hint": "Which turns faster: a small gear or a big gear, joined by a chain?",
+			"choices": [
+				"so the back wheel turns faster",
+				"so the pedals turn backwards",
+				"so the chain stays clean",
+				"so the bike is quieter"
+			],
+			"explain": "Each turn of the big front gear turns the small back gear several times, so the back wheel turns faster."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A crane lifts a crate with two pulleys, one moving with the crate. About how much effort is needed?",
+			"answer": 0,
+			"hint": "How many parts of the rope hold up the moving pulley?",
+			"choices": [
+				"about half of the load",
+				"twice the load",
+				"the same as the load",
+				"no effort at all"
+			],
+			"explain": "About half: two parts of the rope share the load. But you pull twice as much rope.",
+			"picture": {
+				"kind": "pulleys",
+				"lift": 2
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put building a pulley machine in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need a plan and a frame before the moving parts.",
+			"items": [
+				"fix two axles to a frame",
+				"join them with a belt",
+				"plan what the machine must do",
+				"fit a pulley on each axle",
+				"test it and improve it"
+			],
+			"explain": "Plan it, fix the axles, fit the pulleys, join them with a belt, then test and improve."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A hand whisk uses bevel gears to turn the movement round a right angle.",
+			"answer": true,
+			"hint": "The handle turns one way, but the beaters spin another way.",
+			"explain": "True: bevel gears turn the handle's turning through a right angle, to spin the beaters."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Gear A has 20 teeth and drives gear B, which also has 20 teeth. How do they turn?",
+			"answer": 0,
+			"hint": "Count the teeth, and think about meshing.",
+			"choices": [
+				"at the same speed, opposite ways",
+				"B twice as fast",
+				"B the same way as A",
+				"B does not turn"
+			],
+			"explain": "Same teeth, so the same speed; meshing, so opposite directions."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.gear_turns",
+			"level": 1
+		},
+		{
+			"gen": "g5w.gear_turns",
+			"level": 2
+		},
+		{
+			"gen": "g5w.gear_turns",
+			"level": 3
+		},
+		{
+			"gen": "g5w.gear_direction",
+			"level": 1
+		},
+		{
+			"gen": "g5w.gear_direction",
+			"level": 2
+		},
+		{
+			"gen": "g5w.gear_direction",
+			"level": 3
+		}
+	]
+}

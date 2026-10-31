@@ -1,0 +1,452 @@
+{
+	"id": "g8.projects.invention_expo",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you made prototypes. What is a prototype? (An early model made to test an idea.) Today: invent a product with a sensor and a program, test it, and show it at an expo."
+		},
+		{
+			"text": "Start with a real problem and a real user. Interview them, watch what happens, and list their needs. Example: a family's plants dry out when they are away. The brief: an automatic plant waterer for a windowsill."
+		},
+		{
+			"text": "Plan it: a specification, and a systems diagram of the moisture sensor, the program and the pump. Add a parts list within a budget, and a Gantt chart for six weeks.",
+			"picture": {
+				"kind": "making_plan",
+				"tasks": [
+					[
+						"research users",
+						0,
+						1
+					],
+					[
+						"plan and budget",
+						1,
+						1
+					],
+					[
+						"build",
+						2,
+						2
+					],
+					[
+						"program",
+						2,
+						2
+					],
+					[
+						"test, improve",
+						4,
+						1
+					],
+					[
+						"expo stand",
+						5,
+						1
+					]
+				],
+				"columns": 6,
+				"unit": "week"
+			}
+		},
+		{
+			"text": "Build and program it: a flowchart first, then the code. Every minute it reads the soil; when the reading is below 30, the pump runs for 2 seconds.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"while True:",
+					"    m = moisture()",
+					"    if m < 30:",
+					"        pump_on()",
+					"        pause(2000)",
+					"        pump_off()",
+					"    pause(60000)"
+				]
+			}
+		},
+		{
+			"text": "Test it fairly and record each version in a table. Version 3 watered on time 18 of 20 times: 18 ÷ 20 = 0.9, so 90%. Repeat timings and work out the mean.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"version",
+						"worked",
+						"tests",
+						"percent"
+					],
+					[
+						"1",
+						"12",
+						"20",
+						"60%"
+					],
+					[
+						"2",
+						"16",
+						"20",
+						"80%"
+					],
+					[
+						"3",
+						"18",
+						"20",
+						"90%"
+					]
+				]
+			}
+		},
+		{
+			"text": "Improve the weakest part, test again, and keep a record of each version. Ask your user to try it, and listen carefully to what they say."
+		},
+		{
+			"text": "At the expo, your stand shows the problem, the product, a live demo and your results as a chart. Say what you would do next. Speak clearly, answer questions, and thank everyone who helped."
+		},
+		{
+			"text": "Try it in the world: build an expo stand in your village with a working machine. In LIFE, Talk & Deal practises a pitch: the problem, the idea, why you, what you need. The Tool Book's stopwatch times your tests. Next: a history documentary."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the invention steps in order.",
+			"items": [
+				"find a problem and a user",
+				"write a brief and a plan",
+				"test and improve it",
+				"present it at the expo",
+				"build and program it"
+			],
+			"answer": [
+				0,
+				1,
+				4,
+				2,
+				3
+			],
+			"hint": "You need a problem before a plan, and a product before an expo.",
+			"explain": "Problem and user, brief and plan, build and program, test and improve, then the expo."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which makes the best starting point for an invention?",
+			"choices": [
+				"a real need of a real user",
+				"the coolest-looking gadget",
+				"the most expensive parts",
+				"a copy of a shop product"
+			],
+			"answer": 0,
+			"hint": "Who is the invention for?",
+			"explain": "Inventions that solve a real person's real problem are the ones people use."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The waterer worked 18 times in 20 tests. What percentage is that?",
+			"answer": "90",
+			"hint": "Divide the times it worked by the tests, then times 100.",
+			"explain": "18 ÷ 20 = 0.9; 0.9 × 100 = 90%."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A live demo shows the product working at the expo.",
+			"answer": true,
+			"hint": "What does 'live' mean on a stand?",
+			"explain": "True: a live demo shows the invention really working, in front of the visitors."
+		},
+		{
+			"type": "build",
+			"level": 1,
+			"prompt": "Build the expo stand's floor: a rectangle of 12 squares with a perimeter of 14.",
+			"board": {
+				"cols": 8,
+				"rows": 6,
+				"block": 3,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 12,
+				"perimeter": 14
+			},
+			"hint": "Which two numbers multiply to 12 and add up to 7?",
+			"explain": "4 by 3: 4 × 3 = 12 squares, and 4 + 3 + 4 + 3 = 14."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In which week does this plan finish?",
+			"picture": {
+				"kind": "making_plan",
+				"tasks": [
+					[
+						"research users",
+						0,
+						1
+					],
+					[
+						"plan and budget",
+						1,
+						1
+					],
+					[
+						"build",
+						2,
+						2
+					],
+					[
+						"program",
+						2,
+						2
+					],
+					[
+						"test, improve",
+						4,
+						1
+					],
+					[
+						"expo stand",
+						5,
+						1
+					]
+				],
+				"columns": 6,
+				"unit": "week"
+			},
+			"answer": "6",
+			"hint": "Find the bar that reaches furthest to the right.",
+			"explain": "The expo stand ends in week 6, the last bar."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Five tests of how long the pump ran, in seconds: 9, 11, 10, 12 and 8. What is the mean?",
+			"answer": "10",
+			"hint": "Add the five results, then divide by 5.",
+			"explain": "9 + 11 + 10 + 12 + 8 = 50; 50 ÷ 5 = 10 seconds."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which test is fair?",
+			"choices": [
+				"the same pot, soil and water each time",
+				"a different plant each time",
+				"only testing on sunny days",
+				"changing two things at once"
+			],
+			"answer": 0,
+			"hint": "A fair test changes only one thing.",
+			"explain": "Keeping the pot, soil and water the same means any change is down to the version being tested."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part of the stand to its job.",
+			"items": [
+				"the problem",
+				"a live demo",
+				"a results chart",
+				"next steps"
+			],
+			"matches": [
+				"how it could improve",
+				"proves it with numbers",
+				"shows it working",
+				"shows why it matters"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What should each part tell a visitor?",
+			"explain": "The problem: why. The demo: it works. The chart: proof. Next steps: how it will get better."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Good expo presenting, or not?",
+			"groups": [
+				"good",
+				"not good"
+			],
+			"items": [
+				"read every word from notes",
+				"speak clearly to visitors",
+				"hide the version that failed",
+				"thank the people who helped",
+				"show the results honestly"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Would a visitor trust and enjoy it?",
+			"explain": "Good: speaking clearly, honest results, thanks. Not good: reading every word, hiding what went wrong."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If version 2 worked 16 of 20 times, it was 80% reliable.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"version",
+						"worked",
+						"tests",
+						"percent"
+					],
+					[
+						"1",
+						"12",
+						"20",
+						"60%"
+					],
+					[
+						"2",
+						"16",
+						"20",
+						"80%"
+					],
+					[
+						"3",
+						"18",
+						"20",
+						"90%"
+					]
+				]
+			},
+			"answer": true,
+			"hint": "Divide, then times 100.",
+			"explain": "True: 16 ÷ 20 = 0.8, which is 80%."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Version 1 worked 12 of 20 times and version 3 worked 18 of 20 times. By how many percentage points did it improve?",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"version",
+						"worked",
+						"tests",
+						"percent"
+					],
+					[
+						"1",
+						"12",
+						"20",
+						"60%"
+					],
+					[
+						"2",
+						"16",
+						"20",
+						"80%"
+					],
+					[
+						"3",
+						"18",
+						"20",
+						"90%"
+					]
+				]
+			},
+			"answer": "30",
+			"hint": "Turn both into percentages first, then subtract.",
+			"explain": "12 ÷ 20 = 60% and 18 ÷ 20 = 90%: 90 − 60 = 30 percentage points."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The budget is 20 gold. The sensor costs 3, the pump 6, the battery box 2 and the case 4. How much is left?",
+			"answer": "5",
+			"hint": "Add the parts, then take the total from the budget.",
+			"explain": "3 + 6 + 2 + 4 = 15; 20 − 15 = 5 gold left."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The pump sometimes floods the pot. What is the best improvement to test?",
+			"choices": [
+				"pump for 1 second, then check again",
+				"pump for 10 seconds",
+				"remove the sensor",
+				"water twice as often"
+			],
+			"answer": 0,
+			"hint": "Which change gives less water and keeps checking?",
+			"explain": "A shorter pump time with a re-check adds water in small amounts until the soil is damp, so it can't flood."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which line makes the waterer wait a minute between checks?",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"while True:",
+					"    m = moisture()",
+					"    if m < 30:",
+					"        pump_on()",
+					"        pause(2000)",
+					"        pump_off()",
+					"    pause(60000)"
+				]
+			},
+			"choices": [
+				"pause(60000)",
+				"pause(2000)",
+				"pump_on()",
+				"if m < 30:"
+			],
+			"answer": 0,
+			"hint": "pause() counts in milliseconds: how many in a minute?",
+			"explain": "60,000 milliseconds = 60 seconds = 1 minute, so pause(60000) is the wait between checks."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The mean of several tests is more trustworthy than a single test.",
+			"answer": true,
+			"hint": "Could one test be a fluke?",
+			"explain": "True: repeating tests and taking the mean evens out flukes."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.reliability",
+			"level": 1
+		},
+		{
+			"gen": "g8l.reliability",
+			"level": 2
+		},
+		{
+			"gen": "g8l.reliability",
+			"level": 3
+		},
+		{
+			"gen": "g8l.parts_budget",
+			"level": 1
+		},
+		{
+			"gen": "g8l.parts_budget",
+			"level": 2
+		},
+		{
+			"gen": "g8l.parts_budget",
+			"level": 3
+		}
+	]
+}

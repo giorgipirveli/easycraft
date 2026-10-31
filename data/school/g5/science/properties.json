@@ -1,0 +1,421 @@
+{
+	"id": "g5.science.properties",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met materials. Which would you choose for a window, and why? Glass, because it is transparent: you can see through it."
+		},
+		{
+			"text": "Materials have properties: things we can observe or measure that help us tell them apart, like a detective's clues."
+		},
+		{
+			"text": "Colour, hardness, shininess and whether a magnet pulls it are all properties. A magnet pulls iron, steel and nickel, but not copper, aluminium, wood or plastic.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"material",
+						"magnet pulls?",
+						"shiny?"
+					],
+					[
+						"iron nail",
+						"yes",
+						"yes"
+					],
+					[
+						"copper pipe",
+						"no",
+						"yes"
+					],
+					[
+						"wood",
+						"no",
+						"no"
+					],
+					[
+						"plastic",
+						"no",
+						"no"
+					]
+				]
+			}
+		},
+		{
+			"text": "Conductors let heat or electricity flow through easily: metals like copper and iron. Insulators slow them down: wood, plastic, wool and air. In a circuit, only a conductor across the gap lights the bulb.",
+			"picture": {
+				"kind": "lab_circuit",
+				"parts": [
+					"bulb"
+				],
+				"gap": true,
+				"bridge": "copper",
+				"conducts": true
+			}
+		},
+		{
+			"text": "Solubility is whether something dissolves in water: sugar and salt do; sand and oil don't.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"dissolves",
+						"does not"
+					],
+					[
+						"sugar",
+						"sand"
+					],
+					[
+						"salt",
+						"oil"
+					]
+				]
+			}
+		},
+		{
+			"text": "Scientists test properties to identify a mystery material, like a detective using clues."
+		},
+		{
+			"text": "Try it in the world: at a Science Lab bench, try \"Magnetic or not?\" and \"Float or sink?\". Predict each thing first, then test it. Next: mixing materials and making new substances."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which material does a magnet pull?",
+			"answer": 0,
+			"hint": "Magnets pull some metals.",
+			"choices": [
+				"an iron nail",
+				"a wooden spoon",
+				"a glass marble",
+				"a rubber band"
+			],
+			"explain": "Magnets pull iron, so the iron nail jumps to the magnet."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the best conductor of heat?",
+			"answer": 0,
+			"hint": "Which one gets hot in soup?",
+			"choices": [
+				"a metal spoon",
+				"a wooden spoon",
+				"a plastic spoon"
+			],
+			"explain": "Metals conduct heat well."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Salt dissolves in water.",
+			"answer": true,
+			"hint": "Stir it and it vanishes.",
+			"explain": "Yes: salt is soluble."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is an insulator?",
+			"answer": 0,
+			"hint": "Which one keeps you warm?",
+			"choices": [
+				"wool",
+				"copper",
+				"iron",
+				"steel"
+			],
+			"explain": "Wool slows heat down: it is an insulator."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Sand dissolves in water.",
+			"answer": false,
+			"hint": "Think of the beach.",
+			"explain": "No: sand sinks to the bottom and stays."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are pan handles often made of plastic or wood?",
+			"answer": 0,
+			"hint": "You hold the handle.",
+			"choices": [
+				"They are insulators, so they stay cool.",
+				"They are magnetic.",
+				"They dissolve."
+			],
+			"explain": "Insulators don't let the heat reach your hand."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are electric wires made of copper?",
+			"answer": 0,
+			"hint": "Electricity must flow through.",
+			"choices": [
+				"Copper conducts electricity well.",
+				"Copper is soft to touch.",
+				"Copper dissolves in water."
+			],
+			"explain": "Copper is a good conductor of electricity."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which test tells you whether a material is hard?",
+			"answer": 0,
+			"hint": "Hard things resist scratches.",
+			"choices": [
+				"Try to scratch it.",
+				"Smell it.",
+				"Put it in the dark."
+			],
+			"explain": "A harder material is harder to scratch."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "All metals are pulled by magnets.",
+			"answer": false,
+			"hint": "Think of a copper pipe or a drinks can. Does a magnet stick to them?",
+			"explain": "No: magnets pull iron, steel and nickel, but not copper or aluminium."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A mystery powder dissolves in water. Which could it be?",
+			"answer": 0,
+			"hint": "Which one is soluble?",
+			"choices": [
+				"salt",
+				"sand",
+				"chalk",
+				"iron filings"
+			],
+			"explain": "Salt dissolves; sand, chalk and iron don't."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Iron and aluminium cans are mixed together. How can you sort them quickly?",
+			"answer": 0,
+			"hint": "Only one is magnetic.",
+			"choices": [
+				"Use a magnet to pull out the iron.",
+				"Put them in water.",
+				"Look at their colour."
+			],
+			"explain": "A magnet pulls iron but not aluminium."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A material is shiny, conducts heat and is pulled by a magnet. What might it be?",
+			"answer": 0,
+			"hint": "Use all three clues.",
+			"choices": [
+				"iron",
+				"wood",
+				"glass",
+				"plastic"
+			],
+			"explain": "Iron is shiny, conducts heat and is magnetic."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do people wear wool in winter?",
+			"answer": 0,
+			"hint": "Keeping warm means keeping heat in.",
+			"choices": [
+				"Wool is an insulator: it keeps heat in.",
+				"Wool is magnetic.",
+				"Wool is a conductor."
+			],
+			"explain": "Wool traps air and slows heat escaping from your body."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Shininess is a property you can observe.",
+			"answer": true,
+			"hint": "Can you see it?",
+			"explain": "Yes: you can see how shiny a material is."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which cup would keep cocoa hot the longest?",
+			"answer": 0,
+			"hint": "Which is the best insulator?",
+			"choices": [
+				"a cup with a thick foam wall",
+				"a thin metal cup",
+				"a thin glass cup"
+			],
+			"explain": "Foam traps air, so it is the best insulator."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the materials: conductor or insulator?",
+			"items": [
+				"copper",
+				"wool",
+				"iron",
+				"plastic",
+				"steel",
+				"wood"
+			],
+			"groups": [
+				"conductor",
+				"insulator"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Metals let heat and electricity through. Which ones are metals?",
+			"explain": "Copper, iron and steel are metals, so they conduct. Wool, plastic and wood are insulators."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each test to the property it finds.",
+			"items": [
+				"scratch it",
+				"hold a magnet near",
+				"stir it in water",
+				"put it across a circuit gap"
+			],
+			"matches": [
+				"does it conduct?",
+				"is it soluble?",
+				"is it hard?",
+				"is it magnetic?"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Think about what each test would show you.",
+			"explain": "Scratching tests hardness; a magnet tests magnetism; stirring in water tests solubility; a circuit gap tests whether it conducts electricity."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Does it dissolve in water?",
+			"items": [
+				"sugar",
+				"sand",
+				"salt",
+				"oil"
+			],
+			"groups": [
+				"dissolves",
+				"does not dissolve"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which ones seem to vanish when you stir them in?",
+			"explain": "Sugar and salt dissolve; sand sinks and oil floats on top."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each property to what it means.",
+			"items": [
+				"transparent",
+				"magnetic",
+				"soluble"
+			],
+			"matches": [
+				"pulled by a magnet",
+				"dissolves in water",
+				"you can see through it"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Think of glass, a fridge magnet and sugar in tea.",
+			"explain": "Transparent means you can see through it, magnetic means a magnet pulls it, and soluble means it dissolves."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the materials: magnetic, soluble, or neither?",
+			"groups": [
+				"magnetic",
+				"soluble",
+				"neither"
+			],
+			"items": [
+				"an iron nail",
+				"sugar",
+				"a wooden block",
+				"a steel clip",
+				"salt",
+				"sand"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Does a magnet pull it, does it dissolve in water, or neither?",
+			"explain": "Magnetic: the iron nail and the steel clip. Soluble: sugar and salt. Neither: the wooden block and sand."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A magnet is held near iron, copper, wood, steel, plastic and aluminium. How many of the 6 does it pull?",
+			"answer": "2",
+			"hint": "Magnets pull iron, steel and nickel only.",
+			"explain": "Only iron and steel are pulled: 2 of the 6. Copper and aluminium are metals but not magnetic, and wood and plastic are not metals."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A mystery material is shiny and conducts electricity, but a magnet does not pull it. Sort: could it be this, or not?",
+			"groups": [
+				"could be",
+				"cannot be"
+			],
+			"items": [
+				"copper",
+				"iron",
+				"aluminium",
+				"wood",
+				"steel"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Check each clue in turn, and cross out anything that fails one.",
+			"explain": "Copper and aluminium are shiny metals that conduct but are not magnetic, so they could be. Iron and steel fail: a magnet pulls them. Wood fails: it is not shiny and does not conduct."
+		}
+	]
+}

@@ -1,0 +1,388 @@
+{
+	"id": "g5.science.gravity",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met pushes and pulls. What is a force? A push or a pull."
+		},
+		{
+			"text": "Gravity is a pull between objects. Earth's gravity pulls everything towards its centre.",
+			"picture": {
+				"kind": "force_arrows",
+				"thing": "ball",
+				"arrows": [
+					[
+						"down",
+						2,
+						"gravity"
+					]
+				]
+			}
+		},
+		{
+			"text": "That is why a ball falls down wherever you are on Earth: in Wales, in Australia or at the South Pole. Down always means towards Earth's centre.",
+			"picture": {
+				"kind": "force_arrows",
+				"thing": "ball",
+				"arrows": [
+					[
+						"down",
+						2,
+						"gravity"
+					]
+				],
+				"moving": "down"
+			}
+		},
+		{
+			"text": "The Moon has much less mass than Earth, so its gravity is weaker: about one sixth. You could jump about six times higher there!",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"Earth",
+						6
+					],
+					[
+						"the Moon",
+						1
+					]
+				],
+				"step": 1,
+				"top": 6,
+				"name": "gravity's pull"
+			}
+		},
+		{
+			"text": "Your mass stays the same on the Moon, but your weight, the pull of gravity on you, is less."
+		},
+		{
+			"text": "Gravity also keeps the Moon going round Earth, and Earth going round the Sun. Each moves fast along its path, and gravity keeps pulling it in, so it goes round and round.",
+			"picture": {
+				"kind": "orbit",
+				"planets": [
+					"Earth"
+				],
+				"moon": true,
+				"arrows": true,
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: fly up to the space line and land on the Moon. Jump: you float, because its gravity is much weaker than Earth's. Your mass stays the same! Next: friction, air resistance and machines."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which way does Earth's gravity pull things?",
+			"answer": 0,
+			"hint": "Which way do things fall?",
+			"choices": [
+				"towards Earth's centre",
+				"up into the sky",
+				"sideways"
+			],
+			"explain": "Gravity pulls towards Earth's centre."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Gravity makes a dropped apple fall to the ground.",
+			"answer": true,
+			"hint": "Why do things fall?",
+			"explain": "Yes: gravity pulls the apple down."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where is gravity weaker?",
+			"answer": 0,
+			"hint": "Where could you jump higher?",
+			"choices": [
+				"on the Moon",
+				"on Earth",
+				"they are the same"
+			],
+			"explain": "The Moon's gravity is weaker than Earth's."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In Australia, dropped things fall up.",
+			"answer": false,
+			"hint": "Where is Earth's centre?",
+			"explain": "No: everywhere on Earth, things fall towards its centre."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What keeps the Moon going round Earth?",
+			"answer": 0,
+			"hint": "The same pull that makes apples fall.",
+			"choices": [
+				"gravity",
+				"wind",
+				"magnets",
+				"light"
+			],
+			"explain": "Earth's gravity keeps pulling the Moon round."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "On the Moon, how high could you jump compared with on Earth?",
+			"answer": 0,
+			"hint": "Moon gravity is about one sixth.",
+			"choices": [
+				"about six times higher",
+				"the same",
+				"lower",
+				"half as high"
+			],
+			"explain": "Gravity is about one sixth as strong, so about six times higher."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A buddy has a mass of 30 kg on Earth. What is its mass on the Moon?",
+			"answer": 0,
+			"hint": "Mass is the amount of matter.",
+			"choices": [
+				"30 kg",
+				"5 kg",
+				"180 kg",
+				"0 kg"
+			],
+			"explain": "Mass stays 30 kg; only its weight changes."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Your weight on the Moon is less than on Earth.",
+			"answer": true,
+			"hint": "Weight is the pull of gravity.",
+			"explain": "Yes: weaker gravity means less weight."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is the Moon's gravity weaker than Earth's?",
+			"answer": 0,
+			"hint": "Gravity depends on mass.",
+			"choices": [
+				"The Moon has much less mass.",
+				"The Moon is colder.",
+				"The Moon has no air."
+			],
+			"explain": "Less mass means weaker gravity. Air has nothing to do with it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Two children on opposite sides of Earth drop balls. Where do the balls go?",
+			"answer": 0,
+			"hint": "Down means towards the centre.",
+			"choices": [
+				"Both fall towards Earth's centre.",
+				"One falls into space.",
+				"Both float."
+			],
+			"explain": "Both balls fall towards Earth's centre."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a thrown ball curve back down?",
+			"answer": 0,
+			"hint": "What pulls on it the whole time?",
+			"choices": [
+				"Gravity keeps pulling it towards Earth.",
+				"It gets tired.",
+				"The wind only."
+			],
+			"explain": "Gravity pulls on the ball all the way, bending its path down."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "There is no gravity in space.",
+			"answer": false,
+			"hint": "What keeps the Moon going round Earth?",
+			"explain": "No: gravity reaches far into space. It keeps the Moon going round Earth."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A rock shows 60 on Earth's scales. About what would it show on the Moon?",
+			"answer": 0,
+			"hint": "One sixth of 60.",
+			"choices": [
+				"10",
+				"60",
+				"360",
+				"0"
+			],
+			"explain": "60 ÷ 6 = 10."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What would a dropped ball do where there was no gravity at all?",
+			"answer": 0,
+			"hint": "Nothing pulls it.",
+			"choices": [
+				"It would stay floating where it was.",
+				"It would fall faster.",
+				"It would roll away."
+			],
+			"explain": "With no pull, nothing makes it fall."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order from strongest gravity to weakest.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "More mass, more gravity.",
+			"items": [
+				"Earth",
+				"the Sun",
+				"the Moon"
+			],
+			"explain": "The Sun has the most mass, then Earth, then the Moon."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the sentences: true of mass, or true of weight?",
+			"items": [
+				"the amount of matter",
+				"the pull of gravity on you",
+				"the same on the Moon",
+				"less on the Moon",
+				"measured in kg"
+			],
+			"groups": [
+				"mass",
+				"weight"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Mass is how much stuff; weight is how hard gravity pulls on it.",
+			"explain": "Mass is the amount of matter, measured in kg, and it stays the same on the Moon. Weight is gravity's pull, so it is less on the Moon."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "On the Moon, gravity is about one sixth of Earth's. A buddy jumps 1 m on Earth. About how many metres could it jump on the Moon?",
+			"answer": "6",
+			"hint": "Weaker gravity by 6 times means about 6 times as high.",
+			"explain": "About 1 × 6 = 6 m: the Moon pulls about 6 times less."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"mass",
+				"weight",
+				"gravity"
+			],
+			"matches": [
+				"a pull between objects",
+				"the amount of matter",
+				"the pull of gravity on you"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Mass stays the same on the Moon; weight does not.",
+			"explain": "Mass is the amount of matter, weight is gravity's pull on you, and gravity is a pull between objects."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Watch the picture. Which takes less time to go round once?",
+			"picture": {
+				"kind": "orbit",
+				"planets": [
+					"Earth"
+				],
+				"moon": true,
+				"labels": true,
+				"animate": true
+			},
+			"choices": [
+				"the Moon round the Earth",
+				"the Earth round the Sun",
+				"they take the same time"
+			],
+			"answer": 0,
+			"hint": "Count how many times the small one goes round while the Earth goes round the Sun once.",
+			"explain": "The Moon goes round the Earth in about a month; the Earth takes a whole year to go round the Sun."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: does it change on the Moon, or stay the same?",
+			"groups": [
+				"changes on the Moon",
+				"stays the same"
+			],
+			"items": [
+				"your weight",
+				"your mass",
+				"how high you can jump",
+				"the matter you are made of",
+				"how hard gravity pulls you"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Mass is the amount of matter; weight and jumps depend on gravity's pull.",
+			"explain": "Changes: your weight, how high you jump and how hard gravity pulls, because the Moon's gravity is about a sixth of Earth's. Stays the same: your mass, the matter you are made of."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "On Earth's scales a buddy shows 120. The Moon's gravity is about one sixth of Earth's. About what would it show on the Moon?",
+			"answer": "20",
+			"hint": "Divide by 6, because the Moon pulls about 6 times less.",
+			"explain": "120 ÷ 6 = 20. The buddy's mass is the same, but the Moon pulls on it about 6 times less."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order what happens to a ball thrown across a field.",
+			"items": [
+				"It lands on the ground.",
+				"It flies forwards and up.",
+				"Gravity bends its path down.",
+				"It starts to fall."
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Gravity pulls on the ball the whole time.",
+			"explain": "The ball flies forwards and up, gravity keeps pulling and bends its path down, it starts to fall, and it lands: a curved path."
+		}
+	]
+}

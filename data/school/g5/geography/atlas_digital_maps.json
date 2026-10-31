@@ -1,0 +1,329 @@
+{
+	"id": "g5.geography.atlas_digital_maps",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4, what does a map's scale tell you? (How far a distance on the map is in real life.) Today: how to find any place in an atlas, and how digital maps and satellite images work."
+		},
+		{
+			"text": "An atlas is a book of maps. The contents at the front list the maps by region. The index at the back lists places in alphabetical order, with the page, the grid square and often the latitude and longitude.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"place",
+						"page",
+						"square"
+					],
+					[
+						"Lima",
+						"48",
+						"B4"
+					],
+					[
+						"Nairobi",
+						"62",
+						"D3"
+					],
+					[
+						"Oslo",
+						"20",
+						"C2"
+					]
+				]
+			}
+		},
+		{
+			"text": "To find Nairobi, look under N in the index and read 'Nairobi 62 D3'. Turn to page 62, find column D along the edge and row 3 up the side, and Nairobi is in that square.",
+			"picture": {
+				"kind": "site_plan",
+				"rows": [
+					"....T",
+					"...H.",
+					"..T..",
+					"~~..."
+				],
+				"grid": true,
+				"north": true
+			}
+		},
+		{
+			"text": "Physical maps show land and water: colours for height, blue rivers and seas. Political maps show countries, borders and capital cities. Other maps show one theme, such as climate, rainfall or where people live.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"map",
+						"shows"
+					],
+					[
+						"physical",
+						"land and water"
+					],
+					[
+						"political",
+						"countries"
+					],
+					[
+						"theme",
+						"one topic"
+					]
+				]
+			}
+		},
+		{
+			"text": "Digital maps on a computer or phone let you zoom in and out. Zooming in shows a smaller area in more detail, so the scale bar changes. You can search for a place, find a route, and switch layers on and off."
+		},
+		{
+			"text": "Satellite images are photographs of Earth taken from space. They show what is really there, and pictures taken years apart show change: new towns, cleared forest or shrinking ice. Satellites also help a phone work out where it is."
+		},
+		{
+			"text": "Maps that know where you are are useful, but your location is private. Never share where you live or where you are with people online. If an app asks for your location, check with a grown-up first."
+		},
+		{
+			"text": "Try it in the world: make an index for your world's map: list your builds in alphabetical order with a grid square for each, then ask a friend to find one. Next: the Alps and the Andes."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where in an atlas is the index?",
+			"answer": 0,
+			"hint": "The contents are at the front.",
+			"choices": [
+				"at the back",
+				"at the front",
+				"in the middle",
+				"on the cover"
+			],
+			"explain": "The index is at the back; the contents are at the front."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In what order are places listed in an index?",
+			"answer": 0,
+			"hint": "Like a dictionary.",
+			"choices": [
+				"alphabetical order",
+				"order of size",
+				"order of age",
+				"any order"
+			],
+			"explain": "In alphabetical order, so you can find a name quickly."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Zooming in on a digital map shows a smaller area in more detail.",
+			"answer": true,
+			"hint": "What happens to the streets when you zoom in?",
+			"explain": "True: you see less of the world, but in more detail."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a satellite image?",
+			"answer": 0,
+			"hint": "Satellites circle Earth high above.",
+			"choices": [
+				"a photograph of Earth taken from space",
+				"a drawing by hand",
+				"a map of the stars",
+				"a painting of a rocket"
+			],
+			"explain": "A photograph of Earth taken by a satellite in space."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is safe to tell people you meet online where you live.",
+			"answer": false,
+			"hint": "Your location is private.",
+			"explain": "False: never share where you live or where you are with people online."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each map to what it shows.",
+			"items": [
+				"physical map",
+				"political map",
+				"climate map",
+				"satellite image"
+			],
+			"matches": [
+				"a real photo from space",
+				"mountains, rivers and seas",
+				"countries and capitals",
+				"hot, dry and wet places"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Physical is about land and water; political is about countries.",
+			"explain": "Physical: land and water. Political: countries. Climate map: climates. Satellite image: a photo from space."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The index says 'Lima 48 B4'. What does 48 tell you?",
+			"answer": 0,
+			"hint": "Two things follow the name: first one number, then a letter and a number.",
+			"choices": [
+				"the page",
+				"the grid square",
+				"the height",
+				"the number of people"
+			],
+			"explain": "48 is the page; B4 is the grid square."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The index says 'Lima 48 B4'. Where on page 48 do you look?",
+			"answer": 0,
+			"hint": "A grid square is a letter and a number.",
+			"choices": [
+				"in column B and row 4",
+				"4 pages after page 48",
+				"48 km from the edge",
+				"at the bottom of the page"
+			],
+			"explain": "In the square where column B meets row 4."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: a paper atlas or a digital map?",
+			"groups": [
+				"paper atlas",
+				"digital map"
+			],
+			"items": [
+				"can zoom in and out",
+				"has an index at the back",
+				"can show where you are now",
+				"works with no power",
+				"can switch on satellite view"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which needs a screen and power?",
+			"explain": "Digital: zoom, your position, satellite view. Paper atlas: an index at the back, works with no power."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does the scale bar change when you zoom in?",
+			"answer": 0,
+			"hint": "The same 1 cm now shows less of the world.",
+			"choices": [
+				"the map shows a smaller area bigger",
+				"the land has moved",
+				"the screen is broken",
+				"the Earth has grown"
+			],
+			"explain": "Zoomed in, 1 cm on the screen stands for a shorter real distance, so the scale changes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How can satellite images taken years apart help geographers?",
+			"answer": 0,
+			"hint": "Compare two pictures of the same place.",
+			"choices": [
+				"they show how places have changed",
+				"they show the future",
+				"they stop forests being cut",
+				"they show underground rivers"
+			],
+			"explain": "They show change: new towns, cleared forest or shrinking ice."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "On a digital map, 1 cm stands for 500 m. The path is 6 cm long on the screen. How long is it really, in metres?",
+			"answer": "3000",
+			"hint": "Every centimetre is 500 m for real: multiply.",
+			"explain": "6 × 500 = 3,000 m."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An app you have downloaded asks to know your location. What should you do?",
+			"answer": 0,
+			"hint": "Your location is private.",
+			"choices": [
+				"check with a grown-up first",
+				"always say yes",
+				"post your address instead",
+				"tell a stranger"
+			],
+			"explain": "Check with a grown-up first: they can help you decide whether it is safe and needed."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The index lists Oslo at 60°N and Lima at 12°S. How many degrees of latitude apart are they?",
+			"answer": "72",
+			"hint": "Count from Oslo down to the Equator, then on to Lima.",
+			"explain": "60° to the Equator and 12° more: 60 + 12 = 72°."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do atlas indexes give latitude and longitude as well as pages?",
+			"answer": 0,
+			"hint": "A page number only works in one atlas.",
+			"choices": [
+				"so you can find the place on any map or globe",
+				"because pages get lost",
+				"to make the book longer",
+				"so you know the weather"
+			],
+			"explain": "Latitude and longitude find a place on any map or globe, not just in that book."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Find Nairobi in an atlas. Put the steps in order.",
+			"items": [
+				"Turn to page 62.",
+				"Find column D and row 3.",
+				"Look under N in the index.",
+				"Read 'Nairobi 62 D3'."
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "The index at the back comes first.",
+			"explain": "Look under N in the index at the back, read 'Nairobi 62 D3', turn to page 62, and find the square where column D meets row 3."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5h.atlas_index",
+			"level": 1
+		},
+		{
+			"gen": "g5h.atlas_index",
+			"level": 2
+		},
+		{
+			"gen": "g5h.atlas_index",
+			"level": 3
+		}
+	]
+}

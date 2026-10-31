@@ -1,0 +1,514 @@
+{
+	"id": "g7.music.perform_together",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, what does a conductor's beat pattern show? (Where each beat of the bar falls.) Today: performing together: balance, cues and listening to each other."
+		},
+		{
+			"text": "In a group every part has a job: the melody (the tune), the harmony (the chords), the bass and the rhythm. Players listen to each other as much as to themselves."
+		},
+		{
+			"text": "Balance: the melody must be heard over the other parts. Listen: the chords are soft, so the tune shines through.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5",
+					"D5",
+					"C5",
+					"D5",
+					"E5",
+					"E5",
+					"E5:2"
+				],
+				"parts": [
+					{
+						"notes": [
+							"C4+E4+G4:2",
+							"G3+B3+D4:2",
+							"C4+E4+G4:4"
+						],
+						"volume": 0.3
+					}
+				]
+			}
+		},
+		{
+			"text": "A mixing desk balances a band: each part has a fader, and pushing it up makes that part louder. The part with the tune, often the vocals, sits on top.",
+			"picture": {
+				"kind": "mixer",
+				"faders": [
+					[
+						"vocals",
+						9
+					],
+					[
+						"guitar",
+						6
+					],
+					[
+						"bass",
+						7
+					],
+					[
+						"drums",
+						5
+					]
+				],
+				"meters": true
+			}
+		},
+		{
+			"text": "Cues keep everyone together: a count-in (1, 2, 3, 4), a nod, a breath, or the leader lifting an instrument. Watch the leader at the start and the end.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 100
+			}
+		},
+		{
+			"text": "Dynamics are loudness marks: p (piano) soft, mf fairly loud, f (forte) loud, and hairpins for growing louder (a crescendo) or softer (a diminuendo). Everyone follows them together.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Mark",
+						"Means"
+					],
+					[
+						"p",
+						"soft"
+					],
+					[
+						"mf",
+						"fairly loud"
+					],
+					[
+						"f",
+						"loud"
+					],
+					[
+						"crescendo",
+						"growing louder"
+					]
+				]
+			}
+		},
+		{
+			"text": "Worked example: in a round, the parts start at different times, so each group counts its rests and comes in on cue. If you get lost, listen for the tune and join again at the next bar.",
+			"picture": {
+				"kind": "tracks",
+				"bars": 8,
+				"tracks": [
+					[
+						"group 1",
+						[
+							[
+								0,
+								4
+							]
+						]
+					],
+					[
+						"group 2",
+						[
+							[
+								2,
+								4
+							]
+						]
+					],
+					[
+						"group 3",
+						[
+							[
+								4,
+								4
+							]
+						]
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: sing or clap a round with your family, with one person as the leader giving the count-in and the ending. Next: the bass clef."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part will you hear the most?",
+			"answer": 0,
+			"hint": "The higher the fader, the louder the part.",
+			"choices": [
+				"guitar",
+				"vocals",
+				"bass",
+				"drums"
+			],
+			"explain": "The guitar's fader is highest, at 9.",
+			"picture": {
+				"kind": "mixer",
+				"faders": [
+					[
+						"vocals",
+						5
+					],
+					[
+						"guitar",
+						9
+					],
+					[
+						"bass",
+						6
+					],
+					[
+						"drums",
+						4
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a count-in?",
+			"answer": 0,
+			"hint": "What happens just before the music starts?",
+			"choices": [
+				"counting 1, 2, 3, 4 so all start together",
+				"counting the audience",
+				"the last note",
+				"a solo"
+			],
+			"explain": "The leader counts 1, 2, 3, 4 so everyone starts together."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a group, the melody should be heard over the other parts.",
+			"answer": true,
+			"hint": "What does the audience follow?",
+			"explain": "True: the tune leads; the other parts support it."
+		},
+		{
+			"type": "rhythm",
+			"level": 1,
+			"prompt": "Copy the count-in: four claps, one on each beat.",
+			"hint": "One clap, one gap, again and again.",
+			"explain": "Claps in boxes 1, 3, 5 and 7: one on each beat.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does f mean in music?",
+			"answer": 0,
+			"hint": "It comes from Italian.",
+			"choices": [
+				"forte: loud",
+				"fast",
+				"finish",
+				"fingers"
+			],
+			"explain": "f is forte: loud."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: is the balance right, with the tune clear over the chords?",
+			"answer": 0,
+			"hint": "Can you hear the high tune easily?",
+			"choices": [
+				"no, the chords drown the tune",
+				"yes, the tune is clear"
+			],
+			"explain": "The chords are loud and the tune is faint: the chords must play softer.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"G3+B3+D4:2",
+					"C4+E4+G4:4"
+				],
+				"parts": [
+					{
+						"notes": [
+							"E5",
+							"D5",
+							"C5",
+							"D5",
+							"E5",
+							"E5",
+							"E5:2"
+						],
+						"volume": 0.3
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: is the balance right, with the tune clear over the chords?",
+			"answer": 0,
+			"hint": "Can you hear the high tune easily?",
+			"choices": [
+				"yes, the tune is clear",
+				"no, the chords drown the tune"
+			],
+			"explain": "The chords are soft and the tune stands out: well balanced.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5",
+					"D5",
+					"C5",
+					"D5",
+					"E5",
+					"E5",
+					"E5:2"
+				],
+				"parts": [
+					{
+						"notes": [
+							"C4+E4+G4:2",
+							"G3+B3+D4:2",
+							"C4+E4+G4:4"
+						],
+						"volume": 0.3
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The tune is in the vocals, and it must be heard over the rest. Which fader should go up?",
+			"answer": 0,
+			"hint": "Balance: the part with the tune should be loudest.",
+			"choices": [
+				"vocals",
+				"guitar",
+				"bass",
+				"drums"
+			],
+			"explain": "The vocals are at 4 but the guitar is at 8: push the vocals up above it.",
+			"picture": {
+				"kind": "mixer",
+				"faders": [
+					[
+						"vocals",
+						4
+					],
+					[
+						"guitar",
+						8
+					],
+					[
+						"bass",
+						6
+					],
+					[
+						"drums",
+						5
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the dynamics in order, softest first.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "p is soft and f is loud; doubling makes it more so.",
+			"items": [
+				"p",
+				"f",
+				"pp",
+				"mf",
+				"ff"
+			],
+			"explain": "pp (very soft), p, mf, f, ff (very loud)."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each sign to its meaning.",
+			"items": [
+				"p",
+				"f",
+				"crescendo",
+				"diminuendo"
+			],
+			"matches": [
+				"loud",
+				"growing louder",
+				"growing softer",
+				"soft"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Piano means soft, forte loud.",
+			"explain": "p: soft; f: loud; crescendo: louder; diminuendo: softer."
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Copy the rhythm your group plays in the round.",
+			"hint": "Listen for the pair of quick claps.",
+			"explain": "Claps in boxes 1, 3, 4 and 6.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xx-x--",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The vocals must be 2 steps louder than the loudest other part. How many steps must the vocals' fader go up?",
+			"answer": "4",
+			"hint": "Find the loudest other part, add 2, then take away where the vocals are now.",
+			"explain": "The keys are loudest at 7; 7 + 2 = 9; 9 − 5 = 4 steps.",
+			"picture": {
+				"kind": "mixer",
+				"faders": [
+					[
+						"vocals",
+						5
+					],
+					[
+						"keys",
+						7
+					],
+					[
+						"bass",
+						6
+					],
+					[
+						"drums",
+						3
+					]
+				],
+				"mark": 0
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen: which part is louder, the low one or the high one?",
+			"answer": 0,
+			"hint": "Listen to each part in turn.",
+			"choices": [
+				"the low one",
+				"the high one"
+			],
+			"explain": "The low bass part is loud and the high tune is soft.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3:2",
+					"G2:2",
+					"A2:2",
+					"F2:2"
+				],
+				"parts": [
+					{
+						"notes": [
+							"E5",
+							"G5",
+							"C6",
+							"B5",
+							"A5",
+							"G5",
+							"F5",
+							"E5"
+						],
+						"volume": 0.3
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In the middle of a piece, you are not sure where the others are. What should you do?",
+			"answer": 0,
+			"hint": "The music will not wait, but it will come round again.",
+			"choices": [
+				"listen for the tune and join at the next bar",
+				"stop everyone",
+				"play louder",
+				"start again from the beginning"
+			],
+			"explain": "Keep calm, listen for the tune, and come back in at the start of the next bar."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which part will you hear the most?",
+			"answer": 0,
+			"hint": "Look at the faders.",
+			"choices": [
+				"chords",
+				"melody"
+			],
+			"explain": "The chords are at 9 and the melody at 3, so the chords are loudest: the balance is wrong.",
+			"picture": {
+				"kind": "mixer",
+				"faders": [
+					[
+						"melody",
+						3
+					],
+					[
+						"chords",
+						9
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen to the count-in. How many beats does it count before the music would start?",
+			"answer": "3",
+			"hint": "Count the claps.",
+			"explain": "Three claps: a count-in for music in 3/4.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-",
+				"tempo": 90
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.mix_balance",
+			"level": 1
+		},
+		{
+			"gen": "g7c.mix_balance",
+			"level": 2
+		},
+		{
+			"gen": "g7c.mix_balance",
+			"level": 3
+		}
+	]
+}

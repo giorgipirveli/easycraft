@@ -1,0 +1,320 @@
+{
+	"id": "g4.art.kind_feedback",
+	"lesson": [
+		{
+			"text": "Quick memory: what is pixel art? (A picture made on a grid of squares.) Today: talking about art, and helping each other improve."
+		},
+		{
+			"text": "Feedback is what people say about your work to help you make it better. Good feedback is kind: about the work, not the person. It is specific: it says exactly what. And it is helpful: it gives an idea to try."
+		},
+		{
+			"text": "Use sentence starters: I like … because …, I notice …, I wonder if … or What if you tried …?",
+			"picture": {
+				"kind": "chat",
+				"messages": [
+					[
+						"them",
+						"I like the colours because they glow."
+					],
+					[
+						"them",
+						"I notice the sky is very dark."
+					],
+					[
+						"them",
+						"What if you tried a lighter sun?"
+					]
+				]
+			}
+		},
+		{
+			"text": "Two stars and a wish: say two things you like, then one wish for what could be even better.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"star or wish",
+						"what they said"
+					],
+					[
+						"star",
+						"the warm orange sky"
+					],
+					[
+						"star",
+						"neat, bold lines"
+					],
+					[
+						"wish",
+						"a bigger tree?"
+					]
+				]
+			}
+		},
+		{
+			"text": "Worked example: not It's nice, but I like the bright orange sky because it feels warm. I wonder if the tree could be bigger, so it looks nearer.",
+			"picture": {
+				"kind": "landscape",
+				"mark": "foreground",
+				"labels": true
+			}
+		},
+		{
+			"text": "Getting feedback: listen, say thank you, then choose what to change. It is your work: you decide. Leonardo da Vinci filled notebooks with sketches and drafts before he painted."
+		},
+		{
+			"text": "Improve, then compare: put your first draft and your new one side by side. What got better? Every draft teaches you something."
+		},
+		{
+			"text": "Try it in the world: visit a friend's build in your world and give two stars and a wish. Then ask for feedback on your own build, and make one change."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which feedback is kind and helpful?",
+			"answer": 0,
+			"hint": "Is it about the work? Does it give an idea?",
+			"choices": [
+				"I love the colours. Could the tree be taller?",
+				"It's bad.",
+				"Mine is better.",
+				"Whatever."
+			],
+			"explain": "It says what works and gives an idea to try: kind and helpful."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Feedback should be about the work, not the person.",
+			"answer": true,
+			"hint": "Kind feedback talks about what?",
+			"explain": "True: talk about the picture or the build, never about the person."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: helpful feedback or not?",
+			"groups": [
+				"helpful",
+				"not helpful"
+			],
+			"items": [
+				"I like how you shaded the ball.",
+				"I wonder if the sky could be bluer.",
+				"What if you added a bird?",
+				"Mine is better.",
+				"Boring.",
+				"I don't get it."
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Does it say something specific, or give an idea?",
+			"explain": "Helpful: shading, a bluer sky, a bird. Not helpful: comparing, one word, no idea."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should you say when someone gives you feedback?",
+			"answer": 0,
+			"hint": "They took time to help you.",
+			"choices": [
+				"thank you",
+				"you're wrong",
+				"nothing at all",
+				"I don't care"
+			],
+			"explain": "Say thank you, then choose what to change."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each sentence starter to what it does.",
+			"items": [
+				"I like … because …",
+				"I notice …",
+				"I wonder if …",
+				"Two stars and a wish"
+			],
+			"matches": [
+				"two likes and one idea",
+				"says what works",
+				"says what you see",
+				"gives an idea to try"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Liking, noticing and wondering do different jobs.",
+			"explain": "I like says what works, I notice what you see, I wonder gives an idea; two stars and a wish does all three."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which feedback is specific?",
+			"answer": 0,
+			"hint": "Which one says exactly what?",
+			"choices": [
+				"The shadow under the ball looks real.",
+				"It's good.",
+				"Nice.",
+				"I like it."
+			],
+			"explain": "It names exactly what works: the shadow under the ball."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of giving feedback in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Look before you speak; listen at the end.",
+			"items": [
+				"Listen to the artist's answer",
+				"Ask a question or share an idea",
+				"Say what you like and why",
+				"Look closely at the work"
+			],
+			"explain": "Look, say what you like, share an idea, then listen."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does two stars and a wish mean?",
+			"answer": 0,
+			"hint": "Stars are for what you like.",
+			"choices": [
+				"two things you like and one idea",
+				"two drawings and a star",
+				"a wish for a prize",
+				"two questions only"
+			],
+			"explain": "Two stars: two things you like. A wish: one idea to make it better."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When you get feedback, you must change everything they said.",
+			"answer": false,
+			"hint": "Whose work is it?",
+			"explain": "False: listen and say thank you, then you decide what to change."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara says: Your castle is boring. How could she say it more helpfully?",
+			"answer": 0,
+			"hint": "Change it into an idea to try.",
+			"choices": [
+				"I wonder if a tall tower would help.",
+				"It's really bad.",
+				"Nobody likes castles.",
+				"Just start again."
+			],
+			"explain": "I wonder if a tall tower would help. gives a kind idea about the work."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do artists make drafts?",
+			"answer": 0,
+			"hint": "Think of Leonardo's notebooks.",
+			"choices": [
+				"each draft can improve on the last",
+				"to use up more paper",
+				"to hide their work",
+				"to finish faster"
+			],
+			"explain": "Each draft is a chance to try ideas and feedback, and improve."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: specific or vague?",
+			"groups": [
+				"specific",
+				"vague"
+			],
+			"items": [
+				"the orange sky feels warm",
+				"the tree could be taller",
+				"the eyes are a bit high",
+				"nice",
+				"cool",
+				"good job"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Does it say exactly what?",
+			"explain": "Specific: the sky, the tree, the eyes. Vague: nice, cool, good job."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Kind feedback can still suggest a change.",
+			"answer": true,
+			"hint": "Think of two stars and a wish.",
+			"explain": "True: the wish is a kind idea for a change."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "You get feedback: I wonder if the sea could be bluer. You like your green sea. What can you do?",
+			"answer": 0,
+			"hint": "Whose choice is it?",
+			"choices": [
+				"say thank you and keep it",
+				"shout at them",
+				"throw the painting away",
+				"never paint again"
+			],
+			"explain": "Say thank you. It is your work, so you can keep your green sea."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each comment on a drawing to what kind of feedback it is.",
+			"items": [
+				"The shadow makes it look round.",
+				"Could the sky be bluer?",
+				"It's nice.",
+				"You can't draw."
+			],
+			"matches": [
+				"a wish: an idea to try",
+				"a star: specific praise",
+				"vague: says nothing",
+				"unkind: about the person"
+			],
+			"answer": [
+				1,
+				0,
+				2,
+				3
+			],
+			"hint": "Is it about the work or the person? Does it say exactly what? Does it give an idea?",
+			"explain": "The shadow comment is a star: it names exactly what works. The bluer sky is a wish: an idea to try. 'It's nice' is vague. 'You can't draw' is unkind, because it is about the person, not the work."
+		}
+	],
+	"generators": []
+}

@@ -1,0 +1,391 @@
+{
+	"id": "g3.design_tech.strong_structures",
+	"lesson": [
+		{
+			"text": "Quick memory: what are the five steps of the design cycle? (Idea, plan, make, test, improve.) Today we plan, make and test structures."
+		},
+		{
+			"text": "A structure holds something up or keeps its shape: a bridge, a tower, a chair, a shelf. Whatever it must hold is called its load."
+		},
+		{
+			"text": "A frame structure is a skeleton of bars, like an electricity pylon, a climbing frame or a bicycle. A shell structure is a hollow outer skin, like an egg, a box or a helmet.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"frame",
+						"shell"
+					],
+					[
+						"a pylon",
+						"an egg"
+					],
+					[
+						"a climbing frame",
+						"a box"
+					],
+					[
+						"a bicycle",
+						"a helmet"
+					]
+				]
+			}
+		},
+		{
+			"text": "Triangles make the strongest frames. Push a square frame and it squashes into a diamond; add a diagonal bar to make two triangles, and it stays firm.",
+			"picture": {
+				"kind": "frame",
+				"frames": [
+					"square",
+					"pushed",
+					"braced"
+				],
+				"labels": [
+					"square",
+					"pushed",
+					"braced"
+				]
+			}
+		},
+		{
+			"text": "Paper and card get much stiffer when you fold, roll or layer them. A flat sheet flops, but a tube or a zigzag fold can hold up a book.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Paper shape",
+						"Holds a book?"
+					],
+					[
+						"flat sheet",
+						"no, it flops"
+					],
+					[
+						"rolled tube",
+						"yes"
+					],
+					[
+						"zigzag fold",
+						"yes"
+					]
+				]
+			}
+		},
+		{
+			"text": "A wide base makes a tower steadier, and putting the heavy parts at the bottom helps it not topple over."
+		},
+		{
+			"text": "Stiff means it does not bend; strong means it does not break. Test by adding loads one at a time, like coins, and count how many it holds."
+		},
+		{
+			"text": "Try it in the world: build a bridge with a frame of triangles, like a real steel bridge, and a tall tower with a wide base. Look for triangles in the buildings around you!"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which shape makes a frame the strongest?",
+			"answer": 0,
+			"hint": "Which frame did not squash when it was pushed?",
+			"choices": [
+				"a triangle",
+				"a square",
+				"a circle",
+				"a rectangle"
+			],
+			"explain": "A triangle keeps its shape when pushed, so it is the strongest."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Is it a frame structure or a shell structure?",
+			"groups": [
+				"frame",
+				"shell"
+			],
+			"items": [
+				"an egg",
+				"a climbing frame",
+				"a bicycle",
+				"a box",
+				"a helmet",
+				"an electricity pylon"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "A frame is bars; a shell is a hollow skin.",
+			"explain": "Frames: a climbing frame, a bicycle, a pylon. Shells: an egg, a box, a helmet."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A square frame can be pushed out of shape easily.",
+			"answer": true,
+			"hint": "Look at the pushed square in the lesson.",
+			"explain": "True: a square frame squashes into a diamond unless it is braced.",
+			"picture": {
+				"kind": "frame",
+				"frames": [
+					"square",
+					"pushed"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which base makes a tower steadier?",
+			"answer": 0,
+			"hint": "Would a wide or a narrow tower tip over more easily?",
+			"choices": [
+				"a wide base",
+				"a thin, pointy base",
+				"no base at all",
+				"a base of one block"
+			],
+			"explain": "A wide base is steadier, so the tower is harder to tip over."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How can you make a square frame stiff?",
+			"answer": 0,
+			"hint": "Which shape does a diagonal make?",
+			"choices": [
+				"add a diagonal bar",
+				"take away a bar",
+				"paint it",
+				"make it taller"
+			],
+			"explain": "A diagonal bar splits the square into two triangles, so it stays firm.",
+			"picture": {
+				"kind": "frame",
+				"frames": [
+					"square",
+					"braced"
+				],
+				"labels": [
+					"A",
+					"B"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is stiffer?",
+			"answer": 0,
+			"hint": "Which one could stand up on its own?",
+			"choices": [
+				"a sheet of paper rolled into a tube",
+				"a flat sheet of paper",
+				"a crumpled wet sheet",
+				"half a flat sheet"
+			],
+			"explain": "A rolled tube is much stiffer than a flat sheet of the same paper."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Folding card into a zigzag makes it stiffer.",
+			"answer": true,
+			"hint": "Think of the card inside a cardboard box.",
+			"explain": "True: zigzag folds, like those inside cardboard, make card much stiffer."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"load",
+				"frame",
+				"shell",
+				"stiff"
+			],
+			"matches": [
+				"a skeleton of bars",
+				"a hollow outer skin",
+				"does not bend easily",
+				"what a structure holds"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the lesson cards.",
+			"explain": "Load: what it holds. Frame: a skeleton of bars. Shell: a hollow outer skin. Stiff: does not bend easily."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do bridges and cranes have so many triangles?",
+			"answer": 0,
+			"hint": "What happened when the square was pushed?",
+			"choices": [
+				"triangles keep their shape under a load",
+				"triangles look pretty",
+				"triangles use more metal",
+				"triangles are easy to paint"
+			],
+			"explain": "A triangle cannot change shape unless a bar breaks, so triangles keep bridges and cranes firm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara's tall tower keeps toppling over. What could help?",
+			"answer": 0,
+			"hint": "Should the heavy parts and the width be at the top or the bottom?",
+			"choices": [
+				"make the base wider",
+				"make the top heavier",
+				"make the base thinner",
+				"build it on a slope"
+			],
+			"explain": "A wider base (and heavy parts at the bottom) makes the tower steadier."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the difference between stiff and strong?",
+			"answer": 0,
+			"hint": "Think of a ruler bending and snapping.",
+			"choices": [
+				"stiff does not bend; strong does not break",
+				"they mean the same",
+				"stiff breaks; strong bends",
+				"strong means heavy"
+			],
+			"explain": "Something stiff does not bend much; something strong does not break."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put a fair test of paper bridges in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "A fair test keeps everything the same but the thing you test.",
+			"items": [
+				"record how many each one holds",
+				"add coins one at a time",
+				"put each one across the same gap",
+				"make bridges of the same paper and length"
+			],
+			"explain": "Same paper and length, same gap, coins one at a time, then record how many each holds."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A shell structure has lots of bars inside, like a skeleton.",
+			"answer": false,
+			"hint": "Think of an egg.",
+			"explain": "False: that is a frame. A shell is a hollow outer skin, like an egg or a box."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which of these frames will stay firm when pushed?",
+			"answer": 0,
+			"hint": "Look for the frame made of triangles.",
+			"choices": [
+				"B",
+				"A",
+				"C"
+			],
+			"explain": "B is braced with a diagonal into two triangles, so it stays firm.",
+			"picture": {
+				"kind": "frame",
+				"frames": [
+					"square",
+					"braced",
+					"pushed"
+				],
+				"labels": [
+					"A",
+					"B",
+					"C"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: does it make a structure stronger and steadier, or weaker?",
+			"groups": [
+				"stronger or steadier",
+				"weaker"
+			],
+			"items": [
+				"add a diagonal bar",
+				"a wider base",
+				"roll paper into a tube",
+				"a thin, pointy base",
+				"heavy parts at the top"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Triangles, tubes, folds and wide bases help. What makes things bend or topple?",
+			"explain": "Stronger or steadier: a diagonal bar (two triangles), a wider base, paper rolled into a tube. Weaker: a thin, pointy base and heavy parts at the top, which make it topple."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the paper supports from the weakest to the strongest.",
+			"items": [
+				"a rolled tube",
+				"a flat sheet",
+				"a sheet folded once"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Folding and rolling make paper stiffer. Which shape is stiffest?",
+			"explain": "A flat sheet flops, a sheet folded once is stiffer, and a rolled tube is stiffest of all: it can hold up a book."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each problem to the fix that helps most.",
+			"items": [
+				"a tower that topples",
+				"a square frame that wobbles",
+				"a paper bridge that sags",
+				"a shelf that bends"
+			],
+			"matches": [
+				"fold or roll the paper",
+				"add a diagonal bar",
+				"make the base wider",
+				"make it thicker or stiffer"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "Think of wide bases, triangles, folding and stiffness.",
+			"explain": "A wider base stops a tower toppling. A diagonal bar turns a wobbly square into two firm triangles. Folding or rolling paper makes it stiff, so the bridge sags less. A thicker or stiffer shelf bends less."
+		}
+	],
+	"generators": []
+}

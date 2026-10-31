@@ -1,0 +1,215 @@
+{
+	"id": "g6.maths.negatives",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met the coordinate grid. What is the point where the two axes meet called? The origin, (0, 0)."
+		},
+		{
+			"text": "Negative numbers are less than 0. They show temperatures below freezing (−5 °C), places below sea level (−20 m) and money owed (−10 coins).",
+			"picture": {
+				"kind": "thermometer",
+				"from": -10,
+				"to": 10,
+				"step": 2,
+				"value": -5
+			}
+		},
+		{
+			"text": "On a number line, numbers get smaller to the left: −8 is less than −3, because it is farther left.",
+			"picture": {
+				"kind": "number_line",
+				"from": "-10",
+				"to": "10",
+				"step": "1",
+				"dot": "-8",
+				"labels": "all"
+			}
+		},
+		{
+			"text": "The opposite of 6 is −6: the same distance from 0, on the other side."
+		},
+		{
+			"text": "Absolute value is the distance from 0: |−7| = 7 and |7| = 7."
+		},
+		{
+			"text": "Try it in the world: dig a mine 12 blocks below sea level in your world: that is −12. Climb a hill 8 blocks high: +8. How far apart are they? 20 blocks. Next: the coordinate plane."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is colder?",
+			"answer": 0,
+			"hint": "Colder is lower on a thermometer.",
+			"choices": [
+				"−8 °C",
+				"−3 °C"
+			],
+			"explain": "−8 is lower than −3."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "|−12| = ?",
+			"answer": "12",
+			"hint": "Distance from 0.",
+			"explain": "−12 is 12 away from 0."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "−5 is less than 2.",
+			"answer": true,
+			"hint": "Negatives are less than 0.",
+			"explain": "Yes: −5 is to the left of 2."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the opposite of −9?",
+			"answer": 0,
+			"hint": "The other side of 0.",
+			"choices": [
+				"9",
+				"−9",
+				"0"
+			],
+			"explain": "9 is the same distance from 0 on the other side."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, least first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start farthest left.",
+			"items": [
+				"3",
+				"0",
+				"−4",
+				"−10"
+			],
+			"explain": "−10, −4, 0, 3."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "−2 is greater than −6.",
+			"answer": true,
+			"hint": "Which is farther right?",
+			"explain": "Yes: −2 is to the right of −6."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A lift goes from floor −2 to floor 5. How many floors does it rise?",
+			"answer": "7",
+			"hint": "Count from −2 to 0, then to 5.",
+			"explain": "From floor −2 up to floor 0 is 2 floors, and from 0 up to floor 5 is 5 more: 2 + 5 = 7 floors."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Nell owes 15 coins. Which number shows that?",
+			"answer": 0,
+			"hint": "Owing is less than nothing.",
+			"choices": [
+				"−15",
+				"15",
+				"|15|"
+			],
+			"explain": "Money you have is positive and money you owe is negative, so owing 15 coins is −15. |15| is just 15, its distance from 0."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each situation to its number.",
+			"items": [
+				"5 °C below zero",
+				"20 m below sea level",
+				"owing 10 coins",
+				"3 floors up"
+			],
+			"matches": [
+				"−10",
+				"3",
+				"−5",
+				"−20"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Below zero, below sea level and owing are negative.",
+			"explain": "5 °C below zero is −5; 20 m below sea level is −20; owing 10 coins is −10; 3 floors up is 3."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the numbers: is the absolute value more than 5?",
+			"items": [
+				"−8",
+				"3",
+				"−2",
+				"7",
+				"−5",
+				"−11"
+			],
+			"groups": [
+				"more than 5",
+				"5 or less"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Absolute value is the distance from 0, whichever side.",
+			"explain": "|−8| = 8, |7| = 7 and |−11| = 11 are more than 5. |3| = 3, |−2| = 2 and |−5| = 5 are not."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "At 6 am it was −7 °C. By noon it was 5 °C. How many degrees did it warm up?",
+			"answer": "12",
+			"hint": "Count up to 0 first, then on to 5.",
+			"explain": "From −7 up to 0 is 7 degrees, and from 0 up to 5 is 5 more: 7 + 5 = 12 degrees warmer."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6n.compare_integers",
+			"level": 1
+		},
+		{
+			"gen": "g6n.compare_integers",
+			"level": 2
+		},
+		{
+			"gen": "g6n.compare_integers",
+			"level": 3
+		},
+		{
+			"gen": "g6n.absolute_value",
+			"level": 1
+		},
+		{
+			"gen": "g6n.absolute_value",
+			"level": 2
+		},
+		{
+			"gen": "g6n.absolute_value",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,598 @@
+{
+	"id": "moon_ice_fuel",
+	"title": "Ice into rocket fuel",
+	"topic": "space",
+	"link": {
+		"star_map": true
+	},
+	"scenes": [
+		{
+			"seconds": 9.5,
+			"background": "space",
+			"caption": "Near the Moon's poles, some deep craters never see the Sun.",
+			"say": "Near the Moon's poles, the floors of some deep craters never see the Sun. They are so cold that ice stays there.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 4.2,
+					"effect": "ice_crackle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 380,
+					"h": 180,
+					"at": [
+						180,
+						400
+					],
+					"color": "grey",
+					"moves": [],
+					"bleed": true
+				},
+				{
+					"kind": "shape",
+					"shape": "crater",
+					"at": [
+						180,
+						345
+					],
+					"size": 180,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.3
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "sun",
+					"at": [
+						30,
+						150
+					],
+					"size": 70,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.6,
+							"from": [
+								-80,
+								150
+							]
+						}
+					],
+					"bleed": true
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						70,
+						170
+					],
+					"to": [
+						150,
+						300
+					],
+					"color": "yellow",
+					"width": 6,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.4,
+							"dur": 0.8
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "ice",
+					"at": [
+						205,
+						350
+					],
+					"size": 50,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.0
+						},
+						{
+							"do": "pulse",
+							"at": 4.8,
+							"times": 2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "spark",
+					"at": [
+						205,
+						350
+					],
+					"size": 90,
+					"color": "white",
+					"moves": [
+						{
+							"do": "draw",
+							"at": 4.2,
+							"dur": 0.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "always dark and cold",
+					"at": [
+						220,
+						250
+					],
+					"size": 20,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8,
+			"background": "space",
+			"caption": "Explorers could dig the icy dust and melt it into water.",
+			"say": "Explorers could dig up the icy dust and melt it into water.",
+			"sounds": [
+				{
+					"at": 0.5,
+					"effect": "thud"
+				},
+				{
+					"at": 3.4,
+					"effect": "splash"
+				}
+			],
+			"actors": [
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						80,
+						300
+					],
+					"size": 120,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.2,
+							"from": [
+								-100,
+								300
+							]
+						},
+						{
+							"do": "bounce",
+							"at": 1.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "ice",
+					"at": [
+						220,
+						260
+					],
+					"size": 100,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.8
+						},
+						{
+							"do": "shake",
+							"at": 1.8,
+							"amount": 4
+						},
+						{
+							"do": "out",
+							"at": 3.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						220,
+						360
+					],
+					"size": 60,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.8
+						},
+						{
+							"do": "out",
+							"at": 4.4
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						220,
+						260
+					],
+					"size": 100,
+					"color": "sky",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						},
+						{
+							"do": "bounce",
+							"at": 4.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "water",
+					"at": [
+						220,
+						150
+					],
+					"size": 30,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "lab",
+			"caption": "Electricity splits water: 9 kg makes 1 kg of hydrogen and 8 kg of oxygen.",
+			"say": "Electricity from sunlight splits water into two gases: 9 kilograms of water make 1 of hydrogen and 8 of oxygen.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "pop"
+				},
+				{
+					"at": 2.4,
+					"effect": "spark_pop"
+				},
+				{
+					"at": 3.2,
+					"effect": "bubbles"
+				}
+			],
+			"actors": [
+				{
+					"kind": "part",
+					"part": "SOLAR_ARRAY",
+					"at": [
+						70,
+						90
+					],
+					"size": 80,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.3
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "bolt",
+					"at": [
+						140,
+						170
+					],
+					"size": 60,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.2
+						},
+						{
+							"do": "shake",
+							"at": 2.6,
+							"amount": 4
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "drop",
+					"at": [
+						180,
+						260
+					],
+					"size": 110,
+					"color": "sky",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.6
+						},
+						{
+							"do": "out",
+							"at": 3.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "9 kg water",
+					"at": [
+						180,
+						380
+					],
+					"size": 24,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						},
+						{
+							"do": "out",
+							"at": 3.0
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "gas",
+					"at": [
+						90,
+						280
+					],
+					"size": 90,
+					"color": "sky",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "gas",
+					"at": [
+						260,
+						280
+					],
+					"size": 130,
+					"color": "red",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "1 kg hydrogen",
+					"at": [
+						98,
+						384
+					],
+					"size": 20,
+					"color": "white",
+					"box": "teal",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "8 kg oxygen",
+					"at": [
+						270,
+						384
+					],
+					"size": 20,
+					"color": "white",
+					"box": "red",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "space",
+			"caption": "Hydrogen burns with oxygen: fuel for the trip home, and air to breathe!",
+			"say": "Hydrogen burns with oxygen in a space engine: fuel for the trip home. The oxygen is good to breathe, too.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "thud"
+				},
+				{
+					"at": 3.0,
+					"effect": "rocket_whoosh"
+				}
+			],
+			"actors": [
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						200
+					],
+					"size": 90,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.2,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "SPACE_ENGINE",
+					"at": [
+						180,
+						290
+					],
+					"size": 90,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.6,
+							"height": 360
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						180,
+						380
+					],
+					"size": 80,
+					"rot": 180,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.8
+						},
+						{
+							"do": "pulse",
+							"at": 3.4,
+							"times": 3,
+							"dur": 2.0
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						300,
+						330
+					],
+					"size": 100,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.8
+						},
+						{
+							"do": "bounce",
+							"at": 5.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "air to breathe",
+					"at": [
+						252,
+						226
+					],
+					"size": 20,
+					"color": "white",
+					"box": "red",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 5.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 6,
+			"background": "space",
+			"caption": "What else could explorers make from what they find on the Moon?",
+			"say": "What else could explorers make from what they find on the Moon?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "moon",
+					"at": [
+						180,
+						220
+					],
+					"size": 180,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "spin",
+							"at": 1.0,
+							"dur": 5,
+							"turns": 0.05
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "?",
+					"at": [
+						300,
+						120
+					],
+					"size": 70,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.2
+						},
+						{
+							"do": "bounce",
+							"at": 2.0
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,423 @@
+{
+	"id": "g7.computing.lists",
+	"lesson": [
+		{
+			"text": "Quick memory: what does score = score + 5 do? (It adds 5 to the value in score.) Today: keeping many values in one list."
+		},
+		{
+			"text": "A list keeps many values in order under one name: gems = [4, 7, 2, 9]. Square brackets hold the items, with commas between. One list beats four variables called gems1 to gems4.",
+			"picture": {
+				"kind": "list_boxes",
+				"name": "gems",
+				"items": [
+					"4",
+					"7",
+					"2",
+					"9"
+				]
+			}
+		},
+		{
+			"text": "Each item has an index, its place number, and indexes start at 0. gems[0] is 4, the first item, and gems[3] is 9. Counting from the end, gems[-1] is the last item.",
+			"picture": {
+				"kind": "list_boxes",
+				"name": "gems",
+				"items": [
+					"4",
+					"7",
+					"2",
+					"9"
+				],
+				"negative": true,
+				"mark": 0
+			}
+		},
+		{
+			"text": "len(gems) counts the items: 4. So the last index is always one less than the length. Asking for gems[4] goes past the end, and the program stops with an index error."
+		},
+		{
+			"text": "Change an item by its index: gems[1] = 10 puts 10 in box 1. gems.append(5) adds 5 at the end, so the list grows.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"gems = [4, 7, 2, 9]",
+					"gems[1] = 10",
+					"gems.append(5)",
+					"print(gems)"
+				],
+				"output": [
+					"[4, 10, 2, 9, 5]"
+				]
+			}
+		},
+		{
+			"text": "A for loop can visit every item in turn: for g in gems: gives g each value. Worked example: adding them up, total goes 0, 4, 11, 13 and 22.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"gems = [4, 7, 2, 9]",
+					"total = 0",
+					"for g in gems:",
+					"    total = total + g",
+					"print(total)"
+				],
+				"output": [
+					"22"
+				]
+			}
+		},
+		{
+			"text": "Lists hold text too: pets = [\"owl\", \"fox\"]. They are everywhere: a playlist, a class register, the high scores, the blocks in your pack. A loop and an if can find the biggest item or count the ones over a number."
+		},
+		{
+			"text": "Try it in the world: write a list of 5 things in your bag, then say what item 0, item 2 and the length are. Next: functions with parameters."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is gems[0]?",
+			"answer": "8",
+			"hint": "Indexes start at 0: gems[0] is the first box.",
+			"explain": "gems[0] is the first item: 8.",
+			"picture": {
+				"kind": "list_boxes",
+				"name": "gems",
+				"items": [
+					"8",
+					"3",
+					"6",
+					"1"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is gems[2]?",
+			"answer": "7",
+			"hint": "Count the boxes from 0: 0, 1, 2.",
+			"explain": "Box 0 is 5, box 1 is 12, box 2 is 7: gems[2] is 7.",
+			"picture": {
+				"kind": "list_boxes",
+				"name": "gems",
+				"items": [
+					"5",
+					"12",
+					"7",
+					"20"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is len(gems)?",
+			"answer": "5",
+			"hint": "len counts the items.",
+			"explain": "There are 5 items, so len(gems) is 5 (their indexes are 0 to 4).",
+			"picture": {
+				"kind": "list_boxes",
+				"name": "gems",
+				"items": [
+					"3",
+					"9",
+					"4",
+					"6",
+					"2"
+				],
+				"index": false
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The first item of a list has the index 1.",
+			"answer": false,
+			"hint": "Where does counting start in a list?",
+			"explain": "False: indexes start at 0, so the first item is gems[0]."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which line makes a list of three numbers?",
+			"answer": 0,
+			"hint": "A list's items sit inside square brackets, with commas between.",
+			"choices": [
+				"nums = [3, 8, 5]",
+				"nums = {3 8 5}",
+				"nums = list 3, 8, 5",
+				"[nums] = 3, 8, 5"
+			],
+			"explain": "nums = [3, 8, 5]: square brackets and commas."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is pets[1]?",
+			"answer": 0,
+			"hint": "Count the boxes from 0.",
+			"choices": [
+				"\"fox\"",
+				"\"owl\"",
+				"\"cat\"",
+				"pets"
+			],
+			"explain": "pets[0] is \"owl\", so pets[1] is \"fox\".",
+			"picture": {
+				"kind": "list_boxes",
+				"name": "pets",
+				"items": [
+					"\"owl\"",
+					"\"fox\"",
+					"\"cat\""
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is scores[3]?",
+			"answer": "3",
+			"hint": "Box 3 is the fourth box, because counting starts at 0.",
+			"explain": "Counting 0, 1, 2, 3: scores[3] is 3.",
+			"picture": {
+				"kind": "list_boxes",
+				"name": "scores",
+				"items": [
+					"12",
+					"8",
+					"15",
+					"3",
+					"10"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is gems[-1]?",
+			"answer": "15",
+			"hint": "-1 counts from the end.",
+			"explain": "gems[-1] is the last item: 15.",
+			"picture": {
+				"kind": "list_boxes",
+				"name": "gems",
+				"items": [
+					"4",
+					"11",
+					"6",
+					"15"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What does this program print?",
+			"answer": "4",
+			"hint": "append adds one item at the end; len counts them.",
+			"explain": "The list had 3 items; append adds 8, so len(gems) is 4.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"gems = [4, 7, 2]",
+					"gems.append(8)",
+					"print(len(gems))"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What does this program print?",
+			"answer": "12",
+			"hint": "Change box 0 first, then add the two boxes.",
+			"explain": "gems[0] becomes 10, and gems[2] is 2: 10 + 2 = 12.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"gems = [4, 7, 2]",
+					"gems[0] = 10",
+					"print(gems[0] + gems[2])"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does this program print?",
+			"answer": 0,
+			"hint": "Count from 0: which item is number 1?",
+			"choices": [
+				"fox",
+				"owl",
+				"cat",
+				"pets"
+			],
+			"explain": "pets[0] is owl and pets[1] is fox, so it shows fox.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"pets = [\"owl\", \"fox\", \"cat\"]",
+					"print(pets[1])"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What does this program print?",
+			"answer": "17",
+			"hint": "Add each item to total in turn.",
+			"explain": "total goes 0, 3, 8, 16, 17: 3 + 5 + 8 + 1 = 17.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"gems = [3, 5, 8, 1]",
+					"total = 0",
+					"for g in gems:",
+					"    total = total + g",
+					"print(total)"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "gems has 4 items. Sort what each one gives.",
+			"groups": [
+				"an item",
+				"an index error"
+			],
+			"items": [
+				"gems[0]",
+				"gems[3]",
+				"gems[4]",
+				"gems[-1]",
+				"gems[7]"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "With 4 items, the indexes are 0 to 3 (and -1 to -4 from the end).",
+			"explain": "gems[0], gems[3] and gems[-1] are items; gems[4] and gems[7] go past the end, an index error."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If a list has 6 items, its last item's index is 5.",
+			"answer": true,
+			"hint": "Indexes start at 0.",
+			"explain": "True: 6 items have the indexes 0 to 5."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What does this program print?",
+			"answer": "3",
+			"hint": "Check each item: is it over 3? Count the ones that are.",
+			"explain": "6, 9 and 4 are over 3 and 2 is not: count is 3.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"gems = [6, 2, 9, 4]",
+					"count = 0",
+					"for g in gems:",
+					"    if g > 3:",
+					"        count = count + 1",
+					"print(count)"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What does this program print?",
+			"answer": "9",
+			"hint": "best starts as the first item. When does it change?",
+			"explain": "best starts at 6 and changes only when an item is bigger: 9. So it prints the biggest, 9.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"gems = [6, 2, 9, 4]",
+					"best = gems[0]",
+					"for g in gems:",
+					"    if g > best:",
+					"        best = g",
+					"print(best)"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "This program stops with an error. Which line stops it?",
+			"answer": "3",
+			"hint": "How many items are there, and what are their indexes?",
+			"explain": "The list has 3 items, indexes 0 to 2. Line 2 works, but line 3 asks for gems[3]: an index error.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"gems = [5, 1, 7]",
+					"print(gems[1])",
+					"print(gems[3])"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does this program print?",
+			"answer": 0,
+			"hint": "Draw the boxes and change them line by line.",
+			"choices": [
+				"[9, 2, 3]",
+				"[1, 2, 3]",
+				"[9, 2]",
+				"[3, 2, 9]"
+			],
+			"explain": "append makes it [1, 2, 3], then gems[0] = 9 changes the first box: [9, 2, 3].",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"gems = [1, 2]",
+					"gems.append(3)",
+					"gems[0] = 9",
+					"print(gems)"
+				]
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.list_item",
+			"level": 1
+		},
+		{
+			"gen": "g7c.list_item",
+			"level": 2
+		},
+		{
+			"gen": "g7c.list_item",
+			"level": 3
+		},
+		{
+			"gen": "g7c.list_loop",
+			"level": 1
+		},
+		{
+			"gen": "g7c.list_loop",
+			"level": 2
+		},
+		{
+			"gen": "g7c.list_loop",
+			"level": 3
+		}
+	]
+}

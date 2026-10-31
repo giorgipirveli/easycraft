@@ -1,0 +1,324 @@
+{
+	"id": "g6.health_pe.serious_emergencies",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you learnt DR ABC. What does the D stand for? (Danger: check it is safe to go near.) Today: recognising a serious emergency, and calling for help."
+		},
+		{
+			"text": "A serious emergency is when someone's life may be at risk. They are not responding, not breathing normally, bleeding badly, badly burnt or choking. Or they show the signs of a heart attack or a stroke."
+		},
+		{
+			"text": "Call 999, or 112, which works in the UK and across Europe. Ask for the service you need: ambulance, fire, police or coastguard. Say where you are and what has happened, and stay on the line.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"call 999 or 112",
+					"ask for a service",
+					"say where you are",
+					"say what happened",
+					"stay on the line"
+				],
+				"title": "An emergency call"
+			}
+		},
+		{
+			"text": "A stroke is when blood cannot reach part of the brain. Think FAST: Face drooping, Arms weak, Speech muddled: then it is Time to call 999, straight away.",
+			"picture": {
+				"kind": "fast_signs"
+			}
+		},
+		{
+			"text": "A heart attack often causes chest pain that may spread to the arms, neck or jaw: call 999 at once. For bad bleeding, press firmly on the wound with a clean pad, and call 999."
+		},
+		{
+			"text": "For a burn, cool it under cool or lukewarm running water for 20 minutes: never ice, butter or cream. Then cover it loosely with cling film, and get help from an adult."
+		},
+		{
+			"text": "If someone is not breathing normally, a grown-up gives CPR: pushing hard and fast in the middle of the chest, 100 to 120 times a minute. Listen to that speed. CPR is learned hands-on with a trained adult.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 110
+			}
+		},
+		{
+			"text": "Try it in the world: build a first aid post with a defibrillator (an AED) box and a FAST poster. For real: find the nearest defibrillator to your home, and ask a grown-up about a first aid course. Next: outdoor challenges."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which number do you call for an ambulance in the UK?",
+			"answer": 0,
+			"hint": "It is three of the same number.",
+			"choices": [
+				"999",
+				"101",
+				"111",
+				"0800 1111"
+			],
+			"explain": "999, or 112, which works in the UK and across Europe."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "112 also works for emergencies in the UK.",
+			"answer": true,
+			"hint": "Which number works across Europe?",
+			"explain": "True: 112 works in the UK and across Europe, just like 999."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does the F in FAST stand for?",
+			"answer": 0,
+			"hint": "It is the first thing to look at: can they smile evenly?",
+			"choices": [
+				"Face",
+				"Fever",
+				"Feet",
+				"Fall"
+			],
+			"explain": "Face: one side of the face may droop."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "You should put ice straight on a burn.",
+			"answer": false,
+			"hint": "What should you cool a burn with?",
+			"explain": "False: cool it under cool or lukewarm running water for 20 minutes."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a 999 call in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The call handler first needs to know who to send.",
+			"items": [
+				"stay on the line and follow what they say",
+				"say what has happened",
+				"say where you are",
+				"say which service you need"
+			],
+			"explain": "Say the service, where you are, what has happened, then stay on the line."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Grandad's smile is lopsided and one arm is weak. What should you do?",
+			"answer": 0,
+			"hint": "Face and arms: think FAST.",
+			"choices": [
+				"call 999 straight away",
+				"wait until tomorrow",
+				"give him a drink",
+				"let him sleep it off"
+			],
+			"explain": "Call 999 at once: these are FAST signs of a stroke.",
+			"picture": {
+				"kind": "fast_signs"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How long should a burn be cooled under running water?",
+			"answer": 0,
+			"hint": "It is longer than most people think.",
+			"choices": [
+				"20 minutes",
+				"1 minute",
+				"5 minutes",
+				"2 hours"
+			],
+			"explain": "20 minutes under cool or lukewarm running water."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Someone is bleeding badly from the arm. What should you do while help comes?",
+			"answer": 0,
+			"hint": "What slows bleeding down?",
+			"choices": [
+				"press firmly on the wound with a clean pad",
+				"wash it and leave it",
+				"put a plaster on and walk away"
+			],
+			"explain": "Press firmly on the wound with a clean pad, and call 999."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each emergency to the service to ask for.",
+			"items": [
+				"a house on fire",
+				"a swimmer swept out to sea",
+				"someone not breathing",
+				"a break-in happening now"
+			],
+			"matches": [
+				"coastguard",
+				"ambulance",
+				"police",
+				"fire"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Who helps with fire, the sea, injuries and crime?",
+			"explain": "Fire: the house fire. Coastguard: the swimmer. Ambulance: not breathing. Police: the break-in."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Listen: this beat is about the speed of CPR pushes, 100 to 120 a minute.",
+			"answer": true,
+			"hint": "Count the claps against a clock's seconds.",
+			"explain": "True: it is 110 beats a minute, a little under 2 a second.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 110
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen: CPR pushes go at about 2 a second. How many pushes is that in 15 seconds?",
+			"answer": "30",
+			"hint": "Double the number of seconds.",
+			"explain": "2 × 15 = 30 pushes.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 120
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Who can give CPR?",
+			"answer": 0,
+			"hint": "What can the call handler do on the phone?",
+			"choices": [
+				"anyone, guided by the 999 call handler",
+				"only children",
+				"nobody, ever",
+				"only doctors in a hospital"
+			],
+			"explain": "Trained people, and anyone the 999 call handler talks through it, step by step."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is a sign of a heart attack?",
+			"answer": 0,
+			"hint": "Think of the chest, arms, neck and jaw.",
+			"choices": [
+				"chest pain that spreads to the arm or jaw",
+				"a runny nose",
+				"an itchy knee",
+				"hiccups"
+			],
+			"explain": "Chest pain that may spread to the arms, neck or jaw: call 999."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A defibrillator (an AED) tells you what to do, step by step.",
+			"answer": true,
+			"hint": "What does an AED do when you open it?",
+			"explain": "True: it talks you through each step: where to put the pads, when to stand clear, and when to push. It only gives a shock if the heart needs one."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Before you help someone who has collapsed, what do you check first?",
+			"answer": 0,
+			"hint": "Remember D in DR ABC.",
+			"choices": [
+				"danger: is it safe to go near?",
+				"whether they are asleep",
+				"what time it is",
+				"their name"
+			],
+			"explain": "Danger: make sure it is safe for you first, like traffic, fire or electricity. If you get hurt too, there are two people who need help."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "A burn: put the steps in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Cooling comes first and lasts longest.",
+			"items": [
+				"get help from an adult",
+				"cover it loosely with cling film",
+				"keep cooling for 20 minutes",
+				"cool it under running water"
+			],
+			"explain": "Cool it, keep cooling for 20 minutes, cover it loosely, get help."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each emergency to the first help.",
+			"items": [
+				"a burn",
+				"bad bleeding",
+				"FAST signs",
+				"not breathing normally"
+			],
+			"matches": [
+				"call 999 at once",
+				"999, and a grown-up gives CPR",
+				"cool it under running water",
+				"press firmly with a clean pad"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Each emergency has its own first step. Most of them also need a 999 call.",
+			"explain": "A burn: cool it under running water for 20 minutes. Bad bleeding: press firmly with a clean pad. FAST signs of a stroke: call 999 at once. Not breathing normally: call 999, and a grown-up gives CPR."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "CPR pushes go at 100 to 120 a minute. At 110 a minute, how many pushes are given in 30 seconds?",
+			"answer": "55",
+			"hint": "How much of a minute is 30 seconds?",
+			"explain": "30 seconds is half a minute, so half of 110: 110 ÷ 2 = 55 pushes. That is a little under 2 every second."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.emergency_call",
+			"level": 1
+		},
+		{
+			"gen": "g6w.emergency_call",
+			"level": 2
+		},
+		{
+			"gen": "g6w.emergency_call",
+			"level": 3
+		}
+	]
+}

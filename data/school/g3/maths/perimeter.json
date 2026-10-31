@@ -1,0 +1,435 @@
+{
+	"id": "g3.maths.perimeter",
+	"lesson": [
+		{
+			"text": "Quick memory: a farm 5 m by 3 m has an area of 5 × 3 = 15 square metres. Area is the inside. Today: the fence round the outside!",
+			"picture": {
+				"kind": "rect",
+				"w": 5,
+				"h": 3,
+				"grid": true,
+				"unit": "m"
+			}
+		},
+		{
+			"text": "Perimeter is the distance all the way round a shape. Walk round this farm: 5 + 3 + 5 + 3 = 16 m of fence.",
+			"picture": {
+				"kind": "rect",
+				"w": 5,
+				"h": 3,
+				"grid": false,
+				"unit": "m"
+			}
+		},
+		{
+			"text": "Add every side of any shape. This triangle: 5 + 4 + 5 = 14 cm.",
+			"picture": {
+				"kind": "side_lengths",
+				"labels": [
+					"5 cm",
+					"4 cm",
+					"5 cm"
+				],
+				"what": "triangle_acute"
+			}
+		},
+		{
+			"text": "A shape of squares: count the edges all the way round the outside. This L-shape has a perimeter of 16 units. Do not count the lines inside!",
+			"picture": {
+				"kind": "unit_squares",
+				"rows": [
+					"###..",
+					"###..",
+					"#####"
+				],
+				"grid": true,
+				"labels": false,
+				"per": 1
+			}
+		},
+		{
+			"text": "A missing side: the perimeter is 20 cm, and three sides are 6 cm, 4 cm and 6 cm. They make 16, so the missing side is 20 − 16 = 4 cm.",
+			"picture": {
+				"kind": "side_lengths",
+				"labels": [
+					"6 cm",
+					"4 cm",
+					"6 cm",
+					"?"
+				],
+				"what": "rectangle"
+			}
+		},
+		{
+			"text": "The same fence, different farms! A 2 by 6 farm and a 4 by 4 farm both have a fence of 16. But their areas are different: 12 and 16.",
+			"picture": {
+				"kind": "rect",
+				"w": 4,
+				"h": 4,
+				"grid": true
+			}
+		},
+		{
+			"text": "Build it: a farm with an area of 6 and a fence of 10 is 2 by 3. Next, in grade 4: area and perimeter of bigger farms.",
+			"picture": {
+				"kind": "rect",
+				"w": 3,
+				"h": 2,
+				"grid": true
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is the perimeter of the rectangle, in metres?",
+			"answer": "12",
+			"hint": "Add all four sides.",
+			"explain": "4 + 2 + 4 + 2 = 12 m.",
+			"picture": {
+				"kind": "rect",
+				"w": 4,
+				"h": 2,
+				"grid": true,
+				"unit": "m"
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is the perimeter of the triangle, in centimetres?",
+			"answer": "18",
+			"hint": "Add the three sides.",
+			"explain": "6 + 6 + 6 = 18 cm.",
+			"picture": {
+				"kind": "side_lengths",
+				"labels": [
+					"6 cm",
+					"6 cm",
+					"6 cm"
+				],
+				"what": "triangle_equal"
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Each square is 1 cm long. What is the perimeter of the shape, in centimetres?",
+			"answer": "10",
+			"hint": "Count the edges all the way round the outside.",
+			"explain": "3 + 2 + 3 + 2 = 10 cm.",
+			"picture": {
+				"kind": "unit_squares",
+				"rows": [
+					"###",
+					"###"
+				],
+				"grid": true,
+				"labels": false,
+				"per": 1
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The perimeter is measured all the way round the outside of a shape.",
+			"answer": true,
+			"hint": "Think of a fence round a farm.",
+			"explain": "Yes: the perimeter is the distance all the way round."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the perimeter of a square with sides of 5 cm?",
+			"choices": [
+				"20 cm",
+				"25 cm",
+				"10 cm",
+				"15 cm"
+			],
+			"answer": 0,
+			"hint": "A square has 4 equal sides.",
+			"explain": "5 + 5 + 5 + 5 = 20 cm."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A square farm has sides of 3 m. How much fence goes all the way round, in metres?",
+			"answer": "12",
+			"hint": "4 sides of 3 m.",
+			"explain": "4 × 3 = 12 m."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is the perimeter of the shape, in centimetres?",
+			"answer": "27",
+			"hint": "Add every side, all the way round.",
+			"explain": "5 + 6 + 10 + 6 = 27 cm.",
+			"picture": {
+				"kind": "side_lengths",
+				"labels": [
+					"5 cm",
+					"6 cm",
+					"10 cm",
+					"6 cm"
+				],
+				"what": "trapezium"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Each square is 1 cm long. What is the perimeter of the shape, in centimetres?",
+			"answer": "14",
+			"hint": "Go round the outside and count every edge. Do not count the inside lines.",
+			"explain": "All the way round the outside is 14 cm.",
+			"picture": {
+				"kind": "unit_squares",
+				"rows": [
+					"##..",
+					"####",
+					"####"
+				],
+				"grid": true,
+				"labels": false,
+				"per": 1
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The perimeter of the shape is 24 cm. How long is the side marked ?, in centimetres?",
+			"answer": "4",
+			"hint": "Add the sides you know, then take that away from 24.",
+			"explain": "4 + 8 + 8 = 20, and 24 − 20 = 4 cm.",
+			"picture": {
+				"kind": "side_lengths",
+				"labels": [
+					"4 cm",
+					"8 cm",
+					"8 cm",
+					"?"
+				],
+				"what": "kite"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which rectangle has the same perimeter as a 3 m by 5 m rectangle?",
+			"choices": [
+				"2 m by 6 m",
+				"3 m by 6 m",
+				"4 m by 5 m",
+				"2 m by 5 m"
+			],
+			"answer": 0,
+			"hint": "Add the two sides and double.",
+			"explain": "3 + 5 = 8 and 2 + 6 = 8, so both have a perimeter of 16 m."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Build a rectangle farm with an area of 6 squares and a fence of 10 all the way round.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 6,
+				"perimeter": 10
+			},
+			"hint": "Which rectangles have an area of 6? Work out the fence of each one.",
+			"explain": "2 by 3: the area is 6 and the fence is 2 + 3 + 2 + 3 = 10."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A 1 by 9 farm and a 5 by 5 farm have the same perimeter.",
+			"answer": true,
+			"hint": "Work out both perimeters.",
+			"explain": "1 + 9 + 1 + 9 = 20 and 5 + 5 + 5 + 5 = 20: yes."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The perimeter of the L-shape is 30 m. How long is the side marked ?, in metres?",
+			"answer": "4",
+			"hint": "Add the sides you know, then take that away from 30.",
+			"explain": "8 + 3 + 5 + 3 + 7 = 26, and 30 − 26 = 4 m.",
+			"picture": {
+				"kind": "side_lengths",
+				"labels": [
+					"8 m",
+					"3 m",
+					"5 m",
+					"?",
+					"3 m",
+					"7 m"
+				],
+				"points": [
+					[
+						0,
+						0
+					],
+					[
+						8,
+						0
+					],
+					[
+						8,
+						3
+					],
+					[
+						3,
+						3
+					],
+					[
+						3,
+						7
+					],
+					[
+						0,
+						7
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is the perimeter of the hexagon, in centimetres?",
+			"answer": "42",
+			"hint": "All 6 sides are the same length.",
+			"explain": "6 × 7 = 42 cm.",
+			"picture": {
+				"kind": "side_lengths",
+				"labels": [
+					"7 cm",
+					"7 cm",
+					"7 cm",
+					"7 cm",
+					"7 cm",
+					"7 cm"
+				],
+				"what": "hexagon"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A rectangle has a perimeter of 26 m. One side is 8 m. How long is the side next to it, in metres?",
+			"answer": "5",
+			"hint": "Two sides of 8 m make 16. Share what is left between the other two sides.",
+			"explain": "26 − 16 = 10, and 10 ÷ 2 = 5 m."
+		},
+		{
+			"type": "build",
+			"level": 3,
+			"prompt": "Build a rectangle farm with an area of 12 squares and a fence of 14 all the way round.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 12,
+				"perimeter": 14
+			},
+			"hint": "Try each rectangle with an area of 12: 1 by 12, 2 by 6, 3 by 4. Which fence is 14?",
+			"explain": "3 by 4: the area is 12 and the fence is 3 + 4 + 3 + 4 = 14."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Three farms each have a fence of 12. Which one has the biggest area?",
+			"choices": [
+				"3 by 3",
+				"2 by 4",
+				"1 by 5"
+			],
+			"answer": 0,
+			"hint": "Work out each area.",
+			"explain": "3 × 3 = 9, 2 × 4 = 8 and 1 × 5 = 5: the 3 by 3 farm."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Two shapes with the same perimeter always have the same area.",
+			"answer": false,
+			"hint": "Think of a 1 by 5 farm and a 3 by 3 farm.",
+			"explain": "Both have a fence of 12, but their areas are 5 and 9."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3g.rect_perimeter",
+			"level": 1
+		},
+		{
+			"gen": "g3g.rect_perimeter",
+			"level": 2
+		},
+		{
+			"gen": "g3g.rect_perimeter",
+			"level": 3
+		},
+		{
+			"gen": "g3g.polygon_perimeter",
+			"level": 1
+		},
+		{
+			"gen": "g3g.polygon_perimeter",
+			"level": 2
+		},
+		{
+			"gen": "g3g.polygon_perimeter",
+			"level": 3
+		},
+		{
+			"gen": "g3g.missing_side",
+			"level": 1
+		},
+		{
+			"gen": "g3g.missing_side",
+			"level": 2
+		},
+		{
+			"gen": "g3g.missing_side",
+			"level": 3
+		},
+		{
+			"gen": "g3g.grid_perimeter",
+			"level": 1
+		},
+		{
+			"gen": "g3g.grid_perimeter",
+			"level": 2
+		},
+		{
+			"gen": "g3g.grid_perimeter",
+			"level": 3
+		},
+		{
+			"gen": "g3g.same_perimeter",
+			"level": 1
+		},
+		{
+			"gen": "g3g.same_perimeter",
+			"level": 2
+		},
+		{
+			"gen": "g3g.same_perimeter",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,149 @@
+{
+	"id": "life.connections.friends",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a good sorry? ('I'm sorry', with no 'but'.) Today: making friends, helping first and keeping promises."
+		},
+		{
+			"text": "Say hello and remember people's names. It makes them feel special."
+		},
+		{
+			"text": "Help first: helping without asking for anything back is how friendships start."
+		},
+		{
+			"text": "Someone new and alone? Say hello and ask them to play."
+		},
+		{
+			"text": "Keep your promises. If you say 'tomorrow', do it tomorrow."
+		},
+		{
+			"text": "Try it in the practice village: meet Amara, Tomas and Lina."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Someone new is all alone. You...",
+			"answer": 0,
+			"choices": [
+				"say hello and ask them to play",
+				"walk past",
+				"stare at them"
+			],
+			"hint": "Being new is hard.",
+			"explain": "A hello can make a friend."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Remembering someone's name makes them feel special.",
+			"answer": true,
+			"hint": "Think of Amara.",
+			"explain": "True."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Amara helped you. You say...",
+			"answer": 0,
+			"choices": [
+				"'Thank you!'",
+				"nothing",
+				"'Is that all?'"
+			],
+			"hint": "Be glad.",
+			"explain": "Thank you!"
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Helping first means helping only if you get something.",
+			"answer": false,
+			"hint": "Nothing back.",
+			"explain": "False: it means helping without asking for anything back."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "You promised to bring crayons tomorrow. Tomorrow you...",
+			"answer": 0,
+			"choices": [
+				"bring them",
+				"forget",
+				"say you never promised"
+			],
+			"hint": "A promise is a promise.",
+			"explain": "Bring them: keep your promise."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Making a new friend: put it in order.",
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"items": [
+				"play together",
+				"say hello",
+				"say your name and ask theirs"
+			],
+			"hint": "Hello first.",
+			"explain": "Hello, names, then play."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Kind or not kind?",
+			"groups": [
+				"kind",
+				"not kind"
+			],
+			"items": [
+				"inviting someone to play",
+				"leaving someone out",
+				"sharing your crayons",
+				"laughing at someone"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "How would they feel?",
+			"explain": "Inviting and sharing are kind."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Amara needs flour, and Tomas has flour. You can...",
+			"answer": 0,
+			"choices": [
+				"tell Amara about Tomas",
+				"keep it a secret",
+				"take the flour"
+			],
+			"hint": "Help them meet.",
+			"explain": "Tell Amara about Tomas: both win."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A friend can be different from you.",
+			"answer": true,
+			"hint": "Think of Lina.",
+			"explain": "True: friends come in all kinds."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "You met 3 people on Monday and 2 on Tuesday. How many names to remember?",
+			"answer": "5",
+			"hint": "3 + 2.",
+			"explain": "5 names."
+		}
+	]
+}

@@ -1,0 +1,328 @@
+{
+	"id": "g4.geography.compare_two_regions",
+	"lesson": [
+		{
+			"text": "Quick memory: on a map where 1 cm stands for 2 km, how far is 6 cm? (12 km.) Today we compare two regions: the Lake District in England, in Europe, and the rainforest around Manaus in Brazil, in South America."
+		},
+		{
+			"text": "The Lake District, in north-west England, is a land of steep hills called fells and long lakes. Glaciers carved its valleys in the Ice Age. Scafell Pike, 978 m, is England's highest mountain, and Windermere its biggest lake."
+		},
+		{
+			"text": "It is cool and very rainy: some valleys get over 3,000 mm of rain a year, about five times as much as London. Farmers keep hardy sheep on the fells, and millions of visitors come to walk, climb and sail. Its towns are small.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"the Lakes",
+						3000
+					],
+					[
+						"Manaus",
+						2300
+					],
+					[
+						"London",
+						600
+					]
+				],
+				"step": 500,
+				"top": 3500,
+				"name": "rain in a year (mm)"
+			}
+		},
+		{
+			"text": "Manaus, in Brazil, is a big city of about 2 million people in the Amazon rainforest. The land is low, flat and covered in forest, crossed by huge rivers. Near the city, a dark river and a pale one flow side by side.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60,
+				"points": [
+					{
+						"lat": 54,
+						"long": -3,
+						"label": "the Lakes"
+					},
+					{
+						"lat": -3,
+						"long": -60,
+						"label": "Manaus"
+					}
+				]
+			}
+		},
+		{
+			"text": "Manaus is hot all year, about 27 °C, with over 2,000 mm of rain. Rivers are its roads: people and goods travel by boat. Many people work in factories making motorbikes and televisions, or in fishing and tourism."
+		},
+		{
+			"text": "Geographers compare the land, the weather, the work and the towns.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"Lake District",
+						"Manaus area"
+					],
+					[
+						"land",
+						"fells and lakes",
+						"flat rainforest"
+					],
+					[
+						"weather",
+						"cool and wet",
+						"hot and wet"
+					],
+					[
+						"work",
+						"sheep, visitors",
+						"factories, boats"
+					],
+					[
+						"towns",
+						"small towns",
+						"one big city"
+					]
+				]
+			}
+		},
+		{
+			"text": "Similarities: both are very rainy, both are loved by visitors, and in both, water shapes life. Differences: one is cool and hilly with small towns; the other is hot and flat with a big city. Good geographers look for both."
+		},
+		{
+			"text": "Try it in the world: build two small regions side by side: a cool fell with a lake and sheep, and a hot riverside city with boats. Next: fieldwork, collecting your own data."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where is the Lake District?",
+			"answer": 0,
+			"hint": "It is in the United Kingdom, in Europe.",
+			"choices": [
+				"in north-west England",
+				"in Brazil",
+				"in the Sahara",
+				"in China"
+			],
+			"explain": "The Lake District is in north-west England, in Europe."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which city is in the middle of the Amazon rainforest?",
+			"answer": 0,
+			"hint": "It is in Brazil.",
+			"choices": [
+				"Manaus",
+				"London",
+				"Paris",
+				"Cairo"
+			],
+			"explain": "Manaus, a city of about 2 million people in the Amazon rainforest in Brazil."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Both regions get a lot of rain.",
+			"answer": true,
+			"hint": "Compare their rain.",
+			"explain": "True: parts of the Lake District get over 3,000 mm a year, and Manaus over 2,000 mm."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What are the Lake District's steep hills called?",
+			"answer": 0,
+			"hint": "It is an old northern word for hills.",
+			"choices": [
+				"fells",
+				"dunes",
+				"reefs",
+				"canyons"
+			],
+			"explain": "They are called fells, from an old Norse word for a hill."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: the Lake District or the Manaus area?",
+			"groups": [
+				"Lake District",
+				"Manaus area"
+			],
+			"items": [
+				"fells and long lakes",
+				"hot all year",
+				"sheep farming",
+				"rivers are the roads",
+				"Scafell Pike",
+				"factories making motorbikes"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "One is cool and hilly, the other hot and flat.",
+			"explain": "Lake District: fells and lakes, sheep and Scafell Pike. Manaus: hot all year, rivers for roads, and factories."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How do most people and goods travel around Manaus?",
+			"answer": 0,
+			"hint": "What crosses the forest instead of roads?",
+			"choices": [
+				"by boat on the rivers",
+				"by ski lift",
+				"on camels",
+				"by train through the mountains"
+			],
+			"explain": "By boat: huge rivers cross the rainforest, and few roads reach Manaus."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What carved the valleys of the Lake District?",
+			"answer": 0,
+			"hint": "Long ago, rivers of ice moved slowly down the valleys.",
+			"choices": [
+				"glaciers in the Ice Age",
+				"volcanoes last year",
+				"people with spades",
+				"the wind"
+			],
+			"explain": "Glaciers, slow rivers of ice, carved deep valleys during the Ice Age."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Manaus is cold and snowy in winter.",
+			"answer": false,
+			"hint": "Manaus is near the Equator.",
+			"explain": "False: Manaus is hot all year, about 27 °C, because it is near the Equator."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each place to what it is.",
+			"items": [
+				"Scafell Pike",
+				"Windermere",
+				"Manaus",
+				"the Meeting of the Waters"
+			],
+			"matches": [
+				"England's biggest lake",
+				"a city in the rainforest",
+				"two rivers side by side",
+				"England's highest mountain"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Two are in England, two are in Brazil.",
+			"explain": "Scafell Pike: England's highest mountain. Windermere: its biggest natural lake. Manaus: a rainforest city. The Meeting of the Waters: two rivers flowing side by side."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Manaus is about 27 °C in January; the Lake District about 4 °C. How many degrees warmer is Manaus?",
+			"answer": "23",
+			"hint": "Take the lower temperature from the higher one.",
+			"explain": "27 − 4 = 23 °C warmer."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is a similarity between the two regions?",
+			"answer": 0,
+			"hint": "Look for something true of both.",
+			"choices": [
+				"both are very rainy",
+				"both are hot all year",
+				"both have a city of 2 million",
+				"both are flat"
+			],
+			"explain": "Both are very rainy. Each of the others is true of only one region, or of neither."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are the Lake District's towns small?",
+			"answer": 0,
+			"hint": "Where can you build houses in steep, hilly land?",
+			"choices": [
+				"steep fells leave little flat land",
+				"nobody may live there",
+				"it is too hot",
+				"it is in a desert"
+			],
+			"explain": "Steep fells and lakes leave little flat land, so towns are small; it is also a national park, where building is limited."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did a big city grow at Manaus, deep in the forest?",
+			"answer": 0,
+			"hint": "What are the roads of the rainforest?",
+			"choices": [
+				"rivers let boats bring goods there",
+				"it is on top of a mountain",
+				"it is beside a desert",
+				"it is by the sea in Europe"
+			],
+			"explain": "Manaus stands where great rivers meet, so boats could bring people and goods; later it grew with factories too."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The wettest Lake District valleys get about five times as much rain as London.",
+			"answer": true,
+			"hint": "Compare over 3,000 mm with about 600 mm.",
+			"explain": "True: 5 × 600 = 3,000, so they get about five times London's rain."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the sentences: a similarity, or a difference?",
+			"groups": [
+				"similarity",
+				"difference"
+			],
+			"items": [
+				"both are very rainy",
+				"one is hot, one is cool",
+				"both are loved by visitors",
+				"a big city against small towns",
+				"water shapes life in both"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it true of both regions, or does it set two different things side by side?",
+			"explain": "Similarities: both are very rainy, both are loved by visitors, and water shapes life in both. Differences: hot against cool, and a big city against small towns."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Manaus is about 27 °C all year. The Lake District is about 4 °C in January and about 15 °C in July. How many degrees warmer is Manaus in July?",
+			"answer": "12",
+			"hint": "Use the July numbers for both places.",
+			"explain": "In July: 27 − 15 = 12 °C warmer in Manaus. In January the gap is much bigger: 27 − 4 = 23 °C."
+		}
+	],
+	"generators": []
+}

@@ -1,0 +1,487 @@
+{
+	"id": "g5.maths.angles_triangles_quads",
+	"lesson": [
+		{
+			"text": "Quick memory: how many degrees are there in a right angle, and in a full turn? (90° and 360°.) In grade 4 you measured angles with a protractor. Now you will work them out without measuring, with angle facts."
+		},
+		{
+			"text": "Angles on a straight line add up to 180°, half a turn. If one of two angles on a line is 130°, the other is 180 − 130 = 50°.",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "straight",
+				"angles": [
+					130,
+					50
+				]
+			}
+		},
+		{
+			"text": "Angles round a point add up to 360°, a full turn. Here 100° and 120° and 140° make 360° together. To find a missing angle, take the others away from 360°.",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "point",
+				"angles": [
+					100,
+					120,
+					140
+				]
+			}
+		},
+		{
+			"text": "When two straight lines cross, they make four angles. The angles opposite each other are vertically opposite angles, and they are always equal. Angles next to each other lie on a straight line: 180°.",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "cross",
+				"angles": [
+					40,
+					140,
+					40,
+					140
+				]
+			}
+		},
+		{
+			"text": "The three angles inside any triangle add up to 180°. Tear the three corners off a paper triangle and put them side by side: they make a straight line! Here 60°, 70° and 50° make 180°.",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "triangle",
+				"angles": [
+					60,
+					70,
+					50
+				]
+			}
+		},
+		{
+			"text": "A worked example: a triangle has a right angle (the small square) and a 35° angle. The third angle is 180 − 90 − 35 = 55°. In an isosceles triangle two sides are equal, and so are two angles. An equilateral triangle's angles are all 60°.",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "triangle",
+				"angles": [
+					90,
+					35,
+					55
+				],
+				"labels": [
+					"",
+					"35°",
+					"55°"
+				]
+			}
+		},
+		{
+			"text": "The four angles inside any quadrilateral add up to 360°: a diagonal cuts it into two triangles, and 2 × 180 = 360. In a parallelogram, opposite angles are equal.",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "quad",
+				"angles": [
+					80,
+					100,
+					70,
+					110
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: draw a four-sided shape on paper, cut it out, tear off its four corners and fit them round a point: they make a full turn. Next, in grade 6: the area of triangles; in grade 7: more angle facts."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The angles are on a straight line. What is the missing angle, in degrees?",
+			"hint": "Angles on a straight line add up to 180°.",
+			"explain": "180 − 120 = 60°.",
+			"answer": "60",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "straight",
+				"angles": [
+					120,
+					60
+				],
+				"labels": [
+					"120°",
+					"?"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The angles in a triangle always add up to 180°.",
+			"hint": "Remember the torn-off corners that made a straight line.",
+			"explain": "True: every triangle, big or small, has angles that add up to 180°.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do the angles round a point add up to?",
+			"hint": "Think of a full turn.",
+			"explain": "The angles round a point make a full turn: 360°.",
+			"choices": [
+				"360°",
+				"180°",
+				"90°",
+				"100°"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The lines cross. What is the angle opposite the 70° angle, in degrees?",
+			"hint": "Vertically opposite angles face each other across the crossing.",
+			"explain": "Vertically opposite angles are equal: 70°.",
+			"answer": "70",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "cross",
+				"angles": [
+					70,
+					110,
+					70,
+					110
+				],
+				"labels": [
+					"70°",
+					"",
+					"?",
+					""
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do the angles inside a quadrilateral add up to?",
+			"hint": "A diagonal cuts it into two triangles.",
+			"explain": "Two triangles: 2 × 180 = 360°.",
+			"choices": [
+				"360°",
+				"180°",
+				"400°",
+				"90°"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is the missing angle in this triangle, in degrees?",
+			"hint": "Take the two angles you know away from 180°.",
+			"explain": "180 − 50 − 60 = 70°.",
+			"answer": "70",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "triangle",
+				"angles": [
+					50,
+					60,
+					70
+				],
+				"labels": [
+					"50°",
+					"60°",
+					"?"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The angles are round a point, and one is a right angle. What is the angle marked ?, in degrees?",
+			"hint": "A right angle is 90°. All the angles round a point add up to 360°.",
+			"explain": "360 − 90 − 150 = 120°.",
+			"answer": "120",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "point",
+				"angles": [
+					90,
+					150,
+					120
+				],
+				"labels": [
+					"",
+					"150°",
+					"?"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "This quadrilateral has two right angles. What is the angle marked ?, in degrees?",
+			"hint": "The four angles add up to 360°. Each right angle is 90°.",
+			"explain": "360 − 90 − 90 − 110 = 70°.",
+			"answer": "70",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "quad",
+				"angles": [
+					90,
+					90,
+					110,
+					70
+				],
+				"labels": [
+					"",
+					"",
+					"110°",
+					"?"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: could these be the three angles of a triangle?",
+			"hint": "Add the three angles. A triangle's angles make exactly 180°.",
+			"explain": "These make 180°: 60, 60, 60; 90, 45, 45; 30, 70, 80. The others make 190°, 190° and 170°.",
+			"groups": [
+				"a triangle",
+				"not a triangle"
+			],
+			"items": [
+				"60°, 60°, 60°",
+				"90°, 45°, 45°",
+				"100°, 50°, 40°",
+				"90°, 90°, 10°",
+				"30°, 70°, 80°",
+				"120°, 30°, 20°"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0,
+				1
+			]
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A triangle can have two obtuse angles (each more than 90°).",
+			"hint": "What do two angles of more than 90° add up to?",
+			"explain": "False: two obtuse angles already make more than 180°, and a triangle's three angles make exactly 180°.",
+			"answer": false
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "One angle on the straight line is a right angle. What is the angle marked ?, in degrees?",
+			"hint": "The right angle is 90°. The three angles make 180°.",
+			"explain": "180 − 35 − 90 = 55°.",
+			"answer": "55",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "straight",
+				"angles": [
+					35,
+					90,
+					55
+				],
+				"labels": [
+					"35°",
+					"",
+					"?"
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps in order to find a triangle's third angle when two are 40° and 75°.",
+			"hint": "First find how much of the 180° is already used.",
+			"explain": "40 + 75 = 115°, then 180 − 115 = 65°.",
+			"items": [
+				"Take 115 from 180",
+				"Add the two angles: 40 + 75 = 115",
+				"The third angle is 65°",
+				"180 − 115 = 65"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			]
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "This isosceles triangle has two equal sides, marked. What is the angle marked ?, in degrees?",
+			"hint": "The two angles at the bottom are equal. First take 40° away from 180°.",
+			"explain": "180 − 40 = 140, and the two equal angles share it: 140 ÷ 2 = 70°.",
+			"answer": "70",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "triangle",
+				"angles": [
+					70,
+					70,
+					40
+				],
+				"labels": [
+					"?",
+					"",
+					"40°"
+				],
+				"ticks": [
+					1,
+					2
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "This quadrilateral is a parallelogram. What is the angle marked ?, in degrees?",
+			"hint": "Angles next to each other in a parallelogram add up to 180°.",
+			"explain": "Next to each other, they make 180°: 180 − 65 = 115°. So the angles are 65°, 115°, 65° and 115°: 360°.",
+			"answer": "115",
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "quad",
+				"angles": [
+					65,
+					115,
+					65,
+					115
+				],
+				"labels": [
+					"65°",
+					"?",
+					"",
+					""
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which two angles are vertically opposite?",
+			"hint": "Vertically opposite angles face each other across the crossing point.",
+			"explain": "a and c face each other across the point (so do b and d), so they are equal.",
+			"choices": [
+				"a and c",
+				"a and b",
+				"b and c",
+				"c and d"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "angle_facts",
+				"figure": "cross",
+				"angles": [
+					50,
+					130,
+					50,
+					130
+				],
+				"labels": [
+					"a",
+					"b",
+					"c",
+					"d"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "An equilateral triangle has three angles of 60°.",
+			"hint": "Its three angles are equal and add up to 180°.",
+			"explain": "True: 180 ÷ 3 = 60°.",
+			"answer": true
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Two angles of a quadrilateral are 100° each. The other two are equal to each other. What is each of them, in degrees?",
+			"hint": "Take the two angles you know from 360°, then share what is left between the two equal angles.",
+			"explain": "360 − 100 − 100 = 160, and 160 ÷ 2 = 80°.",
+			"answer": "80"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A triangle has angles of 90°, 45° and 45°. What kind of triangle is it?",
+			"hint": "Look for a 90° angle, and for two angles that are the same.",
+			"explain": "It has a right angle, and two equal angles (so two equal sides): right-angled and isosceles.",
+			"choices": [
+				"right-angled and isosceles",
+				"equilateral",
+				"obtuse and scalene",
+				"acute and scalene"
+			],
+			"answer": 0
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5c.angle_line",
+			"level": 1
+		},
+		{
+			"gen": "g5c.angle_line",
+			"level": 2
+		},
+		{
+			"gen": "g5c.angle_line",
+			"level": 3
+		},
+		{
+			"gen": "g5c.angle_point",
+			"level": 1
+		},
+		{
+			"gen": "g5c.angle_point",
+			"level": 2
+		},
+		{
+			"gen": "g5c.angle_point",
+			"level": 3
+		},
+		{
+			"gen": "g5c.angle_cross",
+			"level": 1
+		},
+		{
+			"gen": "g5c.angle_cross",
+			"level": 2
+		},
+		{
+			"gen": "g5c.angle_cross",
+			"level": 3
+		},
+		{
+			"gen": "g5c.triangle_angle",
+			"level": 1
+		},
+		{
+			"gen": "g5c.triangle_angle",
+			"level": 2
+		},
+		{
+			"gen": "g5c.triangle_angle",
+			"level": 3
+		},
+		{
+			"gen": "g5c.quad_angle",
+			"level": 1
+		},
+		{
+			"gen": "g5c.quad_angle",
+			"level": 2
+		},
+		{
+			"gen": "g5c.quad_angle",
+			"level": 3
+		}
+	]
+}

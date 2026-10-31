@@ -1,0 +1,42 @@
+{
+	"id": "life.money.change_and_bank",
+	"lesson": [
+		{"text": "Quick memory: what is change? (What you give back when someone pays more than the price.) Today: profit, the bank, and shopping on a budget."},
+		{"text": "Profit: the price minus what it cost you to make. Bread costs 2 to make and sells for 3: 1 coin profit, for your work."},
+		{"text": "Give change by counting on from the price. Price 6, paid 10: 7, 8, 9, 10. That is 4 coins change."},
+		{"text": "A bank keeps your money safe and pays you interest: a little extra for keeping it there. The game's pretend bank is very generous; real banks pay much less."},
+		{"text": "Shopping: make a list, put the needs first, add up as you go, and keep within your budget.",
+			"picture": {"kind": "table", "rows": [["list", "price"], ["bread", "2"], ["milk", "3"], ["apples", "2"], ["total", "7"]]}},
+		{"text": "Too good to be true usually isn't true: if someone promises lots of money for a little, say no and tell a grown-up."},
+		{"text": "Try it in the world: open My Money Stall. Next: profit, compound interest and scams, on the Big track."}
+	],
+	"exercises": [
+		{"type": "number", "level": 1, "prompt": "Bread costs 2 coins to make and sells for 3. What is the profit on one loaf?",
+			"answer": "1", "hint": "The price minus the cost.", "explain": "3 - 2 = 1 coin profit."},
+		{"type": "number", "level": 1, "prompt": "Something costs 6. You pay 10. How much change?", "answer": "4",
+			"hint": "Count on from 6 to 10.", "explain": "10 - 6 = 4 coins change."},
+		{"type": "truefalse", "level": 1, "prompt": "A bank pays interest on money you keep there.", "answer": true,
+			"hint": "Why keep money in a bank?", "explain": "True: interest is a little extra the bank pays you."},
+		{"type": "choice", "level": 1, "prompt": "What goes on your shopping list first?", "answer": 0,
+			"choices": ["needs", "wants", "sweets"], "hint": "What you must have.", "explain": "Needs first, then wants if money is left."},
+		{"type": "number", "level": 2, "prompt": "You keep 10 coins in a bank that pays 1 coin a week. How many after 3 weeks?",
+			"answer": "13", "hint": "1 more each week.", "explain": "10 + 1 + 1 + 1 = 13 coins."},
+		{"type": "number", "level": 2, "prompt": "Milk is 3, bread is 2 and apples are 2. What is the total?", "answer": "7",
+			"hint": "Add them one by one.", "explain": "3 + 2 + 2 = 7 coins."},
+		{"type": "choice", "level": 2, "prompt": "Your budget is 10 and the needs cost 7. Can you add sweets for 3?", "answer": 0,
+			"choices": ["yes: 7 + 3 = 10", "no", "only half the sweets"], "hint": "Add 3 to 7.",
+			"explain": "Yes: 7 + 3 = 10, exactly the budget."},
+		{"type": "truefalse", "level": 2, "prompt": "To give change, you can count on from the price.", "answer": true,
+			"hint": "Price 6, paid 10: 7, 8, 9, 10.", "explain": "True: count on from the price to what they paid."},
+		{"type": "number", "level": 3, "prompt": "You sell 3 loaves at 3 coins each. Each cost 2 to make. What is your profit?",
+			"answer": "3", "hint": "1 coin profit on each loaf.", "explain": "9 - 6 = 3 coins profit."},
+		{"type": "choice", "level": 3, "prompt": "A stranger says: give me 10 coins and I'll give you 100 tomorrow. It's...", "answer": 0,
+			"choices": ["a trick", "a great deal", "a present"], "hint": "Does it sound too good to be true?",
+			"explain": "A trick: too good to be true usually isn't true. Say no and tell a grown-up."},
+		{"type": "number", "level": 3, "prompt": "The needs cost 7 and a toy costs 6. Your budget is 10. How much over the budget is everything?",
+			"answer": "3", "hint": "Add them, then take away 10.", "explain": "7 + 6 = 13, and 13 - 10 = 3 over. Needs first: the toy waits."},
+		{"type": "sort", "level": 3, "prompt": "Need or want?", "groups": ["need", "want"],
+			"items": ["milk", "a toy car", "bread", "a comic"], "answer": [0, 1, 0, 1],
+			"hint": "Could you live without it?", "explain": "Milk and bread are needs. A toy car and a comic are wants."}
+	]
+}

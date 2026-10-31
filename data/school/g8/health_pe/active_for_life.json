@@ -1,0 +1,335 @@
+{
+	"id": "g8.health_pe.active_for_life",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7, how many minutes of activity a day did you learn young people need, on average? (60 minutes.) Today: finding activities you will enjoy for life, and clubs near you."
+		},
+		{
+			"text": "Adults are advised at least 150 minutes of moderate activity a week, or 75 minutes of vigorous activity. They should also strengthen their muscles twice a week. Worked example: 150 ÷ 5 = 30 minutes on five days."
+		},
+		{
+			"text": "Moderate activity, like brisk walking, makes you breathe faster but you can still talk. Vigorous activity, like running, leaves only a few words. One vigorous minute counts about the same as two moderate ones.",
+			"picture": {
+				"kind": "talk_test",
+				"mark": "vigorous",
+				"words": true
+			}
+		},
+		{
+			"text": "There are many kinds of activity: team games, solo sports, outdoor adventure, dance, and gym and fitness. Active travel, like walking and cycling, counts too. Most people find at least one they enjoy.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"kind",
+						"for example"
+					],
+					[
+						"team games",
+						"netball"
+					],
+					[
+						"solo",
+						"swimming"
+					],
+					[
+						"outdoor adventure",
+						"climbing"
+					],
+					[
+						"dance",
+						"street dance"
+					],
+					[
+						"active travel",
+						"cycling"
+					]
+				]
+			}
+		},
+		{
+			"text": "People keep going with an activity when it is fun, with friends, makes them feel good, and lets them get better. Choose by what you enjoy, not only by what you are already good at."
+		},
+		{
+			"text": "Clubs are everywhere: sports clubs, leisure centres, parks, youth groups and school clubs. Ask about taster sessions. Good clubs have trained coaches and keep young people safe."
+		},
+		{
+			"text": "Every barrier has a fix. No time? Choose active travel. Too expensive? Use free parks and paths. Feeling shy? Go with a friend. Some activities, like walking and swimming, can last a whole lifetime.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"barrier",
+						"a fix"
+					],
+					[
+						"no time",
+						"cycle to school"
+					],
+					[
+						"it costs too much",
+						"free parks and paths"
+					],
+					[
+						"I feel shy",
+						"go with a friend"
+					],
+					[
+						"bad weather",
+						"an indoor class"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: try one new activity this month, or a taster session at a club, with a grown-up. In LIFE, the Goal Board helps you keep a new habit going, week after week. Next: looking after mental health."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Adults are advised 150 minutes of moderate activity a week. Spread over 5 days, how many minutes a day is that?",
+			"answer": "30",
+			"hint": "Share the week's minutes equally between the days.",
+			"explain": "150 ÷ 5 = 30 minutes a day."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is active travel?",
+			"choices": [
+				"cycling to school",
+				"watching sport on TV",
+				"a car ride to the shops",
+				"gaming with friends"
+			],
+			"answer": 0,
+			"hint": "Which one moves you from place to place under your own power?",
+			"explain": "Cycling to school gets you somewhere and is exercise too: active travel."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "You can still talk during moderate activity, but not sing.",
+			"answer": true,
+			"hint": "Think of the talk test.",
+			"explain": "True: moderate activity makes you breathe faster; you can talk but not sing."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Moderate or vigorous?",
+			"groups": [
+				"moderate",
+				"vigorous"
+			],
+			"items": [
+				"a fast game of football",
+				"brisk walking",
+				"swimming fast lengths",
+				"running",
+				"an easy bike ride"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Could you still talk, or only say a few words?",
+			"explain": "Moderate: brisk walking, an easy bike ride. Vigorous: running, fast football, fast swimming."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each kind of activity to an example.",
+			"items": [
+				"team game",
+				"solo",
+				"outdoor adventure",
+				"active travel"
+			],
+			"matches": [
+				"kayaking",
+				"netball",
+				"walking to school",
+				"yoga"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Do you play with a team, on your own, out in wild places, or on the way somewhere?",
+			"explain": "Team game: netball. Solo: yoga. Outdoor adventure: kayaking. Active travel: walking to school."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bram runs for 25 minutes. Counting a vigorous minute as two moderate ones, how many moderate minutes is that?",
+			"answer": "50",
+			"hint": "Running is vigorous: double the minutes.",
+			"explain": "25 × 2 = 50 moderate minutes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Ana feels shy about joining a club on her own. What is a good fix?",
+			"choices": [
+				"go along with a friend",
+				"never try a club",
+				"join three clubs at once",
+				"only watch from outside"
+			],
+			"answer": 0,
+			"hint": "What would make the first visit easier?",
+			"explain": "Going with a friend makes a new place feel friendlier, so she is more likely to keep going."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A good club has trained coaches and keeps young people safe.",
+			"answer": true,
+			"hint": "What would a grown-up check before you join?",
+			"explain": "True: trained coaches and clear safety rules are signs of a good club."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each barrier to a fix.",
+			"items": [
+				"no time",
+				"it costs too much",
+				"bad weather",
+				"nobody to go with"
+			],
+			"matches": [
+				"free parks and paths",
+				"a club's taster session",
+				"walk or cycle to school",
+				"an indoor class"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1
+			],
+			"hint": "For each problem, what makes the activity easier to fit in?",
+			"explain": "No time: active travel. Cost: free parks. Bad weather: indoors. Nobody to go with: a taster session."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of finding a club in order.",
+			"items": [
+				"decide whether to keep going",
+				"look for clubs near you",
+				"go along with a grown-up",
+				"ask about a taster session",
+				"list activities you enjoy"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Start with you, then search, then try.",
+			"explain": "List what you enjoy, find clubs, ask for a taster, go along, then decide."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi did 3 brisk walks of 30 minutes and 2 runs of 15 minutes. Counting vigorous minutes double, how many moderate minutes is that?",
+			"answer": "150",
+			"hint": "Walking is moderate; running is vigorous, so double it. Then add.",
+			"explain": "3 × 30 = 90 moderate minutes; 2 × 15 × 2 = 60; 90 + 60 = 150, the whole week's target."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do activities started as a teenager often last?",
+			"choices": [
+				"habits and skills built now carry on",
+				"adults are not allowed to start sports",
+				"clubs close to adults",
+				"fitness never changes"
+			],
+			"answer": 0,
+			"hint": "Think about how habits work.",
+			"explain": "Habits and skills you build now make it easier to keep going for years: people who enjoy an activity young often carry on."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara wants 150 moderate minutes this week. She has done 2 runs of 20 minutes. How many more moderate minutes does she need?",
+			"answer": "70",
+			"hint": "Turn the runs into moderate minutes first (double), then subtract from 150.",
+			"explain": "2 × 20 × 2 = 80 moderate minutes so far; 150 − 80 = 70 more minutes."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "To stay active for life, it is best to choose only the sport you are best at now.",
+			"answer": false,
+			"hint": "Which keeps people going longer: being good, or enjoying it?",
+			"explain": "False: enjoyment, friends and getting better keep people active; you can learn to be good at what you enjoy."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Aerobic, or muscle-strengthening?",
+			"groups": [
+				"aerobic",
+				"muscle-strengthening"
+			],
+			"items": [
+				"cycling",
+				"dancing",
+				"press-ups",
+				"squats",
+				"climbing a wall"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Does it keep your heart going for a long time, or make muscles work against a load?",
+			"explain": "Aerobic: cycling, dancing. Muscle-strengthening: press-ups, squats and climbing, which make muscles lift your body."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.week_activity",
+			"level": 1
+		},
+		{
+			"gen": "g8l.week_activity",
+			"level": 2
+		},
+		{
+			"gen": "g8l.week_activity",
+			"level": 3
+		},
+		{
+			"gen": "g8l.activity_kind",
+			"level": 1
+		},
+		{
+			"gen": "g8l.activity_kind",
+			"level": 2
+		},
+		{
+			"gen": "g8l.activity_kind",
+			"level": 3
+		}
+	]
+}

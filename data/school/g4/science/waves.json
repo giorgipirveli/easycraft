@@ -1,0 +1,463 @@
+{
+	"id": "g4.science.waves",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, sound. What makes a sound? Something shaking back and forth: a vibration."
+		},
+		{
+			"text": "Drop a pebble into a pond and rings of ripples spread out. A wave is a pattern of ups and downs that moves along, carrying energy from place to place.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 2,
+						"count": 3
+					}
+				]
+			}
+		},
+		{
+			"text": "The top of a wave is its crest, and the bottom is its trough. The amplitude is how tall the wave is: from its middle line up to a crest.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 3,
+						"count": 2
+					}
+				],
+				"labels": [
+					"crest",
+					"trough",
+					"amplitude"
+				]
+			}
+		},
+		{
+			"text": "The wavelength is the distance from one crest to the next crest. Crests close together make a short wavelength; crests far apart make a long one.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 3,
+						"count": 2
+					}
+				],
+				"labels": [
+					"wavelength"
+				]
+			}
+		},
+		{
+			"text": "Waves can make things move. When a wave passes a floating duck, the duck bobs up and down. The water mostly moves up and down too, while the wave travels on.",
+			"picture": {
+				"kind": "icon",
+				"animal": "duck"
+			}
+		},
+		{
+			"text": "Bigger waves carry more energy. Tall waves in a storm can move sand, roll pebbles along the beach and toss boats about.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 1,
+						"count": 3
+					},
+					{
+						"amp": 4,
+						"count": 3
+					}
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Sound travels in waves too, through the air. A drum's skin shakes back and forth and sets the air moving. A loud sound has waves with a bigger amplitude than a quiet one: wave A is loud, wave B quiet.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 3,
+						"count": 3
+					},
+					{
+						"amp": 1,
+						"count": 3
+					}
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Try it: tie a rope to a post and shake the other end. Shake harder for tall waves; shake faster and the crests come closer. Try it in the world: watch the waves on your world's sea. Next: light and seeing."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the top of a wave called?",
+			"hint": "It is the highest point of the wave.",
+			"explain": "The top of a wave is its crest; the bottom is its trough.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 2,
+						"count": 3
+					}
+				]
+			},
+			"choices": [
+				"the crest",
+				"the trough",
+				"the wavelength",
+				"the amplitude"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the bottom of a wave called?",
+			"hint": "It is the lowest point of the wave.",
+			"explain": "The bottom of a wave is its trough.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 2,
+						"count": 3
+					}
+				]
+			},
+			"choices": [
+				"the trough",
+				"the crest",
+				"the amplitude",
+				"the middle line"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Waves carry energy from place to place.",
+			"hint": "Think of ripples spreading across a pond.",
+			"explain": "A wave carries energy along, like ripples spreading out across a pond.",
+			"answer": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which wave is taller?",
+			"hint": "Look at how high the crests reach.",
+			"explain": "Wave B's crests stand higher: it has the bigger amplitude.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 1,
+						"count": 3
+					},
+					{
+						"amp": 3,
+						"count": 3
+					}
+				],
+				"names": true
+			},
+			"choices": [
+				"wave B",
+				"wave A",
+				"They are the same"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a wavelength?",
+			"hint": "Wave-length: how long one wave is.",
+			"explain": "A wavelength goes from one crest to the next crest. How tall a wave is, is its amplitude.",
+			"choices": [
+				"the distance from one crest to the next",
+				"how tall a wave is",
+				"how loud a wave is",
+				"the bottom of a wave"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When a wave crosses a pond, the water travels all the way across with it.",
+			"hint": "Watch a floating leaf when a ripple passes.",
+			"explain": "The water mostly bobs up and down. It is the wave, and its energy, that travels across.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A toy boat floats on a pond. A wave passes under it. What does the boat do?",
+			"hint": "The water under the boat moves up and down as the wave passes.",
+			"explain": "The boat rides up and down on the wave, and stays in about the same place.",
+			"choices": [
+				"It bobs up and down",
+				"It sinks to the bottom",
+				"It flies up into the air",
+				"It races to the far side"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which sound has waves with a bigger amplitude?",
+			"hint": "Louder sounds carry more energy.",
+			"explain": "A louder sound has waves with a bigger amplitude.",
+			"choices": [
+				"a loud shout",
+				"a quiet whisper",
+				"They are the same"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many crests does this wave have?",
+			"hint": "A crest is a top of the wave. Count the tops.",
+			"explain": "There are 4 crests.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 2,
+						"count": 4
+					}
+				]
+			},
+			"answer": "4"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In a storm, the sea's waves grow much taller. What does that tell you?",
+			"hint": "Bigger waves carry more energy.",
+			"explain": "Taller waves have a bigger amplitude, so they carry more energy.",
+			"choices": [
+				"They carry more energy",
+				"They carry less energy",
+				"They carry no energy",
+				"The water is warmer"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which wave has the longer wavelength?",
+			"hint": "Look at how far apart the crests are.",
+			"explain": "Wave B's crests are further apart, so its wavelength is longer.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 2,
+						"count": 5
+					},
+					{
+						"amp": 2,
+						"count": 2
+					}
+				],
+				"names": true
+			},
+			"choices": [
+				"wave B",
+				"wave A",
+				"They are the same"
+			],
+			"answer": 0
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The amplitude of a wave is the distance from one crest to the next crest.",
+			"hint": "Which word means how tall a wave is?",
+			"explain": "That is the wavelength. The amplitude is how tall the wave is, from its middle line to a crest.",
+			"answer": false
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara shakes one end of a rope gently. Then she shakes it much harder. What changes?",
+			"hint": "Shaking harder gives the rope more energy.",
+			"explain": "More energy makes taller waves: a bigger amplitude.",
+			"choices": [
+				"The waves get taller",
+				"The waves disappear",
+				"The rope gets longer",
+				"Nothing changes"
+			],
+			"answer": 0
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram shakes a rope up and down just as far as before, but faster. What happens to the waves?",
+			"hint": "More shakes each second make more waves along the same rope.",
+			"explain": "Faster shaking makes more waves in the same length of rope, so the crests are closer: a shorter wavelength.",
+			"choices": [
+				"The crests come closer together",
+				"The crests move further apart",
+				"The waves get much taller"
+			],
+			"answer": 0
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "This wave on a rope is 12 m long and has 4 whole waves. How long is one wavelength?",
+			"hint": "Share the length between the waves.",
+			"explain": "12 m ÷ 4 = 3 m for each wavelength.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 2,
+						"count": 4
+					}
+				]
+			},
+			"answer": "3"
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the waves in order from the smallest amplitude to the biggest.",
+			"hint": "The amplitude is how tall a wave is.",
+			"explain": "Wave B is the lowest, then wave C, then wave A.",
+			"picture": {
+				"kind": "wave",
+				"waves": [
+					{
+						"amp": 3,
+						"count": 3
+					},
+					{
+						"amp": 1,
+						"count": 3
+					},
+					{
+						"amp": 2,
+						"count": 3
+					}
+				],
+				"names": true
+			},
+			"items": [
+				"wave B",
+				"wave A",
+				"wave C"
+			],
+			"answer": [
+				0,
+				2,
+				1
+			]
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each wave word to what it means.",
+			"items": [
+				"crest",
+				"trough",
+				"amplitude",
+				"wavelength"
+			],
+			"matches": [
+				"crest to the next crest",
+				"how tall the wave is",
+				"the bottom of a wave",
+				"the top of a wave"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Two are places on the wave, and two are measurements of it.",
+			"explain": "The crest is the top and the trough is the bottom. The amplitude is how tall the wave is, from the middle line to a crest. The wavelength is from one crest to the next."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "You shake a rope to make waves. Sort what each change does: amplitude or wavelength?",
+			"groups": [
+				"changes the amplitude",
+				"changes the wavelength"
+			],
+			"items": [
+				"shake harder",
+				"shake faster",
+				"shake more gently",
+				"shake more slowly"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Harder or gentler changes how tall; faster or slower changes how close the crests are.",
+			"explain": "Shaking harder or more gently makes the waves taller or lower: the amplitude. Shaking faster or more slowly brings the crests closer or further apart: the wavelength."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A rope wave has a wavelength of 2 m. How many whole waves fit on 10 m of rope?",
+			"answer": "5",
+			"hint": "Divide the rope's length by one wavelength.",
+			"explain": "10 m ÷ 2 m = 5 whole waves, each with one crest."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4p.wave_compare",
+			"level": 1
+		},
+		{
+			"gen": "g4p.wave_compare",
+			"level": 2
+		},
+		{
+			"gen": "g4p.wave_compare",
+			"level": 3
+		},
+		{
+			"gen": "g4p.wave_count",
+			"level": 1
+		},
+		{
+			"gen": "g4p.wave_count",
+			"level": 2
+		},
+		{
+			"gen": "g4p.wave_count",
+			"level": 3
+		},
+		{
+			"gen": "g4p.wave_order",
+			"level": 1
+		},
+		{
+			"gen": "g4p.wave_order",
+			"level": 3
+		}
+	]
+}

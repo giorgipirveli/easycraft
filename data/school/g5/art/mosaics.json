@@ -1,0 +1,303 @@
+{
+	"id": "g5.art.mosaics",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a pixel? (One small square of colour in a picture made on a grid.) Today: mosaics, pictures made of tiny tiles, thousands of years before pixels."
+		},
+		{
+			"text": "A mosaic is a picture or pattern made of small pieces of stone, glass or tile, called tesserae, set close together. The gaps between them are filled with grout.",
+			"picture": {
+				"kind": "mosaic",
+				"rows": [
+					"bbbbbbbbbbbb",
+					"bbbboooobbbb",
+					"bboooooooobo",
+					"boKooooooooo",
+					"bboooooooobo",
+					"bbbboooobbbb",
+					"bbbbbbbbbbbb"
+				],
+				"key": {
+					"b": "blue",
+					"o": "orange",
+					"K": "black"
+				}
+			}
+		},
+		{
+			"text": "The Romans made mosaic floors for their houses and baths: patterns, animals, sea creatures and scenes of daily life, from little cubes of coloured stone."
+		},
+		{
+			"text": "Worked example: plan it on squared paper, one square for each tile. This panel is 8 tiles wide and 5 tiles tall, so it needs 8 × 5 = 40 tiles.",
+			"picture": {
+				"kind": "mosaic",
+				"rows": [
+					"bbbbbbbb",
+					"bwwwwwwb",
+					"bwwyywwb",
+					"bwwwwwwb",
+					"bbbbbbbb"
+				],
+				"key": {
+					"b": "blue",
+					"w": "white",
+					"y": "yellow"
+				}
+			}
+		},
+		{
+			"text": "Set the tiles in rows that follow the shape's outline, like water flowing round it. Mosaic makers call this flow andamento, and it makes a mosaic look alive."
+		},
+		{
+			"text": "Keep small, even gaps between the tiles. Choose colours that stand out against each other, like a dark shape on a light background. Then the picture reads from far away."
+		},
+		{
+			"text": "Mosaics come from many places: walls of glittering gold glass in Ravenna, Italy; geometric tiles called zellige in Morocco; and bright broken-tile mosaics on buildings today.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Place",
+						"Mosaic"
+					],
+					[
+						"Ravenna, Italy",
+						"gold glass walls"
+					],
+					[
+						"Morocco",
+						"zellige tiles"
+					],
+					[
+						"cities today",
+						"broken tiles"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: make a mosaic floor in your world from coloured blocks, one block for each tile. Plan it on squared paper first, and give it a border. Next: architecture."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What are the small pieces of a mosaic called?",
+			"answer": 0,
+			"hint": "It is a Latin word, used since Roman times.",
+			"choices": [
+				"tesserae",
+				"pixels",
+				"bricks",
+				"stitches"
+			],
+			"explain": "The small tiles of a mosaic are called tesserae."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Grout fills the gaps between the tiles of a mosaic.",
+			"answer": true,
+			"hint": "What goes in the thin lines between the tiles?",
+			"explain": "True: grout fills the gaps and holds the tiles firm."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many tiles are in this mosaic?",
+			"answer": "20",
+			"hint": "Count the rows, and the tiles in one row.",
+			"explain": "4 rows of 5 tiles: 4 × 5 = 20 tiles.",
+			"picture": {
+				"kind": "mosaic",
+				"rows": [
+					"rryrr",
+					"ryyyr",
+					"ryyyr",
+					"rryrr"
+				],
+				"key": {
+					"r": "red",
+					"y": "yellow"
+				}
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"tesserae",
+				"grout",
+				"andamento",
+				"border"
+			],
+			"matches": [
+				"the flow of the rows",
+				"a frame round the edge",
+				"the small tiles",
+				"fills the gaps"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of how a mosaic is made.",
+			"explain": "Tesserae are the tiles, grout fills the gaps, andamento is the flow of the rows, and a border frames it."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many white tiles are in this mosaic?",
+			"answer": "6",
+			"hint": "Count row by row, touching each white tile.",
+			"explain": "Row by row: 1 + 4 + 1 = 6 white tiles.",
+			"picture": {
+				"kind": "mosaic",
+				"rows": [
+					"bbwbb",
+					"bwwww",
+					"bbwbb"
+				],
+				"key": {
+					"b": "blue",
+					"w": "white"
+				}
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A mosaic is 12 tiles wide and 9 tiles tall, with no gaps in the pattern. How many tiles does it need?",
+			"answer": "108",
+			"hint": "Rows of tiles: how many rows, how many in each?",
+			"explain": "9 rows of 12: 9 × 12 = 108 tiles."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which colours would make a dark blue fish stand out best?",
+			"answer": 0,
+			"hint": "A shape stands out when it is very different from what is round it.",
+			"choices": [
+				"dark blue on pale yellow",
+				"dark blue on dark green",
+				"dark blue on black",
+				"dark blue on dark purple"
+			],
+			"explain": "Dark blue on pale yellow has the most contrast, so the fish shows clearly from far away."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of making a mosaic in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Grout goes in last, once every tile is down.",
+			"items": [
+				"Choose the colours",
+				"Stick them down with small gaps",
+				"Draw a plan on squared paper",
+				"Cut or choose the tiles",
+				"Fill the gaps with grout"
+			],
+			"explain": "Plan it, choose colours, get the tiles ready, stick them down with gaps, then grout."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Roman floor mosaics were often made of little cubes of coloured stone.",
+			"answer": true,
+			"hint": "Think of what lasts under people's feet.",
+			"explain": "True: small stone cubes were strong enough to walk on for centuries."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many tiles are in the border?",
+			"answer": "20",
+			"hint": "Count all the tiles, then take away the tiles inside the border.",
+			"explain": "All: 7 × 5 = 35. Inside: 5 × 3 = 15. Border: 35 − 15 = 20 tiles.",
+			"picture": {
+				"kind": "mosaic",
+				"rows": [
+					"bbbbbbb",
+					"bwwwwwb",
+					"bwwwwwb",
+					"bwwwwwb",
+					"bbbbbbb"
+				],
+				"key": {
+					"b": "blue",
+					"w": "white"
+				}
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A square mosaic has 10 tiles along each side. How many tiles are in a border one tile wide?",
+			"answer": "36",
+			"hint": "All the tiles, take away the square inside (2 fewer each way).",
+			"explain": "All: 10 × 10 = 100. Inside: 8 × 8 = 64. Border: 100 − 64 = 36 tiles."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do mosaic makers plan on squared paper first?",
+			"answer": 0,
+			"hint": "Think of the worked example: one square, one tile.",
+			"choices": [
+				"Each square stands for one tile",
+				"The paper is stuck into the mosaic",
+				"It makes the tiles smaller",
+				"It is the only paper allowed"
+			],
+			"explain": "Each square stands for one tile, so they can count the tiles and place every colour before they start."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does andamento mean in a mosaic?",
+			"answer": 0,
+			"hint": "It is an Italian word for how something goes or flows.",
+			"choices": [
+				"the flow of the rows of tiles",
+				"the glue under the tiles",
+				"the gold glass tiles",
+				"the border"
+			],
+			"explain": "Andamento is the flow of the rows of tiles, following the shapes like water."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A mosaic of 1 cm tiles, 30 cm by 20 cm, needs about 600 tiles.",
+			"answer": true,
+			"hint": "How many tiles fit along each side?",
+			"explain": "True: 30 along and 20 down, 30 × 20 = 600 tiles."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.mosaic_tiles",
+			"level": 1
+		},
+		{
+			"gen": "g5a.mosaic_tiles",
+			"level": 2
+		},
+		{
+			"gen": "g5a.mosaic_tiles",
+			"level": 3
+		}
+	]
+}

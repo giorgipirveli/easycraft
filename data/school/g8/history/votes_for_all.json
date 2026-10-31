@@ -1,0 +1,326 @@
+{
+	"id": "g8.history.votes_for_all",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met the suffragettes as active citizens. In which year did all women in the UK win the vote on the same terms as men? (1928.) Today: how the right to vote grew, in Britain and around the world."
+		},
+		{
+			"text": "In 1830 only a small share of men in Britain could vote, mostly owners of land and property; no women could. Manchester had no MP at all, while Old Sarum, a 'rotten borough' with 7 voters, had two."
+		},
+		{
+			"text": "The Great Reform Act of 1832 gave towns like Manchester MPs, but only about 1 in 5 men could vote. The Chartists asked for votes for all men and a secret ballot. Reforms in 1867 and 1884 added working men; secret voting came in 1872.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"1832",
+						2
+					],
+					[
+						"1867",
+						3
+					],
+					[
+						"1884",
+						6
+					],
+					[
+						"1918",
+						10
+					]
+				],
+				"step": 2,
+				"top": 10,
+				"name": "Men who could vote, of every 10"
+			}
+		},
+		{
+			"text": "Women campaigned too. Suffragists, led by Millicent Fawcett from 1897, used petitions and meetings. Suffragettes, led by Emmeline Pankhurst from 1903, took bolder action: marches, chaining themselves to railings, breaking windows, hunger strikes in prison."
+		},
+		{
+			"text": "In 1918, after the First World War, all men over 21 and women over 30 who met property rules won the vote: about 8.4 million women. In 1928 women won it on equal terms, at 21. In 1969 the voting age fell to 18."
+		},
+		{
+			"text": "New Zealand was the first country to let women vote in national elections, in 1893. Finland (1906) was the first to elect women to its parliament. The USA followed in 1920, France in 1944, Japan in 1945, India in 1950 and Switzerland in 1971.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1890,
+				"to": 1980,
+				"step": 10,
+				"events": [
+					[
+						1893,
+						"New Zealand"
+					],
+					[
+						1906,
+						"Finland"
+					],
+					[
+						1918,
+						"UK (over 30)"
+					],
+					[
+						1928,
+						"UK (equal)"
+					],
+					[
+						1944,
+						"France"
+					],
+					[
+						1971,
+						"Switzerland"
+					]
+				]
+			}
+		},
+		{
+			"text": "The vote kept growing. In the USA, laws such as the Voting Rights Act of 1965 protected Black citizens' right to vote. Today some places let 16-year-olds vote: Austria in all its elections, Scotland and Wales in their own. Every vote counts the same."
+		},
+		{
+			"text": "Try it in the world: hold a secret ballot in your village to choose its name or flag: a box, ballot papers and a count. Why does a secret vote matter? Next: the First World War."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "In which year did New Zealand let women vote in national elections, the first country to do so?",
+			"answer": "1893",
+			"hint": "It was in the 1890s, near the end of the 1800s.",
+			"explain": "In 1893, New Zealand.",
+			"year": true
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who led the suffragettes?",
+			"choices": [
+				"Florence Nightingale",
+				"Mary Seacole",
+				"Emmeline Pankhurst",
+				"Millicent Fawcett"
+			],
+			"answer": 2,
+			"hint": "The suffragettes' leader started their group in 1903.",
+			"explain": "Emmeline Pankhurst led the suffragettes; Millicent Fawcett led the suffragists."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In 1918 every woman over 21 in the UK won the vote.",
+			"answer": false,
+			"hint": "Check the age and the property rules for women in 1918.",
+			"explain": "False: in 1918 it was women over 30 who met property rules; equal votes at 21 came in 1928."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a secret ballot?",
+			"choices": [
+				"voting by raising hands",
+				"voting without anyone seeing your choice",
+				"a vote by shouting",
+				"a vote only for kings"
+			],
+			"answer": 1,
+			"hint": "Think why it protects voters from pressure.",
+			"explain": "Voting in private, so nobody can see, bribe or threaten you over your choice."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: suffragists or suffragettes?",
+			"groups": [
+				"suffragists",
+				"suffragettes"
+			],
+			"items": [
+				"led by Millicent Fawcett",
+				"hunger strikes in prison",
+				"petitions and meetings",
+				"began in 1897",
+				"led by Emmeline Pankhurst",
+				"began in 1903"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "One group kept to peaceful persuasion; the other used bolder actions.",
+			"explain": "Suffragists: Fawcett, petitions and meetings, 1897. Suffragettes: Pankhurst, hunger strikes, 1903."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, earliest first.",
+			"items": [
+				"the secret ballot (1872)",
+				"votes for women over 30 (1918)",
+				"the voting age falls to 18 (1969)",
+				"equal votes at 21 (1928)",
+				"the Great Reform Act (1832)"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				3,
+				2
+			],
+			"hint": "Compare the years.",
+			"explain": "1832, 1872, 1918, 1928, 1969."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In 1832 about 2 in every 10 men could vote. What percentage is that?",
+			"answer": "20",
+			"hint": "Find how many out of 100: multiply both by 10.",
+			"explain": "2 ÷ 10 × 100 = 20%."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each country to the year women won the national vote.",
+			"items": [
+				"New Zealand",
+				"the USA",
+				"France",
+				"Switzerland"
+			],
+			"matches": [
+				"1920",
+				"1971",
+				"1944",
+				"1893"
+			],
+			"answer": [
+				3,
+				0,
+				2,
+				1
+			],
+			"hint": "New Zealand was first; Switzerland came last of these.",
+			"explain": "New Zealand 1893, the USA 1920, France 1944, Switzerland 1971."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Switzerland gave women the national vote in 1971. How many years after New Zealand (1893) was that?",
+			"answer": "78",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1971 − 1893 = 78 years."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why could many men not vote before 1918?",
+			"choices": [
+				"voting needed property or a high rent",
+				"they lived abroad",
+				"voting was banned",
+				"they were too young"
+			],
+			"answer": 0,
+			"hint": "Think about who owned land and houses.",
+			"explain": "Votes depended on owning or renting property of a certain value, so poorer men were left out."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did the First World War help women win the vote in 1918?",
+			"choices": [
+				"men stopped voting",
+				"the war banned elections",
+				"their war work proved the old arguments wrong",
+				"women became generals"
+			],
+			"answer": 2,
+			"hint": "Think about the jobs women did while men were away fighting.",
+			"explain": "Women ran factories, buses and farms in the war, so old claims that they were not fit to vote fell apart."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In an election 50,000 people could vote, and 64% did (the turnout). How many people voted?",
+			"answer": "32000",
+			"hint": "Find 1% of 50,000, then multiply by 64.",
+			"explain": "50,000 ÷ 100 = 500; 500 × 64 = 32,000 people."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The suffragettes' bolder actions won some people to their cause and turned others against it.",
+			"answer": true,
+			"hint": "Historians still argue about whether bolder action helped or harmed.",
+			"explain": "True: it won attention but also lost some support; historians still debate it."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: who could vote in a UK general election in 1920?",
+			"groups": [
+				"could vote",
+				"could not vote"
+			],
+			"items": [
+				"a man aged 22",
+				"a boy aged 16",
+				"a woman aged 40 who owned a house",
+				"a girl aged 16",
+				"a man aged 60",
+				"a woman aged 22"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Remember the 1918 rules: men at 21, women at 30 with property.",
+			"explain": "Could vote: the man of 22, the woman of 40 who owned a house, the man of 60. Could not: the woman of 22 and the 16-year-olds."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Old Sarum had 7 voters and 2 MPs. How many voters did each MP stand for?",
+			"answer": "3.5",
+			"hint": "Share the voters between the MPs.",
+			"explain": "7 ÷ 2 = 3.5 voters for each MP."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.suffrage_years",
+			"level": 1
+		},
+		{
+			"gen": "g8h.suffrage_years",
+			"level": 2
+		},
+		{
+			"gen": "g8h.suffrage_years",
+			"level": 3
+		},
+		{
+			"gen": "g8h.electorate_share",
+			"level": 1
+		},
+		{
+			"gen": "g8h.electorate_share",
+			"level": 2
+		},
+		{
+			"gen": "g8h.electorate_share",
+			"level": 3
+		}
+	]
+}

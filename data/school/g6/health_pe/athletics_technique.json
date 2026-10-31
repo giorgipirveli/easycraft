@@ -1,0 +1,319 @@
+{
+	"id": "g6.health_pe.athletics_technique",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you ran, jumped and threw in athletics. Which is timed with a stopwatch: a sprint or a jump? (A sprint.) Today: a sprint start, a relay handover and jumping technique."
+		},
+		{
+			"text": "The crouch start. 'On your marks': front foot in the front block, back knee on the ground. Hands just behind the start line, arms straight, shoulders over the hands, eyes down.",
+			"picture": {
+				"kind": "track_field",
+				"view": "marks",
+				"labels": true
+			}
+		},
+		{
+			"text": "'Set': lift the hips to just above the shoulders, knees bent, and hold still. On the gun, drive hard out of the blocks, stay low for a few strides, pump the arms, then rise gradually.",
+			"picture": {
+				"kind": "track_field",
+				"view": "set",
+				"labels": true
+			}
+		},
+		{
+			"text": "A 4 × 100 m relay: four runners carry a baton. The next runner starts when the incoming runner reaches a check mark. The baton must change hands inside the 30 m takeover zone.",
+			"picture": {
+				"kind": "track_field",
+				"view": "relay",
+				"labels": true
+			}
+		},
+		{
+			"text": "The handover: the incoming runner calls 'Hand!' The next runner reaches back with a steady, open hand, without looking, and the baton is pushed firmly into it. The baton goes right hand, left hand, right, left."
+		},
+		{
+			"text": "Long jump: a fast, even run-up, take off from one foot, knees up in the air, land feet first and fall forwards. It is measured from the take-off line to the nearest mark in the sand.",
+			"picture": {
+				"kind": "track_field",
+				"view": "long_jump",
+				"marks": [
+					3.6,
+					3.2
+				],
+				"measure": true,
+				"labels": true
+			}
+		},
+		{
+			"text": "The triple jump: a hop (take off and land on the same foot) and a step (land on the other foot). Then a jump: land on both feet in the pit. Add the three: 3.5 + 2.5 + 3 = 9 m.",
+			"picture": {
+				"kind": "track_field",
+				"view": "triple_jump",
+				"phases": [
+					3.5,
+					2.5,
+					3.0
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: build a track with a yellow takeover zone, and a sand pit with a take-off board. For real: practise the crouch start and a handover with a friend, and measure your jumps. Next: analyse and improve."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the starter's words in order.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "The first words get you into the blocks.",
+			"items": [
+				"Set",
+				"On your marks",
+				"the gun (go!)"
+			],
+			"explain": "'On your marks', then 'Set', then the gun."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In 'On your marks', where are your hands?",
+			"answer": 0,
+			"hint": "Touching the line is not allowed.",
+			"choices": [
+				"just behind the start line",
+				"on the line",
+				"in your pockets",
+				"on your knees"
+			],
+			"explain": "Just behind the start line, arms straight."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A 4 × 100 m relay team has four runners.",
+			"answer": true,
+			"hint": "4 × 100 m: how many legs?",
+			"explain": "True: four runners, 100 m each."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "From where is a long jump measured?",
+			"answer": 0,
+			"hint": "It is measured from the board to the sand.",
+			"choices": [
+				"the take-off line",
+				"the start of the run-up",
+				"the middle of the pit",
+				"the jumper's toes"
+			],
+			"explain": "From the take-off line to the nearest mark in the sand."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does the sprinter do in the 'Set' position?",
+			"answer": 0,
+			"hint": "Look at the hips and the shoulders.",
+			"choices": [
+				"lift the hips just above the shoulders",
+				"stand up straight",
+				"sit back on the heels",
+				"look round at the crowd"
+			],
+			"explain": "In 'Set', the hips rise just above the shoulders, ready to drive.",
+			"picture": {
+				"kind": "track_field",
+				"view": "set"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A relay team's four legs took 14 s, 15 s, 13 s and 16 s. What was the team's time, in seconds?",
+			"answer": "58",
+			"hint": "Add the four legs.",
+			"explain": "14 + 15 + 13 + 16 = 58 seconds."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The baton may be passed anywhere on the track.",
+			"answer": false,
+			"hint": "Look at the yellow box on the relay picture.",
+			"explain": "False: it must be passed inside the 30 m takeover zone.",
+			"picture": {
+				"kind": "track_field",
+				"view": "relay",
+				"labels": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The heels land at 3.4 m, but a hand falls back to 3.1 m. How long is the jump, in metres?",
+			"answer": "3.1",
+			"hint": "Measure to the nearest mark in the sand.",
+			"explain": "The nearest mark is the hand at 3.1 m, so the jump is 3.1 m.",
+			"picture": {
+				"kind": "track_field",
+				"view": "long_jump",
+				"marks": [
+					3.4,
+					3.1
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part of the triple jump to how you land.",
+			"items": [
+				"hop",
+				"step",
+				"jump"
+			],
+			"matches": [
+				"on the other foot",
+				"on both feet in the pit",
+				"on the same foot"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Hop on one foot, step to the other, jump into the sand.",
+			"explain": "Hop: land on the same foot. Step: land on the other foot. Jump: land on both feet in the pit."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does the incoming relay runner call to the next runner?",
+			"answer": 0,
+			"hint": "It tells the next runner to reach back.",
+			"choices": [
+				"'Hand!'",
+				"'Stop!'",
+				"'Look back!'",
+				"'Wait for me!'"
+			],
+			"explain": "'Hand!': the signal to reach back for the baton."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara's triple jump: a hop of 3.2 m, a step of 2.6 m and a jump of 2.9 m. How far is it, in metres?",
+			"answer": "8.7",
+			"hint": "Add the three parts.",
+			"explain": "3.2 + 2.6 + 2.9 = 8.7 m."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does the next relay runner start running before the baton arrives?",
+			"answer": 0,
+			"hint": "What speed should the baton keep?",
+			"choices": [
+				"so both are running fast at the handover",
+				"to get a head start in the race",
+				"because the baton is heavy",
+				"to have a rest"
+			],
+			"explain": "So both runners are at full speed when the baton changes hands."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why should a long jumper fall forwards on landing?",
+			"answer": 0,
+			"hint": "Remember how a jump is measured.",
+			"choices": [
+				"a mark behind the feet makes the jump shorter",
+				"it looks better",
+				"to stop more quickly",
+				"it is the only rule"
+			],
+			"explain": "The jump is measured to the nearest mark: falling back makes a mark closer to the board."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the long jump in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Speed first, then leave the ground.",
+			"items": [
+				"landing",
+				"flight",
+				"take-off",
+				"run-up"
+			],
+			"explain": "Run-up, take-off, flight, then landing."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A jump where the foot goes over the take-off line is a no-jump, and does not count.",
+			"answer": true,
+			"hint": "Where must the take-off foot be?",
+			"explain": "True: stepping over the line is a no-jump."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi's long jumps: 3.24 m, a no-jump and 3.41 m. What is her best jump that counts, in metres?",
+			"answer": "3.41",
+			"hint": "A no-jump never counts. Compare the others.",
+			"explain": "The no-jump does not count, so the best is 3.41 m."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.relay_split",
+			"level": 1
+		},
+		{
+			"gen": "g6w.relay_split",
+			"level": 2
+		},
+		{
+			"gen": "g6w.relay_split",
+			"level": 3
+		},
+		{
+			"gen": "g6w.jump_measure",
+			"level": 1
+		},
+		{
+			"gen": "g6w.jump_measure",
+			"level": 2
+		},
+		{
+			"gen": "g6w.jump_measure",
+			"level": 3
+		},
+		{
+			"gen": "g6w.sprint_speed",
+			"level": 1
+		},
+		{
+			"gen": "g6w.sprint_speed",
+			"level": 2
+		},
+		{
+			"gen": "g6w.sprint_speed",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,362 @@
+{
+	"id": "g3.geography.landforms_water",
+	"lesson": [
+		{
+			"text": "Quick memory: why are places near the Equator hot? (The Sun is high and shines straight down.) Today: the shapes of the land and water."
+		},
+		{
+			"text": "A mountain is very high land with steep sides, often with a rocky top. A hill is lower and rounder. A valley is the low land between hills or mountains.",
+			"picture": {
+				"kind": "river_course",
+				"view": "plan",
+				"labels": true
+			}
+		},
+		{
+			"text": "A river is fresh water flowing downhill. It starts at its source, often in the hills, and ends at its mouth, usually at the sea. Smaller rivers that join it are tributaries.",
+			"picture": {
+				"kind": "map",
+				"rows": [
+					"^^..~......",
+					"^.~~.......",
+					"..~........",
+					"...~~......",
+					".....~~....",
+					".......~~~~",
+					"........~~~"
+				]
+			}
+		},
+		{
+			"text": "A lake is water with land all around it. The coast is where the land meets the sea: it can have sandy beaches, rocky cliffs and curved bays."
+		},
+		{
+			"text": "An island is land with water all around it. Great Britain, Madagascar and Iceland are islands.",
+			"picture": {
+				"kind": "map",
+				"rows": [
+					"~~~~~~~~~~",
+					"~~~....~~~",
+					"~~..^^..~~",
+					"~~...^..~~",
+					"~~~....~~~",
+					"~~~~~~~~~~"
+				],
+				"key": true
+			}
+		},
+		{
+			"text": "Record breakers: Mount Everest in Asia is the highest mountain, about 8,850 m. The Nile in Africa and the Amazon in South America are the longest rivers; experts still argue which is longer!"
+		},
+		{
+			"text": "Try it in the world: build a landscape with a mountain and a valley. Let a river flow from its source down to the sea, and add a lake and a small island. Put a sign on each one."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an island?",
+			"answer": 0,
+			"hint": "Think of the map in the lesson with sea on every side.",
+			"choices": [
+				"land with water all around it",
+				"water with land all around it",
+				"a very high mountain",
+				"the end of a river"
+			],
+			"explain": "An island is land with water all around it, like Great Britain."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a lake?",
+			"answer": 0,
+			"hint": "It is the opposite of an island.",
+			"choices": [
+				"water with land all around it",
+				"land with water all around it",
+				"a river's source",
+				"a high cliff"
+			],
+			"explain": "A lake is water with land all around it."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A hill is usually lower and rounder than a mountain.",
+			"answer": true,
+			"hint": "Which one has steep sides and a rocky top?",
+			"explain": "True: mountains are higher and steeper; hills are lower and rounder."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The coast is where the land meets the sea.",
+			"answer": true,
+			"hint": "Think of a beach or a cliff.",
+			"explain": "True: the coast is the edge of the land beside the sea."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the highest mountain on Earth?",
+			"answer": 0,
+			"hint": "It is in Asia, about 8,850 m high.",
+			"choices": [
+				"Mount Everest",
+				"Ben Nevis",
+				"a sand dune",
+				"Stonehenge"
+			],
+			"explain": "Mount Everest in Asia is the highest mountain on Earth."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the parts of a river in order, from start to end.",
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "A river starts high up and ends at the sea.",
+			"items": [
+				"the river gets wider",
+				"tributaries join",
+				"the source",
+				"the mouth"
+			],
+			"explain": "Source, tributaries join, the river widens, then the mouth."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a valley?",
+			"answer": 0,
+			"hint": "Rivers often flow along the bottom of one.",
+			"choices": [
+				"low land between hills",
+				"the top of a mountain",
+				"a sandy beach",
+				"a small island"
+			],
+			"explain": "A valley is the low land between hills or mountains."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where does a river usually end?",
+			"answer": 0,
+			"hint": "Water flows downhill. Where is the lowest place?",
+			"choices": [
+				"at its mouth, often at the sea",
+				"at the top of a mountain",
+				"in the sky",
+				"at its source"
+			],
+			"explain": "A river ends at its mouth, usually where it flows into the sea."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A river's water flows uphill.",
+			"answer": false,
+			"hint": "Which way does water go if you pour it on a slope?",
+			"explain": "False: river water always flows downhill, from its source to its mouth."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a small river that joins a bigger one called?",
+			"answer": 0,
+			"hint": "Remember the lesson card about rivers.",
+			"choices": [
+				"a tributary",
+				"a source",
+				"an island",
+				"a bay"
+			],
+			"explain": "A tributary is a smaller river that flows into a bigger one."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Look at the map. Where does this river start?",
+			"answer": 0,
+			"hint": "Rivers start high up. Find the mountain symbols.",
+			"choices": [
+				"near the mountains",
+				"at the sea",
+				"in the middle of the sea",
+				"it has no start"
+			],
+			"explain": "It starts near the mountains, high up, and flows down to the sea.",
+			"picture": {
+				"kind": "map",
+				"rows": [
+					"^^..~......",
+					"^.~~.......",
+					"..~........",
+					"...~~......",
+					".....~~....",
+					".......~~~~",
+					"........~~~"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which two rivers are the longest in the world?",
+			"answer": 0,
+			"hint": "One is in Africa and one in South America.",
+			"choices": [
+				"the Nile and the Amazon",
+				"the Thames and the Seine",
+				"the Mississippi and the Thames",
+				"the Danube and the Rhine"
+			],
+			"explain": "The Nile and the Amazon are the longest; experts still argue which is longer."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Great Britain is an island.",
+			"answer": true,
+			"hint": "Is there water all the way around it?",
+			"explain": "True: Great Britain has sea all the way around it, so it is an island. Madagascar and Iceland are islands too."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do many rivers start in hills and mountains?",
+			"answer": 0,
+			"hint": "Where does river water come from, and which way does it flow?",
+			"choices": [
+				"rain and snow fall there and run downhill",
+				"the sea pushes water up there",
+				"rivers start where the sea ends",
+				"hills are made of water"
+			],
+			"explain": "Rain and melting snow on high ground run downhill, joining into streams and rivers."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: land or water?",
+			"groups": [
+				"land",
+				"water"
+			],
+			"items": [
+				"mountain",
+				"lake",
+				"valley",
+				"river",
+				"hill",
+				"sea"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Could you walk on it, or would you need a boat?",
+			"explain": "Land: mountain, valley, hill. Water: lake, river, sea."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part of a river to what it is.",
+			"items": [
+				"source",
+				"mouth",
+				"tributary"
+			],
+			"matches": [
+				"a river that joins another",
+				"where a river starts",
+				"where a river ends"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Think of a river's journey from the hills to the sea.",
+			"explain": "The source is where it starts, the mouth where it ends, and a tributary is a river that joins it."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to what it is.",
+			"items": [
+				"a lake",
+				"an island",
+				"a coast"
+			],
+			"matches": [
+				"land with water all around it",
+				"where the land meets the sea",
+				"water with land all around it"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "A lake and an island are opposites: swap land and water.",
+			"explain": "A lake is water with land all around, an island is land with water all around, and the coast is where land meets sea."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each landform to what it looks like.",
+			"items": [
+				"a mountain",
+				"a hill",
+				"a valley",
+				"a bay"
+			],
+			"matches": [
+				"low land between hills",
+				"a curved bit of coast",
+				"very high land with steep sides",
+				"lower, rounder high land"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Which is highest? Which is lowest? Which one is by the sea?",
+			"explain": "A mountain is very high with steep sides, and a hill is lower and rounder. A valley is the low land between them. A bay is a curved bit of coast."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "A raindrop falls on a mountain. Put its journey to the sea in order.",
+			"items": [
+				"It flows out of the river's mouth into the sea.",
+				"It trickles downhill into a small stream.",
+				"It lands high on a mountain.",
+				"The stream joins a big river as a tributary."
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "Water always flows downhill, from the source to the mouth.",
+			"explain": "The raindrop lands high up, near the source, and trickles downhill into a stream. The stream joins a bigger river as a tributary, and the river carries it out of its mouth into the sea."
+		}
+	],
+	"generators": []
+}

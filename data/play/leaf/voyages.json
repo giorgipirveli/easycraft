@@ -1,0 +1,111 @@
+{
+	"about": "Inside a Leaf's voyages (docs/design/games/leaf-voyage.md sections 3.5, 3.5b, 3.6, 3.10): the ladder, the kinds of weather, and each voyage's unit, plant, simulation numbers (from the phase A models in docs/design/games/leaf-voyage/model/), weather script, judged beats and lines. Seconds are seconds; water, air and shares are 0-1; sugar is in hexagons.",
+	"rungs": [
+		{"rung": 4, "grade": 4, "name": "Plant Explorer", "depth": "ant", "scale": 200},
+		{"rung": 5, "grade": 5, "name": "Built from Air", "depth": "cell", "scale": 85000},
+		{"rung": 6, "grade": 6, "name": "One Cell", "depth": "inside a cell", "scale": 500000},
+		{"rung": 7, "grade": 7, "name": "Atom Builders", "depth": "molecule", "scale": 2000000000},
+		{"rung": 8, "grade": 8, "name": "The Whole Plant", "depth": "whole plant", "scale": 1}
+	],
+	"weather": {
+		"blaze": {"heat": 1.0, "light": 1.0, "doors": "shut"},
+		"cloud": {"heat": 0.25, "light": 0.7, "doors": "open"},
+		"evening": {"heat": 0.2, "light": 0.4, "doors": "shut"},
+		"night": {"heat": 0.0, "light": 0.0, "doors": "shut", "night": true},
+		"desert_day": {"heat": 1.3, "light": 1.0, "doors": "shut", "dawn_heat": 0.2, "dawn_light": 0.3},
+		"desert_night": {"heat": 0.05, "light": 0.0, "doors": "open", "night": true}
+	},
+	"voyages": [
+		{
+			"id": "5.1",
+			"name": "The Drooping Sunflower",
+			"rung": 5,
+			"unit": "g5.science.plants_air_water",
+			"shows": "the water-and-air balance",
+			"plant": "sunflower",
+			"dressing": "sunflower",
+			"transfer": false,
+			"after": "",
+			"music": {"inside": "air", "bloom": "waltz_of_the_flowers"},
+			"sim": {"model": "c3", "doors": 6, "water": 0.5, "doors_open": true, "r_in": 0.035, "k_out": 0.006,
+				"cuticle": 0.0006, "k_air": 0.22, "air_use": 4.0, "k_sugar": 0.35, "droop": 0.55, "dry": 0.35,
+				"dry_work": 0.3, "bud": 12, "bud_rate": 1.0},
+			"act1": {"kind": "blaze", "floor": 0.4, "fill_seconds": 6.0, "refill": 6.0},
+			"script": [
+				{"id": "trap", "kind": "blaze", "seconds": 14},
+				{"id": "cloud1", "kind": "cloud", "seconds": 20, "voiced": true},
+				{"id": "blaze1", "kind": "blaze", "seconds": 15, "voiced": true},
+				{"id": "cloud2", "kind": "cloud", "seconds": 20},
+				{"id": "blaze2", "kind": "blaze", "seconds": 15},
+				{"id": "cloud3", "kind": "cloud", "seconds": 20},
+				{"id": "blaze3", "kind": "blaze", "seconds": 15},
+				{"id": "cloud4", "kind": "cloud", "seconds": 20},
+				{"id": "blaze4", "kind": "blaze", "seconds": 15},
+				{"id": "evening", "kind": "evening", "seconds": 10}
+			],
+			"beats": [
+				{"id": "B1", "rule": "act1"},
+				{"id": "C2", "segment": "cloud2", "rule": "cloud"},
+				{"id": "Z2", "segment": "blaze2", "rule": "blaze"},
+				{"id": "C3", "segment": "cloud3", "rule": "cloud"},
+				{"id": "Z3", "segment": "blaze3", "rule": "blaze"},
+				{"id": "C4", "segment": "cloud4", "rule": "cloud"},
+				{"id": "Z4", "segment": "blaze4", "rule": "blaze"}
+			],
+			"judge": {"droop": 0.55, "max_open": 0.34, "tail": 0.3, "half": 0.5, "min_sugar": 1.6, "contrast": 0.4},
+			"turns": {"max": 6, "cloud": 20, "blaze": 15},
+			"adapt": {"misses": 2, "longer": 0.3},
+			"lines": {
+				"hook": "L1", "see_why": ["L11", "L16", "L24"],
+				"watered": "L2", "touch_leaf": "L3", "dive": "L4", "under_leaf": "L5", "inside": "L6",
+				"your_turn": "L7", "first_door": "L8", "hint": "L9", "all_shut": "L10", "why_doors": "L11", "act2": "L12",
+				"too_hot": "L13", "wait": "L14", "first_open": "L15", "first_sugar": "L16", "name": "L17",
+				"hint_open": "L15", "hint_shut": "L18",
+				"first_shut": "L18", "carry": "L19", "wrong_pipe": "L20", "bud_full": "L21", "bloom": "L22",
+				"scales": "L23", "idea": "L24", "honesty": "L25", "end": "L26", "too_dry": "L27",
+				"cathedral": "G5", "shrink": "G4", "ladybird": "G3", "break": "G1", "back": "G2"
+			}
+		},
+		{
+			"id": "5.T1",
+			"name": "The Desert Night",
+			"rung": 5,
+			"unit": "g5.science.plants_air_water",
+			"shows": "the weather idea",
+			"plant": "cactus",
+			"dressing": "cactus",
+			"transfer": true,
+			"setting": "the desert at night",
+			"after": "5.1",
+			"music": {"day": "desert_day", "night": "moonlight"},
+			"sim": {"model": "cam", "doors": 6, "water": 0.9, "doors_open": false, "r_in": 0.012, "k_out": 0.006,
+				"cuticle": 0.0004, "k_air": 0.22, "air_use": 2.0, "k_sugar": 0.35, "droop": 0.55, "dry": 0.35,
+				"dry_work": 0.3, "jar_cap": 8.0, "k_jar": 0.06, "bud": 6, "bud_rate": 1.0},
+			"script": [
+				{"id": "day1", "kind": "desert_day", "seconds": 30, "dawn": 8},
+				{"id": "night1", "kind": "desert_night", "seconds": 30},
+				{"id": "day2", "kind": "desert_day", "seconds": 30, "dawn": 8},
+				{"id": "night2", "kind": "desert_night", "seconds": 30},
+				{"id": "day3", "kind": "desert_day", "seconds": 30, "dawn": 8}
+			],
+			"beats": [
+				{"id": "Day1", "segment": "day1", "rule": "day"},
+				{"id": "Night1", "segment": "night1", "rule": "night"},
+				{"id": "Dawn1", "segment": "day2", "rule": "dawn"},
+				{"id": "Day2", "segment": "day2", "rule": "day"},
+				{"id": "Night2", "segment": "night2", "rule": "night"},
+				{"id": "Dawn2", "segment": "day3", "rule": "dawn"}
+			],
+			"judge": {"droop": 0.55, "max_open": 0.34, "tail": 0.3, "half": 0.5, "night_open": 0.5, "dawn": 8.0,
+				"dawn_doors": 2},
+			"adapt": {"misses": 2, "longer": 0.0},
+			"lines": {
+				"hook": "D1", "see_why": ["D6", "D9"],
+				"dive": "D2", "inside": "D3", "no_clouds": "D4", "dusk": "D5", "first_jar": "D6",
+				"builds_shut": "D7", "flower": "D8", "rule": "D9", "end": "D10", "too_hot": "L13",
+				"hint_open": "D5", "hint_shut": "D3",
+				"carry": "L19", "wrong_pipe": "L20", "too_dry": "L27", "break": "G1", "back": "G2"
+			}
+		}
+	]
+}

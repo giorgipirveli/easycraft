@@ -1,0 +1,44 @@
+{
+	"owner": "#115 (S3)",
+	"about": "My Business's shop (docs/design/success-skills.md §2.1, the Middle track): the goods with what each costs to make and its fair price (the cost and a little profit), the customers (the Connections Book's people, each with a wish), their moods, the shop's signs, the customers' review words (honest and kind) and the rival's shop. Everything is pretend: the coins are pretend market coins; the real gold the shop pays is the game's (SuccessShop.GOLD_PER_CUSTOMER).",
+	"goods": {
+		"bread": {"name": "bread", "label": "Bread", "one": "a loaf of bread", "many": "loaves", "cost": 2, "price": 3, "icon": "bread"},
+		"cake": {"name": "cake", "label": "A cake", "one": "a cake", "many": "cakes", "cost": 3, "price": 4, "icon": "cake"},
+		"honey_bun": {"name": "honey bun", "label": "Honey buns", "one": "a honey bun", "many": "honey buns", "cost": 1, "price": 2, "icon": "honey_bun"}
+	},
+	"customers": {
+		"lina": {"good": "cake", "words": "A cake, please. It's for my new friend!"},
+		"mo": {"good": "bread", "words": "A loaf of bread for my lunch, please."},
+		"okafor": {"good": "honey_bun", "words": "Honey buns for my reading club, please."},
+		"kenji": {"good": "bread", "words": "Some bread to eat by my beehives, please."},
+		"omar": {"good": "cake", "words": "A cake for the clock shop's birthday, please!"},
+		"rosa": {"good": "honey_bun", "words": "Honey buns for the potters' tea break, please."},
+		"gemma": {"good": "bread", "words": "Bread for a day out in the hills, please."},
+		"ivan": {"good": "honey_bun", "words": "A honey bun to go with my tea, please."},
+		"mei": {"good": "cake", "words": "A cake for the Launch Site team, please!"},
+		"tomas": {"good": "bread", "words": "A loaf, please. My flour made it!"}
+	},
+	"moods": [
+		{"id": "cheerful", "face": "happy", "words": "{name} comes in smiling."},
+		{"id": "shy", "face": "calm", "words": "{name} comes in quietly and looks a little shy."},
+		{"id": "tired", "face": "calm", "words": "{name} comes in after a long day."}
+	],
+	"signs": [
+		{"id": "sunny", "text": "THE SUNNY BAKERY"},
+		{"id": "golden", "text": "THE GOLDEN LOAF"},
+		{"id": "smiles", "text": "BREAD AND SMILES"},
+		{"id": "honey", "text": "THE HONEY OVEN"},
+		{"id": "corner", "text": "THE CORNER BAKERY"},
+		{"id": "rocket", "text": "THE ROCKET BAKERY"}
+	],
+	"sign_line": "FRESH BREAD, CAKES AND HONEY BUNS",
+	"reviews": {
+		"asked": {"stars": 5, "words": "You asked what I wanted. Just right!"},
+		"fair": {"stars": 5, "words": "Good baking at a fair price."},
+		"fresh": {"stars": 5, "words": "Fresh bread and a big smile!"},
+		"fixed": {"stars": 5, "words": "Something went wrong, and you listened and fixed it. Thank you!"},
+		"order": {"stars": 5, "words": "The big order came on time, just as you promised."},
+		"quicker": {"stars": 4, "words": "Lovely! Next time it will be even quicker."}
+	},
+	"rival": {"name": "Pip-pop", "shop": "PIP-POP'S BAKERY"}
+}

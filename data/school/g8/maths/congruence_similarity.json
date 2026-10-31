@@ -1,0 +1,111 @@
+{
+	"id": "g8.maths.congruence_similarity",
+	"lesson": [
+		{
+			"text": "Congruent shapes are exactly the same size and shape: one can be moved onto the other by translations, reflections and rotations."
+		},
+		{
+			"text": "Similar shapes have the same shape but may differ in size: a dilation (plus moves) takes one to the other."
+		},
+		{
+			"text": "In similar shapes, matching angles are equal and matching sides are in the same ratio: the scale factor."
+		},
+		{
+			"text": "Small triangle sides 3 and 5; big triangle's matching sides 6 and ?: the scale factor is 2, so ? = 10."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Congruent shapes are the same size and shape.",
+			"answer": true,
+			"hint": "Exactly the same.",
+			"explain": "Yes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which transformation can turn a shape into a similar but bigger one?",
+			"answer": 0,
+			"hint": "Enlarge…",
+			"choices": [
+				"a dilation",
+				"a translation",
+				"a reflection"
+			],
+			"explain": "A dilation."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Similar triangles: small sides 3 and 5; big matching sides 6 and ?. What is the missing side?",
+			"answer": "10",
+			"hint": "Scale factor 2.",
+			"explain": "5 × 2 = 10."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Similar shapes have equal matching angles.",
+			"answer": true,
+			"hint": "Same shape.",
+			"explain": "Yes."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Similar rectangles: 4 cm by 6 cm, and 10 cm by ? cm. What is the missing side?",
+			"answer": "15",
+			"hint": "Scale factor 2.5.",
+			"explain": "6 × 2.5 = 15."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Two triangles have angles 40°, 60°, 80°. What must be true?",
+			"answer": 0,
+			"hint": "Same angles…",
+			"choices": [
+				"They are similar.",
+				"They are congruent.",
+				"Nothing."
+			],
+			"explain": "Same angles means similar."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 2 m pole casts a 3 m shadow. At the same time a tree casts a 12 m shadow. How tall is the tree, in metres?",
+			"answer": "8",
+			"hint": "Similar triangles: 12 ÷ 3 = 4.",
+			"explain": "2 × 4 = 8 m."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A shape is reflected, then rotated. Is the result congruent to the start?",
+			"answer": 0,
+			"hint": "Neither changes size.",
+			"choices": [
+				"yes",
+				"no"
+			],
+			"explain": "Yes: size and shape stay the same."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8g.similar_side",
+			"level": 1
+		},
+		{
+			"gen": "g8g.similar_side",
+			"level": 2
+		},
+		{
+			"gen": "g8g.similar_side",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,387 @@
+{
+	"id": "g7.science.ecosystem_change",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, energy in ecosystems. About how much energy passes from one level to the next? About a tenth."
+		},
+		{
+			"text": "Ecosystems change: floods, fires, droughts, new species arriving, or people clearing land."
+		},
+		{
+			"text": "A change to one part affects the others: if a disease kills the frogs, the insects they ate may increase and the herons that eat frogs may decrease.",
+			"picture": {
+				"kind": "food_web",
+				"nodes": [
+					[
+						"plants",
+						1,
+						3
+					],
+					[
+						"insects",
+						1,
+						2
+					],
+					[
+						"frogs",
+						1,
+						1
+					],
+					[
+						"herons",
+						1,
+						0
+					]
+				],
+				"links": [
+					[
+						0,
+						1
+					],
+					[
+						1,
+						2
+					],
+					[
+						2,
+						3
+					]
+				],
+				"mark": 2
+			}
+		},
+		{
+			"text": "Biodiversity is the variety of life. Ecosystems with many species recover better, like a web with many threads."
+		},
+		{
+			"text": "People protect biodiversity with nature reserves, wildlife corridors, replanting and cutting pollution. Each choice has costs and benefits.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"action",
+						"helps by"
+					],
+					[
+						"nature reserve",
+						"safe habitat"
+					],
+					[
+						"a corridor",
+						"linking habitats"
+					],
+					[
+						"replanting",
+						"food and homes"
+					],
+					[
+						"less pollution",
+						"clean water"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a wildlife corridor in your world: a strip of trees and flowers joining two woods, so animals can cross safely. Next: the rock cycle."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is biodiversity?",
+			"answer": 0,
+			"hint": "bio means life.",
+			"choices": [
+				"the variety of living things",
+				"the number of rocks",
+				"a kind of plant"
+			],
+			"explain": "Biodiversity is the variety of life."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which could change an ecosystem quickly?",
+			"answer": 0,
+			"hint": "A big event.",
+			"choices": [
+				"a forest fire",
+				"a sunny afternoon",
+				"a bird singing"
+			],
+			"explain": "A fire changes an ecosystem quickly."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A change to one population can affect others.",
+			"answer": true,
+			"hint": "Think of the frogs.",
+			"explain": "Yes: they are all linked."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which one helps protect biodiversity?",
+			"answer": 0,
+			"hint": "Which choice keeps land safe for wildlife?",
+			"choices": [
+				"a nature reserve",
+				"more pollution",
+				"cutting all the trees"
+			],
+			"explain": "Nature reserves protect habitats."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Ecosystems with many species usually recover better.",
+			"answer": true,
+			"hint": "A web with many threads.",
+			"explain": "Yes: variety helps them recover."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A disease kills most of the frogs in a pond. What might happen to the insects they ate?",
+			"answer": 0,
+			"hint": "The frogs ate the insects. What happens when they are gone?",
+			"choices": [
+				"They may increase.",
+				"They all die.",
+				"Nothing."
+			],
+			"explain": "With fewer frogs, more insects survive."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a wildlife corridor?",
+			"answer": 0,
+			"hint": "It lets animals move.",
+			"choices": [
+				"a strip of habitat linking two areas",
+				"a road for cars",
+				"a zoo"
+			],
+			"explain": "A strip of habitat that links two areas."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A new species arrives and eats the same food as a native one. What might happen to the native species?",
+			"answer": 0,
+			"hint": "Two species want the same food. Which one might lose out?",
+			"choices": [
+				"It may decline.",
+				"It will grow.",
+				"Nothing changes."
+			],
+			"explain": "Competing for food, the native species may decline."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Replanting trees can help a damaged ecosystem recover.",
+			"answer": true,
+			"hint": "What do new trees give animals?",
+			"explain": "Yes: trees bring back homes and food."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is a field of one crop less stable than a meadow?",
+			"answer": 0,
+			"hint": "If every plant in the field is the same, what can one disease do?",
+			"choices": [
+				"One disease can wipe out its one crop.",
+				"It has more species.",
+				"Fields never change."
+			],
+			"explain": "With one species, one disease can destroy it all."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A town must choose: a road through a wood, or a longer route around it. What should they weigh?",
+			"answer": 0,
+			"hint": "Think about everyone affected.",
+			"choices": [
+				"the costs and benefits to people and wildlife",
+				"only the cost",
+				"only the speed"
+			],
+			"explain": "Good choices weigh costs and benefits for people and wildlife."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "After a fire, which usually comes back first?",
+			"answer": 0,
+			"hint": "What grows fastest?",
+			"choices": [
+				"grasses and small plants",
+				"tall old trees",
+				"large predators"
+			],
+			"explain": "Grasses and small plants grow back first."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bees are declining. Why should farmers care?",
+			"answer": 0,
+			"hint": "What do bees do for flowers?",
+			"choices": [
+				"Bees pollinate many crops.",
+				"Bees eat crops.",
+				"Bees make rain."
+			],
+			"explain": "Many crops need bees to pollinate them."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Protecting one species never affects others.",
+			"answer": false,
+			"hint": "Everything is linked.",
+			"explain": "No: protecting one helps or changes others."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order how a forest recovers after a fire.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Small plants first.",
+			"items": [
+				"a mature forest",
+				"young trees",
+				"shrubs",
+				"grasses and flowers"
+			],
+			"explain": "Grasses, shrubs, young trees, then a mature forest."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the changes: natural or caused by people?",
+			"items": [
+				"a flood",
+				"clearing land for farms",
+				"a drought",
+				"pollution in a river",
+				"a new species arriving by itself",
+				"building a road"
+			],
+			"groups": [
+				"natural",
+				"people"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Would it happen without people doing anything?",
+			"explain": "Floods, droughts and species spreading by themselves are natural. Clearing land, pollution and roads are caused by people."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each action to how it protects biodiversity.",
+			"items": [
+				"nature reserve",
+				"wildlife corridor",
+				"replanting",
+				"cutting pollution"
+			],
+			"matches": [
+				"cleaner water and air",
+				"links two habitats",
+				"a safe habitat",
+				"brings back food and homes"
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "Think what each one gives the animals and plants.",
+			"explain": "A reserve gives a safe habitat; a corridor links two habitats; replanting brings back food and homes; cutting pollution gives cleaner water and air."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "A disease kills most of a pond's frogs. Sort what may happen next.",
+			"groups": [
+				"may increase",
+				"may decrease"
+			],
+			"items": [
+				"the insects frogs eat",
+				"the herons that eat frogs",
+				"the frog population",
+				"the snakes that hunt frogs"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Follow the food web: who eats frogs, and what do frogs eat?",
+			"explain": "With fewer frogs, the insects they ate may increase. The herons and snakes that eat frogs lose food, so they may decrease, as the frogs did."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "A new species arrives that eats the same food as a native one. Order what may happen.",
+			"items": [
+				"The native species may decline.",
+				"The new species spreads.",
+				"Both compete for the same food.",
+				"A new species arrives."
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "Start with the arrival, then follow the competition for food.",
+			"explain": "A new species arrives and spreads, both species compete for the same food, and the native one may decline as it loses out on food."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "A town must choose how to cross a wood. Match each choice to its cost and benefit.",
+			"items": [
+				"a road through the wood",
+				"a longer road round it",
+				"a road with a wildlife bridge"
+			],
+			"matches": [
+				"safe crossing, but costs more",
+				"shorter trips, but harms habitat",
+				"saves the wood, but longer trips"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "For each choice, ask what people gain and what it costs wildlife or money.",
+			"explain": "A road through the wood shortens trips but harms the habitat. A longer road saves the wood but makes trips longer. A wildlife bridge lets animals cross safely but costs more. Each choice has costs and benefits."
+		}
+	]
+}

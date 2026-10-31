@@ -1,0 +1,322 @@
+{
+	"id": "g4.design_tech.wheels_axles",
+	"lesson": [
+		{
+			"text": "Quick memory: what were the first wheels used for, over 5,000 years ago? (Shaping clay, on a potter's wheel.) Today: building a vehicle whose wheels roll straight."
+		},
+		{
+			"text": "A model vehicle has a chassis (its frame), axles (rods the wheels turn on) and wheels. Axle holders, like short tubes or straws, fix the axles to the chassis.",
+			"picture": {
+				"kind": "chassis",
+				"axles": [
+					"square",
+					"square"
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "A fixed axle: the wheels are fixed to the axle, and the whole axle turns inside its holders. A free axle: the axle is fixed, and the wheels spin on it. Both work."
+		},
+		{
+			"text": "To roll straight, the axles must be parallel to each other and at right angles to the chassis. A crooked axle makes the car turn and wobble.",
+			"picture": {
+				"kind": "chassis",
+				"axles": [
+					"square",
+					"crooked"
+				]
+			}
+		},
+		{
+			"text": "Wheels must be round and the same size, with the hole in the very middle. Leave a small gap so a wheel does not rub on the chassis: rubbing is friction, which slows it down."
+		},
+		{
+			"text": "Each turn, a wheel rolls as far as the distance round its edge. A wheel 30 cm round rolls 30 cm each turn, so 4 turns roll 4 × 30 = 120 cm.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "30 cm",
+								"size": 1
+							},
+							{
+								"text": "30 cm",
+								"size": 1
+							},
+							{
+								"text": "30 cm",
+								"size": 1
+							},
+							{
+								"text": "30 cm",
+								"size": 1
+							}
+						],
+						"total": "120 cm"
+					}
+				]
+			}
+		},
+		{
+			"text": "Test it fairly: roll it down the same ramp, from the same height, and measure how far it goes. Change only one thing, like the size of the wheels, and test again."
+		},
+		{
+			"text": "Try it in the world: build a cart with 4 wheels on 2 axles, and a ramp to roll it down. For real: make a car from card, straws and bottle tops, and see how far it rolls."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the chassis?",
+			"answer": 0,
+			"hint": "Look at the labels in the picture.",
+			"choices": [
+				"the frame the axles fix to",
+				"the rod a wheel turns on",
+				"a wheel's edge",
+				"the ramp"
+			],
+			"explain": "The chassis is the vehicle's frame; the axles and wheels fix to it.",
+			"picture": {
+				"kind": "chassis",
+				"axles": [
+					"square",
+					"square"
+				],
+				"labels": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an axle?",
+			"answer": 0,
+			"hint": "It goes through the middle of the wheels.",
+			"choices": [
+				"the rod that the wheels turn on",
+				"the frame of the car",
+				"the driver's seat",
+				"a kind of wheel"
+			],
+			"explain": "An axle is the rod the wheels turn on."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A wheel needs its hole in the very middle to roll smoothly.",
+			"answer": true,
+			"hint": "What happens if the hole is near the edge?",
+			"explain": "True: with the hole off-centre, the wheel bumps up and down as it turns."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which axle is crooked?",
+			"answer": 0,
+			"hint": "Look for the axle that is not at right angles to the chassis.",
+			"choices": [
+				"the axle on the right",
+				"the axle on the left",
+				"neither of them"
+			],
+			"explain": "The axle on the right is crooked, so this car would turn and wobble.",
+			"picture": {
+				"kind": "chassis",
+				"axles": [
+					"square",
+					"crooked"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "This car's axles are parallel, so it can roll straight.",
+			"answer": true,
+			"hint": "Are the axles at right angles to the chassis?",
+			"explain": "True: both axles are parallel and at right angles to the chassis.",
+			"picture": {
+				"kind": "chassis",
+				"axles": [
+					"square",
+					"square"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part to its job.",
+			"items": [
+				"chassis",
+				"axle",
+				"axle holder",
+				"wheel"
+			],
+			"matches": [
+				"the rod the wheels turn on",
+				"fixes the axle to the chassis",
+				"rolls along the ground",
+				"holds everything together"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of the picture with the labels.",
+			"explain": "Chassis: holds it together. Axle: the wheels turn on it. Axle holder: fixes the axle on. Wheel: rolls."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the difference between a fixed axle and a free axle?",
+			"answer": 0,
+			"hint": "In one, the wheels and axle turn together.",
+			"choices": [
+				"fixed: the axle turns; free: only wheels spin",
+				"a fixed axle cannot move at all",
+				"a free axle has no wheels",
+				"there is no difference"
+			],
+			"explain": "On a fixed axle, the wheels and axle turn together inside the holders. On a free axle, only the wheels spin."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A wheel is 25 cm round its edge. How far does the car roll in 4 turns?",
+			"answer": "100",
+			"hint": "Each turn rolls the distance round the wheel: multiply.",
+			"explain": "4 × 25 = 100 cm."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A wheel rubs on the side of the chassis. What happens?",
+			"answer": 0,
+			"hint": "What is rubbing called?",
+			"choices": [
+				"friction slows the car down",
+				"the car goes faster",
+				"the wheel grows",
+				"nothing at all"
+			],
+			"explain": "Rubbing is friction, which slows the car down. Leave a small gap between the wheel and the chassis."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This car rolls in a curve. Why?",
+			"answer": 0,
+			"hint": "Look closely at the size of each wheel.",
+			"choices": [
+				"one wheel is smaller than the others",
+				"the axles are parallel",
+				"it has too many wheels",
+				"the chassis is too long"
+			],
+			"explain": "One wheel is smaller, so that side rolls less far each turn, and the car curves.",
+			"picture": {
+				"kind": "chassis",
+				"axles": [
+					"square",
+					"square"
+				],
+				"wheels": "mixed"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A wheel is 40 cm round. How many turns does it make to roll 200 cm?",
+			"answer": "5",
+			"hint": "How many lots of 40 cm make 200 cm?",
+			"explain": "200 ÷ 40 = 5 turns."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put a fair ramp test in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Set everything up before you let go.",
+			"items": [
+				"let go of the car without pushing",
+				"repeat it 3 times",
+				"set the ramp to one height",
+				"measure how far it rolls",
+				"change one thing, then test again"
+			],
+			"explain": "Set the ramp, let go without pushing, measure, repeat 3 times, then change one thing and test again."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "To test fairly, change the ramp height and the wheels at the same time.",
+			"answer": false,
+			"hint": "How would you know which change made the difference?",
+			"explain": "False: change only one thing at a time, so you know what made the difference."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why are axles put at right angles to the chassis?",
+			"answer": 0,
+			"hint": "Which way do the wheels roll when the axle is square?",
+			"choices": [
+				"so the wheels point straight ahead",
+				"to make the car heavier",
+				"so the wheels fall off",
+				"to make it look nice"
+			],
+			"explain": "At right angles, the wheels point straight ahead, so the car rolls straight."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A big wheel is 50 cm round and a small wheel 30 cm round. Each turns 3 times. How much further does the big one roll, in centimetres?",
+			"answer": "60",
+			"hint": "Work out how far each rolls, then find the difference.",
+			"explain": "3 × 50 = 150 cm and 3 × 30 = 90 cm. 150 − 90 = 60 cm."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.wheel_roll",
+			"level": 1
+		},
+		{
+			"gen": "g4w.wheel_roll",
+			"level": 2
+		},
+		{
+			"gen": "g4w.wheel_roll",
+			"level": 3
+		}
+	],
+	"play": {
+		"hook": "The cart at the bottom of the ramp keeps wobbling. Find out how to make it roll straight!",
+		"game": "generic",
+		"params": {
+			"costume": "path"
+		},
+		"coach": [
+			"Axles are the rods the wheels turn on.",
+			"Parallel axles make a vehicle roll straight.",
+			"Rubbing is friction, and it slows a wheel down.",
+			"Each turn, a wheel rolls the distance round its edge.",
+			"A fair test changes only one thing."
+		],
+		"world_task": "Build a cart with 4 wheels on 2 axles, and a ramp to roll it down. How far does it go?"
+	}
+}

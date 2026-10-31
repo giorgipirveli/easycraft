@@ -1,0 +1,368 @@
+{
+	"id": "g4.english.adjectives",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met adverbs. In \"she ran quickly\", which word tells how she ran? Quickly: an adverb."
+		},
+		{
+			"text": "When we use more than one adjective, they go in a usual order: opinion, size, age, shape, colour, material, then the noun.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"opinion",
+						"size",
+						"age",
+						"colour",
+						"material"
+					],
+					[
+						"lovely",
+						"little",
+						"old",
+						"red",
+						"wooden"
+					]
+				]
+			}
+		},
+		{
+			"text": "So we say a lovely little old red wooden boat, not a red old little boat."
+		},
+		{
+			"text": "A preposition shows where or when: under, over, behind, beside, through, during, after, before."
+		},
+		{
+			"text": "A prepositional phrase starts with a preposition and ends with a noun: under the bridge, after lunch, through the dark forest.",
+			"picture": {
+				"kind": "sentence_parts",
+				"parts": [
+					{
+						"text": "The cat hid",
+						"tag": "independent clause"
+					},
+					{
+						"text": "under the bed.",
+						"tag": "phrase"
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build something and put a sign by the door. Describe it with three adjectives in the usual order, like \"a cosy little stone house\". Next: who, which, that, where and when."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the usual order for a ball that is big and red?",
+			"answer": 0,
+			"hint": "Size comes before colour.",
+			"choices": [
+				"a big red ball",
+				"a red big ball"
+			],
+			"explain": "Size (big) comes before colour (red)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word is a preposition?",
+			"answer": 0,
+			"hint": "It tells where.",
+			"choices": [
+				"under",
+				"jump",
+				"green",
+				"slowly"
+			],
+			"explain": "\"Under\" is a preposition: it tells where."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the usual order for a dog that is small and old?",
+			"answer": 0,
+			"hint": "Size comes before age.",
+			"choices": [
+				"a small old dog",
+				"an old small dog"
+			],
+			"explain": "Size (small) comes before age (old)."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "\"Behind\" is a preposition.",
+			"answer": true,
+			"hint": "It tells where: behind the tree.",
+			"explain": "Yes: behind tells where."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Find the prepositional phrase: \"The cat hid under the bed.\"",
+			"answer": 0,
+			"hint": "It starts with a preposition.",
+			"choices": [
+				"under the bed",
+				"the cat",
+				"hid under"
+			],
+			"explain": "\"Under the bed\" starts with a preposition and ends with a noun."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which describes the scarf in the usual order?",
+			"answer": 0,
+			"hint": "Opinion, then shape, then material.",
+			"choices": [
+				"a beautiful long silk scarf",
+				"a silk long beautiful scarf",
+				"a long silk beautiful scarf"
+			],
+			"explain": "Opinion (beautiful), shape (long), material (silk)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Find the prepositional phrase: \"After lunch, we flew the kite.\"",
+			"answer": 0,
+			"hint": "Which part tells when?",
+			"choices": [
+				"After lunch",
+				"we flew",
+				"the kite"
+			],
+			"explain": "\"After lunch\" is a prepositional phrase that tells when."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which describes the castle in the usual order?",
+			"answer": 0,
+			"hint": "Size, age, material.",
+			"choices": [
+				"a huge old stone castle",
+				"a stone old huge castle",
+				"an old stone huge castle"
+			],
+			"explain": "Size (huge), age (old), material (stone)."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "\"A wooden little box\" is in the usual order.",
+			"answer": false,
+			"hint": "Where does the material go?",
+			"explain": "No: size before material, so it is a little wooden box."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which preposition fits? \"The bird flew ___ the open window.\"",
+			"answer": 0,
+			"hint": "Into one side and out the other.",
+			"choices": [
+				"through",
+				"during",
+				"of"
+			],
+			"explain": "The bird flew through the window."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which describes the bowl in the usual order?",
+			"answer": 0,
+			"hint": "Opinion, size, shape, colour.",
+			"choices": [
+				"a lovely little round blue bowl",
+				"a blue round little lovely bowl",
+				"a round lovely blue little bowl"
+			],
+			"explain": "Opinion (lovely), size (little), shape (round), colour (blue)."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the adjectives in the usual order: a ___ box.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Size, age, colour, material.",
+			"items": [
+				"metal",
+				"green",
+				"old",
+				"small"
+			],
+			"explain": "A small old green metal box: size, age, colour, material."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which sentence has a prepositional phrase that tells when?",
+			"answer": 0,
+			"hint": "Which one tells a time?",
+			"choices": [
+				"We sang during the party.",
+				"We sang on the stage.",
+				"We sang loudly."
+			],
+			"explain": "\"During the party\" tells when."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In \"The fox ran across the icy field\", the prepositional phrase is \"across the icy field\".",
+			"answer": true,
+			"hint": "Find the preposition.",
+			"explain": "Yes: it starts with across and ends with the noun field."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which describes the puppies in the usual order?",
+			"answer": 0,
+			"hint": "Opinion, age, colour.",
+			"choices": [
+				"two funny young brown puppies",
+				"two brown young funny puppies",
+				"two young funny brown puppies"
+			],
+			"explain": "Opinion (funny), age (young), colour (brown)."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the words: adjective or preposition?",
+			"items": [
+				"wooden",
+				"under",
+				"lovely",
+				"during",
+				"tiny",
+				"behind"
+			],
+			"groups": [
+				"adjective",
+				"preposition"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it describe a thing, or tell where or when?",
+			"explain": "Wooden, lovely and tiny describe things: adjectives. Under, during and behind tell where or when: prepositions."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each adjective to its kind in the usual order.",
+			"items": [
+				"beautiful",
+				"huge",
+				"ancient",
+				"silver"
+			],
+			"matches": [
+				"material",
+				"age",
+				"size",
+				"opinion"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Opinion, size, age, shape, colour, material.",
+			"explain": "Beautiful is an opinion, huge a size, ancient an age, silver a material."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the adjectives by their kind.",
+			"groups": [
+				"opinion",
+				"size",
+				"material"
+			],
+			"items": [
+				"lovely",
+				"tiny",
+				"wooden",
+				"beautiful",
+				"huge",
+				"silk"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Is it what someone thinks, how big it is, or what it is made of?",
+			"explain": "Opinion: lovely, beautiful (what someone thinks). Size: tiny, huge. Material: wooden, silk (what it is made of)."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the adjectives in the usual order: a ___ cat.",
+			"items": [
+				"black",
+				"old",
+				"friendly",
+				"little"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Opinion, size, age, shape, colour, material: find each word's kind first.",
+			"explain": "A friendly little old black cat: opinion (friendly), size (little), age (old), then colour (black)."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the prepositional phrases: do they tell where or when?",
+			"groups": [
+				"where",
+				"when"
+			],
+			"items": [
+				"under the mat",
+				"after school",
+				"through the forest",
+				"during the film",
+				"beside the river",
+				"before dinner"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Ask 'where?' and 'when?': which question does each phrase answer?",
+			"explain": "Where: under the mat, through the forest, beside the river. When: after school, during the film, before dinner."
+		}
+	]
+}

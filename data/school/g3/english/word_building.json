@@ -1,0 +1,308 @@
+{
+	"id": "g3.english.word_building",
+	"lesson": [
+		{
+			"text": "Remember? A word can have a root: its main part, like kind, help or play. Today we add parts to roots, and we clap out the beats in long words."
+		},
+		{
+			"text": "A prefix goes at the start and changes the meaning. un- means not (unkind). re- means again (replay). dis- means not, or the opposite (disagree). pre- means before (preview)."
+		},
+		{
+			"text": "A suffix goes at the end. -ful means full of (helpful). -less means without (helpless). -ly means in that way (kindly). -er can mean a person who (player). -able means can be (washable)."
+		},
+		{
+			"text": "Put them together: unhelpful = un (not) + help + ful (full of), so it means not helpful. To read a new word, take off its prefix and suffix and find the root.",
+			"picture": {
+				"kind": "word_blocks",
+				"parts": [
+					{
+						"text": "un",
+						"role": "prefix",
+						"means": "not"
+					},
+					{
+						"text": "help",
+						"role": "root",
+						"means": "help"
+					},
+					{
+						"text": "ful",
+						"role": "suffix",
+						"means": "full of"
+					}
+				],
+				"means": "not helpful"
+			}
+		},
+		{
+			"text": "Syllables are the beats in a word. Clap them: cat (1), gar-den (2), but-ter-fly (3), cat-er-pil-lar (4). Every syllable has a vowel sound.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Word",
+						"Syllables"
+					],
+					[
+						"cat",
+						"1"
+					],
+					[
+						"gar-den",
+						"2"
+					],
+					[
+						"but-ter-fly",
+						"3"
+					],
+					[
+						"cat-er-pil-lar",
+						"4"
+					]
+				]
+			}
+		},
+		{
+			"text": "Break long words into syllables to read and spell them: re-mem-ber, fan-tas-tic, hel-i-cop-ter."
+		},
+		{
+			"text": "Try it in the world: name things in your world with prefixes and suffixes: a rebuilt house, a helpful buddy, a fearless climb. Clap the syllables of each. Next: spelling patterns."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does \"unkind\" mean?",
+			"answer": 0,
+			"hint": "un- means not.",
+			"choices": [
+				"not kind",
+				"very kind",
+				"kind again"
+			],
+			"explain": "un (not) + kind = not kind."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does re- mean in \"replay\"?",
+			"answer": 0,
+			"hint": "Think of a replay of a game: you play it… how many times?",
+			"choices": [
+				"again",
+				"not",
+				"before"
+			],
+			"explain": "re- means again: replay means play again."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How many syllables are in \"garden\"?",
+			"answer": "2",
+			"hint": "Clap it: gar-den.",
+			"explain": "gar-den has 2 syllables."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A suffix goes at the end of a word.",
+			"answer": true,
+			"hint": "Think of -ful in helpful.",
+			"explain": "True: suffixes go at the end; prefixes go at the start."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which word means \"without fear\"?",
+			"answer": 0,
+			"hint": "-less means without.",
+			"choices": [
+				"fearless",
+				"fearful",
+				"unfear"
+			],
+			"explain": "fear + less = fearless, without fear."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the root word of \"replaying\"?",
+			"answer": 0,
+			"hint": "Take off the prefix and the suffix.",
+			"choices": [
+				"play",
+				"re",
+				"ing",
+				"replay"
+			],
+			"explain": "Take off re- and -ing and you have the root: play."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many syllables are in \"butterfly\"?",
+			"answer": "3",
+			"hint": "Clap it slowly.",
+			"explain": "but-ter-fly has 3 syllables."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which word means the opposite of \"agree\"?",
+			"answer": 0,
+			"hint": "dis- can mean the opposite.",
+			"choices": [
+				"disagree",
+				"reagree",
+				"agreeful"
+			],
+			"explain": "dis + agree = disagree."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which prefix means \"before\"?",
+			"answer": 0,
+			"hint": "Think of preview: a look before.",
+			"choices": [
+				"pre-",
+				"re-",
+				"un-"
+			],
+			"explain": "pre- means before, as in preview and preheat."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does \"unhelpful\" mean?",
+			"answer": 0,
+			"hint": "Split it: un + help + ful.",
+			"choices": [
+				"not helpful",
+				"full of help",
+				"helping again"
+			],
+			"explain": "Take it apart: un (not) + help + ful (full of). Helpful means full of help, so unhelpful means not helpful."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many syllables are in \"caterpillar\"?",
+			"answer": "4",
+			"hint": "Clap each beat as you say it: cat, er, pil, lar.",
+			"explain": "cat-er-pil-lar has 4 syllables."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Build the word \"unbreakable\" from its parts.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "The prefix comes first and the suffix last.",
+			"items": [
+				"break",
+				"un",
+				"able"
+			],
+			"explain": "un + break + able = unbreakable: it cannot be broken."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which word means \"can be washed\"?",
+			"answer": 0,
+			"hint": "-able means can be.",
+			"choices": [
+				"washable",
+				"washful",
+				"unwash"
+			],
+			"explain": "-able means can be, so wash + able = washable: it can be washed, like a washable coat."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is a \"player\"?",
+			"answer": 0,
+			"hint": "-er can mean a person who.",
+			"choices": [
+				"a person who plays",
+				"a game",
+				"playing again"
+			],
+			"explain": "-er can mean a person who does something: play + er = player, a person who plays. A builder builds and a singer sings."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "\"Preheat\" means to heat again.",
+			"answer": false,
+			"hint": "What does pre- mean?",
+			"explain": "False: pre- means before, so preheat means heat before."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each prefix or suffix to its meaning.",
+			"hint": "Think of unkind, replay, preview and fearless.",
+			"items": [
+				"un-",
+				"re-",
+				"pre-",
+				"-less"
+			],
+			"matches": [
+				"again",
+				"before",
+				"without",
+				"not"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"explain": "un- means not, re- again, pre- before and -less without."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Clap the beats in \"unbelievable\". How many syllables does it have?",
+			"answer": "5",
+			"hint": "Take off the prefix and the suffix, clap each part, then put them back together.",
+			"explain": "un-be-liev-a-ble: 5 syllables. It is un (not) + believe + able (can be), so it means so surprising you can hardly believe it."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3e.word_part",
+			"level": 1
+		},
+		{
+			"gen": "g3e.word_part",
+			"level": 2
+		},
+		{
+			"gen": "g3e.word_part",
+			"level": 3
+		},
+		{
+			"gen": "g3e.syllables",
+			"level": 1
+		},
+		{
+			"gen": "g3e.syllables",
+			"level": 2
+		},
+		{
+			"gen": "g3e.syllables",
+			"level": 3
+		}
+	]
+}

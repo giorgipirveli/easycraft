@@ -1,0 +1,207 @@
+{
+	"id": "g6.maths.percent",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met percentages. What is 50% of 20? Half of 20: 10."
+		},
+		{
+			"text": "Percent means \"out of 100\": 30% is 30 out of 100, or 30/100, or 0.3.",
+			"picture": {
+				"kind": "hundred_square",
+				"shaded": 30,
+				"label": "percent"
+			}
+		},
+		{
+			"text": "To find a percent of a number, find 1% (divide by 100) or 10% (divide by 10), then build it up: 30% of 80 is 3 × 8 = 24."
+		},
+		{
+			"text": "Some percents are easy fractions: 50% is a half, 25% is a quarter, 10% is a tenth.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"percent",
+						"fraction",
+						"decimal"
+					],
+					[
+						"50%",
+						"1/2",
+						"0.5"
+					],
+					[
+						"25%",
+						"1/4",
+						"0.25"
+					],
+					[
+						"10%",
+						"1/10",
+						"0.1"
+					]
+				]
+			}
+		},
+		{
+			"text": "To find the whole from a part: if 12 is 20% of a number, then 1% is 12 ÷ 20 = 0.6, and 100% is 60."
+		},
+		{
+			"text": "Try it in the world: you have 80 blocks and use 25% of them on a wall. How many? A quarter of 80: 20 blocks. Next: converting with ratios."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "50% of 36 = ?",
+			"answer": "18",
+			"hint": "50% is a half.",
+			"explain": "Half of 36 is 18."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "10% of 250 = ?",
+			"answer": "25",
+			"hint": "10% is a tenth.",
+			"explain": "250 ÷ 10 = 25."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "25% is the same as a quarter.",
+			"answer": true,
+			"hint": "25 out of 100.",
+			"explain": "Yes: 25/100 = 1/4."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the same as 40%?",
+			"answer": 0,
+			"hint": "40 out of 100.",
+			"choices": [
+				"0.4",
+				"4.0",
+				"0.04"
+			],
+			"explain": "40/100 = 0.4."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "20% of 45 = ?",
+			"answer": "9",
+			"hint": "Find 10%, then double it.",
+			"explain": "10% is 4.5; double is 9."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A test has 50 questions. Zara gets 90% right. How many is that?",
+			"answer": "45",
+			"hint": "10% of 50 is 5.",
+			"explain": "90% is 9 × 5 = 45."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "15 is 25% of what number?",
+			"answer": "60",
+			"hint": "25% is a quarter.",
+			"explain": "25% is a quarter, so 15 is a quarter of the number. Four quarters make the whole: 15 × 4 = 60. Check: 25% of 60 is 15."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A jacket was 60 coins and is now 45 coins. What percent off is that?",
+			"answer": 0,
+			"hint": "How much off, out of 60?",
+			"choices": [
+				"25%",
+				"15%",
+				"45%"
+			],
+			"explain": "The saving is 60 − 45 = 15 coins. 15 out of the original 60 is 15/60, which is 1/4: 25% off."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each percent to its fraction.",
+			"items": [
+				"50%",
+				"25%",
+				"10%",
+				"75%"
+			],
+			"matches": [
+				"1/10",
+				"3/4",
+				"1/2",
+				"1/4"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of each as out of 100.",
+			"explain": "50% = 1/2; 25% = 1/4; 10% = 1/10; 75% = 3/4."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order from smallest to largest.",
+			"items": [
+				"30% of 50",
+				"50% of 20",
+				"10% of 200",
+				"25% of 48"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Work each one out first.",
+			"explain": "50% of 20 is 10, 25% of 48 is 12, 30% of 50 is 15 and 10% of 200 is 20."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In a class of 30, 40% walk to school. A third of the rest come by bus. How many come by bus?",
+			"answer": "6",
+			"hint": "Find 40% of 30 first, then the rest, then a third of the rest.",
+			"explain": "10% of 30 is 3, so 40% is 4 × 3 = 12 walkers. The rest: 30 − 12 = 18. A third of 18 is 18 ÷ 3 = 6 by bus."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6n.percent_of",
+			"level": 1
+		},
+		{
+			"gen": "g6n.percent_of",
+			"level": 2
+		},
+		{
+			"gen": "g6n.percent_of",
+			"level": 3
+		},
+		{
+			"gen": "g6n.percent_story",
+			"level": 1
+		},
+		{
+			"gen": "g6n.percent_story",
+			"level": 2
+		},
+		{
+			"gen": "g6n.percent_story",
+			"level": 3
+		}
+	]
+}

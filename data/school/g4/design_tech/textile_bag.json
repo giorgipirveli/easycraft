@@ -1,0 +1,297 @@
+{
+	"id": "g4.design_tech.textile_bag",
+	"lesson": [
+		{
+			"text": "Quick memory: which stitch leaves no gaps, so it is stronger? (Backstitch.) Today: designing, cutting and sewing a simple bag."
+		},
+		{
+			"text": "Start with the design: who is the bag for, and what will it carry? A book bag must fit a book; a gym bag needs a strong handle. Sketch it, and choose its fabric."
+		},
+		{
+			"text": "Fabrics: cotton comes from the cotton plant and wool from sheep; polyester and nylon are made from oil. Felt is easy for beginners, because its edges do not fray. Denim is a strong cotton.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Fabric",
+						"From"
+					],
+					[
+						"cotton",
+						"the cotton plant"
+					],
+					[
+						"wool",
+						"sheep"
+					],
+					[
+						"polyester",
+						"oil"
+					],
+					[
+						"denim",
+						"strong cotton"
+					]
+				]
+			}
+		},
+		{
+			"text": "Make a paper pattern first. Add a seam allowance, an extra 1 cm round the edges you will sew. A bag 20 cm wide is cut 20 + 1 + 1 = 22 cm wide.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "1",
+								"size": 1
+							},
+							{
+								"text": "20 cm",
+								"size": 20
+							},
+							{
+								"text": "1",
+								"size": 1
+							}
+						],
+						"total": "cut 22 cm wide"
+					}
+				]
+			}
+		},
+		{
+			"text": "Pin the pattern to the fabric and cut round it with fabric scissors. Put the two pieces right sides together, so the patterned sides face in, and sew round three sides with backstitch.",
+			"picture": {
+				"kind": "stitch",
+				"what": "back"
+			}
+		},
+		{
+			"text": "Turn the bag right side out, so the seams are hidden inside. Fold the top edge over twice and sew it down: a hem, which stops the edge fraying. Then sew on the handles."
+		},
+		{
+			"text": "Fasten and decorate: a button, a popper or a drawstring keeps things in. Decorate with fabric paint, or sew on a patch: a fabric shape stitched on top. Then test it: does it carry what it should?"
+		},
+		{
+			"text": "Try it in the world: build a market stall to show bags in every colour. For real: make a small felt bag with a grown-up, sewn with backstitch, and give it to someone."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which fabric does not fray at its edges?",
+			"answer": 0,
+			"hint": "Which fabric did the lesson say is easy for beginners?",
+			"choices": [
+				"felt",
+				"cotton",
+				"denim",
+				"polyester"
+			],
+			"explain": "Felt: its edges do not fray, so it needs no hems."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Wool comes from sheep.",
+			"answer": true,
+			"hint": "Which animal has a woolly coat?",
+			"explain": "True: wool is sheep's fleece, spun into yarn."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a seam allowance?",
+			"answer": 0,
+			"hint": "Where does the stitching go?",
+			"choices": [
+				"extra fabric round the edges you sew",
+				"the handle of the bag",
+				"a kind of stitch",
+				"the name of the pattern"
+			],
+			"explain": "A seam allowance is extra fabric, often 1 cm, round the edges you will sew."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which stitch is this?",
+			"answer": 0,
+			"hint": "Are there gaps between the stitches?",
+			"choices": [
+				"backstitch",
+				"running stitch",
+				"overstitch"
+			],
+			"explain": "Backstitch: each stitch meets the next, with no gaps.",
+			"picture": {
+				"kind": "stitch",
+				"what": "back"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A bag will be 18 cm wide. You add 1 cm seam allowance at each side. How wide do you cut it?",
+			"answer": "20",
+			"hint": "There is a seam on each side: add 1 cm twice.",
+			"explain": "18 + 1 + 1 = 20 cm."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put making a bag in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You cannot cut until you have a pattern.",
+			"items": [
+				"pin it to the fabric and cut",
+				"turn it right side out",
+				"make a paper pattern",
+				"sew the pieces right sides together",
+				"sew on the handles"
+			],
+			"explain": "Pattern, cut, sew right sides together, turn out, then add handles."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "You sew the two pieces with their right sides facing out.",
+			"answer": false,
+			"hint": "Where do the seams end up?",
+			"explain": "False: sew them right sides together, facing in, then turn the bag out so the seams are hidden."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Natural, or made from oil?",
+			"groups": [
+				"natural",
+				"made from oil"
+			],
+			"items": [
+				"cotton",
+				"nylon",
+				"wool",
+				"polyester",
+				"silk",
+				"acrylic"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it come from a plant or an animal?",
+			"explain": "Natural: cotton (a plant), wool (sheep) and silk (silkworms). Made from oil: nylon, polyester, acrylic."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "This is running stitch. Why is backstitch better for a bag's seams?",
+			"answer": 0,
+			"hint": "Look at the gaps in running stitch.",
+			"choices": [
+				"it leaves no gaps, so it is stronger",
+				"it is quicker",
+				"running stitch is too strong",
+				"backstitch uses no thread"
+			],
+			"explain": "Backstitch has no gaps, so the seam is stronger and nothing falls out.",
+			"picture": {
+				"kind": "stitch",
+				"what": "running"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Each of 2 handles is 30 cm long, with 2 cm more at each end to sew it on. How many centimetres of ribbon do you need?",
+			"answer": "68",
+			"hint": "Work out one handle with its two ends, then double it.",
+			"explain": "One: 30 + 2 + 2 = 34 cm. Two: 34 × 2 = 68 cm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why fold the top edge over twice to make a hem?",
+			"answer": 0,
+			"hint": "What happens to a cut edge of cotton?",
+			"choices": [
+				"so the cut edge is hidden and cannot fray",
+				"to make the bag longer",
+				"to make it heavier",
+				"because patterns say so"
+			],
+			"explain": "Folding twice hides the cut edge inside, so it cannot fray."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which fabric is best for a strong book bag?",
+			"answer": 0,
+			"hint": "Books are heavy: which fabric is thickest and toughest?",
+			"choices": [
+				"denim",
+				"tissue paper",
+				"thin silk",
+				"net"
+			],
+			"explain": "Denim: a thick, strong cotton that will not tear."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A patch is a fabric shape stitched on top, to decorate.",
+			"answer": true,
+			"hint": "Think of the lesson's ways to decorate.",
+			"explain": "True: a patch is a fabric shape stitched on top of the bag."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why make a paper pattern first?",
+			"answer": 0,
+			"hint": "Fabric costs more than paper.",
+			"choices": [
+				"to check the size and shape before cutting",
+				"because fabric is see-through",
+				"to use up paper",
+				"so you need no scissors"
+			],
+			"explain": "A paper pattern lets you check the size and shape before you cut the fabric, so nothing is wasted."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The finished bag is 25 cm tall. You add 1 cm at the bottom for the seam and 3 cm at the top for the hem. How tall do you cut it?",
+			"answer": "29",
+			"hint": "Add the extra fabric at the bottom and at the top.",
+			"explain": "25 + 1 + 3 = 29 cm."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.fabric_cut",
+			"level": 1
+		},
+		{
+			"gen": "g4w.fabric_cut",
+			"level": 2
+		},
+		{
+			"gen": "g4w.fabric_cut",
+			"level": 3
+		}
+	]
+}

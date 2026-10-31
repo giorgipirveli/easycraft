@@ -1,0 +1,398 @@
+{
+	"id": "g4.art.colour_wheel",
+	"lesson": [
+		{
+			"text": "Quick memory: which two primary colours make green? (Yellow and blue.) In grade 3 you mixed secondary colours. Today: the colour wheel."
+		},
+		{
+			"text": "A colour wheel puts colours in a circle, in the order of a rainbow. The three primary colours, red, yellow and blue, sit a third of the way round from each other.",
+			"picture": {
+				"kind": "colour_wheel",
+				"size": 6,
+				"mark": [
+					"red",
+					"yellow",
+					"blue"
+				]
+			}
+		},
+		{
+			"text": "Each secondary colour sits between the two primaries that make it: red and yellow make orange, yellow and blue make green, and blue and red make purple.",
+			"picture": {
+				"kind": "colour_wheel",
+				"size": 6,
+				"mark": [
+					"orange",
+					"green",
+					"purple"
+				]
+			}
+		},
+		{
+			"text": "A tertiary colour mixes a primary with the secondary next to it: red and orange make red-orange. In drops of paint, that is 2 red and 1 yellow. There are six tertiary colours.",
+			"picture": {
+				"kind": "swatches",
+				"items": [
+					"red",
+					"+",
+					"orange",
+					"=",
+					"red-orange"
+				]
+			}
+		},
+		{
+			"text": "Complementary colours sit opposite each other on the wheel: red and green, yellow and purple, blue and orange. Side by side, they make each other look brighter.",
+			"picture": {
+				"kind": "colour_wheel",
+				"size": 12,
+				"line": [
+					"red",
+					"green"
+				]
+			}
+		},
+		{
+			"text": "Warm colours, the reds, oranges and yellows, remind us of fire and the sun, and seem to come towards you. Cool colours, the blues, greens and purples, remind us of water and ice, and seem to move away.",
+			"picture": {
+				"kind": "colour_wheel",
+				"size": 12,
+				"half": "warm"
+			}
+		},
+		{
+			"text": "Vincent van Gogh loved complementary colours: he painted yellow and orange lights against deep blue skies, so both colours glow. Isaac Newton drew one of the first colour wheels, over 300 years ago."
+		},
+		{
+			"text": "Try it in the world: find blocks or flowers in your world in all six colours of the small wheel, and build your own colour wheel. Then put a pair of complementary colours side by side."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which colour sits between red and yellow on the colour wheel?",
+			"answer": 0,
+			"hint": "Find red and yellow on the wheel, then look between them.",
+			"choices": [
+				"orange",
+				"green",
+				"purple"
+			],
+			"explain": "Orange sits between red and yellow: red and yellow make orange.",
+			"picture": {
+				"kind": "colour_wheel",
+				"size": 6
+			}
+		},
+		{
+			"type": "mix",
+			"level": 1,
+			"prompt": "Mix green, the secondary colour between yellow and blue.",
+			"hint": "Which two primary colours sit on each side of green?",
+			"explain": "Green is 1 yellow and 1 blue: yellow and blue make green.",
+			"target": "green"
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Red, yellow and blue are the primary colours in paint.",
+			"answer": true,
+			"hint": "Which three colours are the starting colours for mixing paint?",
+			"explain": "True: red, yellow and blue are the painters' primaries."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these colours: warm or cool?",
+			"groups": [
+				"warm",
+				"cool"
+			],
+			"items": [
+				"red",
+				"blue",
+				"orange",
+				"green"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Warm colours are the colours of fire and the sun; cool ones of water, ice and leaves.",
+			"explain": "Warm: red and orange. Cool: blue and green."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A colour wheel has 3 primary, 3 secondary and 6 tertiary colours. How many colours is that?",
+			"answer": "12",
+			"hint": "Add the three groups together.",
+			"explain": "3 + 3 + 6 = 12 colours."
+		},
+		{
+			"type": "mix",
+			"level": 2,
+			"prompt": "Mix red-orange: twice as much red as yellow.",
+			"hint": "Red-orange is mostly red, with a little yellow to make it orange.",
+			"explain": "Red-orange is a tertiary colour: 2 red and 1 yellow.",
+			"target": "red-orange"
+		},
+		{
+			"type": "mix",
+			"level": 2,
+			"prompt": "Mix blue-green: twice as much blue as yellow.",
+			"hint": "Blue-green is mostly blue, with a little yellow to make it green.",
+			"explain": "Blue-green is a tertiary colour: 1 yellow and 2 blue.",
+			"target": "blue-green"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which colour is opposite red on the colour wheel?",
+			"answer": 0,
+			"hint": "Put your finger on red, then go straight across the middle.",
+			"choices": [
+				"green",
+				"orange",
+				"purple",
+				"blue"
+			],
+			"explain": "Straight across from red is green: red and green are complementary.",
+			"picture": {
+				"kind": "colour_wheel",
+				"size": 6,
+				"mark": [
+					"red"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each colour to its complementary colour.",
+			"items": [
+				"red",
+				"yellow",
+				"blue"
+			],
+			"matches": [
+				"purple",
+				"orange",
+				"green"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Complementary colours are opposite each other on the wheel.",
+			"explain": "Red and green are complementary, yellow and purple are complementary, and blue and orange are complementary."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these colours, tertiary colours too: warm or cool?",
+			"groups": [
+				"warm",
+				"cool"
+			],
+			"items": [
+				"red-orange",
+				"blue-green",
+				"yellow",
+				"purple",
+				"yellow-orange",
+				"blue"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is there red, orange or yellow in it, or blue, green or purple?",
+			"explain": "Warm: red-orange, yellow, yellow-orange. Cool: blue-green, purple, blue."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Complementary colours sit side by side on the colour wheel.",
+			"answer": false,
+			"hint": "Where is green from red on the wheel?",
+			"explain": "False: they sit opposite each other. Neighbours are not complementary."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which colour goes in the empty space, opposite red-orange?",
+			"answer": 0,
+			"hint": "Red-orange sits between red and orange. What is opposite each of those?",
+			"choices": [
+				"blue-green",
+				"yellow-green",
+				"blue-purple",
+				"red-purple"
+			],
+			"explain": "Opposite red is green and opposite orange is blue, so the opposite of red-orange is blue-green.",
+			"picture": {
+				"kind": "colour_wheel",
+				"size": 12,
+				"blank": [
+					"blue-green"
+				],
+				"mark": [
+					"red-orange"
+				]
+			}
+		},
+		{
+			"type": "mix",
+			"level": 3,
+			"prompt": "Mix yellow-green, a tertiary colour, in the bowl.",
+			"hint": "The primary named first in a tertiary colour gets twice as many drops as the other one.",
+			"explain": "Yellow-green is a tertiary colour: 2 yellow and 1 blue.",
+			"target": "yellow-green"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An artist wants a red apple to really stand out. Which background colour helps most?",
+			"answer": 0,
+			"hint": "Which colour makes red look brightest when they sit side by side?",
+			"choices": [
+				"green",
+				"orange",
+				"pink",
+				"red"
+			],
+			"explain": "Red and green are complementary: side by side, each makes the other look brighter."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What do two complementary colours make when you mix them as paint?",
+			"answer": 0,
+			"hint": "Opposites cancel each other out.",
+			"choices": [
+				"a dull brown or grey",
+				"a brighter colour",
+				"white",
+				"a primary colour"
+			],
+			"explain": "Mixed, complementary paints make a dull brownish grey. That is why artists put them side by side instead."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Warm colours seem to come towards you, and cool colours seem to move away.",
+			"answer": true,
+			"hint": "Think of a red sun and a blue far-away hill.",
+			"explain": "True: that is why painters use cool colours for things far away."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these colours in order round the wheel, from red to yellow.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Between red and yellow, the colours get more and more yellow.",
+			"items": [
+				"red-orange",
+				"yellow-orange",
+				"red",
+				"orange",
+				"yellow"
+			],
+			"explain": "Red, red-orange, orange, yellow-orange, yellow."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the pairs: complementary (opposite on the wheel), or not?",
+			"groups": [
+				"complementary",
+				"not"
+			],
+			"items": [
+				"red and green",
+				"yellow and purple",
+				"blue and green",
+				"orange and blue",
+				"red and orange",
+				"red-orange and blue-green"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Opposite red is green, opposite yellow is purple, opposite blue is orange.",
+			"explain": "Complementary: red and green, yellow and purple, orange and blue, and red-orange with blue-green (red's and orange's opposites mixed). Blue and green, and red and orange, are neighbours on the wheel."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.complement",
+			"level": 1
+		},
+		{
+			"gen": "g4a.complement",
+			"level": 2
+		},
+		{
+			"gen": "g4a.complement",
+			"level": 3
+		},
+		{
+			"gen": "g4a.warm_cool",
+			"level": 1
+		},
+		{
+			"gen": "g4a.warm_cool",
+			"level": 2
+		},
+		{
+			"gen": "g4a.warm_cool",
+			"level": 3
+		},
+		{
+			"gen": "g4a.mix_wheel",
+			"level": 1
+		},
+		{
+			"gen": "g4a.mix_wheel",
+			"level": 2
+		},
+		{
+			"gen": "g4a.mix_wheel",
+			"level": 3
+		}
+	],
+	"play": {
+		"hook": "The painter's colour wheel has gaps. Mix the paints to fill it!",
+		"game": "generic",
+		"params": {
+			"costume": "give"
+		},
+		"coach": [
+			"Red, yellow and blue are the primary colours.",
+			"Each secondary colour sits between the two that make it.",
+			"Complementary colours sit opposite each other on the wheel.",
+			"Warm colours seem to come towards you."
+		],
+		"world_task": "Find blocks or flowers in all six colours of the small wheel, and build your own colour wheel."
+	}
+}

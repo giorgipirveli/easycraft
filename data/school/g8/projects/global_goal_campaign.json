@@ -1,0 +1,413 @@
+{
+	"id": "g8.projects.global_goal_campaign",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 geography you read climate graphs. What do the blue bars show? (Rainfall.) Today: pick a Global Goal, gather data, chart it, and plan an action."
+		},
+		{
+			"text": "Choose one of the 17 Global Goals and a problem near you. Goal 14, Life below water: litter on a beach. Goal 13, Climate action: car trips to school. Goal 2, Zero hunger: food waste."
+		},
+		{
+			"text": "Gather data the same way each time: count, measure or survey. A sample is a smaller group that stands for the whole. Count the litter on four 100 m stretches, not the whole beach."
+		},
+		{
+			"text": "Ask fair survey questions. A leading question pushes people towards an answer: 'Don't you agree litter is disgusting?' A fair one lets them choose: 'How often do you visit the beach?'"
+		},
+		{
+			"text": "Turn counts into rates so places compare fairly: 30 pieces on 200 m is 30 ÷ 2 = 15 per 100 m. A bar chart compares places; a line graph shows change over time.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"North",
+						15
+					],
+					[
+						"South",
+						40
+					],
+					[
+						"East",
+						25
+					]
+				],
+				"step": 10,
+				"top": 40,
+				"name": "litter per 100 m"
+			}
+		},
+		{
+			"text": "A scatter graph shows whether two things go together. Pupils who live further away make more car trips: a positive correlation. Going together does not prove that one causes the other.",
+			"picture": {
+				"kind": "scatter_plot",
+				"points": [
+					[
+						1,
+						1
+					],
+					[
+						2,
+						2
+					],
+					[
+						3,
+						2
+					],
+					[
+						4,
+						4
+					],
+					[
+						5,
+						5
+					],
+					[
+						6,
+						5
+					],
+					[
+						8,
+						7
+					],
+					[
+						9,
+						8
+					]
+				],
+				"x_name": "km from school",
+				"y_name": "car trips a week",
+				"x_to": 10,
+				"x_step": 2,
+				"y_to": 10,
+				"y_step": 2,
+				"line": true
+			}
+		},
+		{
+			"text": "Plan an action with a SMART aim, then measure again the same way. Before: 40 pieces per 100 m; after: 16. The fall is 24, and 24 ÷ 40 = 0.6, so 60 percent less. Share it with people who can decide."
+		},
+		{
+			"text": "Try it in the world: count litter on one stretch in your village, clean it up, and count again. In LIFE, the Goal Board plans goals step by step, and Talk & Deal helps you pitch. Next: more projects are coming."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many Global Goals are there?",
+			"choices": [
+				"17",
+				"5",
+				"10",
+				"50"
+			],
+			"answer": 0,
+			"hint": "The lesson named the number.",
+			"explain": "There are 17 Global Goals, agreed by the countries of the United Nations."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "30 pieces of litter were found on 200 m of beach. How many is that per 100 m?",
+			"answer": "15",
+			"hint": "200 m is two lots of 100 m: share the count.",
+			"explain": "30 ÷ 2 = 15 pieces per 100 m."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "A fair question, or a leading one?",
+			"groups": [
+				"fair",
+				"leading"
+			],
+			"items": [
+				"How do you get to school?",
+				"How often do you visit the beach?",
+				"Surely you agree cars are bad?",
+				"Wouldn't you love a cleaner beach?",
+				"How many bins are on the beach?"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Does the question hint at the answer it wants?",
+			"explain": "Fair questions let people choose; 'Wouldn't you…?' and 'Surely…?' push them towards one answer."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A sample is a smaller group that stands for the whole.",
+			"answer": true,
+			"hint": "Think of the four 100 m stretches.",
+			"explain": "True: a fair sample, like four stretches of a beach, stands for the whole beach."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which beach had the most litter per 100 m?",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"North",
+						15
+					],
+					[
+						"South",
+						40
+					],
+					[
+						"East",
+						25
+					]
+				],
+				"step": 10,
+				"top": 40,
+				"name": "litter per 100 m"
+			},
+			"choices": [
+				"South",
+				"North",
+				"East",
+				"they were all the same"
+			],
+			"answer": 0,
+			"hint": "Find the tallest bar.",
+			"explain": "South's bar reaches 40 per 100 m, the highest."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does this scatter graph show about distance and car trips?",
+			"picture": {
+				"kind": "scatter_plot",
+				"points": [
+					[
+						1,
+						1
+					],
+					[
+						2,
+						2
+					],
+					[
+						3,
+						2
+					],
+					[
+						4,
+						4
+					],
+					[
+						5,
+						5
+					],
+					[
+						6,
+						5
+					],
+					[
+						8,
+						7
+					],
+					[
+						9,
+						8
+					]
+				],
+				"x_name": "km from school",
+				"y_name": "car trips a week",
+				"x_to": 10,
+				"x_step": 2,
+				"y_to": 10,
+				"y_step": 2,
+				"line": true
+			},
+			"choices": [
+				"they rise together: positive correlation",
+				"they fall together",
+				"there is no pattern",
+				"distance causes rain"
+			],
+			"answer": 0,
+			"hint": "Do the points go up to the right, down, or nowhere?",
+			"explain": "The points rise to the right: pupils further away make more car trips, a positive correlation."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Before the clean-up: 40 pieces per 100 m. After: 16. By what percentage did the litter fall?",
+			"answer": "60",
+			"hint": "Find the fall, divide by the starting number, then times 100.",
+			"explain": "40 − 16 = 24; 24 ÷ 40 = 0.6; 0.6 × 100 = 60%."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the project's data steps in order.",
+			"items": [
+				"choose a goal and a question",
+				"collect the data",
+				"chart it",
+				"plan an action",
+				"plan a fair sample"
+			],
+			"answer": [
+				0,
+				4,
+				1,
+				2,
+				3
+			],
+			"hint": "Question first, then how to collect, then collect, show and act.",
+			"explain": "Choose the question, plan the sample, collect, chart, then plan the action."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each chart to what it shows best.",
+			"items": [
+				"bar chart",
+				"line graph",
+				"scatter graph",
+				"pie chart"
+			],
+			"matches": [
+				"change over time",
+				"do two things go together?",
+				"parts of a whole",
+				"compares groups"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of what each chart was used for.",
+			"explain": "Bars compare; lines show change over time; scatter shows links; pies show parts of a whole."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If two things go together on a scatter graph, one must cause the other.",
+			"answer": false,
+			"hint": "Think of ice cream sales and sunburn in summer.",
+			"explain": "False: going together is a correlation; something else, like sunny weather, may cause both."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Show the clean-up: make 3/5 of the beach squares clean.",
+			"board": {
+				"cols": 5,
+				"rows": 2,
+				"block": 2,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "fraction",
+				"num": 3,
+				"den": 5
+			},
+			"hint": "How many squares is 1/5 of 10? Then take three of them.",
+			"explain": "1/5 of 10 is 2, so 3/5 is 6 squares."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Litter on four 100 m stretches: 12, 15, 9 and 16. The beach is 1,200 m long. Estimate its total litter.",
+			"answer": "156",
+			"hint": "Find the mean per 100 m, then multiply by how many 100 m stretches the beach has.",
+			"explain": "12 + 15 + 9 + 16 = 52; 52 ÷ 4 = 13 per 100 m; 1,200 m is 12 stretches; 13 × 12 = 156 pieces."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Only pupils in the eco club were surveyed about recycling. What is the problem?",
+			"choices": [
+				"the sample is not typical of the school",
+				"the survey was too short",
+				"clubs can't answer surveys",
+				"nothing: it is a good sample"
+			],
+			"answer": 0,
+			"hint": "Would eco club members answer like everyone else?",
+			"explain": "Eco club members care more about recycling than most, so the sample is biased: ask a random group instead."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is a SMART aim for the campaign?",
+			"choices": [
+				"halve South beach's litter by June",
+				"make the beach nicer",
+				"tidy up a bit",
+				"help the planet"
+			],
+			"answer": 0,
+			"hint": "Look for a number, a place and a date.",
+			"explain": "It says what, where, how much and by when, so it can be checked."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Car trips to school fell from 120 a week to 90. By what percentage did they fall?",
+			"answer": "25",
+			"hint": "Find the fall, divide by the starting number, then times 100.",
+			"explain": "120 − 90 = 30; 30 ÷ 120 = 0.25, which is 25%."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A bigger sample, chosen fairly, gives more trustworthy results.",
+			"answer": true,
+			"hint": "Could a small sample be a fluke?",
+			"explain": "True: a bigger, fairer sample is less likely to be a fluke and better stands for the whole."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.goal_rate",
+			"level": 1
+		},
+		{
+			"gen": "g8l.goal_rate",
+			"level": 2
+		},
+		{
+			"gen": "g8l.goal_rate",
+			"level": 3
+		},
+		{
+			"gen": "g8l.correlation",
+			"level": 1
+		},
+		{
+			"gen": "g8l.correlation",
+			"level": 2
+		},
+		{
+			"gen": "g8l.correlation",
+			"level": 3
+		},
+		{
+			"gen": "g8l.survey_question",
+			"level": 1
+		},
+		{
+			"gen": "g8l.survey_question",
+			"level": 2
+		},
+		{
+			"gen": "g8l.survey_question",
+			"level": 3
+		}
+	]
+}

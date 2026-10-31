@@ -1,0 +1,499 @@
+{
+	"id": "g6.maths.problem_solving_toolkit",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, what is 3/4 of 20? (15: 20 split into 4 equal parts is 5 each, and 3 parts make 15.) Today: a toolkit of strategies for problems that do not tell you which sum to do."
+		},
+		{
+			"text": "George Polya, a maths teacher, wrote How to Solve It in 1945. His four steps: understand the problem (what do you know, what do you want?) and make a plan (choose a strategy). Carry it out, then look back: does the answer make sense?"
+		},
+		{
+			"text": "Draw a model. Zara has 3 times as many shells as Bram, and together they have 48. Bram's bar is 1 unit and Zara's is 3 units. 4 units make 48, so 1 unit is 48 ÷ 4 = 12: Bram has 12 and Zara has 36.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"name": "Zara",
+						"parts": [
+							{
+								"text": "",
+								"size": 1
+							},
+							{
+								"text": "",
+								"size": 1
+							},
+							{
+								"text": "",
+								"size": 1
+							}
+						]
+					},
+					{
+						"name": "Bram",
+						"parts": [
+							{
+								"text": "?",
+								"size": 1
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"text": "Work backwards when you know the end. A number is doubled, then 6 is added, and 30 comes out. Undo the steps, the last first: 30 − 6 = 24, then 24 ÷ 2 = 12. Look back: 12 doubled is 24, and 24 + 6 = 30.",
+			"picture": {
+				"kind": "op_chain",
+				"start": "?",
+				"ops": [
+					"× 2",
+					"+ 6"
+				],
+				"end": "30",
+				"back": true
+			}
+		},
+		{
+			"text": "Make a systematic list, so you miss nothing and count nothing twice. 4 friends each shake hands once with each other friend. A shakes with B, C and D (3); B with C and D (2); C with D (1): 3 + 2 + 1 = 6.",
+			"picture": {
+				"kind": "handshakes",
+				"n": 4,
+				"names": [
+					"A",
+					"B",
+					"C",
+					"D"
+				]
+			}
+		},
+		{
+			"text": "Guess and check when two facts must both fit. Hens and cows: 8 heads and 22 legs. Guess 4 cows: 16 + 8 = 24 legs, too many. Try 3 cows: 12 + 10 = 22 legs. So there are 3 cows and 5 hens.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"cows",
+						"hens",
+						"legs"
+					],
+					[
+						"4",
+						"4",
+						"24"
+					],
+					[
+						"3",
+						"5",
+						"22"
+					]
+				]
+			}
+		},
+		{
+			"text": "Look for a pattern. Towers of 2, 5, 8 and 11 blocks grow by 3 each time. The 20th tower is 2 + 19 × 3 = 59 blocks: start with 2 and add 3 nineteen times. Finding the rule saves building all 20 towers!",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					2,
+					5,
+					8,
+					11
+				],
+				"missing": true
+			}
+		},
+		{
+			"text": "Try it in the world: how many ways can you stack a red, a blue and a yellow block in a tower? Solve it with a systematic list, check with another strategy, and look back. Next, in grade 7: ratio, rates and equations."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Polya's first step is to understand the problem. What does that mean?",
+			"choices": [
+				"work out what you know and what you want",
+				"write the answer at once",
+				"guess any number",
+				"skip the question"
+			],
+			"answer": 0,
+			"hint": "Before you choose any sum, what do you need to be clear about?",
+			"explain": "Understanding means saying what you know and what you need to find; then you can make a plan."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put Polya's four steps in order.",
+			"items": [
+				"look back and check",
+				"carry out the plan",
+				"make a plan",
+				"understand the problem"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You cannot choose a plan before you know the problem.",
+			"explain": "Understand the problem, make a plan, carry it out, then look back and check the answer."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What number went into the machine?",
+			"answer": "8",
+			"hint": "Work backwards: undo × 2 first, then undo + 7.",
+			"explain": "30 ÷ 2 = 15, then 15 − 7 = 8. Look back: 8 + 7 = 15 and 15 × 2 = 30.",
+			"picture": {
+				"kind": "op_chain",
+				"start": "?",
+				"ops": [
+					"+ 7",
+					"× 2"
+				],
+				"end": "30"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which strategy fits? Towers of 1, 3, 5 and 7 blocks keep growing. How tall is the 30th tower?",
+			"choices": [
+				"look for a pattern",
+				"work backwards",
+				"guess and check",
+				"draw a model"
+			],
+			"answer": 0,
+			"hint": "Is something growing in the same way each time?",
+			"explain": "The towers grow by 2 each time: find the rule and use it instead of building 30 towers."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The towers grow by the same number of blocks each time. How many blocks will the 5th tower have?",
+			"answer": "11",
+			"hint": "How many blocks are added each time?",
+			"explain": "Each tower has 2 more than the last: 9 + 2 = 11.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					3,
+					5,
+					7,
+					9
+				],
+				"missing": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Looking back means checking that your answer makes sense in the problem.",
+			"answer": true,
+			"hint": "What is Polya's last step for?",
+			"explain": "True: put your answer back into the problem and check that it fits."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Mimi has 4 times as many stickers as Oli. Together they have 35. How many has Mimi?",
+			"answer": "28",
+			"hint": "Draw a model: how many equal units are there in all? Find what 1 unit is worth.",
+			"explain": "4 + 1 = 5 units make 35, so 1 unit is 35 ÷ 5 = 7. Mimi has 4 × 7 = 28.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"name": "Mimi",
+						"parts": [
+							{
+								"text": "",
+								"size": 1
+							},
+							{
+								"text": "",
+								"size": 1
+							},
+							{
+								"text": "",
+								"size": 1
+							},
+							{
+								"text": "",
+								"size": 1
+							}
+						]
+					},
+					{
+						"name": "Oli",
+						"parts": [
+							{
+								"text": "?",
+								"size": 1
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Kit doubled his gold, then spent 9. He has 25 left. How much did he have at the start?",
+			"answer": "17",
+			"hint": "Work backwards: undo the spending first, then undo the doubling.",
+			"explain": "Undo − 9: 25 + 9 = 34. Undo × 2: 34 ÷ 2 = 17. Look back: 17 × 2 = 34, and 34 − 9 = 25.",
+			"picture": {
+				"kind": "op_chain",
+				"start": "?",
+				"ops": [
+					"× 2",
+					"− 9"
+				],
+				"end": "25",
+				"back": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "6 friends each shake hands once with each other friend. How many handshakes are there?",
+			"answer": "15",
+			"hint": "Make a systematic list: the first friend shakes 5 hands, the next shakes 4 new ones, and so on.",
+			"explain": "5 + 4 + 3 + 2 + 1 = 15 handshakes.",
+			"picture": {
+				"kind": "handshakes",
+				"n": 6
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each strategy to the problem it suits.",
+			"items": [
+				"work backwards",
+				"guess and check",
+				"systematic list",
+				"draw a model"
+			],
+			"matches": [
+				"two facts must both fit",
+				"count every case",
+				"wholes, parts and times as many",
+				"the end is known"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think about what each strategy is good for.",
+			"explain": "Work backwards: the end is known. Guess and check: two facts must fit. Systematic list: count every case. Draw a model: wholes, parts and times as many."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A field has hens and cows: 9 heads and 26 legs. How many cows are there?",
+			"answer": "4",
+			"hint": "Guess and check: each cow instead of a hen adds 2 legs.",
+			"explain": "If all 9 were hens: 18 legs. 26 − 18 = 8 more legs, and 8 ÷ 2 = 4 cows (and 5 hens).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"cows",
+						"hens",
+						"legs"
+					],
+					[
+						"2",
+						"7",
+						"22"
+					],
+					[
+						"?",
+						"?",
+						"26"
+					]
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The towers grow by the same number of blocks each time. How many blocks will the 10th tower have?",
+			"answer": "28",
+			"hint": "The 1st tower has 1 block. How many times is 3 added to reach the 10th?",
+			"explain": "Add 3 nine times: 1 + 9 × 3 = 28 blocks.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					1,
+					4,
+					7
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What number went into this machine?",
+			"answer": "21",
+			"hint": "Work backwards: undo × 2, then + 8, then ÷ 3.",
+			"explain": "Undo × 2: 30 ÷ 2 = 15. Undo + 8: 15 − 8 = 7. Undo ÷ 3: 7 × 3 = 21.",
+			"picture": {
+				"kind": "op_chain",
+				"start": "?",
+				"ops": [
+					"÷ 3",
+					"+ 8",
+					"× 2"
+				],
+				"end": "30"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Juno spent 1/3 of her gold on a tent, then 1/2 of what was left on a map. She had 20 gold left. How much did she have at first?",
+			"answer": "60",
+			"hint": "Draw a bar for all her gold in 6 equal units, and follow what each thing takes.",
+			"explain": "The tent took 2 of the 6 units, leaving 4; the map took half of those, 2 units, leaving 2. 2 units are 20 gold, so 1 unit is 10 and 6 units are 60 gold.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"name": "Juno",
+						"parts": [
+							{
+								"text": "tent",
+								"size": 2
+							},
+							{
+								"text": "map",
+								"size": 2
+							},
+							{
+								"text": "20",
+								"size": 2
+							}
+						],
+						"total": "?"
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many different 3-digit numbers can you make with the cards 2, 5 and 8, using each card once?",
+			"answer": "6",
+			"hint": "Make a systematic list: every number starting with 2, then with 5, then with 8.",
+			"explain": "258, 285, 528, 582, 825, 852: 6 numbers."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is 1 + 2 + 3 + … + 20?",
+			"answer": "210",
+			"hint": "Look for a pattern: pair 1 with 20, 2 with 19, and so on.",
+			"explain": "Each pair makes 21, and there are 10 pairs: 10 × 21 = 210."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tickets cost 2 gold for children and 5 gold for grown-ups. 10 tickets cost 32 gold. How many grown-up tickets were there?",
+			"answer": "4",
+			"hint": "Guess and check: start with 10 children's tickets, then swap one at a time; each swap adds 3 gold.",
+			"explain": "10 children's tickets cost 20 gold. 32 − 20 = 12 more, and each grown-up ticket adds 3: 12 ÷ 3 = 4."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If two strategies give different answers to the same problem, at least one has a mistake.",
+			"answer": true,
+			"hint": "A problem like this has one right answer.",
+			"explain": "True: look back at both, and check each answer in the problem to find the slip."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6k.work_back",
+			"level": 1
+		},
+		{
+			"gen": "g6k.work_back",
+			"level": 2
+		},
+		{
+			"gen": "g6k.work_back",
+			"level": 3
+		},
+		{
+			"gen": "g6k.bar_problem",
+			"level": 1
+		},
+		{
+			"gen": "g6k.bar_problem",
+			"level": 2
+		},
+		{
+			"gen": "g6k.bar_problem",
+			"level": 3
+		},
+		{
+			"gen": "g6k.systematic_list",
+			"level": 1
+		},
+		{
+			"gen": "g6k.systematic_list",
+			"level": 2
+		},
+		{
+			"gen": "g6k.systematic_list",
+			"level": 3
+		},
+		{
+			"gen": "g6k.guess_check",
+			"level": 1
+		},
+		{
+			"gen": "g6k.guess_check",
+			"level": 2
+		},
+		{
+			"gen": "g6k.guess_check",
+			"level": 3
+		},
+		{
+			"gen": "g6k.find_pattern",
+			"level": 1
+		},
+		{
+			"gen": "g6k.find_pattern",
+			"level": 2
+		},
+		{
+			"gen": "g6k.find_pattern",
+			"level": 3
+		},
+		{
+			"gen": "g6k.strategy_pick",
+			"level": 1
+		},
+		{
+			"gen": "g6k.strategy_pick",
+			"level": 2
+		},
+		{
+			"gen": "g6k.strategy_pick",
+			"level": 3
+		}
+	]
+}

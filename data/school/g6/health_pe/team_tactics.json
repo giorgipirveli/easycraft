@@ -1,0 +1,481 @@
+{
+	"id": "g6.health_pe.team_tactics",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you looked for passing lanes. What is a passing lane? (A clear line for a pass, with no defender in the way.) Today: team tactics: formations, and ideas for attacking and defending."
+		},
+		{
+			"text": "A formation is how a team lines up. In football, 4-4-2 means 4 defenders, 4 midfielders and 2 forwards, with a goalkeeper behind: 4 + 4 + 2 = 10 outfield players.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 8,
+				"players": [
+					[
+						1,
+						4,
+						"a"
+					],
+					[
+						3.5,
+						1.0,
+						"a"
+					],
+					[
+						3.5,
+						3.0,
+						"a"
+					],
+					[
+						3.5,
+						5.0,
+						"a"
+					],
+					[
+						3.5,
+						7.0,
+						"a"
+					],
+					[
+						6.0,
+						1.0,
+						"a"
+					],
+					[
+						6.0,
+						3.0,
+						"a"
+					],
+					[
+						6.0,
+						5.0,
+						"a"
+					],
+					[
+						6.0,
+						7.0,
+						"a"
+					],
+					[
+						8.5,
+						2.0,
+						"a"
+					],
+					[
+						8.5,
+						6.0,
+						"a"
+					]
+				]
+			}
+		},
+		{
+			"text": "Ideas for attacking. Width: spread out to the sides to stretch the defence. Support: stay close enough for a pass. Penetration: pass or run forward past defenders. Movement: keep moving into space."
+		},
+		{
+			"text": "Width in action: two blue players stay near the sidelines, so the red defenders must spread out, and gaps open in the middle.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 8,
+				"players": [
+					[
+						7,
+						4,
+						"a"
+					],
+					[
+						7.5,
+						0.8,
+						"a"
+					],
+					[
+						7.5,
+						7.2,
+						"a"
+					],
+					[
+						9.5,
+						3.2,
+						"d"
+					],
+					[
+						9.5,
+						4.8,
+						"d"
+					],
+					[
+						10.5,
+						4,
+						"d"
+					]
+				],
+				"ball": 0
+			}
+		},
+		{
+			"text": "Ideas for defending. Pressure: close down the ball quickly. Cover: a second defender backs up the first. Compactness: stay close together. Delay: slow the attacker. Marking: stay goal-side of an opponent."
+		},
+		{
+			"text": "When your team wins the ball, everyone attacks; when it loses the ball, everyone defends. A quick switch is called transition: a fast counter-attack can catch the other team spread out."
+		},
+		{
+			"text": "Tactics work inside the rules. Fair play means playing by the rules and respecting the referee and the other team. Shake hands, and help a player who is hurt. A good team talks and encourages."
+		},
+		{
+			"text": "Try it in the world: mark out a pitch in your world. Place blue blocks for a 4-4-2 and red blocks for a 4-3-3. For real: play a small game, and call 'width!' when your team spreads out. Next: athletics technique."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "In a 4-3-3 formation, how many defenders are there?",
+			"answer": "4",
+			"hint": "A formation lists the lines from the back: defenders first.",
+			"explain": "4: the first number is the defenders."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a formation like 4-4-2, the goalkeeper is not counted.",
+			"answer": true,
+			"hint": "Add the numbers: how many players do they make?",
+			"explain": "True: 4 + 4 + 2 = 10 outfield players; the goalkeeper is the 11th."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Your team has the ball. What should players without the ball do?",
+			"answer": 0,
+			"hint": "How can the player with the ball find someone to pass to?",
+			"choices": [
+				"move into space, ready for a pass",
+				"stand still",
+				"all run to the ball",
+				"sit down"
+			],
+			"explain": "Move into space: then the ball carrier has a clear pass (support and movement)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which idea is about stopping the other team?",
+			"answer": 0,
+			"hint": "Three of these are attacking ideas.",
+			"choices": [
+				"cover",
+				"width",
+				"penetration",
+				"support"
+			],
+			"explain": "Cover: a second defender backs up the first."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which formation is the blue team playing?",
+			"answer": 0,
+			"hint": "Count each line from the back, leaving out the goalkeeper.",
+			"choices": [
+				"3-5-2",
+				"4-4-2",
+				"3-4-3",
+				"5-3-2"
+			],
+			"explain": "3 defenders, 5 midfielders and 2 forwards: 3-5-2.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 8,
+				"players": [
+					[
+						1,
+						4,
+						"a"
+					],
+					[
+						3.5,
+						1.3,
+						"a"
+					],
+					[
+						3.5,
+						4.0,
+						"a"
+					],
+					[
+						3.5,
+						6.7,
+						"a"
+					],
+					[
+						6.0,
+						0.8,
+						"a"
+					],
+					[
+						6.0,
+						2.4,
+						"a"
+					],
+					[
+						6.0,
+						4.0,
+						"a"
+					],
+					[
+						6.0,
+						5.6,
+						"a"
+					],
+					[
+						6.0,
+						7.2,
+						"a"
+					],
+					[
+						8.5,
+						2.0,
+						"a"
+					],
+					[
+						8.5,
+						6.0,
+						"a"
+					]
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Attacking or defending?",
+			"groups": [
+				"attacking",
+				"defending"
+			],
+			"items": [
+				"spread out wide",
+				"close down the ball",
+				"run forward past a defender",
+				"stay goal-side of an opponent",
+				"move into space for a pass",
+				"stay close together in front of goal"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does your team have the ball, or does the other team?",
+			"explain": "Attacking: spreading wide, running past a defender, moving into space. Defending: closing down, staying goal-side, staying compact."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each idea to what it means.",
+			"items": [
+				"pressure",
+				"cover",
+				"width",
+				"delay"
+			],
+			"matches": [
+				"back up a teammate",
+				"spread out to the sides",
+				"slow the attacker down",
+				"close down the ball carrier"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Two of them attack, two defend.",
+			"explain": "Pressure: close down the ball carrier. Cover: back up a teammate. Width: spread out. Delay: slow the attacker."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Compactness means the defenders spread out as wide as they can.",
+			"answer": false,
+			"hint": "Compact means small and close together.",
+			"explain": "False: compact defenders stay close together, so there is no space to pass through."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 7-a-side team has 6 outfield players and plays 3-2-?. How many forwards are there?",
+			"answer": "1",
+			"hint": "The lines add up to the outfield players.",
+			"explain": "6 − 3 − 2 = 1 forward."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a counter-attack?",
+			"answer": 0,
+			"hint": "Counter means back the other way.",
+			"choices": [
+				"attacking fast, straight after winning the ball",
+				"defending with every player",
+				"a free kick",
+				"a foul"
+			],
+			"explain": "A counter-attack: win the ball and attack quickly, before the other team gets back."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where is the most space for the blue team to attack?",
+			"answer": 0,
+			"hint": "Look where the red defenders are standing, and where they are not.",
+			"choices": [
+				"out wide, near the sidelines",
+				"straight through the middle",
+				"back towards their own goal"
+			],
+			"explain": "Out wide: the red defenders are bunched in the middle, so the space is near the sidelines.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 8,
+				"players": [
+					[
+						6,
+						4,
+						"a"
+					],
+					[
+						8.2,
+						3.3,
+						"d"
+					],
+					[
+						8.2,
+						4.7,
+						"d"
+					],
+					[
+						9,
+						4,
+						"d"
+					],
+					[
+						9.6,
+						3,
+						"d"
+					],
+					[
+						9.6,
+						5,
+						"d"
+					]
+				],
+				"ball": 0
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The other team keeps scoring from long passes behind your defenders. Which idea would help most?",
+			"answer": 0,
+			"hint": "Who is behind your defenders to stop the long pass?",
+			"choices": [
+				"cover: a second defender behind the first",
+				"width",
+				"more shots",
+				"every player running forward"
+			],
+			"explain": "Cover: a second defender stays behind the first, ready for a pass over the top."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put a counter-attack in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "It starts when the ball changes teams.",
+			"items": [
+				"shoot at goal",
+				"run into space",
+				"pass forward quickly",
+				"win the ball"
+			],
+			"explain": "Win the ball, pass forward quickly, run into space, then shoot."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Fair play includes helping up a player from the other team who has fallen.",
+			"answer": true,
+			"hint": "Fair play is about respect for everyone in the game.",
+			"explain": "True: fair play means respect for the other team as well as your own."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The other team attacks near the end of a close game. Which is fair and sensible?",
+			"answer": 0,
+			"hint": "Which one uses a tactic inside the rules?",
+			"choices": [
+				"stay compact and mark closely",
+				"pretend to be hurt to waste time",
+				"kick the ball away on purpose",
+				"argue with the referee"
+			],
+			"explain": "Stay compact and mark closely: a real tactic. The others break the spirit of fair play."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An 11-a-side team plays 3-4-?. How many forwards are there?",
+			"answer": "3",
+			"hint": "11 players: take away the goalkeeper first.",
+			"explain": "11 players minus the goalkeeper leaves 10 outfield players. 10 − 3 − 4 = 3 forwards, so the team plays 3-4-3."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A team plays 4-3-3. To defend a lead, it changes to 5-4-1. How many more defenders and midfielders does it have now, in all?",
+			"answer": "2",
+			"hint": "Add the defenders and midfielders in each formation, then compare.",
+			"explain": "In 4-3-3: 4 + 3 = 7 defenders and midfielders. In 5-4-1: 5 + 4 = 9. 9 − 7 = 2 more, so only 1 forward is left up front."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6w.formation",
+			"level": 1
+		},
+		{
+			"gen": "g6w.formation",
+			"level": 2
+		},
+		{
+			"gen": "g6w.formation",
+			"level": 3
+		},
+		{
+			"gen": "g6w.tactic_pick",
+			"level": 1
+		},
+		{
+			"gen": "g6w.tactic_pick",
+			"level": 2
+		},
+		{
+			"gen": "g6w.tactic_pick",
+			"level": 3
+		}
+	]
+}

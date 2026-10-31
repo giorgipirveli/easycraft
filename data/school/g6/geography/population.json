@@ -1,0 +1,317 @@
+{
+	"id": "g6.geography.population",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you sorted settlements. Which is bigger, a village or a town? (A town.) Today: why people live where they do, and how crowded places are."
+		},
+		{
+			"text": "About 8 billion people live on Earth, but not evenly. Some places are crowded; others, such as deserts, ice sheets and high mountains, are almost empty."
+		},
+		{
+			"text": "Population density tells how crowded a place is: the number of people ÷ the area in km². Hilltown has 12 people on 4 km²: 12 ÷ 4 = 3 people per km². Riverside has 60 on 3 km²: 60 ÷ 3 = 20 per km².",
+			"picture": {
+				"kind": "dot_density",
+				"areas": [
+					{
+						"name": "Hilltown",
+						"people": 12,
+						"km2": 4
+					},
+					{
+						"name": "Riverside",
+						"people": 60,
+						"km2": 3
+					}
+				]
+			}
+		},
+		{
+			"text": "Real countries: Bangladesh has more than 1,000 people per km²; Mongolia has only about 2. A densely populated place has many people for its size; a sparsely populated one has few.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"Bangladesh",
+						1300
+					],
+					[
+						"UK",
+						280
+					],
+					[
+						"Mongolia",
+						2
+					]
+				],
+				"from": 0,
+				"to": 1400,
+				"step": 200,
+				"title": "people per km²"
+			}
+		},
+		{
+			"text": "Physical reasons draw people: flat land, rich soil, fresh water, a mild climate, and coasts and rivers for trade. In Egypt about 95 of every 100 people live near the Nile, in a land that is mostly desert."
+		},
+		{
+			"text": "Human reasons matter too: jobs, schools, hospitals, shops, roads and railways. Cities pull people in. Places far from jobs and services, or hard to reach, stay sparsely populated."
+		},
+		{
+			"text": "Sparse places: the Sahara (too dry), Antarctica (too cold: nobody lives there for good), the Himalayas (too steep and high) and the Amazon rainforest (thick forest, hard to farm and cross).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Place",
+						"Why few live there"
+					],
+					[
+						"the Sahara",
+						"too dry"
+					],
+					[
+						"Antarctica",
+						"too cold"
+					],
+					[
+						"the Himalayas",
+						"too steep"
+					],
+					[
+						"the Amazon",
+						"thick forest"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: mark out four plots of 16 × 16 blocks, and count the villagers or animals on each. Work out how crowded each plot is for its size. Next: people on the move."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does population density measure?",
+			"answer": 0,
+			"hint": "It compares people with area.",
+			"choices": [
+				"how crowded a place is",
+				"how hot a place is",
+				"how high a place is",
+				"how old a place is"
+			],
+			"explain": "How many people there are for each km² of land: how crowded it is."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "People are spread evenly across the Earth.",
+			"answer": false,
+			"hint": "Think of cities and deserts.",
+			"explain": "False: some places are crowded and others almost empty."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which place is sparsely populated (has few people)?",
+			"answer": 0,
+			"hint": "Which is too cold for anyone to live there for good?",
+			"choices": [
+				"Antarctica",
+				"a big city",
+				"the Nile valley",
+				"a busy coast"
+			],
+			"explain": "Antarctica: nobody lives there for good."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "An island has 30 people on 5 km². How many people are there for each km²?",
+			"answer": "6",
+			"hint": "Density is people ÷ area.",
+			"explain": "30 ÷ 5 = 6 people per km²."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a physical reason people settle in a place?",
+			"answer": 0,
+			"hint": "Physical means from nature; human means made by people.",
+			"choices": [
+				"fresh water and rich soil",
+				"a new hospital",
+				"good railways",
+				"lots of jobs"
+			],
+			"explain": "Fresh water and rich soil come from nature: a physical reason."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these reasons for living somewhere: physical or human?",
+			"groups": [
+				"physical",
+				"human"
+			],
+			"items": [
+				"flat land",
+				"jobs",
+				"a mild climate",
+				"schools",
+				"fresh water",
+				"railways"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Physical reasons come from nature; human ones are made by people.",
+			"explain": "Physical: flat land, a mild climate, fresh water. Human: jobs, schools, railways."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A town of 4,800 people covers 12 km². What is its population density, in people per km²?",
+			"answer": "400",
+			"hint": "Divide the people by the area.",
+			"explain": "4,800 ÷ 12 = 400 people per km²."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do so many people in Egypt live near the Nile?",
+			"answer": 0,
+			"hint": "Most of Egypt is desert.",
+			"choices": [
+				"it brings water and rich soil to a desert",
+				"it is cold there",
+				"there are mountains",
+				"the sea is far away"
+			],
+			"explain": "The Nile brings fresh water and rich soil to a desert land, so farms, towns and people crowd along it."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Fernby is more crowded than Mossfield.",
+			"answer": true,
+			"hint": "Work out people per km² for each: count the dots and the squares.",
+			"explain": "True: Fernby has 24 people on 2 km², 12 per km²; Mossfield has 18 on 6 km², 3 per km².",
+			"picture": {
+				"kind": "dot_density",
+				"areas": [
+					{
+						"name": "Mossfield",
+						"people": 18,
+						"km2": 6
+					},
+					{
+						"name": "Fernby",
+						"people": 24,
+						"km2": 2
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is the Sahara sparsely populated?",
+			"answer": 0,
+			"hint": "Think of what the Sahara lacks.",
+			"choices": [
+				"it is too dry to farm",
+				"it is too cold",
+				"it is too steep",
+				"it has too many cities"
+			],
+			"explain": "It has very little rain or fresh water, so it is too dry to farm."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mongolia has about 2 people per km². About how many people would live on 500 km² there?",
+			"answer": "1000",
+			"hint": "People = density × area.",
+			"explain": "2 × 500 = 1,000 people."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Country A has 100,000 people on 50 km². Country B has 400,000 people on 800 km². Which is more crowded?",
+			"answer": 0,
+			"hint": "More people does not always mean more crowded: work out both densities.",
+			"choices": [
+				"Country A",
+				"Country B"
+			],
+			"explain": "A: 100,000 ÷ 50 = 2,000 per km². B: 400,000 ÷ 800 = 500 per km². A is more crowded."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why might a place with good farmland still have few people?",
+			"answer": 0,
+			"hint": "Think of human reasons as well as physical ones.",
+			"choices": [
+				"no jobs, services or roads nearby",
+				"the soil is too rich",
+				"it has too much water",
+				"it is too flat"
+			],
+			"explain": "People also need jobs, services and transport; without them, even good land stays sparse."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each place to its population.",
+			"items": [
+				"Bangladesh",
+				"Mongolia",
+				"Antarctica",
+				"the Nile valley"
+			],
+			"matches": [
+				"crowded along a river",
+				"over 1,000 people per km²",
+				"about 2 people per km²",
+				"nobody lives there for good"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "One is very crowded, one nearly empty, one frozen, one along a river.",
+			"explain": "Bangladesh: over 1,000 per km². Mongolia: about 2. Antarctica: nobody for good. The Nile valley: crowded along the river."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A country with more people always has a higher population density.",
+			"answer": false,
+			"hint": "Density also depends on the area.",
+			"explain": "False: Canada has far more people than tiny Monaco, but its huge area makes it far less crowded."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.density",
+			"level": 1
+		},
+		{
+			"gen": "g6h.density",
+			"level": 2
+		},
+		{
+			"gen": "g6h.density",
+			"level": 3
+		}
+	]
+}

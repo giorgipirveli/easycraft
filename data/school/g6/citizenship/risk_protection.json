@@ -1,0 +1,287 @@
+{
+	"id": "g6.citizenship.risk_protection",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, what is a loan? (Money borrowed and paid back, usually with interest.) Today: risk, and how saving and insurance protect people."
+		},
+		{
+			"text": "A risk is a chance that something bad might happen. A bike might be stolen, a pipe might burst or someone might fall ill. We think about how likely it is, and how bad it would be."
+		},
+		{
+			"text": "Four ways to handle a risk: avoid it (don't do the risky thing), or reduce it (lock your bike, wear a helmet). Share it (with insurance), or accept it (for small, unlikely losses).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"way",
+						"for example"
+					],
+					[
+						"avoid",
+						"don't do it"
+					],
+					[
+						"reduce",
+						"lock your bike"
+					],
+					[
+						"share",
+						"insurance"
+					],
+					[
+						"accept",
+						"a small loss"
+					]
+				]
+			}
+		},
+		{
+			"text": "An emergency fund is savings kept for surprises: a broken window, a lost job, a big bill. Many experts suggest saving enough to pay for a few months of needs."
+		},
+		{
+			"text": "Insurance: many people each pay a small amount, a premium, into a shared pot. The few who have a loss that year are paid from it. Everyone swaps a small, certain cost for protection from a big, uncertain one."
+		},
+		{
+			"text": "Worked example: 100 people each pay 10 gold a year: 100 × 10 = 1,000 gold. Three bikes worth 200 gold each are stolen. The pot pays 3 × 200 = 600 gold and has 1,000 − 600 = 400 gold left.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "paid out: 600",
+								"size": 600
+							},
+							{
+								"text": "left: 400",
+								"size": 400
+							}
+						],
+						"total": "the pot: 1,000 gold"
+					}
+				]
+			}
+		},
+		{
+			"text": "Words to know: a claim asks the insurer to pay; the excess is the part of a claim you pay yourself. Insurance is not worth it for cheap things you could easily replace from savings."
+		},
+		{
+			"text": "Try it in the world: start a server insurance club: members put 2 gold a week in a chest, and anyone whose farm is wrecked by monsters is paid from it. Next: spot a scam."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a risk?",
+			"answer": 0,
+			"hint": "Think of a bike that might be stolen.",
+			"choices": [
+				"a chance that something bad might happen",
+				"a kind of lock",
+				"a bank account",
+				"a prize"
+			],
+			"explain": "A chance that something bad might happen."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an insurance premium?",
+			"answer": 0,
+			"hint": "It is paid by everyone in the pot.",
+			"choices": [
+				"the amount you pay for insurance",
+				"the money paid after a loss",
+				"a kind of lock",
+				"a bank"
+			],
+			"explain": "The amount each person pays for the insurance."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Locking your bike reduces the risk of it being stolen.",
+			"answer": true,
+			"hint": "Which way of handling risk is this?",
+			"explain": "True: it reduces the risk."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Insurance costs 5 gold a month. How much is that for a year?",
+			"answer": "60",
+			"hint": "There are 12 months in a year.",
+			"explain": "12 × 5 = 60 gold."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an emergency fund?",
+			"answer": 0,
+			"hint": "Emergencies are surprises.",
+			"choices": [
+				"savings kept for surprises",
+				"money for sweets",
+				"a kind of loan",
+				"a fire engine"
+			],
+			"explain": "Savings kept for surprises, such as a broken window."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: avoiding, reducing or sharing a risk?",
+			"groups": [
+				"avoid",
+				"reduce",
+				"share"
+			],
+			"items": [
+				"not swimming where there is no lifeguard",
+				"wearing a helmet",
+				"buying travel insurance",
+				"locking the door",
+				"not cycling on an icy road",
+				"joining an insurance club"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				1,
+				0,
+				2
+			],
+			"hint": "Avoid: don't do it. Reduce: make it less likely or less bad. Share: insurance.",
+			"explain": "Avoid: no swimming without a lifeguard, no cycling on ice. Reduce: a helmet, locking the door. Share: travel insurance, an insurance club."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "50 people each pay 8 gold into a shared pot. Two claims of 100 gold each are paid. How much is left?",
+			"answer": "200",
+			"hint": "Find what went in, then take away what was paid out.",
+			"explain": "50 × 8 = 400. 2 × 100 = 200. 400 − 200 = 200 gold."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"premium",
+				"claim",
+				"excess",
+				"emergency fund"
+			],
+			"matches": [
+				"savings for surprises",
+				"what you pay for insurance",
+				"asking the insurer to pay",
+				"the part of a claim you pay"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Which one do you pay every month?",
+			"explain": "Premium: what you pay. Claim: asking to be paid. Excess: your part of a claim. Emergency fund: savings for surprises."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why would you not insure a pencil?",
+			"answer": 0,
+			"hint": "Compare the cost of insurance with the cost of a new pencil.",
+			"choices": [
+				"it is cheap to replace from savings",
+				"pencils never break",
+				"insurance is only for cars",
+				"pencils are illegal"
+			],
+			"explain": "It costs so little that you can replace it yourself; insurance is for losses too big to pay easily."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Insurance works because only a few people have a loss each year.",
+			"answer": true,
+			"hint": "What if everyone claimed every year?",
+			"explain": "True: the many pay in, and the few who have a loss are paid out."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Home insurance costs 60 gold a year, with an excess of 50 gold. Over 3 years you claim once. How much do you pay in all?",
+			"answer": "230",
+			"hint": "Add every year's cost, then the excess for the claim.",
+			"explain": "3 × 60 = 180. 180 + 50 = 230 gold."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which risk is most worth insuring?",
+			"answer": 0,
+			"hint": "Think how likely it is and how bad it would be.",
+			"choices": [
+				"a house fire: unlikely but very costly",
+				"losing a cheap pen",
+				"a rainy day",
+				"a lost sock"
+			],
+			"explain": "A house fire is unlikely, but the loss would be too big for most savings, so insurance makes sense."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why keep an emergency fund as well as insurance?",
+			"answer": 0,
+			"hint": "Think of the excess, and things insurance does not cover.",
+			"choices": [
+				"some losses are too small or not covered",
+				"insurance pays for everything",
+				"savings are useless",
+				"banks say so"
+			],
+			"explain": "The excess, small losses and things not covered still need savings."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A risk is very likely and would be very harmful. What is usually wisest?",
+			"answer": 0,
+			"hint": "Likely and harmful together.",
+			"choices": [
+				"avoid it",
+				"accept it",
+				"ignore it",
+				"double it"
+			],
+			"explain": "Avoid it if you can: it is likely to happen and would do great harm."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A bike club of 40 members wants a pot of 800 gold a year. How much should each member pay?",
+			"answer": "20",
+			"hint": "Share the pot equally among the members.",
+			"explain": "800 ÷ 40 = 20 gold each."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.insurance_pool",
+			"level": 1
+		},
+		{
+			"gen": "g6h.insurance_pool",
+			"level": 2
+		},
+		{
+			"gen": "g6h.insurance_pool",
+			"level": 3
+		}
+	]
+}

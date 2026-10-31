@@ -1,0 +1,356 @@
+{
+	"id": "g7.computing.functions_parameters",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, what did a DEFINE block make? (A procedure: named steps you can use again.) Today: functions that take inputs and give back an answer."
+		},
+		{
+			"text": "A function is named code you can call again and again. def starts it and its lines step in. Calling it by its name runs those lines.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def hello():",
+					"    print(\"Hi from Hoot!\")",
+					"hello()",
+					"hello()"
+				],
+				"output": [
+					"Hi from Hoot!",
+					"Hi from Hoot!"
+				]
+			}
+		},
+		{
+			"text": "A parameter is a function's input. def double(n): has the parameter n. When you call double(6), the argument 6 goes into n.",
+			"picture": {
+				"kind": "func_machine",
+				"name": "double",
+				"params": [
+					"n"
+				],
+				"args": [
+					"6"
+				],
+				"body": "n * 2",
+				"out": "12"
+			}
+		},
+		{
+			"text": "return sends the answer back to where the function was called. Then you can store it, print it or use it in a sum. print only shows it.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def double(n):",
+					"    return n * 2",
+					"x = double(6)",
+					"print(x + 1)"
+				],
+				"output": [
+					"13"
+				]
+			}
+		},
+		{
+			"text": "A function can have several parameters, filled in order. Worked example: area(3, 4) puts 3 in w and 4 in h, and returns 3 × 4 = 12.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def area(w, h):",
+					"    return w * h",
+					"print(area(3, 4))",
+					"print(area(5, 2))"
+				],
+				"output": [
+					"12",
+					"10"
+				]
+			}
+		},
+		{
+			"text": "Functions make programs shorter and easier to fix: write the steps once, test them once, and call them wherever they are needed. A good function does one job, and its name says what."
+		},
+		{
+			"text": "A function's parameters and variables live inside it: n only exists while double runs. So two functions can both use n without mixing up each other's values."
+		},
+		{
+			"text": "Try it in the world: a recipe is like a function whose parameter is how many people are eating; it returns how much of each thing to buy. Next: searching algorithms."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What does this program print?",
+			"answer": "15",
+			"hint": "The argument 5 goes into n. Then work out the return line.",
+			"explain": "n is 5, so triple returns 5 × 3 = 15.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def triple(n):",
+					"    return n * 3",
+					"print(triple(5))"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In def greet(name):, what is name?",
+			"answer": 0,
+			"hint": "It sits in the brackets of def: the function's input.",
+			"choices": [
+				"a parameter",
+				"a return value",
+				"a loop",
+				"a list"
+			],
+			"explain": "name is a parameter: it holds whatever value the function is called with."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In the call double(7), the argument is 7.",
+			"answer": true,
+			"hint": "The argument is the value you pass in.",
+			"explain": "True: 7 is passed in, and it goes into the parameter."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "4 goes into the function. What comes out?",
+			"answer": "14",
+			"hint": "Put 4 in place of n in the return line.",
+			"explain": "n is 4, and it returns 4 + 10 = 14.",
+			"picture": {
+				"kind": "func_machine",
+				"name": "add_ten",
+				"params": [
+					"n"
+				],
+				"args": [
+					"4"
+				],
+				"body": "n + 10",
+				"out": "?"
+			}
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"def",
+				"parameter",
+				"argument",
+				"return"
+			],
+			"matches": [
+				"the input's name",
+				"the value passed in",
+				"sends the answer back",
+				"starts a function"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of def double(n): return n * 2 and the call double(6).",
+			"explain": "def starts a function; n is the parameter; 6 is the argument; return sends the answer back."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A function can be called many times with different arguments.",
+			"answer": true,
+			"hint": "Why write a function at all?",
+			"explain": "True: that is the point: write it once, and call it with any values."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What does this program print?",
+			"answer": "42",
+			"hint": "The first argument goes into w, the second into h.",
+			"explain": "w is 6 and h is 7: 6 × 7 = 42.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def area(w, h):",
+					"    return w * h",
+					"print(area(6, 7))"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What does this program print?",
+			"answer": "16",
+			"hint": "Work out the brackets first.",
+			"explain": "w is 5 and h is 3: 2 × (5 + 3) = 2 × 8 = 16.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def perimeter(w, h):",
+					"    return 2 * (w + h)",
+					"print(perimeter(5, 3))"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does this program print?",
+			"answer": 0,
+			"hint": "The text Zara goes into name.",
+			"choices": [
+				"Hi Zara",
+				"Hi name",
+				"greet Zara",
+				"Zara"
+			],
+			"explain": "name holds Zara, so the function returns Hi and a space joined to Zara: Hi Zara.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def greet(name):",
+					"    return \"Hi \" + name",
+					"print(greet(\"Zara\"))"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What does this program print?",
+			"answer": "22",
+			"hint": "Work out cost(4, 5) first, then add 2.",
+			"explain": "price is 4 and count is 5: 4 × 5 = 20, and 20 + 2 = 22.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def cost(price, count):",
+					"    return price * count",
+					"print(cost(4, 5) + 2)"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "print and return do the same job.",
+			"answer": false,
+			"hint": "Which one hands a value back to the code that called the function?",
+			"explain": "False: print shows a value on the screen; return hands it back so the program can use it again."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "cost(2, 9) is called. Which value goes into count?",
+			"answer": 0,
+			"hint": "Arguments fill the parameters in order.",
+			"choices": [
+				"9",
+				"2",
+				"18",
+				"11"
+			],
+			"explain": "price is first and count is second, so 2 goes into price and 9 into count.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def cost(price, count):",
+					"    return price * count"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What does this program print?",
+			"answer": "9",
+			"hint": "Work from the inside out: the inner call runs first.",
+			"explain": "add(2, 3) is 5, then add(5, 4) is 9.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def add(a, b):",
+					"    return a + b",
+					"print(add(add(2, 3), 4))"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What does this program print?",
+			"answer": "11",
+			"hint": "The call in the brackets runs first.",
+			"explain": "double(5) is 10, then add_one(10) is 11.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def double(n):",
+					"    return n * 2",
+					"def add_one(n):",
+					"    return n + 1",
+					"print(add_one(double(5)))"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is total when the program ends?",
+			"answer": "60",
+			"hint": "lv goes 1, 2, 3. Work out gems_for(lv) each time and add it on.",
+			"explain": "gems_for gives 10, 20 and 30, and total adds them: 10 + 20 + 30 = 60.",
+			"picture": {
+				"kind": "text_code",
+				"lines": [
+					"def gems_for(level):",
+					"    return level * 10",
+					"total = 0",
+					"for lv in range(1, 4):",
+					"    total = total + gems_for(lv)"
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the lines in order to make a function that returns the bigger of two numbers.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The def line comes first; the test comes before what it decides.",
+			"items": [
+				"return b",
+				"return a",
+				"if a > b:",
+				"def bigger(a, b):"
+			],
+			"explain": "def bigger(a, b): then if a > b: return a; otherwise the last line, return b, runs."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.function_value",
+			"level": 1
+		},
+		{
+			"gen": "g7c.function_value",
+			"level": 2
+		},
+		{
+			"gen": "g7c.function_value",
+			"level": 3
+		}
+	]
+}

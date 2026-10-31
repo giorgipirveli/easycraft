@@ -1,0 +1,297 @@
+{
+	"id": "g5.maths.unlike_fractions",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met equal fractions. Is 1/2 equal to 3/6? Yes: multiply the top and bottom by 3."
+		},
+		{
+			"text": "To add 1/2 + 1/3, the parts must be the same size first. Halves and thirds can both be cut into sixths: 1/2 = 3/6 and 1/3 = 2/6. Then 3/6 + 2/6 = 5/6.",
+			"picture": {
+				"kind": "bar",
+				"bars": [
+					{
+						"den": 2,
+						"num": 1
+					},
+					{
+						"den": 3,
+						"num": 1
+					},
+					{
+						"den": 6,
+						"num": 5
+					}
+				]
+			}
+		},
+		{
+			"text": "Find a common denominator: a number both bottoms go into. For quarters and sixths, 12 works: 3/4 = 9/12 and 1/6 = 2/12, so 3/4 + 1/6 = 11/12.",
+			"picture": {
+				"kind": "bar",
+				"bars": [
+					{
+						"den": 4,
+						"num": 3
+					},
+					{
+						"den": 6,
+						"num": 1
+					},
+					{
+						"den": 12,
+						"num": 11
+					}
+				]
+			}
+		},
+		{
+			"text": "Taking away works the same way: 3/4 − 1/6 = 9/12 − 2/12 = 7/12."
+		},
+		{
+			"text": "Mixed numbers: add the wholes, then the fractions. 2 1/2 + 1 1/3 = 3 + 3/6 + 2/6 = 3 5/6.",
+			"picture": {
+				"kind": "fraction_wall",
+				"rows": [
+					{
+						"den": 2,
+						"shade": 1
+					},
+					{
+						"den": 6,
+						"shade": 3
+					},
+					{
+						"den": 3,
+						"shade": 1
+					},
+					{
+						"den": 6,
+						"shade": 2
+					}
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "Check with benchmarks: 2/5 + 1/2 is a bit less than 1/2 + 1/2 = 1, so 9/10 makes sense. 3/7 does not: it is less than 1/2 on its own."
+		},
+		{
+			"text": "Try it in the world: you walk 1/2 of a path, rest, then walk 1/3 more. How much have you walked? 5/6: a little way to go! Next: fractions as division."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "1/2 + 1/4 = ?",
+			"answer": "3/4",
+			"hint": "Change 1/2 into quarters first.",
+			"explain": "1/2 = 2/4, and 2/4 + 1/4 = 3/4.",
+			"picture": {
+				"kind": "bar",
+				"bars": [
+					{
+						"den": 2,
+						"num": 1
+					},
+					{
+						"den": 4,
+						"num": 1
+					}
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "5/6 − 1/3 = ?",
+			"answer": "3/6",
+			"hint": "Change 1/3 into sixths first.",
+			"explain": "1/3 = 2/6, and 5/6 − 2/6 = 3/6, which is 1/2."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "1/3 + 1/6 = 2/9",
+			"answer": false,
+			"hint": "Is 2/9 even bigger than 1/3? A sum should be.",
+			"explain": "1/3 = 2/6, so 1/3 + 1/6 = 3/6 = 1/2. Adding the tops and the bottoms does not work."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "2/3 + 1/4 = ?",
+			"answer": "11/12",
+			"hint": "Change both into twelfths.",
+			"explain": "2/3 = 8/12 and 1/4 = 3/12. 8/12 + 3/12 = 11/12."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the smallest denominator both 1/4 and 1/6 can be changed to?",
+			"choices": [
+				"12",
+				"24",
+				"10",
+				"6"
+			],
+			"answer": 0,
+			"hint": "Count up in 6s. Which one does 4 go into?",
+			"explain": "6, 12: 4 goes into 12, so twelfths: 1/4 = 3/12 and 1/6 = 2/12."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Without adding exactly: is 3/8 + 1/3 more or less than 1?",
+			"choices": [
+				"less than 1",
+				"more than 1",
+				"exactly 1"
+			],
+			"answer": 0,
+			"hint": "Is each part more or less than 1/2?",
+			"explain": "3/8 and 1/3 are each less than 1/2, so together they are less than 1. (3/8 + 1/3 = 17/24.)"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "2 1/2 + 1 2/3 = ?",
+			"choices": [
+				"4 1/6",
+				"3 3/5",
+				"3 1/6",
+				"4 3/5"
+			],
+			"answer": 0,
+			"hint": "Add the wholes, then the sixths. Do the fractions make another whole?",
+			"explain": "2 + 1 = 3. 1/2 + 2/3 = 3/6 + 4/6 = 7/6 = 1 1/6. Together: 4 1/6."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly walks 3/4 km to the farm, then 2/3 km to the river. How far does she walk, in km?",
+			"answer": "17/12",
+			"hint": "Change both into twelfths.",
+			"explain": "3/4 = 9/12 and 2/3 = 8/12, so 17/12 km, which is 1 5/12 km."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A jug holds 1 1/2 L of juice. Zara pours out 3/4 L. How much is left, in litres?",
+			"answer": "3/4",
+			"hint": "1 1/2 is 6/4.",
+			"explain": "1 1/2 = 6/4, and 6/4 − 3/4 = 3/4 L."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each fraction to an equal one in twelfths.",
+			"items": [
+				"1/2",
+				"1/3",
+				"3/4",
+				"5/6"
+			],
+			"matches": [
+				"9/12",
+				"10/12",
+				"6/12",
+				"4/12"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "How many twelfths make one half, one third, one quarter, one sixth?",
+			"explain": "1/2 = 6/12; 1/3 = 4/12; 3/4 = 9/12; 5/6 = 10/12."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5f.add_unlike",
+			"level": 1
+		},
+		{
+			"gen": "g5f.add_unlike",
+			"level": 2
+		},
+		{
+			"gen": "g5f.add_unlike",
+			"level": 3
+		},
+		{
+			"gen": "g5f.subtract_unlike",
+			"level": 1
+		},
+		{
+			"gen": "g5f.subtract_unlike",
+			"level": 2
+		},
+		{
+			"gen": "g5f.subtract_unlike",
+			"level": 3
+		},
+		{
+			"gen": "g5f.common_denominator",
+			"level": 1
+		},
+		{
+			"gen": "g5f.common_denominator",
+			"level": 2
+		},
+		{
+			"gen": "g5f.common_denominator",
+			"level": 3
+		},
+		{
+			"gen": "g5f.add_mixed_unlike",
+			"level": 1
+		},
+		{
+			"gen": "g5f.add_mixed_unlike",
+			"level": 2
+		},
+		{
+			"gen": "g5f.add_mixed_unlike",
+			"level": 3
+		},
+		{
+			"gen": "g5f.benchmark_sum",
+			"level": 1
+		},
+		{
+			"gen": "g5f.benchmark_sum",
+			"level": 2
+		},
+		{
+			"gen": "g5f.benchmark_sum",
+			"level": 3
+		},
+		{
+			"gen": "g5f.sum_mistake",
+			"level": 1
+		},
+		{
+			"gen": "g5f.sum_mistake",
+			"level": 2
+		},
+		{
+			"gen": "g5f.sum_mistake",
+			"level": 3
+		},
+		{
+			"gen": "g5f.unlike_story",
+			"level": 1
+		},
+		{
+			"gen": "g5f.unlike_story",
+			"level": 2
+		},
+		{
+			"gen": "g5f.unlike_story",
+			"level": 3
+		}
+	]
+}

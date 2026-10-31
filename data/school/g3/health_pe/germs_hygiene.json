@@ -1,0 +1,287 @@
+{
+	"id": "g3.health_pe.germs_hygiene",
+	"lesson": [
+		{
+			"text": "Quick memory: how many hours of sleep do children your age need? (About 9 to 12.) Good sleep helps your body fight germs too."
+		},
+		{
+			"text": "Germs are living things far too small to see without a microscope. Most are harmless, but some can make you ill, like the germs that give you a cold or an upset tummy."
+		},
+		{
+			"text": "Germs spread on hands, in the tiny drops from coughs and sneezes, and on food and things we touch. They cannot walk or fly by themselves: they travel on us!"
+		},
+		{
+			"text": "Catch it, bin it, kill it: sneeze into a tissue (or into your elbow), put the tissue in a bin, then wash your hands.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"catch it",
+					"bin it",
+					"kill it"
+				],
+				"title": "Catch it, bin it, kill it"
+			}
+		},
+		{
+			"text": "Wash your hands with soap and warm water for about 20 seconds, as long as singing 'Happy Birthday' twice: palms, backs, between the fingers, thumbs and nails. Rinse, then dry.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Wet hands, add soap"
+					},
+					{
+						"shape": "step",
+						"text": "Rub for 20 seconds"
+					},
+					{
+						"shape": "step",
+						"text": "Rinse"
+					},
+					{
+						"shape": "end",
+						"text": "Dry"
+					}
+				]
+			}
+		},
+		{
+			"text": "Wash your hands after the toilet and before you eat or cook. Wash them after touching animals, after blowing your nose, and when you come in from playing."
+		},
+		{
+			"text": "Look after your teeth: brush twice a day for about 2 minutes, last thing at night and one other time, with fluoride toothpaste. Spit the toothpaste out, but do not rinse. Have sugary food less often."
+		},
+		{
+			"text": "Try it in the world: build a hand-washing station by your farm, with water and a sign showing the steps and '20 seconds'. Then wash your real hands and count to 20!"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How long should you wash your hands with soap?",
+			"answer": 0,
+			"hint": "How long does 'Happy Birthday' take, sung twice?",
+			"choices": [
+				"about 20 seconds",
+				"1 second",
+				"10 minutes",
+				"no time: water is enough"
+			],
+			"explain": "About 20 seconds: as long as singing 'Happy Birthday' twice."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Germs are too small to see with just your eyes.",
+			"answer": true,
+			"hint": "What would you need to see them?",
+			"explain": "True: germs are so small you need a microscope to see them."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "When must you wash your hands?",
+			"answer": 0,
+			"hint": "Germs can be on hands that look clean.",
+			"choices": [
+				"after using the toilet",
+				"only on your birthday",
+				"only when they look muddy",
+				"never"
+			],
+			"explain": "After the toilet, before eating or cooking, after animals, after blowing your nose, and after playing."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many times a day should you brush your teeth?",
+			"answer": 0,
+			"hint": "Last thing at night and one other time.",
+			"choices": [
+				"twice",
+				"once a week",
+				"ten times",
+				"never"
+			],
+			"explain": "Twice a day: last thing at night and one other time."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put hand washing in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need wet hands before the soap.",
+			"items": [
+				"add soap",
+				"rinse off the soap",
+				"wet your hands",
+				"rub palms, backs, fingers and thumbs",
+				"dry your hands"
+			],
+			"explain": "Wet, add soap, rub every part for about 20 seconds, rinse, then dry."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does 'catch it, bin it, kill it' mean?",
+			"answer": 0,
+			"hint": "It is about coughs and sneezes.",
+			"choices": [
+				"sneeze into a tissue, bin it, wash your hands",
+				"catch a ball and throw it away",
+				"catch a fly",
+				"put your hands in the bin"
+			],
+			"explain": "Catch the sneeze in a tissue, put the tissue in a bin, and wash your hands to kill the germs."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "For about how long should you brush your teeth each time?",
+			"answer": 0,
+			"hint": "Long enough to clean every tooth, front and back.",
+			"choices": [
+				"about 2 minutes",
+				"about 2 seconds",
+				"about 2 hours",
+				"just one brush"
+			],
+			"explain": "About 2 minutes each time, cleaning every tooth."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Does it spread germs, or stop them?",
+			"groups": [
+				"spreads germs",
+				"stops germs"
+			],
+			"items": [
+				"sneezing into your hands",
+				"washing with soap",
+				"sharing a drinks bottle",
+				"using a tissue",
+				"touching food with dirty hands",
+				"coughing into your elbow"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Think of how germs travel from one person to another.",
+			"explain": "Spreads: sneezing into hands, sharing a bottle, dirty hands on food. Stops: soap, a tissue, coughing into your elbow."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Water on its own gets rid of germs as well as soap and water.",
+			"answer": false,
+			"hint": "What does soap do?",
+			"explain": "False: soap lifts germs off your skin so the water can wash them away."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara is going to make sandwiches after stroking the dog. What should she do first?",
+			"answer": 0,
+			"hint": "Animals can carry germs on their fur.",
+			"choices": [
+				"wash her hands with soap",
+				"dry her hands on the dog",
+				"start making them straight away",
+				"wipe her hands on her top"
+			],
+			"explain": "Wash her hands with soap and water, so no germs from the dog get onto the food."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why sneeze into your elbow rather than into your hand?",
+			"answer": 0,
+			"hint": "What would your hand touch next?",
+			"choices": [
+				"you touch things with your hands, not your elbow",
+				"elbows are warmer",
+				"sneezes are louder that way",
+				"hands are too small"
+			],
+			"explain": "Your hands touch door handles, food and people, spreading germs; your elbow does not."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why spit out toothpaste but not rinse your mouth with water?",
+			"answer": 0,
+			"hint": "What does fluoride do?",
+			"choices": [
+				"the fluoride stays to protect your teeth",
+				"water is bad for teeth",
+				"it saves water",
+				"toothpaste tastes nice"
+			],
+			"explain": "Not rinsing leaves the fluoride on your teeth, where it keeps protecting them."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Germs can spread in the tiny drops from a sneeze.",
+			"answer": true,
+			"hint": "What comes out of your nose when you sneeze?",
+			"explain": "True: a sneeze sprays tiny drops that can carry germs to other people."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each germ-stopper to what it does.",
+			"items": [
+				"soap",
+				"a tissue",
+				"a toothbrush",
+				"a bin"
+			],
+			"matches": [
+				"catches a sneeze",
+				"cleans germs off teeth",
+				"takes used tissues away",
+				"washes germs off skin"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of each one in the lesson.",
+			"explain": "Soap washes germs off your skin, a tissue catches a sneeze, a toothbrush cleans your teeth, a bin takes used tissues away."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mimi brushes her teeth for 2 minutes, twice a day. How many minutes is that each day?",
+			"answer": "4",
+			"hint": "Two lots of 2 minutes.",
+			"explain": "2 minutes, twice: 2 × 2 = 4 minutes a day."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Each hand wash takes about 20 seconds. Mimi washes her hands 6 times today. How many seconds is that?",
+			"answer": "120",
+			"hint": "Multiply the washes by the seconds for each one.",
+			"explain": "6 × 20 = 120 seconds, which is 2 minutes in a whole day: a small time to keep germs away."
+		}
+	],
+	"generators": []
+}

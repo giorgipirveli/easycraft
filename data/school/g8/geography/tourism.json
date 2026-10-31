@@ -1,0 +1,336 @@
+{
+	"id": "g8.geography.tourism",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met push and pull factors. What is a pull factor? (Something that draws people to a place.) Today: tourism: why people travel, its good and bad effects, and how to make it sustainable."
+		},
+		{
+			"text": "Tourism means travelling for fun, rest, culture or adventure. International tourist trips grew from about 25 million in 1950 to about 1.4 billion in 2024. Cheaper flights, paid holidays and the internet made travel easier.",
+			"picture": {
+				"kind": "line_graph",
+				"points": [
+					[
+						"1950",
+						25
+					],
+					[
+						"1970",
+						166
+					],
+					[
+						"1990",
+						435
+					],
+					[
+						"2010",
+						950
+					],
+					[
+						"2024",
+						1400
+					]
+				],
+				"step": 200,
+				"top": 1400,
+				"name": "International trips (millions)"
+			}
+		},
+		{
+			"text": "Tourism brings jobs in hotels, restaurants and guiding, and money for roads, airports and hospitals. Spending spreads: a waiter's wages are spent in local shops, the multiplier effect. Entry fees can protect forests, reefs and old buildings."
+		},
+		{
+			"text": "It can also harm: crowds and traffic, litter, worn footpaths, damaged coral, water shortages, and house prices too high for local people. Jobs may be seasonal and low paid, and much of the money can 'leak' away to companies abroad."
+		},
+		{
+			"text": "In 1980 a geographer described a resort's life cycle: exploration, involvement, development, consolidation, stagnation. After that the resort either declines, or is rejuvenated with new attractions.",
+			"picture": {
+				"kind": "tourism_cycle",
+				"labels": true,
+				"paths": true
+			}
+		},
+		{
+			"text": "Sustainable tourism meets visitors' needs today without harming the place for tomorrow: local guides and food, limits on visitor numbers, fees that protect nature, and respect for local cultures. Ecotourism takes small groups to see nature, carefully."
+		},
+		{
+			"text": "Costa Rica protects about a quarter of its land in parks and reserves, and ecotourism helps pay for its forests and jobs. In the national park of the Galapagos Islands, visitors must go with trained guides, and numbers are limited.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"protected",
+						1
+					],
+					[
+						"other land",
+						3
+					]
+				],
+				"whole": 4,
+				"lines": true,
+				"key": true
+			}
+		},
+		{
+			"text": "Try it in the world: build an eco-lodge in your world for visitors. Add local food, a guided nature trail, and a sign of rules that protect the place. Next: oceans and seas."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a good effect of tourism?",
+			"choices": [
+				"worn footpaths",
+				"new jobs for local people",
+				"traffic jams",
+				"litter on beaches"
+			],
+			"answer": 1,
+			"hint": "Which one helps the people who live there?",
+			"explain": "New jobs for local people, in hotels, cafés and guiding."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "About 1.4 billion international tourist trips were made in 2024. How many million is 1.4 billion?",
+			"answer": "1400",
+			"hint": "One billion is 1,000 million.",
+			"explain": "1.4 × 1,000 = 1,400 million."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Tourism can make houses too expensive for local people.",
+			"answer": true,
+			"hint": "Think of homes turned into holiday lets.",
+			"explain": "True: when many homes become holiday lets, prices rise for local families."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is ecotourism?",
+			"choices": [
+				"small-group travel to see nature, carefully",
+				"big cruise ships",
+				"shopping trips",
+				"theme parks"
+			],
+			"answer": 0,
+			"hint": "Think of 'eco', as in ecosystems.",
+			"explain": "Ecotourism is careful travel in small groups to see nature, which helps protect it."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these effects of tourism: good or bad?",
+			"groups": [
+				"good",
+				"bad"
+			],
+			"items": [
+				"jobs as local guides",
+				"noise and crowds",
+				"money to protect a reef",
+				"water shortages in summer",
+				"old buildings restored",
+				"jobs only in summer"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it help the place and its people, or harm them?",
+			"explain": "Good: money for the reef, guiding jobs, restored buildings. Bad: water shortages, noise, summer-only jobs."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the stages of the tourism cycle in order.",
+			"items": [
+				"consolidation",
+				"involvement",
+				"exploration",
+				"development",
+				"stagnation"
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0,
+				4
+			],
+			"hint": "Few visitors first, then growth, then slower growth, then a flat top.",
+			"explain": "Exploration, involvement, development, consolidation, stagnation."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tourists spend 2,000,000 gold on an island, and 40% leaks away to companies abroad. How much gold stays on the island?",
+			"answer": "1200000",
+			"hint": "Find the share that stays, 100% − 40%.",
+			"explain": "60% of 2,000,000 = 1,200,000 gold."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each stage to what happens.",
+			"items": [
+				"exploration",
+				"development",
+				"stagnation",
+				"rejuvenation"
+			],
+			"matches": [
+				"the resort looks tired",
+				"big hotels are built",
+				"a few adventurous visitors",
+				"new attractions draw visitors"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "Early, busy, tired, and a second chance.",
+			"explain": "Exploration: a few visitors. Development: big hotels. Stagnation: tired and full. Rejuvenation: new attractions."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is the multiplier effect?",
+			"choices": [
+				"prices fall",
+				"tourists multiply",
+				"hotels get taller",
+				"tourist money is spent again and again locally"
+			],
+			"answer": 3,
+			"hint": "Follow a waiter's wages after payday.",
+			"explain": "Money from tourists is spent again in local shops and services, so it helps many people."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In the Galapagos national park, visitors must go with trained guides.",
+			"answer": true,
+			"hint": "Look back at the card about examples.",
+			"explain": "True: guides and limits on numbers protect its wildlife."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does 'leakage' matter to a tourist island?",
+			"choices": [
+				"money leaves instead of helping locals",
+				"the hotels flood",
+				"the sea gets salty",
+				"tourists get lost"
+			],
+			"answer": 0,
+			"hint": "Think of who owns the hotels and airlines.",
+			"explain": "When hotels and airlines belong to companies abroad, much of the money leaves and does not help local people."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "International trips grew from about 25 million in 1950 to about 1,400 million in 2024. How many times as many is that?",
+			"answer": "56",
+			"hint": "Divide the later number by the earlier one.",
+			"explain": "1,400 ÷ 25 = 56 times as many."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: sustainable tourism or not?",
+			"groups": [
+				"sustainable",
+				"not sustainable"
+			],
+			"items": [
+				"thousands of day visitors at once",
+				"local guides and local food",
+				"limits on visitor numbers",
+				"all profits going abroad",
+				"fees that protect nature",
+				"hotels on turtle beaches"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Will the place and its people still be fine in 50 years?",
+			"explain": "Sustainable: local guides and food, visitor limits, fees for nature. Not: huge crowds, hotels on turtle beaches, profits leaving."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What might a resort do at the stagnation stage?",
+			"choices": [
+				"add new attractions to rejuvenate it",
+				"close its airport",
+				"send local people away",
+				"do nothing at all"
+			],
+			"answer": 0,
+			"hint": "Think of the two futures on the curve.",
+			"explain": "It can rejuvenate itself with new attractions; otherwise visitors fall away into decline."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Tourism always helps a place more than it harms it.",
+			"answer": false,
+			"hint": "Think of both lists in the lesson.",
+			"explain": "False: it can do both; good planning keeps the benefits and limits the harm."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.tourist_spend",
+			"level": 1
+		},
+		{
+			"gen": "g8h.tourist_spend",
+			"level": 2
+		},
+		{
+			"gen": "g8h.tourist_spend",
+			"level": 3
+		},
+		{
+			"gen": "g8h.tourism_effects",
+			"level": 1
+		},
+		{
+			"gen": "g8h.tourism_effects",
+			"level": 2
+		},
+		{
+			"gen": "g8h.tourism_effects",
+			"level": 3
+		},
+		{
+			"gen": "g8h.butler_stage",
+			"level": 1
+		},
+		{
+			"gen": "g8h.butler_stage",
+			"level": 2
+		},
+		{
+			"gen": "g8h.butler_stage",
+			"level": 3
+		}
+	]
+}

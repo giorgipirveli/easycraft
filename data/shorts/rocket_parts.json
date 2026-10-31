@@ -1,0 +1,981 @@
+{
+	"id": "rocket_parts",
+	"title": "Build a rocket",
+	"topic": "rockets",
+	"link": {
+		"board": true
+	},
+	"scenes": [
+		{
+			"seconds": 7,
+			"background": "grass",
+			"caption": "Rockets are built from the bottom up.",
+			"say": "Let's build a rocket! Rockets are built from the bottom up, starting on the launch pad.",
+			"sounds": [
+				{
+					"at": 0.5,
+					"effect": "pop"
+				},
+				{
+					"at": 1.2,
+					"effect": "thud"
+				}
+			],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "BUILD A ROCKET!",
+					"at": [
+						180,
+						110
+					],
+					"size": 34,
+					"color": "white",
+					"box": "orange",
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.2,
+							"height": 300
+						},
+						{
+							"do": "pulse",
+							"at": 3.0
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "hoot",
+					"at": [
+						84,
+						320
+					],
+					"size": 130,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.8,
+							"from": [
+								-120,
+								320
+							]
+						},
+						{
+							"do": "bounce",
+							"at": 2.2,
+							"height": 22
+						},
+						{
+							"do": "bounce",
+							"at": 4.6,
+							"height": 22
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 220,
+					"h": 22,
+					"at": [
+						196,
+						426
+					],
+					"color": "grey",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "launch pad",
+					"at": [
+						250,
+						392
+					],
+					"size": 20,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.7
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8,
+			"background": "grass",
+			"caption": "The engine pushes hot gas down, so the rocket goes up.",
+			"say": "First the engine. It burns fuel and pushes hot gas down, so the rocket goes up.",
+			"sounds": [
+				{
+					"at": 0.55,
+					"effect": "thud"
+				},
+				{
+					"at": 3.0,
+					"effect": "whoosh"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 220,
+					"h": 22,
+					"at": [
+						196,
+						426
+					],
+					"color": "grey",
+					"moves": []
+				},
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						180,
+						448
+					],
+					"size": 70,
+					"rot": 180,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.0
+						},
+						{
+							"do": "pulse",
+							"at": 4.0,
+							"times": 3
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						180,
+						374
+					],
+					"size": 76,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.3,
+							"height": 420
+						},
+						{
+							"do": "shake",
+							"at": 3.0,
+							"amount": 3,
+							"dur": 2.0,
+							"times": 12
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "ENGINE",
+					"at": [
+						290,
+						374
+					],
+					"size": 24,
+					"color": "white",
+					"box": "orange",
+					"moves": [
+						{
+							"do": "slide",
+							"at": 1.0,
+							"from": [
+								470,
+								374
+							]
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						70,
+						420
+					],
+					"to": [
+						70,
+						290
+					],
+					"color": "green",
+					"width": 12,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 4.2,
+							"dur": 0.7
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "UP!",
+					"at": [
+						70,
+						262
+					],
+					"size": 34,
+					"color": "lime",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.9
+						},
+						{
+							"do": "bounce",
+							"at": 5.6,
+							"height": 16
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "grass",
+			"caption": "Fuel tanks hold the fuel and the oxygen to burn it.",
+			"say": "Then fuel tanks. Each holds 94 tonnes of fuel and oxygen: space has no air, so a rocket brings its own.",
+			"sounds": [
+				{
+					"at": 0.55,
+					"effect": "thud"
+				},
+				{
+					"at": 1.25,
+					"effect": "thud"
+				},
+				{
+					"at": 3.0,
+					"effect": "ui_tick"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 220,
+					"h": 22,
+					"at": [
+						196,
+						426
+					],
+					"color": "grey",
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						180,
+						374
+					],
+					"size": 76,
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						298
+					],
+					"size": 76,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.3,
+							"height": 420
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						222
+					],
+					"size": 76,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 1.0,
+							"height": 420
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "FUEL TANKS",
+					"at": [
+						278,
+						260
+					],
+					"size": 22,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "slide",
+							"at": 1.8,
+							"from": [
+								468,
+								260
+							]
+						}
+					]
+				},
+				{
+					"kind": "count",
+					"from": 0,
+					"to": 94,
+					"suffix": " t each",
+					"at": [
+						180,
+						150
+					],
+					"size": 36,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.0
+						},
+						{
+							"do": "value",
+							"at": 3.0,
+							"dur": 1.6,
+							"to": 94
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "fuel + oxygen",
+					"at": [
+						180,
+						100
+					],
+					"size": 24,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 5.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8.5,
+			"background": "grass",
+			"caption": "The crew capsule goes on top: its cone lets air slide round.",
+			"say": "On top goes the crew capsule, with a seat for one astronaut. Its pointed top lets air slide round it.",
+			"sounds": [
+				{
+					"at": 0.55,
+					"effect": "thud"
+				},
+				{
+					"at": 2.0,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 220,
+					"h": 22,
+					"at": [
+						196,
+						426
+					],
+					"color": "grey",
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						180,
+						374
+					],
+					"size": 76,
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						298
+					],
+					"size": 76,
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						222
+					],
+					"size": 76,
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "CREW_CAPSULE",
+					"at": [
+						180,
+						146
+					],
+					"size": 76,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.3,
+							"height": 360
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "CAPSULE",
+					"at": [
+						290,
+						146
+					],
+					"size": 22,
+					"color": "white",
+					"box": "purple",
+					"moves": [
+						{
+							"do": "slide",
+							"at": 1.2,
+							"from": [
+								480,
+								146
+							]
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						70,
+						160
+					],
+					"size": 96,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.0
+						},
+						{
+							"do": "bounce",
+							"at": 3.0,
+							"height": 14
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 8,
+			"background": "grass",
+			"caption": "Three fins at the bottom keep it flying straight.",
+			"say": "Last, three fins at the bottom. Like the feathers on an arrow, they keep the rocket flying straight.",
+			"sounds": [
+				{
+					"at": 0.8,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 220,
+					"h": 22,
+					"at": [
+						196,
+						426
+					],
+					"color": "grey",
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						180,
+						374
+					],
+					"size": 76,
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						298
+					],
+					"size": 76,
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						222
+					],
+					"size": 76,
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "CREW_CAPSULE",
+					"at": [
+						180,
+						146
+					],
+					"size": 76,
+					"moves": []
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_FINS",
+					"at": [
+						114,
+						384
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.3,
+							"from": [
+								-60,
+								384
+							]
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_FINS",
+					"at": [
+						246,
+						384
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.3,
+							"from": [
+								420,
+								384
+							]
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "3 FINS",
+					"at": [
+						296,
+						318
+					],
+					"size": 26,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.3
+						},
+						{
+							"do": "pulse",
+							"at": 2.5
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "one hides behind",
+					"at": [
+						272,
+						364
+					],
+					"size": 16,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.2
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 7,
+			"background": "sky",
+			"caption": "Which planet would you fly your rocket to?",
+			"say": "Three, two, one, lift off! Which planet would you fly your rocket to?",
+			"sounds": [
+				{
+					"at": 0.1,
+					"tune": {
+						"kind": "notes",
+						"notes": [
+							"G4",
+							"G4",
+							"G4",
+							"C5:2"
+						],
+						"beat": 0.45
+					}
+				},
+				{
+					"at": 2.0,
+					"effect": "rocket_whoosh"
+				},
+				{
+					"at": 4.8,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 220,
+					"h": 22,
+					"at": [
+						196,
+						426
+					],
+					"color": "grey",
+					"moves": []
+				},
+				{
+					"kind": "shape",
+					"shape": "flame",
+					"at": [
+						180,
+						448
+					],
+					"size": 70,
+					"rot": 180,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.6
+						},
+						{
+							"do": "grow",
+							"at": 1.2,
+							"to": 1.8
+						},
+						{
+							"do": "move",
+							"at": 2.0,
+							"dur": 3.0,
+							"to": [
+								180,
+								40
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_ENGINE",
+					"at": [
+						180,
+						374
+					],
+					"size": 76,
+					"moves": [
+						{
+							"do": "shake",
+							"at": 0.6,
+							"amount": 3,
+							"dur": 1.4,
+							"times": 10
+						},
+						{
+							"do": "move",
+							"at": 2.0,
+							"dur": 3.0,
+							"to": [
+								180,
+								-26
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						298
+					],
+					"size": 76,
+					"moves": [
+						{
+							"do": "shake",
+							"at": 0.6,
+							"amount": 3,
+							"dur": 1.4,
+							"times": 10
+						},
+						{
+							"do": "move",
+							"at": 2.0,
+							"dur": 3.0,
+							"to": [
+								180,
+								-102
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "FUEL_TANK",
+					"at": [
+						180,
+						222
+					],
+					"size": 76,
+					"moves": [
+						{
+							"do": "shake",
+							"at": 0.6,
+							"amount": 3,
+							"dur": 1.4,
+							"times": 10
+						},
+						{
+							"do": "move",
+							"at": 2.0,
+							"dur": 3.0,
+							"to": [
+								180,
+								-178
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "CREW_CAPSULE",
+					"at": [
+						180,
+						146
+					],
+					"size": 76,
+					"moves": [
+						{
+							"do": "shake",
+							"at": 0.6,
+							"amount": 3,
+							"dur": 1.4,
+							"times": 10
+						},
+						{
+							"do": "move",
+							"at": 2.0,
+							"dur": 3.0,
+							"to": [
+								180,
+								-254
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_FINS",
+					"at": [
+						114,
+						384
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "move",
+							"at": 2.0,
+							"dur": 3.0,
+							"to": [
+								114,
+								-16
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "part",
+					"part": "ROCKET_FINS",
+					"at": [
+						246,
+						384
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "move",
+							"at": 2.0,
+							"dur": 3.0,
+							"to": [
+								246,
+								-16
+							],
+							"ease": "in"
+						}
+					]
+				},
+				{
+					"kind": "count",
+					"from": 3,
+					"to": 1,
+					"at": [
+						300,
+						150
+					],
+					"size": 64,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.1
+						},
+						{
+							"do": "value",
+							"at": 0.2,
+							"dur": 1.4,
+							"to": 1,
+							"ease": "linear"
+						},
+						{
+							"do": "out",
+							"at": 1.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "LIFT OFF!",
+					"at": [
+						180,
+						300
+					],
+					"size": 44,
+					"color": "white",
+					"box": "red",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.0
+						},
+						{
+							"do": "pulse",
+							"at": 3.0,
+							"times": 2
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "moon",
+					"at": [
+						70,
+						110
+					],
+					"size": 50,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.8
+						},
+						{
+							"do": "pulse",
+							"at": 5.9
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "mars",
+					"at": [
+						180,
+						80
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 5.1499999999999995
+						},
+						{
+							"do": "pulse",
+							"at": 6.1000000000000005
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "jupiter",
+					"at": [
+						290,
+						120
+					],
+					"size": 80,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 5.5
+						},
+						{
+							"do": "pulse",
+							"at": 6.300000000000001
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,411 @@
+{
+	"id": "g5.science.food_webs",
+	"lesson": [
+		{
+			"text": "Quick memory: earlier this year you learned that plants grow from air and water. What gives them the energy to make their food? Sunlight."
+		},
+		{
+			"text": "Producers are plants: they make their own food from sunlight. Consumers are animals: they eat plants or other animals."
+		},
+		{
+			"text": "Decomposers, like worms, mushrooms and tiny bacteria, break down dead plants and animals and return their matter to the soil."
+		},
+		{
+			"text": "A food chain shows one path of food: grass, then a grasshopper, then a frog, then a heron.",
+			"picture": {
+				"kind": "food_web",
+				"nodes": [
+					[
+						"grass",
+						0,
+						3
+					],
+					[
+						"grasshopper",
+						1,
+						2
+					],
+					[
+						"frog",
+						2,
+						1
+					],
+					[
+						"heron",
+						3,
+						0
+					]
+				],
+				"links": [
+					[
+						0,
+						1
+					],
+					[
+						1,
+						2
+					],
+					[
+						2,
+						3
+					]
+				]
+			}
+		},
+		{
+			"text": "A food web joins many food chains together. Most animals eat more than one thing, and more than one animal eats them. The arrows point from the food to the eater.",
+			"picture": {
+				"kind": "food_web",
+				"nodes": [
+					[
+						"grass",
+						1,
+						3
+					],
+					[
+						"grasshopper",
+						0,
+						2
+					],
+					[
+						"rabbit",
+						2,
+						2
+					],
+					[
+						"frog",
+						0,
+						1
+					],
+					[
+						"fox",
+						2,
+						0
+					],
+					[
+						"heron",
+						0,
+						0
+					]
+				],
+				"links": [
+					[
+						0,
+						1
+					],
+					[
+						0,
+						2
+					],
+					[
+						1,
+						3
+					],
+					[
+						3,
+						5
+					],
+					[
+						2,
+						4
+					],
+					[
+						3,
+						4
+					]
+				]
+			}
+		},
+		{
+			"text": "Matter goes round and round: plants use it, animals eat it, decomposers return it to the soil and air, and plants use it again.",
+			"picture": {
+				"kind": "life_cycle",
+				"stages": [
+					"plants",
+					"animals",
+					"dead matter",
+					"decomposers",
+					"soil and air"
+				],
+				"title": "matter"
+			}
+		},
+		{
+			"text": "Try it in the world: in a meadow in your world, find a producer and two consumers, like grass, a rabbit and a fox. Draw the food web they belong to, with arrows from food to eater. Next: Earth's spheres."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do we call a living thing that makes its own food from sunlight?",
+			"answer": 0,
+			"hint": "It produces food.",
+			"choices": [
+				"a producer",
+				"a consumer",
+				"a decomposer"
+			],
+			"explain": "A producer: plants make their own food from sunlight."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which one is a decomposer?",
+			"answer": 0,
+			"hint": "It breaks down dead things.",
+			"choices": [
+				"a mushroom",
+				"a fox",
+				"an oak tree",
+				"a rabbit"
+			],
+			"explain": "Mushrooms break down dead plants and animals."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A rabbit is a consumer.",
+			"answer": true,
+			"hint": "Does it make its own food?",
+			"explain": "Yes: a rabbit eats plants, so it is a consumer."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a food chain show?",
+			"answer": 0,
+			"hint": "Follow the food.",
+			"choices": [
+				"who eats what",
+				"where animals sleep",
+				"how tall plants grow"
+			],
+			"explain": "A food chain shows who eats what."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Worms help break down dead leaves.",
+			"answer": true,
+			"hint": "What do worms do in the soil?",
+			"explain": "Yes: worms are decomposers."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put this food chain in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with the producer.",
+			"items": [
+				"heron",
+				"frog",
+				"grasshopper",
+				"grass"
+			],
+			"explain": "Grass (producer), grasshopper, frog, heron."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What do decomposers return to the soil?",
+			"answer": 0,
+			"hint": "Think of compost.",
+			"choices": [
+				"matter that plants can use again",
+				"sunlight",
+				"plastic"
+			],
+			"explain": "Decomposers return matter to the soil for plants."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is a food web more true to life than one food chain?",
+			"answer": 0,
+			"hint": "Does a fox eat only rabbits?",
+			"choices": [
+				"Most animals eat more than one thing.",
+				"Webs are prettier.",
+				"Animals eat only one thing."
+			],
+			"explain": "Most animals eat many things, so their chains join into a web."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If there were no decomposers, dead leaves would pile up everywhere.",
+			"answer": true,
+			"hint": "Who breaks them down?",
+			"explain": "Yes: without decomposers, dead things wouldn't rot away."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In a pond, which is the producer?",
+			"answer": 0,
+			"hint": "Which one makes food from sunlight?",
+			"choices": [
+				"pondweed",
+				"a fish",
+				"a duck",
+				"a frog"
+			],
+			"explain": "Pondweed is a plant: a producer."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In a meadow, the frogs all disappear. What might happen to the grasshoppers?",
+			"answer": 0,
+			"hint": "Frogs eat grasshoppers.",
+			"choices": [
+				"There might be many more of them.",
+				"They would all vanish too.",
+				"Nothing at all."
+			],
+			"explain": "With fewer frogs eating them, grasshoppers could increase."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An owl eats mice and voles. The mice all leave. What might the owl do?",
+			"answer": 0,
+			"hint": "The owl has another food.",
+			"choices": [
+				"eat more voles",
+				"eat grass",
+				"stop eating"
+			],
+			"explain": "In a food web, the owl can switch to voles."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The matter in a fallen leaf can one day become part of a new plant.",
+			"answer": true,
+			"hint": "What do decomposers do?",
+			"explain": "Yes: decomposers return its matter to the soil and air, and plants use it again."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the journey of matter in a forest.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start with the living leaf.",
+			"items": [
+				"A new plant uses the matter.",
+				"Decomposers break it down.",
+				"The leaf falls and dies.",
+				"A leaf grows."
+			],
+			"explain": "Matter goes round: grow, fall, break down, grow again."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which living things are both a consumer and food for another animal?",
+			"answer": 0,
+			"hint": "In the middle of a chain.",
+			"choices": [
+				"frogs",
+				"grass",
+				"the Sun",
+				"soil"
+			],
+			"explain": "Frogs eat insects and are eaten by herons."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the living things by their job in a food web.",
+			"items": [
+				"oak tree",
+				"fox",
+				"mushroom",
+				"pondweed",
+				"heron",
+				"worm"
+			],
+			"groups": [
+				"producer",
+				"consumer",
+				"decomposer"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Does it make food from sunlight, eat other living things, or break down dead things?",
+			"explain": "The oak tree and pondweed are producers. The fox and the heron are consumers. The mushroom and the worm are decomposers."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "In the lesson's food web, match each animal to what it eats.",
+			"items": [
+				"grasshopper",
+				"frog",
+				"heron",
+				"rabbit"
+			],
+			"matches": [
+				"frogs",
+				"grass",
+				"grasshoppers",
+				"grass too"
+			],
+			"answer": [
+				1,
+				2,
+				0,
+				3
+			],
+			"hint": "Follow the arrows: they point from the food to the eater.",
+			"explain": "The grasshopper and the rabbit eat grass; the frog eats grasshoppers; the heron eats frogs."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "In the meadow (grass, grasshopper, frog, heron), the frogs all disappear. Sort what might happen.",
+			"groups": [
+				"more of them",
+				"fewer of them"
+			],
+			"items": [
+				"grasshoppers",
+				"herons",
+				"grass"
+			],
+			"answer": [
+				0,
+				1,
+				1
+			],
+			"hint": "Follow the arrows both ways from the frog: what did it eat, and what ate it?",
+			"explain": "Nothing eats the grasshoppers now, so there may be more of them. More grasshoppers eat more grass, so there may be less grass. Herons lose their food, so there may be fewer herons."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A heron eats 5 frogs a day. Each of those frogs had eaten 20 grasshoppers that day. How many grasshoppers fed the heron's meals?",
+			"answer": "100",
+			"hint": "Each frog ate 20 grasshoppers. How many frogs were there?",
+			"explain": "5 frogs × 20 grasshoppers = 100 grasshoppers. That is why a food chain needs far more grasshoppers than frogs, and far more frogs than herons."
+		}
+	]
+}

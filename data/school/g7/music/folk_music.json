@@ -1,0 +1,392 @@
+{
+	"id": "g7.music.folk_music",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, which scale uses only 5 notes, as many folk tunes do? (The pentatonic scale.) Today: folk music: work songs, sea songs and music for celebrations."
+		},
+		{
+			"text": "Folk music is traditional music passed on by ear, from singer to singer, often for hundreds of years. No one knows who made up most of it, and every place and singer has its own version."
+		},
+		{
+			"text": "Work songs keep people working together in time: rowing, hauling, harvesting. In call and response, a leader sings a line and everyone answers, pulling or hitting on the strong beat.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"B4",
+					"G4",
+					"D4:2",
+					"G3:2",
+					"G4",
+					"A4",
+					"B4",
+					"G4",
+					"D4:2",
+					"G3:2"
+				],
+				"beat": 0.3
+			},
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"call",
+					"response",
+					"call",
+					"response"
+				]
+			}
+		},
+		{
+			"text": "In the Americas, enslaved African people sang work songs with calls and responses in the fields. Their songs grew into spirituals, the blues and gospel, which shaped much of the music heard today."
+		},
+		{
+			"text": "Sea shanties were sung on sailing ships in the 1800s. The shantyman sang the call, the sailors roared the answer, and everyone hauled the ropes on the same word.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xx-x----",
+				"tempo": 90
+			},
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"the shantyman calls",
+					"the sailors answer",
+					"all haul together"
+				],
+				"title": "Call and response",
+				"loop": true
+			}
+		},
+		{
+			"text": "Celebration music: jigs and reels at Irish and Scottish ceilidhs, and klezmer at Jewish weddings. Samba drums at Brazil's carnival, and the dhol drum of bhangra at Punjab's harvest festival. Drums and gongs at Lunar New Year."
+		},
+		{
+			"text": "Folk tunes often use the pentatonic scale and a drone, one low note held under the tune, as bagpipes play. Cecil Sharp (1859-1924) and Bela Bartok (1881-1945) wrote down thousands of folk songs before they were forgotten.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"D5",
+					"E5",
+					"G5",
+					"A5",
+					"G5",
+					"E5",
+					"D5",
+					"C5:4"
+				],
+				"beat": 0.4,
+				"parts": [
+					{
+						"notes": [
+							"C3:4",
+							"C3:4",
+							"C3:4"
+						],
+						"volume": 0.5,
+						"tone": "hollow"
+					}
+				]
+			},
+			"picture": {
+				"kind": "keyboard",
+				"mark": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"A4"
+				],
+				"names": true,
+				"title": "a pentatonic scale"
+			}
+		},
+		{
+			"text": "Try it in the world: teach your family a call and response: you sing a line, they sing it back, all keeping a steady beat with your feet. Next: in grade 8, Romantic music."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How is folk music usually passed on?",
+			"answer": 0,
+			"hint": "Most folk songs are older than printed music for everyone.",
+			"choices": [
+				"by ear, from singer to singer",
+				"only in printed books",
+				"by one famous composer",
+				"by the radio alone"
+			],
+			"explain": "By ear: people learned songs by listening and singing along."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is call and response?",
+			"answer": 0,
+			"hint": "Think of a shantyman and the sailors.",
+			"choices": [
+				"a leader sings, and the group answers",
+				"everyone sings at once",
+				"a phone call in a song",
+				"a solo with no answer"
+			],
+			"explain": "A leader sings a line (the call) and the group answers (the response)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen: is it a call and a response?",
+			"answer": 0,
+			"hint": "Does a higher phrase get a lower answer?",
+			"choices": [
+				"yes: a call, then an answer",
+				"no: one tune alone"
+			],
+			"explain": "A higher phrase is answered by a lower one, twice: call and response.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"B4",
+					"G4",
+					"D4:2",
+					"G3:2",
+					"G4",
+					"A4",
+					"B4",
+					"G4",
+					"D4:2",
+					"G3:2"
+				],
+				"beat": 0.3
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A jig is in 6/8. How many quavers fit in one bar?",
+			"answer": "6",
+			"hint": "The 8 at the bottom means the bar counts in quavers.",
+			"explain": "6/8: 6 quavers a bar."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Sea shanties helped sailors pull ropes together.",
+			"answer": true,
+			"hint": "Why sing while hauling?",
+			"explain": "True: everyone pulled on the same word of the song."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each celebration music to where it comes from.",
+			"items": [
+				"jigs and reels",
+				"samba",
+				"bhangra",
+				"klezmer",
+				"mariachi"
+			],
+			"matches": [
+				"Brazil",
+				"Punjab",
+				"Jewish weddings",
+				"Mexico",
+				"Ireland and Scotland"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				2,
+				3
+			],
+			"hint": "Carnival in Rio; harvest in Punjab.",
+			"explain": "Jigs and reels: Ireland and Scotland; samba: Brazil; bhangra: Punjab; klezmer: Jewish weddings; mariachi: Mexico."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. What is the low note doing under the tune?",
+			"answer": 0,
+			"hint": "Does the low note move?",
+			"choices": [
+				"holding on: a drone",
+				"copying the tune",
+				"playing a riff",
+				"nothing"
+			],
+			"explain": "The same low note is held under the whole tune: a drone, as bagpipes play.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"D5",
+					"E5",
+					"G5",
+					"A5",
+					"G5",
+					"E5",
+					"D5",
+					"C5:4"
+				],
+				"beat": 0.4,
+				"parts": [
+					{
+						"notes": [
+							"C3:4",
+							"C3:4",
+							"C3:4"
+						],
+						"volume": 0.5,
+						"tone": "hollow"
+					}
+				]
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Copy the jig's rhythm: long, short.",
+			"hint": "Listen for the long-short swing.",
+			"explain": "Claps in boxes 1, 3, 4 and 6: long-short, long-short.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xx-x",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which scale do many folk tunes use?",
+			"answer": 0,
+			"hint": "Five notes, no clashes.",
+			"choices": [
+				"the pentatonic scale",
+				"the chromatic scale",
+				"a twelve-note row",
+				"no scale at all"
+			],
+			"explain": "The pentatonic scale, found in folk music all over the world."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A reel is in 4/4. How many quavers are in one bar?",
+			"answer": "8",
+			"hint": "4 beats, and 2 quavers in each.",
+			"explain": "4 × 2 = 8 quavers."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Listen: how many times does the group answer the leader?",
+			"answer": "2",
+			"hint": "Count the low answers.",
+			"explain": "The leader sings twice and the group answers twice.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"B4",
+					"G4",
+					"D4:2",
+					"G3:2",
+					"G4",
+					"A4",
+					"B4",
+					"G4",
+					"D4:2",
+					"G3:2"
+				],
+				"beat": 0.3
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do folk songs have so many versions?",
+			"answer": 0,
+			"hint": "Think of a message passed along a line of people.",
+			"choices": [
+				"they were passed on by ear and changed",
+				"printers made mistakes",
+				"composers argued",
+				"computers wrote them"
+			],
+			"explain": "Each singer remembered and changed them a little, so every place has its own version."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A jig in 6/8 has 48 quavers of tune. How many bars is that?",
+			"answer": "8",
+			"hint": "How many quavers are in each bar?",
+			"explain": "6 quavers a bar: 48 ÷ 6 = 8 bars."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What did the work songs of enslaved African people in the Americas grow into?",
+			"answer": 0,
+			"hint": "Think back to the blues in grade 6.",
+			"choices": [
+				"spirituals, the blues and gospel",
+				"Baroque fugues",
+				"sea shanties only",
+				"symphonies"
+			],
+			"explain": "Spirituals, the blues and gospel, which shaped much of the popular music since."
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Copy the sailors' answer to the shantyman.",
+			"hint": "Two quick claps, a gap, then one more.",
+			"explain": "Claps in boxes 1, 2 and 4; the rest are gaps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xx-x----",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen: is this a jig (long-short in threes) or a reel (even quavers)?",
+			"answer": 0,
+			"hint": "Are the claps even, or long-short?",
+			"choices": [
+				"a jig",
+				"a reel"
+			],
+			"explain": "Long-short, long-short: the swing of a jig in 6/8.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xx-xx-xx-x",
+				"tempo": 100
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7c.folk_metre",
+			"level": 1
+		},
+		{
+			"gen": "g7c.folk_metre",
+			"level": 2
+		},
+		{
+			"gen": "g7c.folk_metre",
+			"level": 3
+		}
+	]
+}

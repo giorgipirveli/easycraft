@@ -1,0 +1,537 @@
+{
+	"id": "saturn_rings",
+	"title": "Saturn's rings are ice",
+	"topic": "space",
+	"link": {
+		"star_map": true
+	},
+	"scenes": [
+		{
+			"seconds": 8,
+			"background": "space",
+			"caption": "Saturn's rings look like one solid hoop. They are not!",
+			"say": "Saturn's rings look like one solid hoop. But they are not solid at all!",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				},
+				{
+					"at": 3.4,
+					"effect": "boing"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "saturn",
+					"at": [
+						180,
+						240
+					],
+					"size": 150,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "spin",
+							"at": 1.0,
+							"dur": 7,
+							"turns": 0.03
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "solid?",
+					"at": [
+						270,
+						110
+					],
+					"size": 34,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.4
+						},
+						{
+							"do": "shake",
+							"at": 3.4,
+							"amount": 6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9.5,
+			"background": "space",
+			"caption": "They are billions of pieces of ice and rock, from dust to house-sized chunks.",
+			"say": "They are billions of pieces of ice and rock, from tiny grains like dust to chunks as big as a house.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "ice_crackle"
+				},
+				{
+					"at": 4.0,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "ice",
+					"at": [
+						-60,
+						110
+					],
+					"size": 90,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 9.5,
+							"to": [
+								430,
+								150
+							],
+							"ease": "smooth"
+						},
+						{
+							"do": "spin",
+							"at": 0,
+							"dur": 9.5,
+							"turns": 0.4
+						}
+					],
+					"bleed": true
+				},
+				{
+					"kind": "shape",
+					"shape": "ice",
+					"at": [
+						120,
+						200
+					],
+					"size": 40,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 9.5,
+							"to": [
+								400,
+								230
+							],
+							"ease": "smooth"
+						},
+						{
+							"do": "spin",
+							"at": 0,
+							"dur": 9.5,
+							"turns": -0.6
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "ice",
+					"at": [
+						-30,
+						280
+					],
+					"size": 140,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 9.5,
+							"to": [
+								330,
+								300
+							],
+							"ease": "smooth"
+						},
+						{
+							"do": "spin",
+							"at": 0,
+							"dur": 9.5,
+							"turns": 0.2
+						}
+					],
+					"bleed": true
+				},
+				{
+					"kind": "shape",
+					"shape": "ice",
+					"at": [
+						200,
+						380
+					],
+					"size": 24,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 9.5,
+							"to": [
+								420,
+								400
+							],
+							"ease": "smooth"
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "ice",
+					"at": [
+						40,
+						400
+					],
+					"size": 56,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 9.5,
+							"to": [
+								300,
+								420
+							],
+							"ease": "smooth"
+						},
+						{
+							"do": "spin",
+							"at": 0,
+							"dur": 9.5,
+							"turns": 0.5
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "ice",
+					"at": [
+						250,
+						60
+					],
+					"size": 30,
+					"moves": [
+						{
+							"do": "move",
+							"at": 0,
+							"dur": 9.5,
+							"to": [
+								440,
+								70
+							],
+							"ease": "smooth"
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "spark",
+					"at": [
+						120,
+						280
+					],
+					"size": 120,
+					"color": "white",
+					"moves": [
+						{
+							"do": "draw",
+							"at": 4.0,
+							"dur": 0.8
+						},
+						{
+							"do": "out",
+							"at": 5.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "ICE!",
+					"at": [
+						240,
+						210
+					],
+					"size": 40,
+					"color": "ink",
+					"box": "sky",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.0
+						},
+						{
+							"do": "pulse",
+							"at": 3.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9.5,
+			"background": "space",
+			"caption": "They stretch 282,000 km from Saturn, but are only about 10 m thick.",
+			"say": "The rings stretch out 282 thousand kilometres from Saturn, yet the main rings are only about 10 metres thick.",
+			"sounds": [
+				{
+					"at": 0.5,
+					"effect": "whoosh"
+				},
+				{
+					"at": 5.0,
+					"effect": "ui_tick"
+				}
+			],
+			"actors": [
+				{
+					"kind": "planet",
+					"body": "saturn",
+					"at": [
+						180,
+						140
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						}
+					]
+				},
+				{
+					"kind": "line",
+					"from": [
+						0,
+						140
+					],
+					"to": [
+						360,
+						140
+					],
+					"color": "cream",
+					"width": 3,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 0.6,
+							"dur": 1.6
+						}
+					],
+					"bleed": true
+				},
+				{
+					"kind": "count",
+					"from": 0,
+					"to": 282000,
+					"suffix": " km",
+					"at": [
+						180,
+						290
+					],
+					"size": 34,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.6
+						},
+						{
+							"do": "value",
+							"at": 0.6,
+							"dur": 2.4,
+							"to": 282000
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "only 10 m thick!",
+					"at": [
+						180,
+						390
+					],
+					"size": 28,
+					"color": "white",
+					"box": "red",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 4.6
+						},
+						{
+							"do": "pulse",
+							"at": 5.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9.5,
+			"background": "sky",
+			"caption": "Saturn is so light for its size, it would float in a giant bath!",
+			"say": "And a funny fact: Saturn is so light for its size that it would float in a giant bath of water.",
+			"sounds": [
+				{
+					"at": 1.6,
+					"effect": "splash"
+				},
+				{
+					"at": 3.0,
+					"effect": "bubbles"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "rect",
+					"w": 330,
+					"h": 150,
+					"at": [
+						180,
+						380
+					],
+					"color": "sea",
+					"alpha": 0.9,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "planet",
+					"body": "saturn",
+					"at": [
+						180,
+						300
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 0.6,
+							"dur": 1.4,
+							"height": 360
+						},
+						{
+							"do": "bounce",
+							"at": 3.0,
+							"dur": 1.6,
+							"height": 12,
+							"times": 2
+						},
+						{
+							"do": "bounce",
+							"at": 5.4,
+							"dur": 1.6,
+							"height": 12,
+							"times": 2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "wave",
+					"w": 330,
+					"h": 30,
+					"at": [
+						180,
+						310
+					],
+					"color": "white",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "FLOATS!",
+					"at": [
+						180,
+						110
+					],
+					"size": 38,
+					"color": "white",
+					"box": "blue",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 3.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 6,
+			"background": "space",
+			"caption": "What would a piece of Saturn's rings feel like in your hand?",
+			"say": "What would a piece of Saturn's rings feel like in your hand?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "ice",
+					"at": [
+						180,
+						220
+					],
+					"size": 120,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						},
+						{
+							"do": "spin",
+							"at": 0.8,
+							"dur": 5,
+							"turns": 0.3
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "astronaut",
+					"at": [
+						180,
+						360
+					],
+					"size": 120,
+					"moves": [
+						{
+							"do": "slide",
+							"at": 0.6,
+							"from": [
+								180,
+								560
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

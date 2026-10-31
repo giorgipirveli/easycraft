@@ -1,0 +1,465 @@
+{
+	"id": "g8.music.romantic_era",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7, how many symphonies did Beethoven write? (Nine.) Today: Romantic music, from about 1820 to 1900, with big feelings and big orchestras."
+		},
+		{
+			"text": "Romantic composers wanted music to tell stories and show strong feelings: love, longing, nature and home. Orchestras grew, with more brass and percussion, and music went from very soft to very loud.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"Baroque",
+						20
+					],
+					[
+						"Classical",
+						40
+					],
+					[
+						"Romantic",
+						90
+					]
+				],
+				"to": 100,
+				"step": 20,
+				"title": "players, about"
+			}
+		},
+		{
+			"text": "Frédéric Chopin (1810-1849), from Poland, wrote for the piano: nocturnes (night pieces) and his homeland's dances, the mazurka and the polonaise. He let the tempo bend: rubato.",
+			"picture": {
+				"kind": "lifespans",
+				"people": [
+					[
+						"Chopin",
+						1810,
+						1849
+					],
+					[
+						"Clara Schumann",
+						1819,
+						1896
+					],
+					[
+						"Smetana",
+						1824,
+						1884
+					],
+					[
+						"Tchaikovsky",
+						1840,
+						1893
+					]
+				],
+				"from": 1800,
+				"to": 1900
+			}
+		},
+		{
+			"text": "Pyotr Tchaikovsky (1840-1893), from Russia, wrote ballets: Swan Lake (1877) and The Nutcracker (1892). His music swells from soft to huge, and his melodies leap wide.",
+			"picture": {
+				"kind": "orchestra",
+				"mark": "brass"
+			}
+		},
+		{
+			"text": "Programme music tells a story without words. Bedrich Smetana (1824-1884) followed a river from its springs to the city in Vltava. Many composers used the folk tunes of their own countries."
+		},
+		{
+			"text": "Worked example: listen for the Romantic signs: a wide, singing melody, rich chords, big changes of loudness, and the tempo pulling back and pushing on. This melody leaps up an octave.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"C5",
+					"B4",
+					"A4",
+					"G4",
+					"E4"
+				],
+				"values": [
+					"minim",
+					"minim",
+					"crotchet",
+					"crotchet",
+					"minim",
+					"minim"
+				]
+			},
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"C5:2",
+					"B4",
+					"A4",
+					"G4:2",
+					"E4:2"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"text": "Women composers worked too, against great difficulties. Fanny Mendelssohn (1805-1847) wrote over 450 pieces, and Clara Schumann (1819-1896) was among the century's finest pianists."
+		},
+		{
+			"text": "Try it in the world: listen to a Chopin nocturne and a dance from Swan Lake. Where does the music get louder and softer, faster and slower? Next: music of the 20th century."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. How does this melody move?",
+			"choices": [
+				"it leaps wide, up an octave",
+				"it moves only by step",
+				"it stays on one note"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"C5:2",
+					"B4",
+					"A4",
+					"G4:2",
+					"E4:2"
+				],
+				"beat": 0.4
+			},
+			"hint": "Listen to the jump between the first two notes.",
+			"explain": "It starts on C and jumps up to the C an octave higher: a wide, Romantic leap."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this more like a slow nocturne or a quick dance?",
+			"choices": [
+				"a slow nocturne",
+				"a quick dance"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4:2",
+					"G4",
+					"C5:2",
+					"B4",
+					"A4:2",
+					"G4:2"
+				],
+				"beat": 0.75,
+				"tone": "pure"
+			},
+			"hint": "Tap along: are the beats far apart or close together?",
+			"explain": "The beats are slow and the melody sings gently: a nocturne, a night piece."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each composer to what they are known for.",
+			"items": [
+				"Frédéric Chopin",
+				"Pyotr Tchaikovsky",
+				"Bedrich Smetana",
+				"Clara Schumann"
+			],
+			"matches": [
+				"Swan Lake",
+				"a river in music",
+				"a great pianist",
+				"piano nocturnes"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think back to the lesson's cards, one composer at a time.",
+			"explain": "Chopin wrote nocturnes, Tchaikovsky Swan Lake, Smetana the river Vltava, and Clara Schumann was a great pianist."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Romantic orchestras were bigger than Classical ones.",
+			"answer": true,
+			"hint": "Look at the chart of players.",
+			"explain": "True: from about 40 players in the Classical era to about 90 or more."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this a waltz, with 3 beats a bar, or a march, with 2?",
+			"choices": [
+				"a waltz",
+				"a march"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"E4+G4",
+					"E4+G4",
+					"G2",
+					"D4+F4",
+					"D4+F4",
+					"C3",
+					"E4+G4",
+					"E4+G4"
+				],
+				"beat": 0.35
+			},
+			"hint": "Count the low note and the chords after it: oom-pah-pah or oom-pah?",
+			"explain": "A low note, then two chords: oom-pah-pah, 3 beats a bar, a waltz."
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Copy this dance rhythm, 3 beats in a bar.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x--xx-",
+				"tempo": 90
+			},
+			"hint": "Clap the long one, then the two short ones.",
+			"explain": "Claps in boxes 1, 4 and 5: a long clap, then two shorter ones."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Is this melody in a major or a minor key?",
+			"choices": [
+				"minor",
+				"major"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"A4",
+					"C5",
+					"E5:2",
+					"D5",
+					"C5",
+					"B4",
+					"A4:2"
+				],
+				"beat": 0.4
+			},
+			"hint": "Does it sound bright, or sad and longing?",
+			"explain": "It is built on A minor's notes, A, C and E, and sounds longing: minor."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order these composers by when they were born, the earliest first.",
+			"items": [
+				"Pyotr Tchaikovsky",
+				"Bedrich Smetana",
+				"Clara Schumann",
+				"Frédéric Chopin"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Use the lifespans chart.",
+			"explain": "Chopin 1810, Clara Schumann 1819, Smetana 1824, Tchaikovsky 1840."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Rubato means letting the tempo bend, pulling back and pushing on.",
+			"answer": true,
+			"hint": "Remember how Chopin played.",
+			"explain": "True: rubato is a flexible tempo, slowing and speeding to show feeling."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Romantic or Classical?",
+			"groups": [
+				"Romantic",
+				"Classical"
+			],
+			"items": [
+				"a huge orchestra, lots of brass",
+				"music that tells a story",
+				"balanced, tidy phrases",
+				"a smaller orchestra",
+				"melodies from folk songs of home"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Which era wanted big feelings and stories?",
+			"explain": "Huge orchestras, stories and folk tunes of home are Romantic; tidy phrases and a smaller orchestra are Classical."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Where is the melody's highest note?",
+			"choices": [
+				"near the end",
+				"near the start",
+				"in the middle"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"A4",
+					"C5",
+					"E5:2",
+					"D5:2"
+				],
+				"beat": 0.35
+			},
+			"hint": "Follow the tune as it climbs.",
+			"explain": "It climbs step by step and leap by leap to its top note near the end."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen. How many times does the melody leap up a whole octave?",
+			"answer": "2",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"C5",
+					"B4",
+					"G4",
+					"G4",
+					"G5",
+					"F5",
+					"D5:2"
+				],
+				"beat": 0.4
+			},
+			"hint": "Listen for a jump up to the same letter, higher.",
+			"explain": "It leaps from C up to C, and later from G up to G: 2 octave leaps."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Smetana's Vltava follows a river. What kind of music is it?",
+			"choices": [
+				"programme music: a story with no words",
+				"a song with words",
+				"music for a ballet",
+				"a piece with no story"
+			],
+			"answer": 0,
+			"hint": "Does it tell something without words?",
+			"explain": "It tells the river's story in sound alone, with no words: programme music."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Chopin lived from 1810 to 1849. How many years is that?",
+			"answer": "39",
+			"hint": "Take the year he was born from the year he died.",
+			"explain": "He was born in 1810 and died in 1849: 1849 − 1810 = 39 years."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen: this chord has four different notes.",
+			"answer": true,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4+Bb4:3"
+				],
+				"beat": 0.5
+			},
+			"hint": "Listen for one more note above C, E and G.",
+			"explain": "True: C, E, G and B flat sound together, a rich four-note chord Romantic composers loved."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen to two phrases. Where does the second one copy the first?",
+			"choices": [
+				"an octave higher",
+				"an octave lower",
+				"faster",
+				"in a minor key"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4",
+					"G4",
+					"A4",
+					"G4:2",
+					"E5",
+					"G5",
+					"A5",
+					"G5:2"
+				],
+				"beat": 0.35
+			},
+			"hint": "Is the second phrase higher or lower? By how much?",
+			"explain": "The second phrase plays the same notes as the first, an octave higher: E, G, A, G becomes the higher E, G, A, G."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each Romantic idea to an example.",
+			"items": [
+				"programme music",
+				"nationalism",
+				"virtuoso",
+				"rubato"
+			],
+			"matches": [
+				"folk tunes of home",
+				"a dazzling solo player",
+				"the tempo bending",
+				"a river told in sound"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of Smetana, Chopin and the great soloists.",
+			"explain": "Vltava is programme music, folk tunes show nationalism, a virtuoso dazzles and rubato bends the tempo."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.composer_match",
+			"level": 1
+		},
+		{
+			"gen": "g8c.composer_match",
+			"level": 2
+		},
+		{
+			"gen": "g8c.music_order",
+			"level": 1
+		}
+	]
+}

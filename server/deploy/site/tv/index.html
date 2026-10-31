@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>EasyCraft TV</title>
+<!-- Owner #89 (spec §5.12): EasyCraft TV's player page for browsers that can't show YouTube's player inside the
+     game's page (Safari, Firefox: the game's thread headers). The game opens it in a tab with #v=<video id>; it
+     shows YouTube's privacy-enhanced player with the made-for-kids settings in a sandbox without popups (no way out
+     to YouTube's site), and a big CLOSE that goes back to the game. It tells the game's page (the same site) when
+     the video ended and when this tab closes. Caddy serves it at /tv/ with the other public pages, without the
+     game's thread headers. Nothing is loaded from other sites but the player itself. -->
+<style>
+:root {
+	--ink: #1e2a4a;
+	--font: ui-rounded, 'SF Pro Rounded', 'Nunito', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+html, body {
+	margin: 0;
+	height: 100%;
+	background: #0b0a1f;
+	color: #ffffff;
+	font-family: var(--font);
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	padding: 12px;
+	box-sizing: border-box;
+}
+#player {
+	width: min(100%, calc((100vh - 120px) * 16 / 9));
+	aspect-ratio: 16 / 9;
+	background: #000;
+	border: 5px solid #7b4bd6;
+	border-radius: 14px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+#player iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+#close {
+	font: 900 26px var(--font);
+	color: #ffffff;
+	background: #d9463b;
+	border: 3px solid var(--ink);
+	border-radius: 16px;
+	padding: 12px 36px;
+	box-shadow: 0 5px 0 rgba(30, 42, 74, 0.55);
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+}
+#close:active {
+	transform: translateY(4px);
+	box-shadow: 0 1px 0 rgba(30, 42, 74, 0.55);
+}
+#help {
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<div id="player"></div>
+<button id="close" type="button">&#10005; CLOSE</button>
+<p id="help" hidden>Close this tab to go back to EasyCraft.</p>
+<script>
+(function () {
+	const HOST = 'https://www.youtube-nocookie.com';
+	const EMBED = 'https://www.youtube-nocookie.com/embed/';
+	const ID = /^[A-Za-z0-9_-]{11}$/;
+	const m = /(?:^#|&)v=([^&]*)/.exec(window.location.hash);
+	const id = m ? decodeURIComponent(m[1]) : '';
+	const game = ('BroadcastChannel' in window) ? new BroadcastChannel('easycraft-tv') : null;
+	const player = document.getElementById('player');
+	const help = document.getElementById('help');
+	let frame = null;
+	let told = false;
+	function tell(what) {
+		if (game) {
+			try { game.postMessage(what); } catch (e) {}
+		}
+	}
+	if (ID.test(id)) {
+		frame = document.createElement('iframe');
+		frame.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-presentation');
+		frame.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture');
+		frame.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+		frame.title = 'EasyCraft TV';
+		frame.src = EMBED + id + '?autoplay=1&playsinline=1&rel=0&fs=0&iv_load_policy=3&enablejsapi=1&origin=' +
+			encodeURIComponent(window.location.origin);
+		frame.addEventListener('load', function () {
+			let tries = 0;
+			const again = function () {
+				if (tries++ > 20 || !frame.contentWindow) {
+					return;
+				}
+				try {
+					frame.contentWindow.postMessage(JSON.stringify({ event: 'listening', id: 'easycraft-tv', channel: 'widget' }), HOST);
+				} catch (e) {}
+				setTimeout(again, 250);
+			};
+			again();
+		});
+		player.appendChild(frame);
+	} else {
+		help.textContent = 'No video here. Close this tab to go back to EasyCraft.';
+		help.hidden = false;
+	}
+	window.addEventListener('message', function (e) {
+		if (!frame || e.origin !== HOST || e.source !== frame.contentWindow) {
+			return;
+		}
+		let d = e.data;
+		try {
+			if (typeof d === 'string') {
+				d = JSON.parse(d);
+			}
+		} catch (x) {
+			return;
+		}
+		const state = d && (d.event === 'onStateChange' ? d.info : (d.event === 'infoDelivery' && d.info ? d.info.playerState : null));
+		if (state === 0 && !told) {
+			told = true;
+			tell('ended');
+		} else if (state === 1) {
+			told = false;
+		}
+	});
+	function leave() {
+		tell('closed');
+	}
+	window.addEventListener('pagehide', leave);
+	document.getElementById('close').addEventListener('click', function () {
+		leave();
+		if (frame) {
+			frame.remove();
+			frame = null;
+		}
+		window.close();   // a tab the game opened closes itself; any other shows how to go back
+		setTimeout(function () { help.hidden = false; }, 300);
+	});
+}());
+</script>
+</body>
+</html>

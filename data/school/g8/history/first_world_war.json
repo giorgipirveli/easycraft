@@ -1,0 +1,360 @@
+{
+	"id": "g8.history.first_world_war",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met the Ottoman Empire. When did its last sultan leave? (In 1922, just after the First World War.) Today: why that war began in 1914, life at home, and why we remember."
+		},
+		{
+			"text": "Historians name four long-term causes, MAIN for short. Militarism: big armies and navies. Alliances: promises to fight for each other. Imperialism: rivalry over empires. Nationalism: pride that turned against neighbours.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"long-term cause"
+					],
+					[
+						"M",
+						"militarism"
+					],
+					[
+						"A",
+						"alliances"
+					],
+					[
+						"I",
+						"imperialism"
+					],
+					[
+						"N",
+						"nationalism"
+					]
+				]
+			}
+		},
+		{
+			"text": "On 28 June 1914 Archduke Franz Ferdinand, heir to Austria-Hungary's throne, was assassinated in Sarajevo. Austria-Hungary attacked Serbia, and within weeks the alliances pulled in Russia, Germany, France and Britain.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1914,
+				"to": 1919,
+				"step": 1,
+				"events": [
+					[
+						1914,
+						"war begins"
+					],
+					[
+						1916,
+						"the Somme"
+					],
+					[
+						1917,
+						"USA joins"
+					],
+					[
+						1918,
+						"Armistice"
+					],
+					[
+						1919,
+						"peace treaty"
+					]
+				]
+			}
+		},
+		{
+			"text": "The Allies (Britain, France, Russia, later Italy and the USA) fought the Central Powers (Germany, Austria-Hungary, the Ottoman Empire and Bulgaria). Soldiers came from around the world: about 1.5 million from India alone.",
+			"picture": {
+				"kind": "voyage_map",
+				"window": {
+					"lat": [
+						35,
+						60
+					],
+					"long": [
+						-10,
+						40
+					]
+				},
+				"lat_step": 10,
+				"long_step": 15,
+				"places": [
+					{
+						"lat": 50,
+						"long": 2,
+						"label": "the Somme"
+					},
+					{
+						"lat": 52,
+						"long": 13,
+						"label": "Berlin"
+					},
+					{
+						"lat": 44,
+						"long": 18,
+						"label": "Sarajevo"
+					},
+					{
+						"lat": 40,
+						"long": 26,
+						"label": "Gallipoli"
+					}
+				]
+			}
+		},
+		{
+			"text": "In France and Belgium the armies dug trenches from the coast to Switzerland, and for years neither side could break through. Soldiers lived with mud, rats, cold and constant danger. At the Somme in 1916, over a million men were wounded or lost their lives."
+		},
+		{
+			"text": "At home, women took over jobs in factories, on buses and on farms; many made shells. Food ran short, and rationing began in 1918. Zeppelin airships raided British towns. From 1916 men aged 18 to 41 could be called up to fight: conscription."
+		},
+		{
+			"text": "The guns stopped at 11 am on 11 November 1918: the Armistice. About 9 million soldiers had died. Every year people wear poppies, which grew on the battlefields, and keep two minutes' silence to remember all who died in wars."
+		},
+		{
+			"text": "Try it in the world: read Marie Curie's story in Success Stories, on the Story Shelf: her X-ray cars helped doctors in this war. Then plant a quiet garden of red flowers in your world. Next: the Second World War."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Whose assassination in 1914 set off the war?",
+			"choices": [
+				"Queen Victoria's",
+				"Archduke Franz Ferdinand's",
+				"Gandhi's",
+				"Napoleon's"
+			],
+			"answer": 1,
+			"hint": "He was the heir to Austria-Hungary's throne.",
+			"explain": "Archduke Franz Ferdinand's, in Sarajevo on 28 June 1914."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "In which year did the First World War end with the Armistice?",
+			"answer": "1918",
+			"hint": "The war lasted just over four years from 1914.",
+			"explain": "On 11 November 1918.",
+			"year": true
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "People wear poppies to remember those who died in wars.",
+			"answer": true,
+			"hint": "Think why poppies, which grew on the battlefields, were chosen.",
+			"explain": "True: poppies grew on the battlefields of France and Belgium and became a sign of remembrance."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each letter of MAIN to its cause.",
+			"items": [
+				"M",
+				"A",
+				"I",
+				"N"
+			],
+			"matches": [
+				"nationalism",
+				"alliances",
+				"imperialism",
+				"militarism"
+			],
+			"answer": [
+				3,
+				1,
+				2,
+				0
+			],
+			"hint": "Each letter is the first letter of its word.",
+			"explain": "M militarism, A alliances, I imperialism, N nationalism."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these into the two sides of 1914.",
+			"groups": [
+				"the Allies",
+				"the Central Powers"
+			],
+			"items": [
+				"Russia",
+				"Britain",
+				"France",
+				"Austria-Hungary",
+				"Germany",
+				"the Ottoman Empire"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Remember the two alliances that went to war in 1914.",
+			"explain": "The Allies: Britain, France, Russia. The Central Powers: Germany, Austria-Hungary, the Ottoman Empire."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, earliest first.",
+			"items": [
+				"Franz Ferdinand is assassinated (June 1914)",
+				"the Battle of the Somme (1916)",
+				"the war begins (August 1914)",
+				"the Armistice (November 1918)",
+				"the USA joins the war (1917)"
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				4,
+				3
+			],
+			"hint": "Compare the years, then the months.",
+			"explain": "June 1914, August 1914, 1916, 1917, November 1918."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What was life like in the trenches?",
+			"choices": [
+				"safe from all danger",
+				"like a holiday camp",
+				"muddy, cold and dangerous",
+				"warm and comfortable"
+			],
+			"answer": 2,
+			"hint": "Think of what the lesson says soldiers lived with.",
+			"explain": "Muddy, cold, crowded and dangerous, often for weeks at a time."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The war began in 1914 and the Armistice came in 1918. How many years apart are those years?",
+			"answer": "4",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1918 − 1914 = 4 years (the war lasted just over four)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What work did many women do during the war?",
+			"choices": [
+				"only in schools",
+				"only at home",
+				"none at all",
+				"factories, buses and farms"
+			],
+			"answer": 3,
+			"hint": "Who did the work when millions of men went to fight?",
+			"explain": "They took over many jobs, from making shells to driving buses and farming."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Conscription in 1916 called up men aged 18 to 41. How many different ages is that, counting both ends?",
+			"answer": "24",
+			"hint": "Count from 18 to 41, including both.",
+			"explain": "41 − 18 + 1 = 24 ages."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did a quarrel between Austria-Hungary and Serbia become a world war?",
+			"choices": [
+				"Serbia was the largest empire",
+				"everyone wanted a war in Africa",
+				"the weather was bad",
+				"alliances pulled in other countries"
+			],
+			"answer": 3,
+			"hint": "Think of the A in MAIN.",
+			"explain": "Alliances: Russia backed Serbia, Germany backed Austria-Hungary, then France and Britain joined in."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Soldiers from India, Africa, the Caribbean, Canada and Australia fought in the war.",
+			"answer": true,
+			"hint": "Think of the empires and how far they reached.",
+			"explain": "True: it was a world war; about 1.5 million Indians served, and soldiers came from every continent."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Battle of the Somme lasted from 1 July to 18 November 1916. How many days is that, counting both ends? (July and August have 31 days, September 30, October 31.)",
+			"answer": "141",
+			"hint": "Add the days month by month, then the days of November.",
+			"explain": "31 + 31 + 30 + 31 + 18 = 141 days."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do we remember the war every November?",
+			"choices": [
+				"because shops are shut",
+				"to celebrate fighting",
+				"to choose new soldiers",
+				"to honour those who died and to work for peace"
+			],
+			"answer": 3,
+			"hint": "Think about what the two minutes' silence is for.",
+			"explain": "To remember and honour all who died, and to remind us why peace matters."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the causes and the start of the war in order.",
+			"items": [
+				"alliances are made",
+				"Britain joins the war",
+				"Franz Ferdinand is assassinated",
+				"rivalry over empires and armies grows",
+				"Austria-Hungary attacks Serbia"
+			],
+			"answer": [
+				3,
+				0,
+				2,
+				4,
+				1
+			],
+			"hint": "Long-term causes first, then the trigger, then the chain of events.",
+			"explain": "Long-term rivalry and alliances, then the assassination (28 June), the attack on Serbia (28 July), Britain joins (4 August 1914)."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.ww1_sides",
+			"level": 1
+		},
+		{
+			"gen": "g8h.ww1_sides",
+			"level": 2
+		},
+		{
+			"gen": "g8h.ww1_sides",
+			"level": 3
+		},
+		{
+			"gen": "g8h.modern_years",
+			"level": 1
+		},
+		{
+			"gen": "g8h.modern_years",
+			"level": 2
+		},
+		{
+			"gen": "g8h.modern_years",
+			"level": 3
+		}
+	]
+}

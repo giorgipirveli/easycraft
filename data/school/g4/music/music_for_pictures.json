@@ -1,0 +1,477 @@
+{
+	"id": "g4.music.music_for_pictures",
+	"lesson": [
+		{
+			"text": "Quick memory: what are the oldest instruments ever found made from? (Bird bones and mammoth ivory.) Today: music for films and games."
+		},
+		{
+			"text": "Films and games use music, called a score, to set the mood: happy, scary, sad or exciting. Watch an exciting scene with the sound off: it isn't nearly as exciting!",
+			"picture": {
+				"kind": "film_strip",
+				"frames": [
+					"chase",
+					"sunrise",
+					"storm"
+				],
+				"captions": [
+					"exciting",
+					"calm",
+					"scary"
+				]
+			}
+		},
+		{
+			"text": "The first films had no recorded sound. Until the late 1920s, a pianist or an orchestra played live music in the cinema. The music matched what was on the screen."
+		},
+		{
+			"text": "Composers set the mood with music's building blocks: fast music feels exciting, slow music calm or sad; low notes feel big or dangerous, high notes light or magical. Listen: something is coming…",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3:2",
+					"C#3:2",
+					"D3:2",
+					"D#3:2",
+					"E3",
+					"F3",
+					"F#3",
+					"G3"
+				],
+				"beat": 0.35
+			}
+		},
+		{
+			"text": "Music in a major key often sounds bright and happy; a minor key often sounds darker or sadder. Listen: the same little tune, first bright, then dark.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C4:2",
+					"-",
+					"C4",
+					"Eb4",
+					"G4",
+					"Eb4",
+					"C4:2"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"text": "A leitmotif is a short tune that belongs to a character: whenever the hero appears, the hero's tune comes back. Richard Wagner used leitmotifs in his operas over 150 years ago.",
+			"picture": {
+				"kind": "film_strip",
+				"frames": [
+					"hero",
+					"villain"
+				],
+				"captions": [
+					"hero's tune",
+					"villain's tune"
+				]
+			}
+		},
+		{
+			"text": "Game music changes with what you do: calm while you explore, faster when danger is near. It loops smoothly, so it never stops. In this game, many worlds have day music and night music.",
+			"picture": {
+				"kind": "tracks",
+				"bars": 8,
+				"tracks": [
+					[
+						"explore",
+						[
+							[
+								0,
+								4
+							]
+						]
+					],
+					[
+						"danger",
+						[
+							[
+								4,
+								4
+							]
+						]
+					]
+				],
+				"loop": [
+					0,
+					4
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: play in your world with the music on, then with it off. How does each place feel? Hum your own tune for your favourite place."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does music in a film mostly do?",
+			"answer": 0,
+			"hint": "Think of an exciting scene with the sound off.",
+			"choices": [
+				"sets the mood",
+				"tells you the time",
+				"makes the picture sharper",
+				"counts the minutes"
+			],
+			"explain": "Film music sets the mood: happy, scary, sad or exciting."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Which scene fits this music best?",
+			"answer": 0,
+			"hint": "Is it fast or slow? High or low? Bright or dark?",
+			"choices": [
+				"a birthday party",
+				"a monster creeping",
+				"a sad goodbye",
+				"a dark cave"
+			],
+			"explain": "Quick, bright notes that bounce up and down: a party.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"C5",
+					"G4",
+					"E4",
+					"C4:2"
+				],
+				"beat": 0.25
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Which scene fits this music best?",
+			"answer": 0,
+			"hint": "Is it fast or slow? High or low? Bright or dark?",
+			"choices": [
+				"a dark cave",
+				"a birthday party",
+				"a funny chase",
+				"a sunny beach"
+			],
+			"explain": "Slow, low, dark notes: a dark, mysterious cave.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3:4",
+					"G2:4",
+					"Ab2:4",
+					"G2:4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The first films had music played live in the cinema.",
+			"answer": true,
+			"hint": "Could the first films play recorded sound?",
+			"explain": "True: a pianist or an orchestra played along, live."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each scene to music that fits it.",
+			"items": [
+				"a chase",
+				"falling asleep",
+				"a monster creeps up",
+				"a party"
+			],
+			"matches": [
+				"slow and soft",
+				"low notes, slowly louder",
+				"bouncy and bright",
+				"fast and loud"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "How would each scene feel?",
+			"explain": "Chase: fast and loud. Sleep: slow and soft. Monster: low, growing louder. Party: bouncy and bright."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. The same tune plays twice. How does the second one change?",
+			"answer": 0,
+			"hint": "Listen to the middle note of each: is it the same?",
+			"choices": [
+				"it sounds darker: a minor key",
+				"it gets faster",
+				"it gets higher",
+				"nothing changes"
+			],
+			"explain": "The second time, the middle note is lower (E flat, not E): a minor key, which sounds darker.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C4:2",
+					"-",
+					"C4",
+					"Eb4",
+					"G4",
+					"Eb4",
+					"C4:2"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a leitmotif?",
+			"answer": 0,
+			"hint": "Remember the hero.",
+			"choices": [
+				"a tune that belongs to a character",
+				"the loudest note",
+				"a silent film",
+				"a kind of drum"
+			],
+			"explain": "A leitmotif is a short tune for a character; it comes back whenever they appear."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which scene fits this music best?",
+			"answer": 0,
+			"hint": "Is it fast or slow?",
+			"choices": [
+				"a chase",
+				"a lullaby",
+				"a calm lake",
+				"falling asleep"
+			],
+			"explain": "Very fast notes rushing up and down: a chase.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"F4",
+					"G4",
+					"A4",
+					"B4",
+					"C5",
+					"B4",
+					"A4",
+					"G4",
+					"F4",
+					"E4",
+					"D4",
+					"C4:2"
+				],
+				"beat": 0.15
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: do they make a scene feel scary or calm?",
+			"groups": [
+				"scary",
+				"calm"
+			],
+			"items": [
+				"low notes creeping up",
+				"sudden loud crashes",
+				"silence, then a bang",
+				"soft, slow high notes",
+				"gentle, even waves of sound",
+				"a slow lullaby"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Would it make you jump, or relax?",
+			"explain": "Scary: creeping low notes, crashes, silence then a bang. Calm: soft high notes, gentle waves, a lullaby."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Game music often loops, so it can play for as long as you play.",
+			"answer": true,
+			"hint": "Does a game know how long you will play?",
+			"explain": "True: it loops smoothly, so it never runs out."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. How does this music make you feel that something is coming?",
+			"answer": 0,
+			"hint": "Listen to where the notes go and how long each one lasts.",
+			"choices": [
+				"the notes creep higher and get quicker",
+				"the notes stay the same",
+				"it stops at once",
+				"it gets slower and softer"
+			],
+			"explain": "The notes creep up, a little at a time, and get quicker: the tension grows.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3:2",
+					"C#3:2",
+					"D3:2",
+					"D#3:2",
+					"E3",
+					"F3",
+					"F#3",
+					"G3"
+				],
+				"beat": 0.35
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Before the late 1920s, how did films have music?",
+			"answer": 0,
+			"hint": "Remember the lesson card.",
+			"choices": [
+				"musicians played live in the cinema",
+				"it was recorded on the film",
+				"phones played it",
+				"there was never any music"
+			],
+			"explain": "The films had no sound, so musicians played live in the cinema."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A game's music loop lasts 30 seconds. How many times does it play in 5 minutes?",
+			"answer": "10",
+			"hint": "How many seconds are in 5 minutes?",
+			"explain": "5 minutes = 5 × 60 = 300 seconds. 300 ÷ 30 = 10 times."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why might a game's music change when danger is near?",
+			"answer": 0,
+			"hint": "What does music do to the mood?",
+			"choices": [
+				"to help you feel the danger",
+				"to save the battery",
+				"to end the game",
+				"because the clock changed"
+			],
+			"explain": "Music sets the mood, so faster, darker music helps you feel the danger."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which feeling fits this music best?",
+			"answer": 0,
+			"hint": "Is it fast or slow? Does it go up or down?",
+			"choices": [
+				"sad",
+				"excited",
+				"silly",
+				"angry"
+			],
+			"explain": "Slow notes falling down, in a minor key: sad.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4:2",
+					"D4:2",
+					"C4:2",
+					"B3:2",
+					"A3:4"
+				],
+				"beat": 0.5
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Low, slow notes usually make a scene feel light and funny.",
+			"answer": false,
+			"hint": "Think of the dark cave.",
+			"explain": "False: low, slow notes usually feel big, dark or dangerous."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in time order, oldest first.",
+			"items": [
+				"game music that changes as you play",
+				"a pianist playing live in a cinema",
+				"Wagner's leitmotifs"
+			],
+			"answer": [
+				2,
+				1,
+				0
+			],
+			"hint": "Wagner lived over 150 years ago; the first films came later.",
+			"explain": "Wagner's leitmotifs came first, then live music in silent cinemas, then game music."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the game music: does it fit exploring, or danger?",
+			"groups": [
+				"exploring",
+				"danger"
+			],
+			"items": [
+				"calm and slow",
+				"fast, pounding drums",
+				"a gentle flute",
+				"low, rumbling notes",
+				"soft birdsong",
+				"a tune rising and speeding up"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Calm music for wandering; fast, low or rising music when danger is near.",
+			"explain": "Exploring: calm and slow, a gentle flute, soft birdsong. Danger: fast drums, low rumbling notes, and a tune that rises and speeds up as something comes closer."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A game's day music lasts 2 minutes and its night music 3 minutes. Each loops. You play 6 minutes by day and 9 minutes by night. How many loops play in all?",
+			"answer": "6",
+			"hint": "Work out the day loops and the night loops, then add them.",
+			"explain": "By day: 6 ÷ 2 = 3 loops. By night: 9 ÷ 3 = 3 loops. In all: 3 + 3 = 6 loops."
+		}
+	],
+	"generators": []
+}

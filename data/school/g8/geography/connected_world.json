@@ -1,0 +1,379 @@
+{
+	"id": "g8.geography.connected_world",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met trade links. What is an import? (Something a country buys from another country.) Today: globalisation: how trade, travel and communication join the world together."
+		},
+		{
+			"text": "Globalisation means the world's places becoming more connected: goods, money, people, ideas and information moving faster and further. Your clothes, your phone and your breakfast may come from a dozen countries."
+		},
+		{
+			"text": "A country's exports are what it sells abroad; imports are what it buys. Exports minus imports is the trade balance: a surplus when exports are bigger, a deficit when imports are. Countries trade because each makes some things best.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"Country A",
+						"Country B"
+					],
+					[
+						"exports",
+						"500",
+						"600"
+					],
+					[
+						"imports",
+						"420",
+						"750"
+					],
+					[
+						"balance",
+						"+80 surplus",
+						"−150 deficit"
+					]
+				]
+			}
+		},
+		{
+			"text": "Many products are made in a supply chain across countries. A T-shirt's cotton may be grown in one country and spun and woven in another. It may be sewn in a third and sold in a fourth.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"cotton grown",
+					"spun into yarn",
+					"woven into cloth",
+					"sewn",
+					"shipped",
+					"sold"
+				],
+				"title": "A T-shirt's supply chain"
+			}
+		},
+		{
+			"text": "About 80% of goods traded by weight go by sea. The steel shipping container (1956) made loading quick and cheap, and the biggest ships now carry over 20,000. Busy routes pass through the Suez and Panama Canals.",
+			"picture": {
+				"kind": "voyage_map",
+				"lat_step": 30,
+				"long_step": 60,
+				"routes": [
+					{
+						"name": "Asia-Europe",
+						"points": [
+							[
+								31,
+								122
+							],
+							[
+								1,
+								104
+							],
+							[
+								12,
+								45
+							],
+							[
+								30,
+								32
+							],
+							[
+								36,
+								0
+							],
+							[
+								52,
+								4
+							]
+						]
+					},
+					{
+						"name": "trans-Pacific",
+						"points": [
+							[
+								31,
+								122
+							],
+							[
+								34,
+								-118
+							]
+						]
+					}
+				],
+				"places": [
+					{
+						"lat": 31,
+						"long": 122,
+						"label": "Shanghai"
+					},
+					{
+						"lat": 52,
+						"long": 4,
+						"label": "Rotterdam"
+					},
+					{
+						"lat": 34,
+						"long": -118,
+						"label": "Los Angeles"
+					}
+				]
+			}
+		},
+		{
+			"text": "Undersea cables carry almost all internet traffic between continents, with satellites helping. Flights link cities in hours. Video calls and online shops let people work, learn and buy across the world."
+		},
+		{
+			"text": "Globalisation brings cheaper goods, jobs and new foods and ideas. But some workers lose jobs when factories move, some earn very little in poor conditions, and long journeys add pollution. Fair trade aims to pay farmers and workers fairly."
+		},
+		{
+			"text": "Try it in the world: trade with a friend's village. Find something each of you makes best, agree a fair swap, and follow your goods' journey. Next: energy for the world."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an export?",
+			"choices": [
+				"something a country buys",
+				"a kind of ship",
+				"something a country sells abroad",
+				"a tax"
+			],
+			"answer": 2,
+			"hint": "'Ex' means out: which way do the goods go?",
+			"explain": "An export is something a country sells to other countries."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A country exports 500 million gold of goods and imports 420 million. What is its trade balance, in million gold?",
+			"answer": "80",
+			"hint": "Take the imports from the exports.",
+			"explain": "500 − 420 = 80 million gold: a surplus."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "About 80% of the goods traded by weight go by sea.",
+			"answer": true,
+			"hint": "Look back at the card about container ships.",
+			"explain": "True: ships carry most of the world's goods by weight."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does globalisation mean?",
+			"choices": [
+				"travelling only by plane",
+				"the world getting bigger",
+				"fewer countries",
+				"places becoming more connected"
+			],
+			"answer": 3,
+			"hint": "Think of goods, people and ideas moving between places.",
+			"explain": "The world's places becoming more connected by trade, travel and communication."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the making of a T-shirt in order.",
+			"items": [
+				"it is spun into yarn",
+				"cotton is grown",
+				"it is sold in a shop",
+				"the shirt is sewn",
+				"it is woven into cloth"
+			],
+			"answer": [
+				1,
+				0,
+				4,
+				3,
+				2
+			],
+			"hint": "Start in the field and end in the shop.",
+			"explain": "Grown, spun, woven, sewn, then sold."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: goods, people or information on the move?",
+			"groups": [
+				"goods",
+				"people",
+				"information"
+			],
+			"items": [
+				"container ships",
+				"a lorry of fruit",
+				"emails through cables",
+				"students studying abroad",
+				"a video call",
+				"tourists flying abroad"
+			],
+			"answer": [
+				0,
+				0,
+				2,
+				1,
+				2,
+				1
+			],
+			"hint": "What is actually travelling: things, people, or data?",
+			"explain": "Goods: ships, a lorry of fruit. People: tourists, students. Information: video calls, emails."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A country imports 750 million gold of goods and exports 600 million. What is its deficit, in million gold?",
+			"answer": "150",
+			"hint": "Take the smaller amount from the bigger one.",
+			"explain": "750 − 600 = 150 million gold."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each link to what it carries.",
+			"items": [
+				"undersea cables",
+				"container ships",
+				"aeroplanes",
+				"pipelines"
+			],
+			"matches": [
+				"goods",
+				"oil and gas",
+				"people and post",
+				"internet data"
+			],
+			"answer": [
+				3,
+				0,
+				2,
+				1
+			],
+			"hint": "Data, boxes, passengers and fuel.",
+			"explain": "Cables: data. Ships: goods. Aeroplanes: people and post. Pipelines: oil and gas."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why was the shipping container so important?",
+			"choices": [
+				"it was made of gold",
+				"it carried only people",
+				"it made loading quick and cheap",
+				"it floated on its own"
+			],
+			"answer": 2,
+			"hint": "Think how long loading a ship took box by box and sack by sack.",
+			"explain": "Standard containers move straight from ship to train or lorry, so loading is fast and cheap."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Undersea cables carry almost all the internet's traffic between continents.",
+			"answer": true,
+			"hint": "Look back at the card about communication.",
+			"explain": "True: satellites help, but cables carry almost all of it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is a downside of globalisation for some people?",
+			"choices": [
+				"faster messages",
+				"jobs lost when factories move abroad",
+				"cheaper goods",
+				"new foods to try"
+			],
+			"answer": 1,
+			"hint": "Think of the workers in a town whose factory closes.",
+			"explain": "When a factory moves to where costs are lower, the workers left behind can lose their jobs."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: a benefit of globalisation, or a cost?",
+			"groups": [
+				"benefit",
+				"cost"
+			],
+			"items": [
+				"foods from around the world",
+				"local shops closing",
+				"pollution from long journeys",
+				"very low pay in some factories",
+				"cheaper clothes",
+				"new jobs in factories abroad"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Who gains, and who loses, from each?",
+			"explain": "Benefits: cheaper clothes, new jobs, foods from everywhere. Costs: pollution, very low pay, shops closing."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A ship carries 20,000 containers. A train takes 100 containers. How many trains would move the whole load?",
+			"answer": "200",
+			"hint": "Divide the containers by what one train takes.",
+			"explain": "20,000 ÷ 100 = 200 trains."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What does fair trade try to do?",
+			"choices": [
+				"pay farmers and workers a fair price",
+				"make goods cost nothing",
+				"sell only to rich countries",
+				"stop all trade"
+			],
+			"answer": 0,
+			"hint": "Think who grows the cocoa and coffee, and what they earn.",
+			"explain": "It agrees a fair, steady price and decent conditions for farmers and workers."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Every country makes everything it needs by itself.",
+			"answer": false,
+			"hint": "Think of coffee in Britain or oil in Japan.",
+			"explain": "False: countries trade because none can make everything well; they depend on each other."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.trade_balance",
+			"level": 1
+		},
+		{
+			"gen": "g8h.trade_balance",
+			"level": 2
+		},
+		{
+			"gen": "g8h.trade_balance",
+			"level": 3
+		},
+		{
+			"gen": "g8h.supply_chain",
+			"level": 1
+		},
+		{
+			"gen": "g8h.supply_chain",
+			"level": 2
+		},
+		{
+			"gen": "g8h.supply_chain",
+			"level": 3
+		}
+	]
+}

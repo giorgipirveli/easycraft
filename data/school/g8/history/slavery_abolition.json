@@ -1,0 +1,403 @@
+{
+	"id": "g8.history.slavery_abolition",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met the Columbian exchange. Which crop was brought to the Americas and grown on big farms called plantations? (Sugar cane.) Today: the transatlantic slave trade, told truthfully and with care, and the people who fought to end it."
+		},
+		{
+			"text": "Slavery, owning people as property, existed in many societies in history. From the 1500s to the 1800s, European traders forced about 12.5 million Africans onto ships to the Americas. It was one of history's greatest crimes against humanity."
+		},
+		{
+			"text": "Ships sailed a triangle: goods from Europe to West Africa; captive Africans across the Atlantic, the Middle Passage, packed into ships for weeks; then sugar, cotton and tobacco back to Europe. About 10.7 million people survived the crossing.",
+			"picture": {
+				"kind": "voyage_map",
+				"window": {
+					"lat": [
+						-10,
+						60
+					],
+					"long": [
+						-90,
+						20
+					]
+				},
+				"lat_step": 20,
+				"long_step": 30,
+				"routes": [
+					{
+						"name": "Europe-Africa",
+						"points": [
+							[
+								53,
+								-3
+							],
+							[
+								30,
+								-15
+							],
+							[
+								6,
+								1
+							]
+						]
+					},
+					{
+						"name": "Middle Passage",
+						"points": [
+							[
+								6,
+								1
+							],
+							[
+								6,
+								-30
+							],
+							[
+								18,
+								-76
+							]
+						]
+					},
+					{
+						"name": "back to Europe",
+						"points": [
+							[
+								18,
+								-76
+							],
+							[
+								36,
+								-50
+							],
+							[
+								53,
+								-3
+							]
+						]
+					}
+				],
+				"places": [
+					{
+						"lat": 53,
+						"long": -3,
+						"label": "Liverpool"
+					},
+					{
+						"lat": 6,
+						"long": 1,
+						"label": "West Africa"
+					},
+					{
+						"lat": 18,
+						"long": -77,
+						"label": "Jamaica"
+					}
+				]
+			}
+		},
+		{
+			"text": "Enslaved Africans were forced to work without pay on plantations, growing sugar, cotton and tobacco. Families were split up and people were treated as property. Profits from slavery helped build ports such as Liverpool and Bristol, and fed Britain's factories."
+		},
+		{
+			"text": "Enslaved people resisted in every way they could: working slowly, keeping their languages, music and faiths, escaping, and rising up. Nanny of the Maroons led free communities in Jamaica's hills; in 1831 Samuel Sharpe led a great strike and rising there."
+		},
+		{
+			"text": "In Britain, Olaudah Equiano, who had been enslaved, told his life story in a book in 1789. Thomas Clarkson gathered evidence, William Wilberforce spoke in Parliament, petitions filled the halls, and about 300,000 families refused slave-grown sugar."
+		},
+		{
+			"text": "Britain banned its slave trade in 1807 and slavery in most colonies in 1834; the government paid the enslavers, not the enslaved. Haiti had won freedom in 1804; the USA ended slavery in 1865 and Brazil in 1888. 23 August is a day to remember.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1780,
+				"to": 1900,
+				"step": 20,
+				"events": [
+					[
+						1791,
+						"Haiti rising"
+					],
+					[
+						1807,
+						"British trade banned"
+					],
+					[
+						1834,
+						"British colonies"
+					],
+					[
+						1865,
+						"USA"
+					],
+					[
+						1888,
+						"Brazil"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a memorial garden in your village. Add a sign about someone who fought slavery, such as Equiano, Nanny of the Maroons or Samuel Sharpe, and what they did. Next: empires and independence."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What was the Middle Passage?",
+			"choices": [
+				"the forced voyage of Africans to the Americas",
+				"a road through Europe",
+				"a trade in spices",
+				"a canal in England"
+			],
+			"answer": 0,
+			"hint": "Think of the middle side of the triangle.",
+			"explain": "The forced voyage of captive Africans across the Atlantic, the triangle's middle leg."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "About how many million Africans were forced onto ships to the Americas in the transatlantic slave trade?",
+			"answer": "12.5",
+			"hint": "Look back at the lesson's second card: it is between 12 and 13 million.",
+			"explain": "About 12.5 million people, from the 1500s to the 1800s."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Enslaved people never resisted.",
+			"answer": false,
+			"hint": "Think of Nanny of the Maroons and Samuel Sharpe.",
+			"explain": "False: they resisted in many ways, from keeping their culture to escaping and rising up."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who wrote his life story in 1789 to show the truth of slavery?",
+			"choices": [
+				"James Watt",
+				"Olaudah Equiano",
+				"John Locke",
+				"William Wilberforce"
+			],
+			"answer": 1,
+			"hint": "He had himself been enslaved as a boy.",
+			"explain": "Olaudah Equiano, whose book helped the campaign to end the trade."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the three legs of the triangular trade in order, starting from Europe.",
+			"items": [
+				"Europe to West Africa",
+				"the Americas to Europe",
+				"West Africa to the Americas"
+			],
+			"answer": [
+				0,
+				2,
+				1
+			],
+			"hint": "Follow the triangle round: goods, people, crops.",
+			"explain": "Europe to West Africa, the Middle Passage to the Americas, then back to Europe."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: carried from Europe to Africa, or from the Americas to Europe?",
+			"groups": [
+				"Europe to Africa",
+				"the Americas to Europe"
+			],
+			"items": [
+				"metal goods",
+				"tobacco",
+				"cotton",
+				"sugar",
+				"cloth",
+				"glass beads"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Factory goods went one way; plantation crops came back the other.",
+			"explain": "Europe to Africa: cloth, metal goods, glass beads. The Americas to Europe: sugar, cotton, tobacco."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Britain banned its slave trade in 1807 and slavery in most colonies in 1834. How many years apart?",
+			"answer": "27",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1834 − 1807 = 27 years."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each person to what they did.",
+			"items": [
+				"Olaudah Equiano",
+				"William Wilberforce",
+				"Thomas Clarkson",
+				"Samuel Sharpe"
+			],
+			"matches": [
+				"led a rising in Jamaica",
+				"gathered evidence",
+				"spoke in Parliament",
+				"wrote his life story"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "A writer, a member of Parliament, a researcher and a leader of the enslaved.",
+			"explain": "Equiano: his life story. Wilberforce: Parliament. Clarkson: evidence. Sharpe: the 1831 rising in Jamaica."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why did about 300,000 families stop buying sugar?",
+			"choices": [
+				"it was bad for teeth",
+				"it was grown by enslaved people",
+				"the shops ran out",
+				"it cost too much"
+			],
+			"answer": 1,
+			"hint": "Think about how a boycott puts pressure on a trade.",
+			"explain": "It was slave-grown: refusing it hit the profits of slavery and showed how many cared."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When slavery ended in British colonies, the freed people were paid for their work.",
+			"answer": false,
+			"hint": "Read again who the government paid.",
+			"explain": "False: the government paid the enslavers for their 'property'; the freed people got nothing."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, earliest first: when slavery ended.",
+			"items": [
+				"Haiti (1804)",
+				"the USA (1865)",
+				"most British colonies (1834)",
+				"Brazil (1888)"
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				3
+			],
+			"hint": "Compare the years.",
+			"explain": "1804, 1834, 1865, 1888."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How did the slave trade help Britain's Industrial Revolution?",
+			"choices": [
+				"its profits paid for ports, banks and mills",
+				"it invented the steam engine",
+				"it ended farming",
+				"it built railways in Africa"
+			],
+			"answer": 0,
+			"hint": "Follow the money made from sugar and cotton.",
+			"explain": "Profits from slavery and slave-grown crops helped build ports such as Liverpool, banks and factories."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "About 12.5 million people were forced onto the ships, and about 10.7 million arrived. About how many million did not survive the crossing?",
+			"answer": "1.8",
+			"hint": "Take the number who arrived from the number who set out.",
+			"explain": "12.5 − 10.7 = 1.8 million people."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do many historians say 'enslaved people' rather than 'slaves'?",
+			"choices": [
+				"they were people first, forced into slavery",
+				"nobody knows",
+				"it was the law",
+				"it is shorter"
+			],
+			"answer": 0,
+			"hint": "Think about what the word 'enslaved' says someone did to them.",
+			"explain": "It reminds us they were people whose freedom was taken by others, not things."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Slavery has ended everywhere and no longer happens.",
+			"answer": false,
+			"hint": "Think about whether laws are always kept.",
+			"explain": "False: it is banned everywhere, but millions are still trapped in forced labour today, and people work to free them."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: resistance by enslaved people, or campaigning in Britain?",
+			"groups": [
+				"resistance",
+				"campaigning in Britain"
+			],
+			"items": [
+				"petitions to Parliament",
+				"the 1831 rising in Jamaica",
+				"refusing slave-grown sugar",
+				"Wilberforce's speeches",
+				"keeping their languages and music",
+				"running away to free communities"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Who acted: the enslaved themselves, or people in Britain?",
+			"explain": "Resistance: running away, keeping their culture, the 1831 rising. Campaigning: the sugar boycott, petitions, Wilberforce's speeches."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.triangle_trade",
+			"level": 1
+		},
+		{
+			"gen": "g8h.triangle_trade",
+			"level": 2
+		},
+		{
+			"gen": "g8h.triangle_trade",
+			"level": 3
+		},
+		{
+			"gen": "g8h.abolition_dates",
+			"level": 1
+		},
+		{
+			"gen": "g8h.abolition_dates",
+			"level": 2
+		},
+		{
+			"gen": "g8h.abolition_dates",
+			"level": 3
+		}
+	]
+}

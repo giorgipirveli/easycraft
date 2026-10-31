@@ -1,0 +1,426 @@
+{
+	"id": "g7.english.write_narrative",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met point of view. Which words does a first-person narrator use? I, me and we."
+		},
+		{
+			"text": "Point of view is who tells the story. In the first person, a character tells it: 'I ran.' In the third person limited, a narrator follows one character's thoughts. In the third person omniscient, the narrator knows everyone's thoughts.",
+			"picture": {
+				"kind": "pov_view",
+				"mode": "omniscient"
+			}
+		},
+		{
+			"text": "Keep your point of view clear. A first-person narrator knows only what they see, hear and think. 'I ran, and Tom secretly felt sorry' breaks the rule: how could I know Tom's secret?",
+			"picture": {
+				"kind": "pov_view",
+				"mode": "first"
+			}
+		},
+		{
+			"text": "A third-person limited narrator is like a camera on one character's shoulder: we hear only her thoughts. An omniscient narrator can visit every mind, which suits big stories with many people.",
+			"picture": {
+				"kind": "pov_view",
+				"mode": "third_limited"
+			}
+		},
+		{
+			"text": "Pacing is how fast a story moves. Slow down at a big moment with short steps and details: 'The door creaked. One step. Another.' Speed up through the dull parts: 'Three days later, we reached the coast.'"
+		},
+		{
+			"text": "Sensory details use all five senses, not just sight. 'The bread was hot' becomes 'The crust crackled, and the smell of warm bread filled the kitchen.'",
+			"picture": {
+				"kind": "marked_text",
+				"lines": [
+					"The crust crackled, and the smell",
+					"of warm bread filled the kitchen."
+				],
+				"marks": [
+					[
+						0,
+						"crackled"
+					],
+					[
+						0,
+						"smell"
+					]
+				],
+				"tags": [
+					"sound",
+					"smell"
+				]
+			}
+		},
+		{
+			"text": "Show, don't tell: 'Her hands shook as she opened the letter' shows that she is nervous instead of telling the reader. Readers enjoy working things out."
+		},
+		{
+			"text": "Try it in the world: write the moment your rocket lifts off in the game, in the first person, slowly, with three senses. Next: in grade 8, the strongest evidence."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which point of view is this? \"I tiptoed past the sleeping dog.\"",
+			"choices": [
+				"first person",
+				"third person limited",
+				"third person omniscient"
+			],
+			"answer": 0,
+			"hint": "Look for I, me or we.",
+			"explain": "First person: the narrator says I."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A first-person narrator can tell us what everyone else is secretly thinking.",
+			"answer": false,
+			"hint": "Can you read other people's minds?",
+			"explain": "False: a first-person narrator knows only their own thoughts and what they see and hear."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each sense to a detail.",
+			"items": [
+				"sight",
+				"sound",
+				"smell",
+				"touch"
+			],
+			"matches": [
+				"the sharp smell of smoke",
+				"the floorboards creaked",
+				"the sky glowed orange",
+				"icy water stung his hands"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "Which part of you would notice each detail?",
+			"explain": "Sight: the glowing sky. Sound: the creaking boards. Smell: the smoke. Touch: the icy water."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sentence shows, rather than tells, that Leo is nervous?",
+			"choices": [
+				"Leo's hands shook as he knocked.",
+				"Leo was nervous.",
+				"Leo felt very nervous indeed."
+			],
+			"answer": 0,
+			"hint": "Showing uses actions the reader can picture.",
+			"explain": "Shaking hands let the reader work out that Leo is nervous."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the lines: first person or third person?",
+			"groups": [
+				"first person",
+				"third person"
+			],
+			"items": [
+				"We hid in the barn.",
+				"I ran to the gate.",
+				"She ran to the gate.",
+				"His hands were cold.",
+				"They hid in the barn.",
+				"My hands were cold."
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				1,
+				0
+			],
+			"hint": "First person uses I, we and my; third person uses he, she and they.",
+			"explain": "First person: I ran, we hid, my hands. Third person: she ran, they hid, his hands."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which point of view does the picture show?",
+			"choices": [
+				"first person",
+				"third person limited",
+				"third person omniscient"
+			],
+			"answer": 0,
+			"hint": "Is there a narrator outside the story, and whose thoughts can we see?",
+			"explain": "Ana tells the story as I, and only her thoughts are open: first person.",
+			"picture": {
+				"kind": "pov_view",
+				"mode": "first",
+				"hide": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which point of view does this picture show?",
+			"choices": [
+				"third person limited",
+				"first person",
+				"third person omniscient"
+			],
+			"answer": 0,
+			"hint": "The narrator stands outside the story: how many minds can it see into?",
+			"explain": "The narrator follows one character and sees only her thoughts: third person limited.",
+			"picture": {
+				"kind": "pov_view",
+				"mode": "third_limited",
+				"hide": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which sentence slows the pace at a big moment?",
+			"choices": [
+				"The door creaked. One step. Another.",
+				"Three days later, we reached the coast.",
+				"We walked for hours and got home."
+			],
+			"answer": 0,
+			"hint": "Slowing down means short steps and small details.",
+			"explain": "Short sentences and tiny steps stretch the moment out."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the lines from the fastest pace to the slowest.",
+			"items": [
+				"Weeks passed.",
+				"I reached for the handle. It was cold.",
+				"We walked all day to the river."
+			],
+			"answer": [
+				0,
+				2,
+				1
+			],
+			"hint": "A fast pace covers lots of time in few words; a slow pace stretches a moment.",
+			"explain": "Weeks in two words is the fastest; a day's walk is in the middle; a second spread over two sentences is the slowest."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In the third person omniscient, the narrator can tell us what several characters think.",
+			"answer": true,
+			"hint": "Omniscient means knowing everything.",
+			"explain": "True: an omniscient narrator can enter every character's mind."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which line breaks a first-person point of view?",
+			"choices": [
+				"I smiled; Tom secretly felt jealous.",
+				"I smiled at Tom.",
+				"Tom looked away from me."
+			],
+			"answer": 0,
+			"hint": "Which line tells us something the narrator could not know?",
+			"explain": "The narrator cannot know Tom's secret feelings, so \"Tom secretly felt jealous\" breaks the point of view."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the details: which sense do they use?",
+			"groups": [
+				"sight",
+				"sound",
+				"smell"
+			],
+			"items": [
+				"the scent of baking bread",
+				"the sharp smell of smoke",
+				"the floorboards creaked",
+				"the sky glowed orange",
+				"a red kite circled overhead",
+				"a bell clanged"
+			],
+			"answer": [
+				2,
+				2,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Eyes, ears or nose?",
+			"explain": "Sight: the kite and the glowing sky. Sound: the bell and the boards. Smell: the bread and the smoke."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each point of view to what the narrator sees.",
+			"items": [
+				"first person",
+				"third person limited",
+				"third person omniscient"
+			],
+			"matches": [
+				"one character's thoughts",
+				"every character's mind",
+				"I and we"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Who tells it, and how many minds can they see?",
+			"explain": "First person: I and we. Third person limited: one character's thoughts. Omniscient: every character's mind."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A story about a whole village in a storm wants many people's fears. Which point of view suits it best?",
+			"choices": [
+				"third person omniscient",
+				"first person",
+				"third person limited"
+			],
+			"answer": 0,
+			"hint": "Which narrator can visit every villager's mind?",
+			"explain": "Omniscient: it can visit every villager's mind and tell each one's fears. A first-person narrator knows only one mind, and so does a limited narrator."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the lines from the plainest to the most vivid.",
+			"items": [
+				"The warm crust crackled under my fingers.",
+				"The bread was nice.",
+				"The bread was warm."
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Vivid writing adds exact senses and actions.",
+			"explain": "\"Nice\" says almost nothing. \"Warm\" adds one sense, touch. The crackling crust under my fingers adds touch and sound, so the reader can feel and hear it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which sense does the first marked detail use?",
+			"choices": [
+				"sound",
+				"sight",
+				"smell"
+			],
+			"answer": 0,
+			"hint": "Would you notice hammering rain with your eyes, your ears or your nose?",
+			"explain": "Rain hammering on a roof is something you hear: sound. The others are touch and taste.",
+			"picture": {
+				"kind": "marked_text",
+				"lines": [
+					"Rain hammered the tin roof.",
+					"Cold drops ran down my neck.",
+					"The air tasted of mud and leaves."
+				],
+				"marks": [
+					[
+						0,
+						"hammered"
+					],
+					[
+						1,
+						"Cold drops"
+					],
+					[
+						2,
+						"tasted"
+					]
+				],
+				"tags": [
+					"?",
+					"touch",
+					"taste"
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each pace to when to use it.",
+			"items": [
+				"slow",
+				"fast",
+				"steady"
+			],
+			"matches": [
+				"days when nothing happens",
+				"a big, tense moment",
+				"everyday action"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Spend words where the reader should feel it.",
+			"explain": "Slow down for big moments, speed up to skip dull days, and keep a steady pace for everyday action."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A story may switch between first and third person every few lines without confusing the reader.",
+			"answer": false,
+			"hint": "Would the reader still know who is telling the story?",
+			"explain": "False: if the story jumps from 'I' to 'she' and back, readers lose track of who is telling it. Choose one point of view and keep it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which opening uses three senses?",
+			"choices": [
+				"Bells rang, smoke stung, ash tasted bitter.",
+				"It was a bad day in the town.",
+				"I saw the smoke over the town."
+			],
+			"answer": 0,
+			"hint": "Count the senses in each: sight, sound, smell, taste and touch.",
+			"explain": "Bells ringing (sound), smoke stinging (touch) and bitter ash (taste): three senses. The other openings use one sense or none."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7k.pov_name",
+			"level": 1
+		},
+		{
+			"gen": "g7k.pov_name",
+			"level": 2
+		},
+		{
+			"gen": "g7k.pov_name",
+			"level": 3
+		},
+		{
+			"gen": "g7k.sense_detail",
+			"level": 1
+		},
+		{
+			"gen": "g7k.sense_detail",
+			"level": 2
+		},
+		{
+			"gen": "g7k.sense_detail",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,265 @@
+{
+	"id": "g5.maths.decimal_place_value",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, powers of ten. What is 34 × 10? 340: every digit moves one place to the left."
+		},
+		{
+			"text": "After the decimal point come tenths, hundredths and thousandths. In 2.358 there are 2 ones, 3 tenths, 5 hundredths and 8 thousandths.",
+			"picture": {
+				"kind": "places",
+				"numbers": [
+					"2.358"
+				]
+			}
+		},
+		{
+			"text": "A thousandth is one of 1,000 equal parts of a whole: 1/1000 = 0.001. Ten thousandths make one hundredth. The dot is at 4 thousandths: 0.004.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "0.01",
+				"step": "0.001",
+				"dot": "0.004",
+				"labels": "ends"
+			}
+		},
+		{
+			"text": "Expanded form shows what each digit is worth: 2.358 = 2 + 0.3 + 0.05 + 0.008, or 2 × 1 + 3 × 1/10 + 5 × 1/100 + 8 × 1/1000. In words: two and three hundred and fifty-eight thousandths."
+		},
+		{
+			"text": "To compare decimals, line up the points and compare place by place from the left. 0.45 and 0.405 have the same tenths, but 5 hundredths is more than 0 hundredths, so 0.45 > 0.405.",
+			"picture": {
+				"kind": "places",
+				"numbers": [
+					"0.45",
+					"0.405"
+				]
+			}
+		},
+		{
+			"text": "To round, look at the next digit: 5 or more rounds up, less than 5 rounds down. 3.267 to the nearest tenth: the next digit is 6, so 3.3. To the nearest hundredth: the next digit is 7, so 3.27.",
+			"picture": {
+				"kind": "number_line",
+				"from": "3.2",
+				"to": "3.3",
+				"step": "0.01",
+				"dot": "3.267",
+				"labels": "ends"
+			}
+		},
+		{
+			"text": "Try it in the world: a block is 1 m, which is 1,000 mm. Write 358 mm in metres: 0.358 m. What is each digit worth? Next: multiplying whole numbers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In 6.418, what is the 1 worth?",
+			"choices": [
+				"0.01",
+				"0.1",
+				"1",
+				"0.001"
+			],
+			"answer": 0,
+			"hint": "Say the places after the point: tenths, hundredths, thousandths.",
+			"explain": "The 1 is in the hundredths place, so it is worth 0.01.",
+			"picture": {
+				"kind": "places",
+				"numbers": [
+					"6.418"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Write 7 thousandths as a decimal.",
+			"answer": "0.007",
+			"hint": "Thousandths are the third place after the point.",
+			"explain": "7 thousandths = 7/1000 = 0.007."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "0.5 and 0.50 are the same number.",
+			"answer": true,
+			"hint": "5 tenths is how many hundredths?",
+			"explain": "5 tenths = 50 hundredths, so 0.5 = 0.50."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What number is at the dot?",
+			"answer": "0.004",
+			"hint": "Each step is one thousandth.",
+			"explain": "4 steps of 0.001 make 0.004.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "0.01",
+				"step": "0.001",
+				"dot": "0.004",
+				"labels": "ends"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is greater: 0.7 or 0.698?",
+			"choices": [
+				"0.7",
+				"0.698",
+				"They are equal"
+			],
+			"answer": 0,
+			"hint": "Compare the tenths first.",
+			"explain": "0.7 has 7 tenths and 0.698 has only 6 tenths, so 0.7 is greater."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Round 4.852 to the nearest tenth.",
+			"answer": "4.9",
+			"hint": "The digit after the tenths is 5: 5 or more rounds up.",
+			"explain": "4.852 is between 4.8 and 4.9. The next digit is 5, so it rounds up to 4.9."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, smallest first.",
+			"items": [
+				"0.35",
+				"0.305",
+				"0.4",
+				"0.053"
+			],
+			"answer": [
+				3,
+				1,
+				0,
+				2
+			],
+			"hint": "Line up the points and compare the tenths first.",
+			"explain": "Smallest first: 0.053, 0.305, 0.35, 0.4."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "2 × 10 + 4 × 1 + 3 × 1/10 + 9 × 1/1000 = ?",
+			"answer": "24.309",
+			"hint": "There are no hundredths: a 0 holds their place.",
+			"explain": "2 tens, 4 ones, 3 tenths, 0 hundredths and 9 thousandths make 24.309."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which number is twelve and forty thousandths?",
+			"choices": [
+				"12.040",
+				"12.4",
+				"12.004",
+				"12.400"
+			],
+			"answer": 0,
+			"hint": "Forty thousandths: the last digit is in the thousandths place.",
+			"explain": "Forty thousandths is 0.040, so the number is 12.040 (the same as 12.04)."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "3.999 rounded to the nearest hundredth is 4.00.",
+			"answer": true,
+			"hint": "The digit after the hundredths is 9, so round up. What comes after 3.99?",
+			"explain": "3.999 is between 3.99 and 4.00, and it rounds up to 4.00."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5n.decimal_digit",
+			"level": 1
+		},
+		{
+			"gen": "g5n.decimal_digit",
+			"level": 2
+		},
+		{
+			"gen": "g5n.decimal_digit",
+			"level": 3
+		},
+		{
+			"gen": "g5n.expanded_decimal",
+			"level": 1
+		},
+		{
+			"gen": "g5n.expanded_decimal",
+			"level": 2
+		},
+		{
+			"gen": "g5n.expanded_decimal",
+			"level": 3
+		},
+		{
+			"gen": "g5n.decimal_words",
+			"level": 1
+		},
+		{
+			"gen": "g5n.decimal_words",
+			"level": 2
+		},
+		{
+			"gen": "g5n.decimal_words",
+			"level": 3
+		},
+		{
+			"gen": "g5n.compare_decimals",
+			"level": 1
+		},
+		{
+			"gen": "g5n.compare_decimals",
+			"level": 2
+		},
+		{
+			"gen": "g5n.compare_decimals",
+			"level": 3
+		},
+		{
+			"gen": "g5n.order_decimals",
+			"level": 1
+		},
+		{
+			"gen": "g5n.order_decimals",
+			"level": 2
+		},
+		{
+			"gen": "g5n.order_decimals",
+			"level": 3
+		},
+		{
+			"gen": "g5n.round_decimal",
+			"level": 1
+		},
+		{
+			"gen": "g5n.round_decimal",
+			"level": 2
+		},
+		{
+			"gen": "g5n.round_decimal",
+			"level": 3
+		},
+		{
+			"gen": "g5n.decimal_on_line",
+			"level": 1
+		},
+		{
+			"gen": "g5n.decimal_on_line",
+			"level": 2
+		},
+		{
+			"gen": "g5n.decimal_on_line",
+			"level": 3
+		}
+	]
+}

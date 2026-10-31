@@ -1,0 +1,308 @@
+{
+	"id": "g5.art.architecture",
+	"lesson": [
+		{
+			"text": "Quick memory: which Greek order has two scrolls at the top? (Ionic.) Today: architecture, the art of designing buildings."
+		},
+		{
+			"text": "An architect designs a building: what it is for, how big it is and what it is made of. They plan how it stays up, and how it looks and feels inside. They draw plans, seen from above, and build models first."
+		},
+		{
+			"text": "The first way across a gap is post and lintel: a beam laid across two posts. Greek temples like the Parthenon are built this way, but a stone beam can crack if the gap is too wide.",
+			"picture": {
+				"kind": "building",
+				"what": "lintel"
+			}
+		},
+		{
+			"text": "The Romans built round arches from wedge-shaped stones. The keystone at the top locks them together, so an arch can cross a wider gap. Rows of arches carried water in aqueducts.",
+			"picture": {
+				"kind": "building",
+				"what": "round_arch"
+			}
+		},
+		{
+			"text": "Worked example: the Pantheon in Rome, about 1,900 years old, has a concrete dome 43 metres across, with a round hole at the top. It is still the biggest dome of concrete without steel inside.",
+			"picture": {
+				"kind": "building",
+				"what": "pantheon"
+			}
+		},
+		{
+			"text": "From the 1100s, pointed arches let Gothic cathedrals grow tall, with huge windows. Much later, steel frames let skyscrapers rise, starting in Chicago in the 1880s.",
+			"picture": {
+				"kind": "building",
+				"what": "cathedral"
+			}
+		},
+		{
+			"text": "Around the world: the Great Pyramid of Giza in Egypt, about 4,500 years old; the Taj Mahal in India, built in the 1600s of white marble; and wooden pagodas in Japan and China.",
+			"picture": {
+				"kind": "building",
+				"what": "taj_mahal"
+			}
+		},
+		{
+			"text": "Try it in the world: design a building in your world. Draw its plan from above first, choose how it stays up (beams, arches or a dome), then build it. Next: still life."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which building is this?",
+			"answer": 0,
+			"hint": "Look for columns and a triangular top.",
+			"choices": [
+				"the Parthenon",
+				"the Taj Mahal",
+				"the Great Pyramid of Giza",
+				"a pagoda"
+			],
+			"explain": "Columns and a triangular pediment: the Parthenon in Athens, Greece.",
+			"picture": {
+				"kind": "building",
+				"what": "parthenon"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the stone at the very top of an arch called?",
+			"answer": 0,
+			"hint": "It locks the other stones in place.",
+			"choices": [
+				"the keystone",
+				"the lintel",
+				"the dome",
+				"the capital"
+			],
+			"explain": "The keystone sits at the top and locks the wedge stones together.",
+			"picture": {
+				"kind": "building",
+				"what": "round_arch"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "An architect is someone who designs buildings.",
+			"answer": true,
+			"hint": "Who draws the plans for a building?",
+			"explain": "True: architects design buildings, from the plan to how they look."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"post and lintel",
+				"arch",
+				"dome",
+				"plan"
+			],
+			"matches": [
+				"a round roof",
+				"a drawing from above",
+				"a beam across two posts",
+				"a curve of wedge stones"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of the pictures in the lesson.",
+			"explain": "Post and lintel is a beam on posts, an arch a curve of wedge stones, a dome a round roof, a plan a view from above."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How does the Pantheon hold up its roof?",
+			"answer": 0,
+			"hint": "Look at the big round shape behind the columns.",
+			"choices": [
+				"with a dome",
+				"with a steel frame",
+				"with a beam across posts",
+				"with pointed arches"
+			],
+			"explain": "The Pantheon's roof is a great concrete dome.",
+			"picture": {
+				"kind": "building",
+				"what": "pantheon"
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these buildings in order, oldest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "About 4,500 years ago, then the 400s BC, then about AD 125, then the 1600s.",
+			"items": [
+				"the Taj Mahal",
+				"the Pantheon",
+				"the Parthenon",
+				"the Great Pyramid of Giza"
+			],
+			"explain": "The Great Pyramid (about 2560 BC), the Parthenon (the 400s BC), the Pantheon (about AD 125), then the Taj Mahal (the 1600s)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why can an arch cross a wider gap than a stone lintel?",
+			"answer": 0,
+			"hint": "What happens to the wedge stones when weight pushes down?",
+			"choices": [
+				"Its wedge stones press on each other and hold",
+				"It is lighter than air",
+				"Arches are made of steel",
+				"It doesn't have to hold anything up"
+			],
+			"explain": "Weight pushes the wedge stones together, so they squeeze and hold instead of bending and cracking like a beam."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Pointed arches helped Gothic cathedrals grow taller, with bigger windows.",
+			"answer": true,
+			"hint": "Think of the cathedral picture.",
+			"explain": "True: pointed arches push down more steeply, so walls could be taller and hold huge windows."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these buildings by how they hold up their roofs.",
+			"groups": [
+				"post and lintel",
+				"arches",
+				"a dome"
+			],
+			"items": [
+				"the Parthenon",
+				"Stonehenge",
+				"a Roman aqueduct",
+				"a Gothic cathedral",
+				"the Pantheon",
+				"the Taj Mahal"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				2,
+				2
+			],
+			"hint": "Beams on posts, curves of stones, or a round roof?",
+			"explain": "The Parthenon and Stonehenge use beams on posts, aqueducts and cathedrals arches, and the Pantheon and the Taj Mahal domes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which country is the Taj Mahal in?",
+			"answer": 0,
+			"hint": "It was built in the 1600s in the city of Agra.",
+			"choices": [
+				"India",
+				"Egypt",
+				"Italy",
+				"Greece"
+			],
+			"explain": "The Taj Mahal is in Agra, India.",
+			"picture": {
+				"kind": "building",
+				"what": "taj_mahal"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Great Pyramid was about 146 m tall when it was built. A model is made at 1 cm for each metre. How tall is the model, in cm?",
+			"answer": "146",
+			"hint": "Each metre of the real pyramid becomes 1 cm.",
+			"explain": "146 m becomes 146 cm: about as tall as a grown-up's shoulder."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What did steel frames make possible?",
+			"answer": 0,
+			"hint": "Which buildings came last, in the 1880s?",
+			"choices": [
+				"very tall skyscrapers",
+				"the first pyramids",
+				"Greek temples",
+				"Roman aqueducts"
+			],
+			"explain": "Steel frames hold up very tall buildings: skyscrapers."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An architect draws a plan. What does it show?",
+			"answer": 0,
+			"hint": "Imagine lifting the roof off and looking down.",
+			"choices": [
+				"the building seen from above",
+				"the building seen from the front",
+				"the building's colours only",
+				"the people inside"
+			],
+			"explain": "A plan shows the building from above: its rooms and walls."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The Great Pyramid of Giza is made of stone blocks piled up, not arches.",
+			"answer": true,
+			"hint": "Look at the steps on its sides.",
+			"explain": "True: it is millions of stone blocks piled up into a pyramid."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each building problem to the answer architects found.",
+			"items": [
+				"cross a wider gap than a beam",
+				"roof a huge round hall",
+				"build tall with big windows",
+				"build a very tall tower"
+			],
+			"matches": [
+				"a steel frame",
+				"pointed Gothic arches",
+				"a round arch with a keystone",
+				"a concrete dome"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Think of the Romans, the Pantheon, Gothic cathedrals and Chicago.",
+			"explain": "A stone beam cracks over a wide gap, so the Romans used round arches locked by a keystone. The Pantheon roofs its round hall with a concrete dome. Pointed arches let Gothic walls rise with huge windows. Steel frames let skyscrapers rise."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.building_facts",
+			"level": 1
+		},
+		{
+			"gen": "g5a.building_facts",
+			"level": 2
+		},
+		{
+			"gen": "g5a.building_facts",
+			"level": 3
+		}
+	]
+}

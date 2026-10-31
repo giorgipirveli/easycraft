@@ -1,0 +1,346 @@
+{
+	"id": "g5.science.conservation",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, particles. What is all matter made of? Particles, too small to see, that are always moving."
+		},
+		{
+			"text": "Mass is the amount of matter in something. We measure it with scales, in grams and kilograms."
+		},
+		{
+			"text": "When matter changes, melts, dissolves or mixes, the total mass stays the same. No matter is made or lost."
+		},
+		{
+			"text": "Melt a 100 g ice cube in a closed bag and you get 100 g of water. The ice changed state, but no matter came in or went out.",
+			"picture": {
+				"kind": "dial_scale",
+				"top": 200,
+				"step": 20,
+				"value": 100,
+				"unit": "g"
+			}
+		},
+		{
+			"text": "Dissolve 10 g of salt in 200 g of water: the salty water has a mass of 210 g, even though you can't see the salt any more.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "200 g water",
+								"size": 200
+							},
+							{
+								"text": "10 g salt",
+								"size": 40
+							}
+						],
+						"total": "210 g"
+					}
+				]
+			}
+		},
+		{
+			"text": "If a gas escapes, like fizz from a drink, the mass seems to drop because some matter left. In a sealed container, it stays the same.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"container",
+						"mass after the fizz"
+					],
+					[
+						"open bottle",
+						"less"
+					],
+					[
+						"sealed bottle",
+						"the same"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: at a Science Lab bench, do \"Melting and freezing\": the ice becomes water and then ice again, the same matter every time. Next: the properties of materials."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When ice melts, its mass stays the same.",
+			"answer": true,
+			"hint": "Is any matter lost?",
+			"explain": "Yes: the water has the same mass as the ice."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do we use to measure mass?",
+			"answer": 0,
+			"hint": "Think of weighing flour.",
+			"choices": [
+				"scales",
+				"a ruler",
+				"a clock",
+				"a thermometer"
+			],
+			"explain": "Scales measure mass, in grams and kilograms."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A 50 g chocolate bar melts. What is the mass of the melted chocolate?",
+			"answer": 0,
+			"hint": "Melting doesn't add or remove matter.",
+			"choices": [
+				"50 g",
+				"0 g",
+				"100 g",
+				"25 g"
+			],
+			"explain": "It is still 50 g: melting keeps the mass."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When sugar dissolves in water, the sugar's mass disappears.",
+			"answer": false,
+			"hint": "Is the sugar still there?",
+			"explain": "No: the sugar is still there, so its mass is still there too."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which unit measures mass?",
+			"answer": 0,
+			"hint": "Which unit would a kitchen scale show when you weigh flour?",
+			"choices": [
+				"grams",
+				"metres",
+				"litres",
+				"degrees"
+			],
+			"explain": "Mass is measured in grams and kilograms."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "20 g of salt is stirred into 300 g of water. What is the mass of the salty water?",
+			"answer": 0,
+			"hint": "Add the two masses.",
+			"choices": [
+				"320 g",
+				"300 g",
+				"20 g",
+				"280 g"
+			],
+			"explain": "300 g + 20 g = 320 g. The salt's mass is still there."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A 200 g snowman melts in a sealed tub. What does the water weigh?",
+			"answer": 0,
+			"hint": "Nothing got in or out.",
+			"choices": [
+				"200 g",
+				"less than 200 g",
+				"more than 200 g"
+			],
+			"explain": "In a sealed tub, the mass stays at 200 g."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "150 g of sand is mixed with 50 g of pebbles. What is the total mass?",
+			"answer": 0,
+			"hint": "Nothing is lost when you mix them. What do you do with the two masses?",
+			"choices": [
+				"200 g",
+				"150 g",
+				"100 g",
+				"50 g"
+			],
+			"explain": "150 g + 50 g = 200 g."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Breaking a 30 g biscuit into crumbs leaves 30 g of crumbs.",
+			"answer": true,
+			"hint": "Did any biscuit go away?",
+			"explain": "Yes: the crumbs still have all of the biscuit's mass."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does an open glass of fizzy drink lose a little mass over time?",
+			"answer": 0,
+			"hint": "Where do the bubbles go?",
+			"choices": [
+				"Gas bubbles escape into the air.",
+				"The glass takes it.",
+				"Mass just vanishes."
+			],
+			"explain": "The gas escapes into the air, taking its mass with it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Vinegar and baking soda fizz inside a sealed bag. Before: 250 g. What is the mass after?",
+			"answer": 0,
+			"hint": "The gas is trapped in the bag.",
+			"choices": [
+				"250 g",
+				"less than 250 g",
+				"more than 250 g"
+			],
+			"explain": "The new gas stays in the sealed bag, so the mass stays at 250 g."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The same fizzing mix in an open cup gets lighter. Why?",
+			"answer": 0,
+			"hint": "Is the cup sealed?",
+			"choices": [
+				"The gas it makes escapes into the air.",
+				"Fizzing destroys matter.",
+				"The cup gets lighter."
+			],
+			"explain": "The gas leaves the open cup, so the scales show less."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A 500 g block of ice melts to water, then the water freezes again. What does it weigh now?",
+			"answer": 0,
+			"hint": "Melting and freezing keep the mass.",
+			"choices": [
+				"500 g",
+				"250 g",
+				"1000 g",
+				"0 g"
+			],
+			"explain": "Still 500 g: no matter was added or lost."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If you dissolve 5 g of sugar in 100 g of water, you can get the sugar back by letting the water dry up.",
+			"answer": true,
+			"hint": "What is left when water dries up?",
+			"explain": "Yes: 5 g of sugar crystals are left behind."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order these from least to most mass.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "The salty water has both.",
+			"items": [
+				"200 g of water",
+				"20 g of salt",
+				"the salt dissolved in the water"
+			],
+			"explain": "20 g, then 200 g, then 220 g of salty water."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "30 g of sugar is stirred into 250 g of water. What is the mass of the sweet water, in grams?",
+			"answer": "280",
+			"hint": "Dissolving keeps all the sugar's mass. Add the two masses.",
+			"explain": "250 + 30 = 280 g: the sugar is still there, only too spread out to see."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the changes: does the total mass stay the same, or does some leave?",
+			"items": [
+				"ice melts in a sealed bag",
+				"a drink fizzes in an open glass",
+				"salt dissolves in water",
+				"a biscuit breaks into crumbs",
+				"steam escapes from a pan"
+			],
+			"groups": [
+				"stays the same",
+				"some leaves"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Ask: can any matter get out, like a gas escaping into the air?",
+			"explain": "Melting in a sealed bag, dissolving and breaking keep all the matter. Fizz and steam escape into the air, taking their mass with them."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each change to what happens to its mass.",
+			"items": [
+				"melting",
+				"dissolving",
+				"fizz escaping"
+			],
+			"matches": [
+				"mass drops, as gas leaves",
+				"mass stays: solid to liquid",
+				"mass stays: it spreads out"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Only one of them lets matter leave.",
+			"explain": "Melting and dissolving keep every bit of matter, so the mass stays. Escaping gas takes matter away."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the changes: melting, dissolving or mixing?",
+			"groups": [
+				"melting",
+				"dissolving",
+				"mixing"
+			],
+			"items": [
+				"ice to water",
+				"salt in water",
+				"sand and pebbles",
+				"butter in a warm pan",
+				"sugar in tea",
+				"nuts and raisins"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Does a solid turn to a liquid, spread through a liquid, or just sit with other things?",
+			"explain": "Melting: ice to water, butter in a warm pan. Dissolving: salt in water, sugar in tea. Mixing: sand and pebbles, nuts and raisins. In all of them, the total mass stays the same."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In a sealed bag, 40 g of baking soda and 160 g of vinegar fizz. Then the bag is opened and 5 g of gas escapes. What mass is left in the bag, in grams?",
+			"answer": "195",
+			"hint": "Sealed, nothing leaves. Once it is open, take away what escaped.",
+			"explain": "Sealed, the mass stays 40 + 160 = 200 g. Once opened, 5 g of gas escapes: 200 − 5 = 195 g. The matter left the bag; it was not destroyed."
+		}
+	]
+}

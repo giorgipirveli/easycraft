@@ -1,0 +1,298 @@
+{
+	"id": "g6.history.aztec_inca",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, how did the Maya write zero? (With a shell.) The Maya lived in southern Mexico and Central America. Today: two later empires of the Americas, the Aztecs and the Incas."
+		},
+		{
+			"text": "About 1325 the Aztecs (the Mexica) founded Tenochtitlan on an island in Lake Texcoco. Causeways joined it to the shore and canals ran through it. By 1500 about 200,000 people lived there: one of the biggest cities in the world.",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1300,
+				"to": 1600,
+				"step": 50,
+				"events": [
+					[
+						1325,
+						"Tenochtitlan founded"
+					],
+					[
+						1438,
+						"Pachacuti's empire"
+					],
+					[
+						1521,
+						"Tenochtitlan falls"
+					]
+				]
+			}
+		},
+		{
+			"text": "To grow food on the lake, they made chinampas, often called floating gardens: plots of mud and plants built up in the shallow water and held by posts and trees. Canals between them watered maize, beans, squash and flowers."
+		},
+		{
+			"text": "Aztec markets used cacao beans as money. Their language, Nahuatl, gave English the words tomato, avocado, chilli and chocolate. They built great temples to their gods of the sun and the rain."
+		},
+		{
+			"text": "The Incas lived high in the Andes mountains of South America. From 1438 Pachacuti built their small kingdom into a huge empire, ruled from the city of Cusco. About 1450 Machu Picchu was built on a mountain ridge."
+		},
+		{
+			"text": "About 40,000 km of Inca roads crossed mountains and deserts, with rope bridges over gorges. Relay runners called chasquis carried messages from one rest house to the next. Farmers cut terraces into hillsides for potatoes and maize."
+		},
+		{
+			"text": "The Incas kept records on a quipu of knotted strings. Each place is a row: single knots for thousands, hundreds and tens, and a long knot for the ones. This cord shows 3 thousands, no hundreds, 4 tens and 2: 3,042.",
+			"picture": {
+				"kind": "quipu",
+				"cords": [
+					3042
+				],
+				"places": true,
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: build a city on a lake with causeways and garden plots, or a mountain town with terraces. In the 1520s and 1530s Spanish soldiers, their allies and new diseases brought both empires down. Next: the Black Death."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where did the Aztecs build Tenochtitlan?",
+			"answer": 0,
+			"hint": "It had causeways to the shore.",
+			"choices": [
+				"on an island in a lake",
+				"on a mountain top",
+				"in a desert",
+				"beside the sea"
+			],
+			"explain": "On an island in Lake Texcoco."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In which mountains did the Incas live?",
+			"answer": 0,
+			"hint": "You met them in grade 5, down the west of South America.",
+			"choices": [
+				"the Andes",
+				"the Alps",
+				"the Himalayas",
+				"the Rockies"
+			],
+			"explain": "The Andes, the long mountain range down the west of South America."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Chinampas were gardens built up in shallow lake water.",
+			"answer": true,
+			"hint": "They are often called floating gardens.",
+			"explain": "True: plots of mud and plants built up in the shallow lake."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What was a quipu?",
+			"answer": 0,
+			"hint": "Look at the picture of knots on a cord.",
+			"choices": [
+				"knotted strings for keeping records",
+				"a kind of boat",
+				"a temple",
+				"a rope bridge"
+			],
+			"explain": "A set of knotted strings the Incas used to keep records of numbers."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word came into English from Nahuatl, the Aztecs' language?",
+			"answer": 0,
+			"hint": "Window and sky are Norse; algebra is Arabic.",
+			"choices": [
+				"tomato",
+				"window",
+				"algebra",
+				"sky"
+			],
+			"explain": "Tomato, from the Nahuatl tomatl."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What number does this quipu cord show?",
+			"answer": "215",
+			"hint": "Read each row from the top: count the single knots, then the long knot's turns.",
+			"explain": "2 single knots in the hundreds, 1 in the tens, and a long knot of 5 turns: 215.",
+			"picture": {
+				"kind": "quipu",
+				"cords": [
+					215
+				],
+				"places": true
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each name to what it is.",
+			"items": [
+				"Tenochtitlan",
+				"Cusco",
+				"chasquis",
+				"cacao beans"
+			],
+			"matches": [
+				"Aztec money",
+				"the Aztec capital",
+				"the Inca capital",
+				"Inca relay runners"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Two are cities: which was on a lake?",
+			"explain": "Tenochtitlan: the Aztec capital. Cusco: the Inca capital. Chasquis: runners. Cacao beans: money."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How did the Incas farm on steep mountainsides?",
+			"answer": 0,
+			"hint": "Flat land is needed for crops.",
+			"choices": [
+				"they cut terraces like giant steps",
+				"they used floating gardens",
+				"they farmed only in winter",
+				"they did not farm"
+			],
+			"explain": "They cut terraces, flat steps up the hillsides, held by stone walls."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tenochtitlan was founded about 1325. Pachacuti began the Inca Empire in 1438. About how many years later was that?",
+			"answer": "113",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1438 − 1325 = 113 years."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: Aztec or Inca?",
+			"groups": [
+				"Aztec",
+				"Inca"
+			],
+			"items": [
+				"chinampas",
+				"quipu",
+				"Machu Picchu",
+				"Lake Texcoco",
+				"chasquis",
+				"cacao money"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "The Aztecs lived round a lake in Mexico; the Incas in the Andes.",
+			"explain": "Aztec: chinampas, Lake Texcoco, cacao money. Inca: quipu, Machu Picchu, chasquis."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "This quipu counts a town's maize stores, llamas and houses. What is the total of the three cords?",
+			"answer": "359",
+			"hint": "Read each cord first, then add them.",
+			"explain": "Maize 120, llamas 34, houses 205: 120 + 34 + 205 = 359.",
+			"picture": {
+				"kind": "quipu",
+				"cords": [
+					120,
+					34,
+					205
+				],
+				"names": [
+					"maize",
+					"llamas",
+					"houses"
+				],
+				"places": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The Incas had no writing like ours. How did news cross the empire?",
+			"answer": 0,
+			"hint": "Think of the chasquis and the knots.",
+			"choices": [
+				"runners on the roads, with quipus",
+				"by letters on paper",
+				"by printed newspapers",
+				"by pigeons only"
+			],
+			"explain": "Chasquis ran messages along the roads, carrying quipus and spoken words from station to station."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did the Aztecs build causeways?",
+			"answer": 0,
+			"hint": "Their city stood on an island.",
+			"choices": [
+				"to join their island city to the shore",
+				"to hold back the sea",
+				"to race canoes",
+				"to keep llamas"
+			],
+			"explain": "Causeways joined Tenochtitlan to the lake shore, so people and goods could walk in and out."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "On a quipu, a place with no knots means 0 in that place.",
+			"answer": true,
+			"hint": "Think of the 3,042 cord on the lesson card.",
+			"explain": "True: an empty place stands for 0, as the empty hundreds on 3,042 show."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did both empires fall in the 1520s and 1530s?",
+			"answer": 0,
+			"hint": "Look at the last card. Grade 7 tells this story more fully.",
+			"choices": [
+				"Spanish soldiers, their allies and new diseases",
+				"a volcano",
+				"they ran out of food",
+				"the lake dried up"
+			],
+			"explain": "Spanish soldiers came with many local allies, and new diseases from Europe spread fast."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6h.quipu_number",
+			"level": 1
+		},
+		{
+			"gen": "g6h.quipu_number",
+			"level": 2
+		},
+		{
+			"gen": "g6h.quipu_number",
+			"level": 3
+		}
+	]
+}

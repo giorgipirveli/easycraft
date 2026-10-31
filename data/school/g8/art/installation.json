@@ -1,0 +1,435 @@
+{
+	"id": "g8.art.installation",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3, what makes a sculpture good to walk around? (It looks good from every side.) Today: big 3D works, and installations that fill a whole space."
+		},
+		{
+			"text": "Sculpture can be carved, modelled, cast or built. Barbara Hepworth (1903-1975) and Henry Moore (1898-1986) carved and cast smooth forms with holes that let light and air through.",
+			"picture": {
+				"kind": "relief",
+				"what": "round"
+			}
+		},
+		{
+			"text": "An installation is art you step into. It fills a room or a place, and the visitor becomes part of it. Light, sound and the way people move can all be part of the work.",
+			"picture": {
+				"kind": "gallery_plan",
+				"works": [
+					[
+						"mirrors",
+						0.25,
+						0.3
+					],
+					[
+						"lights",
+						0.75,
+						0.3
+					],
+					[
+						"bench",
+						0.5,
+						0.7
+					]
+				],
+				"door": "bottom",
+				"path": [
+					2,
+					0,
+					1
+				],
+				"size": [
+					"10 m",
+					"7 m"
+				]
+			}
+		},
+		{
+			"text": "Big works can fill a park. Louise Bourgeois (1911-2010) made Maman (1999), a spider over 9 m tall. In 2005 Christo and Jeanne-Claude set 7,503 orange gates along the paths of a New York park."
+		},
+		{
+			"text": "Alexander Calder (1898-1976) made the first mobiles in the 1930s: shapes hanging from arms that turn in the air. An arm balances when weight × distance is the same on both sides.",
+			"picture": {
+				"kind": "mobile_balance",
+				"left": [
+					[
+						3,
+						2
+					]
+				],
+				"right": [
+					[
+						2,
+						3
+					]
+				]
+			}
+		},
+		{
+			"text": "Worked example: 3 units of weight 2 steps out balance 2 units 3 steps out, as 3 × 2 = 6 and 2 × 3 = 6. Move a shape further out and its side turns down.",
+			"picture": {
+				"kind": "mobile_balance",
+				"left": [
+					[
+						3,
+						4
+					]
+				],
+				"right": [
+					[
+						2,
+						3
+					]
+				]
+			}
+		},
+		{
+			"text": "Plan a big work with a maquette, a small model to scale. At 1:20, every 1 cm of model is 20 cm of the real work. Think about safety, light, weather and how visitors move round it."
+		},
+		{
+			"text": "Try it in the world: make a small mobile from a coat hanger, string and card shapes, and balance it. In LIFE, Real Builder lets you build at real size, brick by brick. Next: your exhibition."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What makes an installation different from a painting?",
+			"choices": [
+				"you step into it and are part of it",
+				"it is always very small",
+				"it hangs on one wall",
+				"it is only made of paint"
+			],
+			"answer": 0,
+			"hint": "Where are you when you see an installation?",
+			"explain": "An installation fills a space you walk into, so you become part of the work."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A mobile's arm balances when weight × distance is the same on both sides.",
+			"answer": true,
+			"hint": "Remember the worked example's 3 × 2 and 2 × 3.",
+			"explain": "True: equal weight × distance on each side means neither side turns down."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The mobile balances. What is the hidden weight?",
+			"answer": "2",
+			"picture": {
+				"kind": "mobile_balance",
+				"left": [
+					[
+						3,
+						2
+					]
+				],
+				"right": [
+					[
+						2,
+						3
+					]
+				],
+				"hide": [
+					"right",
+					0
+				],
+				"still": true
+			},
+			"hint": "Work out the known side's weight × distance first.",
+			"explain": "Left: 3 × 2 = 6. Right: ? × 3 = 6, so the hidden weight is 6 ÷ 3 = 2."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each way of making sculpture to what it means.",
+			"items": [
+				"carving",
+				"modelling",
+				"casting",
+				"assembling"
+			],
+			"matches": [
+				"building up soft clay",
+				"pouring into a mould",
+				"joining found parts",
+				"cutting away from a block"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of taking away, adding, pouring and joining.",
+			"explain": "Carving takes away, modelling builds up, casting pours into a mould and assembling joins parts."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "This arm is held still. Which way will it tip when it is let go?",
+			"choices": [
+				"left side down",
+				"right side down",
+				"it balances"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "mobile_balance",
+				"left": [
+					[
+						4,
+						3
+					]
+				],
+				"right": [
+					[
+						2,
+						2
+					]
+				],
+				"still": true
+			},
+			"hint": "Work out weight × distance on each side.",
+			"explain": "Left: 4 × 3 = 12. Right: 2 × 2 = 4. The left turns more, so the left side goes down."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The mobile balances. What is the hidden weight?",
+			"answer": "6",
+			"picture": {
+				"kind": "mobile_balance",
+				"left": [
+					[
+						4,
+						1
+					],
+					[
+						2,
+						4
+					]
+				],
+				"right": [
+					[
+						6,
+						2
+					]
+				],
+				"hide": [
+					"right",
+					0
+				],
+				"still": true
+			},
+			"hint": "Add up the left side's turning first.",
+			"explain": "Left: 4 × 1 + 2 × 4 = 12. Right: ? × 2 = 12, so the hidden weight is 6."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A maquette is made at 1:20. It is 15 cm tall. How tall is the real sculpture, in cm?",
+			"answer": "300",
+			"hint": "At 1:20 the real work is 20 times the model.",
+			"explain": "15 × 20 = 300 cm, which is 3 m."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "An installation, or a sculpture on a stand?",
+			"groups": [
+				"installation",
+				"sculpture on a stand"
+			],
+			"items": [
+				"a room of mirrors you walk through",
+				"a bronze head on a stand",
+				"lights and sounds filling a hall",
+				"a carved stone bird",
+				"orange gates along park paths"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Do you step into it, or look at it from outside?",
+			"explain": "Mirror rooms, lights filling a hall and gates along paths surround you; a bronze head and a stone bird stand alone to be looked at."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Maman by Louise Bourgeois is a spider over 9 m tall.",
+			"answer": true,
+			"hint": "Remember the giant spider of 1999.",
+			"explain": "True: Maman, of 1999, stands over 9 m tall."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps of planning an installation.",
+			"items": [
+				"check safety and how people move",
+				"sketch ideas",
+				"build it at full size",
+				"make a maquette",
+				"visit and measure the space"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Know the space first; build big last.",
+			"explain": "Measure, sketch, make a maquette, check safety and movement, then build it full size."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do sculptors make a maquette first?",
+			"choices": [
+				"to test the idea small before building big",
+				"to sell it",
+				"because it is the finished work",
+				"to make it heavier"
+			],
+			"answer": 0,
+			"hint": "Is it cheaper to change a small model or a huge work?",
+			"explain": "A small model shows problems early, when they are cheap and easy to fix."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The mobile balances. What is the hidden weight?",
+			"answer": "4",
+			"picture": {
+				"kind": "mobile_balance",
+				"left": [
+					[
+						4,
+						4
+					]
+				],
+				"right": [
+					[
+						6,
+						2
+					],
+					[
+						1,
+						4
+					]
+				],
+				"hide": [
+					"left",
+					0
+				],
+				"still": true
+			},
+			"hint": "Add up the right side's turning first.",
+			"explain": "Right: 6 × 2 + 1 × 4 = 16. Left: ? × 4 = 16, so the hidden weight is 16 ÷ 4 = 4."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A sculpture will be 4 m tall. How tall is its maquette at 1:20, in cm?",
+			"answer": "20",
+			"hint": "Turn metres into centimetres, then divide by 20.",
+			"explain": "4 m = 400 cm, and 400 ÷ 20 = 20 cm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This arm is held still. Which way will it tip when it is let go?",
+			"choices": [
+				"left side down",
+				"right side down",
+				"it balances"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "mobile_balance",
+				"left": [
+					[
+						2,
+						5
+					]
+				],
+				"right": [
+					[
+						3,
+						3
+					]
+				],
+				"still": true
+			},
+			"hint": "Compare weight × distance; the heavier shape is not always the winner.",
+			"explain": "Left: 2 × 5 = 10. Right: 3 × 3 = 9. The lighter shape is further out, so the left turns down."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Moving a shape further from the middle makes its side turn down more.",
+			"answer": true,
+			"hint": "What happens to weight × distance?",
+			"explain": "True: a bigger distance makes weight × distance bigger, so that side turns more."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Safe for visitors, or a risk?",
+			"groups": [
+				"safe",
+				"a risk"
+			],
+			"items": [
+				"heavy parts fixed firmly",
+				"sharp edges at head height",
+				"clear paths and exits",
+				"a dark floor with a hidden step",
+				"lights that never flash fast"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Imagine walking through it with a younger child.",
+			"explain": "Fixed parts, clear exits and steady lights keep visitors safe; sharp edges and hidden steps are risks."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.balance_mobile",
+			"level": 1
+		},
+		{
+			"gen": "g8c.balance_mobile",
+			"level": 2
+		},
+		{
+			"gen": "g8c.balance_mobile",
+			"level": 3
+		},
+		{
+			"gen": "g8c.maquette",
+			"level": 1
+		},
+		{
+			"gen": "g8c.maquette",
+			"level": 2
+		},
+		{
+			"gen": "g8c.maquette",
+			"level": 3
+		}
+	]
+}

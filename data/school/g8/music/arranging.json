@@ -1,0 +1,559 @@
+{
+	"id": "g8.music.arranging",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7, which notes sit on the bass clef's lines? (G, B, D, F and A, from the bottom.) Today: arranging a melody for different instruments."
+		},
+		{
+			"text": "Arranging means taking a melody and deciding who plays what: the tune, a bass line, chords and perhaps a second melody. The same tune sounds gentle on a flute and bold on a trumpet.",
+			"picture": {
+				"kind": "instrument_ranges",
+				"instruments": [
+					"flute",
+					"violin",
+					"cello",
+					"double bass"
+				]
+			}
+		},
+		{
+			"text": "Every instrument has a range, from its lowest to its highest note. A flute plays from middle C upwards; a cello reaches down to C2, two octaves below middle C. Write each part where it can be played.",
+			"picture": {
+				"kind": "instrument_ranges",
+				"instruments": [
+					"flute",
+					"violin",
+					"cello",
+					"double bass"
+				],
+				"note": "C2"
+			}
+		},
+		{
+			"text": "Transposing moves a melody up or down. Moving every note up an octave keeps the tune the same, only higher: C4, E4, G4 becomes C5, E5, G5.",
+			"picture": {
+				"kind": "piano_roll",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"-",
+					"C5",
+					"E5",
+					"G5",
+					"-"
+				]
+			}
+		},
+		{
+			"text": "Texture is how the parts fit together. Monophonic: one melody alone. Homophonic: a melody with chords. Polyphonic: two or more melodies at once, as in a round. Listen to a melody with chords.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5",
+					"D5",
+					"C5",
+					"D5",
+					"E5",
+					"E5",
+					"E5:2"
+				],
+				"beat": 0.4,
+				"parts": [
+					{
+						"notes": [
+							"C4+E4+G4:2",
+							"G3+B3+D4:2",
+							"C4+E4+G4:4"
+						],
+						"volume": 0.6
+					}
+				]
+			}
+		},
+		{
+			"text": "Worked example: a folk tune for a string quartet. The first violin plays the tune; the second violin and the viola fill in the chords; the cello plays the bass, an octave or two lower.",
+			"picture": {
+				"kind": "instrument_ranges",
+				"instruments": [
+					"violin",
+					"viola",
+					"cello"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Timbre is an instrument's own colour of sound. Give timbres jobs that suit them: a bright trumpet for a fanfare, a soft flute for a lullaby, a deep tuba to anchor the bass.",
+			"picture": {
+				"kind": "orchestra",
+				"mark": "woodwind"
+			}
+		},
+		{
+			"text": "Try it in the world: arrange a tune you know for the game's Xylophone and Bongo Drums: the tune on the bars and a steady beat on the drums. Next: music and identity."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. What is the texture?",
+			"choices": [
+				"monophonic: one melody alone",
+				"homophonic: a melody with chords",
+				"polyphonic: melodies together"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"D5",
+					"E5",
+					"G5",
+					"E5",
+					"D5",
+					"C5:2"
+				],
+				"beat": 0.4
+			},
+			"hint": "How many things play at once?",
+			"explain": "Only one melody plays, with nothing under it: monophonic."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. What is the texture?",
+			"choices": [
+				"homophonic: a melody with chords",
+				"monophonic: one melody alone",
+				"polyphonic: melodies together"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5",
+					"D5",
+					"C5",
+					"D5",
+					"E5",
+					"E5",
+					"E5:2"
+				],
+				"beat": 0.4,
+				"parts": [
+					{
+						"notes": [
+							"C4+E4+G4:2",
+							"G3+B3+D4:2",
+							"C4+E4+G4:4"
+						],
+						"volume": 0.6
+					}
+				]
+			},
+			"hint": "Is there a tune with chords under it?",
+			"explain": "A melody on top with chords below: homophonic."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A cello's lowest note is C2. Middle C is C4. How many octaves below middle C is C2?",
+			"answer": "2",
+			"hint": "Each octave changes the number by 1.",
+			"explain": "From C4 down to C3 is one octave, and to C2 is two: 4 − 2 = 2."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"monophonic",
+				"homophonic",
+				"polyphonic",
+				"timbre"
+			],
+			"matches": [
+				"a melody with chords",
+				"melodies at the same time",
+				"an instrument's colour",
+				"one melody alone"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Mono means one; poly means many.",
+			"explain": "Monophonic is one melody, homophonic a melody with chords, polyphonic several melodies, and timbre is the colour of a sound."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these can play the note C2?",
+			"choices": [
+				"the cello",
+				"the flute",
+				"the violin"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "instrument_ranges",
+				"instruments": [
+					"flute",
+					"violin",
+					"cello",
+					"double bass"
+				],
+				"note": "C2"
+			},
+			"hint": "Find the red line, then the bars that reach it.",
+			"explain": "The cello's bar reaches down to C2; the flute and violin start far higher."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. What is the texture?",
+			"choices": [
+				"polyphonic: melodies together",
+				"monophonic: one melody alone",
+				"homophonic: a melody with chords"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"D5",
+					"E5",
+					"C5",
+					"C5",
+					"D5",
+					"E5",
+					"C5",
+					"E5",
+					"F5",
+					"G5:2"
+				],
+				"beat": 0.35,
+				"parts": [
+					{
+						"notes": [
+							"-:4",
+							"C4",
+							"D4",
+							"E4",
+							"C4",
+							"C4",
+							"D4",
+							"E4:2"
+						],
+						"volume": 0.8
+					}
+				]
+			},
+			"hint": "Listen for a second voice singing the same tune later.",
+			"explain": "A second part enters later with the same melody, like a round: two melodies at once, polyphonic."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Move C4, E4 and G4 up an octave. What do you get?",
+			"choices": [
+				"C5, E5 and G5",
+				"C3, E3 and G3",
+				"D4, F4 and A4",
+				"C4, E4 and G4"
+			],
+			"answer": 0,
+			"hint": "Up an octave keeps the letters and adds 1 to the number.",
+			"explain": "The same letters, an octave higher: C5, E5 and G5."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which tone colour is this: pure, like a tuning fork?",
+			"choices": [
+				"pure",
+				"bright",
+				"hollow"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4:2",
+					"E4:2",
+					"C4:4"
+				],
+				"beat": 0.4,
+				"tone": "pure"
+			},
+			"hint": "Is the sound plain and smooth, or rich and buzzy?",
+			"explain": "It is one smooth frequency with no extra harmonics: a pure tone."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Can it play G1, a very low note?",
+			"groups": [
+				"can play G1",
+				"cannot"
+			],
+			"items": [
+				"double bass",
+				"tuba",
+				"flute",
+				"violin",
+				"soprano"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Which instruments' ranges reach down to the first octave?",
+			"explain": "The double bass goes down to E1 and the tuba to D1; the flute, violin and soprano are far higher."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order these by their lowest note, the lowest first.",
+			"items": [
+				"violin",
+				"cello",
+				"flute",
+				"viola",
+				"double bass"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Biggest instruments usually go lowest.",
+			"explain": "Double bass E1, cello C2, viola C3, violin G3, flute C4."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Listen: the second phrase is the first moved up an octave.",
+			"answer": true,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4:2",
+					"-",
+					"C5",
+					"E5",
+					"G5:2"
+				],
+				"beat": 0.4
+			},
+			"hint": "Compare the two phrases' notes and heights.",
+			"explain": "True: C, E, G is played again an octave higher."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. What job does the quieter, low part do?",
+			"choices": [
+				"it plays the bass",
+				"it plays the tune",
+				"it plays a melody above"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"A4",
+					"B4",
+					"C5",
+					"D5",
+					"C5",
+					"B4",
+					"A4",
+					"G4:2"
+				],
+				"beat": 0.35,
+				"parts": [
+					{
+						"notes": [
+							"C4:2",
+							"B3:2",
+							"A3:2",
+							"G3:2",
+							"C4:2"
+						],
+						"volume": 0.8
+					}
+				]
+			},
+			"hint": "Is it above or below the tune?",
+			"explain": "It moves slowly, an octave and more below the tune, one long note at a time: G, B, A, G, C. That low line is the bass, the floor the harmony stands on."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A tune is written from C4 to G4. Moved down two octaves for a cello, what is the octave number of its lowest note?",
+			"answer": "2",
+			"hint": "Down an octave takes 1 from the number.",
+			"explain": "Each octave down takes 1 from the number: C4 becomes C3, then C2. So the lowest note is C2, octave number 2, and G4 becomes G2."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "This tune goes down to A3. Which of these instruments cannot play it?",
+			"choices": [
+				"the flute",
+				"the clarinet",
+				"the violin",
+				"the viola"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "instrument_ranges",
+				"instruments": [
+					"flute",
+					"clarinet",
+					"violin",
+					"viola"
+				],
+				"note": "A3"
+			},
+			"hint": "Find the line at A3 and the bars that do not reach it.",
+			"explain": "The flute's lowest note is C4, which is above A3, so it cannot play it. The clarinet goes down to D3, the violin to G3 and the viola to C3: all below A3."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Which job suits each sound: a fanfare or a lullaby?",
+			"groups": [
+				"fanfare",
+				"lullaby"
+			],
+			"items": [
+				"bright trumpet",
+				"soft flute",
+				"loud snare drum",
+				"gentle harp",
+				"bold trombone"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it bold and bright, or soft and gentle?",
+			"explain": "Trumpets, snare drums and trombones suit a bold fanfare; a soft flute and a gentle harp suit a lullaby."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen: this is polyphonic, with two melodies moving at the same time.",
+			"answer": true,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E5",
+					"D5",
+					"C5",
+					"D5",
+					"E5",
+					"F5",
+					"G5:2"
+				],
+				"beat": 0.35,
+				"parts": [
+					{
+						"notes": [
+							"C4",
+							"G3",
+							"A3",
+							"B3",
+							"C4",
+							"A3",
+							"G3:2"
+						],
+						"volume": 0.8
+					}
+				]
+			},
+			"hint": "Can you follow two different tunes at once?",
+			"explain": "True: the high melody steps E, D, C, D, E, F, G while the low line moves C, G, A, B, C, A, G. Each is a tune of its own, so the texture is polyphonic."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which tone colour is this?",
+			"choices": [
+				"bright, like a bowed string or brass",
+				"pure, like a tuning fork",
+				"hollow, like a clarinet"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5:2",
+					"G4:2",
+					"E5:4"
+				],
+				"beat": 0.4,
+				"tone": "bright"
+			},
+			"hint": "Is the sound full of buzzing harmonics?",
+			"explain": "It is rich and buzzy, with every harmonic sounding above each note: a bright tone, like a bowed string or a trumpet. A pure tone has one frequency; a hollow one only the odd harmonics."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.transpose",
+			"level": 1
+		},
+		{
+			"gen": "g8c.transpose",
+			"level": 2
+		},
+		{
+			"gen": "g8c.transpose",
+			"level": 3
+		},
+		{
+			"gen": "g8c.range_fit",
+			"level": 1
+		},
+		{
+			"gen": "g8c.range_fit",
+			"level": 2
+		},
+		{
+			"gen": "g8c.range_fit",
+			"level": 3
+		},
+		{
+			"gen": "g8c.texture_hear",
+			"level": 1
+		},
+		{
+			"gen": "g8c.texture_hear",
+			"level": 2
+		},
+		{
+			"gen": "g8c.texture_hear",
+			"level": 3
+		}
+	]
+}

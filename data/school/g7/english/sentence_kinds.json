@@ -1,0 +1,342 @@
+{
+	"id": "g7.english.sentence_kinds",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, phrases and clauses. What does every clause have? A subject and a verb, like \"the dog barked\"."
+		},
+		{
+			"text": "A simple sentence has one independent clause: The wind blew."
+		},
+		{
+			"text": "A compound sentence joins two independent clauses with and, but, or or so: The wind blew, and the door banged.",
+			"picture": {
+				"kind": "sentence_parts",
+				"parts": [
+					{
+						"text": "The wind blew,",
+						"tag": "independent clause"
+					},
+					{
+						"text": "and",
+						"tag": "conjunction"
+					},
+					{
+						"text": "the door banged.",
+						"tag": "independent clause"
+					}
+				]
+			}
+		},
+		{
+			"text": "A complex sentence has an independent clause and a dependent one: When the wind blew, the door banged.",
+			"picture": {
+				"kind": "sentence_parts",
+				"parts": [
+					{
+						"text": "When the wind blew,",
+						"tag": "dependent clause"
+					},
+					{
+						"text": "the door banged.",
+						"tag": "independent clause"
+					}
+				]
+			}
+		},
+		{
+			"text": "A compound-complex sentence has two independent clauses and at least one dependent clause: When the wind blew, the door banged, and the dog barked."
+		},
+		{
+			"text": "Try it in the world: tell the story of your last adventure in the game in four sentences: one simple, one compound, one complex and one compound-complex. Next: misplaced modifiers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a simple sentence?",
+			"answer": 0,
+			"hint": "Count the clauses: how many subject and verb pairs?",
+			"choices": [
+				"The owl hooted.",
+				"The owl hooted, and the mice hid.",
+				"When the owl hooted, the mice hid."
+			],
+			"explain": "\"The owl hooted.\" has one independent clause: a simple sentence."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a compound sentence?",
+			"answer": 0,
+			"hint": "Two independent clauses joined.",
+			"choices": [
+				"I was hungry, so I ate.",
+				"I ate.",
+				"Because I was hungry, I ate."
+			],
+			"explain": "Two independent clauses joined with \"so\"."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A complex sentence has a dependent clause.",
+			"answer": true,
+			"hint": "Think of \"When the wind blew, the door banged\". What does \"when\" start?",
+			"explain": "Yes: a complex sentence has a dependent clause and an independent one."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word could join two independent clauses?",
+			"answer": 0,
+			"hint": "A joining word.",
+			"choices": [
+				"but",
+				"under",
+				"quickly"
+			],
+			"explain": "\"But\" can join two independent clauses: I was tired, but I kept going."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a complex sentence?",
+			"answer": 0,
+			"hint": "Look for a part that starts with although, when or because.",
+			"choices": [
+				"Although it rained, we played.",
+				"It rained.",
+				"It rained, and we played."
+			],
+			"explain": "\"Although it rained\" is dependent."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What kind of sentence is \"When the lights went out, we lit candles, and Gran told stories\"?",
+			"answer": 0,
+			"hint": "Two independent + one dependent.",
+			"choices": [
+				"compound-complex",
+				"simple",
+				"complex"
+			],
+			"explain": "Two independent clauses and one dependent."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Turn \"The rain stopped. We went out.\" into a complex sentence.",
+			"answer": 0,
+			"hint": "Use when or after.",
+			"choices": [
+				"When the rain stopped, we went out.",
+				"The rain stopped, we went out.",
+				"The rain stopped and."
+			],
+			"explain": "\"When the rain stopped\" becomes dependent."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "\"She laughed, but he frowned\" is a compound sentence.",
+			"answer": true,
+			"hint": "Two independent clauses with but.",
+			"explain": "Yes: \"She laughed\" and \"he frowned\" are joined by but."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why vary sentence kinds in writing?",
+			"answer": 0,
+			"hint": "Think how it would read if every sentence were the same length.",
+			"choices": [
+				"to make it interesting and clear",
+				"to use more commas",
+				"to fill the page"
+			],
+			"explain": "Variety keeps writing lively and clear."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is NOT a complete sentence?",
+			"answer": 0,
+			"hint": "Can it stand alone?",
+			"choices": [
+				"Because the bus was late.",
+				"The bus was late.",
+				"The bus was late, so we walked."
+			],
+			"explain": "A dependent clause alone is a fragment."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is compound-complex?",
+			"answer": 0,
+			"hint": "Count the clauses.",
+			"choices": [
+				"If you finish, you can play, and I will cook.",
+				"You can play.",
+				"If you finish, you can play."
+			],
+			"explain": "If you finish is a dependent clause; you can play and I will cook are two independent clauses joined by and. Two independent and one dependent: compound-complex."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the best way to join \"The river rose\" and \"The road flooded\" to show cause?",
+			"answer": 0,
+			"hint": "Which choice tells you why the road flooded?",
+			"choices": [
+				"Because the river rose, the road flooded.",
+				"The river rose, the road flooded.",
+				"The river rose and flooded road."
+			],
+			"explain": "Because the river rose is a dependent clause that gives the cause; the road flooded is the independent clause with the effect. Together they make a complex sentence."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How many independent clauses are in \"We cheered, and the team waved\"?",
+			"answer": 0,
+			"hint": "Count those that stand alone.",
+			"choices": [
+				"2",
+				"1",
+				"3"
+			],
+			"explain": "We cheered (subject we, verb cheered) and the team waved (subject the team, verb waved): 2 independent clauses, joined by and."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A compound-complex sentence needs at least one dependent clause.",
+			"answer": true,
+			"hint": "Split the name: compound, and complex. What does the complex part need?",
+			"explain": "Yes: the complex part means at least one dependent clause."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order from simplest to most complicated.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Count the clauses.",
+			"items": [
+				"compound",
+				"simple",
+				"compound-complex"
+			],
+			"explain": "A simple sentence has one independent clause, a compound one has two, and a compound-complex one has two independent clauses and at least one dependent clause."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the sentences by kind.",
+			"items": [
+				"The owl hooted.",
+				"I was hungry, so I ate.",
+				"When the bell rang, we left.",
+				"Snow fell.",
+				"It rained, but we played.",
+				"Because it was late, we slept."
+			],
+			"groups": [
+				"simple",
+				"compound",
+				"complex"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Count the clauses, then look for a joining word (and, but, so) or a starting word (when, because).",
+			"explain": "The owl hooted and snow fell are simple. The so and but sentences are compound. The when and because sentences are complex."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each kind of sentence to what it has.",
+			"items": [
+				"simple",
+				"compound",
+				"complex",
+				"compound-complex"
+			],
+			"matches": [
+				"two independent + a dependent",
+				"one independent + a dependent",
+				"one independent clause",
+				"two independent clauses"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Count the independent clauses first, then look for a dependent one.",
+			"explain": "Simple: one independent clause. Compound: two independent. Complex: one independent and a dependent. Compound-complex: two independent and a dependent."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the sentences: complex, or compound-complex?",
+			"groups": [
+				"complex",
+				"compound-complex"
+			],
+			"items": [
+				"When it rained, we hid.",
+				"When it rained, we hid, and the dog barked.",
+				"Because I was late, I ran.",
+				"If you finish, you can play, and I will cook.",
+				"Although she was tired, she sang."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Count the independent clauses: one makes it complex, two (with a dependent clause) make it compound-complex.",
+			"explain": "Complex: one independent clause and a dependent one (when it rained, because I was late, although she was tired). Compound-complex: two independent clauses and a dependent one."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many clauses are in \"When the wind blew, the door banged, and the dog barked\"?",
+			"answer": "3",
+			"hint": "Count each subject that has its own verb.",
+			"explain": "The wind blew (dependent), the door banged and the dog barked (independent): 3 clauses, so it is a compound-complex sentence."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Build a compound-complex sentence: put the parts in order.",
+			"items": [
+				"and we lit candles.",
+				"When the lights went out,",
+				"Gran told a story,"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Start with the dependent clause and its comma, then join two independent clauses with and.",
+			"explain": "When the lights went out, Gran told a story, and we lit candles: one dependent clause, then two independent clauses joined by and."
+		}
+	]
+}

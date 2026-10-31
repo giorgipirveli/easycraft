@@ -1,0 +1,321 @@
+{
+	"id": "g3.health_pe.heart_exercise",
+	"lesson": [
+		{
+			"text": "Quick memory: which two muscles work as a pair to bend and straighten your arm? (The biceps and the triceps.) Your heart is a muscle too, and it never stops working."
+		},
+		{
+			"text": "Your heart is about the size of your fist. It pumps blood all around your body. The blood carries oxygen from your lungs, and goodness from your food, to every muscle. Listen to a heartbeat.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xx--xx--xx--xx--",
+				"tempo": 150
+			}
+		},
+		{
+			"text": "Each squeeze of your heart makes a beat you can feel: your pulse. Put two fingers, not your thumb, on the inside of your wrist, just below your thumb, and press gently."
+		},
+		{
+			"text": "Count the beats for 15 seconds, then times by 4 to find the beats in a whole minute. 20 beats in 15 seconds is 20 × 4 = 80 beats a minute.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "20",
+								"size": 1
+							},
+							{
+								"text": "20",
+								"size": 1
+							},
+							{
+								"text": "20",
+								"size": 1
+							},
+							{
+								"text": "20",
+								"size": 1
+							}
+						],
+						"total": "80 beats a minute"
+					}
+				]
+			}
+		},
+		{
+			"text": "When you exercise, your muscles need more oxygen, so your heart beats faster and you breathe faster. You get warm, and you may sweat, which cools you down.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Zara",
+						"in 15 seconds",
+						"in a minute"
+					],
+					[
+						"before running",
+						"20",
+						"80"
+					],
+					[
+						"after running",
+						"35",
+						"140"
+					]
+				]
+			}
+		},
+		{
+			"text": "Warm up before exercise with gentle moves, and cool down after it with slow walking and stretches. After exercise, your pulse slowly goes back down."
+		},
+		{
+			"text": "Being active every day makes your heart, lungs, muscles and bones stronger, and helps you sleep well and feel happy. Children should be active for at least 60 minutes a day."
+		},
+		{
+			"text": "Try it in the world: build an obstacle course with jumps, ladders and a finish flag. Then do a real one at home or in the park: feel your pulse before and after. How much faster is it?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does your heart do?",
+			"answer": 0,
+			"hint": "Think of what travels round your body in tubes.",
+			"choices": [
+				"pumps blood around your body",
+				"helps you see",
+				"digests your food",
+				"makes your hair grow"
+			],
+			"explain": "Your heart pumps blood all around your body, carrying oxygen and goodness to your muscles."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where can you easily feel your pulse?",
+			"answer": 0,
+			"hint": "The lesson put two fingers there.",
+			"choices": [
+				"on the inside of your wrist",
+				"on your elbow",
+				"on your knee",
+				"on your fingernail"
+			],
+			"explain": "On the inside of your wrist, just below your thumb (or at the side of your neck)."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Your heart beats faster when you run.",
+			"answer": true,
+			"hint": "What happens to your pulse after a race?",
+			"explain": "True: your muscles need more oxygen, so your heart pumps faster."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Your heart is a muscle.",
+			"answer": true,
+			"hint": "What does your heart do all day and night?",
+			"explain": "True: your heart is a strong muscle that squeezes to pump blood."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should you use to feel your pulse?",
+			"answer": 0,
+			"hint": "Your thumb has its own pulse, so it can muddle the count.",
+			"choices": [
+				"two fingers",
+				"your thumb",
+				"your fist",
+				"one elbow"
+			],
+			"explain": "Use two fingers. Your thumb has a pulse of its own, which can confuse your count."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tilly counts 20 beats in 15 seconds. How many beats is that in a whole minute?",
+			"answer": "80",
+			"hint": "A minute is 4 lots of 15 seconds, so times by 4.",
+			"explain": "60 seconds is 4 lots of 15 seconds: 20 × 4 = 80 beats a minute."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bram counts 30 beats in 15 seconds after skipping. How many beats is that in a minute?",
+			"answer": "120",
+			"hint": "How many lots of 15 seconds make a minute?",
+			"explain": "4 lots of 15 seconds make a minute: 30 × 4 = 120 beats a minute."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does your heart beat faster when you exercise?",
+			"answer": 0,
+			"hint": "What does the blood carry to your muscles?",
+			"choices": [
+				"your muscles need more oxygen",
+				"your heart is scared",
+				"your muscles need less blood",
+				"to make you hungry"
+			],
+			"explain": "Working muscles need more oxygen, so your heart pumps blood faster to bring it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How long should children be active each day?",
+			"answer": 0,
+			"hint": "Think of about an hour.",
+			"choices": [
+				"at least 60 minutes",
+				"5 minutes",
+				"only at weekends",
+				"never"
+			],
+			"explain": "Children should be active for at least 60 minutes a day."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put an exercise session in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start gently and finish gently.",
+			"items": [
+				"stretch",
+				"cool down with slow walking",
+				"play the game hard",
+				"warm up with gentle moves"
+			],
+			"explain": "Warm up, play hard, cool down with slow walking, then stretch."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Look at the table. When was Zara's pulse fastest?",
+			"answer": 0,
+			"hint": "Find the biggest number of beats.",
+			"choices": [
+				"after running",
+				"before running",
+				"after resting for 5 minutes"
+			],
+			"explain": "After running: 35 beats in 15 seconds, which is 140 a minute. Resting brought it back down.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Zara",
+						"beats in 15 s"
+					],
+					[
+						"before running",
+						"20"
+					],
+					[
+						"after running",
+						"35"
+					],
+					[
+						"after resting",
+						"22"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "After exercise, your pulse stays fast for the rest of the day.",
+			"answer": false,
+			"hint": "What happens when you rest?",
+			"explain": "False: after exercise your pulse slowly comes back down as you rest."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Does it make your heart beat a lot faster, or not much faster?",
+			"groups": [
+				"a lot faster",
+				"not much faster"
+			],
+			"items": [
+				"running a race",
+				"reading a book",
+				"skipping",
+				"watching a film",
+				"swimming lengths",
+				"sitting down to draw"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Which ones make you puff and feel warm?",
+			"explain": "A lot faster: running, skipping, swimming. Not much faster: reading, watching a film, drawing."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tap LISTEN. Is this a resting heartbeat, or a heartbeat just after running?",
+			"answer": 0,
+			"hint": "Is it fast or slow?",
+			"choices": [
+				"just after running",
+				"resting"
+			],
+			"explain": "It is fast (about 150 beats a minute), like a heart just after running.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 150
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do we cool down after exercise instead of stopping suddenly?",
+			"answer": 0,
+			"hint": "What happens to your pulse as you cool down?",
+			"choices": [
+				"so the heart and breathing slow gently",
+				"to make the heart beat faster",
+				"because it is cold outside",
+				"to warm up again"
+			],
+			"explain": "A cool-down lets your heart and breathing slow down gently, and stretches keep your muscles comfortable."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara counts 22 beats in 15 seconds before running and 35 beats after. How many more beats a minute is her heart doing after running?",
+			"answer": "52",
+			"hint": "Turn each count into beats a minute first, then find the difference.",
+			"explain": "Before: 22 × 4 = 88 beats a minute. After: 35 × 4 = 140 beats a minute. 140 − 88 = 52 more beats a minute."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3p.pulse_minute",
+			"level": 2
+		},
+		{
+			"gen": "g3p.pulse_minute",
+			"level": 3
+		}
+	]
+}

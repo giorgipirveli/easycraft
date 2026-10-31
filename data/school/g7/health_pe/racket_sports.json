@@ -1,0 +1,355 @@
+{
+	"id": "g7.health_pe.racket_sports",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you played net games. Where do you aim to win a point? (Into a space, away from your opponent.) Today: grips, footwork, the main strokes and how racket sports are scored."
+		},
+		{
+			"text": "Grip: hold a badminton racket as if you were shaking hands with it, the forehand grip. For backhands, turn it slightly and press your thumb flat on the back of the handle. Hold it loosely, and squeeze as you hit."
+		},
+		{
+			"text": "Footwork: wait on your toes in the middle of the court, your base. As your opponent hits, do a split step: a small hop that lands you ready to push off any way. Move to the shuttle, hit, then recover to your base.",
+			"picture": {
+				"kind": "net_court",
+				"sport": "badminton",
+				"players": [
+					[
+						3,
+						3,
+						"a"
+					],
+					[
+						9,
+						2,
+						"d"
+					]
+				]
+			}
+		},
+		{
+			"text": "Badminton's main shots: the clear flies high and deep to the back; the drop shot falls just over the net; the smash goes steeply down, fast; the net shot tips the shuttle just back over. The drive is flat and fast.",
+			"picture": {
+				"kind": "shot_paths",
+				"sport": "badminton",
+				"shots": [
+					"clear",
+					"drop",
+					"smash",
+					"net"
+				]
+			}
+		},
+		{
+			"text": "Choose your shot by your opponent's place. Near the net? Clear it over them. At the back? Drop it short. Is the shuttle high and short on your side? Smash it. Make them run, and find the space.",
+			"picture": {
+				"kind": "net_court",
+				"sport": "badminton",
+				"players": [
+					[
+						3,
+						3,
+						"a"
+					],
+					[
+						7,
+						3,
+						"d"
+					]
+				],
+				"spots": [
+					[
+						11,
+						1,
+						"A"
+					],
+					[
+						11,
+						5,
+						"B"
+					]
+				],
+				"shot": [
+					0,
+					1
+				]
+			}
+		},
+		{
+			"text": "Scoring. Badminton: every rally wins a point; a game is 21 with 2 clear, and at 29-all the next point wins. Serve from the right court when your score is even, the left when it is odd. Table tennis games go to 11."
+		},
+		{
+			"text": "Tennis: love (0), 15, 30, 40, game. At 40-40 it is deuce: win the next point for advantage, then one more for the game. Worked example: at 30-40 the server wins a point: deuce. Then advantage server, then game."
+		},
+		{
+			"text": "Try it in the world: mark out a badminton court with a net in your world. Play a game to 21 with a friend, calling the score. For real: practise the split step against a wall. Next: your fitness plan."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How do you hold a badminton racket for a forehand?",
+			"choices": [
+				"as if shaking hands with it",
+				"with both hands, like a bat",
+				"in a tight fist round the head",
+				"with a thumb round the strings"
+			],
+			"answer": 0,
+			"hint": "Think of the friendly way to greet someone.",
+			"explain": "The forehand grip is the handshake grip: loose, then squeeze as you hit."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In badminton, the server serves from the right service court when their score is even.",
+			"answer": true,
+			"hint": "At the very start the score is 0: where does the first serve come from?",
+			"explain": "True: even scores (0, 2, 4 …) serve from the right; odd scores from the left."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which shot falls just over the net?",
+			"choices": [
+				"a drop shot",
+				"a clear",
+				"a smash",
+				"a drive"
+			],
+			"answer": 0,
+			"hint": "Which shot is soft, short and slow?",
+			"explain": "A drop shot falls just over the net, far from a player at the back."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "In table tennis, the serve changes every 2 points. After 8 points, how many times has the serve changed?",
+			"answer": "4",
+			"hint": "Divide the points by how often it changes.",
+			"explain": "8 ÷ 2 = 4 changes of serve."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In tennis, 'love' means a score of zero.",
+			"answer": true,
+			"hint": "What is the first call in a game?",
+			"explain": "True: love is 0; the points go love, 15, 30, 40."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a rally's footwork in order.",
+			"items": [
+				"recover to your base",
+				"move to the shuttle",
+				"ready at your base",
+				"split step as they hit",
+				"hit your shot"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				4,
+				0
+			],
+			"hint": "Ready, react, reach, hit, return.",
+			"explain": "Ready at the base, split step, move, hit, then recover to the base for the next shot."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each badminton shot to its flight.",
+			"items": [
+				"clear",
+				"drop shot",
+				"smash",
+				"drive"
+			],
+			"matches": [
+				"steep and fast, downwards",
+				"soft, just over the net",
+				"high and deep",
+				"flat and fast"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "Picture each shot's flight from the side.",
+			"explain": "Clear: high and deep. Drop shot: soft, just over the net. Smash: steep and fast. Drive: flat and fast."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which path, A, B or C, is the clear?",
+			"choices": [
+				"path B",
+				"path A",
+				"path C"
+			],
+			"answer": 0,
+			"hint": "Look for the highest flight that lands deepest.",
+			"explain": "Path B: the clear flies highest and lands at the back of the court.",
+			"picture": {
+				"kind": "shot_paths",
+				"sport": "badminton",
+				"shots": [
+					"drop",
+					"clear",
+					"smash"
+				],
+				"tags": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A badminton game ends 21-18. How many rallies were played?",
+			"answer": "39",
+			"hint": "In rally scoring, every rally gives someone a point.",
+			"explain": "21 + 18 = 39 rallies: every rally scores."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In tennis, your opponent rushes to the net. Which shot goes over their head?",
+			"choices": [
+				"a lob",
+				"a drop shot",
+				"a soft serve",
+				"a backhand into the net"
+			],
+			"answer": 0,
+			"hint": "Which shot rises high above someone standing close?",
+			"explain": "A lob rises over the net player and lands deep behind them."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A badminton game at 21-20 is over.",
+			"answer": false,
+			"hint": "How many points clear must the winner be?",
+			"explain": "False: the winner needs 2 points clear (or the 30th point), so play goes on."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Badminton: Bram 13, Mimi 9. Mimi wins the rally. Who serves next, and from where?",
+			"choices": [
+				"Mimi, from the right",
+				"Mimi, from the left",
+				"Bram, from the right",
+				"Bram, from the left"
+			],
+			"answer": 0,
+			"hint": "The rally's winner serves. Is their new score even or odd?",
+			"explain": "Mimi wins, so she serves with 10 points: even, so from the right."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tennis: a game goes 15-0, 15-15, 30-15, 40-15, 40-30, deuce, advantage server, game. How many points were played?",
+			"answer": "8",
+			"hint": "Each new score means one more point was played.",
+			"explain": "8 calls, so 8 points: the server won 5 and the receiver 3."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In badminton doubles, your team is attacking. How should you and your partner stand?",
+			"choices": [
+				"one at the front, one at the back",
+				"side by side at the back",
+				"both at the net",
+				"both in one corner"
+			],
+			"answer": 0,
+			"hint": "When you attack, who smashes, and who covers the net?",
+			"explain": "Front and back: the back player smashes and the front player covers the net. Defending, stand side by side."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the shots: attacking or defending?",
+			"groups": [
+				"attacking",
+				"defending"
+			],
+			"items": [
+				"a smash",
+				"a high clear from deep",
+				"a fast drive",
+				"a lift to the back from the net",
+				"a net kill"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it hit down at speed, or up high to buy time?",
+			"explain": "Attacking: smash, fast drive, net kill. Defending: a high clear from deep, a lift to the back."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A split step is a small hop just as your opponent hits, so you can push off any way.",
+			"answer": true,
+			"hint": "When do you need to be ready to move?",
+			"explain": "True: landing as they hit lets you push off quickly in any direction."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A tennis set needs 6 games and 2 clear. Zara and Bram reach 5-5 in games. What is the fewest games in a row one of them must win to take the set without a tie-break?",
+			"answer": "2",
+			"hint": "Six games is not enough if the other player has 5: you need 2 clear.",
+			"explain": "From 5-5, winning 2 in a row makes 7-5: 2 games clear."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.serve_court",
+			"level": 1
+		},
+		{
+			"gen": "g7w.serve_court",
+			"level": 2
+		},
+		{
+			"gen": "g7w.serve_court",
+			"level": 3
+		},
+		{
+			"gen": "g7w.tennis_score",
+			"level": 1
+		},
+		{
+			"gen": "g7w.tennis_score",
+			"level": 2
+		},
+		{
+			"gen": "g7w.tennis_score",
+			"level": 3
+		},
+		{
+			"gen": "g7w.shot_choice",
+			"level": 1
+		},
+		{
+			"gen": "g7w.shot_choice",
+			"level": 2
+		},
+		{
+			"gen": "g7w.shot_choice",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,309 @@
+{
+	"id": "g4.health_pe.athletics",
+	"lesson": [
+		{
+			"text": "Quick memory: how do you find your pulse for a whole minute? (Count for 15 seconds, then times by 4.) Athletes measure everything too: times, distances and heights."
+		},
+		{
+			"text": "Athletics has running, jumping and throwing events. Athletes measure every try, as a time in seconds or a distance in metres and centimetres. They aim to beat their own best: their personal best."
+		},
+		{
+			"text": "Sprinting: 'On your marks, get set, go!' Start low and leaning forward, and drive your arms. Run on the balls of your feet, and run through the finish line, not up to it.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"crouch",
+					"run"
+				],
+				"labels": [
+					"set",
+					"go!"
+				]
+			}
+		},
+		{
+			"text": "A relay team of 4 runners carries a baton. The runner coming in calls 'Hand!', the next runner reaches back, and the baton must change hands inside the changeover box. The team's time is all 4 legs added."
+		},
+		{
+			"text": "Long jump: run fast, take off from one foot at the board, and land in the sand. The jump is measured from the board to the nearest mark you make. 2 m 35 cm is 200 + 35 = 235 cm.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"run",
+					"jump",
+					"land"
+				]
+			}
+		},
+		{
+			"text": "The triple jump is a hop, a step and a jump: hop and land on the same foot, step onto the other foot, then jump and land on both feet in the sand."
+		},
+		{
+			"text": "Throwing: a shot is pushed from the neck, not thrown. A javelin is thrown overarm. Throws are measured from the line to where the thing first lands. Only throw when told, and never walk in front of the throwers."
+		},
+		{
+			"text": "Try it in the world: build a running track with a start line and a finish line. Add a long jump pit of sand with a block every metre. For real: measure 3 of your jumps, and circle your best."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does personal best mean?",
+			"answer": 0,
+			"hint": "Whose best is it?",
+			"choices": [
+				"your own best time or distance so far",
+				"the winner of the race",
+				"the best athlete in the world",
+				"your favourite event"
+			],
+			"explain": "Your personal best is your own best time or distance so far: the one to beat next time."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "1 m is 100 cm.",
+			"answer": true,
+			"hint": "How many centimetres are on a metre stick?",
+			"explain": "True: 1 metre is 100 centimetres."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a sprint, where should you stop running?",
+			"answer": 0,
+			"hint": "Where is your time measured?",
+			"choices": [
+				"after the finish line",
+				"just before the finish line",
+				"at the start line",
+				"halfway"
+			],
+			"explain": "Run through the finish line and stop after it, so you do not slow down before your time is taken."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Zara's long jump was 1 m 90 cm. How many centimetres is that?",
+			"answer": "190",
+			"hint": "1 m is 100 cm. Add the centimetres.",
+			"explain": "1 m is 100 cm, and 100 cm + 90 cm = 190 cm."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part of your feet should you run on in a sprint?",
+			"answer": 0,
+			"hint": "Think of the springy part just behind your toes.",
+			"choices": [
+				"the balls of your feet",
+				"your heels",
+				"the sides of your feet",
+				"your flat feet"
+			],
+			"explain": "Run on the balls of your feet: it is springy and fast.",
+			"picture": {
+				"kind": "pose",
+				"poses": [
+					"run"
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a relay changeover in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "The runner with the baton warns the next runner first.",
+			"items": [
+				"the next runner sprints away",
+				"the baton changes hands in the box",
+				"the next runner reaches back",
+				"the incoming runner calls 'Hand!'"
+			],
+			"explain": "Call 'Hand!', the next runner reaches back, the baton changes hands in the box, and off they go."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the triple jump in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Its name tells you the order.",
+			"items": [
+				"land in the sand",
+				"jump",
+				"step",
+				"hop"
+			],
+			"explain": "Hop, step, jump, then land in the sand on both feet."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The long jump is measured from the board to the nearest mark you make in the sand.",
+			"answer": true,
+			"hint": "Which mark counts if you fall backwards?",
+			"explain": "True: from the board to the nearest mark, so falling back makes the jump shorter."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tilly's relay team ran legs of 14, 15, 13 and 16 seconds. What was the team's time in seconds?",
+			"answer": "58",
+			"hint": "Add all 4 legs.",
+			"explain": "14 + 15 + 13 + 16 = 58 seconds."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How do you throw a shot?",
+			"answer": 0,
+			"hint": "A shot is very heavy.",
+			"choices": [
+				"push it from your neck",
+				"throw it underarm",
+				"roll it along the ground",
+				"kick it"
+			],
+			"explain": "A shot is pushed from the neck, with the arm straightening, never thrown."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each event to what is measured.",
+			"items": [
+				"sprint",
+				"long jump",
+				"high jump",
+				"relay"
+			],
+			"matches": [
+				"a distance",
+				"a height",
+				"a team's time",
+				"a time in seconds"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Is each one about how fast, how far or how high?",
+			"explain": "Sprint: a time. Long jump: a distance. High jump: a height. Relay: the team's time, all 4 legs added."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram jumped 2 m 5 cm, then 2 m 18 cm, then 1 m 96 cm. How many centimetres longer was his best jump than his shortest?",
+			"answer": "22",
+			"hint": "Change each jump into centimetres, then compare the biggest and the smallest.",
+			"explain": "205 cm, 218 cm and 196 cm. 218 − 196 = 22 cm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A runner slows down just before the finish line. What could they do better?",
+			"answer": 0,
+			"hint": "Where does the race really end?",
+			"choices": [
+				"run through the line",
+				"stop earlier",
+				"look back at the others",
+				"jump over the line"
+			],
+			"explain": "Run through the line: the time stops when you cross it, so keep your speed all the way."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "It is safe to walk across the throwing area to fetch your javelin while others are still throwing.",
+			"answer": false,
+			"hint": "What does the safety rule say about walking in front of throwers?",
+			"explain": "False: wait until everyone has thrown and you are told it is safe."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A team wants to beat 60 seconds. Their relay legs took 16, 15, 16 and 15 seconds. How many seconds too slow were they?",
+			"answer": "2",
+			"hint": "Add the legs, then compare the total with 60.",
+			"explain": "16 + 15 + 16 + 15 = 62 seconds. 62 − 60 = 2 seconds too slow."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the fair way to compare two long jumps?",
+			"answer": 0,
+			"hint": "A fair test measures both in the same way.",
+			"choices": [
+				"measure both from the board to the nearest mark",
+				"measure one from the board, one from the end",
+				"guess by looking",
+				"count the steps in the run-up"
+			],
+			"explain": "Measure both the same way, from the board to the nearest mark, so the numbers can be compared."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Running, jumping or throwing?",
+			"groups": [
+				"running",
+				"jumping",
+				"throwing"
+			],
+			"items": [
+				"relay",
+				"long jump",
+				"javelin",
+				"sprint",
+				"triple jump",
+				"shot put"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "What does the athlete do in each event?",
+			"explain": "Running: relay, sprint. Jumping: long jump, triple jump. Throwing: javelin, shot put."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4w.jump_measure",
+			"level": 1
+		},
+		{
+			"gen": "g4w.jump_measure",
+			"level": 2
+		},
+		{
+			"gen": "g4w.jump_measure",
+			"level": 3
+		},
+		{
+			"gen": "g4w.relay_time",
+			"level": 2
+		},
+		{
+			"gen": "g4w.relay_time",
+			"level": 3
+		}
+	]
+}

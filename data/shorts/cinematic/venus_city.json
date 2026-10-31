@@ -1,0 +1,132 @@
+{
+	"id": "venus_city",
+	"title": "The city in the clouds",
+	"topic": "space",
+	"link": {"star_map": true},
+	"video": "venus_city",
+	"still": 13.0,
+	"stage": {
+		"sky": "venus",
+		"light": "venus",
+		"sun": [0.35, 0.8, 0.45],
+		"models": [
+			{"id": "clouds", "model": "clouds", "at": [0, -48, 0], "size": 700, "count": 90, "color": "#f3d58e"},
+			{"id": "city", "model": "blocks", "build": "venus_city", "at": [0, 0, 0]}
+		],
+		"camera": [
+			{"at": 0, "pos": [-160, 30, 160], "look": [0, -12, 0], "fov": 42},
+			{"at": 9.9, "pos": [-105, 22, 110], "look": [0, -6, 0], "fov": 42},
+			{"at": 10, "cut": true, "pos": [-6, 6, 12], "look": [-34, -2, 34], "fov": 52},
+			{"at": 19.9, "pos": [6, 7, 12], "look": [34, -2, 34], "fov": 52},
+			{"at": 20, "cut": true, "pos": [-6, -32, 76], "look": [0, -10, 0], "fov": 48},
+			{"at": 29.9, "pos": [8, -26, 64], "look": [0, -8, 0], "fov": 48},
+			{"at": 30, "cut": true, "pos": [8, 16, 70], "look": [34, 2, 34], "fov": 46},
+			{"at": 35, "pos": [-8, 16, 70], "look": [-34, 2, 34], "fov": 46},
+			{"at": 39.9, "pos": [-60, 14, 60], "look": [-34, 2, 34], "fov": 46, "path": "orbit"},
+			{"at": 40, "cut": true, "pos": [30, 14, -64], "look": [0, -40, -20], "fov": 48},
+			{"at": 49.9, "pos": [90, 40, -110], "look": [0, -5, 0], "fov": 48}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 10,
+			"background": "sunset",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Venus is the hottest planet: about 465 °C on the ground!",
+			"say": "Venus is the hottest planet. Its ground is about 465 degrees: hot enough to melt lead.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "465 °C",
+					"at": [180, 74],
+					"size": 34,
+					"color": "white",
+					"box": "red",
+					"moves": [{"do": "pop", "at": 2.0}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sunset",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "But about 50 km up, the air is much cooler.",
+			"say": "But high above the ground, about 50 kilometres up, the air presses like Earth's and is much cooler.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "50 km UP",
+					"at": [180, 74],
+					"size": 34,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 1.6}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sunset",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Our air is lighter than Venus's thick air, so a balloon of it floats!",
+			"say": "The air we breathe is lighter than Venus's thick air, so a big float full of it bobs up, like a boat on water.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "IT FLOATS!",
+					"at": [180, 74],
+					"size": 34,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 5.0}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sunset",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "Scientists have imagined airships and cities up there.",
+			"say": "Scientists have imagined airships and floating cities up there, with homes and gardens on top.",
+			"actors": [
+				{
+					"kind": "words",
+					"text": "HOMES",
+					"at": [110, 74],
+					"size": 28,
+					"color": "white",
+					"box": "teal",
+					"moves": [{"do": "pop", "at": 1.0}]
+				},
+				{
+					"kind": "words",
+					"text": "GARDEN",
+					"at": [250, 74],
+					"size": 28,
+					"color": "white",
+					"box": "leaf",
+					"moves": [{"do": "pop", "at": 5.2}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "sunset",
+			"camera": {"zoom": [1.0, 1.0]},
+			"caption": "The clouds below are acid. Would you visit a city in the clouds?",
+			"say": "Stay out of the clouds below: they are made of acid. Would you like to visit a city in the clouds?",
+			"sounds": [{"at": 6.0, "effect": "chime"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "ACID CLOUDS",
+					"at": [180, 74],
+					"size": 28,
+					"color": "ink",
+					"box": "lime",
+					"moves": [{"do": "pop", "at": 1.4}]
+				}
+			]
+		}
+	]
+}

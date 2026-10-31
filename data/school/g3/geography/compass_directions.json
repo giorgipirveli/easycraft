@@ -1,0 +1,342 @@
+{
+	"id": "g3.geography.compass_directions",
+	"lesson": [
+		{
+			"text": "Quick memory: what does a map's key tell you? (What each symbol means.) Most maps also have a north arrow. Today: the compass and its directions."
+		},
+		{
+			"text": "A compass shows four main directions: north, east, south and west. Going clockwise, they always come in this order. A saying to remember it: Naughty Elephants Squirt Water."
+		},
+		{
+			"text": "Between them are four more: north-east, south-east, south-west and north-west. That makes eight points. North-east is halfway between north and east.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"north-west",
+						"north",
+						"north-east"
+					],
+					[
+						"west",
+						"",
+						"east"
+					],
+					[
+						"south-west",
+						"south",
+						"south-east"
+					]
+				]
+			}
+		},
+		{
+			"text": "A compass needle is a tiny magnet. Wherever you stand, it swings round to point north, so explorers like Zara can always find their way.",
+			"picture": {
+				"kind": "compass",
+				"points": 4,
+				"needle": true
+			}
+		},
+		{
+			"text": "The Sun helps too: it rises in the east and sets in the west. On most maps north is at the top, so east is on the right and west is on the left."
+		},
+		{
+			"text": "Turning: a quarter turn clockwise from north faces east; a half turn faces south. An eighth of a turn moves one point on the eight-point compass, from north to north-east.",
+			"picture": {
+				"kind": "compass",
+				"points": 8,
+				"bearing": 90
+			}
+		},
+		{
+			"text": "To give directions, say which way and how far: walk 3 squares north, then 2 squares east. Always start from where you are!"
+		},
+		{
+			"text": "Try it in the world: build a giant compass on the ground with blocks, a red block for north and the seven other points around it. Then give a friend directions to a treasure chest."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the four main compass points in order, going clockwise from north.",
+			"answer": [
+				0,
+				3,
+				1,
+				2
+			],
+			"hint": "Naughty Elephants Squirt Water.",
+			"items": [
+				"north",
+				"south",
+				"west",
+				"east"
+			],
+			"explain": "Clockwise from north: north, east, south, west."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which direction is opposite north?",
+			"answer": 0,
+			"hint": "Opposite means a half turn away.",
+			"choices": [
+				"south",
+				"east",
+				"west",
+				"north-east"
+			],
+			"explain": "South is opposite north; east is opposite west."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "On most maps, north is at the top.",
+			"answer": true,
+			"hint": "Look for the north arrow on a map.",
+			"explain": "True: most maps put north at the top, so east is on the right."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where does the Sun rise?",
+			"answer": 0,
+			"hint": "It sets in the west. Where is opposite west?",
+			"choices": [
+				"in the east",
+				"in the west",
+				"in the north",
+				"in the south"
+			],
+			"explain": "The Sun rises in the east and sets in the west."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Sun sets in the west.",
+			"answer": true,
+			"hint": "Morning Sun comes from one side, evening Sun from the opposite side.",
+			"explain": "True: it rises in the east and sets in the west."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which direction is halfway between north and east?",
+			"answer": 0,
+			"hint": "Put the two names together, north first.",
+			"choices": [
+				"north-east",
+				"south-east",
+				"north-west",
+				"east-west"
+			],
+			"explain": "Halfway between north and east is north-east."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What makes a compass needle point north?",
+			"answer": 0,
+			"hint": "Remember what the needle is made of.",
+			"choices": [
+				"it is a magnet",
+				"the wind",
+				"it is heavier at one end",
+				"the Sun pulls it"
+			],
+			"explain": "The needle is a tiny magnet, and Earth's magnetism turns it to point north."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If north is at the top of a map, east is on the left.",
+			"answer": false,
+			"hint": "Say the points clockwise from the top: north, then which way?",
+			"explain": "False: going clockwise from north at the top, east is on the right."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which direction is opposite south-west?",
+			"answer": 0,
+			"hint": "Swap each part for its opposite: south becomes north, west becomes east.",
+			"choices": [
+				"north-east",
+				"north-west",
+				"south-east",
+				"west"
+			],
+			"explain": "Opposite south is north and opposite west is east, so north-east."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these in order, going clockwise from north.",
+			"answer": [
+				2,
+				5,
+				4,
+				3,
+				0,
+				1
+			],
+			"hint": "Between each main point comes the point that joins its two names.",
+			"items": [
+				"south",
+				"south-west",
+				"north",
+				"south-east",
+				"east",
+				"north-east"
+			],
+			"explain": "North, north-east, east, south-east, south, south-west (then west and north-west)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram faces west and makes a half turn. Which way does he face now?",
+			"answer": 0,
+			"hint": "A half turn faces the opposite way.",
+			"choices": [
+				"east",
+				"west",
+				"north",
+				"south"
+			],
+			"explain": "A half turn from west faces east, the opposite direction."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara walks north, then turns to walk east. Which turn did she make?",
+			"answer": 0,
+			"hint": "Picture a clock: north is at 12. Where is east?",
+			"choices": [
+				"a quarter turn clockwise",
+				"a half turn",
+				"a quarter turn anticlockwise",
+				"no turn at all"
+			],
+			"explain": "From north to east is one step clockwise: a quarter turn clockwise."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi's cake shop is south-east of the well. Which direction is the well from the shop?",
+			"answer": 0,
+			"hint": "Going back the other way, each part of the direction swaps to its opposite.",
+			"choices": [
+				"north-west",
+				"south-east",
+				"north-east",
+				"south-west"
+			],
+			"explain": "The shop is south-east of the well, so the well is north-west of the shop."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each direction to its opposite.",
+			"items": [
+				"north",
+				"east",
+				"north-east",
+				"north-west"
+			],
+			"matches": [
+				"south-east",
+				"south-west",
+				"south",
+				"west"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Opposite means a half turn away. Swap each part of the name for its opposite.",
+			"explain": "North and south, east and west, north-east and south-west, north-west and south-east are opposites."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the directions: a main point, or one in between?",
+			"groups": [
+				"main point",
+				"in between"
+			],
+			"items": [
+				"north",
+				"south-east",
+				"west",
+				"north-west",
+				"east",
+				"south-west"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The main points are one word; the in-between points join two of them.",
+			"explain": "Main points: north, west and east (and south). In between: south-east, north-west and south-west, each halfway between two main points."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Zara faces north. Match each turn to the way she faces after it.",
+			"items": [
+				"a quarter turn clockwise",
+				"a half turn",
+				"three quarter turns clockwise",
+				"an eighth of a turn clockwise"
+			],
+			"matches": [
+				"north-east",
+				"west",
+				"south",
+				"east"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "A quarter turn moves one main point; an eighth moves one of the eight points.",
+			"explain": "A quarter turn clockwise: east. A half turn: south. Three quarter turns clockwise: west. An eighth of a turn clockwise: north-east."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3h.compass_turn",
+			"level": 1
+		},
+		{
+			"gen": "g3h.compass_turn",
+			"level": 2
+		},
+		{
+			"gen": "g3h.compass_turn",
+			"level": 3
+		},
+		{
+			"gen": "g3h.compass_map",
+			"level": 1
+		},
+		{
+			"gen": "g3h.compass_map",
+			"level": 2
+		},
+		{
+			"gen": "g3h.compass_map",
+			"level": 3
+		}
+	]
+}

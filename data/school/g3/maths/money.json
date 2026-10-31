@@ -1,0 +1,338 @@
+{
+	"id": "g3.maths.money",
+	"lesson": [
+		{
+			"text": "Quick memory: 100 − 35 = 65. Count on from 35: 5 more to 40, then 60 more to 100. 5 + 60 = 65.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "35",
+								"size": 35
+							},
+							{
+								"text": "?",
+								"size": 65
+							}
+						],
+						"total": "100"
+					}
+				]
+			}
+		},
+		{
+			"text": "In the worlds you pay with gold coins. A lantern costs 35 gold and a map 48 gold. Both together cost 35 + 48 = 83 gold.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Item",
+						"Price"
+					],
+					[
+						"Lantern",
+						"35 gold"
+					],
+					[
+						"Map",
+						"48 gold"
+					]
+				]
+			}
+		},
+		{
+			"text": "Buying more than one of something? Multiply: 3 cakes at 12 gold each cost 3 × 12 = 36 gold.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "12",
+								"size": 12
+							},
+							{
+								"text": "12",
+								"size": 12
+							},
+							{
+								"text": "12",
+								"size": 12
+							}
+						],
+						"total": "?"
+					}
+				]
+			}
+		},
+		{
+			"text": "Change is what you get back. Pay 100 gold for a hat that costs 64 gold: 100 − 64 = 36 gold change. Or count on from 64: 6 to 70, then 30 to 100. 6 + 30 = 36.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "64",
+								"size": 64
+							},
+							{
+								"text": "?",
+								"size": 36
+							}
+						],
+						"total": "100"
+					}
+				]
+			}
+		},
+		{
+			"text": "Is it enough? Nell has 80 gold. She wants a scarf at 45 gold and a kite at 38 gold. 45 + 38 = 83, and 83 > 80, so it is not enough. She needs 3 more gold."
+		},
+		{
+			"text": "Hoot's tip: round the prices to check. 298 + 199 is about 300 + 200 = 500 gold. Next, in grade 4: prices with parts of a coin.",
+			"picture": {
+				"kind": "icon",
+				"picture": "coin",
+				"count": 5
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A hat costs 25 gold and a kite costs 30 gold. How much do both cost?",
+			"answer": "55",
+			"hint": "Add the two prices.",
+			"explain": "25 + 30 = 55 gold."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Zara pays 50 gold for a book that costs 32 gold. How much change does Zara get?",
+			"answer": "18",
+			"hint": "Take the cost away from what was paid, or count on from 32 to 50.",
+			"explain": "50 − 32 = 18 gold change."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Pip has 40 gold. That is enough for a pie at 15 gold and a hat at 20 gold.",
+			"answer": true,
+			"hint": "Add the prices, then compare with 40.",
+			"explain": "15 + 20 = 35, and 35 < 40, so yes."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "How much do 2 torches cost at 9 gold each?",
+			"answer": "18",
+			"hint": "2 lots of 9.",
+			"explain": "2 × 9 = 18 gold."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which costs the most?",
+			"choices": [
+				"3 pies at 10 gold each",
+				"2 hats at 12 gold each",
+				"1 map at 25 gold",
+				"4 cakes at 5 gold each"
+			],
+			"answer": 0,
+			"hint": "Work out each cost.",
+			"explain": "30, 24, 25 and 20 gold: the 3 pies cost the most."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Mimi has 60 gold and spends 24 gold. How much gold is left?",
+			"answer": "36",
+			"hint": "Take away what was spent.",
+			"explain": "60 − 24 = 36 gold."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A lantern costs 125 gold and a bucket costs 68 gold. How much do both cost?",
+			"answer": "193",
+			"hint": "Add the prices.",
+			"explain": "125 + 68 = 193 gold."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Bram pays 500 gold for a map that costs 275 gold. How much change does Bram get?",
+			"answer": "225",
+			"hint": "500 − 275, or count on from 275 to 500.",
+			"explain": "275 + 25 = 300 and 300 + 200 = 500: 225 gold change."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How much do 3 cakes and a map cost?",
+			"answer": "49",
+			"hint": "Find each price in the table. 3 cakes: multiply.",
+			"explain": "3 × 8 = 24, and 24 + 25 = 49 gold.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Item",
+						"Price"
+					],
+					[
+						"Lantern",
+						"12 gold"
+					],
+					[
+						"Map",
+						"25 gold"
+					],
+					[
+						"Cake",
+						"8 gold"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Tilly has 200 gold. She buys a scarf at 95 gold and a book at 110 gold, and has gold left over.",
+			"answer": false,
+			"hint": "Add the prices and compare with 200.",
+			"explain": "95 + 110 = 205, which is more than 200: not enough, so no gold is left."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Nell buys a kite for 37 gold and pays with 100 gold. Which shows her change?",
+			"choices": [
+				"100 − 37 = 63",
+				"100 + 37 = 137",
+				"100 − 37 = 73",
+				"37 − 100 = 63"
+			],
+			"answer": 0,
+			"hint": "Change: what was paid take away the cost.",
+			"explain": "100 − 37 = 63 gold change."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Pip saves 15 gold each week. How much gold does Pip save in 6 weeks?",
+			"answer": "90",
+			"hint": "6 lots of 15.",
+			"explain": "6 × 15 = 90 gold."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara buys 4 pies at 15 gold each and a hat for 38 gold. She pays with 100 gold. How much change?",
+			"answer": "2",
+			"hint": "Step 1: the total cost. Step 2: take it from 100.",
+			"explain": "4 × 15 = 60, 60 + 38 = 98, and 100 − 98 = 2 gold change."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram has 1,000 gold. He buys a torch for 325 gold and a map for 450 gold. How much gold is left?",
+			"answer": "225",
+			"hint": "Add the prices, then take the total from 1,000.",
+			"explain": "325 + 450 = 775, and 1,000 − 775 = 225 gold."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "3 friends share the cost of a 96-gold kite equally. How much does each friend pay?",
+			"answer": "32",
+			"hint": "Share 96 into 3 equal parts.",
+			"explain": "96 ÷ 3 = 32 gold each."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi has 250 gold. Which can she buy?",
+			"choices": [
+				"2 books at 120 gold each",
+				"3 hats at 90 gold each",
+				"a lantern at 150 and a map at 110",
+				"5 pies at 55 gold each"
+			],
+			"answer": 0,
+			"hint": "Work out each total and compare with 250.",
+			"explain": "240 gold is enough; 270, 260 and 275 are more than 250."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A lantern costs 45 gold. 5 lanterns cost more than 200 gold.",
+			"answer": true,
+			"hint": "5 lots of 45.",
+			"explain": "5 × 45 = 225, which is more than 200."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly spent 175 gold and has 325 gold left. How much gold did she have at first?",
+			"answer": "500",
+			"hint": "Put back what was spent: add.",
+			"explain": "325 + 175 = 500 gold."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3f.money_total",
+			"level": 1
+		},
+		{
+			"gen": "g3f.money_total",
+			"level": 2
+		},
+		{
+			"gen": "g3f.money_total",
+			"level": 3
+		},
+		{
+			"gen": "g3f.money_change",
+			"level": 1
+		},
+		{
+			"gen": "g3f.money_change",
+			"level": 2
+		},
+		{
+			"gen": "g3f.money_change",
+			"level": 3
+		},
+		{
+			"gen": "g3f.can_afford",
+			"level": 1
+		},
+		{
+			"gen": "g3f.can_afford",
+			"level": 2
+		},
+		{
+			"gen": "g3f.can_afford",
+			"level": 3
+		},
+		{
+			"gen": "g3f.price_list",
+			"level": 1
+		},
+		{
+			"gen": "g3f.price_list",
+			"level": 2
+		},
+		{
+			"gen": "g3f.price_list",
+			"level": 3
+		}
+	]
+}

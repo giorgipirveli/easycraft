@@ -1,0 +1,330 @@
+{
+	"id": "g7.science.states",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met particles. Which state keeps its own shape? A solid: its particles are packed tightly and hold their places."
+		},
+		{
+			"text": "Particles are always moving. In a solid they vibrate in place; in a liquid they slide past each other; in a gas they move fast and far apart.",
+			"picture": {
+				"kind": "states",
+				"show": [
+					"solid",
+					"liquid",
+					"gas"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Adding heat makes particles move faster. Enough heat melts a solid into a liquid, then boils the liquid into a gas."
+		},
+		{
+			"text": "Taking heat away slows them down: a gas condenses into a liquid, and a liquid freezes into a solid."
+		},
+		{
+			"text": "While a substance is melting or boiling, its temperature stays the same: the energy goes into changing its state. Ice water stays at 0 °C until the ice has melted.",
+			"picture": {
+				"kind": "thermometer",
+				"from": -10,
+				"to": 10,
+				"step": 2,
+				"value": 0
+			}
+		},
+		{
+			"text": "Try it in the world: at a Science Lab bench, do \"Melting and freezing\" and watch the thermometer stop at 0 °C while the ice melts. Next: chemical reactions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do the particles in a solid do?",
+			"answer": 0,
+			"hint": "They are packed tightly.",
+			"choices": [
+				"vibrate in place",
+				"fly far apart",
+				"slide freely"
+			],
+			"explain": "They vibrate in place."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What happens to particles when you heat them?",
+			"answer": 0,
+			"hint": "Think of what heating gives the particles.",
+			"choices": [
+				"They move faster.",
+				"They stop.",
+				"They shrink."
+			],
+			"explain": "Heat makes them move faster."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Boiling turns a liquid into a gas.",
+			"answer": true,
+			"hint": "Think of a kettle.",
+			"explain": "Yes: boiling makes a gas."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is it called when a gas turns into a liquid?",
+			"answer": 0,
+			"hint": "Drops on a cold window.",
+			"choices": [
+				"condensation",
+				"melting",
+				"freezing"
+			],
+			"explain": "Condensation: the gas cools and turns into drops of liquid."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is it called when a liquid turns into a solid?",
+			"answer": 0,
+			"hint": "Think of making ice cubes in a freezer.",
+			"choices": [
+				"freezing",
+				"boiling",
+				"evaporating"
+			],
+			"explain": "Freezing: the liquid cools until it is solid."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Ice water is heated. What is its temperature while the ice melts?",
+			"answer": 0,
+			"hint": "The energy changes the state.",
+			"choices": [
+				"It stays at 0 °C.",
+				"It rises quickly.",
+				"It drops."
+			],
+			"explain": "It stays at 0 °C until all the ice has melted."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does a puddle disappear on a warm day?",
+			"answer": 0,
+			"hint": "Where does a puddle's water go? Think of the Sun warming it.",
+			"choices": [
+				"Its particles gain energy and escape as gas.",
+				"It sinks into the sky.",
+				"It freezes."
+			],
+			"explain": "Particles gain energy and escape as vapour."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the states from slowest particles to fastest.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Solids vibrate in place.",
+			"items": [
+				"liquid",
+				"solid",
+				"gas"
+			],
+			"explain": "Solid (vibrating in place), then liquid (sliding), then gas (fast and far apart)."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Taking heat away from water vapour can make it condense.",
+			"answer": true,
+			"hint": "Think of drops forming on a cold window.",
+			"explain": "Yes: cooling makes vapour condense."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In which state do particles slide past each other?",
+			"answer": 0,
+			"hint": "Which state flows and takes the shape of its container?",
+			"choices": [
+				"liquid",
+				"solid",
+				"gas"
+			],
+			"explain": "In a liquid: its particles slide past each other, so it flows."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does the temperature stop rising while water boils?",
+			"answer": 0,
+			"hint": "Where does the energy go?",
+			"choices": [
+				"The energy is changing liquid to gas.",
+				"The pan is full.",
+				"Heat stops flowing."
+			],
+			"explain": "The energy goes into changing the state."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A graph of heating ice has two flat parts. What are they?",
+			"answer": 0,
+			"hint": "When does the temperature stop rising?",
+			"choices": [
+				"melting and boiling",
+				"two mistakes",
+				"freezing twice"
+			],
+			"explain": "It stays flat while melting and while boiling."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does a balloon shrink in a freezer?",
+			"answer": 0,
+			"hint": "Cold slows particles.",
+			"choices": [
+				"Cold particles move slower and take less space.",
+				"The rubber melts.",
+				"Air leaks in."
+			],
+			"explain": "Slower particles push less and take less space."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A gas's particles are much farther apart than a solid's.",
+			"answer": true,
+			"hint": "Think of steam and ice.",
+			"explain": "Yes: gas particles are far apart."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What happens to a liquid's particles when it freezes?",
+			"answer": 0,
+			"hint": "Solids vibrate in place.",
+			"choices": [
+				"They slow down and lock in place.",
+				"They speed up.",
+				"They split apart."
+			],
+			"explain": "They slow and lock into place."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each change of state to its name.",
+			"items": [
+				"solid to liquid",
+				"liquid to gas",
+				"gas to liquid",
+				"liquid to solid"
+			],
+			"matches": [
+				"freezing",
+				"melting",
+				"condensing",
+				"boiling"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Think of ice, a kettle, a cold window and an ice-cube tray.",
+			"explain": "Solid to liquid: melting. Liquid to gas: boiling. Gas to liquid: condensing. Liquid to solid: freezing."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the changes: is heat added or taken away?",
+			"items": [
+				"ice melts",
+				"water boils",
+				"steam condenses",
+				"water freezes",
+				"a puddle dries up"
+			],
+			"groups": [
+				"heat added",
+				"heat taken away"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Do the particles need more energy to move faster, or do they slow down?",
+			"explain": "Melting, boiling and drying up need heat added. Condensing and freezing happen when heat is taken away."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the descriptions by state.",
+			"groups": [
+				"solid",
+				"liquid",
+				"gas"
+			],
+			"items": [
+				"keeps its own shape",
+				"flows into its container's shape",
+				"spreads out to fill any space",
+				"particles vibrate in place",
+				"particles slide past each other",
+				"particles move fast and far apart"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of ice, water and steam: which one does each describe?",
+			"explain": "Solid: it keeps its shape, and its particles vibrate in place. Liquid: it flows into its container's shape, and its particles slide past each other. Gas: it fills any space, and its particles move fast and far apart."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Ice at −10 °C is heated until it boils. Order what happens.",
+			"items": [
+				"The water warms from 0 °C to 100 °C.",
+				"The ice warms to 0 °C.",
+				"It boils, staying at 100 °C.",
+				"The ice melts, staying at 0 °C."
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Look for two flat parts on the heating graph: one for melting, one for boiling.",
+			"explain": "The ice warms to 0 °C, melts while staying at 0 °C, the water warms from 0 °C to 100 °C, then it boils while staying at 100 °C. On the two flat parts the energy goes into changing state."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Water at 20 °C is heated. Its temperature rises 10 °C every minute until it boils at 100 °C. After how many minutes does it start to boil?",
+			"answer": "8",
+			"hint": "Find how many degrees it must rise, then divide by the rise each minute.",
+			"explain": "It must rise 100 − 20 = 80 °C. At 10 °C a minute, that takes 80 ÷ 10 = 8 minutes. Then it stays at 100 °C while it boils."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "life.money.my_shop",
+	"lesson": [
+		{"text": "Quick memory: what is a fair price? (What it costs and a little profit.) Today you run a whole shop."},
+		{"text": "Ask customers what they want, and what it is for. A good question helps them choose."},
+		{"text": "Price = what it costs + a little profit. Too high: nobody buys. Too low: no money for more flour."},
+		{"text": "A complaint: listen, say it back, say sorry, fix it, and thank them. Then they come back."},
+		{"text": "The ledger: write money in and money out. Profit = money in take away money out."},
+		{"text": "Pay a helper a fair wage. Win customers with better quality and service, never with tricks or fake reviews."},
+		{"text": "Try it in the practice room: run your bakery for a day."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "A loaf costs 2 coins to make. Which price makes a profit?", "answer": 0, "choices": ["3 coins", "2 coins", "1 coin"], "hint": "More than it costs.", "explain": "3 coins: the cost and a little profit."},
+		{"type": "truefalse", "level": 1, "prompt": "If a price is far too high, customers go somewhere else.", "answer": true, "hint": "Would you pay it?", "explain": "True: nobody buys."},
+		{"type": "choice", "level": 1, "prompt": "A customer can't decide. A good question?", "answer": 0, "choices": ["What is it for?", "Just take the dearest!", "Be quick, please!"], "hint": "Help them choose.", "explain": "Ask what it is for."},
+		{"type": "number", "level": 2, "prompt": "Money in 12, money out 5. What is the profit?", "answer": "7", "hint": "In take away out.", "explain": "12 - 5 = 7."},
+		{"type": "number", "level": 2, "prompt": "Honey buns are 2 coins each. How many for 8 coins?", "answer": "4", "hint": "8 shared into twos.", "explain": "8 ÷ 2 = 4."},
+		{"type": "number", "level": 2, "prompt": "A cake is 4 coins. A customer pays with 10. The change?", "answer": "6", "hint": "10 take away 4.", "explain": "10 - 4 = 6."},
+		{"type": "order", "level": 2, "prompt": "A complaint: put it in order.", "answer": [2, 0, 3, 1], "items": ["say it back", "fix it", "listen", "say sorry"], "hint": "Listen first.", "explain": "Listen, say it back, say sorry, fix it."},
+		{"type": "choice", "level": 3, "prompt": "A new bakery opens nearby. How do you keep your customers?", "answer": 0, "choices": ["Better bread and kinder service", "Write fake 5-star reviews", "Say their bread is bad"], "hint": "Honest wins.", "explain": "Quality and service, never tricks."},
+		{"type": "truefalse", "level": 3, "prompt": "Fake reviews are a fair way to win customers.", "answer": false, "hint": "Are they true?", "explain": "False: they are lies, and real shops are not allowed to use them."},
+		{"type": "sort", "level": 3, "prompt": "Money in or money out?", "groups": ["money in", "money out"], "items": ["a customer pays", "flour for baking", "Bobo's wage", "a cake sold"], "answer": [0, 1, 1, 0], "hint": "Into the till, or out of it?", "explain": "Sales are money in; flour and wages are money out."},
+		{"type": "number", "level": 3, "prompt": "Money in 15. Flour 3 and a wage of 3 go out. The profit?", "answer": "9", "hint": "Take away both.", "explain": "15 - 3 - 3 = 9."}
+	]
+}

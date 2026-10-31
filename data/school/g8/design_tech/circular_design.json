@@ -1,0 +1,376 @@
+{
+	"id": "g8.design_tech.circular_design",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met the 6 Rs. Can you name three? (Rethink, refuse, reduce, reuse, repair, recycle.) Today: designing products so that nothing becomes waste."
+		},
+		{
+			"text": "A linear economy takes, makes and throws away. A circular economy keeps products and materials in use as long as possible, and returns natural materials safely to the soil.",
+			"picture": {
+				"kind": "circular_loop"
+			}
+		},
+		{
+			"text": "Technical loops keep products going: maintain and repair, reuse and share, refurbish and remanufacture, and last of all recycle. The smaller the loop, the more value and energy is saved.",
+			"picture": {
+				"kind": "circular_loop",
+				"side": "technical",
+				"mark": "maintain"
+			}
+		},
+		{
+			"text": "Biological loops return natural materials to nature: food waste and plant-based materials are composted or turned into biogas, and feed new crops.",
+			"picture": {
+				"kind": "circular_loop",
+				"side": "biological"
+			}
+		},
+		{
+			"text": "Design for repair and disassembly: screws instead of glue, standard parts, spare parts and repair guides. Modules swap out, and parts come apart into single materials for recycling."
+		},
+		{
+			"text": "Cost per year shows real value. A 20-gold kettle lasting 2 years costs 20 ÷ 2 = 10 gold a year. A 45-gold kettle lasting 9 years costs 45 ÷ 9 = 5 gold a year.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"kettle",
+						"price",
+						"lasts",
+						"cost per year"
+					],
+					[
+						"A",
+						"20 gold",
+						"2 years",
+						"10 gold"
+					],
+					[
+						"B",
+						"45 gold",
+						"9 years",
+						"5 gold"
+					]
+				]
+			}
+		},
+		{
+			"text": "New ideas keep things in use: renting, sharing, take-back schemes and repair cafés. Since 2021, right to repair laws in the UK and the EU make some appliances' makers supply spare parts for years."
+		},
+		{
+			"text": "Try it in the world: mend something with a grown-up, or plan a swap shop in your village. In LIFE, the Tool Book shows the sandpaper and the pliers, for mending and refinishing. Next: future technology."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A linear economy is take, make, throw away.",
+			"answer": true,
+			"hint": "Picture a straight line with no way back.",
+			"explain": "True: linear means materials go one way, to waste; circular keeps them going round."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which loop keeps the most value in a product?",
+			"picture": {
+				"kind": "circular_loop",
+				"side": "technical"
+			},
+			"choices": [
+				"maintain and repair",
+				"recycle",
+				"landfill",
+				"burn it for energy"
+			],
+			"answer": 0,
+			"hint": "The smaller the loop, the more is saved.",
+			"explain": "Keeping a product working keeps all its parts, energy and value; recycling keeps only the materials."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each loop to an example.",
+			"items": [
+				"maintain",
+				"reuse",
+				"refurbish",
+				"recycle"
+			],
+			"matches": [
+				"fixing up old laptops to resell",
+				"cans melted into new metal",
+				"oiling a bike chain",
+				"a coat for a cousin"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Kept going, passed on, made like new, or melted down?",
+			"explain": "Maintain: oiling. Reuse: passing a coat on. Refurbish: laptops made like new. Recycle: cans melted."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A 30-gold lamp lasts 6 years. What does it cost per year?",
+			"answer": "5",
+			"hint": "Share the price by the years it lasts.",
+			"explain": "30 ÷ 6 = 5 gold a year."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "A technical or a biological material?",
+			"groups": [
+				"technical",
+				"biological"
+			],
+			"items": [
+				"apple peel",
+				"garden leaves",
+				"an aluminium can",
+				"a phone",
+				"a glass bottle"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				0
+			],
+			"hint": "Can it rot safely back into the soil?",
+			"explain": "Biological: peel and leaves, which rot. Technical: glass, phones and cans, kept going by technical loops."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the loops: tap a word, then its number.",
+			"picture": {
+				"kind": "circular_loop",
+				"pins": true,
+				"words": false
+			},
+			"labels": [
+				"maintain",
+				"refurbish",
+				"recycle",
+				"compost"
+			],
+			"hint": "The smallest technical loop is nearest the middle; the biological loop is on the left.",
+			"explain": "From the smallest technical loop out: maintain, then refurbish, then recycle, the biggest. Compost is the biological loop, back to the soil.",
+			"spots": [
+				[
+					0.94,
+					0.64,
+					0.6769,
+					0.5331
+				],
+				[
+					0.94,
+					0.4,
+					0.7194,
+					0.4485
+				],
+				[
+					0.06,
+					0.4485,
+					0.2877,
+					0.4485
+				],
+				[
+					0.94,
+					0.88,
+					0.592,
+					0.581
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which design is easiest to repair?",
+			"choices": [
+				"held together with screws, with spare parts",
+				"glued shut",
+				"welded with no spare parts",
+				"sealed with special screws"
+			],
+			"answer": 0,
+			"hint": "Could you open it with ordinary tools?",
+			"explain": "Screws let you open it, and spare parts let you fix it."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Kettle A costs 24 gold and lasts 2 years; kettle B costs 60 gold and lasts 10 years. How much less per year does B cost?",
+			"answer": "6",
+			"hint": "Work out each one's cost per year, then subtract.",
+			"explain": "A: 24 ÷ 2 = 12 a year. B: 60 ÷ 10 = 6 a year. 12 − 6 = 6 gold less a year."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Glue makes a product easier to take apart.",
+			"answer": false,
+			"hint": "Think about what glue is for.",
+			"explain": "False: glue makes parts hard to separate; screws and clips make disassembly easy."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Easy to repair, or hard to repair?",
+			"groups": [
+				"easy to repair",
+				"hard to repair"
+			],
+			"items": [
+				"a sealed-in battery",
+				"a battery you can swap",
+				"parts that unclip",
+				"a free repair guide",
+				"no spare parts sold"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				0,
+				1
+			],
+			"hint": "Can it be opened, and can you get the parts and the know-how?",
+			"explain": "Easy: a swappable battery, a repair guide, unclipping parts. Hard: a sealed battery, no spare parts."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does remanufacture mean?",
+			"choices": [
+				"rebuilding used products as good as new",
+				"burning them",
+				"burying them",
+				"melting them into raw material"
+			],
+			"answer": 0,
+			"hint": "It is one of the technical loops, bigger than reuse.",
+			"explain": "Remanufacturing rebuilds used products, like engines, so they work as new: a loop that saves the parts."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Over 12 years: a 15-gold toaster lasts 3 years, or a 40-gold one lasts all 12. How much more do the cheap ones cost in all?",
+			"answer": "20",
+			"hint": "How many cheap ones are needed? Add up their cost, then compare.",
+			"explain": "12 ÷ 3 = 4 cheap toasters × 15 = 60 gold; 60 − 40 = 20 gold more."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A sofa's cover is torn, but its frame is strong. What is the best choice?",
+			"choices": [
+				"replace the cover, keep the sofa",
+				"throw the sofa away",
+				"recycle the whole sofa",
+				"buy a new sofa"
+			],
+			"answer": 0,
+			"hint": "Choose the smallest loop that still works.",
+			"explain": "Replacing only the cover keeps the strong frame in use: maintain and repair saves the most."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Right to repair laws make some appliances' makers supply spare parts for years.",
+			"answer": true,
+			"hint": "Think about the laws the lesson named, from 2021.",
+			"explain": "True: since 2021, UK and EU rules mean makers of some appliances, like washing machines, must supply spare parts for years."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each idea to how it keeps things in use.",
+			"items": [
+				"renting",
+				"take-back scheme",
+				"repair café",
+				"tool library"
+			],
+			"matches": [
+				"volunteers mend things",
+				"neighbours borrow tools",
+				"many people use one item",
+				"the maker reuses the parts"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Who uses or mends the product in each idea?",
+			"explain": "Renting shares one item; take-back lets makers reuse parts; repair cafés mend; tool libraries lend."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which material choice makes recycling easiest?",
+			"choices": [
+				"one kind of plastic, labelled",
+				"three plastics glued together",
+				"plastic painted with metal",
+				"plastic mixed with wood dust"
+			],
+			"answer": 0,
+			"hint": "Recycling needs materials that can be sorted.",
+			"explain": "A single labelled plastic can be sorted and recycled; mixed, glued or coated materials can't be separated."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.loop_order",
+			"level": 1
+		},
+		{
+			"gen": "g8l.loop_order",
+			"level": 2
+		},
+		{
+			"gen": "g8l.loop_order",
+			"level": 3
+		},
+		{
+			"gen": "g8l.cost_per_year",
+			"level": 1
+		},
+		{
+			"gen": "g8l.cost_per_year",
+			"level": 2
+		},
+		{
+			"gen": "g8l.cost_per_year",
+			"level": 3
+		},
+		{
+			"gen": "g8l.repair_feature",
+			"level": 1
+		},
+		{
+			"gen": "g8l.repair_feature",
+			"level": 2
+		},
+		{
+			"gen": "g8l.repair_feature",
+			"level": 3
+		}
+	]
+}

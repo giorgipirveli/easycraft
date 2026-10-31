@@ -1,0 +1,448 @@
+{
+	"id": "g3.science.magnets",
+	"lesson": [
+		{
+			"text": "Remember? A force is a push or a pull, and most of them need touching. Magnets are different: they can pull without touching at all!",
+			"picture": {
+				"kind": "icon",
+				"block": 20
+			}
+		},
+		{
+			"text": "A magnet pulls things made of iron, steel or nickel: these are magnetic. Wood, plastic, glass, paper and most other metals, like aluminium, copper and gold, are not magnetic.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"magnetic",
+						"not magnetic"
+					],
+					[
+						"iron",
+						"wood"
+					],
+					[
+						"steel",
+						"plastic"
+					],
+					[
+						"nickel",
+						"aluminium"
+					]
+				]
+			}
+		},
+		{
+			"text": "Every magnet has two ends called poles: north (N) and south (S). Unlike poles attract: N and S pull together. Like poles repel: N and N, or S and S, push apart.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Ends facing",
+						"What happens"
+					],
+					[
+						"N and S",
+						"pull together"
+					],
+					[
+						"N and N",
+						"push apart"
+					],
+					[
+						"S and S",
+						"push apart"
+					]
+				]
+			}
+		},
+		{
+			"text": "A magnet's pull works through paper, card, plastic and water, and it is stronger the closer the magnet is. The pull is strongest at the poles."
+		},
+		{
+			"text": "Make a magnet: stroke a steel needle with one pole of a magnet, many times, always the same way. The needle becomes a magnet. A compass needle is a tiny magnet that turns to point north.",
+			"picture": {
+				"kind": "icon",
+				"picture": "compass"
+			}
+		},
+		{
+			"text": "Static electricity pulls without touching too. Rub a balloon on your hair: now it pulls your hair and tiny bits of paper towards it. Rub two balloons, and they push each other apart."
+		},
+		{
+			"text": "Engineers use magnets to solve problems: fridge doors that stay shut, cupboard catches, and big magnets that lift steel cans out of the rubbish at a recycling centre. What problem could a magnet solve for you?"
+		},
+		{
+			"text": "Try it in the world: at a Science Lab bench, do \"Magnetic or not?\". Predict each thing first, then test it. Next: light and shadows."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these would a magnet pull?",
+			"answer": 0,
+			"hint": "Magnets pull iron and steel.",
+			"choices": [
+				"an iron nail",
+				"a wooden spoon",
+				"a plastic cup",
+				"a glass marble"
+			],
+			"explain": "The nail is iron, so the magnet pulls it. Wood, plastic and glass are not magnetic."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A magnet pulls a steel paper clip.",
+			"answer": true,
+			"hint": "Steel is made mostly of iron.",
+			"explain": "True: steel is magnetic, so the magnet pulls the paper clip."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What are the two ends of a magnet called?",
+			"answer": 0,
+			"hint": "The same words are on a compass.",
+			"choices": [
+				"the north and south poles",
+				"the hot and cold ends",
+				"the front and back wheels"
+			],
+			"explain": "A magnet's ends are its north pole and its south pole."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A magnet pulls a plastic ruler.",
+			"answer": false,
+			"hint": "Is plastic magnetic?",
+			"explain": "False: plastic is not magnetic."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A north pole meets a south pole. What happens?",
+			"answer": 0,
+			"hint": "Unlike poles attract.",
+			"choices": [
+				"They pull together",
+				"They push apart",
+				"Nothing at all"
+			],
+			"explain": "N and S are unlike poles, so they pull together.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Ends facing",
+						"What happens"
+					],
+					[
+						"N and S",
+						"pull together"
+					],
+					[
+						"N and N",
+						"push apart"
+					],
+					[
+						"S and S",
+						"push apart"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Two north poles face each other. What happens?",
+			"answer": 0,
+			"hint": "Like poles repel.",
+			"choices": [
+				"They push apart",
+				"They pull together",
+				"Nothing at all"
+			],
+			"explain": "Two north poles are like poles, so they push apart."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A magnet can pull a steel paper clip through a sheet of paper.",
+			"answer": true,
+			"hint": "Does the pull need to touch?",
+			"explain": "True: a magnet's pull works through paper, card, plastic and water."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which metal is NOT pulled by a magnet?",
+			"answer": 0,
+			"hint": "Only a few metals are magnetic.",
+			"choices": [
+				"aluminium",
+				"iron",
+				"steel",
+				"nickel"
+			],
+			"explain": "Aluminium is not magnetic. Iron, steel and nickel are."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does a compass needle turn to point north?",
+			"answer": 0,
+			"hint": "What is the needle made into?",
+			"choices": [
+				"It is a tiny magnet",
+				"The wind blows it",
+				"It is heavy at one end"
+			],
+			"explain": "The needle is a tiny magnet, and the Earth pulls it round to point north.",
+			"picture": {
+				"kind": "icon",
+				"picture": "compass"
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, from the weakest pull on a paper clip to the strongest.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Is the pull stronger near or far?",
+			"items": [
+				"magnet 1 cm away",
+				"magnet 5 cm away",
+				"magnet 10 cm away",
+				"magnet 20 cm away"
+			],
+			"explain": "The closer the magnet, the stronger the pull: 20 cm is weakest and 1 cm is strongest."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Rub a balloon on your hair. What can it pull now?",
+			"answer": 0,
+			"hint": "Static electricity pulls light things.",
+			"choices": [
+				"tiny bits of paper",
+				"a heavy book",
+				"an iron car"
+			],
+			"explain": "The rubbed balloon has static electricity: it pulls light things like tiny bits of paper and your hair."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly's cupboard door keeps swinging open. Which plan uses a magnet to fix it?",
+			"answer": 0,
+			"hint": "The magnet needs something magnetic to pull on.",
+			"choices": [
+				"a magnet on the door, steel on the frame",
+				"a plastic strip on both",
+				"a magnet on the door only"
+			],
+			"explain": "The magnet on the door pulls the steel on the frame, so the door stays shut."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "At the recycling centre, how can a magnet help?",
+			"answer": 0,
+			"hint": "Which cans are magnetic?",
+			"choices": [
+				"It lifts steel cans out of the pile",
+				"It lifts aluminium cans out",
+				"It lifts glass bottles out"
+			],
+			"explain": "Steel cans are magnetic, so a big magnet lifts them away from the aluminium cans and glass."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Magnet A's N end faces magnet B's N end. Bram turns magnet B round. What happens now?",
+			"answer": 0,
+			"hint": "After turning, which pole of B faces A's N?",
+			"choices": [
+				"They pull together",
+				"They push apart",
+				"Nothing changes"
+			],
+			"explain": "Now B's south pole faces A's north pole. Unlike poles attract, so they pull together."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How can you make a steel needle into a magnet?",
+			"answer": 0,
+			"hint": "The needle needs to touch a magnet many times.",
+			"choices": [
+				"Stroke it with a magnet, the same way",
+				"Paint it red",
+				"Put it in water"
+			],
+			"explain": "Stroking it many times with one pole of a magnet, always the same way, makes the needle a magnet."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Magnet A lifts a chain of 7 paper clips. Magnet B lifts 12. How many more does B lift?",
+			"answer": "5",
+			"hint": "Take the smaller number from the bigger one.",
+			"explain": "12 − 7 = 5 more paper clips, so B is the stronger magnet."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Two balloons rubbed on hair push each other apart.",
+			"answer": true,
+			"hint": "They have the same kind of charge.",
+			"explain": "True: like charges repel, just as like poles of magnets do."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: magnetic or not magnetic?",
+			"hint": "Only iron, steel and a few other metals are magnetic.",
+			"groups": [
+				"magnetic",
+				"not magnetic"
+			],
+			"items": [
+				"an iron nail",
+				"a plastic ruler",
+				"a steel paper clip",
+				"an aluminium can",
+				"a wooden spoon"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"explain": "Magnetic: the iron nail and the steel paper clip. Not magnetic: plastic, aluminium and wood."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Attract or repel?",
+			"items": [
+				"N and S",
+				"N and N",
+				"S and N",
+				"S and S"
+			],
+			"groups": [
+				"attract",
+				"repel"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Unlike poles attract; like poles repel.",
+			"explain": "N and S, or S and N, are unlike and pull together. N and N, or S and S, are alike and push apart."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each problem to how a magnet solves it.",
+			"items": [
+				"a door that swings open",
+				"steel cans in the rubbish",
+				"finding north on a hike"
+			],
+			"matches": [
+				"a compass needle",
+				"a magnetic catch",
+				"a big magnet lifts them"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Cards 4 and 6 show magnets at work.",
+			"explain": "A magnetic catch keeps a door shut. A big magnet lifts steel cans out of the rubbish. A compass needle, a tiny magnet, points north."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A magnet is held under a sheet of card. Sort the things: pulled through the card, or not?",
+			"groups": [
+				"pulled through card",
+				"not pulled"
+			],
+			"items": [
+				"a steel paper clip",
+				"a wooden bead",
+				"an iron nail",
+				"an aluminium can",
+				"a glass marble"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Card does not stop a magnet's pull. Is each thing magnetic?",
+			"explain": "A magnet's pull works through card, so the steel clip and the iron nail are still pulled. Wood, aluminium and glass are not magnetic, card or no card."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the magnets from the weakest to the strongest.",
+			"items": [
+				"magnet A: lifts 7 clips",
+				"magnet C: lifts 3 clips",
+				"magnet B: lifts 12 clips"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "The more paper clips it lifts, the stronger the magnet.",
+			"explain": "Magnet C lifts 3 clips, A lifts 7 and B lifts 12: C is the weakest and B the strongest."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3s.magnet_poles",
+			"level": 1
+		},
+		{
+			"gen": "g3s.magnet_poles",
+			"level": 2
+		},
+		{
+			"gen": "g3s.magnet_poles",
+			"level": 3
+		},
+		{
+			"gen": "g3s.magnetic_or_not",
+			"level": 1
+		},
+		{
+			"gen": "g3s.magnetic_or_not",
+			"level": 2
+		},
+		{
+			"gen": "g3s.magnetic_or_not",
+			"level": 3
+		}
+	]
+}

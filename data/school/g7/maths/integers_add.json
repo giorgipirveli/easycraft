@@ -1,0 +1,175 @@
+{
+	"id": "g7.maths.integers_add",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met negative numbers. Which is colder: −5 °C or −2 °C? −5 °C: it is further below zero."
+		},
+		{
+			"text": "On a number line, adding a positive moves right; adding a negative moves left. −3 + 5 = 2.",
+			"picture": {
+				"kind": "number_line",
+				"from": "-5",
+				"to": "5",
+				"step": "1",
+				"dot": "2",
+				"labels": "all"
+			}
+		},
+		{
+			"text": "Opposites add to zero: 7 + (−7) = 0."
+		},
+		{
+			"text": "Taking away a number is the same as adding its opposite: 5 − (−3) = 5 + 3 = 8.",
+			"picture": {
+				"kind": "thermometer",
+				"from": -10,
+				"to": 10,
+				"step": 2,
+				"value": -6
+			}
+		},
+		{
+			"text": "The distance between two numbers is the absolute value of their difference: from −4 to 6 is |6 − (−4)| = 10."
+		},
+		{
+			"text": "Try it in the world: in Frostpeak it is −6 °C at night and 3 °C by day. How many degrees warmer is the day? 3 − (−6) = 9. Next: multiplying and dividing integers."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "−3 + 5 = ?",
+			"answer": "2",
+			"hint": "Start at −3, move 5 right.",
+			"explain": "−3 + 5 = 2."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "7 + (−7) = ?",
+			"answer": "0",
+			"hint": "A number and its opposite: how far apart from 0 are they?",
+			"explain": "Opposites add to 0."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "−4 + (−2) = −6",
+			"answer": true,
+			"hint": "Move left twice.",
+			"explain": "Yes: start at −4 and move 2 more to the left: −6."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "5 − (−3) = ?",
+			"answer": "8",
+			"hint": "Add the opposite.",
+			"explain": "5 + 3 = 8."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "−8 − 4 = ?",
+			"answer": "-12",
+			"hint": "Move 4 more to the left.",
+			"explain": "Start at −8 and move 4 left: −12."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The temperature is −6 °C and rises by 9 degrees. What is it now?",
+			"answer": 0,
+			"hint": "Start at −6 on the thermometer and go up 9.",
+			"choices": [
+				"3 °C",
+				"−15 °C",
+				"15 °C"
+			],
+			"explain": "−6 + 9 = 3."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How far apart are −4 and 6 on a number line?",
+			"answer": "10",
+			"hint": "Count the steps from −4 up to 0, then from 0 up to 6.",
+			"explain": "The distance is |6 − (−4)|. Taking away −4 is adding 4: 6 + 4 = 10. On the number line: 4 steps up to 0, then 6 more."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "−7 + 12 − 9 = ?",
+			"answer": "-4",
+			"hint": "Work left to right.",
+			"explain": "Work from left to right: −7 + 12 = 5, then 5 − 9 = −4. Check on the number line: up 12 from −7 reaches 5, down 9 reaches −4."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each sum to its answer.",
+			"items": [
+				"−3 + 5",
+				"−4 + (−2)",
+				"5 − (−3)",
+				"7 + (−7)"
+			],
+			"matches": [
+				"8",
+				"0",
+				"2",
+				"−6"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Move right to add a positive, left to add a negative; taking away a negative adds.",
+			"explain": "−3 + 5 = 2; −4 + (−2) = −6; 5 − (−3) = 8; 7 + (−7) = 0."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the temperatures from coldest to warmest.",
+			"items": [
+				"−2 °C",
+				"3 °C",
+				"−8 °C",
+				"0 °C"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1
+			],
+			"hint": "The further below zero, the colder.",
+			"explain": "−8 °C, then −2 °C, then 0 °C, then 3 °C."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A diver is at −18 m. She rises 7 m, then dives 12 m deeper. Where is she now, in metres?",
+			"answer": "-23",
+			"hint": "Rising adds, diving takes away. Work it out one move at a time.",
+			"explain": "Rising 7 m: −18 + 7 = −11. Diving 12 m: −11 − 12 = −23. She is at −23 m, 23 m below the surface."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7n.add_integers",
+			"level": 1
+		},
+		{
+			"gen": "g7n.add_integers",
+			"level": 2
+		},
+		{
+			"gen": "g7n.add_integers",
+			"level": 3
+		}
+	]
+}

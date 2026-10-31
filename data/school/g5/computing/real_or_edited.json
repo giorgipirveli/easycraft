@@ -1,0 +1,362 @@
+{
+	"id": "g5.computing.real_or_edited",
+	"lesson": [
+		{
+			"text": "Quick memory: which three questions check a web page? (Who wrote it, when, and why?) Today: pictures and posts that can trick us."
+		},
+		{
+			"text": "Pictures can be edited: colours changed, things taken out or pasted in. Some pictures are made by computer programs and never happened at all."
+		},
+		{
+			"text": "Editing is not always bad: brightening a dark photo or making art is fine. A picture misleads when it tries to make you believe something that is not true."
+		},
+		{
+			"text": "Clues that a photo was changed: shadows pointing different ways, or light that doesn't match. Look for edges that are too sharp or too blurry round one thing, and patterns copied twice.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"clue",
+						"look at"
+					],
+					[
+						"shadows",
+						"do they all match?"
+					],
+					[
+						"light",
+						"from one side?"
+					],
+					[
+						"edges",
+						"sharp or blurry?"
+					],
+					[
+						"patterns",
+						"copied twice?"
+					]
+				]
+			}
+		},
+		{
+			"text": "Worked example: in a sunny photo, the sun is on the left, so every shadow should fall to the right. The person's shadow falls to the left: they were pasted in from another photo.",
+			"picture": {
+				"kind": "shadow_photo",
+				"things": [
+					"tree",
+					"person",
+					"tree"
+				],
+				"sun": "left",
+				"odd": 1
+			}
+		},
+		{
+			"text": "A post can mislead with a real photo too: an old photo with a new, false caption, or a photo cut so you can't see what was around it."
+		},
+		{
+			"text": "Charts can mislead. This one starts at 50, not 0, so 52 and 55 look very different. Always read the numbers, not only the heights of the bars.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"Pip",
+						52
+					],
+					[
+						"Moss",
+						55
+					]
+				],
+				"to": 56,
+				"step": 1,
+				"from": 50,
+				"title": "Gems found"
+			}
+		},
+		{
+			"text": "Try it in the world: with a grown-up, look at a surprising picture online. Can you find where it first came from, and when? Next: spreadsheets."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Every photo online shows exactly what happened.",
+			"answer": false,
+			"hint": "Think of photos that were edited or made by a computer.",
+			"explain": "False: photos can be edited, or made by computer programs, or shown with false words."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The sun is on the left. One thing was pasted into this photo from another one. Which?",
+			"answer": 0,
+			"hint": "Shadows fall away from the sun. Find the one that doesn't.",
+			"choices": [
+				"the 2nd from the left",
+				"the 1st from the left",
+				"the 3rd from the left"
+			],
+			"explain": "The sun is on the left, so shadows fall to the right. The 2nd thing's shadow falls to the left: it was pasted in.",
+			"picture": {
+				"kind": "shadow_photo",
+				"things": [
+					"tree",
+					"person",
+					"tree"
+				],
+				"sun": "left",
+				"odd": 1
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a clue that a photo was edited?",
+			"answer": 0,
+			"hint": "Which one would be odd in a real sunny photo?",
+			"choices": [
+				"Shadows point different ways",
+				"The sky is blue",
+				"The photo is in colour",
+				"There are trees"
+			],
+			"explain": "In a real photo lit by the sun, every shadow points the same way. Shadows pointing different ways are a clue."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: editing that's fine, or editing that misleads?",
+			"groups": [
+				"fine",
+				"misleads"
+			],
+			"items": [
+				"brightening a dark photo",
+				"a clearly labelled joke picture",
+				"a pasted-in shark called real news",
+				"an old photo posted as today's"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Is it trying to make people believe something false?",
+			"explain": "Brightening a photo or a labelled joke is fine. A pasted-in shark called news and an old photo posted as today's mislead."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Moss's bar looks much taller. How many more gems did Moss really find than Pip?",
+			"answer": "3",
+			"hint": "Read the numbers on the side, not the heights of the bars.",
+			"explain": "Pip found 52 and Moss 55: 55 − 52 = 3 more. The axis starts at 50, which makes 3 look like a lot.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"Pip",
+						52
+					],
+					[
+						"Moss",
+						55
+					]
+				],
+				"to": 56,
+				"step": 1,
+				"from": 50,
+				"title": "Gems found"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A post shows a real photo of snow with the words 'Snow in the desert today!', but it is an old mountain photo. What kind of trick is it?",
+			"answer": 0,
+			"hint": "Is the photo itself changed, or only the words with it?",
+			"choices": [
+				"a real photo with a false caption",
+				"a pasted-in picture",
+				"a picture made by a computer",
+				"no trick"
+			],
+			"explain": "The photo is real but the words are false: a real photo with a false caption."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps for checking a surprising picture in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "The first step is to wait.",
+			"items": [
+				"Look for clues like odd shadows",
+				"Check trusted news or ask a grown-up",
+				"Stop: don't share it yet",
+				"Find where it first came from",
+				"Then decide whether to share it"
+			],
+			"explain": "Stop, look for clues, find where it came from, check trusted news or a grown-up, then decide."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In a sunny photo, all the shadows fall away from the sun.",
+			"answer": true,
+			"hint": "Where is the light coming from?",
+			"explain": "True: things block the sunlight, so their shadows fall on the side away from the sun."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The sun is on the right. One thing was pasted into this photo. Which?",
+			"answer": 0,
+			"hint": "The sun is on the right, so which way should shadows fall?",
+			"choices": [
+				"the 3rd from the left",
+				"the 1st from the left",
+				"the 2nd from the left",
+				"the 4th from the left"
+			],
+			"explain": "Shadows should fall to the left. The 3rd thing's shadow falls to the right, towards the sun: it was pasted in.",
+			"picture": {
+				"kind": "shadow_photo",
+				"things": [
+					"tree",
+					"post",
+					"person",
+					"tree"
+				],
+				"sun": "right",
+				"odd": 2
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do some misleading charts start their axis above 0?",
+			"answer": 0,
+			"hint": "What happens to the bars when the bottom of the chart is cut off?",
+			"choices": [
+				"To make small differences look big",
+				"To save paper",
+				"Because 0 is not a number",
+				"To make them easier"
+			],
+			"explain": "Cutting off the bottom makes a small difference between bars look big."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Zara's bar looks 4 times as tall as Bram's. How many more gems did Zara really find?",
+			"answer": "3",
+			"hint": "Read both numbers on the side, then take one from the other.",
+			"explain": "Bram found 81 and Zara 84: 84 − 81 = 3 more. The axis starts at 80, so 3 looks 4 times as big.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"Bram",
+						81
+					],
+					[
+						"Zara",
+						84
+					]
+				],
+				"to": 85,
+				"step": 1,
+				"from": 80,
+				"title": "Gems found"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which headline is written to trick you into clicking?",
+			"answer": 0,
+			"hint": "Which one hides the facts and shouts to make you curious?",
+			"choices": [
+				"You won't BELIEVE what this cat did!!!",
+				"Cat finds its way home after 3 days",
+				"Cat show on Saturday",
+				"How to care for a new kitten"
+			],
+			"explain": "It hides what happened and uses capitals and !!! to make you click. The others just say what they are about."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A picture made by a computer program can look like a real photo.",
+			"answer": true,
+			"hint": "Think about computer-made pictures.",
+			"explain": "True: some programs make pictures that look real but never happened, so check where a picture came from."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Someone sends you an odd picture of a friend that looks edited. What is best?",
+			"answer": 0,
+			"hint": "How would your friend feel if it spread?",
+			"choices": [
+				"Don't share it, and tell a trusted adult",
+				"Share it to warn others",
+				"Add a funny caption",
+				"Post it everywhere"
+			],
+			"explain": "Don't share it: it could hurt your friend. Tell a trusted adult, who can help."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each trick to the clue that gives it away.",
+			"items": [
+				"a pasted-in person",
+				"an old photo, new caption",
+				"a cut axis on a chart",
+				"a clickbait headline"
+			],
+			"matches": [
+				"capitals, !!! and no facts",
+				"a shadow pointing wrongly",
+				"it first appeared years ago",
+				"the axis starts at 50, not 0"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Each trick leaves its own clue: in the light, the date, the numbers or the words.",
+			"explain": "A pasted-in person's shadow falls the wrong way. An old photo can be traced to where it first appeared, years ago. A cut axis starts above 0, so small gaps look big. Clickbait hides the story behind capitals and !!!."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5a.odd_shadow",
+			"level": 1
+		},
+		{
+			"gen": "g5a.odd_shadow",
+			"level": 2
+		},
+		{
+			"gen": "g5a.odd_shadow",
+			"level": 3
+		},
+		{
+			"gen": "g5a.chart_read",
+			"level": 3
+		}
+	]
+}

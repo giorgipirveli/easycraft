@@ -1,0 +1,204 @@
+{
+	"id": "g4.maths.decimals",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, fractions times whole numbers. What is 3 × 1/4? 3/4: 3 lots of one quarter."
+		},
+		{
+			"text": "A tenth is 1 of 10 equal parts. 3/10 is written 0.3 as a decimal: the first place after the point is tenths.",
+			"picture": {
+				"kind": "bar",
+				"den": 10,
+				"num": 3
+			}
+		},
+		{
+			"text": "A hundredth is 1 of 100 equal parts. 45/100 is 0.45: 4 tenths and 5 hundredths.",
+			"picture": {
+				"kind": "bar",
+				"den": 100,
+				"num": 45
+			}
+		},
+		{
+			"text": "1 tenth is 10 hundredths, so 3/10 = 30/100. That lets us add them: 3/10 + 4/100 = 30/100 + 4/100 = 34/100."
+		},
+		{
+			"text": "To compare decimals, compare the tenths first: 0.5 > 0.45 because 5 tenths are more than 4 tenths. 0.5 and 0.50 are equal.",
+			"picture": {
+				"kind": "number_line",
+				"from": "0",
+				"to": "1",
+				"step": "0.1",
+				"marks": [
+					"0.45",
+					"0.5"
+				],
+				"labels": "ends"
+			}
+		},
+		{
+			"text": "Try it in the world: build a wall of 10 blocks and colour 3 of them: 0.3 of the wall. Then a 10 by 10 floor with 45 coloured: 0.45. Next: measuring and converting."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Write 7/10 as a decimal.",
+			"answer": "0.7",
+			"hint": "Tenths go in the first place after the point.",
+			"explain": "7/10 = 0.7"
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "0.9 = ?/10",
+			"answer": "9",
+			"hint": "The first place after the point is tenths.",
+			"explain": "0.9 = 9/10"
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which decimal is 3 tenths?",
+			"choices": [
+				"0.3",
+				"3.0",
+				"0.03",
+				"30"
+			],
+			"answer": 0,
+			"hint": "Tenths are the first place after the point.",
+			"explain": "3 tenths = 0.3"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Write 8/100 as a decimal.",
+			"answer": "0.08",
+			"hint": "Hundredths are the second place after the point. There are no tenths.",
+			"explain": "8/100 = 0.08"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the greatest?",
+			"choices": [
+				"0.7",
+				"0.65",
+				"0.09",
+				"0.6"
+			],
+			"answer": 0,
+			"hint": "Compare the tenths first.",
+			"explain": "0.7 has 7 tenths, the most."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "6/10 + 25/100 = ?/100",
+			"answer": "85",
+			"hint": "Change 6/10 into hundredths first.",
+			"explain": "6/10 = 60/100, and 60/100 + 25/100 = 85/100."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "0.4 is equal to 0.40.",
+			"answer": true,
+			"hint": "0.4 is 4 tenths. How many hundredths is that?",
+			"explain": "4 tenths = 40 hundredths, so 0.4 = 0.40."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "0.35 is greater than 0.5.",
+			"answer": false,
+			"hint": "Compare the tenths: 3 and 5.",
+			"explain": "0.35 has 3 tenths and 0.5 has 5 tenths, so 0.5 is greater."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Pip jumped 2.4 m on the Moon. How many tenths of a metre is 2.4 m? 2.4 = ?/10",
+			"answer": "24",
+			"hint": "Each whole metre is 10 tenths.",
+			"explain": "2 metres are 20 tenths, and 4 more make 24 tenths."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4f.tenths_to_hundredths",
+			"level": 1
+		},
+		{
+			"gen": "g4f.tenths_to_hundredths",
+			"level": 2
+		},
+		{
+			"gen": "g4f.add_tenths_hundredths",
+			"level": 2
+		},
+		{
+			"gen": "g4f.add_tenths_hundredths",
+			"level": 3
+		},
+		{
+			"gen": "g4f.fraction_to_decimal",
+			"level": 1
+		},
+		{
+			"gen": "g4f.fraction_to_decimal",
+			"level": 2
+		},
+		{
+			"gen": "g4f.fraction_to_decimal",
+			"level": 3
+		},
+		{
+			"gen": "g4f.decimal_to_fraction",
+			"level": 1
+		},
+		{
+			"gen": "g4f.decimal_to_fraction",
+			"level": 2
+		},
+		{
+			"gen": "g4f.decimal_to_fraction",
+			"level": 3
+		},
+		{
+			"gen": "g4f.compare_decimals",
+			"level": 1
+		},
+		{
+			"gen": "g4f.compare_decimals",
+			"level": 2
+		},
+		{
+			"gen": "g4f.compare_decimals",
+			"level": 3
+		},
+		{
+			"gen": "g4f.decimal_on_line",
+			"level": 1
+		},
+		{
+			"gen": "g4f.decimal_on_line",
+			"level": 2
+		},
+		{
+			"gen": "g4f.decimal_on_line",
+			"level": 3
+		},
+		{
+			"gen": "g4f.build_tenths",
+			"level": 1
+		},
+		{
+			"gen": "g4f.build_tenths",
+			"level": 2
+		}
+	]
+}

@@ -1,0 +1,331 @@
+{
+	"id": "g4.health_pe.water_safety",
+	"lesson": [
+		{
+			"text": "Quick memory: on a beach, where is the safest place to swim? (Between the red and yellow flags.) Today: all the beach flags, floating, and calling for help."
+		},
+		{
+			"text": "Red and yellow flags mark where lifeguards watch: the safest place to swim and bodyboard, so swim between them. A red flag means danger: never go in the water.",
+			"picture": {
+				"kind": "beach_flags",
+				"flags": [
+					"red_yellow",
+					"red"
+				],
+				"labels": [
+					"swim here",
+					"danger"
+				]
+			}
+		},
+		{
+			"text": "Black and white chequered flags mark an area for surfboards and kayaks: never swim there. An orange windsock means the wind blows out to sea: never use an inflatable.",
+			"picture": {
+				"kind": "beach_flags",
+				"flags": [
+					"chequered",
+					"windsock"
+				],
+				"labels": [
+					"surfboards",
+					"no inflatables"
+				]
+			}
+		},
+		{
+			"text": "The Water Safety Code: stop and think (spot the dangers and read the signs). Stay together (never swim alone). Call 999 (nine nine nine) in an emergency. Float if you fall in."
+		},
+		{
+			"text": "Float to live: falling into cold water makes you gasp. Do not thrash about. Lean back, spread your arms and legs like a star, and float for about 60 to 90 seconds, until your breathing calms."
+		},
+		{
+			"text": "A rip current is a strong current flowing out to sea. If one catches you, do not swim against it. If you can stand, wade. If not, swim parallel to the shore until you are free. Raise a hand and shout for help."
+		},
+		{
+			"text": "If someone else is in trouble, do not go in after them. Call 999 and ask for the Coastguard at the coast, or the fire service inland. Tell them to float, and throw them something that floats."
+		},
+		{
+			"text": "Try it in the world: build a beach with a lifeguard hut, red and yellow flags and a lifebuoy on a post. For real: learn to swim at least 25 m and to float on your back, at a pool with a lifeguard."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What do these flags mean?",
+			"answer": 0,
+			"hint": "Red over yellow: the lifeguards' flags.",
+			"choices": [
+				"lifeguards watch here: swim between them",
+				"danger: never go in",
+				"surfboards only",
+				"wind blowing out to sea"
+			],
+			"explain": "Red and yellow flags mark the lifeguards' area: the safest place to swim.",
+			"picture": {
+				"kind": "beach_flags",
+				"flags": [
+					"red_yellow"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a red flag on a beach mean?",
+			"answer": 0,
+			"hint": "Red on a traffic light means stop.",
+			"choices": [
+				"danger: never go in the water",
+				"swim here",
+				"surfboards only",
+				"the lifeguards are watching"
+			],
+			"explain": "A red flag means danger: never go in the water.",
+			"picture": {
+				"kind": "beach_flags",
+				"flags": [
+					"red"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "It is safe to swim alone if you are a strong swimmer.",
+			"answer": false,
+			"hint": "What does the Water Safety Code say?",
+			"explain": "False: stay together. Even strong swimmers get into trouble, so never swim alone."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the emergency number in the UK?",
+			"answer": 0,
+			"hint": "It is the same digit three times.",
+			"choices": [
+				"999",
+				"111",
+				"123",
+				"100"
+			],
+			"explain": "999. (111 is for health advice that is not an emergency.)"
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each flag in the picture to its meaning.",
+			"items": [
+				"flag A",
+				"flag B",
+				"flag C",
+				"flag D"
+			],
+			"matches": [
+				"surfboards and kayaks",
+				"danger: never go in",
+				"no inflatables",
+				"swim between these"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Red over yellow is for swimmers; black and white is for surfers.",
+			"explain": "A: red and yellow, swim between them. B: chequered, surfboards and kayaks. C: red, danger. D: windsock, no inflatables.",
+			"picture": {
+				"kind": "beach_flags",
+				"flags": [
+					"red_yellow",
+					"chequered",
+					"red",
+					"windsock"
+				],
+				"labels": [
+					"A",
+					"B",
+					"C",
+					"D"
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put float to live in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "First stay calm, then get into the floating shape.",
+			"items": [
+				"lean back in the water",
+				"float until your breathing calms",
+				"fight the urge to thrash about",
+				"spread your arms and legs",
+				"call for help or swim to safety"
+			],
+			"explain": "Do not thrash, lean back, spread your arms and legs, float until your breathing calms, then call for help or swim."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does an orange windsock mean?",
+			"answer": 0,
+			"hint": "Which way would the wind blow an inflatable?",
+			"choices": [
+				"the wind blows out to sea: no inflatables",
+				"swim here",
+				"the tide is going out",
+				"the lifeguards are watching"
+			],
+			"explain": "The wind blows out to sea, so an inflatable could be carried away: never use one.",
+			"picture": {
+				"kind": "beach_flags",
+				"flags": [
+					"windsock"
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If you fall into cold water, float for about 60 to 90 seconds until your breathing calms.",
+			"answer": true,
+			"hint": "What does the lesson call this?",
+			"explain": "True: float to live, and the cold water shock passes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A friend falls into a river. What should you do?",
+			"answer": 0,
+			"hint": "Stay safe yourself: never go in after them.",
+			"choices": [
+				"call 999 and throw something that floats",
+				"jump in and pull them out",
+				"run home without telling anyone",
+				"wait and see"
+			],
+			"explain": "Do not go in: call 999, tell them to float, and throw something that floats."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A rip current is pulling you out and you cannot stand. What should you do?",
+			"answer": 0,
+			"hint": "Swimming against a strong current wears you out.",
+			"choices": [
+				"swim parallel to the shore, then head in",
+				"swim straight back against it",
+				"dive under the water",
+				"stay still and quiet"
+			],
+			"explain": "Swim parallel to the shore until you are out of the rip, then head in. Raise a hand and shout for help."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "At the coast, which service do you ask for when you call 999 about someone in the sea?",
+			"answer": 0,
+			"hint": "Which service rescues people at sea?",
+			"choices": [
+				"the Coastguard",
+				"the police",
+				"a taxi",
+				"a doctor's surgery"
+			],
+			"explain": "The Coastguard. Inland, by a river or lake, ask for the fire service."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Safe or unsafe near water?",
+			"groups": [
+				"safe",
+				"unsafe"
+			],
+			"items": [
+				"swimming between red and yellow flags",
+				"swimming alone in a lake",
+				"floating on your back when tired",
+				"an inflatable when the windsock flies",
+				"jumping into water you cannot see into",
+				"reading the safety signs"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Think of the Water Safety Code and the flags.",
+			"explain": "Safe: the flags, floating, reading signs. Unsafe: swimming alone, inflatables in offshore wind, jumping into unknown water."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Rivers and lakes are safe because they have no waves.",
+			"answer": false,
+			"hint": "What dangers can you not see in a river?",
+			"explain": "False: rivers and lakes can be very cold, with strong currents, hidden objects and no lifeguards."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is cold water dangerous even for good swimmers?",
+			"answer": 0,
+			"hint": "What does cold water do to your breathing?",
+			"choices": [
+				"the cold shock makes you gasp and panic",
+				"it makes you float too well",
+				"it is too salty",
+				"fish get in the way"
+			],
+			"explain": "Cold water shock makes you gasp and panic, which is why you float first until it passes."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A pool is 25 m long. Mimi swims 4 lengths. How many metres is that?",
+			"answer": "100",
+			"hint": "4 lots of 25 m: multiply.",
+			"explain": "4 × 25 = 100 m."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "You call 999 about someone in the water. Sort them: ask for the Coastguard, or the fire service?",
+			"groups": [
+				"the Coastguard",
+				"the fire service"
+			],
+			"items": [
+				"someone swept out to sea",
+				"someone in a river",
+				"someone stuck on a sandbank",
+				"someone who fell in a lake",
+				"a boat in trouble off the coast",
+				"someone in a canal"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "At the coast it is the Coastguard. Inland, by rivers and lakes, it is the fire service.",
+			"explain": "At the coast, ask for the Coastguard: the sea, a sandbank and a boat offshore. Inland, ask for the fire service: a river, a lake and a canal. In both, tell them to float and throw something that floats."
+		}
+	],
+	"generators": []
+}

@@ -1,0 +1,24 @@
+{
+	"id": "life.safe.electric_hunt",
+	"lesson": [
+		{"text": "Quick memory: what never mixes with electricity? (Water.) Today: spotting electricity dangers at home."},
+		{"text": "Electricity makes lights, toasters and tablets work. It travels along wires, and it can hurt, so it stays inside wires and machines."},
+		{"text": "Water and electricity never mix. Dry your hands before you touch a switch or a plug, and keep electric things far from the bath."},
+		{"text": "Nothing goes into a socket but a plug. Never poke anything into a socket or a toaster."},
+		{"text": "A cable with its wires showing, too many plugs in one socket, a kite in the power lines: don't touch. Tell a grown-up."},
+		{"text": "Try it in the world: open the practice house and find the dangers. Next: plugs, cables and power lines, on the Middle track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "Before you touch a light switch, your hands should be...", "answer": 0, "choices": ["dry", "wet", "sticky"], "hint": "Water and electricity never mix.", "explain": "Dry: always."},
+		{"type": "truefalse", "level": 1, "prompt": "A hair dryer can sit on the edge of the bath.", "answer": false, "hint": "Think of the water.", "explain": "False: keep it far from the bath."},
+		{"type": "choice", "level": 1, "prompt": "What goes into a socket?", "answer": 0, "choices": ["only a plug", "a fork", "a toy key"], "hint": "Nothing else, ever.", "explain": "Only a plug."},
+		{"type": "choice", "level": 2, "prompt": "You see a cable with wires showing. You...", "answer": 0, "choices": ["tell a grown-up", "touch it", "hide it"], "hint": "Don't touch it.", "explain": "Tell a grown-up, who switches it off."},
+		{"type": "truefalse", "level": 2, "prompt": "You can poke a fork into the toaster to get the bread out.", "answer": false, "hint": "Toasters have electricity inside.", "explain": "False: a grown-up unplugs it first."},
+		{"type": "choice", "level": 2, "prompt": "Your kite is stuck in the power lines. You...", "answer": 0, "choices": ["leave it and tell a grown-up", "pull the string", "climb up for it"], "hint": "Power lines carry a lot of electricity.", "explain": "Leave it: the power company gets it down."},
+		{"type": "sort", "level": 2, "prompt": "Safe, or a danger?", "groups": ["safe", "a danger"], "items": ["a plug in a socket", "a drink by a socket", "dry hands on a switch", "a fork in a toaster"], "answer": [0, 1, 0, 1], "hint": "Water and pokes are dangers.", "explain": "A plug and dry hands are safe; a drink and a fork are dangers."},
+		{"type": "choice", "level": 3, "prompt": "Where is a safe place to fly a kite?", "answer": 0, "choices": ["an open field, far from power lines", "under the power lines", "next to a substation"], "hint": "Far from wires.", "explain": "An open field, far away."},
+		{"type": "truefalse", "level": 3, "prompt": "Too many plugs in one socket can get too hot.", "answer": true, "hint": "Think of a fire.", "explain": "True: it can overheat."},
+		{"type": "choice", "level": 3, "prompt": "Found a danger? The right thing to do is...", "answer": 0, "choices": ["tell a grown-up", "fix it yourself", "keep it a secret"], "hint": "Who makes it safe?", "explain": "Tell a grown-up."},
+		{"type": "order", "level": 3, "prompt": "Your hands are wet and you want the light on: put it in order.", "answer": [1, 0], "items": ["switch it on", "dry your hands"], "hint": "Dry first.", "explain": "Dry your hands, then switch it on."}
+	]
+}

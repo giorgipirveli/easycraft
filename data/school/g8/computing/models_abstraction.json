@@ -1,0 +1,421 @@
+{
+	"id": "g8.computing.models_abstraction",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, what did a simulation of a bouncing ball show? (Its height, step by step, as a program worked it out.) Today: making models of real things by keeping only what matters."
+		},
+		{
+			"text": "Abstraction means leaving out the details that do not matter for the job and keeping the ones that do. A model is a simpler version of something real, made for one purpose.",
+			"picture": {
+				"kind": "abstract_map",
+				"view": "real"
+			}
+		},
+		{
+			"text": "In 1931 Harry Beck (1902-1974) drew the London Underground as straight lines with evenly spaced stations. Real distances were left out; the order of stops and where to change were kept.",
+			"picture": {
+				"kind": "abstract_map",
+				"view": "model"
+			}
+		},
+		{
+			"text": "Worked example: a model of a traffic light keeps its states (red, red and amber, green, amber) and what moves it on. The bulbs' maker, the pole's paint and the weather are left out.",
+			"picture": {
+				"kind": "state_machine",
+				"states": [
+					"red",
+					"red and amber",
+					"green",
+					"amber"
+				],
+				"arrows": [
+					[
+						0,
+						1,
+						"time"
+					],
+					[
+						1,
+						2,
+						"time"
+					],
+					[
+						2,
+						3,
+						"time"
+					],
+					[
+						3,
+						0,
+						"time"
+					]
+				],
+				"current": 0
+			}
+		},
+		{
+			"text": "A state machine is a model like this: the states something can be in, and the events that move it from one to another. Games use them for characters and menus.",
+			"picture": {
+				"kind": "state_machine",
+				"states": [
+					"menu",
+					"playing",
+					"paused"
+				],
+				"arrows": [
+					[
+						0,
+						1,
+						"tap PLAY"
+					],
+					[
+						1,
+						2,
+						"tap PAUSE"
+					],
+					[
+						2,
+						1,
+						"tap PLAY"
+					],
+					[
+						2,
+						0,
+						"tap MENU"
+					]
+				]
+			}
+		},
+		{
+			"text": "Models with numbers can predict. A model of rabbits might say: each month the number grows by a tenth. Starting with 100 rabbits, it predicts 110 a month later, then 121."
+		},
+		{
+			"text": "Every model leaves something out, so its answers are only as good as its choices. Scientists test a model against what really happens, then improve it. Weather forecasts are models run on computers."
+		},
+		{
+			"text": "Try it in the world: draw a map of the way to a friend's house that keeps only what a visitor needs. What did you leave out? Next: how a computer runs code."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is abstraction?",
+			"choices": [
+				"keeping what matters, leaving out the rest",
+				"adding every detail you can find",
+				"drawing a thing exactly",
+				"deleting a program"
+			],
+			"answer": 0,
+			"hint": "Think of what Harry Beck kept on his map, and what he left out.",
+			"explain": "Abstraction keeps the details a job needs and leaves out the rest, like the order of stops on a railway map."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "On this model, how many stops is it from Hill to Station?",
+			"answer": "3",
+			"picture": {
+				"kind": "abstract_map",
+				"view": "model"
+			},
+			"hint": "Count the gaps between stops along the line, not the dots.",
+			"explain": "Hill to Park, Park to Market, Market to Station: 3 stops."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A good model includes every detail of the real thing.",
+			"answer": false,
+			"hint": "What is a model for?",
+			"explain": "False: a model keeps only what matters for its purpose; every detail would make it as hard to use as the real thing."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "The light is green. Which state comes next?",
+			"choices": [
+				"amber",
+				"red",
+				"red and amber",
+				"green"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "state_machine",
+				"states": [
+					"red",
+					"red and amber",
+					"green",
+					"amber"
+				],
+				"arrows": [
+					[
+						0,
+						1,
+						"time"
+					],
+					[
+						1,
+						2,
+						"time"
+					],
+					[
+						2,
+						3,
+						"time"
+					],
+					[
+						3,
+						0,
+						"time"
+					]
+				],
+				"current": 2
+			},
+			"hint": "Follow the arrow out of green.",
+			"explain": "From green the arrow goes to amber, and from amber to red."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "A map for someone taking the train: keep it or leave it out?",
+			"groups": [
+				"keep",
+				"leave out"
+			],
+			"items": [
+				"the order of the stops",
+				"where to change lines",
+				"the colour of each house",
+				"the names of the stops",
+				"the trees in the park"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Ask: does a train traveller need this to get there?",
+			"explain": "A traveller needs the stops, their names and where to change; houses' colours and trees do not help."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many stops is it from Hill to Castle, changing at Market?",
+			"answer": "3",
+			"picture": {
+				"kind": "abstract_map",
+				"view": "model",
+				"route": [
+					"Hill",
+					"Park",
+					"Market",
+					"Castle"
+				]
+			},
+			"hint": "Follow the red line to Market, then the blue line.",
+			"explain": "Hill to Park to Market is 2 stops, then Market to Castle is 1 more: 3 stops."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The game is playing. The player taps PAUSE, then MENU. Which state is it in now?",
+			"choices": [
+				"menu",
+				"playing",
+				"paused"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "state_machine",
+				"states": [
+					"menu",
+					"playing",
+					"paused"
+				],
+				"arrows": [
+					[
+						0,
+						1,
+						"tap PLAY"
+					],
+					[
+						1,
+						2,
+						"tap PAUSE"
+					],
+					[
+						2,
+						1,
+						"tap PLAY"
+					],
+					[
+						2,
+						0,
+						"tap MENU"
+					]
+				],
+				"current": 1
+			},
+			"hint": "Follow one arrow for each event, in order.",
+			"explain": "playing, then tap PAUSE: paused; then tap MENU: menu."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A model says a town's 200 trees grow by a tenth each year. How many does it predict after 1 year?",
+			"answer": "220",
+			"hint": "What is a tenth of 200?",
+			"explain": "A tenth of 200 is 200 ÷ 10 = 20, so 200 + 20 = 220 trees."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the traffic light's states in order, starting at red.",
+			"items": [
+				"amber",
+				"green",
+				"red and amber",
+				"red"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Remember which colours show together before green.",
+			"explain": "Red, then red and amber together, then green, then amber, and back to red."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Harry Beck's map shows the real distances between stations.",
+			"answer": false,
+			"hint": "What did he keep, and why?",
+			"explain": "False: he spaced the stations evenly and kept their order and the changes, which is what travellers need."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each model to what it keeps.",
+			"items": [
+				"a train map",
+				"a weather model",
+				"a traffic light model",
+				"a game character model"
+			],
+			"matches": [
+				"air pressure and temperature",
+				"its states and timings",
+				"idle, walking, jumping",
+				"the order of the stops"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Ask what each model is for.",
+			"explain": "Each keeps what its job needs: stops for a train map, the air for weather, states for lights and characters."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A model starts with 100 rabbits and adds a tenth each month. What does it predict after 2 months?",
+			"answer": "121",
+			"hint": "Work out one month at a time: the second tenth is of the new number.",
+			"explain": "Month 1: 100 + 10 = 110. Month 2: a tenth of 110 is 11, so 110 + 11 = 121."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A lunch queue model predicts a 5-minute wait, but the real wait is 15. What should the modellers do first?",
+			"choices": [
+				"look for what the model left out",
+				"trust the model, not the queue",
+				"add the colour of the trays",
+				"stop using models"
+			],
+			"answer": 0,
+			"hint": "A model is tested against what really happens.",
+			"explain": "The model left out something that matters, perhaps how long paying takes. Find it, add it, and test again."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A state machine is in exactly one of its states at a time.",
+			"answer": true,
+			"hint": "Look at the traffic light: red and amber is one state of its own.",
+			"explain": "True: it is always in one state, and an event moves it to the next."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A model of traffic jams on a road: does it matter or not?",
+			"groups": [
+				"matters",
+				"does not matter"
+			],
+			"items": [
+				"cars arriving each minute",
+				"how long the lights stay green",
+				"the number of lanes",
+				"each driver's favourite song",
+				"the colour of the cars"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Would it change how fast the cars move?",
+			"explain": "Arrivals, green times and lanes change the flow of cars; songs and colours do not."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "On the real map, how many stops is it from Park to Harbour?",
+			"answer": "3",
+			"picture": {
+				"kind": "abstract_map",
+				"view": "real"
+			},
+			"hint": "Follow the red line's curve from stop to stop.",
+			"explain": "Park to Market, Market to Station, Station to Harbour: 3 stops, the same as on the model."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.state_next",
+			"level": 1
+		},
+		{
+			"gen": "g8c.state_next",
+			"level": 2
+		},
+		{
+			"gen": "g8c.state_next",
+			"level": 3
+		},
+		{
+			"gen": "g8c.model_keep",
+			"level": 1
+		},
+		{
+			"gen": "g8c.model_keep",
+			"level": 2
+		},
+		{
+			"gen": "g8c.model_keep",
+			"level": 3
+		}
+	]
+}

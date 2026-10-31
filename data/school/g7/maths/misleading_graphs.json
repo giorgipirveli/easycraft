@@ -1,0 +1,500 @@
+{
+	"id": "g7.maths.misleading_graphs",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met data displays. Which shows how a plant's height changes week by week: a line graph or a pie chart? A line graph."
+		},
+		{
+			"text": "Choose the chart that fits the data. A bar chart compares separate groups. A line graph shows change over time. A pie chart shows the parts of one whole. A scatter graph shows whether two measures are linked.",
+			"picture": {
+				"kind": "chart_kinds",
+				"show": [
+					"bar",
+					"line",
+					"pie",
+					"scatter"
+				]
+			}
+		},
+		{
+			"text": "Charts can mislead. This bar chart's axis starts at 38, not 0. Sales of 40 and 44 look like 2 and 6, so one bar looks 3 times as tall. Yet 44 is only 10% more than 40.",
+			"picture": {
+				"kind": "cut_axis_bars",
+				"bars": [
+					[
+						"Mon",
+						40
+					],
+					[
+						"Tue",
+						44
+					]
+				],
+				"from": 38,
+				"to": 46,
+				"step": 2,
+				"full": true,
+				"title": "Sales"
+			}
+		},
+		{
+			"text": "Odd scales mislead too. Here the numbers 0, 10, 20, 50 and 100 are evenly spaced, so the big gaps are squashed. Check that the steps on an axis are equal.",
+			"picture": {
+				"kind": "odd_scale",
+				"values": [
+					[
+						"Jan",
+						10
+					],
+					[
+						"Feb",
+						30
+					],
+					[
+						"Mar",
+						90
+					]
+				],
+				"ticks": [
+					0,
+					10,
+					20,
+					50,
+					100
+				],
+				"title": "Visitors (thousands)",
+				"fair": true
+			}
+		},
+		{
+			"text": "Pictures can mislead. Draw a bag twice as tall to show twice the sales: it is twice as wide too, so it looks 4 times as big. Watch also for missing units, and for charts showing only the months that suit them.",
+			"picture": {
+				"kind": "big_icons",
+				"what": "bag",
+				"scale": 2,
+				"labels": [
+					"2020: 10",
+					"2025: 20"
+				]
+			}
+		},
+		{
+			"text": "Honest charts can change things. In 1858 Florence Nightingale drew charts of an army hospital. They showed that most soldiers who died there had caught diseases that cleaner hospitals could prevent, so leaders made the hospitals cleaner."
+		},
+		{
+			"text": "Try it in the world: count three kinds of animal near your home in the game and draw an honest bar chart, its axis starting at 0. In LIFE, Success Stories shows how Florence Nightingale used numbers to show the truth. Next: probability."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which chart shows how the temperature changed over one day?",
+			"choices": [
+				"a line graph",
+				"a pie chart",
+				"a pictogram of suns"
+			],
+			"answer": 0,
+			"hint": "Is it change over time, groups compared, or parts of a whole?",
+			"explain": "A line graph: it shows change over time, hour by hour."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which chart shows what share of a class walks, cycles or comes by bus?",
+			"choices": [
+				"a pie chart",
+				"a line graph",
+				"a scatter graph"
+			],
+			"answer": 0,
+			"hint": "The class is one whole, split into parts.",
+			"explain": "A pie chart: each slice is one way of getting to school, and together they make the whole class."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each set of data to the chart that suits it.",
+			"items": [
+				"a sunflower's height each week",
+				"favourite fruits of 30 pupils",
+				"how a day's 24 hours are spent",
+				"height and arm span of 20 people"
+			],
+			"matches": [
+				"scatter graph",
+				"line graph",
+				"pie chart",
+				"bar chart"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Ask: change over time, groups compared, parts of a whole, or two measures linked?",
+			"explain": "Height each week: a line graph. Favourite fruits: a bar chart. A day's hours: a pie chart. Height and arm span: a scatter graph."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A bar chart's axis should usually start at 0.",
+			"answer": true,
+			"hint": "Think what happens to the bars if the bottom of the axis is cut off.",
+			"explain": "True: from 0, a bar's height matches its value, so the bars compare fairly."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the features: honest or misleading?",
+			"groups": [
+				"honest",
+				"misleading"
+			],
+			"items": [
+				"pictures that grow both ways",
+				"steps of 1, 2, 5, 50",
+				"equal steps on the axis",
+				"an axis from 0",
+				"an axis from 90",
+				"a title and units"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Would the feature help you read the numbers fairly, or make some look bigger?",
+			"explain": "Honest: an axis from 0, equal steps, a title and units. Misleading: an axis from 90, uneven steps and pictures that grow both ways."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The axis starts at 90. Bar A is 95 and bar B is 100. How many times as tall as bar A does bar B look?",
+			"answer": "2",
+			"hint": "Measure each bar from the bottom of the axis, 90.",
+			"explain": "From 90, bar A is 5 tall and bar B is 10 tall, so B looks 2 times as tall. Really, 100 is only about 5% more than 95.",
+			"picture": {
+				"kind": "cut_axis_bars",
+				"bars": [
+					[
+						"A",
+						95
+					],
+					[
+						"B",
+						100
+					]
+				],
+				"from": 90,
+				"to": 100,
+				"step": 5
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Sales rose from 80 to 100, but the axis starts at 70. How many times as tall as the first bar does the second look?",
+			"answer": "3",
+			"hint": "Find each bar's height above 70.",
+			"explain": "Above 70 the bars are 10 and 30 tall, so the second looks 3 times as tall.",
+			"picture": {
+				"kind": "cut_axis_bars",
+				"bars": [
+					[
+						"2023",
+						80
+					],
+					[
+						"2024",
+						100
+					]
+				],
+				"from": 70,
+				"to": 100,
+				"step": 10
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Sales rose from 80 to 100. By what percent did they really rise?",
+			"answer": "25",
+			"hint": "Find the rise, then divide it by the starting value and multiply by 100.",
+			"explain": "The rise is 20, and 20 ÷ 80 = 0.25, which is 25%.",
+			"picture": {
+				"kind": "cut_axis_bars",
+				"bars": [
+					[
+						"2023",
+						80
+					],
+					[
+						"2024",
+						100
+					]
+				],
+				"from": 60,
+				"to": 100,
+				"step": 10
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is wrong with this chart's axis?",
+			"choices": [
+				"Its steps are not equal.",
+				"It has a title.",
+				"It starts at 0."
+			],
+			"answer": 0,
+			"hint": "Look at the numbers up the side: how far apart are they?",
+			"explain": "The steps go 10, 10, 30, 50 but are drawn the same size, so the bars are squashed and stretched.",
+			"picture": {
+				"kind": "odd_scale",
+				"values": [
+					[
+						"Jan",
+						10
+					],
+					[
+						"Feb",
+						30
+					],
+					[
+						"Mar",
+						90
+					]
+				],
+				"ticks": [
+					0,
+					10,
+					20,
+					50,
+					100
+				],
+				"title": "Visitors (thousands)"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A chart shows a coin, then a coin 3 times as tall and 3 times as wide. How many times as big does the second coin look?",
+			"answer": "9",
+			"hint": "It grows in two directions: multiply the two stretches.",
+			"explain": "3 × 3 = 9: it looks 9 times as big, though the number only tripled.",
+			"picture": {
+				"kind": "big_icons",
+				"what": "coin",
+				"scale": 3
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the checks to read a chart fairly.",
+			"items": [
+				"Check the axis starts at 0",
+				"Check the steps are equal",
+				"Compare the values, not the sizes",
+				"Read the title and the units"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Start with what the chart is about.",
+			"explain": "Title and units first, then where the axis starts, then its steps, then compare the values themselves."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A pie chart is the best way to show how sales changed month by month.",
+			"answer": false,
+			"hint": "Is a pie for parts of one whole, or for change over time?",
+			"explain": "False: a pie shows the parts of one whole; change over time needs a line graph."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "To see whether taller sunflowers have bigger heads, which chart is best?",
+			"choices": [
+				"a scatter graph",
+				"a pie chart",
+				"a pictogram"
+			],
+			"answer": 0,
+			"hint": "You are checking whether two measures are linked.",
+			"explain": "A scatter graph plots each sunflower's height against its head size, so you can see a link.",
+			"picture": {
+				"kind": "chart_kinds",
+				"show": [
+					"scatter",
+					"pie",
+					"pictogram"
+				],
+				"names": false
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 3D chart draws a box, then a box 2 times as tall, as wide and as deep. How many times as big does the second box look?",
+			"answer": "8",
+			"hint": "It grows in three directions: multiply all three stretches.",
+			"explain": "2 × 2 × 2 = 8: it looks 8 times as big, though the value only doubled.",
+			"picture": {
+				"kind": "big_icons",
+				"what": "box",
+				"scale": 2,
+				"solid": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Visitors rose from 400 in May to 480 in June. By what percent did they really rise?",
+			"answer": "20",
+			"hint": "Find the rise, then divide it by May's value and multiply by 100.",
+			"explain": "The rise is 80, and 80 ÷ 400 = 0.2, which is 20%. On this axis June looks almost twice as tall.",
+			"picture": {
+				"kind": "cut_axis_bars",
+				"bars": [
+					[
+						"May",
+						400
+					],
+					[
+						"June",
+						480
+					]
+				],
+				"from": 300,
+				"to": 500,
+				"step": 50
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "On a fair axis from 0, June's bar would be what decimal number of times as tall as May's?",
+			"answer": "1.2",
+			"hint": "On a fair axis the bars are as tall as their values: divide one value by the other.",
+			"explain": "480 ÷ 400 = 1.2. On the cut axis June looks 1.8 times as tall, because 180 ÷ 100 = 1.8.",
+			"picture": {
+				"kind": "cut_axis_bars",
+				"bars": [
+					[
+						"May",
+						400
+					],
+					[
+						"June",
+						480
+					]
+				],
+				"from": 300,
+				"to": 500,
+				"step": 50,
+				"full": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A chart shows only March to May, the rainy months, to claim a town is always wet. What is the trick?",
+			"choices": [
+				"showing only data that suits the story",
+				"an axis that starts at 0",
+				"a 3D tilt"
+			],
+			"answer": 0,
+			"hint": "What has been left out of the chart?",
+			"explain": "It hides the dry months, June to February. Picking only the data that suits the story makes the town look wetter than it really is."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each trick to why it misleads.",
+			"items": [
+				"an axis from 90",
+				"a picture grown both ways",
+				"steps 10, 20, 50, 100",
+				"only the rainy months"
+			],
+			"matches": [
+				"it looks squared in size",
+				"small changes look huge",
+				"the rest is hidden",
+				"the big gaps are squashed"
+			],
+			"answer": [
+				1,
+				0,
+				3,
+				2
+			],
+			"hint": "Think about what each trick does to the reader's eye.",
+			"explain": "An axis from 90 makes small changes look huge; a picture grown both ways looks squared in size; uneven steps squash the big gaps; picking months hides the rest."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did Florence Nightingale draw charts as well as writing reports?",
+			"choices": [
+				"A clear chart lets busy leaders see the truth.",
+				"Charts are prettier than numbers.",
+				"She had no numbers to use."
+			],
+			"answer": 0,
+			"hint": "Think about who had to be persuaded, and how much time they had.",
+			"explain": "Her charts showed at a glance that most deaths came from diseases that cleaner hospitals could prevent. Busy leaders could see it in seconds, so they acted."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7k.cut_axis_look",
+			"level": 1
+		},
+		{
+			"gen": "g7k.cut_axis_look",
+			"level": 2
+		},
+		{
+			"gen": "g7k.cut_axis_look",
+			"level": 3
+		},
+		{
+			"gen": "g7k.best_chart",
+			"level": 1
+		},
+		{
+			"gen": "g7k.best_chart",
+			"level": 2
+		},
+		{
+			"gen": "g7k.best_chart",
+			"level": 3
+		},
+		{
+			"gen": "g7k.picture_scale",
+			"level": 1
+		},
+		{
+			"gen": "g7k.picture_scale",
+			"level": 2
+		},
+		{
+			"gen": "g7k.picture_scale",
+			"level": 3
+		}
+	]
+}

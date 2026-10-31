@@ -1,0 +1,289 @@
+{
+	"id": "g3.history.inventions_timeline",
+	"lesson": [
+		{
+			"text": "Quick memory: which metal came after bronze? (Iron.) Every invention builds on older ones. Let's put some great inventions on a timeline."
+		},
+		{
+			"text": "The wheel was made about 5,500 years ago, around 3500 BC, in Mesopotamia (today's Iraq). First it spun clay for potters. Then it carried carts."
+		},
+		{
+			"text": "Writing began there too, about 3200 BC, pressed into clay tablets. Paper was invented in China about 2,000 years ago. In Europe, about AD 1440, a printing press made books quick to copy."
+		},
+		{
+			"text": "Steam engines in the 1700s pumped water out of mines, and later pulled trains. Then came the telephone (1876), the electric light bulb (1879) and the first powered aeroplane flight (1903).",
+			"picture": {
+				"kind": "event_timeline",
+				"from": 1700,
+				"to": 2000,
+				"step": 50,
+				"events": [
+					[
+						1712,
+						"a steam pump in a mine"
+					],
+					[
+						1876,
+						"the telephone"
+					],
+					[
+						1903,
+						"first powered flight"
+					],
+					[
+						1945,
+						"room-sized computer"
+					],
+					[
+						1969,
+						"four computers linked"
+					],
+					[
+						1989,
+						"the Web begins"
+					]
+				]
+			}
+		},
+		{
+			"text": "The first electronic computers, in the 1940s, filled whole rooms. In 1969 four computers were linked in a network that grew into the internet. The World Wide Web of pages began in 1989."
+		},
+		{
+			"text": "One invention leads to the next. The wheel led to carts, then trains and cars. Writing led to paper, then printing, books for everyone, and the internet.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"wheel",
+						"carts",
+						"trains",
+						"cars"
+					],
+					[
+						"writing",
+						"paper",
+						"printing",
+						"internet"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a museum of inventions in your world. Give each one a stand, in time order, from a stone wheel to a glowing screen."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put these inventions in order, oldest first.",
+			"answer": [
+				1,
+				2,
+				0,
+				3
+			],
+			"hint": "Which one did people have longest ago? Which needs computers?",
+			"items": [
+				"the light bulb",
+				"the wheel",
+				"the printing press",
+				"the internet"
+			],
+			"explain": "The wheel (about 3500 BC), the printing press (about 1440), the light bulb (1879), the internet (1969 on)."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which invention is the oldest?",
+			"answer": 0,
+			"hint": "Which one needs no electricity or engine?",
+			"choices": [
+				"the wheel",
+				"the telephone",
+				"the aeroplane",
+				"the computer"
+			],
+			"explain": "The wheel is about 5,500 years old. The others are less than 200 years old."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The first powered aeroplane flew before the first steam engines were built.",
+			"answer": false,
+			"hint": "Steam engines were in the 1700s. The first flight was in 1903.",
+			"explain": "False: steam engines came first, in the 1700s; the first powered flight was in 1903."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where was paper invented?",
+			"answer": 0,
+			"hint": "Remember the lesson card about writing and paper.",
+			"choices": [
+				"China",
+				"Brazil",
+				"Australia",
+				"Antarctica"
+			],
+			"explain": "Paper was invented in China about 2,000 years ago."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these inventions for words in order, oldest first.",
+			"answer": [
+				1,
+				0,
+				2,
+				3
+			],
+			"hint": "You need writing before paper, and paper before printing.",
+			"items": [
+				"paper",
+				"writing on clay tablets",
+				"the printing press",
+				"the World Wide Web"
+			],
+			"explain": "Writing (about 3200 BC), paper (about 2,000 years ago), printing (about 1440), the Web (1989)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What did the printing press change?",
+			"answer": 0,
+			"hint": "Before it, every book was copied by hand.",
+			"choices": [
+				"books could be copied quickly",
+				"people could fly",
+				"rooms had electric light",
+				"trains ran faster"
+			],
+			"explain": "Books could be copied quickly and cheaply, so many more people could read them."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The telephone (1876) was invented before the electric light bulb (1879).",
+			"answer": true,
+			"hint": "Compare the two years: which number is smaller?",
+			"explain": "True: 1876 comes before 1879."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which invention led to carts, trains and cars?",
+			"answer": 0,
+			"hint": "What do carts, trains and cars all roll on?",
+			"choices": [
+				"the wheel",
+				"paper",
+				"the light bulb",
+				"the telephone"
+			],
+			"explain": "They all roll on wheels, so the wheel led to them all."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these five inventions in order, oldest first.",
+			"answer": [
+				1,
+				0,
+				4,
+				2,
+				3
+			],
+			"hint": "The BC year first, then the AD years from smallest to biggest.",
+			"items": [
+				"paper, about AD 100",
+				"the wheel, about 3500 BC",
+				"the telephone, 1876",
+				"the first powered flight, 1903",
+				"the printing press, about 1440"
+			],
+			"explain": "3500 BC, then AD 100, 1440, 1876 and 1903."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How many years after the telephone (1876) was the first powered flight (1903)?",
+			"answer": 0,
+			"hint": "Count on from 1876 to 1900, then on to 1903.",
+			"choices": [
+				"27",
+				"17",
+				"37",
+				"127"
+			],
+			"explain": "From 1876 to 1900 is 24 years, and 3 more to 1903: 27 years."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "The first electronic computers were small enough to fit in a pocket.",
+			"answer": false,
+			"hint": "Remember the lesson card about the 1940s.",
+			"explain": "False: the first electronic computers filled whole rooms."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which pair shows one invention leading to the next?",
+			"answer": 0,
+			"hint": "The first one must come before the second, and help make it useful.",
+			"choices": [
+				"writing, then paper to write on",
+				"the internet, then the wheel",
+				"aeroplanes, then fire",
+				"light bulbs, then candles"
+			],
+			"explain": "Writing came first, and paper made writing easier to keep and share."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "About how long ago was the wheel invented?",
+			"answer": 0,
+			"hint": "It was invented about 3500 BC. Add the 2,000 or so years since AD 1.",
+			"choices": [
+				"about 5,500 years ago",
+				"about 55 years ago",
+				"about 550 years ago",
+				"about 55,000 years ago"
+			],
+			"explain": "3500 BC is about 3,500 + 2,000 = 5,500 years ago."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each invention to something it led to.",
+			"items": [
+				"the wheel",
+				"writing",
+				"the printing press"
+			],
+			"matches": [
+				"letters and records",
+				"books for everyone",
+				"carts"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Ask: what could people do once they had this invention?",
+			"explain": "The wheel led to carts, writing to letters and records, and the printing press to books for everyone."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The telephone was invented in 1876. The World Wide Web began in 1989. How many years apart are they?",
+			"answer": "113",
+			"hint": "Jump to 1900 first, then on to 1989.",
+			"explain": "From 1876 to 1900 is 24 years. From 1900 to 1989 is 89 more. 24 + 89 = 113 years."
+		}
+	],
+	"generators": []
+}

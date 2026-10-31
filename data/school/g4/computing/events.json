@@ -1,0 +1,321 @@
+{
+	"id": "g4.computing.events",
+	"lesson": [
+		{
+			"text": "Quick memory: what does a loop do? (It repeats steps.) In grade 3 your programs ran from start to end. Today: programs that wait for something to happen."
+		},
+		{
+			"text": "An event is something that happens: a tap, a key press, a click, a sound or a timer running out. A program can wait for an event, then run the steps under it.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"WHEN the button is pressed",
+					"  PLAY ding-dong",
+					"  SWITCH ON the light"
+				]
+			}
+		},
+		{
+			"text": "WHEN starts an event block. Nothing under it runs until its event happens. A doorbell program waits all day, and rings only when someone presses the button."
+		},
+		{
+			"text": "One program can have many events, each with its own steps. Tap LEFT, and only the steps under WHEN LEFT is tapped run.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"WHEN LEFT is tapped",
+					"  TURN LEFT",
+					"WHEN RIGHT is tapped",
+					"  TURN RIGHT"
+				]
+			}
+		},
+		{
+			"text": "Worked example: the robot faces north. Tap LEFT: it turns to face west. Tap RIGHT twice: north, then east. Each tap is one event, and it runs its own steps once.",
+			"picture": {
+				"kind": "compass",
+				"points": 4,
+				"bearing": 270
+			}
+		},
+		{
+			"text": "Events come from inputs (grade 3): a touch screen, a keyboard, a mouse, a microphone, a camera, or sensors that feel tilting, light or heat."
+		},
+		{
+			"text": "Events are all around you. A lift comes when you press its button, and automatic doors open when a sensor sees you. A microwave beeps when its timer runs out. In this game, tapping a door is an event: it opens."
+		},
+		{
+			"text": "Try it in the world: find three things in your world that wait for an event, like a door that opens when you tap it. What is the event, and what happens? Next: programs that choose, with IF."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is an event?",
+			"answer": 0,
+			"hint": "An event is something that happens.",
+			"choices": [
+				"tapping a button",
+				"a list of steps",
+				"the colour of the robot",
+				"the number 5"
+			],
+			"explain": "Tapping a button is something that happens: an event."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The steps under WHEN START is tapped run before anyone taps START.",
+			"answer": false,
+			"hint": "What is the block waiting for?",
+			"explain": "False: they wait. They run only when START is tapped."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each event to what happens next.",
+			"items": [
+				"a lift button is pressed",
+				"a door sensor sees you",
+				"an alarm clock's time comes",
+				"a key is pressed"
+			],
+			"matches": [
+				"a letter appears",
+				"the lift comes",
+				"the doors open",
+				"it rings"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "What does each thing do when its event happens?",
+			"explain": "Lift button: the lift comes. Door sensor: the doors open. Alarm time: it rings. Key: a letter appears."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: is it an event, or not?",
+			"groups": [
+				"an event",
+				"not an event"
+			],
+			"items": [
+				"a tap",
+				"a key press",
+				"a timer running out",
+				"a clap into a microphone",
+				"a program's name",
+				"the colour blue"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Is it something that happens?",
+			"explain": "Events happen: a tap, a key press, a timer running out, a clap. A name and a colour just are."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "The robot faces north. Bram taps RIGHT. Which way does it face now?",
+			"answer": 0,
+			"hint": "Only the steps under the tapped event run. Turn your own body to check.",
+			"choices": [
+				"east",
+				"west",
+				"south",
+				"north"
+			],
+			"explain": "RIGHT was tapped, so only TURN RIGHT runs: from north, the robot turns to face east.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"WHEN LEFT is tapped",
+					"  TURN LEFT",
+					"WHEN RIGHT is tapped",
+					"  TURN RIGHT"
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A game has WHEN JUMP is tapped: jump. Zara taps JUMP 4 times and LEFT twice. How many jumps?",
+			"answer": "4",
+			"hint": "Which taps are the JUMP event?",
+			"explain": "Only JUMP taps run the jump steps: 4 jumps. The LEFT taps run other steps."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which part of a tablet makes the event WHEN the tablet is tilted?",
+			"answer": 0,
+			"hint": "Tilting is a movement. What can feel a movement?",
+			"choices": [
+				"a tilt sensor inside it",
+				"its speaker",
+				"its charger",
+				"its screen's colour"
+			],
+			"explain": "A sensor inside the tablet feels it tilt and makes the event."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order: what happens when you tap to place a block in a game?",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Start with your finger and end with what you see.",
+			"items": [
+				"The screen feels the touch",
+				"The steps under the event run",
+				"You tap the screen",
+				"The game notices the tap event",
+				"The block appears"
+			],
+			"explain": "Tap, the screen feels it, the game notices the event, its steps run, and the block appears."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "One program can have lots of events, each with its own steps.",
+			"answer": true,
+			"hint": "Think of the robot with LEFT and RIGHT.",
+			"explain": "True: WHEN LEFT and WHEN RIGHT are two events in one program."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The robot faces east. Mimi taps LEFT, then LEFT, then RIGHT, then LEFT. Which way does it face now?",
+			"answer": 0,
+			"hint": "Take one tap at a time and turn your own body each time.",
+			"choices": [
+				"west",
+				"east",
+				"north",
+				"south"
+			],
+			"explain": "East, LEFT: north, LEFT: west, RIGHT: north, LEFT: west. It faces west.",
+			"picture": {
+				"kind": "code",
+				"lines": [
+					"WHEN LEFT is tapped",
+					"  TURN LEFT",
+					"WHEN RIGHT is tapped",
+					"  TURN RIGHT"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "WHEN a clap is heard, the lamp switches (off to on, or on to off). The lamp starts off. There are 5 claps. Is the lamp on or off?",
+			"answer": 0,
+			"hint": "Count along: each clap swaps it.",
+			"choices": [
+				"on",
+				"off"
+			],
+			"explain": "Clap 1: on, 2: off, 3: on, 4: off, 5: on. It is on."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Juno's program: WHEN the cat is tapped, say Meow. She starts it and waits, but hears nothing. Why?",
+			"answer": 0,
+			"hint": "What is the event waiting for?",
+			"choices": [
+				"nobody has tapped the cat yet",
+				"the word Meow has a bug",
+				"cats can't be in programs",
+				"the sound is always off"
+			],
+			"explain": "The steps wait for their event. Tap the cat and it says Meow."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which event would make a buddy wave when your player comes near?",
+			"answer": 0,
+			"hint": "What should happen first, just before the wave?",
+			"choices": [
+				"WHEN the player is near",
+				"WHEN START is tapped",
+				"WHEN the game ends",
+				"WHEN it rains"
+			],
+			"explain": "Coming near is the event: WHEN the player is near, wave. A sensor in the game notices how close you are."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these parts of a phone: input (makes events) or output?",
+			"groups": [
+				"input (events)",
+				"output"
+			],
+			"items": [
+				"touch screen",
+				"microphone",
+				"tilt sensor",
+				"camera",
+				"speaker",
+				"vibration buzzer"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Does it take something in, or give something out?",
+			"explain": "Inputs take things in and make events: touch screen, microphone, tilt sensor, camera. The speaker and buzzer give things out."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "WHEN the green flag is tapped, clap 3 times. WHEN the red flag is tapped, clap once. Tilly taps green, then red, then green. How many claps?",
+			"answer": "7",
+			"hint": "Work out each tap on its own, then add them up.",
+			"explain": "Green: 3, red: 1, green: 3. 3 + 1 + 3 = 7 claps."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A timer running out can be an event.",
+			"answer": true,
+			"hint": "Is it something that happens?",
+			"explain": "True: like a microwave's beep, a timer running out can start some steps."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.event_turns",
+			"level": 1
+		},
+		{
+			"gen": "g4a.event_turns",
+			"level": 2
+		},
+		{
+			"gen": "g4a.event_turns",
+			"level": 3
+		}
+	]
+}

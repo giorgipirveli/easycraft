@@ -1,0 +1,7 @@
+# Build context is server/ (docker-compose.yml). Only what the image needs goes in.
+**/node_modules
+**/build
+deploy/.env
+deploy/.env.*
+!deploy/.env.example
+deploy/backups

@@ -1,0 +1,24 @@
+{
+	"id": "life.safe.plugs_and_lines",
+	"lesson": [
+		{"text": "Quick memory: what goes into a socket? (Only a plug.) Today: water, plugs, cables, sockets and power lines."},
+		{"text": "Water lets electricity through, and through you. Dry hands always, and keep hair dryers and radios far from the bath and the basin."},
+		{"text": "Unplug by holding the plug, never by pulling the cable: that can break the wires inside. A damaged cable: don't touch it, tell a grown-up."},
+		{"text": "One adaptor in a socket at most: never an adaptor in an adaptor. Big things like heaters go straight into the wall."},
+		{"text": "Power lines and substations carry a lot of electricity. Never fly kites or climb trees near them, and never go into a substation, even for a ball."},
+		{"text": "Try it in the world: open the practice house and the practice park. Next: the fuse box and a fallen power line, on the Big track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "You unplug a lamp by pulling...", "answer": 0, "choices": ["the plug itself", "the cable", "the lamp"], "hint": "The cable has wires inside.", "explain": "The plug itself."},
+		{"type": "truefalse", "level": 1, "prompt": "Wet hands on a plug are fine if you are quick.", "answer": false, "hint": "Water and electricity never mix.", "explain": "False: dry your hands first."},
+		{"type": "choice", "level": 1, "prompt": "A substation's sign says DANGER. Your ball went in. You...", "answer": 0, "choices": ["tell a grown-up", "climb the fence", "squeeze through the gate"], "hint": "Never go in.", "explain": "Tell a grown-up: the power company gets it."},
+		{"type": "choice", "level": 2, "prompt": "How many adaptors in one socket?", "answer": 0, "choices": ["one at most", "as many as fit", "an adaptor in an adaptor"], "hint": "Too many can overheat.", "explain": "One at most."},
+		{"type": "truefalse", "level": 2, "prompt": "You can climb a tree that grows under the power lines.", "answer": false, "hint": "Branches can touch the lines.", "explain": "False: only trees far from power lines."},
+		{"type": "choice", "level": 2, "prompt": "A lamp's cable has its wires showing. You...", "answer": 0, "choices": ["tell a grown-up and don't touch it", "wrap it in tape", "keep using it"], "hint": "Damaged cables can give a shock.", "explain": "Don't touch: a grown-up unplugs it and gets it mended."},
+		{"type": "sort", "level": 2, "prompt": "Do it, or never do it?", "groups": ["do it", "never do it"], "items": ["dry your hands first", "pull the cable", "fly a kite in an open field", "go into a substation"], "answer": [0, 1, 0, 1], "hint": "Think of water, wires and lines.", "explain": "Dry hands and open fields: yes. Pulling cables and substations: never."},
+		{"type": "order", "level": 2, "prompt": "Using a hair dryer after a bath: put it in order.", "answer": [1, 2, 0], "items": ["unplug it by the plug", "dry your hands", "use it far from the bath"], "hint": "Hands first.", "explain": "Dry hands, far from the bath, then unplug by the plug."},
+		{"type": "choice", "level": 3, "prompt": "Why never an adaptor in an adaptor?", "answer": 0, "choices": ["too many plugs can overheat the socket", "it looks untidy", "the plugs fall out"], "hint": "Think of heat.", "explain": "It can overheat and start a fire."},
+		{"type": "truefalse", "level": 3, "prompt": "A kite string near power lines can carry electricity.", "answer": true, "hint": "Especially when wet.", "explain": "True: let go and leave it."},
+		{"type": "choice", "level": 3, "prompt": "Your friend wants to fetch a kite from the lines. You say...", "answer": 0, "choices": ["leave it: a grown-up calls the power company", "pull it hard", "climb the pole"], "hint": "Not for a child to do.", "explain": "Leave it and tell a grown-up."}
+	]
+}

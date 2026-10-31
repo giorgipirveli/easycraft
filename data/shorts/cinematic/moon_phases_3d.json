@@ -1,0 +1,256 @@
+{
+	"id": "moon_phases_3d",
+	"title": "The Moon's phases in 3D",
+	"topic": "space",
+	"link": {"unit": "g8.science.moon_seasons"},
+	"still": 33,
+	"stage": {
+		"sky": "space",
+		"light": "space",
+		"sun": [1, 0, 0],
+		"models": [
+			{"id": "sun", "model": "sun", "at": [300, 0, 0], "size": 16},
+			{
+				"id": "earth",
+				"model": "planet",
+				"at": [0, 0, 0],
+				"body": "earth",
+				"size": 3,
+				"night": 0.05,
+				"moves": [{"do": "spin", "at": 0, "rate": 0.06}]
+			},
+			{
+				"id": "path",
+				"model": "orbit_line",
+				"at": [0, 0, 0],
+				"radius": 11,
+				"width": 0.1,
+				"color": "#ffffff45",
+				"moves": [{"do": "out", "at": 20}, {"do": "pop", "at": 40}]
+			},
+			{
+				"id": "moon",
+				"model": "planet",
+				"at": [11, 0, 0],
+				"body": "moon",
+				"size": 1.8,
+				"night": 0.02,
+				"moves": [
+					{"do": "orbit", "at": 0, "around": [0, 0, 0], "period": 20, "dir": 1, "dur": 20},
+					{"do": "orbit", "at": 20, "around": [0, 0, 0], "period": 40, "dir": 1, "dur": 20},
+					{"do": "orbit", "at": 40, "around": [0, 0, 0], "period": 20, "dir": 1, "dur": 10}
+				]
+			},
+			{"id": "eye", "model": "mark", "at": [0, 0.2, 0]}
+		],
+		"camera": [
+			{"at": 0, "pos": [-7, 54, 0], "look": [2, 0, 0], "fov": 46},
+			{"at": 19.95, "pos": [-6, 55, 3], "look": [2, 0, 0], "fov": 46},
+			{
+				"at": 20,
+				"pos": [0, 0, 0],
+				"look": [0, -0.9, 0],
+				"fov": 36,
+				"cut": true,
+				"follow": "eye",
+				"aim": "moon"
+			},
+			{"at": 39.95, "pos": [0, 0, 0], "look": [0, -0.9, 0], "fov": 36, "follow": "eye", "aim": "moon"},
+			{"at": 40, "pos": [-4, 48, 4], "look": [2, 0, 0], "fov": 46, "cut": true},
+			{"at": 50, "pos": [-7, 54, 0], "look": [2, 0, 0], "fov": 46}
+		]
+	},
+	"scenes": [
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1, 1]},
+			"caption": "The Moon makes no light of its own. Sunlight lights up one half.",
+			"say": "The Moon makes no light of its own. The Sun always lights up one half of it: the half facing the Sun.",
+			"sounds": [{"at": 1, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "SUNLIGHT",
+					"at": [180, 84],
+					"size": 28,
+					"color": "ink",
+					"box": "gold",
+					"moves": [{"do": "pop", "at": 1.2}]
+				},
+				{
+					"kind": "arrow",
+					"from": [90, 104],
+					"to": [90, 164],
+					"color": "gold",
+					"width": 7,
+					"moves": [{"do": "draw", "at": 1.6}]
+				},
+				{
+					"kind": "arrow",
+					"from": [180, 104],
+					"to": [180, 164],
+					"color": "gold",
+					"width": 7,
+					"moves": [{"do": "draw", "at": 1.6}]
+				},
+				{
+					"kind": "arrow",
+					"from": [270, 104],
+					"to": [270, 164],
+					"color": "gold",
+					"width": 7,
+					"moves": [{"do": "draw", "at": 1.6}]
+				},
+				{
+					"kind": "words",
+					"text": "EARTH",
+					"at": [180, 300],
+					"size": 20,
+					"color": "white",
+					"box": "blue",
+					"moves": [{"do": "pop", "at": 4}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1, 1]},
+			"caption": "As the Moon goes round Earth, its sunlit half always faces the Sun.",
+			"say": "As the Moon goes round Earth, its sunlit half always faces the Sun. But from Earth, we see it from different sides.",
+			"sounds": [{"at": 0.6, "effect": "whoosh"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "NEW",
+					"at": [180, 155.1],
+					"size": 20,
+					"color": "white",
+					"box": "ink",
+					"moves": [{"do": "pop", "at": 0.6}]
+				},
+				{
+					"kind": "words",
+					"text": "FIRST QUARTER",
+					"at": [108, 317.3],
+					"size": 20,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "pop", "at": 3.1}]
+				},
+				{
+					"kind": "words",
+					"text": "FULL",
+					"at": [180, 420],
+					"size": 20,
+					"color": "white",
+					"box": "orange",
+					"moves": [{"do": "pop", "at": 5.6}]
+				},
+				{
+					"kind": "words",
+					"text": "LAST QUARTER",
+					"at": [258, 377.3],
+					"size": 20,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "pop", "at": 8.1}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1, 1]},
+			"caption": "From Earth: a new moon we can't see, then a crescent, then half!",
+			"say": "Watch from Earth. At new moon, the lit half faces away from us. Then a thin crescent grows, until half the face is lit.",
+			"sounds": [{"at": 0.4, "effect": "whoosh"}, {"at": 3.6, "effect": "pop"}, {"at": 8.6, "effect": "pop"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "NEW MOON",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "ink",
+					"moves": [{"do": "pop", "at": 0.5}, {"do": "out", "at": 3.3}]
+				},
+				{
+					"kind": "words",
+					"text": "CRESCENT",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "teal",
+					"moves": [{"do": "pop", "at": 3.6}, {"do": "out", "at": 8.3}]
+				},
+				{
+					"kind": "words",
+					"text": "FIRST QUARTER",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "pop", "at": 8.6}]
+				},
+				{
+					"kind": "words",
+					"text": "(the Sun is behind it)",
+					"at": [180, 136],
+					"size": 20,
+					"color": "ink",
+					"box": "white",
+					"moves": [{"do": "pop", "at": 1}, {"do": "out", "at": 3.3}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1, 1]},
+			"caption": "Then a gibbous moon, then a full moon: all of the lit half faces us!",
+			"say": "It keeps growing into a gibbous moon, and then a full moon, when all of the lit half faces us. Then it shrinks again.",
+			"sounds": [{"at": 3.4, "effect": "pop"}, {"at": 8.4, "effect": "sparkle"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "GIBBOUS",
+					"at": [180, 84],
+					"size": 28,
+					"color": "white",
+					"box": "teal",
+					"moves": [{"do": "pop", "at": 3.4}, {"do": "out", "at": 8.2}]
+				},
+				{
+					"kind": "words",
+					"text": "FULL MOON",
+					"at": [180, 84],
+					"size": 34,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [{"do": "pop", "at": 8.4}]
+				}
+			]
+		},
+		{
+			"seconds": 10,
+			"background": "space",
+			"camera": {"zoom": [1, 1]},
+			"caption": "New moon to new moon takes about 29½ days. Which phase is it tonight?",
+			"say": "From one new moon to the next takes about 29 and a half days. Which phase will the Moon be tonight?",
+			"sounds": [{"at": 1.2, "effect": "pop"}, {"at": 6, "effect": "wisp_chime"}],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "ABOUT 29½ DAYS",
+					"at": [180, 84],
+					"size": 34,
+					"color": "white",
+					"box": "purple",
+					"moves": [{"do": "pop", "at": 1.2}]
+				}
+			]
+		}
+	]
+}

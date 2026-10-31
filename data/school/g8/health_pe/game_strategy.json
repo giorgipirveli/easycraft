@@ -1,0 +1,457 @@
+{
+	"id": "g8.health_pe.game_strategy",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you learnt advanced tactics. What is an overlap? (A teammate runs round the outside of the player with the ball.) Today: reading a game, and changing tactics while it is played."
+		},
+		{
+			"text": "Reading a game means noticing where the space is, who is free, and what the other team does well. Good players scan: they look over their shoulder before the ball arrives, so they already know their next move.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 7,
+				"players": [
+					[
+						6,
+						2,
+						"a"
+					],
+					[
+						6,
+						3.5,
+						"a"
+					],
+					[
+						6,
+						5,
+						"a"
+					],
+					[
+						6.6,
+						2.7,
+						"d"
+					],
+					[
+						6.6,
+						4.3,
+						"d"
+					],
+					[
+						3,
+						3.5,
+						"a",
+						"D"
+					],
+					[
+						9,
+						3.5,
+						"d",
+						"D"
+					]
+				],
+				"ball": 1
+			}
+		},
+		{
+			"text": "A formation counts the players from the back, without the goalkeeper. In 4-4-2 there are four defenders, four midfielders and two strikers: 4 + 4 + 2 = 10, and the keeper makes 11.",
+			"picture": {
+				"kind": "pitch",
+				"cols": 12,
+				"rows": 7,
+				"players": [
+					[
+						0.6,
+						3.5,
+						"a",
+						"GK"
+					],
+					[
+						3,
+						1.4,
+						"a"
+					],
+					[
+						3,
+						2.8,
+						"a"
+					],
+					[
+						3,
+						4.2,
+						"a"
+					],
+					[
+						3,
+						5.6,
+						"a"
+					],
+					[
+						6.5,
+						1.4,
+						"a"
+					],
+					[
+						6.5,
+						2.8,
+						"a"
+					],
+					[
+						6.5,
+						4.2,
+						"a"
+					],
+					[
+						6.5,
+						5.6,
+						"a"
+					],
+					[
+						10,
+						2.3,
+						"a"
+					],
+					[
+						10,
+						4.7,
+						"a"
+					]
+				]
+			}
+		},
+		{
+			"text": "Change tactics when the game tells you to. If the other team has an overload in midfield, add a midfielder. Chasing a goal? Push higher and add an attacker. Protecting a lead? Stay compact and keep possession."
+		},
+		{
+			"text": "Match statistics help you read a game. Possession is the share of time with the ball. Pass completion: 240 of 300 passes is 240 ÷ 300 = 0.8, so 80%. Shots on target show how dangerous a team is.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"Reds",
+						"Blues"
+					],
+					[
+						"possession",
+						"62%",
+						"38%"
+					],
+					[
+						"passes completed",
+						"240 of 300",
+						"120 of 200"
+					],
+					[
+						"shots",
+						"9",
+						"4"
+					],
+					[
+						"shots on target",
+						"3",
+						"3"
+					]
+				]
+			}
+		},
+		{
+			"text": "Every kind of game has its own strategy. In net games, play to the gaps and move your opponent around. In striking and fielding games, place more fielders where the batters hit most often."
+		},
+		{
+			"text": "At half-time, keep it short: one thing that is working, one thing to change, and a clear plan. Everyone should know their role. Respect the referee's decisions, and play fair whatever the score."
+		},
+		{
+			"text": "Try it in the world: play a small-sided game with friends. After five minutes, stop, read the game, and change one tactic. Did it help? For real: watch a match and note what each coach changes. Next: fitness testing."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a formation like 4-3-3, which players are not counted?",
+			"choices": [
+				"the goalkeeper",
+				"the defenders",
+				"the strikers",
+				"the midfielders"
+			],
+			"answer": 0,
+			"hint": "Add the three numbers: how many players is that, and who is missing from eleven?",
+			"explain": "4 + 3 + 3 = 10 outfield players; the goalkeeper makes 11, so the keeper is not in the numbers."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Scanning means looking around before the ball arrives, so you know your next move.",
+			"answer": true,
+			"hint": "Think about what a player does over their shoulder.",
+			"explain": "True: scanning before you receive the ball means you already know where the space is."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A team completed 160 of 200 passes. What percentage is that?",
+			"answer": "80",
+			"hint": "Divide completed by tried, then multiply by 100.",
+			"explain": "160 ÷ 200 = 0.8; 0.8 × 100 = 80%."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each situation to a good change.",
+			"items": [
+				"losing, ten minutes left",
+				"winning, nearly full time",
+				"outnumbered in midfield",
+				"their defence plays high"
+			],
+			"matches": [
+				"stay compact",
+				"add a midfielder",
+				"run in behind",
+				"add an attacker"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Ask what each situation needs: a goal, safety, more players or space?",
+			"explain": "Losing: add an attacker. Winning: stay compact. Outnumbered: add a midfielder. A high line: run in behind."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Your team leads 1-0 with two minutes left. What should the team do?",
+			"choices": [
+				"keep the ball and stay compact",
+				"send everyone forward",
+				"take long shots",
+				"stop running"
+			],
+			"answer": 0,
+			"hint": "Think about what protects a lead.",
+			"explain": "Keeping possession and a compact shape gives the other team few chances, so the lead is protected."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How many defenders does a 3-5-2 formation have?",
+			"choices": [
+				"3",
+				"5",
+				"2",
+				"4"
+			],
+			"answer": 0,
+			"hint": "The first number counts from the back.",
+			"explain": "3-5-2 means 3 defenders, 5 midfielders and 2 strikers."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a half-time team talk in a good order.",
+			"items": [
+				"check everyone knows their role",
+				"give a clear plan",
+				"say one thing that is working",
+				"name one thing to change"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Start positive, then the change, then the plan, then roles.",
+			"explain": "Begin with what works, name one change, give the plan, then check everyone knows their job."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The ball was in play for 60 minutes. The Reds had it for 39 minutes. What was their possession, in percent?",
+			"answer": "65",
+			"hint": "Possession is the share of the time: divide, then times 100.",
+			"explain": "39 ÷ 60 = 0.65; 0.65 × 100 = 65%."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Attacking or defending tactic?",
+			"groups": [
+				"attacking",
+				"defending"
+			],
+			"items": [
+				"pressing high",
+				"overlap",
+				"switch of play",
+				"compact block",
+				"third-man run"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Is the team trying to score, or to win the ball back and protect the goal?",
+			"explain": "Attacking: switch of play, overlap, third-man run. Defending: pressing high, compact block."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In badminton, your opponent always waits at the back of the court. Which shot plays to the gap?",
+			"choices": [
+				"a drop shot just over the net",
+				"a high clear to the back",
+				"a smash straight at them",
+				"a long serve"
+			],
+			"answer": 0,
+			"hint": "Where is the space when they stand at the back?",
+			"explain": "With your opponent at the back, the gap is near the net, so a drop shot lands where they are not."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A team with more possession always wins the match.",
+			"answer": false,
+			"hint": "Think about what wins a match: having the ball, or scoring?",
+			"explain": "False: possession helps, but goals win. A team can have the ball less and still score more."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Reds made 9 shots and 3 were on target. The Blues made 4 shots and 3 were on target. What percentage of the Blues' shots were on target?",
+			"answer": "75",
+			"hint": "Shots on target ÷ all shots, then multiply by 100.",
+			"explain": "3 ÷ 4 = 0.75, so 75% of the Blues' shots were on target, more than the Reds' 3 ÷ 9 (about 33%)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Look at the stats: the Reds have most of the ball but few shots on target. What should the Reds change?",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"Reds",
+						"Blues"
+					],
+					[
+						"possession",
+						"62%",
+						"38%"
+					],
+					[
+						"passes completed",
+						"240 of 300",
+						"120 of 200"
+					],
+					[
+						"shots",
+						"9",
+						"4"
+					],
+					[
+						"shots on target",
+						"3",
+						"3"
+					]
+				]
+			},
+			"choices": [
+				"make runs into the box to get better shots",
+				"pass sideways even more",
+				"defend deeper",
+				"slow the game down"
+			],
+			"answer": 0,
+			"hint": "They already have the ball. What are they not doing with it?",
+			"explain": "Possession without dangerous shots means they need runs and passes into the penalty area to create better chances."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In rounders, most batters hit the ball to the left. Where should the fielding team move?",
+			"choices": [
+				"more fielders to the left side",
+				"all fielders behind the bowler",
+				"everyone to the right",
+				"fielders off the pitch"
+			],
+			"answer": 0,
+			"hint": "Read where the ball usually goes.",
+			"explain": "Read the pattern: most hits go left, so move two or three fielders to the left side. More fielders where the ball goes means more catches and fewer runs; keep one deep fielder in case the batters change."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of changing a tactic in order.",
+			"items": [
+				"tell the team clearly",
+				"decide one change",
+				"notice what is happening",
+				"check whether it works"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "Read, decide, communicate, then review.",
+			"explain": "First read the game: where is the space? Then choose one change, and tell everyone clearly so they know their new roles. Finally, check after a few minutes whether it helps."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Changing formation from 4-4-2 to 4-5-1 adds a midfielder and takes away a striker.",
+			"answer": true,
+			"hint": "Compare the second and third numbers of each formation.",
+			"explain": "True: compare the numbers. 4-4-2 has 4 midfielders and 2 strikers; 4-5-1 has 5 midfielders and 1 striker. The defence stays at 4, so one striker drops back to help win the middle."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.formation",
+			"level": 1
+		},
+		{
+			"gen": "g8l.formation",
+			"level": 2
+		},
+		{
+			"gen": "g8l.formation",
+			"level": 3
+		},
+		{
+			"gen": "g8l.match_stats",
+			"level": 1
+		},
+		{
+			"gen": "g8l.match_stats",
+			"level": 2
+		},
+		{
+			"gen": "g8l.match_stats",
+			"level": 3
+		},
+		{
+			"gen": "g8l.tactic_change",
+			"level": 1
+		},
+		{
+			"gen": "g8l.tactic_change",
+			"level": 2
+		},
+		{
+			"gen": "g8l.tactic_change",
+			"level": 3
+		}
+	]
+}

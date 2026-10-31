@@ -1,0 +1,372 @@
+{
+	"id": "g7.design_tech.product_life_cycle",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you sorted materials into families. Which metals contain iron? (Ferrous metals.) Today: follow a product from raw materials to the end of its life, and design it to be mended."
+		},
+		{
+			"text": "A product's life cycle: raw materials are mined, grown or pumped up and processed; parts are made and put together (manufacture); the product is transported and used; and at its end of life it is reused, recycled or thrown away.",
+			"picture": {
+				"kind": "life_cycle",
+				"stages": [
+					"raw materials",
+					"manufacture",
+					"transport",
+					"use",
+					"end of life"
+				],
+				"title": "a product's life"
+			}
+		},
+		{
+			"text": "A life cycle assessment adds up the energy, water and carbon at each stage. For a phone, most of it goes into making the chips and the screen. For a washing machine, most is in years of use: electricity and water."
+		},
+		{
+			"text": "At the end of its life, a product can be reused, repaired, recycled, burned to make energy, or buried in landfill. Recycling aluminium saves about 95% of the energy needed to make it new."
+		},
+		{
+			"text": "The 6 Rs: rethink (is there a better way?), refuse (say no to what you don't need), reduce (use less), reuse, repair and recycle. A circular economy keeps materials in use, round and round, instead of take, make, throw.",
+			"picture": {
+				"kind": "life_cycle",
+				"stages": [
+					"rethink",
+					"refuse",
+					"reduce",
+					"reuse",
+					"repair",
+					"recycle"
+				],
+				"title": "the 6 Rs"
+			}
+		},
+		{
+			"text": "Design for repair: screws, not glue; standard parts and spare parts; a battery you can change; repair guides. Planned obsolescence is the opposite: things made to wear out or go out of date quickly."
+		},
+		{
+			"text": "Plastics carry a number in a triangle: 1 PET (drink bottles), 2 HDPE (milk bottles), 4 LDPE (bags), 5 PP (food tubs), 6 PS (polystyrene). Worked example: a steel bike is made, shipped, ridden for years, mended, and then recycled.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"code",
+						"plastic",
+						"used for"
+					],
+					[
+						"1",
+						"PET",
+						"drink bottles"
+					],
+					[
+						"2",
+						"HDPE",
+						"milk bottles"
+					],
+					[
+						"4",
+						"LDPE",
+						"bags"
+					],
+					[
+						"5",
+						"PP",
+						"food tubs"
+					],
+					[
+						"6",
+						"PS",
+						"polystyrene"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a repair shop in your village. In LIFE, the Tool Book shows the screwdriver and the Allen key, tools that open what screws hold together. For real: mend something with a grown-up. Next: prototype and improve."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which stage of a product's life is digging metal ore out of the ground?",
+			"choices": [
+				"raw materials",
+				"use",
+				"transport",
+				"end of life"
+			],
+			"answer": 0,
+			"hint": "Where does every product start?",
+			"explain": "Raw materials: the ore is mined before it is made into metal."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which stage is missing?",
+			"choices": [
+				"transport",
+				"advertising",
+				"selling",
+				"designing"
+			],
+			"answer": 0,
+			"hint": "What happens between the factory and the home?",
+			"explain": "Transport: the product is shipped and driven to shops and homes.",
+			"picture": {
+				"kind": "life_cycle",
+				"stages": [
+					"raw materials",
+					"manufacture",
+					"transport",
+					"use",
+					"end of life"
+				],
+				"hide": 2
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A circular economy keeps materials in use instead of throwing them away.",
+			"answer": true,
+			"hint": "Think of a circle compared with a straight line.",
+			"explain": "True: materials go round and round, not into the bin."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each R to an example.",
+			"items": [
+				"repair",
+				"reuse",
+				"refuse",
+				"recycle"
+			],
+			"matches": [
+				"cans into the metal bin",
+				"say no to a free bag",
+				"mend a puncture",
+				"a jar becomes a pencil pot"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Mend it, use it again, say no, or remake it?",
+			"explain": "Repair: mend a puncture. Reuse: the jar. Refuse: no to the bag. Recycle: cans in the metal bin."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Recycling aluminium saves about 95% of the energy. If new aluminium needs 100 units of energy, how many does recycled aluminium need?",
+			"answer": "5",
+			"hint": "Saving 95 of every 100 leaves how many?",
+			"explain": "100 − 95 = 5 units."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put a metal saucepan's life in order.",
+			"items": [
+				"mine the ore",
+				"make the pan",
+				"make the metal",
+				"ship it to the shops",
+				"cook with it for years"
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				3,
+				4
+			],
+			"hint": "From the ground to the factory, the shop and the home.",
+			"explain": "Mine the ore, make the metal, make the pan, ship it, then years of use."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Easy to repair, or hard?",
+			"groups": [
+				"easy to repair",
+				"hard to repair"
+			],
+			"items": [
+				"a battery you can't take out",
+				"parts held with screws",
+				"spare parts sold",
+				"a free repair guide",
+				"a case glued shut"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				0,
+				1
+			],
+			"hint": "Could you open it and get the part you need?",
+			"explain": "Easy: screws, spare parts, a repair guide. Hard: glued shut, a battery you can't take out."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A phone's carbon footprint is 60 kg, and 4/5 of it comes from making it. How many kg is that?",
+			"answer": "48",
+			"hint": "Find a fifth, then four of them.",
+			"explain": "60 ÷ 5 = 12, and 4 × 12 = 48 kg."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which code is on drink bottles?",
+			"choices": [
+				"1 (PET)",
+				"2 (HDPE)",
+				"5 (PP)",
+				"6 (PS)"
+			],
+			"answer": 0,
+			"hint": "The clear plastic bottle is the lowest number.",
+			"explain": "1: PET, used for clear drink bottles."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Planned obsolescence means designing a product to last as long as possible.",
+			"answer": false,
+			"hint": "Obsolete means out of date.",
+			"explain": "False: it means designing things to wear out or go out of date quickly."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "For a washing machine, which stage uses the most energy?",
+			"choices": [
+				"use: years of electricity and water",
+				"raw materials",
+				"transport",
+				"end of life"
+			],
+			"answer": 0,
+			"hint": "How long does it run, and what does it need each time?",
+			"explain": "Use: it runs for about ten years, using electricity and water every wash."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A kettle is used 3 times a day for 5 years of 365 days. How many uses is that?",
+			"answer": "5475",
+			"hint": "Uses a day × days a year × years.",
+			"explain": "3 × 365 = 1,095 a year, and 1,095 × 5 = 5,475 uses."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A toaster breaks after a year, and its case is glued shut. What would a better design have?",
+			"choices": [
+				"screws and spare parts, so it can be mended",
+				"a brighter colour",
+				"a bigger box",
+				"a shorter cable"
+			],
+			"answer": 0,
+			"hint": "What stops it being mended now?",
+			"explain": "Screws and spare parts let it be opened and mended."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Reusing a product usually saves more energy than recycling it.",
+			"answer": true,
+			"hint": "Which one needs the product melted down or remade?",
+			"explain": "True: reuse keeps it whole, so little new energy is needed."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these from best to worst for the planet.",
+			"items": [
+				"reuse",
+				"recycle",
+				"reduce",
+				"repair",
+				"landfill"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "Not making waste comes first; burying it comes last.",
+			"explain": "Reduce, reuse, repair, recycle, and landfill last of all."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort a T-shirt's life.",
+			"groups": [
+				"before you buy it",
+				"while you own it",
+				"after you are done"
+			],
+			"items": [
+				"washing it every week",
+				"giving it to a charity shop",
+				"mending a small hole",
+				"picking cotton",
+				"sewing the T-shirt",
+				"the fibres are recycled"
+			],
+			"answer": [
+				1,
+				2,
+				1,
+				0,
+				0,
+				2
+			],
+			"hint": "Where is the T-shirt: in a field or factory, in your drawer, or gone from your home?",
+			"explain": "Before: picking cotton, sewing. While: washing, mending. After: the charity shop, recycling the fibres."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Making a bike gives off about 50 kg of carbon. If it is ridden for 10 years instead of 5, how many kg is that for each year of use?",
+			"answer": "5",
+			"hint": "Share the making footprint over the years of use.",
+			"explain": "50 ÷ 10 = 5 kg a year, half of 50 ÷ 5 = 10: using things for longer halves their cost each year."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.life_stage",
+			"level": 1
+		},
+		{
+			"gen": "g7w.life_stage",
+			"level": 2
+		},
+		{
+			"gen": "g7w.life_stage",
+			"level": 3
+		},
+		{
+			"gen": "g7w.six_rs",
+			"level": 1
+		},
+		{
+			"gen": "g7w.six_rs",
+			"level": 2
+		},
+		{
+			"gen": "g7w.six_rs",
+			"level": 3
+		}
+	]
+}

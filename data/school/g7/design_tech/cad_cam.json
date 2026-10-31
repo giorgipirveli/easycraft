@@ -1,0 +1,356 @@
+{
+	"id": "g7.design_tech.cad_cam",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you drew a design on screen. What does CAD stand for? (Computer-aided design.) Today: how a design on a screen becomes a real object, cut or printed by a machine."
+		},
+		{
+			"text": "CAD lets designers draw in 2D and 3D: accurate to a fraction of a millimetre, quick to change and easy to share. In 3D CAD you pull a flat sketch up into a solid, then add holes and rounded edges.",
+			"picture": {
+				"kind": "views",
+				"heights": [
+					"2100",
+					"3210",
+					"3221"
+				],
+				"show": "model"
+			}
+		},
+		{
+			"text": "CAM (computer-aided manufacture): the computer drives a machine. The design is saved as a file: lines for a laser cutter, or a 3D model for a printer. The machine follows it exactly, again and again."
+		},
+		{
+			"text": "A laser cutter's beam cuts or engraves flat sheets: plywood, card or acrylic. Lines of one colour are cut through; others are only engraved. The beam burns away a thin line, the kerf. Never leave it running alone.",
+			"picture": {
+				"kind": "cam_process",
+				"machine": "laser",
+				"labels": true
+			}
+		},
+		{
+			"text": "A 3D printer melts plastic filament and builds the object layer by layer, often 0.2 mm at a time. A model 30 mm tall needs 30 ÷ 0.2 = 150 layers. Its nozzle is about 200 °C.",
+			"picture": {
+				"kind": "cam_process",
+				"machine": "printer",
+				"layers": 8,
+				"labels": true
+			}
+		},
+		{
+			"text": "Additive making builds material up, like a 3D printer. Subtractive making cuts it away, like a laser cutter, a CNC router or a drill. Additive wastes less material; subtractive is often quicker for flat parts."
+		},
+		{
+			"text": "Worked example: a laser cuts round a 60 mm square. The cut is 4 × 60 = 240 mm long. At 10 mm a second, it takes 240 ÷ 10 = 24 seconds. A thin kerf, about 0.2 mm, is burned away all the way round."
+		},
+		{
+			"text": "Try it in the world: build your design block by block, layer by layer, like a 3D printer. In LIFE, Real Builder lays a wall course by course in the same way. Next: electronic circuits."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does CAM stand for?",
+			"choices": [
+				"computer-aided manufacture",
+				"computer-aided maths",
+				"cutting and moulding",
+				"careful assembly by machine"
+			],
+			"answer": 0,
+			"hint": "It is CAD's partner, and its M is about making.",
+			"explain": "CAM: computer-aided manufacture, a computer driving a machine."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A model is 24 mm tall, printed in layers 0.2 mm thick. How many layers is that?",
+			"answer": "120",
+			"hint": "Divide the height by one layer's thickness.",
+			"explain": "24 ÷ 0.2 = 120 layers."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A 3D printer is an example of additive making.",
+			"answer": true,
+			"hint": "Does it add material or take it away?",
+			"explain": "True: it adds material, layer by layer."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort them: additive or subtractive making?",
+			"groups": [
+				"additive",
+				"subtractive"
+			],
+			"items": [
+				"building a pot from clay coils",
+				"drilling a hole",
+				"CNC routing",
+				"3D printing",
+				"laser cutting"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1
+			],
+			"hint": "Is material built up, or cut away?",
+			"explain": "Additive: 3D printing, coil pots. Subtractive: laser cutting, drilling, CNC routing."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each tool to its job.",
+			"items": [
+				"laser cutter",
+				"3D printer",
+				"CNC router",
+				"CAD"
+			],
+			"matches": [
+				"designs on screen",
+				"carves thick blocks",
+				"cuts flat sheets",
+				"builds layer by layer"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "Which one designs, and which three make?",
+			"explain": "Laser cutter: flat sheets. 3D printer: layer by layer. CNC router: thick blocks. CAD: designs on screen."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the 3D printer: tap a word, then its number.",
+			"spots": [
+				[
+					0.1431,
+					0.09,
+					0.1431,
+					0.3224
+				],
+				[
+					0.2934,
+					0.09,
+					0.2934,
+					0.1714
+				],
+				[
+					0.5188,
+					0.09,
+					0.5188,
+					0.4716
+				],
+				[
+					0.5188,
+					0.91,
+					0.5188,
+					0.6279
+				],
+				[
+					0.638,
+					0.91,
+					0.5188,
+					0.7486
+				]
+			],
+			"labels": [
+				"layers",
+				"bed",
+				"nozzle",
+				"spool",
+				"filament"
+			],
+			"answer": [
+				3,
+				4,
+				2,
+				0,
+				1
+			],
+			"hint": "Follow the plastic from where it is stored to where the model grows.",
+			"explain": "The spool holds the filament, which feeds the hot nozzle; the layers build up on the bed.",
+			"picture": {
+				"kind": "cam_process",
+				"machine": "printer",
+				"layers": 6
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A print has 150 layers, and each takes 12 seconds. How many minutes does it take?",
+			"answer": "30",
+			"hint": "Find the seconds for all the layers, then divide by 60.",
+			"explain": "150 × 12 = 1,800 seconds, and 1,800 ÷ 60 = 30 minutes."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why are CAD designs easy to share?",
+			"choices": [
+				"they are files that can be sent and copied",
+				"they are drawn in pencil",
+				"they cannot be changed",
+				"they only work on paper"
+			],
+			"answer": 0,
+			"hint": "Where does a CAD design live?",
+			"explain": "A CAD design is a file: it can be emailed, copied and changed by a team."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The kerf is the thin line of material that the laser burns away.",
+			"answer": true,
+			"hint": "What happens to the material right under the beam?",
+			"explain": "True: the kerf is the width the beam burns away."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put screen to object in order.",
+			"items": [
+				"sketch ideas on paper",
+				"draw the design in CAD",
+				"the machine cuts or prints it",
+				"save the file for the machine",
+				"check it on screen"
+			],
+			"answer": [
+				0,
+				1,
+				4,
+				3,
+				2
+			],
+			"hint": "Ideas first, the machine last.",
+			"explain": "Sketch, CAD, check on screen, save the file, then the machine makes it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Part of a model hangs out in the air. What does the 3D printer need?",
+			"choices": [
+				"supports underneath",
+				"a hotter room",
+				"a laser",
+				"more paint"
+			],
+			"answer": 0,
+			"hint": "Can plastic be printed onto nothing?",
+			"explain": "Supports underneath hold up the part that hangs out while it prints; they are broken off after."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A laser cuts round a 50 mm by 30 mm rectangle at 8 mm a second. How many seconds does the cut take?",
+			"answer": "20",
+			"hint": "The cut goes all the way round: find the perimeter first.",
+			"explain": "2 × (50 + 30) = 160 mm, and 160 ÷ 8 = 20 seconds."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is the best reason to use CAM for 500 key rings?",
+			"choices": [
+				"every one comes out the same, quickly",
+				"it needs no design",
+				"it is always free",
+				"machines never need checking"
+			],
+			"answer": 0,
+			"hint": "Think about many copies of one design.",
+			"explain": "CAM repeats the design exactly and quickly, 500 times."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A 3D printer's nozzle is cool enough to touch while it prints.",
+			"answer": false,
+			"hint": "What does it do to the plastic?",
+			"explain": "False: it melts plastic, at about 200 °C, so never touch it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A sheet is cut into 6 equal strips with 5 straight cuts. Each cut burns a kerf of 0.3 mm. How much width is lost, in mm?",
+			"answer": "1.5",
+			"hint": "Multiply the cuts by the width each one burns away.",
+			"explain": "5 × 0.3 = 1.5 mm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which usually wastes less material: additive or subtractive making?",
+			"choices": [
+				"additive",
+				"subtractive",
+				"they waste the same"
+			],
+			"answer": 0,
+			"hint": "Which one only puts material where the object needs it?",
+			"explain": "Additive: it builds only what the design needs, while cutting leaves offcuts."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Laser cutter or 3D printer?",
+			"groups": [
+				"laser cutter",
+				"3D printer"
+			],
+			"items": [
+				"a card box net",
+				"a hollow vase shape",
+				"a curved chess piece",
+				"an engraved wooden sign",
+				"a flat acrylic key ring"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Is it flat, from a sheet, or a 3D shape?",
+			"explain": "Laser cutter: the key ring, the box net, the engraved sign. 3D printer: the vase, the chess piece."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.print_layers",
+			"level": 1
+		},
+		{
+			"gen": "g7w.print_layers",
+			"level": 2
+		},
+		{
+			"gen": "g7w.print_layers",
+			"level": 3
+		},
+		{
+			"gen": "g7w.make_method",
+			"level": 1
+		},
+		{
+			"gen": "g7w.make_method",
+			"level": 2
+		},
+		{
+			"gen": "g7w.make_method",
+			"level": 3
+		}
+	]
+}

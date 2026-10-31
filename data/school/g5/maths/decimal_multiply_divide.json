@@ -1,0 +1,291 @@
+{
+	"id": "g5.maths.decimal_multiply_divide",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, adding decimals. What is 2.5 + 1.25? Line up the points: 3.75."
+		},
+		{
+			"text": "0.3 × 4 is 4 lots of 3 tenths: 12 tenths, which is 1.2.",
+			"picture": {
+				"kind": "bar",
+				"bars": [
+					{
+						"den": 10,
+						"num": 3
+					},
+					{
+						"den": 10,
+						"num": 3
+					},
+					{
+						"den": 10,
+						"num": 3
+					},
+					{
+						"den": 10,
+						"num": 3
+					}
+				]
+			}
+		},
+		{
+			"text": "The quick way: multiply as if there were no point, then put the point back. 2.4 × 3: 24 × 3 = 72. 2.4 has one decimal place, so the answer has one too: 7.2."
+		},
+		{
+			"text": "A decimal times a decimal: 0.2 × 0.3 is 2 tenths of 3 tenths. On a hundred square, 2 rows of 3 small squares are shaded both ways: 6 hundredths, 0.06.",
+			"picture": {
+				"kind": "fraction_area",
+				"cols": 10,
+				"rows": 10,
+				"shade_cols": 3,
+				"shade_rows": 2,
+				"w": "0.3",
+				"h": "0.2"
+			}
+		},
+		{
+			"text": "Count the decimal places in both numbers: the answer has that many. 1.2 × 0.3: 12 × 3 = 36, and there are two places, so 0.36."
+		},
+		{
+			"text": "Dividing: 4.8 ÷ 4 = 1.2, because 48 tenths shared into 4 groups is 12 tenths. And 3 ÷ 0.5 asks how many halves fit in 3: 6 of them.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "0.5",
+								"size": 1
+							},
+							{
+								"text": "0.5",
+								"size": 1
+							},
+							{
+								"text": "0.5",
+								"size": 1
+							},
+							{
+								"text": "0.5",
+								"size": 1
+							},
+							{
+								"text": "0.5",
+								"size": 1
+							},
+							{
+								"text": "0.5",
+								"size": 1
+							}
+						],
+						"total": "3"
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: a block costs 0.5 gold. How much do 8 blocks cost? 8 × 0.5 = 4 gold. And how many blocks can you buy with 3 gold? 3 ÷ 0.5 = 6. Next: expressions and brackets."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "0.4 × 3 = ?",
+			"answer": "1.2",
+			"hint": "3 lots of 4 tenths.",
+			"explain": "3 × 4 tenths = 12 tenths = 1.2."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "6.3 ÷ 3 = ?",
+			"answer": "2.1",
+			"hint": "Share the ones, then the tenths.",
+			"explain": "6 ÷ 3 = 2 and 3 tenths ÷ 3 = 1 tenth: 2.1."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "0.5 × 0.5 = 2.5",
+			"answer": false,
+			"hint": "Half of a half is a quarter.",
+			"explain": "5 tenths × 5 tenths = 25 hundredths = 0.25, not 2.5."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The square is cut into hundredths. What is 0.4 × 0.7?",
+			"answer": "0.28",
+			"hint": "Count the small squares shaded both ways.",
+			"explain": "4 rows of 7 make 28 hundredths: 0.28.",
+			"picture": {
+				"kind": "fraction_area",
+				"cols": 10,
+				"rows": 10,
+				"shade_cols": 7,
+				"shade_rows": 4,
+				"w": "0.7",
+				"h": "0.4"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "53 × 21 = 1,113. So what is 5.3 × 2.1?",
+			"choices": [
+				"11.13",
+				"111.3",
+				"1.113",
+				"1,113"
+			],
+			"answer": 0,
+			"hint": "Count the decimal places in 5.3 and in 2.1.",
+			"explain": "One place and one place make two places: 11.13."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "2 ÷ 0.25 = ?",
+			"answer": "8",
+			"hint": "0.25 is a quarter. How many quarters make 1? And 2?",
+			"explain": "4 quarters make 1, so 8 quarters make 2: 2 ÷ 0.25 = 8."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "1.5 × 2.4 = ?",
+			"answer": "3.6",
+			"hint": "Work out 15 × 24, then count the decimal places.",
+			"explain": "15 × 24 = 360, and there are two decimal places: 3.60, which is 3.6."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A ribbon 7.5 m long is cut into 6 equal pieces. How long is each piece, in metres?",
+			"answer": "1.25",
+			"hint": "7.5 ÷ 6: write 7.5 as 7.50 and share it into 6.",
+			"explain": "7.50 ÷ 6 = 1.25 m, and 1.25 × 6 = 7.5."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is bigger: 0.8 × 0.9 or 0.8?",
+			"choices": [
+				"0.8",
+				"0.8 × 0.9",
+				"They are equal"
+			],
+			"answer": 0,
+			"hint": "0.9 is less than 1. What happens when you multiply by a number less than 1?",
+			"explain": "Multiplying by a number less than 1 makes it smaller: 0.9 is less than 1, so 0.8 × 0.9 is less than 0.8. Check: 8 × 9 = 72, and two places make 0.72."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each calculation to its answer.",
+			"items": [
+				"0.4 × 3",
+				"0.2 × 0.3",
+				"4.8 ÷ 2",
+				"3 ÷ 0.5"
+			],
+			"matches": [
+				"6",
+				"2.4",
+				"0.06",
+				"1.2"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Count the decimal places when you multiply; think \"how many fit?\" when you divide by a decimal.",
+			"explain": "0.4 × 3 = 1.2; 0.2 × 0.3 = 0.06; 4.8 ÷ 2 = 2.4; 3 ÷ 0.5 = 6."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Juice costs 1.25 gold a bottle. Tilly buys 4 bottles and pays with 10 gold. How much change does she get?",
+			"answer": "5",
+			"hint": "Multiply to find the cost, then take it away from 10.",
+			"explain": "Cost: 125 × 4 = 500, and two decimal places make 5.00, so 5 gold. Change: 10 − 5 = 5 gold."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5n.decimal_times_whole",
+			"level": 1
+		},
+		{
+			"gen": "g5n.decimal_times_whole",
+			"level": 2
+		},
+		{
+			"gen": "g5n.decimal_times_whole",
+			"level": 3
+		},
+		{
+			"gen": "g5n.decimal_times_decimal",
+			"level": 1
+		},
+		{
+			"gen": "g5n.decimal_times_decimal",
+			"level": 2
+		},
+		{
+			"gen": "g5n.decimal_times_decimal",
+			"level": 3
+		},
+		{
+			"gen": "g5n.decimal_divide",
+			"level": 1
+		},
+		{
+			"gen": "g5n.decimal_divide",
+			"level": 2
+		},
+		{
+			"gen": "g5n.decimal_divide",
+			"level": 3
+		},
+		{
+			"gen": "g5n.divide_by_decimal",
+			"level": 1
+		},
+		{
+			"gen": "g5n.divide_by_decimal",
+			"level": 2
+		},
+		{
+			"gen": "g5n.divide_by_decimal",
+			"level": 3
+		},
+		{
+			"gen": "g5n.place_the_point",
+			"level": 1
+		},
+		{
+			"gen": "g5n.place_the_point",
+			"level": 2
+		},
+		{
+			"gen": "g5n.place_the_point",
+			"level": 3
+		},
+		{
+			"gen": "g5n.decimal_square",
+			"level": 1
+		},
+		{
+			"gen": "g5n.decimal_square",
+			"level": 2
+		},
+		{
+			"gen": "g5n.decimal_square",
+			"level": 3
+		}
+	]
+}

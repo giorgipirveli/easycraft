@@ -1,0 +1,381 @@
+{
+	"id": "g8.geography.oceans",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met the coast. What builds a spit? (Longshore drift carrying sand along the coast.) Today: the ocean's currents and zones, its life, and the problem of plastic."
+		},
+		{
+			"text": "The ocean covers about 71% of Earth's surface, in five named oceans: the Pacific (the largest), the Atlantic, Indian, Southern and Arctic. It holds about 97% of Earth's water and stores huge amounts of heat and carbon dioxide.",
+			"picture": {
+				"kind": "pie_chart",
+				"slices": [
+					[
+						"ocean",
+						7
+					],
+					[
+						"land",
+						3
+					]
+				],
+				"whole": 10,
+				"lines": true,
+				"key": true
+			}
+		},
+		{
+			"text": "Winds push surface water into great loops called gyres. The Gulf Stream carries warm water from the Caribbean towards north-west Europe, keeping Britain milder than places as far north. Deep down, cold, salty water sinks and creeps round the world.",
+			"picture": {
+				"kind": "voyage_map",
+				"window": {
+					"lat": [
+						0,
+						65
+					],
+					"long": [
+						-100,
+						10
+					]
+				},
+				"lat_step": 20,
+				"long_step": 30,
+				"routes": [
+					{
+						"name": "Gulf Stream",
+						"points": [
+							[
+								20,
+								-85
+							],
+							[
+								25,
+								-80
+							],
+							[
+								35,
+								-74
+							],
+							[
+								42,
+								-50
+							],
+							[
+								50,
+								-30
+							],
+							[
+								56,
+								-10
+							]
+						]
+					},
+					{
+						"name": "the gyre",
+						"points": [
+							[
+								38,
+								-20
+							],
+							[
+								25,
+								-18
+							],
+							[
+								15,
+								-40
+							],
+							[
+								20,
+								-65
+							],
+							[
+								30,
+								-75
+							],
+							[
+								40,
+								-60
+							],
+							[
+								38,
+								-20
+							]
+						]
+					}
+				],
+				"places": [
+					{
+						"lat": 54,
+						"long": -2,
+						"label": "Britain"
+					},
+					{
+						"lat": 18,
+						"long": -75,
+						"label": "Caribbean"
+					}
+				]
+			}
+		},
+		{
+			"text": "Light fades with depth. The sunlight zone, down to 200 m, holds most of the ocean's life. The twilight zone, to 1,000 m, is dim. Below lie the dark midnight zone, the abyss, and the trenches: nearly 11,000 m deep in the Mariana Trench.",
+			"picture": {
+				"kind": "ocean_zones",
+				"labels": true,
+				"depths": true,
+				"life": true
+			}
+		},
+		{
+			"text": "Tiny drifting plants, phytoplankton, make about half of the oxygen we breathe and begin the ocean's food webs. Coral reefs cover under 1% of the sea floor but are home to about a quarter of all sea species. Many deep creatures make their own light."
+		},
+		{
+			"text": "About 11 million tonnes of plastic enter the ocean each year. Currents gather it in gyres, such as the 'Great Pacific Garbage Patch'. It breaks into tiny pieces, microplastics, that animals swallow, and lost fishing nets trap turtles and seals."
+		},
+		{
+			"text": "Solutions: use less plastic and reuse more, stop litter reaching rivers, recycle better, and clean beaches. Countries are agreeing rules to cut plastic and to protect the high seas, and marine protected areas let fish and coral recover."
+		},
+		{
+			"text": "Try it in the world: build a beach-cleaning station in your world, with bins for plastic, glass and nets. Add a sign saying how long each lasts in the sea. Next: maps of the world."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The ocean covers about 71% of Earth's surface. What percentage is land?",
+			"answer": "29",
+			"hint": "The whole surface is 100%.",
+			"explain": "100 − 71 = 29%."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is the largest ocean?",
+			"choices": [
+				"the Pacific",
+				"the Atlantic",
+				"the Indian Ocean",
+				"the Arctic Ocean"
+			],
+			"answer": 0,
+			"hint": "It lies between Asia and the Americas.",
+			"explain": "The Pacific, bigger than all the land on Earth put together."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Gulf Stream carries warm water towards north-west Europe.",
+			"answer": true,
+			"hint": "Look at the current on the map.",
+			"explain": "True: it brings warm water from the Caribbean across the Atlantic."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In which zone does most ocean life live?",
+			"choices": [
+				"the sunlight zone",
+				"the abyss",
+				"the trenches",
+				"the midnight zone"
+			],
+			"answer": 0,
+			"hint": "Plants need light to grow, and animals follow the food.",
+			"explain": "The sunlight zone: there is light for phytoplankton, which feed everything else."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the ocean's zones in order, from the surface down.",
+			"items": [
+				"sunlight zone",
+				"twilight zone",
+				"abyss",
+				"midnight zone",
+				"trenches"
+			],
+			"answer": [
+				0,
+				1,
+				3,
+				2,
+				4
+			],
+			"hint": "Light fades as you go down.",
+			"explain": "Sunlight, twilight, midnight, the abyss, then the trenches."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "At the surface the air presses with 1 atmosphere, and every 10 m of sea adds about 1 more. About how many atmospheres press at 100 m?",
+			"answer": "11",
+			"hint": "Count the 10 m steps, then add the 1 from the air.",
+			"explain": "100 ÷ 10 = 10; 10 + 1 = 11 atmospheres."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: do they help the ocean or harm it?",
+			"groups": [
+				"helps",
+				"harms"
+			],
+			"items": [
+				"a marine protected area",
+				"reusable bottles",
+				"microplastics",
+				"a beach clean-up",
+				"plastic bags in rivers",
+				"lost fishing nets"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1,
+				1
+			],
+			"hint": "Does it take plastic away and protect life, or add to the problem?",
+			"explain": "Helps: clean-ups, protected areas, reusable bottles. Harms: lost nets, plastic bags, microplastics."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each ocean word to its meaning.",
+			"items": [
+				"gyre",
+				"phytoplankton",
+				"microplastics",
+				"trench"
+			],
+			"matches": [
+				"the deepest part of the sea",
+				"tiny bits of plastic",
+				"tiny drifting plants",
+				"a great loop of currents"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "A loop, plants, plastic and a deep place.",
+			"explain": "Gyre: a loop of currents. Phytoplankton: tiny plants. Microplastics: tiny plastic. Trench: the deepest sea."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does Britain have milder winters than places as far north?",
+			"choices": [
+				"it has high mountains",
+				"it is near the equator",
+				"the warm Gulf Stream",
+				"it has no wind"
+			],
+			"answer": 2,
+			"hint": "Look at the map: where does warm water flow?",
+			"explain": "The Gulf Stream and the winds over it bring warmth from the south-west."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Coral reefs cover under 1% of the sea floor but hold about a quarter of sea species.",
+			"answer": true,
+			"hint": "Look back at the card about ocean life.",
+			"explain": "True: reefs are among the richest places for life on Earth."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does plastic collect in the middle of ocean gyres?",
+			"choices": [
+				"currents circle round and trap it",
+				"fish carry it there",
+				"plastic sinks there",
+				"ships dump it there"
+			],
+			"answer": 0,
+			"hint": "Think of water swirling round a plughole, slowly.",
+			"explain": "The gyre's currents circle round, so floating plastic drifts to the calm middle and stays there."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A plastic bottle may last about 450 years in the sea. If it is dropped in 2025, until about which year could it last?",
+			"answer": "2475",
+			"hint": "Add the years it lasts to the year it was dropped.",
+			"explain": "2025 + 450 = 2475.",
+			"year": true
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why would losing phytoplankton matter to everyone?",
+			"choices": [
+				"they make about half our oxygen",
+				"they are big fish",
+				"they make the salt",
+				"they cause storms"
+			],
+			"answer": 0,
+			"hint": "Think of what plants give off in sunlight.",
+			"explain": "Phytoplankton make about half of the oxygen we breathe and feed the ocean's food webs."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put this litter in order, from shortest-lasting in the sea to longest.",
+			"items": [
+				"a plastic bottle",
+				"a plastic bag",
+				"fishing line",
+				"a foam cup"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Thin, light things break down sooner; thick, strong plastic lasts longest.",
+			"explain": "A bag about 20 years, a foam cup 50, a bottle 450, fishing line about 600."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Marine protected areas can help fish and coral recover.",
+			"answer": true,
+			"hint": "Think what happens when fishing stops in a place.",
+			"explain": "True: when fishing and damage stop, fish grow bigger and more numerous, and coral can regrow."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.ocean_zone",
+			"level": 1
+		},
+		{
+			"gen": "g8h.ocean_zone",
+			"level": 2
+		},
+		{
+			"gen": "g8h.ocean_zone",
+			"level": 3
+		},
+		{
+			"gen": "g8h.plastic_years",
+			"level": 1
+		},
+		{
+			"gen": "g8h.plastic_years",
+			"level": 2
+		},
+		{
+			"gen": "g8h.plastic_years",
+			"level": 3
+		}
+	]
+}

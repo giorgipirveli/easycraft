@@ -1,0 +1,318 @@
+{
+	"id": "g7.geography.fieldwork_enquiry",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you did a traffic survey. How do you tally quickly? (Every fifth line crosses the other four.) Today: a full fieldwork enquiry, from a question to a conclusion."
+		},
+		{
+			"text": "A geography enquiry follows steps: a question, a hypothesis (what you expect), a plan, collecting data, presenting it, analysing it, then a conclusion and an evaluation. A question to test: are there fewer people further from the town centre?",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"question",
+					"hypothesis",
+					"plan",
+					"collect data",
+					"present data",
+					"analyse",
+					"conclude and evaluate"
+				],
+				"title": "A geography enquiry"
+			}
+		},
+		{
+			"text": "Plan carefully: what to measure, where, when and how often, and how to stay safe, with a grown-up. You cannot count everywhere, so you sample: sites at equal distances (systematic), by chance (random), or in fair shares of each area (stratified).",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Sampling",
+						"How sites are chosen"
+					],
+					[
+						"systematic",
+						"at equal distances"
+					],
+					[
+						"random",
+						"by chance"
+					],
+					[
+						"stratified",
+						"some in each area"
+					]
+				]
+			}
+		},
+		{
+			"text": "Primary data you collect yourself: counts, measurements, questionnaires, photos and sketches. Secondary data comes from others: maps, census figures, weather records. An environmental survey scores a place from −3 to +3 for things like litter and noise."
+		},
+		{
+			"text": "Present data so patterns show. Use bar charts for counts, and line graphs for change over time or distance. Pie charts show shares, and maps show places with symbols. Scatter graphs show whether two things are linked."
+		},
+		{
+			"text": "Analyse. The mean: add, then divide by how many. The median: the middle value in order. The range: biggest minus smallest. For 12, 30, 7, 18 and 13, the range is 30 − 7 = 23, the median 13 and the mean 80 ÷ 5 = 16.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"A",
+						12
+					],
+					[
+						"B",
+						30
+					],
+					[
+						"C",
+						7
+					],
+					[
+						"D",
+						18
+					],
+					[
+						"E",
+						13
+					]
+				],
+				"step": 5,
+				"top": 30,
+				"name": "People counted"
+			}
+		},
+		{
+			"text": "Conclude: was your hypothesis right? Use your numbers as evidence and point out anomalies, results that do not fit. Evaluate: were there enough samples? Would another day differ? What would make it more reliable next time?"
+		},
+		{
+			"text": "Try it in the world: count the animals passing 5 spots in your world, each further from your base, for 2 minutes each. Build a bar chart of the counts in blocks and write your conclusion on a sign. Next: managing natural hazards."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a hypothesis in an enquiry?",
+			"answer": 0,
+			"hint": "It comes before you collect data.",
+			"choices": [
+				"what you expect to find",
+				"the data",
+				"the chart",
+				"the answer at the end"
+			],
+			"explain": "A prediction of what you expect to find, which the data will test."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is primary data?",
+			"answer": 0,
+			"hint": "Primary: first-hand, collected by you.",
+			"choices": [
+				"a count you made yourself",
+				"census figures online",
+				"an old map",
+				"a newspaper report"
+			],
+			"explain": "A count you made yourself; the others were collected by other people."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The range is the biggest value minus the smallest.",
+			"answer": true,
+			"hint": "It shows how spread out the data is.",
+			"explain": "True: the range is the biggest value minus the smallest, so it shows how spread out the data is."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which graph shows whether two things are linked?",
+			"answer": 0,
+			"hint": "Each point has two values, one on each axis.",
+			"choices": [
+				"a scatter graph",
+				"a pie chart",
+				"a pictogram",
+				"a table of contents"
+			],
+			"explain": "A scatter graph: each point plots two values, so a pattern shows a link."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why do fieldwork with a grown-up?",
+			"answer": 0,
+			"hint": "Think of roads, rivers and strangers.",
+			"choices": [
+				"to stay safe",
+				"to carry the data",
+				"only adults may count",
+				"to make it faster"
+			],
+			"explain": "To stay safe near roads and water, and with people you do not know."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Counts at 5 sites: 4, 9, 15, 22, 30. What is the range?",
+			"answer": "26",
+			"hint": "Biggest minus smallest.",
+			"explain": "30 − 4 = 26."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Counts at 5 sites: 8, 3, 12, 5, 7. What is the median?",
+			"answer": "7",
+			"hint": "Put the counts in order and take the middle one.",
+			"explain": "In order: 3, 5, 7, 8, 12. The middle one is 7."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these enquiry steps in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need data before you can present it, and results before a conclusion.",
+			"items": [
+				"make a hypothesis",
+				"present the data",
+				"ask a question",
+				"collect data",
+				"write a conclusion"
+			],
+			"explain": "Question, hypothesis, collect, present, conclude."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: primary or secondary data?",
+			"groups": [
+				"primary",
+				"secondary"
+			],
+			"items": [
+				"your own traffic count",
+				"census figures",
+				"your photos of the site",
+				"a weather service's records",
+				"your questionnaire",
+				"an online map"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Did you collect it yourself?",
+			"explain": "Primary: your count, photos, questionnaire. Secondary: census, weather records, online map."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each average or spread to how you find it.",
+			"items": [
+				"mean",
+				"median",
+				"mode",
+				"range"
+			],
+			"matches": [
+				"biggest minus smallest",
+				"add, then divide",
+				"the middle value",
+				"the most common value"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Three are averages; one shows the spread.",
+			"explain": "Mean: add and divide. Median: middle. Mode: most common. Range: biggest − smallest."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Counts at 5 sites: 6, 10, 14, 20, 25. What is the mean?",
+			"answer": "15",
+			"hint": "Add them all, then divide by how many there are.",
+			"explain": "6 + 10 + 14 + 20 + 25 = 75; 75 ÷ 5 = 15."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is an anomaly?",
+			"answer": 0,
+			"hint": "Look for the odd one out on a graph.",
+			"choices": [
+				"a result that does not fit the pattern",
+				"the biggest value",
+				"the average",
+				"a kind of chart"
+			],
+			"explain": "A result that does not fit the pattern; say why it might have happened."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How could you make a survey more reliable?",
+			"answer": 0,
+			"hint": "One day's count might be unusual.",
+			"choices": [
+				"count on several days and at more sites",
+				"count once only",
+				"change the question halfway",
+				"guess missing numbers"
+			],
+			"explain": "Repeating on several days and at more sites makes the results fairer and more reliable."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If counts fall as you go further from the centre, the hypothesis 'there are fewer people further out' is supported.",
+			"answer": true,
+			"hint": "Does the evidence match what was expected?",
+			"explain": "True: the data matches the hypothesis, so it is supported (though more counts would make it surer)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Choosing a site every 100 m along a street is which kind of sampling?",
+			"answer": 0,
+			"hint": "The sites are at equal distances.",
+			"choices": [
+				"systematic",
+				"random",
+				"stratified",
+				"secret"
+			],
+			"explain": "Systematic sampling: sites at regular, equal distances."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.field_stats",
+			"level": 1
+		},
+		{
+			"gen": "g7h.field_stats",
+			"level": 2
+		},
+		{
+			"gen": "g7h.field_stats",
+			"level": 3
+		}
+	]
+}

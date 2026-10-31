@@ -1,0 +1,436 @@
+{
+	"id": "g6.science.light_travels",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4, how do you see a book? (Light from a source bounces off the book into your eyes.) Today: light's straight paths, shadows, mirrors and the tools that use them."
+		},
+		{
+			"text": "Light travels in straight lines, very fast: about 300,000 km every second, so sunlight reaches Earth in about 8 minutes. Light sources make light (the Sun, a flame, a lamp); the Moon and this page only reflect it."
+		},
+		{
+			"text": "Materials let light through in different amounts. Transparent ones, like clear glass, let almost all of it through. Translucent ones, like tracing paper, let some through, blurred. Opaque ones, like wood, block it."
+		},
+		{
+			"text": "An opaque card blocks the straight rays, leaving a shadow the shape of its outline. The screen is 3 times as far from the lamp as the card, so the shadow is 3 times as tall. Move the card nearer the lamp: the shadow grows.",
+			"picture": {
+				"kind": "shadow_rays",
+				"near": 20,
+				"far": 60,
+				"size": 5,
+				"hide": "none"
+			}
+		},
+		{
+			"text": "A mirror reflects light. The normal is a line at right angles to the mirror. The angle of incidence is between the ray going in and the normal. It always equals the angle of reflection, between the ray coming out and the normal.",
+			"picture": {
+				"kind": "reflection",
+				"i": 40,
+				"names": true
+			}
+		},
+		{
+			"text": "A periscope uses two mirrors at 45° to see over a wall: light turns down at the top mirror and out to your eye at the bottom one. A mirror shows writing back to front, so AMBULANCE is written backwards on the front of ambulances.",
+			"picture": {
+				"kind": "light_device",
+				"device": "periscope",
+				"names": true
+			}
+		},
+		{
+			"text": "A pinhole camera shows light's straight paths too. Rays from the top of a candle pass through the tiny hole and land low on the screen. Rays from the bottom land high, so the picture is upside down.",
+			"picture": {
+				"kind": "light_device",
+				"device": "pinhole",
+				"names": true
+			}
+		},
+		{
+			"text": "Try it in the world: in a dark room, shine a torch at a toy, and move the toy nearer and farther. Watch its shadow grow and shrink. Never look straight at the Sun, even through sunglasses. Next, in grade 7: light and colour."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Light travels in straight lines.",
+			"answer": true,
+			"hint": "Think of a torch beam in a dusty room.",
+			"explain": "True: that is why shadows have sharp edges and you cannot see round corners."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a light source?",
+			"choices": [
+				"a candle flame",
+				"the Moon",
+				"a mirror",
+				"a white wall"
+			],
+			"answer": 0,
+			"hint": "A light source makes its own light.",
+			"explain": "A candle flame gives out light; the others only reflect it."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort them: how much light gets through?",
+			"groups": [
+				"transparent",
+				"translucent",
+				"opaque"
+			],
+			"items": [
+				"clear glass",
+				"tracing paper",
+				"a wooden door",
+				"cling film",
+				"frosted glass",
+				"a brick"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Can you see clearly through it, see blurry light, or see nothing at all?",
+			"explain": "Transparent: clear glass, cling film. Translucent: tracing paper, frosted glass. Opaque: a wooden door, a brick."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "The angle of incidence is 30°. What is the angle of reflection?",
+			"answer": "30",
+			"hint": "Both angles are measured from the normal, the dashed line.",
+			"explain": "The angle of reflection equals the angle of incidence: 30°.",
+			"picture": {
+				"kind": "reflection",
+				"i": 30,
+				"marks": [
+					"i",
+					"r"
+				],
+				"unknown": "r"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "A puppet is moved away from the lamp, towards the screen. What happens to its shadow?",
+			"choices": [
+				"It gets smaller.",
+				"It gets bigger.",
+				"It disappears."
+			],
+			"answer": 0,
+			"hint": "Near the lamp, the rays spread out a lot before they reach the screen.",
+			"explain": "It gets smaller: close to the screen, the rays have little room to spread out.",
+			"picture": {
+				"kind": "shadow_rays",
+				"near": 20,
+				"far": 60,
+				"size": 5,
+				"numbers": false,
+				"hide": "none"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Why can't you see round a corner?",
+			"choices": [
+				"light travels in straight lines",
+				"corners are too dark",
+				"light is too slow",
+				"light bends round walls"
+			],
+			"answer": 0,
+			"hint": "How does light travel?",
+			"explain": "Light goes in straight lines, so light from round the corner cannot reach your eyes."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The card is 4 cm tall and 10 cm from the lamp. The screen is 30 cm from the lamp. How tall is the shadow, in cm?",
+			"answer": "12",
+			"hint": "How many times as far from the lamp is the screen as the card?",
+			"explain": "30 ÷ 10 = 3 times as far, so the shadow is 4 × 3 = 12 cm tall.",
+			"picture": {
+				"kind": "shadow_rays",
+				"near": 10,
+				"far": 30,
+				"size": 4,
+				"hide": "shadow"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The ray meets the mirror at 25° to its surface. What is the angle of reflection, measured from the normal?",
+			"answer": "65",
+			"hint": "The normal is at 90° to the mirror.",
+			"explain": "The angle of incidence is 90° − 25° = 65°, and the angle of reflection equals it: 65°.",
+			"picture": {
+				"kind": "reflection",
+				"i": 65,
+				"marks": [
+					"mi",
+					"r"
+				],
+				"unknown": "r"
+			}
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the periscope: tap a word, then its number.",
+			"picture": {
+				"kind": "light_device",
+				"device": "periscope"
+			},
+			"spots": [
+				[
+					0.16,
+					0.62,
+					0.1594,
+					0.2499
+				],
+				[
+					0.76,
+					0.14,
+					0.5,
+					0.2499
+				],
+				[
+					0.3,
+					0.86,
+					0.5,
+					0.7501
+				],
+				[
+					0.9,
+					0.5,
+					0.7136,
+					0.7501
+				]
+			],
+			"labels": [
+				"top mirror",
+				"bottom mirror",
+				"eye",
+				"object"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Follow the light from the tree: in at the top, down the tube, out at the bottom.",
+			"explain": "The object is the tree, the top mirror turns the light down, the bottom mirror turns it out, and the eye sees it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is the picture in a pinhole camera upside down?",
+			"choices": [
+				"the rays cross at the pinhole",
+				"the screen is upside down",
+				"light bends at the hole",
+				"the camera turns it over"
+			],
+			"answer": 0,
+			"hint": "Follow the ray from the top of the candle through the hole.",
+			"explain": "Light travels in straight lines, so rays from the top go down through the hole and rays from the bottom go up: they cross.",
+			"picture": {
+				"kind": "light_device",
+				"device": "pinhole"
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the light's path in order when you see a tree in a mirror.",
+			"items": [
+				"It enters your eye",
+				"It reflects off the mirror",
+				"Light reflects off the tree",
+				"The Sun gives out light"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Follow the light from where it starts to where it ends.",
+			"explain": "The Sun gives out light, it reflects off the tree, then off the mirror, and then it enters your eye."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The Moon is a light source.",
+			"answer": false,
+			"hint": "Does the Moon make its own light?",
+			"explain": "False: the Moon reflects light from the Sun."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A ray hits a mirror with an angle of incidence of 35°. How big is the whole angle between the two rays?",
+			"answer": "70",
+			"hint": "The normal splits the angle between the rays into two equal parts.",
+			"explain": "35° + 35° = 70°.",
+			"picture": {
+				"kind": "reflection",
+				"i": 35,
+				"marks": [
+					"i",
+					"both"
+				],
+				"unknown": "both"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A shadow is 18 cm tall. The card is 15 cm from the lamp, and the screen is 45 cm from it. How tall is the card, in cm?",
+			"answer": "6",
+			"hint": "The shadow is as many times taller as the screen is farther away.",
+			"explain": "45 ÷ 15 = 3, so the card is 18 ÷ 3 = 6 cm tall.",
+			"picture": {
+				"kind": "shadow_rays",
+				"near": 15,
+				"far": 45,
+				"size": 6,
+				"hide": "size"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is AMBULANCE written back to front on the front of ambulances?",
+			"choices": [
+				"drivers ahead read it the right way in mirrors",
+				"it is quicker to paint",
+				"it is in another language",
+				"to look funny"
+			],
+			"answer": 0,
+			"hint": "What does a mirror do to writing?",
+			"explain": "A mirror shows writing back to front, so the reversed word reads the right way in a driver's mirror."
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label the reflection: tap a word, then its number.",
+			"picture": {
+				"kind": "reflection",
+				"i": 40
+			},
+			"spots": [
+				[
+					0.36,
+					0.14,
+					0.5,
+					0.239
+				],
+				[
+					0.12,
+					0.45,
+					0.3676,
+					0.5341
+				],
+				[
+					0.88,
+					0.45,
+					0.6324,
+					0.5341
+				],
+				[
+					0.92,
+					0.72,
+					0.781,
+					0.8624
+				]
+			],
+			"labels": [
+				"incident ray",
+				"reflected ray",
+				"mirror",
+				"normal"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "The normal is the dashed line; the ray comes in on the left and leaves on the right.",
+			"explain": "The incident ray comes in, the reflected ray goes out, the normal is the dashed line at right angles, and the mirror is the silver line."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In a periscope, what angle are the mirrors set at?",
+			"choices": [
+				"45°",
+				"90°",
+				"30°",
+				"180°"
+			],
+			"answer": 0,
+			"hint": "Each mirror turns the light through a right angle.",
+			"explain": "At 45°, each mirror turns the light through 90°: down the tube, then out to your eye."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "It is safe to look at the Sun through a mirror or sunglasses.",
+			"answer": false,
+			"hint": "Sunlight can hurt your eyes.",
+			"explain": "False: never look straight at the Sun, even with a mirror or sunglasses; it can damage your eyes."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6k.shadow_size",
+			"level": 1
+		},
+		{
+			"gen": "g6k.shadow_size",
+			"level": 2
+		},
+		{
+			"gen": "g6k.shadow_size",
+			"level": 3
+		},
+		{
+			"gen": "g6k.mirror_angle",
+			"level": 1
+		},
+		{
+			"gen": "g6k.mirror_angle",
+			"level": 2
+		},
+		{
+			"gen": "g6k.mirror_angle",
+			"level": 3
+		},
+		{
+			"gen": "g6k.light_kind",
+			"level": 1
+		},
+		{
+			"gen": "g6k.light_kind",
+			"level": 2
+		},
+		{
+			"gen": "g6k.light_kind",
+			"level": 3
+		}
+	]
+}

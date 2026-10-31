@@ -1,0 +1,718 @@
+{
+	"id": "food_chain",
+	"title": "Who eats whom?",
+	"topic": "nature",
+	"link": {
+		"unit": "g5.science.food_webs"
+	},
+	"scenes": [
+		{
+			"seconds": 7.5,
+			"background": "grass",
+			"caption": "Every food chain starts with sunlight and a plant.",
+			"say": "Every food chain starts with sunlight, and a plant that uses it to make food.",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "pop"
+				},
+				{
+					"at": 1.6,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "sun",
+					"at": [
+						290,
+						90
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "leaf",
+					"at": [
+						120,
+						360
+					],
+					"size": 90,
+					"rot": -40,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.8
+						}
+					]
+				},
+				{
+					"kind": "shape",
+					"shape": "leaf",
+					"at": [
+						170,
+						370
+					],
+					"size": 80,
+					"rot": 30,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						250,
+						140
+					],
+					"to": [
+						160,
+						320
+					],
+					"color": "yellow",
+					"width": 8,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.6,
+							"dur": 0.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "grass",
+					"at": [
+						150,
+						290
+					],
+					"size": 24,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "grass",
+			"caption": "Grass, then rabbit, then fox: arrows show where the energy goes.",
+			"say": "A rabbit eats the grass, and a fox eats the rabbit. The arrows point the way the energy goes.",
+			"sounds": [
+				{
+					"at": 1.2,
+					"effect": "pop"
+				},
+				{
+					"at": 3.2,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "leaf",
+					"at": [
+						60,
+						330
+					],
+					"size": 80,
+					"rot": -30,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "rabbit",
+					"at": [
+						180,
+						330
+					],
+					"size": 100,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 1.0,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "fox",
+					"at": [
+						300,
+						320
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "drop",
+							"at": 3.0,
+							"height": 300
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						90,
+						290
+					],
+					"to": [
+						140,
+						290
+					],
+					"color": "yellow",
+					"width": 10,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.0,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						220,
+						280
+					],
+					"to": [
+						262,
+						280
+					],
+					"color": "yellow",
+					"width": 10,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 4.0,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "energy",
+					"at": [
+						180,
+						170
+					],
+					"size": 26,
+					"color": "ink",
+					"box": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 5.0
+						},
+						{
+							"do": "pulse",
+							"at": 5.8
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 10.5,
+			"background": "grass",
+			"caption": "Plants are producers; animals are consumers. The fox is a predator.",
+			"say": "Plants are producers: they make food. Animals are consumers: they eat. The fox hunts, so it is a predator; the rabbit is its prey.",
+			"sounds": [
+				{
+					"at": 0.4,
+					"effect": "pop"
+				},
+				{
+					"at": 2.6,
+					"effect": "pop"
+				},
+				{
+					"at": 6.0,
+					"effect": "pop"
+				}
+			],
+			"actors": [
+				{
+					"kind": "shape",
+					"shape": "leaf",
+					"at": [
+						60,
+						330
+					],
+					"size": 80,
+					"rot": -30,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "rabbit",
+					"at": [
+						180,
+						330
+					],
+					"size": 100,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						}
+					]
+				},
+				{
+					"kind": "character",
+					"who": "fox",
+					"at": [
+						300,
+						320
+					],
+					"size": 110,
+					"moves": [
+						{
+							"do": "appear",
+							"at": 0
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "producer",
+					"at": [
+						70,
+						240
+					],
+					"size": 24,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.6
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "consumers",
+					"at": [
+						240,
+						200
+					],
+					"size": 24,
+					"color": "white",
+					"box": "orange",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 2.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "prey",
+					"at": [
+						180,
+						410
+					],
+					"size": 24,
+					"color": "white",
+					"box": "ink",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 7.4
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "predator",
+					"at": [
+						288,
+						410
+					],
+					"size": 24,
+					"color": "white",
+					"box": "red",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 6.4
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 9,
+			"background": "paper",
+			"caption": "In nature, many food chains join into a food web.",
+			"say": "In real nature, many food chains join together into a food web.",
+			"sounds": [
+				{
+					"at": 0.2,
+					"effect": "pop"
+				},
+				{
+					"at": 1.8,
+					"effect": "ui_tick"
+				}
+			],
+			"actors": [
+				{
+					"kind": "words",
+					"text": "oak tree",
+					"at": [
+						90,
+						380
+					],
+					"size": 20,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "grass",
+					"at": [
+						272,
+						380
+					],
+					"size": 20,
+					"color": "white",
+					"box": "green",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.35
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "caterpillar",
+					"at": [
+						72,
+						282
+					],
+					"size": 20,
+					"color": "white",
+					"box": "brown",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.5
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "mouse",
+					"at": [
+						200,
+						298
+					],
+					"size": 20,
+					"color": "white",
+					"box": "brown",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.65
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "rabbit",
+					"at": [
+						296,
+						282
+					],
+					"size": 20,
+					"color": "white",
+					"box": "brown",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.8
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "blue tit",
+					"at": [
+						92,
+						196
+					],
+					"size": 20,
+					"color": "white",
+					"box": "brown",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.95
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "fox",
+					"at": [
+						262,
+						196
+					],
+					"size": 20,
+					"color": "white",
+					"box": "brown",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.1
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "sparrowhawk",
+					"at": [
+						150,
+						106
+					],
+					"size": 20,
+					"color": "white",
+					"box": "brown",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.25
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						86,
+						362
+					],
+					"to": [
+						76,
+						302
+					],
+					"color": "yellow",
+					"width": 5,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 1.8,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						112,
+						362
+					],
+					"to": [
+						178,
+						318
+					],
+					"color": "yellow",
+					"width": 5,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 2.4,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						277,
+						362
+					],
+					"to": [
+						291,
+						302
+					],
+					"color": "yellow",
+					"width": 5,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 3.0,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						76,
+						264
+					],
+					"to": [
+						88,
+						216
+					],
+					"color": "yellow",
+					"width": 5,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 3.6,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						212,
+						280
+					],
+					"to": [
+						250,
+						216
+					],
+					"color": "yellow",
+					"width": 5,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 4.2,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						289,
+						264
+					],
+					"to": [
+						269,
+						216
+					],
+					"color": "yellow",
+					"width": 5,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 4.8,
+							"dur": 0.5
+						}
+					]
+				},
+				{
+					"kind": "arrow",
+					"from": [
+						104,
+						178
+					],
+					"to": [
+						138,
+						126
+					],
+					"color": "yellow",
+					"width": 5,
+					"moves": [
+						{
+							"do": "draw",
+							"at": 5.4,
+							"dur": 0.5
+						}
+					]
+				}
+			]
+		},
+		{
+			"seconds": 6.5,
+			"background": "grass",
+			"caption": "What would happen to the foxes if the grass stopped growing?",
+			"say": "What would happen to the foxes if the grass stopped growing?",
+			"sounds": [
+				{
+					"at": 0.3,
+					"effect": "sparkle"
+				}
+			],
+			"actors": [
+				{
+					"kind": "character",
+					"who": "fox",
+					"at": [
+						180,
+						280
+					],
+					"size": 150,
+					"moves": [
+						{
+							"do": "pop",
+							"at": 0.2
+						}
+					]
+				},
+				{
+					"kind": "words",
+					"text": "?",
+					"at": [
+						300,
+						130
+					],
+					"size": 70,
+					"color": "yellow",
+					"moves": [
+						{
+							"do": "pop",
+							"at": 1.0
+						},
+						{
+							"do": "bounce",
+							"at": 1.8
+						}
+					]
+				}
+			]
+		}
+	]
+}

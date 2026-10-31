@@ -1,0 +1,343 @@
+{
+	"id": "g3.computing.algorithms",
+	"lesson": [
+		{
+			"text": "Quick memory: when you make a sandwich, what comes first, the bread or the filling? (The bread!) The order matters. Today: algorithms."
+		},
+		{
+			"text": "An algorithm is a list of clear steps, in the right order, that solves a problem or gets a job done. A recipe is an algorithm. So are the steps for brushing your teeth.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "Put paste on the brush"
+					},
+					{
+						"shape": "step",
+						"text": "Brush for 2 minutes"
+					},
+					{
+						"shape": "step",
+						"text": "Spit out the paste"
+					},
+					{
+						"shape": "end",
+						"text": "Put the brush away"
+					}
+				]
+			}
+		},
+		{
+			"text": "Computers follow algorithms exactly. They can't guess what you mean: if a step is missing or in the wrong place, the computer still does just what the steps say."
+		},
+		{
+			"text": "Good steps are exact. They say how many, which way and what to use: “walk 3 steps forward” is clearer than “walk a bit”.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Not exact",
+						"Exact"
+					],
+					[
+						"walk a bit",
+						"walk 3 steps forward"
+					],
+					[
+						"turn",
+						"turn left"
+					]
+				]
+			}
+		},
+		{
+			"text": "The School's robot knows three steps: FORWARD moves it one square the way it faces; TURN LEFT and TURN RIGHT turn it a quarter turn where it stands. The yellow point shows which way it faces.",
+			"picture": {
+				"kind": "robot",
+				"cols": 4,
+				"rows": 3,
+				"start": [
+					0,
+					1
+				],
+				"facing": "E",
+				"goal": [
+					3,
+					1
+				]
+			}
+		},
+		{
+			"text": "When steps go wrong, follow them one at a time and find the step that goes wrong. Fix it, then test again."
+		},
+		{
+			"text": "Try it in the world: write the steps to build a small hut (floor, walls, door, roof). Give them to a friend or a grown-up to follow exactly. Did they build what you meant?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an algorithm?",
+			"answer": 0,
+			"hint": "Think of a recipe. What is it made of?",
+			"choices": [
+				"a list of clear steps in the right order",
+				"a kind of computer",
+				"a game you play online",
+				"a picture on a screen"
+			],
+			"explain": "An algorithm is a list of clear steps, in the right order, that gets a job done."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A recipe for a cake is an algorithm.",
+			"answer": true,
+			"hint": "Does a recipe give you steps to follow in order?",
+			"explain": "True: a recipe is a list of steps in order, so it is an algorithm."
+		},
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "Put the steps for brushing your teeth in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What has to happen before you can start brushing?",
+			"items": [
+				"Rinse the brush",
+				"Spit out the toothpaste",
+				"Brush all your teeth",
+				"Put toothpaste on the brush"
+			],
+			"explain": "Toothpaste on the brush, brush your teeth, spit, then rinse the brush."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A computer can guess what you meant, even if a step is missing.",
+			"answer": false,
+			"hint": "Does a computer do what you meant, or exactly what the steps say?",
+			"explain": "False: a computer does exactly what the steps say. It can't guess a missing step."
+		},
+		{
+			"type": "robot",
+			"level": 1,
+			"prompt": "Write the steps that take the robot to the flag.",
+			"board": {
+				"cols": 4,
+				"rows": 3,
+				"start": [
+					0,
+					1
+				],
+				"facing": "E",
+				"goal": [
+					3,
+					1
+				]
+			},
+			"hint": "First check which way the robot faces. Point that way, then plan one square at a time: a turn does not move it.",
+			"explain": "One program that works: FORWARD 3."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which step is clearest for a robot?",
+			"answer": 0,
+			"hint": "Which one says exactly how far?",
+			"choices": [
+				"Move forward 3 squares",
+				"Move forward a bit",
+				"Go over there",
+				"Move some squares"
+			],
+			"explain": "“Move forward 3 squares” says exactly how far. “A bit”, “over there” and “some” are not exact."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps for planting a seed in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You need a hole before the seed can go in.",
+			"items": [
+				"Water it",
+				"Cover it with soil",
+				"Drop in the seed",
+				"Dig a small hole"
+			],
+			"explain": "Dig a hole, drop in the seed, cover it, then water it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Zara's steps to make a drink: 1 pour the juice, 2 get a cup, 3 drink it. What is wrong?",
+			"answer": 0,
+			"hint": "Act out the steps in order. What happens at step 1?",
+			"choices": [
+				"The steps are in the wrong order",
+				"A step is missing",
+				"There are too many steps",
+				"Nothing is wrong"
+			],
+			"explain": "The steps are in the wrong order: you need the cup before you pour the juice."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Mimi's steps to wash her hands: 1 wet your hands, 2 rinse them, 3 dry them. Which step is missing?",
+			"answer": 0,
+			"hint": "Follow each step. When does the soap go on?",
+			"choices": [
+				"rub your hands with soap",
+				"turn off the lights",
+				"brush your hair",
+				"put on your coat"
+			],
+			"explain": "The soap step is missing: wet your hands, rub them with soap, rinse, then dry."
+		},
+		{
+			"type": "robot",
+			"level": 2,
+			"prompt": "Write the steps that take the robot to the flag. It will need to turn!",
+			"board": {
+				"cols": 4,
+				"rows": 4,
+				"start": [
+					0,
+					3
+				],
+				"facing": "N",
+				"goal": [
+					3,
+					0
+				]
+			},
+			"hint": "First check which way the robot faces. Point that way, then plan one square at a time: a turn does not move it.",
+			"explain": "One program that works: FORWARD 3, TURN RIGHT, FORWARD 3."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps for building a hut in the game in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What must already be there for the roof to sit on?",
+			"items": [
+				"Put the roof on top",
+				"Build the walls",
+				"Lay the floor",
+				"Clear a flat space"
+			],
+			"explain": "Clear the space, lay the floor, build the walls, and then the roof sits on top."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly's steps to fetch a book: 1 walk to the shelf, 2 walk back to your seat, 3 take the book. What is the bug?",
+			"answer": 0,
+			"hint": "Act it out. Where are you standing when you take the book?",
+			"choices": [
+				"Steps 2 and 3 are the wrong way round",
+				"Step 1 is missing",
+				"There is no bug",
+				"Step 3 should be first"
+			],
+			"explain": "Steps 2 and 3 are swapped: you must take the book before you walk back to your seat."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the best way to find a mistake in someone's steps?",
+			"answer": 0,
+			"hint": "A detective checks one clue at a time.",
+			"choices": [
+				"follow the steps one at a time",
+				"guess which step is wrong",
+				"start again with new steps",
+				"skip to the last step"
+			],
+			"explain": "Follow the steps one at a time and see where things go wrong. Then fix that step and test again."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Algorithms are only for computers.",
+			"answer": false,
+			"hint": "Who follows the steps of a recipe?",
+			"explain": "False: people follow algorithms too, like recipes, dance steps and the rules of a game."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these steps: clear for a robot, or not clear?",
+			"groups": [
+				"clear",
+				"not clear"
+			],
+			"items": [
+				"turn left",
+				"go somewhere nice",
+				"take 2 steps forward",
+				"do the thing",
+				"jump 3 times",
+				"move a bit"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Could a robot do it exactly, without guessing?",
+			"explain": "Clear: turn left, take 2 steps forward, jump 3 times. Not clear: go somewhere nice, do the thing, move a bit."
+		},
+		{
+			"type": "robot",
+			"level": 3,
+			"prompt": "Write the steps that take the robot to the flag without bumping into the wall.",
+			"board": {
+				"cols": 5,
+				"rows": 4,
+				"start": [
+					0,
+					2
+				],
+				"facing": "E",
+				"goal": [
+					4,
+					2
+				],
+				"walls": [
+					[
+						2,
+						2
+					],
+					[
+						2,
+						3
+					]
+				]
+			},
+			"hint": "First check which way the robot faces. Point that way, then plan one square at a time: a turn does not move it.",
+			"explain": "One program that works: FORWARD, TURN LEFT, FORWARD, TURN RIGHT, FORWARD 3, TURN RIGHT, FORWARD."
+		}
+	],
+	"generators": []
+}

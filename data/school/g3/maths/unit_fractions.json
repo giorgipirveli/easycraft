@@ -1,0 +1,431 @@
+{
+	"id": "g3.maths.unit_fractions",
+	"lesson": [
+		{
+			"text": "Quick memory: share 12 equally between 4 friends and each gets 3. Sharing into equal parts is the key to fractions!",
+			"picture": {
+				"kind": "groups",
+				"groups": 4,
+				"each": 3
+			}
+		},
+		{
+			"text": "A fraction is a part of a whole that is cut into equal parts. This circle is cut into 4 equal parts, and each part is one quarter: 1/4. The bottom number says how many equal parts there are.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "circle",
+				"parts": 4,
+				"shade": 1
+			}
+		},
+		{
+			"text": "The top number counts the parts we take. 3 of the 4 equal parts are shaded: 3/4, three quarters. 3/4 is 3 parts of size 1/4.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "circle",
+				"parts": 4,
+				"shade": 3
+			}
+		},
+		{
+			"text": "The parts must be equal. This circle has 3 parts, but they are not the same size, so they are not thirds.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "circle",
+				"parts": 3,
+				"shade": 0,
+				"unequal": true
+			}
+		},
+		{
+			"text": "A fraction of a set: here are 12 blocks in 4 equal groups. One group is 1/4 of 12: 3 blocks. So 1/4 of 12 = 3.",
+			"picture": {
+				"kind": "groups",
+				"groups": 4,
+				"each": 3
+			}
+		},
+		{
+			"text": "3/4 of 12 is 3 of those groups: 3 × 3 = 9. First find one part (divide), then take as many parts as the top number says (multiply).",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "3",
+								"size": 1
+							},
+							{
+								"text": "3",
+								"size": 1
+							},
+							{
+								"text": "3",
+								"size": 1
+							},
+							{
+								"text": "3",
+								"size": 1
+							}
+						],
+						"total": "12"
+					}
+				]
+			}
+		},
+		{
+			"text": "Build it! To fill 3/4 of a wall of 8 blocks: 8 ÷ 4 = 2 blocks in each quarter, and 3 quarters is 6 blocks. Next: fractions on a number line.",
+			"picture": {
+				"kind": "fraction_wall",
+				"rows": [
+					{
+						"den": 8,
+						"shade": 6
+					}
+				]
+			}
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What fraction of the shape is shaded?",
+			"answer": "1/4",
+			"hint": "Count all the equal parts, then the shaded ones.",
+			"explain": "1 of the 4 equal parts is shaded: 1/4.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "rectangle",
+				"parts": 4,
+				"shade": 1
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What fraction of the shape is shaded?",
+			"answer": "1/3",
+			"hint": "How many equal parts? How many are shaded?",
+			"explain": "1 of the 3 equal parts is shaded: 1/3.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "circle",
+				"parts": 3,
+				"shade": 1
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which shape has 1/2 shaded?",
+			"choices": [
+				{
+					"picture": {
+						"kind": "cut_shape",
+						"shape": "square",
+						"parts": 2,
+						"shade": 1,
+						"way": "diagonals"
+					}
+				},
+				{
+					"picture": {
+						"kind": "cut_shape",
+						"shape": "circle",
+						"parts": 3,
+						"shade": 1
+					}
+				},
+				{
+					"picture": {
+						"kind": "cut_shape",
+						"shape": "rectangle",
+						"parts": 2,
+						"shade": 2
+					}
+				},
+				{
+					"picture": {
+						"kind": "cut_shape",
+						"shape": "circle",
+						"parts": 2,
+						"shade": 1,
+						"unequal": true
+					}
+				}
+			],
+			"answer": 0,
+			"hint": "Look for 2 equal parts with 1 of them shaded.",
+			"explain": "The square is cut into 2 equal parts and 1 is shaded: 1/2."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "This shape is cut into equal parts.",
+			"answer": false,
+			"hint": "Would each part cover the others exactly?",
+			"explain": "No: some parts are bigger than others.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "circle",
+				"parts": 4,
+				"shade": 0,
+				"unequal": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is 1/2 of 10?",
+			"answer": "5",
+			"hint": "Share 10 into 2 equal groups.",
+			"explain": "10 ÷ 2 = 5, so 1/2 of 10 is 5.",
+			"picture": {
+				"kind": "groups",
+				"groups": 2,
+				"each": 5
+			}
+		},
+		{
+			"type": "build",
+			"level": 1,
+			"prompt": "This wall has room for 6 blocks. Fill 1/3 of it.",
+			"board": {
+				"cols": 6,
+				"rows": 1,
+				"block": 9,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "fraction",
+				"num": 1,
+				"den": 3
+			},
+			"hint": "Split the 6 spaces into 3 equal parts. How many spaces are in one part?",
+			"explain": "6 ÷ 3 = 2, so 1/3 of the wall is 2 blocks."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What fraction of the shape is shaded?",
+			"answer": "5/6",
+			"hint": "Count the equal parts and the shaded ones.",
+			"explain": "5 of the 6 equal parts are shaded: 5/6.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "hexagon",
+				"parts": 6,
+				"shade": 5
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is 1/5 of 20?",
+			"answer": "4",
+			"hint": "Share 20 into 5 equal groups.",
+			"explain": "20 ÷ 5 = 4."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is 2/3 of 12?",
+			"answer": "8",
+			"hint": "Find 1/3 of 12 first, then take 2 of those parts.",
+			"explain": "1/3 of 12 is 12 ÷ 3 = 4, so 2/3 is 2 × 4 = 8.",
+			"picture": {
+				"kind": "groups",
+				"groups": 3,
+				"each": 4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "3/8 means …",
+			"choices": [
+				"3 parts of size 1/8",
+				"8 parts of size 1/3",
+				"3 and 8 added",
+				"3 wholes and 8 parts"
+			],
+			"answer": 0,
+			"hint": "The bottom number is the size of the parts; the top number counts them.",
+			"explain": "3/8 is 3 parts, and each part is 1/8 of the whole."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "This wall has room for 8 blocks. Fill 3/4 of it.",
+			"board": {
+				"cols": 8,
+				"rows": 1,
+				"block": 9,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "fraction",
+				"num": 3,
+				"den": 4
+			},
+			"hint": "1/4 of 8 is 2 blocks. How many blocks are 3 quarters?",
+			"explain": "8 ÷ 4 = 2, and 3 × 2 = 6 blocks."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In 5/6, the whole is cut into 5 equal parts.",
+			"answer": false,
+			"hint": "Which number says how many parts the whole is cut into?",
+			"explain": "No: the bottom number, 6, says the whole is cut into 6 parts; 5 of them are taken."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What fraction of the shape is NOT shaded?",
+			"answer": "5/8",
+			"hint": "Count all the equal parts, then the white ones.",
+			"explain": "3 of the 8 parts are shaded, so 5 are white: 5/8.",
+			"picture": {
+				"kind": "cut_shape",
+				"shape": "rectangle",
+				"parts": 8,
+				"shade": 3,
+				"way": "grid"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly has 24 gems. 3/8 of them are blue. How many blue gems does Tilly have?",
+			"answer": "9",
+			"hint": "Find 1/8 of 24 first, then take 3 of those.",
+			"explain": "1/8 of 24 is 24 ÷ 8 = 3, so 3/8 is 3 × 3 = 9."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram has 30 carrots. He gives 2/5 of them to his buddies. How many carrots does he give?",
+			"answer": "12",
+			"hint": "Find 1/5 of 30, then take 2 of those.",
+			"explain": "1/5 of 30 is 30 ÷ 5 = 6, so 2/5 is 2 × 6 = 12."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is more: 1/3 of 12 or 1/4 of 20?",
+			"choices": [
+				"1/4 of 20",
+				"1/3 of 12",
+				"They are the same"
+			],
+			"answer": 0,
+			"hint": "Work out each one: divide.",
+			"explain": "1/3 of 12 is 4 and 1/4 of 20 is 5, so 1/4 of 20 is more."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these in order, smallest first.",
+			"items": [
+				"1/5 of 40",
+				"1/3 of 21",
+				"1/4 of 20",
+				"1/2 of 6"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Work out each one: divide by the bottom number.",
+			"explain": "3, then 5, then 7, then 8."
+		},
+		{
+			"type": "build",
+			"level": 3,
+			"prompt": "This wall has room for 12 blocks. Fill 5/6 of it.",
+			"board": {
+				"cols": 6,
+				"rows": 2,
+				"block": 9,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "fraction",
+				"num": 5,
+				"den": 6
+			},
+			"hint": "1/6 of 12 is 2 blocks. How many blocks are 5 sixths?",
+			"explain": "12 ÷ 6 = 2, and 5 × 2 = 10 blocks."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3f.name_fraction",
+			"level": 1
+		},
+		{
+			"gen": "g3f.name_fraction",
+			"level": 2
+		},
+		{
+			"gen": "g3f.name_fraction",
+			"level": 3
+		},
+		{
+			"gen": "g3f.pick_picture",
+			"level": 1
+		},
+		{
+			"gen": "g3f.pick_picture",
+			"level": 2
+		},
+		{
+			"gen": "g3f.pick_picture",
+			"level": 3
+		},
+		{
+			"gen": "g3f.fraction_of_set",
+			"level": 1
+		},
+		{
+			"gen": "g3f.fraction_of_set",
+			"level": 2
+		},
+		{
+			"gen": "g3f.fraction_of_set",
+			"level": 3
+		},
+		{
+			"gen": "g3f.equal_parts",
+			"level": 1
+		},
+		{
+			"gen": "g3f.equal_parts",
+			"level": 2
+		},
+		{
+			"gen": "g3f.equal_parts",
+			"level": 3
+		},
+		{
+			"gen": "g3f.build_fraction",
+			"level": 1
+		},
+		{
+			"gen": "g3f.build_fraction",
+			"level": 2
+		},
+		{
+			"gen": "g3f.build_fraction",
+			"level": 3
+		}
+	]
+}

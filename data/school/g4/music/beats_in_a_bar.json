@@ -1,0 +1,467 @@
+{
+	"id": "g4.music.beats_in_a_bar",
+	"lesson": [
+		{
+			"text": "Quick memory: how many beats does a minim last? (2 beats.) Today: how beats group into bars."
+		},
+		{
+			"text": "Music has a steady beat, and the beats fall into groups called bars. The first beat of each bar is usually the strongest: ONE, two, ONE, two."
+		},
+		{
+			"text": "The time signature at the start of the music is two numbers. The top one tells how many beats are in each bar; the bottom 4 means the beats are crotchets.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"crotchet",
+					"crotchet",
+					"crotchet",
+					"crotchet",
+					"crotchet"
+				],
+				"bars": true,
+				"time": "3/4"
+			}
+		},
+		{
+			"text": "A march has 2 beats in a bar, for marching feet: LEFT, right, LEFT, right. Listen for the low note on every ONE.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"E4",
+					"G2",
+					"D4",
+					"C3",
+					"E4",
+					"G2",
+					"D4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"text": "A waltz has 3 beats in a bar: OOM-pah-pah, OOM-pah-pah. It is a dance where couples turn round and round. The Blue Danube by Johann Strauss is a famous waltz.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"E4",
+					"E4",
+					"G2",
+					"D4",
+					"D4",
+					"C3",
+					"E4",
+					"E4",
+					"G2",
+					"D4",
+					"D4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"text": "4/4 has 4 beats in a bar. It is so common that it is called common time: most pop songs use it.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"E4",
+					"E4",
+					"E4",
+					"G2",
+					"D4",
+					"D4",
+					"D4",
+					"C3",
+					"E4",
+					"E4",
+					"E4"
+				],
+				"beat": 0.4
+			},
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Time",
+						"Beats in a bar",
+						"Example"
+					],
+					[
+						"2/4",
+						"2",
+						"a march"
+					],
+					[
+						"3/4",
+						"3",
+						"a waltz"
+					],
+					[
+						"4/4",
+						"4",
+						"most pop songs"
+					]
+				]
+			}
+		},
+		{
+			"text": "Conductors show the beats with their hands: for 2 beats, down and up; for 3, down, out and up; for 4, down, in, out and up.",
+			"picture": {
+				"kind": "beat_pattern",
+				"beats": 3
+			}
+		},
+		{
+			"text": "Try it in the world: march through your world, stepping on every beat: LEFT, right. Then waltz with a friend: step on ONE, and sway on two and three."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this a march or a waltz?",
+			"answer": 0,
+			"hint": "Count from one low note to the next: 1, 2, … How many beats before the next low note?",
+			"choices": [
+				"a waltz",
+				"a march"
+			],
+			"explain": "OOM-pah-pah: a low note, then two higher ones, again and again. 3 beats in a bar: a waltz.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"E4",
+					"E4",
+					"G2",
+					"D4",
+					"D4",
+					"C3",
+					"E4",
+					"E4",
+					"G2",
+					"D4",
+					"D4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Is this a march or a waltz?",
+			"answer": 0,
+			"hint": "Count from one low note to the next: 1, 2, … How many beats before the next low note?",
+			"choices": [
+				"a march",
+				"a waltz"
+			],
+			"explain": "OOM-pah: a low note, then one higher, again and again. 2 beats in a bar: a march.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"E4",
+					"G2",
+					"D4",
+					"C3",
+					"E4",
+					"G2",
+					"D4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many beats are in each bar of a waltz?",
+			"answer": 0,
+			"hint": "Say OOM-pah-pah and count.",
+			"choices": [
+				"3",
+				"2",
+				"4",
+				"1"
+			],
+			"explain": "A waltz has 3 beats in a bar: OOM-pah-pah."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The first beat of a bar is usually the strongest.",
+			"answer": true,
+			"hint": "Say ONE, two, ONE, two.",
+			"explain": "True: the first beat of each bar is the strong one."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each time signature to its bars.",
+			"items": [
+				"2/4",
+				"3/4",
+				"4/4"
+			],
+			"matches": [
+				"3 beats in a bar",
+				"4 beats in a bar",
+				"2 beats in a bar"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Look at the top number.",
+			"explain": "The top number is the beats in a bar: 2, 3 and 4."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many bars are in this picture?",
+			"answer": "2",
+			"hint": "Count the groups between the bar lines.",
+			"explain": "The bar line splits the 6 crotchets into 2 bars of 3.",
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"crotchet",
+					"crotchet",
+					"crotchet",
+					"crotchet",
+					"crotchet"
+				],
+				"bars": true,
+				"time": "3/4"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. How many beats are in each bar?",
+			"answer": 0,
+			"hint": "Count from one low note to the next: 1, 2, … How many beats before the next low note?",
+			"choices": [
+				"4",
+				"2",
+				"3"
+			],
+			"explain": "A low note, then three higher ones: 4 beats in a bar.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C3",
+					"E4",
+					"E4",
+					"E4",
+					"G2",
+					"D4",
+					"D4",
+					"D4",
+					"C3",
+					"E4",
+					"E4",
+					"E4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. How many beats are in each bar?",
+			"answer": 0,
+			"hint": "Count from one low note to the next: 1, 2, … How many beats before the next low note?",
+			"choices": [
+				"3",
+				"2",
+				"4"
+			],
+			"explain": "A low note, then two higher ones: 3 beats in a bar, like a waltz.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"F2",
+					"C4",
+					"C4",
+					"C3",
+					"E4",
+					"E4",
+					"G2",
+					"D4",
+					"D4",
+					"C3",
+					"E4",
+					"E4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A song in 3/4 time is 8 bars long. How many beats is that?",
+			"answer": "24",
+			"hint": "Beats in a bar times the number of bars.",
+			"explain": "3 × 8 = 24 beats."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which time signature would a march use?",
+			"answer": 0,
+			"hint": "How many feet do you march with?",
+			"choices": [
+				"2/4",
+				"3/4"
+			],
+			"explain": "A march has 2 beats in a bar, LEFT, right: 2/4."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: do they belong to a march or a waltz?",
+			"groups": [
+				"march",
+				"waltz"
+			],
+			"items": [
+				"LEFT, right, LEFT, right",
+				"OOM-pah-pah",
+				"a parade",
+				"couples turning round",
+				"2 beats in a bar",
+				"3 beats in a bar"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Marches are for walking; waltzes for turning dances.",
+			"explain": "March: LEFT, right, a parade, 2 beats. Waltz: OOM-pah-pah, turning couples, 3 beats."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. How many beats are in each bar?",
+			"answer": 0,
+			"hint": "Count from one low note to the next: 1, 2, … How many beats before the next low note?",
+			"choices": [
+				"2",
+				"3",
+				"4"
+			],
+			"explain": "Count from each strong low note: 1 2, 1 2. A low note, then one higher, makes 2 beats in a bar, like a march: left, right.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"F2",
+					"C4",
+					"C3",
+					"E4",
+					"G2",
+					"D4",
+					"C3",
+					"E4",
+					"F2",
+					"C4",
+					"G2",
+					"D4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. How many beats are in each bar?",
+			"answer": 0,
+			"hint": "Count from one low note to the next: 1, 2, … How many beats before the next low note?",
+			"choices": [
+				"4",
+				"3",
+				"2"
+			],
+			"explain": "A strong low note starts each bar, then three higher ones follow: 1 2 3 4, 1 2 3 4. That is 4 beats in a bar, common time.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G2",
+					"D4",
+					"D4",
+					"D4",
+					"C3",
+					"E4",
+					"E4",
+					"E4",
+					"F2",
+					"C4",
+					"C4",
+					"C4",
+					"C3",
+					"E4",
+					"E4",
+					"E4"
+				],
+				"beat": 0.4
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How does a conductor show 3 beats in a bar?",
+			"answer": 0,
+			"hint": "One movement for each beat.",
+			"choices": [
+				"down, out, up",
+				"down, up",
+				"down, in, out, up",
+				"round in a circle"
+			],
+			"explain": "Three beats: down on the strong first beat, out to the side on the second, up on the third, then down again for the next bar."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A march in 2/4 lasts 16 bars and a waltz in 3/4 lasts 16 bars. How many more beats does the waltz have?",
+			"answer": "16",
+			"hint": "Work out the beats of each, then find the difference.",
+			"explain": "Waltz: 3 × 16 = 48. March: 2 × 16 = 32. 48 − 32 = 16."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "4/4 is called common time.",
+			"answer": true,
+			"hint": "Remember the lesson card about 4/4.",
+			"explain": "True: it is so common that it is called common time."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4a.count_the_bar",
+			"level": 1
+		},
+		{
+			"gen": "g4a.count_the_bar",
+			"level": 2
+		},
+		{
+			"gen": "g4a.count_the_bar",
+			"level": 3
+		},
+		{
+			"gen": "g4a.fill_the_bar",
+			"level": 3
+		}
+	]
+}

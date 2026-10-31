@@ -1,0 +1,97 @@
+{
+	"id": "g8.maths.pythagoras",
+	"lesson": [
+		{
+			"text": "In a right triangle, the longest side (opposite the right angle) is the hypotenuse, c. The legs are a and b."
+		},
+		{
+			"text": "The Pythagorean theorem: a² + b² = c². Legs 3 and 4: 9 + 16 = 25, so c = 5."
+		},
+		{
+			"text": "To find a leg, take away: c² − a² = b²."
+		},
+		{
+			"text": "Distance between two points: make a right triangle. From (1, 2) to (4, 6) is across 3 and up 4, so the distance is 5."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A right triangle has legs 6 cm and 8 cm. How long is the hypotenuse, in cm?",
+			"answer": "10",
+			"hint": "36 + 64.",
+			"explain": "√100 = 10 cm."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a right triangle, the hypotenuse is the longest side.",
+			"answer": true,
+			"hint": "Opposite the right angle.",
+			"explain": "Yes."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Legs 5 and 12. How long is the hypotenuse?",
+			"answer": "13",
+			"hint": "25 + 144.",
+			"explain": "√169 = 13."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A hypotenuse of 17 cm and one leg of 8 cm. How long is the other leg, in cm?",
+			"answer": "15",
+			"hint": "289 − 64.",
+			"explain": "√225 = 15 cm."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Sides of 5, 6 and 8 cm make a right triangle.",
+			"answer": false,
+			"hint": "Does 25 + 36 = 64?",
+			"explain": "No: 61 is not 64."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 10 m ladder leans on a wall with its foot 6 m out. How high up the wall does it reach, in metres?",
+			"answer": "8",
+			"hint": "100 − 36.",
+			"explain": "√64 = 8 m."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How far apart are (1, 2) and (4, 6)?",
+			"answer": "5",
+			"hint": "Across 3, up 4.",
+			"explain": "√(9 + 16) = 5."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A rectangle is 9 cm by 12 cm. How long is its diagonal, in cm?",
+			"answer": "15",
+			"hint": "81 + 144.",
+			"explain": "√225 = 15 cm."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8g.pythagoras",
+			"level": 1
+		},
+		{
+			"gen": "g8g.pythagoras",
+			"level": 2
+		},
+		{
+			"gen": "g8g.pythagoras",
+			"level": 3
+		}
+	]
+}

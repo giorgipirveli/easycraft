@@ -1,0 +1,363 @@
+{
+	"id": "g7.science.substances",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, atoms and molecules. What is H2O? A water molecule: 2 hydrogen atoms and 1 oxygen atom."
+		},
+		{
+			"text": "A pure substance has the same properties all through: its own melting point, boiling point, density and way of reacting. Pure water melts at 0 °C and boils at 100 °C at sea level.",
+			"picture": {
+				"kind": "thermometer",
+				"from": -20,
+				"to": 120,
+				"step": 20,
+				"values": [
+					0,
+					100
+				],
+				"names": [
+					"melts",
+					"boils"
+				]
+			}
+		},
+		{
+			"text": "In a chemical reaction, substances change into new substances with different properties."
+		},
+		{
+			"text": "Evidence of a reaction: a gas forms, or the colour changes. A solid forms in a liquid (a precipitate). Heat or light is given off, or a new smell appears.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"evidence",
+						"example"
+					],
+					[
+						"a gas forms",
+						"fizzing"
+					],
+					[
+						"a new colour",
+						"rust on iron"
+					],
+					[
+						"a precipitate",
+						"cloudy liquid"
+					],
+					[
+						"heat or light",
+						"a burning match"
+					]
+				]
+			}
+		},
+		{
+			"text": "To be sure, compare properties before and after: if the new substance melts, dissolves or reacts differently, a reaction happened."
+		},
+		{
+			"text": "Try it in the world: at a furnace in Survivor, smelt banded iron ore into iron. Iron shines and a magnet pulls it: a new substance with new properties. Next: solids, liquids and gases."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which one is a sign of a chemical reaction?",
+			"answer": 0,
+			"hint": "Which change makes something that wasn't there before?",
+			"choices": [
+				"a new gas forms",
+				"water freezes",
+				"paper is folded"
+			],
+			"explain": "A new gas is a sign of a reaction."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Pure water boils at 100 °C at sea level.",
+			"answer": true,
+			"hint": "Each pure substance has its own boiling point.",
+			"explain": "Yes: that is one of water's properties."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a precipitate?",
+			"answer": 0,
+			"hint": "It appears when liquids react.",
+			"choices": [
+				"a solid that forms in a liquid",
+				"a kind of rain",
+				"a gas"
+			],
+			"explain": "A precipitate is a solid that forms in a liquid."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which one is a property of a substance?",
+			"answer": 0,
+			"hint": "Something you can measure about it.",
+			"choices": [
+				"its melting point",
+				"its price",
+				"its owner"
+			],
+			"explain": "Melting point is a property."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Melting ice is a chemical reaction.",
+			"answer": false,
+			"hint": "Is it still water?",
+			"explain": "No: melted ice is still water."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Grey, magnetic iron becomes orange rust that isn't magnetic. What does this show?",
+			"answer": 0,
+			"hint": "Compare its colour and whether a magnet pulls it, before and after.",
+			"choices": [
+				"A new substance formed.",
+				"Iron melted.",
+				"Nothing changed."
+			],
+			"explain": "New properties mean a new substance."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Two clear liquids are mixed and turn bright yellow. What is the best evidence of a reaction?",
+			"answer": 0,
+			"hint": "Which choice is something that changed when they mixed?",
+			"choices": [
+				"the colour change",
+				"the liquids were clear",
+				"they were mixed in a glass"
+			],
+			"explain": "A colour change is evidence of a reaction."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How could you tell sugar from salt without tasting?",
+			"answer": 0,
+			"hint": "Each substance has its own melting point.",
+			"choices": [
+				"compare their melting points",
+				"look at the colour only",
+				"smell them"
+			],
+			"explain": "Sugar melts at a much lower temperature than salt."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Dissolving salt in water makes a new substance.",
+			"answer": false,
+			"hint": "Can you get the salt back?",
+			"explain": "No: the salt is still salt."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Burning wood leaves ash and gives off heat and light. What happened?",
+			"answer": 0,
+			"hint": "Burning gives off heat and light and leaves ash. Is ash wood?",
+			"choices": [
+				"a chemical reaction",
+				"a change of state only",
+				"nothing"
+			],
+			"explain": "Burning is a chemical reaction."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A substance melts at 0 °C and boils at 100 °C. What is it most likely to be?",
+			"answer": 0,
+			"hint": "Think of ice.",
+			"choices": [
+				"water",
+				"iron",
+				"salt"
+			],
+			"explain": "Those are water's melting and boiling points."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "After a reaction, the product has a different density and melting point. Why does that matter?",
+			"answer": 0,
+			"hint": "If its melting point is different, can it be the same substance?",
+			"choices": [
+				"It shows a new substance was made.",
+				"It shows nothing.",
+				"It means the scales broke."
+			],
+			"explain": "Different properties prove a new substance."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Every colour change proves a chemical reaction.",
+			"answer": false,
+			"hint": "Think of mixing paints.",
+			"explain": "No: mixing paints changes colour without making a new substance."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Blue and yellow paint make green. Why is this not a reaction?",
+			"answer": 0,
+			"hint": "Is a new substance made?",
+			"choices": [
+				"The paints are only mixed; nothing new forms.",
+				"It is a reaction.",
+				"Paint is not matter."
+			],
+			"explain": "The paints are only mixed."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the steps to check for a reaction.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Start before mixing.",
+			"items": [
+				"Compare them.",
+				"Measure the properties after.",
+				"Mix the substances.",
+				"Measure the properties before."
+			],
+			"explain": "Measure, mix, measure again, compare."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the changes: chemical reaction or not?",
+			"items": [
+				"iron rusting",
+				"ice melting",
+				"wood burning",
+				"salt dissolving",
+				"a cake baking",
+				"paints mixing"
+			],
+			"groups": [
+				"reaction",
+				"no reaction"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is a new substance made, with new properties?",
+			"explain": "Rusting, burning and baking make new substances. Melting, dissolving and mixing paints do not."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each substance to a property that identifies it.",
+			"items": [
+				"water",
+				"salt",
+				"iron"
+			],
+			"matches": [
+				"pulled by a magnet",
+				"boils at 100 °C",
+				"dissolves, melts at 801 °C"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Think of what you know about each one's melting, boiling or magnetism.",
+			"explain": "Water boils at 100 °C; salt dissolves and melts at 801 °C; iron is pulled by a magnet."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each sign of a reaction to an example.",
+			"items": [
+				"a gas forms",
+				"a precipitate forms",
+				"a colour change",
+				"heat and light"
+			],
+			"matches": [
+				"a campfire",
+				"bubbles as acid meets chalk",
+				"iron turning orange-brown",
+				"a cloudy solid in clear liquid"
+			],
+			"answer": [
+				1,
+				3,
+				2,
+				0
+			],
+			"hint": "Picture each example: what would you see or feel?",
+			"explain": "Bubbles as acid meets chalk: a gas forms. A cloudy solid in a clear liquid: a precipitate. Iron turning orange-brown as it rusts: a colour change. A campfire: heat and light."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A liquid is tested. Sort the results: pure water, or not pure water?",
+			"groups": [
+				"pure water",
+				"not pure water"
+			],
+			"items": [
+				"melts at 0 °C, boils at 100 °C",
+				"boils at 102 °C",
+				"freezes at −2 °C",
+				"leaves salt when it dries",
+				"leaves nothing when it dries"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1,
+				0
+			],
+			"hint": "A pure substance has its own fixed melting and boiling points. Does each result match water's?",
+			"explain": "Pure water melts at 0 °C, boils at 100 °C and leaves nothing when it dries. Boiling at 102 °C, freezing at −2 °C or leaving salt behind show something is mixed in: it is not pure."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the steps to show that smelting makes a new substance.",
+			"items": [
+				"Compare the two results.",
+				"Test the ore: does it shine? Is it magnetic?",
+				"Smelt the ore in a furnace.",
+				"Test the iron in the same way."
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Measure the properties before, make the change, measure again, then compare.",
+			"explain": "Test the ore's properties, smelt it, test the iron in the same way, then compare: shiny metal that a magnet pulls has new properties, so a new substance was made."
+		}
+	]
+}

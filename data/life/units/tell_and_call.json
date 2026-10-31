@@ -1,0 +1,24 @@
+{
+	"id": "life.safe.tell_and_call",
+	"lesson": [
+		{"text": "Quick memory: what number do you call in an emergency? ({number}.) Today: what to do when someone suddenly feels poorly."},
+		{"text": "Someone is poorly or hurt: tell a grown-up. Every bump on the head: tell a grown-up, even a small one."},
+		{"text": "A nosebleed: sit down, lean forward, and tell a grown-up. Never tip the head back."},
+		{"text": "Too hot in the sun and dizzy: help them into the shade, with sips of water, and tell a grown-up."},
+		{"text": "Lips swelling after eating? That can be an allergy: tell a grown-up straight away. No grown-up near: call {number} and say what happened and where."},
+		{"text": "Try it in the world: open the practice playground. Next: nosebleeds, asthma and the heat, on the Middle track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "Your friend bumped their head. You...", "answer": 0, "choices": ["tell a grown-up", "say nothing", "laugh"], "hint": "Every bump matters.", "explain": "Tell a grown-up."},
+		{"type": "choice", "level": 1, "prompt": "A friend is hot and dizzy in the sun. Help them...", "answer": 0, "choices": ["into the shade", "run around more", "lie in the sun"], "hint": "Out of the sun.", "explain": "Into the shade, with water."},
+		{"type": "truefalse", "level": 1, "prompt": "A nosebleed: tip the head back.", "answer": false, "hint": "Forward, not back.", "explain": "False: lean forward."},
+		{"type": "choice", "level": 2, "prompt": "No grown-up is near and your friend is very poorly. You call...", "answer": 0, "choices": ["{number}", "a friend", "nobody"], "hint": "The emergency number.", "explain": "{number}."},
+		{"type": "choice", "level": 2, "prompt": "The helper on the phone asks what happened. You say...", "answer": 0, "choices": ["my friend is very poorly", "nothing", "I want to play"], "hint": "Tell them.", "explain": "What happened to your friend."},
+		{"type": "truefalse", "level": 2, "prompt": "Swelling lips after eating can be an allergy.", "answer": true, "hint": "Tell a grown-up straight away.", "explain": "True."},
+		{"type": "order", "level": 2, "prompt": "Calling for help: put it in order.", "answer": [1, 2, 0], "items": ["say where you are", "press {number}", "say what happened"], "hint": "Dial first.", "explain": "Press {number}, say what happened, say where."},
+		{"type": "choice", "level": 3, "prompt": "After you call, you...", "answer": 0, "choices": ["stay with your friend", "go home", "hang up straight away"], "hint": "Help is coming.", "explain": "Stay with your friend."},
+		{"type": "sort", "level": 3, "prompt": "Tell a grown-up, or call {number} now?", "groups": ["tell a grown-up", "call {number} now"], "items": ["a small bump on the head", "a friend who won't wake up", "a nosebleed", "a friend who can't breathe"], "answer": [0, 1, 0, 1], "hint": "Very poorly, no grown-up near: call.", "explain": "Small things: tell; very poorly: call."},
+		{"type": "truefalse", "level": 3, "prompt": "{number} is only for real emergencies.", "answer": true, "hint": "Never as a joke.", "explain": "True."},
+		{"type": "choice", "level": 3, "prompt": "A friend feels hot. What do they sip?", "answer": 0, "choices": ["water", "fizzy drinks", "nothing"], "hint": "Cool and plain.", "explain": "Water."}
+	]
+}

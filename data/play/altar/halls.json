@@ -1,0 +1,77 @@
+{
+	"about": "Balance Altar's rooms (docs/design/games/balance-altar.md sections 3.5, 3.5b, 3.6, 3.10): the ladder of wings, the fade's starting stage per grade, and each room's unit, tools, music, altars (a form from AltarGen, or a taught altar's fixed pans [left crystals, left gems, right crystals, right gems] and weight), Glimmers and Hoot's lines by cue. Judged altars freed first time are SOLVED, the Great Altar and every transfer room's NEW_SETTING (the lead's ruling 6).",
+	"stages": {"5": 1, "6": 1, "7": 3, "8": 4},
+	"wings": [
+		{"wing": 5, "grade": 5, "name": "The Recipe Kitchen", "units": ["g5.maths.expressions"],
+			"rooms": ["5.1", "5.2", "5.3", "5.4", "5.T1"]},
+		{"wing": 6, "grade": 6, "name": "The Hall of Frozen Crystals",
+			"units": ["g6.maths.equations", "g6.maths.equivalent_expressions", "g6.maths.exponents_expressions", "g6.maths.variables"],
+			"rooms": ["entrance", "sky", "6.2", "6.3", "6.4", "6.5", "6.T2", "6.T3"]},
+		{"wing": 7, "grade": 7, "name": "The Mirror Halls",
+			"units": ["g7.maths.equations", "g7.maths.expressions", "g7.maths.inequalities"],
+			"rooms": ["7.1", "7.2", "7.3", "7.4", "7.5", "7.T1", "7.T2", "7.T3"]},
+		{"wing": 8, "grade": 8, "name": "The Twin Altars and the Star Floor",
+			"units": ["g8.maths.linear_equations", "g8.maths.systems", "g8.maths.expand_factorise"],
+			"rooms": ["8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.T1", "8.T2", "8.T3"]}
+	],
+	"rooms": [
+		{
+			"id": "entrance",
+			"name": "The Entrance Hall",
+			"wing": 6,
+			"unit": "g6.maths.equations",
+			"transfer": false,
+			"after": "",
+			"place": "hall",
+			"tools": ["bowls", "gem_bag"],
+			"music": {"room": "goldberg_aria", "chorus": "ode_to_joy"},
+			"altars": [
+				{"n": 1, "form": "fixed", "pans": [1, 2, 0, 5], "x": 3, "taught": true, "demo": "twin_take", "glimmer": "fox"},
+				{"n": 2, "form": "fixed", "pans": [1, 3, 0, 7], "x": 4, "taught": true, "demo": "", "trap": true, "glimmer": "bunny"},
+				{"n": 3, "form": "add_L", "glimmer": "bird"},
+				{"n": 4, "form": "add_R", "glimmer": "turtle"},
+				{"n": 5, "form": "fixed", "pans": [2, 0, 0, 6], "x": 3, "taught": true, "demo": "bowls", "glimmer": "fish"},
+				{"n": 6, "form": "mul_L", "glimmer": "cat"},
+				{"n": 7, "form": "add_L", "glimmer": "fox"},
+				{"n": 8, "form": "mul_R", "glimmer": "bunny"},
+				{"n": 9, "form": "add_R", "glimmer": "bird"},
+				{"n": 10, "form": "mul_L", "glimmer": "turtle"},
+				{"n": 11, "form": "two_L", "great": true, "glimmer": "dragon"}
+			],
+			"cues": {
+				"arrive": "H1", "hook": "H2", "watch": "H3", "your_turn": "H4", "first_twin": "H5", "freed": "H6",
+				"count": "H7", "first_glimmer": "H8", "first_break": "H9", "see_why_break": "H10", "across": "H11",
+				"watch_bowls": "H12", "see_why_share": "H13", "uneven": "H14", "ghost_step": "H15", "no_twin": "H16",
+				"great": "H17", "sings": "H18", "see_why": ["H10", "H13", "H19"], "name": "H20", "door": "H21",
+				"end": "H22", "answer": "R2", "break": "G1", "back": "G2", "topple": "G3", "chandelier": "G4",
+				"palace": "G5", "praise": ["P1", "P2", "P3", "P4", "P5", "P6"]
+			}
+		},
+		{
+			"id": "sky",
+			"name": "The Sky Room",
+			"wing": 6,
+			"unit": "g6.maths.equations",
+			"transfer": true,
+			"setting": "the Sky Room",
+			"after": "entrance",
+			"place": "sky",
+			"tools": ["bowls", "gem_bag", "pump"],
+			"music": {"room": "spring", "chorus": "ode_to_joy"},
+			"altars": [
+				{"n": 1, "form": "sub_L", "glimmer": "bird"},
+				{"n": 2, "form": "sub_L", "glimmer": "bird"},
+				{"n": 3, "form": "add_L", "glimmer": "bird"},
+				{"n": 4, "form": "sub_R", "glimmer": "bird"},
+				{"n": 5, "form": "mul_L", "glimmer": "bird"},
+				{"n": 6, "form": "subtwo_L", "great": true, "glimmer": "bird"}
+			],
+			"cues": {
+				"hook": "S1", "frame": "S2", "wait": "S3", "first_pop": "S4", "see_why": ["S4", "S5"], "end": "S6",
+				"freed": "H6", "count": "H7", "first_break": "H9", "see_why_break": "H10", "across": "H11",
+				"uneven": "H14", "ghost_step": "H15", "no_twin": "H16", "end_card": "H22", "answer": "R2",
+				"break": "G1", "back": "G2", "topple": "G3", "praise": ["P1", "P2", "P3", "P4", "P5", "P6"]
+			}
+		}
+	]
+}

@@ -1,0 +1,360 @@
+{
+	"id": "g3.geography.globe_equator",
+	"lesson": [
+		{
+			"text": "Quick memory: which ocean is around the North Pole? (The Arctic Ocean.) Today: the imaginary lines on a globe."
+		},
+		{
+			"text": "A globe is a model of Earth, shaped like a ball. Earth spins round once a day, around an imaginary line through the North Pole and the South Pole.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60
+			}
+		},
+		{
+			"text": "The Equator is an imaginary line around the middle of Earth, halfway between the two Poles. It is about 40,000 km long.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"part of Earth",
+						"how warm"
+					],
+					[
+						"North Pole",
+						"freezing"
+					],
+					[
+						"north half",
+						"cool to warm"
+					],
+					[
+						"Equator",
+						"hot"
+					],
+					[
+						"south half",
+						"cool to warm"
+					],
+					[
+						"South Pole",
+						"freezing"
+					]
+				]
+			}
+		},
+		{
+			"text": "The Equator cuts Earth into two halves called hemispheres: the Northern Hemisphere and the Southern Hemisphere. Hemi means half, and a sphere is a ball."
+		},
+		{
+			"text": "Places near the Equator are hot all year: the Sun is high in the sky and its light shines straight down. Near the Poles the Sun stays low, its light is spread thin, and it is freezing."
+		},
+		{
+			"text": "Try the torch test: shine a torch straight down and you get a small, bright spot. Tilt it and the same light spreads over a bigger, dimmer patch. That is why the Poles are cold."
+		},
+		{
+			"text": "The hemispheres have opposite seasons: when it is summer in Europe, it is winter in Australia. The Equator runs through Ecuador, Kenya, Brazil and Indonesia.",
+			"picture": {
+				"kind": "latlong",
+				"lat_step": 30,
+				"long_step": 60,
+				"points": [
+					{
+						"lat": 0,
+						"long": -78,
+						"label": "Ecuador"
+					},
+					{
+						"lat": 0,
+						"long": 37,
+						"label": "Kenya"
+					},
+					{
+						"lat": 0,
+						"long": -50,
+						"label": "Brazil"
+					},
+					{
+						"lat": 0,
+						"long": 110,
+						"label": "Indonesia"
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a globe of blocks, a ball of blue and green. Put a line of gold blocks around the middle for the Equator, and snow blocks at each Pole."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the Equator?",
+			"answer": 0,
+			"hint": "It is halfway between the two Poles.",
+			"choices": [
+				"an imaginary line around the middle of Earth",
+				"a river in Africa",
+				"a very tall mountain",
+				"a line painted on the ground"
+			],
+			"explain": "The Equator is an imaginary line around the middle of Earth."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A globe is a model of Earth.",
+			"answer": true,
+			"hint": "What shape is a globe?",
+			"explain": "True: a globe is a ball-shaped model of Earth."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which places are hot all year?",
+			"answer": 0,
+			"hint": "Where does the Sun shine most straight down?",
+			"choices": [
+				"places near the Equator",
+				"places near the North Pole",
+				"places near the South Pole",
+				"the tops of high mountains"
+			],
+			"explain": "Places near the Equator are hot all year, because the Sun is high in the sky."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Equator is halfway between the North Pole and the South Pole.",
+			"answer": true,
+			"hint": "Look at the table in the lesson.",
+			"explain": "True: the Equator runs around the middle, halfway between the Poles."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What is a hemisphere?",
+			"answer": 0,
+			"hint": "Hemi means half.",
+			"choices": [
+				"half of Earth",
+				"a whole planet",
+				"a kind of weather",
+				"a mountain range"
+			],
+			"explain": "A hemisphere is half of Earth: the Equator splits it into northern and southern halves."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is it so cold at the Poles?",
+			"answer": 0,
+			"hint": "Remember the torch test.",
+			"choices": [
+				"the Sun stays low and its light is spread out",
+				"the Poles are far from the Moon",
+				"there is no air there",
+				"snow makes the Sun go away"
+			],
+			"explain": "Near the Poles the Sun is low, so its light spreads over a big area and warms it only a little."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "When it is summer in Europe, it is summer in Australia too.",
+			"answer": false,
+			"hint": "Europe and Australia are in different hemispheres.",
+			"explain": "False: the hemispheres have opposite seasons, so it is winter in Australia then."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these places in order, from the North Pole to the South Pole.",
+			"answer": [
+				3,
+				1,
+				2,
+				4,
+				0
+			],
+			"hint": "Europe is in the Northern Hemisphere and Australia in the Southern.",
+			"items": [
+				"the South Pole",
+				"Europe",
+				"the Equator",
+				"the North Pole",
+				"Australia"
+			],
+			"explain": "The North Pole, Europe, the Equator, Australia, then the South Pole."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A country is named after the Equator, which runs through it. Which one?",
+			"answer": 0,
+			"hint": "Say the names aloud. Which sounds like Equator?",
+			"choices": [
+				"Ecuador",
+				"Egypt",
+				"Norway",
+				"Japan"
+			],
+			"explain": "Ecuador means equator in Spanish, and the Equator runs through it."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara shines a torch straight down, then tilts it. What happens to the light?",
+			"answer": 0,
+			"hint": "The same light now has to cover more ground.",
+			"choices": [
+				"it spreads over a bigger, dimmer patch",
+				"it gets brighter",
+				"it turns blue",
+				"it stops shining"
+			],
+			"explain": "Tilted light spreads over a bigger patch, so each part gets less light and warmth."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In the Southern Hemisphere, December is in summer.",
+			"answer": true,
+			"hint": "In Europe, December is winter. What about the other hemisphere?",
+			"explain": "True: the seasons are opposite, so December is summer in places like Australia."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Bram's Frostpeak has long, dark winters and ice. Where on a globe is it most like?",
+			"answer": 0,
+			"hint": "Where does the Sun stay low and winters last long?",
+			"choices": [
+				"near a Pole",
+				"on the Equator",
+				"in a hot desert",
+				"in a rainforest"
+			],
+			"explain": "Near a Pole the Sun stays low, winters are long and dark, and there is lots of ice."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "About how long is the Equator?",
+			"answer": 0,
+			"hint": "It goes all the way around the whole Earth.",
+			"choices": [
+				"about 40,000 km",
+				"about 40 km",
+				"about 400 km",
+				"about 4 million km"
+			],
+			"explain": "The Equator is about 40,000 km long, all the way around the middle of Earth."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: Northern or Southern Hemisphere?",
+			"groups": [
+				"Northern Hemisphere",
+				"Southern Hemisphere"
+			],
+			"items": [
+				"Europe",
+				"Australia",
+				"the North Pole",
+				"Antarctica",
+				"Canada",
+				"New Zealand"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The Equator is the dividing line. Is each place north or south of it?",
+			"explain": "North of the Equator: Europe, the North Pole, Canada. South: Australia, Antarctica, New Zealand."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the places: hot all year, or freezing cold?",
+			"groups": [
+				"hot all year",
+				"freezing cold"
+			],
+			"items": [
+				"Kenya",
+				"the North Pole",
+				"Ecuador",
+				"Antarctica",
+				"Indonesia",
+				"the Arctic Ocean"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Is it near the Equator, or near a Pole?",
+			"explain": "Kenya, Ecuador and Indonesia are on the Equator, where the Sun is high: hot all year. The North Pole, Antarctica and the Arctic Ocean are near the Poles: freezing."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the places from the hottest to the coldest.",
+			"items": [
+				"the North Pole",
+				"Kenya",
+				"Norway"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "The nearer the Equator, the higher the Sun and the hotter it is.",
+			"explain": "Kenya is on the Equator: the hottest. Norway is far to the north: cooler. The North Pole is coldest, with the Sun always low in the sky."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The Equator is about 40,000 km long. About how many km is it halfway round the Earth along the Equator?",
+			"answer": "20000",
+			"hint": "Halfway round is half of the whole way round.",
+			"explain": "Half of 40,000 km is 40,000 ÷ 2 = 20,000 km."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the months: summer or winter in Australia?",
+			"groups": [
+				"summer in Australia",
+				"winter in Australia"
+			],
+			"items": [
+				"December",
+				"July",
+				"January",
+				"June"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "The seasons are opposite to Europe's. Is it summer or winter in Europe then?",
+			"explain": "In Europe, December and January are in winter, so in Australia they are in summer. June and July are summer in Europe, so they are winter in Australia."
+		}
+	],
+	"generators": []
+}

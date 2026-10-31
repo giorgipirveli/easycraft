@@ -1,0 +1,195 @@
+{
+	"id": "g5.maths.volume",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met area. What is the area of a rectangle 5 by 3? 15 squares."
+		},
+		{
+			"text": "Volume is how much space something takes up. We measure it by counting unit cubes: cubes 1 unit long, 1 unit wide and 1 unit high.",
+			"picture": {
+				"kind": "cubes",
+				"boxes": [
+					{
+						"l": 3,
+						"w": 2,
+						"h": 2
+					}
+				]
+			}
+		},
+		{
+			"text": "Count one layer: 3 cubes long and 2 wide make 3 × 2 = 6 cubes. There are 2 layers, so 6 × 2 = 12 cubes. The volume is 12 cubic units.",
+			"picture": {
+				"kind": "cubes",
+				"boxes": [
+					{
+						"l": 3,
+						"w": 2,
+						"h": 2,
+						"fill": 1
+					}
+				]
+			}
+		},
+		{
+			"text": "So volume = length × width × height. A box is 5 cm long, 3 cm wide and 4 cm high. Its volume is 5 × 3 × 4 = 60 cm³, cubic centimetres.",
+			"picture": {
+				"kind": "cubes",
+				"boxes": [
+					{
+						"l": 5,
+						"w": 3,
+						"h": 4
+					}
+				],
+				"labels": true,
+				"unit": "cm",
+				"grid": false
+			}
+		},
+		{
+			"text": "Two boxes side by side? Find each volume, then add: 2 × 2 × 3 = 12 and 3 × 2 × 3 = 18, so 30 cubes in all.",
+			"picture": {
+				"kind": "cubes",
+				"boxes": [
+					{
+						"l": 2,
+						"w": 2,
+						"h": 3
+					},
+					{
+						"l": 3,
+						"w": 2,
+						"h": 3
+					}
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a box of blocks 4 long, 3 wide and 2 high. How many blocks? 4 × 3 × 2 = 24. Next: the coordinate grid."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A box is 4 cubes long, 2 wide and 1 high. How many unit cubes does it hold?",
+			"answer": "8",
+			"hint": "One layer of 4 × 2.",
+			"explain": "4 × 2 × 1 = 8 cubes."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Volume is measured in cubic units, like cm³.",
+			"answer": true,
+			"hint": "Think of unit cubes.",
+			"explain": "Yes: volume counts cubes, so it uses cubic units."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A 2 × 3 × 4 box and a 4 × 3 × 2 box have the same volume.",
+			"answer": true,
+			"hint": "Does the order of multiplying matter?",
+			"explain": "Yes: both are 24 cubic units."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which box has the biggest volume?",
+			"answer": 0,
+			"hint": "Work out each one.",
+			"choices": [
+				"4 × 3 × 2",
+				"5 × 2 × 2",
+				"3 × 3 × 2"
+			],
+			"explain": "24, 20 and 18: the 4 × 3 × 2 box is biggest."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A shoebox is 30 cm long, 20 cm wide and 10 cm high. What is its volume in cm³?",
+			"answer": "6000",
+			"hint": "Length × width × height.",
+			"explain": "30 × 20 × 10 = 6,000 cm³."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A box has a volume of 48 cm³. Its bottom is 4 cm by 3 cm. How high is it, in cm?",
+			"answer": "4",
+			"hint": "Divide the volume by the bottom's area.",
+			"explain": "The bottom is 4 × 3 = 12 cm². 48 ÷ 12 = 4 cm."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A cube is 3 cm long on each side. What is its volume in cm³?",
+			"answer": "27",
+			"hint": "All three sides are 3 cm.",
+			"explain": "3 × 3 × 3 = 27 cm³."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A box is 3 cubes long, 3 wide and 2 high. How many unit cubes does it hold?",
+			"answer": "18",
+			"hint": "One layer is 3 × 3.",
+			"explain": "3 × 3 = 9 cubes a layer, × 2 layers = 18."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two boxes: 4 × 2 × 3 and 2 × 2 × 5. What is their total volume?",
+			"answer": 0,
+			"hint": "Find each volume, then add.",
+			"choices": [
+				"44 cubic units",
+				"24 cubic units",
+				"20 cubic units",
+				"34 cubic units"
+			],
+			"explain": "24 + 20 = 44 cubic units."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5m.cube_count",
+			"level": 1
+		},
+		{
+			"gen": "g5m.cube_count",
+			"level": 2
+		},
+		{
+			"gen": "g5m.cube_count",
+			"level": 3
+		},
+		{
+			"gen": "g5m.volume_formula",
+			"level": 1
+		},
+		{
+			"gen": "g5m.volume_formula",
+			"level": 2
+		},
+		{
+			"gen": "g5m.volume_formula",
+			"level": 3
+		},
+		{
+			"gen": "g5m.volume_check",
+			"level": 1
+		},
+		{
+			"gen": "g5m.volume_check",
+			"level": 2
+		},
+		{
+			"gen": "g5m.volume_check",
+			"level": 3
+		}
+	]
+}

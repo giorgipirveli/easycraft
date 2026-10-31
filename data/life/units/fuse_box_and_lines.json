@@ -1,0 +1,24 @@
+{
+	"id": "life.safe.fuse_box_and_lines",
+	"lesson": [
+		{"text": "Quick memory: how do you unplug safely? (Hold the plug, not the cable.) Today: the fuse box, someone stuck to electricity, and a fallen power line."},
+		{"text": "The fuse box is where the electricity comes into a home. Its main switch turns all the power off. An RCD is a safety switch that turns off fast if something is wrong."},
+		{"text": "Someone stuck to electricity: never touch them, or it goes through you too. Switch off at the fuse box if you can reach it safely, and call {number}."},
+		{"text": "A fallen power line can still be live, and the ground around it too. Stay at least 10 metres away, keep others away, and call {number}."},
+		{"text": "Not for a child to do: touching or moving a power line, even with a stick. A cracked plug or loose cable: stop using it until it is mended."},
+		{"text": "Try it in the world: open the practice house and the park after the storm. Then find your own fuse box with a grown-up."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "The fuse box's main switch...", "answer": 0, "choices": ["turns all the power off", "turns the oven on", "charges phones"], "hint": "It's the main one.", "explain": "It turns all the power in the home off."},
+		{"type": "truefalse", "level": 1, "prompt": "You should grab someone who is stuck to electricity.", "answer": false, "hint": "It would go through you too.", "explain": "False: never touch them."},
+		{"type": "choice", "level": 1, "prompt": "A power line lies on the path. You...", "answer": 0, "choices": ["stay far away and tell a grown-up", "step over it", "move it with a stick"], "hint": "It may still be live.", "explain": "Stay at least 10 metres away."},
+		{"type": "choice", "level": 2, "prompt": "What does an RCD do?", "answer": 0, "choices": ["switches off fast if something is wrong", "makes lights brighter", "nothing"], "hint": "A safety switch.", "explain": "It switches off fast if electricity goes the wrong way."},
+		{"type": "truefalse", "level": 2, "prompt": "Pressing an RCD's test button should switch it off.", "answer": true, "hint": "That's the test.", "explain": "True: then switch it back on."},
+		{"type": "order", "level": 2, "prompt": "Someone is stuck to electricity: put it in order.", "answer": [2, 1, 0], "items": ["call {number}", "switch off at the fuse box if it is safe", "never touch them"], "hint": "Safety first.", "explain": "Don't touch, switch off if safe, call."},
+		{"type": "sort", "level": 2, "prompt": "Safe, or not safe?", "groups": ["safe", "not safe"], "items": ["staying 10 metres from a fallen line", "poking the line with a stick", "telling others to keep away", "walking up to look"], "answer": [0, 1, 0, 1], "hint": "Distance keeps you safe.", "explain": "Far away and warning others: safe."},
+		{"type": "choice", "level": 3, "prompt": "A plug's case is cracked. You...", "answer": 0, "choices": ["stop using it until it is mended", "tape it", "keep using it carefully"], "hint": "Tape doesn't make it safe.", "explain": "Stop using it."},
+		{"type": "truefalse", "level": 3, "prompt": "The ground near a fallen power line can be live too.", "answer": true, "hint": "Electricity spreads.", "explain": "True: even near it is not safe."},
+		{"type": "choice", "level": 3, "prompt": "Who moves a fallen power line?", "answer": 0, "choices": ["only the power company's people", "any grown-up", "a child with a dry stick"], "hint": "Not for a child to do.", "explain": "Only the power company."},
+		{"type": "choice", "level": 3, "prompt": "After the power is switched off, someone hurt by electricity...", "answer": 0, "choices": ["needs a doctor: call {number}", "is fine straight away", "should go back to work"], "hint": "Electricity can hurt inside.", "explain": "Always call {number}."}
+	]
+}

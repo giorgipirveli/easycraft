@@ -1,0 +1,2028 @@
+{
+	"areas": [
+		{
+			"id": "building",
+			"title": "Building and making"
+		},
+		{
+			"id": "fixing",
+			"title": "Fixing at home"
+		},
+		{
+			"id": "kitchen",
+			"title": "Kitchen"
+		},
+		{
+			"id": "home",
+			"title": "Home"
+		},
+		{
+			"id": "garden",
+			"title": "Garden and growing"
+		},
+		{
+			"id": "health",
+			"title": "Health and safety"
+		},
+		{
+			"id": "money",
+			"title": "Money and shops"
+		},
+		{
+			"id": "tech",
+			"title": "Tech"
+		},
+		{
+			"id": "science",
+			"title": "Science and measuring"
+		},
+		{
+			"id": "around",
+			"title": "Getting around and sport"
+		},
+		{
+			"id": "art",
+			"title": "Music and art"
+		}
+	],
+	"tools": [
+		{
+			"id": "trowel",
+			"name": "trowel",
+			"kind": "tool",
+			"area": "building",
+			"icon": "trowel",
+			"motions": [
+				"spread",
+				"strike"
+			],
+			"for": "spreading mortar, and tapping bricks down to the line",
+			"hold": "Hold the handle in your fist, thumb on top, the blade low and flat.",
+			"safety": "Gloves on: wet mortar is rough on skin.",
+			"checks": {
+				"strike": {
+					"hits": 2,
+					"min_speed": 0.6,
+					"max_speed": 4.0,
+					"on": 0.06
+				}
+			}
+		},
+		{
+			"id": "spirit_level",
+			"name": "spirit level",
+			"kind": "tool",
+			"area": "building",
+			"icon": "level",
+			"motions": [
+				"aim"
+			],
+			"for": "checking that a row is level and a wall is straight up",
+			"hold": "Lay it along the bricks and keep it still, then read the bubble.",
+			"safety": "Carry it by the middle, so its ends never swing into anyone.",
+			"checks": {
+				"aim": {
+					"either": true,
+					"touch": true,
+					"tol": 0.06,
+					"hold": 1.0,
+					"contact": 0.05
+				}
+			}
+		},
+		{
+			"id": "plumb_line",
+			"name": "plumb line",
+			"kind": "tool",
+			"area": "building",
+			"icon": "plumb",
+			"motions": [
+				"aim"
+			],
+			"for": "checking that a wall is straight up and down",
+			"hold": "Hold the string at the top of the wall and let the weight hang still.",
+			"safety": "Let the weight hang: never swing it.",
+			"checks": {
+				"aim": {
+					"dir": [
+						0,
+						-1,
+						0
+					],
+					"tol": 3.2,
+					"touch": true,
+					"hold": 1.2,
+					"contact": 0.08
+				}
+			}
+		},
+		{
+			"id": "tape",
+			"name": "tape measure",
+			"kind": "tool",
+			"area": "building",
+			"icon": "tape",
+			"motions": [
+				"measure"
+			],
+			"for": "measuring how long, wide or high something is",
+			"hold": "Hook the end on the start, then pull the tape straight to the end.",
+			"safety": "Let the tape roll back slowly: its edge can nip fingers."
+		},
+		{
+			"id": "square",
+			"name": "builder's square",
+			"kind": "tool",
+			"area": "building",
+			"icon": "square",
+			"motions": [
+				"aim"
+			],
+			"for": "checking that a corner is square (a right angle)",
+			"hold": "Put it right in the corner, one arm along each wall.",
+			"safety": "Lay it down flat when you are not using it.",
+			"checks": {
+				"aim": {
+					"touch": true
+				}
+			}
+		},
+		{
+			"id": "hammer",
+			"name": "claw hammer",
+			"kind": "tool",
+			"area": "building",
+			"icon": "hammer",
+			"motions": [
+				"strike"
+			],
+			"for": "driving nails in, and pulling them out with the claw",
+			"hold": "Hold it near the end of the handle and start with little taps.",
+			"safety": "Goggles on; let go of the nail once it stands up by itself.",
+			"checks": {
+				"strike": {
+					"hits": 3
+				}
+			}
+		},
+		{
+			"id": "saw",
+			"name": "handsaw",
+			"kind": "tool",
+			"area": "building",
+			"icon": "saw",
+			"motions": [
+				"stroke"
+			],
+			"for": "cutting wood to length",
+			"hold": "One hand on the handle, first finger pointing along it: long, slow strokes.",
+			"safety": "Goggles on, the wood held tight, your other hand well away from the teeth.",
+			"checks": {
+				"stroke": {
+					"strokes": 6,
+					"line": 0.02
+				}
+			}
+		},
+		{
+			"id": "shovel",
+			"name": "shovel",
+			"kind": "tool",
+			"area": "building",
+			"icon": "shovel",
+			"motions": [
+				"pour"
+			],
+			"for": "moving sand and gravel, and tipping them where they go",
+			"hold": "One hand near the blade, one on the handle; bend your knees, not your back.",
+			"safety": "Lift small loads, and never swing it near anyone.",
+			"checks": {
+				"pour": {
+					"want": 0.5,
+					"tol": 0.2,
+					"rate": 0.6
+				}
+			}
+		},
+		{
+			"id": "bucket",
+			"name": "bucket",
+			"kind": "tool",
+			"area": "building",
+			"icon": "bucket",
+			"motions": [
+				"pour"
+			],
+			"for": "carrying and pouring water",
+			"hold": "One hand on the handle, the other under the bottom to tip it.",
+			"safety": "Half full is easier to carry, and there are no spills to slip on."
+		},
+		{
+			"id": "paint_roller",
+			"name": "paint roller",
+			"kind": "tool",
+			"area": "building",
+			"icon": "brush",
+			"motions": [
+				"stroke"
+			],
+			"for": "painting walls quickly and evenly",
+			"hold": "Roll it in the tray, then up and down the wall in long strokes.",
+			"safety": "Open a window: fresh air while you paint."
+		},
+		{
+			"id": "sandpaper",
+			"name": "sandpaper",
+			"kind": "tool",
+			"area": "building",
+			"icon": "brush",
+			"motions": [
+				"stroke"
+			],
+			"for": "making wood smooth",
+			"hold": "Wrap it round a block and rub along the grain.",
+			"safety": "A dust mask on, and sweep the dust up after."
+		},
+		{
+			"id": "mixer",
+			"name": "cement mixer",
+			"kind": "device",
+			"area": "building",
+			"icon": "mixer",
+			"motions": [
+				"press"
+			],
+			"grown_up": true,
+			"for": "mixing sand, cement and water into mortar",
+			"hold": "A grown-up runs it; you tell them the order.",
+			"safety": "Gloves and goggles on; never hands or a shovel inside while it turns.",
+			"device": {
+				"controls": [
+					{
+						"id": "switch",
+						"words": "the on and off switch"
+					},
+					{
+						"id": "water",
+						"words": "the bucket of water"
+					},
+					{
+						"id": "sand",
+						"words": "the shovel of sand"
+					},
+					{
+						"id": "cement",
+						"words": "the bag of cement"
+					}
+				],
+				"shows": [
+					{
+						"id": "drum",
+						"words": "the drum",
+						"start": "still"
+					},
+					{
+						"id": "mix",
+						"words": "the mix",
+						"start": "empty"
+					}
+				],
+				"order": [
+					{
+						"do": "gloves",
+						"words": "gloves on"
+					},
+					{
+						"do": "goggles",
+						"words": "goggles on"
+					},
+					{
+						"do": "switch",
+						"value": "on",
+						"words": "switch it on",
+						"shows": {
+							"drum": "turning"
+						}
+					},
+					{
+						"do": "water",
+						"words": "a little water first",
+						"shows": {
+							"mix": "wet"
+						}
+					},
+					{
+						"do": "sand",
+						"words": "four shovels of sand",
+						"shows": {
+							"mix": "sandy"
+						}
+					},
+					{
+						"do": "cement",
+						"words": "one shovel of cement",
+						"shows": {
+							"mix": "grey"
+						}
+					},
+					{
+						"do": "water",
+						"words": "more water, until it is like soft butter",
+						"shows": {
+							"mix": "mortar"
+						}
+					},
+					{
+						"do": "switch",
+						"value": "off",
+						"words": "switch it off before it is tipped out",
+						"shows": {
+							"drum": "still"
+						}
+					}
+				],
+				"safety": [
+					{
+						"id": "gloves",
+						"words": "gloves on: wet cement burns skin",
+						"before": [
+							"cement"
+						]
+					},
+					{
+						"id": "goggles",
+						"words": "goggles on: cement dust hurts eyes",
+						"before": [
+							"switch"
+						]
+					},
+					{
+						"id": "hands_out",
+						"words": "never hands or a shovel inside while it turns"
+					}
+				]
+			}
+		},
+		{
+			"id": "drill",
+			"name": "drill",
+			"kind": "device",
+			"area": "fixing",
+			"icon": "drill",
+			"motions": [
+				"squeeze",
+				"press"
+			],
+			"for": "making holes and driving screws",
+			"hold": "Both hands, pressing straight in; squeeze the trigger gently.",
+			"safety": "Goggles on; the battery out to change the bit.",
+			"device": {
+				"controls": [
+					{
+						"id": "battery",
+						"words": "the battery"
+					},
+					{
+						"id": "chuck",
+						"words": "the chuck"
+					},
+					{
+						"id": "speed",
+						"words": "the speed switch"
+					},
+					{
+						"id": "trigger",
+						"words": "the trigger"
+					}
+				],
+				"shows": [
+					{
+						"id": "speed",
+						"words": "the speed: 1 slow, 2 fast",
+						"start": "-"
+					},
+					{
+						"id": "light",
+						"words": "the light",
+						"start": "off"
+					}
+				],
+				"order": [
+					{
+						"do": "chuck",
+						"words": "the bit tight in the chuck"
+					},
+					{
+						"do": "battery",
+						"words": "the battery in",
+						"shows": {
+							"light": "on"
+						}
+					},
+					{
+						"do": "goggles",
+						"words": "goggles on"
+					},
+					{
+						"do": "speed",
+						"value": "1",
+						"words": "speed 1 (slow) to start",
+						"shows": {
+							"speed": "1"
+						}
+					},
+					{
+						"do": "trigger",
+						"words": "squeeze gently, pressing straight"
+					}
+				],
+				"safety": [
+					{
+						"id": "goggles",
+						"words": "goggles on",
+						"before": [
+							"trigger"
+						]
+					},
+					{
+						"id": "battery_out",
+						"words": "the battery out to change the bit"
+					}
+				]
+			}
+		},
+		{
+			"id": "hard_hat",
+			"name": "hard hat",
+			"kind": "safety",
+			"area": "building",
+			"icon": "hard_hat",
+			"for": "protecting your head on a building site",
+			"hold": "Straight on your head, the strap done up.",
+			"safety": "On a building site it stays on, all the time."
+		},
+		{
+			"id": "goggles",
+			"name": "safety goggles",
+			"kind": "safety",
+			"area": "building",
+			"icon": "goggles",
+			"for": "keeping dust and chips out of your eyes",
+			"hold": "Over your eyes, the strap snug round your head.",
+			"safety": "Goggles on before you saw, drill or hammer."
+		},
+		{
+			"id": "gloves",
+			"name": "gloves",
+			"kind": "safety",
+			"area": "health",
+			"icon": "gloves",
+			"for": "keeping hands safe and clean: work gloves for building, thin gloves for first aid",
+			"hold": "Pull them all the way on, one finger in each.",
+			"safety": "Thin first aid gloves are used once, then thrown away."
+		},
+		{
+			"id": "screwdriver",
+			"name": "screwdriver",
+			"kind": "tool",
+			"area": "fixing",
+			"icon": "screwdriver",
+			"motions": [
+				"twist"
+			],
+			"for": "turning screws in and out",
+			"hold": "Push straight in while you turn: righty-tighty, lefty-loosey.",
+			"safety": "Use the right size tip, and never turn towards your other hand."
+		},
+		{
+			"id": "spanner",
+			"name": "spanner",
+			"kind": "tool",
+			"area": "fixing",
+			"icon": "spanner",
+			"motions": [
+				"twist"
+			],
+			"for": "turning nuts and bolts",
+			"hold": "Fit it snugly on the nut and pull the handle round.",
+			"safety": "Pull towards you rather than push, so a slip can't bump your knuckles.",
+			"checks": {
+				"twist": {
+					"turns": 1.0,
+					"align": 1.2
+				}
+			}
+		},
+		{
+			"id": "pliers",
+			"name": "pliers",
+			"kind": "tool",
+			"area": "fixing",
+			"icon": "pliers",
+			"motions": [
+				"squeeze"
+			],
+			"for": "gripping, bending and holding small things",
+			"hold": "Handles in your palm; squeeze to grip.",
+			"safety": "Keep fingers out of the jaws."
+		},
+		{
+			"id": "allen_key",
+			"name": "Allen key",
+			"kind": "tool",
+			"area": "fixing",
+			"icon": "spanner",
+			"motions": [
+				"twist"
+			],
+			"for": "the six-sided screws of flat-pack furniture",
+			"hold": "The short end in the screw; turn it with the long end.",
+			"safety": "Push it all the way in so it doesn't slip."
+		},
+		{
+			"id": "glue_gun",
+			"name": "glue gun",
+			"kind": "tool",
+			"area": "fixing",
+			"icon": "pliers",
+			"motions": [
+				"squeeze"
+			],
+			"for": "sticking things together with hot glue",
+			"hold": "Squeeze the trigger gently, the hot tip pointing down.",
+			"safety": "The tip and the glue are hot: a grown-up nearby, and the stand under it.",
+			"checks": {
+				"squeeze": {
+					"hi": 0.75,
+					"seconds": 1.0
+				}
+			}
+		},
+		{
+			"id": "knife",
+			"name": "child-safe knife",
+			"kind": "tool",
+			"area": "kitchen",
+			"icon": "knife",
+			"motions": [
+				"cut"
+			],
+			"for": "cutting food safely",
+			"hold": "The claw grip: fingertips tucked in, the knife slicing beside your knuckles.",
+			"safety": "Cut on a board, away from you, with a grown-up nearby."
+		},
+		{
+			"id": "measuring_jug",
+			"name": "measuring jug",
+			"kind": "tool",
+			"area": "kitchen",
+			"icon": "jug",
+			"motions": [
+				"pour"
+			],
+			"for": "measuring and pouring liquids",
+			"hold": "Hold it level at eye height to read the line, then pour slowly.",
+			"safety": "Wipe up spills so nobody slips."
+		},
+		{
+			"id": "whisk",
+			"name": "whisk",
+			"kind": "tool",
+			"area": "kitchen",
+			"icon": "whisk",
+			"motions": [
+				"stroke"
+			],
+			"for": "mixing, and beating air into eggs and cream",
+			"hold": "Hold the bowl with your other hand; quick strokes back and forth.",
+			"safety": "Keep it in the bowl while it moves."
+		},
+		{
+			"id": "scales",
+			"name": "kitchen scales",
+			"kind": "tool",
+			"area": "kitchen",
+			"icon": "scales",
+			"motions": [
+				"measure"
+			],
+			"for": "weighing food for a recipe",
+			"hold": "Bowl on first, press zero, then spoon the food in slowly.",
+			"safety": "Keep them dry and away from the hob."
+		},
+		{
+			"id": "kettle",
+			"name": "kettle",
+			"kind": "device",
+			"area": "kitchen",
+			"icon": "device",
+			"motions": [
+				"press"
+			],
+			"for": "boiling water",
+			"hold": "Fill it to the line, switch it on, and let a grown-up pour.",
+			"safety": "Steam and boiling water burn: switch it off and let a grown-up pour.",
+			"device": {
+				"controls": [
+					{
+						"id": "lid",
+						"words": "the lid"
+					},
+					{
+						"id": "switch",
+						"words": "the switch"
+					}
+				],
+				"shows": [
+					{
+						"id": "light",
+						"words": "the light",
+						"start": "off"
+					}
+				],
+				"order": [
+					{
+						"do": "dry",
+						"words": "dry hands, the cable tucked away"
+					},
+					{
+						"do": "fill",
+						"words": "fill it to the line, not past it"
+					},
+					{
+						"do": "lid",
+						"words": "lid shut"
+					},
+					{
+						"do": "switch",
+						"value": "on",
+						"words": "switch it on",
+						"shows": {
+							"light": "on"
+						}
+					},
+					{
+						"do": "click",
+						"words": "wait: it clicks off by itself",
+						"shows": {
+							"light": "off"
+						}
+					},
+					{
+						"do": "pour",
+						"words": "a grown-up pours, slowly, away from you"
+					}
+				],
+				"safety": [
+					{
+						"id": "dry",
+						"words": "dry hands, the cable tucked away",
+						"before": [
+							"switch"
+						]
+					},
+					{
+						"id": "grown_up_pours",
+						"words": "steam and boiling water burn: a grown-up pours"
+					}
+				]
+			}
+		},
+		{
+			"id": "microwave",
+			"name": "microwave",
+			"kind": "device",
+			"area": "kitchen",
+			"icon": "device",
+			"motions": [
+				"press"
+			],
+			"for": "warming food",
+			"hold": "Door, food in, door shut, the time, start.",
+			"safety": "Never metal or foil inside; hot bowls need oven gloves.",
+			"device": {
+				"controls": [
+					{
+						"id": "door",
+						"words": "the door"
+					},
+					{
+						"id": "time",
+						"words": "the time buttons"
+					},
+					{
+						"id": "start",
+						"words": "the start button"
+					}
+				],
+				"shows": [
+					{
+						"id": "screen",
+						"words": "the time",
+						"start": "0:00"
+					}
+				],
+				"order": [
+					{
+						"do": "door",
+						"words": "open the door"
+					},
+					{
+						"do": "food",
+						"words": "the food in a microwave-safe bowl"
+					},
+					{
+						"do": "no_metal",
+						"words": "no metal, no foil"
+					},
+					{
+						"do": "door",
+						"words": "door shut"
+					},
+					{
+						"do": "time",
+						"value": "1:00",
+						"words": "set the time",
+						"shows": {
+							"screen": "1:00"
+						}
+					},
+					{
+						"do": "start",
+						"words": "press start"
+					},
+					{
+						"do": "oven_gloves",
+						"words": "oven gloves on to take it out"
+					}
+				],
+				"safety": [
+					{
+						"id": "no_metal",
+						"words": "no metal or foil inside: it sparks",
+						"before": [
+							"start"
+						]
+					},
+					{
+						"id": "oven_gloves",
+						"words": "hot bowls: oven gloves"
+					}
+				]
+			}
+		},
+		{
+			"id": "tap",
+			"name": "tap",
+			"kind": "tool",
+			"area": "home",
+			"icon": "tap",
+			"motions": [
+				"twist"
+			],
+			"for": "turning water on and off",
+			"hold": "Turn it anticlockwise to open and clockwise to close.",
+			"safety": "Feel the water first: hot taps can scald.",
+			"checks": {
+				"twist": {
+					"turns": 0.5,
+					"dir": -1,
+					"align": 1.2
+				}
+			}
+		},
+		{
+			"id": "broom",
+			"name": "broom",
+			"kind": "tool",
+			"area": "home",
+			"icon": "broom",
+			"motions": [
+				"stroke"
+			],
+			"for": "sweeping the floor",
+			"hold": "Hands apart on the handle; short sweeps towards a pile.",
+			"safety": "Lean it against a wall when you stop, so nobody trips."
+		},
+		{
+			"id": "washing_machine",
+			"name": "washing machine",
+			"kind": "device",
+			"area": "home",
+			"icon": "device",
+			"motions": [
+				"press"
+			],
+			"for": "washing clothes",
+			"hold": "Sort, load, powder, programme, start.",
+			"safety": "Never climb in or play with the door; a grown-up chooses the programme.",
+			"device": {
+				"controls": [
+					{
+						"id": "door",
+						"words": "the door"
+					},
+					{
+						"id": "drawer",
+						"words": "the powder drawer"
+					},
+					{
+						"id": "dial",
+						"words": "the programme dial"
+					},
+					{
+						"id": "start",
+						"words": "the start button"
+					}
+				],
+				"shows": [
+					{
+						"id": "screen",
+						"words": "the time left",
+						"start": "--"
+					}
+				],
+				"order": [
+					{
+						"do": "sort",
+						"words": "sort them: whites, colours, darks"
+					},
+					{
+						"do": "door",
+						"words": "load the drum, close the door"
+					},
+					{
+						"do": "drawer",
+						"words": "powder in the drawer"
+					},
+					{
+						"do": "dial",
+						"value": "40",
+						"words": "a grown-up sets the programme",
+						"shows": {
+							"screen": "1:30"
+						}
+					},
+					{
+						"do": "start",
+						"words": "press start"
+					}
+				],
+				"safety": [
+					{
+						"id": "no_climb",
+						"words": "never climb in or play with the door"
+					}
+				]
+			}
+		},
+		{
+			"id": "watering_can",
+			"name": "watering can",
+			"kind": "tool",
+			"area": "garden",
+			"icon": "jug",
+			"motions": [
+				"pour"
+			],
+			"for": "watering plants",
+			"hold": "One hand on the top handle, one on the back; tip it gently at the roots.",
+			"safety": "Fill it half way: lighter to carry."
+		},
+		{
+			"id": "spade",
+			"name": "spade",
+			"kind": "tool",
+			"area": "garden",
+			"icon": "shovel",
+			"motions": [
+				"press"
+			],
+			"for": "digging",
+			"hold": "Push it in with your foot, then lever the soil up.",
+			"safety": "Shoes on, never sandals, and feet clear of the blade.",
+			"checks": {
+				"press": {
+					"depth": 0.05
+				}
+			}
+		},
+		{
+			"id": "secateurs",
+			"name": "secateurs",
+			"kind": "tool",
+			"area": "garden",
+			"icon": "scissors",
+			"motions": [
+				"cut"
+			],
+			"for": "cutting stems and small branches",
+			"hold": "Squeeze the handles, the thin blade towards the plant.",
+			"safety": "Close them after use, with a grown-up nearby."
+		},
+		{
+			"id": "rake",
+			"name": "rake",
+			"kind": "tool",
+			"area": "garden",
+			"icon": "broom",
+			"motions": [
+				"stroke"
+			],
+			"for": "gathering leaves and making soil flat",
+			"hold": "Hands apart on the handle; pull it towards you.",
+			"safety": "Lay it down teeth first so nobody steps on them."
+		},
+		{
+			"id": "cloth",
+			"name": "clean cloth",
+			"kind": "tool",
+			"area": "health",
+			"icon": "cloth",
+			"motions": [
+				"press"
+			],
+			"for": "pressing on a cut to stop it bleeding",
+			"hold": "Fold it into a pad and press firmly on the cut.",
+			"safety": "Gloves on if you can, and tell a grown-up."
+		},
+		{
+			"id": "plaster",
+			"name": "plaster",
+			"kind": "tool",
+			"area": "health",
+			"icon": "cloth",
+			"motions": [
+				"press"
+			],
+			"for": "covering a small cut",
+			"hold": "Peel the backing off, stick it on, smooth the edges down.",
+			"safety": "Wash the cut clean first, with a grown-up."
+		},
+		{
+			"id": "cling_film",
+			"name": "cling film",
+			"kind": "tool",
+			"area": "health",
+			"icon": "cloth",
+			"motions": [
+				"spread"
+			],
+			"for": "covering a cooled burn",
+			"hold": "Lay it loosely over the burn: never wrap it tight.",
+			"safety": "Cool the burn under running water for 20 minutes first."
+		},
+		{
+			"id": "extinguisher",
+			"name": "fire extinguisher",
+			"kind": "device",
+			"area": "health",
+			"icon": "extinguisher",
+			"motions": [
+				"squeeze",
+				"aim"
+			],
+			"grown_up": true,
+			"for": "putting out a small fire",
+			"hold": "Pull, aim, squeeze, sweep.",
+			"safety": "A grown-up uses it on a small fire with the way out behind; if in doubt, get out.",
+			"device": {
+				"controls": [
+					"the pin",
+					"the handle",
+					"the hose"
+				],
+				"shows": [
+					"the spray"
+				],
+				"order": [
+					"pull the pin",
+					"aim at the bottom of the fire",
+					"squeeze the handle",
+					"sweep from side to side"
+				],
+				"safety": [
+					"a small fire only",
+					"the way out behind you",
+					"a grown-up uses it",
+					"if in doubt, get out"
+				]
+			}
+		},
+		{
+			"id": "smoke_alarm",
+			"name": "smoke alarm",
+			"kind": "device",
+			"area": "health",
+			"icon": "device",
+			"motions": [
+				"press"
+			],
+			"for": "warning everyone early when there is smoke",
+			"hold": "A grown-up presses and holds the test button until it beeps.",
+			"safety": "Test it every month, and never take its battery out.",
+			"device": {
+				"controls": [
+					{
+						"id": "button",
+						"words": "the test button"
+					}
+				],
+				"shows": [
+					{
+						"id": "beep",
+						"words": "the beep",
+						"start": "quiet"
+					}
+				],
+				"order": [
+					{
+						"do": "button",
+						"words": "press and hold the test button",
+						"shows": {
+							"beep": "BEEP"
+						}
+					},
+					{
+						"do": "let_go",
+						"words": "let go when it beeps",
+						"shows": {
+							"beep": "quiet"
+						}
+					}
+				],
+				"safety": [
+					{
+						"id": "monthly",
+						"words": "a grown-up tests it once a month"
+					},
+					{
+						"id": "battery",
+						"words": "never take the battery out"
+					}
+				]
+			}
+		},
+		{
+			"id": "coins",
+			"name": "coins",
+			"kind": "tool",
+			"area": "money",
+			"icon": "coins",
+			"motions": [
+				"press"
+			],
+			"for": "paying, and giving change",
+			"hold": "Count them out one by one, the biggest first.",
+			"safety": "Keep money safe, and never give it to a stranger who asks."
+		},
+		{
+			"id": "till",
+			"name": "shop till",
+			"kind": "device",
+			"area": "money",
+			"icon": "device",
+			"motions": [
+				"press"
+			],
+			"for": "adding up and taking payment in a shop",
+			"hold": "Each price in, then press PAY.",
+			"safety": "Check the total before you pay.",
+			"device": {
+				"controls": [
+					"PAY"
+				],
+				"shows": [
+					"the basket's total"
+				],
+				"order": [
+					"the needs on the list first",
+					"add up as you go",
+					"wants only if there is room",
+					"pay at the till"
+				],
+				"safety": [
+					"keep within your budget"
+				]
+			}
+		},
+		{
+			"id": "card_reader",
+			"name": "card reader",
+			"kind": "device",
+			"area": "money",
+			"icon": "device",
+			"motions": [
+				"press"
+			],
+			"for": "paying by card (pretend in the game: never a real PIN)",
+			"hold": "Check the price, tap the card, cover the keys, type the PIN, press OK.",
+			"safety": "A PIN is secret: never tell it to anyone, ever.",
+			"device": {
+				"controls": [
+					{
+						"id": "card",
+						"words": "the card"
+					},
+					{
+						"id": "keys",
+						"words": "the number keys"
+					},
+					{
+						"id": "ok",
+						"words": "the OK key"
+					}
+				],
+				"shows": [
+					{
+						"id": "screen",
+						"words": "the price",
+						"start": "5.00"
+					}
+				],
+				"order": [
+					{
+						"do": "check",
+						"words": "check the price on the screen"
+					},
+					{
+						"do": "card",
+						"words": "tap or put in the card"
+					},
+					{
+						"do": "cover",
+						"words": "cover the keys with your other hand"
+					},
+					{
+						"do": "keys",
+						"words": "type the PIN"
+					},
+					{
+						"do": "ok",
+						"words": "press OK",
+						"shows": {
+							"screen": "APPROVED"
+						}
+					}
+				],
+				"safety": [
+					{
+						"id": "cover",
+						"words": "cover the keys: a PIN is secret, always",
+						"before": [
+							"keys"
+						]
+					},
+					{
+						"id": "pretend",
+						"words": "in the game it is pretend: never a real PIN"
+					}
+				]
+			}
+		},
+		{
+			"id": "ledger",
+			"name": "ledger",
+			"kind": "device",
+			"area": "money",
+			"icon": "ledger",
+			"motions": [
+				"press"
+			],
+			"for": "writing down money in and money out, to see the profit (My Business's shop)",
+			"hold": "Write each sale in and each cost out straight away, then take money out from money in.",
+			"safety": "Check the sums twice: a mistake in the ledger hides a loss.",
+			"device": {
+				"controls": [
+					"the money-in column",
+					"the money-out column",
+					"the profit line"
+				],
+				"shows": [
+					"money in, money out and profit",
+					"the week's bars"
+				],
+				"order": [
+					"write each sale in",
+					"write each cost out",
+					"money in take away money out is the profit",
+					"look at the week's bars"
+				],
+				"safety": [
+					"write it down straight away",
+					"check the sums twice"
+				]
+			},
+			"owner": "#115 (S3)"
+		},
+		{
+			"id": "price_board",
+			"name": "price board",
+			"kind": "device",
+			"area": "money",
+			"icon": "price_board",
+			"motions": [
+				"aim"
+			],
+			"for": "reading a market's prices today, and why they moved (the Market Square)",
+			"hold": "Find the good, read its price and its arrow, then read why it moved.",
+			"safety": "Prices change with the seasons: read today's before you buy or sell.",
+			"device": {
+				"controls": [
+					"the goods' rows"
+				],
+				"shows": [
+					"each good's price today",
+					"an arrow up or down",
+					"why it moved"
+				],
+				"order": [
+					"find the good",
+					"read its price",
+					"read its arrow",
+					"read why it moved"
+				],
+				"safety": [
+					"read today's prices",
+					"a fair price is honest for both sides"
+				]
+			},
+			"owner": "#115 (S3)"
+		},
+		{
+			"id": "phone",
+			"name": "phone",
+			"kind": "device",
+			"area": "tech",
+			"icon": "phone",
+			"motions": [
+				"press"
+			],
+			"for": "calling, and calling for help in an emergency",
+			"hold": "Press the numbers, press call, speak slowly and clearly.",
+			"safety": "Emergency numbers are only for a real emergency.",
+			"device": {
+				"controls": [
+					"the number keys",
+					"the call button",
+					"the speaker button"
+				],
+				"shows": [
+					"the numbers pressed",
+					"CALLING..."
+				],
+				"order": [
+					"press the numbers",
+					"press call",
+					"speak slowly and clearly",
+					"stay on the line"
+				],
+				"safety": [
+					"emergency numbers only for a real emergency",
+					"never type your address or number into a game"
+				]
+			}
+		},
+		{
+			"id": "keyboard",
+			"name": "keyboard",
+			"kind": "tool",
+			"area": "tech",
+			"icon": "device",
+			"motions": [
+				"press"
+			],
+			"for": "typing letters and numbers",
+			"hold": "Fingers resting on the middle row; press each key lightly.",
+			"safety": "Never type your address, phone number or passwords into a game or a chat."
+		},
+		{
+			"id": "camera",
+			"name": "camera",
+			"kind": "tool",
+			"area": "tech",
+			"icon": "camera",
+			"motions": [
+				"aim"
+			],
+			"for": "taking pictures",
+			"hold": "Two hands, elbows in; hold still, then press.",
+			"safety": "Ask before you take a picture of a person."
+		},
+		{
+			"id": "ruler",
+			"name": "ruler",
+			"kind": "tool",
+			"area": "science",
+			"icon": "tape",
+			"motions": [
+				"measure"
+			],
+			"for": "measuring short lengths",
+			"hold": "Line the 0 up with the start, then read where the end is.",
+			"safety": "Rulers are for measuring, not for flicking."
+		},
+		{
+			"id": "thermometer",
+			"name": "thermometer",
+			"kind": "tool",
+			"area": "science",
+			"icon": "thermometer",
+			"motions": [
+				"measure"
+			],
+			"for": "measuring how hot or cold something is",
+			"hold": "Hold it still in the thing you measure until the number stops changing.",
+			"safety": "Clean it after use, and never put a lab thermometer in your mouth."
+		},
+		{
+			"id": "magnifier",
+			"name": "magnifying glass",
+			"kind": "tool",
+			"area": "science",
+			"icon": "magnifier",
+			"motions": [
+				"aim"
+			],
+			"for": "making small things look bigger",
+			"hold": "Hold it near the thing, then move your eye until it is clear.",
+			"safety": "Never look at the Sun through it, and never leave it in sunlight."
+		},
+		{
+			"id": "stopwatch",
+			"name": "stopwatch",
+			"kind": "tool",
+			"area": "science",
+			"icon": "device",
+			"motions": [
+				"press"
+			],
+			"for": "timing things",
+			"hold": "Press start, and press again to stop.",
+			"safety": "Keep it on its strap when you run."
+		},
+		{
+			"id": "bike_pump",
+			"name": "bike pump",
+			"kind": "tool",
+			"area": "around",
+			"icon": "pump",
+			"motions": [
+				"press"
+			],
+			"for": "filling tyres with air",
+			"hold": "Fix it on the valve, hold it steady, push the handle all the way down.",
+			"safety": "Stop when the tyre feels firm: too much air can burst it.",
+			"checks": {
+				"press": {
+					"presses": 10,
+					"depth": 0.05
+				}
+			}
+		},
+		{
+			"id": "helmet",
+			"name": "bike helmet",
+			"kind": "safety",
+			"area": "around",
+			"icon": "hard_hat",
+			"for": "protecting your head on a bike or a scooter",
+			"hold": "Two fingers above your eyebrows, the straps in a V under your ears, snug under the chin.",
+			"safety": "On every ride, even short ones."
+		},
+		{
+			"id": "compass",
+			"name": "compass",
+			"kind": "tool",
+			"area": "around",
+			"icon": "compass",
+			"motions": [
+				"aim"
+			],
+			"for": "finding north",
+			"hold": "Hold it flat and still, then turn until the needle sits on N.",
+			"safety": "Keep it away from magnets and phones: they pull the needle."
+		},
+		{
+			"id": "scissors",
+			"name": "scissors",
+			"kind": "tool",
+			"area": "art",
+			"icon": "scissors",
+			"motions": [
+				"cut"
+			],
+			"for": "cutting paper and card",
+			"hold": "Thumb in the small hole, fingers in the big one; cut away from you.",
+			"safety": "Walk with them closed, points down."
+		},
+		{
+			"id": "paintbrush",
+			"name": "paintbrush",
+			"kind": "tool",
+			"area": "art",
+			"icon": "brush",
+			"motions": [
+				"stroke"
+			],
+			"for": "painting",
+			"hold": "Hold it like a pencil, a little further up; smooth strokes.",
+			"safety": "Wash it out when you finish."
+		},
+		{
+			"id": "mallet",
+			"name": "mallet",
+			"kind": "tool",
+			"area": "art",
+			"icon": "hammer",
+			"motions": [
+				"strike"
+			],
+			"for": "playing a xylophone or a drum",
+			"hold": "Hold it loosely and let it bounce off the bar.",
+			"safety": "Gentle taps: the sound is in the bounce.",
+			"checks": {
+				"strike": {
+					"hits": 1,
+					"min_speed": 0.5
+				}
+			}
+		},
+		{
+			"id": "glue_stick",
+			"name": "glue stick",
+			"kind": "tool",
+			"area": "art",
+			"icon": "trowel",
+			"motions": [
+				"spread"
+			],
+			"for": "sticking paper",
+			"hold": "Twist a little up, then rub it over the back of the paper.",
+			"safety": "Put the lid back on.",
+			"checks": {
+				"spread": {
+					"length": 0.2
+				}
+			}
+		},
+		{
+			"id": "soap",
+			"name": "soap",
+			"kind": "tool",
+			"area": "health",
+			"motions": [
+				"press"
+			],
+			"for": "washing germs off your hands",
+			"hold": "Press the pump once, then rub palms, backs, between the fingers and thumbs for 20 seconds.",
+			"safety": "Rinse it all off, and keep it out of your eyes."
+		},
+		{
+			"id": "towel",
+			"name": "towel",
+			"kind": "tool",
+			"area": "home",
+			"motions": [
+				"stroke"
+			],
+			"for": "drying clean hands",
+			"hold": "Rub your hands dry, fronts and backs.",
+			"safety": "A clean, dry towel: damp ones spread germs."
+		},
+		{
+			"id": "spoon",
+			"name": "spoon",
+			"kind": "tool",
+			"area": "kitchen",
+			"motions": [
+				"stroke",
+				"measure"
+			],
+			"for": "stirring, and spooning food onto the scales",
+			"hold": "Hold the handle like a pencil and stir slowly round the bowl.",
+			"safety": "A wooden spoon in a hot pan: metal ones get hot."
+		},
+		{
+			"id": "oven_gloves",
+			"name": "oven gloves",
+			"kind": "tool",
+			"area": "kitchen",
+			"motions": [
+				"squeeze"
+			],
+			"for": "holding hot trays and dishes",
+			"hold": "Both hands in the gloves, grip the tray's sides firmly.",
+			"safety": "Dry gloves only: wet ones let the heat through."
+		},
+		{
+			"id": "torch",
+			"name": "torch",
+			"kind": "tool",
+			"area": "around",
+			"motions": [
+				"press"
+			],
+			"for": "seeing, and being seen, in the dark",
+			"hold": "Press the switch and point it at the ground ahead.",
+			"safety": "Never shine it into someone's eyes."
+		},
+		{
+			"id": "hob",
+			"name": "hob",
+			"kind": "device",
+			"area": "kitchen",
+			"motions": [
+				"twist"
+			],
+			"for": "cooking in a pan",
+			"hold": "Cook on it with a grown-up: the pan on the ring, its handle turned in.",
+			"safety": "The rings stay hot after they are off: never touch them.",
+			"device": {
+				"controls": [
+					"the knobs"
+				],
+				"shows": [
+					"the hot light"
+				],
+				"order": [
+					"the pan on the ring",
+					"the handle turned in",
+					"the knob to low",
+					"cook with a grown-up",
+					"the knob off"
+				],
+				"safety": [
+					"handles in, away from the edge",
+					"tea towels and sleeves away from the rings"
+				]
+			}
+		},
+		{
+			"id": "oven",
+			"name": "oven",
+			"kind": "device",
+			"area": "kitchen",
+			"motions": [
+				"twist"
+			],
+			"for": "baking and roasting",
+			"hold": "Oven gloves on, step back from the hot air, then take the tray out.",
+			"safety": "A grown-up near; the door, the racks and the trays are all hot.",
+			"device": {
+				"controls": [
+					"the door",
+					"the knob"
+				],
+				"shows": [
+					"the light",
+					"the temperature"
+				],
+				"order": [
+					"oven gloves on",
+					"open the door and step back",
+					"take the tray out",
+					"put it on a heat mat",
+					"the knob off"
+				],
+				"safety": [
+					"oven gloves, dry",
+					"the hot air when the door opens"
+				]
+			}
+		},
+		{
+			"id": "tablet",
+			"name": "tablet",
+			"kind": "device",
+			"area": "tech",
+			"motions": [
+				"press"
+			],
+			"for": "reading, learning and talking to friends",
+			"hold": "Hold it with both hands and tap gently with one finger.",
+			"safety": "Never share your name, school or photos with strangers; tell a grown-up if something feels wrong.",
+			"device": {
+				"controls": [
+					"the screen",
+					"the block button",
+					"the report button"
+				],
+				"shows": [
+					"the messages"
+				],
+				"order": [
+					"read it",
+					"if it is unkind: block and report",
+					"tell a grown-up"
+				],
+				"safety": [
+					"never reply to unkind messages",
+					"never share where you live"
+				]
+			}
+		},
+		{
+			"id": "seat_belt",
+			"name": "seat belt",
+			"kind": "device",
+			"area": "around",
+			"motions": [
+				"stroke"
+			],
+			"for": "keeping you safe in a car",
+			"hold": "Pull it across, low over your hips and over your shoulder, and click it in.",
+			"safety": "On for every trip, in a booster seat while you are small.",
+			"device": {
+				"controls": [
+					"the belt",
+					"the buckle"
+				],
+				"shows": [
+					"the click"
+				],
+				"order": [
+					"sit in your seat (a booster seat for children)",
+					"pull the belt across",
+					"click it in the buckle",
+					"check it is snug"
+				],
+				"safety": [
+					"low on the hips, never across the neck"
+				]
+			}
+		},
+		{
+			"id": "crossing",
+			"name": "pedestrian crossing",
+			"kind": "device",
+			"area": "around",
+			"motions": [
+				"press"
+			],
+			"for": "crossing a busy road safely",
+			"hold": "Press the button on the pole, then wait for the green man.",
+			"safety": "Look and listen again before you step out, even on green.",
+			"device": {
+				"controls": [
+					"the button on the pole"
+				],
+				"shows": [
+					"WAIT",
+					"the red man",
+					"the green man"
+				],
+				"order": [
+					"press the button",
+					"wait for the green man",
+					"look and listen again",
+					"cross straight over"
+				],
+				"safety": [
+					"never on the red man"
+				]
+			}
+		},
+		{
+			"id": "car",
+			"name": "car",
+			"kind": "device",
+			"area": "around",
+			"motions": [
+				"press",
+				"twist"
+			],
+			"grown_up": true,
+			"for": "getting around by road",
+			"hold": "A grown-up drives; here you learn the pedals and the rules.",
+			"safety": "Seat belts on for everyone, and never distract the driver.",
+			"device": {
+				"controls": [
+					"the brake pedal",
+					"the accelerator",
+					"the steering wheel",
+					"the indicators"
+				],
+				"shows": [
+					"the speed",
+					"the mirrors"
+				],
+				"order": [
+					"seat belt on",
+					"mirrors checked",
+					"the brake held to start",
+					"signal, look, then move off"
+				],
+				"safety": [
+					"the brake before anything",
+					"never the phone while driving"
+				]
+			}
+		},
+		{
+			"id": "life_jacket",
+			"name": "life jacket",
+			"kind": "safety",
+			"area": "around",
+			"icon": "life_jacket",
+			"for": "keeping you floating in the water",
+			"hold": "Zip it and click every buckle. Lifted at the shoulders, it stays down, never up past your chin.",
+			"safety": "On in every boat and by open water, the right size for your weight.",
+			"owner": "#118"
+		},
+		{
+			"id": "ring_buoy",
+			"name": "float (lifebuoy)",
+			"kind": "tool",
+			"area": "around",
+			"icon": "ring_buoy",
+			"motions": ["aim"],
+			"for": "throwing to someone in the water, so you never go in",
+			"hold": "Hold the rope's end, throw it underarm just past them, then pull them in slowly.",
+			"safety": "Stay back from the edge, low and steady: never go in after them.",
+			"owner": "#118"
+		},
+		{
+			"id": "reach_pole",
+			"name": "reaching pole",
+			"kind": "tool",
+			"area": "around",
+			"icon": "reach_pole",
+			"motions": ["aim", "squeeze"],
+			"for": "reaching someone in the water from the side or the bank (a long branch works too)",
+			"hold": "Lie or kneel, hold it out to them, keep it still while they grab it, then pull slowly.",
+			"safety": "Stay low and back from the edge so you can't be pulled in.",
+			"owner": "#118"
+		},
+		{
+			"id": "whistle",
+			"name": "whistle",
+			"kind": "safety",
+			"area": "around",
+			"icon": "whistle",
+			"for": "being heard far away when you need help",
+			"hold": "Blow it again and again: it carries much further than a voice.",
+			"safety": "Keep one on your coat or bag when you walk in the hills or the woods.",
+			"owner": "#118"
+		},
+		{
+			"id": "emergency_bag",
+			"name": "emergency bag",
+			"kind": "safety",
+			"area": "health",
+			"icon": "emergency_bag",
+			"for": "having what your family needs ready in an emergency",
+			"hold": "Water, food that keeps, a torch, a whistle, first aid and warm layers, ready by the door.",
+			"safety": "Check it with a grown-up twice a year, and swap old water and food.",
+			"owner": "#118"
+		},
+		{
+			"id": "child_lock",
+			"name": "child lock",
+			"kind": "device",
+			"area": "home",
+			"icon": "lock",
+			"motions": ["press"],
+			"for": "keeping cleaners and medicines locked away from small children",
+			"hold": "Close the door and press until it clicks; pull gently to check it holds.",
+			"safety": "Cleaners and medicines live up high, locked away, put back straight after use.",
+			"device": {
+				"controls": ["the latch on the cupboard door"],
+				"shows": ["locked or open"],
+				"order": ["close the cupboard door", "press until it clicks", "pull gently: it holds"],
+				"safety": ["cleaners and medicines live up high, locked away", "a grown-up puts them back straight after use"]
+			},
+			"owner": "#118"
+		},
+		{
+			"id": "co_alarm",
+			"name": "carbon monoxide alarm",
+			"kind": "device",
+			"area": "health",
+			"icon": "co_alarm",
+			"motions": ["press"],
+			"for": "warning you of carbon monoxide, a gas you can't see, smell or taste",
+			"hold": "A grown-up presses and holds the test button until it beeps, every month.",
+			"safety": "If it sounds: everyone out into fresh air, and call the emergency number from outside.",
+			"device": {
+				"controls": ["the test button"],
+				"shows": ["the beep", "the light"],
+				"order": ["press and hold the test button", "it beeps", "let go"],
+				"safety": ["if it sounds for real: everyone out into fresh air", "call the emergency number from outside", "never take its battery out"]
+			},
+			"owner": "#118"
+		},
+		{
+			"id": "fuse_box",
+			"name": "fuse box",
+			"kind": "device",
+			"area": "home",
+			"icon": "fuse_box",
+			"motions": ["press"],
+			"grown_up": true,
+			"for": "the home's main switch and safety switches, where all the electricity comes in",
+			"hold": "Know where it is. A grown-up opens its cover and uses the switches with dry hands.",
+			"safety": "A grown-up's job. The main switch turns all the power off; never open its insides.",
+			"device": {
+				"controls": ["the main switch", "the RCD and its test button", "the circuit switches"],
+				"shows": ["each switch up (on) or down (off)", "the labels of the circuits"],
+				"order": ["a grown-up opens the cover", "the main switch off turns all the power off", "close the cover"],
+				"safety": ["a grown-up's job", "dry hands and a dry floor", "never open its insides"]
+			},
+			"owner": "#118"
+		},
+		{
+			"id": "rcd",
+			"name": "RCD (safety switch)",
+			"kind": "device",
+			"area": "home",
+			"icon": "rcd",
+			"motions": ["press"],
+			"grown_up": true,
+			"for": "switching the power off fast if electricity goes the wrong way, like through a person",
+			"hold": "A grown-up presses its test button: it switches off. Then they switch it back on.",
+			"safety": "Tested as its label says (often every three months); if it won't switch off, call an electrician.",
+			"device": {
+				"controls": ["the test button, marked T", "the switch"],
+				"shows": ["the switch up (on) or down (off)"],
+				"order": ["press the test button", "it switches itself off", "switch it back on"],
+				"safety": ["a grown-up tests it", "if it doesn't switch off, call an electrician"]
+			},
+			"owner": "#118"
+		},
+		{
+			"id": "plug",
+			"name": "plug",
+			"kind": "tool",
+			"area": "home",
+			"icon": "plug",
+			"motions": ["squeeze"],
+			"for": "connecting a lamp or a machine to a socket",
+			"hold": "Hold the plug itself to pull it out, never the cable. Dry hands, always.",
+			"safety": "A cracked plug or a damaged cable: stop using it and tell a grown-up.",
+			"owner": "#118"
+		},
+		{
+			"id": "auto_injector",
+			"name": "auto-injector trainer pen",
+			"kind": "device",
+			"area": "health",
+			"icon": "auto_pen",
+			"motions": ["squeeze", "press"],
+			"for": "practising how an allergy pen works: a trainer has no needle and no medicine",
+			"hold": "In your fist, orange end down. Blue to the sky, orange to the thigh, until it clicks.",
+			"safety": "A real pen is only ever the person's own, prescribed for them. Then call the emergency number.",
+			"device": {
+				"controls": ["the blue safety cap", "the orange tip"],
+				"shows": ["the click"],
+				"order": ["hold it in your fist, orange end down", "pull off the blue cap", "orange to the outer thigh until it clicks", "hold it there", "call the emergency number"],
+				"safety": ["a real pen is only the person's own", "a trainer has no needle and no medicine"]
+			},
+			"owner": "#118"
+		},
+		{
+			"id": "inhaler",
+			"name": "inhaler and spacer",
+			"kind": "device",
+			"area": "health",
+			"icon": "spacer",
+			"motions": ["press"],
+			"for": "breathing in asthma medicine: the spacer helps it reach the lungs",
+			"hold": "Cap off, shake, into the spacer. Breathe out, press once, then breathe slowly through it.",
+			"safety": "Only the person's own inhaler, the way their asthma plan says. Not getting better: call for help.",
+			"device": {
+				"controls": ["the cap", "the canister", "the spacer's mouthpiece"],
+				"shows": ["the dose counter (on some inhalers)"],
+				"order": ["cap off and shake", "into the spacer", "breathe out gently", "press once", "breathe slowly, five times"],
+				"safety": ["only the person's own inhaler", "a grown-up helps"]
+			},
+			"owner": "#118"
+		},
+		{
+			"id": "pan_lid",
+			"name": "pan lid",
+			"kind": "tool",
+			"area": "kitchen",
+			"icon": "pan_lid",
+			"motions": ["press"],
+			"for": "covering a pan, and putting out a small pan fire by keeping the air out",
+			"hold": "Slide it on from the side, heat off first, and leave it on until the pan is cold.",
+			"safety": "Never water on a pan fire. A fire that won't go out: get out, stay out, call for help.",
+			"owner": "#118"
+		},
+		{
+			"id": "calendar",
+			"name": "habit calendar",
+			"kind": "device",
+			"area": "home",
+			"icon": "goal_calendar",
+			"motions": ["press"],
+			"for": "ticking off each day you keep a small habit (the Goal Board)",
+			"hold": "Choose one small habit, do it, then tick today's square.",
+			"safety": "No guilt: a missed day never undoes the others. Just carry on tomorrow.",
+			"device": {
+				"controls": ["the day squares"],
+				"shows": ["the days kept", "today"],
+				"order": ["choose one small habit", "do it", "tick today", "a day off: carry on tomorrow"],
+				"safety": ["a missed day never undoes the others"]
+			},
+			"owner": "#115"
+		},
+		{
+			"id": "jar",
+			"name": "saving jar",
+			"kind": "device",
+			"area": "money",
+			"icon": "jar",
+			"motions": ["press"],
+			"for": "saving money a little at a time for a goal",
+			"hold": "Save first, after each lesson: coins in the slot, count them each week.",
+			"safety": "Keep real money at home, and count it with a grown-up.",
+			"device": {
+				"controls": ["the slot", "the lid"],
+				"shows": ["how much is saved", "the goal's line"],
+				"order": ["save first", "count it each week", "spend it on the goal"],
+				"safety": ["keep real money at home", "count real money with a grown-up"]
+			},
+			"owner": "#115"
+		},
+		{
+			"id": "metro_ticket",
+			"name": "metro ticket",
+			"kind": "tool",
+			"area": "around",
+			"icon": "metro_ticket",
+			"motions": ["press"],
+			"for": "going through the metro's gates (Find Your Way)",
+			"hold": "Hold it flat and tap it on the gate's reader; wait for the green light, then walk through.",
+			"safety": "One person at a time through the gates; on the platform, stand behind the yellow line.",
+			"owner": "#112 (L3c)"
+		},
+		{
+			"id": "washing_label",
+			"name": "washing label",
+			"kind": "tool",
+			"area": "home",
+			"icon": "washing_label",
+			"motions": ["measure"],
+			"for": "telling you how to wash, dry and iron your clothes: its symbols (Home Helper)",
+			"hold": "Find it inside the collar or a side seam and read its symbols: the tub's number is the hottest wash in degrees.",
+			"safety": "A cross over a symbol means no: no hot wash, no tumble dryer, no iron.",
+			"owner": "#112 (L3c)"
+		},
+		{
+			"id": "gates",
+			"name": "ticket gates",
+			"kind": "device",
+			"area": "around",
+			"icon": "metro_ticket",
+			"motions": ["press"],
+			"for": "letting people with a ticket through to the metro's platforms (Find Your Way)",
+			"hold": "Tap your ticket on the reader, wait for the green light, then walk through.",
+			"safety": "One person at a time; a red cross means ask the staff for help.",
+			"device": {
+				"controls": ["the reader where you tap your ticket"],
+				"shows": ["a green light and an arrow: go through", "a red cross: ask the staff"],
+				"order": ["tap your ticket on the reader", "wait for the green light", "walk through, one at a time"],
+				"safety": ["one person at a time", "on the platform, stand behind the yellow line"]
+			},
+			"owner": "#112 (L3c)"
+		},
+		{
+			"id": "help_point",
+			"name": "help point",
+			"kind": "device",
+			"area": "around",
+			"icon": "help_point",
+			"motions": ["press"],
+			"for": "talking to the station's staff when you need help (Find Your Way)",
+			"hold": "Press the help button, then say what's wrong and which station you're at.",
+			"safety": "Stay where the staff can find you; it is only for help.",
+			"device": {
+				"controls": ["the help button"],
+				"shows": ["a light while the staff are talking"],
+				"order": ["press the help button", "say what's wrong and where you are", "do what the staff say"],
+				"safety": ["stay where the staff can find you", "only for help"]
+			},
+			"owner": "#112 (L3c)"
+		},
+		{
+			"id": "dishwasher",
+			"name": "dishwasher",
+			"kind": "device",
+			"area": "home",
+			"icon": "knife_down",
+			"motions": ["press"],
+			"for": "washing plates, cups and cutlery (Home Helper)",
+			"hold": "Scrape the plates; plates below, cups upside down on top; sharp knives point down in the basket.",
+			"safety": "Sharp knives point down; keep its door shut when you're not loading it; a grown-up starts it.",
+			"device": {
+				"controls": ["the bottom rack", "the top rack", "the cutlery basket", "the door"],
+				"shows": ["the clean light"],
+				"order": ["scrape the plates", "plates in the bottom rack, cups on top", "sharp knives point down", "close the door; a grown-up starts it"],
+				"safety": ["sharp knives point down", "keep the door shut when you're not loading it"]
+			},
+			"owner": "#112 (L3c)"
+		}
+	]
+}

@@ -1,0 +1,354 @@
+{
+	"id": "g5.geography.two_mountain_regions",
+	"lesson": [
+		{
+			"text": "Quick memory: which is the longest mountain range on land? (The Andes.) In grade 4 you met mountains in general. Today: two real mountain regions compared, the Alps in Europe and the Andes in South America."
+		},
+		{
+			"text": "The Alps curve about 1,200 km across eight countries, including France, Switzerland, Italy and Austria. They are fold mountains, pushed up as Africa pressed into Europe. The highest peak is Mont Blanc, about 4,800 m, and glaciers fill high valleys.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"Mont Blanc",
+						4800
+					],
+					[
+						"Aconcagua",
+						6961
+					]
+				],
+				"from": 0,
+				"to": 7000,
+				"step": 1000,
+				"title": "the highest peaks (m)"
+			}
+		},
+		{
+			"text": "The Andes run about 7,000 km down the west of South America, through seven countries from Venezuela to Chile. The highest peak is Aconcagua, 6,961 m. As one plate slides under another, the Andes are also full of volcanoes."
+		},
+		{
+			"text": "Both get colder as you climb, about 6.5 °C for every 1,000 m. The Alps have snowy winters and mild summers. Near the Equator, the Andes change more with height than with the season: hot valleys, cool towns and freezing peaks.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Height",
+						"Temperature"
+					],
+					[
+						"0 m",
+						"20 °C"
+					],
+					[
+						"1,000 m",
+						"13.5 °C"
+					],
+					[
+						"2,000 m",
+						"7 °C"
+					],
+					[
+						"3,000 m",
+						"0.5 °C"
+					]
+				]
+			}
+		},
+		{
+			"text": "In the Alps, farmers take cows up to high meadows in summer and make cheese. Skiing and walking bring millions of visitors. Fast rivers turn turbines for electricity, and long tunnels carry trains through the mountains."
+		},
+		{
+			"text": "In the Andes, farmers grow potatoes, first grown there, and quinoa on terraces, and keep llamas and alpacas for wool. Mines dig copper and silver. Visitors come to see Inca ruins such as Machu Picchu."
+		},
+		{
+			"text": "Towns grow in valleys and on high plains. Innsbruck in Austria sits in an Alpine valley; Cusco in Peru, once the Inca capital, stands at about 3,400 m.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"Alps",
+						"Andes"
+					],
+					[
+						"length",
+						"about 1,200 km",
+						"about 7,000 km"
+					],
+					[
+						"highest",
+						"Mont Blanc",
+						"Aconcagua"
+					],
+					[
+						"its height",
+						"about 4,800 m",
+						"6,961 m"
+					],
+					[
+						"animals kept",
+						"cows",
+						"llamas, alpacas"
+					],
+					[
+						"a town",
+						"Innsbruck",
+						"Cusco"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build two mountains side by side. Give one a ski lift and a dairy farm, and the other terraces of potatoes and a llama field. Next year: where people live, and why."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "On which continent are the Alps?",
+			"answer": 0,
+			"hint": "Mont Blanc is on the border of France and Italy.",
+			"choices": [
+				"Europe",
+				"South America",
+				"Asia",
+				"Africa"
+			],
+			"explain": "Europe: the Alps curve across France, Switzerland, Italy and Austria."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "On which continent are the Andes?",
+			"answer": 0,
+			"hint": "They run down the west side of a continent from Venezuela to Chile.",
+			"choices": [
+				"South America",
+				"Europe",
+				"Africa",
+				"Australia"
+			],
+			"explain": "South America: the Andes run down its west side, from Venezuela to Chile."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Andes are longer than the Alps.",
+			"answer": true,
+			"hint": "Compare about 7,000 km with about 1,200 km.",
+			"explain": "True: about 7,000 km against about 1,200 km."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which animals do Andes farmers keep for wool?",
+			"answer": 0,
+			"hint": "They are woolly animals of South America.",
+			"choices": [
+				"llamas and alpacas",
+				"camels",
+				"kangaroos",
+				"polar bears"
+			],
+			"explain": "Llamas and alpacas: their warm wool suits the cold, high Andes."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the highest mountain in the Alps?",
+			"answer": 0,
+			"hint": "Its name means 'white mountain' in French.",
+			"choices": [
+				"Mont Blanc",
+				"Aconcagua",
+				"Everest",
+				"Ben Nevis"
+			],
+			"explain": "Mont Blanc, about 4,800 m."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: the Alps or the Andes?",
+			"groups": [
+				"Alps",
+				"Andes"
+			],
+			"items": [
+				"Mont Blanc",
+				"Aconcagua",
+				"Machu Picchu",
+				"Innsbruck",
+				"llamas and alpacas",
+				"cows in summer meadows"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Europe or South America?",
+			"explain": "Alps: Mont Blanc, Innsbruck, cows in summer meadows. Andes: Aconcagua, Machu Picchu, llamas and alpacas."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Aconcagua is 6,961 m high and Mont Blanc about 4,800 m. About how much higher is Aconcagua, in m?",
+			"answer": "2161",
+			"hint": "Take the smaller height from the bigger one.",
+			"explain": "6,961 − 4,800 = 2,161 m higher."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How did the Alps form?",
+			"answer": 0,
+			"hint": "They are fold mountains.",
+			"choices": [
+				"Africa pushed into Europe and the rock folded",
+				"a volcano erupted",
+				"a river cut them",
+				"people built them"
+			],
+			"explain": "As Africa pushed into Europe, the rock crumpled up into fold mountains."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do Alpine farmers take cows to high meadows in summer?",
+			"answer": 0,
+			"hint": "What covers the high meadows in winter?",
+			"choices": [
+				"fresh grass grows there once the snow melts",
+				"it is warmer up high",
+				"the cows like skiing",
+				"the valleys flood every summer"
+			],
+			"explain": "When the snow melts, fresh grass grows on the high meadows, leaving the valley grass to make hay."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Potatoes were first grown in the Andes.",
+			"answer": true,
+			"hint": "Where did farmers first grow them?",
+			"explain": "True: people in the Andes grew potatoes thousands of years ago."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "It is 20 °C in an Andes valley at 1,000 m. It gets about 6.5 °C colder for every 1,000 m. About how warm is a town at 3,000 m, in °C?",
+			"answer": "7",
+			"hint": "How many lots of 1,000 m is it from 1,000 m up to 3,000 m?",
+			"explain": "3,000 − 1,000 = 2,000 m higher. 2 × 6.5 = 13 °C colder. 20 − 13 = 7 °C."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do the Andes have so many volcanoes?",
+			"answer": 0,
+			"hint": "Remember plate edges from grade 4.",
+			"choices": [
+				"one plate slides under another there",
+				"they are fold mountains only",
+				"the sea is hot",
+				"they are near the North Pole"
+			],
+			"explain": "Where one plate slides under another, melted rock rises and forms volcanoes."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Near the Equator, what changes the weather in the Andes most?",
+			"answer": 0,
+			"hint": "Near the Equator, summer and winter are much alike.",
+			"choices": [
+				"height",
+				"the season",
+				"the day of the week",
+				"the Moon"
+			],
+			"explain": "Height: the higher you go, the colder it gets."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "How are the Alps and the Andes alike?",
+			"answer": 0,
+			"hint": "Look for what is true of every mountain.",
+			"choices": [
+				"both get colder as you climb",
+				"both are in Europe",
+				"both are the same length",
+				"both have llamas"
+			],
+			"explain": "Both get about 6.5 °C colder for every 1,000 m you climb."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these ways of using mountains.",
+			"groups": [
+				"farming",
+				"tourism",
+				"energy or mining"
+			],
+			"items": [
+				"terraces of potatoes",
+				"ski slopes",
+				"copper mines",
+				"dairy cows in meadows",
+				"visiting Machu Picchu",
+				"rivers turning turbines"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "Is it growing food, visitors having fun, or getting power and metal?",
+			"explain": "Farming: potato terraces, dairy cows. Tourism: ski slopes, Machu Picchu. Energy or mining: copper mines, turbines."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order these places from the lowest to the highest.",
+			"items": [
+				"Mont Blanc's top (about 4,800 m)",
+				"Cusco (about 3,400 m)",
+				"Aconcagua's top (6,961 m)",
+				"Innsbruck (about 600 m)"
+			],
+			"answer": [
+				3,
+				1,
+				0,
+				2
+			],
+			"hint": "Compare the heights in metres.",
+			"explain": "Innsbruck, in an Alpine valley, is lowest at about 600 m. Then Cusco at about 3,400 m, Mont Blanc's top at about 4,800 m, and Aconcagua's top at 6,961 m."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5h.altitude_temp",
+			"level": 1
+		},
+		{
+			"gen": "g5h.altitude_temp",
+			"level": 2
+		},
+		{
+			"gen": "g5h.altitude_temp",
+			"level": 3
+		}
+	]
+}

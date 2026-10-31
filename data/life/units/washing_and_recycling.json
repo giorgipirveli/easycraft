@@ -1,0 +1,24 @@
+{
+	"id": "life.home.washing_and_recycling",
+	"lesson": [
+		{"text": "Quick memory: when does a plant need water? (When its soil feels dry.) Today: the washing, recycling, a pet and the table."},
+		{"text": "Sort the washing: colours with colours. One red sock in a white wash can turn the whites pink."},
+		{"text": "Recycling: paper and card, plastic bottles and cans, glass, and food waste each have a bin. Empty and rinse jars and bottles first. Batteries never go in these bins."},
+		{"text": "A dog needs the right food, fresh water all the time, a daily walk, a clean bed, and a vet when poorly."},
+		{"text": "Set the table: the plate in the middle, the fork on the left, the knife on the right with its blade towards the plate. Test the smoke alarm once a month."},
+		{"text": "Try it in the world: open the practice house. Next: labels and the dishwasher, on the Big track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "An empty jam jar goes in...", "answer": 0, "choices": ["the glass bin", "the food bin", "the paper bin"], "hint": "What is a jar made of?", "explain": "Glass."},
+		{"type": "truefalse", "level": 1, "prompt": "A red sock in a white wash can turn the whites pink.", "answer": true, "hint": "Colours can run.", "explain": "True."},
+		{"type": "choice", "level": 1, "prompt": "The fork goes...", "answer": 0, "choices": ["on the left", "on the right", "under the plate"], "hint": "Fork and left both have four letters.", "explain": "On the left."},
+		{"type": "sort", "level": 2, "prompt": "Which bin?", "groups": ["paper", "plastic and cans", "food waste"], "items": ["a cereal box", "a drinks can", "an apple core", "a newspaper"], "answer": [0, 1, 2, 0], "hint": "Paper, cans, food.", "explain": "Boxes and newspapers are paper; a can, plastic and cans; an apple core, food."},
+		{"type": "truefalse", "level": 2, "prompt": "Used batteries go in the food waste bin.", "answer": false, "hint": "They can start fires in bin lorries.", "explain": "False: a battery box."},
+		{"type": "choice", "level": 2, "prompt": "A pet seems poorly. You...", "answer": 0, "choices": ["tell a grown-up: the vet", "wait a week", "give it sweets"], "hint": "Pets can't tell us.", "explain": "Tell a grown-up, who calls the vet."},
+		{"type": "choice", "level": 2, "prompt": "Before a jar goes in the bin, you...", "answer": 0, "choices": ["empty it and rinse it", "leave the jam in", "break it"], "hint": "Clean helps recycling.", "explain": "Empty and rinse."},
+		{"type": "order", "level": 3, "prompt": "Set the table: put it in order.", "answer": [1, 2, 0], "items": ["the cup", "the plate", "the fork and the knife"], "hint": "The plate first.", "explain": "Plate, fork and knife, then the cup."},
+		{"type": "choice", "level": 3, "prompt": "A smoke alarm is tested...", "answer": 0, "choices": ["once a month", "once a year", "never"], "hint": "Every month.", "explain": "Once a month."},
+		{"type": "truefalse", "level": 3, "prompt": "A dog needs a walk every day.", "answer": true, "hint": "Exercise and sniffing.", "explain": "True."},
+		{"type": "choice", "level": 3, "prompt": "On a hot sunny week, plants need watering...", "answer": 0, "choices": ["more often: feel the soil each day", "less often", "never"], "hint": "Sun dries the soil.", "explain": "More often."}
+	]
+}

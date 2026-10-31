@@ -1,0 +1,370 @@
+{
+	"id": "g3.music.pulse_rhythm",
+	"lesson": [
+		{
+			"text": "Quick memory: what is a pattern? (Something that repeats.) Music is full of patterns. Today: the beat."
+		},
+		{
+			"text": "The pulse, or beat, is the steady tick under music, like a heartbeat or a clock. Listen, and tap along with each clap.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "The pulse stays steady: not faster, not slower. Count 1, 2, 3, 4 with the claps, then start again at 1.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-x-x-",
+				"tempo": 100
+			},
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"pulse",
+						"x-x-x-x-"
+					]
+				],
+				"count": true
+			}
+		},
+		{
+			"text": "Rhythm is the pattern of long and short sounds on top of the pulse. Say “pear, pear, ap-ple, pear” and clap on each part of each word: that is a rhythm.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-xxx-",
+				"tempo": 90
+			},
+			"picture": {
+				"kind": "notation",
+				"beats": [
+					"crotchet",
+					"crotchet",
+					"quavers",
+					"crotchet"
+				],
+				"words": true
+			}
+		},
+		{
+			"text": "“Pear” is one clap on a beat. “Ap-ple” is two quick claps in one beat. Listen: pear, ap-ple, ap-ple, pear.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxxxx-",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "Echo clapping: listen to a rhythm, then clap exactly the same pattern back. Listen, then echo this one!",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxx-xxx-",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "The pulse stays steady while the rhythm changes. Try keeping the pulse with your feet while your hands clap a rhythm!",
+			"picture": {
+				"kind": "beat_grid",
+				"rows": [
+					[
+						"feet",
+						"x-x-x-x-"
+					],
+					[
+						"hands",
+						"x-x-xxx-"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: walk through your world with steady steps: that is a pulse. Then clap a rhythm as you walk, like “pear, pear, ap-ple, pear”."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Listen. How many claps do you hear?",
+			"answer": "4",
+			"hint": "Listen as often as you like. Tap along, or say the rhythm quietly as you listen.",
+			"explain": "You heard 4 claps, one on each beat: a steady pulse.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the pulse in music?",
+			"answer": 0,
+			"hint": "Think of a heartbeat or a clock.",
+			"choices": [
+				"the steady beat under the music",
+				"the loudest note",
+				"the words of a song",
+				"the last note"
+			],
+			"explain": "The pulse is the steady beat under the music, like a heartbeat."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Listen. Are these claps a steady pulse?",
+			"answer": true,
+			"hint": "Are all the gaps between the claps the same?",
+			"explain": "True: every clap is the same distance apart, like a clock ticking.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-x-x-x-x-",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Listen. Are these claps a steady pulse too?",
+			"answer": false,
+			"hint": "Are all the gaps between the claps the same?",
+			"explain": "False: some gaps are long and some are short. That is a rhythm, not a steady pulse.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x---x-xx--x---",
+				"tempo": 100
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 1,
+			"prompt": "Listen, then copy the claps: tap each box where you hear a clap.",
+			"hint": "Listen for where each clap falls. Mark those boxes, then PLAY MINE and compare it with LISTEN.",
+			"explain": "You heard ta, ta: claps in boxes 1 and 3.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-",
+				"tempo": 70
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 2,
+			"prompt": "Listen, then copy the rhythm in the boxes.",
+			"hint": "Listen for where each clap falls. Mark those boxes, then PLAY MINE and compare it with LISTEN.",
+			"explain": "You heard ta, ti-ti, ta: claps in boxes 1, 3, 4 and 5.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx-",
+				"tempo": 75
+			}
+		},
+		{
+			"type": "rhythm",
+			"level": 3,
+			"prompt": "Listen carefully, then copy the rhythm in the boxes.",
+			"hint": "Listen for where each clap falls. Mark those boxes, then PLAY MINE and compare it with LISTEN.",
+			"explain": "You heard ti-ti, ta, ti-ti, ta: claps in boxes 1, 2, 3, 5, 6 and 7.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxx-xxx-",
+				"tempo": 75
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is most like a steady pulse?",
+			"answer": 0,
+			"hint": "Which one keeps the same gap, again and again?",
+			"choices": [
+				"a clock ticking",
+				"a bird singing",
+				"rain falling anyhow",
+				"a door slamming once"
+			],
+			"explain": "A clock ticks with the same gap every time, like a pulse."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which words fit this rhythm?",
+			"answer": 0,
+			"hint": "Say “pear” for one clap on a beat and “ap-ple” for two quick claps. Which words fit the claps?",
+			"choices": [
+				"pear, ap-ple, pear",
+				"pear, pear, pear",
+				"ap-ple, ap-ple, pear",
+				"ap-ple, pear, ap-ple"
+			],
+			"explain": "You heard pear, ap-ple, pear: one clap, two quick claps, one clap.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Listen. How many claps do you hear?",
+			"answer": "6",
+			"hint": "Listen as often as you like. Tap along, or say the rhythm quietly as you listen.",
+			"explain": "ap-ple, pear, ap-ple, pear: 2 + 1 + 2 + 1 = 6 claps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxx-xxx-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "In most songs, the pulse stays steady.",
+			"answer": true,
+			"hint": "Do you tap your foot faster and slower in a song?",
+			"explain": "True: in most songs the pulse stays steady, and the rhythm changes on top of it."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. Which words fit this rhythm?",
+			"answer": 0,
+			"hint": "Say “pear” for one clap on a beat and “ap-ple” for two quick claps. Which words fit the claps?",
+			"choices": [
+				"ap-ple, pear, pear, pear",
+				"pear, ap-ple, pear, pear",
+				"pear, pear, pear, ap-ple",
+				"pear, pear, ap-ple, pear"
+			],
+			"explain": "You heard ap-ple, pear, pear, pear: two quick claps first, then three single claps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxx-x-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "You clap a rhythm while your feet keep the pulse. Which one stays steady?",
+			"answer": 0,
+			"hint": "The pulse is the steady one.",
+			"choices": [
+				"your feet",
+				"your hands",
+				"both change all the time",
+				"neither of them"
+			],
+			"explain": "Your feet keep the steady pulse; your hands clap the changing rhythm."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which words fit this rhythm?",
+			"answer": 0,
+			"hint": "Say “pear” for one clap on a beat and “ap-ple” for two quick claps. Which words fit the claps?",
+			"choices": [
+				"ap-ple, ap-ple, pear, pear",
+				"pear, pear, ap-ple, ap-ple",
+				"ap-ple, pear, ap-ple, pear",
+				"pear, ap-ple, ap-ple, pear"
+			],
+			"explain": "You heard ap-ple, ap-ple, pear, pear: the quick claps come first.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "xxxxx-x-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Listen. How many claps do you hear?",
+			"answer": "8",
+			"hint": "Listen as often as you like. Tap along, or say the rhythm quietly as you listen.",
+			"explain": "pear, ap-ple, pear, ap-ple, ap-ple, rest: 1 + 2 + 1 + 2 + 2 + 0 = 8 claps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx-xxxx--",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen. Is this a steady pulse, even though it is slow?",
+			"answer": true,
+			"hint": "Slow or fast, are the gaps all the same?",
+			"explain": "True: the claps are slow, but every gap is the same, so it is a steady pulse.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x---x---x---x---",
+				"tempo": 120
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is echo clapping?",
+			"answer": 0,
+			"hint": "An echo copies a sound.",
+			"choices": [
+				"clapping back exactly the rhythm you heard",
+				"clapping very loudly",
+				"clapping in a cave",
+				"stopping the music"
+			],
+			"explain": "Echo clapping means listening to a rhythm, then clapping exactly the same back."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. On which beat do you hear two quick claps?",
+			"answer": 0,
+			"hint": "Count 1, 2, 3, 4 along with the beats. Where is the ap-ple?",
+			"choices": [
+				"the third beat",
+				"the first beat",
+				"the second beat",
+				"the fourth beat"
+			],
+			"explain": "pear, pear, ap-ple, pear: the two quick claps come on the third beat.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-xxx-",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen. All the claps in this rhythm are the same distance apart.",
+			"answer": false,
+			"hint": "Listen for any claps that come closer together.",
+			"explain": "False: the ap-ple claps come closer together than the others.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx-x-",
+				"tempo": 90
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3a.count_claps",
+			"level": 1
+		},
+		{
+			"gen": "g3a.count_claps",
+			"level": 2
+		},
+		{
+			"gen": "g3a.count_claps",
+			"level": 3
+		}
+	]
+}

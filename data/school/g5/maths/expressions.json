@@ -1,0 +1,271 @@
+{
+	"id": "g5.maths.expressions",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 4 you met multiplying bigger numbers. What is 4 × 30? 120: 4 × 3 is 12, so 4 × 30 is 120."
+		},
+		{
+			"text": "Brackets say: work this out first. (3 + 5) × 2 = 8 × 2 = 16. Without brackets, × comes before +: 3 + 5 × 2 = 3 + 10 = 13.",
+			"picture": {
+				"kind": "op_chain",
+				"start": "3",
+				"ops": [
+					"+ 5",
+					"× 2"
+				],
+				"end": "16"
+			}
+		},
+		{
+			"text": "The order: brackets first; then × and ÷ from left to right; then + and − from left to right. 20 − 12 ÷ 4 = 20 − 3 = 17."
+		},
+		{
+			"text": "Words into maths: \"add 8 and 7, then multiply by 2\" is 2 × (8 + 7). The brackets keep 8 + 7 together, so it is worked out first.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"parts": [
+							{
+								"text": "8 + 7",
+								"size": 15
+							},
+							{
+								"text": "8 + 7",
+								"size": 15
+							}
+						],
+						"total": "2 × (8 + 7) = 30"
+					}
+				]
+			}
+		},
+		{
+			"text": "You can compare without working it out: 3 × (18,932 + 921) is three times as large as 18,932 + 921, because it is 3 lots of the same sum."
+		},
+		{
+			"text": "Try it in the world: build 3 towers of 4 blocks, then add 2 more blocks on top of one. Write it with brackets: (3 × 4) + 2 = 14 blocks. Next: fractions with different denominators."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "(4 + 6) × 3 = ?",
+			"answer": "30",
+			"hint": "Work out the brackets first.",
+			"explain": "(4 + 6) × 3 = 10 × 3 = 30."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "4 + 6 × 3 = ?",
+			"answer": "22",
+			"hint": "Multiply before you add: work out 6 × 3 first.",
+			"explain": "6 × 3 = 18, then 4 + 18 = 22."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "(10 − 4) × 2 = 10 − 4 × 2",
+			"answer": false,
+			"hint": "Work out both sides.",
+			"explain": "(10 − 4) × 2 = 6 × 2 = 12, but 10 − 4 × 2 = 10 − 8 = 2."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which expression means: add 5 and 9, then multiply by 4?",
+			"choices": [
+				"4 × (5 + 9)",
+				"4 × 5 + 9",
+				"5 + 9 × 4"
+			],
+			"answer": 0,
+			"hint": "The adding comes first, so it goes in brackets.",
+			"explain": "4 × (5 + 9) = 4 × 14 = 56."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "36 ÷ (4 + 5) = ?",
+			"answer": "4",
+			"hint": "Brackets first: 4 + 5.",
+			"explain": "4 + 5 = 9, and 36 ÷ 9 = 4."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where do the brackets go to make  12 − 4 × 2 = 16  true?",
+			"choices": [
+				"(12 − 4) × 2",
+				"12 − (4 × 2)"
+			],
+			"answer": 0,
+			"hint": "Try each one: work out the brackets first.",
+			"explain": "(12 − 4) × 2 = 8 × 2 = 16."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, smallest first.",
+			"items": [
+				"(2 + 3) × 4",
+				"2 + 3 × 4",
+				"2 × 3 + 4",
+				"2 + 3 + 4"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Work out each one: brackets first, then × before +.",
+			"explain": "2 + 3 + 4 = 9, 2 × 3 + 4 = 10, 2 + 3 × 4 = 14 and (2 + 3) × 4 = 20."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "2 × (15 − 3 × 4) + 7 = ?",
+			"answer": "13",
+			"hint": "Inside the brackets, × comes before −.",
+			"explain": "3 × 4 = 12, 15 − 12 = 3, 2 × 3 = 6, and 6 + 7 = 13."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Without working it out: how does 6 × (2,473 + 318) compare with 2,473 + 318?",
+			"choices": [
+				"6 times as large",
+				"6 more",
+				"the same",
+				"6 less"
+			],
+			"answer": 0,
+			"hint": "6 × (…) is 6 lots of the same sum.",
+			"explain": "It is 6 lots of 2,473 + 318, so it is 6 times as large."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mimi buys 3 bags of 8 apples and eats 2 apples. Which expression shows how many apples are left?",
+			"choices": [
+				"3 × 8 − 2",
+				"3 × (8 − 2)",
+				"(3 + 8) − 2",
+				"3 + 8 − 2"
+			],
+			"answer": 0,
+			"hint": "First the apples she buys, then take away the ones she eats.",
+			"explain": "3 bags of 8 is 3 × 8 = 24 apples, and 24 − 2 = 22 are left."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each expression to its value.",
+			"items": [
+				"(2 + 3) × 4",
+				"2 + 3 × 4",
+				"20 − 12 ÷ 4",
+				"(20 − 12) ÷ 4"
+			],
+			"matches": [
+				"17",
+				"2",
+				"20",
+				"14"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Brackets first, then × and ÷, then + and −.",
+			"explain": "(2 + 3) × 4 = 20; 2 + 3 × 4 = 14; 20 − 12 ÷ 4 = 17; (20 − 12) ÷ 4 = 2."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram has 50 gold. He buys 3 hats at 8 gold each and a cloak for 12 gold. Write one expression for the gold left, and work it out.",
+			"answer": "14",
+			"hint": "Put everything he spends in brackets, and take it away from 50.",
+			"explain": "Gold left: 50 − (3 × 8 + 12). Inside the brackets, × first: 3 × 8 = 24, and 24 + 12 = 36. Then 50 − 36 = 14 gold."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5n.brackets",
+			"level": 1
+		},
+		{
+			"gen": "g5n.brackets",
+			"level": 2
+		},
+		{
+			"gen": "g5n.brackets",
+			"level": 3
+		},
+		{
+			"gen": "g5n.order_of_operations",
+			"level": 1
+		},
+		{
+			"gen": "g5n.order_of_operations",
+			"level": 2
+		},
+		{
+			"gen": "g5n.order_of_operations",
+			"level": 3
+		},
+		{
+			"gen": "g5n.words_to_expression",
+			"level": 1
+		},
+		{
+			"gen": "g5n.words_to_expression",
+			"level": 2
+		},
+		{
+			"gen": "g5n.words_to_expression",
+			"level": 3
+		},
+		{
+			"gen": "g5n.bracket_place",
+			"level": 1
+		},
+		{
+			"gen": "g5n.bracket_place",
+			"level": 2
+		},
+		{
+			"gen": "g5n.bracket_place",
+			"level": 3
+		},
+		{
+			"gen": "g5n.compare_expression",
+			"level": 1
+		},
+		{
+			"gen": "g5n.compare_expression",
+			"level": 2
+		},
+		{
+			"gen": "g5n.compare_expression",
+			"level": 3
+		},
+		{
+			"gen": "g5n.expression_story",
+			"level": 1
+		},
+		{
+			"gen": "g5n.expression_story",
+			"level": 2
+		},
+		{
+			"gen": "g5n.expression_story",
+			"level": 3
+		}
+	]
+}

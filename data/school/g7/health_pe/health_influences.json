@@ -1,0 +1,365 @@
+{
+	"id": "g7.health_pe.health_influences",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met the circle of control. What can you always control? (Your own choices and actions.) Today: who and what influences your health choices, and how to choose for yourself."
+		},
+		{
+			"text": "Many things influence what we eat, how active we are and how we look after ourselves: family, friends, media, adverts, culture, school, and our own likes and feelings.",
+			"picture": {
+				"kind": "influence_map",
+				"centre": "my choices",
+				"influences": [
+					"family",
+					"friends",
+					"media",
+					"adverts",
+					"culture",
+					"school"
+				]
+			}
+		},
+		{
+			"text": "Friends and people your age influence each other, in good ways (joining a club) and risky ways (a dare). Most young people make healthy choices most of the time: you are rarely the only one saying no."
+		},
+		{
+			"text": "Adverts are made to sell. Their tricks: a famous person, 'everyone has one' (the bandwagon), free gifts, health claims like 'full of vitamins', and small print. Many countries limit adverts for foods high in fat, sugar or salt aimed at children.",
+			"picture": {
+				"kind": "advert",
+				"product": "drink",
+				"tricks": [
+					"star",
+					"bandwagon",
+					"free_gift",
+					"health_claim"
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "Online, influencers are often paid to show products. In the UK the rules say a paid post must be clearly labelled, for example with '#ad'. Ask: who made this, who paid for it, and what do they want me to do?"
+		},
+		{
+			"text": "Worked example: an energy drink advert shows a star athlete. The trick: a famous person. The message: 'drink this to win'. Left out: lots of sugar and caffeine, and a label saying high caffeine, not recommended for children."
+		},
+		{
+			"text": "Making a choice: stop and notice the pull. Think of your options and where each could lead, choose what fits your values, and look back later. Saying 'No thanks' or 'Not for me' is always allowed.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"stop and notice",
+					"think of options",
+					"think ahead",
+					"choose",
+					"look back"
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: design an honest poster for a healthy snack in your world, with no tricks. In LIFE, Calm Corner's stories practise saying no to pressure. For real: spot three tricks in adverts this week. Next: self-image and media."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Bram wants new trainers because all his friends have them. What is influencing him?",
+			"choices": [
+				"his friends (peers)",
+				"his culture",
+				"the school rules",
+				"the weather"
+			],
+			"answer": 0,
+			"hint": "Who in the story is pulling on the choice?",
+			"explain": "His friends: people his age influence what he wants."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "An advert's main aim is to sell something.",
+			"answer": true,
+			"hint": "Who pays for an advert, and why?",
+			"explain": "True: adverts are paid for to make people buy or do something."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each advert trick to an example.",
+			"items": [
+				"bandwagon",
+				"famous person",
+				"free gift",
+				"health claim"
+			],
+			"matches": [
+				"'Full of vitamins!'",
+				"a star holding the can",
+				"'Everyone has one!'",
+				"'Free toy inside!'"
+			],
+			"answer": [
+				2,
+				1,
+				3,
+				0
+			],
+			"hint": "What does each line want you to think or feel?",
+			"explain": "Bandwagon: everyone has one. Famous person: a star. Free gift: a toy inside. Health claim: vitamins."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Most young people choose not to do risky dares.",
+			"answer": true,
+			"hint": "Think about the norm: what do most people your age really do?",
+			"explain": "True: most young people make healthy choices most of the time."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "In a survey, 18 of 30 pupils say adverts change which snacks they want. What fraction is that, in its simplest form?",
+			"answer": "3/5",
+			"hint": "Divide the top and the bottom by the same number until you cannot any more.",
+			"explain": "18/30: divide both by 6 to get 3/5."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the advert's tricks: tap a word, then its number.",
+			"spots": [
+				[
+					0.1525,
+					0.91,
+					0.1525,
+					0.5444
+				],
+				[
+					0.5,
+					0.09,
+					0.5,
+					0.207
+				],
+				[
+					0.8193,
+					0.09,
+					0.8193,
+					0.2158
+				],
+				[
+					0.8006,
+					0.91,
+					0.8006,
+					0.7575
+				],
+				[
+					0.9198,
+					0.91,
+					0.9133,
+					0.793
+				]
+			],
+			"labels": [
+				"health claim",
+				"#ad label",
+				"free gift",
+				"famous person",
+				"bandwagon"
+			],
+			"answer": [
+				3,
+				4,
+				2,
+				0,
+				1
+			],
+			"hint": "Read each sticker's words: what does each one want you to feel or do?",
+			"explain": "The star: a famous person. 'Everyone's got one!': bandwagon. The burst: a free gift. The badge: a health claim. '#ad': a paid post.",
+			"picture": {
+				"kind": "advert",
+				"product": "cereal",
+				"tricks": [
+					"star",
+					"bandwagon",
+					"free_gift",
+					"health_claim",
+					"ad_label"
+				]
+			}
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Influences can pull either way. Sort them.",
+			"groups": [
+				"healthy",
+				"unhealthy"
+			],
+			"items": [
+				"an advert for a sugary drink",
+				"a family walk at the weekend",
+				"a video about cooking vegetables",
+				"a friend asks you to join a club",
+				"a dare to skip lunch"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				0,
+				1
+			],
+			"hint": "Would it help your body and mind, or put them at risk?",
+			"explain": "Healthy: joining a club, a family walk, a cooking video. Unhealthy: a dare to skip lunch, a sugary drink advert."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A video star says a snack is 'the best ever', and the video says '#ad'. What does '#ad' tell you?",
+			"choices": [
+				"the star was paid to show it",
+				"the snack is healthy",
+				"it was the star's own idea",
+				"the snack is free"
+			],
+			"answer": 0,
+			"hint": "Why must some posts carry a label?",
+			"explain": "'#ad' means it is an advert: someone paid for it to be shown."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of a good choice in order.",
+			"items": [
+				"list your options",
+				"think where each could lead",
+				"look back: did it work?",
+				"choose, and say why",
+				"stop and notice the pull"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				3,
+				2
+			],
+			"hint": "Notice first, think before you choose, and learn after.",
+			"explain": "Notice the pull, list options, think ahead, choose, then look back."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "An advert says '9 out of 10 kids love it!' In a class of 30, how many would that be, if it were true?",
+			"answer": "27",
+			"hint": "Find how many make 1 in 10, then 9 of those.",
+			"explain": "30 ÷ 10 = 3, and 9 × 3 = 27 children."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If an advert has small print, you can ignore it.",
+			"answer": false,
+			"hint": "Who puts important rules in tiny letters, and why?",
+			"explain": "False: small print often holds the catch, like what you must buy first."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An energy drink advert shows a champion. What has it left out?",
+			"choices": [
+				"its sugar, caffeine and 'not for children'",
+				"the colour of the can",
+				"the champion's name",
+				"the price of trainers"
+			],
+			"answer": 0,
+			"hint": "Look for what the label says but the advert does not.",
+			"explain": "The label says high caffeine, not recommended for children, and it has lots of sugar: the advert hides it."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A family buys 12 snacks; 9 of them were chosen because of adverts. What percentage is that?",
+			"answer": "75",
+			"hint": "Make a fraction of 12, then turn it into hundredths.",
+			"explain": "9/12 = 3/4 = 75/100, so 75%."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your friends go to the park instead of football practice. You want to go to practice. Which reply keeps your choice?",
+			"choices": [
+				"I'll come later: practice first.",
+				"OK, I'll skip practice.",
+				"Whatever you say.",
+				"I'll lie to the coach."
+			],
+			"answer": 0,
+			"hint": "Which reply keeps both your plan and your friends?",
+			"explain": "'I'll come later: practice first.' You keep your plan and stay friendly."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort the influences.",
+			"groups": [
+				"family and friends",
+				"media and adverts",
+				"culture and school"
+			],
+			"items": [
+				"a friend's dare",
+				"a healthy-eating week at school",
+				"a TV cooking show",
+				"a grandma's recipes",
+				"a festival feast",
+				"a poster at the bus stop"
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				0,
+				2,
+				1
+			],
+			"hint": "Is it people you know, something that broadcasts, or a tradition or place?",
+			"explain": "Family and friends: grandma's recipes, a dare. Media and adverts: the poster, the TV show. Culture and school: the healthy-eating week, the feast."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Two people can see the same advert and make different choices.",
+			"answer": true,
+			"hint": "Who makes the final choice?",
+			"explain": "True: an influence pulls, but each person decides."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.advert_trick",
+			"level": 1
+		},
+		{
+			"gen": "g7w.advert_trick",
+			"level": 2
+		},
+		{
+			"gen": "g7w.advert_trick",
+			"level": 3
+		},
+		{
+			"gen": "g7w.influence_kind",
+			"level": 1
+		},
+		{
+			"gen": "g7w.influence_kind",
+			"level": 2
+		},
+		{
+			"gen": "g7w.influence_kind",
+			"level": 3
+		}
+	]
+}

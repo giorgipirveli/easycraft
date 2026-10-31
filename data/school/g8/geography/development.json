@@ -1,0 +1,375 @@
+{
+	"id": "g8.geography.development",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you met population density. How do you work it out? (People ÷ area in km².) Today: how geographers measure development, why it differs between countries, and what helps close the gap."
+		},
+		{
+			"text": "Development means people's lives getting better: health, education, income and freedom. Geographers measure it with numbers: income per person (here in thousands of gold), life expectancy (how long people live on average) and years at school.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"",
+						"life (years)",
+						"school (years)",
+						"income"
+					],
+					[
+						"Country A",
+						"58",
+						"5",
+						"2"
+					],
+					[
+						"Country B",
+						"70",
+						"9",
+						"10"
+					],
+					[
+						"Country C",
+						"83",
+						"13",
+						"60"
+					]
+				]
+			}
+		},
+		{
+			"text": "The UN's Human Development Index (HDI) joins three: a long and healthy life, knowledge, and a decent standard of living. It is a score from 0 to 1. Iceland, Norway and Switzerland score about 0.97; the lowest countries about 0.4."
+		},
+		{
+			"text": "Plot countries on a scatter graph: income per person along the bottom, life expectancy up the side. Richer countries usually live longer, but the line is a curve: the first gains in income bring the biggest gains in health.",
+			"picture": {
+				"kind": "scatter_plot",
+				"points": [
+					[
+						2,
+						58,
+						"A"
+					],
+					[
+						5,
+						64,
+						"B"
+					],
+					[
+						10,
+						70,
+						"C"
+					],
+					[
+						20,
+						75,
+						"D"
+					],
+					[
+						40,
+						80,
+						"E"
+					],
+					[
+						60,
+						83,
+						"F"
+					]
+				],
+				"x_name": "income (thousand gold)",
+				"y_name": "life expectancy (years)",
+				"x_to": 60,
+				"x_step": 10,
+				"y_from": 50,
+				"y_to": 90,
+				"y_step": 10
+			}
+		},
+		{
+			"text": "A population pyramid shows a country's people by age. A wide base means many children and fewer old people. As countries develop, families get smaller and people live longer, so the pyramid becomes more like a column.",
+			"picture": {
+				"kind": "pop_pyramid",
+				"bands": [
+					[
+						"0-14",
+						21,
+						20
+					],
+					[
+						"15-29",
+						14,
+						14
+					],
+					[
+						"30-44",
+						9,
+						9
+					],
+					[
+						"45-59",
+						5,
+						5
+					],
+					[
+						"60+",
+						2,
+						1
+					]
+				],
+				"top": 25,
+				"step": 5,
+				"title": "A wide base: many children"
+			}
+		},
+		{
+			"text": "Why does development differ? Physical reasons: droughts, floods, disease, being far from the sea. Human reasons: conflict, debt, unfair trade and poor health care. History matters too: many former colonies were left with few schools and industries."
+		},
+		{
+			"text": "Ways to close the gap: aid, for emergencies and for long-term projects such as wells and schools; fair trade that pays farmers fairly; small loans for businesses; education for girls; and debt relief. Since 1990, extreme poverty's share has more than halved."
+		},
+		{
+			"text": "Try it in the world: read Fazle Hasan Abed's story in Success Stories, on the Story Shelf: how BRAC helped millions. Then build a well and a school for a village in your world. Next: a connected world."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does life expectancy measure?",
+			"choices": [
+				"how rich a country is",
+				"how big a country is",
+				"how long people live on average",
+				"how many children go to school"
+			],
+			"answer": 2,
+			"hint": "Think of the word 'life' in it.",
+			"explain": "Life expectancy is how long people live, on average."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A country's people earn 600 million gold a year, and 20 million people live there. What is the income for each person, in gold?",
+			"answer": "30",
+			"hint": "Divide the country's income by its people.",
+			"explain": "600 million ÷ 20 million = 30 gold each."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The HDI score runs from 0 to 1.",
+			"answer": true,
+			"hint": "Look back at the card about the HDI.",
+			"explain": "True: 1 would be the highest development; the top countries score about 0.97."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a population pyramid, what does a wide base show?",
+			"choices": [
+				"many children",
+				"many old people",
+				"a rich country",
+				"very few people"
+			],
+			"answer": 0,
+			"hint": "The bottom bars are the youngest people.",
+			"explain": "A wide base means many children in the population."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these reasons for low development: physical or human?",
+			"groups": [
+				"physical",
+				"human"
+			],
+			"items": [
+				"war and conflict",
+				"heavy debts",
+				"floods",
+				"no coast for ports",
+				"too few schools",
+				"frequent droughts"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it caused by nature, or by people's choices and history?",
+			"explain": "Physical: droughts, no coast, floods. Human: conflict, debts, too few schools."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In Country A people live 58 years on average; in Country B, 81. How many years longer do people live in B?",
+			"answer": "23",
+			"hint": "Take the smaller number from the bigger one.",
+			"explain": "81 − 58 = 23 years."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each measure to what it shows.",
+			"items": [
+				"income per person",
+				"life expectancy",
+				"years at school",
+				"the HDI"
+			],
+			"matches": [
+				"how long people live",
+				"how much people earn",
+				"how much people learn",
+				"all three in one score"
+			],
+			"answer": [
+				1,
+				0,
+				2,
+				3
+			],
+			"hint": "Money, health, learning, and all of them together.",
+			"explain": "Income: earnings. Life expectancy: health. School: learning. The HDI: all three in one score."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these pyramid shapes in order, from a less developed country to a more developed one.",
+			"items": [
+				"a narrowing base",
+				"a wide base",
+				"straight sides like a column"
+			],
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "As countries develop, families get smaller and people live longer.",
+			"explain": "A wide base (many children), then a narrowing base, then a column (fewer children, longer lives)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which helps close the development gap for years to come?",
+			"choices": [
+				"one food parcel",
+				"a new flag",
+				"a single gift of money",
+				"schools and clean water"
+			],
+			"answer": 3,
+			"hint": "Think long term: what keeps helping year after year?",
+			"explain": "Schools and clean water keep helping for years: healthier people who can learn and earn."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Since 1990, the share of people in extreme poverty has fallen by more than half.",
+			"answer": true,
+			"hint": "Look back at the card about closing the gap.",
+			"explain": "True: it fell from over a third of people to under a tenth."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is income per person not enough to measure development?",
+			"choices": [
+				"it is too easy to count",
+				"it misses health, school and fair shares",
+				"everyone earns the same",
+				"it measures rainfall"
+			],
+			"answer": 1,
+			"hint": "Think what money alone cannot tell you about people's lives.",
+			"explain": "An average hides how wealth is shared, and says nothing about health, schooling or freedom."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "On the scatter graph, Country C earns 10 thousand gold a person and lives to 70; Country E earns 40 thousand and lives to 80. How many years longer do people in E live?",
+			"answer": "10",
+			"hint": "Read both life expectancies, then take one from the other.",
+			"explain": "80 − 70 = 10 years: four times the income brought only 10 more years."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why does the curve on the scatter graph flatten at the top?",
+			"choices": [
+				"extra money helps less once basics are met",
+				"doctors leave",
+				"the graph runs out",
+				"rich people stop living"
+			],
+			"answer": 0,
+			"hint": "Think what the first money buys: clean water, food, vaccines.",
+			"explain": "The first money buys clean water, food and medicine; once those are met, more money adds fewer years."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: short-term aid or long-term development?",
+			"groups": [
+				"short-term aid",
+				"long-term development"
+			],
+			"items": [
+				"food after a flood",
+				"training teachers",
+				"tents after an earthquake",
+				"building a well",
+				"small loans for businesses",
+				"emergency medicine"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Does it help right now, or for years ahead?",
+			"explain": "Short-term: food, tents, emergency medicine. Long-term: teachers, wells, small loans."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A country's population pyramid can change shape as it develops.",
+			"answer": true,
+			"hint": "Think of families getting smaller and people living longer.",
+			"explain": "True: the base narrows and the top widens, until it looks like a column."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8h.dev_indicator",
+			"level": 1
+		},
+		{
+			"gen": "g8h.dev_indicator",
+			"level": 2
+		},
+		{
+			"gen": "g8h.dev_indicator",
+			"level": 3
+		},
+		{
+			"gen": "g8h.pyramid_read",
+			"level": 1
+		},
+		{
+			"gen": "g8h.pyramid_read",
+			"level": 2
+		},
+		{
+			"gen": "g8h.pyramid_read",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,356 @@
+{
+	"id": "g7.history.scientific_revolution",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you learned that the Earth goes round the Sun. How long does one trip take? (A year.) Today: how people came to know that, and a new way of finding out: the scientific method."
+		},
+		{
+			"text": "For over 1,400 years most Europeans followed Ptolemy, a Greek astronomer of about AD 150: the Earth stood still in the middle, and the Sun, Moon, planets and stars circled it. It seemed to fit what people saw each day.",
+			"picture": {
+				"kind": "sky_model",
+				"model": "earth",
+				"labels": true
+			}
+		},
+		{
+			"text": "In 1543 Nicolaus Copernicus, a Polish astronomer, printed a book arguing that the Sun is in the middle. The Earth goes round it, spinning once a day. Few believed him at first. In 1609 Johannes Kepler showed that planets move in ovals, ellipses.",
+			"picture": {
+				"kind": "sky_model",
+				"model": "sun",
+				"labels": true
+			}
+		},
+		{
+			"text": "In 1609 Galileo Galilei built a telescope. In January 1610 he saw four 'stars' beside Jupiter that moved night by night: moons going round Jupiter, not the Earth. He also saw craters on the Moon and the phases of Venus.",
+			"picture": {
+				"kind": "sky_model",
+				"model": "jupiter",
+				"nights": [
+					[
+						-3,
+						2
+					],
+					[
+						-1,
+						3,
+						5
+					],
+					[
+						-6,
+						4
+					],
+					[
+						-2,
+						1,
+						3,
+						6
+					]
+				]
+			}
+		},
+		{
+			"text": "Galileo argued in print that Copernicus was right. Church leaders of the time disagreed. In 1633 he was put on trial and kept at home for the rest of his life. Today the Sun-centred model is accepted everywhere."
+		},
+		{
+			"text": "The new way of finding out was the scientific method. Ask a question and make a hypothesis (a prediction). Test it with a fair experiment and record the results. Draw a conclusion, then share it so others can test it again.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"question",
+					"hypothesis",
+					"experiment",
+					"results",
+					"conclusion"
+				],
+				"loop": true,
+				"title": "The scientific method"
+			}
+		},
+		{
+			"text": "In 1660 the Royal Society was founded in London; its motto means 'take nobody's word for it'. In 1687 Isaac Newton's Principia showed that one force, gravity, pulls an apple to the ground. The same force holds the Moon and planets in their paths.",
+			"picture": {
+				"kind": "orbit",
+				"centre": "sun",
+				"planets": [
+					"Venus",
+					"Earth",
+					"Mars"
+				],
+				"moon": true,
+				"arrows": true,
+				"labels": true
+			}
+		},
+		{
+			"text": "Try it in the world: test Galileo's idea with a grown-up: drop two balls of the same size but different weights from the same height at the same moment. Write your question, prediction and result. Next: monarchs and parliaments."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who argued in 1543 that the Sun is in the middle?",
+			"answer": 0,
+			"hint": "He was a Polish astronomer.",
+			"choices": [
+				"Copernicus",
+				"Ptolemy",
+				"Newton",
+				"Caxton"
+			],
+			"explain": "Nicolaus Copernicus, a Polish astronomer, in his book of 1543."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What did Galileo use to see Jupiter's moons?",
+			"answer": 0,
+			"hint": "He built one in 1609.",
+			"choices": [
+				"a telescope",
+				"a microscope",
+				"a compass",
+				"a printing press"
+			],
+			"explain": "A telescope he built himself."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Ptolemy's model put the Earth in the middle.",
+			"answer": true,
+			"hint": "Look at the picture.",
+			"explain": "True: in Ptolemy's model everything circled the Earth.",
+			"picture": {
+				"kind": "sky_model",
+				"model": "earth"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which force did Newton show holds the Moon in its path?",
+			"answer": 0,
+			"hint": "The same force pulls an apple down.",
+			"choices": [
+				"gravity",
+				"magnetism",
+				"friction",
+				"wind"
+			],
+			"explain": "Gravity: the force that pulls an apple down also holds the Moon in its path."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a hypothesis?",
+			"answer": 0,
+			"hint": "It comes before the experiment.",
+			"choices": [
+				"a prediction you can test",
+				"a result",
+				"a telescope",
+				"a law of Parliament"
+			],
+			"explain": "A prediction, or suggested answer, that an experiment can test."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these in order, earliest first.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "The smaller the year, the earlier.",
+			"items": [
+				"Copernicus's book (1543)",
+				"The Royal Society (1660)",
+				"Ptolemy's model (about AD 150)",
+				"Galileo sees Jupiter's moons (1610)",
+				"Newton's Principia (1687)"
+			],
+			"explain": "About 150, 1543, 1610, 1660, 1687."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Copernicus's book came out in 1543 and Newton's Principia in 1687. How many years later?",
+			"answer": "144",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1687 − 1543 = 144 years."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Galileo's notes: how many 'stars' (moons) are beside Jupiter on night 2?",
+			"answer": "3",
+			"hint": "Find the row for night 2 and count the little stars.",
+			"explain": "Night 2 shows 3 moons beside Jupiter.",
+			"picture": {
+				"kind": "sky_model",
+				"model": "jupiter",
+				"nights": [
+					[
+						-3,
+						2
+					],
+					[
+						-5,
+						-1,
+						4
+					],
+					[
+						6
+					]
+				]
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each scientist to the discovery.",
+			"items": [
+				"Copernicus",
+				"Kepler",
+				"Galileo",
+				"Newton"
+			],
+			"matches": [
+				"gravity and motion",
+				"the Sun in the middle",
+				"orbits are ellipses",
+				"moons round Jupiter"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "One moved the Sun, one changed circles to ovals, one used a telescope, one explained why.",
+			"explain": "Copernicus: the Sun in the middle. Kepler: ellipses. Galileo: Jupiter's moons. Newton: gravity."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: Earth in the middle, or Sun in the middle?",
+			"groups": [
+				"Earth in the middle",
+				"Sun in the middle"
+			],
+			"items": [
+				"Ptolemy",
+				"Copernicus",
+				"the view for 1,400 years",
+				"Galileo",
+				"Kepler",
+				"the Sun circles us each day"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Who came before 1543, and who followed Copernicus?",
+			"explain": "Earth in the middle: Ptolemy and the old view. Sun in the middle: Copernicus, Galileo, Kepler."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did moons going round Jupiter matter so much?",
+			"answer": 0,
+			"hint": "In Ptolemy's model, what did everything circle?",
+			"choices": [
+				"they showed not everything goes round the Earth",
+				"they proved the Moon is hot",
+				"they showed Jupiter is flat",
+				"they stopped the tides"
+			],
+			"explain": "They circled Jupiter, so not everything went round the Earth: the old model had to be wrong."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "In a fair test of falling balls, what must stay the same?",
+			"answer": 0,
+			"hint": "Change only the thing you are testing.",
+			"choices": [
+				"the height and the moment they are dropped",
+				"the balls' weights",
+				"nothing at all",
+				"who writes down the result"
+			],
+			"explain": "Only the weight changes; the height and the moment of dropping stay the same, so the test is fair."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "One experiment is enough to prove an idea for ever.",
+			"answer": false,
+			"hint": "Think of the Royal Society's motto.",
+			"explain": "False: results are shared so others can repeat the test; ideas can change with new evidence."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps of the scientific method in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need a question before a prediction, and results before a conclusion.",
+			"items": [
+				"make a hypothesis",
+				"record the results",
+				"ask a question",
+				"do a fair experiment",
+				"draw a conclusion"
+			],
+			"explain": "Question, hypothesis, experiment, results, conclusion."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Kepler's law: years × years = distance × distance × distance. A planet is 9 times as far from the Sun as Earth. How many years does it take to go round?",
+			"answer": "27",
+			"hint": "Work out 9 × 9 × 9, then find the number that times itself makes it.",
+			"explain": "9 × 9 × 9 = 729, and 27 × 27 = 729, so 27 years."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.kepler_orbit",
+			"level": 1
+		},
+		{
+			"gen": "g7h.kepler_orbit",
+			"level": 2
+		},
+		{
+			"gen": "g7h.kepler_orbit",
+			"level": 3
+		},
+		{
+			"gen": "g7h.method_step",
+			"level": 1
+		},
+		{
+			"gen": "g7h.method_step",
+			"level": 2
+		},
+		{
+			"gen": "g7h.method_step",
+			"level": 3
+		}
+	]
+}

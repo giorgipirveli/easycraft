@@ -1,0 +1,360 @@
+{
+	"id": "g5.geography.lat_long",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3, what is the imaginary line around the middle of the Earth called? (The Equator.) Today: an invisible grid of lines that gives every place on Earth its own address."
+		},
+		{
+			"text": "Lines of latitude run across the globe, east to west, like the rungs of a ladder. They measure how far north or south of the Equator a place is: from 0° at the Equator to 90°N and 90°S at the Poles.",
+			"picture": {
+				"kind": "latlong"
+			}
+		},
+		{
+			"text": "Lines of longitude run from pole to pole. They measure how far east or west a place is from the Prime Meridian, 0°, which runs through Greenwich in London. They go up to 180°, east and west."
+		},
+		{
+			"text": "A place's address is its latitude, then its longitude. Quito in Ecuador is at about 0°, 78°W: on the Equator, west of Greenwich. Singapore is at about 1°N, 104°E, and London at about 51.5°N, 0°.",
+			"picture": {
+				"kind": "latlong",
+				"points": [
+					{
+						"lat": 0,
+						"long": -78,
+						"label": "Quito"
+					},
+					{
+						"lat": 1,
+						"long": 104,
+						"label": "Singapore"
+					},
+					{
+						"lat": 51.5,
+						"long": 0,
+						"label": "London"
+					}
+				]
+			}
+		},
+		{
+			"text": "The Equator splits Earth into the northern and southern hemispheres; the Prime Meridian and the 180° line split it into the western and eastern. Sydney, at about 34°S, 151°E, is in the southern and eastern hemispheres."
+		},
+		{
+			"text": "Two special lines of latitude are the Tropic of Cancer, about 23.5°N, and the Tropic of Capricorn, about 23.5°S. Between them, the Sun is right overhead at noon on at least one day a year. This hot band is the tropics.",
+			"picture": {
+				"kind": "latlong",
+				"lines": [
+					"tropics",
+					"polar"
+				]
+			}
+		},
+		{
+			"text": "The Arctic Circle, about 66.5°N, and the Antarctic Circle, about 66.5°S, mark the polar regions. Inside them, there is at least one day each year when the Sun never sets, and one when it never rises."
+		},
+		{
+			"text": "Try it in the world: mark a grid in your world with fence lines every 10 blocks, and number them from a centre line. Give each of your builds its grid address. Next: time zones."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which line is at 0° latitude?",
+			"answer": 0,
+			"hint": "Latitude is measured north and south from it.",
+			"choices": [
+				"the Equator",
+				"the Prime Meridian",
+				"the Tropic of Cancer",
+				"the Arctic Circle"
+			],
+			"explain": "The Equator is at 0° latitude."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Through which city does the Prime Meridian run?",
+			"answer": 0,
+			"hint": "It runs through Greenwich.",
+			"choices": [
+				"London",
+				"Paris",
+				"Rome",
+				"Cairo"
+			],
+			"explain": "Greenwich is in London, so the Prime Meridian runs through London."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Lines of latitude run from the North Pole to the South Pole.",
+			"answer": false,
+			"hint": "Which lines are like the rungs of a ladder?",
+			"explain": "False: lines of latitude run across, east to west. Lines of longitude run from pole to pole."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the latitude of the North Pole?",
+			"answer": 0,
+			"hint": "Latitude goes from 0° at the Equator up to the poles.",
+			"choices": [
+				"90°N",
+				"0°",
+				"180°N",
+				"45°N"
+			],
+			"explain": "The North Pole is at 90°N, as far north as you can go."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A place at 30°S is south of the Equator.",
+			"answer": true,
+			"hint": "What does the S stand for?",
+			"explain": "True: S means south of the Equator."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these cities: north or south of the Equator?",
+			"groups": [
+				"northern hemisphere",
+				"southern hemisphere"
+			],
+			"items": [
+				"Cairo, 30°N",
+				"Sydney, 34°S",
+				"Tokyo, 36°N",
+				"Lima, 12°S",
+				"Oslo, 60°N",
+				"Cape Town, 34°S"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Look at the letter after each latitude: N or S.",
+			"explain": "N: Cairo, Tokyo, Oslo. S: Sydney, Lima, Cape Town."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which line is at about 23.5°N?",
+			"answer": 0,
+			"hint": "The two tropics are at 23.5°, one north and one south.",
+			"choices": [
+				"the Tropic of Cancer",
+				"the Tropic of Capricorn",
+				"the Arctic Circle",
+				"the Equator"
+			],
+			"explain": "The Tropic of Cancer is at about 23.5°N; Capricorn is at about 23.5°S."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each line to its latitude.",
+			"items": [
+				"Equator",
+				"Tropic of Capricorn",
+				"Arctic Circle",
+				"North Pole"
+			],
+			"matches": [
+				"90°N",
+				"0°",
+				"about 23.5°S",
+				"about 66.5°N"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Start at 0° and move out towards the poles.",
+			"explain": "Equator 0°, Tropic of Capricorn about 23.5°S, Arctic Circle about 66.5°N, North Pole 90°N."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Place B on the map is in the eastern hemisphere.",
+			"answer": true,
+			"hint": "Read B's longitude: E or W of the Prime Meridian?",
+			"explain": "True: B is at 120°E, east of the Prime Meridian.",
+			"picture": {
+				"kind": "latlong",
+				"points": [
+					{
+						"lat": 30,
+						"long": -60,
+						"label": "A"
+					},
+					{
+						"lat": -30,
+						"long": 120,
+						"label": "B"
+					},
+					{
+						"lat": 60,
+						"long": 30,
+						"label": "C"
+					},
+					{
+						"lat": 0,
+						"long": -150,
+						"label": "D"
+					}
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What does longitude tell you about a place?",
+			"answer": 0,
+			"hint": "Longitude lines run from pole to pole.",
+			"choices": [
+				"how far east or west of Greenwich it is",
+				"how far north or south it is",
+				"how high above the sea it is",
+				"how far it is from a city"
+			],
+			"explain": "Longitude measures how far east or west of the Prime Meridian, at Greenwich, a place is."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which city is in both the southern and the western hemispheres?",
+			"answer": 0,
+			"hint": "You need S for the latitude and W for the longitude.",
+			"choices": [
+				"Buenos Aires, 35°S 58°W",
+				"Tokyo, 36°N 140°E",
+				"Cairo, 30°N 31°E",
+				"Sydney, 34°S 151°E"
+			],
+			"explain": "Buenos Aires: 35°S is south of the Equator and 58°W is west of Greenwich."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where is the Sun right overhead at noon on at least one day a year?",
+			"answer": 0,
+			"hint": "Think of the band between 23.5°N and 23.5°S.",
+			"choices": [
+				"anywhere between the tropics",
+				"only at the North Pole",
+				"anywhere in Europe",
+				"only on the Arctic Circle"
+			],
+			"explain": "Between the Tropic of Cancer and the Tropic of Capricorn: the tropics."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Place A is at 40°N and place B is at 20°S. How many degrees of latitude apart are they?",
+			"answer": "60",
+			"hint": "Count from A down to the Equator, then on to B.",
+			"explain": "From 40°N to the Equator is 40°; from the Equator to 20°S is 20° more. 40 + 20 = 60°."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Inside the Arctic Circle, there is at least one day a year when the Sun does not set.",
+			"answer": true,
+			"hint": "What makes the polar circles special?",
+			"explain": "True: inside the polar circles there is at least one day without a sunset and one without a sunrise."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A ship sails from 10°N to 30°N. Which line does it cross?",
+			"answer": 0,
+			"hint": "Which special line lies between 10°N and 30°N?",
+			"choices": [
+				"the Tropic of Cancer",
+				"the Equator",
+				"the Arctic Circle",
+				"the Tropic of Capricorn"
+			],
+			"explain": "The Tropic of Cancer, at about 23.5°N."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the cities: eastern or western hemisphere?",
+			"groups": [
+				"eastern",
+				"western"
+			],
+			"items": [
+				"Singapore, 104°E",
+				"Quito, 78°W",
+				"Sydney, 151°E",
+				"Buenos Aires, 58°W",
+				"Cairo, 31°E",
+				"Lima, 77°W"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "E means east of the Prime Meridian; W means west of it.",
+			"explain": "East: Singapore, Sydney and Cairo. West: Quito, Buenos Aires and Lima, all in South America."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the lines of latitude from north to south.",
+			"items": [
+				"the Equator",
+				"the Tropic of Capricorn",
+				"the Arctic Circle",
+				"the Tropic of Cancer",
+				"the Antarctic Circle"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1,
+				4
+			],
+			"hint": "Start at about 66.5°N and work down through 0° to about 66.5°S.",
+			"explain": "The Arctic Circle (about 66.5°N), the Tropic of Cancer (23.5°N), the Equator (0°), the Tropic of Capricorn (23.5°S), then the Antarctic Circle (66.5°S)."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Place A is at 30°E and place B is at 45°W. How many degrees of longitude apart are they?",
+			"answer": "75",
+			"hint": "Count from 30°E to the Prime Meridian, then on to 45°W.",
+			"explain": "From 30°E to 0° is 30°, and from 0° to 45°W is 45° more: 30 + 45 = 75°."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5h.lat_long",
+			"level": 1
+		},
+		{
+			"gen": "g5h.lat_long",
+			"level": 2
+		},
+		{
+			"gen": "g5h.lat_long",
+			"level": 3
+		}
+	]
+}

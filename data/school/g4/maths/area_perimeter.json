@@ -1,0 +1,206 @@
+{
+	"id": "g4.maths.area_perimeter",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you found area by counting squares. How many squares cover a 3 by 4 rectangle? 12."
+		},
+		{
+			"text": "Perimeter is the distance all the way round a shape, like a farm's fence. A farm 6 m long and 4 m wide has a perimeter of 6 + 4 + 6 + 4 = 20 m.",
+			"picture": {
+				"kind": "rect",
+				"w": 6,
+				"h": 4,
+				"unit": "m",
+				"grid": false
+			}
+		},
+		{
+			"text": "Area is how much space a shape covers, counted in squares. The same farm has 6 × 4 = 24 squares of 1 m by 1 m: 24 square metres.",
+			"picture": {
+				"kind": "rect",
+				"w": 6,
+				"h": 4,
+				"unit": "m",
+				"grid": true
+			}
+		},
+		{
+			"text": "For a rectangle: area = length × width, and perimeter = 2 × (length + width)."
+		},
+		{
+			"text": "If you know the area and one side, divide to find the other side: an area of 48 square metres and a side of 6 m means the other side is 48 ÷ 6 = 8 m.",
+			"picture": {
+				"kind": "rect",
+				"w": 8,
+				"h": 6,
+				"unit": "m",
+				"grid": false,
+				"unknown": "w"
+			}
+		},
+		{
+			"text": "Try it in the world: fence a farm 6 blocks long and 4 wide. How many fence blocks go round it (the perimeter), and how many squares are inside (the area)? Next: line plots."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A farm is 5 m long and 3 m wide. What is its area, in square metres?",
+			"answer": "15",
+			"hint": "Area = length × width.",
+			"explain": "5 × 3 = 15 square metres",
+			"picture": {
+				"kind": "rect",
+				"w": 5,
+				"h": 3,
+				"unit": "m",
+				"grid": true
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is the perimeter of a square with sides of 7 m?",
+			"answer": "28",
+			"hint": "A square has 4 equal sides.",
+			"explain": "7 + 7 + 7 + 7 = 28 m"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A rectangle has a perimeter of 18 m. It is 5 m long. How wide is it?",
+			"answer": "4",
+			"hint": "Half the perimeter is one length and one width.",
+			"explain": "18 ÷ 2 = 9, and 9 − 5 = 4 m."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which farm has the bigger area?",
+			"choices": [
+				"6 m by 5 m",
+				"7 m by 4 m",
+				"They are equal"
+			],
+			"answer": 0,
+			"hint": "Work out both areas.",
+			"explain": "6 × 5 = 30 square metres and 7 × 4 = 28 square metres."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A farm 3 m by 8 m and a farm 4 m by 6 m have the same area.",
+			"answer": true,
+			"hint": "Work out 3 × 8 and 4 × 6.",
+			"explain": "Both are 24 square metres."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A playground is 12 m long and has an area of 96 square metres. How wide is it?",
+			"answer": "8",
+			"hint": "Which number times 12 makes 96?",
+			"explain": "12 × 8 = 96, so it is 8 m wide."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Tilly puts a fence round a garden 9 m by 6 m. The fence costs 5 gold for each metre. How much gold does she pay?",
+			"answer": "150",
+			"hint": "First find the perimeter, then multiply by 5.",
+			"explain": "The perimeter is 9 + 6 + 9 + 6 = 30 m, and 30 × 5 = 150 gold."
+		},
+		{
+			"type": "build",
+			"level": 1,
+			"prompt": "Build a farm with an area of 10 squares.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 10
+			},
+			"hint": "Try 2 rows. How many squares in each?",
+			"explain": "2 rows of 5 (or 1 row of 10) make 10 squares."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Build a farm with an area of 12 squares and a fence of 16 all the way round.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 12,
+				"perimeter": 16
+			},
+			"hint": "12 squares: try 2 by 6, 3 by 4… which one has a fence of 16?",
+			"explain": "A 2 by 6 farm has an area of 12 and a fence of 2 + 6 + 2 + 6 = 16."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4g.area",
+			"level": 1
+		},
+		{
+			"gen": "g4g.area",
+			"level": 2
+		},
+		{
+			"gen": "g4g.area",
+			"level": 3
+		},
+		{
+			"gen": "g4g.perimeter",
+			"level": 1
+		},
+		{
+			"gen": "g4g.perimeter",
+			"level": 2
+		},
+		{
+			"gen": "g4g.perimeter",
+			"level": 3
+		},
+		{
+			"gen": "g4g.missing_side",
+			"level": 2
+		},
+		{
+			"gen": "g4g.missing_side",
+			"level": 3
+		},
+		{
+			"gen": "g4g.build_farm",
+			"level": 1
+		},
+		{
+			"gen": "g4g.build_farm",
+			"level": 2
+		},
+		{
+			"gen": "g4g.build_farm",
+			"level": 3
+		},
+		{
+			"gen": "g4g.same_area",
+			"level": 2
+		},
+		{
+			"gen": "g4g.same_area",
+			"level": 3
+		}
+	]
+}

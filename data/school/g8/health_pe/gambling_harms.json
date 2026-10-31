@@ -1,0 +1,389 @@
+{
+	"id": "g8.health_pe.gambling_harms",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 maths you worked out probabilities. What is the chance of rolling a 6 on a fair dice? (1/6.) Today: chance, gambling, and paying for chance in games."
+		},
+		{
+			"text": "Gambling is risking money on a result decided mostly by chance, hoping to win more: betting, scratchcards, lotteries and casino games. In the UK most gambling is only for adults, 18 and over."
+		},
+		{
+			"text": "The house always wins over time: games are designed so the people running them keep a share. This wheel costs 1 gold a spin and pays 5 gold on 1 slice in 10. The expected win is 5 ÷ 10 = 0.5 gold a spin.",
+			"picture": {
+				"kind": "chance_wheel",
+				"slices": [
+					[
+						"5 gold",
+						1,
+						5
+					],
+					[
+						"nothing",
+						9,
+						0
+					]
+				],
+				"cost": 1
+			}
+		},
+		{
+			"text": "Chance has no memory. After five reds in a row, black is not 'due': every spin starts fresh. A near miss feels close, but it is still a loss."
+		},
+		{
+			"text": "Games can sell chance too: mystery boxes and loot boxes, card packs and prize spins. You pay, but you don't know what you'll get. A 1 in 20 chance means about 20 boxes, on average, for one rare item.",
+			"picture": {
+				"kind": "chance_wheel",
+				"slices": [
+					[
+						"rare",
+						1,
+						0
+					],
+					[
+						"common",
+						19,
+						0
+					]
+				],
+				"pointer": 1
+			}
+		},
+		{
+			"text": "Belgium decided in 2018 that paid loot boxes count as gambling. Watch for tricks: special coins that hide the real price, limited-time offers, bright lights and sounds, and rewards for coming back."
+		},
+		{
+			"text": "Harms can grow: losing money, chasing losses, secrecy, worry and arguments at home. Signs of a problem are spending more than planned, borrowing and hiding it. Help: a trusted adult, Childline, or the National Gambling Helpline, 0808 8020 133.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"who",
+						"how"
+					],
+					[
+						"a trusted adult",
+						"talk any time"
+					],
+					[
+						"Childline",
+						"0800 1111"
+					],
+					[
+						"Gambling Helpline",
+						"0808 8020 133"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: with a grown-up, set a spending limit in a game, or turn off paying inside apps. In LIFE, My Money Stall practises spotting tricks and scams. Next: peer pressure, and the law on harmful substances."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In the UK, most gambling is only allowed for adults aged 18 and over.",
+			"answer": true,
+			"hint": "Think about what the lesson said about age.",
+			"explain": "True: most gambling in the UK is for adults, 18 and over."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does 'the house always wins' mean?",
+			"choices": [
+				"the games are designed to keep a share",
+				"players always lose every game",
+				"the building is lucky",
+				"winners must give money back"
+			],
+			"answer": 0,
+			"hint": "Think about who designs the game, and over how many games.",
+			"explain": "Over many games, the design means the people running the game keep a share: on average, players lose."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "After five reds in a row, black is more likely on the next spin.",
+			"answer": false,
+			"hint": "Does a wheel remember its last spins?",
+			"explain": "False: chance has no memory, so every spin starts fresh with the same odds."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "On this wheel, what fraction of the slices win 5 gold? Give the answer as a percentage.",
+			"picture": {
+				"kind": "chance_wheel",
+				"slices": [
+					[
+						"5 gold",
+						1,
+						5
+					],
+					[
+						"nothing",
+						9,
+						0
+					]
+				],
+				"cost": 1
+			},
+			"answer": "10",
+			"hint": "Count the winning slices, divide by all the slices, then times 100.",
+			"explain": "1 of 10 slices wins: 1 ÷ 10 = 0.1, which is 10%."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Is it paying for chance, or buying something you can see?",
+			"groups": [
+				"paying for chance",
+				"buying what you see"
+			],
+			"items": [
+				"a scratchcard",
+				"a card pack",
+				"a mystery box",
+				"a book from a shop",
+				"a named game skin"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Do you know exactly what you will get before you pay?",
+			"explain": "Mystery boxes, scratchcards and card packs sell a chance; a named skin or a book is what you see."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How much gold does one spin of this wheel win, on average?",
+			"picture": {
+				"kind": "chance_wheel",
+				"slices": [
+					[
+						"5 gold",
+						1,
+						5
+					],
+					[
+						"nothing",
+						9,
+						0
+					]
+				],
+				"cost": 1
+			},
+			"answer": "0.5",
+			"hint": "Imagine one spin for every slice: share all the prizes between the slices.",
+			"explain": "5 gold over 10 slices: 5 ÷ 10 = 0.5 gold a spin, less than the 1 gold it costs."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A near miss on a slot machine means…",
+			"choices": [
+				"it is still a loss",
+				"a win is coming",
+				"the machine is about to pay",
+				"you should play again"
+			],
+			"answer": 0,
+			"hint": "Does close count in a game of chance?",
+			"explain": "A near miss is designed to feel exciting, but it is still a loss, and it says nothing about the next go."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each trick to how it works.",
+			"items": [
+				"special coins",
+				"limited-time offers",
+				"near misses",
+				"daily rewards"
+			],
+			"matches": [
+				"feel like almost winning",
+				"pull you back each day",
+				"make you rush",
+				"hide the real price"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "Ask what each trick makes you think or do.",
+			"explain": "Coins hide the price, offers rush you, near misses feel close, and daily rewards pull you back."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A loot box has a 1 in 25 chance of a rare item. What is that as a percentage?",
+			"answer": "4",
+			"hint": "1 in 25 means 1 ÷ 25; then times 100.",
+			"explain": "1 ÷ 25 = 0.04, which is 4%."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is a sign that gambling is becoming a problem?",
+			"choices": [
+				"hiding how much you spend",
+				"playing a free board game",
+				"saving pocket money",
+				"setting a spending limit"
+			],
+			"answer": 0,
+			"hint": "Which one involves secrecy?",
+			"explain": "Hiding spending, chasing losses and borrowing are warning signs; talk to a trusted adult."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Chasing losses, playing more to win back money, usually means losing more.",
+			"answer": true,
+			"hint": "Think about the house's share over more games.",
+			"explain": "True: the more you play, the more the house's share adds up, so chasing usually loses more."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Each spin of this wheel costs 1 gold. Over 20 spins, how much gold would you expect to lose, on average?",
+			"picture": {
+				"kind": "chance_wheel",
+				"slices": [
+					[
+						"10 gold",
+						1,
+						10
+					],
+					[
+						"2 gold",
+						3,
+						2
+					],
+					[
+						"nothing",
+						16,
+						0
+					]
+				],
+				"cost": 1
+			},
+			"answer": "4",
+			"hint": "Find what one spin wins on average, take it from the cost, then multiply by the spins.",
+			"explain": "Wins: 10 + 3 × 2 = 16 gold over 20 slices = 0.8 gold a spin. Loss: 1 − 0.8 = 0.2 a spin; × 20 = 4 gold."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Each mystery box costs 2 gold and the rare item's chance is 1 in 50. On average, how much gold is spent to get it?",
+			"answer": "100",
+			"hint": "Find how many boxes it takes on average, then multiply by the cost.",
+			"explain": "1 in 50 means about 50 boxes on average; 50 × 2 = 100 gold, and with bad luck much more."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why did Belgium decide in 2018 that paid loot boxes count as gambling?",
+			"choices": [
+				"you pay money for a prize decided by chance",
+				"they are too colourful",
+				"they are free",
+				"they only contain books"
+			],
+			"answer": 0,
+			"hint": "Compare a loot box with a scratchcard.",
+			"explain": "Like a scratchcard, you pay money and chance decides what you get: that is how gambling works."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put the steps for getting help with gambling worries in order.",
+			"items": [
+				"stop spending for now",
+				"call a helpline together if needed",
+				"notice the warning signs",
+				"talk to a trusted adult"
+			],
+			"answer": [
+				2,
+				0,
+				3,
+				1
+			],
+			"hint": "Notice, pause, talk, then get expert help.",
+			"explain": "Notice the signs, stop spending, talk to a trusted adult, and call a helpline together if it is needed."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "A fact about chance, or a myth?",
+			"groups": [
+				"fact",
+				"myth"
+			],
+			"items": [
+				"you're bound to win it back",
+				"a fair wheel has no memory",
+				"a lucky charm helps you win",
+				"the house keeps a share",
+				"a near miss is still a loss"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Does it say chance can be remembered or beaten?",
+			"explain": "Facts: no memory, a near miss is a loss, the house keeps a share. Myths: lucky charms, winning it back."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.wheel_odds",
+			"level": 1
+		},
+		{
+			"gen": "g8l.wheel_odds",
+			"level": 2
+		},
+		{
+			"gen": "g8l.wheel_odds",
+			"level": 3
+		},
+		{
+			"gen": "g8l.loot_odds",
+			"level": 1
+		},
+		{
+			"gen": "g8l.loot_odds",
+			"level": 2
+		},
+		{
+			"gen": "g8l.loot_odds",
+			"level": 3
+		},
+		{
+			"gen": "g8l.chance_myth",
+			"level": 1
+		},
+		{
+			"gen": "g8l.chance_myth",
+			"level": 2
+		},
+		{
+			"gen": "g8l.chance_myth",
+			"level": 3
+		}
+	]
+}

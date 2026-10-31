@@ -1,0 +1,487 @@
+{
+	"id": "g3.science.weather_climate",
+	"lesson": [
+		{
+			"text": "Remember? Plants need light, water and warmth. The weather decides how much they get! Weather is what the air is like at a time and place: hot or cold, wet or dry, windy or calm."
+		},
+		{
+			"text": "Scientists measure the weather. A thermometer measures temperature in degrees Celsius (°C). A rain gauge measures rain in millimetres (mm). A wind vane shows which way the wind blows."
+		},
+		{
+			"text": "They write the weather in a table. This is one week in Zara's town.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Day",
+						"Temp",
+						"Rain"
+					],
+					[
+						"Mon",
+						"18 °C",
+						"0 mm"
+					],
+					[
+						"Tue",
+						"21 °C",
+						"0 mm"
+					],
+					[
+						"Wed",
+						"15 °C",
+						"12 mm"
+					],
+					[
+						"Thu",
+						"14 °C",
+						"8 mm"
+					]
+				]
+			}
+		},
+		{
+			"text": "A bar graph shows data too. These towers show the rainy days in four weeks: one block for each rainy day.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					3,
+					5,
+					2,
+					6
+				]
+			}
+		},
+		{
+			"text": "Many places have four seasons. Weather measured for many years shows the pattern, so we can predict what a season will usually be like.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Season",
+						"Usual temp"
+					],
+					[
+						"spring",
+						"11 °C"
+					],
+					[
+						"summer",
+						"20 °C"
+					],
+					[
+						"autumn",
+						"12 °C"
+					],
+					[
+						"winter",
+						"4 °C"
+					]
+				]
+			}
+		},
+		{
+			"text": "Climate is the usual weather of a place over many years. Hot deserts are hot and very dry. Tropical rainforests, near the equator, are hot and wet all year.",
+			"picture": {
+				"kind": "icon",
+				"animal": "camel"
+			}
+		},
+		{
+			"text": "Polar lands are very cold all year; Antarctica is so dry it is a desert. Mild places have warm summers, cool winters and rain in every season. High mountains are colder than the land below.",
+			"picture": {
+				"kind": "icon",
+				"animal": "penguin"
+			}
+		},
+		{
+			"text": "When it is summer in the north half of the Earth, it is winter in the south half. In December, children in Australia can go to the beach! Next: weather hazards."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a thermometer measure?",
+			"answer": 0,
+			"hint": "It shows how hot or cold it is.",
+			"choices": [
+				"temperature",
+				"rain",
+				"wind direction",
+				"time"
+			],
+			"explain": "A thermometer measures temperature, in °C."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which season is usually the warmest?",
+			"answer": 0,
+			"hint": "When do you go to the beach?",
+			"choices": [
+				"summer",
+				"winter",
+				"autumn",
+				"spring"
+			],
+			"explain": "Summer is usually the warmest season."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A rain gauge measures how much rain falls.",
+			"answer": true,
+			"hint": "What does it collect?",
+			"explain": "True: a rain gauge collects rain and measures it in millimetres."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which day was the warmest?",
+			"answer": 0,
+			"hint": "Find the biggest temperature in the table.",
+			"choices": [
+				"Tuesday",
+				"Monday",
+				"Wednesday",
+				"Thursday"
+			],
+			"explain": "Tuesday was 21 °C, the warmest.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Day",
+						"Temp",
+						"Rain"
+					],
+					[
+						"Mon",
+						"18 °C",
+						"0 mm"
+					],
+					[
+						"Tue",
+						"21 °C",
+						"0 mm"
+					],
+					[
+						"Wed",
+						"15 °C",
+						"12 mm"
+					],
+					[
+						"Thu",
+						"14 °C",
+						"8 mm"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Climate is the usual weather of a place over many years.",
+			"answer": true,
+			"hint": "Weather changes day to day. Which word means the pattern over many years?",
+			"explain": "True: climate is the pattern of weather over many years."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How much rain fell on Wednesday and Thursday together? (mm)",
+			"answer": "20",
+			"hint": "Add the two rain numbers.",
+			"explain": "12 mm + 8 mm = 20 mm.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Day",
+						"Temp",
+						"Rain"
+					],
+					[
+						"Mon",
+						"18 °C",
+						"0 mm"
+					],
+					[
+						"Tue",
+						"21 °C",
+						"0 mm"
+					],
+					[
+						"Wed",
+						"15 °C",
+						"12 mm"
+					],
+					[
+						"Thu",
+						"14 °C",
+						"8 mm"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which one is weather, not climate?",
+			"answer": 0,
+			"hint": "Weather is what is happening now.",
+			"choices": [
+				"It is snowing this morning",
+				"Summers here are usually hot",
+				"It rains a lot here every year"
+			],
+			"explain": "Snow this morning is today's weather. The others describe the usual pattern: climate."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In Zara's town, what will next summer most likely be like?",
+			"answer": 0,
+			"hint": "Use the pattern in the table.",
+			"choices": [
+				"warm, about 20 °C",
+				"freezing, below 0 °C",
+				"cold, about 4 °C"
+			],
+			"explain": "Summers there are usually about 20 °C, so next summer will most likely be warm.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Season",
+						"Usual temp"
+					],
+					[
+						"spring",
+						"11 °C"
+					],
+					[
+						"summer",
+						"20 °C"
+					],
+					[
+						"autumn",
+						"12 °C"
+					],
+					[
+						"winter",
+						"4 °C"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which climate is hot and wet all year?",
+			"answer": 0,
+			"hint": "Think of the jungles near the equator.",
+			"choices": [
+				"a tropical rainforest",
+				"a polar climate",
+				"a hot desert"
+			],
+			"explain": "Tropical rainforests are hot and wet all year."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "The towers show rainy days in four weeks. How many rainy days were there in all?",
+			"answer": "16",
+			"hint": "Count the blocks in every tower and add them.",
+			"explain": "3 + 5 + 2 + 6 = 16 rainy days.",
+			"picture": {
+				"kind": "towers",
+				"heights": [
+					3,
+					5,
+					2,
+					6
+				]
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What is the difference between the warmest and the coldest day? (°C)",
+			"answer": "7",
+			"hint": "Find the biggest and the smallest temperatures.",
+			"explain": "21 °C − 14 °C = 7 °C.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Day",
+						"Temp",
+						"Rain"
+					],
+					[
+						"Mon",
+						"18 °C",
+						"0 mm"
+					],
+					[
+						"Tue",
+						"21 °C",
+						"0 mm"
+					],
+					[
+						"Wed",
+						"15 °C",
+						"12 mm"
+					],
+					[
+						"Thu",
+						"14 °C",
+						"8 mm"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "It is summer in the United Kingdom. What season is it in Australia?",
+			"answer": 0,
+			"hint": "Australia is in the south half of the Earth.",
+			"choices": [
+				"winter",
+				"summer",
+				"spring"
+			],
+			"explain": "When it is summer in the north half, it is winter in the south half."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Antarctica is covered in ice, but it is called a desert. Why?",
+			"answer": 0,
+			"hint": "What makes a place a desert?",
+			"choices": [
+				"Very little snow or rain falls there",
+				"It is hot there",
+				"It is full of sand"
+			],
+			"explain": "A desert is a place with very little rain or snow. Antarctica gets very little."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Mount Kilimanjaro is near the equator, but it has snow on top. Why?",
+			"answer": 0,
+			"hint": "How does the air change as you climb?",
+			"choices": [
+				"The air is colder high up",
+				"It is near the North Pole",
+				"Birds carry snow there"
+			],
+			"explain": "High mountains are colder than the land below, so snow can stay at the top."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "One cold day in summer means the whole summer will be cold.",
+			"answer": false,
+			"hint": "Is one day a pattern?",
+			"explain": "False: weather changes from day to day. The pattern of many days shows what a season is like."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Put these climates in order, from the coldest to the hottest.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "Where is it icy all year?",
+			"items": [
+				"mild",
+				"polar",
+				"tropical rainforest"
+			],
+			"explain": "Polar lands are coldest, mild places are in between, and rainforests are hot."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each tool to what it measures.",
+			"hint": "Think of the lesson's weather tools.",
+			"items": [
+				"thermometer",
+				"rain gauge",
+				"wind vane"
+			],
+			"matches": [
+				"wind direction",
+				"temperature",
+				"rain"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"explain": "A thermometer measures temperature, a rain gauge rain, and a wind vane shows the wind's direction."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: weather, or climate?",
+			"groups": [
+				"weather",
+				"climate"
+			],
+			"items": [
+				"it is raining today",
+				"summers here are usually hot",
+				"a windy afternoon",
+				"deserts are dry all year",
+				"snow this morning",
+				"it rains here most winters"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Weather is one time and place. Climate is the usual pattern over many years.",
+			"explain": "Weather: rain today, a windy afternoon, snow this morning. Climate: hot summers, dry deserts and rainy winters are the usual pattern, year after year."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3s.weather_table",
+			"level": 1
+		},
+		{
+			"gen": "g3s.weather_table",
+			"level": 2
+		},
+		{
+			"gen": "g3s.weather_table",
+			"level": 3
+		},
+		{
+			"gen": "g3s.climate_clue",
+			"level": 1
+		},
+		{
+			"gen": "g3s.climate_clue",
+			"level": 2
+		},
+		{
+			"gen": "g3s.climate_clue",
+			"level": 3
+		}
+	]
+}

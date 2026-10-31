@@ -1,0 +1,316 @@
+{
+	"id": "g8.health_pe.mental_health_support",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you learnt the five ways to wellbeing. Can you name two? (Connect, be active, keep learning, give, take notice.) Today: anxiety and low mood, what helps, and where to get help."
+		},
+		{
+			"text": "Anxiety is the body's alarm: fight, flight or freeze. The heart races, breathing speeds up, the tummy feels tight. It helps in real danger. It becomes a problem when it rings often, or for no clear reason."
+		},
+		{
+			"text": "A little pressure helps you do well; too much makes everything harder. Everyone has a best zone in the middle. Notice when you slide towards too much.",
+			"picture": {
+				"kind": "feeling_curve",
+				"view": "pressure",
+				"point": 0.82
+			}
+		},
+		{
+			"text": "Low mood is feeling sad, flat or empty for a while. Signs include losing interest, feeling tired, sleeping too much or too little, and pulling away from friends. Everyone has low days. Talk to someone if it lasts."
+		},
+		{
+			"text": "A thinking trap makes things seem worse than they are: expecting a disaster, mind reading, all-or-nothing. Catch the thought, check it, and swap it for a fairer one: 'They might just be busy.'"
+		},
+		{
+			"text": "Avoiding what scares you brings relief now, but the fear comes back stronger. If you stay, step by step, anxiety rises, peaks and falls. Slow breathing helps it fall.",
+			"picture": {
+				"kind": "feeling_curve",
+				"view": "stay"
+			}
+		},
+		{
+			"text": "Get help if it lasts more than two weeks, stops everyday life, or you ever think of hurting yourself. Tell a trusted adult or your GP. Childline is free on 0800 1111. Worried about a friend? Listen, then help them tell an adult.",
+			"picture": {
+				"kind": "breath_box",
+				"words": true
+			}
+		},
+		{
+			"text": "Try it in the world: make a 'what helps me' card with three things that calm you. In LIFE, Calm Corner practises calming a stressed body and talking about worries. Next: bouncing back."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Anxiety is the body's alarm system, and it can help in real danger.",
+			"answer": true,
+			"hint": "Think of fight, flight or freeze.",
+			"explain": "True: anxiety gets the body ready to act; it becomes a problem when it rings too often."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "A sign of anxiety, or a sign of low mood?",
+			"groups": [
+				"anxiety",
+				"low mood"
+			],
+			"items": [
+				"fast breathing",
+				"a tight tummy before a test",
+				"losing interest in hobbies",
+				"feeling flat for weeks",
+				"a racing heart"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Anxiety is the alarm going off; low mood is feeling down and flat.",
+			"explain": "Anxiety: a racing heart, fast breathing, a tight tummy. Low mood: losing interest, feeling flat for weeks."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is a helpful way to cope with stress?",
+			"choices": [
+				"a walk outside with a friend",
+				"staying up all night online",
+				"keeping every worry secret",
+				"skipping meals"
+			],
+			"answer": 0,
+			"hint": "Which choice still helps next week, not just for a minute?",
+			"explain": "Fresh air, movement and company all lower stress; the others make it worse over time."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Childline's free number is 0800 1111. How many 1s are in the number?",
+			"answer": "4",
+			"hint": "Read the number digit by digit.",
+			"explain": "0800 1111 has four 1s at the end."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the 'best zone' on the pressure curve?",
+			"picture": {
+				"kind": "feeling_curve",
+				"view": "pressure"
+			},
+			"choices": [
+				"enough pressure to focus, not too much",
+				"no pressure at all",
+				"as much pressure as possible",
+				"pressure only at night"
+			],
+			"answer": 0,
+			"hint": "Look at where the curve is highest.",
+			"explain": "The curve is highest in the middle: a little pressure helps you focus, too much makes it harder."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each thought to its thinking trap.",
+			"items": [
+				"They didn't reply: they hate me",
+				"One mistake: it's all ruined",
+				"I'll definitely mess it up",
+				"A late bus: my day's a disaster"
+			],
+			"matches": [
+				"fortune telling",
+				"mind reading",
+				"catastrophising",
+				"all-or-nothing"
+			],
+			"answer": [
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Is it guessing minds, seeing extremes, predicting, or expecting the worst?",
+			"explain": "Mind reading, all-or-nothing, fortune telling and catastrophising: each thought jumps past the facts."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What happens to anxiety if you stay in a scary but safe situation?",
+			"picture": {
+				"kind": "feeling_curve",
+				"view": "stay"
+			},
+			"choices": [
+				"it rises, peaks, then falls",
+				"it keeps rising for ever",
+				"it disappears at once",
+				"it turns into anger"
+			],
+			"answer": 0,
+			"hint": "Look at the blue curve.",
+			"explain": "If you stay, anxiety rises, reaches a peak, then falls, and next time it is easier."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Avoiding everything that makes you anxious makes the fear smaller in the long run.",
+			"answer": false,
+			"hint": "Look at the red dashed line on the curve: what happens next time?",
+			"explain": "False: avoiding brings relief now, but the fear comes back stronger next time."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps for a worrying thought in order.",
+			"items": [
+				"notice the thought",
+				"do something helpful",
+				"find a fairer thought",
+				"check the facts"
+			],
+			"answer": [
+				0,
+				3,
+				2,
+				1
+			],
+			"hint": "Catch it, check it, change it, then act.",
+			"explain": "Notice the thought, check it against the facts, swap it for a fairer one, then do something helpful."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A friend has seemed low for weeks and says, 'Don't tell anyone.' What do you do?",
+			"choices": [
+				"listen, then help them tell a trusted adult",
+				"promise to keep it secret",
+				"ignore it",
+				"tell the whole class"
+			],
+			"answer": 0,
+			"hint": "Who can really help, and is this a secret that keeps them safe?",
+			"explain": "Listening helps; a trusted adult can get real support, so you help your friend tell one."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Box breathing: in for 4, hold for 4, out for 4, hold for 4. How many seconds is one round of the box?",
+			"picture": {
+				"kind": "breath_box",
+				"words": true
+			},
+			"answer": "16",
+			"hint": "Add the four sides.",
+			"explain": "4 + 4 + 4 + 4 = 16 seconds for one round."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "When should Mo get help from a GP or trusted adult about low mood?",
+			"choices": [
+				"if it lasts over two weeks or stops daily life",
+				"only if it lasts a whole year",
+				"never: just ignore it",
+				"only after exams"
+			],
+			"answer": 0,
+			"hint": "The lesson gave a time and a sign.",
+			"explain": "If low mood lasts more than two weeks, or stops everyday life, it is time to get help."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is a fairer thought instead of 'Everyone thinks I'm boring'?",
+			"choices": [
+				"I don't know that; some people enjoy my company",
+				"Everyone does think it",
+				"I should stop talking",
+				"Nobody will ever like me"
+			],
+			"answer": 0,
+			"hint": "A fair thought is true and kind, and does not guess other minds.",
+			"explain": "You can't read minds; the fair thought checks the facts: some people do enjoy your company."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If someone ever says they want to hurt themselves, tell a trusted adult straight away.",
+			"answer": true,
+			"hint": "Is this a secret to keep, or a safety worry?",
+			"explain": "True: it is a safety worry. Tell a trusted adult at once, or call 999 if they are in danger now."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Helpful or unhelpful in the long run?",
+			"groups": [
+				"helpful",
+				"unhelpful"
+			],
+			"items": [
+				"blaming yourself for everything",
+				"a regular bedtime",
+				"talking to someone",
+				"staying up late to forget",
+				"avoiding school",
+				"breaking work into steps"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Helpful ways still help next week; unhelpful ones only hide the problem.",
+			"explain": "Helpful: talking, a regular bedtime, small steps. Unhelpful: staying up late, avoiding school, blaming yourself."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Your heart races before a talk in class. What helps you stay in your best zone?",
+			"choices": [
+				"slow breaths and practise the first line",
+				"leave the room",
+				"tell yourself it will go badly",
+				"skip the talk"
+			],
+			"answer": 0,
+			"hint": "Which choice calms your body and gets you started?",
+			"explain": "Slow breathing calms the alarm, and knowing your first line gets you going: you move back into the best zone."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.thinking_trap",
+			"level": 1
+		},
+		{
+			"gen": "g8l.thinking_trap",
+			"level": 2
+		},
+		{
+			"gen": "g8l.thinking_trap",
+			"level": 3
+		},
+		{
+			"gen": "g8l.coping_choice",
+			"level": 1
+		},
+		{
+			"gen": "g8l.coping_choice",
+			"level": 2
+		},
+		{
+			"gen": "g8l.coping_choice",
+			"level": 3
+		}
+	]
+}

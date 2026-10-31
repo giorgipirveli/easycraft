@@ -1,0 +1,511 @@
+{
+	"id": "g6.music.theme_variations",
+	"lesson": [
+		{
+			"text": "Quick memory: what makes a tune sound minor? (The third note above its home note is 3 semitones up, not 4.) Today: theme and variations."
+		},
+		{
+			"text": "A theme is a tune. In a theme and variations, the composer plays the theme, then changes it again and again, while you can still recognise it.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"C4",
+					"G4",
+					"G4",
+					"A4",
+					"A4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"text": "Change the rhythm: make some notes longer, shorter or bouncier. The notes stay the same; the feel changes.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4:2",
+					"C4",
+					"G4:2",
+					"G4",
+					"A4:2",
+					"A4",
+					"G4:2"
+				]
+			}
+		},
+		{
+			"text": "Change the pitch: play the whole tune higher or lower, or decorate it with extra notes around it. You can even turn it upside down or play it backwards.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"C5",
+					"G5",
+					"G5",
+					"A5",
+					"A5",
+					"G5:2"
+				]
+			},
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C5",
+					"C5",
+					"G5",
+					"G5",
+					"A5",
+					"A5",
+					"G5"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Change the harmony: play it in minor instead of major, or with new chords under it. The same tune can sound happy, then sad.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"C4",
+					"G4",
+					"G4",
+					"Ab4",
+					"Ab4",
+					"G4:2",
+					"F4",
+					"F4",
+					"Eb4",
+					"Eb4",
+					"D4",
+					"D4",
+					"C4:2"
+				]
+			}
+		},
+		{
+			"text": "Mozart wrote 12 variations on the tune we sing as Twinkle, Twinkle, around 1781. Haydn's Surprise Symphony (1791) varies its theme too, and Elgar's Enigma Variations (1899) make each variation a portrait of a friend.",
+			"picture": {
+				"kind": "lifespans",
+				"people": [
+					[
+						"Haydn",
+						1732,
+						1809
+					],
+					[
+						"Mozart",
+						1756,
+						1791
+					],
+					[
+						"Elgar",
+						1857,
+						1934
+					]
+				],
+				"from": 1700,
+				"to": 1950
+			}
+		},
+		{
+			"text": "Worked example: the theme C C G G A A G. Variation 1 changes the rhythm to long-short pairs. Variation 2 plays it an octave higher. Variation 3 turns it minor, with A flat and E flat.",
+			"picture": {
+				"kind": "stave",
+				"notes": [
+					"C4",
+					"C4",
+					"G4",
+					"G4",
+					"A4",
+					"A4",
+					"G4"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Try it in the world: take a tune you know and make three variations: change its rhythm, sing it higher, then make it sad. Next: keyboard skills."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen: a theme, a short rest, then a variation. What changed?",
+			"answer": 0,
+			"hint": "Are the notes the same? Are they as long?",
+			"choices": [
+				"the rhythm (the notes' lengths)",
+				"the pitch: the same tune higher"
+			],
+			"explain": "The same notes come back, but some are held longer: the rhythm changed.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"-",
+					"C4:2",
+					"E4",
+					"G4:2",
+					"E4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen: a theme, a short rest, then a variation. What changed?",
+			"answer": 0,
+			"hint": "Is the second tune the same shape, but higher?",
+			"choices": [
+				"the pitch: the same tune higher",
+				"the rhythm (the notes' lengths)"
+			],
+			"explain": "The same tune comes back an octave higher: the pitch changed.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"C4",
+					"-",
+					"C5",
+					"D5",
+					"E5",
+					"C5"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the theme in a theme and variations?",
+			"answer": 0,
+			"hint": "It comes first, then gets varied.",
+			"choices": [
+				"the main tune that gets changed",
+				"the loudest note",
+				"the last chord",
+				"the audience"
+			],
+			"explain": "The theme is the tune that each variation changes."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In a variation, you should still be able to recognise the theme.",
+			"answer": true,
+			"hint": "Otherwise, what is it a variation of?",
+			"explain": "True: the theme is changed, but not lost."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: a theme, a short rest, then a variation. What changed?",
+			"answer": 0,
+			"hint": "Does the variation sound sadder?",
+			"choices": [
+				"the harmony: major to minor",
+				"the rhythm (the notes' lengths)",
+				"the pitch: the same tune higher"
+			],
+			"explain": "E became E flat, so the bright major tune turned minor: the harmony changed.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"-",
+					"C4",
+					"Eb4",
+					"G4",
+					"Eb4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen: a theme, a short rest, then a variation. What changed?",
+			"answer": 0,
+			"hint": "Same notes, same height? Then what?",
+			"choices": [
+				"the rhythm (the notes' lengths)",
+				"the harmony: major to minor",
+				"the pitch: the same tune higher"
+			],
+			"explain": "The same notes at the same height, but some are held twice as long: the rhythm.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"G4",
+					"E4",
+					"C4",
+					"E4",
+					"-",
+					"G4:2",
+					"E4",
+					"C4:2",
+					"E4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Mozart wrote variations on which tune?",
+			"answer": 0,
+			"hint": "A tune every child knows.",
+			"choices": [
+				"the tune of Twinkle, Twinkle",
+				"a pop song",
+				"a football chant",
+				"a birthday song"
+			],
+			"explain": "Mozart's 12 variations are on the tune we sing as Twinkle, Twinkle."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each change to an example.",
+			"items": [
+				"rhythm",
+				"pitch",
+				"harmony",
+				"decoration"
+			],
+			"matches": [
+				"extra notes around it",
+				"long-short, not even",
+				"an octave higher",
+				"major turned to minor"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Lengths, height, mood, extra notes.",
+			"explain": "Rhythm changes lengths, pitch moves it higher, harmony turns it minor, and decoration adds notes."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Playing a tune in minor instead of major is a change of harmony.",
+			"answer": true,
+			"hint": "What changes: the notes' lengths, or the chords and mood?",
+			"explain": "True: major to minor changes the harmony and the mood."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which change can make a happy tune sound sad?",
+			"answer": 0,
+			"hint": "Think of major and minor.",
+			"choices": [
+				"playing it in minor",
+				"playing it louder",
+				"playing it on a drum",
+				"clapping along"
+			],
+			"explain": "Minor often sounds sadder, so playing it in minor changes the mood."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen: a theme, a short rest, then a variation. What changed?",
+			"answer": 0,
+			"hint": "Are the notes the same, but in a different order?",
+			"choices": [
+				"the order: it goes backwards",
+				"the pitch: the same tune higher",
+				"the harmony: major to minor",
+				"the rhythm (the notes' lengths)"
+			],
+			"explain": "The same notes come in the opposite order: the tune goes backwards.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"G4",
+					"-",
+					"G4",
+					"E4",
+					"D4",
+					"C4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen: a theme, a short rest, then a variation. What changed?",
+			"answer": 0,
+			"hint": "Is it the same order and height, but darker?",
+			"choices": [
+				"the harmony: major to minor",
+				"the order: it goes backwards",
+				"the pitch: the same tune higher",
+				"the rhythm (the notes' lengths)"
+			],
+			"explain": "E became E flat: the major tune turned minor.",
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"E4",
+					"G4",
+					"C5",
+					"G4",
+					"-",
+					"Eb4",
+					"G4",
+					"C5",
+					"G4"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Elgar's Enigma Variations make each variation a portrait of what?",
+			"answer": 0,
+			"hint": "Each one is a person he knew.",
+			"choices": [
+				"one of his friends",
+				"a city",
+				"a season",
+				"an animal"
+			],
+			"explain": "Each variation is a musical portrait of one of Elgar's friends."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A theme lasts 16 bars. A piece plays the theme, then 12 variations of 16 bars each. How many bars in all?",
+			"answer": "208",
+			"hint": "Count the theme and the variations: 13 parts of 16 bars.",
+			"explain": "1 + 12 = 13 parts, and 13 × 16 = 208 bars."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A variation that plays the notes in the opposite order is playing the tune backwards.",
+			"answer": true,
+			"hint": "Think of C D E G then G E D C.",
+			"explain": "True: opposite order is backwards."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which variation keeps the notes but changes how long they last?",
+			"answer": 0,
+			"hint": "Lengths are rhythm.",
+			"choices": [
+				"a rhythm variation",
+				"a pitch variation",
+				"a minor variation",
+				"a backwards variation"
+			],
+			"explain": "Changing how long notes last is a rhythm variation."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these pieces in time order, oldest first.",
+			"items": [
+				"Elgar's Enigma Variations",
+				"Haydn's Surprise Symphony",
+				"Mozart's Twinkle variations"
+			],
+			"answer": [
+				2,
+				1,
+				0
+			],
+			"hint": "Look for the years on the card: 1781, 1791 and 1899.",
+			"explain": "Mozart's Twinkle variations (about 1781), Haydn's Surprise Symphony (1791), then Elgar's Enigma Variations (1899)."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "What does each variation change?",
+			"items": [
+				"make the notes bouncier",
+				"play it an octave higher",
+				"play it in minor",
+				"turn it upside down"
+			],
+			"groups": [
+				"rhythm",
+				"pitch",
+				"harmony"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				1
+			],
+			"hint": "Is it about long and short, high and low, or the chords and key?",
+			"explain": "Bouncier notes change the rhythm; higher or upside down changes the pitch; minor changes the harmony."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Haydn wrote his Surprise Symphony in 1791. Elgar finished his Enigma Variations in 1899. How many years apart are they?",
+			"answer": "108",
+			"hint": "Take the earlier year from the later one.",
+			"explain": "1899 − 1791 = 108 years apart, yet both composers used the same idea: a theme, then variations."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "The theme is C C G G A A G. Match each variation to what it changed.",
+			"items": [
+				"G A A G G C C",
+				"C C G G A flat A flat G",
+				"the same notes, long-short",
+				"the same notes, an octave up"
+			],
+			"matches": [
+				"the harmony: minor",
+				"the rhythm",
+				"the order: backwards",
+				"the pitch: higher"
+			],
+			"answer": [
+				2,
+				0,
+				1,
+				3
+			],
+			"hint": "Compare each one with the theme: are the notes reversed, flattened, longer, or higher?",
+			"explain": "G A A G G C C is the theme backwards: the order. A flat turns it minor: the harmony. Long-short lengths change the rhythm. An octave up changes the pitch."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.variation_change",
+			"level": 1
+		},
+		{
+			"gen": "g6c.variation_change",
+			"level": 2
+		},
+		{
+			"gen": "g6c.variation_change",
+			"level": 3
+		}
+	]
+}

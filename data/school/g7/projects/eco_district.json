@@ -1,0 +1,348 @@
+{
+	"id": "g7.projects.eco_district",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you measured your footprint. What does a carbon footprint count? (The gases that warm the planet.) In this project you plan, build, measure and present a district that uses less energy and water."
+		},
+		{
+			"text": "Step 1, plan: homes, a school, shops and a park for about 100 families, close enough to walk. The aims: less energy, water, waste and carbon, and more nature. Real examples: BedZED in London and Vauban in Freiburg, Germany.",
+			"picture": {
+				"kind": "site_plan",
+				"rows": [
+					"HHpHHpTT~~",
+					"ppppppTT~~",
+					"HHpHHp##TT",
+					"HHpHHp##TT"
+				],
+				"north": true,
+				"key": true
+			}
+		},
+		{
+			"text": "Step 2, energy. Keep heat in: about a quarter of a home's heat can escape through a roof with no insulation, so add loft insulation and double glazing. Make clean energy with solar panels, and heat pumps that move warmth in from outside.",
+			"picture": {
+				"kind": "eco_home",
+				"labels": true
+			}
+		},
+		{
+			"text": "Energy is measured in kilowatt-hours (kWh): the power in kW × the hours. A 2 kW heater for 3 hours uses 2 × 3 = 6 kWh. An 8 W LED gives as much light as an old 60 W bulb, saving 52 W in every lamp."
+		},
+		{
+			"text": "Step 3, water. A person in the UK uses about 140 litres a day. Save it with short showers, dual-flush toilets and mended leaks. Collect rain: 1 mm of rain on 1 m² of roof is 1 litre. Green roofs and grass soak up storms."
+		},
+		{
+			"text": "Step 4, travel and nature: paths for walking and cycling, buses or trams, and shops a short walk away. Trees give shade, clean the air and store carbon; ponds and wild flowers bring birds and bees."
+		},
+		{
+			"text": "Step 5, measure the footprint: a home's energy, water and waste in a year, before and after. Electricity makes about 0.2 kg of carbon dioxide for each kWh. Step 6, present your district: its map, its numbers and what you would improve.",
+			"picture": {
+				"kind": "column_chart",
+				"bars": [
+					[
+						"old home",
+						4000
+					],
+					[
+						"eco home",
+						1500
+					]
+				],
+				"to": 4000,
+				"step": 500,
+				"title": "energy, kWh a year"
+			}
+		},
+		{
+			"text": "Try it in the world: build your eco-district in your world: homes with solar roofs and rain butts, paths and a park. In LIFE, Real Builder lets you build a small house brick by brick: plan where its insulation would go. Next: a mini business."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these makes electricity from sunlight?",
+			"choices": [
+				"solar panels",
+				"a rain butt",
+				"loft insulation",
+				"double glazing"
+			],
+			"answer": 0,
+			"hint": "Which one faces the sky and needs the sun?",
+			"explain": "Solar panels turn sunlight into electricity."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A 2 kW heater runs for 4 hours. How many kWh of energy does it use?",
+			"answer": "8",
+			"hint": "Energy in kWh = power in kW × hours.",
+			"explain": "2 × 4 = 8 kWh."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "1 mm of rain on 1 m² of roof makes 1 litre of water.",
+			"answer": true,
+			"hint": "Think of a square metre with water 1 mm deep.",
+			"explain": "True: 1 m × 1 m × 1 mm is 1 litre."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Does it save energy or water?",
+			"groups": [
+				"saves energy",
+				"saves water"
+			],
+			"items": [
+				"fixing a dripping tap",
+				"a rain butt",
+				"an LED bulb",
+				"a heat pump",
+				"a dual-flush toilet",
+				"loft insulation"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it about heat and electricity, or about water?",
+			"explain": "Energy: insulation, LED bulbs, a heat pump. Water: a rain butt, a dual-flush toilet, fixing a drip."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each feature to what it does.",
+			"items": [
+				"insulation",
+				"heat pump",
+				"green roof",
+				"solar panels"
+			],
+			"matches": [
+				"make electricity from sun",
+				"soaks up rain",
+				"moves warmth in from outside",
+				"keeps heat in"
+			],
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What does each part of an eco-home do?",
+			"explain": "Insulation: keeps heat in. Heat pump: moves warmth in. Green roof: soaks up rain. Solar panels: electricity."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the eco-home: tap a word, then its number.",
+			"spots": [
+				[
+					0.3403,
+					0.09,
+					0.3403,
+					0.2691
+				],
+				[
+					0.5564,
+					0.09,
+					0.5564,
+					0.4112
+				],
+				[
+					0.3403,
+					0.91,
+					0.3403,
+					0.6243
+				],
+				[
+					0.8428,
+					0.91,
+					0.8428,
+					0.7842
+				],
+				[
+					0.1149,
+					0.91,
+					0.1149,
+					0.7753
+				]
+			],
+			"labels": [
+				"heat pump",
+				"rain butt",
+				"double glazing",
+				"solar panels",
+				"insulation"
+			],
+			"answer": [
+				3,
+				4,
+				2,
+				0,
+				1
+			],
+			"hint": "Roof, loft, windows, garden: what saves energy or water in each place?",
+			"explain": "Solar panels on the roof and insulation in the loft; double glazing in the window. The heat pump stands outside, and the rain butt by the drainpipe.",
+			"picture": {
+				"kind": "eco_home"
+			}
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Plan the park as a rectangle with an area of 24 squares and a perimeter of 22.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 3,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 24,
+				"perimeter": 22
+			},
+			"hint": "Which two numbers multiply to 24 and add up to 11?",
+			"explain": "8 by 3: 8 × 3 = 24 squares, and 8 + 3 + 8 + 3 = 22."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Changing 12 old 60 W bulbs for 8 W LEDs saves how many watts?",
+			"answer": "624",
+			"hint": "Find the saving for one bulb, then multiply.",
+			"explain": "60 − 8 = 52 W a bulb, and 52 × 12 = 624 W."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which way to school is best for the district's footprint?",
+			"choices": [
+				"walking or cycling",
+				"a car for one person",
+				"a taxi",
+				"a big car left running"
+			],
+			"answer": 0,
+			"hint": "Which one burns no fuel at all?",
+			"explain": "Walking or cycling: no fuel, no carbon, and healthy too."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A roof of 30 m² gets 12 mm of rain. How many litres can the rain butts collect?",
+			"answer": "360",
+			"hint": "Multiply the area by the depth of rain in mm.",
+			"explain": "30 × 12 = 360 litres."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Trees in a district help by giving shade and storing carbon.",
+			"answer": true,
+			"hint": "What do trees take in as they grow?",
+			"explain": "True: trees store carbon, shade streets and clean the air."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A home uses 2,500 kWh of electricity a year. At about 0.2 kg of carbon dioxide for each kWh, how many kg is that?",
+			"answer": "500",
+			"hint": "0.2 is a fifth: divide by 5.",
+			"explain": "2,500 × 0.2 = 2,500 ÷ 5 = 500 kg."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "100 families each save 30 litres of water a day. How many litres does the district save in a week?",
+			"answer": "21000",
+			"hint": "Find a day's saving for the district, then multiply by 7.",
+			"explain": "100 × 30 = 3,000 litres a day, and 3,000 × 7 = 21,000 litres a week."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "An old home loses a lot of heat through its roof. What should come first?",
+			"choices": [
+				"loft insulation, to keep heat in",
+				"a bigger heater",
+				"open windows",
+				"painting the roof"
+			],
+			"answer": 0,
+			"hint": "Is it better to make more heat, or stop it escaping?",
+			"explain": "Loft insulation: stop the heat escaping first, then you need less energy."
+		},
+		{
+			"type": "build",
+			"level": 3,
+			"prompt": "The roof has 10 squares. Make 3/5 of it a green roof.",
+			"board": {
+				"cols": 5,
+				"rows": 2,
+				"block": 2,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "fraction",
+				"num": 3,
+				"den": 5
+			},
+			"hint": "How many squares is 1/5 of 10?",
+			"explain": "1/5 of 10 is 2, so 3/5 is 6 squares."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A heat pump makes heat from nothing, with no electricity.",
+			"answer": false,
+			"hint": "What does it use to move the warmth?",
+			"explain": "False: it uses electricity to move warmth in from outside, giving about 3 units of heat for each unit used."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "An eco-home's energy fell from 4,000 to 1,500 kWh a year. By what percentage did it fall?",
+			"answer": "62.5",
+			"hint": "Find the fall, then compare it with the old amount.",
+			"explain": "4,000 − 1,500 = 2,500, and 2,500 ÷ 4,000 = 0.625, so 62.5%."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.energy_use",
+			"level": 1
+		},
+		{
+			"gen": "g7w.energy_use",
+			"level": 2
+		},
+		{
+			"gen": "g7w.energy_use",
+			"level": 3
+		},
+		{
+			"gen": "g7w.water_saving",
+			"level": 1
+		},
+		{
+			"gen": "g7w.water_saving",
+			"level": 2
+		},
+		{
+			"gen": "g7w.water_saving",
+			"level": 3
+		}
+	]
+}

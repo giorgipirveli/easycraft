@@ -1,0 +1,371 @@
+{
+	"id": "g7.citizenship.media_bias",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you learned to tell facts from opinions. How? (A fact can be checked; an opinion is what someone thinks.) Today: how news is chosen, how it can be biased, and how to check it."
+		},
+		{
+			"text": "Far more happens each day than any news can cover, so editors choose: this is gatekeeping. A story is more likely to be news if it is new, close to home or affects many people. Famous people, conflict, surprise and strong pictures help too."
+		},
+		{
+			"text": "Bias is a one-sided way of telling a story. It can hide in what is left out, who is quoted, where a story is placed and which pictures are used. Word choice matters too: 'a crowd gathered' and 'a mob gathered' tell it differently."
+		},
+		{
+			"text": "Charts can mislead too. If a bar chart's axis starts at 50 instead of 0, 54 looks twice as tall as 52. Yet it is only about 4% more. Always check where the axis starts, and read the numbers, not just the heights.",
+			"picture": {
+				"kind": "cut_axis_bars",
+				"bars": [
+					[
+						"Oak",
+						52
+					],
+					[
+						"River",
+						54
+					]
+				],
+				"from": 50,
+				"to": 55,
+				"step": 1,
+				"full": true
+			}
+		},
+		{
+			"text": "Check claims before you believe or share them. Stop. Investigate the source: who made it, and why? Find other trusted reports: what do they say? Trace the claim back to where it began. This is called SIFT.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"Stop",
+					"Investigate the source",
+					"Find other reports",
+					"Trace the claim back"
+				],
+				"title": "SIFT"
+			}
+		},
+		{
+			"text": "Online, apps show you more of what you already click, so you may see only one side: an echo chamber. Pictures can be edited or made by AI, and old photos shared as if new. Adverts can look like news: look for the word 'sponsored'."
+		},
+		{
+			"text": "Good journalism checks facts with more than one source and keeps news apart from opinion. It corrects its mistakes and gives people a fair chance to reply. Reading several sources with different views helps you see the whole story."
+		},
+		{
+			"text": "Try it in the world: write two news signs about the same event in your world, one fair and one biased. Ask a friend to spot the loaded words and what was left out. Next: global citizens."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is bias?",
+			"answer": 0,
+			"hint": "Think of a story told only from one side.",
+			"choices": [
+				"a one-sided way of telling a story",
+				"a true fact",
+				"a kind of chart",
+				"a newspaper's name"
+			],
+			"explain": "A one-sided way of telling a story, through what is chosen, left out or how it is worded."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which word makes this headline loaded: “Mob gathers at the new park”?",
+			"answer": 0,
+			"hint": "Which word judges the people, not just describes them?",
+			"choices": [
+				"mob",
+				"gathers",
+				"new",
+				"park"
+			],
+			"explain": "Mob: it paints the people as dangerous; 'crowd' would be neutral."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Every chart's bars show the true size of a difference.",
+			"answer": false,
+			"hint": "Where does the axis start?",
+			"explain": "False: if the axis does not start at 0, the bars' heights can mislead.",
+			"picture": {
+				"kind": "cut_axis_bars",
+				"bars": [
+					[
+						"Oak",
+						52
+					],
+					[
+						"River",
+						54
+					]
+				],
+				"from": 50,
+				"to": 55,
+				"step": 1,
+				"full": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does the S in SIFT stand for?",
+			"answer": 0,
+			"hint": "Before anything else, pause.",
+			"choices": [
+				"Stop",
+				"Search",
+				"Share",
+				"Sort"
+			],
+			"explain": "Stop: pause before believing or sharing."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an echo chamber?",
+			"answer": 0,
+			"hint": "Think of apps showing you more of what you already click.",
+			"choices": [
+				"seeing only views like your own",
+				"a cave",
+				"a loud room",
+				"a news channel"
+			],
+			"explain": "When you only see views like your own, because apps show more of the same."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these sentences: fact or opinion?",
+			"groups": [
+				"fact",
+				"opinion"
+			],
+			"items": [
+				"The match ended 3-1.",
+				"It was the best match ever.",
+				"The bridge is 40 m long.",
+				"The bridge is ugly.",
+				"Tickets cost 5 gold.",
+				"Tickets are far too dear."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Could you check it with a measurement or a record?",
+			"explain": "Facts: the score, the length, the price. Opinions: best match, ugly, far too dear."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "On this chart, how many times as tall as Oak's bar does River's bar look?",
+			"answer": "2",
+			"hint": "Measure each bar from where the axis starts, not from 0.",
+			"explain": "From 50: Oak's bar is 52 − 50 = 2; River's is 54 − 50 = 4; 4 ÷ 2 = 2 times as tall.",
+			"picture": {
+				"kind": "cut_axis_bars",
+				"bars": [
+					[
+						"Oak",
+						52
+					],
+					[
+						"River",
+						54
+					]
+				],
+				"from": 50,
+				"to": 55,
+				"step": 1
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do editors choose some stories and not others?",
+			"answer": 0,
+			"hint": "Think of how much happens each day.",
+			"choices": [
+				"there is too much news to fit",
+				"they only like good news",
+				"all news is the same",
+				"readers choose every story"
+			],
+			"explain": "More happens than can ever be reported, so editors choose what they think matters most to readers."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"gatekeeping",
+				"sponsored",
+				"source",
+				"correction"
+			],
+			"matches": [
+				"fixing a mistake",
+				"choosing which stories run",
+				"paid for by an advertiser",
+				"where information comes from"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "One is choosing, one is paying, one is where, one is fixing.",
+			"explain": "Gatekeeping: choosing. Sponsored: paid for. Source: where it came from. Correction: fixing a mistake."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "What should you check first about a shocking post?",
+			"answer": 0,
+			"hint": "The I in SIFT.",
+			"choices": [
+				"who made it and why",
+				"how many likes it has",
+				"whether it is in capitals",
+				"its colours"
+			],
+			"explain": "Who made it and why: investigate the source before believing or sharing."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Oak's number is 52 and River's is 54. By what percentage is River's really bigger? Round to the nearest whole number.",
+			"answer": "4",
+			"hint": "Find the difference, then what percentage it is of Oak's number.",
+			"explain": "54 − 52 = 2; 2 ÷ 52 × 100 is about 3.8, so about 4%.",
+			"picture": {
+				"kind": "cut_axis_bars",
+				"bars": [
+					[
+						"Oak",
+						52
+					],
+					[
+						"River",
+						54
+					]
+				],
+				"from": 50,
+				"to": 55,
+				"step": 1,
+				"full": true
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Two reports of one event quote only people from one side. What is this?",
+			"answer": 0,
+			"hint": "Whose voices are missing?",
+			"choices": [
+				"bias by choosing sources",
+				"a fair report",
+				"a correction",
+				"an advert"
+			],
+			"explain": "Bias: by choosing only one side's sources, the reports leave the other side out."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If many people share a post, it must be true.",
+			"answer": false,
+			"hint": "Can a false story spread fast?",
+			"explain": "False: false stories often spread faster than true ones; check before you believe."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the best way to check a claim?",
+			"answer": 0,
+			"hint": "The F in SIFT.",
+			"choices": [
+				"find other trusted reports of it",
+				"believe the first post",
+				"ask only the person who posted it",
+				"count its likes"
+			],
+			"explain": "Find better coverage: see what other trusted sources report."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A photo of a flood is shared as today's news. What should you check?",
+			"answer": 0,
+			"hint": "Old photos are often shared as if new.",
+			"choices": [
+				"whether it is old or edited",
+				"its colours",
+				"how big it is",
+				"who liked it"
+			],
+			"explain": "Whether it is an old or edited photo: trace it back to where it first appeared."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the words a reporter might use: neutral, or loaded?",
+			"groups": [
+				"neutral",
+				"loaded"
+			],
+			"items": [
+				"crowd",
+				"mob",
+				"said",
+				"claimed",
+				"protesters",
+				"troublemakers"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "A loaded word adds a judgement the reader may not notice.",
+			"explain": "Neutral: crowd, said and protesters just report. Loaded: mob and troublemakers paint people as dangerous, and claimed hints that someone is not telling the truth."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.fact_check",
+			"level": 1
+		},
+		{
+			"gen": "g7h.fact_check",
+			"level": 2
+		},
+		{
+			"gen": "g7h.fact_check",
+			"level": 3
+		},
+		{
+			"gen": "g7h.cut_axis",
+			"level": 1
+		},
+		{
+			"gen": "g7h.cut_axis",
+			"level": 2
+		},
+		{
+			"gen": "g7h.cut_axis",
+			"level": 3
+		}
+	]
+}

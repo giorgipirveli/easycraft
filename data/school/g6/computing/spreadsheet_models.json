@@ -1,0 +1,508 @@
+{
+	"id": "g6.computing.spreadsheet_models",
+	"lesson": [
+		{
+			"text": "Quick memory: what does =SUM(B2:B4) do? (It adds up every cell from B2 to B4.) Today: using a spreadsheet as a model to answer questions."
+		},
+		{
+			"text": "A model is a small copy of a real situation that you can test. A spreadsheet model uses numbers and formulas to answer what-if questions, like 'Can our class afford the trip?'"
+		},
+		{
+			"text": "Inputs are the numbers you can change, like prices and how many. Formulas do the working out. Outputs are the answers, like the total. Keep them clear and labelled.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Cost",
+						"Gold",
+						"How many",
+						"Total"
+					],
+					[
+						"bus",
+						"120",
+						"1",
+						"=B2*C2"
+					],
+					[
+						"tickets",
+						"6",
+						"25",
+						"=B3*C3"
+					],
+					[
+						"Total",
+						"",
+						"",
+						"=SUM(D2:D3)"
+					],
+					[
+						"Each",
+						"",
+						"",
+						"=D4/25"
+					]
+				],
+				"mark": "D4"
+			}
+		},
+		{
+			"text": "A cell reference like =B3*C3 uses whatever is in B3 and C3. Change B3, and every formula that uses it works itself out again."
+		},
+		{
+			"text": "More formulas: =AVERAGE(B2:B5) shares the total equally among the cells, and =D4/25 divides D4 by 25. In formulas, * multiplies and / divides."
+		},
+		{
+			"text": "Worked example: a class trip. The bus is 120 gold and 25 tickets are 6 gold each. The model works out 25 × 6 = 150, then 120 + 150 = 270 gold, and =D4/25 shares it: 10.8 gold each.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Cost",
+						"Gold",
+						"How many",
+						"Total"
+					],
+					[
+						"bus",
+						"120",
+						"1",
+						"=B2*C2"
+					],
+					[
+						"tickets",
+						"6",
+						"25",
+						"=B3*C3"
+					],
+					[
+						"Total",
+						"",
+						"",
+						"=SUM(D2:D3)"
+					],
+					[
+						"Each",
+						"",
+						"",
+						"=D4/25"
+					]
+				],
+				"mark": "D5"
+			}
+		},
+		{
+			"text": "What if? Change one input and watch the outputs. If 5 more children come, the total goes up, but each child pays less for the bus. Then chart the results to compare them.",
+			"picture": {
+				"kind": "bar_graph",
+				"bars": [
+					[
+						"20 go",
+						5
+					],
+					[
+						"25 go",
+						4
+					]
+				],
+				"step": 1,
+				"top": 5,
+				"name": "Bus gold for each"
+			}
+		},
+		{
+			"text": "Try it in the world: plan a party or a garden in a spreadsheet, with inputs for prices and amounts, formulas for the totals, and a chart. Next: keeping accounts safe."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "In a spreadsheet model, which are the inputs?",
+			"answer": 0,
+			"hint": "Which cells do you type into when you ask what if?",
+			"choices": [
+				"the numbers you can change",
+				"the formulas",
+				"the chart's title",
+				"the answers"
+			],
+			"explain": "Inputs are the numbers you change, like prices."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What will D2 show?",
+			"answer": "12",
+			"hint": "Multiply the two cells the formula names.",
+			"explain": "=B2*C2 is 3 × 4 = 12.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Item",
+						"Price",
+						"How many",
+						"Cost"
+					],
+					[
+						"rope",
+						"3",
+						"4",
+						"=B2*C2"
+					]
+				],
+				"mark": "D2"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "When you change a number that a formula uses, the formula works itself out again.",
+			"answer": true,
+			"hint": "That is what makes a model useful.",
+			"explain": "True: formulas update by themselves."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which formula finds the average of B2 to B5?",
+			"answer": 0,
+			"hint": "Its name says what it does.",
+			"choices": [
+				"=AVERAGE(B2:B5)",
+				"=SUM(B2:B5)",
+				"=MAX(B2:B5)",
+				"=B2+B5"
+			],
+			"explain": "=AVERAGE(B2:B5) adds them up and shares the total equally."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What will B5 show?",
+			"answer": "10",
+			"hint": "An average: add them, then share by how many there are.",
+			"explain": "8 + 12 + 10 = 30, and 30 ÷ 3 = 10.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Game",
+						"Points"
+					],
+					[
+						"1",
+						"8"
+					],
+					[
+						"2",
+						"12"
+					],
+					[
+						"3",
+						"10"
+					],
+					[
+						"Average",
+						"=AVERAGE(B2:B4)"
+					]
+				],
+				"mark": "B5"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What will D4 show?",
+			"answer": "270",
+			"hint": "Work out each total first, then the SUM.",
+			"explain": "D2 is 120 × 1 = 120 and D3 is 6 × 25 = 150; 120 + 150 = 270.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Cost",
+						"Gold",
+						"How many",
+						"Total"
+					],
+					[
+						"bus",
+						"120",
+						"1",
+						"=B2*C2"
+					],
+					[
+						"tickets",
+						"6",
+						"25",
+						"=B3*C3"
+					],
+					[
+						"Total",
+						"",
+						"",
+						"=SUM(D2:D3)"
+					],
+					[
+						"Each",
+						"",
+						"",
+						"=D4/25"
+					]
+				],
+				"mark": "D4"
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What will A3 show?",
+			"answer": "8",
+			"hint": "The / sign in a formula means divide.",
+			"explain": "=A2/B2 is 48 ÷ 6 = 8 seeds in each pot.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Seeds",
+						"Pots"
+					],
+					[
+						"48",
+						"6"
+					],
+					[
+						"=A2/B2",
+						""
+					]
+				],
+				"mark": "A3"
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each formula to what it does.",
+			"items": [
+				"=SUM(B2:B5)",
+				"=AVERAGE(B2:B5)",
+				"=B2*C2",
+				"=D6/4"
+			],
+			"matches": [
+				"divides by 4",
+				"adds them up",
+				"shares equally",
+				"multiplies two cells"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "* multiplies and / divides.",
+			"explain": "SUM adds, AVERAGE shares the total equally, * multiplies and /4 divides by 4."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which chart best compares the cost of four trips?",
+			"answer": 0,
+			"hint": "You want to see which bar is tallest.",
+			"choices": [
+				"a column chart",
+				"a chart of one number",
+				"no chart",
+				"a list of formulas"
+			],
+			"explain": "A column chart shows each trip's cost side by side."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A model can answer only one question, so you need a new sheet for each what-if.",
+			"answer": false,
+			"hint": "What happens when you change an input?",
+			"explain": "False: change an input and the same model answers the new question."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In the trip model, 30 children come instead of 25, so C3 changes to 30. What total will the model give?",
+			"answer": "300",
+			"hint": "Work out the tickets again, then add the bus.",
+			"explain": "30 × 6 = 180 for tickets; 120 + 180 = 300 gold.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Cost",
+						"Gold",
+						"How many",
+						"Total"
+					],
+					[
+						"bus",
+						"120",
+						"1",
+						"=B2*C2"
+					],
+					[
+						"tickets",
+						"6",
+						"25",
+						"=B3*C3"
+					],
+					[
+						"Total",
+						"",
+						"",
+						"=SUM(D2:D3)"
+					],
+					[
+						"Each",
+						"",
+						"",
+						"=D4/25"
+					]
+				],
+				"mark": "C3"
+			}
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What will D5 show?",
+			"answer": "10.8",
+			"hint": "D5 divides D4 by 25. Work out D4 first.",
+			"explain": "D4 is 270, and 270 ÷ 25 = 10.8 gold.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Cost",
+						"Gold",
+						"How many",
+						"Total"
+					],
+					[
+						"bus",
+						"120",
+						"1",
+						"=B2*C2"
+					],
+					[
+						"tickets",
+						"6",
+						"25",
+						"=B3*C3"
+					],
+					[
+						"Total",
+						"",
+						"",
+						"=SUM(D2:D3)"
+					],
+					[
+						"Each",
+						"",
+						"",
+						"=D4/25"
+					]
+				],
+				"mark": "D5"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The model says each child pays 10.8 gold. Which change makes it cheaper for each child?",
+			"answer": 0,
+			"hint": "The bus costs the same however many come.",
+			"choices": [
+				"more children coming",
+				"a dearer bus",
+				"fewer children",
+				"dearer tickets"
+			],
+			"explain": "More children share the same bus, so each pays less."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What will B6 show?",
+			"answer": "20",
+			"hint": "Add the four days, then share by 4.",
+			"explain": "14 + 22 + 18 + 26 = 80, and 80 ÷ 4 = 20.",
+			"picture": {
+				"kind": "sheet",
+				"cells": [
+					[
+						"Day",
+						"Visitors"
+					],
+					[
+						"Mon",
+						"14"
+					],
+					[
+						"Tue",
+						"22"
+					],
+					[
+						"Wed",
+						"18"
+					],
+					[
+						"Thu",
+						"26"
+					],
+					[
+						"Average",
+						"=AVERAGE(B2:B5)"
+					]
+				],
+				"mark": "B6"
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "In a good model, you type each price once in its own cell, and the formulas refer to that cell.",
+			"answer": true,
+			"hint": "What happens when the price changes?",
+			"explain": "True: change one cell and every formula that uses it updates."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A formula =B2*C2 shows 0. What is the most likely cause?",
+			"answer": 0,
+			"hint": "What is any number times 0?",
+			"choices": [
+				"B2 or C2 is empty or 0",
+				"the chart is wrong",
+				"SUM is missing",
+				"the sheet is too big"
+			],
+			"explain": "Anything × 0 is 0, so B2 or C2 must be empty or 0."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.sheet_model",
+			"level": 1
+		},
+		{
+			"gen": "g6c.sheet_model",
+			"level": 2
+		},
+		{
+			"gen": "g6c.sheet_model",
+			"level": 3
+		}
+	]
+}

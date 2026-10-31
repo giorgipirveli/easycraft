@@ -1,0 +1,26 @@
+You are building part of **EasyCraft**, a Godot 4.7.2 (typed GDScript, Jolt, Voxel Tools 1.7) 3D block game for children (Minecraft/Roblox-like), Android landscape. You are in your own git worktree on a branch cut from `m2-survive-the-night`. Other agents build other M2 tasks in parallel; the lead merges.
+
+**Read first:** `CLAUDE.md`, `docs/DEVELOPMENT.md` (§8 gotchas are hard-won: per-event materials cause 100+ ms frames; simulate things near players only, decide at 10 Hz; collision exists only within 48 blocks of players), the spec `docs/superpowers/specs/2026-09-23-realm-hoppers-design.md` §12 (M2 detailed spec), the plan `docs/superpowers/plans/2026-09-24-m2-survive-the-night.md` (your task, **Allocations**, Task 1 **Produces**), and the notes of the merged tasks you build on (`docs/devlog/parts/m2-task-*.md`, especially **m2-task-4.md for the Monster API**, m2-task-2 knock-outs, m2-task-3 inventories, m2-task-15 bots (group `bots`), m2-task-11 `Feel`/music). Developer run: `XDG_DATA_HOME=<private dir with a copy of ~/.local/share/godot/app_userdata/EasyCraft/profile.json under godot/app_userdata/EasyCraft/> godot --headless --path . -- --survivor --new-world`.
+
+## House rules
+- No per-event materials or meshes (use `Fx` and cached meshes/materials); ≤ 10 Hz decisions; per-frame code cheap; `is_instance_valid` for players that can vanish.
+- Keep edits to shared files small and self-contained; Session signals/RPCs in a new section at the end of `autoloads/session.gd` titled `# --- M2 Task <n>: …`.
+- TDD: write the test, watch it fail for the right reason, implement, watch it pass, then run the **full suite** `tests/run_tests.sh` and **commit only if it exits 0** (check the exit code). New `class_name` → `godot --headless --path . --import` first. Redirect long output to a file and read its tail.
+- Never use adb/the emulator; never call godot-mcp tools. CC0 assets only (credited in `assets/CREDITS.md`).
+- Match the code style (typed GDScript, tabs, short `##` doc comments, child-friendly on-screen text).
+- Commit messages end with `Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>`. Never merge or push.
+- Document in `docs/devlog/parts/m2-task-<n>.md`: what you built, tests RED→GREEN, every decision with its cost if wrong. Final report: commits, suite count before/after, rulings, what the lead should check on the emulator.
+
+# Your task: M2 Task 8 — Defenses: door, spike trap, lantern (spec §12.6; plan Task 8)
+
+Build, test-first:
+- `core/rules/defense_rules.gd` (pure) and the behaviour of block ids DOOR 25 / DOOR_OPEN 26 (tap to open/close — host-validated like every edit, a normal undo step; DOOR_OPEN is non-solid; doors are 1 block wide, 2 tall is optional — decide and write a ruling), SPIKE_TRAP 27 (hurts monsters that stand on or in it 2 per second via `take_hit(2, trap_pos, Vector3.ZERO)`, never players, never bots, never animals), LANTERN 28 (a light block: monsters of level ≤ 2 will not come within 6 blocks; wild spawns stop within 8 — use `MonsterDirector.lights_around(tool, pos)`, one bulk copy, see `docs/devlog/parts/m2-task-4.md`). Monsters never open or pass a closed door (pathing treats DOOR as solid; they never break it — monsters never change blocks is a tested rule, keep it green).
+- Looks: atlas tiles (3..7, 4) and (7, 3) in **both** styles (blocky atlas + realistic twin; see `tools/make_atlas.gd`, `world/block_library.gd`). The lantern gives a warm light: **no per-block OmniLight3D per lantern** (performance); use an emissive tile and, if needed, one shared cheap light near the player for the nearest few lanterns — decide, measure, write a ruling.
+- Survivor: the trader (Task 7, merged) sells door 10, spike trap 15, lantern 5 — they go into the inventory as placeable counted blocks (Task 3's `GatherRules`/`GatherLedger`: breaking one gives it back). Sandbox palette shows them.
+- Gentle feedback: a door open/close sound (existing SFX or a CC0 one credited), spikes that pop up when a monster steps on them (shared `Fx`, cached meshes).
+Tests: door toggles on the host only (a guest request), monsters never pass closed doors, a door is never changed by a monster, spike trap hurts monsters 2/s and never players/bots/animals, lantern keeps level ≤ 2 monsters 6 blocks away and stops spawns within 8, level-3+ monsters ignore lanterns, save/load keeps doors open/closed.
+Notes: `docs/devlog/parts/m2-task-8.md`. Session section `# --- M2 Task 8: defenses` if needed.
+
+Your worktree is cut from `m2-survive-the-night` at `c86fd0f` (Tasks 1, 2, 3, 4, 6, 7, 11, 14, 15 and M3 Tasks 13, 16 merged; Task 16 secrets is merging now and is not in your base — don't depend on it). Other agents build Tasks 5, 8, 9, 10 and 18 (creature minds) in parallel; keep your edits to shared files small and self-contained.
+
+**Skills:** before implementing each Godot system, invoke the matching `godot-prompter:*` skill (e.g. `ai-navigation`/`state-machine` for monster AI, `hud-system`/`godot-ui` for HUD, `physics-system`, `multiplayer-sync`, `godot-optimization`) and write in your notes which pattern you chose and which you rejected, and why. Check `git log -1` in your worktree first: it must be `c86fd0f` or later on the M2 line.

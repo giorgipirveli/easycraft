@@ -1,0 +1,269 @@
+{
+	"id": "g5.citizenship.borrowing",
+	"lesson": [
+		{
+			"text": "Quick memory: what does a bank pay you for saving? (Interest.) Banks earn that money by lending. Today: borrowing: why people do it, what it costs, and how to borrow wisely."
+		},
+		{
+			"text": "To borrow is to use someone else's money now and pay it back later. People borrow for big things, like a home or a business, that would take years to save for. Money borrowed is called a loan."
+		},
+		{
+			"text": "Borrowing usually costs money. A lender charges interest: extra paid back on top. Borrow 100 gold at 10% for a year and you pay back 100 + 10 = 110 gold. The longer you borrow, the more it can cost.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"borrow",
+						"10% interest",
+						"pay back"
+					],
+					[
+						"100 gold",
+						"10 gold",
+						"110 gold"
+					],
+					[
+						"200 gold",
+						"20 gold",
+						"220 gold"
+					]
+				]
+			}
+		},
+		{
+			"text": "Loans are often paid back in equal parts, called repayments, each month. A 240-gold loan paid back over 12 months is 240 ÷ 12 = 20 gold a month. Missing a repayment can mean extra charges.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Month",
+						"Repayment",
+						"Still owed"
+					],
+					[
+						"1",
+						"20 gold",
+						"220 gold"
+					],
+					[
+						"2",
+						"20 gold",
+						"200 gold"
+					],
+					[
+						"12",
+						"20 gold",
+						"0 gold"
+					]
+				]
+			}
+		},
+		{
+			"text": "A credit card is a kind of borrowing: the bank pays the shop, and you pay the bank later. Paid in full on time, it costs nothing extra; money left unpaid grows with interest."
+		},
+		{
+			"text": "Before borrowing, ask: Do I need it now? Could I save for it instead? Can I make every repayment, even if something goes wrong? Only borrow what you are sure you can pay back."
+		},
+		{
+			"text": "Borrowing from friends is borrowing too. Agree clearly how much and when it will be paid back, and keep your promise. Never borrow in secret, and never from strangers online."
+		},
+		{
+			"text": "Try it in the world: lend a friend 10 blocks of wood and agree they will return 11 in three days. Write the deal on a sign, then check it is kept. Next: caring for the planet together."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a loan?",
+			"answer": 0,
+			"hint": "You use it now and return it later.",
+			"choices": [
+				"money borrowed that must be paid back",
+				"a gift",
+				"a kind of coin",
+				"a bank's building"
+			],
+			"explain": "A loan is money borrowed that must be paid back."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Borrowing usually costs money.",
+			"answer": true,
+			"hint": "What does a lender charge?",
+			"explain": "True: lenders charge interest, extra paid back on top."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the extra paid back on a loan called?",
+			"answer": 0,
+			"hint": "Savers earn it; borrowers pay it.",
+			"choices": [
+				"interest",
+				"change",
+				"income",
+				"a budget"
+			],
+			"explain": "Interest: the extra a lender charges on top of what you borrowed."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "You should borrow as much as you can.",
+			"answer": false,
+			"hint": "What if you cannot pay it back?",
+			"explain": "False: only borrow what you need and are sure you can pay back."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Before borrowing, what should you ask yourself?",
+			"answer": 0,
+			"hint": "What matters most about a loan?",
+			"choices": [
+				"Can I pay it all back?",
+				"How much can I spend?",
+				"What will my friends think?",
+				"Is the shop open?"
+			],
+			"explain": "Can I pay it all back, even if something goes wrong?"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Tilly borrows 200 gold at 10% for a year. How much must she pay back?",
+			"answer": "220",
+			"hint": "Find the interest, then add it to what she borrowed.",
+			"explain": "10% of 200 is 2 × 10 = 20 gold. 200 + 20 = 220 gold."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 360-gold loan is paid back in 12 equal monthly parts. How much is each part?",
+			"answer": "30",
+			"hint": "Share the total equally: divide.",
+			"explain": "360 ÷ 12 = 30 gold a month."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: wise or unwise borrowing?",
+			"groups": [
+				"wise",
+				"unwise"
+			],
+			"items": [
+				"borrowing only what you can repay",
+				"borrowing for a treat every day",
+				"agreeing a clear pay-back date",
+				"borrowing from a stranger online",
+				"saving up instead when you can"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Would it leave you able to pay everything back safely?",
+			"explain": "Wise: only what you can repay, a clear date, saving instead. Unwise: daily treats, strangers online."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "When does a credit card cost nothing extra?",
+			"answer": 0,
+			"hint": "Interest grows on money left unpaid.",
+			"choices": [
+				"when it is paid in full on time",
+				"never",
+				"when it is left unpaid",
+				"when you pay late"
+			],
+			"explain": "When the whole amount is paid back on time."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Missing a repayment can add extra charges.",
+			"answer": true,
+			"hint": "Lenders want to be paid on time.",
+			"explain": "True: late or missed repayments can cost extra."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Loan A: pay back 110 gold. Loan B: pay back 12 parts of 10 gold. Both lend 100 gold. Which costs less?",
+			"answer": 0,
+			"hint": "Work out Loan B's total first.",
+			"choices": [
+				"Loan A",
+				"Loan B",
+				"the same",
+				"neither"
+			],
+			"explain": "Loan B: 12 × 10 = 120 gold. Loan A: 110 gold. Loan A costs 10 gold less."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Bram borrowed 50 gold and paid back 60 gold. What percentage interest did he pay?",
+			"answer": "20",
+			"hint": "Find the extra, then how much that is for every 100 gold.",
+			"explain": "60 − 50 = 10 gold extra. 10 out of 50 is 20 out of 100: 20%."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do people often borrow to buy a home?",
+			"answer": 0,
+			"hint": "How much does a home cost compared with a year's pay?",
+			"choices": [
+				"it would take many years to save for",
+				"homes are free",
+				"banks give homes away",
+				"borrowing costs nothing"
+			],
+			"explain": "A home costs so much that saving for it would take many years."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A friend lends you 5 gold. What should you do?",
+			"answer": 0,
+			"hint": "Borrowing from friends is still borrowing.",
+			"choices": [
+				"agree when to pay back, and keep your word",
+				"forget about it",
+				"pay back half",
+				"borrow more"
+			],
+			"explain": "Agree when you will pay it back, and keep your promise."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A loan of 300 gold costs 15% interest for a year. How much interest is that?",
+			"answer": "45",
+			"hint": "15 gold for every 100 gold borrowed.",
+			"explain": "300 gold is 3 hundreds: 3 × 15 = 45 gold."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5h.loan_cost",
+			"level": 1
+		},
+		{
+			"gen": "g5h.loan_cost",
+			"level": 2
+		},
+		{
+			"gen": "g5h.loan_cost",
+			"level": 3
+		}
+	]
+}

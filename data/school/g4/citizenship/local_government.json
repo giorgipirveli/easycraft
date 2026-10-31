@@ -1,0 +1,295 @@
+{
+	"id": "g4.citizenship.local_government",
+	"lesson": [
+		{
+			"text": "Quick memory: who are some people who help a community? (Doctors, firefighters, refuse collectors, volunteers and more.) Many of their services are run by a council. Who runs a town, and who pays?"
+		},
+		{
+			"text": "Towns and cities are run by a local council. Local people vote in an election to choose councillors, who speak for them. In many places a mayor leads the council. They meet to decide what the town needs.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"people vote",
+					"councillors chosen",
+					"council meets",
+					"services for the town"
+				],
+				"title": "Who runs a town"
+			}
+		},
+		{
+			"text": "The council looks after services that everyone shares: roads and street lights, bin collections and recycling, parks and playgrounds, libraries, and often schools.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"service",
+						"it gives us"
+					],
+					[
+						"roads, lights",
+						"safe travel"
+					],
+					[
+						"bins",
+						"clean streets"
+					],
+					[
+						"parks",
+						"places to play"
+					],
+					[
+						"libraries",
+						"books for all"
+					]
+				]
+			}
+		},
+		{
+			"text": "Services cost money. People who live and work in the town pay taxes, and the council spends them on services. One family could never pay for a library, but thousands of families together can."
+		},
+		{
+			"text": "Worked example: a new playground costs 1,200 gold. If 60 families share the cost equally, each pays 1,200 ÷ 60 = 20 gold, and every child in town can play there."
+		},
+		{
+			"text": "There is never enough money for everything, so councils must choose: a new library roof, or a new bus shelter? They ask people what they think and must show how the money was spent."
+		},
+		{
+			"text": "Some jobs are too big for one town. A country's government makes laws for the whole country and looks after things like the army. The council looks after local things."
+		},
+		{
+			"text": "Try it in the world: be a town council with your friends: list what your town needs, share out 100 gold of taxes, then build the service you chose first. Next: deciding together."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who runs a town?",
+			"answer": 0,
+			"hint": "Local people vote for them.",
+			"choices": [
+				"a council, chosen by local people",
+				"the biggest shop",
+				"one family",
+				"nobody"
+			],
+			"explain": "A local council, with councillors chosen by local people in an election."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these does a council look after?",
+			"answer": 0,
+			"hint": "It is shared by everyone in the town.",
+			"choices": [
+				"the park",
+				"your bedroom",
+				"a sweet shop",
+				"your friend's bike"
+			],
+			"explain": "Parks are shared services that the council looks after."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Taxes help to pay for roads, parks and libraries.",
+			"answer": true,
+			"hint": "Where does the council's money come from?",
+			"explain": "True: taxes paid by people and businesses pay for shared services."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Who often leads a town council?",
+			"answer": 0,
+			"hint": "It is an old word for the head of a town.",
+			"choices": [
+				"a mayor",
+				"a pharaoh",
+				"a scribe",
+				"a referee"
+			],
+			"explain": "In many places a mayor leads the council."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: a service we share, or something private?",
+			"groups": [
+				"shared service",
+				"private"
+			],
+			"items": [
+				"the library",
+				"your own garden",
+				"street lights",
+				"a toy you own",
+				"bin collections",
+				"a family car"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Can everyone in the town use it?",
+			"explain": "Shared: the library, street lights and bin collections. Private: your garden, your toys and a family car."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A new bench costs 200 gold. 20 families share the cost equally. How much does each family pay?",
+			"answer": "10",
+			"hint": "Share equally: divide the cost by the number of families.",
+			"explain": "200 ÷ 20 = 10 gold each."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How are councillors chosen?",
+			"answer": 0,
+			"hint": "Think of elections.",
+			"choices": [
+				"local people vote for them",
+				"they win a race",
+				"the oldest person is picked",
+				"they buy the job"
+			],
+			"explain": "In an election: local people vote for the councillors they want."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "One family could easily pay for a whole library on its own.",
+			"answer": false,
+			"hint": "How much does a library cost to build and run?",
+			"explain": "False: a library costs far too much for one family, but thousands of families sharing the cost can pay for it."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each service to what it gives us.",
+			"items": [
+				"street lights",
+				"bin collections",
+				"libraries",
+				"parks"
+			],
+			"matches": [
+				"clean streets",
+				"books for everyone",
+				"places to play",
+				"safe roads at night"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think about why each one matters.",
+			"explain": "Street lights: safe roads at night. Bins: clean streets. Libraries: books for all. Parks: places to play."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "The council has money for a new library roof or a new bus shelter, not both. What should it do?",
+			"answer": 0,
+			"hint": "Remember opportunity cost, and asking people.",
+			"choices": [
+				"ask people, compare needs, explain the choice",
+				"pick one in secret",
+				"never spend anything",
+				"build both with no money"
+			],
+			"explain": "Choosing means giving something up, so the council asks people, compares the needs and explains its choice."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Who makes laws for a whole country?",
+			"answer": 0,
+			"hint": "Some jobs are too big for one town.",
+			"choices": [
+				"the country's government",
+				"the town council",
+				"the library",
+				"a school"
+			],
+			"explain": "The country's government makes laws for the whole country; councils look after local things."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The council has 500 gold. It spends 180 gold on roads and 120 gold on the park. How much is left?",
+			"answer": "200",
+			"hint": "Take away one cost at a time.",
+			"explain": "500 − 180 = 320, and 320 − 120 = 200 gold left."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Councils should show people how the tax money was spent.",
+			"answer": true,
+			"hint": "Whose money is it?",
+			"explain": "True: it is everyone's money, so people should be able to see how it was spent."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why do people pay taxes instead of each buying their own road?",
+			"answer": 0,
+			"hint": "Think of the playground paid for by 60 families.",
+			"choices": [
+				"sharing costs pays for things all can use",
+				"roads are free",
+				"taxes are a game",
+				"nobody uses roads"
+			],
+			"explain": "Sharing costs lets a community pay for roads, parks and libraries that everyone can use."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: looked after by the town council, or by the country's government?",
+			"groups": [
+				"town council",
+				"country's government"
+			],
+			"items": [
+				"street lights",
+				"the army",
+				"bin collections",
+				"laws for the whole country",
+				"the local park"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Is it for one town, or for the whole country?",
+			"explain": "The council looks after local things: street lights, bins and the park. The country's government looks after the army and makes laws for everyone."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4h.town_budget",
+			"level": 1
+		},
+		{
+			"gen": "g4h.town_budget",
+			"level": 2
+		},
+		{
+			"gen": "g4h.town_budget",
+			"level": 3
+		}
+	]
+}

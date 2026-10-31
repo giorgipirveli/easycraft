@@ -1,0 +1,353 @@
+{
+	"id": "g7.art.portfolio",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6, what are the four steps for looking at art? (Describe, analyse, interpret and judge.) Today: choosing your best work and showing it."
+		},
+		{
+			"text": "A portfolio is a collection of your work that shows what you can do and how you have grown. Curating means choosing it and arranging it, as a museum's curator does."
+		},
+		{
+			"text": "Choose your strongest pieces and a range of materials and ideas. Add a few that show progress, such as a first sketch beside the finished piece. Fewer, better pieces beat many.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"choose the strongest",
+					"show a range",
+					"add a first sketch",
+					"arrange them",
+					"write a statement"
+				],
+				"title": "Curating a portfolio"
+			}
+		},
+		{
+			"text": "Arrange them by theme, by technique or by date, so they tell a story. Photograph flat work in even daylight, straight on, then crop the edges."
+		},
+		{
+			"text": "Label each piece as a gallery does: its title, the year, the materials and the size, for example: Stormy Harbour, 2026, pencil and watercolour, 30 × 21 cm.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"label",
+						"for example"
+					],
+					[
+						"title",
+						"Stormy Harbour"
+					],
+					[
+						"year",
+						"2026"
+					],
+					[
+						"materials",
+						"pencil, watercolour"
+					],
+					[
+						"size",
+						"30 × 21 cm"
+					]
+				]
+			}
+		},
+		{
+			"text": "An artist's statement is a short paragraph in your own words: what the work is about, how you made it and why. Write I, keep it clear, and say what you hope viewers notice."
+		},
+		{
+			"text": "Hang the work with the centres of the pictures on one line, about 1.5 m from the floor, at eye level. Leave even gaps. Ask for feedback that is kind, specific and helpful, and give it that way too.",
+			"picture": {
+				"kind": "gallery_wall",
+				"works": 4,
+				"hang": "line",
+				"line": true
+			}
+		},
+		{
+			"text": "Try it in the world: choose your best 5 pieces from this year, photograph and label them, and write a 3-sentence statement about one. Next: in grade 8, Impressionism and light."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does curating a portfolio mean?",
+			"answer": 0,
+			"hint": "Think of what a museum's curator does.",
+			"choices": [
+				"choosing and arranging work to show it",
+				"making all new work",
+				"selling your work",
+				"hiding your first tries"
+			],
+			"explain": "Curating is choosing the right pieces and arranging them to tell a story."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A few strong pieces are better than every piece you have ever made.",
+			"answer": true,
+			"hint": "Would a viewer look at 200 drawings?",
+			"explain": "True: choose the strongest few, and each gets the attention it deserves."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What belongs on a gallery label?",
+			"answer": 0,
+			"hint": "A label tells viewers about the work.",
+			"choices": [
+				"title, year, materials and size",
+				"a home address",
+				"the price of the paints",
+				"a joke"
+			],
+			"explain": "Its title, the year, the materials and the size."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "At about what height are the centres of pictures hung?",
+			"answer": 0,
+			"hint": "Where are a grown-up's eyes when standing?",
+			"choices": [
+				"about 1.5 m, eye level",
+				"at the floor",
+				"at the ceiling",
+				"about 3 m"
+			],
+			"explain": "About 1.5 m from the floor, at eye level.",
+			"picture": {
+				"kind": "gallery_wall",
+				"works": 3,
+				"hang": "line",
+				"line": true
+			}
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort the feedback into helpful and not helpful.",
+			"groups": [
+				"helpful",
+				"not helpful"
+			],
+			"items": [
+				"The dark sky makes the boat stand out.",
+				"I don't like it.",
+				"Try a lighter blue in the distance.",
+				"Nice.",
+				"The hands look stiff: try gesture sketches."
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "Helpful feedback says exactly what works or what to try.",
+			"explain": "Specific comments help; I don't like it and Nice do not say what or why."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which wall is hung well?",
+			"answer": 0,
+			"hint": "Look for one line through the pictures' centres.",
+			"choices": [
+				{
+					"picture": {
+						"kind": "gallery_wall",
+						"works": 4,
+						"hang": "line",
+						"line": true
+					}
+				},
+				{
+					"picture": {
+						"kind": "gallery_wall",
+						"works": 4,
+						"hang": "messy"
+					}
+				}
+			],
+			"explain": "The first: the centres are on one line at eye level, with even gaps."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which sentence belongs in an artist's statement?",
+			"answer": 0,
+			"hint": "A statement says what, how and why, in your own voice.",
+			"choices": [
+				"I used cool blues to make the harbour calm.",
+				"This is the best painting ever made.",
+				"Buy it now!",
+				"My friend did most of it."
+			],
+			"explain": "I used cool blues to make the harbour calm: it says what you did and why."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of making a portfolio in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "You cannot choose before you gather.",
+			"items": [
+				"write your statement",
+				"arrange and label them",
+				"choose the strongest pieces",
+				"gather all your work"
+			],
+			"explain": "Gather, choose, arrange and label, then write the statement."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How should you photograph a flat drawing?",
+			"answer": 0,
+			"hint": "Avoid glare and slanted edges.",
+			"choices": [
+				"in even daylight, straight on, then crop",
+				"with a flash, at an angle",
+				"in the dark",
+				"from far away"
+			],
+			"explain": "Even daylight, straight on, then crop it neatly."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "A first sketch can be worth showing beside the finished piece.",
+			"answer": true,
+			"hint": "What does it show about how you work?",
+			"explain": "True: it shows how your idea grew."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part of a label to an example.",
+			"items": [
+				"title",
+				"year",
+				"materials",
+				"size"
+			],
+			"matches": [
+				"2026",
+				"pencil and watercolour",
+				"30 × 21 cm",
+				"Stormy Harbour"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Which is a name, a date, what it is made with, and how big?",
+			"explain": "Title: Stormy Harbour; year: 2026; materials: pencil and watercolour; size: 30 × 21 cm."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Feedback should be kind, specific and helpful.",
+			"answer": true,
+			"hint": "Think of feedback you would like to get.",
+			"explain": "True: kind, specific and helpful."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the most helpful feedback?",
+			"answer": 0,
+			"hint": "Which says exactly what works and what to try?",
+			"choices": [
+				"The shadows are strong; the face needs one too.",
+				"Good.",
+				"I would have drawn a dog.",
+				"Too hard to say."
+			],
+			"explain": "It names what works (the shadows) and what to try next (a shadow on the face)."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A portfolio has 20 drawings of cats. What would make it stronger?",
+			"answer": 0,
+			"hint": "A portfolio shows your range as well as your best.",
+			"choices": [
+				"the best few, plus other subjects and materials",
+				"add 20 more cats",
+				"remove all the labels",
+				"make them all the same size"
+			],
+			"explain": "Choose the best few cats, and show other subjects and materials too."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A wall is 5 m wide. Three pictures, each 1 m wide, hang with equal gaps at both ends and between them. How wide is each gap?",
+			"answer": "0.5",
+			"hint": "How much wall is left? How many gaps are there?",
+			"explain": "5 − 3 = 2 m is left, shared between 4 gaps: 2 ÷ 4 = 0.5 m."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which sentence is in the artist's own voice?",
+			"answer": 0,
+			"hint": "An artist's statement uses I.",
+			"choices": [
+				"I wanted the storm to feel close.",
+				"The artist was sad.",
+				"Paintings are made of paint.",
+				"Click here to see more."
+			],
+			"explain": "I wanted the storm to feel close: in the first person, about the work."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: does it belong on a gallery label?",
+			"groups": [
+				"on the label",
+				"not on it"
+			],
+			"items": [
+				"the title",
+				"the year",
+				"your home address",
+				"the materials",
+				"the price of your paints",
+				"the size"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				0,
+				1,
+				0
+			],
+			"hint": "A label tells the viewer about the work itself.",
+			"explain": "On the label: the title, the year, the materials and the size. Not on it: your home address is private, and the price of your paints tells the viewer nothing about the work."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Pictures are hung with their centres 150 cm from the floor. A picture is 60 cm tall. How high is its top edge from the floor, in cm?",
+			"answer": "180",
+			"hint": "The centre is halfway up the picture. How far above the centre is the top?",
+			"explain": "Half of 60 cm is 30 cm, so the top is 30 cm above the centre. 150 + 30 = 180 cm from the floor."
+		}
+	],
+	"generators": []
+}

@@ -1,0 +1,24 @@
+{
+	"id": "life.home.little_helper",
+	"lesson": [
+		{"text": "Quick memory: where do toys go when you've finished? (Back in their home.) Today: helping at home."},
+		{"text": "The washing: whites with whites, colours with colours. Socks go in pairs. Fold a T-shirt: one sleeve in, the other, then in half."},
+		{"text": "Everything has a home: put things back, and they're easy to find."},
+		{"text": "A plant needs water when its soil feels dry. A pet needs food, fresh water, walks, a clean bed, and a vet when poorly."},
+		{"text": "Recycling: paper in the paper bin, plastic bottles and cans in theirs. With a grown-up, test the smoke alarm once a month."},
+		{"text": "Try it in the world: open the practice house. Next: recycling, pets and the table, on the Middle track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "A white towel goes in with...", "answer": 0, "choices": ["the whites", "the colours", "the shoes"], "hint": "White with white.", "explain": "The whites."},
+		{"type": "truefalse", "level": 1, "prompt": "Socks are put away in pairs.", "answer": true, "hint": "Two of the same.", "explain": "True."},
+		{"type": "choice", "level": 1, "prompt": "When does a plant need water?", "answer": 0, "choices": ["when its soil feels dry", "every few minutes", "never"], "hint": "Feel the soil.", "explain": "When the soil is dry."},
+		{"type": "choice", "level": 2, "prompt": "A dog needs every day...", "answer": 0, "choices": ["fresh water", "sweets", "a bath"], "hint": "Something to drink.", "explain": "Fresh water, always."},
+		{"type": "order", "level": 2, "prompt": "Fold a T-shirt: put it in order.", "answer": [1, 2, 0], "items": ["fold it in half", "one sleeve in", "the other sleeve in"], "hint": "Sleeves first.", "explain": "Sleeve, sleeve, then in half."},
+		{"type": "truefalse", "level": 2, "prompt": "An old newspaper goes in the paper bin.", "answer": true, "hint": "Paper with paper.", "explain": "True."},
+		{"type": "sort", "level": 2, "prompt": "Whites or colours?", "groups": ["whites", "colours"], "items": ["a white T-shirt", "red socks", "a white towel", "blue jeans"], "answer": [0, 1, 0, 1], "hint": "Look at each colour.", "explain": "White things with whites."},
+		{"type": "choice", "level": 3, "prompt": "A plastic bottle goes in...", "answer": 0, "choices": ["the plastic and cans bin", "the paper bin", "the food bin"], "hint": "Look for the bottle picture.", "explain": "Plastic and cans."},
+		{"type": "choice", "level": 3, "prompt": "Who tests the smoke alarm with you?", "answer": 0, "choices": ["a grown-up", "nobody", "a friend from school"], "hint": "A grown-up helps.", "explain": "A grown-up, once a month."},
+		{"type": "truefalse", "level": 3, "prompt": "When a pet is poorly, you tell a grown-up.", "answer": true, "hint": "Who calls the vet?", "explain": "True."},
+		{"type": "choice", "level": 3, "prompt": "Your book is on the floor. Its home is...", "answer": 0, "choices": ["the shelf", "the bath", "the fridge"], "hint": "Where do books live?", "explain": "The shelf."}
+	]
+}

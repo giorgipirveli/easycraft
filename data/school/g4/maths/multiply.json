@@ -1,0 +1,183 @@
+{
+	"id": "g4.maths.multiply",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 3 you met times tables. What is 7 × 8? 56."
+		},
+		{
+			"text": "Multiply by tens: 4 × 3 = 12, so 4 × 30 = 120 and 4 × 300 = 1,200. Multiply the digits, then add the zeros."
+		},
+		{
+			"text": "Split a big number into its places: 4 × 236 = 4 × 200 + 4 × 30 + 4 × 6 = 800 + 120 + 24 = 944.",
+			"picture": {
+				"kind": "area_model",
+				"cols": [
+					"200",
+					"30",
+					"6"
+				],
+				"rows": [
+					"4"
+				],
+				"cells": [
+					[
+						"800",
+						"120",
+						"24"
+					]
+				]
+			}
+		},
+		{
+			"text": "An area model shows the split. A rectangle 23 long and 6 wide splits into 20 × 6 = 120 and 3 × 6 = 18. Together: 138.",
+			"picture": {
+				"kind": "rect",
+				"w": 8,
+				"h": 3,
+				"grid": false,
+				"label_w": "23",
+				"label_h": "6"
+			}
+		},
+		{
+			"text": "Two two-digit numbers: 23 × 14 = 23 × 10 + 23 × 4 = 230 + 92 = 322."
+		},
+		{
+			"text": "Try it in the world: build a wall 23 blocks long and 14 blocks high. How many blocks? 23 × 14 = 322. Split it into 23 × 10 and 23 × 4 to check. Next: dividing with remainders."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "6 × 40 = ?",
+			"answer": "240",
+			"hint": "6 × 4 = 24, then add a zero.",
+			"explain": "6 × 40 = 240"
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "3 × 214 = ?",
+			"answer": "642",
+			"hint": "3 × 200 + 3 × 10 + 3 × 4",
+			"explain": "600 + 30 + 12 = 642"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "7 × 1,305 = ?",
+			"answer": "9,135",
+			"hint": "7 × 1,000 + 7 × 300 + 7 × 5",
+			"explain": "7,000 + 2,100 + 35 = 9,135"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "25 × 12 = ?",
+			"answer": "300",
+			"hint": "25 × 10 + 25 × 2",
+			"explain": "250 + 50 = 300"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is the same as 6 × 48?",
+			"choices": [
+				"6 × 40 + 6 × 8",
+				"6 × 4 + 6 × 8",
+				"6 × 40 + 8",
+				"48 + 6"
+			],
+			"answer": 0,
+			"hint": "Split 48 into 40 + 8. Multiply both parts by 6.",
+			"explain": "6 × 48 = 6 × 40 + 6 × 8 = 240 + 48 = 288"
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A wall has 36 rows of 24 bricks. How many bricks is that?",
+			"answer": "864",
+			"hint": "36 × 24 = 36 × 20 + 36 × 4",
+			"explain": "720 + 144 = 864 bricks."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "50 × 60 = 300",
+			"answer": false,
+			"hint": "Multiply 5 × 6, then count the zeros.",
+			"explain": "5 × 6 = 30, and there are two zeros: 50 × 60 = 3,000."
+		},
+		{
+			"type": "build",
+			"level": 1,
+			"prompt": "Build an array that shows 3 × 5.",
+			"board": {
+				"cols": 8,
+				"rows": 5,
+				"block": 6,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "array",
+				"rows": 3,
+				"cols": 5,
+				"any_turn": true
+			},
+			"hint": "Make 3 rows with 5 blocks in each.",
+			"explain": "3 rows of 5: 3 × 5 = 15."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4m.mult_tens",
+			"level": 1
+		},
+		{
+			"gen": "g4m.mult_tens",
+			"level": 2
+		},
+		{
+			"gen": "g4m.mult_tens",
+			"level": 3
+		},
+		{
+			"gen": "g4m.mult_1digit",
+			"level": 1
+		},
+		{
+			"gen": "g4m.mult_1digit",
+			"level": 2
+		},
+		{
+			"gen": "g4m.mult_1digit",
+			"level": 3
+		},
+		{
+			"gen": "g4m.mult_2x2",
+			"level": 2
+		},
+		{
+			"gen": "g4m.mult_2x2",
+			"level": 3
+		},
+		{
+			"gen": "g4m.mult_story",
+			"level": 1
+		},
+		{
+			"gen": "g4m.mult_story",
+			"level": 2
+		},
+		{
+			"gen": "g4m.mult_story",
+			"level": 3
+		},
+		{
+			"gen": "g4m.array_build",
+			"level": 1
+		}
+	]
+}

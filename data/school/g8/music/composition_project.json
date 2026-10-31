@@ -1,0 +1,408 @@
+{
+	"id": "g8.music.composition_project",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7, which are the primary chords in C major? (C, F and G: chords I, IV and V.) Today: composing a whole piece with a clear structure, harmony and purpose."
+		},
+		{
+			"text": "Start with a purpose: a lullaby, a march for a game's hero, music for a sunrise. The purpose decides the tempo, the key, major or minor, and the instruments."
+		},
+		{
+			"text": "Structure gives a piece its shape. ABA (ternary form) comes home after a contrast; verse and chorus repeat a hook; a rondo returns to A between new parts: ABACA.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"A",
+					"B",
+					"A",
+					"C",
+					"A"
+				]
+			}
+		},
+		{
+			"text": "A motif is a short idea you develop: repeat it, move it up a step (a sequence), turn it upside down (an inversion), or play it in longer notes (augmentation).",
+			"picture": {
+				"kind": "piano_roll",
+				"notes": [
+					"C4",
+					"E4",
+					"D4",
+					"-",
+					"D4",
+					"F4",
+					"E4",
+					"-"
+				]
+			}
+		},
+		{
+			"text": "Harmony: choose each bar's chord to contain the melody's main note. In C major, a melody on E fits chord I (C, E, G); on F, chord IV (F, A, C); on D, chord V (G, B, D).",
+			"picture": {
+				"kind": "chord_chart",
+				"key": "C",
+				"chords": [
+					"I",
+					"IV",
+					"V",
+					"I"
+				],
+				"names": true
+			}
+		},
+		{
+			"text": "Worked example: a 16-bar piece in ABA. A: 4 bars on a motif, then the motif a step higher. B: 8 bars in a new mood. A: the first 4 bars again, ending on chord I, home. 4 + 8 + 4 = 16 bars.",
+			"picture": {
+				"kind": "song_form",
+				"sections": [
+					"A",
+					"B",
+					"A"
+				]
+			}
+		},
+		{
+			"text": "Draft, play, improve: record a draft, listen as if you had never heard it, and ask a friend for kind, specific feedback. Change one thing at a time."
+		},
+		{
+			"text": "Try it in the world: plan a piece on The Goal Board in LIFE: the goal, its steps, and a plan for when you get stuck. Then build it with the game's LOOP. Next: grade 8's projects."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. How is the motif repeated?",
+			"choices": [
+				"a step higher: a sequence",
+				"upside down",
+				"exactly the same"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"D4",
+					"-",
+					"D4",
+					"F4",
+					"E4",
+					"-"
+				],
+				"beat": 0.4
+			},
+			"hint": "Compare the second group of notes with the first.",
+			"explain": "The second time it starts one note higher, D instead of C: a sequence."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each way of developing a motif.",
+			"items": [
+				"sequence",
+				"inversion",
+				"augmentation",
+				"repetition"
+			],
+			"matches": [
+				"the motif upside down",
+				"the motif in longer notes",
+				"the motif again, the same",
+				"the motif a step higher"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of what changes each time.",
+			"explain": "A sequence moves it, an inversion flips it, augmentation slows it and repetition keeps it the same."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "ABA form returns to the first part after a contrast.",
+			"answer": true,
+			"hint": "What does the last A mean?",
+			"explain": "True: A, then a different B, then A again: it comes home."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Listen. Does the piece end on its home chord?",
+			"choices": [
+				"yes: it sounds finished",
+				"no: it sounds unfinished"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"F4+A4+C5:2",
+					"G4+B4+D5:2",
+					"C4+E4+G4:3"
+				],
+				"beat": 0.45
+			},
+			"hint": "Does the last chord feel like rest?",
+			"explain": "It ends with chord V, then chord I: a finished, perfect cadence."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A piece in ABA has an A of 4 bars and a B of 8 bars. How many bars in all?",
+			"answer": "16",
+			"hint": "A is played twice.",
+			"explain": "4 + 8 + 4 = 16 bars."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Listen. What happened to the motif the second time?",
+			"choices": [
+				"it was turned upside down",
+				"it was moved up a step",
+				"it was played slower"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4:2",
+					"C4",
+					"A3",
+					"F3:2"
+				],
+				"beat": 0.4
+			},
+			"hint": "Did it go up, then come down?",
+			"explain": "C, E, G goes up; the second time C, A, F goes down by the same steps: an inversion."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "In C major, a bar's main melody note is F. Which chord fits?",
+			"choices": [
+				"IV: F, A, C",
+				"I: C, E, G",
+				"V: G, B, D"
+			],
+			"answer": 0,
+			"hint": "Which chord has F in it?",
+			"explain": "Chord IV is F, A, C, so it contains F."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps of composing a piece.",
+			"items": [
+				"develop it and add chords",
+				"plan the structure",
+				"draft, play and improve",
+				"invent a motif",
+				"choose a purpose"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Why first, then shape, then ideas.",
+			"explain": "Purpose, structure, motif, then develop it with chords, then draft and improve."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Which chord fits each melody note, in C major?",
+			"groups": [
+				"chord I (C, E, G)",
+				"chord V (G, B, D)"
+			],
+			"items": [
+				"E",
+				"C",
+				"B",
+				"D"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Look for the note in each chord.",
+			"explain": "E and C are in chord I; B and D are in chord V."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Listen: the second time, the motif is played in longer notes.",
+			"answer": true,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"D4",
+					"E4",
+					"-",
+					"C4:2",
+					"D4:2",
+					"E4:2"
+				],
+				"beat": 0.35
+			},
+			"hint": "Compare the speed of each group.",
+			"explain": "True: the same three notes, each held twice as long: augmentation."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A rondo, ABACA, has 8 bars in every section. How many bars in all?",
+			"answer": "40",
+			"hint": "Count the sections first.",
+			"explain": "5 sections × 8 bars = 40 bars."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Which form is this?",
+			"choices": [
+				"ABA",
+				"AB",
+				"ABAB"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C5",
+					"E5",
+					"G5",
+					"E5",
+					"A4",
+					"F4",
+					"D4",
+					"F4",
+					"C5",
+					"E5",
+					"G5",
+					"C5"
+				],
+				"beat": 0.35
+			},
+			"hint": "Does the first tune come back? How often?",
+			"explain": "Tune A, a different tune B, then A again at the end: ABA."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Listen. Does this phrase sound finished or unfinished?",
+			"choices": [
+				"unfinished: it ends on chord V",
+				"finished: it ends on chord I"
+			],
+			"answer": 0,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4+E4+G4:2",
+					"A3+C4+E4:2",
+					"F3+A3+C4:2",
+					"G3+B3+D4:3"
+				],
+				"beat": 0.45
+			},
+			"hint": "Does the last chord want to move on?",
+			"explain": "It ends on chord V, which leans back towards home: an unfinished, imperfect cadence."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Does it suit a lullaby or a hero's march?",
+			"groups": [
+				"lullaby",
+				"hero's march"
+			],
+			"items": [
+				"a slow tempo",
+				"a soft, gentle tone",
+				"a strong, steady beat",
+				"bright brass",
+				"a rocking 3-beat feel"
+			],
+			"answer": [
+				0,
+				0,
+				1,
+				1,
+				0
+			],
+			"hint": "Imagine falling asleep, then marching.",
+			"explain": "A slow tempo, a soft tone and a rocking feel suit a lullaby; a strong beat and bright brass suit a march."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Each A section is 6 bars and B is 10. A piece goes ABABA. How many bars is it?",
+			"answer": "38",
+			"hint": "Count the As and the Bs.",
+			"explain": "Three As: 3 × 6 = 18. Two Bs: 2 × 10 = 20. 18 + 20 = 38 bars."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Listen: every note of this melody is in chord I: C, E or G.",
+			"answer": true,
+			"sound": {
+				"kind": "notes",
+				"notes": [
+					"C4",
+					"E4",
+					"G4",
+					"E4",
+					"C5",
+					"G4",
+					"E4",
+					"C4"
+				],
+				"beat": 0.35
+			},
+			"hint": "Name each note you hear.",
+			"explain": "True: the melody uses only C, E and G, so chord I fits all the way."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.motif_move",
+			"level": 1
+		},
+		{
+			"gen": "g8c.motif_move",
+			"level": 2
+		},
+		{
+			"gen": "g8c.motif_move",
+			"level": 3
+		},
+		{
+			"gen": "g8c.chord_fit",
+			"level": 1
+		},
+		{
+			"gen": "g8c.chord_fit",
+			"level": 2
+		},
+		{
+			"gen": "g8c.chord_fit",
+			"level": 3
+		}
+	]
+}

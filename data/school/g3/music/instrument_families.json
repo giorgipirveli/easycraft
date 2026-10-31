@@ -1,0 +1,326 @@
+{
+	"id": "g3.music.instrument_families",
+	"lesson": [
+		{
+			"text": "Quick memory: what does forte mean? (Loud.) Today: the families of instruments."
+		},
+		{
+			"text": "Strings: the sound comes from strings that vibrate, played with a bow or plucked. Violin, viola, cello, double bass, harp and guitar.",
+			"picture": {
+				"kind": "orchestra",
+				"mark": "strings"
+			}
+		},
+		{
+			"text": "Woodwind: you blow, and the air vibrates inside a tube. Flute, clarinet, oboe, bassoon and recorder. (Flutes are often metal, but they are still woodwind!)"
+		},
+		{
+			"text": "Brass: you buzz your lips into a metal mouthpiece. Trumpet, trombone, French horn and tuba.",
+			"picture": {
+				"kind": "orchestra",
+				"mark": "brass"
+			}
+		},
+		{
+			"text": "Percussion: you hit, shake or scrape it. Drums, cymbals, xylophone, triangle, tambourine and maracas. Claps are body percussion!",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-xxx-xx",
+				"tempo": 90
+			}
+		},
+		{
+			"text": "Keyboards: you press keys. Piano, organ and harpsichord. Inside a piano, little hammers hit the strings!"
+		},
+		{
+			"text": "Each family has its own sound: strings can sing smoothly, brass is bright and bold, woodwind can be airy or reedy, and percussion keeps the beat.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Family",
+						"Its sound"
+					],
+					[
+						"strings",
+						"smooth, singing"
+					],
+					[
+						"brass",
+						"bright, bold"
+					],
+					[
+						"woodwind",
+						"airy or reedy"
+					],
+					[
+						"percussion",
+						"keeps the beat"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: build a stage for a band in your world, with a place for each family. Which family would you like to play in?"
+		}
+	],
+	"exercises": [
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these instruments: strings or brass?",
+			"groups": [
+				"strings",
+				"brass"
+			],
+			"items": [
+				"violin",
+				"trumpet",
+				"cello",
+				"tuba",
+				"harp",
+				"trombone"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Strings to pluck or bow, or a metal mouthpiece to buzz into?",
+			"explain": "Strings: violin, cello, harp. Brass: trumpet, tuba, trombone."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How do you play a drum?",
+			"answer": 0,
+			"hint": "Drums are percussion.",
+			"choices": [
+				"hit it",
+				"blow into it",
+				"press keys",
+				"pluck its strings"
+			],
+			"explain": "You hit a drum: it is a percussion instrument."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which family does the flute belong to?",
+			"answer": 0,
+			"hint": "You blow across it, and the air vibrates inside.",
+			"choices": [
+				"woodwind",
+				"brass",
+				"strings",
+				"percussion"
+			],
+			"explain": "The flute is woodwind, even though it is often metal."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A piano has keys.",
+			"answer": true,
+			"hint": "Think of the black and white keys.",
+			"explain": "True: a piano is a keyboard instrument."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each instrument to its family.",
+			"items": [
+				"violin",
+				"trumpet",
+				"clarinet",
+				"xylophone",
+				"organ"
+			],
+			"matches": [
+				"brass",
+				"woodwind",
+				"percussion",
+				"keyboard",
+				"strings"
+			],
+			"answer": [
+				4,
+				0,
+				1,
+				2,
+				3
+			],
+			"hint": "Ask: bow or pluck, buzz, blow, hit, or keys?",
+			"explain": "Violin: strings. Trumpet: brass. Clarinet: woodwind. Xylophone: percussion. Organ: keyboard."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How does a trumpet player make a sound?",
+			"answer": 0,
+			"hint": "The trumpet is brass.",
+			"choices": [
+				"buzzing their lips into the mouthpiece",
+				"hitting it with sticks",
+				"plucking strings",
+				"pressing keys"
+			],
+			"explain": "Brass players buzz their lips into a metal mouthpiece."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these: percussion or woodwind?",
+			"groups": [
+				"percussion",
+				"woodwind"
+			],
+			"items": [
+				"cymbals",
+				"oboe",
+				"tambourine",
+				"recorder",
+				"maracas",
+				"bassoon"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Hit or shake it, or blow into it?",
+			"explain": "Percussion: cymbals, tambourine, maracas. Woodwind: oboe, recorder, bassoon."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Claps are body percussion! Listen: how many claps do you hear?",
+			"answer": "4",
+			"hint": "Listen as often as you like. Tap along, or say the rhythm quietly as you listen.",
+			"explain": "ta, ta, ti-ti, rest: 1 + 1 + 2 = 4 claps.",
+			"sound": {
+				"kind": "rhythm",
+				"pattern": "x-x-xx--",
+				"tempo": 90
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The flute is in the woodwind family, even though it is often made of metal.",
+			"answer": true,
+			"hint": "Is the family about what it is made of, or how it is played?",
+			"explain": "True: you blow and the air vibrates inside the tube, so it is woodwind."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which family does the French horn belong to?",
+			"answer": 0,
+			"hint": "You buzz your lips into it.",
+			"choices": [
+				"brass",
+				"woodwind",
+				"strings",
+				"keyboards"
+			],
+			"explain": "The French horn is brass."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Inside a piano, what makes the strings sound?",
+			"answer": 0,
+			"hint": "Remember the lesson card about keyboards.",
+			"choices": [
+				"little hammers hit them",
+				"a bow rubs them",
+				"air blows on them",
+				"fingers pluck them"
+			],
+			"explain": "Press a key, and a little hammer hits the strings inside."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is the biggest, lowest string instrument in an orchestra?",
+			"answer": 0,
+			"hint": "Bigger instruments usually play lower.",
+			"choices": [
+				"the double bass",
+				"the violin",
+				"the viola",
+				"the harp"
+			],
+			"explain": "The double bass is the biggest and lowest of the orchestra's strings."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each way of playing to its family.",
+			"items": [
+				"blow into or across a tube",
+				"buzz your lips",
+				"bow or pluck",
+				"hit, shake or scrape"
+			],
+			"matches": [
+				"strings",
+				"percussion",
+				"woodwind",
+				"brass"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Think of one instrument you know for each.",
+			"explain": "Blowing a tube: woodwind. Buzzing lips: brass. Bowing or plucking: strings. Hitting or shaking: percussion."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where does a guitar's sound come from?",
+			"answer": 0,
+			"hint": "What do you pluck on a guitar?",
+			"choices": [
+				"vibrating strings",
+				"air in a tube",
+				"buzzing lips",
+				"a hammer hitting wood"
+			],
+			"explain": "From its strings: they vibrate when you pluck them."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "A xylophone is a string instrument.",
+			"answer": false,
+			"hint": "How do you play a xylophone?",
+			"explain": "False: you hit its bars with beaters, so it is percussion."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which family keeps the beat with drums and cymbals?",
+			"answer": 0,
+			"hint": "Hit, shake or scrape.",
+			"choices": [
+				"percussion",
+				"brass",
+				"woodwind",
+				"keyboards"
+			],
+			"explain": "Percussion: drums and cymbals keep the beat."
+		}
+	],
+	"generators": []
+}

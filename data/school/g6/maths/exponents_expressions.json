@@ -1,0 +1,212 @@
+{
+	"id": "g6.maths.exponents_expressions",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you met powers of ten. What is 10 × 10 × 10? 1,000, which is 10³."
+		},
+		{
+			"text": "An exponent says how many times to multiply a number by itself: 2⁵ = 2 × 2 × 2 × 2 × 2 = 32. So 3² is a square of 3 × 3 blocks.",
+			"picture": {
+				"kind": "array",
+				"rows": 3,
+				"cols": 3
+			}
+		},
+		{
+			"text": "Order of operations: brackets first, then exponents, then × and ÷, then + and −. 3 + 2 × 4² = 3 + 2 × 16 = 35."
+		},
+		{
+			"text": "A variable is a letter that stands for a number. An expression like 3x + 4 is worked out by putting a number in place of x: when x = 5, it is 15 + 4, which is 19.",
+			"picture": {
+				"kind": "op_chain",
+				"start": "5",
+				"ops": [
+					"× 3",
+					"+ 4"
+				],
+				"end": "19"
+			}
+		},
+		{
+			"text": "Words to expressions: \"5 less than n\" is n − 5; \"the product of 4 and y\" is 4y."
+		},
+		{
+			"text": "Try it in the world: build a cube 3 blocks wide, 3 deep and 3 high. How many blocks? 3³ = 27. Then a 4-block cube: 4³ = 64. Next: equivalent expressions."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "2⁴ = ?",
+			"answer": "16",
+			"hint": "2 × 2 × 2 × 2.",
+			"explain": "2 × 2 × 2 × 2 = 16."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Work out 4x + 3 when x = 2.",
+			"answer": "11",
+			"hint": "4 × 2 + 3.",
+			"explain": "8 + 3 = 11."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "5² means 5 × 2.",
+			"answer": false,
+			"hint": "The small 2 is an exponent.",
+			"explain": "No: 5² = 5 × 5 = 25."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "3 + 2 × 4² = ?",
+			"answer": "35",
+			"hint": "Exponents before multiplying.",
+			"explain": "4² = 16; 2 × 16 = 32; 3 + 32 = 35."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which expression means \"8 more than a number t\"?",
+			"answer": 0,
+			"hint": "More than means add.",
+			"choices": [
+				"t + 8",
+				"8t",
+				"t − 8"
+			],
+			"explain": "t + 8: more than means add 8 to t."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Work out 2(y + 5) when y = 3.",
+			"answer": "16",
+			"hint": "Work out the brackets first: y + 5 when y is 3.",
+			"explain": "3 + 5 = 8; 2 × 8 = 16."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "10³ − 5² = ?",
+			"answer": "975",
+			"hint": "Work out each power.",
+			"explain": "Exponents first: 10³ = 10 × 10 × 10 = 1,000 and 5² = 5 × 5 = 25. Then take away: 1,000 − 25 = 975."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A buddy earns c coins an hour. Which expression is its pay for 6 hours plus a 10-coin bonus?",
+			"answer": 0,
+			"hint": "6 hours at c each, then the bonus.",
+			"choices": [
+				"6c + 10",
+				"10c + 6",
+				"6(c + 10)"
+			],
+			"explain": "6 hours at c coins each is 6 × c, written 6c. The bonus is added once at the end: 6c + 10. 6(c + 10) would add the bonus every hour."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each power to its value.",
+			"items": [
+				"2³",
+				"3²",
+				"5²",
+				"10³"
+			],
+			"matches": [
+				"25",
+				"1,000",
+				"8",
+				"9"
+			],
+			"answer": [
+				2,
+				3,
+				0,
+				1
+			],
+			"hint": "Multiply the number by itself as many times as the small number says.",
+			"explain": "2³ = 2 × 2 × 2 = 8; 3² = 9; 5² = 25; 10³ = 1,000."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the phrases: which expression do they mean?",
+			"items": [
+				"5 more than n",
+				"5 less than n",
+				"the product of 5 and n",
+				"n increased by 5",
+				"n take away 5",
+				"5 lots of n"
+			],
+			"groups": [
+				"n + 5",
+				"n − 5",
+				"5n"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"hint": "More and increased mean add; less and take away mean subtract; product and lots of mean multiply.",
+			"explain": "5 more than n and n increased by 5 are n + 5. 5 less than n and n take away 5 are n − 5. The product of 5 and n and 5 lots of n are 5n."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A cube is built 5 blocks wide, 5 deep and 5 high. You paint every outside face. How many block faces get paint?",
+			"answer": "150",
+			"hint": "How many squares are on one face of the cube? How many faces does a cube have?",
+			"explain": "Each face is 5 × 5 squares, which is 25 (that is 5²). A cube has 6 faces: 6 × 25 = 150 painted block faces."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6a.power_value",
+			"level": 1
+		},
+		{
+			"gen": "g6a.power_value",
+			"level": 2
+		},
+		{
+			"gen": "g6a.power_value",
+			"level": 3
+		},
+		{
+			"gen": "g6a.evaluate",
+			"level": 1
+		},
+		{
+			"gen": "g6a.evaluate",
+			"level": 2
+		},
+		{
+			"gen": "g6a.evaluate",
+			"level": 3
+		},
+		{
+			"gen": "g6a.write_expression",
+			"level": 1
+		},
+		{
+			"gen": "g6a.write_expression",
+			"level": 2
+		},
+		{
+			"gen": "g6a.write_expression",
+			"level": 3
+		}
+	]
+}

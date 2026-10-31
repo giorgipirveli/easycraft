@@ -1,0 +1,204 @@
+{
+	"id": "g4.maths.factors",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, dividing. What is 14 ÷ 4? 3 remainder 2: 3 groups of 4 and 2 left over."
+		},
+		{
+			"text": "Factors are numbers that multiply to make a number. 3 × 4 = 12, so 3 and 4 are factors of 12. They are a factor pair.",
+			"picture": {
+				"kind": "array",
+				"rows": 3,
+				"cols": 4,
+				"block": 6
+			}
+		},
+		{
+			"text": "12 blocks can make these rectangles: 1 by 12, 2 by 6 and 3 by 4. So the factors of 12 are 1, 2, 3, 4, 6 and 12.",
+			"picture": {
+				"kind": "array",
+				"rows": 2,
+				"cols": 6,
+				"block": 6
+			}
+		},
+		{
+			"text": "A multiple is what you land on when you count in steps: the multiples of 5 are 5, 10, 15, 20… 35 is a multiple of 5 and of 7."
+		},
+		{
+			"text": "A prime number has exactly two factors, 1 and itself: 2, 3, 5, 7, 11, 13… A composite number has more than two factors. 1 is neither."
+		},
+		{
+			"text": "Try it in the world: arrange 12 blocks in every rectangle you can: 1 by 12, 2 by 6, 3 by 4. Now try 7 blocks: only 1 by 7, so 7 is prime. Next: patterns and rules."
+		}
+	],
+	"exercises": [
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "4 is a factor of 20.",
+			"answer": true,
+			"hint": "Does 4 go into 20 with nothing left over?",
+			"explain": "4 × 5 = 20, so 4 is a factor of 20."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a factor pair of 18?",
+			"choices": [
+				"3 and 6",
+				"3 and 5",
+				"4 and 5",
+				"2 and 8"
+			],
+			"answer": 0,
+			"hint": "Which pair multiplies to make 18?",
+			"explain": "3 × 6 = 18"
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What is the missing factor? 7 × ? = 42",
+			"answer": "6",
+			"hint": "Count in 7s up to 42.",
+			"explain": "7 × 6 = 42"
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which number is prime?",
+			"choices": [
+				"17",
+				"21",
+				"27",
+				"15"
+			],
+			"answer": 0,
+			"hint": "A prime number has only 1 and itself as factors.",
+			"explain": "17 has only the factors 1 and 17. 21 = 3 × 7, 27 = 3 × 9 and 15 = 3 × 5."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Every multiple of 6 is also a multiple of 3.",
+			"answer": true,
+			"hint": "6 = 2 × 3.",
+			"explain": "Counting in 6s lands on every other 3: 6, 12, 18…"
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many factors does 16 have?",
+			"answer": "5",
+			"hint": "Find every factor pair: 1 × 16, 2 × 8, 4 × 4. Count each number once.",
+			"explain": "1, 2, 4, 8 and 16: five factors."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which number is a multiple of both 4 and 6?",
+			"choices": [
+				"24",
+				"18",
+				"16",
+				"30"
+			],
+			"answer": 0,
+			"hint": "Count in 4s and in 6s. Where do they meet?",
+			"explain": "24 = 4 × 6. 18 and 30 are not multiples of 4, and 16 is not a multiple of 6."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "51 is a prime number.",
+			"answer": false,
+			"hint": "Try dividing by 3.",
+			"explain": "51 = 3 × 17, so it is composite."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "Build a rectangle of 18 blocks that is 3 blocks tall.",
+			"board": {
+				"cols": 10,
+				"rows": 5,
+				"block": 6,
+				"given": [],
+				"view": "wall"
+			},
+			"goal": {
+				"kind": "array",
+				"rows": 3,
+				"cols": 6
+			},
+			"hint": "3 rows: how many blocks in each row?",
+			"explain": "3 × 6 = 18: 3 rows of 6."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4m.is_factor",
+			"level": 1
+		},
+		{
+			"gen": "g4m.is_factor",
+			"level": 2
+		},
+		{
+			"gen": "g4m.is_factor",
+			"level": 3
+		},
+		{
+			"gen": "g4m.not_factor",
+			"level": 1
+		},
+		{
+			"gen": "g4m.not_factor",
+			"level": 2
+		},
+		{
+			"gen": "g4m.is_multiple",
+			"level": 1
+		},
+		{
+			"gen": "g4m.is_multiple",
+			"level": 2
+		},
+		{
+			"gen": "g4m.is_multiple",
+			"level": 3
+		},
+		{
+			"gen": "g4m.prime_composite",
+			"level": 1
+		},
+		{
+			"gen": "g4m.prime_composite",
+			"level": 2
+		},
+		{
+			"gen": "g4m.prime_composite",
+			"level": 3
+		},
+		{
+			"gen": "g4m.factor_pairs_count",
+			"level": 2
+		},
+		{
+			"gen": "g4m.factor_pairs_count",
+			"level": 3
+		},
+		{
+			"gen": "g4m.rectangle_build",
+			"level": 1
+		},
+		{
+			"gen": "g4m.rectangle_build",
+			"level": 2
+		},
+		{
+			"gen": "g4m.rectangle_build",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,230 @@
+{
+	"id": "g7.maths.inequalities",
+	"lesson": [
+		{
+			"text": "Quick memory: last unit, two-step equations. Solve 3x + 5 = 20. Take 5 from both sides, then divide by 3: x = 5."
+		},
+		{
+			"text": "Solve an inequality like an equation: 2x − 3 > 7. Add 3 to both sides: 2x > 10. Divide by 2: x > 5. Every number bigger than 5 works.",
+			"picture": {
+				"kind": "inequality_line",
+				"from": 0,
+				"to": 10,
+				"step": 1,
+				"at": 5,
+				"sign": ">"
+			}
+		},
+		{
+			"text": "One big difference: multiplying or dividing by a negative number flips the sign. −3x < 12 gives x > −4. Check with x = 0: −3 × 0 is 0, and 0 < 12 is true."
+		},
+		{
+			"text": "On a number line, an open circle means the number isn't included (> or <); a filled circle means it is (≥ or ≤). The arrow shows the answers go on for ever.",
+			"picture": {
+				"kind": "inequality_line",
+				"from": -6,
+				"to": 6,
+				"step": 1,
+				"at": -4,
+				"sign": "≥"
+			}
+		},
+		{
+			"text": "Word problems: \"You need at least 50 coins and have 20; you save 6 a week\" gives 20 + 6w ≥ 50, so w ≥ 5."
+		},
+		{
+			"text": "Try it in the world: you have 20 gold and earn 6 a day. When can you buy a 50-gold item? 20 + 6d ≥ 50, so d ≥ 5 days. Next: scale drawings."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Solve: x + 4 > 10",
+			"answer": 0,
+			"hint": "Take 4 from both sides.",
+			"choices": [
+				"x > 6",
+				"x < 6",
+				"x > 14"
+			],
+			"explain": "Take 4 from both sides: x + 4 − 4 > 10 − 4, so x > 6."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Solve: 3x ≤ 12",
+			"answer": 0,
+			"hint": "Divide by 3.",
+			"choices": [
+				"x ≤ 4",
+				"x ≥ 4",
+				"x ≤ 36"
+			],
+			"explain": "Divide both sides by 3: x ≤ 12 ÷ 3, so x ≤ 4."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A filled circle on a number line means the number is included.",
+			"answer": true,
+			"hint": "Which signs have a line under them: > and <, or ≥ and ≤?",
+			"explain": "Yes: a filled circle means the number itself is a solution (≥ or ≤)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Solve: 2x − 3 > 7",
+			"answer": 0,
+			"hint": "Add 3, then divide by 2.",
+			"choices": [
+				"x > 5",
+				"x > 2",
+				"x < 5"
+			],
+			"explain": "2x > 10, x > 5."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which number is a solution of 4x + 1 ≥ 13?",
+			"answer": 0,
+			"hint": "Put each choice in for x. Which one makes 4x + 1 at least 13?",
+			"choices": [
+				"3",
+				"2",
+				"0"
+			],
+			"explain": "4 × 3 + 1 = 13 ≥ 13."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Dividing both sides by a negative number flips the inequality sign.",
+			"answer": true,
+			"hint": "Try it: −2 < 4 is true. Divide both sides by −2. Is 1 < −2 still true?",
+			"explain": "Yes: dividing by a negative flips the sign, so 1 > −2."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Solve: −2x + 5 < 11",
+			"answer": 0,
+			"hint": "Divide by −2 and flip.",
+			"choices": [
+				"x > −3",
+				"x < −3",
+				"x > 3"
+			],
+			"explain": "Take 5 from both sides: −2x < 6. Divide by −2 and flip the sign: x > −3. Check with x = 0: 0 + 5 = 5, and 5 < 11 is true."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "You have 20 coins and save 6 a week. What is the fewest weeks to have at least 50 coins?",
+			"answer": "5",
+			"hint": "20 + 6w ≥ 50.",
+			"explain": "20 + 6w ≥ 50. Take 20 from both sides: 6w ≥ 30. Divide by 6: w ≥ 5, so 5 weeks is the fewest. Check: 20 + 30 = 50."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each inequality to its words.",
+			"items": [
+				"x > 3",
+				"x < 3",
+				"x ≥ 3",
+				"x ≤ 3"
+			],
+			"matches": [
+				"3 or less",
+				"3 or more",
+				"more than 3",
+				"less than 3"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				0
+			],
+			"hint": "The line under ≥ and ≤ means \"or equal to\": 3 itself counts.",
+			"explain": "x > 3: more than 3. x < 3: less than 3. x ≥ 3: 3 or more. x ≤ 3: 3 or less."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Which numbers are solutions of 2x + 1 > 7?",
+			"items": [
+				"2",
+				"3",
+				"4",
+				"5",
+				"10"
+			],
+			"groups": [
+				"solution",
+				"not a solution"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				0
+			],
+			"hint": "Solve it first: take 1, then divide by 2. Is 3 itself included?",
+			"explain": "2x + 1 > 7 gives 2x > 6, so x > 3. So 4, 5 and 10 work; 2 and 3 do not (3 makes 7, which is not more than 7).",
+			"picture": {
+				"kind": "inequality_line",
+				"from": 0,
+				"to": 10,
+				"step": 1,
+				"at": 3,
+				"sign": ">",
+				"words": false
+			}
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Solve −2x + 3 ≤ 9, then sort the numbers: solutions or not?",
+			"groups": [
+				"solution",
+				"not a solution"
+			],
+			"items": [
+				"−4",
+				"−3",
+				"0",
+				"2",
+				"−5",
+				"5"
+			],
+			"answer": [
+				1,
+				0,
+				0,
+				0,
+				1,
+				0
+			],
+			"hint": "Take 3 from both sides, then divide by −2. Dividing by a negative flips the sign.",
+			"explain": "Take 3 from both sides: −2x ≤ 6. Divide by −2 and flip the sign: x ≥ −3. So −3, 0, 2 and 5 work; −4 and −5 are less than −3. Check −4: 8 + 3 = 11, and 11 is not 9 or less."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7n.solve_inequality",
+			"level": 1
+		},
+		{
+			"gen": "g7n.solve_inequality",
+			"level": 2
+		},
+		{
+			"gen": "g7n.solve_inequality",
+			"level": 3
+		}
+	]
+}

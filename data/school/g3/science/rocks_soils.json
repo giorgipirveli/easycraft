@@ -1,0 +1,352 @@
+{
+	"id": "g3.science.rocks_soils",
+	"lesson": [
+		{
+			"text": "Remember? Fossils are found in layers of rock. Today we look at the rocks themselves, and at the soil under your feet.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					17,
+					3,
+					64,
+					4,
+					2
+				],
+				"labels": true
+			}
+		},
+		{
+			"text": "Rocks are natural, made of tiny grains called minerals. Some are very hard, like granite. Some are soft and crumbly, like chalk. Some let water soak in, like sandstone; some do not, like slate.",
+			"picture": {
+				"kind": "icon",
+				"block": 3
+			}
+		},
+		{
+			"text": "Rocks form in three ways. Igneous rocks, like granite, form when melted rock cools. Sedimentary rocks, like sandstone and chalk, form from layers of sand, mud and shells pressed together."
+		},
+		{
+			"text": "Metamorphic rocks, like marble and slate, are rocks changed by great heat and pressure deep underground."
+		},
+		{
+			"text": "We choose rocks for their properties: slate for roofs, because it is waterproof and splits into thin sheets; granite for steps and kerbs, because it is hard; marble for statues, because it is smooth and can be carved.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Rock",
+						"Property",
+						"Used for"
+					],
+					[
+						"slate",
+						"waterproof",
+						"roofs"
+					],
+					[
+						"granite",
+						"hard",
+						"steps"
+					],
+					[
+						"marble",
+						"smooth",
+						"statues"
+					]
+				]
+			}
+		},
+		{
+			"text": "Soil is made of tiny bits of rock, broken off by weather over a very long time. They are mixed with humus (rotted plants and animals), water and air. Worms help by mixing it.",
+			"picture": {
+				"kind": "icon",
+				"block": 2
+			}
+		},
+		{
+			"text": "Soils are different. Sandy soil lets water drain through quickly. Clay soil is sticky and holds water. Loam is a mix, and many plants grow well in it."
+		},
+		{
+			"text": "Try it in the world: dig down in your world: soil on top, then stone. Why would you plant a garden in soil, not on stone? Next: pushes, pulls and friction."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is soil made of?",
+			"answer": 0,
+			"hint": "Soil has several parts.",
+			"choices": [
+				"bits of rock, rotted plants, water and air",
+				"only sand",
+				"only water"
+			],
+			"explain": "Soil is tiny bits of rock mixed with humus, water and air."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which rock is soft and crumbly?",
+			"answer": 0,
+			"hint": "Which rock can you draw with?",
+			"choices": [
+				"chalk",
+				"granite",
+				"slate"
+			],
+			"explain": "Chalk is soft: it crumbles and leaves marks."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Worms help to mix the soil.",
+			"answer": true,
+			"hint": "What do worms do as they tunnel?",
+			"explain": "True: worms mix the soil and let air and water in."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which rock is used for roof tiles because it is waterproof?",
+			"answer": 0,
+			"hint": "It splits into thin, flat sheets.",
+			"choices": [
+				"slate",
+				"chalk",
+				"sandstone"
+			],
+			"explain": "Slate is waterproof and splits into thin sheets: good for roofs."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How does an igneous rock form?",
+			"answer": 0,
+			"hint": "Think of a volcano.",
+			"choices": [
+				"when melted rock cools",
+				"from layers of shells",
+				"from soil"
+			],
+			"explain": "Igneous rocks form when melted rock, like lava, cools and hardens."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which rock formed from layers of sand pressed together?",
+			"answer": 0,
+			"hint": "The clue is in its name.",
+			"choices": [
+				"sandstone",
+				"granite",
+				"marble"
+			],
+			"explain": "Sandstone is a sedimentary rock made from layers of sand."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Humus is made from rotted plants and animals.",
+			"answer": true,
+			"hint": "What happens to fallen leaves over time?",
+			"explain": "True: rotted leaves and dead animals become humus, which feeds plants."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which soil lets water drain through fastest?",
+			"answer": 0,
+			"hint": "Its grains are big, with gaps between them.",
+			"choices": [
+				"sandy soil",
+				"clay soil",
+				"loam"
+			],
+			"explain": "Sandy soil has big grains with gaps, so water runs through quickly."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the making of soil in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What must happen to the rock first?",
+			"items": [
+				"Soil forms",
+				"Rotted leaves mix in",
+				"It breaks into tiny bits",
+				"Rock is broken by weather"
+			],
+			"explain": "Weather breaks the rock into tiny bits, rotted plants mix in, and soil forms over a long time."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Zara pours water on three rocks. Which rock let the water soak in?",
+			"answer": 0,
+			"hint": "Look for the rock where the water disappeared.",
+			"choices": [
+				"sandstone",
+				"granite",
+				"slate"
+			],
+			"explain": "The water soaked into the sandstone: it is permeable.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Rock",
+						"Water"
+					],
+					[
+						"granite",
+						"stays on top"
+					],
+					[
+						"sandstone",
+						"soaks in"
+					],
+					[
+						"slate",
+						"stays on top"
+					]
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is granite good for steps?",
+			"answer": 0,
+			"hint": "Steps get walked on all day.",
+			"choices": [
+				"It is very hard and does not wear away",
+				"It soaks up water",
+				"It is soft and crumbly"
+			],
+			"explain": "Granite is hard, so it lasts under many feet."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Marble is limestone changed by heat and pressure. What kind of rock is it?",
+			"answer": 0,
+			"hint": "Changed rocks have their own group.",
+			"choices": [
+				"metamorphic",
+				"igneous",
+				"sedimentary"
+			],
+			"explain": "Rocks changed by heat and pressure are metamorphic."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Clay soil drains water faster than sandy soil.",
+			"answer": false,
+			"hint": "Which soil is sticky?",
+			"explain": "False: clay holds water; sandy soil drains fastest."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Water drains through sandy soil in 20 seconds and through clay soil in 90 seconds. How many seconds slower is the clay?",
+			"answer": "70",
+			"hint": "Take the smaller time from the bigger one.",
+			"explain": "90 − 20 = 70 seconds slower."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each rock to a good use for it.",
+			"hint": "Think of each rock's properties.",
+			"items": [
+				"slate",
+				"granite",
+				"marble"
+			],
+			"matches": [
+				"statues",
+				"roof tiles",
+				"steps and kerbs"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"explain": "Slate splits into waterproof sheets for roofs, hard granite makes steps and kerbs, and smooth marble is carved into statues."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the rocks by how they formed.",
+			"groups": [
+				"igneous",
+				"sedimentary",
+				"metamorphic"
+			],
+			"items": [
+				"granite",
+				"sandstone",
+				"marble",
+				"chalk",
+				"slate"
+			],
+			"answer": [
+				0,
+				1,
+				2,
+				1,
+				2
+			],
+			"hint": "Melted rock that cooled, layers pressed together, or rock changed by heat and pressure?",
+			"explain": "Igneous: granite, from cooled melted rock. Sedimentary: sandstone and chalk, from layers pressed together. Metamorphic: marble and slate, changed by heat and pressure."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each soil to what happens when you water it.",
+			"items": [
+				"sandy soil",
+				"clay soil",
+				"loam"
+			],
+			"matches": [
+				"sticky: it holds water",
+				"a mix: many plants grow well",
+				"it drains quickly"
+			],
+			"answer": [
+				2,
+				0,
+				1
+			],
+			"hint": "Big grains let water through; tiny sticky grains hold it; a mix is in between.",
+			"explain": "Sandy soil drains quickly through its big grains. Clay soil is sticky and holds water. Loam is a mix, and many plants grow well in it."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the rocks from the hardest to the softest.",
+			"items": [
+				"chalk",
+				"granite",
+				"sandstone"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Which is used for steps, and which crumbles in your hand?",
+			"explain": "Granite is very hard (it is used for steps and kerbs), sandstone is in between, and chalk is soft and crumbly."
+		}
+	],
+	"generators": []
+}

@@ -1,0 +1,366 @@
+{
+	"id": "g6.computing.hardware_software",
+	"lesson": [
+		{
+			"text": "Quick memory: is a microphone an input or an output? (An input: sound goes into the computer.) Today: inside the computer, and the software that runs it."
+		},
+		{
+			"text": "The processor (CPU) is the computer's brain. It fetches an instruction from memory, decodes it (works out what it means) and executes it, billions of times a second.",
+			"picture": {
+				"kind": "computer_parts",
+				"labels": true,
+				"mark": "processor"
+			}
+		},
+		{
+			"text": "Memory (RAM) holds the programs and data in use right now. It is very fast, but it forgets everything when the power goes off.",
+			"picture": {
+				"kind": "computer_parts",
+				"labels": true,
+				"mark": "memory"
+			}
+		},
+		{
+			"text": "Storage, like a solid-state drive, keeps files when the power is off: photos, programs and saved worlds. It is slower than memory but holds far more.",
+			"picture": {
+				"kind": "computer_parts",
+				"labels": true,
+				"mark": "storage"
+			}
+		},
+		{
+			"text": "Sizes: 8 bits make a byte. 1,000 bytes make a kilobyte (KB), 1,000 KB make a megabyte (MB) and 1,000 MB make a gigabyte (GB). A photo might be 4 MB."
+		},
+		{
+			"text": "Software is the programs. The operating system runs the whole computer: it starts programs, shares out the memory, looks after files and talks to the hardware. Apps like this game run on top of it."
+		},
+		{
+			"text": "Worked example: you tap PLAY. The tap is input; the operating system passes it to the game; the processor runs the game's code from memory; your world loads from storage onto the screen."
+		},
+		{
+			"text": "Try it in the world: with a grown-up, look in a computer's or tablet's settings for its processor, memory and storage sizes. Next: spreadsheet models."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which part is the computer's brain, following the instructions?",
+			"answer": 0,
+			"hint": "It fetches, decodes and executes.",
+			"choices": [
+				"the processor",
+				"the storage",
+				"the screen",
+				"the fan"
+			],
+			"explain": "The processor (CPU) carries out the instructions."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Memory (RAM) keeps your files when the computer is switched off.",
+			"answer": false,
+			"hint": "What happens to RAM when the power goes?",
+			"explain": "False: RAM forgets when the power goes off; storage keeps files."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these is software?",
+			"answer": 0,
+			"hint": "Software is programs; hardware is parts you can touch.",
+			"choices": [
+				"the operating system",
+				"the processor",
+				"the keyboard",
+				"the memory chips"
+			],
+			"explain": "The operating system is a program: software."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: hardware or software?",
+			"groups": [
+				"hardware",
+				"software"
+			],
+			"items": [
+				"processor",
+				"a game",
+				"keyboard",
+				"operating system",
+				"memory chips",
+				"a painting app"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Can you touch it? Then it is hardware.",
+			"explain": "Hardware: processor, keyboard, memory chips. Software: a game, the operating system, a painting app."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the inside of the computer: tap a word, then its number.",
+			"hint": "The processor is a square chip; memory is sticks; storage is a drive; the power supply has a fan.",
+			"explain": "The square chip is the processor, the two sticks are memory, the drive is storage and the fan box is the power supply.",
+			"picture": {
+				"kind": "computer_parts"
+			},
+			"spots": [
+				[
+					0.5284,
+					0.112,
+					0.5284,
+					0.349
+				],
+				[
+					0.7271,
+					0.112,
+					0.7271,
+					0.3757
+				],
+				[
+					0.4905,
+					0.888,
+					0.4905,
+					0.7398
+				],
+				[
+					0.0577,
+					0.2691,
+					0.1783,
+					0.2691
+				]
+			],
+			"labels": [
+				"memory",
+				"storage",
+				"power supply",
+				"processor"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			]
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the processor's cycle in order.",
+			"answer": [
+				1,
+				0,
+				2
+			],
+			"hint": "It must get the instruction before it can understand it.",
+			"items": [
+				"decode it (work out what it means)",
+				"fetch the instruction",
+				"execute it (carry it out)"
+			],
+			"explain": "Fetch, decode, execute, then again."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many bits are in 4 bytes?",
+			"answer": "32",
+			"hint": "A byte is 8 bits.",
+			"explain": "4 × 8 = 32 bits."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why does a computer have both memory and storage?",
+			"answer": 0,
+			"hint": "Which one forgets when the power goes? Which is faster?",
+			"choices": [
+				"memory is fast for now; storage keeps things",
+				"they are the same thing",
+				"storage is faster than memory",
+				"memory keeps files when off"
+			],
+			"explain": "Memory is fast but forgets; storage is slower but keeps your files."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each part to its job.",
+			"items": [
+				"processor",
+				"memory",
+				"storage",
+				"operating system"
+			],
+			"matches": [
+				"holds what is used now",
+				"keeps files when off",
+				"runs the computer",
+				"runs the instructions"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Brain, desk, cupboard and manager.",
+			"explain": "The processor runs instructions, memory holds what is in use, storage keeps files and the operating system runs the whole computer."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is a job of the operating system?",
+			"answer": 0,
+			"hint": "It manages the computer for all the programs.",
+			"choices": [
+				"sharing out the memory between programs",
+				"drawing your pictures",
+				"being a kind of keyboard",
+				"storing electricity"
+			],
+			"explain": "The operating system shares out memory, starts programs and looks after files."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 2 GB memory card holds how many 4 MB photos? (1 GB is 1,000 MB.)",
+			"answer": "500",
+			"hint": "Change GB into MB, then share by 4.",
+			"explain": "2 GB = 2,000 MB, and 2,000 ÷ 4 = 500 photos."
+		},
+		{
+			"type": "label",
+			"level": 3,
+			"prompt": "Label all five parts.",
+			"hint": "The ports are on the board's edge, where cables plug in.",
+			"explain": "The fan box is the power supply, the square chip the processor, the sticks memory, the drive storage, and the sockets on the edge are ports.",
+			"picture": {
+				"kind": "computer_parts"
+			},
+			"spots": [
+				[
+					0.0577,
+					0.2691,
+					0.1783,
+					0.2691
+				],
+				[
+					0.5284,
+					0.112,
+					0.5284,
+					0.349
+				],
+				[
+					0.7271,
+					0.112,
+					0.7271,
+					0.3757
+				],
+				[
+					0.4905,
+					0.888,
+					0.4905,
+					0.7398
+				],
+				[
+					0.9068,
+					0.888,
+					0.9068,
+					0.722
+				]
+			],
+			"labels": [
+				"processor",
+				"memory",
+				"storage",
+				"ports",
+				"power supply"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				4,
+				0
+			]
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Adding more memory (RAM) can help a computer run more programs at once.",
+			"answer": true,
+			"hint": "Where do programs sit while they run?",
+			"explain": "True: running programs sit in memory, so more of it holds more at once."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A processor does 3 billion steps a second. How many billion steps does it do in 5 seconds?",
+			"answer": "15",
+			"hint": "Multiply the steps in one second by the seconds.",
+			"explain": "3 × 5 = 15 billion steps."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A game saves your world when you quit. Where is it kept?",
+			"answer": 0,
+			"hint": "It must still be there after the power goes off.",
+			"choices": [
+				"in storage",
+				"in memory (RAM)",
+				"in the processor",
+				"on the screen"
+			],
+			"explain": "Storage keeps it with the power off, ready next time."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Sort these: does it forget when the power goes, or keep its data?",
+			"groups": [
+				"forgets when off",
+				"keeps when off"
+			],
+			"items": [
+				"memory (RAM)",
+				"a solid-state drive",
+				"a memory card",
+				"a hard disk"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1
+			],
+			"hint": "Careful: a name can trick you. What does each do when the power goes off?",
+			"explain": "Only RAM forgets. A memory card is storage, despite its name: it keeps photos with no power."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.storage_size",
+			"level": 1
+		},
+		{
+			"gen": "g6c.storage_size",
+			"level": 2
+		},
+		{
+			"gen": "g6c.storage_size",
+			"level": 3
+		}
+	]
+}

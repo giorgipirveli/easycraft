@@ -1,0 +1,262 @@
+{
+	"id": "g4.history.ancient_numbers",
+	"lesson": [
+		{
+			"text": "Quick memory: in maths you met Roman numerals. What number is XIV? (14.) The Romans came long after Egypt and Babylon. Today: how the first civilisations wrote numbers."
+		},
+		{
+			"text": "Egyptians had a sign for 1, 10, 100 and 1,000: a stroke, a heel bone, a coil of rope and a lotus flower. (Bigger signs showed 10,000 and more.) To write a number, they drew each sign as many times as needed.",
+			"picture": {
+				"kind": "numerals",
+				"system": "egypt",
+				"value": 1111,
+				"labels": true
+			}
+		},
+		{
+			"text": "Egyptian 342: three coils of rope (300), four heel bones (40) and two strokes (2). 300 + 40 + 2 = 342. There is no sign for zero: to write 305, the heel bones are just left out.",
+			"picture": {
+				"kind": "numerals",
+				"system": "egypt",
+				"value": 342
+			}
+		},
+		{
+			"text": "In Mesopotamia, scribes pressed just two signs into clay: an upright wedge for 1 and a corner wedge for 10. So 23 was two corner wedges and three upright wedges.",
+			"picture": {
+				"kind": "numerals",
+				"system": "babylon",
+				"value": 23
+			}
+		},
+		{
+			"text": "The Babylonians counted in sixties, and the place of a group mattered, like our tens and ones. The left group counted sixties: two upright wedges there and five on the right is 2 × 60 + 5 = 125.",
+			"picture": {
+				"kind": "numerals",
+				"system": "babylon",
+				"value": 125,
+				"labels": true
+			}
+		},
+		{
+			"text": "Why 60? Sixty can be shared equally in many ways: into 2, 3, 4, 5, 6, 10, 12, 15, 20 or 30 parts. That made sharing out grain and land easy."
+		},
+		{
+			"text": "We still use their sixties: 60 seconds in a minute, 60 minutes in an hour, 360 degrees in a turn. Egypt gave us 24 hours: 12 for the day and 12 for the night. So 2 hours are 2 × 60 = 120 minutes."
+		},
+		{
+			"text": "Try it in the world: write how many blocks your house has in Egyptian signs on a sign, then build a sundial: a tall post with stones to mark the hours. Next: how archaeologists work."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which Egyptian sign stood for 100?",
+			"answer": 0,
+			"hint": "A stroke is 1 and a heel bone is 10. The sign for 100 was long, and it could be rolled up.",
+			"choices": [
+				"a coil of rope",
+				"a lotus flower",
+				"a heel bone",
+				"a stroke"
+			],
+			"explain": "A coil of rope was 100. A stroke was 1, a heel bone 10 and a lotus flower 1,000."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What number do these Egyptian signs show?",
+			"answer": "23",
+			"hint": "A heel bone is 10 and a stroke is 1. Count them, then add.",
+			"explain": "2 heel bones (20) and 3 strokes (3): 20 + 3 = 23.",
+			"picture": {
+				"kind": "numerals",
+				"system": "egypt",
+				"value": 23
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "The Egyptians had a sign for zero.",
+			"answer": false,
+			"hint": "How was 305 written?",
+			"explain": "False: they simply left out the signs for an empty place."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many minutes are there in an hour?",
+			"answer": 0,
+			"hint": "Think of the Babylonians' favourite number.",
+			"choices": [
+				"60",
+				"100",
+				"10",
+				"24"
+			],
+			"explain": "60 minutes, a number that comes from counting in sixties."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What number do these Babylonian signs show?",
+			"answer": "34",
+			"hint": "A corner wedge is 10 and an upright wedge is 1.",
+			"explain": "3 corner wedges (30) and 4 upright wedges (4): 30 + 4 = 34.",
+			"picture": {
+				"kind": "numerals",
+				"system": "babylon",
+				"value": 34
+			}
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "How many Egyptian signs are needed to write 1,203?",
+			"answer": "6",
+			"hint": "Count how many signs each digit needs, then add. A 0 needs none.",
+			"explain": "1 lotus flower, 2 coils of rope, no heel bones and 3 strokes: 1 + 2 + 0 + 3 = 6 signs."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each Egyptian sign to its worth.",
+			"items": [
+				"stroke",
+				"heel bone",
+				"coil of rope",
+				"lotus flower"
+			],
+			"matches": [
+				"10",
+				"100",
+				"1,000",
+				"1"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Each sign is worth ten times the one before.",
+			"explain": "A stroke is 1, a heel bone 10, a coil of rope 100 and a lotus flower 1,000."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why did the Babylonians like 60?",
+			"answer": 0,
+			"hint": "Try sharing 60 between 2, 3, 4, 5 or 6 people.",
+			"choices": [
+				"it can be shared equally in many ways",
+				"they had 60 fingers",
+				"60 was the king's age",
+				"it is the biggest number"
+			],
+			"explain": "60 splits evenly into 2, 3, 4, 5, 6, 10, 12, 15, 20 or 30 parts, so sharing was easy."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A journey takes 4 hours. How many minutes is that?",
+			"answer": "240",
+			"hint": "Each hour is 60 minutes.",
+			"explain": "4 × 60 = 240 minutes."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What number does this Babylonian tablet show? The left group counts sixties.",
+			"answer": "145",
+			"hint": "Times the left group by 60, then add the right group.",
+			"explain": "2 sixties = 2 × 60 = 120, and 2 corner wedges and 5 upright wedges make 25. 120 + 25 = 145.",
+			"picture": {
+				"kind": "numerals",
+				"system": "babylon",
+				"value": 145,
+				"labels": true
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Writing 999 in Egyptian signs takes 27 signs.",
+			"answer": true,
+			"hint": "How many signs does each 9 need?",
+			"explain": "True: 9 coils of rope, 9 heel bones and 9 strokes: 9 + 9 + 9 = 27 signs. Our way needs only 3 digits!"
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is our way of writing numbers shorter than the Egyptian way?",
+			"answer": 0,
+			"hint": "Compare 999 written our way and the Egyptian way.",
+			"choices": [
+				"each place holds one digit, and 0 fills gaps",
+				"we use bigger pictures",
+				"Egyptians could not count past 100",
+				"our numbers are older"
+			],
+			"explain": "We use place value: one digit in each place, with 0 for an empty place, so 999 needs 3 digits, not 27 signs."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A full turn is 360 degrees, another Babylonian number. How many sixties make 360?",
+			"answer": "6",
+			"hint": "Count in sixties: 60, 120, 180, and keep going to 360.",
+			"explain": "360 ÷ 60 = 6 sixties."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Where do the 24 hours of our day come from?",
+			"answer": 0,
+			"hint": "Which land split the day and the night into twelve parts each?",
+			"choices": [
+				"Egypt: 12 hours of day and 12 of night",
+				"Rome: one hour for each emperor",
+				"China: one for each dynasty",
+				"Sumer: one for each city"
+			],
+			"explain": "The Egyptians split the day and the night into 12 hours each: 12 + 12 = 24."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A Babylonian number has 1 in the sixties place and 30 in the ones place. What number is it?",
+			"answer": "90",
+			"hint": "1 sixty is 60. Then add the ones.",
+			"explain": "1 × 60 + 30 = 90."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g4h.egypt_number",
+			"level": 1
+		},
+		{
+			"gen": "g4h.egypt_number",
+			"level": 2
+		},
+		{
+			"gen": "g4h.egypt_number",
+			"level": 3
+		},
+		{
+			"gen": "g4h.sixties",
+			"level": 1
+		},
+		{
+			"gen": "g4h.sixties",
+			"level": 2
+		},
+		{
+			"gen": "g4h.sixties",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,289 @@
+{
+	"id": "g8.art.animation",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5, how does a comic show time passing? (In panels, one moment in each, read in order.) Today: animation, pictures that move."
+		},
+		{
+			"text": "Animation is a series of still pictures shown fast; the eye and brain join them into movement. Toys of the 1800s showed this: the thaumatrope (1825), the zoetrope (1834) and the flip-book.",
+			"picture": {
+				"kind": "flip_frames",
+				"count": 7,
+				"view": "strip",
+				"ease": true
+			}
+		},
+		{
+			"text": "Films show 24 frames a second. Animators often draw on twos: each drawing is shown for 2 frames, so 12 drawings make a second of film.",
+			"picture": {
+				"kind": "flip_frames",
+				"count": 12,
+				"view": "strip",
+				"ease": true
+			}
+		},
+		{
+			"text": "Timing is how many frames a movement takes: more frames, a slower movement. Spacing is how far it moves between frames. Here the spacing is even, so the ball moves like a robot.",
+			"picture": {
+				"kind": "flip_frames",
+				"count": 9
+			}
+		},
+		{
+			"text": "Worked example: a real ball is slow at the top of its bounce and fast at the bottom. So the drawings bunch together at the top and spread out lower down: slow in and slow out. It squashes as it lands.",
+			"picture": {
+				"kind": "flip_frames",
+				"count": 9,
+				"ease": true,
+				"squash": true
+			}
+		},
+		{
+			"text": "Stop-motion moves models a tiny bit between photos. Lotte Reiniger (1899-1981) cut paper silhouettes for The Adventures of Prince Achmed (1926), the oldest animated feature film that survives."
+		},
+		{
+			"text": "Animators' rules of thumb: squash and stretch; anticipation, a small move back before a big one; arcs; and follow-through, as hair and tails keep moving after a stop."
+		},
+		{
+			"text": "Try it in the world: draw a bouncing ball on 12 sticky notes and flip them. Or make a Short in the game: SHORTS, then MAKE A SHORT. Next: sculpture and installation."
+		}
+	],
+	"exercises": [
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Film shows 24 frames a second. How many frames are in 3 seconds?",
+			"answer": "72",
+			"hint": "Multiply the frames a second by the seconds.",
+			"explain": "24 × 3 = 72 frames."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does a zoetrope do?",
+			"choices": [
+				"spins pictures so they seem to move",
+				"prints photos",
+				"records sound",
+				"mixes paint"
+			],
+			"answer": 0,
+			"hint": "Think of the toys from the 1800s.",
+			"explain": "A zoetrope spins a strip of drawings past slits, so they seem to move."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Using more frames for the same movement makes it look slower.",
+			"answer": true,
+			"hint": "More frames means more time.",
+			"explain": "True: at 24 frames a second, more frames take longer to show, so the movement is slower."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to its meaning.",
+			"items": [
+				"timing",
+				"spacing",
+				"squash",
+				"anticipation"
+			],
+			"matches": [
+				"how far it moves each frame",
+				"flattening as it lands",
+				"a small move before a big one",
+				"how many frames a move takes"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of a ball's bounce and a jump.",
+			"explain": "Timing is frames, spacing is distance each frame, squash is flattening and anticipation comes before a move."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Is this ball's spacing even, or slow in and slow out?",
+			"choices": [
+				"even: the same gap every frame",
+				"slow in and slow out"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "flip_frames",
+				"count": 9
+			},
+			"hint": "Compare the gaps at the top with the gaps lower down.",
+			"explain": "Every gap is the same size, so it is even spacing: the ball would move like a robot."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "An animator draws on twos at 24 frames a second. How many drawings are in 5 seconds?",
+			"answer": "60",
+			"hint": "On twos, how many drawings make one second?",
+			"explain": "24 ÷ 2 = 12 drawings a second, and 12 × 5 = 60 drawings."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Where does this ball move slowest?",
+			"choices": [
+				"at the top of the bounce",
+				"at the bottom",
+				"in the middle of the fall"
+			],
+			"answer": 0,
+			"picture": {
+				"kind": "flip_frames",
+				"count": 9,
+				"ease": true
+			},
+			"hint": "Where are the drawings closest together?",
+			"explain": "The drawings bunch together at the top, so it moves least between frames there: slow in and slow out."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps to make a stop-motion film.",
+			"items": [
+				"take a photo",
+				"build the models and the set",
+				"play the photos fast",
+				"move a model a tiny bit",
+				"plan the story"
+			],
+			"answer": [
+				4,
+				1,
+				3,
+				0,
+				2
+			],
+			"hint": "Plan, build, then move and shoot.",
+			"explain": "Plan, build, then move and photograph again and again, and finally play the photos fast."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Drawn animation or stop-motion?",
+			"groups": [
+				"drawn animation",
+				"stop-motion"
+			],
+			"items": [
+				"a flip-book",
+				"clay figures moved and photographed",
+				"paper cut-outs moved under a camera",
+				"drawings on twos",
+				"a zoetrope's strip of drawings"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Is it drawn, or is a real thing moved?",
+			"explain": "Flip-books, drawings on twos and zoetrope strips are drawn; clay and paper cut-outs are moved and photographed."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The Adventures of Prince Achmed (1926) is the oldest animated feature film that survives.",
+			"answer": true,
+			"hint": "Remember Lotte Reiniger's paper silhouettes.",
+			"explain": "True: Lotte Reiniger's film of 1926 is the oldest surviving animated feature."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A movement takes 36 frames at 24 frames a second. How many seconds is that?",
+			"answer": "1.5",
+			"hint": "Divide the frames by the frames a second.",
+			"explain": "36 ÷ 24 = 1.5 seconds."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A 2-minute Short is drawn on twos at 24 frames a second. How many drawings is that?",
+			"answer": "1440",
+			"hint": "Find the seconds and the drawings a second first.",
+			"explain": "2 minutes = 120 seconds; on twos, 24 ÷ 2 = 12 drawings a second; 120 × 12 = 1,440 drawings."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A character jumps. Which shows anticipation?",
+			"choices": [
+				"bending the knees before the jump",
+				"hair still moving after landing",
+				"the body flattening on landing",
+				"moving along a curve"
+			],
+			"answer": 0,
+			"hint": "Anticipation comes before the main move.",
+			"explain": "Bending the knees first gets ready for the jump: anticipation. Hair moving after is follow-through."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Even spacing makes a bouncing ball look natural.",
+			"answer": false,
+			"hint": "Where does a real ball move slowly?",
+			"explain": "False: a real ball slows at the top, so natural spacing bunches up there; even spacing looks robotic."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A ball's fall takes 6 frames. To make the fall last twice as long, how many frames should it take?",
+			"answer": "12",
+			"hint": "Twice as long needs twice as many frames.",
+			"explain": "6 × 2 = 12 frames."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each rule of thumb to an example.",
+			"items": [
+				"squash and stretch",
+				"anticipation",
+				"follow-through",
+				"arcs"
+			],
+			"matches": [
+				"a crouch before a jump",
+				"a tail swinging after a stop",
+				"an arm swinging on a curve",
+				"a ball flattening on the floor"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Picture each movement, then find its rule.",
+			"explain": "Flattening is squash, a crouch is anticipation, a swinging tail is follow-through and a curved swing is an arc."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8c.frame_count",
+			"level": 1
+		},
+		{
+			"gen": "g8c.frame_count",
+			"level": 2
+		},
+		{
+			"gen": "g8c.frame_count",
+			"level": 3
+		}
+	]
+}

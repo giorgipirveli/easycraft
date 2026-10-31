@@ -1,0 +1,356 @@
+{
+	"id": "g7.design_tech.world_cooking",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 6 you learnt food safety. What is the danger zone? (5 to 63 °C, where bacteria grow fastest.) Today: food from around the world, and how food and culture go together."
+		},
+		{
+			"text": "Every region has staple foods that grow well there: rice in warm, wet lands like South and East Asia; wheat in cooler, drier places, for bread and pasta; maize in the Americas, for tortillas; cassava and yams in the tropics."
+		},
+		{
+			"text": "Dishes grow from their staples. Paella (Spain) and sushi (Japan) use rice, and tacos (Mexico) maize. India has dal with rice, and West Africa jollof rice. Georgia bakes khachapuri, a cheese bread, and North Africa steams couscous.",
+			"picture": {
+				"kind": "voyage_map",
+				"places": [
+					{
+						"lat": 40,
+						"long": -4,
+						"label": "paella"
+					},
+					{
+						"lat": 22,
+						"long": 79,
+						"label": "dal"
+					},
+					{
+						"lat": 8,
+						"long": -1,
+						"label": "jollof rice"
+					},
+					{
+						"lat": 23,
+						"long": -102,
+						"label": "tacos"
+					},
+					{
+						"lat": 36,
+						"long": 138,
+						"label": "sushi"
+					},
+					{
+						"lat": 42,
+						"long": 43,
+						"label": "khachapuri"
+					},
+					{
+						"lat": 32,
+						"long": -6,
+						"label": "couscous"
+					}
+				]
+			}
+		},
+		{
+			"text": "Food travels. Spices like pepper, cinnamon and cloves came along trade routes. After 1492, tomatoes, potatoes, maize and chillies crossed from the Americas to the rest of the world. Many 'traditional' dishes are mixes.",
+			"picture": {
+				"kind": "columbian_exchange",
+				"to_old": [
+					"tomatoes",
+					"potatoes",
+					"maize",
+					"chillies"
+				],
+				"to_new": [
+					"wheat",
+					"rice",
+					"onions"
+				]
+			}
+		},
+		{
+			"text": "Food is part of culture: special meals in many traditions, like sweets for Diwali, a feast for Eid, dumplings for Lunar New Year and cake at Christmas. Many people follow food rules: vegetarian, vegan, halal or kosher."
+		},
+		{
+			"text": "Cook for everyone: ask about food rules and allergies, and label your dishes. UK law names 14 allergens that must be shown, like peanuts, milk, eggs, wheat (gluten), fish and sesame. Never guess: check the label."
+		},
+		{
+			"text": "Worked example: scale a recipe. Jollof rice for 4 uses 300 g of rice. For 6 people: 300 ÷ 4 = 75 g each, and 75 × 6 = 450 g. Cut with the bridge and claw grips, and take care with hot oil.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"people",
+						"rice"
+					],
+					[
+						"4",
+						"300 g"
+					],
+					[
+						"1",
+						"75 g"
+					],
+					[
+						"6",
+						"450 g"
+					]
+				]
+			}
+		},
+		{
+			"text": "Try it in the world: open a world food market in your village, each stall with a sign of its allergens. In LIFE, The Kitchen has recipes from many countries. Cook one with a grown-up. Next: cooking with less waste."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which staple food makes tortillas in Mexico?",
+			"choices": [
+				"maize",
+				"rice",
+				"cassava",
+				"oats"
+			],
+			"answer": 0,
+			"hint": "Which staple was first grown in the Americas?",
+			"explain": "Maize: tortillas are made from maize flour."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each dish to where it comes from.",
+			"items": [
+				"sushi",
+				"khachapuri",
+				"paella",
+				"tacos"
+			],
+			"matches": [
+				"Spain",
+				"Mexico",
+				"Georgia",
+				"Japan"
+			],
+			"answer": [
+				3,
+				2,
+				0,
+				1
+			],
+			"hint": "Think of each dish's staple: rice, cheese bread or maize.",
+			"explain": "Sushi: Japan. Khachapuri: Georgia. Paella: Spain. Tacos: Mexico."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Tomatoes and potatoes first came from the Americas.",
+			"answer": true,
+			"hint": "What crossed the Atlantic after 1492?",
+			"explain": "True: they spread from the Americas to the rest of the world after 1492."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A recipe for 4 uses 200 g of lentils. How many grams for 8 people?",
+			"answer": "400",
+			"hint": "How many times as many people? Multiply by that.",
+			"explain": "8 is 2 × 4, so 2 × 200 = 400 g."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Which are among the UK's 14 allergens?",
+			"groups": [
+				"one of the 14",
+				"not one of the 14"
+			],
+			"items": [
+				"peanuts",
+				"milk",
+				"eggs",
+				"apples",
+				"sesame",
+				"carrots"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Think of the foods that most often cause allergies.",
+			"explain": "Among the 14: peanuts, milk, eggs, sesame. Not: apples, carrots."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Couscous for 4 uses 240 g. How many grams for 6 people?",
+			"answer": "360",
+			"hint": "Find the amount for 1 person first, then multiply.",
+			"explain": "240 ÷ 4 = 60 g each, and 60 × 6 = 360 g."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why do many dishes in South and East Asia use rice?",
+			"choices": [
+				"rice grows well in warm, wet lands",
+				"rice is the only food there",
+				"wheat cannot be eaten there",
+				"rice comes from Europe"
+			],
+			"answer": 0,
+			"hint": "Staple foods grow where the climate suits them.",
+			"explain": "Rice grows best in warm, wet places, so it became the staple there."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put cooking for guests in order.",
+			"items": [
+				"serve, with a label of allergens",
+				"prepare: weigh, wash, cut",
+				"wash your hands",
+				"ask about food rules and allergies",
+				"cook it all the way through"
+			],
+			"answer": [
+				2,
+				3,
+				1,
+				4,
+				0
+			],
+			"hint": "Clean hands, then questions, then preparing, cooking and serving.",
+			"explain": "Wash hands, ask about rules and allergies, prepare, cook through, then serve with a label."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A guest eats only halal food. What should you check?",
+			"choices": [
+				"that any meat is halal, or cook without it",
+				"nothing: all food is fine",
+				"that the plate is round",
+				"that the dish is spicy"
+			],
+			"answer": 0,
+			"hint": "Halal rules are mostly about meat.",
+			"explain": "Check the meat is halal, or make a dish without meat; pork is never halal."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Spices like pepper and cinnamon travelled along trade routes.",
+			"answer": true,
+			"hint": "How did spices reach Europe?",
+			"explain": "True: spices were traded along land and sea routes for centuries."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Diwali, Eid, Lunar New Year and Christmas all have…",
+			"choices": [
+				"special foods shared with family",
+				"no food at all",
+				"the same dish everywhere",
+				"only cold food"
+			],
+			"answer": 0,
+			"hint": "Think of what festivals in many traditions have in common.",
+			"explain": "Special foods shared with family and friends: food is part of culture."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Khachapuri for 5 uses 400 g of cheese. How many grams for 8 people?",
+			"answer": "640",
+			"hint": "Share by the recipe's people to find one portion, then multiply.",
+			"explain": "400 ÷ 5 = 80 g each, and 80 × 8 = 640 g."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Scaling a recipe from 4 people to 6, how many times bigger is each amount?",
+			"choices": [
+				"1.5 times",
+				"2 times",
+				"6 times",
+				"the same"
+			],
+			"answer": 0,
+			"hint": "Divide the new number of people by the old.",
+			"explain": "6 ÷ 4 = 1.5 times."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If a dish has no nuts in its name, it cannot contain nuts.",
+			"answer": false,
+			"hint": "Where do you find what is really in a food?",
+			"explain": "False: always check the label or ask; nuts can be hidden."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each staple to where it grows best.",
+			"items": [
+				"rice",
+				"wheat",
+				"maize",
+				"cassava"
+			],
+			"matches": [
+				"warm, wet South and East Asia",
+				"hot, tropical Africa",
+				"cooler, drier Europe",
+				"first grown in the Americas"
+			],
+			"answer": [
+				0,
+				2,
+				3,
+				1
+			],
+			"hint": "Each staple needs its own climate.",
+			"explain": "Rice: warm and wet. Wheat: cooler and drier. Maize: the Americas. Cassava: hot and tropical."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A food stall sells 60 portions: 1/4 are jollof rice and 1/3 are tacos. How many portions are other dishes?",
+			"answer": "25",
+			"hint": "Find each fraction of 60, then take both away.",
+			"explain": "1/4 of 60 is 15 and 1/3 is 20; 60 − 15 − 20 = 25 portions."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.recipe_scale",
+			"level": 1
+		},
+		{
+			"gen": "g7w.recipe_scale",
+			"level": 2
+		},
+		{
+			"gen": "g7w.recipe_scale",
+			"level": 3
+		},
+		{
+			"gen": "g7w.dish_place",
+			"level": 1
+		},
+		{
+			"gen": "g7w.dish_place",
+			"level": 2
+		},
+		{
+			"gen": "g7w.dish_place",
+			"level": 3
+		}
+	]
+}

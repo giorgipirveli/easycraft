@@ -1,0 +1,294 @@
+{
+	"id": "g7.citizenship.small_business",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you made a budget. What is a budget? (A plan for money coming in and going out.) Today: how to start a small business: customers, costs, prices, profit and loss."
+		},
+		{
+			"text": "An entrepreneur spots a need and starts a business to meet it. Start with customers: what do people want or need that is missing? Find out with market research: asking questions, surveys, watching what sells, and looking at what others offer."
+		},
+		{
+			"text": "Costs come in two kinds. Fixed costs stay the same however much you sell, such as hiring a stall. Variable costs grow with each item you make, such as ingredients. Total costs are the fixed costs plus the variable costs."
+		},
+		{
+			"text": "Takings (revenue) are the price times the number sold. Profit is takings minus total costs; if costs are bigger, it is a loss. A stall costs 20 gold; each juice costs 1 gold and sells for 3. Sell 30: takings 90, costs 50, profit 40.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"Juices sold",
+						"Takings",
+						"Costs",
+						"Profit"
+					],
+					[
+						"5",
+						"15",
+						"25",
+						"−10"
+					],
+					[
+						"10",
+						"30",
+						"30",
+						"0"
+					],
+					[
+						"30",
+						"90",
+						"50",
+						"40"
+					]
+				]
+			}
+		},
+		{
+			"text": "Break-even is the number you must sell to cover all your costs. Each juice brings in 3 − 1 = 2 gold towards the stall, so 20 ÷ 2 = 10 juices. Sell fewer than 10 and you make a loss; sell more and you make a profit.",
+			"picture": {
+				"kind": "break_even",
+				"fixed": 20,
+				"cost": 1,
+				"price": 3,
+				"max": 30,
+				"point": true
+			}
+		},
+		{
+			"text": "Setting a price: cover your costs, compare with others, and think about what customers will pay. The four Ps of marketing: the right product, at the right price, in the right place, with the right promotion, such as posters."
+		},
+		{
+			"text": "Businesses take risks: if nobody buys, you may lose what you spent. Keep honest records, follow safety rules (for food above all), treat customers fairly, and learn from mistakes. A social enterprise uses its profits for a good cause."
+		},
+		{
+			"text": "Try it in the world: open a stall in your village. Find out what players need and set a price. Record every cost and sale, then work out your profit or loss and your break-even point. Next: cards and credit."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is revenue?",
+			"answer": 0,
+			"hint": "It is also called takings.",
+			"choices": [
+				"the money taken from sales",
+				"the profit",
+				"the costs",
+				"a tax"
+			],
+			"explain": "The money taken from sales: price × number sold."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which is a fixed cost?",
+			"answer": 0,
+			"hint": "Which one stays the same however much you sell?",
+			"choices": [
+				"hiring a stall",
+				"the ingredients for each cake",
+				"a paper bag for each item",
+				"the fruit for each juice"
+			],
+			"explain": "Hiring the stall: it costs the same whether you sell 1 or 100."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Profit is revenue minus total costs.",
+			"answer": true,
+			"hint": "What is left after paying for everything?",
+			"explain": "True: profit = revenue − total costs."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is market research?",
+			"answer": 0,
+			"hint": "Research means finding out.",
+			"choices": [
+				"finding out what customers want",
+				"buying a market",
+				"painting a stall",
+				"counting gold"
+			],
+			"explain": "Finding out what customers want or need, with questions, surveys and watching what sells."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is an entrepreneur?",
+			"answer": 0,
+			"hint": "They spot a need and meet it.",
+			"choices": [
+				"someone who starts a business",
+				"a customer",
+				"a tax collector",
+				"a bank"
+			],
+			"explain": "Someone who starts a business, taking a risk to meet a need."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Mimi sells 40 cookies at 2 gold each. Her costs are 35 gold. What is her profit?",
+			"answer": "45",
+			"hint": "Find the takings, then take away the costs.",
+			"explain": "40 × 2 = 80; 80 − 35 = 45 gold."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A stall costs 30 gold, and each bracelet costs 2 gold to make. What are the total costs for 25 bracelets?",
+			"answer": "80",
+			"hint": "Fixed costs plus the variable costs.",
+			"explain": "25 × 2 = 50; 30 + 50 = 80 gold."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort these costs: fixed or variable?",
+			"groups": [
+				"fixed",
+				"variable"
+			],
+			"items": [
+				"hiring the stall",
+				"ingredients",
+				"a painted sign",
+				"paper cups",
+				"a table",
+				"fruit"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does it grow with every item you make?",
+			"explain": "Fixed: the stall, the sign, the table. Variable: ingredients, cups, fruit."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "How many items must be sold to break even?",
+			"answer": 0,
+			"hint": "Find where the two lines cross.",
+			"choices": [
+				"20",
+				"12",
+				"30",
+				"40"
+			],
+			"explain": "The costs and takings lines cross at 20 items: each sells for 5 and costs 2, and 60 ÷ 3 = 20.",
+			"picture": {
+				"kind": "break_even",
+				"fixed": 60,
+				"cost": 2,
+				"price": 5,
+				"max": 40,
+				"point": true
+			}
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each of the four Ps.",
+			"items": [
+				"product",
+				"price",
+				"place",
+				"promotion"
+			],
+			"matches": [
+				"how people hear of it",
+				"what you sell",
+				"what it costs to buy",
+				"where you sell it"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Each P answers a question: what, how much, where, how do people find out?",
+			"explain": "Product: what. Price: how much. Place: where. Promotion: how people hear."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A stall costs 24 gold. Each drink costs 1 gold to make and sells for 4. How many drinks must be sold to break even?",
+			"answer": "8",
+			"hint": "Each drink pays price − cost towards the stall.",
+			"explain": "4 − 1 = 3 gold a drink; 24 ÷ 3 = 8 drinks."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Tilly's stall costs 24 gold; each drink costs 1 to make and sells for 4. She sells 10. Profit or loss?",
+			"answer": 0,
+			"hint": "Takings = 10 × 4. Costs = 24 + 10 × 1.",
+			"choices": [
+				"a profit of 6 gold",
+				"a loss of 6 gold",
+				"a profit of 40 gold",
+				"a loss of 14 gold"
+			],
+			"explain": "Takings 40; costs 24 + 10 = 34; 40 − 34 = 6: a profit of 6 gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "If you sell fewer than the break-even number, you make a profit.",
+			"answer": false,
+			"hint": "Below break-even, do the takings cover the costs?",
+			"explain": "False: below break-even the costs are bigger than the takings, so it is a loss."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why check what other stalls charge?",
+			"answer": 0,
+			"hint": "Think what you would do if the same juice were cheaper at the next stall.",
+			"choices": [
+				"customers may buy the cheaper one",
+				"prices never matter",
+				"to copy their name",
+				"it is a rule"
+			],
+			"explain": "If a similar thing is cheaper nearby, customers may buy it there instead."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "What is a social enterprise?",
+			"answer": 0,
+			"hint": "It is a business, but its profits go somewhere special.",
+			"choices": [
+				"a business whose profits help a good cause",
+				"a party",
+				"a charity shop only",
+				"a bank"
+			],
+			"explain": "A business that uses its profits for a good cause."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7h.profit_loss",
+			"level": 1
+		},
+		{
+			"gen": "g7h.profit_loss",
+			"level": 2
+		},
+		{
+			"gen": "g7h.profit_loss",
+			"level": 3
+		}
+	]
+}

@@ -1,0 +1,385 @@
+{
+	"stories": [
+		{"id": "nightingale", "name": "Florence Nightingale", "life": "1820-1910", "country": "the United Kingdom", "she": "yes",
+			"job": "Nurse", "icon": "story_lamp", "title": "The nurse with the lamp", "skill": "checked",
+			"lines": [
+				"In 1854, Florence Nightingale went to look after soldiers in a war hospital far from home.",
+				"The hospital was dirty and crowded. Many soldiers got ill from germs, not from the fighting.",
+				"Florence and her nurses cleaned, washed, cooked good food and let in fresh air.",
+				"At night she walked round the wards with a lamp, checking on the soldiers.",
+				"She also counted. Her charts showed that most of that illness could have been stopped.",
+				"In 1860 she started a school for nurses in London, and nursing became a job you train for."
+			],
+			"question": {"say": "Florence's charts showed people what was really making soldiers ill. Which skill did she use?",
+				"answer": 0, "choices": [
+					{"text": "Using numbers to show the truth", "icon": "skill_checked"},
+					{"text": "Being lucky", "icon": "skill_luck", "why": "It wasn't luck: she counted carefully, so people believed her."},
+					{"text": "Shouting louder", "icon": "talk", "why": "Her charts did the talking: careful numbers can change minds."}]},
+			"sources": [
+				{"fact": "In 1854 she led nurses at the army hospital at Scutari; she made night rounds with a lamp, 'the Lady with the Lamp'.", "url": "https://www.nam.ac.uk/explore/florence-nightingale-lady-lamp"},
+				{"fact": "Her statistics and diagrams showed most army deaths came from preventable disease; she founded the Nightingale Training School at St Thomas' Hospital in 1860.", "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Nightingale/"}
+			]},
+		{"id": "seacole", "name": "Mary Seacole", "life": "1805-1881", "country": "Jamaica", "she": "yes",
+			"job": "Nurse and businesswoman", "icon": "story_teapot", "title": "Mother Seacole's hotel", "skill": "kept_going",
+			"lines": [
+				"Mary Seacole grew up in Jamaica and learned how to care for sick people from her mother.",
+				"When a war began far away, she asked to go and help the soldiers. She was turned down.",
+				"Mary didn't give up. She paid for the long journey herself.",
+				"With a business partner she opened the British Hotel: food, warm drinks and care for tired soldiers.",
+				"When the war ended, her business was left with debts. Newspapers helped people raise money for her.",
+				"In 1857 she wrote a book about her adventures, and lots of people bought it."
+			],
+			"question": {"say": "Mary was told no, but she found her own way to help. Which skill did she use?",
+				"answer": 0, "choices": [
+					{"text": "Kept going and found another way", "icon": "skill_kept_going"},
+					{"text": "Gave up", "icon": "cross", "why": "She didn't stop at no: she found another way to help."},
+					{"text": "Waited to be asked", "icon": "clock", "why": "Nobody asked her: she made her own way there."}]},
+			"sources": [
+				{"fact": "Turned down by the War Office, she went to the Crimea at her own expense and set up the British Hotel near Balaclava with Thomas Day; bankrupt after the war, a fund was raised for her.", "url": "https://museumandarchives.redcross.org.uk/objects/46895"},
+				{"fact": "Wonderful Adventures of Mrs Seacole in Many Lands was published in 1857.", "url": "https://londonmuseum.org.uk/collections/v/object-547704/wonderful-adventures-of-mrs-seacole-in-many-lands"}
+			]},
+		{"id": "braille", "name": "Louis Braille", "life": "1809-1852", "country": "France",
+			"job": "Inventor and teacher", "icon": "story_braille", "title": "Letters you can feel", "skill": "improve",
+			"lines": [
+				"Louis Braille lost his sight after an accident when he was three.",
+				"At his school for blind children in Paris, the few books had huge raised letters, slow to feel.",
+				"A soldier, Charles Barbier, had made a 'night writing' of raised dots, but it was hard to read.",
+				"So Louis made it simpler. In 1824, when he was 15, he had an alphabet of six dots.",
+				"He kept working on it for years, and became a teacher at his school.",
+				"Today, blind people all over the world read braille with their fingertips."
+			],
+			"question": {"say": "Louis took an idea that was hard to use and made it better. Which skill did he use?",
+				"answer": 0, "choices": [
+					{"text": "Making an idea better", "icon": "skill_improve"},
+					{"text": "Saying it was impossible", "icon": "cross", "why": "He didn't say impossible: he made it simpler, step by step."},
+					{"text": "Copying it and stopping", "icon": "skill_luck", "why": "He started from Barbier's idea, then kept making it better."}]},
+			"sources": [
+				{"fact": "Blinded after an accident at three; at the Paris school for the blind he simplified Barbier's 12-dot night writing to a six-dot cell by 1824, aged 15; he later taught there.", "url": "https://nfb.org/node/9796"},
+				{"fact": "Braille's system of raised dots is used worldwide by blind readers.", "url": "https://www.britannica.com/biography/Louis-Braille"}
+			]},
+		{"id": "maathai", "name": "Wangari Maathai", "life": "1940-2011", "country": "Kenya", "she": "yes",
+			"job": "Scientist, tree planter and founder", "icon": "tree", "title": "Millions of trees", "skill": "team",
+			"lines": [
+				"Wangari Maathai grew up in Kenya and became the first woman in East and Central Africa to earn a doctorate.",
+				"She saw forests being cut down. Streams dried up, and families had less wood and food.",
+				"In 1977 she started small: the Green Belt Movement's first event planted seven trees.",
+				"She asked women to grow seedlings and plant trees, and they were paid a little for each tree that grew.",
+				"Together, they have planted more than 50 million trees.",
+				"In 2004 she became the first African woman to win the Nobel Peace Prize."
+			],
+			"question": {"say": "Wangari didn't plant millions of trees on her own. Which skill made it work?",
+				"answer": 0, "choices": [
+					{"text": "Teamwork: many people together", "icon": "skill_team"},
+					{"text": "One person working very fast", "icon": "run", "why": "Nobody could plant millions alone. Many hands did it together."},
+					{"text": "Being lucky", "icon": "skill_luck", "why": "It wasn't luck: thousands of women worked together."}]},
+			"sources": [
+				{"fact": "The first female scholar from East and Central Africa to take a doctorate; founded the Green Belt Movement in 1977; the first African woman to win the Nobel Peace Prize (2004).", "url": "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/"},
+				{"fact": "The movement's first event, on World Environment Day 1977, planted seven trees in Nairobi; it paid women for trees that survived.", "url": "https://en.wikipedia.org/wiki/Green_Belt_Movement"},
+				{"fact": "The Green Belt Movement says it has planted over 51 million trees.", "url": "https://www.greenbeltmovement.org/node/652"}
+			]},
+		{"id": "carver", "name": "George Washington Carver", "life": "about 1864-1943", "country": "the USA",
+			"job": "Farm scientist and teacher", "icon": "story_peanut", "title": "The teacher on wheels", "skill": "share",
+			"lines": [
+				"George Washington Carver was born into slavery. He worked hard to go to school and to college.",
+				"In 1896 he went to teach at the Tuskegee Institute in Alabama.",
+				"Farmers there grew cotton every year, and the soil got tired and poor.",
+				"He showed them how to take turns: peanuts or sweet potatoes one year, cotton the next. The soil got better.",
+				"In 1906 he started a school on wheels: the Jesup Wagon took lessons right to the farms.",
+				"He wrote simple booklets for farmers, full of ideas they could use."
+			],
+			"question": {"say": "Carver took his lessons out to the farms, on a wagon. Which skill did he use?",
+				"answer": 0, "choices": [
+					{"text": "Sharing what he knew", "icon": "skill_share"},
+					{"text": "Keeping it a secret", "icon": "lock", "why": "He did the opposite: he took his lessons to everyone."},
+					{"text": "Waiting for farmers to come", "icon": "clock", "why": "Many farmers couldn't come, so he went to them."}]},
+			"sources": [
+				{"fact": "Born into slavery; head of agriculture at Tuskegee from 1896; taught crop rotation with peanuts and sweet potatoes to restore soil worn out by cotton.", "url": "https://www.sciencehistory.org/education/scientific-biographies/george-washington-carver/"},
+				{"fact": "The Jesup Wagon, a movable school, took Tuskegee's lessons to farmers from 1906.", "url": "https://www.nps.gov/museum/exhibits/tuskegee/gwcarver/movable_school.html"}
+			]},
+		{"id": "wright", "name": "Wilbur and Orville Wright", "life": "1867-1912 and 1871-1948", "country": "the USA",
+			"job": "Inventors and engineers", "icon": "story_plane", "title": "The brothers who learned to fly", "skill": "try_again",
+			"lines": [
+				"Wilbur and Orville Wright ran a bicycle shop in Dayton, Ohio. They dreamed of flying.",
+				"They built gliders and tested them on the windy sand hills of Kitty Hawk. One glider lifted much less than they hoped.",
+				"So they built their own wind tunnel, a long wooden box with a fan, and tested lots of little wing shapes.",
+				"With what they learned, they made better wings, a light engine and propellers.",
+				"On 17 December 1903, Orville flew for 12 seconds and about 37 metres: the first aeroplane flight with an engine.",
+				"Later that day, Wilbur flew for 59 seconds."
+			],
+			"question": {"say": "The brothers' glider didn't work as planned. Which skill did they use?",
+				"answer": 0, "choices": [
+					{"text": "Testing and trying again", "icon": "skill_try_again"},
+					{"text": "Giving up", "icon": "cross", "why": "If they had given up, there would have been no first flight."},
+					{"text": "Blaming the wind", "icon": "talk", "why": "They didn't blame anything: they tested wing shapes to find what worked."}]},
+			"sources": [
+				{"fact": "Disappointed by their 1901 glider's lift, the Wrights built a wind tunnel in 1901 to test wing shapes.", "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/wind-tunnel/"},
+				{"fact": "17 December 1903, Kitty Hawk: the first flight was 120 feet in 12 seconds; the best that day 852 feet in 59 seconds.", "url": "https://airandspace.si.edu/collection-objects/stopwatch-wright-brothers/nasm_A19640054000"}
+			]},
+		{"id": "johnson", "name": "Katherine Johnson", "life": "1918-2020", "country": "the USA", "she": "yes",
+			"job": "Mathematician and space scientist", "icon": "story_orbit", "title": "Check the numbers", "skill": "checked",
+			"lines": [
+				"Katherine Johnson loved numbers. In 1953 she started work at Langley, the research centre that became part of NASA.",
+				"Her job was to do the sums that tell a spacecraft where to go.",
+				"In 1961 she worked out the path for Alan Shepard, the first American in space.",
+				"In 1962 John Glenn was going to fly all the way round the Earth. New electronic computers had done the sums.",
+				"Glenn asked for Katherine to check the computer's numbers. When she said they were right, he was ready to go.",
+				"In 2015 she was given the Presidential Medal of Freedom."
+			],
+			"question": {"say": "John Glenn trusted Katherine to check the numbers. Which skill did she use?",
+				"answer": 0, "choices": [
+					{"text": "Checking carefully", "icon": "skill_checked"},
+					{"text": "Guessing fast", "icon": "run", "why": "A guess isn't safe for a spaceflight: she checked every step."},
+					{"text": "Never asking questions", "icon": "lock", "why": "Asking good questions was part of her work."}]},
+			"sources": [
+				{"fact": "Joined Langley in 1953; calculated the trajectory for Alan Shepard's 1961 flight; John Glenn asked her to check the electronic computer's orbit numbers in 1962; Presidential Medal of Freedom, 2015.", "url": "https://www.nasa.gov/people-of-nasa/katherine-johnson-biography/"},
+				{"fact": "Glenn's request: 'If she says the numbers are good, I'm ready to go.'", "url": "https://www.space.com/35218-hidden-figures-when-did-john-glenn-ask-for-the-girl-to-check-the-numbers.html"}
+			]},
+		{"id": "montessori", "name": "Maria Montessori", "life": "1870-1952", "country": "Italy", "she": "yes",
+			"job": "Doctor and teacher", "icon": "story_chair", "title": "The children's house", "skill": "notice",
+			"lines": [
+				"Maria Montessori was one of the first women in Italy to become a doctor, in 1896.",
+				"She watched children very carefully, to see how they really learned.",
+				"On 6 January 1907 she opened a Children's House in a poor part of Rome, for about 60 young children.",
+				"It had child-sized tables and chairs, and things to do with your hands, so children learned by doing.",
+				"Children chose their work, tidied up and helped each other.",
+				"Her ideas spread, and there are Montessori schools all over the world today."
+			],
+			"question": {"say": "Maria watched children closely before she decided how to teach. Which skill did she use?",
+				"answer": 0, "choices": [
+					{"text": "Watching and learning first", "icon": "skill_notice"},
+					{"text": "Doing what everyone did", "icon": "people", "why": "She tried something new, from what she saw."},
+					{"text": "Guessing", "icon": "skill_luck", "why": "She didn't guess: she watched children carefully first."}]},
+			"sources": [
+				{"fact": "She graduated in medicine in Rome in 1896; the first Casa dei Bambini opened on 6 January 1907 in San Lorenzo, Rome.", "url": "https://montessori-ami.org/node/1821"},
+				{"fact": "About 60 children aged 3 to 6 from poor families came to the first Children's House.", "url": "https://montessori.org.au/node/4611"}
+			]},
+		{"id": "fleming", "name": "Alexander Fleming", "life": "1881-1955", "country": "Scotland",
+			"job": "Doctor and scientist", "icon": "story_dish", "title": "The mould that stopped germs", "skill": "notice",
+			"lines": [
+				"Alexander Fleming was a doctor and scientist at St Mary's Hospital in London.",
+				"In 1928 he came back from a holiday and looked at the dishes of germs he had left behind.",
+				"On one dish a mould had grown, and the germs round it had gone. He didn't throw it away: he looked closely.",
+				"He named what the mould made: penicillin.",
+				"Years later, a team at Oxford led by Howard Florey and Ernst Chain made it into a medicine for everyone.",
+				"In 1945 Fleming, Florey and Chain shared the Nobel Prize."
+			],
+			"question": {"say": "Fleming didn't throw the messy dish away. Which skill did he use?",
+				"answer": 0, "choices": [
+					{"text": "Noticing something odd and looking closely", "icon": "skill_notice"},
+					{"text": "Tidying up fast", "icon": "tidy", "why": "If he had tidied it away, nobody would have found penicillin then."},
+					{"text": "Ignoring surprises", "icon": "cross", "why": "Surprises can be clues: he looked closely."}]},
+			"sources": [
+				{"fact": "Returning from holiday in 1928, he noticed a mould that killed the bacteria around it on a culture dish, and named its substance penicillin.", "url": "https://www.sciencehistory.org/education/scientific-biographies/alexander-fleming/"},
+				{"fact": "The 1945 Nobel Prize in Physiology or Medicine was shared by Fleming, Ernst Chain and Howard Florey for penicillin.", "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/facts/"}
+			]},
+		{"id": "morgan", "name": "Garrett Morgan", "life": "about 1877-1963", "country": "the USA",
+			"job": "Inventor and businessman", "icon": "story_traffic", "title": "The safety hood and the traffic signal", "skill": "notice",
+			"lines": [
+				"Garrett Morgan's parents had been enslaved. He had only a few years of school, and taught himself to mend sewing machines.",
+				"He started his own repair shop in Cleveland, then more businesses.",
+				"He invented a safety hood to help people breathe in smoke, and got a patent for it in 1914.",
+				"In 1916, after an explosion in a tunnel under Lake Erie, he and his brother wore the hoods and went in to rescue workers.",
+				"Roads were getting busy and dangerous, so he invented a traffic signal that could stop every direction. He got its patent in 1923.",
+				"His ideas helped make rescues and roads safer."
+			],
+			"question": {"say": "Garrett saw dangers and made things to fix them. Which skill did he use?",
+				"answer": 0, "choices": [
+					{"text": "Spotting a problem and solving it", "icon": "skill_notice"},
+					{"text": "Hoping it would go away", "icon": "clock", "why": "Problems rarely go away by themselves: he invented a fix."},
+					{"text": "Copying someone else", "icon": "skill_luck", "why": "These were his own inventions, with his own patents."}]},
+			"sources": [
+				{"fact": "Son of formerly enslaved parents, with little schooling; repaired sewing machines in Cleveland and started businesses; patented a safety hood (1914) and a traffic signal (1923).", "url": "https://lemelson.mit.edu/resources/garrett-morgan"},
+				{"fact": "His 1923 patent was a three-position traffic signal; in 1916 he used his hood in the Lake Erie waterworks tunnel rescue.", "url": "https://ite.org/about-ite/history/honorary-members/garrett-a-morgan"}
+			]},
+		{"id": "dunant", "name": "Henry Dunant", "life": "1828-1910", "country": "Switzerland",
+			"job": "Businessman and founder", "icon": "story_hands", "title": "Help for everyone", "skill": "team",
+			"lines": [
+				"Henry Dunant was a Swiss businessman. In 1859, on a trip to Italy, he came to a town after a terrible battle.",
+				"Thousands of wounded soldiers lay there, with almost no one to care for them.",
+				"Henry asked the people of the town to help, and they cared for soldiers from both sides.",
+				"In 1862 he wrote a book asking every country to have helpers ready for wounded people.",
+				"In 1863 the group that became the International Committee of the Red Cross began.",
+				"Later his business went wrong and he became poor. But in 1901 he shared the very first Nobel Peace Prize."
+			],
+			"question": {"say": "Henry got a whole town helping, people from both sides. Which skill did he use?",
+				"answer": 0, "choices": [
+					{"text": "Bringing people together to help", "icon": "skill_team"},
+					{"text": "Doing it all alone", "icon": "run", "why": "There were too many soldiers for one person: he got the town helping."},
+					{"text": "Helping only his friends", "icon": "lock", "why": "He helped everyone, from both sides."}]},
+			"sources": [
+				{"fact": "A Swiss businessman who saw the wounded after the Battle of Solferino (1859) and organised help; he wrote A Memory of Solferino (1862); the International Committee of the Red Cross was founded in 1863.", "url": "https://www.britannica.com/biography/Henri-Dunant"},
+				{"fact": "He went bankrupt and lived in poverty, and shared the first Nobel Peace Prize in 1901.", "url": "https://www.nobelprize.org/prizes/peace/1901/dunant/facts/"}
+			]},
+		{"id": "yuan", "name": "Yuan Longping", "life": "1930-2021", "country": "China",
+			"job": "Farm scientist", "icon": "story_rice", "title": "More rice for everyone", "skill": "patience",
+			"lines": [
+				"Yuan Longping grew up at a time when many people in China did not have enough food.",
+				"He wanted rice plants that gave much more rice, and he searched rice fields for unusual plants.",
+				"In 1970, he and his team found a special wild rice plant on Hainan Island, beside a railway line.",
+				"With it, they made the first high-yield hybrid rice in the 1970s: about a fifth more rice.",
+				"Hybrid rice is now grown in many countries.",
+				"He kept working in the rice fields until he was very old."
+			],
+			"question": {"say": "Yuan searched for years before he found the right plant. Which skill did he use?",
+				"answer": 0, "choices": [
+					{"text": "Patience: keep trying", "icon": "skill_patience"},
+					{"text": "Quitting after one try", "icon": "cross", "why": "One try is rarely enough: he searched for years."},
+					{"text": "Waiting for luck", "icon": "skill_luck", "why": "He didn't wait: he kept searching the fields."}]},
+			"sources": [
+				{"fact": "Yuan Longping (1930-2021) developed the first hybrid rice varieties, now grown widely.", "url": "https://www.nature.com/articles/d41586-021-01732-2"},
+				{"fact": "In 1970 his team found a male-sterile wild rice beside a railway line in Hainan; the hybrids of the 1970s gave about 20-30% more rice.", "url": "https://humanprogress.org/heroes-of-progress-pt-52-yuan-longping/"}
+			]},
+		{"id": "phule", "name": "Savitribai Phule", "life": "1831-1897", "country": "India", "she": "yes",
+			"job": "Teacher and founder", "icon": "story_slate", "title": "A school for girls", "skill": "courage",
+			"lines": [
+				"In India in the 1840s, most girls were not allowed to go to school.",
+				"Savitribai Phule learned to read and trained as a teacher. In 1848 she and her husband Jyotirao opened a school for girls in Pune.",
+				"Some people were angry. They threw stones and dirt at her on her way to teach.",
+				"It is said she carried a spare sari, changed at school, and taught her lessons anyway.",
+				"By 1851 they ran three schools for girls, with about 150 pupils.",
+				"She is remembered as one of India's first women teachers."
+			],
+			"question": {"say": "People threw dirt at Savitribai, but she kept on teaching. Which skill did she use?",
+				"answer": 0, "choices": [
+					{"text": "Courage to keep going", "icon": "skill_courage"},
+					{"text": "Giving up", "icon": "cross", "why": "She didn't give up: the girls needed their teacher."},
+					{"text": "Throwing it back", "icon": "talk", "why": "She didn't fight back: she kept teaching. That took courage."}]},
+			"sources": [
+				{"fact": "In 1848 the Phules opened a girls' school at Bhide Wada, Pune, with Savitribai as its teacher; it is said she carried an extra sari because of what was thrown at her.", "url": "https://theleaflet.in/supreme-court-allows-national-memorial-to-commemorate-first-girls-school-in-india"},
+				{"fact": "She trained as a teacher in Ahmednagar and Pune; by 1851 the Phules ran three girls' schools in Pune with about 150 pupils.", "url": "https://en.wikipedia.org/wiki/Savitribai_Phule"}
+			]},
+		{"id": "santos_dumont", "name": "Alberto Santos-Dumont", "life": "1873-1932", "country": "Brazil",
+			"job": "Inventor and pilot", "icon": "story_airship", "title": "Round the Eiffel Tower", "skill": "generous",
+			"lines": [
+				"Alberto Santos-Dumont grew up on a coffee farm in Brazil and loved machines.",
+				"In Paris he built airships. Some broke, so he built new and better ones.",
+				"In 1901 he flew his airship number 6 round the Eiffel Tower and back, and won a big prize.",
+				"He gave the prize money away: to his workers and to poor people in Paris.",
+				"In 1906 his aeroplane, the 14-bis, flew 220 metres in Paris.",
+				"In Brazil he is remembered as a father of flying."
+			],
+			"question": {"say": "Alberto won a big prize and gave the money away. Which skill did he use?",
+				"answer": 0, "choices": [
+					{"text": "Being generous", "icon": "skill_generous"},
+					{"text": "Keeping it all", "icon": "jar", "why": "He chose to share it with the people who helped and the poor."},
+					{"text": "Spending it on himself", "icon": "coins", "why": "He gave it to his workers and to people who needed it."}]},
+			"sources": [
+				{"fact": "He won the Deutsch prize in 1901 by flying round the Eiffel Tower, and gave the money to his workers and the poor of Paris; the 14-bis flew 220 metres on 12 November 1906.", "url": "https://smithsonianeducation.org/scitech/impacto/graphic/aviation/alberto.html"},
+				{"fact": "On 19 October 1901 his airship No. 6 flew from Saint-Cloud round the Eiffel Tower and back for the Deutsch de la Meurthe prize.", "url": "https://www2.fab.mil.br/musal/index.php/slideshow/1389-o-desafio-dos-ceus-o-premio-deutsch-de-la-meurthe-e-a-conquista-de-santos-dumont"}
+			]},
+		{"id": "abed", "name": "Fazle Hasan Abed", "life": "1936-2019", "country": "Bangladesh",
+			"job": "Founder", "icon": "story_village", "title": "Starting again, together", "skill": "helped",
+			"lines": [
+				"Fazle Hasan Abed was an accountant with a good job.",
+				"In 1970 a huge storm, a cyclone, hit his country, and he went to help people on the coast.",
+				"After a war in 1971, millions of families came home to nothing.",
+				"He sold his flat in London and used the money to help families in Sulla build their homes again.",
+				"In 1972 he started BRAC. It grew to run schools, health care and small loans.",
+				"It became one of the biggest groups in the world helping people out of being poor."
+			],
+			"question": {"say": "Abed sold his own flat to start helping. Which skill did he use?",
+				"answer": 0, "choices": [
+					{"text": "Helping others with what you have", "icon": "skill_helped"},
+					{"text": "Waiting for someone else", "icon": "clock", "why": "He didn't wait: he started with what he had."},
+					{"text": "Keeping his money safe", "icon": "jar", "why": "Saving is good, and he chose to use his savings to help."}]},
+			"sources": [
+				{"fact": "After the 1970 cyclone he joined relief work; he sold his London flat and used the money to start work in Sulla; he founded BRAC in 1972.", "url": "https://www.bracu.ac.bd/node/28402"},
+				{"fact": "A biographical sketch of Sir Fazle Hasan Abed: the cyclone, the war, the sale of his flat and BRAC.", "url": "https://en.prothomalo.com/bangladesh/Sir-Fazle-Hasan-Abed-A-biographical-sketch"}
+			]},
+		{"id": "hollows", "name": "Fred Hollows", "life": "1929-1993", "country": "New Zealand and Australia",
+			"job": "Eye doctor and founder", "icon": "story_eye", "title": "Clear eyes for everyone", "skill": "helped",
+			"lines": [
+				"Fred Hollows was born in New Zealand and became an eye doctor in Australia.",
+				"In the 1970s he led a team that visited more than 460 Aboriginal communities to test and treat eyes.",
+				"Many people in poorer countries could not see because of cataracts, a cloudy lens in the eye. New lenses cost a lot.",
+				"Fred worked to set up places in Eritrea and Nepal that make good lenses cheaply.",
+				"They opened soon after, and they have made millions of lenses.",
+				"The Fred Hollows Foundation, started in 1992, still helps people see."
+			],
+			"question": {"say": "Fred made lenses cheap, so many more people could see. Which skill did he use?",
+				"answer": 0, "choices": [
+					{"text": "Solving a problem for many people", "icon": "skill_helped"},
+					{"text": "Making things cost more", "icon": "coins", "why": "He did the opposite: cheaper lenses meant more people could see."},
+					{"text": "Helping only one person", "icon": "lock", "why": "One at a time is kind, and he found a way to help millions."}]},
+			"sources": [
+				{"fact": "Born in New Zealand; led the national trachoma and eye health programme visiting more than 460 Aboriginal communities; worked to set up lens laboratories in Eritrea and Nepal.", "url": "https://www.hollows.org/Fred-Hollows"},
+				{"fact": "The Fred Hollows Foundation was launched in 1992; the lens factories opened after his death in 1993.", "url": "https://www.mja.com.au/journal/2012/197/4/20-years-fred-hollows-foundation"}
+			]},
+		{"id": "tsuda", "name": "Umeko Tsuda", "life": "1864-1929", "country": "Japan", "she": "yes",
+			"job": "Teacher and founder", "icon": "story_school", "title": "A girl who crossed the ocean", "skill": "courage",
+			"lines": [
+				"In 1871, when she was about six, Umeko Tsuda sailed from Japan to the USA with four other girls, to go to school.",
+				"She was the youngest. She lived with a family there and studied for eleven years.",
+				"Back in Japan, she saw that few girls could go on studying after school.",
+				"She became a teacher, and went back to the USA to study more.",
+				"In 1900 she opened a school in Tokyo where young women could study English and much more.",
+				"It grew into Tsuda University."
+			],
+			"question": {"say": "Umeko saw that girls needed a place to study, so she started one. Which skill did she use?",
+				"answer": 0, "choices": [
+					{"text": "Courage to start something new", "icon": "skill_courage"},
+					{"text": "Waiting for someone else", "icon": "clock", "why": "Nobody else was doing it, so she did."},
+					{"text": "Keeping her learning to herself", "icon": "lock", "why": "She shared her learning with many young women."}]},
+			"sources": [
+				{"fact": "She went to the USA in 1871 as the youngest of the girl students with the Iwakura Mission, and founded Joshi Eigaku Juku (later Tsuda College) in 1900.", "url": "https://www.ndl.go.jp/portrait/e/datas/292"},
+				{"fact": "She returned to Japan in 1882 and became a pioneer of women's education.", "url": "https://www.nippon.com/en/japan-topics/b07228/"}
+			]},
+		{"id": "fathy", "name": "Hassan Fathy", "life": "1900-1989", "country": "Egypt",
+			"job": "Architect and engineer", "icon": "story_mud_house", "title": "Houses from mud bricks", "skill": "use_what_you_have",
+			"lines": [
+				"Hassan Fathy was an architect in Egypt. He wanted poor families to have good homes too.",
+				"Concrete and steel cost a lot. But mud bricks are cheap, and they keep houses cool.",
+				"He learned how builders in Nubia made curved mud-brick roofs.",
+				"He planned a new village near Luxor, New Gourna, and taught the villagers to build.",
+				"The village was never finished, and that was a big disappointment.",
+				"But he wrote a book about it, and builders in many countries still learn from his ideas."
+			],
+			"question": {"say": "Hassan built with cheap mud bricks instead of costly concrete. Which skill did he use?",
+				"answer": 0, "choices": [
+					{"text": "Using what you have, cleverly", "icon": "skill_use_what_you_have"},
+					{"text": "Buying the dearest things", "icon": "coins", "why": "The poor families couldn't pay for those: he used what was there."},
+					{"text": "Giving up when it went wrong", "icon": "cross", "why": "When the village wasn't finished, he wrote a book so others could learn."}]},
+			"sources": [
+				{"fact": "His plan for New Gourna near Luxor used mud bricks, the technique he learned in Nubia, with vaulted roofs; he taught the villagers to build; red tape prevented its completion; the book first appeared in 1969.", "url": "https://press.uchicago.edu/ucp/books/book/chicago/A/bo3641441.html"},
+				{"fact": "Architecture for the Poor: an experiment in rural Egypt (library record).", "url": "https://www.cca.qc.ca/en/search/details/library/publication/00691214"}
+			]},
+		{"id": "finlay", "name": "Carlos Finlay", "life": "1833-1915", "country": "Cuba",
+			"job": "Doctor and scientist", "icon": "story_mosquito", "title": "Nobody believed him, at first", "skill": "kept_going",
+			"lines": [
+				"Carlos Finlay was a doctor in Cuba. A disease called yellow fever made many people very ill there.",
+				"In 1881 he said: mosquitoes carry the disease from one person to another.",
+				"Many doctors laughed at the idea. For about 20 years, few believed him.",
+				"Carlos kept studying and explaining.",
+				"In 1900 a team led by Walter Reed tested his idea and found he was right. Reed said the discovery was Finlay's.",
+				"Getting rid of the water where mosquitoes breed helped stop yellow fever."
+			],
+			"question": {"say": "For about 20 years few believed Carlos, but he kept on. Which skill did he use?",
+				"answer": 0, "choices": [
+					{"text": "Keeping going with the evidence", "icon": "skill_kept_going"},
+					{"text": "Changing his mind to fit in", "icon": "people", "why": "He listened, and he kept to what his evidence showed."},
+					{"text": "Getting cross with everyone", "icon": "talk", "why": "He kept calmly studying and explaining."}]},
+			"sources": [
+				{"fact": "On 14 August 1881 Finlay proposed in Havana that mosquitoes carry yellow fever; the idea met ridicule; Walter Reed's commission confirmed it in 1900.", "url": "https://www.pbs.org/wgbh/americanexperience/features/fever-yellow-fever-and-scientific-method/"},
+				{"fact": "Reed's commission tested the mosquito idea in Cuba in 1900; mosquito control followed.", "url": "https://www.britannica.com/biography/Walter-Reed"}
+			]},
+		{"id": "curie", "name": "Marie Curie", "life": "1867-1934", "country": "Poland and France", "she": "yes",
+			"job": "Scientist", "icon": "story_flask", "title": "Two Nobel Prizes", "skill": "patience",
+			"lines": [
+				"Marie Sklodowska grew up in Poland, where girls could not go to university. She saved up and went to Paris to study.",
+				"With her husband Pierre, she worked for years in a cold, leaky shed, studying rays from strange rocks.",
+				"They found two new elements, polonium and radium.",
+				"In 1903 she became the first woman to win a Nobel Prize, and in 1911 she won a second one.",
+				"She is the only person to win Nobel Prizes in two different sciences.",
+				"In the First World War she set up X-ray cars to help doctors look after wounded soldiers."
+			],
+			"question": {"say": "Marie worked for years in a cold shed to find radium. Which skill did she use?",
+				"answer": 0, "choices": [
+					{"text": "Patience and hard work", "icon": "skill_patience"},
+					{"text": "Quick luck", "icon": "skill_luck", "why": "It took years of careful work, not luck."},
+					{"text": "Stopping when it got hard", "icon": "cross", "why": "She kept going when it was hard."}]},
+			"sources": [
+				{"fact": "She shared the 1903 Nobel Prize in Physics, the first woman to win a Nobel Prize, and won the 1911 Prize in Chemistry for polonium and radium.", "url": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/facts/"},
+				{"fact": "The only person to win Nobel Prizes in two different sciences; in the First World War she equipped vehicles with X-ray machines for the front.", "url": "https://www.lshtm.ac.uk/aboutus/introducing/history/frieze/marie-sklodowska-curie"}
+			]}
+	]
+}

@@ -1,0 +1,417 @@
+{
+	"id": "g8.science.breeding_genes",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you learned that young plants and animals take after their parents. What do we call passing features from parents to young? (Inheritance.) Today: how people use it on purpose."
+		},
+		{
+			"text": "Selective breeding: people choose parents with the traits they want, breed them, then choose the best of the young and breed those. They repeat it for many generations, and the trait grows stronger.",
+			"picture": {
+				"kind": "step_chain",
+				"steps": [
+					"choose the trait",
+					"pick parents with it",
+					"breed them",
+					"pick the best young",
+					"repeat for generations"
+				]
+			}
+		},
+		{
+			"text": "Wild cabbage was bred into cabbage, kale, broccoli, cauliflower and Brussels sprouts. Wolves were tamed and bred into every dog breed. Farmers bred cows that give more milk and wheat with bigger grains.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"from",
+						"bred into"
+					],
+					[
+						"wild cabbage",
+						"kale, broccoli, sprouts"
+					],
+					[
+						"wolves",
+						"every dog breed"
+					],
+					[
+						"wild grasses",
+						"wheat"
+					]
+				]
+			}
+		},
+		{
+			"text": "Breeding has problems. It is slow. Animals bred from close relatives can share faulty genes, so inherited diseases become more common. A crop whose plants are all alike can all be killed by one new disease."
+		},
+		{
+			"text": "Genetic engineering is faster and more exact. Scientists cut a useful gene out of one living thing and put it into another, so that it makes something new.",
+			"picture": {
+				"kind": "gene_transfer"
+			}
+		},
+		{
+			"text": "Since the 1980s, bacteria given the human insulin gene have made insulin for people with diabetes. The bacteria multiply in big tanks, and the insulin is collected and cleaned.",
+			"picture": {
+				"kind": "gene_transfer",
+				"step": 4
+			}
+		},
+		{
+			"text": "Crops can be engineered to resist pests or drought. Golden Rice makes beta-carotene, which the body turns into vitamin A, to fight a lack that causes blindness. People also ask: are there long-term effects, could genes spread, and who owns the seeds?",
+			"picture": {
+				"kind": "balance_scale",
+				"left": [
+					"more food",
+					"less pesticide",
+					"medicines",
+					"added vitamins"
+				],
+				"right": [
+					"long-term effects",
+					"genes spreading",
+					"who owns the seeds"
+				],
+				"left_name": "benefits",
+				"right_name": "questions",
+				"tilt": "level",
+				"title": "weighing GM crops"
+			}
+		},
+		{
+			"text": "Try it in the world: grow two crops in your world. Each time, keep the seeds of the biggest plants to sow next. That is selective breeding. Next: natural selection, where nature does the choosing."
+		}
+	],
+	"exercises": [
+		{
+			"type": "order",
+			"level": 1,
+			"prompt": "A farmer wants hens that lay more eggs. Order what she does.",
+			"items": [
+				"repeat for many generations",
+				"breed the best layers",
+				"count the eggs of their young",
+				"breed the best of those",
+				"count each hen's eggs"
+			],
+			"answer": [
+				4,
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "She must measure the trait before she can choose.",
+			"explain": "Count, breed the best layers, count their young's eggs, breed the best of those, and repeat for many generations."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What does selective breeding change over many generations?",
+			"choices": [
+				"how common a wanted trait is",
+				"one animal's genes overnight",
+				"the weather",
+				"nothing at all"
+			],
+			"answer": 0,
+			"hint": "The parents are chosen again and again: what builds up?",
+			"explain": "Choosing parents with a trait in every generation makes the trait more and more common."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort these: selective breeding or genetic engineering?",
+			"groups": [
+				"selective breeding",
+				"genetic engineering"
+			],
+			"items": [
+				"Golden Rice",
+				"pest-resistant cotton",
+				"dog breeds",
+				"cows giving more milk",
+				"broccoli from wild cabbage",
+				"bacteria making insulin"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				0,
+				0,
+				1
+			],
+			"hint": "Were the best parents chosen over generations, or was a gene moved in?",
+			"explain": "Broccoli, dog breeds and high-milk cows were bred. Insulin bacteria, Golden Rice and pest-resistant cotton had a gene moved in."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Genetic engineering moves a gene from one living thing into another.",
+			"answer": true,
+			"hint": "Think of the insulin gene and the bacteria.",
+			"explain": "True: a useful gene is cut out and put into another living thing, which then makes something new."
+		},
+		{
+			"type": "label",
+			"level": 1,
+			"prompt": "Label the steps of making insulin.",
+			"picture": {
+				"kind": "gene_transfer",
+				"pins": true,
+				"words": false
+			},
+			"labels": [
+				"human gene",
+				"plasmid",
+				"bacterium",
+				"insulin"
+			],
+			"hint": "Follow the panels left to right: cut out, put in, multiply, make.",
+			"explain": "The human gene is cut out and put into a bacterium's plasmid; the bacteria multiply; they make insulin, which is collected.",
+			"spots": [
+				[
+					0.3817,
+					0.09,
+					0.3817,
+					0.3557
+				],
+				[
+					0.6135,
+					0.91,
+					0.6135,
+					0.5787
+				],
+				[
+					0.8595,
+					0.91,
+					0.8595,
+					0.5
+				],
+				[
+					0.1547,
+					0.09,
+					0.1547,
+					0.4672
+				]
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A farmer wants cows that give more milk. Which two cows should be the mothers of the next generation?",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"cow",
+						"litres a year"
+					],
+					[
+						"Daisy",
+						"7,200"
+					],
+					[
+						"Bella",
+						"8,900"
+					],
+					[
+						"Clover",
+						"6,500"
+					],
+					[
+						"Rosie",
+						"8,400"
+					]
+				]
+			},
+			"choices": [
+				"Bella and Rosie",
+				"Daisy and Clover",
+				"Bella and Clover",
+				"Daisy and Rosie"
+			],
+			"answer": 0,
+			"hint": "Find the two biggest numbers in the milk column.",
+			"explain": "Bella (8,900 litres) and Rosie (8,400 litres) give the most milk, so they are bred."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Breeding animals from close relatives can make inherited diseases more common.",
+			"answer": true,
+			"hint": "Close relatives share many of the same genes, faulty ones too.",
+			"explain": "True: if both parents carry the same faulty gene, their young are more likely to get two copies, and the disease."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each crop to how it was changed.",
+			"items": [
+				"broccoli",
+				"Golden Rice",
+				"pest-resistant cotton",
+				"high-yield wheat"
+			],
+			"matches": [
+				"bred for bigger grains",
+				"bred from wild cabbage",
+				"engineered: makes beta-carotene",
+				"engineered: kills pests itself"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "Was a gene moved in, or were the best plants chosen?",
+			"explain": "Broccoli and high-yield wheat were bred; Golden Rice and pest-resistant cotton were engineered."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "In this example, a herd gives a mean of 6,000 litres of milk a year, and each generation of breeding adds about 200 litres. What is the mean after 5 generations?",
+			"answer": "7000",
+			"hint": "Multiply the gain by the generations, then add it on.",
+			"explain": "200 × 5 = 1,000 litres more; 6,000 + 1,000 = 7,000 litres a year."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Why is a crop of identical plants risky?",
+			"choices": [
+				"one new disease could kill them all",
+				"they grow too fast",
+				"they need no water",
+				"they cannot make seeds"
+			],
+			"answer": 0,
+			"hint": "If one plant cannot resist a disease, what about the others?",
+			"explain": "With no variety, if one plant cannot resist a new disease, none can, so the whole crop can be lost."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Order the steps of making human insulin with bacteria.",
+			"items": [
+				"let the bacteria multiply in a tank",
+				"put the gene into a bacterium's plasmid",
+				"collect and clean the insulin",
+				"cut the insulin gene out of human DNA"
+			],
+			"answer": [
+				3,
+				1,
+				0,
+				2
+			],
+			"hint": "The gene has to be cut out before it can go anywhere.",
+			"explain": "Cut out the gene, put it into a plasmid in a bacterium, let the bacteria multiply, then collect and clean the insulin they make."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Genetically modified (GM) crops: sort each point into a benefit or a question people raise.",
+			"groups": [
+				"a benefit",
+				"a question"
+			],
+			"items": [
+				"long-term effects need testing",
+				"who owns the seeds",
+				"less pesticide sprayed",
+				"genes spreading to wild plants",
+				"more food from less land",
+				"medicines such as insulin"
+			],
+			"answer": [
+				1,
+				1,
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Does it say what GM could do for people, or what might go wrong or needs checking?",
+			"explain": "Benefits: more food, less pesticide, medicines. Questions: genes spreading, who owns the seeds, and long-term effects."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Golden Rice was engineered to make beta-carotene. Why?",
+			"choices": [
+				"the body turns it into vitamin A",
+				"to make the rice heavier",
+				"to kill insects",
+				"to make it grow faster"
+			],
+			"answer": 0,
+			"hint": "Which vitamin is missing where rice is the main food?",
+			"explain": "Beta-carotene becomes vitamin A in the body; a lack of vitamin A can cause blindness, especially in children."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Selective breeding is faster than genetic engineering.",
+			"answer": false,
+			"hint": "How many generations does breeding need?",
+			"explain": "False: breeding takes many generations, often years; engineering can add a gene in one step."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A scientist says a GM crop needs years of testing before it is grown widely. What is she weighing?",
+			"choices": [
+				"possible long-term effects",
+				"the colour of the crop",
+				"the price of tractors",
+				"the weather next week"
+			],
+			"answer": 0,
+			"hint": "Which question about GM crops is about time?",
+			"explain": "She is asking about long-term effects: some risks only show after years, so careful testing comes first."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "In a warm tank, bacteria can split in two every 20 minutes. Starting with one, how many are there after 2 hours?",
+			"answer": "64",
+			"hint": "Count the 20-minute steps in 2 hours, then double that many times.",
+			"explain": "2 hours is 6 steps of 20 minutes: 1, 2, 4, 8, 16, 32, 64 bacteria. That is why a tank fills so fast."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8k.breed_pick",
+			"level": 1
+		},
+		{
+			"gen": "g8k.breed_pick",
+			"level": 2
+		},
+		{
+			"gen": "g8k.breed_pick",
+			"level": 3
+		},
+		{
+			"gen": "g8k.gm_or_bred",
+			"level": 1
+		},
+		{
+			"gen": "g8k.gm_or_bred",
+			"level": 2
+		},
+		{
+			"gen": "g8k.gm_or_bred",
+			"level": 3
+		}
+	]
+}

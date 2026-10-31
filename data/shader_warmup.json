@@ -1,0 +1,2142 @@
+{
+	"version": 1,
+	"made_by": "tools/shader_probe_steps.gd --shader-census",
+	"phases": [
+		"new",
+		"play",
+		"creatures",
+		"features",
+		"survivor",
+		"universes",
+		"moon",
+		"mars",
+		"europa",
+		"io",
+		"titan",
+		"mercury",
+		"venus",
+		"rings",
+		"pluto",
+		"triton",
+		"ganymede",
+		"boing",
+		"rainbow",
+		"wonders",
+		"newseven",
+		"continue",
+		"realistic",
+		"flight",
+		"glow",
+		"leaf"
+	],
+	"draws": [
+		{
+			"material": {
+				"class": "ShaderMaterial",
+				"shader": "res://entities/flight/planet.gdshader"
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"travel",
+				"flight"
+			],
+			"shown": [
+				"travel"
+			],
+			"at": "Sandbox/RocketFlight/Space/Earth (flight_set.gd)"
+		},
+		{
+			"material": {
+				"class": "ShaderMaterial",
+				"shader": "res://entities/player/avatar_skin.gdshader"
+			},
+			"instanced": false,
+			"shadow": true,
+			"skinned": true,
+			"scene": "res://assets/characters/kenney_human/characterMedium.fbx",
+			"styles": [
+				"realistic"
+			],
+			"phases": [
+				"realistic"
+			],
+			"shown": [
+				"realistic"
+			],
+			"at": "characterMedium/Root/Skeleton3D/characterMedium (realistic_avatar.gd)"
+		},
+		{
+			"material": {
+				"class": "ShaderMaterial",
+				"shader": "res://shaders/desert_window.gdshader"
+			},
+			"instanced": false,
+			"shadow": true,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"prewarm"
+			],
+			"shown": [
+				"prewarm"
+			],
+			"at": "SpringArm3D/Camera3D/@Node3D@856/@MeshInstance3D@857 (camera_rig.gd)"
+		},
+		{
+			"material": {
+				"class": "ShaderMaterial",
+				"shader": "res://shaders/game_ring.gdshader"
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"shown": [],
+			"at": "root/Sandbox/Games/Ring (game_ring.gd)"
+		},
+		{
+			"material": {
+				"class": "ShaderMaterial",
+				"shader": "res://shaders/game_ring.gdshader"
+			},
+			"instanced": false,
+			"shadow": true,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"prewarm"
+			],
+			"shown": [
+				"prewarm"
+			],
+			"at": "SpringArm3D/Camera3D/@Node3D@862/@MeshInstance3D@863 (camera_rig.gd)"
+		},
+		{
+			"material": {
+				"class": "ShaderMaterial",
+				"shader": "res://shaders/game_star.gdshader"
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"shown": [],
+			"at": "Sandbox/Games/Stars/Star0 (star_pool.gd)"
+		},
+		{
+			"material": {
+				"class": "ShaderMaterial",
+				"shader": "res://shaders/game_star.gdshader"
+			},
+			"instanced": false,
+			"shadow": true,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"prewarm"
+			],
+			"shown": [
+				"prewarm"
+			],
+			"at": "SpringArm3D/Camera3D/@Node3D@862/@MeshInstance3D@864 (camera_rig.gd)"
+		},
+		{
+			"material": {
+				"class": "ShaderMaterial",
+				"shader": "res://shaders/portal_swirl.gdshader"
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"prewarm",
+				"travel",
+				"survivor",
+				"desert",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"flight",
+				"glow"
+			],
+			"shown": [
+				"prewarm",
+				"travel",
+				"survivor",
+				"desert",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"glow"
+			],
+			"at": "SpringArm3D/Camera3D/@Node3D@860/@MeshInstance3D@861 (camera_rig.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"transparency": 1,
+					"blend_mode": 1,
+					"cull_mode": 2,
+					"shading_mode": 0,
+					"billboard_mode": 1
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"play",
+				"creatures",
+				"features",
+				"survivor",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"travel",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"glow"
+			],
+			"shown": [
+				"play",
+				"creatures",
+				"features",
+				"survivor",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"travel",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"glow"
+			],
+			"at": "Secrets/Things/pot_1/@MeshInstance3D@1030 (pot_of_gold.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"transparency": 1,
+					"cull_mode": 2,
+					"shading_mode": 0,
+					"disable_fog": true,
+					"disable_receive_shadows": true,
+					"billboard_mode": 1
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"flight",
+				"glow"
+			],
+			"shown": [
+				"play",
+				"creatures",
+				"universes",
+				"travel",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow"
+			],
+			"at": "Sandbox/SkyCycle/NightSky/Moon (sky_cycle.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"transparency": 1,
+					"cull_mode": 2,
+					"shading_mode": 0,
+					"disable_fog": true,
+					"vertex_color_use_as_albedo": true,
+					"vertex_color_is_srgb": true,
+					"disable_receive_shadows": true
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"flight",
+				"glow"
+			],
+			"shown": [
+				"play",
+				"creatures",
+				"universes",
+				"travel",
+				"moon",
+				"europa",
+				"io",
+				"mercury",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede"
+			],
+			"at": "Sandbox/SkyCycle/NightSky/Stars (sky_cycle.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"cull_mode": 2,
+					"shading_mode": 0,
+					"disable_fog": true,
+					"vertex_color_use_as_albedo": true
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"shown": [
+				"prewarm"
+			],
+			"at": "root/Sandbox/Blasters/@MeshInstance3D@185 (blaster_director.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"transparency": 1,
+					"cull_mode": 2,
+					"no_depth_test": true,
+					"shading_mode": 0
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"shown": [
+				"prewarm"
+			],
+			"at": "1/BlockInteractor/BreakRing/@MeshInstance3D@212 (break_ring.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"transparency": 1,
+					"cull_mode": 2,
+					"shading_mode": 0,
+					"vertex_color_use_as_albedo": true,
+					"vertex_color_is_srgb": true
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"play",
+				"creatures",
+				"features",
+				"universes",
+				"travel",
+				"menu"
+			],
+			"shown": [
+				"play",
+				"creatures",
+				"features",
+				"universes",
+				"travel",
+				"menu"
+			],
+			"at": "Secrets/Things/rainbow_1/@MeshInstance3D@1027 (rainbow_arch.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"transparency": 1,
+					"cull_mode": 2,
+					"shading_mode": 0
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow",
+				"menu"
+			],
+			"shown": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow",
+				"menu"
+			],
+			"at": "Players/1/BlockInteractor/MirrorWall (mirror_wall.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"vertex_color_use_as_albedo": true,
+					"emission_enabled": true
+				}
+			},
+			"instanced": false,
+			"shadow": true,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"shown": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"at": "Waves/Totems/Totem/@MeshInstance3D@784 (totem.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"emission_enabled": true
+				}
+			},
+			"instanced": false,
+			"shadow": true,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"travel",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end"
+			],
+			"shown": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"travel",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end"
+			],
+			"at": "Animals/a1_0_0/@Node3D@847/Body (animal.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"transparency": 2,
+					"shading_mode": 0,
+					"texture_filter": 0
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"play",
+				"creatures",
+				"features",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"travel",
+				"moon",
+				"mars",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"realistic",
+				"end"
+			],
+			"shown": [
+				"play",
+				"creatures",
+				"features",
+				"survivor",
+				"desert",
+				"frost",
+				"candy",
+				"universes",
+				"dragon",
+				"moon",
+				"mars",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"realistic"
+			],
+			"at": "Sandbox/Animals/s1/Thought (thought_bubble.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"transparency": 2,
+					"shading_mode": 0,
+					"texture_filter": 0
+				}
+			},
+			"instanced": false,
+			"shadow": true,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"prewarm"
+			],
+			"shown": [
+				"prewarm"
+			],
+			"at": "1/CameraRig/SpringArm3D/@MeshInstance3D@855 (camera_rig.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"shading_mode": 0,
+					"vertex_color_use_as_albedo": true,
+					"texture_filter": 2
+				}
+			},
+			"instanced": false,
+			"shadow": true,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"travel",
+				"moon"
+			],
+			"shown": [
+				"travel",
+				"moon"
+			],
+			"at": "Sandbox/RocketFlight/Rocket/Stage0 (rocket_body.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"transparency": 1,
+					"shading_mode": 0
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"shown": [
+				"prewarm"
+			],
+			"at": "root/Sandbox/Blasters/@MeshInstance3D@184 (blaster_director.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"shading_mode": 0,
+					"vertex_color_use_as_albedo": true,
+					"vertex_color_is_srgb": true
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"travel",
+				"dragon",
+				"continue",
+				"realistic",
+				"end"
+			],
+			"shown": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"travel",
+				"dragon",
+				"continue",
+				"realistic"
+			],
+			"at": "LaunchSite/LaunchBuildings/Blinker/Light (blinker.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"shading_mode": 0,
+					"vertex_color_use_as_albedo": true,
+					"vertex_color_is_srgb": true
+				}
+			},
+			"instanced": false,
+			"shadow": true,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"prewarm",
+				"creatures",
+				"features",
+				"universes",
+				"travel",
+				"flight"
+			],
+			"shown": [
+				"prewarm",
+				"creatures",
+				"features",
+				"universes",
+				"travel"
+			],
+			"at": "SpringArm3D/Camera3D/@Node3D@856/@MeshInstance3D@858 (camera_rig.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"shading_mode": 0
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"shown": [],
+			"at": "Players/1/BlockInteractor/TargetHighlight (target_highlight.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"vertex_color_use_as_albedo": true,
+					"texture_filter": 2
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"menu",
+				"travel",
+				"end",
+				"flight"
+			],
+			"shown": [
+				"menu",
+				"travel",
+				"end"
+			],
+			"at": "@Camera3D@25/TitleDiorama/@Node3D@27/Island (title_diorama.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"vertex_color_use_as_albedo": true,
+					"texture_filter": 2
+				}
+			},
+			"instanced": false,
+			"shadow": true,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"travel",
+				"moon"
+			],
+			"shown": [
+				"travel",
+				"moon"
+			],
+			"at": "Sandbox/RocketFlight/Rocket/Stage0 (rocket_body.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"vertex_color_use_as_albedo": true,
+					"vertex_color_is_srgb": true
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"menu",
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"flight",
+				"glow"
+			],
+			"shown": [
+				"menu",
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"at": "TitleDiorama/@Node3D@27/Buddy/Body (title_diorama.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"vertex_color_use_as_albedo": true,
+					"vertex_color_is_srgb": true
+				}
+			},
+			"instanced": false,
+			"shadow": true,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"flight",
+				"glow"
+			],
+			"shown": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"at": "Sandbox/Theater/TheaterBuilding/Mesh (theater_building.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"vertex_color_use_as_albedo": true
+				}
+			},
+			"instanced": false,
+			"shadow": true,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"shown": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"at": "Waves/Totems/Totem/@MeshInstance3D@783 (totem.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {}
+			},
+			"instanced": false,
+			"shadow": true,
+			"skinned": true,
+			"scene": "res://assets/characters/kenney_human/characterMedium.fbx",
+			"styles": [
+				"realistic"
+			],
+			"phases": [
+				"realistic"
+			],
+			"shown": [
+				"realistic"
+			],
+			"at": "characterMedium/Root/Skeleton3D/characterMedium (bot_realistic_avatar.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {}
+			},
+			"instanced": false,
+			"shadow": true,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow",
+				"menu"
+			],
+			"shown": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"travel",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow",
+				"menu"
+			],
+			"at": "Avatar/@Node3D@211/HeadAnchor/Head (blocky_avatar.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"shading_mode": 0,
+					"vertex_color_use_as_albedo": true,
+					"vertex_color_is_srgb": true
+				}
+			},
+			"instanced": true,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"continue",
+				"realistic",
+				"end",
+				"menu"
+			],
+			"shown": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"continue",
+				"realistic",
+				"end",
+				"menu"
+			],
+			"at": "root/Sandbox/AmbientLife/Fireflies (fireflies.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"shading_mode": 0,
+					"vertex_color_use_as_albedo": true,
+					"vertex_color_is_srgb": true
+				}
+			},
+			"instanced": true,
+			"shadow": true,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"travel",
+				"flight"
+			],
+			"shown": [
+				"travel"
+			],
+			"at": "Sandbox/RocketFlight/Rocket/Flame (rocket_body.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"vertex_color_use_as_albedo": true,
+					"vertex_color_is_srgb": true
+				}
+			},
+			"instanced": true,
+			"shadow": false,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"frost",
+				"candy",
+				"universes",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end"
+			],
+			"shown": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"frost",
+				"candy",
+				"universes",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end"
+			],
+			"at": "root/Sandbox/Insects/Butterflies (meadow_insects.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"vertex_color_use_as_albedo": true,
+					"vertex_color_is_srgb": true
+				}
+			},
+			"instanced": true,
+			"shadow": true,
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"menu",
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"flight",
+				"glow"
+			],
+			"shown": [
+				"menu",
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"mercury",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"at": "TitleDiorama/@Node3D@27/Buddy/Sparkle (title_diorama.gd)"
+		},
+		{
+			"label": {
+				"billboard": 1,
+				"no_depth_test": true
+			},
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"shown": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"at": "Sandbox/Quests/Giver_tilly/@Label3D@730 (quest_giver.gd)"
+		},
+		{
+			"label": {
+				"billboard": 1
+			},
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"shown": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"at": "Waves/Totems/Totem/@Label3D@786 (totem.gd)"
+		},
+		{
+			"label": {},
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"shown": [
+				"new",
+				"prewarm",
+				"play",
+				"creatures",
+				"features",
+				"travel",
+				"survivor",
+				"desert",
+				"universes",
+				"frost",
+				"candy",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"ganymede",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"continue",
+				"realistic",
+				"end",
+				"glow"
+			],
+			"at": "Sandbox/Theater/TheaterBuilding/@Label3D@801 (theater_building.gd)"
+		},
+		{
+			"sprite": {
+				"billboard": 1,
+				"alpha_cut": 1,
+				"texture_filter": 0
+			},
+			"styles": [
+				"blocky",
+				"realistic"
+			],
+			"phases": [
+				"creatures",
+				"features",
+				"continue",
+				"realistic",
+				"end"
+			],
+			"shown": [
+				"creatures",
+				"features",
+				"continue",
+				"realistic",
+				"end"
+			],
+			"at": "Sandbox/Bots/Bot1/BotBadge (bot_friend.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"vertex_color_use_as_albedo": true
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"creatures",
+				"features",
+				"menu"
+			],
+			"shown": [
+				"creatures",
+				"menu"
+			],
+			"at": "Sandbox/Blasters/Shots/@MeshInstance3D@131 (shot_pool.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"shading_mode": 0,
+					"vertex_color_use_as_albedo": true,
+					"vertex_color_is_srgb": true
+				}
+			},
+			"instanced": false,
+			"shadow": false,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"creatures",
+				"features",
+				"universes",
+				"travel",
+				"flight",
+				"glow",
+				"menu"
+			],
+			"shown": [
+				"creatures",
+				"features",
+				"universes",
+				"travel",
+				"glow",
+				"menu"
+			],
+			"at": "Golems/golem1/@Node3D@1149/@MeshInstance3D@1157 (stone_golem.gd)"
+		},
+		{
+			"material": {
+				"class": "StandardMaterial3D",
+				"props": {
+					"vertex_color_use_as_albedo": true,
+					"vertex_color_is_srgb": true
+				}
+			},
+			"instanced": true,
+			"shadow": false,
+			"styles": [
+				"blocky"
+			],
+			"phases": [
+				"travel",
+				"survivor",
+				"desert",
+				"frost",
+				"candy",
+				"universes",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"flight",
+				"glow",
+				"menu"
+			],
+			"shown": [
+				"travel",
+				"survivor",
+				"desert",
+				"frost",
+				"candy",
+				"universes",
+				"dragon",
+				"moon",
+				"mars",
+				"europa",
+				"io",
+				"titan",
+				"mercury",
+				"venus",
+				"rings",
+				"pluto",
+				"triton",
+				"boing",
+				"rainbow",
+				"wonders",
+				"newseven",
+				"glow",
+				"menu"
+			],
+			"at": "root/Sandbox/HubCircle/@MultiMeshInstance3D@1927 (hub_circle.gd)"
+		},
+		{
+			"material": {
+				"class": "ShaderMaterial",
+				"shader": "res://entities/flight/tunnel.gdshader"
+			},
+			"instanced": false,
+			"shadow": false,
+			"at": "Space/Moments/Tunnel (MeshInstance3D)",
+			"phases": [
+				"flight"
+			],
+			"shown": [],
+			"styles": [
+				"blocky",
+				"realistic"
+			]
+		}
+	]
+}

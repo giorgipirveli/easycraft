@@ -1,0 +1,42 @@
+{
+	"id": "life.home.real_builder_middle",
+	"lesson": [
+		{"text": "Quick memory: why do builders stagger the joints? (So the wall is strong.) Today: a garden shed with real bricks."},
+		{"text": "A real brick is 21.5 cm long, 10 cm wide and 6.5 cm high. With its 1 cm joint it takes 22.5 cm along a row.",
+			"picture": {"kind": "table", "rows": [["a brick", "with its joint"], ["21.5 cm long", "22.5 cm along a row"],
+				["6.5 cm high", "7.5 cm a row"]]}},
+		{"text": "Measure first: 8 bricks take 8 x 22.5 = 180 cm. Builders work out how many bricks a wall needs before they start."},
+		{"text": "Mortar is mixed in order: a little water, sand, cement, then water until it is like soft butter. Cement burns skin: gloves on!"},
+		{"text": "A door or a window needs a lintel: a strong beam over the opening that carries the bricks above."},
+		{"text": "A roof slopes so the rain runs off. Tiles go on from the bottom up, each row overlapping the one below."},
+		{"text": "Try it in the world: open Real Builder and build your shed. Next: a small house, on the Big track."}
+	],
+	"exercises": [
+		{"type": "truefalse", "level": 1, "prompt": "A lintel carries the bricks over a door.", "answer": true,
+			"hint": "What is over every doorway?", "explain": "True: the lintel passes the weight to the wall at each side."},
+		{"type": "choice", "level": 1, "prompt": "Which tool checks that a wall is straight up?", "answer": 0,
+			"choices": ["a plumb line", "a saw", "a trowel"], "hint": "It hangs straight down.", "explain": "A plumb line hangs straight down beside the wall."},
+		{"type": "truefalse", "level": 1, "prompt": "Roof tiles are laid from the top down.", "answer": false,
+			"hint": "Which row does the rain reach last?", "explain": "False: from the bottom up, so each row overlaps the one below."},
+		{"type": "choice", "level": 1, "prompt": "What do you wear to saw wood?", "answer": 0,
+			"choices": ["goggles", "sunglasses", "a party hat"], "hint": "Sawdust flies.", "explain": "Goggles keep sawdust out of your eyes."},
+		{"type": "number", "level": 2, "prompt": "A brick and its joint take 22.5 cm. How long are 4 bricks in a row, in cm?",
+			"answer": "90", "hint": "22.5 four times.", "explain": "4 x 22.5 = 90 cm."},
+		{"type": "number", "level": 2, "prompt": "Each row of bricks is 7.5 cm high. How many rows make 75 cm?", "answer": "10",
+			"hint": "How many 7.5s in 75?", "explain": "75 / 7.5 = 10 rows."},
+		{"type": "order", "level": 2, "prompt": "Mixing mortar: put it in order.", "answer": [1, 2, 0],
+			"items": ["cement", "a little water", "sand"], "hint": "Water goes in first.",
+			"explain": "A little water, then the sand, then the cement (then more water)."},
+		{"type": "sort", "level": 2, "prompt": "Tool or safety gear?", "groups": ["tool", "safety gear"],
+			"items": ["a trowel", "goggles", "a saw", "gloves"], "answer": [0, 1, 0, 1],
+			"hint": "Which ones do you wear?", "explain": "You work with the trowel and the saw; goggles and gloves keep you safe."},
+		{"type": "number", "level": 3, "prompt": "A shed wall is 180 cm long. How many bricks fit along it, at 22.5 cm each?",
+			"answer": "8", "hint": "How many 22.5s in 180?", "explain": "180 / 22.5 = 8 bricks."},
+		{"type": "choice", "level": 3, "prompt": "Why does a roof slope?", "answer": 0,
+			"choices": ["so the rain runs off", "so it looks tall", "for the birds"], "hint": "Think of a rainy day.",
+			"explain": "Rain runs down the slope and off the roof."},
+		{"type": "choice", "level": 3, "prompt": "Without a lintel, what would the bricks over a doorway do?", "answer": 0,
+			"choices": ["fall into the doorway", "float", "nothing"], "hint": "What holds them up?",
+			"explain": "They would fall in: a lintel carries them."}
+	]
+}

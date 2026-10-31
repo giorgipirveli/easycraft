@@ -1,0 +1,401 @@
+{
+	"id": "g3.science.fossils",
+	"lesson": [
+		{
+			"text": "Remember? Some things were once living, like a fallen leaf or a bone. A fossil is what is left of a living thing from long, long ago, kept in rock.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					17,
+					3,
+					64,
+					4,
+					2
+				],
+				"fossils": {
+					"1": "shell",
+					"3": "leaf"
+				}
+			}
+		},
+		{
+			"text": "Fossils can be bones, teeth, shells and leaves turned to stone, or prints: a footprint in old mud, or the shape of a fern pressed into rock."
+		},
+		{
+			"text": "How a fossil forms: an animal dies and is quickly buried in mud or sand. Its soft parts rot away. Over millions of years, more layers pile on top and turn to rock, and its bones slowly turn to stone.",
+			"picture": {
+				"kind": "flowchart",
+				"steps": [
+					{
+						"shape": "start",
+						"text": "An animal dies"
+					},
+					{
+						"shape": "step",
+						"text": "It is buried in mud"
+					},
+					{
+						"shape": "step",
+						"text": "Layers pile on top"
+					},
+					{
+						"shape": "end",
+						"text": "Bones turn to stone"
+					}
+				]
+			}
+		},
+		{
+			"text": "Fossils tell us which living things lived long ago. Many of them, like the dinosaur Tyrannosaurus, are extinct: none are alive today. Some fossils look like living things today, like sharks' teeth and ferns."
+		},
+		{
+			"text": "Fossils tell us what a place was like. Fish and shell fossils on a mountain mean that the rock was once under the sea. Fossil palm leaves in a cold land mean it was once warm.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					17,
+					3,
+					64,
+					4,
+					2
+				],
+				"fossils": {
+					"3": "fish",
+					"2": "shell"
+				}
+			}
+		},
+		{
+			"text": "Rock layers pile up one on top of another, so the deeper layers are usually older. Fossils lower down lived longer ago than fossils higher up.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					17,
+					3,
+					64,
+					4,
+					2
+				],
+				"fossils": {
+					"0": "bone",
+					"2": "shell",
+					"4": "footprint"
+				},
+				"labels": true
+			}
+		},
+		{
+			"text": "Mary Anning lived by the sea in Lyme Regis, England, over 200 years ago. When she was about 12, she and her brother found the skeleton of a giant sea reptile, an ichthyosaur. She hunted fossils all her life."
+		},
+		{
+			"text": "Try it in the world: dig down beside a cliff in your world and look at the layers. Real fossils lie in rock layers like these, the deepest the oldest. Next: surviving in a habitat."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a fossil?",
+			"answer": 0,
+			"hint": "Fossils tell us about the past.",
+			"choices": [
+				"the remains of life from long ago, in rock",
+				"a shiny new stone",
+				"a kind of crystal",
+				"a living plant"
+			],
+			"explain": "A fossil is what is left of a living thing from long ago, kept in rock."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A footprint pressed into mud long ago can become a fossil.",
+			"answer": true,
+			"hint": "Can a print turn to rock?",
+			"explain": "True: footprints, burrows and leaf prints can all become fossils."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which of these could become a fossil?",
+			"answer": 0,
+			"hint": "It must be part of a living thing, buried quickly.",
+			"choices": [
+				"a shell buried in mud",
+				"a cloud",
+				"a rainbow",
+				"a song"
+			],
+			"explain": "A shell buried in mud can slowly turn to stone."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "Dinosaurs such as Tyrannosaurus are extinct: none are alive today.",
+			"answer": true,
+			"hint": "Where do we see them now?",
+			"explain": "True: we know Tyrannosaurus only from its fossils."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Where are most fossils found?",
+			"answer": 0,
+			"hint": "Fossils form when layers of mud turn to rock.",
+			"choices": [
+				"in layers of rock",
+				"in the clouds",
+				"inside volcanoes"
+			],
+			"explain": "Most fossils are found in rock that formed in layers."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put the steps of making a fossil in order.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "What must happen before it can be buried?",
+			"items": [
+				"Its bones slowly turn to stone",
+				"More layers pile on top",
+				"Mud and sand bury it",
+				"An animal dies"
+			],
+			"explain": "It dies, it is buried, layers pile up and turn to rock, and its bones slowly turn to stone."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Fish fossils are found high on a mountain. What does this tell us?",
+			"answer": 0,
+			"hint": "Where do fish live?",
+			"choices": [
+				"The rock was once under water",
+				"Fish once climbed mountains",
+				"Birds dropped the fish there"
+			],
+			"explain": "The rock formed under the sea long ago, and was later pushed up into a mountain."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Fossil palm leaves are found in a cold, snowy land. What was it like long ago?",
+			"answer": 0,
+			"hint": "Where do palm trees grow?",
+			"choices": [
+				"warm",
+				"always frozen",
+				"under thick ice"
+			],
+			"explain": "Palms grow in warm places, so the land was once warm."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The soft parts of an animal, like its skin, usually rot before they can become fossils.",
+			"answer": true,
+			"hint": "Which parts are hard enough to last?",
+			"explain": "True: most fossils are hard parts like bones, teeth and shells."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which fossil is the oldest?",
+			"answer": 0,
+			"hint": "Deeper layers are usually older.",
+			"choices": [
+				"the shell",
+				"the leaf"
+			],
+			"explain": "The shell is in a lower layer, so it is older than the leaf.",
+			"picture": {
+				"kind": "layers",
+				"blocks": [
+					17,
+					3,
+					64,
+					4,
+					2
+				],
+				"fossils": {
+					"1": "shell",
+					"3": "leaf"
+				}
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A layer has shell fossils, and the layer above it has leaf fossils. What changed?",
+			"answer": 0,
+			"hint": "Which layer is older? What lived there?",
+			"choices": [
+				"The sea became land",
+				"The land became sea",
+				"Nothing changed"
+			],
+			"explain": "The lower, older layer has sea shells; the newer one has land leaves. The sea became land."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Scientists find a fossil that looks like nothing alive today. What does it tell them?",
+			"answer": 0,
+			"hint": "If nothing like it is alive now, what happened to that kind of living thing?",
+			"choices": [
+				"That kind of living thing may be extinct",
+				"It is a toy",
+				"It will hatch soon"
+			],
+			"explain": "A fossil unlike anything alive today shows a kind of living thing that may be extinct."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Why is a fossil more likely to form when an animal is buried quickly?",
+			"answer": 0,
+			"hint": "What happens to a body left in the open?",
+			"choices": [
+				"It is kept from air and hungry animals",
+				"It gets warm and grows",
+				"It turns into a crystal at once"
+			],
+			"explain": "Buried quickly, the body is safe from air and scavengers, so the hard parts can slowly turn to stone."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Fossils in deeper rock layers usually lived longer ago than those above them.",
+			"answer": true,
+			"hint": "Which layers were laid down first?",
+			"explain": "True: the lower layers formed first, so their fossils are older."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Fern and big lizard fossils are found in the same rock. What was the place like?",
+			"answer": 0,
+			"hint": "Ferns and big lizards need warmth.",
+			"choices": [
+				"warm and green, with plants",
+				"a frozen desert of ice",
+				"the bottom of a deep sea"
+			],
+			"explain": "Ferns and big reptiles lived there, so it was warm and full of plants."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort the fossils: from the sea or from the land?",
+			"hint": "Where did each living thing live?",
+			"groups": [
+				"sea",
+				"land"
+			],
+			"items": [
+				"a fish",
+				"a fern leaf",
+				"a sea shell",
+				"a dinosaur footprint"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1
+			],
+			"explain": "Fish and sea shells lived in the sea; ferns and dinosaurs lived on land."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each word to what it means.",
+			"items": [
+				"extinct",
+				"a fossil",
+				"Mary Anning"
+			],
+			"matches": [
+				"found an ichthyosaur",
+				"none are alive today",
+				"long-ago life kept in rock"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Mary Anning is a person from the past.",
+			"explain": "Extinct means none are alive today, a fossil is what is left in rock, and Mary Anning found an ichthyosaur."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "Mary Anning found the ichthyosaur in about 1811, when she was about 12. In about which year was she born?",
+			"answer": "1799",
+			"hint": "Count back 12 years from 1811.",
+			"explain": "1811 − 12 = 1799."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Sort them: could it become a fossil, or is it not likely to?",
+			"groups": [
+				"could become a fossil",
+				"not likely"
+			],
+			"items": [
+				"a bone buried in mud",
+				"a jellyfish left on a beach",
+				"a footprint in soft mud",
+				"a leaf pressed in clay",
+				"a feather blown away in the wind"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				0,
+				1
+			],
+			"hint": "Fossils form when hard parts or prints are buried quickly.",
+			"explain": "Likely: a buried bone, a footprint in soft mud and a leaf pressed in clay, all buried and kept safe. Not likely: a soft jellyfish rots, and a feather in the wind is never buried."
+		},
+		{
+			"type": "order",
+			"level": 3,
+			"prompt": "Order the fossils in these rock layers from the oldest to the newest.",
+			"items": [
+				"a leaf in the top layer",
+				"a shell in the bottom layer",
+				"a fish in the middle layer"
+			],
+			"answer": [
+				1,
+				2,
+				0
+			],
+			"hint": "Layers pile up one on top of another.",
+			"explain": "The bottom layer formed first, so its shell is oldest, then the fish in the middle layer; the leaf in the top layer is the newest."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g3s.fossil_clue",
+			"level": 1
+		},
+		{
+			"gen": "g3s.fossil_clue",
+			"level": 2
+		},
+		{
+			"gen": "g3s.fossil_clue",
+			"level": 3
+		}
+	]
+}

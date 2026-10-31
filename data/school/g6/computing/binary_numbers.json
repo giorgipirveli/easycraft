@@ -1,0 +1,286 @@
+{
+	"id": "g6.computing.binary_numbers",
+	"lesson": [
+		{
+			"text": "Quick memory: in 352, what is the 3 worth? (300: three hundreds.) Today: binary, the way computers write numbers."
+		},
+		{
+			"text": "A computer is built from billions of tiny switches, and each is off or on. So it stores everything as 0s (off) and 1s (on). One 0 or 1 is called a bit, short for binary digit."
+		},
+		{
+			"text": "Our numbers use ten digits, and each place is worth ten times the place on its right: 1, 10, 100. Binary uses two digits, and each place is worth twice the place on its right: 1, 2, 4, 8, 16.",
+			"picture": {
+				"kind": "bit_cards",
+				"bits": "11111",
+				"dots": true
+			}
+		},
+		{
+			"text": "Binary cards: each card has double the dots of the card on its right. A card face up is a 1 and face down is a 0. Add up the face-up cards to read the number.",
+			"picture": {
+				"kind": "bit_cards",
+				"bits": "10110",
+				"total": true
+			}
+		},
+		{
+			"text": "Worked example: 10110. The 1s sit under 16, 4 and 2, so 10110 in binary is 22 (16 + 4 + 2 = 22)."
+		},
+		{
+			"text": "Counting in binary: 1, 10, 11, 100, 101, 110, 111, 1000. Just as 9 becomes 10 in our numbers, a full place rolls over to the next place."
+		},
+		{
+			"text": "To write a number in binary, take the biggest card that fits, then the next one that fits, down to 1. 13 is 8 + 4 + 1, so 13 is 1101 in binary. Eight bits make a byte, which holds 0 to 255.",
+			"picture": {
+				"kind": "bit_cards",
+				"bits": "1101",
+				"total": true
+			}
+		},
+		{
+			"text": "Try it in the world: make five binary cards from paper with 16, 8, 4, 2 and 1 dots, and show your age in binary. Next: how pictures are stored as bits."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is one 0 or 1 in a computer called?",
+			"answer": 0,
+			"hint": "It is short for binary digit.",
+			"choices": [
+				"a bit",
+				"a byte",
+				"a pixel",
+				"a card"
+			],
+			"explain": "A bit is one binary digit: a 0 or a 1."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which digits does binary use?",
+			"answer": 0,
+			"hint": "Think of switches that are off or on.",
+			"choices": [
+				"only 0 and 1",
+				"0 to 9",
+				"only 1 and 2",
+				"0 to 7"
+			],
+			"explain": "Binary uses just 0 (off) and 1 (on)."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "In binary, each place is worth twice the place on its right.",
+			"answer": true,
+			"hint": "Look at the cards: 1, 2, 4, 8, 16.",
+			"explain": "True: 1, 2, 4, 8, 16, each double the one before."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What number do these binary cards show? Face up is 1, face down is 0.",
+			"answer": "6",
+			"hint": "Add the numbers over the cards that are face up.",
+			"explain": "The face-up cards are 4 and 2: 4 + 2 = 6.",
+			"picture": {
+				"kind": "bit_cards",
+				"bits": "0110"
+			}
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "What number do these binary cards show?",
+			"answer": "8",
+			"hint": "Only one card is face up. What is it worth?",
+			"explain": "Only the 8 card is face up, so the number is 8.",
+			"picture": {
+				"kind": "bit_cards",
+				"bits": "1000"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "How many bits make a byte?",
+			"answer": 0,
+			"hint": "It is the number of cards on a byte's row.",
+			"choices": [
+				"8",
+				"2",
+				"10",
+				"100"
+			],
+			"explain": "8 bits make a byte, like 8 binary cards: 128, 64, 32, 16, 8, 4, 2 and 1."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What number do these binary cards show?",
+			"answer": "21",
+			"hint": "Add the place values of the 1s.",
+			"explain": "The 1s are under 16, 4 and 1: 16 + 4 + 1 = 21.",
+			"picture": {
+				"kind": "bit_cards",
+				"bits": "10101"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Which is 9 in binary?",
+			"answer": 0,
+			"hint": "Which cards make 9? Start with the biggest that fits.",
+			"choices": [
+				"1001",
+				"1100",
+				"1010",
+				"0110"
+			],
+			"explain": "9 is 8 + 1, so 9 is 1001 in binary."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these binary numbers in order, smallest first.",
+			"answer": [
+				3,
+				2,
+				1,
+				0
+			],
+			"hint": "Change each one into an ordinary number first.",
+			"items": [
+				"1100",
+				"1000",
+				"101",
+				"11"
+			],
+			"explain": "11 in binary is 3, 101 in binary is 5, 1000 in binary is 8 and 1100 in binary is 12."
+		},
+		{
+			"type": "match",
+			"level": 2,
+			"prompt": "Match each binary number to its value.",
+			"items": [
+				"1",
+				"10",
+				"11",
+				"100"
+			],
+			"matches": [
+				"four",
+				"one",
+				"two",
+				"three"
+			],
+			"answer": [
+				1,
+				2,
+				3,
+				0
+			],
+			"hint": "The places are worth 4, 2 and 1 from the left.",
+			"explain": "1 is one, 10 is two (a 2 and no 1), 11 is three (2 + 1) and 100 is four."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "The binary number 111 is seven.",
+			"answer": true,
+			"hint": "Add the three place values: 4, 2 and 1.",
+			"explain": "True: 4 + 2 + 1 = 7."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "What is the biggest number that 4 bits can show?",
+			"answer": "15",
+			"hint": "Put every card face up.",
+			"explain": "1111: 8 + 4 + 2 + 1 = 15."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What number is this byte?",
+			"answer": "202",
+			"hint": "Add the place values of the 1s: 128, 64, 32, 16, 8, 4, 2, 1.",
+			"explain": "The 1s are under 128, 64, 8 and 2: 128 + 64 + 8 + 2 = 202.",
+			"picture": {
+				"kind": "bit_cards",
+				"bits": "11001010"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which is 100 in binary?",
+			"answer": 0,
+			"hint": "Take 64 first, then see what is left: which cards make it?",
+			"choices": [
+				"1100100",
+				"1010100",
+				"1100010",
+				"0100100"
+			],
+			"explain": "100 is 64 + 32 + 4, so 100 is 1100100 in binary."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "How many different numbers can a byte show, counting 0?",
+			"answer": "256",
+			"hint": "A byte shows 0 up to 11111111. What is that biggest number?",
+			"explain": "The biggest is 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255, and 0 to 255 is 256 numbers."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Putting a 0 on the right end of a binary number doubles it.",
+			"answer": true,
+			"hint": "Try it: what is 101, and what is 1010?",
+			"explain": "True: 101 is 5 and 1010 is 10. Every 1 moves up a place, worth double."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "What number is this byte?",
+			"answer": "45",
+			"hint": "Add the place values of the 1s.",
+			"explain": "The 1s are under 32, 8, 4 and 1: 32 + 8 + 4 + 1 = 45.",
+			"picture": {
+				"kind": "bit_cards",
+				"bits": "00101101"
+			}
+		}
+	],
+	"generators": [
+		{
+			"gen": "g6c.binary_value",
+			"level": 1
+		},
+		{
+			"gen": "g6c.binary_value",
+			"level": 2
+		},
+		{
+			"gen": "g6c.binary_value",
+			"level": 3
+		},
+		{
+			"gen": "g6c.to_binary",
+			"level": 1
+		},
+		{
+			"gen": "g6c.to_binary",
+			"level": 2
+		},
+		{
+			"gen": "g6c.to_binary",
+			"level": 3
+		}
+	]
+}

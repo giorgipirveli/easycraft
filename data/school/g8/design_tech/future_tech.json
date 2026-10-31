@@ -1,0 +1,432 @@
+{
+	"id": "g8.design_tech.future_tech",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 7 you met 3D printers. What is additive manufacturing? (Making something by adding material, layer by layer.) Today: emerging technologies, their effects, and designing responsibly."
+		},
+		{
+			"text": "Emerging technologies are changing products: artificial intelligence, robots and drones, 3D-printed buildings and better batteries. The internet of things links everyday objects so they share data over the internet."
+		},
+		{
+			"text": "Self-driving cars are described in levels, from 0 (no help) to 5 (drives itself anywhere). At level 2 the car steers and controls its speed, but the driver must watch the road all the time.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"level",
+						"the car…"
+					],
+					[
+						"0",
+						"gives no help"
+					],
+					[
+						"1",
+						"speed or steering"
+					],
+					[
+						"2",
+						"both; you watch"
+					],
+					[
+						"3",
+						"drives; you take over"
+					],
+					[
+						"4",
+						"drives in set areas"
+					],
+					[
+						"5",
+						"drives anywhere"
+					]
+				]
+			}
+		},
+		{
+			"text": "Every technology has effects. Social: people's lives and jobs. Environmental: energy, materials and waste. Economic: money and work. Ethical: what is right and fair, like privacy and safety.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"effect",
+						"for example"
+					],
+					[
+						"social",
+						"safer roads"
+					],
+					[
+						"environmental",
+						"e-waste"
+					],
+					[
+						"economic",
+						"new jobs"
+					],
+					[
+						"ethical",
+						"privacy"
+					]
+				]
+			}
+		},
+		{
+			"text": "Smart devices use power even on standby. A 2 W device left on all day uses 2 × 24 = 48 watt-hours. A home full of them adds up over a year."
+		},
+		{
+			"text": "Weigh the effects before deciding. Delivery drones could be faster and mean fewer vans, but bring noise, privacy and safety worries. Here the 'against' side is heavier, for now.",
+			"picture": {
+				"kind": "balance_scale",
+				"left": [
+					"faster deliveries",
+					"fewer vans on roads"
+				],
+				"right": [
+					"noise overhead",
+					"cameras and privacy",
+					"crashes and safety"
+				],
+				"left_name": "for",
+				"right_name": "against",
+				"title": "Delivery drones?"
+			}
+		},
+		{
+			"text": "Responsible design asks who benefits, and who could be harmed. How much energy and material does it use? What happens at the end of its life, and can everyone use it? Involve users early."
+		},
+		{
+			"text": "Try it in the world: pick one new technology and weigh its effects with a friend. In LIFE, Success Stories tells how real people tested ideas and used numbers to show the truth. Next: in Projects, an invention expo."
+		}
+	],
+	"exercises": [
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each technology to what it does.",
+			"items": [
+				"artificial intelligence",
+				"internet of things",
+				"3D printing",
+				"drone"
+			],
+			"matches": [
+				"objects share data online",
+				"builds layer by layer",
+				"flies without a pilot on board",
+				"learns patterns from data"
+			],
+			"answer": [
+				3,
+				0,
+				1,
+				2
+			],
+			"hint": "Think of each technology in action.",
+			"explain": "AI learns patterns; the internet of things connects objects; 3D printing adds layers; a drone flies itself or is flown remotely."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "A social or an environmental effect?",
+			"groups": [
+				"social",
+				"environmental"
+			],
+			"items": [
+				"people talk to family far away",
+				"data centres use lots of electricity",
+				"old devices become e-waste",
+				"better batteries store solar power",
+				"robots take on dangerous jobs"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				1,
+				0
+			],
+			"hint": "Is it about people's lives, or about energy, materials and waste?",
+			"explain": "Social: talking to family, robots doing dangerous jobs. Environmental: e-waste, electricity, solar storage."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is the internet of things?",
+			"choices": [
+				"everyday objects that share data online",
+				"a website about things",
+				"a robot factory",
+				"a kind of battery"
+			],
+			"answer": 0,
+			"hint": "Think of a fridge, a doorbell or a heater that is 'smart'.",
+			"explain": "Smart fridges, doorbells and heating are everyday objects connected so they can share data."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "A device uses 1 W on standby. How many watt-hours does it use in 24 hours?",
+			"answer": "24",
+			"hint": "Watt-hours = watts × hours.",
+			"explain": "1 × 24 = 24 watt-hours."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "At level 5, a car can drive itself anywhere.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"level",
+						"the car…"
+					],
+					[
+						"0",
+						"gives no help"
+					],
+					[
+						"1",
+						"speed or steering"
+					],
+					[
+						"2",
+						"both; you watch"
+					],
+					[
+						"3",
+						"drives; you take over"
+					],
+					[
+						"4",
+						"drives in set areas"
+					],
+					[
+						"5",
+						"drives anywhere"
+					]
+				]
+			},
+			"answer": true,
+			"hint": "Look at the top row of the levels table.",
+			"explain": "True: level 5 is full automation, anywhere and in any conditions."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Old phones becoming e-waste is which kind of effect?",
+			"choices": [
+				"environmental",
+				"social",
+				"economic",
+				"ethical"
+			],
+			"answer": 0,
+			"hint": "Is it about people, money, right and wrong, or materials and waste?",
+			"explain": "Waste and materials are an environmental effect."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put these cars in order, from least to most automated.",
+			"items": [
+				"gives no help at all",
+				"drives itself in set areas",
+				"drives itself anywhere",
+				"helps with speed or steering",
+				"steers and controls speed; you watch"
+			],
+			"answer": [
+				0,
+				3,
+				4,
+				1,
+				2
+			],
+			"hint": "Count up from no help to doing everything everywhere.",
+			"explain": "No help (level 0), one help (1), both with a watcher (2), set areas (4), anywhere (5)."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "On this balance, which side is heavier?",
+			"picture": {
+				"kind": "balance_scale",
+				"left": [
+					"faster deliveries",
+					"fewer vans on roads"
+				],
+				"right": [
+					"noise overhead",
+					"cameras and privacy",
+					"crashes and safety"
+				],
+				"left_name": "for",
+				"right_name": "against",
+				"title": "Delivery drones?"
+			},
+			"choices": [
+				"against: noise, privacy and safety",
+				"for: speed and fewer vans",
+				"they weigh the same",
+				"neither: there are no reasons"
+			],
+			"answer": 0,
+			"hint": "Look at which way the balance tips.",
+			"explain": "The 'against' side has three reasons and tips down, so for now the worries weigh more."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Every new technology has only good effects.",
+			"answer": false,
+			"hint": "Think of the drones' balance.",
+			"explain": "False: technologies bring benefits and harms, which is why designers weigh them."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A device uses 5 W on standby all day, every day. How many kWh is that in a year?",
+			"answer": "43.8",
+			"hint": "Watts × 24 × 365 gives watt-hours; divide by 1,000 for kWh.",
+			"explain": "5 × 24 = 120 Wh a day; 120 × 365 = 43,800 Wh = 43.8 kWh."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "An ethical question, or an economic effect?",
+			"groups": [
+				"ethical",
+				"economic"
+			],
+			"items": [
+				"who is to blame if a robot errs?",
+				"is it fair if an AI picks winners?",
+				"should cameras see faces?",
+				"new jobs designing robots",
+				"products get cheaper to make"
+			],
+			"answer": [
+				0,
+				0,
+				0,
+				1,
+				1
+			],
+			"hint": "Is it about right and wrong, or about money and work?",
+			"explain": "Ethical: blame, cameras, fairness. Economic: new jobs and cheaper products."
+		},
+		{
+			"type": "sort",
+			"level": 3,
+			"prompt": "Social, environmental or economic?",
+			"groups": [
+				"social",
+				"environmental",
+				"economic"
+			],
+			"items": [
+				"people work from home",
+				"some jobs disappear",
+				"mining metals for batteries",
+				"new businesses start",
+				"fewer road accidents",
+				"less fuel burned by vans"
+			],
+			"answer": [
+				0,
+				2,
+				1,
+				2,
+				0,
+				1
+			],
+			"hint": "People's lives, the planet, or money and work?",
+			"explain": "Social: safer roads, working from home. Environmental: mining, less fuel. Economic: jobs and businesses."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A smart speaker is designed for children. Which choice is the most responsible?",
+			"choices": [
+				"it only listens after a button is pressed",
+				"it records everything all day",
+				"it shares voices with adverts",
+				"it has no parent settings"
+			],
+			"answer": 0,
+			"hint": "Who could be harmed, and how can the design protect them?",
+			"explain": "Listening only after a press protects children's privacy: responsible design thinks about harm first."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A smart home has 10 devices, each using 3 W on standby all day. How many kWh a year is that?",
+			"answer": "262.8",
+			"hint": "Find the watts in all, then × 24 × 365 ÷ 1,000.",
+			"explain": "10 × 3 = 30 W; 30 × 24 = 720 Wh a day; 720 × 365 = 262,800 Wh = 262.8 kWh."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "At level 3, the driver can go to sleep.",
+			"answer": false,
+			"hint": "What must a level 3 driver be ready to do?",
+			"explain": "False: at level 3 the driver must be ready to take over whenever the car asks."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Who should be involved early when designing a new product?",
+			"choices": [
+				"the people who will use it",
+				"only the boss",
+				"nobody until it is sold",
+				"only the engineers"
+			],
+			"answer": 0,
+			"hint": "Responsible design involves someone.",
+			"explain": "Involving users early finds problems and needs before the product is made."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g8l.impact_kind",
+			"level": 1
+		},
+		{
+			"gen": "g8l.impact_kind",
+			"level": 2
+		},
+		{
+			"gen": "g8l.impact_kind",
+			"level": 3
+		},
+		{
+			"gen": "g8l.standby_energy",
+			"level": 1
+		},
+		{
+			"gen": "g8l.standby_energy",
+			"level": 2
+		},
+		{
+			"gen": "g8l.standby_energy",
+			"level": 3
+		},
+		{
+			"gen": "g8l.automation_level",
+			"level": 1
+		},
+		{
+			"gen": "g8l.automation_level",
+			"level": 2
+		},
+		{
+			"gen": "g8l.automation_level",
+			"level": 3
+		}
+	]
+}

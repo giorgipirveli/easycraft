@@ -1,0 +1,370 @@
+{
+	"id": "g7.design_tech.smart_textiles",
+	"lesson": [
+		{
+			"text": "Quick memory: in grade 5 you learnt how fabric is made. What are the two sets of threads in weaving called? (The warp and the weft.) Today: fabrics made to do a job: waterproof, reflective and smart."
+		},
+		{
+			"text": "Fibres are spun into yarns, then woven, knitted or pressed into fabric. Natural fibres come from plants and animals (cotton, wool, silk); synthetic ones are made from oil (polyester, nylon, elastane). Blends mix them.",
+			"picture": {
+				"kind": "weave",
+				"rows": [
+					"ouou",
+					"uouo",
+					"ouou",
+					"uouo"
+				],
+				"numbers": true
+			}
+		},
+		{
+			"text": "Technical textiles are made for how they perform, not just how they look: waterproof, fire-resistant, cut-resistant, warm, stretchy, or strong enough to hold soil on a road bank."
+		},
+		{
+			"text": "A breathable waterproof jacket has a membrane full of tiny holes: far smaller than a raindrop, but far bigger than water vapour. Rain stays out, and vapour from a warm body escapes. The seams are taped to keep rain out.",
+			"picture": {
+				"kind": "fabric_section",
+				"type": "breathable",
+				"labels": true
+			}
+		},
+		{
+			"text": "Be seen: fluorescent colours glow brightly in daylight; reflective strips work at night. Their tiny glass beads send a headlight's light straight back towards the driver, so a cyclist shines in the dark.",
+			"picture": {
+				"kind": "fabric_section",
+				"type": "reflective",
+				"labels": true
+			}
+		},
+		{
+			"text": "Smart textiles sense or react. Thermochromic dyes change colour with heat; e-textiles are sewn with conductive thread that carries electricity to LEDs and sensors; some shirts measure your heart rate.",
+			"picture": {
+				"kind": "fabric_section",
+				"type": "smart",
+				"labels": true
+			}
+		},
+		{
+			"text": "Worked example: a cycling jacket for winter. The user must stay dry, warm and seen. Choose a waterproof breathable outer, a fleece lining that traps warm air, fluorescent yellow, and reflective strips on the arms and back."
+		},
+		{
+			"text": "Try it in the world: design a jacket for your avatar with reflective strips. In LIFE, Safe Streets teaches how to be seen when you cross at night. Shine a torch at a reflective strip from beside your eyes. Next: food of the world."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "Which fibre comes from sheep?",
+			"choices": [
+				"wool",
+				"polyester",
+				"nylon",
+				"cotton"
+			],
+			"answer": 0,
+			"hint": "Which one is an animal's coat?",
+			"explain": "Wool comes from sheep's fleece."
+		},
+		{
+			"type": "sort",
+			"level": 1,
+			"prompt": "Sort them: best in daylight, or best in headlights at night?",
+			"groups": [
+				"shows up in daylight",
+				"shines in headlights"
+			],
+			"items": [
+				"a reflective strip",
+				"a neon pink bag",
+				"a glass-bead armband",
+				"a fluorescent yellow top",
+				"a bright orange cap"
+			],
+			"answer": [
+				1,
+				0,
+				1,
+				0,
+				0
+			],
+			"hint": "Does it glow in sunlight, or send back light shone on it?",
+			"explain": "Daylight: fluorescent yellow, bright orange, neon pink. Headlights: the reflective strip and armband."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "A reflective strip makes its own light.",
+			"answer": false,
+			"hint": "Where does the light that comes back start?",
+			"explain": "False: it sends back light from a headlight or a torch."
+		},
+		{
+			"type": "match",
+			"level": 1,
+			"prompt": "Match each fabric to its job.",
+			"items": [
+				"membrane",
+				"fleece",
+				"elastane",
+				"conductive thread"
+			],
+			"matches": [
+				"stretches and springs back",
+				"traps warm air",
+				"keeps rain out, lets vapour out",
+				"carries electricity"
+			],
+			"answer": [
+				2,
+				1,
+				0,
+				3
+			],
+			"hint": "What must each one do for the person?",
+			"explain": "Membrane: dry but breathable. Fleece: warm. Elastane: stretch. Conductive thread: electricity."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is a technical textile?",
+			"choices": [
+				"a fabric made to do a job well",
+				"any fabric with a pattern",
+				"a fabric for a computer",
+				"a fabric made by hand"
+			],
+			"answer": 0,
+			"hint": "Think about performance, not looks.",
+			"explain": "A technical textile is made for how it performs: waterproof, fire-resistant, stretchy and so on."
+		},
+		{
+			"type": "label",
+			"level": 2,
+			"prompt": "Label the breathable fabric: tap a word, then its number.",
+			"spots": [
+				[
+					0.2652,
+					0.09,
+					0.2652,
+					0.2336
+				],
+				[
+					0.3844,
+					0.09,
+					0.3122,
+					0.4645
+				],
+				[
+					0.3122,
+					0.91,
+					0.3122,
+					0.5533
+				],
+				[
+					0.4314,
+					0.91,
+					0.3122,
+					0.6421
+				],
+				[
+					0.8099,
+					0.09,
+					0.8099,
+					0.2869
+				]
+			],
+			"labels": [
+				"lining",
+				"water vapour",
+				"membrane",
+				"rain",
+				"outer fabric"
+			],
+			"answer": [
+				3,
+				4,
+				2,
+				0,
+				1
+			],
+			"hint": "From the outside in, then what escapes from the warm body.",
+			"explain": "Rain outside; then the outer fabric, the membrane and the lining; water vapour escapes up through them.",
+			"picture": {
+				"kind": "fabric_section",
+				"type": "breathable"
+			}
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "A T-shirt turns from blue to pink when you hold your warm hand on it. What kind of textile is it?",
+			"choices": [
+				"a smart textile with thermochromic dye",
+				"a waterproof fabric",
+				"a reflective fabric",
+				"an ordinary cotton T-shirt"
+			],
+			"answer": 0,
+			"hint": "It reacts to heat. Which kind of textile reacts?",
+			"explain": "A smart textile: thermochromic dye changes colour with heat."
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put fabric making in order.",
+			"items": [
+				"weave or knit the yarn",
+				"spin the fibres into yarn",
+				"cut and sew the product",
+				"grow or make the fibres",
+				"dye or coat the fabric"
+			],
+			"answer": [
+				3,
+				1,
+				0,
+				4,
+				2
+			],
+			"hint": "From fibre to yarn to fabric to product.",
+			"explain": "Fibres, spinning, weaving or knitting, dyeing or coating, then cutting and sewing."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "Reflective strips: 2 on the arms, 35 cm each, and 2 round the back, 55 cm each. How many cm of strip in all?",
+			"answer": "180",
+			"hint": "Find each pair, then add them.",
+			"explain": "2 × 35 = 70 and 2 × 55 = 110; 70 + 110 = 180 cm."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "Fluorescent colours work best in daylight; reflective strips work best in headlights at night.",
+			"answer": true,
+			"hint": "Which one needs a light shone on it?",
+			"explain": "True: fluorescent glows by day, reflective shines back at night."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Smart or technical textile?",
+			"groups": [
+				"smart",
+				"technical"
+			],
+			"items": [
+				"a heart-rate shirt",
+				"fire-resistant gloves",
+				"a waterproof coat",
+				"a colour-changing T-shirt",
+				"a jacket with flashing LEDs"
+			],
+			"answer": [
+				0,
+				1,
+				1,
+				0,
+				0
+			],
+			"hint": "Does it sense or react, or just do a hard job well?",
+			"explain": "Smart: LEDs, heart-rate shirt, colour-changing. Technical: fire-resistant gloves, waterproof coat."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Design a winter cycling jacket. Which mix is best?",
+			"choices": [
+				"waterproof, warm lining, bright and reflective",
+				"thin cotton in dark blue",
+				"a thick wool coat with no strips",
+				"a see-through raincoat"
+			],
+			"answer": 0,
+			"hint": "Check each against the needs: dry, warm and seen, day and night.",
+			"explain": "Waterproof and breathable, a warm lining, fluorescent for day and reflective for night."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "A school buys 30 reflective vests at 4 gold each and 30 armbands at 1.5 gold each. How many gold in all?",
+			"answer": "165",
+			"hint": "Find each total, then add.",
+			"explain": "30 × 4 = 120 and 30 × 1.5 = 45; 120 + 45 = 165 gold."
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "Conductive thread can carry electricity to an LED sewn into a jacket.",
+			"answer": true,
+			"hint": "What is special about 'conductive' thread?",
+			"explain": "True: it conducts, so it can join a battery, a switch and LEDs."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A firefighter's suit uses aramid fibres. What property matters most?",
+			"choices": [
+				"it resists heat and flames",
+				"it stretches a lot",
+				"it is shiny",
+				"it is very cheap"
+			],
+			"answer": 0,
+			"hint": "Think about the firefighter's job.",
+			"explain": "Aramid fibres resist heat and flames, protecting the firefighter."
+		},
+		{
+			"type": "match",
+			"level": 3,
+			"prompt": "Match each smart textile to what it does.",
+			"items": [
+				"thermochromic",
+				"photochromic",
+				"e-textile",
+				"phase-change fabric"
+			],
+			"matches": [
+				"changes colour with heat",
+				"stores and releases heat",
+				"changes colour in sunlight",
+				"has circuits sewn in"
+			],
+			"answer": [
+				0,
+				2,
+				3,
+				1
+			],
+			"hint": "'Thermo' is heat, 'photo' is light, 'e' is electric.",
+			"explain": "Thermochromic: heat. Photochromic: sunlight. E-textile: circuits. Phase-change: stores and releases heat."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g7w.fabric_for",
+			"level": 1
+		},
+		{
+			"gen": "g7w.fabric_for",
+			"level": 2
+		},
+		{
+			"gen": "g7w.fabric_for",
+			"level": 3
+		},
+		{
+			"gen": "g7w.fibre_kind",
+			"level": 1
+		},
+		{
+			"gen": "g7w.fibre_kind",
+			"level": 2
+		},
+		{
+			"gen": "g7w.fibre_kind",
+			"level": 3
+		}
+	]
+}

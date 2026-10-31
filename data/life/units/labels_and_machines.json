@@ -1,0 +1,24 @@
+{
+	"id": "life.home.labels_and_machines",
+	"lesson": [
+		{"text": "Quick memory: how often do you test a smoke alarm? (Once a month.) Today: care labels, the machines and batteries."},
+		{"text": "Care labels: a tub is washing, and its number is the hottest wash in degrees; a hand in the tub is hand wash; a triangle is bleach; a square is drying; an iron is ironing. A cross means no."},
+		{"text": "The washing machine: sort, load, close the door, a grown-up adds the powder and chooses the programme, then start. Never climb in."},
+		{"text": "The dishwasher: plates in the bottom rack, cups upside down on top, and sharp knives point down in the basket."},
+		{"text": "Batteries never go in the bins: a battery box at a shop. A smoke alarm that chirps needs a new battery from a grown-up: never take it out."},
+		{"text": "Try it in the world: open the practice house, on the Big track."}
+	],
+	"exercises": [
+		{"type": "choice", "level": 1, "prompt": "A tub with 30 on a label means...", "answer": 0, "choices": ["wash at 30 degrees at most", "wash for 30 minutes", "wash 30 times"], "hint": "The number is a temperature.", "explain": "30 degrees at most."},
+		{"type": "truefalse", "level": 1, "prompt": "Sharp knives go in the dishwasher point down.", "answer": true, "hint": "Think of a hand reaching in.", "explain": "True."},
+		{"type": "choice", "level": 1, "prompt": "An old battery goes...", "answer": 0, "choices": ["to a battery box", "in the food bin", "in the paper bin"], "hint": "Never in these bins.", "explain": "A battery box."},
+		{"type": "choice", "level": 2, "prompt": "A hand in the tub means...", "answer": 0, "choices": ["hand wash", "machine wash hot", "don't touch"], "hint": "A hand washes.", "explain": "Hand wash."},
+		{"type": "sort", "level": 2, "prompt": "Which symbol is which?", "groups": ["washing", "drying", "ironing"], "items": ["a tub", "a square with a circle", "an iron with dots", "a tub with a hand"], "answer": [0, 1, 2, 0], "hint": "Tub, square, iron.", "explain": "Tubs wash, the square dries, the iron irons."},
+		{"type": "truefalse", "level": 2, "prompt": "You may take a smoke alarm's battery out if it chirps.", "answer": false, "hint": "A grown-up changes it.", "explain": "False: a grown-up puts a new one in."},
+		{"type": "order", "level": 2, "prompt": "The washing machine: put it in order.", "answer": [2, 0, 1], "items": ["close the door", "a grown-up chooses the programme", "load the drum"], "hint": "Load first.", "explain": "Load, close, the programme, then start."},
+		{"type": "choice", "level": 3, "prompt": "A crossed-out square with a circle means...", "answer": 0, "choices": ["don't tumble dry", "dry it hot", "iron it"], "hint": "The cross means no.", "explain": "Don't tumble dry."},
+		{"type": "choice", "level": 3, "prompt": "Away for a week, the plants need...", "answer": 0, "choices": ["a neighbour to water them", "one huge drink", "nothing"], "hint": "Too much at once rots roots.", "explain": "A neighbour, or trays of water."},
+		{"type": "truefalse", "level": 3, "prompt": "Cups go upside down on the dishwasher's top rack.", "answer": true, "hint": "So water doesn't sit in them.", "explain": "True."},
+		{"type": "choice", "level": 3, "prompt": "Batteries in bins can...", "answer": 0, "choices": ["start fires in bin lorries", "make the bins clean", "turn into paper"], "hint": "Think of sparks.", "explain": "Start fires."}
+	]
+}

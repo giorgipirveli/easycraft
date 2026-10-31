@@ -1,0 +1,338 @@
+{
+	"id": "g5.projects.fair_with_budget",
+	"lesson": [
+		{
+			"text": "Quick memory: 4 apples cost 2 gold. What is the price for one? (0.50 gold.) In this project you plan a village fair with a budget in gold."
+		},
+		{
+			"text": "Step 1, plan: choose a date, a place and the stalls, like hoopla, a bean bag throw, a plant stall and lemonade. List every job, and who will do it."
+		},
+		{
+			"text": "Step 2, the budget: the gold you have to spend. List every cost and add them up. With a budget of 200 gold and costs of 135 gold, 200 − 135 = 65 gold is left for anything you forgot.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"cost",
+						"gold"
+					],
+					[
+						"prizes",
+						"60"
+					],
+					[
+						"bunting",
+						"45"
+					],
+					[
+						"posters",
+						"30"
+					],
+					[
+						"total",
+						"135"
+					]
+				]
+			}
+		},
+		{
+			"text": "Step 3, prices: income is the gold that comes in; profit is the income less the costs. 50 tickets at 2 gold each bring 50 × 2 = 100 gold. With 40 gold of costs, 100 − 40 = 60 gold is profit.",
+			"picture": {
+				"kind": "bar_model",
+				"bars": [
+					{
+						"name": "income",
+						"parts": [
+							{
+								"text": "costs 40",
+								"size": 40
+							},
+							{
+								"text": "profit 60",
+								"size": 60
+							}
+						],
+						"total": "100 gold"
+					}
+				]
+			}
+		},
+		{
+			"text": "Discounts: per cent means out of 100. 50% off is half price, 25% off takes a quarter away and 10% off takes a tenth away. 10% of 30 gold is 3 gold, and 30 − 3 = 27 gold."
+		},
+		{
+			"text": "Step 4, posters: give a big, clear title, the date, time and place, and a picture. Add a few persuasive words, like 'Fun for all the family!' Use large letters and bright colours that stand out from far away."
+		},
+		{
+			"text": "Keep it fair and kind: prices everyone can afford, a prize for having a go, a quiet area, and a plan for litter. Afterwards, count the gold, compare it with the budget, and ask: what would we do differently?"
+		},
+		{
+			"text": "Try it in the world: build your village fair with stalls, bunting and a poster board, and set a price in gold for each game. Then invite friends, and keep a tally of the gold."
+		}
+	],
+	"exercises": [
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What is profit?",
+			"answer": 0,
+			"hint": "Think about what is left at the end.",
+			"choices": [
+				"the gold left after paying the costs",
+				"all the gold that comes in",
+				"the gold you spend",
+				"a kind of stall"
+			],
+			"explain": "Profit is the income less the costs: the gold left over."
+		},
+		{
+			"type": "truefalse",
+			"level": 1,
+			"prompt": "50% off means half price.",
+			"answer": true,
+			"hint": "50 out of 100 is what fraction?",
+			"explain": "True: 50% is a half, so you pay half."
+		},
+		{
+			"type": "number",
+			"level": 1,
+			"prompt": "Hoopla costs 2 gold a go. Zara has 3 goes. How much does she pay, in gold?",
+			"answer": "6",
+			"hint": "The same price for every go: multiply.",
+			"explain": "3 × 2 = 6 gold."
+		},
+		{
+			"type": "choice",
+			"level": 1,
+			"prompt": "What should a fair poster show?",
+			"answer": 0,
+			"hint": "What does someone need to know to come to the fair?",
+			"choices": [
+				"the date, time and place",
+				"a long story",
+				"tiny writing",
+				"nothing at all"
+			],
+			"explain": "The date, time and place, in big, clear letters, with a picture."
+		},
+		{
+			"type": "number",
+			"level": 2,
+			"prompt": "A 20 gold kite has 25% off. What is the new price, in gold?",
+			"answer": "15",
+			"hint": "25% is a quarter. Take a quarter away.",
+			"explain": "A quarter of 20 is 5, and 20 − 5 = 15 gold."
+		},
+		{
+			"type": "choice",
+			"level": 2,
+			"prompt": "Bram buys 1 lemonade and has 2 goes at the bean bag throw. How much does he spend?",
+			"answer": 0,
+			"hint": "Find each price in the table, then add them.",
+			"choices": [
+				"3.50 gold",
+				"2 gold",
+				"4 gold",
+				"2.50 gold"
+			],
+			"explain": "0.50 + 1.50 + 1.50 = 3.50 gold.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"stall",
+						"price"
+					],
+					[
+						"hoopla",
+						"2 gold a go"
+					],
+					[
+						"bean bag throw",
+						"1.50 gold a go"
+					],
+					[
+						"lemonade",
+						"0.50 gold"
+					]
+				]
+			}
+		},
+		{
+			"type": "order",
+			"level": 2,
+			"prompt": "Put planning the fair in order.",
+			"answer": [
+				2,
+				0,
+				3,
+				1,
+				4
+			],
+			"hint": "You need a plan before you can spend.",
+			"items": [
+				"work out the budget",
+				"run the fair",
+				"choose the stalls",
+				"make and put up posters",
+				"count the gold and review"
+			],
+			"explain": "Choose the stalls, work out the budget, make posters, run the fair, then count the gold and review."
+		},
+		{
+			"type": "sort",
+			"level": 2,
+			"prompt": "Cost or income?",
+			"groups": [
+				"cost",
+				"income"
+			],
+			"items": [
+				"buying prizes",
+				"selling tickets",
+				"printing posters",
+				"selling lemonade",
+				"paying for bunting",
+				"gold from hoopla games"
+			],
+			"answer": [
+				0,
+				1,
+				0,
+				1,
+				0,
+				1
+			],
+			"hint": "Does the gold go out, or come in?",
+			"explain": "Costs: prizes, posters, bunting. Income: tickets, lemonade, hoopla."
+		},
+		{
+			"type": "truefalse",
+			"level": 2,
+			"prompt": "If the costs are more than the income, the fair makes a profit.",
+			"answer": false,
+			"hint": "What happens when you spend more than comes in?",
+			"explain": "False: that is a loss. A profit needs income bigger than costs."
+		},
+		{
+			"type": "build",
+			"level": 2,
+			"prompt": "The fair's field is a rectangle with an area of 20 squares and a perimeter of 18. Build it.",
+			"board": {
+				"cols": 10,
+				"rows": 7,
+				"block": 1,
+				"given": [],
+				"view": "farm"
+			},
+			"goal": {
+				"kind": "rectangle",
+				"area": 20,
+				"perimeter": 18
+			},
+			"hint": "Which two numbers multiply to 20 and add up to 9?",
+			"explain": "5 by 4: 5 × 4 = 20 squares, and 5 + 4 + 5 + 4 = 18."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The fair sold 40 tickets at 2.50 gold each, and it cost 65 gold to put on. What was the profit, in gold?",
+			"answer": "35",
+			"hint": "Work out the income first, then take away the costs.",
+			"explain": "40 × 2.50 = 100 gold in, and 100 − 65 = 35 gold profit."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "A 12 gold toy has 10% off. What is the new price?",
+			"answer": 0,
+			"hint": "10% is a tenth. What is a tenth of 12?",
+			"choices": [
+				"10.80 gold",
+				"2 gold",
+				"11 gold",
+				"10 gold"
+			],
+			"explain": "A tenth of 12 is 1.20, and 12 − 1.20 = 10.80 gold."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which price plan is fairest for a village fair?",
+			"answer": 0,
+			"hint": "Who should be able to join in?",
+			"choices": [
+				"low prices, so everyone can have a go",
+				"very high prices",
+				"prices that change every hour",
+				"a secret price for each person"
+			],
+			"explain": "Low prices, so every family can afford a go."
+		},
+		{
+			"type": "number",
+			"level": 3,
+			"prompt": "The budget is 150 gold. How much is left after the costs in the table, in gold?",
+			"answer": "40",
+			"hint": "Add up the costs, then take the total from the budget.",
+			"explain": "55 + 35 + 20 = 110, and 150 − 110 = 40 gold left.",
+			"picture": {
+				"kind": "table",
+				"rows": [
+					[
+						"cost",
+						"gold"
+					],
+					[
+						"prizes",
+						"55"
+					],
+					[
+						"bunting",
+						"35"
+					],
+					[
+						"posters",
+						"20"
+					]
+				]
+			}
+		},
+		{
+			"type": "truefalse",
+			"level": 3,
+			"prompt": "25% is the same as a quarter.",
+			"answer": true,
+			"hint": "How many 25s make 100?",
+			"explain": "True: 4 lots of 25 make 100, so 25% is a quarter."
+		},
+		{
+			"type": "choice",
+			"level": 3,
+			"prompt": "Which words on a poster are persuasive?",
+			"answer": 0,
+			"hint": "Persuasive words make people want to come.",
+			"choices": [
+				"Fun for all the family!",
+				"Saturday, 2 pm",
+				"The village field",
+				"Stalls: 5"
+			],
+			"explain": "'Fun for all the family!' The others are useful facts, but they do not persuade."
+		}
+	],
+	"generators": [
+		{
+			"gen": "g5w.fair_money",
+			"level": 1
+		},
+		{
+			"gen": "g5w.fair_money",
+			"level": 2
+		},
+		{
+			"gen": "g5w.fair_money",
+			"level": 3
+		}
+	]
+}
